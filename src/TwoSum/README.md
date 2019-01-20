@@ -1897,3 +1897,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 449
 
 Stable across duplicates in the input.
+
+## entry 450
+
+Edge case: single-element input → returns the element itself.
