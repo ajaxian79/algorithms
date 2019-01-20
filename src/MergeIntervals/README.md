@@ -1922,3 +1922,7 @@ Cache-friendly; one sequential read pass.
 ## entry 465
 
 Stable when the input is already sorted.
+
+## entry 466
+
+Three passes total; the third merges results.
