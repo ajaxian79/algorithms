@@ -1331,3 +1331,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 333
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 334
+
+Euler tour flattens a tree into an array for range-query LCA.
