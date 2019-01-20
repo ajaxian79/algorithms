@@ -1481,3 +1481,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 354
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 355
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
