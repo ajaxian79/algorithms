@@ -1441,3 +1441,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 343
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 344
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
