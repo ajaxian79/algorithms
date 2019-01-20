@@ -2004,3 +2004,7 @@ Uses a small fixed-size lookup table.
 ## entry 486
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 487
+
+Sub-linear in the average case thanks to early exit.
