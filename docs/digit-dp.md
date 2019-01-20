@@ -1271,3 +1271,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 318
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 319
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
