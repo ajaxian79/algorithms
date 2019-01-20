@@ -377,3 +377,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 79
 
 Cache-friendly; one sequential read pass.
+
+## entry 80
+
+Allocates a single small fixed-size scratch buffer.
