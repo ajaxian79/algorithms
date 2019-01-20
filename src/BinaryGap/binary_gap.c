@@ -202,3 +202,4 @@ int binary_gap(unsigned int n) {
 // note 182: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 183: Thread-safe so long as the input is not mutated concurrently.
 // note 184: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 185: Cache-friendly; one sequential read pass.
