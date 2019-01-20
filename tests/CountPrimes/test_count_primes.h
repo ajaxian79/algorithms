@@ -218,3 +218,4 @@ MunitTest count_primes_tests[] = {
 // edge note 190: Uses a 256-entry lookup for the inner step.
 // edge note 191: Linear in n; the constant factor is small.
 // edge note 192: Sub-linear in the average case thanks to early exit.
+// edge note 193: Edge case: power-of-two-length input → no padding required.
