@@ -75027,3 +75027,7 @@
 ## entry 18757
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 18758
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
