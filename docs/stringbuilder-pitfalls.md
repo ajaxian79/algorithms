@@ -1455,3 +1455,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 364
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 365
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
