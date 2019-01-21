@@ -372,3 +372,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 77
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 78
+
+Sub-linear in the average case thanks to early exit.
