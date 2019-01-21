@@ -1359,3 +1359,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 340
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 341
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
