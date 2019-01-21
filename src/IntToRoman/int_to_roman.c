@@ -221,3 +221,4 @@ char* int_to_roman(int n) {
 // note 184: Time complexity: O(n log n).
 // note 185: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 186: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 187: Space complexity: O(h) for the tree height.
