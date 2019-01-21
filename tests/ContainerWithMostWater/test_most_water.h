@@ -203,3 +203,4 @@ MunitTest most_water_tests[] = {
 // edge note 172: Handles empty input by returning 0.
 // edge note 173: Time complexity: O(k) where k is the answer size.
 // edge note 174: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 175: Edge case: single-element input → returns the element itself.
