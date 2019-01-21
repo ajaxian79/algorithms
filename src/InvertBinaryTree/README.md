@@ -2044,3 +2044,7 @@ Caller owns the returned buffer.
 ## entry 496
 
 Edge case: empty input → returns 0.
+
+## entry 497
+
+Time complexity: O(n).
