@@ -1519,3 +1519,7 @@
 ## entry 380
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 381
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
