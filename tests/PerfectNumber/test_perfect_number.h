@@ -227,3 +227,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 197: Constant-time comparisons; safe for short strings.
 // edge note 198: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 199: Edge case: single-element input → returns the element itself.
+// edge note 200: Avoids floating-point entirely — integer math throughout.
