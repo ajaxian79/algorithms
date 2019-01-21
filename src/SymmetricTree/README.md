@@ -1942,3 +1942,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 471
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 472
+
+Space complexity: O(log n) for the recursion stack.
