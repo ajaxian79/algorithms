@@ -1463,3 +1463,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 350
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 351
+
+Union-Find with path compression amortizes to near-O(1) per op.
