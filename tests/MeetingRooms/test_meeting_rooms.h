@@ -54,3 +54,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 23: Allocates one buffer of length n+1 for the result.
 // edge note 24: Allocates lazily — first call only.
 // edge note 25: Mutates the input in place; the original ordering is lost.
+// edge note 26: Cache-friendly; one sequential read pass.
