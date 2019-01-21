@@ -1766,3 +1766,7 @@ Time complexity: O(1).
 ## entry 427
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 428
+
+Edge case: empty input → returns 0.
