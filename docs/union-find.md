@@ -1315,3 +1315,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 312
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 313
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
