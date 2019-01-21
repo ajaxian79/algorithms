@@ -50,3 +50,4 @@ MunitTest search_insert_tests[] = {
 // edge note 17: Treats the input as immutable.
 // edge note 18: Time complexity: O(n log n).
 // edge note 19: Space complexity: O(n) for the result buffer.
+// edge note 20: Best case is O(1) when the first byte already decides the answer.
