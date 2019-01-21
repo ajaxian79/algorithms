@@ -1891,3 +1891,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 458
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 459
+
+Handles empty input by returning 0.
