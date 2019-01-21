@@ -1918,3 +1918,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 464
 
 Cache-friendly; one sequential read pass.
+
+## entry 465
+
+Stable when the input is already sorted.
