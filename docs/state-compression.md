@@ -1191,3 +1191,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 298
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 299
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
