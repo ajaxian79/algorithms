@@ -1949,3 +1949,7 @@ Time complexity: O(n + m).
 ## entry 472
 
 Runs in a single pass over the input.
+
+## entry 473
+
+Returns a freshly allocated string the caller must free.
