@@ -1515,3 +1515,7 @@
 ## entry 379
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 380
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
