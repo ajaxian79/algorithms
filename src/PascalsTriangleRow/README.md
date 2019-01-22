@@ -2110,3 +2110,7 @@ Uses a small fixed-size lookup table.
 ## entry 513
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 514
+
+Edge case: power-of-two-length input → no padding required.
