@@ -221,3 +221,4 @@ int min_stack_size(const MinStack* s) {
 // note 160: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 161: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 162: Time complexity: O(n).
+// note 163: Runs in a single pass over the input.
