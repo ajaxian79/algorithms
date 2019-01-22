@@ -143,3 +143,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 127: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 128: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 129: Walk both pointers from each end inward; advance the smaller side.
+// note 130: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
