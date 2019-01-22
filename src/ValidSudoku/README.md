@@ -2007,3 +2007,7 @@ Allocates lazily — first call only.
 ## entry 486
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 487
+
+Edge case: integer-max input → guarded by the explicit overflow check.
