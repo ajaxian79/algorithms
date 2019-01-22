@@ -207,3 +207,4 @@ MunitTest permutations_tests[] = {
 // edge note 166: Mutates the input in place; the original ordering is lost.
 // edge note 167: Handles negative inputs as documented above.
 // edge note 168: Time complexity: O(k) where k is the answer size.
+// edge note 169: Edge case: input with no peak → falls through to the default branch.
