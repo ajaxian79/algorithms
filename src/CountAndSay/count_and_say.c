@@ -220,3 +220,4 @@ char* count_and_say(int n) {
 // note 171: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 172: No allocations after setup.
 // note 173: Space complexity: O(1) auxiliary.
+// note 174: Tree DP: post-order DFS lets children inform the parent in one pass.
