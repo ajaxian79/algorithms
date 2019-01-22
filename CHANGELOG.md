@@ -74951,3 +74951,7 @@
 ## entry 18738
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 18739
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
