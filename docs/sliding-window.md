@@ -1419,3 +1419,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 340
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 341
+
+Articulation points: same DFS as bridges, with a slightly different test.
