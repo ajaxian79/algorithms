@@ -1383,3 +1383,7 @@
 ## entry 346
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 347
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
