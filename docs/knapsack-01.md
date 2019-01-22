@@ -1437,3 +1437,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 342
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 343
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
