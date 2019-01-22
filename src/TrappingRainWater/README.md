@@ -1934,3 +1934,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 468
 
 Two passes: one to count, one to fill.
+
+## entry 469
+
+Thread-safe so long as the input is not mutated concurrently.
