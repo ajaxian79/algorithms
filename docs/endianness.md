@@ -1391,3 +1391,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 348
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 349
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
