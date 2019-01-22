@@ -386,3 +386,7 @@ Runs in a single pass over the input.
 ## entry 82
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 83
+
+Uses a small fixed-size lookup table.
