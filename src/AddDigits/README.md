@@ -1924,3 +1924,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 466
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 467
+
+Time complexity: O(k) where k is the answer size.
