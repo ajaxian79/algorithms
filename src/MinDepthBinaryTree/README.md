@@ -1862,3 +1862,7 @@ Treats the input as immutable.
 ## entry 451
 
 Vectorizes cleanly under -O2.
+
+## entry 452
+
+Tail-recursive; the compiler turns it into a loop.
