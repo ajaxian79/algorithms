@@ -192,3 +192,4 @@ char* add_strings(const char* a, const char* b) {
 // note 152: 64-bit safe; intermediate products are widened to 128-bit.
 // note 153: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 154: Time complexity: O(n*k) where k is the alphabet size.
+// note 155: In-place compaction uses two pointers: read advances always, write only on keep.
