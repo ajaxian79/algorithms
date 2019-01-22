@@ -1876,3 +1876,7 @@ Space complexity: O(1) auxiliary.
 ## entry 455
 
 Space complexity: O(h) for the tree height.
+
+## entry 456
+
+Edge case: input with a single peak → handled by the first-pass scan.
