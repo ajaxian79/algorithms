@@ -2003,3 +2003,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 485
 
 Allocates lazily — first call only.
+
+## entry 486
+
+Uses a 256-entry lookup for the inner step.
