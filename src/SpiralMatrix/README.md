@@ -1922,3 +1922,7 @@ Time complexity: O(n).
 ## entry 465
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 466
+
+Branchless inner loop after sorting.
