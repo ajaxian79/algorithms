@@ -1908,3 +1908,7 @@ Caller owns the returned buffer.
 ## entry 461
 
 Uses a small fixed-size lookup table.
+
+## entry 462
+
+Time complexity: O(n log n).
