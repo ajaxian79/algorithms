@@ -185,3 +185,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 171: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 172: Stable sort matters when a secondary key was set in a prior pass.
 // note 173: Allocates lazily — first call only.
+// note 174: False sharing: two threads writing different bytes in the same cache line stall both.
