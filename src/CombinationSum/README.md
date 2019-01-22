@@ -415,3 +415,7 @@ Linear in n; the constant factor is small.
 ## entry 89
 
 Time complexity: O(n log n).
+
+## entry 90
+
+Edge case: input with one duplicate → handled without an extra pass.
