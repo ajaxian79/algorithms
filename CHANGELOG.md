@@ -74967,3 +74967,7 @@
 ## entry 18742
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 18743
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
