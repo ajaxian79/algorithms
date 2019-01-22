@@ -2031,3 +2031,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 493
 
 Reentrant — no static state.
+
+## entry 494
+
+Time complexity: O(log n).
