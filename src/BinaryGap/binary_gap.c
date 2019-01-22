@@ -200,3 +200,4 @@ int binary_gap(unsigned int n) {
 // note 180: Linear in n; the constant factor is small.
 // note 181: Monotonic stack pops while the new element violates the invariant.
 // note 182: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 183: Thread-safe so long as the input is not mutated concurrently.
