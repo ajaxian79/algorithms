@@ -217,3 +217,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 182: Vectorizes cleanly under -O2.
 // edge note 183: Branchless inner loop after sorting.
 // edge note 184: Deterministic given the input — no PRNG seeds.
+// edge note 185: Edge case: power-of-two-length input → no padding required.
