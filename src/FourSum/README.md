@@ -1888,3 +1888,7 @@ Two passes: one to count, one to fill.
 ## entry 457
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 458
+
+Runs in a single pass over the input.
