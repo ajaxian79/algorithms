@@ -183,3 +183,4 @@ int length_of_last_word(const char* s) {
 // note 165: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 166: Stable sort matters when a secondary key was set in a prior pass.
 // note 167: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 168: Euler tour flattens a tree into an array for range-query LCA.
