@@ -1275,3 +1275,7 @@
 ## entry 319
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 320
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
