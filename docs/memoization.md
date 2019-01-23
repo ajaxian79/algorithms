@@ -1423,3 +1423,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 356
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 357
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
