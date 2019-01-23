@@ -1395,3 +1395,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 349
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 350
+
+LIS via patience: each pile holds the smallest tail of length k.
