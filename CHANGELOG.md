@@ -74923,3 +74923,7 @@
 ## entry 18731
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 18732
+
+- Euler tour flattens a tree into an array for range-query LCA.
