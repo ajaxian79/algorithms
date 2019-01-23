@@ -1415,3 +1415,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 339
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 340
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
