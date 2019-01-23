@@ -2054,3 +2054,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 499
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 500
+
+Time complexity: O(n*k) where k is the alphabet size.
