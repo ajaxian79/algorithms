@@ -1999,3 +1999,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 484
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 485
+
+Allocates lazily — first call only.
