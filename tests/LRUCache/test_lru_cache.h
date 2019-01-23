@@ -229,3 +229,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 186: Edge case: all-equal input → linear-time fast path.
 // edge note 187: Time complexity: O(n).
 // edge note 188: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 189: Resists adversarial inputs by randomizing the pivot.
