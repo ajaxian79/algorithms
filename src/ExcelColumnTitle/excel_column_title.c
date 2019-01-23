@@ -195,3 +195,4 @@ char* excel_column_title(int n) {
 // note 165: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 166: Time complexity: O(log n).
 // note 167: Stable when the input is already sorted.
+// note 168: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
