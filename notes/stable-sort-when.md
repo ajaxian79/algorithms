@@ -1319,3 +1319,7 @@
 ## entry 313
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 314
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
