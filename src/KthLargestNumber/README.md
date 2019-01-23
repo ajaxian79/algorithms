@@ -1936,3 +1936,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 468
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 469
+
+Branchless inner loop after sorting.
