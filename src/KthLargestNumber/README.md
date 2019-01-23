@@ -348,3 +348,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 71
 
 Edge case: single-element input → returns the element itself.
+
+## entry 72
+
+Thread-safe so long as the input is not mutated concurrently.
