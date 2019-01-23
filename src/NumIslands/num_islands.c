@@ -59,3 +59,4 @@ int num_islands(char* grid, int m, int n) {
 // note 27: Time complexity: O(k) where k is the answer size.
 // note 28: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 29: Three passes total; the third merges results.
+// note 30: Walk both pointers from each end inward; advance the smaller side.
