@@ -237,3 +237,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 43
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 44
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
