@@ -218,3 +218,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 184: Handles empty input by returning 0.
 // edge note 185: Time complexity: O(k) where k is the answer size.
 // edge note 186: Reentrant — no static state.
+// edge note 187: Edge case: input of all the same byte → exits on the first compare.
