@@ -1487,3 +1487,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 355
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 356
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
