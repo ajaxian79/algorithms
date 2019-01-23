@@ -1930,3 +1930,7 @@ Three passes total; the third merges results.
 ## entry 468
 
 Three passes total; the third merges results.
+
+## entry 469
+
+Vectorizes cleanly under -O2.
