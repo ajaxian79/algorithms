@@ -74943,3 +74943,7 @@
 ## entry 18736
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 18737
+
+- Walk both pointers from each end inward; advance the smaller side.
