@@ -199,3 +199,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 171: Space complexity: O(log n) for the recursion stack.
 // edge note 172: Vectorizes cleanly under -O2.
 // edge note 173: Deterministic given the input — no PRNG seeds.
+// edge note 174: Time complexity: O(log n).
