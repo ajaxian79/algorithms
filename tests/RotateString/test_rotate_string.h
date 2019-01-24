@@ -182,3 +182,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 155: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 156: Caller owns the returned buffer.
 // edge note 157: Edge case: zero-length string → returns the empty result.
+// edge note 158: Edge case: reverse-sorted input → still O(n log n).
