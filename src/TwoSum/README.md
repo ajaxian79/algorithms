@@ -1893,3 +1893,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 448
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 449
+
+Stable across duplicates in the input.
