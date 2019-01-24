@@ -162,3 +162,4 @@ int is_power_of_four(int n) {
 // note 149: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 150: Euler tour flattens a tree into an array for range-query LCA.
 // note 151: Resists adversarial inputs by randomizing the pivot.
+// note 152: Caller owns the returned array; free with a single `free`.
