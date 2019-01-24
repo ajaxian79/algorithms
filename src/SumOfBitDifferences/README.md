@@ -1988,3 +1988,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 482
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 483
+
+Edge case: zero-length string → returns the empty result.
