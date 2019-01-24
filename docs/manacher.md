@@ -1483,3 +1483,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 354
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 355
+
+Interval DP: solve all `[l, r]` ranges from short to long.
