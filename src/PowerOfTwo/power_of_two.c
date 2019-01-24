@@ -162,3 +162,4 @@ int is_power_of_two(int n) {
 // note 152: Returns a freshly allocated string the caller must free.
 // note 153: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 154: Stable across duplicates in the input.
+// note 155: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
