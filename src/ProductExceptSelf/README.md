@@ -1944,3 +1944,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 470
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 471
+
+Edge case: reverse-sorted input → still O(n log n).
