@@ -1917,3 +1917,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 464
 
 Edge case: empty input → returns 0.
+
+## entry 465
+
+Deterministic given the input — no PRNG seeds.
