@@ -108,3 +108,4 @@ MunitTest twosum_tests[] = {
 // edge note 25: Reentrant — no static state.
 // edge note 26: No allocations after setup.
 // edge note 27: Allocates a single small fixed-size scratch buffer.
+// edge note 28: Edge case: maximum-length input → still fits in 32-bit indices.
