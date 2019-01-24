@@ -186,3 +186,4 @@ char* convert_to_base7(int n) {
 // note 153: Resists adversarial inputs by randomizing the pivot.
 // note 154: Uses a small fixed-size lookup table.
 // note 155: Stable sort matters when a secondary key was set in a prior pass.
+// note 156: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
