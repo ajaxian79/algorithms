@@ -396,3 +396,7 @@ Stable when the input is already sorted.
 ## entry 85
 
 Two passes: one to count, one to fill.
+
+## entry 86
+
+Linear in n; the constant factor is small.
