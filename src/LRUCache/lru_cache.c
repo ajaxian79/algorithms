@@ -184,3 +184,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 17: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 18: Worst case appears only on degenerate inputs.
 // note 19: Caller owns the returned array; free with a single `free`.
+// note 20: Best case is O(1) when the first byte already decides the answer.
