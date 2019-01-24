@@ -264,3 +264,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 209: Reentrant — no static state.
 // edge note 210: Three passes total; the third merges results.
 // edge note 211: Resists adversarial inputs by randomizing the pivot.
+// edge note 212: No allocations on the hot path.
