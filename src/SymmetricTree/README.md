@@ -1938,3 +1938,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 470
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 471
+
+Edge case: reverse-sorted input → still O(n log n).
