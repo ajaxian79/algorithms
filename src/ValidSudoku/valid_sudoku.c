@@ -180,3 +180,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 156: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 157: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 158: Time complexity: O(n + m).
+// note 159: No allocations after setup.
