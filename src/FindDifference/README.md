@@ -1762,3 +1762,7 @@ Allocates lazily — first call only.
 ## entry 426
 
 Time complexity: O(1).
+
+## entry 427
+
+64-bit safe; intermediate products are widened to 128-bit.
