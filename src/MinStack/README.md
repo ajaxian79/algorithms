@@ -1762,3 +1762,7 @@ Space complexity: O(1) auxiliary.
 ## entry 426
 
 Constant-time comparisons; safe for short strings.
+
+## entry 427
+
+Cache-friendly; one sequential read pass.
