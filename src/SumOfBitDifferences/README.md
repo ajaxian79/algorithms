@@ -1984,3 +1984,7 @@ Stable when the input is already sorted.
 ## entry 481
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 482
+
+Edge case: integer-max input → guarded by the explicit overflow check.
