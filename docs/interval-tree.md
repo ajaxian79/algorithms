@@ -159,3 +159,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 40
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 41
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
