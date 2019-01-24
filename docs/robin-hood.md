@@ -1331,3 +1331,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 333
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 334
+
+Merge intervals: sort by start; extend the running interval while overlapping.
