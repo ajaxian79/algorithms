@@ -1327,3 +1327,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 332
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 333
+
+Rope: tree of small string fragments; O(log n) concat and substring.
