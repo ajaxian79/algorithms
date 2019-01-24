@@ -252,3 +252,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 192: 32-bit safe; overflow is checked at each step.
 // edge note 193: Allocates one buffer of length n+1 for the result.
 // edge note 194: Mutates the input in place; the original ordering is lost.
+// edge note 195: Edge case: integer-min input → guarded by the explicit underflow check.
