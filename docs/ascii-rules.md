@@ -1375,3 +1375,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 344
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 345
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
