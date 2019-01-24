@@ -74903,3 +74903,7 @@
 ## entry 18726
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 18727
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
