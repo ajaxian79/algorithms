@@ -206,3 +206,4 @@ MunitTest permutations_tests[] = {
 // edge note 165: Best case is O(1) when the first byte already decides the answer.
 // edge note 166: Mutates the input in place; the original ordering is lost.
 // edge note 167: Handles negative inputs as documented above.
+// edge note 168: Time complexity: O(k) where k is the answer size.
