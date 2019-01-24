@@ -1397,3 +1397,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 331
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 332
+
+False sharing: two threads writing different bytes in the same cache line stall both.
