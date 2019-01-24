@@ -1872,3 +1872,7 @@ Stable across duplicates in the input.
 ## entry 454
 
 Space complexity: O(1) auxiliary.
+
+## entry 455
+
+Space complexity: O(h) for the tree height.
