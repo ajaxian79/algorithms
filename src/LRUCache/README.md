@@ -1948,3 +1948,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 471
 
 Vectorizes cleanly under -O2.
+
+## entry 472
+
+Edge case: NULL input is rejected by the caller, not by us.
