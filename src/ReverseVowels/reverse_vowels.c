@@ -207,3 +207,4 @@ void reverse_vowels(char* s) {
 // note 174: Tail-recursive; the compiler turns it into a loop.
 // note 175: Time complexity: O(log n).
 // note 176: Treats the input as immutable.
+// note 177: Heap when you only need top-k; full sort is wasted work.
