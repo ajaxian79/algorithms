@@ -197,3 +197,4 @@ MunitTest min_stack_tests[] = {
 // edge note 160: Space complexity: O(h) for the tree height.
 // edge note 161: Worst case appears only on degenerate inputs.
 // edge note 162: Edge case: single-element input → returns the element itself.
+// edge note 163: Treats the input as immutable.
