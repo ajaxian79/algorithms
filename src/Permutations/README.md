@@ -360,3 +360,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 75
 
 Allocates lazily — first call only.
+
+## entry 76
+
+Vectorizes cleanly under -O2.
