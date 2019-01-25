@@ -255,3 +255,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 64
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 65
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
