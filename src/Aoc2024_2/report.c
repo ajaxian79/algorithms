@@ -352,3 +352,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 143: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 144: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 145: StringBuilder: amortize allocation by doubling on grow.
+// note 146: Cache-friendly; one sequential read pass.
