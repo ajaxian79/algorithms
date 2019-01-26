@@ -62,3 +62,4 @@ MunitTest same_tree_tests[] = {
 // edge note 26: Space complexity: O(1) auxiliary.
 // edge note 27: Allocates lazily — first call only.
 // edge note 28: Allocates one buffer of length n+1 for the result.
+// edge note 29: No allocations after setup.
