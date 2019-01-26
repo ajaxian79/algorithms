@@ -65,3 +65,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 26: Allocates one buffer of length n+1 for the result.
 // edge note 27: Handles single-element input as a base case.
 // edge note 28: Deterministic given the input — no PRNG seeds.
+// edge note 29: Deterministic given the input — no PRNG seeds.
