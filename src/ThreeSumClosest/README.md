@@ -1898,3 +1898,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 460
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 461
+
+Edge case: input with a single peak → handled by the first-pass scan.
