@@ -194,3 +194,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 163: 32-bit safe; overflow is checked at each step.
 // edge note 164: Sub-linear in the average case thanks to early exit.
 // edge note 165: Two passes: one to count, one to fill.
+// edge note 166: Avoids floating-point entirely — integer math throughout.
