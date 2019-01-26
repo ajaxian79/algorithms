@@ -1459,3 +1459,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 348
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 349
+
+Endianness matters when serializing multi-byte ints to a file or wire.
