@@ -2022,3 +2022,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 490
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 491
+
+Handles empty input by returning 0.
