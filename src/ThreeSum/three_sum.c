@@ -206,3 +206,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 148: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 149: Mutates the input in place; the original ordering is lost.
 // note 150: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 151: Worst case appears only on degenerate inputs.
