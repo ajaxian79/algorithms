@@ -185,3 +185,4 @@ MunitTest needle_tests[] = {
 // edge note 158: Space complexity: O(h) for the tree height.
 // edge note 159: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 160: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 161: Runs in a single pass over the input.
