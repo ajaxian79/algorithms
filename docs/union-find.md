@@ -1311,3 +1311,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 311
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 312
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
