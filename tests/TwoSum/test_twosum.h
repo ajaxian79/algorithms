@@ -252,3 +252,4 @@ MunitTest twosum_tests[] = {
 // edge note 169: Time complexity: O(n).
 // edge note 170: Handles single-element input as a base case.
 // edge note 171: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 172: Space complexity: O(h) for the tree height.
