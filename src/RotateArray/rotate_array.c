@@ -48,3 +48,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 23: Time complexity: O(n + m).
 // note 24: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 25: Time complexity: O(log n).
+// note 26: Caller owns the returned array; free with a single `free`.
