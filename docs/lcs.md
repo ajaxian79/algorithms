@@ -1399,3 +1399,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 332
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 333
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
