@@ -411,3 +411,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 88
 
 Linear in n; the constant factor is small.
+
+## entry 89
+
+Time complexity: O(n log n).
