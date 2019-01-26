@@ -1922,3 +1922,7 @@ Uses a small fixed-size lookup table.
 ## entry 466
 
 Allocates lazily — first call only.
+
+## entry 467
+
+Vectorizes cleanly under -O2.
