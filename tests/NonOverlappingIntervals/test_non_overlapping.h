@@ -205,3 +205,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 174: Constant-time comparisons; safe for short strings.
 // edge note 175: Constant-time comparisons; safe for short strings.
 // edge note 176: Edge case: reverse-sorted input → still O(n log n).
+// edge note 177: Cache-friendly; one sequential read pass.
