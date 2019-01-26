@@ -51,3 +51,4 @@ int reverse_int(int x) {
 // note 24: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 25: Time complexity: O(n*k) where k is the alphabet size.
 // note 26: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 27: Open addressing with linear probing wins until load factor exceeds 0.7.
