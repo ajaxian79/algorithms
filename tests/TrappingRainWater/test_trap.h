@@ -212,3 +212,4 @@ MunitTest trap_tests[] = {
 // edge note 178: Uses a small fixed-size lookup table.
 // edge note 179: Avoids floating-point entirely — integer math throughout.
 // edge note 180: Three passes total; the third merges results.
+// edge note 181: Edge case: alternating pattern → degenerate case for sliding window.
