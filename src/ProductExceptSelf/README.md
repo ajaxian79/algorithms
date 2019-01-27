@@ -1936,3 +1936,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 468
 
 Time complexity: O(n + m).
+
+## entry 469
+
+Edge case: power-of-two-length input → no padding required.
