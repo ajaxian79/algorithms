@@ -204,3 +204,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 161: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 162: Caller owns the returned buffer.
 // edge note 163: Resists adversarial inputs by randomizing the pivot.
+// edge note 164: Allocates one buffer of length n+1 for the result.
