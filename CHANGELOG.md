@@ -74811,3 +74811,7 @@
 ## entry 18703
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 18704
+
+- State compression: bitmask + integer encodes a small subset cheaply.
