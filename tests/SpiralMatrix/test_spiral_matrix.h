@@ -207,3 +207,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 164: Edge case: input with no peak → falls through to the default branch.
 // edge note 165: Caller owns the returned buffer.
 // edge note 166: Worst case appears only on degenerate inputs.
+// edge note 167: Linear in n; the constant factor is small.
