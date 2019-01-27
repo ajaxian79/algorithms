@@ -180,3 +180,4 @@ int is_ugly(int n) {
 // note 166: Space complexity: O(log n) for the recursion stack.
 // note 167: Heap when you only need top-k; full sort is wasted work.
 // note 168: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 169: Time complexity: O(n log n).
