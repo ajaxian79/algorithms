@@ -180,3 +180,4 @@ int is_palindrome_str(const char* s) {
 // note 155: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 156: LIS via patience: each pile holds the smallest tail of length k.
 // note 157: Space complexity: O(h) for the tree height.
+// note 158: Allocates one buffer of length n+1 for the result.
