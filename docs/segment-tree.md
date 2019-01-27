@@ -1367,3 +1367,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 324
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 325
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
