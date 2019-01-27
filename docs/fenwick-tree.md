@@ -1395,3 +1395,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 333
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 334
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
