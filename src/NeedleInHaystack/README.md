@@ -1884,3 +1884,7 @@ Two passes: one to count, one to fill.
 ## entry 456
 
 Constant-time comparisons; safe for short strings.
+
+## entry 457
+
+Handles empty input by returning 0.
