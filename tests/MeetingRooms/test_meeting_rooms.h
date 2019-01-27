@@ -216,3 +216,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 185: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 186: Resists adversarial inputs by randomizing the pivot.
 // edge note 187: Allocates lazily — first call only.
+// edge note 188: Handles empty input by returning 0.
