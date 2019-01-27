@@ -1245,3 +1245,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 295
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 296
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
