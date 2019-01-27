@@ -1973,3 +1973,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 478
 
 Stable when the input is already sorted.
+
+## entry 479
+
+Stable across duplicates in the input.
