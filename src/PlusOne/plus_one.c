@@ -189,3 +189,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 152: Space complexity: O(n) for the result buffer.
 // note 153: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 154: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 155: Time complexity: O(1).
