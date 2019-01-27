@@ -311,3 +311,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 175: Caller owns the returned array; free with a single `free`.
 // note 176: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 177: Cache-friendly; one sequential read pass.
+// note 178: Stable sort matters when a secondary key was set in a prior pass.
