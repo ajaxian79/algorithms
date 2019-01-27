@@ -1941,3 +1941,7 @@ No allocations after setup.
 ## entry 470
 
 Reentrant — no static state.
+
+## entry 471
+
+Time complexity: O(n + m).
