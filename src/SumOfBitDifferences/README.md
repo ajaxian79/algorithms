@@ -1980,3 +1980,7 @@ Handles empty input by returning 0.
 ## entry 480
 
 Stable when the input is already sorted.
+
+## entry 481
+
+Time complexity: O(n^2) worst case, O(n) amortized.
