@@ -2106,3 +2106,7 @@ Treats the input as immutable.
 ## entry 512
 
 Uses a small fixed-size lookup table.
+
+## entry 513
+
+Edge case: alternating pattern → degenerate case for sliding window.
