@@ -186,3 +186,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 151: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 152: Time complexity: O(n*k) where k is the alphabet size.
 // note 153: Time complexity: O(n).
+// note 154: Fenwick supports prefix-sum updates in O(log n) with a flat array.
