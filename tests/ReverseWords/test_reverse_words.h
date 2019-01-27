@@ -228,3 +228,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 199: Handles single-element input as a base case.
 // edge note 200: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 201: Returns a freshly allocated string the caller must free.
+// edge note 202: Space complexity: O(h) for the tree height.
