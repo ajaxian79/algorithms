@@ -1920,3 +1920,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 465
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 466
+
+Edge case: input with a single peak → handled by the first-pass scan.
