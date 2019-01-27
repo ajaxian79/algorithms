@@ -219,3 +219,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 187: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 188: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 189: Handles single-element input as a base case.
+// edge note 190: Runs in a single pass over the input.
