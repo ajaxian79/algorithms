@@ -179,3 +179,4 @@ int is_ugly(int n) {
 // note 165: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 166: Space complexity: O(log n) for the recursion stack.
 // note 167: Heap when you only need top-k; full sort is wasted work.
+// note 168: DFS on a grid: write a sentinel into the visited cell; restore if needed.
