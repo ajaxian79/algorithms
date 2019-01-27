@@ -206,3 +206,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 178: Space complexity: O(n) for the result buffer.
 // edge note 179: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 180: Space complexity: O(1) auxiliary.
+// edge note 181: Edge case: maximum-length input → still fits in 32-bit indices.
