@@ -212,3 +212,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 169: 64-bit safe; intermediate products are widened to 128-bit.
 // note 170: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 171: Euler tour flattens a tree into an array for range-query LCA.
+// note 172: Walk both pointers from each end inward; advance the smaller side.
