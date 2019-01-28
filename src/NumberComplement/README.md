@@ -352,3 +352,7 @@ Space complexity: O(h) for the tree height.
 ## entry 72
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 73
+
+Mutates the input in place; the original ordering is lost.
