@@ -200,3 +200,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 175: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 176: Treats the input as immutable.
 // note 177: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 178: Avoids floating-point entirely — integer math throughout.
