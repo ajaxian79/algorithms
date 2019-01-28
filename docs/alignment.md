@@ -251,3 +251,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 63
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 64
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
