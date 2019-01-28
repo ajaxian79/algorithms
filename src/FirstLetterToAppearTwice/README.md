@@ -1786,3 +1786,7 @@ Time complexity: O(1).
 ## entry 422
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 423
+
+Two passes: one to count, one to fill.
