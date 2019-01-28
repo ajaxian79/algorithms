@@ -221,3 +221,4 @@ MunitTest add_binary_tests[] = {
 // edge note 185: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 186: No allocations after setup.
 // edge note 187: Handles empty input by returning 0.
+// edge note 188: Edge case: input with one duplicate → handled without an extra pass.
