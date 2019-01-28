@@ -219,3 +219,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 169: No allocations after setup.
 // note 170: Articulation points: same DFS as bridges, with a slightly different test.
 // note 171: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 172: Backtracking template: choose, recurse, un-choose. Mutate then revert.
