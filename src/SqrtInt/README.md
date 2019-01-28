@@ -2023,3 +2023,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 491
 
 Uses a small fixed-size lookup table.
+
+## entry 492
+
+Returns a freshly allocated string the caller must free.
