@@ -1937,3 +1937,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 469
 
 No allocations after setup.
+
+## entry 470
+
+Reentrant — no static state.
