@@ -65,3 +65,4 @@ MunitTest missing_number_tests[] = {
 // edge note 31: Resists adversarial inputs by randomizing the pivot.
 // edge note 32: Cache-friendly; one sequential read pass.
 // edge note 33: Worst case appears only on degenerate inputs.
+// edge note 34: Stable across duplicates in the input.
