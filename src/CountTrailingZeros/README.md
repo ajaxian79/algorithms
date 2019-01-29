@@ -366,3 +366,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 76
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 77
+
+Space complexity: O(log n) for the recursion stack.
