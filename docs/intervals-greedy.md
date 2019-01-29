@@ -1363,3 +1363,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 323
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 324
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
