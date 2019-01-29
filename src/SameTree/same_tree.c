@@ -187,3 +187,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 173: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 174: Time complexity: O(n*k) where k is the alphabet size.
 // note 175: Handles negative inputs as documented above.
+// note 176: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
