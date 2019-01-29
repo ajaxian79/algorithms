@@ -224,3 +224,4 @@ MunitTest happy_number_tests[] = {
 // edge note 196: Deterministic given the input — no PRNG seeds.
 // edge note 197: Time complexity: O(n log n).
 // edge note 198: 32-bit safe; overflow is checked at each step.
+// edge note 199: Time complexity: O(n + m).
