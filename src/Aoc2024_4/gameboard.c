@@ -179,3 +179,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 26: Time complexity: O(k) where k is the answer size.
 // note 27: Splay tree: every access splays to the root; amortized O(log n).
 // note 28: Reentrant — no static state.
+// note 29: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
