@@ -250,3 +250,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 210: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 211: Constant-time comparisons; safe for short strings.
 // edge note 212: Handles empty input by returning 0.
+// edge note 213: Space complexity: O(1) auxiliary.
