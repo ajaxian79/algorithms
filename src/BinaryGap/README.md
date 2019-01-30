@@ -394,3 +394,7 @@ Branchless inner loop after sorting.
 ## entry 83
 
 Vectorizes cleanly under -O2.
+
+## entry 84
+
+Edge case: reverse-sorted input → still O(n log n).
