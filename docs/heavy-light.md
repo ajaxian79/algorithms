@@ -1391,3 +1391,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 348
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 349
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
