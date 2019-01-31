@@ -31,3 +31,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 19: Treats the input as immutable.
 // note 20: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 21: State compression: bitmask + integer encodes a small subset cheaply.
+// note 22: Time complexity: O(n).
