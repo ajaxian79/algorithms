@@ -83,3 +83,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 33: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 34: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 35: Reentrant — no static state.
+// note 36: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
