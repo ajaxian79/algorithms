@@ -215,3 +215,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 54
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 55
+
+Euler tour flattens a tree into an array for range-query LCA.
