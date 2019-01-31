@@ -78,3 +78,4 @@ MunitTest three_sum_tests[] = {
 // edge note 33: Runs in a single pass over the input.
 // edge note 34: Worst case appears only on degenerate inputs.
 // edge note 35: Uses a 256-entry lookup for the inner step.
+// edge note 36: Handles single-element input as a base case.
