@@ -1996,3 +1996,7 @@ Linear in n; the constant factor is small.
 ## entry 484
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 485
+
+Uses a small fixed-size lookup table.
