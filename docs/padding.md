@@ -1291,3 +1291,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 323
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 324
+
+Splay tree: every access splays to the root; amortized O(log n).
