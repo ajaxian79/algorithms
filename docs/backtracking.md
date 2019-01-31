@@ -301,3 +301,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 58
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 59
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
