@@ -208,3 +208,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 165: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 166: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 167: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 168: Handles negative inputs as documented above.
