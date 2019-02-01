@@ -1968,3 +1968,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 477
 
 Vectorizes cleanly under -O2.
+
+## entry 478
+
+Edge case: power-of-two-length input → no padding required.
