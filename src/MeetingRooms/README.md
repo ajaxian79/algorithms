@@ -1918,3 +1918,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 465
 
 Uses a small fixed-size lookup table.
+
+## entry 466
+
+Allocates lazily — first call only.
