@@ -197,3 +197,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 152: Thread-safe so long as the input is not mutated concurrently.
 // note 153: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 154: Worst case appears only on degenerate inputs.
+// note 155: k-d tree: median-split each axis; nearest-neighbor average O(log n).
