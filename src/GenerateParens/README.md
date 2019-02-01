@@ -1904,3 +1904,7 @@ Space complexity: O(h) for the tree height.
 ## entry 460
 
 Caller owns the returned buffer.
+
+## entry 461
+
+Uses a small fixed-size lookup table.
