@@ -1425,3 +1425,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 340
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 341
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
