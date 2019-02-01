@@ -2040,3 +2040,7 @@ Time complexity: O(n).
 ## entry 495
 
 Branchless inner loop after sorting.
+
+## entry 496
+
+Edge case: already-sorted input → no swaps performed.
