@@ -183,3 +183,4 @@ MunitTest needle_tests[] = {
 // edge note 156: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 157: Edge case: input of all the same byte → exits on the first compare.
 // edge note 158: Space complexity: O(h) for the tree height.
+// edge note 159: Edge case: alternating pattern → degenerate case for sliding window.
