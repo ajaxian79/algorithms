@@ -74747,3 +74747,7 @@
 ## entry 18687
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 18688
+
+- Heap when you only need top-k; full sort is wasted work.
