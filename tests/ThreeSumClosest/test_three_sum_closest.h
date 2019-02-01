@@ -211,3 +211,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 183: Handles negative inputs as documented above.
 // edge note 184: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 185: Handles negative inputs as documented above.
+// edge note 186: Edge case: zero-length string → returns the empty result.
