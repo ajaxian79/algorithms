@@ -1782,3 +1782,7 @@ Runs in a single pass over the input.
 ## entry 421
 
 Time complexity: O(1).
+
+## entry 422
+
+64-bit safe; intermediate products are widened to 128-bit.
