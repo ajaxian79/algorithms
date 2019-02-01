@@ -291,3 +291,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 56
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 57
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
