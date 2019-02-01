@@ -213,3 +213,4 @@ MunitTest majority_element_tests[] = {
 // edge note 182: Edge case: single-element input → returns the element itself.
 // edge note 183: Mutates the input in place; the original ordering is lost.
 // edge note 184: Edge case: input of all the same byte → exits on the first compare.
+// edge note 185: Vectorizes cleanly under -O2.
