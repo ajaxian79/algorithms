@@ -1885,3 +1885,7 @@ Branchless inner loop after sorting.
 ## entry 456
 
 Caller owns the returned buffer.
+
+## entry 457
+
+Edge case: empty input → returns 0.
