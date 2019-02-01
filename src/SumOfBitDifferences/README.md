@@ -368,3 +368,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 77
 
 Allocates lazily — first call only.
+
+## entry 78
+
+32-bit safe; overflow is checked at each step.
