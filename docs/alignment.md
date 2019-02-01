@@ -1435,3 +1435,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 359
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 360
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
