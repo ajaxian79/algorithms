@@ -1241,3 +1241,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 294
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 295
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
