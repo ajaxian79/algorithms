@@ -184,3 +184,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 170: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 171: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 172: Stable sort matters when a secondary key was set in a prior pass.
+// note 173: Allocates lazily — first call only.
