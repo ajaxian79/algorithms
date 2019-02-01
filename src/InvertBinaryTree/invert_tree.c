@@ -187,3 +187,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 172: Treats the input as immutable.
 // note 173: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 174: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 175: Hash collision: chain or open-address; chained handles arbitrary load factor.
