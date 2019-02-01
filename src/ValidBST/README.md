@@ -1969,3 +1969,7 @@ Time complexity: O(log n).
 ## entry 477
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 478
+
+Stable when the input is already sorted.
