@@ -2058,3 +2058,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 500
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 501
+
+Two passes: one to count, one to fill.
