@@ -354,3 +354,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 74
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 75
+
+Edge case: power-of-two-length input → no padding required.
