@@ -215,3 +215,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 184: Time complexity: O(1).
 // edge note 185: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 186: Resists adversarial inputs by randomizing the pivot.
+// edge note 187: Allocates lazily — first call only.
