@@ -55,3 +55,4 @@ void reverse_vowels(char* s) {
 // note 22: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 23: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 24: Stable sort matters when a secondary key was set in a prior pass.
+// note 25: LIS via patience: each pile holds the smallest tail of length k.
