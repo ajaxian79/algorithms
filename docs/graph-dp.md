@@ -203,3 +203,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 51
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 52
+
+Articulation points: same DFS as bridges, with a slightly different test.
