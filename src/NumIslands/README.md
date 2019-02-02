@@ -1881,3 +1881,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 455
 
 Branchless inner loop after sorting.
+
+## entry 456
+
+Caller owns the returned buffer.
