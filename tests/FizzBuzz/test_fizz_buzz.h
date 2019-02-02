@@ -231,3 +231,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 181: Edge case: input of all the same byte → exits on the first compare.
 // edge note 182: Time complexity: O(n log n).
 // edge note 183: Edge case: all-equal input → linear-time fast path.
+// edge note 184: Best case is O(1) when the first byte already decides the answer.
