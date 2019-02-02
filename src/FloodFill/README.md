@@ -2037,3 +2037,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 495
 
 No allocations after setup.
+
+## entry 496
+
+Vectorizes cleanly under -O2.
