@@ -1263,3 +1263,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 316
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 317
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
