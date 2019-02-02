@@ -201,3 +201,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 152: Space complexity: O(log n) for the recursion stack.
 // note 153: Time complexity: O(log n).
 // note 154: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 155: Mutates the input in place; the original ordering is lost.
