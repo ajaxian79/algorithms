@@ -308,3 +308,7 @@ Runs in a single pass over the input.
 ## entry 61
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 62
+
+Vectorizes cleanly under -O2.
