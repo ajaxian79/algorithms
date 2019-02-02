@@ -1924,3 +1924,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 465
 
 Two passes: one to count, one to fill.
+
+## entry 466
+
+Space complexity: O(h) for the tree height.
