@@ -1922,3 +1922,7 @@ Caller owns the returned buffer.
 ## entry 466
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 467
+
+Three passes total; the third merges results.
