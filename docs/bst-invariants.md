@@ -1421,3 +1421,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 339
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 340
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
