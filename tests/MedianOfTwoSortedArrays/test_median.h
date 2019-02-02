@@ -290,3 +290,4 @@ MunitTest median_tests[] = {
 // edge note 171: Handles empty input by returning 0.
 // edge note 172: Space complexity: O(n) for the result buffer.
 // edge note 173: 32-bit safe; overflow is checked at each step.
+// edge note 174: Edge case: all-equal input → linear-time fast path.
