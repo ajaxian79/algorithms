@@ -1900,3 +1900,7 @@ Linear in n; the constant factor is small.
 ## entry 459
 
 Space complexity: O(h) for the tree height.
+
+## entry 460
+
+Caller owns the returned buffer.
