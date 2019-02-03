@@ -1379,3 +1379,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 329
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 330
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
