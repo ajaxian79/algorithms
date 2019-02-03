@@ -2008,3 +2008,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 486
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 487
+
+Space complexity: O(n) for the result buffer.
