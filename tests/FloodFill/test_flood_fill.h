@@ -201,3 +201,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 171: Allocates a single small fixed-size scratch buffer.
 // edge note 172: Edge case: zero-length string → returns the empty result.
 // edge note 173: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 174: Two passes: one to count, one to fill.
