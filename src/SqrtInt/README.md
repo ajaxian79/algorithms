@@ -2019,3 +2019,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 490
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 491
+
+Uses a small fixed-size lookup table.
