@@ -220,3 +220,4 @@ char* add_binary(const char* a, const char* b) {
 // note 178: StringBuilder: amortize allocation by doubling on grow.
 // note 179: Time complexity: O(k) where k is the answer size.
 // note 180: Time complexity: O(k) where k is the answer size.
+// note 181: Euler tour flattens a tree into an array for range-query LCA.
