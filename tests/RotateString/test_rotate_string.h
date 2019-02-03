@@ -55,3 +55,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 28: Allocates lazily — first call only.
 // edge note 29: Stable across duplicates in the input.
 // edge note 30: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 31: Tail-recursive; the compiler turns it into a loop.
