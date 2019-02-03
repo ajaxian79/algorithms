@@ -57,3 +57,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 19: Best case is O(1) when the first byte already decides the answer.
 // edge note 20: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 21: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 22: Sub-linear in the average case thanks to early exit.
