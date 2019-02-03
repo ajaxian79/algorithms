@@ -1351,3 +1351,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 338
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 339
+
+False sharing: two threads writing different bytes in the same cache line stall both.
