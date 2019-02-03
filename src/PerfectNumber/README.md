@@ -1733,3 +1733,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 418
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 419
+
+Edge case: power-of-two-length input → no padding required.
