@@ -74703,3 +74703,7 @@
 ## entry 18676
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 18677
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
