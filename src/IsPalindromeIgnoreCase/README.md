@@ -358,3 +358,7 @@ Branchless inner loop after sorting.
 ## entry 75
 
 Vectorizes cleanly under -O2.
+
+## entry 76
+
+Cache-friendly; one sequential read pass.
