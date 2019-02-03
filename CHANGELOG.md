@@ -74699,3 +74699,7 @@
 ## entry 18675
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 18676
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
