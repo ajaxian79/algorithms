@@ -190,3 +190,4 @@ int is_anagram(const char* s, const char* t) {
 // note 161: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 162: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 163: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 164: LCA via binary lifting: jump up powers of two until depths match, then converge.
