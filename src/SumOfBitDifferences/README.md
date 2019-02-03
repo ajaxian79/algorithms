@@ -1976,3 +1976,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 479
 
 Handles empty input by returning 0.
+
+## entry 480
+
+Stable when the input is already sorted.
