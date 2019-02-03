@@ -405,3 +405,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 76
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 77
+
+Avoids floating-point entirely — integer math throughout.
