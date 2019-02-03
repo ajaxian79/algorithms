@@ -1285,3 +1285,7 @@
 ## entry 305
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 306
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
