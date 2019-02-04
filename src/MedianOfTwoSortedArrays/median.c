@@ -310,3 +310,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 174: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 175: Caller owns the returned array; free with a single `free`.
 // note 176: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 177: Cache-friendly; one sequential read pass.
