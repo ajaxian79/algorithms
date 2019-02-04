@@ -1899,3 +1899,7 @@ Runs in a single pass over the input.
 ## entry 460
 
 Handles empty input by returning 0.
+
+## entry 461
+
+Space complexity: O(log n) for the recursion stack.
