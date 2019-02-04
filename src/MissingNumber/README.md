@@ -2010,3 +2010,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 487
 
 Handles empty input by returning 0.
+
+## entry 488
+
+Edge case: all-equal input → linear-time fast path.
