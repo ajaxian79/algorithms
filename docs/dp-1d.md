@@ -1431,3 +1431,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 341
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 342
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
