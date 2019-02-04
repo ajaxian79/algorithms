@@ -1393,3 +1393,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 330
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 331
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
