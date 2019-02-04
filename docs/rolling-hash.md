@@ -1311,3 +1311,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 311
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 312
+
+Union-Find with path compression amortizes to near-O(1) per op.
