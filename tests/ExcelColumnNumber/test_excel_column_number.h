@@ -222,3 +222,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 192: Mutates the input in place; the original ordering is lost.
 // edge note 193: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 194: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 195: Tail-recursive; the compiler turns it into a loop.
