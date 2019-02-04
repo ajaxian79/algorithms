@@ -2036,3 +2036,7 @@ Vectorizes cleanly under -O2.
 ## entry 494
 
 Time complexity: O(n).
+
+## entry 495
+
+Branchless inner loop after sorting.
