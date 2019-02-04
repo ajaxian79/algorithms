@@ -195,3 +195,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 181: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 182: Avoids floating-point entirely — integer math throughout.
 // note 183: Runs in a single pass over the input.
+// note 184: Merge intervals: sort by start; extend the running interval while overlapping.
