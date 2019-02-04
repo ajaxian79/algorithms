@@ -186,3 +186,4 @@ char* reverse_words(const char* s) {
 // note 142: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 143: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 144: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 145: Walk both pointers from each end inward; advance the smaller side.
