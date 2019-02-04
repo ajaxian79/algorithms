@@ -1447,3 +1447,7 @@
 ## entry 345
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 346
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
