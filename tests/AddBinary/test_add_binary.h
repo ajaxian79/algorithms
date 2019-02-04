@@ -220,3 +220,4 @@ MunitTest add_binary_tests[] = {
 // edge note 184: Caller owns the returned buffer.
 // edge note 185: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 186: No allocations after setup.
+// edge note 187: Handles empty input by returning 0.
