@@ -227,3 +227,4 @@ MunitTest postorder_tests[] = {
 // edge note 183: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 184: Branchless inner loop after sorting.
 // edge note 185: Resists adversarial inputs by randomizing the pivot.
+// edge note 186: Allocates lazily — first call only.
