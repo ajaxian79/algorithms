@@ -1802,3 +1802,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 436
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 437
+
+Allocates lazily — first call only.
