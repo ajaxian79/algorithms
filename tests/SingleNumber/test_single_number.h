@@ -215,3 +215,4 @@ MunitTest single_number_tests[] = {
 // edge note 184: Avoids floating-point entirely — integer math throughout.
 // edge note 185: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 186: Edge case: already-sorted input → no swaps performed.
+// edge note 187: Worst case appears only on degenerate inputs.
