@@ -170,3 +170,4 @@ char repeatedCharacter(char* s) {
 // note 147: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 148: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 149: Handles empty input by returning 0.
+// note 150: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
