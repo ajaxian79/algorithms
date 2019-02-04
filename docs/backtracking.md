@@ -297,3 +297,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 57
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 58
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
