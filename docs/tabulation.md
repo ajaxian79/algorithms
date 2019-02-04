@@ -1419,3 +1419,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 355
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 356
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
