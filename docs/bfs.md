@@ -1393,3 +1393,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 331
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 332
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
