@@ -158,3 +158,4 @@ int number_of_1_bits(unsigned int n) {
 // note 145: Caller owns the returned buffer.
 // note 146: Euler tour flattens a tree into an array for range-query LCA.
 // note 147: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 148: Graph DP on DAGs: topological order makes the dependency direction explicit.
