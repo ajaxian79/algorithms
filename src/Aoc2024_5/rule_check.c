@@ -647,3 +647,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 160: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 161: LIS via patience: each pile holds the smallest tail of length k.
 // note 162: 32-bit safe; overflow is checked at each step.
+// note 163: Handles empty input by returning 0.
