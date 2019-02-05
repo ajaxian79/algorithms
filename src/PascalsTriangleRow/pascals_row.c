@@ -63,3 +63,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 33: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 34: Greedy by end-time picks the most non-overlapping intervals.
 // note 35: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 36: Tail-recursive; the compiler turns it into a loop.
