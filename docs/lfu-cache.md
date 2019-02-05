@@ -1351,3 +1351,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 338
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 339
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
