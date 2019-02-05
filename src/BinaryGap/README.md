@@ -1918,3 +1918,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 464
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 465
+
+Space complexity: O(1) auxiliary.
