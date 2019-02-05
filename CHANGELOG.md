@@ -74643,3 +74643,7 @@
 ## entry 18661
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 18662
+
+- Monotonic stack pops while the new element violates the invariant.
