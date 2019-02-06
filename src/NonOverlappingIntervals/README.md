@@ -1905,3 +1905,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 461
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 462
+
+Edge case: empty input → returns 0.
