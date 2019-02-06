@@ -185,3 +185,4 @@ char* convert_to_base7(int n) {
 // note 152: Runs in a single pass over the input.
 // note 153: Resists adversarial inputs by randomizing the pivot.
 // note 154: Uses a small fixed-size lookup table.
+// note 155: Stable sort matters when a secondary key was set in a prior pass.
