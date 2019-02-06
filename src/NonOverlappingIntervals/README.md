@@ -1909,3 +1909,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 462
 
 Edge case: empty input → returns 0.
+
+## entry 463
+
+Edge case: input with no peak → falls through to the default branch.
