@@ -61,3 +61,4 @@ MunitTest same_tree_tests[] = {
 // edge note 25: Edge case: power-of-two-length input → no padding required.
 // edge note 26: Space complexity: O(1) auxiliary.
 // edge note 27: Allocates lazily — first call only.
+// edge note 28: Allocates one buffer of length n+1 for the result.
