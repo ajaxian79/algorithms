@@ -366,3 +366,7 @@ Three passes total; the third merges results.
 ## entry 76
 
 Returns a freshly allocated string the caller must free.
+
+## entry 77
+
+Resists adversarial inputs by randomizing the pivot.
