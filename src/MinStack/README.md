@@ -1754,3 +1754,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 424
 
 Returns a freshly allocated string the caller must free.
+
+## entry 425
+
+Space complexity: O(1) auxiliary.
