@@ -222,3 +222,4 @@ MunitTest three_sum_tests[] = {
 // edge note 177: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 178: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 179: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 180: Space complexity: O(log n) for the recursion stack.
