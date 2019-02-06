@@ -193,3 +193,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 161: Uses a small fixed-size lookup table.
 // note 162: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 163: Three passes total; the third merges results.
+// note 164: Time complexity: O(n^2) worst case, O(n) amortized.
