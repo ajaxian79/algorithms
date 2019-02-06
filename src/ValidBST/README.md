@@ -1965,3 +1965,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 476
 
 Time complexity: O(log n).
+
+## entry 477
+
+Tail-recursive; the compiler turns it into a loop.
