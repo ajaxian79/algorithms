@@ -1449,3 +1449,7 @@
 ## entry 348
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 349
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
