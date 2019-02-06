@@ -2054,3 +2054,7 @@ No allocations on the hot path.
 ## entry 499
 
 Edge case: single-element input → returns the element itself.
+
+## entry 500
+
+Time complexity: O(n^2) worst case, O(n) amortized.
