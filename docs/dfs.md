@@ -1435,3 +1435,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 343
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 344
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
