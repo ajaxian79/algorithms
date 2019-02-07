@@ -337,3 +337,7 @@ Handles single-element input as a base case.
 ## entry 69
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 70
+
+Space complexity: O(n) for the result buffer.
