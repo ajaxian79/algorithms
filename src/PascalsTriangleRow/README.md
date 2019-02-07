@@ -338,3 +338,7 @@ Handles single-element input as a base case.
 ## entry 70
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 71
+
+Edge case: integer-max input → guarded by the explicit overflow check.
