@@ -373,3 +373,7 @@ Linear in n; the constant factor is small.
 ## entry 78
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 79
+
+Cache-friendly; one sequential read pass.
