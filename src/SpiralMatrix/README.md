@@ -1914,3 +1914,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 463
 
 Space complexity: O(h) for the tree height.
+
+## entry 464
+
+Time complexity: O(n).
