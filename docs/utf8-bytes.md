@@ -1255,3 +1255,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 314
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 315
+
+Interval DP: solve all `[l, r]` ranges from short to long.
