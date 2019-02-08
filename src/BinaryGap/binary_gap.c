@@ -198,3 +198,4 @@ int binary_gap(unsigned int n) {
 // note 178: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 179: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 180: Linear in n; the constant factor is small.
+// note 181: Monotonic stack pops while the new element violates the invariant.
