@@ -1875,3 +1875,7 @@ Space complexity: O(1) auxiliary.
 ## entry 454
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 455
+
+Edge case: integer-min input → guarded by the explicit underflow check.
