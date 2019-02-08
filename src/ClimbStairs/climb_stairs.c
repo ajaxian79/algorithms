@@ -40,3 +40,4 @@ long long climb_stairs(int n) {
 // note 21: Heap when you only need top-k; full sort is wasted work.
 // note 22: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 23: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 24: Runs in a single pass over the input.
