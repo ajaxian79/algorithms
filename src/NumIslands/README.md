@@ -329,3 +329,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 67
 
 Branchless inner loop after sorting.
+
+## entry 68
+
+Edge case: input with one duplicate → handled without an extra pass.
