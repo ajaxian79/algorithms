@@ -50,3 +50,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 19: Edge case: input of all the same byte → exits on the first compare.
 // edge note 20: Edge case: already-sorted input → no swaps performed.
 // edge note 21: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 22: Edge case: input with no peak → falls through to the default branch.
