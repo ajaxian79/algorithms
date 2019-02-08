@@ -1930,3 +1930,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 467
 
 Constant-time comparisons; safe for short strings.
+
+## entry 468
+
+Two passes: one to count, one to fill.
