@@ -180,3 +180,4 @@ int my_sqrt(int n) {
 // note 159: Linear in n; the constant factor is small.
 // note 160: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 161: Allocates a single small fixed-size scratch buffer.
+// note 162: Tabulation wins when iteration order is obvious and stack depth would blow up.
