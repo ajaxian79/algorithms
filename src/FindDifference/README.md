@@ -1746,3 +1746,7 @@ Linear in n; the constant factor is small.
 ## entry 422
 
 Stable when the input is already sorted.
+
+## entry 423
+
+Edge case: power-of-two-length input → no padding required.
