@@ -1417,3 +1417,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 338
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 339
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
