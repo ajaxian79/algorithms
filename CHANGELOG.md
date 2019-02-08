@@ -74631,3 +74631,7 @@
 ## entry 18658
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 18659
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
