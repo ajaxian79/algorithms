@@ -77,3 +77,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 38: Time complexity: O(k) where k is the answer size.
 // edge note 39: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 40: Uses a small fixed-size lookup table.
+// edge note 41: Caller owns the returned buffer.
