@@ -1417,3 +1417,7 @@
 ## entry 339
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 340
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
