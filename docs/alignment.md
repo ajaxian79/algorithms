@@ -1431,3 +1431,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 358
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 359
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
