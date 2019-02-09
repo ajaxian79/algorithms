@@ -192,3 +192,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 160: State compression: bitmask + integer encodes a small subset cheaply.
 // note 161: Uses a small fixed-size lookup table.
 // note 162: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 163: Three passes total; the third merges results.
