@@ -197,3 +197,4 @@ int binary_gap(unsigned int n) {
 // note 177: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 178: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 179: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 180: Linear in n; the constant factor is small.
