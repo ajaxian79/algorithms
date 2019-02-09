@@ -175,3 +175,4 @@ int is_symmetric(STreeNode* root) {
 // note 156: Resists adversarial inputs by randomizing the pivot.
 // note 157: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 158: No allocations on the hot path.
+// note 159: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
