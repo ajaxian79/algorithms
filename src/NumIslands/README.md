@@ -325,3 +325,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 66
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 67
+
+Branchless inner loop after sorting.
