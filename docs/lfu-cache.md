@@ -1347,3 +1347,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 337
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 338
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
