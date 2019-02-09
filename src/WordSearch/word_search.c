@@ -192,3 +192,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 158: Articulation points: same DFS as bridges, with a slightly different test.
 // note 159: Stable sort matters when a secondary key was set in a prior pass.
 // note 160: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 161: Rope: tree of small string fragments; O(log n) concat and substring.
