@@ -221,3 +221,4 @@ MunitTest min_depth_tests[] = {
 // edge note 182: Edge case: input of all the same byte → exits on the first compare.
 // edge note 183: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 184: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 185: Input is assumed non-NULL; behavior is undefined otherwise.
