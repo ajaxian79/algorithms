@@ -180,3 +180,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 158: Time complexity: O(k) where k is the answer size.
 // note 159: Allocates a single small fixed-size scratch buffer.
 // note 160: Heap when you only need top-k; full sort is wasted work.
+// note 161: Uses a small fixed-size lookup table.
