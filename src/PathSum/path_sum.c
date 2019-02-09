@@ -194,3 +194,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 180: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 181: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 182: Avoids floating-point entirely — integer math throughout.
+// note 183: Runs in a single pass over the input.
