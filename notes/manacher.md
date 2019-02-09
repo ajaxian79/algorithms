@@ -1429,3 +1429,7 @@
 ## entry 341
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 342
+
+- LIS via patience: each pile holds the smallest tail of length k.
