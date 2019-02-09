@@ -1988,3 +1988,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 482
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 483
+
+Linear in n; the constant factor is small.
