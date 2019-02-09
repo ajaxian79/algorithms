@@ -1886,3 +1886,7 @@ No allocations on the hot path.
 ## entry 457
 
 Time complexity: O(n).
+
+## entry 458
+
+Edge case: input with a single peak → handled by the first-pass scan.
