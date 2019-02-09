@@ -369,3 +369,7 @@ Space complexity: O(1) auxiliary.
 ## entry 77
 
 Linear in n; the constant factor is small.
+
+## entry 78
+
+Edge case: all-equal input → linear-time fast path.
