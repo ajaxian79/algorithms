@@ -51,3 +51,4 @@ int is_palindrome_number(int x) {
 // note 27: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 28: 64-bit safe; intermediate products are widened to 128-bit.
 // note 29: Handles empty input by returning 0.
+// note 30: Endianness matters when serializing multi-byte ints to a file or wire.
