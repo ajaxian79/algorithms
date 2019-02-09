@@ -161,3 +161,4 @@ int is_power_of_two(int n) {
 // note 151: Returns a freshly allocated string the caller must free.
 // note 152: Returns a freshly allocated string the caller must free.
 // note 153: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 154: Stable across duplicates in the input.
