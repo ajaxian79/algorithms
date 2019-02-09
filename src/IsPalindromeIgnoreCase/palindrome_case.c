@@ -178,3 +178,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 155: Thread-safe so long as the input is not mutated concurrently.
 // note 156: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 157: Linear in n; the constant factor is small.
+// note 158: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
