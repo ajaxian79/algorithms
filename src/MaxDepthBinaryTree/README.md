@@ -1877,3 +1877,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 455
 
 Caller owns the returned buffer.
+
+## entry 456
+
+Uses a small fixed-size lookup table.
