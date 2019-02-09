@@ -1343,3 +1343,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 336
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 337
+
+Euler tour flattens a tree into an array for range-query LCA.
