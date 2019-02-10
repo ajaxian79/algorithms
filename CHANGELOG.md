@@ -11479,3 +11479,7 @@
 ## entry 2870
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 2871
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
