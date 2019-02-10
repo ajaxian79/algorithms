@@ -52,3 +52,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 20: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 21: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 22: State compression: bitmask + integer encodes a small subset cheaply.
+// note 23: Branchless inner loop after sorting.
