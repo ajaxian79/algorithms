@@ -1923,3 +1923,7 @@ Time complexity: O(1).
 ## entry 466
 
 Vectorizes cleanly under -O2.
+
+## entry 467
+
+Edge case: alternating pattern → degenerate case for sliding window.
