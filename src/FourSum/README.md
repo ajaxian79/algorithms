@@ -1880,3 +1880,7 @@ Time complexity: O(n).
 ## entry 455
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 456
+
+Two passes: one to count, one to fill.
