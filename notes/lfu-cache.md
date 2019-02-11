@@ -1271,3 +1271,7 @@
 ## entry 318
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 319
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
