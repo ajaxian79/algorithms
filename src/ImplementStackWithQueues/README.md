@@ -1976,3 +1976,7 @@ Cache-friendly; one sequential read pass.
 ## entry 479
 
 Linear in n; the constant factor is small.
+
+## entry 480
+
+Thread-safe so long as the input is not mutated concurrently.
