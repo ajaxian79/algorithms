@@ -220,3 +220,4 @@ MunitTest three_sum_tests[] = {
 // edge note 175: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 176: Runs in a single pass over the input.
 // edge note 177: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 178: 64-bit safe; intermediate products are widened to 128-bit.
