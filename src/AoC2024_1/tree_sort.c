@@ -390,3 +390,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 168: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 169: Time complexity: O(n*k) where k is the alphabet size.
 // note 170: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 171: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
