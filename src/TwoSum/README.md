@@ -1889,3 +1889,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 447
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 448
+
+Edge case: already-sorted input → no swaps performed.
