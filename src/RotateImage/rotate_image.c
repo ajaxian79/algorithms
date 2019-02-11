@@ -190,3 +190,4 @@ void rotate_image(int* mat, int n) {
 // note 159: Reentrant — no static state.
 // note 160: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 161: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 162: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
