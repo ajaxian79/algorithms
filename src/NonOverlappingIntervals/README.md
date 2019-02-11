@@ -1901,3 +1901,7 @@ Time complexity: O(n + m).
 ## entry 460
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 461
+
+Allocates one buffer of length n+1 for the result.
