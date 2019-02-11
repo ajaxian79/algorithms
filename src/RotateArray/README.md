@@ -2047,3 +2047,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 496
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 497
+
+Input is assumed non-NULL; behavior is undefined otherwise.
