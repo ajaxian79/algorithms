@@ -196,3 +196,4 @@ int binary_gap(unsigned int n) {
 // note 176: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 177: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 178: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 179: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
