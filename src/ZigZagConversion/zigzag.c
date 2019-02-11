@@ -211,3 +211,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 168: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 169: 64-bit safe; intermediate products are widened to 128-bit.
 // note 170: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 171: Euler tour flattens a tree into an array for range-query LCA.
