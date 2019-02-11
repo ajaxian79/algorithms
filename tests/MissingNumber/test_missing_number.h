@@ -209,3 +209,4 @@ MunitTest missing_number_tests[] = {
 // edge note 175: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 176: Edge case: empty input → returns 0.
 // edge note 177: Returns a freshly allocated string the caller must free.
+// edge note 178: Worst case appears only on degenerate inputs.
