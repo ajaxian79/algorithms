@@ -229,3 +229,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 149: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 150: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 151: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 152: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
