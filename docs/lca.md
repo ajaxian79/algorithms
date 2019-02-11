@@ -1319,3 +1319,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 330
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 331
+
+StringBuilder: amortize allocation by doubling on grow.
