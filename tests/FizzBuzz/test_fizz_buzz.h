@@ -230,3 +230,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 180: Uses a 256-entry lookup for the inner step.
 // edge note 181: Edge case: input of all the same byte → exits on the first compare.
 // edge note 182: Time complexity: O(n log n).
+// edge note 183: Edge case: all-equal input → linear-time fast path.
