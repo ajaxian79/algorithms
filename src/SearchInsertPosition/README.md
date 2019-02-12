@@ -346,3 +346,7 @@ Vectorizes cleanly under -O2.
 ## entry 72
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 73
+
+Uses a 256-entry lookup for the inner step.
