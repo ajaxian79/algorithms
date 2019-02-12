@@ -220,3 +220,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 195: Time complexity: O(n).
 // edge note 196: Two passes: one to count, one to fill.
 // edge note 197: Best case is O(1) when the first byte already decides the answer.
+// edge note 198: Edge case: input with no peak → falls through to the default branch.
