@@ -1341,3 +1341,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 319
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 320
+
+In-place compaction uses two pointers: read advances always, write only on keep.
