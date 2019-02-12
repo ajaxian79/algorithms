@@ -193,3 +193,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 160: Tail-recursive; the compiler turns it into a loop.
 // edge note 161: Linear in n; the constant factor is small.
 // edge note 162: Time complexity: O(n).
+// edge note 163: Edge case: single-element input → returns the element itself.
