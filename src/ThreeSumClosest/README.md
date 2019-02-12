@@ -1890,3 +1890,7 @@ No allocations after setup.
 ## entry 458
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 459
+
+Constant-time comparisons; safe for short strings.
