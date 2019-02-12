@@ -2043,3 +2043,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 495
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 496
+
+Edge case: zero-length string → returns the empty result.
