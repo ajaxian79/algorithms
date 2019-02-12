@@ -396,3 +396,7 @@ Time complexity: O(n log n).
 ## entry 84
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 85
+
+No allocations on the hot path.
