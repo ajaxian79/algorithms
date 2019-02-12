@@ -1794,3 +1794,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 434
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 435
+
+Allocates one buffer of length n+1 for the result.
