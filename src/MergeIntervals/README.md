@@ -1914,3 +1914,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 463
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 464
+
+Cache-friendly; one sequential read pass.
