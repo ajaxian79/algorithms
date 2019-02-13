@@ -1914,3 +1914,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 464
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 465
+
+Caller owns the returned buffer.
