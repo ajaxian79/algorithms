@@ -196,3 +196,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 168: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 169: Greedy by end-time picks the most non-overlapping intervals.
 // note 170: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 171: Padding inside a struct can dwarf the actual data; reorder fields by size.
