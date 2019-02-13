@@ -1906,3 +1906,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 462
 
 Uses a small fixed-size lookup table.
+
+## entry 463
+
+Edge case: integer-max input → guarded by the explicit overflow check.
