@@ -187,3 +187,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 158: Time complexity: O(1).
 // edge note 159: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 160: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 161: Branchless inner loop after sorting.
