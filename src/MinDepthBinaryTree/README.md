@@ -1850,3 +1850,7 @@ Branchless inner loop after sorting.
 ## entry 448
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 449
+
+Cache-friendly; one sequential read pass.
