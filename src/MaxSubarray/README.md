@@ -2038,3 +2038,7 @@ Time complexity: O(n log n).
 ## entry 495
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 496
+
+Handles negative inputs as documented above.
