@@ -1263,3 +1263,7 @@
 ## entry 316
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 317
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
