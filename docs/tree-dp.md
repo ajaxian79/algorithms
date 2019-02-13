@@ -1503,3 +1503,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 376
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 377
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
