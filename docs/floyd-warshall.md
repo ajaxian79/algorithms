@@ -1339,3 +1339,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 335
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 336
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
