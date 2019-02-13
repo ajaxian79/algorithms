@@ -1363,3 +1363,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 323
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 324
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
