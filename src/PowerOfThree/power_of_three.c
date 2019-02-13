@@ -170,3 +170,4 @@ int is_power_of_three(int n) {
 // note 159: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 160: Runs in a single pass over the input.
 // note 161: Reentrant — no static state.
+// note 162: Time complexity: O(n*k) where k is the alphabet size.
