@@ -248,3 +248,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 208: Space complexity: O(log n) for the recursion stack.
 // edge note 209: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 210: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 211: Constant-time comparisons; safe for short strings.
