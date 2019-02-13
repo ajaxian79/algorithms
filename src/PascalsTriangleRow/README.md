@@ -2102,3 +2102,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 511
 
 Treats the input as immutable.
+
+## entry 512
+
+Uses a small fixed-size lookup table.
