@@ -1425,3 +1425,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 342
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 343
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
