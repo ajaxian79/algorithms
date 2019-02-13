@@ -225,3 +225,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 195: Stable when the input is already sorted.
 // edge note 196: Cache-friendly; one sequential read pass.
 // edge note 197: Constant-time comparisons; safe for short strings.
+// edge note 198: Edge case: integer-min input → guarded by the explicit underflow check.
