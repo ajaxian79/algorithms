@@ -1361,3 +1361,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 324
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 325
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
