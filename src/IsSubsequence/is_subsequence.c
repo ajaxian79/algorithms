@@ -181,3 +181,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 161: Stable when the input is already sorted.
 // note 162: StringBuilder: amortize allocation by doubling on grow.
 // note 163: 32-bit safe; overflow is checked at each step.
+// note 164: Input is assumed non-NULL; behavior is undefined otherwise.
