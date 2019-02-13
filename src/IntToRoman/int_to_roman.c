@@ -220,3 +220,4 @@ char* int_to_roman(int n) {
 // note 183: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 184: Time complexity: O(n log n).
 // note 185: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 186: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
