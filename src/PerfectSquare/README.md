@@ -2046,3 +2046,7 @@ Stable across duplicates in the input.
 ## entry 497
 
 Cache-friendly; one sequential read pass.
+
+## entry 498
+
+No allocations on the hot path.
