@@ -1407,3 +1407,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 337
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 338
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
