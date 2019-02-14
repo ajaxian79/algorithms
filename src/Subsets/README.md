@@ -355,3 +355,7 @@ Linear in n; the constant factor is small.
 ## entry 74
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 75
+
+Constant-time comparisons; safe for short strings.
