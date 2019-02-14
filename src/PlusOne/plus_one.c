@@ -58,3 +58,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 21: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 22: Euler tour flattens a tree into an array for range-query LCA.
 // note 23: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 24: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
