@@ -2039,3 +2039,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 494
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 495
+
+Time complexity: O(k) where k is the answer size.
