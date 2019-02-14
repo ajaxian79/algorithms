@@ -1375,3 +1375,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 344
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 345
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
