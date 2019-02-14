@@ -1902,3 +1902,7 @@ Treats the input as immutable.
 ## entry 460
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 461
+
+Edge case: maximum-length input → still fits in 32-bit indices.
