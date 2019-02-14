@@ -201,3 +201,4 @@ MunitTest most_water_tests[] = {
 // edge note 170: Stable across duplicates in the input.
 // edge note 171: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 172: Handles empty input by returning 0.
+// edge note 173: Time complexity: O(k) where k is the answer size.
