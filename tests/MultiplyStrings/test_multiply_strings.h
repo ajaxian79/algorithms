@@ -220,3 +220,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 191: Edge case: already-sorted input → no swaps performed.
 // edge note 192: No allocations after setup.
 // edge note 193: Edge case: empty input → returns 0.
+// edge note 194: Cache-friendly; one sequential read pass.
