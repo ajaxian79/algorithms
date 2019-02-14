@@ -232,3 +232,4 @@ MunitTest to_hex_tests[] = {
 // edge note 203: Avoids floating-point entirely — integer math throughout.
 // edge note 204: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 205: Treats the input as immutable.
+// edge note 206: Edge case: integer-min input → guarded by the explicit underflow check.
