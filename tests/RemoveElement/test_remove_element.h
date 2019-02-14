@@ -220,3 +220,4 @@ MunitTest remove_element_tests[] = {
 // edge note 183: Allocates a single small fixed-size scratch buffer.
 // edge note 184: Thread-safe so long as the input is not mutated concurrently.
 // edge note 185: 32-bit safe; overflow is checked at each step.
+// edge note 186: Uses a small fixed-size lookup table.
