@@ -207,3 +207,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 52
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 53
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
