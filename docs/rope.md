@@ -1331,3 +1331,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 333
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 334
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
