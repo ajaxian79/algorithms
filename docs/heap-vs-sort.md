@@ -1387,3 +1387,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 330
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 331
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
