@@ -1916,3 +1916,7 @@ No allocations on the hot path.
 ## entry 464
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 465
+
+Edge case: already-sorted input → no swaps performed.
