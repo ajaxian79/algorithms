@@ -1930,3 +1930,7 @@ Time complexity: O(1).
 ## entry 468
 
 Linear in n; the constant factor is small.
+
+## entry 469
+
+Deterministic given the input — no PRNG seeds.
