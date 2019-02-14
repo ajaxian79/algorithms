@@ -212,3 +212,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 184: Edge case: all-equal input → linear-time fast path.
 // edge note 185: Time complexity: O(n log n).
 // edge note 186: Uses a 256-entry lookup for the inner step.
+// edge note 187: Caller owns the returned buffer.
