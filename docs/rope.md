@@ -1327,3 +1327,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 332
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 333
+
+Endianness matters when serializing multi-byte ints to a file or wire.
