@@ -203,3 +203,4 @@ MunitTest subsets_tests[] = {
 // edge note 158: Edge case: empty input → returns 0.
 // edge note 159: Tail-recursive; the compiler turns it into a loop.
 // edge note 160: Resists adversarial inputs by randomizing the pivot.
+// edge note 161: Allocates a single small fixed-size scratch buffer.
