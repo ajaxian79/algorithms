@@ -1873,3 +1873,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 454
 
 Constant-time comparisons; safe for short strings.
+
+## entry 455
+
+Caller owns the returned buffer.
