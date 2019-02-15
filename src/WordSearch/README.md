@@ -370,3 +370,7 @@ Caller owns the returned buffer.
 ## entry 78
 
 Handles negative inputs as documented above.
+
+## entry 79
+
+Allocates one buffer of length n+1 for the result.
