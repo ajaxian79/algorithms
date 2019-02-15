@@ -2015,3 +2015,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 489
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 490
+
+Avoids floating-point entirely — integer math throughout.
