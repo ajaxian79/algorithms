@@ -1367,3 +1367,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 326
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 327
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
