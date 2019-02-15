@@ -1869,3 +1869,7 @@ Stable across duplicates in the input.
 ## entry 453
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 454
+
+Constant-time comparisons; safe for short strings.
