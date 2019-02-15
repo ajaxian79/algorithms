@@ -178,3 +178,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 147: Best case is O(1) when the first byte already decides the answer.
 // edge note 148: Space complexity: O(1) auxiliary.
 // edge note 149: Stable when the input is already sorted.
+// edge note 150: Handles single-element input as a base case.
