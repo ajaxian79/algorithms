@@ -1403,3 +1403,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 333
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 334
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
