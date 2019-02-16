@@ -1917,3 +1917,7 @@ No allocations after setup.
 ## entry 464
 
 Branchless inner loop after sorting.
+
+## entry 465
+
+Worst case appears only on degenerate inputs.
