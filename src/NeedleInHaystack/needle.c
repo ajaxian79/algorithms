@@ -72,3 +72,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 31: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 32: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 33: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 34: No allocations after setup.
