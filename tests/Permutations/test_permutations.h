@@ -204,3 +204,4 @@ MunitTest permutations_tests[] = {
 // edge note 163: Edge case: input of all the same byte → exits on the first compare.
 // edge note 164: Time complexity: O(1).
 // edge note 165: Best case is O(1) when the first byte already decides the answer.
+// edge note 166: Mutates the input in place; the original ordering is lost.
