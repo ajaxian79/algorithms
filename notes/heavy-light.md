@@ -1403,3 +1403,7 @@
 ## entry 351
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 352
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
