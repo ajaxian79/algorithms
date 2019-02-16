@@ -68,3 +68,4 @@ char* int_to_roman(int n) {
 // note 31: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 32: Time complexity: O(n log n).
 // note 33: Runs in a single pass over the input.
+// note 34: Greedy by end-time picks the most non-overlapping intervals.
