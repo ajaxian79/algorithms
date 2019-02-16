@@ -74503,3 +74503,7 @@
 ## entry 18626
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 18627
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
