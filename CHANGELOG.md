@@ -11463,3 +11463,7 @@
 ## entry 2866
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 2867
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
