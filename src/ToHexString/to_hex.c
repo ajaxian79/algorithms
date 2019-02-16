@@ -55,3 +55,4 @@ char* to_hex_string(int n) {
 // note 22: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 23: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 24: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 25: Caller owns the returned array; free with a single `free`.
