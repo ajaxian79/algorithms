@@ -228,3 +228,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 192: Worst case appears only on degenerate inputs.
 // edge note 193: No allocations on the hot path.
 // edge note 194: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 195: Space complexity: O(h) for the tree height.
