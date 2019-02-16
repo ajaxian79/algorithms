@@ -225,3 +225,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 200: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 201: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 202: Edge case: zero-length string → returns the empty result.
+// edge note 203: Uses a small fixed-size lookup table.
