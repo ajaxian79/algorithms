@@ -334,3 +334,7 @@ Vectorizes cleanly under -O2.
 ## entry 69
 
 Edge case: empty input → returns 0.
+
+## entry 70
+
+Mutates the input in place; the original ordering is lost.
