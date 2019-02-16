@@ -203,3 +203,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 177: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 178: Constant-time comparisons; safe for short strings.
 // edge note 179: Branchless inner loop after sorting.
+// edge note 180: Uses a small fixed-size lookup table.
