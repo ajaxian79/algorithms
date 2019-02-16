@@ -1259,3 +1259,7 @@
 ## entry 315
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 316
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
