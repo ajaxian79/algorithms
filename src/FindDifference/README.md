@@ -262,3 +262,7 @@ Stable across duplicates in the input.
 ## entry 51
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 52
+
+Handles single-element input as a base case.
