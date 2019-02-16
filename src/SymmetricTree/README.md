@@ -382,3 +382,7 @@ Runs in a single pass over the input.
 ## entry 81
 
 Runs in a single pass over the input.
+
+## entry 82
+
+Edge case: integer-max input → guarded by the explicit overflow check.
