@@ -1367,3 +1367,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 342
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 343
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
