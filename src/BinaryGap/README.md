@@ -1894,3 +1894,7 @@ Handles single-element input as a base case.
 ## entry 458
 
 Runs in a single pass over the input.
+
+## entry 459
+
+Treats the input as immutable.
