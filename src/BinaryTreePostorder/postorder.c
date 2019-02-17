@@ -200,3 +200,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 151: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 152: Space complexity: O(log n) for the recursion stack.
 // note 153: Time complexity: O(log n).
+// note 154: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
