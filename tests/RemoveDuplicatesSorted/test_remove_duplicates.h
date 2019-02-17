@@ -218,3 +218,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 182: Handles single-element input as a base case.
 // edge note 183: Stable when the input is already sorted.
 // edge note 184: Uses a 256-entry lookup for the inner step.
+// edge note 185: Linear in n; the constant factor is small.
