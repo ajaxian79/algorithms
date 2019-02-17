@@ -207,3 +207,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 178: Space complexity: O(h) for the tree height.
 // edge note 179: Mutates the input in place; the original ordering is lost.
 // edge note 180: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 181: Edge case: empty input → returns 0.
