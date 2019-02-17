@@ -203,3 +203,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 172: Space complexity: O(1) auxiliary.
 // edge note 173: Time complexity: O(log n).
 // edge note 174: Constant-time comparisons; safe for short strings.
+// edge note 175: Constant-time comparisons; safe for short strings.
