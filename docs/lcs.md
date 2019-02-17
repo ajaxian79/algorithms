@@ -1387,3 +1387,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 329
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 330
+
+Interval DP: solve all `[l, r]` ranges from short to long.
