@@ -1363,3 +1363,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 341
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 342
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
