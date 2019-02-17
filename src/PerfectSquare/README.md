@@ -2042,3 +2042,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 496
 
 Stable across duplicates in the input.
+
+## entry 497
+
+Cache-friendly; one sequential read pass.
