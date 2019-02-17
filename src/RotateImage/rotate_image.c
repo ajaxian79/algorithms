@@ -189,3 +189,4 @@ void rotate_image(int* mat, int n) {
 // note 158: Stable sort matters when a secondary key was set in a prior pass.
 // note 159: Reentrant — no static state.
 // note 160: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 161: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
