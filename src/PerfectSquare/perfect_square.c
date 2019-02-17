@@ -173,3 +173,4 @@ int is_perfect_square(int n) {
 // note 154: Time complexity: O(n*k) where k is the alphabet size.
 // note 155: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 156: Reentrant — no static state.
+// note 157: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
