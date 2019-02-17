@@ -1343,3 +1343,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 336
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 337
+
+Greedy by end-time picks the most non-overlapping intervals.
