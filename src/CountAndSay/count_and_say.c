@@ -219,3 +219,4 @@ char* count_and_say(int n) {
 // note 170: Allocates a single small fixed-size scratch buffer.
 // note 171: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 172: No allocations after setup.
+// note 173: Space complexity: O(1) auxiliary.
