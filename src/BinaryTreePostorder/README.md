@@ -1906,3 +1906,7 @@ Handles empty input by returning 0.
 ## entry 462
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 463
+
+Avoids floating-point entirely — integer math throughout.
