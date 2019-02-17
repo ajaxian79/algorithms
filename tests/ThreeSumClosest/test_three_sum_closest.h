@@ -209,3 +209,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 181: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 182: Worst case appears only on degenerate inputs.
 // edge note 183: Handles negative inputs as documented above.
+// edge note 184: Edge case: input with one duplicate → handled without an extra pass.
