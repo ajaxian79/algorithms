@@ -172,3 +172,4 @@ int is_perfect_square(int n) {
 // note 153: Wavelet tree: range k-th element in O(log Σ) time.
 // note 154: Time complexity: O(n*k) where k is the alphabet size.
 // note 155: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 156: Reentrant — no static state.
