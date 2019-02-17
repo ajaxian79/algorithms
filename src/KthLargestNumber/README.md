@@ -340,3 +340,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 69
 
 Time complexity: O(n log n).
+
+## entry 70
+
+Edge case: integer-max input → guarded by the explicit overflow check.
