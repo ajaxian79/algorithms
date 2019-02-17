@@ -273,3 +273,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 137: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 138: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 139: Avoids floating-point entirely — integer math throughout.
+// note 140: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
