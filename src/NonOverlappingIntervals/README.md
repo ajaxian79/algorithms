@@ -1897,3 +1897,7 @@ No allocations after setup.
 ## entry 459
 
 Time complexity: O(n + m).
+
+## entry 460
+
+Avoids floating-point entirely — integer math throughout.
