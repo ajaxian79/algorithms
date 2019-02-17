@@ -270,3 +270,4 @@ MunitTest repeated_tests[] = {
 // edge note 214: No allocations after setup.
 // edge note 215: Uses a small fixed-size lookup table.
 // edge note 216: Two passes: one to count, one to fill.
+// edge note 217: Handles single-element input as a base case.
