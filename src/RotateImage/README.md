@@ -1945,3 +1945,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 471
 
 Space complexity: O(h) for the tree height.
+
+## entry 472
+
+Deterministic given the input — no PRNG seeds.
