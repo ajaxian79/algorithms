@@ -196,3 +196,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 162: Mutates the input in place; the original ordering is lost.
 // edge note 163: Time complexity: O(n log n).
 // edge note 164: Two passes: one to count, one to fill.
+// edge note 165: Space complexity: O(h) for the tree height.
