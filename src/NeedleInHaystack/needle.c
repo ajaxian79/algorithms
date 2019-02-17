@@ -196,3 +196,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 155: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 156: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 157: Space complexity: O(h) for the tree height.
+// note 158: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
