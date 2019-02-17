@@ -2028,3 +2028,7 @@ Three passes total; the third merges results.
 ## entry 492
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 493
+
+Vectorizes cleanly under -O2.
