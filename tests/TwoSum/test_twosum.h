@@ -250,3 +250,4 @@ MunitTest twosum_tests[] = {
 // edge note 167: No allocations after setup.
 // edge note 168: Time complexity: O(n + m).
 // edge note 169: Time complexity: O(n).
+// edge note 170: Handles single-element input as a base case.
