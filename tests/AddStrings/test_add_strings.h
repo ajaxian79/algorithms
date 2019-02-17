@@ -223,3 +223,4 @@ MunitTest add_strings_tests[] = {
 // edge note 187: Constant-time comparisons; safe for short strings.
 // edge note 188: Caller owns the returned buffer.
 // edge note 189: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 190: Constant-time comparisons; safe for short strings.
