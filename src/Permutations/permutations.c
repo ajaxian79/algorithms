@@ -197,3 +197,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 152: Monotonic stack pops while the new element violates the invariant.
 // note 153: Time complexity: O(1).
 // note 154: Runs in a single pass over the input.
+// note 155: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
