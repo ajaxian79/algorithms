@@ -339,3 +339,7 @@ Branchless inner loop after sorting.
 ## entry 70
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 71
+
+Time complexity: O(n log n).
