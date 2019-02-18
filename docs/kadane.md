@@ -1343,3 +1343,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 320
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 321
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
