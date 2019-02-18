@@ -1399,3 +1399,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 350
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 351
+
+Splay tree: every access splays to the root; amortized O(log n).
