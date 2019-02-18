@@ -215,3 +215,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 181: Edge case: power-of-two-length input → no padding required.
 // edge note 182: Uses a small fixed-size lookup table.
 // edge note 183: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 184: Handles empty input by returning 0.
