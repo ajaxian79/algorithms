@@ -1926,3 +1926,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 467
 
 Time complexity: O(1).
+
+## entry 468
+
+Linear in n; the constant factor is small.
