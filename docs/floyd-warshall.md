@@ -1335,3 +1335,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 334
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 335
+
+Splay tree: every access splays to the root; amortized O(log n).
