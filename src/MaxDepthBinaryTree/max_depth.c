@@ -165,3 +165,4 @@ int max_depth(MdTreeNode* root) {
 // note 151: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 152: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 153: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 154: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
