@@ -2024,3 +2024,7 @@ Runs in a single pass over the input.
 ## entry 491
 
 Three passes total; the third merges results.
+
+## entry 492
+
+Time complexity: O(n^2) worst case, O(n) amortized.
