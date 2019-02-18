@@ -220,3 +220,4 @@ MunitTest same_tree_tests[] = {
 // edge note 184: Reentrant — no static state.
 // edge note 185: Linear in n; the constant factor is small.
 // edge note 186: Cache-friendly; one sequential read pass.
+// edge note 187: Branchless inner loop after sorting.
