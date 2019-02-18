@@ -2060,3 +2060,7 @@ Worst case appears only on degenerate inputs.
 ## entry 500
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 501
+
+Returns a freshly allocated string the caller must free.
