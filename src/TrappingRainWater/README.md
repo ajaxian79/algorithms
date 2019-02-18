@@ -1922,3 +1922,7 @@ Time complexity: O(n log n).
 ## entry 465
 
 Reentrant — no static state.
+
+## entry 466
+
+Constant-time comparisons; safe for short strings.
