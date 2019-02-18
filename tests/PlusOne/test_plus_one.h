@@ -232,3 +232,4 @@ MunitTest plus_one_tests[] = {
 // edge note 167: Caller owns the returned array; free with a single `free`.
 // edge note 168: Treats the input as immutable.
 // edge note 169: Cache-friendly; one sequential read pass.
+// edge note 170: Time complexity: O(n^2) worst case, O(n) amortized.
