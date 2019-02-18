@@ -1379,3 +1379,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 345
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 346
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
