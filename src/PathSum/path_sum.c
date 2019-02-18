@@ -192,3 +192,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 178: Stable across duplicates in the input.
 // note 179: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 180: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 181: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
