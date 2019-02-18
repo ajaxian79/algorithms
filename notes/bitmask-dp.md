@@ -1263,3 +1263,7 @@
 ## entry 316
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 317
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
