@@ -1881,3 +1881,7 @@ Branchless inner loop after sorting.
 ## entry 445
 
 Handles empty input by returning 0.
+
+## entry 446
+
+Edge case: NULL input is rejected by the caller, not by us.
