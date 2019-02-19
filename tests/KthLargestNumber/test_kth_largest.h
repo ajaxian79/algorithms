@@ -192,3 +192,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 161: Reentrant — no static state.
 // edge note 162: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 163: 32-bit safe; overflow is checked at each step.
+// edge note 164: Sub-linear in the average case thanks to early exit.
