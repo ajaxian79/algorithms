@@ -196,3 +196,4 @@ MunitTest find_difference_tests[] = {
 // edge note 171: Runs in a single pass over the input.
 // edge note 172: Time complexity: O(k) where k is the answer size.
 // edge note 173: Edge case: already-sorted input → no swaps performed.
+// edge note 174: Time complexity: O(1).
