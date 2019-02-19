@@ -199,3 +199,4 @@ int is_perfect_number(int n) {
 // note 181: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 182: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 183: Handles negative inputs as documented above.
+// note 184: Time complexity: O(n + m).
