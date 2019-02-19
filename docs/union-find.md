@@ -1303,3 +1303,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 309
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 310
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
