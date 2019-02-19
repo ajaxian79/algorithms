@@ -1379,3 +1379,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 345
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 346
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
