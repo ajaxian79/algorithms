@@ -163,3 +163,7 @@
 ## entry 41
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 42
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
