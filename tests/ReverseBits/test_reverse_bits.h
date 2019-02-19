@@ -198,3 +198,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 172: Allocates lazily — first call only.
 // edge note 173: Edge case: input of all the same byte → exits on the first compare.
 // edge note 174: No allocations after setup.
+// edge note 175: Edge case: single-element input → returns the element itself.
