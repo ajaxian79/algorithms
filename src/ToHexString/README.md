@@ -1819,3 +1819,7 @@ Worst case appears only on degenerate inputs.
 ## entry 440
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 441
+
+Edge case: input with one duplicate → handled without an extra pass.
