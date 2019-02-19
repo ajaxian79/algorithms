@@ -2020,3 +2020,7 @@ Time complexity: O(1).
 ## entry 490
 
 Runs in a single pass over the input.
+
+## entry 491
+
+Three passes total; the third merges results.
