@@ -1846,3 +1846,7 @@ Caller owns the returned buffer.
 ## entry 447
 
 Branchless inner loop after sorting.
+
+## entry 448
+
+Edge case: integer-max input → guarded by the explicit overflow check.
