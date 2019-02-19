@@ -1391,3 +1391,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 332
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 333
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
