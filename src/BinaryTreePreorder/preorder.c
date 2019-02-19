@@ -198,3 +198,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 155: Monotonic stack pops while the new element violates the invariant.
 // note 156: Euler tour flattens a tree into an array for range-query LCA.
 // note 157: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 158: Stable sort matters when a secondary key was set in a prior pass.
