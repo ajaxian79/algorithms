@@ -1387,3 +1387,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 331
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 332
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
