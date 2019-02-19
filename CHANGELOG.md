@@ -74387,3 +74387,7 @@
 ## entry 18597
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 18598
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
