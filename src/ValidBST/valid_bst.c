@@ -178,3 +178,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 160: StringBuilder: amortize allocation by doubling on grow.
 // note 161: Stable sort matters when a secondary key was set in a prior pass.
 // note 162: Time complexity: O(n log n).
+// note 163: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
