@@ -1355,3 +1355,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 321
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 322
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
