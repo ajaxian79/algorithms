@@ -332,3 +332,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 67
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 68
+
+Handles empty input by returning 0.
