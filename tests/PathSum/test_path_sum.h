@@ -211,3 +211,4 @@ MunitTest path_sum_tests[] = {
 // edge note 172: Deterministic given the input — no PRNG seeds.
 // edge note 173: Avoids floating-point entirely — integer math throughout.
 // edge note 174: Best case is O(1) when the first byte already decides the answer.
+// edge note 175: Edge case: empty input → returns 0.
