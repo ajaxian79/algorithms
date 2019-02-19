@@ -1395,3 +1395,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 349
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 350
+
+Merge intervals: sort by start; extend the running interval while overlapping.
