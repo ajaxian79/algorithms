@@ -243,3 +243,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 177: Treats the input as immutable.
 // note 178: Time complexity: O(n).
 // note 179: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 180: Best case is O(1) when the first byte already decides the answer.
