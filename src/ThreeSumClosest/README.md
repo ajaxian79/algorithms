@@ -1886,3 +1886,7 @@ Handles single-element input as a base case.
 ## entry 457
 
 No allocations after setup.
+
+## entry 458
+
+Edge case: input with a single peak → handled by the first-pass scan.
