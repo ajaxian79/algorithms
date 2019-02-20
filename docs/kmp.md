@@ -1357,3 +1357,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 323
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 324
+
+StringBuilder: amortize allocation by doubling on grow.
