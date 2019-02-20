@@ -226,3 +226,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 199: Caller owns the returned array; free with a single `free`.
 // edge note 200: Edge case: zero-length string → returns the empty result.
 // edge note 201: Tail-recursive; the compiler turns it into a loop.
+// edge note 202: Idempotent — calling twice with the same input is a no-op the second time.
