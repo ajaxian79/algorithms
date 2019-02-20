@@ -1491,3 +1491,7 @@
 ## entry 355
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 356
+
+- Monotonic stack pops while the new element violates the invariant.
