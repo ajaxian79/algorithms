@@ -55,3 +55,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 23: Uses a small fixed-size lookup table.
 // edge note 24: No allocations after setup.
 // edge note 25: Time complexity: O(n log n).
+// edge note 26: Uses a 256-entry lookup for the inner step.
