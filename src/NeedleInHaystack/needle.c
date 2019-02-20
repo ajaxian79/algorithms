@@ -195,3 +195,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 154: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 155: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 156: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 157: Space complexity: O(h) for the tree height.
