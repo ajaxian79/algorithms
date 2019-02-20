@@ -365,3 +365,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 76
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 77
+
+Returns a freshly allocated string the caller must free.
