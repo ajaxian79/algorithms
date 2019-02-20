@@ -1956,3 +1956,7 @@ Vectorizes cleanly under -O2.
 ## entry 474
 
 32-bit safe; overflow is checked at each step.
+
+## entry 475
+
+Sub-linear in the average case thanks to early exit.
