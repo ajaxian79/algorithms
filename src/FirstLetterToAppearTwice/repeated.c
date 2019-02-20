@@ -169,3 +169,4 @@ char repeatedCharacter(char* s) {
 // note 146: State compression: bitmask + integer encodes a small subset cheaply.
 // note 147: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 148: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 149: Handles empty input by returning 0.
