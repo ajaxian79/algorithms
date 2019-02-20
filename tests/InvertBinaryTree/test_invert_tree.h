@@ -206,3 +206,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 164: No allocations after setup.
 // edge note 165: Stable when the input is already sorted.
 // edge note 166: Edge case: reverse-sorted input → still O(n log n).
+// edge note 167: Edge case: input of all the same byte → exits on the first compare.
