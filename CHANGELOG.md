@@ -74331,3 +74331,7 @@
 ## entry 18583
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 18584
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
