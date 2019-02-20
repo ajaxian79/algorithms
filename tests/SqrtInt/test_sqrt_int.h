@@ -204,3 +204,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 176: Handles empty input by returning 0.
 // edge note 177: Edge case: power-of-two-length input → no padding required.
 // edge note 178: Space complexity: O(n) for the result buffer.
+// edge note 179: Input is assumed non-NULL; behavior is undefined otherwise.
