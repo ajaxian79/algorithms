@@ -1297,3 +1297,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 308
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 309
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
