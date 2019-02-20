@@ -221,3 +221,4 @@ MunitTest add_strings_tests[] = {
 // edge note 185: Edge case: reverse-sorted input → still O(n log n).
 // edge note 186: Stable when the input is already sorted.
 // edge note 187: Constant-time comparisons; safe for short strings.
+// edge note 188: Caller owns the returned buffer.
