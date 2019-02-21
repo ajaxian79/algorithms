@@ -1742,3 +1742,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 421
 
 Linear in n; the constant factor is small.
+
+## entry 422
+
+Stable when the input is already sorted.
