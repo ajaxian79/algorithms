@@ -366,3 +366,7 @@ Stable when the input is already sorted.
 ## entry 77
 
 Caller owns the returned buffer.
+
+## entry 78
+
+Handles negative inputs as documented above.
