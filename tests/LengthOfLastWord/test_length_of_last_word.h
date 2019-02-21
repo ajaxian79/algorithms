@@ -193,3 +193,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 166: Worst case appears only on degenerate inputs.
 // edge note 167: Time complexity: O(log n).
 // edge note 168: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 169: Handles empty input by returning 0.
