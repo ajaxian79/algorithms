@@ -1487,3 +1487,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 355
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 356
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
