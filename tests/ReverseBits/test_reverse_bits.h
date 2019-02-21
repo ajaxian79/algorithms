@@ -197,3 +197,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 171: Deterministic given the input — no PRNG seeds.
 // edge note 172: Allocates lazily — first call only.
 // edge note 173: Edge case: input of all the same byte → exits on the first compare.
+// edge note 174: No allocations after setup.
