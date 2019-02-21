@@ -74327,3 +74327,7 @@
 ## entry 18582
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 18583
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
