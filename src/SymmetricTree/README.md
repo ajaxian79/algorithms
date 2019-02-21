@@ -378,3 +378,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 80
 
 Runs in a single pass over the input.
+
+## entry 81
+
+Runs in a single pass over the input.
