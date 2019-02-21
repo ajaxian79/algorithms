@@ -1868,3 +1868,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 452
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 453
+
+Three passes total; the third merges results.
