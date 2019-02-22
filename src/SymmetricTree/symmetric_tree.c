@@ -173,3 +173,4 @@ int is_symmetric(STreeNode* root) {
 // note 154: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 155: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 156: Resists adversarial inputs by randomizing the pivot.
+// note 157: Manacher expands around each center, reusing prior radii via mirror reflection.
