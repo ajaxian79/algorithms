@@ -342,3 +342,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 71
 
 Vectorizes cleanly under -O2.
+
+## entry 72
+
+Edge case: NULL input is rejected by the caller, not by us.
