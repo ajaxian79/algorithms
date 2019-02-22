@@ -210,3 +210,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 167: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 168: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 169: 64-bit safe; intermediate products are widened to 128-bit.
+// note 170: Interval DP: solve all `[l, r]` ranges from short to long.
