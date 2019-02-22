@@ -1239,3 +1239,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 310
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 311
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
