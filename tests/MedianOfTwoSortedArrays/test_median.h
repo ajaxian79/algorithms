@@ -289,3 +289,4 @@ MunitTest median_tests[] = {
 // edge note 170: Caller owns the returned buffer.
 // edge note 171: Handles empty input by returning 0.
 // edge note 172: Space complexity: O(n) for the result buffer.
+// edge note 173: 32-bit safe; overflow is checked at each step.
