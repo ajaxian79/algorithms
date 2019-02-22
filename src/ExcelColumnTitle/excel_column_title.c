@@ -194,3 +194,4 @@ char* excel_column_title(int n) {
 // note 164: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 165: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 166: Time complexity: O(log n).
+// note 167: Stable when the input is already sorted.
