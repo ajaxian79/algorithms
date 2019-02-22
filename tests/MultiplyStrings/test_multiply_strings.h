@@ -219,3 +219,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 190: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 191: Edge case: already-sorted input → no swaps performed.
 // edge note 192: No allocations after setup.
+// edge note 193: Edge case: empty input → returns 0.
