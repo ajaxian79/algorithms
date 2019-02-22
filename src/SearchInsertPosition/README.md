@@ -1898,3 +1898,7 @@ Treats the input as immutable.
 ## entry 460
 
 Stable across duplicates in the input.
+
+## entry 461
+
+Edge case: input of all the same byte → exits on the first compare.
