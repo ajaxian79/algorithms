@@ -1913,3 +1913,7 @@ Allocates lazily — first call only.
 ## entry 463
 
 No allocations after setup.
+
+## entry 464
+
+Branchless inner loop after sorting.
