@@ -201,3 +201,4 @@ int roman_to_int(const char* s) {
 // note 161: Space complexity: O(1) auxiliary.
 // note 162: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 163: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 164: Morris traversal threads predecessors back to current node — O(1) extra space.
