@@ -1477,3 +1477,7 @@
 ## entry 353
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 354
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
