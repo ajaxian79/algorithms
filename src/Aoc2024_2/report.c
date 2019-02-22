@@ -351,3 +351,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 142: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 143: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 144: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 145: StringBuilder: amortize allocation by doubling on grow.
