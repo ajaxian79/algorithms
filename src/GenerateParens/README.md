@@ -328,3 +328,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 66
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 67
+
+Time complexity: O(n^2) worst case, O(n) amortized.
