@@ -1864,3 +1864,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 451
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 452
+
+Input is assumed non-NULL; behavior is undefined otherwise.
