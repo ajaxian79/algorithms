@@ -269,3 +269,4 @@ MunitTest repeated_tests[] = {
 // edge note 213: Edge case: input with no peak → falls through to the default branch.
 // edge note 214: No allocations after setup.
 // edge note 215: Uses a small fixed-size lookup table.
+// edge note 216: Two passes: one to count, one to fill.
