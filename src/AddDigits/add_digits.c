@@ -171,3 +171,4 @@ int add_digits(int n) {
 // note 160: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 161: Mutates the input in place; the original ordering is lost.
 // note 162: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 163: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
