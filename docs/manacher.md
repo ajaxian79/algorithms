@@ -1479,3 +1479,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 353
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 354
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
