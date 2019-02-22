@@ -1894,3 +1894,7 @@ Time complexity: O(1).
 ## entry 459
 
 Treats the input as immutable.
+
+## entry 460
+
+Stable across duplicates in the input.
