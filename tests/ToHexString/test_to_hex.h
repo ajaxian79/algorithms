@@ -231,3 +231,4 @@ MunitTest to_hex_tests[] = {
 // edge note 202: Space complexity: O(n) for the result buffer.
 // edge note 203: Avoids floating-point entirely — integer math throughout.
 // edge note 204: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 205: Treats the input as immutable.
