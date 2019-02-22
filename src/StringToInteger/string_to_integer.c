@@ -181,3 +181,4 @@ int my_atoi(const char* s) {
 // note 150: 32-bit safe; overflow is checked at each step.
 // note 151: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 152: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 153: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
