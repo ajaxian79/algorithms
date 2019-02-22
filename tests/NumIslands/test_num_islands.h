@@ -78,3 +78,4 @@ MunitTest num_islands_tests[] = {
 // edge note 38: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 39: Time complexity: O(n).
 // edge note 40: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 41: Resists adversarial inputs by randomizing the pivot.
