@@ -2006,3 +2006,7 @@ Linear in n; the constant factor is small.
 ## entry 486
 
 Edge case: single-element input → returns the element itself.
+
+## entry 487
+
+Handles empty input by returning 0.
