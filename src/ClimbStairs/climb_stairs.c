@@ -198,3 +198,4 @@ long long climb_stairs(int n) {
 // note 179: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 180: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 181: Mutates the input in place; the original ordering is lost.
+// note 182: Avoids floating-point entirely — integer math throughout.
