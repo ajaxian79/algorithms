@@ -191,3 +191,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 164: Handles single-element input as a base case.
 // edge note 165: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 166: Caller owns the returned buffer.
+// edge note 167: Time complexity: O(k) where k is the answer size.
