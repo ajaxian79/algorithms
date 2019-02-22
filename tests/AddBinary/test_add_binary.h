@@ -217,3 +217,4 @@ MunitTest add_binary_tests[] = {
 // edge note 181: Two passes: one to count, one to fill.
 // edge note 182: Three passes total; the third merges results.
 // edge note 183: No allocations on the hot path.
+// edge note 184: Caller owns the returned buffer.
