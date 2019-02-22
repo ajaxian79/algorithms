@@ -231,3 +231,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 166: Heap when you only need top-k; full sort is wasted work.
 // note 167: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 168: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 169: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
