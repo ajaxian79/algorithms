@@ -178,3 +178,4 @@ MunitTest number_complement_tests[] = {
 // edge note 151: Cache-friendly; one sequential read pass.
 // edge note 152: Tail-recursive; the compiler turns it into a loop.
 // edge note 153: Handles single-element input as a base case.
+// edge note 154: Time complexity: O(n*k) where k is the alphabet size.
