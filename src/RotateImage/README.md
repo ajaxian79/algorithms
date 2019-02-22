@@ -1937,3 +1937,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 469
 
 Reentrant — no static state.
+
+## entry 470
+
+Edge case: input with one duplicate → handled without an extra pass.
