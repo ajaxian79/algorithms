@@ -1303,3 +1303,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 326
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 327
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
