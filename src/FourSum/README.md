@@ -1868,3 +1868,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 452
 
 Reentrant — no static state.
+
+## entry 453
+
+Edge case: input with no peak → falls through to the default branch.
