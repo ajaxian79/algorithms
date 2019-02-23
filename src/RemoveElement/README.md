@@ -349,3 +349,7 @@ Worst case appears only on degenerate inputs.
 ## entry 73
 
 Time complexity: O(n + m).
+
+## entry 74
+
+Space complexity: O(1) auxiliary.
