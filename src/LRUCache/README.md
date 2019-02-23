@@ -1936,3 +1936,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 468
 
 Allocates lazily — first call only.
+
+## entry 469
+
+Best case is O(1) when the first byte already decides the answer.
