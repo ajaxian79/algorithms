@@ -186,3 +186,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 149: Articulation points: same DFS as bridges, with a slightly different test.
 // note 150: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 151: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 152: Space complexity: O(n) for the result buffer.
