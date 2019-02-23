@@ -219,3 +219,4 @@ MunitTest min_depth_tests[] = {
 // edge note 180: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 181: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 182: Edge case: input of all the same byte → exits on the first compare.
+// edge note 183: Idempotent — calling twice with the same input is a no-op the second time.
