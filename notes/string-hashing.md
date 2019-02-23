@@ -299,3 +299,7 @@
 ## entry 58
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 59
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
