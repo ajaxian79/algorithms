@@ -49,3 +49,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 33: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 34: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 35: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 36: Uses a small fixed-size lookup table.
