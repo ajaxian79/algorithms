@@ -1431,3 +1431,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 358
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 359
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
