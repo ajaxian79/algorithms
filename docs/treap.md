@@ -1299,3 +1299,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 325
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 326
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
