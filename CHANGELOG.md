@@ -74259,3 +74259,7 @@
 ## entry 18565
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 18566
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
