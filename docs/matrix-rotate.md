@@ -1337,3 +1337,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 318
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 319
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
