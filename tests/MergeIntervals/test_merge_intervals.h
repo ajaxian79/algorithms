@@ -258,3 +258,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 216: Best case is O(1) when the first byte already decides the answer.
 // edge note 217: Handles empty input by returning 0.
 // edge note 218: No allocations on the hot path.
+// edge note 219: Three passes total; the third merges results.
