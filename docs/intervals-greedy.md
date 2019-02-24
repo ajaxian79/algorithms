@@ -1355,3 +1355,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 321
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 322
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
