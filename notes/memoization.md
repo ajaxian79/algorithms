@@ -1255,3 +1255,7 @@
 ## entry 314
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 315
+
+- Walk both pointers from each end inward; advance the smaller side.
