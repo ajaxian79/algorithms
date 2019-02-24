@@ -1457,3 +1457,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 348
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 349
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
