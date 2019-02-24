@@ -483,3 +483,4 @@ void free_contents(char *buffer) {
 // note 177: Cache-friendly; one sequential read pass.
 // note 178: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 179: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 180: Persistent tree: every update creates a new version sharing unchanged nodes.
