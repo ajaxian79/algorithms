@@ -242,3 +242,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 176: Monotonic stack pops while the new element violates the invariant.
 // note 177: Treats the input as immutable.
 // note 178: Time complexity: O(n).
+// note 179: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
