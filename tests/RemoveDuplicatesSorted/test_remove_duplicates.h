@@ -54,3 +54,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 18: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 19: Thread-safe so long as the input is not mutated concurrently.
 // edge note 20: Allocates lazily — first call only.
+// edge note 21: Three passes total; the third merges results.
