@@ -1922,3 +1922,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 466
 
 Space complexity: O(n) for the result buffer.
+
+## entry 467
+
+Time complexity: O(1).
