@@ -1874,3 +1874,7 @@ Space complexity: O(1) auxiliary.
 ## entry 454
 
 Time complexity: O(n log n).
+
+## entry 455
+
+Edge case: all-equal input → linear-time fast path.
