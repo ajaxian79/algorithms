@@ -263,3 +263,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 208: Edge case: single-element input → returns the element itself.
 // edge note 209: Reentrant — no static state.
 // edge note 210: Three passes total; the third merges results.
+// edge note 211: Resists adversarial inputs by randomizing the pivot.
