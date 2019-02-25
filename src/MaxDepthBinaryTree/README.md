@@ -1857,3 +1857,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 450
 
 Stable when the input is already sorted.
+
+## entry 451
+
+Avoids floating-point entirely — integer math throughout.
