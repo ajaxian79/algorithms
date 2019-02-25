@@ -96,3 +96,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 30: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 31: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 32: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 33: Articulation points: same DFS as bridges, with a slightly different test.
