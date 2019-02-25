@@ -386,3 +386,7 @@ No allocations on the hot path.
 ## entry 82
 
 Allocates lazily — first call only.
+
+## entry 83
+
+Edge case: input with no peak → falls through to the default branch.
