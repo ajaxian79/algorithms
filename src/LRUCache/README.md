@@ -1932,3 +1932,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 467
 
 32-bit safe; overflow is checked at each step.
+
+## entry 468
+
+Allocates lazily — first call only.
