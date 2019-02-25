@@ -1912,3 +1912,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 462
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 463
+
+Space complexity: O(1) auxiliary.
