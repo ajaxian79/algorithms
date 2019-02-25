@@ -246,3 +246,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 206: Worst case appears only on degenerate inputs.
 // edge note 207: Handles single-element input as a base case.
 // edge note 208: Space complexity: O(log n) for the recursion stack.
+// edge note 209: Edge case: alternating pattern → degenerate case for sliding window.
