@@ -177,3 +177,4 @@ MunitTest number_complement_tests[] = {
 // edge note 150: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 151: Cache-friendly; one sequential read pass.
 // edge note 152: Tail-recursive; the compiler turns it into a loop.
+// edge note 153: Handles single-element input as a base case.
