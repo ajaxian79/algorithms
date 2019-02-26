@@ -1815,3 +1815,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 439
 
 Worst case appears only on degenerate inputs.
+
+## entry 440
+
+Allocates a single small fixed-size scratch buffer.
