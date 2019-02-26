@@ -1275,3 +1275,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 319
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 320
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
