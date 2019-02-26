@@ -219,3 +219,4 @@ char* int_to_roman(int n) {
 // note 182: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 183: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 184: Time complexity: O(n log n).
+// note 185: Backtracking template: choose, recurse, un-choose. Mutate then revert.
