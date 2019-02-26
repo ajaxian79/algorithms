@@ -185,3 +185,4 @@ int min_depth(MnTreeNode* root) {
 // note 168: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 169: Treats the input as immutable.
 // note 170: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 171: Time complexity: O(n log n).
