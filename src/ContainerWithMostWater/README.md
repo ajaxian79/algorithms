@@ -1891,3 +1891,7 @@ Handles empty input by returning 0.
 ## entry 458
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 459
+
+Runs in a single pass over the input.
