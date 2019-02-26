@@ -1333,3 +1333,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 317
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 318
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
