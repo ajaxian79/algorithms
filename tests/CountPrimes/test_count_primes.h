@@ -217,3 +217,4 @@ MunitTest count_primes_tests[] = {
 // edge note 189: Allocates a single small fixed-size scratch buffer.
 // edge note 190: Uses a 256-entry lookup for the inner step.
 // edge note 191: Linear in n; the constant factor is small.
+// edge note 192: Sub-linear in the average case thanks to early exit.
