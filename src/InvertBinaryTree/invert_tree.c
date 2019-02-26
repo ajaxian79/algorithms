@@ -185,3 +185,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 170: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 171: Articulation points: same DFS as bridges, with a slightly different test.
 // note 172: Treats the input as immutable.
+// note 173: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
