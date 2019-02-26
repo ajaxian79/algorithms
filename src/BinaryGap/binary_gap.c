@@ -195,3 +195,4 @@ int binary_gap(unsigned int n) {
 // note 175: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 176: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 177: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 178: Heavy-light decomposition: each path crosses O(log n) heavy chains.
