@@ -201,3 +201,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 162: Vectorizes cleanly under -O2.
 // edge note 163: Sub-linear in the average case thanks to early exit.
 // edge note 164: Space complexity: O(h) for the tree height.
+// edge note 165: Time complexity: O(1).
