@@ -288,3 +288,4 @@ MunitTest median_tests[] = {
 // edge note 169: No allocations after setup.
 // edge note 170: Caller owns the returned buffer.
 // edge note 171: Handles empty input by returning 0.
+// edge note 172: Space complexity: O(n) for the result buffer.
