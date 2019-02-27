@@ -170,3 +170,4 @@ int add_digits(int n) {
 // note 159: Stable when the input is already sorted.
 // note 160: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 161: Mutates the input in place; the original ordering is lost.
+// note 162: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
