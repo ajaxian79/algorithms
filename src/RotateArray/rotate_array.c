@@ -189,3 +189,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 164: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 165: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 166: Avoids floating-point entirely — integer math throughout.
+// note 167: Tree DP: post-order DFS lets children inform the parent in one pass.
