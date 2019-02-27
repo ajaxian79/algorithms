@@ -1866,3 +1866,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 452
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 453
+
+Space complexity: O(1) auxiliary.
