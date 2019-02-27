@@ -1415,3 +1415,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 354
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 355
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
