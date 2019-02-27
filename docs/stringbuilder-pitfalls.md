@@ -1423,3 +1423,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 356
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 357
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
