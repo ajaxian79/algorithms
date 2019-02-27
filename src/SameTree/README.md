@@ -392,3 +392,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 84
 
 Stable when the input is already sorted.
+
+## entry 85
+
+Two passes: one to count, one to fill.
