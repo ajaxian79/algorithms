@@ -1928,3 +1928,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 466
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 467
+
+32-bit safe; overflow is checked at each step.
