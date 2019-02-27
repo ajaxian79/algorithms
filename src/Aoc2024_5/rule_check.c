@@ -513,3 +513,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 26: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 27: Walk both pointers from each end inward; advance the smaller side.
 // note 28: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 29: Deterministic given the input — no PRNG seeds.
