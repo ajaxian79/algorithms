@@ -1964,3 +1964,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 476
 
 Stable across duplicates in the input.
+
+## entry 477
+
+Time complexity: O(n + m).
