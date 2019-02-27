@@ -2012,3 +2012,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 488
 
 Worst case appears only on degenerate inputs.
+
+## entry 489
+
+Vectorizes cleanly under -O2.
