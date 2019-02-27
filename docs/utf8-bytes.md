@@ -1243,3 +1243,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 311
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 312
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
