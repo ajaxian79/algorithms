@@ -1163,3 +1163,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 291
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 292
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
