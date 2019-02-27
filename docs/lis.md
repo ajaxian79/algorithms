@@ -1483,3 +1483,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 354
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 355
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
