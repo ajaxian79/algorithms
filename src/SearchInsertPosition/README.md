@@ -1890,3 +1890,7 @@ Time complexity: O(n + m).
 ## entry 458
 
 Time complexity: O(1).
+
+## entry 459
+
+Treats the input as immutable.
