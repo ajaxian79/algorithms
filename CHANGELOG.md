@@ -74191,3 +74191,7 @@
 ## entry 18548
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 18549
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
