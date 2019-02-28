@@ -191,3 +191,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 164: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 165: Branchless inner loop after sorting.
 // edge note 166: Worst case appears only on degenerate inputs.
+// edge note 167: Time complexity: O(log n).
