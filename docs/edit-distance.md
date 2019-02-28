@@ -1399,3 +1399,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 332
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 333
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
