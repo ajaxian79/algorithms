@@ -1996,3 +1996,7 @@ Allocates lazily — first call only.
 ## entry 483
 
 Allocates lazily — first call only.
+
+## entry 484
+
+Best case is O(1) when the first byte already decides the answer.
