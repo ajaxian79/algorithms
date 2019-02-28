@@ -1159,3 +1159,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 290
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 291
+
+Stable sort matters when a secondary key was set in a prior pass.
