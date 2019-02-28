@@ -243,3 +243,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 61
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 62
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
