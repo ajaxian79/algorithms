@@ -212,3 +212,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 180: No allocations after setup.
 // edge note 181: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 182: Reentrant — no static state.
+// edge note 183: Two passes: one to count, one to fill.
