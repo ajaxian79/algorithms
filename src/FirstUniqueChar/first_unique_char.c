@@ -202,3 +202,4 @@ int first_unique_char(const char* s) {
 // note 183: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 184: Returns a freshly allocated string the caller must free.
 // note 185: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 186: Unbounded knapsack: capacity inner ascending allows item reuse.
