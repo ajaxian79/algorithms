@@ -1347,3 +1347,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 319
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 320
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
