@@ -1729,3 +1729,7 @@ Three passes total; the third merges results.
 ## entry 417
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 418
+
+Deterministic given the input — no PRNG seeds.
