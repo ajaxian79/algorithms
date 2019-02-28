@@ -1882,3 +1882,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 455
 
 Runs in a single pass over the input.
+
+## entry 456
+
+Allocates one buffer of length n+1 for the result.
