@@ -1323,3 +1323,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 331
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 332
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
