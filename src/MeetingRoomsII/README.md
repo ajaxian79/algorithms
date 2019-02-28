@@ -2026,3 +2026,7 @@ Handles single-element input as a base case.
 ## entry 491
 
 Stable when the input is already sorted.
+
+## entry 492
+
+Allocates one buffer of length n+1 for the result.
