@@ -1425,3 +1425,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 339
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 340
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
