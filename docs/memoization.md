@@ -1399,3 +1399,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 350
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 351
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
