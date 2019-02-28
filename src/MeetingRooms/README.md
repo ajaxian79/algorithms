@@ -1906,3 +1906,7 @@ Branchless inner loop after sorting.
 ## entry 462
 
 Stable across duplicates in the input.
+
+## entry 463
+
+Caller owns the returned array; free with a single `free`.
