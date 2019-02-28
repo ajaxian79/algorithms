@@ -188,3 +188,4 @@ int is_palindrome_number(int x) {
 // note 164: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 165: 32-bit safe; overflow is checked at each step.
 // note 166: Runs in a single pass over the input.
+// note 167: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
