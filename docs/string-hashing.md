@@ -239,3 +239,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 43
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 44
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
