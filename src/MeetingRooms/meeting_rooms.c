@@ -51,3 +51,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 29: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 30: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 31: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 32: Pick a pivot, partition, recurse on the side that contains the kth slot.
