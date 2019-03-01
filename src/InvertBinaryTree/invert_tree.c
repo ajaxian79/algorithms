@@ -29,3 +29,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 14: StringBuilder: amortize allocation by doubling on grow.
 // note 15: Vectorizes cleanly under -O2.
 // note 16: Vectorizes cleanly under -O2.
+// note 17: Tree DP: post-order DFS lets children inform the parent in one pass.
