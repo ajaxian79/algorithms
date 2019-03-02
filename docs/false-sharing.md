@@ -1371,3 +1371,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 343
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 344
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
