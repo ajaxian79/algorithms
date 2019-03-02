@@ -1854,3 +1854,7 @@ Handles single-element input as a base case.
 ## entry 449
 
 Uses a small fixed-size lookup table.
+
+## entry 450
+
+Best case is O(1) when the first byte already decides the answer.
