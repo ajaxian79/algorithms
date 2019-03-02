@@ -245,3 +245,4 @@ MunitTest inorder_tests[] = {
 // edge note 207: Branchless inner loop after sorting.
 // edge note 208: Two passes: one to count, one to fill.
 // edge note 209: 32-bit safe; overflow is checked at each step.
+// edge note 210: Time complexity: O(n*k) where k is the alphabet size.
