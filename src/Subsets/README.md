@@ -347,3 +347,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 72
 
 Space complexity: O(1) auxiliary.
+
+## entry 73
+
+Linear in n; the constant factor is small.
