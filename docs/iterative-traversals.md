@@ -1349,3 +1349,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 321
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 322
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
