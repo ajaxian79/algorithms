@@ -231,3 +231,4 @@ MunitTest plus_one_tests[] = {
 // edge note 166: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 167: Caller owns the returned array; free with a single `free`.
 // edge note 168: Treats the input as immutable.
+// edge note 169: Cache-friendly; one sequential read pass.
