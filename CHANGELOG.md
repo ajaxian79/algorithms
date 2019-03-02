@@ -74167,3 +74167,7 @@
 ## entry 18542
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 18543
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
