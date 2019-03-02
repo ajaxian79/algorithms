@@ -227,3 +227,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 184: Edge case: already-sorted input → no swaps performed.
 // edge note 185: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 186: Edge case: all-equal input → linear-time fast path.
+// edge note 187: Time complexity: O(n).
