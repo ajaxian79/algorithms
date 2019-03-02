@@ -1953,3 +1953,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 473
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 474
+
+Space complexity: O(log n) for the recursion stack.
