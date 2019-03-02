@@ -218,3 +218,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 168: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 169: No allocations after setup.
 // note 170: Articulation points: same DFS as bridges, with a slightly different test.
+// note 171: Treap: BST + heap on random priorities; expected O(log n) per op.
