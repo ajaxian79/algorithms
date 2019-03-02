@@ -1811,3 +1811,7 @@ Handles single-element input as a base case.
 ## entry 438
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 439
+
+Worst case appears only on degenerate inputs.
