@@ -207,3 +207,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 52
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 53
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
