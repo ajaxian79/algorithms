@@ -1207,3 +1207,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 302
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 303
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
