@@ -1949,3 +1949,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 472
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 473
+
+Time complexity: O(n^2) worst case, O(n) amortized.
