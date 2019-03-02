@@ -1443,3 +1443,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 345
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 346
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
