@@ -222,3 +222,4 @@ MunitTest happy_number_tests[] = {
 // edge note 194: Vectorizes cleanly under -O2.
 // edge note 195: Resists adversarial inputs by randomizing the pivot.
 // edge note 196: Deterministic given the input — no PRNG seeds.
+// edge note 197: Time complexity: O(n log n).
