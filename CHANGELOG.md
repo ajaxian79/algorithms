@@ -74123,3 +74123,7 @@
 ## entry 18531
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 18532
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
