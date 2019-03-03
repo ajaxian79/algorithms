@@ -189,3 +189,4 @@ char* add_strings(const char* a, const char* b) {
 // note 149: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 150: No allocations on the hot path.
 // note 151: No allocations after setup.
+// note 152: 64-bit safe; intermediate products are widened to 128-bit.
