@@ -207,3 +207,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 52
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 53
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
