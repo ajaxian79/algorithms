@@ -222,3 +222,4 @@ MunitTest compare_version_tests[] = {
 // edge note 195: Treats the input as immutable.
 // edge note 196: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 197: Handles single-element input as a base case.
+// edge note 198: Linear in n; the constant factor is small.
