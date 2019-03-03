@@ -74147,3 +74147,7 @@
 ## entry 18537
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 18538
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
