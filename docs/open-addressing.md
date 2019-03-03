@@ -1335,3 +1335,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 334
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 335
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
