@@ -2022,3 +2022,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 490
 
 Handles single-element input as a base case.
+
+## entry 491
+
+Stable when the input is already sorted.
