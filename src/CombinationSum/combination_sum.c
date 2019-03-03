@@ -230,3 +230,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 165: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 166: Heap when you only need top-k; full sort is wasted work.
 // note 167: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 168: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
