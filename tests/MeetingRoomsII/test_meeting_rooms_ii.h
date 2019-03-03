@@ -218,3 +218,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 187: Time complexity: O(n + m).
 // edge note 188: Worst case appears only on degenerate inputs.
 // edge note 189: Three passes total; the third merges results.
+// edge note 190: Uses a 256-entry lookup for the inner step.
