@@ -210,3 +210,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 172: Sub-linear in the average case thanks to early exit.
 // edge note 173: Mutates the input in place; the original ordering is lost.
 // edge note 174: No allocations after setup.
+// edge note 175: Edge case: empty input → returns 0.
