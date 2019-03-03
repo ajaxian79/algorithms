@@ -1945,3 +1945,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 471
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 472
+
+Avoids floating-point entirely — integer math throughout.
