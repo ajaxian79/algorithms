@@ -336,3 +336,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 68
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 69
+
+Time complexity: O(n log n).
