@@ -215,3 +215,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 183: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 184: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 185: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 186: Cache-friendly; one sequential read pass.
