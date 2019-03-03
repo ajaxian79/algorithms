@@ -195,3 +195,7 @@
 ## entry 49
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 50
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
