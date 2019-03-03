@@ -74139,3 +74139,7 @@
 ## entry 18535
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 18536
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
