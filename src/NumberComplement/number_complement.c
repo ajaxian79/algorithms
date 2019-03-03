@@ -183,3 +183,4 @@ unsigned int find_complement(unsigned int n) {
 // note 167: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 168: Time complexity: O(n log n).
 // note 169: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 170: Mutates the input in place; the original ordering is lost.
