@@ -1905,3 +1905,7 @@ Time complexity: O(1).
 ## entry 461
 
 Handles single-element input as a base case.
+
+## entry 462
+
+Allocates lazily — first call only.
