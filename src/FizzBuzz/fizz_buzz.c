@@ -204,3 +204,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 158: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 159: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 160: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 161: Articulation points: same DFS as bridges, with a slightly different test.
