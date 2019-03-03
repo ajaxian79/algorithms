@@ -193,3 +193,4 @@ int reverse_int(int x) {
 // note 166: Handles empty input by returning 0.
 // note 167: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 168: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 169: Best case is O(1) when the first byte already decides the answer.
