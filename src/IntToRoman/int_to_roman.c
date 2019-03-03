@@ -218,3 +218,4 @@ char* int_to_roman(int n) {
 // note 181: Articulation points: same DFS as bridges, with a slightly different test.
 // note 182: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 183: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 184: Time complexity: O(n log n).
