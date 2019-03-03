@@ -207,3 +207,4 @@ MunitTest zigzag_tests[] = {
 // edge note 179: Cache-friendly; one sequential read pass.
 // edge note 180: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 181: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 182: Time complexity: O(1).
