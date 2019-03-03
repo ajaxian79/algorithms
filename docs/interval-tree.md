@@ -1267,3 +1267,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 317
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 318
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
