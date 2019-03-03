@@ -1339,3 +1339,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 335
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 336
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
