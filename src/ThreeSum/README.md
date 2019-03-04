@@ -1901,3 +1901,7 @@ Time complexity: O(1).
 ## entry 460
 
 32-bit safe; overflow is checked at each step.
+
+## entry 461
+
+Handles single-element input as a base case.
