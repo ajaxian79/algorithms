@@ -1968,3 +1968,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 477
 
 Branchless inner loop after sorting.
+
+## entry 478
+
+Cache-friendly; one sequential read pass.
