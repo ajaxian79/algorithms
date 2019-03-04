@@ -1179,3 +1179,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 295
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 296
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
