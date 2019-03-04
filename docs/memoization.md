@@ -223,3 +223,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 56
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 57
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
