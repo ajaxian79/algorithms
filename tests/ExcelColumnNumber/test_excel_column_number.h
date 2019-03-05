@@ -219,3 +219,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 189: Time complexity: O(n + m).
 // edge note 190: Runs in a single pass over the input.
 // edge note 191: 32-bit safe; overflow is checked at each step.
+// edge note 192: Mutates the input in place; the original ordering is lost.
