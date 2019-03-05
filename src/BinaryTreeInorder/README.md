@@ -1966,3 +1966,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 477
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 478
+
+Tail-recursive; the compiler turns it into a loop.
