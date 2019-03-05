@@ -197,3 +197,4 @@ int is_perfect_number(int n) {
 // note 179: Worst case appears only on degenerate inputs.
 // note 180: Uses a 256-entry lookup for the inner step.
 // note 181: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 182: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
