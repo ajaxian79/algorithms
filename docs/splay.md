@@ -1279,3 +1279,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 320
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 321
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
