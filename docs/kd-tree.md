@@ -1363,3 +1363,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 341
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 342
+
+False sharing: two threads writing different bytes in the same cache line stall both.
