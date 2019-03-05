@@ -1399,3 +1399,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 350
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 351
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
