@@ -1856,3 +1856,7 @@ Cache-friendly; one sequential read pass.
 ## entry 450
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 451
+
+64-bit safe; intermediate products are widened to 128-bit.
