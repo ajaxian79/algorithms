@@ -1381,3 +1381,7 @@
 ## entry 327
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 328
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
