@@ -1887,3 +1887,7 @@ Linear in n; the constant factor is small.
 ## entry 457
 
 Handles empty input by returning 0.
+
+## entry 458
+
+Resists adversarial inputs by randomizing the pivot.
