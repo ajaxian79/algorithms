@@ -273,3 +273,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 50
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 51
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
