@@ -1331,3 +1331,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 333
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 334
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
