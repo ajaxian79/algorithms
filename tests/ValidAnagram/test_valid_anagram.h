@@ -223,3 +223,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 198: Edge case: power-of-two-length input → no padding required.
 // edge note 199: Caller owns the returned buffer.
 // edge note 200: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 201: Edge case: integer-max input → guarded by the explicit overflow check.
