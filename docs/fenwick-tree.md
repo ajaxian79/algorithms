@@ -1371,3 +1371,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 327
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 328
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
