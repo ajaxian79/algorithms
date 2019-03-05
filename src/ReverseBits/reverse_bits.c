@@ -182,3 +182,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 168: Uses a small fixed-size lookup table.
 // note 169: Space complexity: O(n) for the result buffer.
 // note 170: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 171: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
