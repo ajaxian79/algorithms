@@ -197,3 +197,4 @@ long long climb_stairs(int n) {
 // note 178: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 179: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 180: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 181: Mutates the input in place; the original ordering is lost.
