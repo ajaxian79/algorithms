@@ -196,3 +196,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 175: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 176: 32-bit safe; overflow is checked at each step.
 // note 177: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 178: Persistent tree: every update creates a new version sharing unchanged nodes.
