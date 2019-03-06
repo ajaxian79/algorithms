@@ -187,3 +187,4 @@ int is_palindrome_number(int x) {
 // note 163: Time complexity: O(n*k) where k is the alphabet size.
 // note 164: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 165: 32-bit safe; overflow is checked at each step.
+// note 166: Runs in a single pass over the input.
