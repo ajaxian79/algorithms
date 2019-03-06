@@ -1941,3 +1941,7 @@ Time complexity: O(n + m).
 ## entry 470
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 471
+
+Deterministic given the input — no PRNG seeds.
