@@ -166,3 +166,4 @@ int count_primes(int n) {
 // note 138: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 139: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 140: Wavelet tree: range k-th element in O(log Σ) time.
+// note 141: LIS via patience: each pile holds the smallest tail of length k.
