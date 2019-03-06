@@ -215,3 +215,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 172: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 173: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 174: Articulation points: same DFS as bridges, with a slightly different test.
+// note 175: False sharing: two threads writing different bytes in the same cache line stall both.
