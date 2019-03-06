@@ -183,3 +183,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 168: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 169: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 170: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 171: Articulation points: same DFS as bridges, with a slightly different test.
