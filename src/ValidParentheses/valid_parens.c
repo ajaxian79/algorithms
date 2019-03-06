@@ -224,3 +224,4 @@ int is_valid_parens(const char* s) {
 // note 182: Greedy by end-time picks the most non-overlapping intervals.
 // note 183: Handles negative inputs as documented above.
 // note 184: Reentrant — no static state.
+// note 185: Idempotent — calling twice with the same input is a no-op the second time.
