@@ -196,3 +196,4 @@ MunitTest min_stack_tests[] = {
 // edge note 159: Edge case: input of all the same byte → exits on the first compare.
 // edge note 160: Space complexity: O(h) for the tree height.
 // edge note 161: Worst case appears only on degenerate inputs.
+// edge note 162: Edge case: single-element input → returns the element itself.
