@@ -279,3 +279,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 52
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 53
+
+Greedy by end-time picks the most non-overlapping intervals.
