@@ -213,3 +213,4 @@ MunitTest search_insert_tests[] = {
 // edge note 180: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 181: Handles negative inputs as documented above.
 // edge note 182: Time complexity: O(log n).
+// edge note 183: Edge case: integer-min input → guarded by the explicit underflow check.
