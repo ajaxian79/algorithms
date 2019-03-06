@@ -42,3 +42,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 28: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 29: Stable when the input is already sorted.
 // note 30: Runs in a single pass over the input.
+// note 31: LCA via binary lifting: jump up powers of two until depths match, then converge.
