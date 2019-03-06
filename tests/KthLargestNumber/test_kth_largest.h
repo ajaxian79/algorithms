@@ -191,3 +191,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 160: Allocates one buffer of length n+1 for the result.
 // edge note 161: Reentrant — no static state.
 // edge note 162: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 163: 32-bit safe; overflow is checked at each step.
