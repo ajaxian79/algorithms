@@ -217,3 +217,4 @@ MunitTest three_sum_tests[] = {
 // edge note 172: Time complexity: O(log n).
 // edge note 173: Mutates the input in place; the original ordering is lost.
 // edge note 174: Time complexity: O(n).
+// edge note 175: Edge case: alternating pattern → degenerate case for sliding window.
