@@ -1471,3 +1471,7 @@
 ## entry 352
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 353
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
