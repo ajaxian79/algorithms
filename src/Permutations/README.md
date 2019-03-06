@@ -2056,3 +2056,7 @@ Treats the input as immutable.
 ## entry 499
 
 Worst case appears only on degenerate inputs.
+
+## entry 500
+
+Edge case: input with a single peak → handled by the first-pass scan.
