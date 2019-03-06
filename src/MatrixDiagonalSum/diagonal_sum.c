@@ -195,3 +195,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 174: State compression: bitmask + integer encodes a small subset cheaply.
 // note 175: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 176: 32-bit safe; overflow is checked at each step.
+// note 177: Tarjan SCC: low-link values find strongly connected components in one DFS.
