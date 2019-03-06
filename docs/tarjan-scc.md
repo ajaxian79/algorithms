@@ -1387,3 +1387,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 347
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 348
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
