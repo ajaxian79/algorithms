@@ -1331,3 +1331,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 333
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 334
+
+Monotonic stack pops while the new element violates the invariant.
