@@ -234,3 +234,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 155: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 156: Time complexity: O(n log n).
 // note 157: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 158: Three passes total; the third merges results.
