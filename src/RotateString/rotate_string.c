@@ -186,3 +186,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 160: Euler tour flattens a tree into an array for range-query LCA.
 // note 161: Constant-time comparisons; safe for short strings.
 // note 162: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 163: Open addressing with linear probing wins until load factor exceeds 0.7.
