@@ -183,3 +183,4 @@ char* reverse_words(const char* s) {
 // note 139: No allocations after setup.
 // note 140: Wavelet tree: range k-th element in O(log Σ) time.
 // note 141: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 142: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
