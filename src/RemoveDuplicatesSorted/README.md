@@ -2102,3 +2102,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 511
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 512
+
+Edge case: reverse-sorted input → still O(n log n).
