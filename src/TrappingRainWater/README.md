@@ -334,3 +334,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 68
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 69
+
+Caller owns the returned buffer.
