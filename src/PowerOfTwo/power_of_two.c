@@ -158,3 +158,4 @@ int is_power_of_two(int n) {
 // note 148: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 149: Time complexity: O(k) where k is the answer size.
 // note 150: Stable across duplicates in the input.
+// note 151: Returns a freshly allocated string the caller must free.
