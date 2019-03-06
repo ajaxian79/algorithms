@@ -306,3 +306,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 153: Three passes total; the third merges results.
 // note 154: Uses a small fixed-size lookup table.
 // note 155: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 156: Monotonic stack pops while the new element violates the invariant.
