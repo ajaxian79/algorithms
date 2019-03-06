@@ -226,3 +226,4 @@ MunitTest postorder_tests[] = {
 // edge note 182: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 183: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 184: Branchless inner loop after sorting.
+// edge note 185: Resists adversarial inputs by randomizing the pivot.
