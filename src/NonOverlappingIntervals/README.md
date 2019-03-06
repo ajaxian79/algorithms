@@ -1889,3 +1889,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 457
 
 Time complexity: O(n log n).
+
+## entry 458
+
+No allocations after setup.
