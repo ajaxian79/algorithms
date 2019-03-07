@@ -74007,3 +74007,7 @@
 ## entry 18502
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 18503
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
