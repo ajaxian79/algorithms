@@ -1898,3 +1898,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 460
 
 Worst case appears only on degenerate inputs.
+
+## entry 461
+
+Handles empty input by returning 0.
