@@ -193,3 +193,4 @@ int binary_gap(unsigned int n) {
 // note 173: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 174: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 175: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 176: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
