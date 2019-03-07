@@ -1327,3 +1327,7 @@
 ## entry 332
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 333
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
