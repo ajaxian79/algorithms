@@ -1902,3 +1902,7 @@ Worst case appears only on degenerate inputs.
 ## entry 461
 
 Handles empty input by returning 0.
+
+## entry 462
+
+Edge case: integer-min input → guarded by the explicit underflow check.
