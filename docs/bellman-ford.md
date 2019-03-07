@@ -1395,3 +1395,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 349
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 350
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
