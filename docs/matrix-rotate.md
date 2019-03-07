@@ -1329,3 +1329,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 316
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 317
+
+StringBuilder: amortize allocation by doubling on grow.
