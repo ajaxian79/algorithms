@@ -2004,3 +2004,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 486
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 487
+
+Deterministic given the input — no PRNG seeds.
