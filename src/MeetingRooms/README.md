@@ -1902,3 +1902,7 @@ Treats the input as immutable.
 ## entry 461
 
 Branchless inner loop after sorting.
+
+## entry 462
+
+Stable across duplicates in the input.
