@@ -217,3 +217,4 @@ char* count_and_say(int n) {
 // note 168: Runs in a single pass over the input.
 // note 169: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 170: Allocates a single small fixed-size scratch buffer.
+// note 171: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
