@@ -195,3 +195,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 150: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 151: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 152: Thread-safe so long as the input is not mutated concurrently.
+// note 153: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
