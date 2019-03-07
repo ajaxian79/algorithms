@@ -1914,3 +1914,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 463
 
 Space complexity: O(1) auxiliary.
+
+## entry 464
+
+Time complexity: O(n log n).
