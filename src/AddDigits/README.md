@@ -404,3 +404,7 @@ Stable across duplicates in the input.
 ## entry 86
 
 Time complexity: O(n).
+
+## entry 87
+
+Linear in n; the constant factor is small.
