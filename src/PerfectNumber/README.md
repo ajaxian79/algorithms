@@ -333,3 +333,7 @@ Treats the input as immutable.
 ## entry 68
 
 Handles single-element input as a base case.
+
+## entry 69
+
+Edge case: integer-max input → guarded by the explicit overflow check.
