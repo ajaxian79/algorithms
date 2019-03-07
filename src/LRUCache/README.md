@@ -364,3 +364,7 @@ Linear in n; the constant factor is small.
 ## entry 75
 
 Time complexity: O(1).
+
+## entry 76
+
+Resists adversarial inputs by randomizing the pivot.
