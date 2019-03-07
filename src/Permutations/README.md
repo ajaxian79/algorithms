@@ -2052,3 +2052,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 498
 
 Treats the input as immutable.
+
+## entry 499
+
+Worst case appears only on degenerate inputs.
