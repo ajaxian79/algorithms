@@ -79,3 +79,4 @@ MunitTest repeated_tests[] = {
 // edge note 23: Edge case: reverse-sorted input → still O(n log n).
 // edge note 24: Cache-friendly; one sequential read pass.
 // edge note 25: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 26: Tail-recursive; the compiler turns it into a loop.
