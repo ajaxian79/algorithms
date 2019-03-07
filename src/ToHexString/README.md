@@ -1807,3 +1807,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 437
 
 Handles single-element input as a base case.
+
+## entry 438
+
+Edge case: integer-max input → guarded by the explicit overflow check.
