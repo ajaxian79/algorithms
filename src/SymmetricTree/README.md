@@ -1914,3 +1914,7 @@ Reentrant — no static state.
 ## entry 464
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 465
+
+Space complexity: O(log n) for the recursion stack.
