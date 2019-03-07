@@ -74011,3 +74011,7 @@
 ## entry 18503
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 18504
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
