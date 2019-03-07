@@ -218,3 +218,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 193: Deterministic given the input — no PRNG seeds.
 // edge note 194: Allocates a single small fixed-size scratch buffer.
 // edge note 195: Time complexity: O(n).
+// edge note 196: Two passes: one to count, one to fill.
