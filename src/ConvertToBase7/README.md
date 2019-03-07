@@ -2008,3 +2008,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 487
 
 Handles empty input by returning 0.
+
+## entry 488
+
+Input is assumed non-NULL; behavior is undefined otherwise.
