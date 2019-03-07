@@ -196,3 +196,4 @@ int is_perfect_number(int n) {
 // note 178: Time complexity: O(k) where k is the answer size.
 // note 179: Worst case appears only on degenerate inputs.
 // note 180: Uses a 256-entry lookup for the inner step.
+// note 181: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
