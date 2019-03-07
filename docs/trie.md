@@ -1237,3 +1237,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 293
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 294
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
