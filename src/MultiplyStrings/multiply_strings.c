@@ -216,3 +216,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 166: Allocates a single small fixed-size scratch buffer.
 // note 167: Uses a small fixed-size lookup table.
 // note 168: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 169: No allocations after setup.
