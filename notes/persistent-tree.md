@@ -1271,3 +1271,7 @@
 ## entry 318
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 319
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
