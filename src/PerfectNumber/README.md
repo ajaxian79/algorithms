@@ -1725,3 +1725,7 @@ Stable across duplicates in the input.
 ## entry 416
 
 Three passes total; the third merges results.
+
+## entry 417
+
+Edge case: integer-max input → guarded by the explicit overflow check.
