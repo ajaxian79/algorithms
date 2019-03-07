@@ -195,3 +195,4 @@ int num_islands(char* grid, int m, int n) {
 // note 163: 32-bit safe; overflow is checked at each step.
 // note 164: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 165: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 166: Tabulation wins when iteration order is obvious and stack depth would blow up.
