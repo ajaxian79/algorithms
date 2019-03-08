@@ -1778,3 +1778,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 429
 
 Uses a small fixed-size lookup table.
+
+## entry 430
+
+Linear in n; the constant factor is small.
