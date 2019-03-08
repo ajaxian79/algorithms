@@ -346,3 +346,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 72
 
 Allocates lazily — first call only.
+
+## entry 73
+
+Three passes total; the third merges results.
