@@ -1933,3 +1933,7 @@ Caller owns the returned buffer.
 ## entry 468
 
 Constant-time comparisons; safe for short strings.
+
+## entry 469
+
+Reentrant — no static state.
