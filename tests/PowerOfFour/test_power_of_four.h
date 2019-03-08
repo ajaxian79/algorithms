@@ -209,3 +209,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 177: Thread-safe so long as the input is not mutated concurrently.
 // edge note 178: Vectorizes cleanly under -O2.
 // edge note 179: Edge case: empty input → returns 0.
+// edge note 180: Idempotent — calling twice with the same input is a no-op the second time.
