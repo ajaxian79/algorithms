@@ -177,3 +177,4 @@ int is_ugly(int n) {
 // note 163: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 164: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 165: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 166: Space complexity: O(log n) for the recursion stack.
