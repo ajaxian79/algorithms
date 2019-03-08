@@ -1937,3 +1937,7 @@ Time complexity: O(1).
 ## entry 469
 
 Time complexity: O(n + m).
+
+## entry 470
+
+Input is assumed non-NULL; behavior is undefined otherwise.
