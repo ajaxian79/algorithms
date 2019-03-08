@@ -1339,3 +1339,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 335
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 336
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
