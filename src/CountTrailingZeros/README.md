@@ -362,3 +362,7 @@ Stable when the input is already sorted.
 ## entry 75
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 76
+
+Edge case: input with no peak → falls through to the default branch.
