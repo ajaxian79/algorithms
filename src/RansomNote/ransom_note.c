@@ -186,3 +186,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 165: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 166: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 167: StringBuilder: amortize allocation by doubling on grow.
+// note 168: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
