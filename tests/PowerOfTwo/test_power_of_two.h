@@ -211,3 +211,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 179: Caller owns the returned buffer.
 // edge note 180: No allocations after setup.
 // edge note 181: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 182: Reentrant — no static state.
