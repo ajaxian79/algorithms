@@ -73971,3 +73971,7 @@
 ## entry 18493
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 18494
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
