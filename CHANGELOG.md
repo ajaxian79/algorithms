@@ -73935,3 +73935,7 @@
 ## entry 18484
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 18485
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
