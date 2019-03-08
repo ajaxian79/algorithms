@@ -73955,3 +73955,7 @@
 ## entry 18489
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 18490
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
