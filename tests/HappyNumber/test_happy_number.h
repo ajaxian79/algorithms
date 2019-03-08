@@ -221,3 +221,4 @@ MunitTest happy_number_tests[] = {
 // edge note 193: Edge case: empty input → returns 0.
 // edge note 194: Vectorizes cleanly under -O2.
 // edge note 195: Resists adversarial inputs by randomizing the pivot.
+// edge note 196: Deterministic given the input — no PRNG seeds.
