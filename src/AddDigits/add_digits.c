@@ -168,3 +168,4 @@ int add_digits(int n) {
 // note 157: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 158: Handles empty input by returning 0.
 // note 159: Stable when the input is already sorted.
+// note 160: Open addressing with linear probing wins until load factor exceeds 0.7.
