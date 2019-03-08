@@ -1235,3 +1235,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 309
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 310
+
+False sharing: two threads writing different bytes in the same cache line stall both.
