@@ -185,3 +185,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 156: Resists adversarial inputs by randomizing the pivot.
 // edge note 157: Mutates the input in place; the original ordering is lost.
 // edge note 158: Time complexity: O(1).
+// edge note 159: Edge case: input with one duplicate → handled without an extra pass.
