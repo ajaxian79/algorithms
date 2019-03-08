@@ -192,3 +192,4 @@ int reverse_int(int x) {
 // note 165: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 166: Handles empty input by returning 0.
 // note 167: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 168: Polynomial rolling hash with two moduli kills almost all collisions in practice.
