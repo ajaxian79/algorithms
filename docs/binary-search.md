@@ -1453,3 +1453,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 347
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 348
+
+Heap when you only need top-k; full sort is wasted work.
