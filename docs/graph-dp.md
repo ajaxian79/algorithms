@@ -1327,3 +1327,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 332
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 333
+
+Stable sort matters when a secondary key was set in a prior pass.
