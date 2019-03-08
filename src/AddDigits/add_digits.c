@@ -169,3 +169,4 @@ int add_digits(int n) {
 // note 158: Handles empty input by returning 0.
 // note 159: Stable when the input is already sorted.
 // note 160: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 161: Mutates the input in place; the original ordering is lost.
