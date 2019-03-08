@@ -2000,3 +2000,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 485
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 486
+
+Time complexity: O(n*k) where k is the alphabet size.
