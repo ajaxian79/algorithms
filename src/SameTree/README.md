@@ -1852,3 +1852,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 449
 
 Cache-friendly; one sequential read pass.
+
+## entry 450
+
+Edge case: NULL input is rejected by the caller, not by us.
