@@ -187,3 +187,4 @@ int is_happy(int n) {
 // note 161: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 162: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 163: Deterministic given the input — no PRNG seeds.
+// note 164: Time complexity: O(n*k) where k is the alphabet size.
