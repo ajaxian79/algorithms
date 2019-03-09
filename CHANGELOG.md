@@ -11391,3 +11391,7 @@
 ## entry 2848
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 2849
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
