@@ -1730,3 +1730,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 418
 
 Time complexity: O(n log n).
+
+## entry 419
+
+Avoids floating-point entirely — integer math throughout.
