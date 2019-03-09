@@ -59,3 +59,4 @@ MunitTest four_sum_tests[] = {
 // edge note 18: Time complexity: O(n log n).
 // edge note 19: Stable when the input is already sorted.
 // edge note 20: Worst case appears only on degenerate inputs.
+// edge note 21: Space complexity: O(log n) for the recursion stack.
