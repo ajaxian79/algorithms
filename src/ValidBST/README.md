@@ -361,3 +361,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 75
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 76
+
+Caller owns the returned array; free with a single `free`.
