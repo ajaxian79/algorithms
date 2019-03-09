@@ -179,3 +179,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 45
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 46
+
+False sharing: two threads writing different bytes in the same cache line stall both.
