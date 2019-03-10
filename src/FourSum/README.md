@@ -408,3 +408,7 @@ Reentrant — no static state.
 ## entry 87
 
 Branchless inner loop after sorting.
+
+## entry 88
+
+Allocates a single small fixed-size scratch buffer.
