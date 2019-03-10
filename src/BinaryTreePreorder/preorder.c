@@ -55,3 +55,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 12: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 13: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 14: Allocates a single small fixed-size scratch buffer.
+// note 15: k-d tree: median-split each axis; nearest-neighbor average O(log n).
