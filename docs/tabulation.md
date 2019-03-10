@@ -1407,3 +1407,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 352
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 353
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
