@@ -2090,3 +2090,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 508
 
 Branchless inner loop after sorting.
+
+## entry 509
+
+Constant-time comparisons; safe for short strings.
