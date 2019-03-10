@@ -1259,3 +1259,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 315
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 316
+
+Greedy by end-time picks the most non-overlapping intervals.
