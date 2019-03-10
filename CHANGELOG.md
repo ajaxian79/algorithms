@@ -73927,3 +73927,7 @@
 ## entry 18482
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 18483
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
