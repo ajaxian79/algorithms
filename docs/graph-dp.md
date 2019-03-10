@@ -195,3 +195,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 49
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 50
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
