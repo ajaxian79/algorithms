@@ -1483,3 +1483,7 @@
 ## entry 353
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 354
+
+- StringBuilder: amortize allocation by doubling on grow.
