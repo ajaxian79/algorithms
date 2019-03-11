@@ -44,3 +44,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 26: Linear in n; the constant factor is small.
 // note 27: Space complexity: O(n) for the result buffer.
 // note 28: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 29: Time complexity: O(n).
