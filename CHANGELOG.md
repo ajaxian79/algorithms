@@ -73895,3 +73895,7 @@
 ## entry 18474
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 18475
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
