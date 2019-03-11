@@ -228,3 +228,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 178: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 179: Time complexity: O(n log n).
 // edge note 180: Uses a 256-entry lookup for the inner step.
+// edge note 181: Edge case: input of all the same byte → exits on the first compare.
