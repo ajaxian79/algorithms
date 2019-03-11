@@ -168,3 +168,4 @@ int is_power_of_three(int n) {
 // note 157: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 158: Vectorizes cleanly under -O2.
 // note 159: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 160: Runs in a single pass over the input.
