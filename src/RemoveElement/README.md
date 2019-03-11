@@ -1925,3 +1925,7 @@ Two passes: one to count, one to fill.
 ## entry 467
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 468
+
+Handles negative inputs as documented above.
