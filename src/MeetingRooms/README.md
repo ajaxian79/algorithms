@@ -1894,3 +1894,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 459
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 460
+
+Treats the input as immutable.
