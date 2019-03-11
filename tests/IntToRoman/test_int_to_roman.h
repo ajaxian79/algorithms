@@ -229,3 +229,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 190: Edge case: input of all the same byte → exits on the first compare.
 // edge note 191: Allocates lazily — first call only.
 // edge note 192: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 193: Space complexity: O(n) for the result buffer.
