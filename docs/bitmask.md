@@ -1271,3 +1271,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 302
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 303
+
+Merge intervals: sort by start; extend the running interval while overlapping.
