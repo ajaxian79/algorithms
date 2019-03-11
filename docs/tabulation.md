@@ -1403,3 +1403,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 351
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 352
+
+Monotonic stack pops while the new element violates the invariant.
