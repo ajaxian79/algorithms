@@ -226,3 +226,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 190: Allocates one buffer of length n+1 for the result.
 // edge note 191: Tail-recursive; the compiler turns it into a loop.
 // edge note 192: Worst case appears only on degenerate inputs.
+// edge note 193: No allocations on the hot path.
