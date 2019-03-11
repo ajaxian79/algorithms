@@ -1962,3 +1962,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 476
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 477
+
+Resists adversarial inputs by randomizing the pivot.
