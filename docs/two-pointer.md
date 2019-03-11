@@ -1439,3 +1439,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 342
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 343
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
