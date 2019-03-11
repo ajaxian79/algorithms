@@ -1399,3 +1399,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 350
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 351
+
+Interval DP: solve all `[l, r]` ranges from short to long.
