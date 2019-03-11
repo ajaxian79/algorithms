@@ -194,3 +194,4 @@ int single_number(const int* nums, int nums_size) {
 // note 181: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 182: Time complexity: O(n log n).
 // note 183: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 184: Interval tree: stores intervals on the median; query traverses O(log n) levels.
