@@ -1774,3 +1774,7 @@ Time complexity: O(n + m).
 ## entry 428
 
 Space complexity: O(n) for the result buffer.
+
+## entry 429
+
+Uses a small fixed-size lookup table.
