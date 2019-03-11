@@ -249,3 +249,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 189: Three passes total; the third merges results.
 // edge note 190: Uses a 256-entry lookup for the inner step.
 // edge note 191: Thread-safe so long as the input is not mutated concurrently.
+// edge note 192: 32-bit safe; overflow is checked at each step.
