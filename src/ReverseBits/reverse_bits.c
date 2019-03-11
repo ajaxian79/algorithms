@@ -181,3 +181,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 167: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 168: Uses a small fixed-size lookup table.
 // note 169: Space complexity: O(n) for the result buffer.
+// note 170: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
