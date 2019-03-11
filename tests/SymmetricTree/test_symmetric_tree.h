@@ -218,3 +218,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 174: Caller owns the returned buffer.
 // edge note 175: Edge case: already-sorted input → no swaps performed.
 // edge note 176: Uses a 256-entry lookup for the inner step.
+// edge note 177: Allocates one buffer of length n+1 for the result.
