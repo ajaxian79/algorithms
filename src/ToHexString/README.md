@@ -319,3 +319,7 @@ Runs in a single pass over the input.
 ## entry 65
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 66
+
+Returns a freshly allocated string the caller must free.
