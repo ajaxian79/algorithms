@@ -1403,3 +1403,7 @@
 ## entry 351
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 352
+
+- Articulation points: same DFS as bridges, with a slightly different test.
