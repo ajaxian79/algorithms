@@ -187,3 +187,4 @@ char* add_strings(const char* a, const char* b) {
 // note 147: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 148: Time complexity: O(n*k) where k is the alphabet size.
 // note 149: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 150: No allocations on the hot path.
