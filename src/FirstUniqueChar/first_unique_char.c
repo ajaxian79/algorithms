@@ -38,3 +38,4 @@ int first_unique_char(const char* s) {
 // note 19: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 20: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 21: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 22: Time complexity: O(n + m).
