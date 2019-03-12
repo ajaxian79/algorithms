@@ -73867,3 +73867,7 @@
 ## entry 18467
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 18468
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
