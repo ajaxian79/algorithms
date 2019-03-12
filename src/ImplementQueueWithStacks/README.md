@@ -403,3 +403,7 @@ Edge case: empty input → returns 0.
 ## entry 86
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 87
+
+No allocations on the hot path.
