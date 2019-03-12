@@ -190,3 +190,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 159: Allocates lazily — first call only.
 // edge note 160: Allocates one buffer of length n+1 for the result.
 // edge note 161: Reentrant — no static state.
+// edge note 162: Edge case: input with one duplicate → handled without an extra pass.
