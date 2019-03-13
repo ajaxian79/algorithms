@@ -1373,3 +1373,7 @@
 ## entry 327
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 328
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
