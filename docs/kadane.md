@@ -1339,3 +1339,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 319
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 320
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
