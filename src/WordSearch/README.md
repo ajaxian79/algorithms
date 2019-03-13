@@ -1846,3 +1846,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 447
 
 Space complexity: O(1) auxiliary.
+
+## entry 448
+
+Handles single-element input as a base case.
