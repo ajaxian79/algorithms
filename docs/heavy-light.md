@@ -1371,3 +1371,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 343
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 344
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
