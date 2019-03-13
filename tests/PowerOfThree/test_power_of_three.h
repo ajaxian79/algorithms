@@ -59,3 +59,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 28: No allocations after setup.
 // edge note 29: Mutates the input in place; the original ordering is lost.
 // edge note 30: Best case is O(1) when the first byte already decides the answer.
+// edge note 31: Cache-friendly; one sequential read pass.
