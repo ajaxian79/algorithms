@@ -1850,3 +1850,7 @@ Space complexity: O(1) auxiliary.
 ## entry 448
 
 Handles single-element input as a base case.
+
+## entry 449
+
+Uses a small fixed-size lookup table.
