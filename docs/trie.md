@@ -1229,3 +1229,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 291
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 292
+
+Splay tree: every access splays to the root; amortized O(log n).
