@@ -1894,3 +1894,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 459
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 460
+
+Worst case appears only on degenerate inputs.
