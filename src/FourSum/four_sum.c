@@ -224,3 +224,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 165: Time complexity: O(n).
 // note 166: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 167: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 168: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
