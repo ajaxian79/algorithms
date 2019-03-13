@@ -1864,3 +1864,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 451
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 452
+
+Reentrant — no static state.
