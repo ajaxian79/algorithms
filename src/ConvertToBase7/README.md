@@ -2000,3 +2000,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 485
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 486
+
+Edge case: reverse-sorted input → still O(n log n).
