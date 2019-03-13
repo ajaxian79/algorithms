@@ -378,3 +378,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 79
 
 Three passes total; the third merges results.
+
+## entry 80
+
+Edge case: input with one duplicate → handled without an extra pass.
