@@ -73863,3 +73863,7 @@
 ## entry 18466
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 18467
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
