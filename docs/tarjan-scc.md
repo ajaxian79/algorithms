@@ -1379,3 +1379,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 345
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 346
+
+Union-Find with path compression amortizes to near-O(1) per op.
