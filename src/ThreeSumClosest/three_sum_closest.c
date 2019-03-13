@@ -190,3 +190,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 158: Returns a freshly allocated string the caller must free.
 // note 159: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 160: State compression: bitmask + integer encodes a small subset cheaply.
+// note 161: Uses a small fixed-size lookup table.
