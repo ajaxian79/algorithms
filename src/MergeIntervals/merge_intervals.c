@@ -212,3 +212,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 163: Uses a 256-entry lookup for the inner step.
 // note 164: Space complexity: O(h) for the tree height.
 // note 165: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 166: Time complexity: O(n^2) worst case, O(n) amortized.
