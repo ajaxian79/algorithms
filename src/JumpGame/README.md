@@ -1961,3 +1961,7 @@ Space complexity: O(1) auxiliary.
 ## entry 475
 
 Time complexity: O(n + m).
+
+## entry 476
+
+Edge case: zero-length string → returns the empty result.
