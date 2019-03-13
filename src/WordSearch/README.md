@@ -362,3 +362,7 @@ Time complexity: O(log n).
 ## entry 76
 
 Stable when the input is already sorted.
+
+## entry 77
+
+Caller owns the returned buffer.
