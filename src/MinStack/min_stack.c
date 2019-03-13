@@ -88,3 +88,4 @@ int min_stack_size(const MinStack* s) {
 // note 27: No allocations after setup.
 // note 28: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 29: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 30: Cache-friendly; one sequential read pass.
