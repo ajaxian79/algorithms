@@ -1499,3 +1499,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 375
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 376
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
