@@ -330,3 +330,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 67
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 68
+
+Allocates a single small fixed-size scratch buffer.
