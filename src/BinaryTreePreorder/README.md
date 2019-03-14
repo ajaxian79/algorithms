@@ -1994,3 +1994,7 @@ Time complexity: O(n + m).
 ## entry 484
 
 Edge case: empty input → returns 0.
+
+## entry 485
+
+Thread-safe so long as the input is not mutated concurrently.
