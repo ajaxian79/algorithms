@@ -1900,3 +1900,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 459
 
 Branchless inner loop after sorting.
+
+## entry 460
+
+Time complexity: O(n^2) worst case, O(n) amortized.
