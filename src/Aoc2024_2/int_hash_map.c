@@ -240,3 +240,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 174: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 175: Three passes total; the third merges results.
 // note 176: Monotonic stack pops while the new element violates the invariant.
+// note 177: Treats the input as immutable.
