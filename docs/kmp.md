@@ -1341,3 +1341,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 319
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 320
+
+Greedy by end-time picks the most non-overlapping intervals.
