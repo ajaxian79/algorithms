@@ -201,3 +201,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 170: Branchless inner loop after sorting.
 // edge note 171: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 172: Space complexity: O(1) auxiliary.
+// edge note 173: Time complexity: O(log n).
