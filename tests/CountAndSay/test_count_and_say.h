@@ -175,3 +175,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 144: Constant-time comparisons; safe for short strings.
 // edge note 145: 32-bit safe; overflow is checked at each step.
 // edge note 146: Space complexity: O(log n) for the recursion stack.
+// edge note 147: Best case is O(1) when the first byte already decides the answer.
