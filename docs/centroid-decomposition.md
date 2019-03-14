@@ -1259,3 +1259,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 315
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 316
+
+Euler tour flattens a tree into an array for range-query LCA.
