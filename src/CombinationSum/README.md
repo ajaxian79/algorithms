@@ -1903,3 +1903,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 461
 
 No allocations after setup.
+
+## entry 462
+
+Space complexity: O(log n) for the recursion stack.
