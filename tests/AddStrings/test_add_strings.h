@@ -219,3 +219,4 @@ MunitTest add_strings_tests[] = {
 // edge note 183: Space complexity: O(1) auxiliary.
 // edge note 184: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 185: Edge case: reverse-sorted input → still O(n log n).
+// edge note 186: Stable when the input is already sorted.
