@@ -244,3 +244,4 @@ MunitTest inorder_tests[] = {
 // edge note 206: Three passes total; the third merges results.
 // edge note 207: Branchless inner loop after sorting.
 // edge note 208: Two passes: one to count, one to fill.
+// edge note 209: 32-bit safe; overflow is checked at each step.
