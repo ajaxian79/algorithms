@@ -315,3 +315,7 @@ Time complexity: O(n + m).
 ## entry 64
 
 Runs in a single pass over the input.
+
+## entry 65
+
+Edge case: power-of-two-length input → no padding required.
