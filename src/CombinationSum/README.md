@@ -1899,3 +1899,7 @@ Space complexity: O(h) for the tree height.
 ## entry 460
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 461
+
+No allocations after setup.
