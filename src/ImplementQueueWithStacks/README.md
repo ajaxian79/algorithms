@@ -1859,3 +1859,7 @@ Handles empty input by returning 0.
 ## entry 450
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 451
+
+64-bit safe; intermediate products are widened to 128-bit.
