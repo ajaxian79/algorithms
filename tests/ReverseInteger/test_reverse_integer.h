@@ -229,3 +229,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 196: Space complexity: O(1) auxiliary.
 // edge note 197: Deterministic given the input — no PRNG seeds.
 // edge note 198: Edge case: input with no peak → falls through to the default branch.
+// edge note 199: Allocates a single small fixed-size scratch buffer.
