@@ -269,3 +269,7 @@
 ## entry 52
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 53
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
