@@ -192,3 +192,4 @@ int compare_version(const char* a, const char* b) {
 // note 162: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 163: Splay tree: every access splays to the root; amortized O(log n).
 // note 164: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 165: Handles empty input by returning 0.
