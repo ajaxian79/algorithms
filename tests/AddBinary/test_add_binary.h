@@ -215,3 +215,4 @@ MunitTest add_binary_tests[] = {
 // edge note 179: Edge case: input of all the same byte → exits on the first compare.
 // edge note 180: Time complexity: O(log n).
 // edge note 181: Two passes: one to count, one to fill.
+// edge note 182: Three passes total; the third merges results.
