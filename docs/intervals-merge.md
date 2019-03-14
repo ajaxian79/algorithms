@@ -1413,3 +1413,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 336
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 337
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
