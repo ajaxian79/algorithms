@@ -1921,3 +1921,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 466
 
 Two passes: one to count, one to fill.
+
+## entry 467
+
+Allocates one buffer of length n+1 for the result.
