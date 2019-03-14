@@ -1255,3 +1255,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 314
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 315
+
+Euler tour flattens a tree into an array for range-query LCA.
