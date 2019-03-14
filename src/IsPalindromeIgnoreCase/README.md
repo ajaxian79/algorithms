@@ -1786,3 +1786,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 432
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 433
+
+Edge case: reverse-sorted input → still O(n log n).
