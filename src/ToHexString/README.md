@@ -1803,3 +1803,7 @@ Stable when the input is already sorted.
 ## entry 436
 
 Returns a freshly allocated string the caller must free.
+
+## entry 437
+
+Handles single-element input as a base case.
