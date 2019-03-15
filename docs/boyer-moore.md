@@ -1359,3 +1359,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 324
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 325
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
