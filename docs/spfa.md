@@ -1223,3 +1223,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 306
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 307
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
