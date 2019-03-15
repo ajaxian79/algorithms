@@ -1878,3 +1878,7 @@ Caller owns the returned buffer.
 ## entry 455
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 456
+
+Allocates lazily — first call only.
