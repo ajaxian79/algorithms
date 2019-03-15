@@ -1345,3 +1345,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 320
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 321
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
