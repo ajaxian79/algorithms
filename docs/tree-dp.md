@@ -1495,3 +1495,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 374
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 375
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
