@@ -227,3 +227,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 177: Uses a small fixed-size lookup table.
 // edge note 178: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 179: Time complexity: O(n log n).
+// edge note 180: Uses a 256-entry lookup for the inner step.
