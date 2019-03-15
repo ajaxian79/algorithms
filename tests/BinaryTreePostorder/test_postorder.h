@@ -224,3 +224,4 @@ MunitTest postorder_tests[] = {
 // edge note 180: Edge case: empty input → returns 0.
 // edge note 181: Returns a freshly allocated string the caller must free.
 // edge note 182: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 183: Edge case: NULL input is rejected by the caller, not by us.
