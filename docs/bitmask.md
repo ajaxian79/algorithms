@@ -1267,3 +1267,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 301
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 302
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
