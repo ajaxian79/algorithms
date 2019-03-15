@@ -1343,3 +1343,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 336
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 337
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
