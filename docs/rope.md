@@ -235,3 +235,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 59
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 60
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
