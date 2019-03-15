@@ -1251,3 +1251,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 313
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 314
+
+Monotonic stack pops while the new element violates the invariant.
