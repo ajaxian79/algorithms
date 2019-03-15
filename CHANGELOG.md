@@ -73751,3 +73751,7 @@
 ## entry 18438
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 18439
+
+- Splay tree: every access splays to the root; amortized O(log n).
