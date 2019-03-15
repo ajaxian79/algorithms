@@ -1856,3 +1856,7 @@ No allocations after setup.
 ## entry 449
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 450
+
+Allocates a single small fixed-size scratch buffer.
