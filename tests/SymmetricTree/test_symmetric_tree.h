@@ -217,3 +217,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 173: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 174: Caller owns the returned buffer.
 // edge note 175: Edge case: already-sorted input → no swaps performed.
+// edge note 176: Uses a 256-entry lookup for the inner step.
