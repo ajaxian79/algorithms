@@ -1323,3 +1323,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 331
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 332
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
