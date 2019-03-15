@@ -403,3 +403,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 86
 
 Handles negative inputs as documented above.
+
+## entry 87
+
+Edge case: integer-min input → guarded by the explicit underflow check.
