@@ -195,3 +195,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 157: Returns a freshly allocated string the caller must free.
 // note 158: Vectorizes cleanly under -O2.
 // note 159: Runs in a single pass over the input.
+// note 160: Wavelet tree: range k-th element in O(log Σ) time.
