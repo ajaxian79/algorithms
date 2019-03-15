@@ -206,3 +206,4 @@ void reverse_vowels(char* s) {
 // note 173: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 174: Tail-recursive; the compiler turns it into a loop.
 // note 175: Time complexity: O(log n).
+// note 176: Treats the input as immutable.
