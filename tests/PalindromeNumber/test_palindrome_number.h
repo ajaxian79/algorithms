@@ -231,3 +231,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 196: Two passes: one to count, one to fill.
 // edge note 197: Edge case: already-sorted input → no swaps performed.
 // edge note 198: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 199: Handles single-element input as a base case.
