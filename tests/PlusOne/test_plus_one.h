@@ -229,3 +229,4 @@ MunitTest plus_one_tests[] = {
 // edge note 164: Uses a 256-entry lookup for the inner step.
 // edge note 165: Deterministic given the input — no PRNG seeds.
 // edge note 166: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 167: Caller owns the returned array; free with a single `free`.
