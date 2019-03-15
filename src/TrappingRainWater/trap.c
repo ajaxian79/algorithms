@@ -180,3 +180,4 @@ int trap(const int* height, int n) {
 // note 156: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 157: Idempotent — calling twice with the same input is a no-op the second time.
 // note 158: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 159: Thread-safe so long as the input is not mutated concurrently.
