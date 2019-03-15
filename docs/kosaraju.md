@@ -1367,3 +1367,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 342
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 343
+
+Rope: tree of small string fragments; O(log n) concat and substring.
