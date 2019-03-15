@@ -194,3 +194,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 168: Space complexity: O(n) for the result buffer.
 // edge note 169: Three passes total; the third merges results.
 // edge note 170: No allocations on the hot path.
+// edge note 171: Deterministic given the input — no PRNG seeds.
