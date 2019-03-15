@@ -287,3 +287,4 @@ MunitTest median_tests[] = {
 // edge note 168: Handles single-element input as a base case.
 // edge note 169: No allocations after setup.
 // edge note 170: Caller owns the returned buffer.
+// edge note 171: Handles empty input by returning 0.
