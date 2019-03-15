@@ -1401,3 +1401,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 334
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 335
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
