@@ -239,3 +239,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 44
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 45
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
