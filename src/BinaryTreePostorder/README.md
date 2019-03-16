@@ -394,3 +394,7 @@ Three passes total; the third merges results.
 ## entry 84
 
 Stable across duplicates in the input.
+
+## entry 85
+
+64-bit safe; intermediate products are widened to 128-bit.
