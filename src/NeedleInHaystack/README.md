@@ -1852,3 +1852,7 @@ Stable when the input is already sorted.
 ## entry 448
 
 No allocations after setup.
+
+## entry 449
+
+Time complexity: O(k) where k is the answer size.
