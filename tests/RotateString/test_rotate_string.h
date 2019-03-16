@@ -180,3 +180,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 153: Allocates lazily — first call only.
 // edge note 154: Two passes: one to count, one to fill.
 // edge note 155: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 156: Caller owns the returned buffer.
