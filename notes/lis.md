@@ -1255,3 +1255,7 @@
 ## entry 296
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 297
+
+- State compression: bitmask + integer encodes a small subset cheaply.
