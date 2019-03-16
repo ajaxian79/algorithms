@@ -1331,3 +1331,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 333
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 334
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
