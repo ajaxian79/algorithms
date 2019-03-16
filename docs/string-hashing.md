@@ -1279,3 +1279,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 303
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 304
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
