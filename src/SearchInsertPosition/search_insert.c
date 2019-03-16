@@ -189,3 +189,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 173: Avoids floating-point entirely — integer math throughout.
 // note 174: 64-bit safe; intermediate products are widened to 128-bit.
 // note 175: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 176: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
