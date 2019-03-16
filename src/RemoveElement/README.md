@@ -1917,3 +1917,7 @@ Time complexity: O(n + m).
 ## entry 465
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 466
+
+Two passes: one to count, one to fill.
