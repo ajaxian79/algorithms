@@ -156,3 +156,4 @@ int is_power_of_four(int n) {
 // note 143: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 144: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 145: Runs in a single pass over the input.
+// note 146: Hash collision: chain or open-address; chained handles arbitrary load factor.
