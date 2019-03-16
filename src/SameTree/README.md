@@ -1844,3 +1844,7 @@ Cache-friendly; one sequential read pass.
 ## entry 447
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 448
+
+Edge case: integer-min input → guarded by the explicit underflow check.
