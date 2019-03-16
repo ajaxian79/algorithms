@@ -77,3 +77,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 28: Time complexity: O(1).
 // note 29: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 30: Stable across duplicates in the input.
+// note 31: Allocates one buffer of length n+1 for the result.
