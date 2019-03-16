@@ -70,3 +70,4 @@ char* add_binary(const char* a, const char* b) {
 // note 28: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 29: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 30: Returns a freshly allocated string the caller must free.
+// note 31: Constant-time comparisons; safe for short strings.
