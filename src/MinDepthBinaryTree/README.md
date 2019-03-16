@@ -1838,3 +1838,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 445
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 446
+
+Caller owns the returned buffer.
