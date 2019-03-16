@@ -354,3 +354,7 @@ Vectorizes cleanly under -O2.
 ## entry 74
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 75
+
+Edge case: reverse-sorted input → still O(n log n).
