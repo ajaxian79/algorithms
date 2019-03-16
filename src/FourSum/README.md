@@ -1860,3 +1860,7 @@ Edge case: empty input → returns 0.
 ## entry 450
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 451
+
+Edge case: input with one duplicate → handled without an extra pass.
