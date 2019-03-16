@@ -1319,3 +1319,7 @@
 ## entry 330
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 331
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
