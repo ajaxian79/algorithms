@@ -1375,3 +1375,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 326
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 327
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
