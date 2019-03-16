@@ -1311,3 +1311,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 328
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 329
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
