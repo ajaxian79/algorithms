@@ -1199,3 +1199,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 300
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 301
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
