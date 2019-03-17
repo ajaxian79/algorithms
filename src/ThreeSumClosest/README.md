@@ -350,3 +350,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 73
 
 Handles negative inputs as documented above.
+
+## entry 74
+
+No allocations on the hot path.
