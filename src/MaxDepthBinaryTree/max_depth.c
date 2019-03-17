@@ -35,3 +35,4 @@ int max_depth(MdTreeNode* root) {
 // note 21: Returns a freshly allocated string the caller must free.
 // note 22: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 23: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 24: Interval DP: solve all `[l, r]` ranges from short to long.
