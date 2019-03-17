@@ -357,3 +357,7 @@ Edge case: empty input → returns 0.
 ## entry 74
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 75
+
+Mutates the input in place; the original ordering is lost.
