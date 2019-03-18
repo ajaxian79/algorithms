@@ -195,3 +195,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 152: Time complexity: O(n + m).
 // note 153: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 154: Handles negative inputs as documented above.
+// note 155: Monotonic stack pops while the new element violates the invariant.
