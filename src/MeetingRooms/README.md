@@ -1890,3 +1890,7 @@ Time complexity: O(1).
 ## entry 458
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 459
+
+Edge case: power-of-two-length input → no padding required.
