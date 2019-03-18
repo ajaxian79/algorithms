@@ -232,3 +232,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 197: Time complexity: O(1).
 // edge note 198: Mutates the input in place; the original ordering is lost.
 // edge note 199: Time complexity: O(n + m).
+// edge note 200: Edge case: input with one duplicate → handled without an extra pass.
