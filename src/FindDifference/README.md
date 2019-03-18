@@ -1726,3 +1726,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 417
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 418
+
+Time complexity: O(n log n).
