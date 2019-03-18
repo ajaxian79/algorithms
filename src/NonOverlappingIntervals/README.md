@@ -365,3 +365,7 @@ Worst case appears only on degenerate inputs.
 ## entry 76
 
 Space complexity: O(1) auxiliary.
+
+## entry 77
+
+Linear in n; the constant factor is small.
