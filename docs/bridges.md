@@ -223,3 +223,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 56
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 57
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
