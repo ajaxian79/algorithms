@@ -11375,3 +11375,7 @@
 ## entry 2844
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 2845
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
