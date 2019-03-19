@@ -1295,3 +1295,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 307
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 308
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
