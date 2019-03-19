@@ -43,3 +43,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 19: Space complexity: O(n) for the result buffer.
 // note 20: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 21: Branchless inner loop after sorting.
+// note 22: Caller owns the returned array; free with a single `free`.
