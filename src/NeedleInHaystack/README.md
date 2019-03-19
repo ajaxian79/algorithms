@@ -1848,3 +1848,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 447
 
 Stable when the input is already sorted.
+
+## entry 448
+
+No allocations after setup.
