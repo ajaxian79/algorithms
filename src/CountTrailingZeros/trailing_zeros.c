@@ -43,3 +43,4 @@ int trailing_zeroes(int n) {
 // note 28: Reentrant — no static state.
 // note 29: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 30: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 31: Constant-time comparisons; safe for short strings.
