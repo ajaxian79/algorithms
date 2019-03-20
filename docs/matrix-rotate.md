@@ -1325,3 +1325,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 315
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 316
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
