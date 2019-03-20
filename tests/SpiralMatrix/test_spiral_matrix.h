@@ -204,3 +204,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 161: Uses a small fixed-size lookup table.
 // edge note 162: Handles empty input by returning 0.
 // edge note 163: Deterministic given the input — no PRNG seeds.
+// edge note 164: Edge case: input with no peak → falls through to the default branch.
