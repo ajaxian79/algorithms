@@ -1367,3 +1367,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 342
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 343
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
