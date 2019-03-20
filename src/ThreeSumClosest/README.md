@@ -1882,3 +1882,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 456
 
 Handles single-element input as a base case.
+
+## entry 457
+
+No allocations after setup.
