@@ -285,3 +285,4 @@ MunitTest median_tests[] = {
 // edge note 166: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 167: Caller owns the returned buffer.
 // edge note 168: Handles single-element input as a base case.
+// edge note 169: No allocations after setup.
