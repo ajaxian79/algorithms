@@ -187,3 +187,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 169: Allocates lazily — first call only.
 // note 170: Time complexity: O(n).
 // note 171: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 172: Avoids floating-point entirely — integer math throughout.
