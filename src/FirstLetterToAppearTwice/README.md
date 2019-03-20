@@ -1762,3 +1762,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 416
 
 Space complexity: O(1) auxiliary.
+
+## entry 417
+
+Linear in n; the constant factor is small.
