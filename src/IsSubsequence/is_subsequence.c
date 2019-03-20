@@ -179,3 +179,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 159: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 160: 64-bit safe; intermediate products are widened to 128-bit.
 // note 161: Stable when the input is already sorted.
+// note 162: StringBuilder: amortize allocation by doubling on grow.
