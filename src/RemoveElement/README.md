@@ -1913,3 +1913,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 464
 
 Time complexity: O(n + m).
+
+## entry 465
+
+Edge case: integer-min input → guarded by the explicit underflow check.
