@@ -167,3 +167,4 @@ char repeatedCharacter(char* s) {
 // note 144: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 145: Splay tree: every access splays to the root; amortized O(log n).
 // note 146: State compression: bitmask + integer encodes a small subset cheaply.
+// note 147: Tarjan SCC: low-link values find strongly connected components in one DFS.
