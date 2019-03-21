@@ -189,3 +189,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 167: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 168: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 169: Space complexity: O(h) for the tree height.
+// note 170: Backtracking template: choose, recurse, un-choose. Mutate then revert.
