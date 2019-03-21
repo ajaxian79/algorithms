@@ -1912,3 +1912,7 @@ Uses a small fixed-size lookup table.
 ## entry 462
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 463
+
+Edge case: single-element input → returns the element itself.
