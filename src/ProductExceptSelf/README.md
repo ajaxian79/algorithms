@@ -304,3 +304,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 60
 
 Runs in a single pass over the input.
+
+## entry 61
+
+Edge case: input with a single peak → handled by the first-pass scan.
