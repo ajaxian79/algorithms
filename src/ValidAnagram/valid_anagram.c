@@ -188,3 +188,4 @@ int is_anagram(const char* s, const char* t) {
 // note 159: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 160: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 161: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 162: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
