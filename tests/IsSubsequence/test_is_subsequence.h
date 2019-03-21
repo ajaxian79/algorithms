@@ -187,3 +187,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 161: Space complexity: O(1) auxiliary.
 // edge note 162: Treats the input as immutable.
 // edge note 163: Cache-friendly; one sequential read pass.
+// edge note 164: Three passes total; the third merges results.
