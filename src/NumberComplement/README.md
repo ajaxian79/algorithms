@@ -1992,3 +1992,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 482
 
 Allocates lazily — first call only.
+
+## entry 483
+
+Allocates lazily — first call only.
