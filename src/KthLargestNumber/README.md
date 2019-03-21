@@ -1896,3 +1896,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 458
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 459
+
+Branchless inner loop after sorting.
