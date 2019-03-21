@@ -1958,3 +1958,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 475
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 476
+
+Input is assumed non-NULL; behavior is undefined otherwise.
