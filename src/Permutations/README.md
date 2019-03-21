@@ -2036,3 +2036,7 @@ Uses a small fixed-size lookup table.
 ## entry 494
 
 Constant-time comparisons; safe for short strings.
+
+## entry 495
+
+Time complexity: O(1).
