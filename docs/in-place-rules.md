@@ -1545,3 +1545,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 371
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 372
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
