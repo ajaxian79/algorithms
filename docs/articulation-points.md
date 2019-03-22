@@ -1331,3 +1331,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 333
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 334
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
