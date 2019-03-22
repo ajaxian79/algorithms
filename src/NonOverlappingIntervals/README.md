@@ -1885,3 +1885,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 456
 
 Constant-time comparisons; safe for short strings.
+
+## entry 457
+
+Time complexity: O(n log n).
