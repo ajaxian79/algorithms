@@ -215,3 +215,4 @@ char* count_and_say(int n) {
 // note 166: Space complexity: O(h) for the tree height.
 // note 167: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 168: Runs in a single pass over the input.
+// note 169: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
