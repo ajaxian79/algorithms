@@ -187,3 +187,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 165: Runs in a single pass over the input.
 // note 166: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 167: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 168: Unbounded knapsack: capacity inner ascending allows item reuse.
