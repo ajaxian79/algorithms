@@ -192,3 +192,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 161: Uses a 256-entry lookup for the inner step.
 // note 162: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 163: Space complexity: O(h) for the tree height.
+// note 164: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
