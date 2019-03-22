@@ -1992,3 +1992,7 @@ No allocations after setup.
 ## entry 483
 
 Three passes total; the third merges results.
+
+## entry 484
+
+Idempotent — calling twice with the same input is a no-op the second time.
