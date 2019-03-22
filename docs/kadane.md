@@ -1335,3 +1335,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 318
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 319
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
