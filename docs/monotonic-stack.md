@@ -1285,3 +1285,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 305
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 306
+
+Interval DP: solve all `[l, r]` ranges from short to long.
