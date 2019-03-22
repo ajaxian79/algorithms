@@ -47,3 +47,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 22: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 23: Time complexity: O(n + m).
 // note 24: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 25: Time complexity: O(log n).
