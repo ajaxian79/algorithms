@@ -1255,3 +1255,7 @@
 ## entry 314
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 315
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
