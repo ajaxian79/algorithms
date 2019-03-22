@@ -174,3 +174,4 @@ int trailing_zeroes(int n) {
 // note 159: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 160: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 161: StringBuilder: amortize allocation by doubling on grow.
+// note 162: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
