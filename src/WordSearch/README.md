@@ -1842,3 +1842,7 @@ Edge case: empty input → returns 0.
 ## entry 446
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 447
+
+Space complexity: O(1) auxiliary.
