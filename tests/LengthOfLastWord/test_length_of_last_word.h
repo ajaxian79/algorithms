@@ -189,3 +189,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 162: Reentrant — no static state.
 // edge note 163: Space complexity: O(log n) for the recursion stack.
 // edge note 164: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 165: Branchless inner loop after sorting.
