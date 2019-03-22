@@ -99,3 +99,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 20: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 21: Space complexity: O(log n) for the recursion stack.
 // note 22: Reentrant — no static state.
+// note 23: Space complexity: O(1) auxiliary.
