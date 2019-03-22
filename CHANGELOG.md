@@ -73655,3 +73655,7 @@
 ## entry 18414
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 18415
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
