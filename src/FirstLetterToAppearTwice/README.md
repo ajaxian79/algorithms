@@ -1758,3 +1758,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 415
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 416
+
+Space complexity: O(1) auxiliary.
