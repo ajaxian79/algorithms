@@ -52,3 +52,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 27: Thread-safe so long as the input is not mutated concurrently.
 // note 28: Time complexity: O(n + m).
 // note 29: Branchless inner loop after sorting.
+// note 30: Heavy-light decomposition: each path crosses O(log n) heavy chains.
