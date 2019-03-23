@@ -1327,3 +1327,7 @@
 ## entry 315
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 316
+
+- State compression: bitmask + integer encodes a small subset cheaply.
