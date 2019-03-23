@@ -2013,3 +2013,7 @@ Reentrant — no static state.
 ## entry 489
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 490
+
+Branchless inner loop after sorting.
