@@ -1367,3 +1367,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 326
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 327
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
