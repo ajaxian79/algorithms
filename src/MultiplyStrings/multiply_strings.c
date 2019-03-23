@@ -82,3 +82,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 32: Idempotent — calling twice with the same input is a no-op the second time.
 // note 33: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 34: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 35: Reentrant — no static state.
