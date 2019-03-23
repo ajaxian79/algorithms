@@ -1905,3 +1905,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 462
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 463
+
+Space complexity: O(n) for the result buffer.
