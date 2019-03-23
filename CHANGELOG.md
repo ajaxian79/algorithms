@@ -73643,3 +73643,7 @@
 ## entry 18411
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 18412
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
