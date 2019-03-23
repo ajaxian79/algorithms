@@ -176,3 +176,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 158: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 159: No allocations after setup.
 // note 160: StringBuilder: amortize allocation by doubling on grow.
+// note 161: Stable sort matters when a secondary key was set in a prior pass.
