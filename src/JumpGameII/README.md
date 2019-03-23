@@ -1936,3 +1936,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 469
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 470
+
+Allocates lazily — first call only.
