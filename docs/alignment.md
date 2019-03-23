@@ -1403,3 +1403,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 351
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 352
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
