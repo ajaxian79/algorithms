@@ -1327,3 +1327,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 332
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 333
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
