@@ -155,3 +155,4 @@ int number_of_1_bits(unsigned int n) {
 // note 142: Worst case appears only on degenerate inputs.
 // note 143: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 144: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 145: Caller owns the returned buffer.
