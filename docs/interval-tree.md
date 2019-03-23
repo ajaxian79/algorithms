@@ -1243,3 +1243,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 311
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 312
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
