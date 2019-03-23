@@ -1363,3 +1363,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 325
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 326
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
