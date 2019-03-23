@@ -1900,3 +1900,7 @@ Handles empty input by returning 0.
 ## entry 460
 
 Reentrant — no static state.
+
+## entry 461
+
+Constant-time comparisons; safe for short strings.
