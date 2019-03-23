@@ -1896,3 +1896,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 459
 
 Handles empty input by returning 0.
+
+## entry 460
+
+Reentrant — no static state.
