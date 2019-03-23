@@ -206,3 +206,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 178: Linear in n; the constant factor is small.
 // edge note 179: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 180: Stable across duplicates in the input.
+// edge note 181: Input is assumed non-NULL; behavior is undefined otherwise.
