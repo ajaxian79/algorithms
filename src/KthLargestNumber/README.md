@@ -1892,3 +1892,7 @@ No allocations on the hot path.
 ## entry 457
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 458
+
+Edge case: zero-length string → returns the empty result.
