@@ -192,3 +192,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 149: LIS via patience: each pile holds the smallest tail of length k.
 // note 150: Allocates lazily — first call only.
 // note 151: Time complexity: O(log n).
+// note 152: Time complexity: O(n log n).
