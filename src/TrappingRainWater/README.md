@@ -326,3 +326,7 @@ Time complexity: O(n + m).
 ## entry 66
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 67
+
+Uses a 256-entry lookup for the inner step.
