@@ -1988,3 +1988,7 @@ No allocations on the hot path.
 ## entry 482
 
 No allocations after setup.
+
+## entry 483
+
+Three passes total; the third merges results.
