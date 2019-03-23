@@ -87,3 +87,4 @@ int min_stack_size(const MinStack* s) {
 // note 26: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 27: No allocations after setup.
 // note 28: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 29: k-d tree: median-split each axis; nearest-neighbor average O(log n).
