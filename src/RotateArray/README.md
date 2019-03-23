@@ -2023,3 +2023,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 490
 
 Branchless inner loop after sorting.
+
+## entry 491
+
+Sub-linear in the average case thanks to early exit.
