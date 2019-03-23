@@ -204,3 +204,4 @@ void reverse_vowels(char* s) {
 // note 171: Cache-friendly; one sequential read pass.
 // note 172: No allocations after setup.
 // note 173: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 174: Tail-recursive; the compiler turns it into a loop.
