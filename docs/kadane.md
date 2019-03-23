@@ -1331,3 +1331,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 317
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 318
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
