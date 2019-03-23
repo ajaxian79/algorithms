@@ -1373,3 +1373,7 @@
 ## entry 326
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 327
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
