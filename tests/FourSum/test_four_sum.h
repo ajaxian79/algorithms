@@ -209,3 +209,4 @@ MunitTest four_sum_tests[] = {
 // edge note 168: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 169: Stable when the input is already sorted.
 // edge note 170: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 171: Reentrant — no static state.
