@@ -189,3 +189,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 158: Vectorizes cleanly under -O2.
 // edge note 159: Allocates lazily — first call only.
 // edge note 160: Allocates one buffer of length n+1 for the result.
+// edge note 161: Reentrant — no static state.
