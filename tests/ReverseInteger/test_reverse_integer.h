@@ -66,3 +66,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 33: Caller owns the returned array; free with a single `free`.
 // edge note 34: Caller owns the returned array; free with a single `free`.
 // edge note 35: Edge case: power-of-two-length input → no padding required.
+// edge note 36: Time complexity: O(n).
