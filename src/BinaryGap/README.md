@@ -1870,3 +1870,7 @@ Time complexity: O(n + m).
 ## entry 452
 
 Vectorizes cleanly under -O2.
+
+## entry 453
+
+Returns a freshly allocated string the caller must free.
