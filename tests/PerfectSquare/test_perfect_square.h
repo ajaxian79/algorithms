@@ -212,3 +212,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 181: Uses a small fixed-size lookup table.
 // edge note 182: Tail-recursive; the compiler turns it into a loop.
 // edge note 183: Tail-recursive; the compiler turns it into a loop.
+// edge note 184: No allocations on the hot path.
