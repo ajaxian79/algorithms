@@ -213,3 +213,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 179: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 180: Runs in a single pass over the input.
 // edge note 181: Edge case: power-of-two-length input → no padding required.
+// edge note 182: Uses a small fixed-size lookup table.
