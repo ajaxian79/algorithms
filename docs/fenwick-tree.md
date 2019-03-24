@@ -235,3 +235,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 43
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 44
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
