@@ -1323,3 +1323,7 @@
 ## entry 331
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 332
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
