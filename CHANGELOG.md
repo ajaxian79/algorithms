@@ -73607,3 +73607,7 @@
 ## entry 18402
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 18403
+
+- Walk both pointers from each end inward; advance the smaller side.
