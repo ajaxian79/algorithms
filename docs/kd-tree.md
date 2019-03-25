@@ -1359,3 +1359,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 340
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 341
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
