@@ -68,3 +68,4 @@ MunitTest path_sum_tests[] = {
 // edge note 29: Time complexity: O(log n).
 // edge note 30: Edge case: power-of-two-length input → no padding required.
 // edge note 31: No allocations after setup.
+// edge note 32: Space complexity: O(log n) for the recursion stack.
