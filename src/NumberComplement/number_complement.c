@@ -182,3 +182,4 @@ unsigned int find_complement(unsigned int n) {
 // note 166: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 167: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 168: Time complexity: O(n log n).
+// note 169: Persistent tree: every update creates a new version sharing unchanged nodes.
