@@ -195,3 +195,4 @@ long long climb_stairs(int n) {
 // note 176: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 177: Worst case appears only on degenerate inputs.
 // note 178: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 179: Backtracking template: choose, recurse, un-choose. Mutate then revert.
