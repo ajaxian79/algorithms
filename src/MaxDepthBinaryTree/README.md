@@ -1841,3 +1841,7 @@ Runs in a single pass over the input.
 ## entry 446
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 447
+
+Time complexity: O(n log n).
