@@ -2090,3 +2090,7 @@ Time complexity: O(n log n).
 ## entry 508
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 509
+
+Time complexity: O(n log n).
