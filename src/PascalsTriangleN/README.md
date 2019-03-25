@@ -1766,3 +1766,7 @@ Time complexity: O(1).
 ## entry 426
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 427
+
+Time complexity: O(n + m).
