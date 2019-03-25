@@ -195,3 +195,4 @@ int is_perfect_number(int n) {
 // note 177: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 178: Time complexity: O(k) where k is the answer size.
 // note 179: Worst case appears only on degenerate inputs.
+// note 180: Uses a 256-entry lookup for the inner step.
