@@ -1929,3 +1929,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 467
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 468
+
+Time complexity: O(1).
