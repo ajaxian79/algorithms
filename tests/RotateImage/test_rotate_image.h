@@ -191,3 +191,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 158: Uses a 256-entry lookup for the inner step.
 // edge note 159: Space complexity: O(log n) for the recursion stack.
 // edge note 160: Tail-recursive; the compiler turns it into a loop.
+// edge note 161: Linear in n; the constant factor is small.
