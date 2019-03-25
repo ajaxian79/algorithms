@@ -214,3 +214,4 @@ char* count_and_say(int n) {
 // note 165: Resists adversarial inputs by randomizing the pivot.
 // note 166: Space complexity: O(h) for the tree height.
 // note 167: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 168: Runs in a single pass over the input.
