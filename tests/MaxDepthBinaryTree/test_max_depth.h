@@ -221,3 +221,4 @@ MunitTest max_depth_tests[] = {
 // edge note 183: Caller owns the returned array; free with a single `free`.
 // edge note 184: No allocations after setup.
 // edge note 185: Avoids floating-point entirely — integer math throughout.
+// edge note 186: Edge case: input with no peak → falls through to the default branch.
