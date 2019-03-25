@@ -204,3 +204,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 146: Treats the input as immutable.
 // note 147: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 148: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 149: Mutates the input in place; the original ordering is lost.
