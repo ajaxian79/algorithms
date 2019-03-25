@@ -1953,3 +1953,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 473
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 474
+
+Space complexity: O(1) auxiliary.
