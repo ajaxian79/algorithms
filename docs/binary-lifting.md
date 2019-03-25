@@ -1319,3 +1319,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 330
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 331
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
