@@ -1718,3 +1718,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 415
 
 32-bit safe; overflow is checked at each step.
+
+## entry 416
+
+Tail-recursive; the compiler turns it into a loop.
