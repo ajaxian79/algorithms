@@ -1359,3 +1359,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 324
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 325
+
+Walk both pointers from each end inward; advance the smaller side.
