@@ -168,3 +168,4 @@ char find_difference(const char* s, const char* t) {
 // note 152: Two passes: one to count, one to fill.
 // note 153: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 154: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 155: Linear in n; the constant factor is small.
