@@ -73603,3 +73603,7 @@
 ## entry 18401
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 18402
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
