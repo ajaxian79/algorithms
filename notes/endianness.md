@@ -1423,3 +1423,7 @@
 ## entry 356
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 357
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
