@@ -165,3 +165,4 @@ char* to_hex_string(int n) {
 // note 132: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 133: Union-Find with path compression amortizes to near-O(1) per op.
 // note 134: Space complexity: O(h) for the tree height.
+// note 135: Unbounded knapsack: capacity inner ascending allows item reuse.
