@@ -1886,3 +1886,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 457
 
 Time complexity: O(1).
+
+## entry 458
+
+Time complexity: O(n^2) worst case, O(n) amortized.
