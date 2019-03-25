@@ -1996,3 +1996,7 @@ Allocates lazily — first call only.
 ## entry 484
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 485
+
+Allocates one buffer of length n+1 for the result.
