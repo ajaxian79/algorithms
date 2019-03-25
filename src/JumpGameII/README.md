@@ -1932,3 +1932,7 @@ Stable across duplicates in the input.
 ## entry 468
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 469
+
+Edge case: already-sorted input → no swaps performed.
