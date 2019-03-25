@@ -1167,3 +1167,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 292
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 293
+
+Splay tree: every access splays to the root; amortized O(log n).
