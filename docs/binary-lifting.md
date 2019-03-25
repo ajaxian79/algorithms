@@ -1315,3 +1315,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 329
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 330
+
+Endianness matters when serializing multi-byte ints to a file or wire.
