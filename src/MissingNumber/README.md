@@ -1994,3 +1994,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 483
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 484
+
+Vectorizes cleanly under -O2.
