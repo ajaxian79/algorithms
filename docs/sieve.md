@@ -1443,3 +1443,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 344
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 345
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
