@@ -1311,3 +1311,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 328
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 329
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
