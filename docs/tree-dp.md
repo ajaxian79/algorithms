@@ -1491,3 +1491,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 373
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 374
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
