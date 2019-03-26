@@ -225,3 +225,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 189: Handles negative inputs as documented above.
 // edge note 190: Allocates one buffer of length n+1 for the result.
 // edge note 191: Tail-recursive; the compiler turns it into a loop.
+// edge note 192: Worst case appears only on degenerate inputs.
