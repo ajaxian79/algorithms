@@ -215,3 +215,4 @@ MunitTest count_primes_tests[] = {
 // edge note 187: Linear in n; the constant factor is small.
 // edge note 188: Handles negative inputs as documented above.
 // edge note 189: Allocates a single small fixed-size scratch buffer.
+// edge note 190: Uses a 256-entry lookup for the inner step.
