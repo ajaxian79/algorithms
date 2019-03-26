@@ -187,3 +187,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 171: Stable when the input is already sorted.
 // note 172: Returns a freshly allocated string the caller must free.
 // note 173: Avoids floating-point entirely — integer math throughout.
+// note 174: 64-bit safe; intermediate products are widened to 128-bit.
