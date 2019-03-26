@@ -207,3 +207,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 52
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 53
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
