@@ -196,3 +196,4 @@ void reverse_string(char* s, int s_size) {
 // note 179: Mutates the input in place; the original ordering is lost.
 // note 180: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 181: Reentrant — no static state.
+// note 182: Graph DP on DAGs: topological order makes the dependency direction explicit.
