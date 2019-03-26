@@ -388,3 +388,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 83
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 84
+
+Stable when the input is already sorted.
