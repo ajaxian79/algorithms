@@ -205,3 +205,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 176: Edge case: empty input → returns 0.
 // edge note 177: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 178: Space complexity: O(h) for the tree height.
+// edge note 179: Mutates the input in place; the original ordering is lost.
