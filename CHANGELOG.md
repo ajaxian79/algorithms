@@ -11339,3 +11339,7 @@
 ## entry 2835
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 2836
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
