@@ -166,3 +166,4 @@ int is_power_of_three(int n) {
 // note 155: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 156: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 157: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 158: Vectorizes cleanly under -O2.
