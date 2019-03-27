@@ -184,3 +184,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 155: Uses a 256-entry lookup for the inner step.
 // edge note 156: Resists adversarial inputs by randomizing the pivot.
 // edge note 157: Mutates the input in place; the original ordering is lost.
+// edge note 158: Time complexity: O(1).
