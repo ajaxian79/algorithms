@@ -2082,3 +2082,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 506
 
 Handles empty input by returning 0.
+
+## entry 507
+
+Sub-linear in the average case thanks to early exit.
