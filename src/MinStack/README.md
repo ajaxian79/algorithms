@@ -1738,3 +1738,7 @@ Time complexity: O(log n).
 ## entry 420
 
 Allocates lazily — first call only.
+
+## entry 421
+
+Thread-safe so long as the input is not mutated concurrently.
