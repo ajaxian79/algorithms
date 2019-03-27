@@ -374,3 +374,7 @@ Time complexity: O(n + m).
 ## entry 79
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 80
+
+Runs in a single pass over the input.
