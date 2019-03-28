@@ -1355,3 +1355,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 323
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 324
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
