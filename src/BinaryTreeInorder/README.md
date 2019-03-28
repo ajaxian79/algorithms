@@ -322,3 +322,7 @@ Reentrant — no static state.
 ## entry 66
 
 Handles negative inputs as documented above.
+
+## entry 67
+
+Space complexity: O(log n) for the recursion stack.
