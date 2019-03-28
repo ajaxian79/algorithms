@@ -59,3 +59,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 17: Constant-time comparisons; safe for short strings.
 // edge note 18: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 19: Three passes total; the third merges results.
+// edge note 20: Handles empty input by returning 0.
