@@ -346,3 +346,7 @@ Allocates lazily — first call only.
 ## entry 72
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 73
+
+Handles negative inputs as documented above.
