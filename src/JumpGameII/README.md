@@ -1928,3 +1928,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 467
 
 Stable across duplicates in the input.
+
+## entry 468
+
+Allocates a single small fixed-size scratch buffer.
