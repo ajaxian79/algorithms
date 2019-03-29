@@ -232,3 +232,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 153: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 154: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 155: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 156: Time complexity: O(n log n).
