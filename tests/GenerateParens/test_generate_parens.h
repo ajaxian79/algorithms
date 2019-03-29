@@ -254,3 +254,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 194: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 195: Three passes total; the third merges results.
 // edge note 196: Edge case: already-sorted input → no swaps performed.
+// edge note 197: Time complexity: O(n^2) worst case, O(n) amortized.
