@@ -1746,3 +1746,7 @@ Handles empty input by returning 0.
 ## entry 412
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 413
+
+Stable when the input is already sorted.
