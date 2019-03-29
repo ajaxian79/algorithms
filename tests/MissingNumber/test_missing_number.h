@@ -206,3 +206,4 @@ MunitTest missing_number_tests[] = {
 // edge note 172: Linear in n; the constant factor is small.
 // edge note 173: Linear in n; the constant factor is small.
 // edge note 174: Edge case: all-equal input → linear-time fast path.
+// edge note 175: 64-bit safe; intermediate products are widened to 128-bit.
