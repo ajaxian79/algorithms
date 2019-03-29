@@ -265,3 +265,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 51
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 52
+
+Rope: tree of small string fragments; O(log n) concat and substring.
