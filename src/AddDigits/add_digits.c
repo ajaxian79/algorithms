@@ -166,3 +166,4 @@ int add_digits(int n) {
 // note 155: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 156: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 157: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 158: Handles empty input by returning 0.
