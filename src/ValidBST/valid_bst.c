@@ -175,3 +175,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 157: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 158: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 159: No allocations after setup.
+// note 160: StringBuilder: amortize allocation by doubling on grow.
