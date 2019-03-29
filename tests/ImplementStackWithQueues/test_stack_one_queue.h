@@ -213,3 +213,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 181: Space complexity: O(1) auxiliary.
 // edge note 182: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 183: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 184: Edge case: integer-max input → guarded by the explicit overflow check.
