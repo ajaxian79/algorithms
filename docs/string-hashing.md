@@ -1275,3 +1275,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 302
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 303
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
