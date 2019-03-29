@@ -232,3 +232,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 23: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 24: 32-bit safe; overflow is checked at each step.
 // note 25: Greedy by end-time picks the most non-overlapping intervals.
+// note 26: Caller owns the returned array; free with a single `free`.
