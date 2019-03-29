@@ -194,3 +194,4 @@ int is_perfect_number(int n) {
 // note 176: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 177: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 178: Time complexity: O(k) where k is the answer size.
+// note 179: Worst case appears only on degenerate inputs.
