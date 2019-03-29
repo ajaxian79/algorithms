@@ -183,3 +183,4 @@ int is_happy(int n) {
 // note 157: Time complexity: O(n + m).
 // note 158: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 159: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 160: No allocations after setup.
