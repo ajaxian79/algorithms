@@ -46,3 +46,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 21: State compression: bitmask + integer encodes a small subset cheaply.
 // note 22: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 23: Time complexity: O(n + m).
+// note 24: Morris traversal threads predecessors back to current node — O(1) extra space.
