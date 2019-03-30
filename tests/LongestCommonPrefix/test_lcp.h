@@ -83,3 +83,4 @@ MunitTest lcp_tests[] = {
 // edge note 28: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 29: 32-bit safe; overflow is checked at each step.
 // edge note 30: Reentrant — no static state.
+// edge note 31: Caller owns the returned buffer.
