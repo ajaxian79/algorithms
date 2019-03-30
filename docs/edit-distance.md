@@ -295,3 +295,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 56
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 57
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
