@@ -1363,3 +1363,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 341
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 342
+
+StringBuilder: amortize allocation by doubling on grow.
