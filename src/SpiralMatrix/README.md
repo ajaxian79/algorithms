@@ -1894,3 +1894,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 458
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 459
+
+Edge case: input with no peak → falls through to the default branch.
