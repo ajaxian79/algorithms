@@ -1988,3 +1988,7 @@ Worst case appears only on degenerate inputs.
 ## entry 481
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 482
+
+Allocates lazily — first call only.
