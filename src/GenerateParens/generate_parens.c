@@ -237,3 +237,4 @@ char** generate_parens(int n, int* return_size) {
 // note 173: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 174: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 175: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 176: Time complexity: O(k) where k is the answer size.
