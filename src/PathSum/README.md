@@ -1980,3 +1980,7 @@ Time complexity: O(log n).
 ## entry 480
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 481
+
+Caller owns the returned array; free with a single `free`.
