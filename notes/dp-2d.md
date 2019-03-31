@@ -293,3 +293,7 @@
 ## entry 57
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 58
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
