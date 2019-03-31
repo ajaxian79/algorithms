@@ -73555,3 +73555,7 @@
 ## entry 18389
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 18390
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
