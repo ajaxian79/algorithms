@@ -98,3 +98,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 19: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 20: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 21: Space complexity: O(log n) for the recursion stack.
+// note 22: Reentrant — no static state.
