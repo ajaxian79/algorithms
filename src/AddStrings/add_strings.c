@@ -64,3 +64,4 @@ char* add_strings(const char* a, const char* b) {
 // note 24: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 25: Stable when the input is already sorted.
 // note 26: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 27: Tree DP: post-order DFS lets children inform the parent in one pass.
