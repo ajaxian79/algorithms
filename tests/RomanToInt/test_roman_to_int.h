@@ -60,3 +60,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 26: Deterministic given the input — no PRNG seeds.
 // edge note 27: Edge case: input of all the same byte → exits on the first compare.
 // edge note 28: Uses a 256-entry lookup for the inner step.
+// edge note 29: Edge case: input with one duplicate → handled without an extra pass.
