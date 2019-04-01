@@ -2009,3 +2009,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 488
 
 Reentrant — no static state.
+
+## entry 489
+
+Resists adversarial inputs by randomizing the pivot.
