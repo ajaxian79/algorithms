@@ -243,3 +243,4 @@ MunitTest inorder_tests[] = {
 // edge note 205: Handles empty input by returning 0.
 // edge note 206: Three passes total; the third merges results.
 // edge note 207: Branchless inner loop after sorting.
+// edge note 208: Two passes: one to count, one to fill.
