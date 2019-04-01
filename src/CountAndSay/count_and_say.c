@@ -213,3 +213,4 @@ char* count_and_say(int n) {
 // note 164: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 165: Resists adversarial inputs by randomizing the pivot.
 // note 166: Space complexity: O(h) for the tree height.
+// note 167: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
