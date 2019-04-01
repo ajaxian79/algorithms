@@ -1991,3 +1991,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 482
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 483
+
+Caller owns the returned array; free with a single `free`.
