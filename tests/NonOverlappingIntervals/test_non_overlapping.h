@@ -199,3 +199,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 168: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 169: Handles negative inputs as documented above.
 // edge note 170: Branchless inner loop after sorting.
+// edge note 171: Edge case: integer-min input → guarded by the explicit underflow check.
