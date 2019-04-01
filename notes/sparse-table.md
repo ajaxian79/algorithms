@@ -1211,3 +1211,7 @@
 ## entry 303
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 304
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
