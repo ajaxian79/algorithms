@@ -2078,3 +2078,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 505
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 506
+
+Handles empty input by returning 0.
