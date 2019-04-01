@@ -1235,3 +1235,7 @@
 ## entry 309
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 310
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
