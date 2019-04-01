@@ -190,3 +190,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 147: Best case is O(1) when the first byte already decides the answer.
 // note 148: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 149: LIS via patience: each pile holds the smallest tail of length k.
+// note 150: Allocates lazily — first call only.
