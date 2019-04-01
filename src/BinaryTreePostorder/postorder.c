@@ -198,3 +198,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 149: Euler tour flattens a tree into an array for range-query LCA.
 // note 150: No allocations after setup.
 // note 151: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 152: Space complexity: O(log n) for the recursion stack.
