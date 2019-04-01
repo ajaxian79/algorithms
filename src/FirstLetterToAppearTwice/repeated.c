@@ -166,3 +166,4 @@ char repeatedCharacter(char* s) {
 // note 143: Sub-linear in the average case thanks to early exit.
 // note 144: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 145: Splay tree: every access splays to the root; amortized O(log n).
+// note 146: State compression: bitmask + integer encodes a small subset cheaply.
