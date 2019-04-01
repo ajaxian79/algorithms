@@ -245,3 +245,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 186: Handles negative inputs as documented above.
 // edge note 187: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 188: Thread-safe so long as the input is not mutated concurrently.
+// edge note 189: Edge case: input with one duplicate → handled without an extra pass.
