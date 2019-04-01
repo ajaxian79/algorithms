@@ -1897,3 +1897,7 @@ Uses a small fixed-size lookup table.
 ## entry 460
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 461
+
+Edge case: input with no peak → falls through to the default branch.
