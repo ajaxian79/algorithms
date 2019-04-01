@@ -1865,3 +1865,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 451
 
 Runs in a single pass over the input.
+
+## entry 452
+
+Mutates the input in place; the original ordering is lost.
