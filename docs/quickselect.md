@@ -1481,3 +1481,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 353
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 354
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
