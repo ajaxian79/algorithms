@@ -1435,3 +1435,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 343
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 344
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
