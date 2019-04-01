@@ -1271,3 +1271,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 301
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 302
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
