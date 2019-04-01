@@ -73539,3 +73539,7 @@
 ## entry 18385
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 18386
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
