@@ -167,3 +167,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 135: Edge case: already-sorted input → no swaps performed.
 // edge note 136: Mutates the input in place; the original ordering is lost.
 // edge note 137: Space complexity: O(n) for the result buffer.
+// edge note 138: Vectorizes cleanly under -O2.
