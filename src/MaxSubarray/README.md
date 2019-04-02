@@ -346,3 +346,7 @@ Two passes: one to count, one to fill.
 ## entry 72
 
 Allocates lazily — first call only.
+
+## entry 73
+
+Vectorizes cleanly under -O2.
