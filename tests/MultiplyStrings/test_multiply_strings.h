@@ -217,3 +217,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 188: No allocations on the hot path.
 // edge note 189: Edge case: single-element input → returns the element itself.
 // edge note 190: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 191: Edge case: already-sorted input → no swaps performed.
