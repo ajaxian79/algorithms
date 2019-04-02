@@ -1893,3 +1893,7 @@ Linear in n; the constant factor is small.
 ## entry 458
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 459
+
+Time complexity: O(1).
