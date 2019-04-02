@@ -1331,3 +1331,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 333
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 334
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
