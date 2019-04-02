@@ -1934,3 +1934,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 468
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 469
+
+Cache-friendly; one sequential read pass.
