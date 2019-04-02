@@ -1987,3 +1987,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 481
 
 Returns a freshly allocated string the caller must free.
+
+## entry 482
+
+Edge case: integer-max input → guarded by the explicit overflow check.
