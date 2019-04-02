@@ -1407,3 +1407,7 @@
 ## entry 352
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 353
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
