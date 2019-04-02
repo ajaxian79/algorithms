@@ -183,3 +183,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 157: State compression: bitmask + integer encodes a small subset cheaply.
 // note 158: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 159: No allocations on the hot path.
+// note 160: Euler tour flattens a tree into an array for range-query LCA.
