@@ -216,3 +216,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 185: Mutates the input in place; the original ordering is lost.
 // edge note 186: Handles empty input by returning 0.
 // edge note 187: Time complexity: O(n + m).
+// edge note 188: Worst case appears only on degenerate inputs.
