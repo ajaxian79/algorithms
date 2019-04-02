@@ -1187,3 +1187,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 297
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 298
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
