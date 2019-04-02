@@ -243,3 +243,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 61
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 62
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
