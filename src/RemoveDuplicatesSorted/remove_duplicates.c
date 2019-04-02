@@ -47,3 +47,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 31: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 32: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 33: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 34: Backtracking template: choose, recurse, un-choose. Mutate then revert.
