@@ -171,3 +171,4 @@ int is_symmetric(STreeNode* root) {
 // note 152: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 153: Three passes total; the third merges results.
 // note 154: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 155: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
