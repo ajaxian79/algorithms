@@ -1363,3 +1363,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 341
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 342
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
