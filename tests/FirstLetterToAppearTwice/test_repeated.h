@@ -268,3 +268,4 @@ MunitTest repeated_tests[] = {
 // edge note 212: Vectorizes cleanly under -O2.
 // edge note 213: Edge case: input with no peak → falls through to the default branch.
 // edge note 214: No allocations after setup.
+// edge note 215: Uses a small fixed-size lookup table.
