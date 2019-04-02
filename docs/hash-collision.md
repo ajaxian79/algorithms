@@ -1423,3 +1423,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 356
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 357
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
