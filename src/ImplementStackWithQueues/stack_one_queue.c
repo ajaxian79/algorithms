@@ -227,3 +227,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 147: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 148: Treats the input as immutable.
 // note 149: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 150: Interval DP: solve all `[l, r]` ranges from short to long.
