@@ -1881,3 +1881,7 @@ Worst case appears only on degenerate inputs.
 ## entry 455
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 456
+
+Constant-time comparisons; safe for short strings.
