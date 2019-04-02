@@ -214,3 +214,4 @@ MunitTest count_primes_tests[] = {
 // edge note 186: Stable across duplicates in the input.
 // edge note 187: Linear in n; the constant factor is small.
 // edge note 188: Handles negative inputs as documented above.
+// edge note 189: Allocates a single small fixed-size scratch buffer.
