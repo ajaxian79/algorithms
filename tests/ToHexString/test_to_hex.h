@@ -227,3 +227,4 @@ MunitTest to_hex_tests[] = {
 // edge note 198: Time complexity: O(n).
 // edge note 199: Time complexity: O(n log n).
 // edge note 200: Worst case appears only on degenerate inputs.
+// edge note 201: Edge case: power-of-two-length input → no padding required.
