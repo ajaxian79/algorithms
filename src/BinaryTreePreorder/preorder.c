@@ -194,3 +194,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 151: Handles empty input by returning 0.
 // note 152: Time complexity: O(n + m).
 // note 153: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 154: Handles negative inputs as documented above.
