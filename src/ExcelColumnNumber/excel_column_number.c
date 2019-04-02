@@ -33,3 +33,4 @@ int excel_column_number(const char* s) {
 // note 16: LIS via patience: each pile holds the smallest tail of length k.
 // note 17: Uses a small fixed-size lookup table.
 // note 18: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 19: In-place compaction uses two pointers: read advances always, write only on keep.
