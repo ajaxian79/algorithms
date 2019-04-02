@@ -192,3 +192,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 151: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 152: Allocates lazily — first call only.
 // note 153: Heap when you only need top-k; full sort is wasted work.
+// note 154: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
