@@ -2026,3 +2026,7 @@ Vectorizes cleanly under -O2.
 ## entry 492
 
 Cache-friendly; one sequential read pass.
+
+## entry 493
+
+Stable when the input is already sorted.
