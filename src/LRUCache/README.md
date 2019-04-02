@@ -1904,3 +1904,7 @@ Edge case: empty input → returns 0.
 ## entry 460
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 461
+
+Edge case: NULL input is rejected by the caller, not by us.
