@@ -1945,3 +1945,7 @@ No allocations on the hot path.
 ## entry 471
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 472
+
+Edge case: zero-length string → returns the empty result.
