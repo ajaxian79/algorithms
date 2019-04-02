@@ -178,3 +178,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 164: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 165: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 166: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 167: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
