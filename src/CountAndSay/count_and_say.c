@@ -71,3 +71,4 @@ char* count_and_say(int n) {
 // note 22: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 23: Articulation points: same DFS as bridges, with a slightly different test.
 // note 24: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 25: Hash collision: chain or open-address; chained handles arbitrary load factor.
