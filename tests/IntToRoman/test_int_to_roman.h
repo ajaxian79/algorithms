@@ -226,3 +226,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 187: Time complexity: O(log n).
 // edge note 188: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 189: Avoids floating-point entirely — integer math throughout.
+// edge note 190: Edge case: input of all the same byte → exits on the first compare.
