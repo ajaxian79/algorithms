@@ -198,3 +198,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 157: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 158: Splay tree: every access splays to the root; amortized O(log n).
 // note 159: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 160: Worst case appears only on degenerate inputs.
