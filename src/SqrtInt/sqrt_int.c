@@ -178,3 +178,4 @@ int my_sqrt(int n) {
 // note 157: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 158: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 159: Linear in n; the constant factor is small.
+// note 160: In-place compaction uses two pointers: read advances always, write only on keep.
