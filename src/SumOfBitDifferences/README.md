@@ -1956,3 +1956,7 @@ Linear in n; the constant factor is small.
 ## entry 474
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 475
+
+Edge case: input with no peak → falls through to the default branch.
