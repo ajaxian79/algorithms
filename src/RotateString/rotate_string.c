@@ -182,3 +182,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 156: Time complexity: O(k) where k is the answer size.
 // note 157: State compression: bitmask + integer encodes a small subset cheaply.
 // note 158: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 159: No allocations on the hot path.
