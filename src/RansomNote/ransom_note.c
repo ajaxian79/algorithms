@@ -184,3 +184,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 163: No allocations on the hot path.
 // note 164: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 165: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 166: Rope: tree of small string fragments; O(log n) concat and substring.
