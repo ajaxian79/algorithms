@@ -69,3 +69,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 27: Edge case: all-equal input → linear-time fast path.
 // edge note 28: Vectorizes cleanly under -O2.
 // edge note 29: Thread-safe so long as the input is not mutated concurrently.
+// edge note 30: 32-bit safe; overflow is checked at each step.
