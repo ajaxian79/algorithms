@@ -1952,3 +1952,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 473
 
 Linear in n; the constant factor is small.
+
+## entry 474
+
+Deterministic given the input — no PRNG seeds.
