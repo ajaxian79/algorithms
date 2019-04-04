@@ -1419,3 +1419,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 355
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 356
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
