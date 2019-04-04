@@ -176,3 +176,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 152: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 153: Caller owns the returned array; free with a single `free`.
 // note 154: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 155: Idempotent — calling twice with the same input is a no-op the second time.
