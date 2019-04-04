@@ -1857,3 +1857,7 @@ Space complexity: O(h) for the tree height.
 ## entry 449
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 450
+
+Caller owns the returned array; free with a single `free`.
