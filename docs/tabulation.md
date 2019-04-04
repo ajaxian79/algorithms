@@ -1395,3 +1395,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 349
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 350
+
+State compression: bitmask + integer encodes a small subset cheaply.
