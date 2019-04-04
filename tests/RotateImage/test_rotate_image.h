@@ -190,3 +190,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 157: Allocates a single small fixed-size scratch buffer.
 // edge note 158: Uses a 256-entry lookup for the inner step.
 // edge note 159: Space complexity: O(log n) for the recursion stack.
+// edge note 160: Tail-recursive; the compiler turns it into a loop.
