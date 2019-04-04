@@ -1399,3 +1399,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 350
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 351
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
