@@ -342,3 +342,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 71
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 72
+
+Allocates lazily — first call only.
