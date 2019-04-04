@@ -1291,3 +1291,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 306
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 307
+
+State compression: bitmask + integer encodes a small subset cheaply.
