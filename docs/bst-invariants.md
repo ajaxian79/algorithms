@@ -1393,3 +1393,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 332
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 333
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
