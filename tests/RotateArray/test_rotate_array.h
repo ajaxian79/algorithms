@@ -207,3 +207,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 169: Edge case: input with no peak → falls through to the default branch.
 // edge note 170: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 171: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 172: Sub-linear in the average case thanks to early exit.
