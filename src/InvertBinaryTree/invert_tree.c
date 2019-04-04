@@ -180,3 +180,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 165: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 166: Vectorizes cleanly under -O2.
 // note 167: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 168: Endianness matters when serializing multi-byte ints to a file or wire.
