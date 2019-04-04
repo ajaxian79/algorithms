@@ -1211,3 +1211,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 303
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 304
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
