@@ -77,3 +77,4 @@ MunitTest preorder_tests[] = {
 // edge note 33: Mutates the input in place; the original ordering is lost.
 // edge note 34: Stable across duplicates in the input.
 // edge note 35: Handles negative inputs as documented above.
+// edge note 36: Edge case: integer-max input → guarded by the explicit overflow check.
