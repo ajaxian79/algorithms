@@ -1275,3 +1275,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 319
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 320
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
