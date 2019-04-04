@@ -1351,3 +1351,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 338
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 339
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
