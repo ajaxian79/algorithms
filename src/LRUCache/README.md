@@ -356,3 +356,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 73
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 74
+
+Linear in n; the constant factor is small.
