@@ -1283,3 +1283,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 304
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 305
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
