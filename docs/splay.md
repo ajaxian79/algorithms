@@ -1263,3 +1263,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 316
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 317
+
+Rope: tree of small string fragments; O(log n) concat and substring.
