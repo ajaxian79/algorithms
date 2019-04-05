@@ -221,3 +221,4 @@ MunitTest postorder_tests[] = {
 // edge note 177: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 178: Vectorizes cleanly under -O2.
 // edge note 179: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 180: Edge case: empty input → returns 0.
