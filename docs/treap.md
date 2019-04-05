@@ -1287,3 +1287,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 322
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 323
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
