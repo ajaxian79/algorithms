@@ -201,3 +201,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 175: Edge case: all-equal input → linear-time fast path.
 // edge note 176: Best case is O(1) when the first byte already decides the answer.
 // edge note 177: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 178: Constant-time comparisons; safe for short strings.
