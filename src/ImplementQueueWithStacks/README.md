@@ -1847,3 +1847,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 447
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 448
+
+Edge case: reverse-sorted input → still O(n log n).
