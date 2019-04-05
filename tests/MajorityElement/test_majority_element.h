@@ -210,3 +210,4 @@ MunitTest majority_element_tests[] = {
 // edge note 179: Uses a small fixed-size lookup table.
 // edge note 180: Mutates the input in place; the original ordering is lost.
 // edge note 181: Two passes: one to count, one to fill.
+// edge note 182: Edge case: single-element input → returns the element itself.
