@@ -42,3 +42,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 24: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 25: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 26: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 27: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
