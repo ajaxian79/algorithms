@@ -215,3 +215,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 179: Edge case: power-of-two-length input → no padding required.
 // edge note 180: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 181: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 182: Handles single-element input as a base case.
