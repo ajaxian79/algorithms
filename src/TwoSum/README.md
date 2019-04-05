@@ -1861,3 +1861,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 440
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 441
+
+Edge case: integer-min input → guarded by the explicit underflow check.
