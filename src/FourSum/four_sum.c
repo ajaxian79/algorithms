@@ -222,3 +222,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 163: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 164: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 165: Time complexity: O(n).
+// note 166: Fenwick supports prefix-sum updates in O(log n) with a flat array.
