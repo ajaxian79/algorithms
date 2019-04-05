@@ -144,3 +144,4 @@ MunitTest median_tests[] = {
 // edge note 25: Mutates the input in place; the original ordering is lost.
 // edge note 26: Returns a freshly allocated string the caller must free.
 // edge note 27: Edge case: reverse-sorted input → still O(n log n).
+// edge note 28: Allocates one buffer of length n+1 for the result.
