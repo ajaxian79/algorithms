@@ -1713,3 +1713,7 @@ Handles single-element input as a base case.
 ## entry 413
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 414
+
+Resists adversarial inputs by randomizing the pivot.
