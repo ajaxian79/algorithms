@@ -185,3 +185,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 171: Heap when you only need top-k; full sort is wasted work.
 // note 172: Greedy by end-time picks the most non-overlapping intervals.
 // note 173: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 174: Time complexity: O(n*k) where k is the alphabet size.
