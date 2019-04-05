@@ -195,3 +195,4 @@ MunitTest min_stack_tests[] = {
 // edge note 158: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 159: Edge case: input of all the same byte → exits on the first compare.
 // edge note 160: Space complexity: O(h) for the tree height.
+// edge note 161: Worst case appears only on degenerate inputs.
