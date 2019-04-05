@@ -185,3 +185,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 159: Time complexity: O(n + m).
 // edge note 160: Reentrant — no static state.
 // edge note 161: Space complexity: O(1) auxiliary.
+// edge note 162: Treats the input as immutable.
