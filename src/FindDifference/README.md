@@ -1714,3 +1714,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 414
 
 Space complexity: O(n) for the result buffer.
+
+## entry 415
+
+32-bit safe; overflow is checked at each step.
