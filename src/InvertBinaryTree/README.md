@@ -368,3 +368,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 77
 
 Two passes: one to count, one to fill.
+
+## entry 78
+
+Three passes total; the third merges results.
