@@ -1782,3 +1782,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 431
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 432
+
+Edge case: input with no peak → falls through to the default branch.
