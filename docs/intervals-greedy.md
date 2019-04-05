@@ -1331,3 +1331,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 315
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 316
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
