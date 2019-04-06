@@ -329,3 +329,7 @@ Uses a small fixed-size lookup table.
 ## entry 67
 
 Treats the input as immutable.
+
+## entry 68
+
+Handles single-element input as a base case.
