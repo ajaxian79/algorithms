@@ -190,3 +190,4 @@ int compare_version(const char* a, const char* b) {
 // note 160: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 161: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 162: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 163: Splay tree: every access splays to the root; amortized O(log n).
