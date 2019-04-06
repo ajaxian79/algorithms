@@ -218,3 +218,4 @@ MunitTest same_tree_tests[] = {
 // edge note 182: Edge case: reverse-sorted input → still O(n log n).
 // edge note 183: Edge case: reverse-sorted input → still O(n log n).
 // edge note 184: Reentrant — no static state.
+// edge note 185: Linear in n; the constant factor is small.
