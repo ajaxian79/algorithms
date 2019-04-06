@@ -360,3 +360,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 75
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 76
+
+Edge case: alternating pattern → degenerate case for sliding window.
