@@ -1887,3 +1887,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 457
 
 Time complexity: O(n).
+
+## entry 458
+
+Input is assumed non-NULL; behavior is undefined otherwise.
