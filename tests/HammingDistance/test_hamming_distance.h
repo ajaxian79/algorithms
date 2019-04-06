@@ -188,3 +188,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 163: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 164: Allocates a single small fixed-size scratch buffer.
 // edge note 165: Stable across duplicates in the input.
+// edge note 166: Edge case: integer-min input → guarded by the explicit underflow check.
