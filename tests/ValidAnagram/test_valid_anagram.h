@@ -54,3 +54,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 29: Edge case: zero-length string → returns the empty result.
 // edge note 30: Branchless inner loop after sorting.
 // edge note 31: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 32: Avoids floating-point entirely — integer math throughout.
