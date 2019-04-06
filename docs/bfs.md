@@ -277,3 +277,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 52
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 53
+
+Articulation points: same DFS as bridges, with a slightly different test.
