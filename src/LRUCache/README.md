@@ -1900,3 +1900,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 459
 
 Edge case: empty input → returns 0.
+
+## entry 460
+
+Mutates the input in place; the original ordering is lost.
