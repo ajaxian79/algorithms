@@ -239,3 +239,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 60
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 61
+
+Euler tour flattens a tree into an array for range-query LCA.
