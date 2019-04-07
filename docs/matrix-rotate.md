@@ -1321,3 +1321,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 314
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 315
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
