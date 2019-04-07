@@ -1795,3 +1795,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 434
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 435
+
+Stable when the input is already sorted.
