@@ -1351,3 +1351,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 322
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 323
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
