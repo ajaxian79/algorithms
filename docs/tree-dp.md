@@ -1483,3 +1483,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 371
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 372
+
+Endianness matters when serializing multi-byte ints to a file or wire.
