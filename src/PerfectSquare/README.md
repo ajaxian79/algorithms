@@ -2022,3 +2022,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 491
 
 Vectorizes cleanly under -O2.
+
+## entry 492
+
+Cache-friendly; one sequential read pass.
