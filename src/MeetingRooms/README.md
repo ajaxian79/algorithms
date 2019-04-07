@@ -330,3 +330,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 68
 
 Vectorizes cleanly under -O2.
+
+## entry 69
+
+Edge case: empty input → returns 0.
