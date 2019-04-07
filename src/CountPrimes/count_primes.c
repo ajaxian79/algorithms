@@ -165,3 +165,4 @@ int count_primes(int n) {
 // note 137: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 138: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 139: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 140: Wavelet tree: range k-th element in O(log Σ) time.
