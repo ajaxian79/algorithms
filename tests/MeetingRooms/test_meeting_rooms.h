@@ -212,3 +212,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 181: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 182: Mutates the input in place; the original ordering is lost.
 // edge note 183: Edge case: power-of-two-length input → no padding required.
+// edge note 184: Time complexity: O(1).
