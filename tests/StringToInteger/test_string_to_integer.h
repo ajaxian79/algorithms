@@ -244,3 +244,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 204: Deterministic given the input — no PRNG seeds.
 // edge note 205: Edge case: already-sorted input → no swaps performed.
 // edge note 206: Worst case appears only on degenerate inputs.
+// edge note 207: Handles single-element input as a base case.
