@@ -2074,3 +2074,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 504
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 505
+
+Space complexity: O(log n) for the recursion stack.
