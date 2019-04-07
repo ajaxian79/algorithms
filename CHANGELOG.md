@@ -73407,3 +73407,7 @@
 ## entry 18352
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 18353
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
