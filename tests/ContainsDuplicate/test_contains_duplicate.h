@@ -202,3 +202,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 159: Stable across duplicates in the input.
 // edge note 160: Tail-recursive; the compiler turns it into a loop.
 // edge note 161: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 162: Caller owns the returned buffer.
