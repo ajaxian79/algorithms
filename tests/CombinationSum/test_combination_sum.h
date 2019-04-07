@@ -208,3 +208,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 164: Allocates one buffer of length n+1 for the result.
 // edge note 165: Time complexity: O(n + m).
 // edge note 166: Edge case: empty input → returns 0.
+// edge note 167: No allocations on the hot path.
