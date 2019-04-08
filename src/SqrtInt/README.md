@@ -1999,3 +1999,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 485
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 486
+
+Allocates one buffer of length n+1 for the result.
