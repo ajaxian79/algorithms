@@ -1479,3 +1479,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 370
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 371
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
