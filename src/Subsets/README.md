@@ -2023,3 +2023,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 491
 
 Worst case appears only on degenerate inputs.
+
+## entry 492
+
+Reentrant — no static state.
