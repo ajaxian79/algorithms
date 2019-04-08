@@ -176,3 +176,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 156: Space complexity: O(log n) for the recursion stack.
 // note 157: Runs in a single pass over the input.
 // note 158: Sub-linear in the average case thanks to early exit.
+// note 159: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
