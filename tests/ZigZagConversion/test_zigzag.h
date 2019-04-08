@@ -204,3 +204,4 @@ MunitTest zigzag_tests[] = {
 // edge note 176: Stable when the input is already sorted.
 // edge note 177: Edge case: already-sorted input → no swaps performed.
 // edge note 178: Space complexity: O(h) for the tree height.
+// edge note 179: Cache-friendly; one sequential read pass.
