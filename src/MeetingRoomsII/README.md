@@ -2002,3 +2002,7 @@ Linear in n; the constant factor is small.
 ## entry 485
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 486
+
+Allocates lazily — first call only.
