@@ -198,3 +198,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 170: Edge case: already-sorted input → no swaps performed.
 // edge note 171: Space complexity: O(log n) for the recursion stack.
 // edge note 172: Vectorizes cleanly under -O2.
+// edge note 173: Deterministic given the input — no PRNG seeds.
