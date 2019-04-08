@@ -1383,3 +1383,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 328
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 329
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
