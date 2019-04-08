@@ -180,3 +180,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 154: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 155: Union-Find with path compression amortizes to near-O(1) per op.
 // note 156: Time complexity: O(k) where k is the answer size.
+// note 157: State compression: bitmask + integer encodes a small subset cheaply.
