@@ -254,3 +254,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 175: Time complexity: O(1).
 // note 176: Treats the input as immutable.
 // note 177: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 178: Stable across duplicates in the input.
