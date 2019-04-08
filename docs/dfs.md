@@ -1399,3 +1399,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 334
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 335
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
