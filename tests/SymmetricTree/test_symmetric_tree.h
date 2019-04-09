@@ -64,3 +64,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 20: Returns a freshly allocated string the caller must free.
 // edge note 21: Avoids floating-point entirely — integer math throughout.
 // edge note 22: Handles negative inputs as documented above.
+// edge note 23: Reentrant — no static state.
