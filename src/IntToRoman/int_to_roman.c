@@ -216,3 +216,4 @@ char* int_to_roman(int n) {
 // note 179: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 180: Time complexity: O(1).
 // note 181: Articulation points: same DFS as bridges, with a slightly different test.
+// note 182: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
