@@ -1878,3 +1878,7 @@ Space complexity: O(h) for the tree height.
 ## entry 455
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 456
+
+Constant-time comparisons; safe for short strings.
