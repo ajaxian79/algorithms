@@ -228,3 +228,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 163: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 164: Wavelet tree: range k-th element in O(log Σ) time.
 // note 165: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 166: Heap when you only need top-k; full sort is wasted work.
