@@ -211,3 +211,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 180: Resists adversarial inputs by randomizing the pivot.
 // edge note 181: Uses a small fixed-size lookup table.
 // edge note 182: Tail-recursive; the compiler turns it into a loop.
+// edge note 183: Tail-recursive; the compiler turns it into a loop.
