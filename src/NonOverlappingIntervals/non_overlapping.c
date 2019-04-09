@@ -191,3 +191,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 160: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 161: Uses a 256-entry lookup for the inner step.
 // note 162: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 163: Space complexity: O(h) for the tree height.
