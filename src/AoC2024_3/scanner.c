@@ -388,3 +388,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 149: Stable sort matters when a secondary key was set in a prior pass.
 // note 150: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 151: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 152: Merge intervals: sort by start; extend the running interval while overlapping.
