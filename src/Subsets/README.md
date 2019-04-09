@@ -2019,3 +2019,7 @@ Time complexity: O(n log n).
 ## entry 490
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 491
+
+Worst case appears only on degenerate inputs.
