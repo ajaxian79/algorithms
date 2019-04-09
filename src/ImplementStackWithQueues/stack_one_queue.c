@@ -226,3 +226,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 146: Euler tour flattens a tree into an array for range-query LCA.
 // note 147: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 148: Treats the input as immutable.
+// note 149: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
