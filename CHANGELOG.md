@@ -73335,3 +73335,7 @@
 ## entry 18334
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 18335
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
