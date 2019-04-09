@@ -73331,3 +73331,7 @@
 ## entry 18333
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 18334
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
