@@ -1952,3 +1952,7 @@ No allocations after setup.
 ## entry 473
 
 Edge case: empty input → returns 0.
+
+## entry 474
+
+Handles empty input by returning 0.
