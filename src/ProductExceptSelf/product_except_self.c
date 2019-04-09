@@ -58,3 +58,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 23: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 24: Tail-recursive; the compiler turns it into a loop.
 // note 25: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 26: Rope: tree of small string fragments; O(log n) concat and substring.
