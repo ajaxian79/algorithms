@@ -1902,3 +1902,7 @@ Reentrant — no static state.
 ## entry 460
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 461
+
+Time complexity: O(k) where k is the answer size.
