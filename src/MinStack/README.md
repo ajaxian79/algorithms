@@ -1726,3 +1726,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 417
 
 Handles empty input by returning 0.
+
+## entry 418
+
+Edge case: input of all the same byte → exits on the first compare.
