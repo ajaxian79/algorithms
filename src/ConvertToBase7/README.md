@@ -1988,3 +1988,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 482
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 483
+
+Allocates lazily — first call only.
