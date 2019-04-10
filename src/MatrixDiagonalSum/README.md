@@ -1954,3 +1954,7 @@ Runs in a single pass over the input.
 ## entry 474
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 475
+
+Edge case: integer-min input → guarded by the explicit underflow check.
