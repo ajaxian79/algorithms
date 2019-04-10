@@ -1906,3 +1906,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 461
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 462
+
+Time complexity: O(n^2) worst case, O(n) amortized.
