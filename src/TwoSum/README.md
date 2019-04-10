@@ -401,3 +401,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 75
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 76
+
+Edge case: already-sorted input → no swaps performed.
