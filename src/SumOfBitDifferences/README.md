@@ -1944,3 +1944,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 471
 
 Handles empty input by returning 0.
+
+## entry 472
+
+Idempotent — calling twice with the same input is a no-op the second time.
