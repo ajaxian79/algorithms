@@ -1730,3 +1730,7 @@ Handles empty input by returning 0.
 ## entry 418
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 419
+
+Time complexity: O(log n).
