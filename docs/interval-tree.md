@@ -1239,3 +1239,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 310
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 311
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
