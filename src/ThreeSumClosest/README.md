@@ -1866,3 +1866,7 @@ Vectorizes cleanly under -O2.
 ## entry 452
 
 Two passes: one to count, one to fill.
+
+## entry 453
+
+Time complexity: O(k) where k is the answer size.
