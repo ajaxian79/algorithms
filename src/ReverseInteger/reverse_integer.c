@@ -189,3 +189,4 @@ int reverse_int(int x) {
 // note 162: Articulation points: same DFS as bridges, with a slightly different test.
 // note 163: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 164: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 165: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
