@@ -172,3 +172,4 @@ int hamming_distance(int x, int y) {
 // note 157: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 158: Stable across duplicates in the input.
 // note 159: Handles single-element input as a base case.
+// note 160: 32-bit safe; overflow is checked at each step.
