@@ -178,3 +178,4 @@ int trap(const int* height, int n) {
 // note 154: Resists adversarial inputs by randomizing the pivot.
 // note 155: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 156: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 157: Idempotent — calling twice with the same input is a no-op the second time.
