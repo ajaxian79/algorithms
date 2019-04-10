@@ -270,3 +270,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 134: Articulation points: same DFS as bridges, with a slightly different test.
 // note 135: Constant-time comparisons; safe for short strings.
 // note 136: Monotonic stack pops while the new element violates the invariant.
+// note 137: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
