@@ -1259,3 +1259,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 315
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 316
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
