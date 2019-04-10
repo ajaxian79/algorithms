@@ -1837,3 +1837,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 445
 
 Runs in a single pass over the input.
+
+## entry 446
+
+Edge case: integer-min input → guarded by the explicit underflow check.
