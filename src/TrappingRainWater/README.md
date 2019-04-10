@@ -1902,3 +1902,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 460
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 461
+
+Allocates one buffer of length n+1 for the result.
