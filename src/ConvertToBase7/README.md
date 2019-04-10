@@ -1992,3 +1992,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 483
 
 Allocates lazily — first call only.
+
+## entry 484
+
+Time complexity: O(n*k) where k is the alphabet size.
