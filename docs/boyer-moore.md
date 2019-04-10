@@ -1343,3 +1343,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 320
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 321
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
