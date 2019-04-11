@@ -1862,3 +1862,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 451
 
 Vectorizes cleanly under -O2.
+
+## entry 452
+
+Two passes: one to count, one to fill.
