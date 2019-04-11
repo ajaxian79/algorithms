@@ -46,3 +46,4 @@ int is_symmetric(STreeNode* root) {
 // note 27: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 28: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 29: Returns a freshly allocated string the caller must free.
+// note 30: Interval tree: stores intervals on the median; query traverses O(log n) levels.
