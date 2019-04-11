@@ -1247,3 +1247,7 @@
 ## entry 312
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 313
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
