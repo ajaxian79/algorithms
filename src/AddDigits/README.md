@@ -400,3 +400,7 @@ Time complexity: O(n).
 ## entry 85
 
 Stable across duplicates in the input.
+
+## entry 86
+
+Time complexity: O(n).
