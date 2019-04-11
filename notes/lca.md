@@ -187,3 +187,7 @@
 ## entry 47
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 48
+
+- Greedy by end-time picks the most non-overlapping intervals.
