@@ -1415,3 +1415,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 354
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 355
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
