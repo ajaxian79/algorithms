@@ -171,3 +171,4 @@ int hamming_distance(int x, int y) {
 // note 156: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 157: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 158: Stable across duplicates in the input.
+// note 159: Handles single-element input as a base case.
