@@ -1884,3 +1884,7 @@ No allocations on the hot path.
 ## entry 455
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 456
+
+No allocations on the hot path.
