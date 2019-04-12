@@ -64,3 +64,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 21: Worst case appears only on degenerate inputs.
 // edge note 22: Deterministic given the input — no PRNG seeds.
 // edge note 23: Worst case appears only on degenerate inputs.
+// edge note 24: Cache-friendly; one sequential read pass.
