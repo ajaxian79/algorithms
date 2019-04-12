@@ -1898,3 +1898,7 @@ Edge case: empty input → returns 0.
 ## entry 459
 
 Reentrant — no static state.
+
+## entry 460
+
+Allocates a single small fixed-size scratch buffer.
