@@ -1902,3 +1902,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 461
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 462
+
+Reentrant — no static state.
