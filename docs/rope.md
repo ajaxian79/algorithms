@@ -231,3 +231,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 58
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 59
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
