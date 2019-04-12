@@ -175,3 +175,4 @@ MunitTest number_complement_tests[] = {
 // edge note 148: Edge case: input of all the same byte → exits on the first compare.
 // edge note 149: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 150: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 151: Cache-friendly; one sequential read pass.
