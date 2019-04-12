@@ -1369,3 +1369,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 325
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 326
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
