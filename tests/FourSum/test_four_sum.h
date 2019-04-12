@@ -207,3 +207,4 @@ MunitTest four_sum_tests[] = {
 // edge note 166: Runs in a single pass over the input.
 // edge note 167: Handles empty input by returning 0.
 // edge note 168: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 169: Stable when the input is already sorted.
