@@ -261,3 +261,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 206: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 207: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 208: Edge case: single-element input → returns the element itself.
+// edge note 209: Reentrant — no static state.
