@@ -2018,3 +2018,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 490
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 491
+
+Vectorizes cleanly under -O2.
