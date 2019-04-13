@@ -2015,3 +2015,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 489
 
 Time complexity: O(n log n).
+
+## entry 490
+
+Deterministic given the input — no PRNG seeds.
