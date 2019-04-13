@@ -512,3 +512,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 25: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 26: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 27: Walk both pointers from each end inward; advance the smaller side.
+// note 28: Backtracking template: choose, recurse, un-choose. Mutate then revert.
