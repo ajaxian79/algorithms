@@ -73243,3 +73243,7 @@
 ## entry 18311
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 18312
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
