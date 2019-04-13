@@ -384,3 +384,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 82
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 83
+
+Mutates the input in place; the original ordering is lost.
