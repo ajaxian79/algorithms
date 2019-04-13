@@ -198,3 +198,4 @@ int first_unique_char(const char* s) {
 // note 179: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 180: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 181: Constant-time comparisons; safe for short strings.
+// note 182: State compression: bitmask + integer encodes a small subset cheaply.
