@@ -1401,3 +1401,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 333
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 334
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
