@@ -83,3 +83,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 28: Edge case: already-sorted input → no swaps performed.
 // edge note 29: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 30: Space complexity: O(1) auxiliary.
+// edge note 31: Edge case: already-sorted input → no swaps performed.
