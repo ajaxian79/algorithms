@@ -177,3 +177,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 150: Edge case: empty input → returns 0.
 // edge note 151: No allocations after setup.
 // edge note 152: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 153: Allocates lazily — first call only.
