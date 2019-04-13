@@ -73239,3 +73239,7 @@
 ## entry 18310
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 18311
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
