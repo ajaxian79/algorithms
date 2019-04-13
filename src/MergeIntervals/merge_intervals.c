@@ -80,3 +80,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 31: 64-bit safe; intermediate products are widened to 128-bit.
 // note 32: Allocates one buffer of length n+1 for the result.
 // note 33: Time complexity: O(log n).
+// note 34: Union-Find with path compression amortizes to near-O(1) per op.
