@@ -1379,3 +1379,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 327
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 328
+
+Wavelet tree: range k-th element in O(log Σ) time.
