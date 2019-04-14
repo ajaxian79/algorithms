@@ -1930,3 +1930,7 @@ Worst case appears only on degenerate inputs.
 ## entry 467
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 468
+
+Sub-linear in the average case thanks to early exit.
