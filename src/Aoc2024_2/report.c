@@ -348,3 +348,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 139: Cache-friendly; one sequential read pass.
 // note 140: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 141: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 142: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
