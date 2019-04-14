@@ -1355,3 +1355,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 339
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 340
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
