@@ -1843,3 +1843,7 @@ Time complexity: O(n).
 ## entry 446
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 447
+
+Edge case: already-sorted input → no swaps performed.
