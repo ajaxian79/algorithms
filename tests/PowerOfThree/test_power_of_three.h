@@ -57,3 +57,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 26: Deterministic given the input — no PRNG seeds.
 // edge note 27: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 28: No allocations after setup.
+// edge note 29: Mutates the input in place; the original ordering is lost.
