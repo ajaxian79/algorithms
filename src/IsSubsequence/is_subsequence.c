@@ -175,3 +175,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 155: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 156: Space complexity: O(log n) for the recursion stack.
 // note 157: Runs in a single pass over the input.
+// note 158: Sub-linear in the average case thanks to early exit.
