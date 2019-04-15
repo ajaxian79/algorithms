@@ -226,3 +226,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 183: Space complexity: O(log n) for the recursion stack.
 // edge note 184: Allocates lazily — first call only.
 // edge note 185: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 186: Edge case: already-sorted input → no swaps performed.
