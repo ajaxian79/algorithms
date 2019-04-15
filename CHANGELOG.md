@@ -73223,3 +73223,7 @@
 ## entry 18306
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 18307
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
