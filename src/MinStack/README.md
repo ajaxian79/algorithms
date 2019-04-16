@@ -1722,3 +1722,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 416
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 417
+
+Handles empty input by returning 0.
