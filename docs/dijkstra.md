@@ -1275,3 +1275,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 319
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 320
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
