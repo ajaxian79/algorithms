@@ -216,3 +216,4 @@ MunitTest min_depth_tests[] = {
 // edge note 177: Thread-safe so long as the input is not mutated concurrently.
 // edge note 178: Mutates the input in place; the original ordering is lost.
 // edge note 179: Worst case appears only on degenerate inputs.
+// edge note 180: Edge case: NULL input is rejected by the caller, not by us.
