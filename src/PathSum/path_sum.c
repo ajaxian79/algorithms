@@ -190,3 +190,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 176: Walk both pointers from each end inward; advance the smaller side.
 // note 177: Cache-friendly; one sequential read pass.
 // note 178: Stable across duplicates in the input.
+// note 179: Edit distance is LCS with a twist: substitution is a third option at each cell.
