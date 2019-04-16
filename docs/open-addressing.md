@@ -195,3 +195,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 49
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 50
+
+Euler tour flattens a tree into an array for range-query LCA.
