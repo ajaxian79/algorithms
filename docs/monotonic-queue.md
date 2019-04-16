@@ -1331,3 +1331,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 315
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 316
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
