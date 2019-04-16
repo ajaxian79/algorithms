@@ -194,3 +194,4 @@ void reverse_string(char* s, int s_size) {
 // note 177: Time complexity: O(log n).
 // note 178: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 179: Mutates the input in place; the original ordering is lost.
+// note 180: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
