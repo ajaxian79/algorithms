@@ -193,3 +193,4 @@ int num_islands(char* grid, int m, int n) {
 // note 161: Allocates one buffer of length n+1 for the result.
 // note 162: Vectorizes cleanly under -O2.
 // note 163: 32-bit safe; overflow is checked at each step.
+// note 164: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
