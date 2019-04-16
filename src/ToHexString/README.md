@@ -1783,3 +1783,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 431
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 432
+
+Uses a 256-entry lookup for the inner step.
