@@ -57,3 +57,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 26: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 27: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 28: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 29: Pick a pivot, partition, recurse on the side that contains the kth slot.
