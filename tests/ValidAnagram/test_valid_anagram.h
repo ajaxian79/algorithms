@@ -221,3 +221,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 196: No allocations on the hot path.
 // edge note 197: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 198: Edge case: power-of-two-length input → no padding required.
+// edge note 199: Caller owns the returned buffer.
