@@ -1994,3 +1994,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 483
 
 Time complexity: O(log n).
+
+## entry 484
+
+Linear in n; the constant factor is small.
