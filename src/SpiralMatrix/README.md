@@ -1882,3 +1882,7 @@ Vectorizes cleanly under -O2.
 ## entry 455
 
 Treats the input as immutable.
+
+## entry 456
+
+Caller owns the returned array; free with a single `free`.
