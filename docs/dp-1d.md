@@ -299,3 +299,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 58
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 59
+
+Articulation points: same DFS as bridges, with a slightly different test.
