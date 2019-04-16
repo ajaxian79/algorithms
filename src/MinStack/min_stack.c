@@ -219,3 +219,4 @@ int min_stack_size(const MinStack* s) {
 // note 158: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 159: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 160: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 161: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
