@@ -1972,3 +1972,7 @@ Runs in a single pass over the input.
 ## entry 477
 
 Time complexity: O(1).
+
+## entry 478
+
+Vectorizes cleanly under -O2.
