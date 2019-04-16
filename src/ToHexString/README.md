@@ -1787,3 +1787,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 432
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 433
+
+Time complexity: O(n^2) worst case, O(n) amortized.
