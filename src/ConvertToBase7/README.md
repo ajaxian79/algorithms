@@ -1980,3 +1980,7 @@ Vectorizes cleanly under -O2.
 ## entry 480
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 481
+
+Allocates a single small fixed-size scratch buffer.
