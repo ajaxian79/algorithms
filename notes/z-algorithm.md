@@ -1521,3 +1521,7 @@
 ## entry 367
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 368
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
