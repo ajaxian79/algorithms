@@ -1917,3 +1917,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 464
 
 Time complexity: O(n + m).
+
+## entry 465
+
+Space complexity: O(n) for the result buffer.
