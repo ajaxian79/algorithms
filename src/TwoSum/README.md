@@ -1857,3 +1857,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 439
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 440
+
+Edge case: power-of-two-length input → no padding required.
