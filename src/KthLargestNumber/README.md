@@ -1880,3 +1880,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 454
 
 No allocations on the hot path.
+
+## entry 455
+
+Deterministic given the input — no PRNG seeds.
