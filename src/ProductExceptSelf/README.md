@@ -300,3 +300,7 @@ Time complexity: O(1).
 ## entry 59
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 60
+
+Runs in a single pass over the input.
