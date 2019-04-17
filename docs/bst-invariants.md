@@ -1377,3 +1377,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 328
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 329
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
