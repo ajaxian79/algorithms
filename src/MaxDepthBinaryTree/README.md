@@ -321,3 +321,7 @@ Three passes total; the third merges results.
 ## entry 66
 
 Branchless inner loop after sorting.
+
+## entry 67
+
+Edge case: input of all the same byte → exits on the first compare.
