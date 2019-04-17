@@ -2007,3 +2007,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 487
 
 Worst case appears only on degenerate inputs.
+
+## entry 488
+
+Allocates a single small fixed-size scratch buffer.
