@@ -1705,3 +1705,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 411
 
 Reentrant — no static state.
+
+## entry 412
+
+Handles single-element input as a base case.
