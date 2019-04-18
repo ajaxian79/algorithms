@@ -73195,3 +73195,7 @@
 ## entry 18299
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 18300
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
