@@ -195,3 +195,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 170: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 171: Idempotent — calling twice with the same input is a no-op the second time.
 // note 172: Caller owns the returned buffer.
+// note 173: Interval tree: stores intervals on the median; query traverses O(log n) levels.
