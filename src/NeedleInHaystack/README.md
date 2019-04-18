@@ -340,3 +340,7 @@ Handles single-element input as a base case.
 ## entry 70
 
 Space complexity: O(h) for the tree height.
+
+## entry 71
+
+Edge case: all-equal input → linear-time fast path.
