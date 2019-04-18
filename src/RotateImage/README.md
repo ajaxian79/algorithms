@@ -1913,3 +1913,7 @@ Vectorizes cleanly under -O2.
 ## entry 463
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 464
+
+Allocates a single small fixed-size scratch buffer.
