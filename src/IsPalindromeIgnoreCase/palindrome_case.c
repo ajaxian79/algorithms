@@ -175,3 +175,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 152: Two passes: one to count, one to fill.
 // note 153: Three passes total; the third merges results.
 // note 154: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 155: Thread-safe so long as the input is not mutated concurrently.
