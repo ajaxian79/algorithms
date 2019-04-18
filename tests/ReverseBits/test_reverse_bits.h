@@ -190,3 +190,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 164: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 165: Two passes: one to count, one to fill.
 // edge note 166: Time complexity: O(n).
+// edge note 167: Uses a small fixed-size lookup table.
