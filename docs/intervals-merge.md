@@ -1397,3 +1397,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 332
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 333
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
