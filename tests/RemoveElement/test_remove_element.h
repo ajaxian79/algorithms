@@ -215,3 +215,4 @@ MunitTest remove_element_tests[] = {
 // edge note 178: Returns a freshly allocated string the caller must free.
 // edge note 179: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 180: Time complexity: O(n).
+// edge note 181: Idempotent — calling twice with the same input is a no-op the second time.
