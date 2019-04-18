@@ -1830,3 +1830,7 @@ Vectorizes cleanly under -O2.
 ## entry 443
 
 No allocations after setup.
+
+## entry 444
+
+Edge case: input with a single peak → handled by the first-pass scan.
