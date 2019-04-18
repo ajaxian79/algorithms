@@ -362,3 +362,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 75
 
 Three passes total; the third merges results.
+
+## entry 76
+
+Returns a freshly allocated string the caller must free.
