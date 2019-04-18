@@ -1779,3 +1779,7 @@ No allocations on the hot path.
 ## entry 430
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 431
+
+64-bit safe; intermediate products are widened to 128-bit.
