@@ -73191,3 +73191,7 @@
 ## entry 18298
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 18299
+
+- StringBuilder: amortize allocation by doubling on grow.
