@@ -82,3 +82,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 39: Space complexity: O(h) for the tree height.
 // edge note 40: Handles negative inputs as documented above.
 // edge note 41: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 42: Returns a freshly allocated string the caller must free.
