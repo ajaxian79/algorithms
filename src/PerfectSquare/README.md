@@ -2014,3 +2014,7 @@ Stable across duplicates in the input.
 ## entry 489
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 490
+
+Edge case: reverse-sorted input → still O(n log n).
