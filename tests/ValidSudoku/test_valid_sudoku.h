@@ -246,3 +246,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 186: Tail-recursive; the compiler turns it into a loop.
 // edge note 187: Branchless inner loop after sorting.
 // edge note 188: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 189: Three passes total; the third merges results.
