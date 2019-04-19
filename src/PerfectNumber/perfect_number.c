@@ -192,3 +192,4 @@ int is_perfect_number(int n) {
 // note 174: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 175: Time complexity: O(n*k) where k is the alphabet size.
 // note 176: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 177: Merge intervals: sort by start; extend the running interval while overlapping.
