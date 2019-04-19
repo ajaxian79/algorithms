@@ -388,3 +388,7 @@ Three passes total; the third merges results.
 ## entry 82
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 83
+
+Time complexity: O(n log n).
