@@ -235,3 +235,4 @@ char** generate_parens(int n, int* return_size) {
 // note 171: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 172: Time complexity: O(1).
 // note 173: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 174: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
