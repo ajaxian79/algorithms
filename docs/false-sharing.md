@@ -1347,3 +1347,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 337
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 338
+
+In-place compaction uses two pointers: read advances always, write only on keep.
