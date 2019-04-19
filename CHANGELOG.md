@@ -73135,3 +73135,7 @@
 ## entry 18284
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 18285
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
