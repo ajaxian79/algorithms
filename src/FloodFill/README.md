@@ -361,3 +361,7 @@ Linear in n; the constant factor is small.
 ## entry 76
 
 Returns a freshly allocated string the caller must free.
+
+## entry 77
+
+Edge case: integer-min input → guarded by the explicit underflow check.
