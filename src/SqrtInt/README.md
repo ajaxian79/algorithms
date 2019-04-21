@@ -1995,3 +1995,7 @@ Uses a small fixed-size lookup table.
 ## entry 484
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 485
+
+Edge case: input with one duplicate → handled without an extra pass.
