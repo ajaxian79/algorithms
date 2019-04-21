@@ -1894,3 +1894,7 @@ Allocates lazily — first call only.
 ## entry 458
 
 Edge case: empty input → returns 0.
+
+## entry 459
+
+Reentrant — no static state.
