@@ -1363,3 +1363,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 341
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 342
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
