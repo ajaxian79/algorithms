@@ -84,3 +84,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 25: Edge case: reverse-sorted input → still O(n log n).
 // edge note 26: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 27: Time complexity: O(k) where k is the answer size.
+// edge note 28: Space complexity: O(1) auxiliary.
