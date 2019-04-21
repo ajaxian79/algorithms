@@ -1383,3 +1383,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 346
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 347
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
