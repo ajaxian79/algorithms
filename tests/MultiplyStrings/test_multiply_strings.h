@@ -59,3 +59,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 30: Resists adversarial inputs by randomizing the pivot.
 // edge note 31: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 32: Time complexity: O(log n).
+// edge note 33: Edge case: input with no peak → falls through to the default branch.
