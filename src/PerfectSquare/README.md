@@ -2010,3 +2010,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 488
 
 Stable across duplicates in the input.
+
+## entry 489
+
+Tail-recursive; the compiler turns it into a loop.
