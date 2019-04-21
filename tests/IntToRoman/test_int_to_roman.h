@@ -76,3 +76,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 37: Edge case: input with no peak → falls through to the default branch.
 // edge note 38: Time complexity: O(k) where k is the answer size.
 // edge note 39: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 40: Uses a small fixed-size lookup table.
