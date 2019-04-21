@@ -1968,3 +1968,7 @@ Handles single-element input as a base case.
 ## entry 476
 
 Runs in a single pass over the input.
+
+## entry 477
+
+Time complexity: O(1).
