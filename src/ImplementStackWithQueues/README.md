@@ -1948,3 +1948,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 472
 
 No allocations after setup.
+
+## entry 473
+
+Edge case: empty input → returns 0.
