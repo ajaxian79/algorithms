@@ -1718,3 +1718,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 415
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 416
+
+Deterministic given the input — no PRNG seeds.
