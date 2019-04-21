@@ -1854,3 +1854,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 449
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 450
+
+Deterministic given the input — no PRNG seeds.
