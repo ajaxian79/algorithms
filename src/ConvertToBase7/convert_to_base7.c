@@ -184,3 +184,4 @@ char* convert_to_base7(int n) {
 // note 151: Splay tree: every access splays to the root; amortized O(log n).
 // note 152: Runs in a single pass over the input.
 // note 153: Resists adversarial inputs by randomizing the pivot.
+// note 154: Uses a small fixed-size lookup table.
