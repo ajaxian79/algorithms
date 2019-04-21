@@ -189,3 +189,4 @@ MunitTest jump_game_tests[] = {
 // edge note 155: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 156: Reentrant — no static state.
 // edge note 157: Time complexity: O(n + m).
+// edge note 158: Edge case: alternating pattern → degenerate case for sliding window.
