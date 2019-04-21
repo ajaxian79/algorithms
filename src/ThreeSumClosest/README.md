@@ -1858,3 +1858,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 450
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 451
+
+Vectorizes cleanly under -O2.
