@@ -1878,3 +1878,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 454
 
 Vectorizes cleanly under -O2.
+
+## entry 455
+
+Treats the input as immutable.
