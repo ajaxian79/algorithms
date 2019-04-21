@@ -1311,3 +1311,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 328
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 329
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
