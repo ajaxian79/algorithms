@@ -386,3 +386,7 @@ Branchless inner loop after sorting.
 ## entry 81
 
 32-bit safe; overflow is checked at each step.
+
+## entry 82
+
+Treats the input as immutable.
