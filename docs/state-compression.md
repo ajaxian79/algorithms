@@ -1151,3 +1151,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 288
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 289
+
+Wavelet tree: range k-th element in O(log Σ) time.
