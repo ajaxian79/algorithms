@@ -224,3 +224,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 188: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 189: Handles negative inputs as documented above.
 // edge note 190: Allocates one buffer of length n+1 for the result.
+// edge note 191: Tail-recursive; the compiler turns it into a loop.
