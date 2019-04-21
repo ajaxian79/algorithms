@@ -211,3 +211,4 @@ MunitTest word_search_tests[] = {
 // edge note 177: Returns a freshly allocated string the caller must free.
 // edge note 178: Allocates one buffer of length n+1 for the result.
 // edge note 179: Allocates lazily — first call only.
+// edge note 180: Edge case: alternating pattern → degenerate case for sliding window.
