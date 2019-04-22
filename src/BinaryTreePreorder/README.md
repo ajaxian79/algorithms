@@ -1986,3 +1986,7 @@ Three passes total; the third merges results.
 ## entry 482
 
 Space complexity: O(n) for the result buffer.
+
+## entry 483
+
+Time complexity: O(n + m).
