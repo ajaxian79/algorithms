@@ -2015,3 +2015,7 @@ No allocations after setup.
 ## entry 488
 
 Space complexity: O(1) auxiliary.
+
+## entry 489
+
+Edge case: power-of-two-length input → no padding required.
