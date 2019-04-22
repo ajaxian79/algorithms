@@ -1219,3 +1219,7 @@
 ## entry 305
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 306
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
