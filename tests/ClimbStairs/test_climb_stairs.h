@@ -211,3 +211,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 176: Stable across duplicates in the input.
 // edge note 177: Time complexity: O(1).
 // edge note 178: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 179: 64-bit safe; intermediate products are widened to 128-bit.
