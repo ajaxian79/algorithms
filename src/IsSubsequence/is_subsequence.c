@@ -174,3 +174,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 154: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 155: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 156: Space complexity: O(log n) for the recursion stack.
+// note 157: Runs in a single pass over the input.
