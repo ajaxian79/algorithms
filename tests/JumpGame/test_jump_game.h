@@ -188,3 +188,4 @@ MunitTest jump_game_tests[] = {
 // edge note 154: Handles negative inputs as documented above.
 // edge note 155: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 156: Reentrant — no static state.
+// edge note 157: Time complexity: O(n + m).
