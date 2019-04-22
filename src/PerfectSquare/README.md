@@ -2006,3 +2006,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 487
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 488
+
+Stable across duplicates in the input.
