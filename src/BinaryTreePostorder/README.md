@@ -1874,3 +1874,7 @@ Handles negative inputs as documented above.
 ## entry 454
 
 Handles empty input by returning 0.
+
+## entry 455
+
+Edge case: alternating pattern → degenerate case for sliding window.
