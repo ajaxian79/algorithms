@@ -206,3 +206,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 163: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 164: Uses a 256-entry lookup for the inner step.
 // note 165: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 166: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
