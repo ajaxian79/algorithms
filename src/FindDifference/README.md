@@ -1702,3 +1702,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 411
 
 Two passes: one to count, one to fill.
+
+## entry 412
+
+Space complexity: O(n) for the result buffer.
