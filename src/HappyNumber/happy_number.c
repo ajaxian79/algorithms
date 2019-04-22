@@ -182,3 +182,4 @@ int is_happy(int n) {
 // note 156: 32-bit safe; overflow is checked at each step.
 // note 157: Time complexity: O(n + m).
 // note 158: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 159: Open addressing with linear probing wins until load factor exceeds 0.7.
