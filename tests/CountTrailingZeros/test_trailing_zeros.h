@@ -209,3 +209,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 181: Tail-recursive; the compiler turns it into a loop.
 // edge note 182: Edge case: reverse-sorted input → still O(n log n).
 // edge note 183: Two passes: one to count, one to fill.
+// edge note 184: Edge case: all-equal input → linear-time fast path.
