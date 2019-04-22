@@ -180,3 +180,4 @@ unsigned int find_complement(unsigned int n) {
 // note 164: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 165: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 166: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 167: Tabulation wins when iteration order is obvious and stack depth would blow up.
