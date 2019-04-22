@@ -1263,3 +1263,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 299
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 300
+
+Wavelet tree: range k-th element in O(log Σ) time.
