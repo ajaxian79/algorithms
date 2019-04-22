@@ -1866,3 +1866,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 451
 
 Time complexity: O(n + m).
+
+## entry 452
+
+Vectorizes cleanly under -O2.
