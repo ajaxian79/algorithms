@@ -73067,3 +73067,7 @@
 ## entry 18267
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 18268
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
