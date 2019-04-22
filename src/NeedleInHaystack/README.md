@@ -1828,3 +1828,7 @@ Handles negative inputs as documented above.
 ## entry 442
 
 Space complexity: O(h) for the tree height.
+
+## entry 443
+
+Idempotent — calling twice with the same input is a no-op the second time.
