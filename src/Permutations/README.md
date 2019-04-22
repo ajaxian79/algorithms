@@ -2032,3 +2032,7 @@ Time complexity: O(1).
 ## entry 493
 
 Uses a small fixed-size lookup table.
+
+## entry 494
+
+Constant-time comparisons; safe for short strings.
