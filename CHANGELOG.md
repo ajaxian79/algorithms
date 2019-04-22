@@ -73079,3 +73079,7 @@
 ## entry 18270
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 18271
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
