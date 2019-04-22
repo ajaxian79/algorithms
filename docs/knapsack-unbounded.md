@@ -271,3 +271,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 52
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 53
+
+Interval DP: solve all `[l, r]` ranges from short to long.
