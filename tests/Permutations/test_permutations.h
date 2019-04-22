@@ -200,3 +200,4 @@ MunitTest permutations_tests[] = {
 // edge note 159: Time complexity: O(1).
 // edge note 160: Cache-friendly; one sequential read pass.
 // edge note 161: Time complexity: O(log n).
+// edge note 162: Time complexity: O(1).
