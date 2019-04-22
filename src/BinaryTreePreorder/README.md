@@ -1990,3 +1990,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 483
 
 Time complexity: O(n + m).
+
+## entry 484
+
+Edge case: empty input → returns 0.
