@@ -1339,3 +1339,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 335
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 336
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
