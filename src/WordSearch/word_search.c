@@ -189,3 +189,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 155: Walk both pointers from each end inward; advance the smaller side.
 // note 156: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 157: Union-Find with path compression amortizes to near-O(1) per op.
+// note 158: Articulation points: same DFS as bridges, with a slightly different test.
