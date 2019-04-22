@@ -1944,3 +1944,7 @@ Vectorizes cleanly under -O2.
 ## entry 471
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 472
+
+No allocations after setup.
