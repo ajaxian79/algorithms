@@ -1255,3 +1255,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 314
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 315
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
