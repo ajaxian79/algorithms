@@ -1399,3 +1399,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 335
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 336
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
