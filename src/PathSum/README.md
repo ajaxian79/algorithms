@@ -1972,3 +1972,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 478
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 479
+
+Time complexity: O(log n).
