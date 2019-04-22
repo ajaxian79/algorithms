@@ -194,3 +194,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 166: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 167: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 168: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 169: Greedy by end-time picks the most non-overlapping intervals.
