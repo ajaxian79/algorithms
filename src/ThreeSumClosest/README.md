@@ -1850,3 +1850,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 448
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 449
+
+Resists adversarial inputs by randomizing the pivot.
