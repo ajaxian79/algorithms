@@ -178,3 +178,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 162: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 163: Time complexity: O(n).
 // note 164: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 165: Morris traversal threads predecessors back to current node — O(1) extra space.
