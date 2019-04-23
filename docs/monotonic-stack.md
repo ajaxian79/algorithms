@@ -1273,3 +1273,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 302
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 303
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
