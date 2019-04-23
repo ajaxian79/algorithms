@@ -2018,3 +2018,7 @@ Time complexity: O(1).
 ## entry 490
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 491
+
+Edge case: input of all the same byte → exits on the first compare.
