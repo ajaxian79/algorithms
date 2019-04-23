@@ -1990,3 +1990,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 482
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 483
+
+Time complexity: O(log n).
