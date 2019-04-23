@@ -1387,3 +1387,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 347
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 348
+
+False sharing: two threads writing different bytes in the same cache line stall both.
