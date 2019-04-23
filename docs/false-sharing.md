@@ -1335,3 +1335,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 334
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 335
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
