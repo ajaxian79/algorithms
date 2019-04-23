@@ -1898,3 +1898,7 @@ No allocations on the hot path.
 ## entry 460
 
 Returns a freshly allocated string the caller must free.
+
+## entry 461
+
+Uses a 256-entry lookup for the inner step.
