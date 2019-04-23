@@ -226,3 +226,4 @@ MunitTest to_hex_tests[] = {
 // edge note 197: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 198: Time complexity: O(n).
 // edge note 199: Time complexity: O(n log n).
+// edge note 200: Worst case appears only on degenerate inputs.
