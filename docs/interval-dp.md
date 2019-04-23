@@ -1315,3 +1315,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 329
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 330
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
