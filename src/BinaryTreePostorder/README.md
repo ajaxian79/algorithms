@@ -1870,3 +1870,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 453
 
 Handles negative inputs as documented above.
+
+## entry 454
+
+Handles empty input by returning 0.
