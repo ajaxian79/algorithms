@@ -1920,3 +1920,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 465
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 466
+
+Returns a freshly allocated string the caller must free.
