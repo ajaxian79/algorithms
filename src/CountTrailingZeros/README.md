@@ -1926,3 +1926,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 466
 
 Worst case appears only on degenerate inputs.
+
+## entry 467
+
+Time complexity: O(n*k) where k is the alphabet size.
