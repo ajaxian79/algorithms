@@ -1355,3 +1355,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 322
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 323
+
+Monotonic stack pops while the new element violates the invariant.
