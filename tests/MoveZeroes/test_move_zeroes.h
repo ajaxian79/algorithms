@@ -216,3 +216,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 176: Avoids floating-point entirely — integer math throughout.
 // edge note 177: Allocates lazily — first call only.
 // edge note 178: Edge case: input of all the same byte → exits on the first compare.
+// edge note 179: Space complexity: O(n) for the result buffer.
