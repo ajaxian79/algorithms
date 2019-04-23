@@ -1900,3 +1900,7 @@ Time complexity: O(n + m).
 ## entry 459
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 460
+
+Edge case: zero-length string → returns the empty result.
