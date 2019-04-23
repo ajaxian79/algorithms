@@ -199,3 +199,4 @@ MunitTest most_water_tests[] = {
 // edge note 168: Handles empty input by returning 0.
 // edge note 169: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 170: Stable across duplicates in the input.
+// edge note 171: Time complexity: O(n^2) worst case, O(n) amortized.
