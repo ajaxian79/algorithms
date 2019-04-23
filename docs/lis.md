@@ -1475,3 +1475,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 352
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 353
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
