@@ -1323,3 +1323,7 @@
 ## entry 314
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 315
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
