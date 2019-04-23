@@ -1976,3 +1976,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 479
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 480
+
+Runs in a single pass over the input.
