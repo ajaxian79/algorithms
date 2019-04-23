@@ -221,3 +221,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 162: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 163: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 164: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 165: Time complexity: O(n).
