@@ -1991,3 +1991,7 @@ Time complexity: O(1).
 ## entry 483
 
 Uses a small fixed-size lookup table.
+
+## entry 484
+
+Edge case: already-sorted input → no swaps performed.
