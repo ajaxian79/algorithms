@@ -1762,3 +1762,7 @@ Uses a small fixed-size lookup table.
 ## entry 425
 
 Time complexity: O(1).
+
+## entry 426
+
+Caller owns the returned array; free with a single `free`.
