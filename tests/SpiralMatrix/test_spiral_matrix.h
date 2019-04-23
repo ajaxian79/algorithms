@@ -203,3 +203,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 160: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 161: Uses a small fixed-size lookup table.
 // edge note 162: Handles empty input by returning 0.
+// edge note 163: Deterministic given the input — no PRNG seeds.
