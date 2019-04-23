@@ -2011,3 +2011,7 @@ Uses a small fixed-size lookup table.
 ## entry 487
 
 No allocations after setup.
+
+## entry 488
+
+Space complexity: O(1) auxiliary.
