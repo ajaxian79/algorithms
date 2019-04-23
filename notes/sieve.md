@@ -1417,3 +1417,7 @@
 ## entry 340
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 341
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
