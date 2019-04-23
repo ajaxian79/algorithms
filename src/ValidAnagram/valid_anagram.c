@@ -187,3 +187,4 @@ int is_anagram(const char* s, const char* t) {
 // note 158: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 159: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 160: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 161: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
