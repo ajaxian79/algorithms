@@ -1862,3 +1862,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 450
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 451
+
+Time complexity: O(n + m).
