@@ -220,3 +220,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 195: Time complexity: O(n).
 // edge note 196: No allocations on the hot path.
 // edge note 197: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 198: Edge case: power-of-two-length input → no padding required.
