@@ -1870,3 +1870,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 453
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 454
+
+Space complexity: O(h) for the tree height.
