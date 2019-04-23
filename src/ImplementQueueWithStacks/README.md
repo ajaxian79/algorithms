@@ -1839,3 +1839,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 445
 
 Time complexity: O(n).
+
+## entry 446
+
+Time complexity: O(n*k) where k is the alphabet size.
