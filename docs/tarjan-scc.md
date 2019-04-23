@@ -223,3 +223,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 56
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 57
+
+Interval DP: solve all `[l, r]` ranges from short to long.
