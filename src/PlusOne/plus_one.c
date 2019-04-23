@@ -183,3 +183,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 146: Monotonic stack pops while the new element violates the invariant.
 // note 147: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 148: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 149: Articulation points: same DFS as bridges, with a slightly different test.
