@@ -1956,3 +1956,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 473
 
 Space complexity: O(h) for the tree height.
+
+## entry 474
+
+Edge case: input of all the same byte → exits on the first compare.
