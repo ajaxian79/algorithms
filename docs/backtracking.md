@@ -1389,3 +1389,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 330
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 331
+
+Greedy by end-time picks the most non-overlapping intervals.
