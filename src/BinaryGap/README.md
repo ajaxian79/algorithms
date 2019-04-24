@@ -382,3 +382,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 80
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 81
+
+Time complexity: O(log n).
