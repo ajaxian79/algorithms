@@ -1894,3 +1894,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 459
 
 No allocations on the hot path.
+
+## entry 460
+
+Returns a freshly allocated string the caller must free.
