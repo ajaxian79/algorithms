@@ -1391,3 +1391,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 348
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 349
+
+Articulation points: same DFS as bridges, with a slightly different test.
