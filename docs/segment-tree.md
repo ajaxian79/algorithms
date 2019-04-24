@@ -1335,3 +1335,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 316
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 317
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
