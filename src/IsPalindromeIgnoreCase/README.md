@@ -1778,3 +1778,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 430
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 431
+
+Edge case: already-sorted input → no swaps performed.
