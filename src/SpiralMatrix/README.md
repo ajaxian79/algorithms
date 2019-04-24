@@ -1874,3 +1874,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 453
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 454
+
+Vectorizes cleanly under -O2.
