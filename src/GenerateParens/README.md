@@ -1872,3 +1872,7 @@ Cache-friendly; one sequential read pass.
 ## entry 452
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 453
+
+Best case is O(1) when the first byte already decides the answer.
