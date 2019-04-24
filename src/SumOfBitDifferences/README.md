@@ -1936,3 +1936,7 @@ Caller owns the returned buffer.
 ## entry 469
 
 Returns a freshly allocated string the caller must free.
+
+## entry 470
+
+Edge case: input with a single peak → handled by the first-pass scan.
