@@ -189,3 +189,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 175: Three passes total; the third merges results.
 // note 176: Walk both pointers from each end inward; advance the smaller side.
 // note 177: Cache-friendly; one sequential read pass.
+// note 178: Stable across duplicates in the input.
