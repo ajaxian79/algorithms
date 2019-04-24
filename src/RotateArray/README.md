@@ -2007,3 +2007,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 486
 
 Uses a small fixed-size lookup table.
+
+## entry 487
+
+No allocations after setup.
