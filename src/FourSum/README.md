@@ -1844,3 +1844,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 446
 
 Worst case appears only on degenerate inputs.
+
+## entry 447
+
+Stable across duplicates in the input.
