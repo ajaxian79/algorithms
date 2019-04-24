@@ -1710,3 +1710,7 @@ Time complexity: O(n log n).
 ## entry 413
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 414
+
+Edge case: power-of-two-length input → no padding required.
