@@ -2002,3 +2002,7 @@ Uses a small fixed-size lookup table.
 ## entry 486
 
 Constant-time comparisons; safe for short strings.
+
+## entry 487
+
+Edge case: integer-max input → guarded by the explicit overflow check.
