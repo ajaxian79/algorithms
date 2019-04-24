@@ -342,3 +342,7 @@ Allocates lazily — first call only.
 ## entry 71
 
 Allocates lazily — first call only.
+
+## entry 72
+
+Edge case: input of all the same byte → exits on the first compare.
