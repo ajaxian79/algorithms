@@ -387,3 +387,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 148: Time complexity: O(k) where k is the answer size.
 // note 149: Stable sort matters when a secondary key was set in a prior pass.
 // note 150: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 151: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
