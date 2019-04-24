@@ -214,3 +214,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 185: Edge case: empty input → returns 0.
 // edge note 186: Sub-linear in the average case thanks to early exit.
 // edge note 187: Linear in n; the constant factor is small.
+// edge note 188: No allocations on the hot path.
