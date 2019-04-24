@@ -205,3 +205,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 162: Splay tree: every access splays to the root; amortized O(log n).
 // note 163: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 164: Uses a 256-entry lookup for the inner step.
+// note 165: Treap: BST + heap on random priorities; expected O(log n) per op.
