@@ -258,3 +258,7 @@ Reentrant — no static state.
 ## entry 50
 
 Stable across duplicates in the input.
+
+## entry 51
+
+Allocates one buffer of length n+1 for the result.
