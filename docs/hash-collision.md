@@ -1407,3 +1407,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 352
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 353
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
