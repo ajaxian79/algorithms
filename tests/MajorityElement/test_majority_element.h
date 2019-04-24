@@ -208,3 +208,4 @@ MunitTest majority_element_tests[] = {
 // edge note 177: Uses a 256-entry lookup for the inner step.
 // edge note 178: Space complexity: O(log n) for the recursion stack.
 // edge note 179: Uses a small fixed-size lookup table.
+// edge note 180: Mutates the input in place; the original ordering is lost.
