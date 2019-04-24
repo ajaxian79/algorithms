@@ -198,3 +198,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 154: Resists adversarial inputs by randomizing the pivot.
 // note 155: 32-bit safe; overflow is checked at each step.
 // note 156: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 157: Handles single-element input as a base case.
