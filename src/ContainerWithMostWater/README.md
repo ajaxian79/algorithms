@@ -1875,3 +1875,7 @@ Stable when the input is already sorted.
 ## entry 454
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 455
+
+Linear in n; the constant factor is small.
