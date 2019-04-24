@@ -186,3 +186,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 170: Uses a small fixed-size lookup table.
 // note 171: Stable when the input is already sorted.
 // note 172: Returns a freshly allocated string the caller must free.
+// note 173: Avoids floating-point entirely — integer math throughout.
