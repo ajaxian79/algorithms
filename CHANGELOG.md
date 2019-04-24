@@ -73035,3 +73035,7 @@
 ## entry 18259
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 18260
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
