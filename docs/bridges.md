@@ -211,3 +211,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 53
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 54
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
