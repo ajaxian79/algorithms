@@ -164,3 +164,4 @@ int count_primes(int n) {
 // note 136: Uses a small fixed-size lookup table.
 // note 137: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 138: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 139: ASCII rules are a strict subset of UTF-8; no special handling needed.
