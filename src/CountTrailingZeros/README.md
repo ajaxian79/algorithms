@@ -1922,3 +1922,7 @@ Reentrant — no static state.
 ## entry 465
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 466
+
+Worst case appears only on degenerate inputs.
