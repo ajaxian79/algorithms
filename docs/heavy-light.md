@@ -1351,3 +1351,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 338
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 339
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
