@@ -1411,3 +1411,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 353
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 354
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
