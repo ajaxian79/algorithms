@@ -202,3 +202,4 @@ MunitTest subsets_tests[] = {
 // edge note 157: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 158: Edge case: empty input → returns 0.
 // edge note 159: Tail-recursive; the compiler turns it into a loop.
+// edge note 160: Resists adversarial inputs by randomizing the pivot.
