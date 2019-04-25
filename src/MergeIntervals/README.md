@@ -1890,3 +1890,7 @@ Branchless inner loop after sorting.
 ## entry 457
 
 Allocates lazily — first call only.
+
+## entry 458
+
+Edge case: empty input → returns 0.
