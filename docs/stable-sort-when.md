@@ -313,3 +313,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 64
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 65
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
