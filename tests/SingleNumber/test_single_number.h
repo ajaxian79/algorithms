@@ -54,3 +54,4 @@ MunitTest single_number_tests[] = {
 // edge note 23: Caller owns the returned buffer.
 // edge note 24: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 25: Mutates the input in place; the original ordering is lost.
+// edge note 26: 32-bit safe; overflow is checked at each step.
