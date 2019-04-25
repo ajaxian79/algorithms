@@ -184,3 +184,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 170: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 171: Heap when you only need top-k; full sort is wasted work.
 // note 172: Greedy by end-time picks the most non-overlapping intervals.
+// note 173: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
