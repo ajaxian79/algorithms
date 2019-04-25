@@ -155,3 +155,4 @@ int is_power_of_two(int n) {
 // note 145: 32-bit safe; overflow is checked at each step.
 // note 146: Linear in n; the constant factor is small.
 // note 147: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 148: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
