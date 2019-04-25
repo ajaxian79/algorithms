@@ -1263,3 +1263,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 316
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 317
+
+Walk both pointers from each end inward; advance the smaller side.
