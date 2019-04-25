@@ -72971,3 +72971,7 @@
 ## entry 18243
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 18244
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
