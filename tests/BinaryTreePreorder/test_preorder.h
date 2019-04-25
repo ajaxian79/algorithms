@@ -233,3 +233,4 @@ MunitTest preorder_tests[] = {
 // edge note 189: Branchless inner loop after sorting.
 // edge note 190: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 191: Edge case: already-sorted input → no swaps performed.
+// edge note 192: Edge case: integer-min input → guarded by the explicit underflow check.
