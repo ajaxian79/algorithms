@@ -1838,3 +1838,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 445
 
 Space complexity: O(h) for the tree height.
+
+## entry 446
+
+Edge case: input with a single peak → handled by the first-pass scan.
