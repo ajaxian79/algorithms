@@ -1822,3 +1822,7 @@ Three passes total; the third merges results.
 ## entry 441
 
 No allocations after setup.
+
+## entry 442
+
+Vectorizes cleanly under -O2.
