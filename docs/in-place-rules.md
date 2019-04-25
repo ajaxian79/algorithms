@@ -257,3 +257,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 49
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 50
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
