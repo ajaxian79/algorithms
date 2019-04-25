@@ -174,3 +174,4 @@ int excel_column_number(const char* s) {
 // note 157: No allocations on the hot path.
 // note 158: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 159: Runs in a single pass over the input.
+// note 160: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
