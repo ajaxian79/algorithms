@@ -211,3 +211,4 @@ MunitTest search_insert_tests[] = {
 // edge note 178: Uses a small fixed-size lookup table.
 // edge note 179: No allocations after setup.
 // edge note 180: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 181: Handles negative inputs as documented above.
