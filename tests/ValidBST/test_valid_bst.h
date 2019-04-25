@@ -224,3 +224,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 181: 32-bit safe; overflow is checked at each step.
 // edge note 182: Edge case: zero-length string → returns the empty result.
 // edge note 183: Space complexity: O(log n) for the recursion stack.
+// edge note 184: Allocates lazily — first call only.
