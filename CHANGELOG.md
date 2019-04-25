@@ -73003,3 +73003,7 @@
 ## entry 18251
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 18252
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
