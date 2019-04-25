@@ -1968,3 +1968,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 477
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 478
+
+Avoids floating-point entirely — integer math throughout.
