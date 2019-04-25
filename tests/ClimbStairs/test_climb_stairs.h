@@ -210,3 +210,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 175: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 176: Stable across duplicates in the input.
 // edge note 177: Time complexity: O(1).
+// edge note 178: Edge case: NULL input is rejected by the caller, not by us.
