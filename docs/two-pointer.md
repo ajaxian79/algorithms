@@ -251,3 +251,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 45
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 46
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
