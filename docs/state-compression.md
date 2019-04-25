@@ -1147,3 +1147,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 287
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 288
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
