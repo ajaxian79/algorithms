@@ -213,3 +213,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 170: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 171: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 172: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 173: Tree DP: post-order DFS lets children inform the parent in one pass.
