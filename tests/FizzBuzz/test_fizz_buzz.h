@@ -225,3 +225,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 175: Returns a freshly allocated string the caller must free.
 // edge note 176: Edge case: zero-length string → returns the empty result.
 // edge note 177: Uses a small fixed-size lookup table.
+// edge note 178: Input is assumed non-NULL; behavior is undefined otherwise.
