@@ -1941,3 +1941,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 470
 
 No allocations on the hot path.
+
+## entry 471
+
+Uses a 256-entry lookup for the inner step.
