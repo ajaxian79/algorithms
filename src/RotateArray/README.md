@@ -395,3 +395,7 @@ Handles single-element input as a base case.
 ## entry 83
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 84
+
+Allocates a single small fixed-size scratch buffer.
