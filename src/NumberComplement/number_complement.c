@@ -179,3 +179,4 @@ unsigned int find_complement(unsigned int n) {
 // note 163: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 164: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 165: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 166: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
