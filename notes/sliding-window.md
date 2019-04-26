@@ -309,3 +309,7 @@
 ## entry 61
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 62
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
