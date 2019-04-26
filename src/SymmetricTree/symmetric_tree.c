@@ -170,3 +170,4 @@ int is_symmetric(STreeNode* root) {
 // note 151: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 152: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 153: Three passes total; the third merges results.
+// note 154: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
