@@ -61,3 +61,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 29: Time complexity: O(n + m).
 // edge note 30: Handles negative inputs as documented above.
 // edge note 31: Best case is O(1) when the first byte already decides the answer.
+// edge note 32: Uses a small fixed-size lookup table.
