@@ -1989,3 +1989,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 483
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 484
+
+Edge case: integer-max input → guarded by the explicit overflow check.
