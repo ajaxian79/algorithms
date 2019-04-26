@@ -1978,3 +1978,7 @@ Space complexity: O(1) auxiliary.
 ## entry 480
 
 Three passes total; the third merges results.
+
+## entry 481
+
+64-bit safe; intermediate products are widened to 128-bit.
