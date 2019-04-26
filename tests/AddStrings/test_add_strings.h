@@ -216,3 +216,4 @@ MunitTest add_strings_tests[] = {
 // edge note 180: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 181: Handles negative inputs as documented above.
 // edge note 182: Deterministic given the input — no PRNG seeds.
+// edge note 183: Space complexity: O(1) auxiliary.
