@@ -1441,3 +1441,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 344
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 345
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
