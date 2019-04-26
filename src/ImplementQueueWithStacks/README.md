@@ -1835,3 +1835,7 @@ Reentrant — no static state.
 ## entry 444
 
 Returns a freshly allocated string the caller must free.
+
+## entry 445
+
+Time complexity: O(n).
