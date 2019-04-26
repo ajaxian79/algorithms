@@ -1896,3 +1896,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 458
 
 Time complexity: O(n + m).
+
+## entry 459
+
+Edge case: already-sorted input → no swaps performed.
