@@ -1259,3 +1259,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 315
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 316
+
+Greedy by end-time picks the most non-overlapping intervals.
