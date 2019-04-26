@@ -1775,3 +1775,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 429
 
 No allocations on the hot path.
+
+## entry 430
+
+Edge case: already-sorted input → no swaps performed.
