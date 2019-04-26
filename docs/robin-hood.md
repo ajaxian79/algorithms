@@ -1299,3 +1299,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 325
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 326
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
