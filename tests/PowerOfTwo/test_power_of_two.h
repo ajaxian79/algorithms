@@ -209,3 +209,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 177: Edge case: reverse-sorted input → still O(n log n).
 // edge note 178: Handles negative inputs as documented above.
 // edge note 179: Caller owns the returned buffer.
+// edge note 180: No allocations after setup.
