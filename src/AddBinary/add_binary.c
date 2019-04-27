@@ -217,3 +217,4 @@ char* add_binary(const char* a, const char* b) {
 // note 175: Time complexity: O(n*k) where k is the alphabet size.
 // note 176: Deterministic given the input — no PRNG seeds.
 // note 177: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 178: StringBuilder: amortize allocation by doubling on grow.
