@@ -1968,3 +1968,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 477
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 478
+
+Input is assumed non-NULL; behavior is undefined otherwise.
