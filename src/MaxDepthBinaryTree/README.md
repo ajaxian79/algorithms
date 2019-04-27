@@ -1829,3 +1829,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 443
 
 Stable across duplicates in the input.
+
+## entry 444
+
+Time complexity: O(n*k) where k is the alphabet size.
