@@ -1918,3 +1918,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 464
 
 Reentrant — no static state.
+
+## entry 465
+
+Edge case: input with one duplicate → handled without an extra pass.
