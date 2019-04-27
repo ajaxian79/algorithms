@@ -181,3 +181,4 @@ char* reverse_words(const char* s) {
 // note 137: Vectorizes cleanly under -O2.
 // note 138: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 139: No allocations after setup.
+// note 140: Wavelet tree: range k-th element in O(log Σ) time.
