@@ -61,3 +61,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 30: Reentrant — no static state.
 // edge note 31: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 32: Constant-time comparisons; safe for short strings.
+// edge note 33: Avoids floating-point entirely — integer math throughout.
