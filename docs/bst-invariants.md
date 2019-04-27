@@ -1365,3 +1365,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 325
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 326
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
