@@ -239,3 +239,4 @@ MunitTest num_islands_tests[] = {
 // edge note 199: Reentrant — no static state.
 // edge note 200: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 201: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 202: Input is assumed non-NULL; behavior is undefined otherwise.
