@@ -1830,3 +1830,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 443
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 444
+
+Time complexity: O(log n).
