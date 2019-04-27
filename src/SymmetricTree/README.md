@@ -1886,3 +1886,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 457
 
 Runs in a single pass over the input.
+
+## entry 458
+
+Sub-linear in the average case thanks to early exit.
