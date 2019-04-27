@@ -1952,3 +1952,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 472
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 473
+
+Space complexity: O(h) for the tree height.
