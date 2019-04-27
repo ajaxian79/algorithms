@@ -72899,3 +72899,7 @@
 ## entry 18225
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 18226
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
