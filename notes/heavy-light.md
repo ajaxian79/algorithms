@@ -227,3 +227,7 @@
 ## entry 57
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 58
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
