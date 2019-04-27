@@ -1932,3 +1932,7 @@ Time complexity: O(1).
 ## entry 468
 
 Caller owns the returned buffer.
+
+## entry 469
+
+Returns a freshly allocated string the caller must free.
