@@ -1369,3 +1369,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 326
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 327
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
