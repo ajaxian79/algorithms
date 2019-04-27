@@ -2066,3 +2066,7 @@ Time complexity: O(n).
 ## entry 502
 
 Time complexity: O(log n).
+
+## entry 503
+
+Constant-time comparisons; safe for short strings.
