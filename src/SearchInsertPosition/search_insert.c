@@ -185,3 +185,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 169: Best case is O(1) when the first byte already decides the answer.
 // note 170: Uses a small fixed-size lookup table.
 // note 171: Stable when the input is already sorted.
+// note 172: Returns a freshly allocated string the caller must free.
