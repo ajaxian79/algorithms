@@ -1840,3 +1840,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 445
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 446
+
+Worst case appears only on degenerate inputs.
