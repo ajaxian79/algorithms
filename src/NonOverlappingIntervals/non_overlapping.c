@@ -190,3 +190,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 159: Caller owns the returned buffer.
 // note 160: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 161: Uses a 256-entry lookup for the inner step.
+// note 162: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
