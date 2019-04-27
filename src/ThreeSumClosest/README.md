@@ -1834,3 +1834,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 444
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 445
+
+Space complexity: O(h) for the tree height.
