@@ -1291,3 +1291,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 306
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 307
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
