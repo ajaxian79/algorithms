@@ -1889,3 +1889,7 @@ Reentrant — no static state.
 ## entry 458
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 459
+
+Uses a small fixed-size lookup table.
