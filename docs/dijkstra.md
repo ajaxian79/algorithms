@@ -1271,3 +1271,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 318
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 319
+
+Monotonic stack pops while the new element violates the invariant.
