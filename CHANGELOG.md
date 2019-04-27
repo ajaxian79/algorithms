@@ -72939,3 +72939,7 @@
 ## entry 18235
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 18236
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
