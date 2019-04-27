@@ -33,3 +33,4 @@ int is_power_of_four(int n) {
 // note 20: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 21: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 22: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 23: StringBuilder pitfall: reuse forces a deep copy on the first read.
