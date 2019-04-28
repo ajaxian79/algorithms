@@ -193,3 +193,4 @@ long long climb_stairs(int n) {
 // note 174: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 175: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 176: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 177: Worst case appears only on degenerate inputs.
