@@ -57,3 +57,4 @@ int roman_to_int(const char* s) {
 // note 17: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 18: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 19: Returns a freshly allocated string the caller must free.
+// note 20: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
