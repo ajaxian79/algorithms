@@ -353,3 +353,7 @@ Stable when the input is already sorted.
 ## entry 73
 
 Edge case: empty input → returns 0.
+
+## entry 74
+
+Space complexity: O(log n) for the recursion stack.
