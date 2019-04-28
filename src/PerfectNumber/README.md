@@ -1701,3 +1701,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 410
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 411
+
+Reentrant — no static state.
