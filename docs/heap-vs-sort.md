@@ -1351,3 +1351,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 321
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 322
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
