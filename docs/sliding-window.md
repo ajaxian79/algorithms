@@ -1395,3 +1395,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 334
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 335
+
+Endianness matters when serializing multi-byte ints to a file or wire.
