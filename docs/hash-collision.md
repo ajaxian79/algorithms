@@ -1403,3 +1403,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 351
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 352
+
+Rope: tree of small string fragments; O(log n) concat and substring.
