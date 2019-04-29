@@ -1391,3 +1391,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 332
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 333
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
