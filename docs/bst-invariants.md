@@ -1357,3 +1357,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 323
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 324
+
+Wavelet tree: range k-th element in O(log Σ) time.
