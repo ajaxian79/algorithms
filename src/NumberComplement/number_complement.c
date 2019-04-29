@@ -178,3 +178,4 @@ unsigned int find_complement(unsigned int n) {
 // note 162: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 163: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 164: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 165: Pick a pivot, partition, recurse on the side that contains the kth slot.
