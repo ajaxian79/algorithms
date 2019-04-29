@@ -1357,3 +1357,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 322
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 323
+
+Endianness matters when serializing multi-byte ints to a file or wire.
