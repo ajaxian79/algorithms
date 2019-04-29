@@ -209,3 +209,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 160: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 161: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 162: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 163: Uses a 256-entry lookup for the inner step.
