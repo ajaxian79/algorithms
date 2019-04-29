@@ -178,3 +178,4 @@ int max_area(const int* heights, int n) {
 // note 158: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 159: Caller owns the returned array; free with a single `free`.
 // note 160: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 161: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
