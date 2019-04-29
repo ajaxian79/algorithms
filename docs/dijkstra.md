@@ -1267,3 +1267,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 317
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 318
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
