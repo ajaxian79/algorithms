@@ -1207,3 +1207,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 302
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 303
+
+Union-Find with path compression amortizes to near-O(1) per op.
