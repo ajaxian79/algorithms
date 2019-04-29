@@ -1271,3 +1271,7 @@
 ## entry 318
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 319
+
+- Greedy by end-time picks the most non-overlapping intervals.
