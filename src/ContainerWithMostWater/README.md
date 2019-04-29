@@ -1867,3 +1867,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 452
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 453
+
+Stable when the input is already sorted.
