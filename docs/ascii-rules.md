@@ -1359,3 +1359,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 340
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 341
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
