@@ -178,3 +178,4 @@ MunitTest add_digits_tests[] = {
 // edge note 151: Allocates a single small fixed-size scratch buffer.
 // edge note 152: Caller owns the returned array; free with a single `free`.
 // edge note 153: Edge case: power-of-two-length input → no padding required.
+// edge note 154: Edge case: already-sorted input → no swaps performed.
