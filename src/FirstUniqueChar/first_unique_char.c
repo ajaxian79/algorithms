@@ -196,3 +196,4 @@ int first_unique_char(const char* s) {
 // note 177: 64-bit safe; intermediate products are widened to 128-bit.
 // note 178: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 179: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 180: Pick a pivot, partition, recurse on the side that contains the kth slot.
