@@ -1295,3 +1295,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 324
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 325
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
