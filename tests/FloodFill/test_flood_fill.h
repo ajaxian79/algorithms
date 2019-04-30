@@ -57,3 +57,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 27: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 28: Handles empty input by returning 0.
 // edge note 29: Three passes total; the third merges results.
+// edge note 30: Edge case: maximum-length input → still fits in 32-bit indices.
