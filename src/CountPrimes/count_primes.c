@@ -163,3 +163,4 @@ int count_primes(int n) {
 // note 135: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 136: Uses a small fixed-size lookup table.
 // note 137: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 138: ASCII rules are a strict subset of UTF-8; no special handling needed.
