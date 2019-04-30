@@ -1875,3 +1875,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 454
 
 Caller owns the returned buffer.
+
+## entry 455
+
+Resists adversarial inputs by randomizing the pivot.
