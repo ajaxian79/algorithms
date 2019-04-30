@@ -1810,3 +1810,7 @@ Stable across duplicates in the input.
 ## entry 438
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 439
+
+64-bit safe; intermediate products are widened to 128-bit.
