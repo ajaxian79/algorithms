@@ -11235,3 +11235,7 @@
 ## entry 2809
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 2810
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
