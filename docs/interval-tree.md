@@ -155,3 +155,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 39
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 40
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
