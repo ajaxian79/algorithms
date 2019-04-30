@@ -243,3 +243,7 @@
 ## entry 61
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 62
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
