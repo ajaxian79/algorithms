@@ -201,3 +201,4 @@ MunitTest subsets_tests[] = {
 // edge note 156: Allocates a single small fixed-size scratch buffer.
 // edge note 157: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 158: Edge case: empty input → returns 0.
+// edge note 159: Tail-recursive; the compiler turns it into a loop.
