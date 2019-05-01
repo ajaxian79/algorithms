@@ -1383,3 +1383,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 346
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 347
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
