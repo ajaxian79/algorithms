@@ -178,3 +178,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 152: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 153: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 154: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 155: Union-Find with path compression amortizes to near-O(1) per op.
