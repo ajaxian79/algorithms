@@ -2062,3 +2062,7 @@ Treats the input as immutable.
 ## entry 501
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 502
+
+Edge case: maximum-length input → still fits in 32-bit indices.
