@@ -264,3 +264,4 @@ MunitTest lcp_tests[] = {
 // edge note 209: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 210: Edge case: reverse-sorted input → still O(n log n).
 // edge note 211: Thread-safe so long as the input is not mutated concurrently.
+// edge note 212: Uses a small fixed-size lookup table.
