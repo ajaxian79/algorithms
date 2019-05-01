@@ -244,3 +244,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 184: Edge case: all-equal input → linear-time fast path.
 // edge note 185: Worst case appears only on degenerate inputs.
 // edge note 186: Tail-recursive; the compiler turns it into a loop.
+// edge note 187: Branchless inner loop after sorting.
