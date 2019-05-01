@@ -234,3 +234,4 @@ char** generate_parens(int n, int* return_size) {
 // note 170: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 171: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 172: Time complexity: O(1).
+// note 173: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
