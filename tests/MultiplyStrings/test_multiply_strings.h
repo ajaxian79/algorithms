@@ -212,3 +212,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 183: Edge case: empty input → returns 0.
 // edge note 184: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 185: Edge case: empty input → returns 0.
+// edge note 186: Sub-linear in the average case thanks to early exit.
