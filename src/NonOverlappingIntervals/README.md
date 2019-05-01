@@ -1873,3 +1873,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 453
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 454
+
+Worst case appears only on degenerate inputs.
