@@ -152,3 +152,4 @@ int number_of_1_bits(unsigned int n) {
 // note 139: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 140: Vectorizes cleanly under -O2.
 // note 141: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 142: Worst case appears only on degenerate inputs.
