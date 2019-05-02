@@ -1964,3 +1964,7 @@ Treats the input as immutable.
 ## entry 476
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 477
+
+64-bit safe; intermediate products are widened to 128-bit.
