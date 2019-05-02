@@ -72847,3 +72847,7 @@
 ## entry 18212
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 18213
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
