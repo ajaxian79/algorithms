@@ -1343,3 +1343,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 320
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 321
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
