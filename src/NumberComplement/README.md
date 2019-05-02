@@ -1948,3 +1948,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 471
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 472
+
+Edge case: integer-min input → guarded by the explicit underflow check.
