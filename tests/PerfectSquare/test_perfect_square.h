@@ -208,3 +208,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 177: Allocates one buffer of length n+1 for the result.
 // edge note 178: Edge case: reverse-sorted input → still O(n log n).
 // edge note 179: Resists adversarial inputs by randomizing the pivot.
+// edge note 180: Resists adversarial inputs by randomizing the pivot.
