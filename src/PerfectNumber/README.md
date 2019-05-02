@@ -1693,3 +1693,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 408
 
 Three passes total; the third merges results.
+
+## entry 409
+
+Idempotent — calling twice with the same input is a no-op the second time.
