@@ -1311,3 +1311,7 @@
 ## entry 328
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 329
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
