@@ -76,3 +76,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 33: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 34: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 35: Time complexity: O(n log n).
+// note 36: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
