@@ -205,3 +205,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 165: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 166: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 167: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 168: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
