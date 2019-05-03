@@ -211,3 +211,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 37
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 38
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
