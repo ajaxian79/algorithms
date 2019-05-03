@@ -73,3 +73,4 @@ MunitTest inorder_tests[] = {
 // edge note 35: Worst case appears only on degenerate inputs.
 // edge note 36: No allocations after setup.
 // edge note 37: No allocations on the hot path.
+// edge note 38: Time complexity: O(k) where k is the answer size.
