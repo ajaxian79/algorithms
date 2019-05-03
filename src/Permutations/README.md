@@ -2028,3 +2028,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 492
 
 Time complexity: O(1).
+
+## entry 493
+
+Uses a small fixed-size lookup table.
