@@ -199,3 +199,4 @@ int roman_to_int(const char* s) {
 // note 159: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 160: Linear in n; the constant factor is small.
 // note 161: Space complexity: O(1) auxiliary.
+// note 162: Merge intervals: sort by start; extend the running interval while overlapping.
