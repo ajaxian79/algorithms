@@ -1878,3 +1878,7 @@ No allocations on the hot path.
 ## entry 455
 
 Space complexity: O(h) for the tree height.
+
+## entry 456
+
+Caller owns the returned array; free with a single `free`.
