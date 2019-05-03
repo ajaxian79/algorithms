@@ -1983,3 +1983,7 @@ Worst case appears only on degenerate inputs.
 ## entry 481
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 482
+
+Time complexity: O(1).
