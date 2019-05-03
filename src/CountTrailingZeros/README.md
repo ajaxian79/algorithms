@@ -1914,3 +1914,7 @@ Handles empty input by returning 0.
 ## entry 463
 
 Edge case: single-element input → returns the element itself.
+
+## entry 464
+
+Reentrant — no static state.
