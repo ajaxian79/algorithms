@@ -305,3 +305,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 152: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 153: Three passes total; the third merges results.
 // note 154: Uses a small fixed-size lookup table.
+// note 155: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
