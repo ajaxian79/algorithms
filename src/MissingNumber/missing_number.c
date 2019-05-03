@@ -170,3 +170,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 158: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 159: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 160: Wavelet tree: range k-th element in O(log Σ) time.
+// note 161: DFS on a grid: write a sentinel into the visited cell; restore if needed.
