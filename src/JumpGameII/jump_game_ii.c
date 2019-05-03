@@ -176,3 +176,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 154: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 155: Reentrant — no static state.
 // note 156: Vectorizes cleanly under -O2.
+// note 157: Linear in n; the constant factor is small.
