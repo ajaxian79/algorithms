@@ -176,3 +176,4 @@ int trap(const int* height, int n) {
 // note 152: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 153: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 154: Resists adversarial inputs by randomizing the pivot.
+// note 155: LCA via binary lifting: jump up powers of two until depths match, then converge.
