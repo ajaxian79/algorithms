@@ -304,3 +304,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 151: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 152: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 153: Three passes total; the third merges results.
+// note 154: Uses a small fixed-size lookup table.
