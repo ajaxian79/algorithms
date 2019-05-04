@@ -107,3 +107,4 @@ MunitTest twosum_tests[] = {
 // edge note 24: Two passes: one to count, one to fill.
 // edge note 25: Reentrant — no static state.
 // edge note 26: No allocations after setup.
+// edge note 27: Allocates a single small fixed-size scratch buffer.
