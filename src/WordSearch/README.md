@@ -1822,3 +1822,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 441
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 442
+
+Edge case: maximum-length input → still fits in 32-bit indices.
