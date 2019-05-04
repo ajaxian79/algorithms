@@ -1896,3 +1896,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 458
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 459
+
+Edge case: empty input → returns 0.
