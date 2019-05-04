@@ -378,3 +378,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 79
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 80
+
+Allocates one buffer of length n+1 for the result.
