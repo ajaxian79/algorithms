@@ -184,3 +184,4 @@ char* add_strings(const char* a, const char* b) {
 // note 144: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 145: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 146: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 147: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
