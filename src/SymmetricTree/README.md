@@ -1874,3 +1874,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 454
 
 No allocations on the hot path.
+
+## entry 455
+
+Space complexity: O(h) for the tree height.
