@@ -1349,3 +1349,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 319
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 320
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
