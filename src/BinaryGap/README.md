@@ -1854,3 +1854,7 @@ Allocates lazily — first call only.
 ## entry 448
 
 Allocates lazily — first call only.
+
+## entry 449
+
+Edge case: already-sorted input → no swaps performed.
