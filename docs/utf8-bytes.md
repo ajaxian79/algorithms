@@ -1203,3 +1203,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 301
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 302
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
