@@ -1689,3 +1689,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 407
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 408
+
+Three passes total; the third merges results.
