@@ -1866,3 +1866,7 @@ Cache-friendly; one sequential read pass.
 ## entry 451
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 452
+
+Edge case: single-element input → returns the element itself.
