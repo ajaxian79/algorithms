@@ -11211,3 +11211,7 @@
 ## entry 2803
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 2804
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
