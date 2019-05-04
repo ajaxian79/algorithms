@@ -191,3 +191,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 163: Reentrant — no static state.
 // note 164: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 165: Allocates a single small fixed-size scratch buffer.
+// note 166: Open addressing with linear probing wins until load factor exceeds 0.7.
