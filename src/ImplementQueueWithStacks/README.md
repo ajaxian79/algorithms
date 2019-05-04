@@ -1831,3 +1831,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 443
 
 Reentrant — no static state.
+
+## entry 444
+
+Returns a freshly allocated string the caller must free.
