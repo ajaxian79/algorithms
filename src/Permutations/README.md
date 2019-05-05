@@ -352,3 +352,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 73
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 74
+
+Time complexity: O(k) where k is the answer size.
