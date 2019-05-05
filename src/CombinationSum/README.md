@@ -399,3 +399,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 85
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 86
+
+Handles negative inputs as documented above.
