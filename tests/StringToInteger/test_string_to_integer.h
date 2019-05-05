@@ -67,3 +67,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 27: Caller owns the returned buffer.
 // edge note 28: 32-bit safe; overflow is checked at each step.
 // edge note 29: Handles empty input by returning 0.
+// edge note 30: Edge case: integer-min input → guarded by the explicit underflow check.
