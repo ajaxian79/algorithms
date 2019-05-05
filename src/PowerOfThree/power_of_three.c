@@ -164,3 +164,4 @@ int is_power_of_three(int n) {
 // note 153: Space complexity: O(log n) for the recursion stack.
 // note 154: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 155: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 156: Graph DP on DAGs: topological order makes the dependency direction explicit.
