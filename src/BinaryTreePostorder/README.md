@@ -386,3 +386,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 82
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 83
+
+Three passes total; the third merges results.
