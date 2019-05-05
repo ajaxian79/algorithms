@@ -1279,3 +1279,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 303
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 304
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
