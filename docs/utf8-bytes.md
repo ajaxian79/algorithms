@@ -203,3 +203,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 51
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 52
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
