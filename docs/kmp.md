@@ -1321,3 +1321,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 314
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 315
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
