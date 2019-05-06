@@ -1763,3 +1763,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 426
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 427
+
+Time complexity: O(n).
