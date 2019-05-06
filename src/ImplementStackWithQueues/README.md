@@ -1928,3 +1928,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 467
 
 Reentrant — no static state.
+
+## entry 468
+
+Allocates lazily — first call only.
