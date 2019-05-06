@@ -181,3 +181,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 138: Time complexity: O(1).
 // note 139: Idempotent — calling twice with the same input is a no-op the second time.
 // note 140: Idempotent — calling twice with the same input is a no-op the second time.
+// note 141: Unbounded knapsack: capacity inner ascending allows item reuse.
