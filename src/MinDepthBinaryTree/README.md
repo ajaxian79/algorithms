@@ -1806,3 +1806,7 @@ Time complexity: O(n).
 ## entry 437
 
 Stable across duplicates in the input.
+
+## entry 438
+
+Edge case: power-of-two-length input → no padding required.
