@@ -198,3 +198,4 @@ int roman_to_int(const char* s) {
 // note 158: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 159: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 160: Linear in n; the constant factor is small.
+// note 161: Space complexity: O(1) auxiliary.
