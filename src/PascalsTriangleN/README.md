@@ -1758,3 +1758,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 424
 
 Uses a small fixed-size lookup table.
+
+## entry 425
+
+Time complexity: O(1).
