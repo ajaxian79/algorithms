@@ -1754,3 +1754,7 @@ Worst case appears only on degenerate inputs.
 ## entry 423
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 424
+
+Uses a small fixed-size lookup table.
