@@ -1972,3 +1972,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 478
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 479
+
+Vectorizes cleanly under -O2.
