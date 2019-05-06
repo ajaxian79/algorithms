@@ -254,3 +254,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 212: Stable across duplicates in the input.
 // edge note 213: Time complexity: O(log n).
 // edge note 214: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 215: Edge case: input of all the same byte → exits on the first compare.
