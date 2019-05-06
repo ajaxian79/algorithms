@@ -1331,3 +1331,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 333
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 334
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
