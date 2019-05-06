@@ -205,3 +205,4 @@ MunitTest four_sum_tests[] = {
 // edge note 164: Reentrant — no static state.
 // edge note 165: Worst case appears only on degenerate inputs.
 // edge note 166: Runs in a single pass over the input.
+// edge note 167: Handles empty input by returning 0.
