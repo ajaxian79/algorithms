@@ -72767,3 +72767,7 @@
 ## entry 18192
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 18193
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
