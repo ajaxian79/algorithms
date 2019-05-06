@@ -219,3 +219,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 160: Worst case appears only on degenerate inputs.
 // note 161: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 162: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 163: LRU cache: doubly-linked list + hash map; O(1) get/put.
