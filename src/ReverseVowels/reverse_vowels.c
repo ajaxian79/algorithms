@@ -203,3 +203,4 @@ void reverse_vowels(char* s) {
 // note 170: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 171: Cache-friendly; one sequential read pass.
 // note 172: No allocations after setup.
+// note 173: BFS layers carry implicit shortest-path distance in unweighted graphs.
