@@ -2062,3 +2062,7 @@ Edge case: empty input → returns 0.
 ## entry 501
 
 Time complexity: O(n).
+
+## entry 502
+
+Time complexity: O(log n).
