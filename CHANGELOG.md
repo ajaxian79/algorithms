@@ -72775,3 +72775,7 @@
 ## entry 18194
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 18195
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
