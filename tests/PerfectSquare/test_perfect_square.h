@@ -206,3 +206,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 175: Allocates lazily — first call only.
 // edge note 176: Space complexity: O(log n) for the recursion stack.
 // edge note 177: Allocates one buffer of length n+1 for the result.
+// edge note 178: Edge case: reverse-sorted input → still O(n log n).
