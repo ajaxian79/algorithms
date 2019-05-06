@@ -1960,3 +1960,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 475
 
 Treats the input as immutable.
+
+## entry 476
+
+Edge case: input with one duplicate → handled without an extra pass.
