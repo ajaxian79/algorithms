@@ -1892,3 +1892,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 457
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 458
+
+Allocates a single small fixed-size scratch buffer.
