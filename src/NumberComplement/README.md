@@ -1940,3 +1940,7 @@ Time complexity: O(log n).
 ## entry 469
 
 Space complexity: O(1) auxiliary.
+
+## entry 470
+
+Edge case: already-sorted input → no swaps performed.
