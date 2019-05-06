@@ -1944,3 +1944,7 @@ Space complexity: O(1) auxiliary.
 ## entry 470
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 471
+
+Thread-safe so long as the input is not mutated concurrently.
