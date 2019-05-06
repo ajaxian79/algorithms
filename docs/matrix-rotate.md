@@ -1313,3 +1313,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 312
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 313
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
