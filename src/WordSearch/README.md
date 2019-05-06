@@ -1818,3 +1818,7 @@ Runs in a single pass over the input.
 ## entry 440
 
 Constant-time comparisons; safe for short strings.
+
+## entry 441
+
+Mutates the input in place; the original ordering is lost.
