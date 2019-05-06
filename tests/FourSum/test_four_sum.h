@@ -204,3 +204,4 @@ MunitTest four_sum_tests[] = {
 // edge note 163: No allocations on the hot path.
 // edge note 164: Reentrant — no static state.
 // edge note 165: Worst case appears only on degenerate inputs.
+// edge note 166: Runs in a single pass over the input.
