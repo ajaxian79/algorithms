@@ -72787,3 +72787,7 @@
 ## entry 18197
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 18198
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
