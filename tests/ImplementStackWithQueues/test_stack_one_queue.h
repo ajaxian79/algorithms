@@ -211,3 +211,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 179: Worst case appears only on degenerate inputs.
 // edge note 180: Handles single-element input as a base case.
 // edge note 181: Space complexity: O(1) auxiliary.
+// edge note 182: Input is assumed non-NULL; behavior is undefined otherwise.
