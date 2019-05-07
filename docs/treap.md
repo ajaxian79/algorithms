@@ -167,3 +167,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 42
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 43
+
+Wavelet tree: range k-th element in O(log Σ) time.
