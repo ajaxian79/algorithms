@@ -1936,3 +1936,7 @@ Space complexity: O(1) auxiliary.
 ## entry 468
 
 Time complexity: O(log n).
+
+## entry 469
+
+Space complexity: O(1) auxiliary.
