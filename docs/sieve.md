@@ -1427,3 +1427,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 340
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 341
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
