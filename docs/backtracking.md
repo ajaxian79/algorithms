@@ -1385,3 +1385,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 329
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 330
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
