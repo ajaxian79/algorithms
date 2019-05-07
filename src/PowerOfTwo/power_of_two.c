@@ -153,3 +153,4 @@ int is_power_of_two(int n) {
 // note 143: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 144: Uses a 256-entry lookup for the inner step.
 // note 145: 32-bit safe; overflow is checked at each step.
+// note 146: Linear in n; the constant factor is small.
