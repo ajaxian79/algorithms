@@ -1924,3 +1924,7 @@ Time complexity: O(1).
 ## entry 466
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 467
+
+Time complexity: O(1).
