@@ -1415,3 +1415,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 337
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 338
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
