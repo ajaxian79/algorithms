@@ -1858,3 +1858,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 449
 
 Space complexity: O(1) auxiliary.
+
+## entry 450
+
+Cache-friendly; one sequential read pass.
