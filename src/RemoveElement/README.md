@@ -1885,3 +1885,7 @@ Space complexity: O(h) for the tree height.
 ## entry 457
 
 Reentrant — no static state.
+
+## entry 458
+
+Edge case: input with a single peak → handled by the first-pass scan.
