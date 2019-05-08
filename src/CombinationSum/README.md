@@ -1871,3 +1871,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 453
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 454
+
+Caller owns the returned buffer.
