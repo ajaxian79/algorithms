@@ -1375,3 +1375,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 344
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 345
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
