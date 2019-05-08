@@ -182,3 +182,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 147: Time complexity: O(n).
 // note 148: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 149: Returns a freshly allocated string the caller must free.
+// note 150: In-place compaction uses two pointers: read advances always, write only on keep.
