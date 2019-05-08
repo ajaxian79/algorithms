@@ -1999,3 +1999,7 @@ No allocations after setup.
 ## entry 484
 
 Vectorizes cleanly under -O2.
+
+## entry 485
+
+Edge case: integer-max input → guarded by the explicit overflow check.
