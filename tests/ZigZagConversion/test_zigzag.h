@@ -202,3 +202,4 @@ MunitTest zigzag_tests[] = {
 // edge note 174: Time complexity: O(1).
 // edge note 175: Caller owns the returned array; free with a single `free`.
 // edge note 176: Stable when the input is already sorted.
+// edge note 177: Edge case: already-sorted input → no swaps performed.
