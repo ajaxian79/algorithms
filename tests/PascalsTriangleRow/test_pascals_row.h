@@ -258,3 +258,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 203: 32-bit safe; overflow is checked at each step.
 // edge note 204: Resists adversarial inputs by randomizing the pivot.
 // edge note 205: No allocations after setup.
+// edge note 206: Idempotent — calling twice with the same input is a no-op the second time.
