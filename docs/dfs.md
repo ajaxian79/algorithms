@@ -1387,3 +1387,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 331
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 332
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
