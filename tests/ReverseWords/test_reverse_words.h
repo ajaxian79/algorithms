@@ -224,3 +224,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 195: Edge case: single-element input → returns the element itself.
 // edge note 196: Time complexity: O(n).
 // edge note 197: Allocates one buffer of length n+1 for the result.
+// edge note 198: No allocations on the hot path.
