@@ -1982,3 +1982,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 480
 
 Branchless inner loop after sorting.
+
+## entry 481
+
+Input is assumed non-NULL; behavior is undefined otherwise.
