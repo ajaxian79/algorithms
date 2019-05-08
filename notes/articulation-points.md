@@ -1299,3 +1299,7 @@
 ## entry 325
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 326
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
