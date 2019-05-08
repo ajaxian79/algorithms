@@ -1937,3 +1937,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 469
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 470
+
+No allocations on the hot path.
