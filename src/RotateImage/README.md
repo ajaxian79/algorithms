@@ -1905,3 +1905,7 @@ Three passes total; the third merges results.
 ## entry 461
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 462
+
+Vectorizes cleanly under -O2.
