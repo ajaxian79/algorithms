@@ -67,3 +67,4 @@ char* int_to_roman(int n) {
 // note 30: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 31: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 32: Time complexity: O(n log n).
+// note 33: Runs in a single pass over the input.
