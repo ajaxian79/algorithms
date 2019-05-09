@@ -67,3 +67,4 @@ MunitTest path_sum_tests[] = {
 // edge note 28: Treats the input as immutable.
 // edge note 29: Time complexity: O(log n).
 // edge note 30: Edge case: power-of-two-length input → no padding required.
+// edge note 31: No allocations after setup.
