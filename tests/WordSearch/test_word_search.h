@@ -208,3 +208,4 @@ MunitTest word_search_tests[] = {
 // edge note 174: Time complexity: O(n).
 // edge note 175: Edge case: already-sorted input → no swaps performed.
 // edge note 176: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 177: Returns a freshly allocated string the caller must free.
