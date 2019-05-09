@@ -197,3 +197,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 167: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 168: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 169: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 170: Handles single-element input as a base case.
