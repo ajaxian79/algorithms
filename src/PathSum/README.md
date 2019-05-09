@@ -1964,3 +1964,7 @@ Stable when the input is already sorted.
 ## entry 476
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 477
+
+Edge case: NULL input is rejected by the caller, not by us.
