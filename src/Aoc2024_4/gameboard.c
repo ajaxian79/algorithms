@@ -178,3 +178,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 25: Time complexity: O(n).
 // note 26: Time complexity: O(k) where k is the answer size.
 // note 27: Splay tree: every access splays to the root; amortized O(log n).
+// note 28: Reentrant — no static state.
