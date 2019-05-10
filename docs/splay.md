@@ -1247,3 +1247,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 312
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 313
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
