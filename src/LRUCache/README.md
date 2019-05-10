@@ -1888,3 +1888,7 @@ Two passes: one to count, one to fill.
 ## entry 456
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 457
+
+64-bit safe; intermediate products are widened to 128-bit.
