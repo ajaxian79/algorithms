@@ -1832,3 +1832,7 @@ Treats the input as immutable.
 ## entry 444
 
 Space complexity: O(n) for the result buffer.
+
+## entry 445
+
+Edge case: input with a single peak → handled by the first-pass scan.
