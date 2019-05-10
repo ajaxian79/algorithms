@@ -1890,3 +1890,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 457
 
 Handles single-element input as a base case.
+
+## entry 458
+
+Two passes: one to count, one to fill.
