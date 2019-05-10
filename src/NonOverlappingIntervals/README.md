@@ -1869,3 +1869,7 @@ Cache-friendly; one sequential read pass.
 ## entry 452
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 453
+
+Edge case: maximum-length input → still fits in 32-bit indices.
