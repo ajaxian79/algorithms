@@ -1862,3 +1862,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 451
 
 Vectorizes cleanly under -O2.
+
+## entry 452
+
+Idempotent — calling twice with the same input is a no-op the second time.
