@@ -1331,3 +1331,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 333
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 334
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
