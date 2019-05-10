@@ -1263,3 +1263,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 316
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 317
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
