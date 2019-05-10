@@ -1347,3 +1347,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 320
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 321
+
+Interval DP: solve all `[l, r]` ranges from short to long.
