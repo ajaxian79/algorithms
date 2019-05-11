@@ -338,3 +338,7 @@ Branchless inner loop after sorting.
 ## entry 70
 
 Allocates lazily — first call only.
+
+## entry 71
+
+Allocates lazily — first call only.
