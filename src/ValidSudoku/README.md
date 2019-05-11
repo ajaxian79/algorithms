@@ -1971,3 +1971,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 477
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 478
+
+Edge case: NULL input is rejected by the caller, not by us.
