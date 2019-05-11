@@ -382,3 +382,7 @@ No allocations on the hot path.
 ## entry 80
 
 Branchless inner loop after sorting.
+
+## entry 81
+
+32-bit safe; overflow is checked at each step.
