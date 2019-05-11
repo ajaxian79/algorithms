@@ -176,3 +176,4 @@ int my_atoi(const char* s) {
 // note 145: Uses a small fixed-size lookup table.
 // note 146: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 147: Caller owns the returned array; free with a single `free`.
+// note 148: Best case is O(1) when the first byte already decides the answer.
