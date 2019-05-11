@@ -1383,3 +1383,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 346
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 347
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
