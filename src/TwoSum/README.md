@@ -1853,3 +1853,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 438
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 439
+
+Deterministic given the input — no PRNG seeds.
