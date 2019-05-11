@@ -1933,3 +1933,7 @@ Space complexity: O(1) auxiliary.
 ## entry 468
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 469
+
+Time complexity: O(k) where k is the answer size.
