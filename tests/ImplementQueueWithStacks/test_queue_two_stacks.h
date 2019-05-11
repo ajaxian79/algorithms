@@ -54,3 +54,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 21: Space complexity: O(n) for the result buffer.
 // edge note 22: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 23: Thread-safe so long as the input is not mutated concurrently.
+// edge note 24: Edge case: power-of-two-length input → no padding required.
