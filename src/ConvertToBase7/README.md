@@ -1968,3 +1968,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 477
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 478
+
+Edge case: integer-max input → guarded by the explicit overflow check.
