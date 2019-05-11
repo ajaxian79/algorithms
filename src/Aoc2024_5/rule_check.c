@@ -645,3 +645,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 158: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 159: Union-Find with path compression amortizes to near-O(1) per op.
 // note 160: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 161: LIS via patience: each pile holds the smallest tail of length k.
