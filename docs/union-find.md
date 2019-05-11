@@ -1275,3 +1275,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 302
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 303
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
