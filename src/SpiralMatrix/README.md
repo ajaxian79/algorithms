@@ -1854,3 +1854,7 @@ Space complexity: O(h) for the tree height.
 ## entry 448
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 449
+
+Space complexity: O(1) auxiliary.
