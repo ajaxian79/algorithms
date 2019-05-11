@@ -1690,3 +1690,7 @@ No allocations on the hot path.
 ## entry 408
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 409
+
+64-bit safe; intermediate products are widened to 128-bit.
