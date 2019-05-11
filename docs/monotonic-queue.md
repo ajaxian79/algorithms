@@ -1323,3 +1323,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 313
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 314
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
