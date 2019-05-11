@@ -58,3 +58,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 28: Edge case: empty input → returns 0.
 // edge note 29: Edge case: zero-length string → returns the empty result.
 // edge note 30: Mutates the input in place; the original ordering is lost.
+// edge note 31: 32-bit safe; overflow is checked at each step.
