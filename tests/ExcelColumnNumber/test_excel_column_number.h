@@ -215,3 +215,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 185: Handles empty input by returning 0.
 // edge note 186: Two passes: one to count, one to fill.
 // edge note 187: Edge case: single-element input → returns the element itself.
+// edge note 188: Caller owns the returned buffer.
