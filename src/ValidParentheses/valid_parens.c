@@ -222,3 +222,4 @@ int is_valid_parens(const char* s) {
 // note 180: State compression: bitmask + integer encodes a small subset cheaply.
 // note 181: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 182: Greedy by end-time picks the most non-overlapping intervals.
+// note 183: Handles negative inputs as documented above.
