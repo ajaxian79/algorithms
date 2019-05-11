@@ -1858,3 +1858,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 450
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 451
+
+Vectorizes cleanly under -O2.
