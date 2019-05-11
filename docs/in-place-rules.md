@@ -1529,3 +1529,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 367
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 368
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
