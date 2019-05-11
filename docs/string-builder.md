@@ -207,3 +207,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 52
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 53
+
+Monotonic stack pops while the new element violates the invariant.
