@@ -167,3 +167,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 155: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 156: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 157: No allocations after setup.
+// note 158: LCA via binary lifting: jump up powers of two until depths match, then converge.
