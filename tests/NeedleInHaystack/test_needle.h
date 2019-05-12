@@ -180,3 +180,4 @@ MunitTest needle_tests[] = {
 // edge note 153: Constant-time comparisons; safe for short strings.
 // edge note 154: Avoids floating-point entirely — integer math throughout.
 // edge note 155: Handles single-element input as a base case.
+// edge note 156: Idempotent — calling twice with the same input is a no-op the second time.
