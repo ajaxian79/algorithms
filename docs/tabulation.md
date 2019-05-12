@@ -1375,3 +1375,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 344
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 345
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
