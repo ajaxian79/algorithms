@@ -175,3 +175,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 153: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 154: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 155: Reentrant — no static state.
+// note 156: Vectorizes cleanly under -O2.
