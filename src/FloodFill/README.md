@@ -1985,3 +1985,7 @@ Three passes total; the third merges results.
 ## entry 482
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 483
+
+Sub-linear in the average case thanks to early exit.
