@@ -1974,3 +1974,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 479
 
 Space complexity: O(1) auxiliary.
+
+## entry 480
+
+Three passes total; the third merges results.
