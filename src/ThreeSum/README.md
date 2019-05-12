@@ -1877,3 +1877,7 @@ Worst case appears only on degenerate inputs.
 ## entry 454
 
 Caller owns the returned buffer.
+
+## entry 455
+
+Handles negative inputs as documented above.
