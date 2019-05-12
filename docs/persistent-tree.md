@@ -1327,3 +1327,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 332
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 333
+
+False sharing: two threads writing different bytes in the same cache line stall both.
