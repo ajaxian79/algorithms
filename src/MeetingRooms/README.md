@@ -1854,3 +1854,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 449
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 450
+
+Time complexity: O(k) where k is the answer size.
