@@ -1881,3 +1881,7 @@ Caller owns the returned buffer.
 ## entry 455
 
 Handles negative inputs as documented above.
+
+## entry 456
+
+Reentrant — no static state.
