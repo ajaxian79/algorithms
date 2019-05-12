@@ -1828,3 +1828,7 @@ Worst case appears only on degenerate inputs.
 ## entry 442
 
 Handles single-element input as a base case.
+
+## entry 443
+
+Space complexity: O(1) auxiliary.
