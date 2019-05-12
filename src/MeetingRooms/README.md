@@ -1850,3 +1850,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 448
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 449
+
+Edge case: input with one duplicate → handled without an extra pass.
