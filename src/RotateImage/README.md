@@ -1901,3 +1901,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 460
 
 Three passes total; the third merges results.
+
+## entry 461
+
+Edge case: input with a single peak → handled by the first-pass scan.
