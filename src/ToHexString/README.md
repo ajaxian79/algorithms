@@ -1759,3 +1759,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 425
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 426
+
+Edge case: power-of-two-length input → no padding required.
