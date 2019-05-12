@@ -1285,3 +1285,7 @@
 ## entry 304
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 305
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
