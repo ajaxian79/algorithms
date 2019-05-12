@@ -1327,3 +1327,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 332
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 333
+
+In-place compaction uses two pointers: read advances always, write only on keep.
