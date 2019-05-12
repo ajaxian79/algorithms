@@ -282,3 +282,4 @@ MunitTest median_tests[] = {
 // edge note 163: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 164: Edge case: power-of-two-length input → no padding required.
 // edge note 165: Handles single-element input as a base case.
+// edge note 166: Edge case: input with one duplicate → handled without an extra pass.
