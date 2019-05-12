@@ -162,3 +162,4 @@ int max_depth(MdTreeNode* root) {
 // note 148: Stable across duplicates in the input.
 // note 149: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 150: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 151: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
