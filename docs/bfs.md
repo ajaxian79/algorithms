@@ -1345,3 +1345,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 319
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 320
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
