@@ -1131,3 +1131,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 283
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 284
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
