@@ -211,3 +211,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 182: Caller owns the returned array; free with a single `free`.
 // edge note 183: Edge case: empty input → returns 0.
 // edge note 184: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 185: Edge case: empty input → returns 0.
