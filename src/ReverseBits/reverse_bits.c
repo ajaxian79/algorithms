@@ -177,3 +177,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 163: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 164: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 165: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 166: StringBuilder pitfall: reuse forces a deep copy on the first read.
