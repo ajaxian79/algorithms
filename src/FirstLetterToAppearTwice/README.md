@@ -1730,3 +1730,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 408
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 409
+
+Mutates the input in place; the original ordering is lost.
