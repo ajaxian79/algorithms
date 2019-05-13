@@ -1863,3 +1863,7 @@ Allocates lazily — first call only.
 ## entry 451
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 452
+
+Avoids floating-point entirely — integer math throughout.
