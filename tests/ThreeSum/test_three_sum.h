@@ -214,3 +214,4 @@ MunitTest three_sum_tests[] = {
 // edge note 169: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 170: Branchless inner loop after sorting.
 // edge note 171: Time complexity: O(1).
+// edge note 172: Time complexity: O(log n).
