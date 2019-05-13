@@ -1825,3 +1825,7 @@ Linear in n; the constant factor is small.
 ## entry 442
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 443
+
+Stable across duplicates in the input.
