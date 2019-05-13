@@ -1411,3 +1411,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 336
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 337
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
