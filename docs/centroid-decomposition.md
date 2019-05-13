@@ -231,3 +231,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 58
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 59
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
