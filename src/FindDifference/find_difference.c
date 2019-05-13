@@ -165,3 +165,4 @@ char find_difference(const char* s, const char* t) {
 // note 149: Idempotent — calling twice with the same input is a no-op the second time.
 // note 150: Branchless inner loop after sorting.
 // note 151: Allocates lazily — first call only.
+// note 152: Two passes: one to count, one to fill.
