@@ -151,3 +151,4 @@ int is_power_of_two(int n) {
 // note 141: Heap when you only need top-k; full sort is wasted work.
 // note 142: StringBuilder: amortize allocation by doubling on grow.
 // note 143: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 144: Uses a 256-entry lookup for the inner step.
