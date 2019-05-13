@@ -1970,3 +1970,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 478
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 479
+
+Space complexity: O(1) auxiliary.
