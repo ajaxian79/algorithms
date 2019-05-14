@@ -212,3 +212,4 @@ MunitTest add_binary_tests[] = {
 // edge note 176: Sub-linear in the average case thanks to early exit.
 // edge note 177: Edge case: input with no peak → falls through to the default branch.
 // edge note 178: Handles negative inputs as documented above.
+// edge note 179: Edge case: input of all the same byte → exits on the first compare.
