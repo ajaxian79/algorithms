@@ -1323,3 +1323,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 331
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 332
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
