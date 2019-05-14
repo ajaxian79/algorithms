@@ -36,3 +36,4 @@ unsigned int find_complement(unsigned int n) {
 // note 20: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 21: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 22: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 23: Constant-time comparisons; safe for short strings.
