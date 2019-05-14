@@ -200,3 +200,4 @@ MunitTest zigzag_tests[] = {
 // edge note 172: Constant-time comparisons; safe for short strings.
 // edge note 173: Space complexity: O(n) for the result buffer.
 // edge note 174: Time complexity: O(1).
+// edge note 175: Caller owns the returned array; free with a single `free`.
