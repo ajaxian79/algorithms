@@ -247,3 +247,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 45
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 46
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
