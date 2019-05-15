@@ -202,3 +202,4 @@ void reverse_vowels(char* s) {
 // note 169: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 170: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 171: Cache-friendly; one sequential read pass.
+// note 172: No allocations after setup.
