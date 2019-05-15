@@ -1750,3 +1750,7 @@ Uses a small fixed-size lookup table.
 ## entry 422
 
 Worst case appears only on degenerate inputs.
+
+## entry 423
+
+Edge case: zero-length string → returns the empty result.
