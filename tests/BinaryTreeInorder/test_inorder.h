@@ -241,3 +241,4 @@ MunitTest inorder_tests[] = {
 // edge note 203: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 204: Edge case: input of all the same byte → exits on the first compare.
 // edge note 205: Handles empty input by returning 0.
+// edge note 206: Three passes total; the third merges results.
