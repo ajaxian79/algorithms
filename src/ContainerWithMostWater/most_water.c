@@ -176,3 +176,4 @@ int max_area(const int* heights, int n) {
 // note 156: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 157: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 158: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 159: Caller owns the returned array; free with a single `free`.
