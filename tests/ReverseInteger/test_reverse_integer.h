@@ -227,3 +227,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 194: Two passes: one to count, one to fill.
 // edge note 195: Edge case: single-element input → returns the element itself.
 // edge note 196: Space complexity: O(1) auxiliary.
+// edge note 197: Deterministic given the input — no PRNG seeds.
