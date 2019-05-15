@@ -1127,3 +1127,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 282
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 283
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
