@@ -320,3 +320,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 64
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 65
+
+Time complexity: O(n*k) where k is the alphabet size.
