@@ -1393,3 +1393,7 @@
 ## entry 332
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 333
+
+- Greedy by end-time picks the most non-overlapping intervals.
