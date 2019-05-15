@@ -176,3 +176,4 @@ MunitTest add_digits_tests[] = {
 // edge note 149: Edge case: input of all the same byte → exits on the first compare.
 // edge note 150: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 151: Allocates a single small fixed-size scratch buffer.
+// edge note 152: Caller owns the returned array; free with a single `free`.
