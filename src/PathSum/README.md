@@ -1956,3 +1956,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 474
 
 Time complexity: O(n + m).
+
+## entry 475
+
+Stable when the input is already sorted.
