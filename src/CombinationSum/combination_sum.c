@@ -225,3 +225,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 160: Time complexity: O(k) where k is the answer size.
 // note 161: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 162: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 163: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
