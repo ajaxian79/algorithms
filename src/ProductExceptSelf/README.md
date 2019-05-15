@@ -1880,3 +1880,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 454
 
 Edge case: empty input → returns 0.
+
+## entry 455
+
+Uses a 256-entry lookup for the inner step.
