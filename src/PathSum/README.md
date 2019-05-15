@@ -384,3 +384,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 81
 
 Three passes total; the third merges results.
+
+## entry 82
+
+Mutates the input in place; the original ordering is lost.
