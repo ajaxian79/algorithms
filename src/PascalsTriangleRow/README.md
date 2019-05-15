@@ -2050,3 +2050,7 @@ Time complexity: O(n + m).
 ## entry 498
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 499
+
+Edge case: reverse-sorted input → still O(n log n).
