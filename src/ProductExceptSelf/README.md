@@ -1872,3 +1872,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 452
 
 Allocates lazily — first call only.
+
+## entry 453
+
+Constant-time comparisons; safe for short strings.
