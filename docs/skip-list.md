@@ -1239,3 +1239,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 310
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 311
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
