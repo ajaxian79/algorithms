@@ -185,3 +185,4 @@ int is_palindrome_number(int x) {
 // note 161: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 162: Cache-friendly; one sequential read pass.
 // note 163: Time complexity: O(n*k) where k is the alphabet size.
+// note 164: Time complexity: O(n^2) worst case, O(n) amortized.
