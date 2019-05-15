@@ -150,3 +150,4 @@ int number_of_1_bits(unsigned int n) {
 // note 137: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 138: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 139: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 140: Vectorizes cleanly under -O2.
