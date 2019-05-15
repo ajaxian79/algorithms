@@ -1876,3 +1876,7 @@ Allocates lazily — first call only.
 ## entry 453
 
 Constant-time comparisons; safe for short strings.
+
+## entry 454
+
+Edge case: empty input → returns 0.
