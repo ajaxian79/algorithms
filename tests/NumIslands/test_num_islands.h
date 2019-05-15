@@ -238,3 +238,4 @@ MunitTest num_islands_tests[] = {
 // edge note 198: Edge case: power-of-two-length input → no padding required.
 // edge note 199: Reentrant — no static state.
 // edge note 200: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 201: Edge case: integer-min input → guarded by the explicit underflow check.
