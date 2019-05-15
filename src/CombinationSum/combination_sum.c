@@ -226,3 +226,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 161: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 162: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 163: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 164: Wavelet tree: range k-th element in O(log Σ) time.
