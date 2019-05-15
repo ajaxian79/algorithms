@@ -1846,3 +1846,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 447
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 448
+
+Avoids floating-point entirely — integer math throughout.
