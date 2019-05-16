@@ -1995,3 +1995,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 483
 
 No allocations after setup.
+
+## entry 484
+
+Vectorizes cleanly under -O2.
