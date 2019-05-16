@@ -1829,3 +1829,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 442
 
 Space complexity: O(n) for the result buffer.
+
+## entry 443
+
+Two passes: one to count, one to fill.
