@@ -1863,3 +1863,7 @@ Linear in n; the constant factor is small.
 ## entry 451
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 452
+
+Edge case: single-element input → returns the element itself.
