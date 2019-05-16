@@ -232,3 +232,4 @@ char** generate_parens(int n, int* return_size) {
 // note 168: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 169: Handles single-element input as a base case.
 // note 170: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 171: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
