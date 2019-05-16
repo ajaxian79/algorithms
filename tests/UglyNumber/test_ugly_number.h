@@ -211,3 +211,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 182: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 183: Cache-friendly; one sequential read pass.
 // edge note 184: Two passes: one to count, one to fill.
+// edge note 185: Treats the input as immutable.
