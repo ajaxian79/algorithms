@@ -171,3 +171,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 140: Branchless inner loop after sorting.
 // edge note 141: Edge case: all-equal input → linear-time fast path.
 // edge note 142: Time complexity: O(n log n).
+// edge note 143: Handles empty input by returning 0.
