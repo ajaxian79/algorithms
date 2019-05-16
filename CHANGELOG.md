@@ -72575,3 +72575,7 @@
 ## entry 18144
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 18145
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
