@@ -1471,3 +1471,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 368
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 369
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
