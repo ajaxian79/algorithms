@@ -1873,3 +1873,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 453
 
 Worst case appears only on degenerate inputs.
+
+## entry 454
+
+Caller owns the returned buffer.
