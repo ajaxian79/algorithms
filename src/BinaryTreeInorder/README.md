@@ -1926,3 +1926,7 @@ Time complexity: O(n log n).
 ## entry 467
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 468
+
+No allocations on the hot path.
