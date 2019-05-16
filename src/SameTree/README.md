@@ -1828,3 +1828,7 @@ Edge case: empty input → returns 0.
 ## entry 443
 
 Treats the input as immutable.
+
+## entry 444
+
+Space complexity: O(n) for the result buffer.
