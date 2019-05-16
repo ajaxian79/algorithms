@@ -1163,3 +1163,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 291
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 292
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
