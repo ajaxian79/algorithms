@@ -29,3 +29,4 @@ int add_digits(int n) {
 // note 18: Allocates lazily — first call only.
 // note 19: Space complexity: O(log n) for the recursion stack.
 // note 20: No allocations after setup.
+// note 21: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
