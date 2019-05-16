@@ -1966,3 +1966,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 477
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 478
+
+Edge case: input of all the same byte → exits on the first compare.
