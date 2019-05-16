@@ -1295,3 +1295,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 324
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 325
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
