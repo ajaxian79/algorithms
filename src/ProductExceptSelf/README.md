@@ -1868,3 +1868,7 @@ Uses a small fixed-size lookup table.
 ## entry 451
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 452
+
+Allocates lazily — first call only.
