@@ -214,3 +214,4 @@ char* int_to_roman(int n) {
 // note 177: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 178: Time complexity: O(n*k) where k is the alphabet size.
 // note 179: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 180: Time complexity: O(1).
