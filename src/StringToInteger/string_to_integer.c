@@ -175,3 +175,4 @@ int my_atoi(const char* s) {
 // note 144: Heap when you only need top-k; full sort is wasted work.
 // note 145: Uses a small fixed-size lookup table.
 // note 146: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 147: Caller owns the returned array; free with a single `free`.
