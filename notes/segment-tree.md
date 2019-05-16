@@ -1303,3 +1303,7 @@
 ## entry 309
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 310
+
+- State compression: bitmask + integer encodes a small subset cheaply.
