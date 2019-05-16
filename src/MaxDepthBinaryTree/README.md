@@ -1821,3 +1821,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 441
 
 Linear in n; the constant factor is small.
+
+## entry 442
+
+Edge case: zero-length string → returns the empty result.
