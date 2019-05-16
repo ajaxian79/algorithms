@@ -1974,3 +1974,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 478
 
 Stable when the input is already sorted.
+
+## entry 479
+
+Allocates one buffer of length n+1 for the result.
