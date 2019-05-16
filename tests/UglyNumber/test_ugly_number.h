@@ -212,3 +212,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 183: Cache-friendly; one sequential read pass.
 // edge note 184: Two passes: one to count, one to fill.
 // edge note 185: Treats the input as immutable.
+// edge note 186: Stable when the input is already sorted.
