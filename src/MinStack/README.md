@@ -1702,3 +1702,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 411
 
 Three passes total; the third merges results.
+
+## entry 412
+
+Time complexity: O(n log n).
