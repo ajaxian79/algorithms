@@ -1952,3 +1952,7 @@ Time complexity: O(log n).
 ## entry 473
 
 Handles single-element input as a base case.
+
+## entry 474
+
+Edge case: integer-max input → guarded by the explicit overflow check.
