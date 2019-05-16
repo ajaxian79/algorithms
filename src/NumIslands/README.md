@@ -1825,3 +1825,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 441
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 442
+
+Space complexity: O(n) for the result buffer.
