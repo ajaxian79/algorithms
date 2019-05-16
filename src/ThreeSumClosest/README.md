@@ -334,3 +334,7 @@ Cache-friendly; one sequential read pass.
 ## entry 69
 
 Branchless inner loop after sorting.
+
+## entry 70
+
+Allocates lazily — first call only.
