@@ -203,3 +203,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 51
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 52
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
