@@ -1970,3 +1970,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 477
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 478
+
+Linear in n; the constant factor is small.
