@@ -1978,3 +1978,7 @@ Stable when the input is already sorted.
 ## entry 479
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 480
+
+Branchless inner loop after sorting.
