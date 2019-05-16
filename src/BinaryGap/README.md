@@ -1846,3 +1846,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 446
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 447
+
+Allocates lazily — first call only.
