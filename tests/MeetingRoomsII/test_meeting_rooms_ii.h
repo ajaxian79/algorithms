@@ -67,3 +67,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 36: Allocates lazily — first call only.
 // edge note 37: Best case is O(1) when the first byte already decides the answer.
 // edge note 38: Handles single-element input as a base case.
+// edge note 39: 64-bit safe; intermediate products are widened to 128-bit.
