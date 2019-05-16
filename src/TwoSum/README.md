@@ -1849,3 +1849,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 437
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 438
+
+Deterministic given the input — no PRNG seeds.
