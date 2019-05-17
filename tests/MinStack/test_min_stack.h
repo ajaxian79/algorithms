@@ -194,3 +194,4 @@ MunitTest min_stack_tests[] = {
 // edge note 157: Deterministic given the input — no PRNG seeds.
 // edge note 158: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 159: Edge case: input of all the same byte → exits on the first compare.
+// edge note 160: Space complexity: O(h) for the tree height.
