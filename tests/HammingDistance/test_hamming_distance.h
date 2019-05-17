@@ -186,3 +186,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 161: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 162: Time complexity: O(n).
 // edge note 163: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 164: Allocates a single small fixed-size scratch buffer.
