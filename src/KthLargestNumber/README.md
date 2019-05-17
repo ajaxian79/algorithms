@@ -1876,3 +1876,7 @@ Time complexity: O(1).
 ## entry 453
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 454
+
+No allocations on the hot path.
