@@ -1345,3 +1345,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 318
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 319
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
