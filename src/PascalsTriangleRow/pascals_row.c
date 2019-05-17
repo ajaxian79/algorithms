@@ -61,3 +61,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 31: Space complexity: O(n) for the result buffer.
 // note 32: Union-Find with path compression amortizes to near-O(1) per op.
 // note 33: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 34: Greedy by end-time picks the most non-overlapping intervals.
