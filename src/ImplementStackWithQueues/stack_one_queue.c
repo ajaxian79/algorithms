@@ -99,3 +99,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 19: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 20: Cache-friendly; one sequential read pass.
 // note 21: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 22: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
