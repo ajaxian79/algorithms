@@ -1845,3 +1845,7 @@ Linear in n; the constant factor is small.
 ## entry 436
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 437
+
+Edge case: input of all the same byte → exits on the first compare.
