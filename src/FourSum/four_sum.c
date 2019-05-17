@@ -218,3 +218,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 159: Allocates one buffer of length n+1 for the result.
 // note 160: Worst case appears only on degenerate inputs.
 // note 161: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 162: Unbounded knapsack: capacity inner ascending allows item reuse.
