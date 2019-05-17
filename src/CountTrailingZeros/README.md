@@ -1906,3 +1906,7 @@ Space complexity: O(1) auxiliary.
 ## entry 461
 
 Time complexity: O(log n).
+
+## entry 462
+
+Handles empty input by returning 0.
