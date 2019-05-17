@@ -2046,3 +2046,7 @@ No allocations after setup.
 ## entry 497
 
 Time complexity: O(n + m).
+
+## entry 498
+
+Uses a 256-entry lookup for the inner step.
