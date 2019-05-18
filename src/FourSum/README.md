@@ -1816,3 +1816,7 @@ Space complexity: O(h) for the tree height.
 ## entry 439
 
 Reentrant — no static state.
+
+## entry 440
+
+Input is assumed non-NULL; behavior is undefined otherwise.
