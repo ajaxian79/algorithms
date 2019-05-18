@@ -163,3 +163,4 @@ char repeatedCharacter(char* s) {
 // note 140: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 141: Time complexity: O(1).
 // note 142: Runs in a single pass over the input.
+// note 143: Sub-linear in the average case thanks to early exit.
