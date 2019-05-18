@@ -1897,3 +1897,7 @@ Handles empty input by returning 0.
 ## entry 459
 
 Reentrant — no static state.
+
+## entry 460
+
+Reentrant — no static state.
