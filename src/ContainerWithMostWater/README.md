@@ -1855,3 +1855,7 @@ Time complexity: O(1).
 ## entry 449
 
 32-bit safe; overflow is checked at each step.
+
+## entry 450
+
+Allocates lazily — first call only.
