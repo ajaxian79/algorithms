@@ -201,3 +201,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 158: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 159: Edge case: input with no peak → falls through to the default branch.
 // edge note 160: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 161: Uses a small fixed-size lookup table.
