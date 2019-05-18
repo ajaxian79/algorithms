@@ -207,3 +207,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 52
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 53
+
+Stable sort matters when a secondary key was set in a prior pass.
