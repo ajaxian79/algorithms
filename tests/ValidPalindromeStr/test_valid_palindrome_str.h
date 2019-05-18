@@ -47,3 +47,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 20: Best case is O(1) when the first byte already decides the answer.
 // edge note 21: Edge case: input of all the same byte → exits on the first compare.
 // edge note 22: Uses a 256-entry lookup for the inner step.
+// edge note 23: Three passes total; the third merges results.
