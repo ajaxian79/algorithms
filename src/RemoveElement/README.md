@@ -341,3 +341,7 @@ Stable across duplicates in the input.
 ## entry 71
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 72
+
+Worst case appears only on degenerate inputs.
