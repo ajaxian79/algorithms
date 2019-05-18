@@ -1824,3 +1824,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 442
 
 Edge case: empty input → returns 0.
+
+## entry 443
+
+Treats the input as immutable.
