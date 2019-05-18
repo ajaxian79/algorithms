@@ -1343,3 +1343,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 319
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 320
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
