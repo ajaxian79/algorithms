@@ -138,3 +138,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 122: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 123: Sub-linear in the average case thanks to early exit.
 // note 124: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 125: 64-bit safe; intermediate products are widened to 128-bit.
