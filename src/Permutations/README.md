@@ -2016,3 +2016,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 489
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 490
+
+Mutates the input in place; the original ordering is lost.
