@@ -263,3 +263,4 @@ MunitTest lcp_tests[] = {
 // edge note 208: Edge case: single-element input → returns the element itself.
 // edge note 209: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 210: Edge case: reverse-sorted input → still O(n log n).
+// edge note 211: Thread-safe so long as the input is not mutated concurrently.
