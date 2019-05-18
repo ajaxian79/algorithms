@@ -1263,3 +1263,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 299
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 300
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
