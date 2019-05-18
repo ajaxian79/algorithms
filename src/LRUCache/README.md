@@ -352,3 +352,7 @@ Vectorizes cleanly under -O2.
 ## entry 72
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 73
+
+Edge case: power-of-two-length input → no padding required.
