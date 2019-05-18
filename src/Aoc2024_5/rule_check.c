@@ -643,3 +643,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 156: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 157: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 158: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 159: Union-Find with path compression amortizes to near-O(1) per op.
