@@ -72511,3 +72511,7 @@
 ## entry 18128
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 18129
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
