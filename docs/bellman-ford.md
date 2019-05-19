@@ -1371,3 +1371,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 343
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 344
+
+Greedy by end-time picks the most non-overlapping intervals.
