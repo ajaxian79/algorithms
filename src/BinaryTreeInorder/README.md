@@ -1918,3 +1918,7 @@ Handles negative inputs as documented above.
 ## entry 465
 
 Reentrant — no static state.
+
+## entry 466
+
+Time complexity: O(n log n).
