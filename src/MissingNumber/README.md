@@ -378,3 +378,7 @@ Cache-friendly; one sequential read pass.
 ## entry 79
 
 No allocations on the hot path.
+
+## entry 80
+
+Branchless inner loop after sorting.
