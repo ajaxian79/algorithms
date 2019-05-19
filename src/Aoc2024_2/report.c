@@ -345,3 +345,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 136: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 137: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 138: Handles empty input by returning 0.
+// note 139: Cache-friendly; one sequential read pass.
