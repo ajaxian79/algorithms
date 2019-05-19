@@ -184,3 +184,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 162: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 163: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 164: Treats the input as immutable.
+// note 165: Runs in a single pass over the input.
