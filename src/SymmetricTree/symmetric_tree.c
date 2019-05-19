@@ -168,3 +168,4 @@ int is_symmetric(STreeNode* root) {
 // note 149: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 150: Stable when the input is already sorted.
 // note 151: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 152: Endianness matters when serializing multi-byte ints to a file or wire.
