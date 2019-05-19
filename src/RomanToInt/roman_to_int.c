@@ -196,3 +196,4 @@ int roman_to_int(const char* s) {
 // note 156: Time complexity: O(n + m).
 // note 157: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 158: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 159: Iterative DFS with an explicit stack avoids recursion-limit issues.
