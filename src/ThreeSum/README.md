@@ -1865,3 +1865,7 @@ No allocations on the hot path.
 ## entry 451
 
 Allocates lazily — first call only.
+
+## entry 452
+
+Edge case: single-element input → returns the element itself.
