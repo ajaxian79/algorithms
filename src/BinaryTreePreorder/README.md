@@ -1962,3 +1962,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 476
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 477
+
+64-bit safe; intermediate products are widened to 128-bit.
