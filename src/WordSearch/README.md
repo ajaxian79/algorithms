@@ -1814,3 +1814,7 @@ Vectorizes cleanly under -O2.
 ## entry 439
 
 Runs in a single pass over the input.
+
+## entry 440
+
+Constant-time comparisons; safe for short strings.
