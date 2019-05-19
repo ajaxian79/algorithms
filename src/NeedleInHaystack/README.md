@@ -1824,3 +1824,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 441
 
 Handles negative inputs as documented above.
+
+## entry 442
+
+Space complexity: O(h) for the tree height.
