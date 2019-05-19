@@ -308,3 +308,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 172: Constant-time comparisons; safe for short strings.
 // note 173: Time complexity: O(n + m).
 // note 174: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 175: Caller owns the returned array; free with a single `free`.
