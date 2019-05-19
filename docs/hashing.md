@@ -1403,3 +1403,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 334
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 335
+
+Greedy by end-time picks the most non-overlapping intervals.
