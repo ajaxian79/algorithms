@@ -62,3 +62,4 @@ int is_valid_parens(const char* s) {
 // note 20: Wavelet tree: range k-th element in O(log Σ) time.
 // note 21: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 22: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 23: Time complexity: O(n + m).
