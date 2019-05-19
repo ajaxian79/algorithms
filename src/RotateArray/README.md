@@ -1991,3 +1991,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 482
 
 Constant-time comparisons; safe for short strings.
+
+## entry 483
+
+No allocations after setup.
