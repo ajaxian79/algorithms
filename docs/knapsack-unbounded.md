@@ -1419,3 +1419,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 339
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 340
+
+Stable sort matters when a secondary key was set in a prior pass.
