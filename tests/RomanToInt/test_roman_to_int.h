@@ -211,3 +211,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 177: Handles single-element input as a base case.
 // edge note 178: Returns a freshly allocated string the caller must free.
 // edge note 179: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 180: Runs in a single pass over the input.
