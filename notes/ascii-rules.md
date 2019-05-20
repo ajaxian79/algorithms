@@ -1263,3 +1263,7 @@
 ## entry 316
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 317
+
+- Wavelet tree: range k-th element in O(log Σ) time.
