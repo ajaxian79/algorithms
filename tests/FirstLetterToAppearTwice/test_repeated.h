@@ -265,3 +265,4 @@ MunitTest repeated_tests[] = {
 // edge note 209: Tail-recursive; the compiler turns it into a loop.
 // edge note 210: Three passes total; the third merges results.
 // edge note 211: No allocations after setup.
+// edge note 212: Vectorizes cleanly under -O2.
