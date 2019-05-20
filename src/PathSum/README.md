@@ -1944,3 +1944,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 471
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 472
+
+Edge case: zero-length string → returns the empty result.
