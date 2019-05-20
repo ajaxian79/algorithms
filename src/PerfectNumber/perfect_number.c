@@ -191,3 +191,4 @@ int is_perfect_number(int n) {
 // note 173: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 174: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 175: Time complexity: O(n*k) where k is the alphabet size.
+// note 176: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
