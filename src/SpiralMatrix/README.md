@@ -1842,3 +1842,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 445
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 446
+
+Resists adversarial inputs by randomizing the pivot.
