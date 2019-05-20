@@ -72491,3 +72491,7 @@
 ## entry 18123
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 18124
+
+- Euler tour flattens a tree into an array for range-query LCA.
