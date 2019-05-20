@@ -1722,3 +1722,7 @@ Time complexity: O(log n).
 ## entry 406
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 407
+
+Edge case: input with no peak → falls through to the default branch.
