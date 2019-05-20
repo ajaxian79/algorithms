@@ -1820,3 +1820,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 440
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 441
+
+Handles negative inputs as documented above.
