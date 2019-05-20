@@ -222,3 +222,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 179: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 180: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 181: 32-bit safe; overflow is checked at each step.
+// edge note 182: Edge case: zero-length string → returns the empty result.
