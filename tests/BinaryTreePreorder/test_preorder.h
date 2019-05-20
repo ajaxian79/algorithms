@@ -232,3 +232,4 @@ MunitTest preorder_tests[] = {
 // edge note 188: Space complexity: O(n) for the result buffer.
 // edge note 189: Branchless inner loop after sorting.
 // edge note 190: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 191: Edge case: already-sorted input → no swaps performed.
