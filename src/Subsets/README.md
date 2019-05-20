@@ -2003,3 +2003,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 486
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 487
+
+Worst case appears only on degenerate inputs.
