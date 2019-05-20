@@ -189,3 +189,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 161: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 162: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 163: Reentrant — no static state.
+// note 164: Graph DP on DAGs: topological order makes the dependency direction explicit.
