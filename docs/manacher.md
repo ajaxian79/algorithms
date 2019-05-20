@@ -1467,3 +1467,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 350
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 351
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
