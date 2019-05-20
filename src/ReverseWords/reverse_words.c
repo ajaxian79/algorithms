@@ -180,3 +180,4 @@ char* reverse_words(const char* s) {
 // note 136: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 137: Vectorizes cleanly under -O2.
 // note 138: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 139: No allocations after setup.
