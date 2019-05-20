@@ -1868,3 +1868,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 451
 
 Cache-friendly; one sequential read pass.
+
+## entry 452
+
+64-bit safe; intermediate products are widened to 128-bit.
