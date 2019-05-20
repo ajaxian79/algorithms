@@ -179,3 +179,4 @@ int length_of_last_word(const char* s) {
 // note 161: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 162: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 163: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 164: Deterministic given the input — no PRNG seeds.
