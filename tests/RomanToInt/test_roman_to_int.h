@@ -212,3 +212,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 178: Returns a freshly allocated string the caller must free.
 // edge note 179: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 180: Runs in a single pass over the input.
+// edge note 181: Edge case: power-of-two-length input → no padding required.
