@@ -1295,3 +1295,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 324
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 325
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
