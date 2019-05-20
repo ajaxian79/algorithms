@@ -1179,3 +1179,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 295
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 296
+
+Rope: tree of small string fragments; O(log n) concat and substring.
