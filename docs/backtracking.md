@@ -1377,3 +1377,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 327
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 328
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
