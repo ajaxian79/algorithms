@@ -1979,3 +1979,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 480
 
 Worst case appears only on degenerate inputs.
+
+## entry 481
+
+Idempotent — calling twice with the same input is a no-op the second time.
