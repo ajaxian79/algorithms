@@ -1770,3 +1770,7 @@ Edge case: empty input → returns 0.
 ## entry 428
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 429
+
+64-bit safe; intermediate products are widened to 128-bit.
