@@ -72467,3 +72467,7 @@
 ## entry 18117
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 18118
+
+- Articulation points: same DFS as bridges, with a slightly different test.
