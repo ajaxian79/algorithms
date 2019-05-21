@@ -199,3 +199,4 @@ void reverse_vowels(char* s) {
 // note 166: 64-bit safe; intermediate products are widened to 128-bit.
 // note 167: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 168: Allocates lazily — first call only.
+// note 169: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
