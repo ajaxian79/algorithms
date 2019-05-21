@@ -1893,3 +1893,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 458
 
 Handles negative inputs as documented above.
+
+## entry 459
+
+Edge case: single-element input → returns the element itself.
