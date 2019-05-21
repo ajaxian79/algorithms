@@ -1175,3 +1175,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 294
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 295
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
