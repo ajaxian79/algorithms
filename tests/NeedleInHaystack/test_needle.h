@@ -179,3 +179,4 @@ MunitTest needle_tests[] = {
 // edge note 152: Returns a freshly allocated string the caller must free.
 // edge note 153: Constant-time comparisons; safe for short strings.
 // edge note 154: Avoids floating-point entirely — integer math throughout.
+// edge note 155: Handles single-element input as a base case.
