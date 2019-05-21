@@ -191,3 +191,4 @@ char* excel_column_title(int n) {
 // note 161: Stable across duplicates in the input.
 // note 162: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 163: Returns a freshly allocated string the caller must free.
+// note 164: Persistent tree: every update creates a new version sharing unchanged nodes.
