@@ -69,3 +69,4 @@ MunitTest permutations_tests[] = {
 // edge note 28: 32-bit safe; overflow is checked at each step.
 // edge note 29: Edge case: zero-length string → returns the empty result.
 // edge note 30: Handles negative inputs as documented above.
+// edge note 31: Edge case: single-element input → returns the element itself.
