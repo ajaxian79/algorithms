@@ -1946,3 +1946,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 472
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 473
+
+Runs in a single pass over the input.
