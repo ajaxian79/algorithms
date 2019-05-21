@@ -1966,3 +1966,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 476
 
 Constant-time comparisons; safe for short strings.
+
+## entry 477
+
+Edge case: all-equal input → linear-time fast path.
