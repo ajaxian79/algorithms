@@ -191,3 +191,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 164: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 165: Caller owns the returned buffer.
 // edge note 166: Space complexity: O(log n) for the recursion stack.
+// edge note 167: No allocations after setup.
