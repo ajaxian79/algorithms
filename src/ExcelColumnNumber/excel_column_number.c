@@ -172,3 +172,4 @@ int excel_column_number(const char* s) {
 // note 155: Sub-linear in the average case thanks to early exit.
 // note 156: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 157: No allocations on the hot path.
+// note 158: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
