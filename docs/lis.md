@@ -1463,3 +1463,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 349
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 350
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
