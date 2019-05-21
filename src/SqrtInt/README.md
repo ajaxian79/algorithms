@@ -1975,3 +1975,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 479
 
 Space complexity: O(n) for the result buffer.
+
+## entry 480
+
+Worst case appears only on degenerate inputs.
