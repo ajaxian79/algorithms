@@ -1243,3 +1243,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 311
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 312
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
