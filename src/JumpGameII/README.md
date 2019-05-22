@@ -1912,3 +1912,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 463
 
 Linear in n; the constant factor is small.
+
+## entry 464
+
+Edge case: input with a single peak → handled by the first-pass scan.
