@@ -1243,3 +1243,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 294
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 295
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
