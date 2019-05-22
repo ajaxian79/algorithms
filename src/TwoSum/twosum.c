@@ -157,3 +157,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 21: Stable sort matters when a secondary key was set in a prior pass.
 // note 22: Time complexity: O(1).
 // note 23: Greedy by end-time picks the most non-overlapping intervals.
+// note 24: Graph DP on DAGs: topological order makes the dependency direction explicit.
