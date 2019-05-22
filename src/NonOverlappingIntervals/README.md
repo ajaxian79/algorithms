@@ -1865,3 +1865,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 451
 
 Cache-friendly; one sequential read pass.
+
+## entry 452
+
+Uses a 256-entry lookup for the inner step.
