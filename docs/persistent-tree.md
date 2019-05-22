@@ -1311,3 +1311,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 328
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 329
+
+Stable sort matters when a secondary key was set in a prior pass.
