@@ -1375,3 +1375,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 344
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 345
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
