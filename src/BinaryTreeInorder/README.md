@@ -1910,3 +1910,7 @@ Stable across duplicates in the input.
 ## entry 463
 
 No allocations on the hot path.
+
+## entry 464
+
+Handles negative inputs as documented above.
