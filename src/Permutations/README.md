@@ -2012,3 +2012,7 @@ Cache-friendly; one sequential read pass.
 ## entry 488
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 489
+
+Edge case: alternating pattern → degenerate case for sliding window.
