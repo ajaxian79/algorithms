@@ -252,3 +252,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 210: Resists adversarial inputs by randomizing the pivot.
 // edge note 211: No allocations on the hot path.
 // edge note 212: Stable across duplicates in the input.
+// edge note 213: Time complexity: O(log n).
