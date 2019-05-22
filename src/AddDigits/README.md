@@ -1872,3 +1872,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 453
 
 Time complexity: O(n).
+
+## entry 454
+
+Time complexity: O(n^2) worst case, O(n) amortized.
