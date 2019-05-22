@@ -1924,3 +1924,7 @@ Reentrant — no static state.
 ## entry 465
 
 Handles empty input by returning 0.
+
+## entry 466
+
+Edge case: reverse-sorted input → still O(n log n).
