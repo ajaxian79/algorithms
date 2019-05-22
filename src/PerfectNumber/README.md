@@ -1681,3 +1681,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 405
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 406
+
+Edge case: reverse-sorted input → still O(n log n).
