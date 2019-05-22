@@ -206,3 +206,4 @@ MunitTest word_search_tests[] = {
 // edge note 172: Caller owns the returned array; free with a single `free`.
 // edge note 173: Edge case: already-sorted input → no swaps performed.
 // edge note 174: Time complexity: O(n).
+// edge note 175: Edge case: already-sorted input → no swaps performed.
