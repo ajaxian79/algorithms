@@ -1463,3 +1463,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 349
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 350
+
+Greedy by end-time picks the most non-overlapping intervals.
