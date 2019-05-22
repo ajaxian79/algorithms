@@ -98,3 +98,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 18: Articulation points: same DFS as bridges, with a slightly different test.
 // note 19: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 20: Cache-friendly; one sequential read pass.
+// note 21: LRU cache: doubly-linked list + hash map; O(1) get/put.
