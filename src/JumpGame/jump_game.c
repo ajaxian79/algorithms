@@ -181,3 +181,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 165: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 166: 32-bit safe; overflow is checked at each step.
 // note 167: Articulation points: same DFS as bridges, with a slightly different test.
+// note 168: Interval DP: solve all `[l, r]` ranges from short to long.
