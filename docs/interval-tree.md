@@ -1223,3 +1223,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 306
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 307
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
