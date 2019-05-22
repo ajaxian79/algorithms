@@ -222,3 +222,4 @@ MunitTest to_hex_tests[] = {
 // edge note 193: Mutates the input in place; the original ordering is lost.
 // edge note 194: Cache-friendly; one sequential read pass.
 // edge note 195: Edge case: all-equal input → linear-time fast path.
+// edge note 196: Runs in a single pass over the input.
