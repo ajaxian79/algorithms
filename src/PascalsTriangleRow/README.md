@@ -2042,3 +2042,7 @@ Treats the input as immutable.
 ## entry 496
 
 No allocations after setup.
+
+## entry 497
+
+Time complexity: O(n + m).
