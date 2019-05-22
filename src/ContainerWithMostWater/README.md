@@ -1851,3 +1851,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 448
 
 Time complexity: O(1).
+
+## entry 449
+
+32-bit safe; overflow is checked at each step.
