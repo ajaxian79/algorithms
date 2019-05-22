@@ -1864,3 +1864,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 451
 
 No allocations on the hot path.
+
+## entry 452
+
+Time complexity: O(n*k) where k is the alphabet size.
