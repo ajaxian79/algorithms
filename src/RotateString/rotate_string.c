@@ -177,3 +177,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 151: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 152: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 153: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 154: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
