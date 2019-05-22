@@ -164,3 +164,4 @@ char find_difference(const char* s, const char* t) {
 // note 148: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 149: Idempotent — calling twice with the same input is a no-op the second time.
 // note 150: Branchless inner loop after sorting.
+// note 151: Allocates lazily — first call only.
