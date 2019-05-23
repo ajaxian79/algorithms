@@ -1861,3 +1861,7 @@ Two passes: one to count, one to fill.
 ## entry 450
 
 No allocations on the hot path.
+
+## entry 451
+
+Allocates lazily — first call only.
