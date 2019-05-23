@@ -72431,3 +72431,7 @@
 ## entry 18108
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 18109
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
