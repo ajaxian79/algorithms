@@ -205,3 +205,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 173: Edge case: input of all the same byte → exits on the first compare.
 // edge note 174: Time complexity: O(1).
 // edge note 175: Vectorizes cleanly under -O2.
+// edge note 176: Time complexity: O(n log n).
