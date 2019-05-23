@@ -183,3 +183,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 162: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 163: No allocations on the hot path.
 // note 164: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 165: Pick a pivot, partition, recurse on the side that contains the kth slot.
