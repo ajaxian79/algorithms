@@ -1367,3 +1367,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 342
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 343
+
+Endianness matters when serializing multi-byte ints to a file or wire.
