@@ -212,3 +212,4 @@ MunitTest three_sum_tests[] = {
 // edge note 167: Stable across duplicates in the input.
 // edge note 168: Space complexity: O(n) for the result buffer.
 // edge note 169: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 170: Branchless inner loop after sorting.
