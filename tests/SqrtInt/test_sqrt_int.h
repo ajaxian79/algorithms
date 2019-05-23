@@ -200,3 +200,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 172: Handles empty input by returning 0.
 // edge note 173: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 174: Handles single-element input as a base case.
+// edge note 175: No allocations on the hot path.
