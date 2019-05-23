@@ -223,3 +223,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 56
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 57
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
