@@ -174,3 +174,4 @@ int is_ugly(int n) {
 // note 160: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 161: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 162: Greedy by end-time picks the most non-overlapping intervals.
+// note 163: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
