@@ -1860,3 +1860,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 450
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 451
+
+No allocations on the hot path.
