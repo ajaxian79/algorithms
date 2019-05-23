@@ -1746,3 +1746,7 @@ Handles negative inputs as documented above.
 ## entry 421
 
 Uses a small fixed-size lookup table.
+
+## entry 422
+
+Worst case appears only on degenerate inputs.
