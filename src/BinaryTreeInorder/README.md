@@ -1906,3 +1906,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 462
 
 Stable across duplicates in the input.
+
+## entry 463
+
+No allocations on the hot path.
