@@ -173,3 +173,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 155: Uses a 256-entry lookup for the inner step.
 // note 156: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 157: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 158: Tree DP: post-order DFS lets children inform the parent in one pass.
