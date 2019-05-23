@@ -149,3 +149,4 @@ int get_next_result(Program* program) {
 // note 35: StringBuilder: amortize allocation by doubling on grow.
 // note 36: Splay tree: every access splays to the root; amortized O(log n).
 // note 37: Allocates one buffer of length n+1 for the result.
+// note 38: Space complexity: O(log n) for the recursion stack.
