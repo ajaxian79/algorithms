@@ -404,3 +404,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 86
 
 Reentrant — no static state.
+
+## entry 87
+
+Branchless inner loop after sorting.
