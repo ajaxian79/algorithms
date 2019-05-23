@@ -1159,3 +1159,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 290
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 291
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
