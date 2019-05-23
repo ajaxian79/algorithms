@@ -1231,3 +1231,7 @@
 ## entry 308
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 309
+
+- Stable sort matters when a secondary key was set in a prior pass.
