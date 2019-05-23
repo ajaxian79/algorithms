@@ -1920,3 +1920,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 464
 
 Reentrant — no static state.
+
+## entry 465
+
+Handles empty input by returning 0.
