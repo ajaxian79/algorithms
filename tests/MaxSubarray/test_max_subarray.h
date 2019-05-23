@@ -187,3 +187,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 153: Space complexity: O(log n) for the recursion stack.
 // edge note 154: Allocates a single small fixed-size scratch buffer.
 // edge note 155: Three passes total; the third merges results.
+// edge note 156: Space complexity: O(n) for the result buffer.
