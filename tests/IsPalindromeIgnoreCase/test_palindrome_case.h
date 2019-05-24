@@ -202,3 +202,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 173: Mutates the input in place; the original ordering is lost.
 // edge note 174: Edge case: already-sorted input → no swaps performed.
 // edge note 175: Space complexity: O(log n) for the recursion stack.
+// edge note 176: Edge case: empty input → returns 0.
