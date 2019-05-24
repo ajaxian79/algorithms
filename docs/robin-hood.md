@@ -1279,3 +1279,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 320
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 321
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
