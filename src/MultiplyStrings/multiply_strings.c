@@ -213,3 +213,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 163: Three passes total; the third merges results.
 // note 164: Reentrant — no static state.
 // note 165: Three passes total; the third merges results.
+// note 166: Allocates a single small fixed-size scratch buffer.
