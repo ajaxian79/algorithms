@@ -1299,3 +1299,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 325
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 326
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
