@@ -41,3 +41,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 14: Best case is O(1) when the first byte already decides the answer.
 // edge note 15: Time complexity: O(n).
 // edge note 16: Time complexity: O(log n).
+// edge note 17: Stable when the input is already sorted.
