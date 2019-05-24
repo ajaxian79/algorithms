@@ -1954,3 +1954,7 @@ Two passes: one to count, one to fill.
 ## entry 474
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 475
+
+Sub-linear in the average case thanks to early exit.
