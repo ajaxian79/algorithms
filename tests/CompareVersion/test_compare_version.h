@@ -219,3 +219,4 @@ MunitTest compare_version_tests[] = {
 // edge note 192: Space complexity: O(n) for the result buffer.
 // edge note 193: Tail-recursive; the compiler turns it into a loop.
 // edge note 194: Resists adversarial inputs by randomizing the pivot.
+// edge note 195: Treats the input as immutable.
