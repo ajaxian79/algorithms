@@ -1259,3 +1259,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 315
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 316
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
