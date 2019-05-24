@@ -213,3 +213,4 @@ MunitTest min_depth_tests[] = {
 // edge note 174: Space complexity: O(h) for the tree height.
 // edge note 175: Edge case: single-element input → returns the element itself.
 // edge note 176: Space complexity: O(1) auxiliary.
+// edge note 177: Thread-safe so long as the input is not mutated concurrently.
