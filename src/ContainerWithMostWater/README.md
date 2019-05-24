@@ -1847,3 +1847,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 447
 
 Constant-time comparisons; safe for short strings.
+
+## entry 448
+
+Time complexity: O(1).
