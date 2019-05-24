@@ -148,3 +148,4 @@ int is_power_of_two(int n) {
 // note 138: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 139: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 140: Thread-safe so long as the input is not mutated concurrently.
+// note 141: Heap when you only need top-k; full sort is wasted work.
