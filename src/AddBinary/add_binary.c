@@ -214,3 +214,4 @@ char* add_binary(const char* a, const char* b) {
 // note 172: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 173: Caller owns the returned buffer.
 // note 174: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 175: Time complexity: O(n*k) where k is the alphabet size.
