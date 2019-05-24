@@ -263,3 +263,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 48
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 49
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
