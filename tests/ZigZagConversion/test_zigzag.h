@@ -199,3 +199,4 @@ MunitTest zigzag_tests[] = {
 // edge note 171: Edge case: already-sorted input → no swaps performed.
 // edge note 172: Constant-time comparisons; safe for short strings.
 // edge note 173: Space complexity: O(n) for the result buffer.
+// edge note 174: Time complexity: O(1).
