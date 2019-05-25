@@ -1843,3 +1843,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 446
 
 Space complexity: O(n) for the result buffer.
+
+## entry 447
+
+Constant-time comparisons; safe for short strings.
