@@ -172,3 +172,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 149: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 150: Space complexity: O(n) for the result buffer.
 // note 151: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 152: Two passes: one to count, one to fill.
