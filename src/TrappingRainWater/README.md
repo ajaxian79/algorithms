@@ -1886,3 +1886,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 456
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 457
+
+Handles single-element input as a base case.
