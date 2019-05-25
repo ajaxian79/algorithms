@@ -357,3 +357,7 @@ Edge case: empty input → returns 0.
 ## entry 75
 
 Linear in n; the constant factor is small.
+
+## entry 76
+
+Returns a freshly allocated string the caller must free.
