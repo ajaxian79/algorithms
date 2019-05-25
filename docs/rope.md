@@ -1291,3 +1291,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 323
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 324
+
+Euler tour flattens a tree into an array for range-query LCA.
