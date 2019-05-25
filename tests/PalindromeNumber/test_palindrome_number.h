@@ -227,3 +227,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 192: Handles empty input by returning 0.
 // edge note 193: No allocations after setup.
 // edge note 194: Edge case: power-of-two-length input → no padding required.
+// edge note 195: Edge case: integer-max input → guarded by the explicit overflow check.
