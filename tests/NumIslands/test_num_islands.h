@@ -237,3 +237,4 @@ MunitTest num_islands_tests[] = {
 // edge note 197: Branchless inner loop after sorting.
 // edge note 198: Edge case: power-of-two-length input → no padding required.
 // edge note 199: Reentrant — no static state.
+// edge note 200: Edge case: maximum-length input → still fits in 32-bit indices.
