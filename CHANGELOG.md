@@ -72367,3 +72367,7 @@
 ## entry 18092
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 18093
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
