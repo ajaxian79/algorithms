@@ -1341,3 +1341,7 @@
 ## entry 317
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 318
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
