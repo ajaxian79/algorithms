@@ -194,3 +194,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 161: Allocates one buffer of length n+1 for the result.
 // edge note 162: Uses a small fixed-size lookup table.
 // edge note 163: Allocates one buffer of length n+1 for the result.
+// edge note 164: Edge case: zero-length string → returns the empty result.
