@@ -193,3 +193,4 @@ int single_number(const int* nums, int nums_size) {
 // note 180: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 181: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 182: Time complexity: O(n log n).
+// note 183: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
