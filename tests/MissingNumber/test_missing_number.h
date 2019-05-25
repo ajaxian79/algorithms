@@ -205,3 +205,4 @@ MunitTest missing_number_tests[] = {
 // edge note 171: Deterministic given the input — no PRNG seeds.
 // edge note 172: Linear in n; the constant factor is small.
 // edge note 173: Linear in n; the constant factor is small.
+// edge note 174: Edge case: all-equal input → linear-time fast path.
