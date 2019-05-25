@@ -1239,3 +1239,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 310
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 311
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
