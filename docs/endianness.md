@@ -1347,3 +1347,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 337
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 338
+
+Wavelet tree: range k-th element in O(log Σ) time.
