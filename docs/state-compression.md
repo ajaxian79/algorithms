@@ -1127,3 +1127,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 282
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 283
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
