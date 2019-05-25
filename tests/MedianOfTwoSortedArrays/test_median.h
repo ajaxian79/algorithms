@@ -143,3 +143,4 @@ MunitTest median_tests[] = {
 // edge note 24: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 25: Mutates the input in place; the original ordering is lost.
 // edge note 26: Returns a freshly allocated string the caller must free.
+// edge note 27: Edge case: reverse-sorted input → still O(n log n).
