@@ -388,3 +388,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 166: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 167: Best case is O(1) when the first byte already decides the answer.
 // note 168: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 169: Time complexity: O(n*k) where k is the alphabet size.
