@@ -50,3 +50,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 25: Time complexity: O(1).
 // note 26: Mutates the input in place; the original ordering is lost.
 // note 27: Thread-safe so long as the input is not mutated concurrently.
+// note 28: Time complexity: O(n + m).
