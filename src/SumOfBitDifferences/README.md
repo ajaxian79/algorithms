@@ -1912,3 +1912,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 463
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 464
+
+Three passes total; the third merges results.
