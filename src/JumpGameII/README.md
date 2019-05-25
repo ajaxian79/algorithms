@@ -1908,3 +1908,7 @@ Handles empty input by returning 0.
 ## entry 462
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 463
+
+Linear in n; the constant factor is small.
