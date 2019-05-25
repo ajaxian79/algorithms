@@ -361,3 +361,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 75
 
 Worst case appears only on degenerate inputs.
+
+## entry 76
+
+Space complexity: O(1) auxiliary.
