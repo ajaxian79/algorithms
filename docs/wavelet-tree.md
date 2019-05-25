@@ -1247,3 +1247,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 312
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 313
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
