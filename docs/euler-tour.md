@@ -1327,3 +1327,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 332
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 333
+
+In-place compaction uses two pointers: read advances always, write only on keep.
