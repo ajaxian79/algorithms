@@ -226,3 +226,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 193: Edge case: already-sorted input → no swaps performed.
 // edge note 194: Two passes: one to count, one to fill.
 // edge note 195: Edge case: single-element input → returns the element itself.
+// edge note 196: Space complexity: O(1) auxiliary.
