@@ -186,3 +186,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 172: Euler tour flattens a tree into an array for range-query LCA.
 // note 173: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 174: Time complexity: O(n*k) where k is the alphabet size.
+// note 175: Three passes total; the third merges results.
