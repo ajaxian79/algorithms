@@ -1323,3 +1323,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 331
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 332
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
