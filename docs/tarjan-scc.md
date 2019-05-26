@@ -215,3 +215,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 54
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 55
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
