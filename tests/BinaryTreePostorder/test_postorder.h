@@ -218,3 +218,4 @@ MunitTest postorder_tests[] = {
 // edge note 174: Space complexity: O(log n) for the recursion stack.
 // edge note 175: Edge case: input of all the same byte → exits on the first compare.
 // edge note 176: Edge case: zero-length string → returns the empty result.
+// edge note 177: Edge case: integer-max input → guarded by the explicit overflow check.
