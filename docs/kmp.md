@@ -1309,3 +1309,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 311
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 312
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
