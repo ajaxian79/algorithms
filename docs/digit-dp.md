@@ -1243,3 +1243,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 311
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 312
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
