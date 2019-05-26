@@ -1207,3 +1207,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 302
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 303
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
