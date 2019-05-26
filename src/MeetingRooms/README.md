@@ -1842,3 +1842,7 @@ Branchless inner loop after sorting.
 ## entry 446
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 447
+
+64-bit safe; intermediate products are widened to 128-bit.
