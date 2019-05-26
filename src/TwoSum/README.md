@@ -393,3 +393,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 73
 
 Space complexity: O(1) auxiliary.
+
+## entry 74
+
+Thread-safe so long as the input is not mutated concurrently.
