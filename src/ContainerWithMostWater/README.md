@@ -1835,3 +1835,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 444
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 445
+
+Allocates one buffer of length n+1 for the result.
