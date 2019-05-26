@@ -1287,3 +1287,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 322
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 323
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
