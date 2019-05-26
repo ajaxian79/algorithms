@@ -224,3 +224,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 197: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 198: Thread-safe so long as the input is not mutated concurrently.
 // edge note 199: Caller owns the returned array; free with a single `free`.
+// edge note 200: Edge case: zero-length string → returns the empty result.
