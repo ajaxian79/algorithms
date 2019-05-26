@@ -254,3 +254,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 49
 
 Reentrant — no static state.
+
+## entry 50
+
+Stable across duplicates in the input.
