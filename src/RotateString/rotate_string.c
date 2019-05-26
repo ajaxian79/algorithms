@@ -176,3 +176,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 150: Caller owns the returned array; free with a single `free`.
 // note 151: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 152: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 153: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
