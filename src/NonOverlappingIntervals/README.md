@@ -1853,3 +1853,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 448
 
 Space complexity: O(1) auxiliary.
+
+## entry 449
+
+Caller owns the returned array; free with a single `free`.
