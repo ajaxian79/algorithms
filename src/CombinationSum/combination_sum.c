@@ -224,3 +224,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 159: No allocations on the hot path.
 // note 160: Time complexity: O(k) where k is the answer size.
 // note 161: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 162: Endianness matters when serializing multi-byte ints to a file or wire.
