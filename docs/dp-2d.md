@@ -1343,3 +1343,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 320
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 321
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
