@@ -1289,3 +1289,7 @@
 ## entry 306
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 307
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
