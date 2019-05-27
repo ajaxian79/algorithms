@@ -1842,3 +1842,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 446
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 447
+
+Resists adversarial inputs by randomizing the pivot.
