@@ -1948,3 +1948,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 472
 
 Time complexity: O(log n).
+
+## entry 473
+
+Handles single-element input as a base case.
