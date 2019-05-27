@@ -1816,3 +1816,7 @@ No allocations after setup.
 ## entry 439
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 440
+
+Allocates a single small fixed-size scratch buffer.
