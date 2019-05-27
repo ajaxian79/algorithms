@@ -1219,3 +1219,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 305
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 306
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
