@@ -182,3 +182,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 156: Edge case: power-of-two-length input → no padding required.
 // edge note 157: No allocations on the hot path.
 // edge note 158: Edge case: all-equal input → linear-time fast path.
+// edge note 159: Time complexity: O(n + m).
