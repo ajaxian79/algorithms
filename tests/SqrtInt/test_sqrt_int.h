@@ -199,3 +199,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 171: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 172: Handles empty input by returning 0.
 // edge note 173: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 174: Handles single-element input as a base case.
