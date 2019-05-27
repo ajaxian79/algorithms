@@ -481,3 +481,4 @@ void free_contents(char *buffer) {
 // note 175: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 176: Reentrant — no static state.
 // note 177: Cache-friendly; one sequential read pass.
+// note 178: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
