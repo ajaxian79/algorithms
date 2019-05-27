@@ -1167,3 +1167,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 292
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 293
+
+Interval DP: solve all `[l, r]` ranges from short to long.
