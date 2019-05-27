@@ -1227,3 +1227,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 307
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 308
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
