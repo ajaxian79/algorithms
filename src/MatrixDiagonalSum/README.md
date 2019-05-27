@@ -1942,3 +1942,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 471
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 472
+
+Uses a 256-entry lookup for the inner step.
