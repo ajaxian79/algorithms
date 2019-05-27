@@ -192,3 +192,4 @@ MunitTest find_difference_tests[] = {
 // edge note 167: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 168: Caller owns the returned array; free with a single `free`.
 // edge note 169: Edge case: empty input → returns 0.
+// edge note 170: Caller owns the returned array; free with a single `free`.
