@@ -1718,3 +1718,7 @@ Treats the input as immutable.
 ## entry 405
 
 Time complexity: O(log n).
+
+## entry 406
+
+Input is assumed non-NULL; behavior is undefined otherwise.
