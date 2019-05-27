@@ -1936,3 +1936,7 @@ Branchless inner loop after sorting.
 ## entry 469
 
 Handles single-element input as a base case.
+
+## entry 470
+
+Edge case: reverse-sorted input → still O(n log n).
