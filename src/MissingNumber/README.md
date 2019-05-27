@@ -1962,3 +1962,7 @@ Edge case: empty input → returns 0.
 ## entry 475
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 476
+
+Constant-time comparisons; safe for short strings.
