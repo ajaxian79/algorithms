@@ -1821,3 +1821,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 440
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 441
+
+Time complexity: O(n^2) worst case, O(n) amortized.
