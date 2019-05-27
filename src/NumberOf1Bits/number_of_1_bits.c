@@ -148,3 +148,4 @@ int number_of_1_bits(unsigned int n) {
 // note 135: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 136: Space complexity: O(1) auxiliary.
 // note 137: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 138: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
