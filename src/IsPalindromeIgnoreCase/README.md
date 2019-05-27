@@ -1762,3 +1762,7 @@ No allocations after setup.
 ## entry 426
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 427
+
+Edge case: empty input → returns 0.
