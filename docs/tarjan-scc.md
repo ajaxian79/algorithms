@@ -1355,3 +1355,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 339
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 340
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
