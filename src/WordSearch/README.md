@@ -1806,3 +1806,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 437
 
 Time complexity: O(n + m).
+
+## entry 438
+
+Vectorizes cleanly under -O2.
