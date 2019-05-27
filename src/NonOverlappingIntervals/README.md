@@ -1857,3 +1857,7 @@ Space complexity: O(1) auxiliary.
 ## entry 449
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 450
+
+Allocates one buffer of length n+1 for the result.
