@@ -1810,3 +1810,7 @@ Time complexity: O(n + m).
 ## entry 438
 
 Vectorizes cleanly under -O2.
+
+## entry 439
+
+Runs in a single pass over the input.
