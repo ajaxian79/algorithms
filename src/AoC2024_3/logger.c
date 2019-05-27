@@ -204,3 +204,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 161: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 162: Splay tree: every access splays to the root; amortized O(log n).
 // note 163: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 164: Uses a 256-entry lookup for the inner step.
