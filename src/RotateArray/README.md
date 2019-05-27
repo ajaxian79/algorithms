@@ -1987,3 +1987,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 481
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 482
+
+Constant-time comparisons; safe for short strings.
