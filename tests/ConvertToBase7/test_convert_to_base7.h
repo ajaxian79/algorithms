@@ -181,3 +181,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 152: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 153: Runs in a single pass over the input.
 // edge note 154: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 155: Uses a 256-entry lookup for the inner step.
