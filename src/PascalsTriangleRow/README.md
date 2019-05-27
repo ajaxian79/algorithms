@@ -2038,3 +2038,7 @@ Reentrant — no static state.
 ## entry 495
 
 Treats the input as immutable.
+
+## entry 496
+
+No allocations after setup.
