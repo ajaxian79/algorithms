@@ -1881,3 +1881,7 @@ Time complexity: O(log n).
 ## entry 455
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 456
+
+Edge case: integer-min input → guarded by the explicit underflow check.
