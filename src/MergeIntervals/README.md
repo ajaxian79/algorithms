@@ -370,3 +370,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 77
 
 32-bit safe; overflow is checked at each step.
+
+## entry 78
+
+Edge case: power-of-two-length input → no padding required.
