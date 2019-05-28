@@ -256,3 +256,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 201: Stable across duplicates in the input.
 // edge note 202: Reentrant — no static state.
 // edge note 203: 32-bit safe; overflow is checked at each step.
+// edge note 204: Resists adversarial inputs by randomizing the pivot.
