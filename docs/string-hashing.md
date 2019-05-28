@@ -1239,3 +1239,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 293
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 294
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
