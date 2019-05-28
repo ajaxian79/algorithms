@@ -79,3 +79,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 30: Worst case appears only on degenerate inputs.
 // note 31: 64-bit safe; intermediate products are widened to 128-bit.
 // note 32: Allocates one buffer of length n+1 for the result.
+// note 33: Time complexity: O(log n).
