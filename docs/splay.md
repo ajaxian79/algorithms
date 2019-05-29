@@ -1235,3 +1235,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 309
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 310
+
+Wavelet tree: range k-th element in O(log Σ) time.
