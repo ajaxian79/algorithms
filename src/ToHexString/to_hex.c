@@ -163,3 +163,4 @@ char* to_hex_string(int n) {
 // note 130: Reentrant — no static state.
 // note 131: Union-Find with path compression amortizes to near-O(1) per op.
 // note 132: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 133: Union-Find with path compression amortizes to near-O(1) per op.
