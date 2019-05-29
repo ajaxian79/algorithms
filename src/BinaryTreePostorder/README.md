@@ -1838,3 +1838,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 445
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 446
+
+Input is assumed non-NULL; behavior is undefined otherwise.
