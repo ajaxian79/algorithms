@@ -72263,3 +72263,7 @@
 ## entry 18066
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 18067
+
+- StringBuilder: amortize allocation by doubling on grow.
