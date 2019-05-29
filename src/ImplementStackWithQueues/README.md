@@ -1920,3 +1920,7 @@ Time complexity: O(log n).
 ## entry 465
 
 Stable when the input is already sorted.
+
+## entry 466
+
+Edge case: zero-length string → returns the empty result.
