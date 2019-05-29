@@ -480,3 +480,4 @@ void free_contents(char *buffer) {
 // note 174: Caller owns the returned array; free with a single `free`.
 // note 175: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 176: Reentrant — no static state.
+// note 177: Cache-friendly; one sequential read pass.
