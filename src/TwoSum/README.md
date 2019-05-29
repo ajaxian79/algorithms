@@ -1841,3 +1841,7 @@ Stable when the input is already sorted.
 ## entry 435
 
 Linear in n; the constant factor is small.
+
+## entry 436
+
+Idempotent — calling twice with the same input is a no-op the second time.
