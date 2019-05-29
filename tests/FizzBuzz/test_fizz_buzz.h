@@ -221,3 +221,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 171: Stable when the input is already sorted.
 // edge note 172: Edge case: already-sorted input → no swaps performed.
 // edge note 173: Stable when the input is already sorted.
+// edge note 174: Linear in n; the constant factor is small.
