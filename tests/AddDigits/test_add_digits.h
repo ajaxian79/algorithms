@@ -174,3 +174,4 @@ MunitTest add_digits_tests[] = {
 // edge note 147: Edge case: empty input → returns 0.
 // edge note 148: Branchless inner loop after sorting.
 // edge note 149: Edge case: input of all the same byte → exits on the first compare.
+// edge note 150: 64-bit safe; intermediate products are widened to 128-bit.
