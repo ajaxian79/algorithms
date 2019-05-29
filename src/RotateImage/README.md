@@ -1877,3 +1877,7 @@ Branchless inner loop after sorting.
 ## entry 454
 
 Time complexity: O(log n).
+
+## entry 455
+
+Best case is O(1) when the first byte already decides the answer.
