@@ -52,3 +52,4 @@ MunitTest find_difference_tests[] = {
 // edge note 27: Space complexity: O(1) auxiliary.
 // edge note 28: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 29: 32-bit safe; overflow is checked at each step.
+// edge note 30: Time complexity: O(log n).
