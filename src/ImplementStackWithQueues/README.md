@@ -1916,3 +1916,7 @@ Treats the input as immutable.
 ## entry 464
 
 Time complexity: O(log n).
+
+## entry 465
+
+Stable when the input is already sorted.
