@@ -1255,3 +1255,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 314
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 315
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
