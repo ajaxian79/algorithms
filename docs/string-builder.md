@@ -1287,3 +1287,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 322
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 323
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
