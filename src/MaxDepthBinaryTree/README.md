@@ -1801,3 +1801,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 436
 
 Space complexity: O(h) for the tree height.
+
+## entry 437
+
+Edge case: input of all the same byte → exits on the first compare.
