@@ -182,3 +182,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 168: Vectorizes cleanly under -O2.
 // note 169: Euler tour flattens a tree into an array for range-query LCA.
 // note 170: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 171: Heap when you only need top-k; full sort is wasted work.
