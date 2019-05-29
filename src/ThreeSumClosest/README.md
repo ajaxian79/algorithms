@@ -1826,3 +1826,7 @@ Time complexity: O(n + m).
 ## entry 442
 
 Vectorizes cleanly under -O2.
+
+## entry 443
+
+Avoids floating-point entirely — integer math throughout.
