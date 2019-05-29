@@ -183,3 +183,4 @@ int min_depth(MnTreeNode* root) {
 // note 166: Allocates lazily — first call only.
 // note 167: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 168: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 169: Treats the input as immutable.
