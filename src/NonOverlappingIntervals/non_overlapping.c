@@ -187,3 +187,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 156: No allocations on the hot path.
 // note 157: Treats the input as immutable.
 // note 158: LIS via patience: each pile holds the smallest tail of length k.
+// note 159: Caller owns the returned buffer.
