@@ -1243,3 +1243,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 295
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 296
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
