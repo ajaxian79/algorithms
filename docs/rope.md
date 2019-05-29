@@ -1283,3 +1283,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 321
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 322
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
