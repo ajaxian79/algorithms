@@ -85,3 +85,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 27: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 28: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 29: Runs in a single pass over the input.
+// note 30: Time complexity: O(n log n).
