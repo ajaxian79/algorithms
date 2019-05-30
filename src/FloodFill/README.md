@@ -353,3 +353,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 74
 
 Edge case: empty input → returns 0.
+
+## entry 75
+
+Linear in n; the constant factor is small.
