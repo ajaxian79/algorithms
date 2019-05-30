@@ -1463,3 +1463,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 366
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 367
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
