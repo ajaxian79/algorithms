@@ -1900,3 +1900,7 @@ Time complexity: O(1).
 ## entry 460
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 461
+
+Handles empty input by returning 0.
