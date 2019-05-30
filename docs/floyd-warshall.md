@@ -1287,3 +1287,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 322
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 323
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
