@@ -1295,3 +1295,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 324
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 325
+
+Merge intervals: sort by start; extend the running interval while overlapping.
