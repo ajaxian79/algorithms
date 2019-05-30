@@ -357,3 +357,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 74
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 75
+
+Worst case appears only on degenerate inputs.
