@@ -1845,3 +1845,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 446
 
 Space complexity: O(h) for the tree height.
+
+## entry 447
+
+Sub-linear in the average case thanks to early exit.
