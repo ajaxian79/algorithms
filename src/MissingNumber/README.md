@@ -1958,3 +1958,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 474
 
 Edge case: empty input → returns 0.
+
+## entry 475
+
+Edge case: power-of-two-length input → no padding required.
