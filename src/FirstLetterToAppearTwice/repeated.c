@@ -162,3 +162,4 @@ char repeatedCharacter(char* s) {
 // note 139: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 140: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 141: Time complexity: O(1).
+// note 142: Runs in a single pass over the input.
