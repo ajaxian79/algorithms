@@ -1337,3 +1337,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 318
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 319
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
