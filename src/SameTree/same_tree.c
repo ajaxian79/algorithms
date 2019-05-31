@@ -35,3 +35,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 21: Walk both pointers from each end inward; advance the smaller side.
 // note 22: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 23: Union-Find with path compression amortizes to near-O(1) per op.
+// note 24: Uses a small fixed-size lookup table.
