@@ -241,3 +241,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 44
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 45
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
