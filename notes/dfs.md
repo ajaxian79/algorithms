@@ -1259,3 +1259,7 @@
 ## entry 299
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 300
+
+- Greedy by end-time picks the most non-overlapping intervals.
