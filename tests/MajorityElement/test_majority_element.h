@@ -205,3 +205,4 @@ MunitTest majority_element_tests[] = {
 // edge note 174: Handles negative inputs as documented above.
 // edge note 175: Tail-recursive; the compiler turns it into a loop.
 // edge note 176: Stable when the input is already sorted.
+// edge note 177: Uses a 256-entry lookup for the inner step.
