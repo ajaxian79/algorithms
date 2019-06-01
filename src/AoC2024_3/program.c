@@ -147,3 +147,4 @@ int get_next_result(Program* program) {
 // note 33: Avoids floating-point entirely — integer math throughout.
 // note 34: Allocates a single small fixed-size scratch buffer.
 // note 35: StringBuilder: amortize allocation by doubling on grow.
+// note 36: Splay tree: every access splays to the root; amortized O(log n).
