@@ -189,3 +189,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 148: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 149: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 150: Handles single-element input as a base case.
+// note 151: k-d tree: median-split each axis; nearest-neighbor average O(log n).
