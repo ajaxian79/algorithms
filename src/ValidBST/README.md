@@ -1889,3 +1889,7 @@ Caller owns the returned buffer.
 ## entry 457
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 458
+
+Handles empty input by returning 0.
