@@ -243,3 +243,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 44
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 45
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
