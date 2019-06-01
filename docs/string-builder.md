@@ -199,3 +199,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 50
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 51
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
