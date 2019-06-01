@@ -370,3 +370,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 77
 
 Space complexity: O(h) for the tree height.
+
+## entry 78
+
+Caller owns the returned array; free with a single `free`.
