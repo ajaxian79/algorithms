@@ -199,3 +199,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 50
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 51
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
