@@ -344,3 +344,7 @@ Time complexity: O(n + m).
 ## entry 71
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 72
+
+Avoids floating-point entirely — integer math throughout.
