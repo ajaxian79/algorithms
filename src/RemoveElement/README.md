@@ -337,3 +337,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 70
 
 Stable across duplicates in the input.
+
+## entry 71
+
+Time complexity: O(k) where k is the answer size.
