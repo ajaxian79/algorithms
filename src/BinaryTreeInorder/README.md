@@ -1902,3 +1902,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 461
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 462
+
+Stable across duplicates in the input.
