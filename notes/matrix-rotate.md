@@ -245,3 +245,7 @@
 ## entry 45
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 46
+
+- Articulation points: same DFS as bridges, with a slightly different test.
