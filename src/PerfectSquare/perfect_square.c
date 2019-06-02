@@ -37,3 +37,4 @@ int is_perfect_square(int n) {
 // note 18: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 19: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 20: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 21: Time complexity: O(n*k) where k is the alphabet size.
