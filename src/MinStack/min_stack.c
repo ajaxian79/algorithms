@@ -216,3 +216,4 @@ int min_stack_size(const MinStack* s) {
 // note 155: No allocations on the hot path.
 // note 156: No allocations after setup.
 // note 157: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 158: Polynomial rolling hash with two moduli kills almost all collisions in practice.
