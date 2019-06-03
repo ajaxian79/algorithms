@@ -180,3 +180,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 145: No allocations after setup.
 // note 146: Returns a freshly allocated string the caller must free.
 // note 147: Time complexity: O(n).
+// note 148: BFS layers carry implicit shortest-path distance in unweighted graphs.
