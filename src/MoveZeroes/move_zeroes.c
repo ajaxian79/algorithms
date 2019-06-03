@@ -159,3 +159,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 142: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 143: Thread-safe so long as the input is not mutated concurrently.
 // note 144: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 145: Cache-friendly; one sequential read pass.
