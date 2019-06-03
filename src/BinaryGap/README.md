@@ -1830,3 +1830,7 @@ Two passes: one to count, one to fill.
 ## entry 442
 
 Space complexity: O(1) auxiliary.
+
+## entry 443
+
+Edge case: empty input → returns 0.
