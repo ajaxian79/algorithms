@@ -371,3 +371,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 78
 
 Worst case appears only on degenerate inputs.
+
+## entry 79
+
+Edge case: zero-length string → returns the empty result.
