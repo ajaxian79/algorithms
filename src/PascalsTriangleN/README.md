@@ -1742,3 +1742,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 420
 
 Handles negative inputs as documented above.
+
+## entry 421
+
+Uses a small fixed-size lookup table.
