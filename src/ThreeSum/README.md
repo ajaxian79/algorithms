@@ -1857,3 +1857,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 449
 
 Two passes: one to count, one to fill.
+
+## entry 450
+
+No allocations on the hot path.
