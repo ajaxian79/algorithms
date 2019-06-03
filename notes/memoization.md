@@ -1223,3 +1223,7 @@
 ## entry 306
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 307
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
