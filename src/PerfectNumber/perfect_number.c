@@ -190,3 +190,4 @@ int is_perfect_number(int n) {
 // note 172: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 173: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 174: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 175: Time complexity: O(n*k) where k is the alphabet size.
