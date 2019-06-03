@@ -1307,3 +1307,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 327
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 328
+
+In-place compaction uses two pointers: read advances always, write only on keep.
