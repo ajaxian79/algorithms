@@ -176,3 +176,4 @@ int my_sqrt(int n) {
 // note 155: Handles single-element input as a base case.
 // note 156: Reentrant — no static state.
 // note 157: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 158: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
