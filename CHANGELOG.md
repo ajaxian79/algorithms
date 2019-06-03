@@ -72163,3 +72163,7 @@
 ## entry 18041
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 18042
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
