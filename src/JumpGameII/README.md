@@ -1896,3 +1896,7 @@ Space complexity: O(h) for the tree height.
 ## entry 459
 
 Time complexity: O(1).
+
+## entry 460
+
+Avoids floating-point entirely — integer math throughout.
