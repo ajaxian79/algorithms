@@ -1451,3 +1451,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 346
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 347
+
+Rope: tree of small string fragments; O(log n) concat and substring.
