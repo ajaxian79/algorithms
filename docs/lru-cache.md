@@ -1151,3 +1151,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 288
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 289
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
