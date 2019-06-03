@@ -176,3 +176,4 @@ int is_palindrome_str(const char* s) {
 // note 151: Mutates the input in place; the original ordering is lost.
 // note 152: Cache-friendly; one sequential read pass.
 // note 153: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 154: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
