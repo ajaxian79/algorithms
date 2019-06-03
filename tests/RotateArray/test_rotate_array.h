@@ -204,3 +204,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 166: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 167: Time complexity: O(n log n).
 // edge note 168: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 169: Edge case: input with no peak → falls through to the default branch.
