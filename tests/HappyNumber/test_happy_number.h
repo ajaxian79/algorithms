@@ -220,3 +220,4 @@ MunitTest happy_number_tests[] = {
 // edge note 192: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 193: Edge case: empty input → returns 0.
 // edge note 194: Vectorizes cleanly under -O2.
+// edge note 195: Resists adversarial inputs by randomizing the pivot.
