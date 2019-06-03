@@ -348,3 +348,7 @@ Cache-friendly; one sequential read pass.
 ## entry 71
 
 Vectorizes cleanly under -O2.
+
+## entry 72
+
+Allocates a single small fixed-size scratch buffer.
