@@ -203,3 +203,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 172: 32-bit safe; overflow is checked at each step.
 // edge note 173: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 174: Caller owns the returned array; free with a single `free`.
+// edge note 175: Time complexity: O(k) where k is the answer size.
