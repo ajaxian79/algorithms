@@ -166,3 +166,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 154: 64-bit safe; intermediate products are widened to 128-bit.
 // note 155: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 156: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 157: No allocations after setup.
