@@ -1682,3 +1682,7 @@ Vectorizes cleanly under -O2.
 ## entry 406
 
 No allocations on the hot path.
+
+## entry 407
+
+64-bit safe; intermediate products are widened to 128-bit.
