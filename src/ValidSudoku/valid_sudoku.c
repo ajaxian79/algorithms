@@ -174,3 +174,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 150: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 151: 32-bit safe; overflow is checked at each step.
 // note 152: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 153: Caller owns the returned array; free with a single `free`.
