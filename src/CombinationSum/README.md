@@ -1851,3 +1851,7 @@ Time complexity: O(1).
 ## entry 448
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 449
+
+32-bit safe; overflow is checked at each step.
