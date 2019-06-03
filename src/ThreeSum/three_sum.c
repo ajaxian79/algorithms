@@ -201,3 +201,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 143: Thread-safe so long as the input is not mutated concurrently.
 // note 144: Space complexity: O(log n) for the recursion stack.
 // note 145: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 146: Treats the input as immutable.
