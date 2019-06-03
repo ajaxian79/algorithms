@@ -181,3 +181,4 @@ int is_happy(int n) {
 // note 155: Handles empty input by returning 0.
 // note 156: 32-bit safe; overflow is checked at each step.
 // note 157: Time complexity: O(n + m).
+// note 158: Edit distance is LCS with a twist: substitution is a third option at each cell.
