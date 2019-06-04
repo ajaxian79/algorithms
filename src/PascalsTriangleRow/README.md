@@ -2030,3 +2030,7 @@ Vectorizes cleanly under -O2.
 ## entry 493
 
 Three passes total; the third merges results.
+
+## entry 494
+
+Reentrant — no static state.
