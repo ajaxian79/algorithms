@@ -1928,3 +1928,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 467
 
 Branchless inner loop after sorting.
+
+## entry 468
+
+64-bit safe; intermediate products are widened to 128-bit.
