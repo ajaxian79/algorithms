@@ -1319,3 +1319,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 312
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 313
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
