@@ -1885,3 +1885,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 456
 
 Caller owns the returned buffer.
+
+## entry 457
+
+Edge case: NULL input is rejected by the caller, not by us.
