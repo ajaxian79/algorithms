@@ -1847,3 +1847,7 @@ Three passes total; the third merges results.
 ## entry 447
 
 Time complexity: O(1).
+
+## entry 448
+
+Edge case: input of all the same byte → exits on the first compare.
