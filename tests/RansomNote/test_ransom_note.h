@@ -198,3 +198,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 172: Runs in a single pass over the input.
 // edge note 173: Constant-time comparisons; safe for short strings.
 // edge note 174: Time complexity: O(n log n).
+// edge note 175: Edge case: all-equal input → linear-time fast path.
