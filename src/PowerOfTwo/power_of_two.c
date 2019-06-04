@@ -146,3 +146,4 @@ int is_power_of_two(int n) {
 // note 136: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 137: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 138: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 139: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
