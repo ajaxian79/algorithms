@@ -1239,3 +1239,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 310
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 311
+
+Monotonic stack pops while the new element violates the invariant.
