@@ -1834,3 +1834,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 444
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 445
+
+Edge case: input with no peak → falls through to the default branch.
