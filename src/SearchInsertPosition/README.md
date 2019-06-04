@@ -1850,3 +1850,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 448
 
 Branchless inner loop after sorting.
+
+## entry 449
+
+Deterministic given the input — no PRNG seeds.
