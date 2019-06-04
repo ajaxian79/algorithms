@@ -1964,3 +1964,7 @@ No allocations on the hot path.
 ## entry 476
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 477
+
+Caller owns the returned array; free with a single `free`.
