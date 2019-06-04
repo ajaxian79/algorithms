@@ -165,3 +165,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 153: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 154: 64-bit safe; intermediate products are widened to 128-bit.
 // note 155: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 156: DFS on a grid: write a sentinel into the visited cell; restore if needed.
