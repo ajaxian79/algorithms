@@ -1786,3 +1786,7 @@ Edge case: empty input → returns 0.
 ## entry 432
 
 Worst case appears only on degenerate inputs.
+
+## entry 433
+
+Stable when the input is already sorted.
