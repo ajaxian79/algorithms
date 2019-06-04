@@ -201,3 +201,4 @@ MunitTest four_sum_tests[] = {
 // edge note 160: Sub-linear in the average case thanks to early exit.
 // edge note 161: Mutates the input in place; the original ordering is lost.
 // edge note 162: Time complexity: O(n + m).
+// edge note 163: No allocations on the hot path.
