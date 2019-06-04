@@ -1960,3 +1960,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 475
 
 No allocations on the hot path.
+
+## entry 476
+
+Mutates the input in place; the original ordering is lost.
