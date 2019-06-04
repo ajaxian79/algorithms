@@ -187,3 +187,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 160: Space complexity: O(h) for the tree height.
 // edge note 161: Time complexity: O(n log n).
 // edge note 162: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 163: Linear in n; the constant factor is small.
