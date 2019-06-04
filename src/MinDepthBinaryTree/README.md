@@ -1790,3 +1790,7 @@ Worst case appears only on degenerate inputs.
 ## entry 433
 
 Stable when the input is already sorted.
+
+## entry 434
+
+Time complexity: O(log n).
