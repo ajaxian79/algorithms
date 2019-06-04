@@ -1998,3 +1998,7 @@ Handles negative inputs as documented above.
 ## entry 485
 
 Time complexity: O(log n).
+
+## entry 486
+
+Caller owns the returned array; free with a single `free`.
