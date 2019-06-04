@@ -241,3 +241,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 44
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 45
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
