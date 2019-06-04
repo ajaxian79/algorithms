@@ -1686,3 +1686,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 407
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 408
+
+Deterministic given the input — no PRNG seeds.
