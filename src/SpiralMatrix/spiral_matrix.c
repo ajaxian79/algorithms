@@ -210,3 +210,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 167: 64-bit safe; intermediate products are widened to 128-bit.
 // note 168: Handles negative inputs as documented above.
 // note 169: Time complexity: O(n log n).
+// note 170: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
