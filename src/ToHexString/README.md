@@ -311,3 +311,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 63
 
 Time complexity: O(n + m).
+
+## entry 64
+
+Runs in a single pass over the input.
