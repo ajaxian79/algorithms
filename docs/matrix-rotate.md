@@ -1305,3 +1305,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 310
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 311
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
