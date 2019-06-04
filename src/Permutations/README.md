@@ -2000,3 +2000,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 485
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 486
+
+Edge case: power-of-two-length input → no padding required.
