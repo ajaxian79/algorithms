@@ -1838,3 +1838,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 444
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 445
+
+Allocates one buffer of length n+1 for the result.
