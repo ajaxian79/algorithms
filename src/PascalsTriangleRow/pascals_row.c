@@ -195,3 +195,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 165: Uses a small fixed-size lookup table.
 // note 166: Time complexity: O(n + m).
 // note 167: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 168: Polynomial rolling hash with two moduli kills almost all collisions in practice.
