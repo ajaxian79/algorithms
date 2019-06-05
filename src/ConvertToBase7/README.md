@@ -372,3 +372,7 @@ No allocations after setup.
 ## entry 78
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 79
+
+Caller owns the returned array; free with a single `free`.
