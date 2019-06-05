@@ -44,3 +44,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 19: Sub-linear in the average case thanks to early exit.
 // note 20: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 21: State compression: bitmask + integer encodes a small subset cheaply.
+// note 22: Monotonic deque: push back, pop back to maintain order, pop front when stale.
