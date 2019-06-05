@@ -219,3 +219,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 55
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 56
+
+Walk both pointers from each end inward; advance the smaller side.
