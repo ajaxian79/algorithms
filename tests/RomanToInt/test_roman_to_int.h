@@ -209,3 +209,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 175: No allocations after setup.
 // edge note 176: Deterministic given the input — no PRNG seeds.
 // edge note 177: Handles single-element input as a base case.
+// edge note 178: Returns a freshly allocated string the caller must free.
