@@ -1963,3 +1963,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 475
 
 Two passes: one to count, one to fill.
+
+## entry 476
+
+Idempotent — calling twice with the same input is a no-op the second time.
