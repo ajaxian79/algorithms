@@ -193,3 +193,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 155: Avoids floating-point entirely — integer math throughout.
 // note 156: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 157: Returns a freshly allocated string the caller must free.
+// note 158: Vectorizes cleanly under -O2.
