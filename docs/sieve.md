@@ -1415,3 +1415,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 337
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 338
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
