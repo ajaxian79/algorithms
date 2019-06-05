@@ -211,3 +211,4 @@ char* int_to_roman(int n) {
 // note 174: Best case is O(1) when the first byte already decides the answer.
 // note 175: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 176: StringBuilder: amortize allocation by doubling on grow.
+// note 177: Persistent tree: every update creates a new version sharing unchanged nodes.
