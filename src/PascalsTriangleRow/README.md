@@ -2026,3 +2026,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 492
 
 Vectorizes cleanly under -O2.
+
+## entry 493
+
+Three passes total; the third merges results.
