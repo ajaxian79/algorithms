@@ -1856,3 +1856,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 449
 
 Constant-time comparisons; safe for short strings.
+
+## entry 450
+
+Edge case: maximum-length input → still fits in 32-bit indices.
