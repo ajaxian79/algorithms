@@ -1962,3 +1962,7 @@ Runs in a single pass over the input.
 ## entry 475
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 476
+
+Edge case: empty input → returns 0.
