@@ -1912,3 +1912,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 462
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 463
+
+Time complexity: O(n*k) where k is the alphabet size.
