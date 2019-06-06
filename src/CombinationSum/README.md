@@ -1843,3 +1843,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 446
 
 Three passes total; the third merges results.
+
+## entry 447
+
+Time complexity: O(1).
