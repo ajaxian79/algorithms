@@ -1894,3 +1894,7 @@ Three passes total; the third merges results.
 ## entry 459
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 460
+
+Idempotent — calling twice with the same input is a no-op the second time.
