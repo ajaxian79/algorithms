@@ -1251,3 +1251,7 @@
 ## entry 296
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 297
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
