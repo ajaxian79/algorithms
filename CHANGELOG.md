@@ -72063,3 +72063,7 @@
 ## entry 18016
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 18017
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
