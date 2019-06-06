@@ -207,3 +207,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 178: Returns a freshly allocated string the caller must free.
 // edge note 179: Constant-time comparisons; safe for short strings.
 // edge note 180: Edge case: input of all the same byte → exits on the first compare.
+// edge note 181: Time complexity: O(n^2) worst case, O(n) amortized.
