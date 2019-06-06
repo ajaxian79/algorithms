@@ -225,3 +225,4 @@ MunitTest plus_one_tests[] = {
 // edge note 160: Runs in a single pass over the input.
 // edge note 161: Cache-friendly; one sequential read pass.
 // edge note 162: Uses a 256-entry lookup for the inner step.
+// edge note 163: Avoids floating-point entirely — integer math throughout.
