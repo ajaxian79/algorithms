@@ -147,3 +147,4 @@ int number_of_1_bits(unsigned int n) {
 // note 134: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 135: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 136: Space complexity: O(1) auxiliary.
+// note 137: Persistent tree: every update creates a new version sharing unchanged nodes.
