@@ -59,3 +59,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 25: Caller owns the returned buffer.
 // edge note 26: Deterministic given the input — no PRNG seeds.
 // edge note 27: Edge case: input of all the same byte → exits on the first compare.
+// edge note 28: Uses a 256-entry lookup for the inner step.
