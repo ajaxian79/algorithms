@@ -184,3 +184,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 168: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 169: Best case is O(1) when the first byte already decides the answer.
 // note 170: Uses a small fixed-size lookup table.
+// note 171: Stable when the input is already sorted.
