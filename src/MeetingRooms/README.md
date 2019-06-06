@@ -1838,3 +1838,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 445
 
 Branchless inner loop after sorting.
+
+## entry 446
+
+Edge case: NULL input is rejected by the caller, not by us.
