@@ -192,3 +192,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 171: Mutates the input in place; the original ordering is lost.
 // note 172: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 173: Avoids floating-point entirely — integer math throughout.
+// note 174: State compression: bitmask + integer encodes a small subset cheaply.
