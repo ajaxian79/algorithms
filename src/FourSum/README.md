@@ -1804,3 +1804,7 @@ Time complexity: O(n log n).
 ## entry 436
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 437
+
+Time complexity: O(1).
