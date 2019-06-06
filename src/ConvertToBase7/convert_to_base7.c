@@ -182,3 +182,4 @@ char* convert_to_base7(int n) {
 // note 149: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 150: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 151: Splay tree: every access splays to the root; amortized O(log n).
+// note 152: Runs in a single pass over the input.
