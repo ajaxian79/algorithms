@@ -186,3 +186,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 154: Wavelet tree: range k-th element in O(log Σ) time.
 // note 155: Greedy by end-time picks the most non-overlapping intervals.
 // note 156: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 157: Allocates a single small fixed-size scratch buffer.
