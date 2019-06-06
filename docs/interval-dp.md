@@ -1299,3 +1299,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 325
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 326
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
