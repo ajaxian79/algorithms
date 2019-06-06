@@ -1669,3 +1669,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 402
 
 Time complexity: O(log n).
+
+## entry 403
+
+Caller owns the returned array; free with a single `free`.
