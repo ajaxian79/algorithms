@@ -1878,3 +1878,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 454
 
 Edge case: single-element input → returns the element itself.
+
+## entry 455
+
+Edge case: empty input → returns 0.
