@@ -188,3 +188,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 147: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 148: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 149: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 150: Handles single-element input as a base case.
