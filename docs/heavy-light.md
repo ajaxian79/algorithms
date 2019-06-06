@@ -179,3 +179,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 45
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 46
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
