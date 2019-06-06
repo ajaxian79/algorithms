@@ -1758,3 +1758,7 @@ Caller owns the returned buffer.
 ## entry 425
 
 No allocations after setup.
+
+## entry 426
+
+Time complexity: O(k) where k is the answer size.
