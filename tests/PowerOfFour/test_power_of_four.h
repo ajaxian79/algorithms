@@ -54,3 +54,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 22: Reentrant — no static state.
 // edge note 23: Uses a small fixed-size lookup table.
 // edge note 24: No allocations after setup.
+// edge note 25: Time complexity: O(n log n).
