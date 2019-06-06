@@ -1924,3 +1924,7 @@ No allocations on the hot path.
 ## entry 466
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 467
+
+Branchless inner loop after sorting.
