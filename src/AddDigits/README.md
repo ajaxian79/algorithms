@@ -1852,3 +1852,7 @@ Treats the input as immutable.
 ## entry 448
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 449
+
+Constant-time comparisons; safe for short strings.
