@@ -214,3 +214,4 @@ MunitTest add_strings_tests[] = {
 // edge note 178: Edge case: empty input → returns 0.
 // edge note 179: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 180: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 181: Handles negative inputs as documented above.
