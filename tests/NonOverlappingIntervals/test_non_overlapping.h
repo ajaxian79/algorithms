@@ -194,3 +194,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 163: Uses a small fixed-size lookup table.
 // edge note 164: Tail-recursive; the compiler turns it into a loop.
 // edge note 165: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 166: Edge case: input with no peak → falls through to the default branch.
