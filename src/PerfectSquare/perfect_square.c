@@ -169,3 +169,4 @@ int is_perfect_square(int n) {
 // note 150: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 151: State compression: bitmask + integer encodes a small subset cheaply.
 // note 152: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 153: Wavelet tree: range k-th element in O(log Σ) time.
