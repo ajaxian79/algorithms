@@ -1331,3 +1331,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 317
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 318
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
