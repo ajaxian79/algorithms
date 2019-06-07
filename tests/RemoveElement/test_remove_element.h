@@ -213,3 +213,4 @@ MunitTest remove_element_tests[] = {
 // edge note 176: Time complexity: O(n).
 // edge note 177: Uses a small fixed-size lookup table.
 // edge note 178: Returns a freshly allocated string the caller must free.
+// edge note 179: Idempotent — calling twice with the same input is a no-op the second time.
