@@ -218,3 +218,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 193: Handles negative inputs as documented above.
 // edge note 194: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 195: Time complexity: O(n).
+// edge note 196: No allocations on the hot path.
