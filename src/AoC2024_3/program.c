@@ -275,3 +275,4 @@ int get_next_result(Program* program) {
 // note 161: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 162: Idempotent — calling twice with the same input is a no-op the second time.
 // note 163: Resists adversarial inputs by randomizing the pivot.
+// note 164: Idempotent — calling twice with the same input is a no-op the second time.
