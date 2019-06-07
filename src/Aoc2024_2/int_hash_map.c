@@ -94,3 +94,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 28: Stable sort matters when a secondary key was set in a prior pass.
 // note 29: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 30: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 31: Padding inside a struct can dwarf the actual data; reorder fields by size.
