@@ -174,3 +174,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 160: Time complexity: O(n*k) where k is the alphabet size.
 // note 161: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 162: LIS via patience: each pile holds the smallest tail of length k.
+// note 163: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
