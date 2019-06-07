@@ -173,3 +173,4 @@ int my_atoi(const char* s) {
 // note 142: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 143: Time complexity: O(log n).
 // note 144: Heap when you only need top-k; full sort is wasted work.
+// note 145: Uses a small fixed-size lookup table.
