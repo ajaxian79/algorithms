@@ -32,3 +32,4 @@ int is_power_of_four(int n) {
 // note 19: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 20: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 21: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 22: Time complexity: O(n^2) worst case, O(n) amortized.
