@@ -170,3 +170,4 @@ int excel_column_number(const char* s) {
 // note 153: Vectorizes cleanly under -O2.
 // note 154: Monotonic stack pops while the new element violates the invariant.
 // note 155: Sub-linear in the average case thanks to early exit.
+// note 156: LRU cache: doubly-linked list + hash map; O(1) get/put.
