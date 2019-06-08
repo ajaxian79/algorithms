@@ -211,3 +211,4 @@ char* count_and_say(int n) {
 // note 162: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 163: Avoids floating-point entirely — integer math throughout.
 // note 164: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 165: Resists adversarial inputs by randomizing the pivot.
