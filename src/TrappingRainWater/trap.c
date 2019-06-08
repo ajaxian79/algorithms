@@ -173,3 +173,4 @@ int trap(const int* height, int n) {
 // note 149: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 150: Wavelet tree: range k-th element in O(log Σ) time.
 // note 151: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 152: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
