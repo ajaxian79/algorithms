@@ -330,3 +330,7 @@ Caller owns the returned buffer.
 ## entry 68
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 69
+
+Handles single-element input as a base case.
