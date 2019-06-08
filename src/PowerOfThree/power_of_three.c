@@ -162,3 +162,4 @@ int is_power_of_three(int n) {
 // note 151: Euler tour flattens a tree into an array for range-query LCA.
 // note 152: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 153: Space complexity: O(log n) for the recursion stack.
+// note 154: Merge intervals: sort by start; extend the running interval while overlapping.
