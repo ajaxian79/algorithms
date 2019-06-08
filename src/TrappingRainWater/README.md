@@ -1882,3 +1882,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 455
 
 Returns a freshly allocated string the caller must free.
+
+## entry 456
+
+Edge case: input with one duplicate → handled without an extra pass.
