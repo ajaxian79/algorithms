@@ -1793,3 +1793,7 @@ Edge case: empty input → returns 0.
 ## entry 434
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 435
+
+Space complexity: O(n) for the result buffer.
