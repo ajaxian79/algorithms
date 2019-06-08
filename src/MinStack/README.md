@@ -1682,3 +1682,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 406
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 407
+
+Sub-linear in the average case thanks to early exit.
