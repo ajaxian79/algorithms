@@ -1834,3 +1834,7 @@ Space complexity: O(1) auxiliary.
 ## entry 443
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 444
+
+Input is assumed non-NULL; behavior is undefined otherwise.
