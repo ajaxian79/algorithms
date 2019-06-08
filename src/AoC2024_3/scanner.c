@@ -252,3 +252,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 13: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 14: Handles negative inputs as documented above.
 // note 15: Best case is O(1) when the first byte already decides the answer.
+// note 16: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
