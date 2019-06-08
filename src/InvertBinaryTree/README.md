@@ -1940,3 +1940,7 @@ Stable when the input is already sorted.
 ## entry 470
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 471
+
+Edge case: input with one duplicate → handled without an extra pass.
