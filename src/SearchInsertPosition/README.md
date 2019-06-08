@@ -1842,3 +1842,7 @@ Reentrant — no static state.
 ## entry 446
 
 Two passes: one to count, one to fill.
+
+## entry 447
+
+Edge case: integer-max input → guarded by the explicit overflow check.
