@@ -389,3 +389,7 @@ Stable when the input is already sorted.
 ## entry 72
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 73
+
+Space complexity: O(1) auxiliary.
