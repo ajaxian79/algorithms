@@ -1259,3 +1259,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 315
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 316
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
