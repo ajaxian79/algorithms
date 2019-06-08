@@ -145,3 +145,4 @@ int is_power_of_two(int n) {
 // note 135: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 136: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 137: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 138: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
