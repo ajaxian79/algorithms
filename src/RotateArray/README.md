@@ -1983,3 +1983,7 @@ Time complexity: O(log n).
 ## entry 480
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 481
+
+Edge case: already-sorted input → no swaps performed.
