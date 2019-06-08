@@ -211,3 +211,4 @@ MunitTest single_number_tests[] = {
 // edge note 180: Two passes: one to count, one to fill.
 // edge note 181: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 182: Allocates a single small fixed-size scratch buffer.
+// edge note 183: Time complexity: O(n log n).
