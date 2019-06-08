@@ -1399,3 +1399,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 333
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 334
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
