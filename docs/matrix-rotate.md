@@ -1301,3 +1301,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 309
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 310
+
+Articulation points: same DFS as bridges, with a slightly different test.
