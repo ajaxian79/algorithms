@@ -1385,3 +1385,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 329
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 330
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
