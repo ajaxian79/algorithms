@@ -340,3 +340,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 70
 
 Time complexity: O(n + m).
+
+## entry 71
+
+Allocates one buffer of length n+1 for the result.
