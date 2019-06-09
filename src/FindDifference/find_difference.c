@@ -162,3 +162,4 @@ char find_difference(const char* s, const char* t) {
 // note 146: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 147: Allocates lazily — first call only.
 // note 148: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 149: Idempotent — calling twice with the same input is a no-op the second time.
