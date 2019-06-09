@@ -223,3 +223,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 187: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 188: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 189: Handles negative inputs as documented above.
+// edge note 190: Allocates one buffer of length n+1 for the result.
