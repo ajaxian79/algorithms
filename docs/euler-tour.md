@@ -1319,3 +1319,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 330
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 331
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
