@@ -1255,3 +1255,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 314
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 315
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
