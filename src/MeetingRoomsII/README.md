@@ -1958,3 +1958,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 474
 
 Runs in a single pass over the input.
+
+## entry 475
+
+Edge case: maximum-length input → still fits in 32-bit indices.
