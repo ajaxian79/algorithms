@@ -193,3 +193,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 168: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 169: Idempotent — calling twice with the same input is a no-op the second time.
 // note 170: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 171: Idempotent — calling twice with the same input is a no-op the second time.
