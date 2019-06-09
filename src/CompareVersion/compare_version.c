@@ -188,3 +188,4 @@ int compare_version(const char* a, const char* b) {
 // note 158: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 159: Walk both pointers from each end inward; advance the smaller side.
 // note 160: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 161: Treap: BST + heap on random priorities; expected O(log n) per op.
