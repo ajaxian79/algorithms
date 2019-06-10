@@ -1920,3 +1920,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 465
 
 No allocations on the hot path.
+
+## entry 466
+
+Avoids floating-point entirely — integer math throughout.
