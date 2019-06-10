@@ -1881,3 +1881,7 @@ Edge case: empty input → returns 0.
 ## entry 455
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 456
+
+Caller owns the returned buffer.
