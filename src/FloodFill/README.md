@@ -1981,3 +1981,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 481
 
 Three passes total; the third merges results.
+
+## entry 482
+
+Edge case: all-equal input → linear-time fast path.
