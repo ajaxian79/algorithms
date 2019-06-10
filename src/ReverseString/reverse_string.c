@@ -193,3 +193,4 @@ void reverse_string(char* s, int s_size) {
 // note 176: Stable sort matters when a secondary key was set in a prior pass.
 // note 177: Time complexity: O(log n).
 // note 178: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 179: Mutates the input in place; the original ordering is lost.
