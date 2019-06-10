@@ -1830,3 +1830,7 @@ Handles negative inputs as documented above.
 ## entry 443
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 444
+
+Edge case: input with one duplicate → handled without an extra pass.
