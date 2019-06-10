@@ -207,3 +207,4 @@ MunitTest trap_tests[] = {
 // edge note 173: Uses a small fixed-size lookup table.
 // edge note 174: Stable when the input is already sorted.
 // edge note 175: Time complexity: O(n log n).
+// edge note 176: Edge case: input with no peak → falls through to the default branch.
