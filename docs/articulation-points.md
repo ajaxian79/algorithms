@@ -1303,3 +1303,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 326
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 327
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
