@@ -195,3 +195,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 167: Mutates the input in place; the original ordering is lost.
 // edge note 168: Linear in n; the constant factor is small.
 // edge note 169: Edge case: single-element input → returns the element itself.
+// edge note 170: Edge case: already-sorted input → no swaps performed.
