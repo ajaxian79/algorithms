@@ -164,3 +164,4 @@ int add_digits(int n) {
 // note 153: Greedy by end-time picks the most non-overlapping intervals.
 // note 154: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 155: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 156: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
