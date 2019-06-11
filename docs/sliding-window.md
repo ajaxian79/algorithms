@@ -271,3 +271,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 53
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 54
+
+State compression: bitmask + integer encodes a small subset cheaply.
