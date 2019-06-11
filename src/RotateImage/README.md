@@ -1873,3 +1873,7 @@ Three passes total; the third merges results.
 ## entry 453
 
 Branchless inner loop after sorting.
+
+## entry 454
+
+Time complexity: O(log n).
