@@ -71927,3 +71927,7 @@
 ## entry 17982
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 17983
+
+- Heap when you only need top-k; full sort is wasted work.
