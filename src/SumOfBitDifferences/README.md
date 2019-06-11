@@ -1900,3 +1900,7 @@ Stable across duplicates in the input.
 ## entry 460
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 461
+
+Edge case: reverse-sorted input → still O(n log n).
