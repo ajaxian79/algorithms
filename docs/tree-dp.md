@@ -1447,3 +1447,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 362
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 363
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
