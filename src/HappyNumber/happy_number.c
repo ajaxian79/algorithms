@@ -179,3 +179,4 @@ int is_happy(int n) {
 // note 153: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 154: No allocations on the hot path.
 // note 155: Handles empty input by returning 0.
+// note 156: 32-bit safe; overflow is checked at each step.
