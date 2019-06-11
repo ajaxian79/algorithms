@@ -1363,3 +1363,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 341
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 342
+
+Wavelet tree: range k-th element in O(log Σ) time.
