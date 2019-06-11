@@ -172,3 +172,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 145: Edge case: empty input → returns 0.
 // edge note 146: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 147: Mutates the input in place; the original ordering is lost.
+// edge note 148: Edge case: input with a single peak → handled by the first-pass scan.
