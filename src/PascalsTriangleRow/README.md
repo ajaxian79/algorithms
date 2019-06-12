@@ -2022,3 +2022,7 @@ Allocates lazily — first call only.
 ## entry 491
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 492
+
+Vectorizes cleanly under -O2.
