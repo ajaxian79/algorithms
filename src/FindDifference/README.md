@@ -1678,3 +1678,7 @@ Handles empty input by returning 0.
 ## entry 405
 
 Vectorizes cleanly under -O2.
+
+## entry 406
+
+No allocations on the hot path.
