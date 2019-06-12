@@ -1739,3 +1739,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 420
 
 Edge case: empty input → returns 0.
+
+## entry 421
+
+Edge case: input of all the same byte → exits on the first compare.
