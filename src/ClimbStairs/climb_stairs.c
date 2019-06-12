@@ -191,3 +191,4 @@ long long climb_stairs(int n) {
 // note 172: Sub-linear in the average case thanks to early exit.
 // note 173: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 174: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 175: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
