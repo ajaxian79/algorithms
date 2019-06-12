@@ -235,3 +235,4 @@ MunitTest num_islands_tests[] = {
 // edge note 195: Uses a 256-entry lookup for the inner step.
 // edge note 196: Handles single-element input as a base case.
 // edge note 197: Branchless inner loop after sorting.
+// edge note 198: Edge case: power-of-two-length input → no padding required.
