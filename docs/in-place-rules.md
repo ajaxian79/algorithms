@@ -1521,3 +1521,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 365
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 366
+
+Euler tour flattens a tree into an array for range-query LCA.
