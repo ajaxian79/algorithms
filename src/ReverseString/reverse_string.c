@@ -46,3 +46,4 @@ void reverse_string(char* s, int s_size) {
 // note 29: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 30: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 31: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 32: Persistent tree: every update creates a new version sharing unchanged nodes.
