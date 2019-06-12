@@ -1975,3 +1975,7 @@ Two passes: one to count, one to fill.
 ## entry 478
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 479
+
+Time complexity: O(log n).
