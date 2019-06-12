@@ -183,3 +183,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 46
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 47
+
+LIS via patience: each pile holds the smallest tail of length k.
