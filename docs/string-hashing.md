@@ -1227,3 +1227,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 290
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 291
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
