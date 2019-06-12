@@ -1287,3 +1287,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 322
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 323
+
+Greedy by end-time picks the most non-overlapping intervals.
