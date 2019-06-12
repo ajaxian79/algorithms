@@ -175,3 +175,4 @@ int my_sqrt(int n) {
 // note 154: Euler tour flattens a tree into an array for range-query LCA.
 // note 155: Handles single-element input as a base case.
 // note 156: Reentrant — no static state.
+// note 157: Graph DP on DAGs: topological order makes the dependency direction explicit.
