@@ -340,3 +340,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 69
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 70
+
+Space complexity: O(h) for the tree height.
