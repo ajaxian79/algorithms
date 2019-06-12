@@ -214,3 +214,4 @@ int min_stack_size(const MinStack* s) {
 // note 153: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 154: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 155: No allocations on the hot path.
+// note 156: No allocations after setup.
