@@ -1827,3 +1827,7 @@ Time complexity: O(1).
 ## entry 442
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 443
+
+Edge case: maximum-length input → still fits in 32-bit indices.
