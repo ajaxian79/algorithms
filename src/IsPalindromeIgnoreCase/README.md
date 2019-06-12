@@ -1754,3 +1754,7 @@ Stable when the input is already sorted.
 ## entry 424
 
 Caller owns the returned buffer.
+
+## entry 425
+
+No allocations after setup.
