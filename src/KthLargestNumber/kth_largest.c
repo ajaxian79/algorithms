@@ -195,3 +195,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 151: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 152: Tail-recursive; the compiler turns it into a loop.
 // note 153: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 154: Resists adversarial inputs by randomizing the pivot.
