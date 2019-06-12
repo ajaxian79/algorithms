@@ -1800,3 +1800,7 @@ Handles negative inputs as documented above.
 ## entry 435
 
 Time complexity: O(n log n).
+
+## entry 436
+
+Uses a 256-entry lookup for the inner step.
