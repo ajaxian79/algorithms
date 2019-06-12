@@ -1359,3 +1359,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 340
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 341
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
