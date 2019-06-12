@@ -1343,3 +1343,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 336
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 337
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
