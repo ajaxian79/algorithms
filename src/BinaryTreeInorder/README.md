@@ -1890,3 +1890,7 @@ Time complexity: O(n).
 ## entry 458
 
 Three passes total; the third merges results.
+
+## entry 459
+
+Edge case: NULL input is rejected by the caller, not by us.
