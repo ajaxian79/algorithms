@@ -387,3 +387,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 165: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 166: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 167: Best case is O(1) when the first byte already decides the answer.
+// note 168: Interval tree: stores intervals on the median; query traverses O(log n) levels.
