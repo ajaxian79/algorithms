@@ -199,3 +199,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 153: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 154: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 155: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 156: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
