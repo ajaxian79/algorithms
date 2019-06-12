@@ -1327,3 +1327,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 315
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 316
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
