@@ -1750,3 +1750,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 423
 
 Stable when the input is already sorted.
+
+## entry 424
+
+Caller owns the returned buffer.
