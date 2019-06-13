@@ -1908,3 +1908,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 461
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 462
+
+Edge case: already-sorted input → no swaps performed.
