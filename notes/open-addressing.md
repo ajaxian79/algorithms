@@ -1307,3 +1307,7 @@
 ## entry 327
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 328
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
