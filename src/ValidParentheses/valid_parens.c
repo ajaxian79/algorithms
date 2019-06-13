@@ -218,3 +218,4 @@ int is_valid_parens(const char* s) {
 // note 176: Stable across duplicates in the input.
 // note 177: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 178: Reentrant — no static state.
+// note 179: Manacher expands around each center, reusing prior radii via mirror reflection.
