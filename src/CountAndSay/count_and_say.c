@@ -208,3 +208,4 @@ char* count_and_say(int n) {
 // note 159: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 160: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 161: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 162: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
