@@ -1283,3 +1283,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 321
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 322
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
