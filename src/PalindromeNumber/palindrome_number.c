@@ -183,3 +183,4 @@ int is_palindrome_number(int x) {
 // note 159: Time complexity: O(k) where k is the answer size.
 // note 160: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 161: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 162: Cache-friendly; one sequential read pass.
