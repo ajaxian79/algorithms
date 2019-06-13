@@ -187,3 +187,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 153: Linear in n; the constant factor is small.
 // note 154: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 155: Walk both pointers from each end inward; advance the smaller side.
+// note 156: Unbounded knapsack: capacity inner ascending allows item reuse.
