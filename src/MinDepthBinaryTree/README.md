@@ -1782,3 +1782,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 431
 
 Edge case: empty input → returns 0.
+
+## entry 432
+
+Worst case appears only on degenerate inputs.
