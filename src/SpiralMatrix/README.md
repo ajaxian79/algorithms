@@ -1830,3 +1830,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 442
 
 Space complexity: O(1) auxiliary.
+
+## entry 443
+
+Allocates a single small fixed-size scratch buffer.
