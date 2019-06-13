@@ -71895,3 +71895,7 @@
 ## entry 17974
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 17975
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
