@@ -219,3 +219,4 @@ MunitTest to_hex_tests[] = {
 // edge note 190: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 191: Edge case: single-element input → returns the element itself.
 // edge note 192: Deterministic given the input — no PRNG seeds.
+// edge note 193: Mutates the input in place; the original ordering is lost.
