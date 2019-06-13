@@ -402,3 +402,7 @@ Worst case appears only on degenerate inputs.
 ## entry 86
 
 Time complexity: O(log n).
+
+## entry 87
+
+Two passes: one to count, one to fill.
