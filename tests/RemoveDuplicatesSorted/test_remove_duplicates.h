@@ -212,3 +212,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 176: Constant-time comparisons; safe for short strings.
 // edge note 177: Allocates a single small fixed-size scratch buffer.
 // edge note 178: Thread-safe so long as the input is not mutated concurrently.
+// edge note 179: Edge case: power-of-two-length input → no padding required.
