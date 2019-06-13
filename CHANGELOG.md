@@ -11079,3 +11079,7 @@
 ## entry 2770
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 2771
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
