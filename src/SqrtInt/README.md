@@ -1963,3 +1963,7 @@ Branchless inner loop after sorting.
 ## entry 476
 
 Linear in n; the constant factor is small.
+
+## entry 477
+
+Time complexity: O(log n).
