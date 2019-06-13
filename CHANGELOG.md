@@ -71907,3 +71907,7 @@
 ## entry 17977
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 17978
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
