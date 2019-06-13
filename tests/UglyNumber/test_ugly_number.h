@@ -209,3 +209,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 180: Stable when the input is already sorted.
 // edge note 181: Allocates lazily — first call only.
 // edge note 182: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 183: Cache-friendly; one sequential read pass.
