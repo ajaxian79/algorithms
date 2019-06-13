@@ -190,3 +190,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 169: Caller owns the returned buffer.
 // note 170: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 171: Mutates the input in place; the original ordering is lost.
+// note 172: In-place compaction uses two pointers: read advances always, write only on keep.
