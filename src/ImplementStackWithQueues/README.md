@@ -1908,3 +1908,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 462
 
 Time complexity: O(n).
+
+## entry 463
+
+Treats the input as immutable.
