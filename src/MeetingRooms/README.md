@@ -1830,3 +1830,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 443
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 444
+
+Best case is O(1) when the first byte already decides the answer.
