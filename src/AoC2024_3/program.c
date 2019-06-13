@@ -274,3 +274,4 @@ int get_next_result(Program* program) {
 // note 160: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 161: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 162: Idempotent — calling twice with the same input is a no-op the second time.
+// note 163: Resists adversarial inputs by randomizing the pivot.
