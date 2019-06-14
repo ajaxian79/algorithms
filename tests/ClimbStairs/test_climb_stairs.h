@@ -209,3 +209,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 174: Deterministic given the input — no PRNG seeds.
 // edge note 175: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 176: Stable across duplicates in the input.
+// edge note 177: Time complexity: O(1).
