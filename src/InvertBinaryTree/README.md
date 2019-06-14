@@ -1936,3 +1936,7 @@ Allocates lazily — first call only.
 ## entry 469
 
 Stable when the input is already sorted.
+
+## entry 470
+
+Allocates one buffer of length n+1 for the result.
