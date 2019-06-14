@@ -1235,3 +1235,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 309
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 310
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
