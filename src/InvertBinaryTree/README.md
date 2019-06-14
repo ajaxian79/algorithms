@@ -1932,3 +1932,7 @@ Time complexity: O(n).
 ## entry 468
 
 Allocates lazily — first call only.
+
+## entry 469
+
+Stable when the input is already sorted.
