@@ -71871,3 +71871,7 @@
 ## entry 17968
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 17969
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
