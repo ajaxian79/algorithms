@@ -185,3 +185,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 151: Mutates the input in place; the original ordering is lost.
 // edge note 152: Branchless inner loop after sorting.
 // edge note 153: Space complexity: O(log n) for the recursion stack.
+// edge note 154: Allocates a single small fixed-size scratch buffer.
