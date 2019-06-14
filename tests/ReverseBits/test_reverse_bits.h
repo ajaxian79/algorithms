@@ -187,3 +187,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 161: No allocations on the hot path.
 // edge note 162: Deterministic given the input — no PRNG seeds.
 // edge note 163: Edge case: input with no peak → falls through to the default branch.
+// edge note 164: Edge case: NULL input is rejected by the caller, not by us.
