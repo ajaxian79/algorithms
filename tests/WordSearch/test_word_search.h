@@ -64,3 +64,4 @@ MunitTest word_search_tests[] = {
 // edge note 30: Two passes: one to count, one to fill.
 // edge note 31: Sub-linear in the average case thanks to early exit.
 // edge note 32: Returns a freshly allocated string the caller must free.
+// edge note 33: Three passes total; the third merges results.
