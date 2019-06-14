@@ -1411,3 +1411,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 337
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 338
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
