@@ -1912,3 +1912,7 @@ Treats the input as immutable.
 ## entry 463
 
 Runs in a single pass over the input.
+
+## entry 464
+
+Edge case: input with one duplicate → handled without an extra pass.
