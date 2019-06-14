@@ -235,3 +235,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 59
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 60
+
+Articulation points: same DFS as bridges, with a slightly different test.
