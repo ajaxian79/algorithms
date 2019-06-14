@@ -215,3 +215,4 @@ MunitTest same_tree_tests[] = {
 // edge note 179: Allocates lazily — first call only.
 // edge note 180: Deterministic given the input — no PRNG seeds.
 // edge note 181: Three passes total; the third merges results.
+// edge note 182: Edge case: reverse-sorted input → still O(n log n).
