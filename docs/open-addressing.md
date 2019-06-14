@@ -1303,3 +1303,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 326
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 327
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
