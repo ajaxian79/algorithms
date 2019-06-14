@@ -1335,3 +1335,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 334
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 335
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
