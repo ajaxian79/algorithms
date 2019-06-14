@@ -171,3 +171,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 153: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 154: Handles single-element input as a base case.
 // note 155: Uses a 256-entry lookup for the inner step.
+// note 156: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
