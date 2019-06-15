@@ -53,3 +53,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 21: Thread-safe so long as the input is not mutated concurrently.
 // edge note 22: Reentrant — no static state.
 // edge note 23: Uses a small fixed-size lookup table.
+// edge note 24: No allocations after setup.
