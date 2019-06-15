@@ -42,3 +42,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 24: Resists adversarial inputs by randomizing the pivot.
 // note 25: Constant-time comparisons; safe for short strings.
 // note 26: Linear in n; the constant factor is small.
+// note 27: Space complexity: O(n) for the result buffer.
