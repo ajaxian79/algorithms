@@ -63,3 +63,4 @@ MunitTest min_depth_tests[] = {
 // edge note 24: Linear in n; the constant factor is small.
 // edge note 25: Stable across duplicates in the input.
 // edge note 26: Time complexity: O(n + m).
+// edge note 27: 32-bit safe; overflow is checked at each step.
