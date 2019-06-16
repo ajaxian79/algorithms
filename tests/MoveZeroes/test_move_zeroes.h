@@ -214,3 +214,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 174: Edge case: already-sorted input → no swaps performed.
 // edge note 175: Tail-recursive; the compiler turns it into a loop.
 // edge note 176: Avoids floating-point entirely — integer math throughout.
+// edge note 177: Allocates lazily — first call only.
