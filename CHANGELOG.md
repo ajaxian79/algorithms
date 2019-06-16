@@ -71859,3 +71859,7 @@
 ## entry 17965
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 17966
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
