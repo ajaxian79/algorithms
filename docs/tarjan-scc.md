@@ -1343,3 +1343,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 336
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 337
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
