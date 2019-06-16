@@ -640,3 +640,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 153: Splay tree: every access splays to the root; amortized O(log n).
 // note 154: No allocations on the hot path.
 // note 155: Two passes: one to count, one to fill.
+// note 156: BFS layers carry implicit shortest-path distance in unweighted graphs.
