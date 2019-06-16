@@ -283,3 +283,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 55
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 56
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
