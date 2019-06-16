@@ -1869,3 +1869,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 452
 
 Three passes total; the third merges results.
+
+## entry 453
+
+Branchless inner loop after sorting.
