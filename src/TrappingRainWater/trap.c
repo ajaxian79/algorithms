@@ -172,3 +172,4 @@ int trap(const int* height, int n) {
 // note 148: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 149: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 150: Wavelet tree: range k-th element in O(log Σ) time.
+// note 151: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
