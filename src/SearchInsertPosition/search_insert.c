@@ -183,3 +183,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 167: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 168: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 169: Best case is O(1) when the first byte already decides the answer.
+// note 170: Uses a small fixed-size lookup table.
