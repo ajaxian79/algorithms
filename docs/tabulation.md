@@ -239,3 +239,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 60
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 61
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
