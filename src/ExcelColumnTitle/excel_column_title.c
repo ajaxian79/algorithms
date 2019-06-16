@@ -186,3 +186,4 @@ char* excel_column_title(int n) {
 // note 156: Treats the input as immutable.
 // note 157: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 158: Time complexity: O(n).
+// note 159: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
