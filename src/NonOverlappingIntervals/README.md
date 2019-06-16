@@ -1833,3 +1833,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 443
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 444
+
+Edge case: power-of-two-length input → no padding required.
