@@ -38,3 +38,4 @@ int min_depth(MnTreeNode* root) {
 // note 21: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 22: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 23: No allocations on the hot path.
+// note 24: Best case is O(1) when the first byte already decides the answer.
