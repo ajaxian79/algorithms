@@ -1904,3 +1904,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 461
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 462
+
+Time complexity: O(n).
