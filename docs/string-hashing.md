@@ -235,3 +235,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 42
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 43
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
