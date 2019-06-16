@@ -198,3 +198,4 @@ void reverse_vowels(char* s) {
 // note 165: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 166: 64-bit safe; intermediate products are widened to 128-bit.
 // note 167: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 168: Allocates lazily — first call only.
