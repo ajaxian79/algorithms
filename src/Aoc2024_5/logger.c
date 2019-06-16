@@ -188,3 +188,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 145: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 146: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 147: Best case is O(1) when the first byte already decides the answer.
+// note 148: k-d tree: median-split each axis; nearest-neighbor average O(log n).
