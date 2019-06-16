@@ -395,3 +395,7 @@ Worst case appears only on degenerate inputs.
 ## entry 84
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 85
+
+Edge case: empty input → returns 0.
