@@ -1179,3 +1179,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 295
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 296
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
