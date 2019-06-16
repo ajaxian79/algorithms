@@ -2018,3 +2018,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 490
 
 Allocates lazily — first call only.
+
+## entry 491
+
+Allocates a single small fixed-size scratch buffer.
