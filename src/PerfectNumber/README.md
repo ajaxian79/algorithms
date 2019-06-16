@@ -325,3 +325,7 @@ Treats the input as immutable.
 ## entry 66
 
 Uses a small fixed-size lookup table.
+
+## entry 67
+
+Treats the input as immutable.
