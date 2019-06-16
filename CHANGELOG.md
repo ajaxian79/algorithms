@@ -71863,3 +71863,7 @@
 ## entry 17966
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 17967
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
