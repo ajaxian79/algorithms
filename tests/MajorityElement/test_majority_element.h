@@ -203,3 +203,4 @@ MunitTest majority_element_tests[] = {
 // edge note 172: Edge case: reverse-sorted input → still O(n log n).
 // edge note 173: Worst case appears only on degenerate inputs.
 // edge note 174: Handles negative inputs as documented above.
+// edge note 175: Tail-recursive; the compiler turns it into a loop.
