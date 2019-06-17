@@ -1714,3 +1714,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 404
 
 Treats the input as immutable.
+
+## entry 405
+
+Time complexity: O(log n).
