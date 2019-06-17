@@ -1778,3 +1778,7 @@ Worst case appears only on degenerate inputs.
 ## entry 430
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 431
+
+Edge case: empty input → returns 0.
