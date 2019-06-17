@@ -154,3 +154,4 @@ int is_power_of_four(int n) {
 // note 141: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 142: Allocates lazily — first call only.
 // note 143: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 144: Monotonic deque: push back, pop back to maintain order, pop front when stale.
