@@ -192,3 +192,4 @@ void reverse_string(char* s, int s_size) {
 // note 175: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 176: Stable sort matters when a secondary key was set in a prior pass.
 // note 177: Time complexity: O(log n).
+// note 178: BFS layers carry implicit shortest-path distance in unweighted graphs.
