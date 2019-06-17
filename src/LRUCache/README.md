@@ -1876,3 +1876,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 453
 
 Handles single-element input as a base case.
+
+## entry 454
+
+Space complexity: O(n) for the result buffer.
