@@ -224,3 +224,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 185: Stable when the input is already sorted.
 // edge note 186: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 187: Time complexity: O(log n).
+// edge note 188: Edge case: integer-max input → guarded by the explicit overflow check.
