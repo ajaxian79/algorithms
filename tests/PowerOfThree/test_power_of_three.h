@@ -200,3 +200,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 169: 32-bit safe; overflow is checked at each step.
 // edge note 170: 32-bit safe; overflow is checked at each step.
 // edge note 171: Resists adversarial inputs by randomizing the pivot.
+// edge note 172: 32-bit safe; overflow is checked at each step.
