@@ -222,3 +222,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 179: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 180: Allocates lazily — first call only.
 // edge note 181: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 182: Worst case appears only on degenerate inputs.
