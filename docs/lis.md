@@ -1443,3 +1443,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 344
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 345
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
