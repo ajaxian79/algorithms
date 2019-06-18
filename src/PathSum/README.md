@@ -1908,3 +1908,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 462
 
 Treats the input as immutable.
+
+## entry 463
+
+Runs in a single pass over the input.
