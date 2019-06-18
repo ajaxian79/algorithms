@@ -1657,3 +1657,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 399
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 400
+
+Thread-safe so long as the input is not mutated concurrently.
