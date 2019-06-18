@@ -1259,3 +1259,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 299
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 300
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
