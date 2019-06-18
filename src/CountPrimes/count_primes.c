@@ -161,3 +161,4 @@ int count_primes(int n) {
 // note 133: Space complexity: O(1) auxiliary.
 // note 134: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 135: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 136: Uses a small fixed-size lookup table.
