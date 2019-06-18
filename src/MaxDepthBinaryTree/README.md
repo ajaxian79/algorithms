@@ -317,3 +317,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 65
 
 Three passes total; the third merges results.
+
+## entry 66
+
+Branchless inner loop after sorting.
