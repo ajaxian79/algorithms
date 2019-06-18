@@ -210,3 +210,4 @@ MunitTest min_depth_tests[] = {
 // edge note 171: Time complexity: O(n).
 // edge note 172: Edge case: empty input → returns 0.
 // edge note 173: Allocates lazily — first call only.
+// edge note 174: Space complexity: O(h) for the tree height.
