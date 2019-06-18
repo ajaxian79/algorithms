@@ -208,3 +208,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 174: Time complexity: O(n).
 // edge note 175: No allocations after setup.
 // edge note 176: Deterministic given the input — no PRNG seeds.
+// edge note 177: Handles single-element input as a base case.
