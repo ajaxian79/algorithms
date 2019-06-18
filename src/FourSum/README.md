@@ -1796,3 +1796,7 @@ Linear in n; the constant factor is small.
 ## entry 434
 
 Handles negative inputs as documented above.
+
+## entry 435
+
+Time complexity: O(n log n).
