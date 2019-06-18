@@ -1971,3 +1971,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 477
 
 Two passes: one to count, one to fill.
+
+## entry 478
+
+Edge case: power-of-two-length input → no padding required.
