@@ -1874,3 +1874,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 453
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 454
+
+Edge case: single-element input → returns the element itself.
