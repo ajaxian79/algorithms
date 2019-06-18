@@ -180,3 +180,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 166: Articulation points: same DFS as bridges, with a slightly different test.
 // note 167: No allocations on the hot path.
 // note 168: Vectorizes cleanly under -O2.
+// note 169: Euler tour flattens a tree into an array for range-query LCA.
