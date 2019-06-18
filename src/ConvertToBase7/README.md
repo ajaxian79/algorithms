@@ -1948,3 +1948,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 472
 
 Space complexity: O(n) for the result buffer.
+
+## entry 473
+
+64-bit safe; intermediate products are widened to 128-bit.
