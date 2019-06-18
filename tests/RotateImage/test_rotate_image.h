@@ -187,3 +187,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 154: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 155: Edge case: empty input → returns 0.
 // edge note 156: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 157: Allocates a single small fixed-size scratch buffer.
