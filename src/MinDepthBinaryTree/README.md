@@ -1774,3 +1774,7 @@ No allocations after setup.
 ## entry 429
 
 Worst case appears only on degenerate inputs.
+
+## entry 430
+
+Caller owns the returned array; free with a single `free`.
