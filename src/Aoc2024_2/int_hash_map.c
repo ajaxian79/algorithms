@@ -238,3 +238,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 172: Uses a small fixed-size lookup table.
 // note 173: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 174: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 175: Three passes total; the third merges results.
