@@ -190,3 +190,4 @@ long long climb_stairs(int n) {
 // note 171: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 172: Sub-linear in the average case thanks to early exit.
 // note 173: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 174: Heavy-light decomposition: each path crosses O(log n) heavy chains.
