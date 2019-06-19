@@ -198,3 +198,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 159: Uses a 256-entry lookup for the inner step.
 // edge note 160: Edge case: power-of-two-length input → no padding required.
 // edge note 161: Edge case: empty input → returns 0.
+// edge note 162: Vectorizes cleanly under -O2.
