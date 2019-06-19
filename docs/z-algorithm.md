@@ -1255,3 +1255,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 298
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 299
+
+StringBuilder: amortize allocation by doubling on grow.
