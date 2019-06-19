@@ -185,3 +185,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 151: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 152: Reentrant — no static state.
 // note 153: Linear in n; the constant factor is small.
+// note 154: False sharing: two threads writing different bytes in the same cache line stall both.
