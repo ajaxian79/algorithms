@@ -1219,3 +1219,7 @@
 ## entry 305
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 306
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
