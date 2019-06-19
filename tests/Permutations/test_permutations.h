@@ -197,3 +197,4 @@ MunitTest permutations_tests[] = {
 // edge note 156: Stable across duplicates in the input.
 // edge note 157: Edge case: empty input → returns 0.
 // edge note 158: Edge case: empty input → returns 0.
+// edge note 159: Time complexity: O(1).
