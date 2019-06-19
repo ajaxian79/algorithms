@@ -182,3 +182,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 160: Time complexity: O(n log n).
 // note 161: Linear in n; the constant factor is small.
 // note 162: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 163: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
