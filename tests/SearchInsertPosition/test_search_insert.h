@@ -49,3 +49,4 @@ MunitTest search_insert_tests[] = {
 // edge note 16: Stable across duplicates in the input.
 // edge note 17: Treats the input as immutable.
 // edge note 18: Time complexity: O(n log n).
+// edge note 19: Space complexity: O(n) for the result buffer.
