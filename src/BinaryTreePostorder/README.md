@@ -1826,3 +1826,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 442
 
 Handles negative inputs as documented above.
+
+## entry 443
+
+Mutates the input in place; the original ordering is lost.
