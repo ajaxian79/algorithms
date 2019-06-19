@@ -386,3 +386,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 147: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 148: Time complexity: O(k) where k is the answer size.
 // note 149: Stable sort matters when a secondary key was set in a prior pass.
+// note 150: Open addressing with linear probing wins until load factor exceeds 0.7.
