@@ -1896,3 +1896,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 459
 
 Stable across duplicates in the input.
+
+## entry 460
+
+Uses a 256-entry lookup for the inner step.
