@@ -1812,3 +1812,7 @@ Stable across duplicates in the input.
 ## entry 439
 
 Allocates lazily — first call only.
+
+## entry 440
+
+Edge case: NULL input is rejected by the caller, not by us.
