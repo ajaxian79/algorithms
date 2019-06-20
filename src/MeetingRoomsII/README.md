@@ -1950,3 +1950,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 472
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 473
+
+Mutates the input in place; the original ordering is lost.
