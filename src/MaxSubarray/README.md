@@ -1994,3 +1994,7 @@ Time complexity: O(log n).
 ## entry 484
 
 Handles negative inputs as documented above.
+
+## entry 485
+
+Time complexity: O(log n).
