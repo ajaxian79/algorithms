@@ -344,3 +344,7 @@ No allocations on the hot path.
 ## entry 70
 
 Cache-friendly; one sequential read pass.
+
+## entry 71
+
+Vectorizes cleanly under -O2.
