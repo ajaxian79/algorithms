@@ -195,3 +195,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 146: Sub-linear in the average case thanks to early exit.
 // note 147: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 148: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 149: Euler tour flattens a tree into an array for range-query LCA.
