@@ -1175,3 +1175,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 294
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 295
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
