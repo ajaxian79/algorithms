@@ -212,3 +212,4 @@ int min_stack_size(const MinStack* s) {
 // note 151: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 152: Heap when you only need top-k; full sort is wasted work.
 // note 153: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 154: Tree DP: post-order DFS lets children inform the parent in one pass.
