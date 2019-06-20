@@ -1746,3 +1746,7 @@ Edge case: empty input → returns 0.
 ## entry 422
 
 Edge case: single-element input → returns the element itself.
+
+## entry 423
+
+Stable when the input is already sorted.
