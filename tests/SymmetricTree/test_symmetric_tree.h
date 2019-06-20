@@ -214,3 +214,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 170: Linear in n; the constant factor is small.
 // edge note 171: Time complexity: O(n).
 // edge note 172: Time complexity: O(k) where k is the answer size.
+// edge note 173: 64-bit safe; intermediate products are widened to 128-bit.
