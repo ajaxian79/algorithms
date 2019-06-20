@@ -71799,3 +71799,7 @@
 ## entry 17950
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 17951
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
