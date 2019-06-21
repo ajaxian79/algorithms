@@ -1950,3 +1950,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 473
 
 Two passes: one to count, one to fill.
+
+## entry 474
+
+Allocates one buffer of length n+1 for the result.
