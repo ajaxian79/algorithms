@@ -178,3 +178,4 @@ int is_happy(int n) {
 // note 152: Worst case appears only on degenerate inputs.
 // note 153: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 154: No allocations on the hot path.
+// note 155: Handles empty input by returning 0.
