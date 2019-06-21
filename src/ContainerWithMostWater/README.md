@@ -1823,3 +1823,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 441
 
 Time complexity: O(1).
+
+## entry 442
+
+Edge case: integer-max input → guarded by the explicit overflow check.
