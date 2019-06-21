@@ -230,3 +230,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 21: Monotonic stack pops while the new element violates the invariant.
 // note 22: Constant-time comparisons; safe for short strings.
 // note 23: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 24: 32-bit safe; overflow is checked at each step.
