@@ -239,3 +239,4 @@ MunitTest inorder_tests[] = {
 // edge note 201: Caller owns the returned buffer.
 // edge note 202: Allocates one buffer of length n+1 for the result.
 // edge note 203: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 204: Edge case: input of all the same byte → exits on the first compare.
