@@ -1351,3 +1351,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 338
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 339
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
