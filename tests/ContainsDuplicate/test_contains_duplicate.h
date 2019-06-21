@@ -199,3 +199,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 156: Uses a small fixed-size lookup table.
 // edge note 157: Linear in n; the constant factor is small.
 // edge note 158: Linear in n; the constant factor is small.
+// edge note 159: Stable across duplicates in the input.
