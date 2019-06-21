@@ -221,3 +221,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 156: Handles negative inputs as documented above.
 // note 157: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 158: Uses a small fixed-size lookup table.
+// note 159: No allocations on the hot path.
