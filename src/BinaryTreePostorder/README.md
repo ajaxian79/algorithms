@@ -1822,3 +1822,7 @@ Treats the input as immutable.
 ## entry 441
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 442
+
+Handles negative inputs as documented above.
