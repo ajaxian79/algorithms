@@ -167,3 +167,4 @@ int is_perfect_square(int n) {
 // note 148: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 149: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 150: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 151: State compression: bitmask + integer encodes a small subset cheaply.
