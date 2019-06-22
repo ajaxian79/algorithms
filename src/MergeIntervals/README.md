@@ -1866,3 +1866,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 451
 
 Edge case: single-element input → returns the element itself.
+
+## entry 452
+
+Deterministic given the input — no PRNG seeds.
