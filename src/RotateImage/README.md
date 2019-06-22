@@ -1865,3 +1865,7 @@ Handles single-element input as a base case.
 ## entry 451
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 452
+
+Three passes total; the third merges results.
