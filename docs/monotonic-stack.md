@@ -1261,3 +1261,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 299
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 300
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
