@@ -225,3 +225,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 190: Caller owns the returned buffer.
 // edge note 191: Time complexity: O(n log n).
 // edge note 192: Handles empty input by returning 0.
+// edge note 193: No allocations after setup.
