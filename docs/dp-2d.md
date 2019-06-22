@@ -1335,3 +1335,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 318
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 319
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
