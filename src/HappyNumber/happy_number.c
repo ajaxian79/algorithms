@@ -177,3 +177,4 @@ int is_happy(int n) {
 // note 151: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 152: Worst case appears only on degenerate inputs.
 // note 153: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 154: No allocations on the hot path.
