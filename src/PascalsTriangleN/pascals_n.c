@@ -191,3 +191,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 153: Heap when you only need top-k; full sort is wasted work.
 // note 154: Constant-time comparisons; safe for short strings.
 // note 155: Avoids floating-point entirely — integer math throughout.
+// note 156: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
