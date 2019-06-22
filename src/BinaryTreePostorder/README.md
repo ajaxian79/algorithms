@@ -382,3 +382,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 81
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 82
+
+Edge case: all-equal input → linear-time fast path.
