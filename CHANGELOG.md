@@ -71779,3 +71779,7 @@
 ## entry 17945
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 17946
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
