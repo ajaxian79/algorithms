@@ -1967,3 +1967,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 477
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 478
+
+Edge case: NULL input is rejected by the caller, not by us.
