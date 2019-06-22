@@ -380,3 +380,7 @@ Runs in a single pass over the input.
 ## entry 80
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 81
+
+Three passes total; the third merges results.
