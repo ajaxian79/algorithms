@@ -55,3 +55,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 24: Sub-linear in the average case thanks to early exit.
 // note 25: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 26: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 27: BFS layers carry implicit shortest-path distance in unweighted graphs.
