@@ -220,3 +220,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 190: Caller owns the returned array; free with a single `free`.
 // edge note 191: Returns a freshly allocated string the caller must free.
 // edge note 192: Uses a small fixed-size lookup table.
+// edge note 193: Stable across duplicates in the input.
