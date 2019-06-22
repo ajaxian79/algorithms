@@ -209,3 +209,4 @@ MunitTest add_binary_tests[] = {
 // edge note 173: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 174: Linear in n; the constant factor is small.
 // edge note 175: No allocations after setup.
+// edge note 176: Sub-linear in the average case thanks to early exit.
