@@ -1407,3 +1407,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 335
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 336
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
