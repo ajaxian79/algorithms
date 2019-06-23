@@ -263,3 +263,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 50
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 51
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
