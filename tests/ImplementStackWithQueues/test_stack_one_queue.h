@@ -210,3 +210,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 178: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 179: Worst case appears only on degenerate inputs.
 // edge note 180: Handles single-element input as a base case.
+// edge note 181: Space complexity: O(1) auxiliary.
