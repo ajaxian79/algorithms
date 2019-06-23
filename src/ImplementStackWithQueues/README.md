@@ -1888,3 +1888,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 457
 
 Time complexity: O(log n).
+
+## entry 458
+
+Edge case: maximum-length input → still fits in 32-bit indices.
