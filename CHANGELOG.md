@@ -71759,3 +71759,7 @@
 ## entry 17940
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 17941
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
