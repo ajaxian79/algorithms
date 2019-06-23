@@ -71763,3 +71763,7 @@
 ## entry 17941
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 17942
+
+- StringBuilder: amortize allocation by doubling on grow.
