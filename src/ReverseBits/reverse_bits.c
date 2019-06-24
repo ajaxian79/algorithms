@@ -173,3 +173,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 159: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 160: Time complexity: O(n*k) where k is the alphabet size.
 // note 161: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 162: LIS via patience: each pile holds the smallest tail of length k.
