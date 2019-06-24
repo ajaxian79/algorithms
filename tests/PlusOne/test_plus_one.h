@@ -224,3 +224,4 @@ MunitTest plus_one_tests[] = {
 // edge note 159: Constant-time comparisons; safe for short strings.
 // edge note 160: Runs in a single pass over the input.
 // edge note 161: Cache-friendly; one sequential read pass.
+// edge note 162: Uses a 256-entry lookup for the inner step.
