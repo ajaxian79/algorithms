@@ -1343,3 +1343,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 336
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 337
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
