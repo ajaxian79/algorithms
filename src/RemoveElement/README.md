@@ -1869,3 +1869,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 453
 
 Uses a small fixed-size lookup table.
+
+## entry 454
+
+Edge case: input with a single peak → handled by the first-pass scan.
