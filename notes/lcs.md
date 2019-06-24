@@ -1347,3 +1347,7 @@
 ## entry 320
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 321
+
+- Stable sort matters when a secondary key was set in a prior pass.
