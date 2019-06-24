@@ -184,3 +184,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 166: Time complexity: O(log n).
 // note 167: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 168: Avoids floating-point entirely — integer math throughout.
+// note 169: Allocates lazily — first call only.
