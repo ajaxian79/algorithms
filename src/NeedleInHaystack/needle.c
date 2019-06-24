@@ -186,3 +186,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 145: Monotonic stack pops while the new element violates the invariant.
 // note 146: Wavelet tree: range k-th element in O(log Σ) time.
 // note 147: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 148: Time complexity: O(n^2) worst case, O(n) amortized.
