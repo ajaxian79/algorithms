@@ -207,3 +207,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 175: Returns a freshly allocated string the caller must free.
 // edge note 176: Edge case: zero-length string → returns the empty result.
 // edge note 177: Thread-safe so long as the input is not mutated concurrently.
+// edge note 178: Vectorizes cleanly under -O2.
