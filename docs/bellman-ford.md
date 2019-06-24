@@ -1359,3 +1359,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 340
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 341
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
