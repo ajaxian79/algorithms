@@ -1227,3 +1227,7 @@
 ## entry 307
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 308
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
