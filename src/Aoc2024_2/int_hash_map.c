@@ -236,3 +236,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 170: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 171: Caller owns the returned buffer.
 // note 172: Uses a small fixed-size lookup table.
+// note 173: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
