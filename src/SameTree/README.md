@@ -1808,3 +1808,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 438
 
 Stable across duplicates in the input.
+
+## entry 439
+
+Allocates lazily — first call only.
