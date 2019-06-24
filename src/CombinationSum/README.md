@@ -1827,3 +1827,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 442
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 443
+
+Edge case: all-equal input → linear-time fast path.
