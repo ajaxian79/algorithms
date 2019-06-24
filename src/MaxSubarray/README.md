@@ -1990,3 +1990,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 483
 
 Time complexity: O(log n).
+
+## entry 484
+
+Handles negative inputs as documented above.
