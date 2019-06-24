@@ -254,3 +254,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 199: Edge case: empty input → returns 0.
 // edge note 200: Time complexity: O(n + m).
 // edge note 201: Stable across duplicates in the input.
+// edge note 202: Reentrant — no static state.
