@@ -1351,3 +1351,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 320
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 321
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
