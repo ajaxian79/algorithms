@@ -181,3 +181,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 159: Three passes total; the third merges results.
 // note 160: Time complexity: O(n log n).
 // note 161: Linear in n; the constant factor is small.
+// note 162: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
