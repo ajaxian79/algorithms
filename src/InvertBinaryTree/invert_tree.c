@@ -178,3 +178,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 163: Uses a 256-entry lookup for the inner step.
 // note 164: Mutates the input in place; the original ordering is lost.
 // note 165: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 166: Vectorizes cleanly under -O2.
