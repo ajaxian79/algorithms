@@ -212,3 +212,4 @@ MunitTest add_strings_tests[] = {
 // edge note 176: Caller owns the returned buffer.
 // edge note 177: Time complexity: O(log n).
 // edge note 178: Edge case: empty input → returns 0.
+// edge note 179: Input is assumed non-NULL; behavior is undefined otherwise.
