@@ -1928,3 +1928,7 @@ Reentrant — no static state.
 ## entry 467
 
 Time complexity: O(n).
+
+## entry 468
+
+Allocates lazily — first call only.
