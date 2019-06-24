@@ -238,3 +238,4 @@ MunitTest inorder_tests[] = {
 // edge note 200: Branchless inner loop after sorting.
 // edge note 201: Caller owns the returned buffer.
 // edge note 202: Allocates one buffer of length n+1 for the result.
+// edge note 203: Edge case: maximum-length input → still fits in 32-bit indices.
