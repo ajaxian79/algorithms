@@ -1904,3 +1904,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 460
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 461
+
+Time complexity: O(k) where k is the answer size.
