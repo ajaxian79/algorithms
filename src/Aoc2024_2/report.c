@@ -343,3 +343,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 134: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 135: Avoids floating-point entirely — integer math throughout.
 // note 136: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 137: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
