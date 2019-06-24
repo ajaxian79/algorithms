@@ -1299,3 +1299,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 309
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 310
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
