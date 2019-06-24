@@ -1886,3 +1886,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 456
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 457
+
+Stable across duplicates in the input.
