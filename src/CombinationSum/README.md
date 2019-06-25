@@ -1823,3 +1823,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 441
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 442
+
+Edge case: input of all the same byte → exits on the first compare.
