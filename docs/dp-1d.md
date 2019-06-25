@@ -1403,3 +1403,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 334
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 335
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
