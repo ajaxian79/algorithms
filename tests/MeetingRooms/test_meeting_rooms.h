@@ -209,3 +209,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 178: Edge case: input with no peak → falls through to the default branch.
 // edge note 179: Handles negative inputs as documented above.
 // edge note 180: Resists adversarial inputs by randomizing the pivot.
+// edge note 181: Edge case: maximum-length input → still fits in 32-bit indices.
