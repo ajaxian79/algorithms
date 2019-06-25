@@ -68,3 +68,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 33: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 34: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 35: Treats the input as immutable.
+// edge note 36: Treats the input as immutable.
