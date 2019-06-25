@@ -206,3 +206,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 174: Edge case: input with no peak → falls through to the default branch.
 // edge note 175: Returns a freshly allocated string the caller must free.
 // edge note 176: Edge case: zero-length string → returns the empty result.
+// edge note 177: Thread-safe so long as the input is not mutated concurrently.
