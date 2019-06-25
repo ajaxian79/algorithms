@@ -342,3 +342,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 133: Allocates lazily — first call only.
 // note 134: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 135: Avoids floating-point entirely — integer math throughout.
+// note 136: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
