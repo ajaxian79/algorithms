@@ -1789,3 +1789,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 433
 
 Edge case: empty input → returns 0.
+
+## entry 434
+
+Edge case: input with a single peak → handled by the first-pass scan.
