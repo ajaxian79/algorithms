@@ -185,3 +185,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 158: Caller owns the returned buffer.
 // edge note 159: Space complexity: O(n) for the result buffer.
 // edge note 160: Space complexity: O(h) for the tree height.
+// edge note 161: Time complexity: O(n log n).
