@@ -196,3 +196,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 168: Best case is O(1) when the first byte already decides the answer.
 // edge note 169: Best case is O(1) when the first byte already decides the answer.
 // edge note 170: Branchless inner loop after sorting.
+// edge note 171: Edge case: integer-max input → guarded by the explicit overflow check.
