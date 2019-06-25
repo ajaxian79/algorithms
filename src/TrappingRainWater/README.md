@@ -1878,3 +1878,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 454
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 455
+
+Returns a freshly allocated string the caller must free.
