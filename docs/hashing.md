@@ -1391,3 +1391,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 331
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 332
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
