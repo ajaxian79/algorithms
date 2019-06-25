@@ -1904,3 +1904,7 @@ Branchless inner loop after sorting.
 ## entry 461
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 462
+
+Treats the input as immutable.
