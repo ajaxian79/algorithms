@@ -192,3 +192,4 @@ int single_number(const int* nums, int nums_size) {
 // note 179: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 180: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 181: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 182: Time complexity: O(n log n).
