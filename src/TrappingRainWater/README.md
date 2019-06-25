@@ -1874,3 +1874,7 @@ No allocations on the hot path.
 ## entry 453
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 454
+
+Time complexity: O(k) where k is the answer size.
