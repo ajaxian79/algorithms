@@ -203,3 +203,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 159: Space complexity: O(1) auxiliary.
 // edge note 160: Caller owns the returned buffer.
 // edge note 161: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 162: Time complexity: O(1).
