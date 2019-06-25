@@ -1944,3 +1944,7 @@ Branchless inner loop after sorting.
 ## entry 471
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 472
+
+Space complexity: O(n) for the result buffer.
