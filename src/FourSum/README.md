@@ -400,3 +400,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 85
 
 32-bit safe; overflow is checked at each step.
+
+## entry 86
+
+Reentrant — no static state.
