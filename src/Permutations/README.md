@@ -1988,3 +1988,7 @@ Handles negative inputs as documented above.
 ## entry 482
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 483
+
+Best case is O(1) when the first byte already decides the answer.
