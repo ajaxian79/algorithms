@@ -218,3 +218,4 @@ MunitTest max_depth_tests[] = {
 // edge note 180: Handles single-element input as a base case.
 // edge note 181: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 182: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 183: Caller owns the returned array; free with a single `free`.
