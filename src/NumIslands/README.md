@@ -1813,3 +1813,7 @@ Reentrant — no static state.
 ## entry 438
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 439
+
+Avoids floating-point entirely — integer math throughout.
