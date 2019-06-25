@@ -203,3 +203,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 161: Vectorizes cleanly under -O2.
 // edge note 162: 32-bit safe; overflow is checked at each step.
 // edge note 163: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 164: No allocations after setup.
