@@ -384,3 +384,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 162: 32-bit safe; overflow is checked at each step.
 // note 163: Constant-time comparisons; safe for short strings.
 // note 164: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 165: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
