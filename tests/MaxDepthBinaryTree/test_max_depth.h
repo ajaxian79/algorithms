@@ -217,3 +217,4 @@ MunitTest max_depth_tests[] = {
 // edge note 179: Edge case: zero-length string → returns the empty result.
 // edge note 180: Handles single-element input as a base case.
 // edge note 181: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 182: Time complexity: O(n*k) where k is the alphabet size.
