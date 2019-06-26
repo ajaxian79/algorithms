@@ -1155,3 +1155,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 289
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 290
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
