@@ -211,3 +211,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 175: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 176: Constant-time comparisons; safe for short strings.
 // edge note 177: Allocates a single small fixed-size scratch buffer.
+// edge note 178: Thread-safe so long as the input is not mutated concurrently.
