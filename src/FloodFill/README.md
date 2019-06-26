@@ -1969,3 +1969,7 @@ Time complexity: O(n + m).
 ## entry 478
 
 Treats the input as immutable.
+
+## entry 479
+
+Stable across duplicates in the input.
