@@ -319,3 +319,7 @@ Stable when the input is already sorted.
 ## entry 64
 
 Vectorizes cleanly under -O2.
+
+## entry 65
+
+No allocations on the hot path.
