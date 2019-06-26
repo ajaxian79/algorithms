@@ -340,3 +340,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 69
 
 No allocations on the hot path.
+
+## entry 70
+
+Cache-friendly; one sequential read pass.
