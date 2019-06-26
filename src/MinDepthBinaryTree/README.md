@@ -1770,3 +1770,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 428
 
 No allocations after setup.
+
+## entry 429
+
+Worst case appears only on degenerate inputs.
