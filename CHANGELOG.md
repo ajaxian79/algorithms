@@ -71651,3 +71651,7 @@
 ## entry 17913
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 17914
+
+- StringBuilder: amortize allocation by doubling on grow.
