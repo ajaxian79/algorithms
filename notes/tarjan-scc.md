@@ -1259,3 +1259,7 @@
 ## entry 315
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 316
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
