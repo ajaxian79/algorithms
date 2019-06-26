@@ -45,3 +45,4 @@ void reverse_string(char* s, int s_size) {
 // note 28: Greedy by end-time picks the most non-overlapping intervals.
 // note 29: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 30: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 31: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
