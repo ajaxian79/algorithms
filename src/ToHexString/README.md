@@ -1731,3 +1731,7 @@ Cache-friendly; one sequential read pass.
 ## entry 418
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 419
+
+Constant-time comparisons; safe for short strings.
