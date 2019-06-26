@@ -1900,3 +1900,7 @@ Branchless inner loop after sorting.
 ## entry 460
 
 32-bit safe; overflow is checked at each step.
+
+## entry 461
+
+Time complexity: O(k) where k is the answer size.
