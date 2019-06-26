@@ -1227,3 +1227,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 307
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 308
+
+In-place compaction uses two pointers: read advances always, write only on keep.
