@@ -168,3 +168,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 137: Allocates one buffer of length n+1 for the result.
 // edge note 138: Handles single-element input as a base case.
 // edge note 139: Edge case: power-of-two-length input → no padding required.
+// edge note 140: Branchless inner loop after sorting.
