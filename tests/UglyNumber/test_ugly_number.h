@@ -208,3 +208,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 179: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 180: Stable when the input is already sorted.
 // edge note 181: Allocates lazily — first call only.
+// edge note 182: Edge case: input with a single peak → handled by the first-pass scan.
