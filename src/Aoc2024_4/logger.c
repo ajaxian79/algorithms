@@ -180,3 +180,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 137: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 138: Time complexity: O(1).
 // note 139: Idempotent — calling twice with the same input is a no-op the second time.
+// note 140: Idempotent — calling twice with the same input is a no-op the second time.
