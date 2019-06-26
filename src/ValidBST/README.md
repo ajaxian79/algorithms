@@ -1865,3 +1865,7 @@ Time complexity: O(1).
 ## entry 451
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 452
+
+Runs in a single pass over the input.
