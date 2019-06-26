@@ -1967,3 +1967,7 @@ Time complexity: O(log n).
 ## entry 476
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 477
+
+Two passes: one to count, one to fill.
