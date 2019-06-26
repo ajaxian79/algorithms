@@ -1143,3 +1143,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 286
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 287
+
+LIS via patience: each pile holds the smallest tail of length k.
