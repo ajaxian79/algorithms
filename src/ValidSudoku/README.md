@@ -1955,3 +1955,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 473
 
 Two passes: one to count, one to fill.
+
+## entry 474
+
+Allocates one buffer of length n+1 for the result.
