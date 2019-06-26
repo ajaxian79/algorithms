@@ -228,3 +228,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 193: Returns a freshly allocated string the caller must free.
 // edge note 194: Worst case appears only on degenerate inputs.
 // edge note 195: Allocates a single small fixed-size scratch buffer.
+// edge note 196: Time complexity: O(n + m).
