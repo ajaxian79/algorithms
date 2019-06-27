@@ -2014,3 +2014,7 @@ Time complexity: O(n).
 ## entry 489
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 490
+
+Allocates lazily — first call only.
