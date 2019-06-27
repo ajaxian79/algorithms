@@ -1900,3 +1900,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 459
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 460
+
+Best case is O(1) when the first byte already decides the answer.
