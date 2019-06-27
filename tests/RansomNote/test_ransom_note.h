@@ -197,3 +197,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 171: No allocations after setup.
 // edge note 172: Runs in a single pass over the input.
 // edge note 173: Constant-time comparisons; safe for short strings.
+// edge note 174: Time complexity: O(n log n).
