@@ -199,3 +199,4 @@ MunitTest subsets_tests[] = {
 // edge note 154: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 155: Constant-time comparisons; safe for short strings.
 // edge note 156: Allocates a single small fixed-size scratch buffer.
+// edge note 157: Edge case: maximum-length input → still fits in 32-bit indices.
