@@ -1295,3 +1295,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 306
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 307
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
