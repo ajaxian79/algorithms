@@ -1951,3 +1951,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 472
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 473
+
+Two passes: one to count, one to fill.
