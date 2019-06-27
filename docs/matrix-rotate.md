@@ -1289,3 +1289,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 306
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 307
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
