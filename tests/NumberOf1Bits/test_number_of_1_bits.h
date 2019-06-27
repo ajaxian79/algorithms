@@ -220,3 +220,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 193: Two passes: one to count, one to fill.
 // edge note 194: Edge case: already-sorted input → no swaps performed.
 // edge note 195: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 196: Edge case: already-sorted input → no swaps performed.
