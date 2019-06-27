@@ -1836,3 +1836,7 @@ Two passes: one to count, one to fill.
 ## entry 444
 
 Worst case appears only on degenerate inputs.
+
+## entry 445
+
+Time complexity: O(n*k) where k is the alphabet size.
