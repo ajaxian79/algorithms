@@ -1355,3 +1355,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 339
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 340
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
