@@ -1819,3 +1819,7 @@ No allocations on the hot path.
 ## entry 440
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 441
+
+Deterministic given the input — no PRNG seeds.
