@@ -1139,3 +1139,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 285
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 286
+
+In-place compaction uses two pointers: read advances always, write only on keep.
