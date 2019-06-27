@@ -195,3 +195,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 154: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 155: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 156: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 157: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
