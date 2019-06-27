@@ -321,3 +321,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 65
 
 Treats the input as immutable.
+
+## entry 66
+
+Uses a small fixed-size lookup table.
