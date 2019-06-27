@@ -83,3 +83,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 25: Time complexity: O(1).
 // note 26: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 27: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 28: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
