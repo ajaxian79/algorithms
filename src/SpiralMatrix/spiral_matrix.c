@@ -209,3 +209,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 166: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 167: 64-bit safe; intermediate products are widened to 128-bit.
 // note 168: Handles negative inputs as documented above.
+// note 169: Time complexity: O(n log n).
