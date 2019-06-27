@@ -1965,3 +1965,7 @@ Two passes: one to count, one to fill.
 ## entry 477
 
 Time complexity: O(n + m).
+
+## entry 478
+
+Treats the input as immutable.
