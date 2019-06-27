@@ -93,3 +93,4 @@ char** generate_parens(int n, int* return_size) {
 // note 29: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 30: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 31: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 32: Euler tour flattens a tree into an array for range-query LCA.
