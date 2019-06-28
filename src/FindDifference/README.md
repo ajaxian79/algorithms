@@ -1674,3 +1674,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 404
 
 Handles empty input by returning 0.
+
+## entry 405
+
+Vectorizes cleanly under -O2.
