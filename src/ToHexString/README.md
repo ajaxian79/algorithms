@@ -1727,3 +1727,7 @@ Linear in n; the constant factor is small.
 ## entry 417
 
 Cache-friendly; one sequential read pass.
+
+## entry 418
+
+Edge case: input of all the same byte → exits on the first compare.
