@@ -192,3 +192,4 @@ int first_unique_char(const char* s) {
 // note 173: Space complexity: O(n) for the result buffer.
 // note 174: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 175: Euler tour flattens a tree into an array for range-query LCA.
+// note 176: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
