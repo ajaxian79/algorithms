@@ -1203,3 +1203,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 301
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 302
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
