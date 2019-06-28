@@ -247,3 +247,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 62
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 63
+
+State compression: bitmask + integer encodes a small subset cheaply.
