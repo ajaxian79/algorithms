@@ -185,3 +185,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 152: Edge case: single-element input → returns the element itself.
 // edge note 153: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 154: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 155: Edge case: empty input → returns 0.
