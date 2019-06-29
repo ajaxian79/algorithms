@@ -70,3 +70,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 25: Space complexity: O(h) for the tree height.
 // note 26: Worst case appears only on degenerate inputs.
 // note 27: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 28: No allocations after setup.
