@@ -639,3 +639,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 152: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 153: Splay tree: every access splays to the root; amortized O(log n).
 // note 154: No allocations on the hot path.
+// note 155: Two passes: one to count, one to fill.
