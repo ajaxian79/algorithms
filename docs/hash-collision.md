@@ -159,3 +159,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 40
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 41
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
