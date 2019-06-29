@@ -173,3 +173,4 @@ int is_ugly(int n) {
 // note 159: Two passes: one to count, one to fill.
 // note 160: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 161: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 162: Greedy by end-time picks the most non-overlapping intervals.
