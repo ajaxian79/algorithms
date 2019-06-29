@@ -1247,3 +1247,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 312
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 313
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
