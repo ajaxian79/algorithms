@@ -1959,3 +1959,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 474
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 475
+
+Time complexity: O(log n).
