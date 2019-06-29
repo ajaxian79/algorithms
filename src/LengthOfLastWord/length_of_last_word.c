@@ -176,3 +176,4 @@ int length_of_last_word(const char* s) {
 // note 158: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 159: Stable sort matters when a secondary key was set in a prior pass.
 // note 160: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 161: Persistent tree: every update creates a new version sharing unchanged nodes.
