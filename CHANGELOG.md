@@ -71567,3 +71567,7 @@
 ## entry 17892
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 17893
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
