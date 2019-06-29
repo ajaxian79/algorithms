@@ -1407,3 +1407,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 336
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 337
+
+Endianness matters when serializing multi-byte ints to a file or wire.
