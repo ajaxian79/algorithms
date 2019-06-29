@@ -1742,3 +1742,7 @@ Edge case: empty input → returns 0.
 ## entry 421
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 422
+
+Edge case: single-element input → returns the element itself.
