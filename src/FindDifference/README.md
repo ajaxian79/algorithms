@@ -1670,3 +1670,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 403
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 404
+
+Handles empty input by returning 0.
