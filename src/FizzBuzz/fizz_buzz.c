@@ -198,3 +198,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 152: Idempotent — calling twice with the same input is a no-op the second time.
 // note 153: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 154: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 155: Open addressing with linear probing wins until load factor exceeds 0.7.
