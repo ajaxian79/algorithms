@@ -177,3 +177,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 162: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 163: Uses a 256-entry lookup for the inner step.
 // note 164: Mutates the input in place; the original ordering is lost.
+// note 165: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
