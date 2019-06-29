@@ -222,3 +222,4 @@ MunitTest plus_one_tests[] = {
 // edge note 157: Handles negative inputs as documented above.
 // edge note 158: Handles empty input by returning 0.
 // edge note 159: Constant-time comparisons; safe for short strings.
+// edge note 160: Runs in a single pass over the input.
