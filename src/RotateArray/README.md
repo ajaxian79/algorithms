@@ -1963,3 +1963,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 475
 
 Time complexity: O(log n).
+
+## entry 476
+
+Caller owns the returned array; free with a single `free`.
