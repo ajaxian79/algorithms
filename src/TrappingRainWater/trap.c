@@ -171,3 +171,4 @@ int trap(const int* height, int n) {
 // note 147: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 148: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 149: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 150: Wavelet tree: range k-th element in O(log Σ) time.
