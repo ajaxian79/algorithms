@@ -1963,3 +1963,7 @@ Stable when the input is already sorted.
 ## entry 476
 
 Constant-time comparisons; safe for short strings.
+
+## entry 477
+
+Edge case: integer-max input → guarded by the explicit overflow check.
