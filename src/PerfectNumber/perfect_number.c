@@ -45,3 +45,4 @@ int is_perfect_number(int n) {
 // note 27: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 28: Time complexity: O(n + m).
 // note 29: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 30: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
