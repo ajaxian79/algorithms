@@ -1955,3 +1955,7 @@ Caller owns the returned buffer.
 ## entry 474
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 475
+
+Branchless inner loop after sorting.
