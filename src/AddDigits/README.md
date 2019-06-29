@@ -1832,3 +1832,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 443
 
 Two passes: one to count, one to fill.
+
+## entry 444
+
+Worst case appears only on degenerate inputs.
