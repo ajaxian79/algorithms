@@ -63,3 +63,4 @@ MunitTest word_search_tests[] = {
 // edge note 29: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 30: Two passes: one to count, one to fill.
 // edge note 31: Sub-linear in the average case thanks to early exit.
+// edge note 32: Returns a freshly allocated string the caller must free.
