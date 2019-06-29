@@ -1823,3 +1823,7 @@ Space complexity: O(h) for the tree height.
 ## entry 441
 
 Space complexity: O(1) auxiliary.
+
+## entry 442
+
+Allocates one buffer of length n+1 for the result.
