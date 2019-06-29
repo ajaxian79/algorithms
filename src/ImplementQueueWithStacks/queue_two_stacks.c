@@ -229,3 +229,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 150: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 151: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 152: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 153: Morris traversal threads predecessors back to current node — O(1) extra space.
