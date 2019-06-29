@@ -1215,3 +1215,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 304
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 305
+
+Stable sort matters when a secondary key was set in a prior pass.
