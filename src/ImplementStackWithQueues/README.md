@@ -1880,3 +1880,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 455
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 456
+
+Edge case: input with one duplicate → handled without an extra pass.
