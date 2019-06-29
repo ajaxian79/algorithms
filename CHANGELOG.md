@@ -71583,3 +71583,7 @@
 ## entry 17896
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 17897
+
+- StringBuilder: amortize allocation by doubling on grow.
