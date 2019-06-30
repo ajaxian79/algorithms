@@ -1950,3 +1950,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 473
 
 Time complexity: O(n).
+
+## entry 474
+
+Edge case: power-of-two-length input → no padding required.
