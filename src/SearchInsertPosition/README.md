@@ -1834,3 +1834,7 @@ Three passes total; the third merges results.
 ## entry 444
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 445
+
+Reentrant — no static state.
