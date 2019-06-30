@@ -1267,3 +1267,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 317
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 318
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
