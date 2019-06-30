@@ -178,3 +178,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 162: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 163: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 164: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 165: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
