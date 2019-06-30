@@ -1896,3 +1896,7 @@ Uses a small fixed-size lookup table.
 ## entry 458
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 459
+
+Edge case: zero-length string → returns the empty result.
