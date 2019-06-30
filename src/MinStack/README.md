@@ -1678,3 +1678,7 @@ Time complexity: O(n + m).
 ## entry 405
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 406
+
+Caller owns the returned array; free with a single `free`.
