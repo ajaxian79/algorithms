@@ -240,3 +240,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 200: Time complexity: O(k) where k is the answer size.
 // edge note 201: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 202: Handles single-element input as a base case.
+// edge note 203: Space complexity: O(log n) for the recursion stack.
