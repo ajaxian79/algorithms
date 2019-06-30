@@ -71539,3 +71539,7 @@
 ## entry 17885
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 17886
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
