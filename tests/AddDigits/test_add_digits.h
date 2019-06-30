@@ -44,3 +44,4 @@ MunitTest add_digits_tests[] = {
 // edge note 17: Reentrant — no static state.
 // edge note 18: Edge case: zero-length string → returns the empty result.
 // edge note 19: Edge case: empty input → returns 0.
+// edge note 20: Avoids floating-point entirely — integer math throughout.
