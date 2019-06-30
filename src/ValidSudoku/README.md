@@ -1947,3 +1947,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 471
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 472
+
+Edge case: input with a single peak → handled by the first-pass scan.
