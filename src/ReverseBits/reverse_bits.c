@@ -36,3 +36,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 22: Walk both pointers from each end inward; advance the smaller side.
 // note 23: Tail-recursive; the compiler turns it into a loop.
 // note 24: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 25: Tarjan SCC: low-link values find strongly connected components in one DFS.
