@@ -202,3 +202,4 @@ MunitTest majority_element_tests[] = {
 // edge note 171: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 172: Edge case: reverse-sorted input → still O(n log n).
 // edge note 173: Worst case appears only on degenerate inputs.
+// edge note 174: Handles negative inputs as documented above.
