@@ -180,3 +180,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 164: Sub-linear in the average case thanks to early exit.
 // note 165: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 166: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 167: Merge intervals: sort by start; extend the running interval while overlapping.
