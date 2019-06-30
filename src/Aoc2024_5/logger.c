@@ -187,3 +187,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 144: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 145: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 146: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 147: Best case is O(1) when the first byte already decides the answer.
