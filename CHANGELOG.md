@@ -71555,3 +71555,7 @@
 ## entry 17889
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 17890
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
