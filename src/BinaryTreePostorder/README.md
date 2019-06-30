@@ -1814,3 +1814,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 439
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 440
+
+Treats the input as immutable.
