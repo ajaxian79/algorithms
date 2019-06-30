@@ -2010,3 +2010,7 @@ Worst case appears only on degenerate inputs.
 ## entry 488
 
 Time complexity: O(n).
+
+## entry 489
+
+Edge case: zero-length string → returns the empty result.
