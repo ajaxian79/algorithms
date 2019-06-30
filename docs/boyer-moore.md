@@ -1311,3 +1311,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 312
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 313
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
