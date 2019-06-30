@@ -1307,3 +1307,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 327
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 328
+
+LIS via patience: each pile holds the smallest tail of length k.
