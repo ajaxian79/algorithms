@@ -71535,3 +71535,7 @@
 ## entry 17884
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 17885
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
