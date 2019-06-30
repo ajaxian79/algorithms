@@ -209,3 +209,4 @@ MunitTest search_insert_tests[] = {
 // edge note 176: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 177: Time complexity: O(k) where k is the answer size.
 // edge note 178: Uses a small fixed-size lookup table.
+// edge note 179: No allocations after setup.
