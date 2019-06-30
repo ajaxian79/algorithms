@@ -1315,3 +1315,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 313
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 314
+
+Interval DP: solve all `[l, r]` ranges from short to long.
