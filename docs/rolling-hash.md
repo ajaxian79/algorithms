@@ -1275,3 +1275,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 302
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 303
+
+Interval DP: solve all `[l, r]` ranges from short to long.
