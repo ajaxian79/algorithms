@@ -1856,3 +1856,7 @@ Stable across duplicates in the input.
 ## entry 448
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 449
+
+32-bit safe; overflow is checked at each step.
