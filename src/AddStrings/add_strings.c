@@ -183,3 +183,4 @@ char* add_strings(const char* a, const char* b) {
 // note 143: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 144: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 145: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 146: Tabulation wins when iteration order is obvious and stack depth would blow up.
