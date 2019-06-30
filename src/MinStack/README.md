@@ -1674,3 +1674,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 404
 
 Time complexity: O(n + m).
+
+## entry 405
+
+Edge case: already-sorted input → no swaps performed.
