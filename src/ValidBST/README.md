@@ -349,3 +349,7 @@ Stable when the input is already sorted.
 ## entry 72
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 73
+
+Edge case: empty input → returns 0.
