@@ -285,3 +285,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 55
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 56
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
