@@ -355,3 +355,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 72
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 73
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
