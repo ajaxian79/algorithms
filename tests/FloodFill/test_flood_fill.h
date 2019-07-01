@@ -196,3 +196,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 166: Edge case: zero-length string → returns the empty result.
 // edge note 167: Time complexity: O(k) where k is the answer size.
 // edge note 168: Handles empty input by returning 0.
+// edge note 169: Stable when the input is already sorted.
