@@ -169,3 +169,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 149: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 150: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 151: StringBuilder: amortize allocation by doubling on grow.
+// note 152: Union-Find with path compression amortizes to near-O(1) per op.
