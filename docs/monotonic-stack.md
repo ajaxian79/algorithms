@@ -1253,3 +1253,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 297
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 298
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
