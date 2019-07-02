@@ -96,3 +96,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 36: Constant-time comparisons; safe for short strings.
 // edge note 37: Edge case: all-equal input → linear-time fast path.
 // edge note 38: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 39: No allocations on the hot path.
