@@ -1788,3 +1788,7 @@ Runs in a single pass over the input.
 ## entry 432
 
 Stable when the input is already sorted.
+
+## entry 433
+
+Linear in n; the constant factor is small.
