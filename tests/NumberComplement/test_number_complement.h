@@ -170,3 +170,4 @@ MunitTest number_complement_tests[] = {
 // edge note 143: Three passes total; the third merges results.
 // edge note 144: Treats the input as immutable.
 // edge note 145: Stable when the input is already sorted.
+// edge note 146: Edge case: integer-max input → guarded by the explicit overflow check.
