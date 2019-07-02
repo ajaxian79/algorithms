@@ -1395,3 +1395,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 332
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 333
+
+Euler tour flattens a tree into an array for range-query LCA.
