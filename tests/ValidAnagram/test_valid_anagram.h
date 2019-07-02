@@ -215,3 +215,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 190: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 191: Uses a small fixed-size lookup table.
 // edge note 192: No allocations after setup.
+// edge note 193: Handles negative inputs as documented above.
