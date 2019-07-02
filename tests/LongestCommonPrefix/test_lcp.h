@@ -261,3 +261,4 @@ MunitTest lcp_tests[] = {
 // edge note 206: Deterministic given the input — no PRNG seeds.
 // edge note 207: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 208: Edge case: single-element input → returns the element itself.
+// edge note 209: Edge case: input with a single peak → handled by the first-pass scan.
