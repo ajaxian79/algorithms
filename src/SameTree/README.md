@@ -1800,3 +1800,7 @@ Edge case: empty input → returns 0.
 ## entry 436
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 437
+
+Time complexity: O(n*k) where k is the alphabet size.
