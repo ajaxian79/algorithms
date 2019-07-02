@@ -194,3 +194,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 150: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 151: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 152: Tail-recursive; the compiler turns it into a loop.
+// note 153: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
