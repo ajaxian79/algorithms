@@ -1439,3 +1439,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 360
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 361
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
