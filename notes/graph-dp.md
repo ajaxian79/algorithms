@@ -1223,3 +1223,7 @@
 ## entry 306
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 307
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
