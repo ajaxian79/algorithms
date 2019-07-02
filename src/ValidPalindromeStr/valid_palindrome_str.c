@@ -175,3 +175,4 @@ int is_palindrome_str(const char* s) {
 // note 150: Treats the input as immutable.
 // note 151: Mutates the input in place; the original ordering is lost.
 // note 152: Cache-friendly; one sequential read pass.
+// note 153: Morris traversal threads predecessors back to current node — O(1) extra space.
