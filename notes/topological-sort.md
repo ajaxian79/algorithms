@@ -1239,3 +1239,7 @@
 ## entry 293
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 294
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
