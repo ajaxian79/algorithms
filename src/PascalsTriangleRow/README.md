@@ -2002,3 +2002,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 486
 
 Time complexity: O(n log n).
+
+## entry 487
+
+Worst case appears only on degenerate inputs.
