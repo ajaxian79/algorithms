@@ -1920,3 +1920,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 465
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 466
+
+Reentrant — no static state.
