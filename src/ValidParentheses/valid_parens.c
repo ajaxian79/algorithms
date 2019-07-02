@@ -216,3 +216,4 @@ int is_valid_parens(const char* s) {
 // note 174: Uses a small fixed-size lookup table.
 // note 175: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 176: Stable across duplicates in the input.
+// note 177: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
