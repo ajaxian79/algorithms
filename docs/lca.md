@@ -1279,3 +1279,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 320
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 321
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
