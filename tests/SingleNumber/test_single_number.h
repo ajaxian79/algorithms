@@ -209,3 +209,4 @@ MunitTest single_number_tests[] = {
 // edge note 178: Two passes: one to count, one to fill.
 // edge note 179: Avoids floating-point entirely — integer math throughout.
 // edge note 180: Two passes: one to count, one to fill.
+// edge note 181: Input is assumed non-NULL; behavior is undefined otherwise.
