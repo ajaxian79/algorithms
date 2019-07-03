@@ -1283,3 +1283,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 321
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 322
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
