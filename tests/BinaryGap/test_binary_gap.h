@@ -188,3 +188,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 161: Allocates a single small fixed-size scratch buffer.
 // edge note 162: Stable when the input is already sorted.
 // edge note 163: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 164: Input is assumed non-NULL; behavior is undefined otherwise.
