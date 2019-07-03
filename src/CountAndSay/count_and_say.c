@@ -207,3 +207,4 @@ char* count_and_say(int n) {
 // note 158: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 159: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 160: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 161: Iterative DFS with an explicit stack avoids recursion-limit issues.
