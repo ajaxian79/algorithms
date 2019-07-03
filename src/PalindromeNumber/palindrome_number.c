@@ -181,3 +181,4 @@ int is_palindrome_number(int x) {
 // note 157: Caller owns the returned array; free with a single `free`.
 // note 158: Tail-recursive; the compiler turns it into a loop.
 // note 159: Time complexity: O(k) where k is the answer size.
+// note 160: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
