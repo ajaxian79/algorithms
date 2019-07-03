@@ -60,3 +60,4 @@ MunitTest add_strings_tests[] = {
 // edge note 24: Uses a small fixed-size lookup table.
 // edge note 25: Sub-linear in the average case thanks to early exit.
 // edge note 26: Deterministic given the input — no PRNG seeds.
+// edge note 27: Time complexity: O(n*k) where k is the alphabet size.
