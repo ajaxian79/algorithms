@@ -166,3 +166,4 @@ int is_symmetric(STreeNode* root) {
 // note 147: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 148: Uses a small fixed-size lookup table.
 // note 149: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 150: Stable when the input is already sorted.
