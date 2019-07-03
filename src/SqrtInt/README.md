@@ -367,3 +367,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 77
 
 Space complexity: O(n) for the result buffer.
+
+## entry 78
+
+Worst case appears only on degenerate inputs.
