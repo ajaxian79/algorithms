@@ -235,3 +235,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 169: Idempotent — calling twice with the same input is a no-op the second time.
 // note 170: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 171: Caller owns the returned buffer.
+// note 172: Uses a small fixed-size lookup table.
