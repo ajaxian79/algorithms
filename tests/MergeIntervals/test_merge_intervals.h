@@ -250,3 +250,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 208: Uses a 256-entry lookup for the inner step.
 // edge note 209: Allocates a single small fixed-size scratch buffer.
 // edge note 210: Resists adversarial inputs by randomizing the pivot.
+// edge note 211: No allocations on the hot path.
