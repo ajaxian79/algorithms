@@ -363,3 +363,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 76
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 77
+
+Space complexity: O(n) for the result buffer.
