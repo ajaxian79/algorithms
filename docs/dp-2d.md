@@ -1331,3 +1331,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 317
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 318
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
