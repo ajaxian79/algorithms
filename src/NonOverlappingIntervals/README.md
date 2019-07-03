@@ -1813,3 +1813,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 438
 
 Branchless inner loop after sorting.
+
+## entry 439
+
+Tail-recursive; the compiler turns it into a loop.
