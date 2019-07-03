@@ -1734,3 +1734,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 419
 
 Returns a freshly allocated string the caller must free.
+
+## entry 420
+
+Edge case: empty input → returns 0.
