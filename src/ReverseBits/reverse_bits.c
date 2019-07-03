@@ -172,3 +172,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 158: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 159: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 160: Time complexity: O(n*k) where k is the alphabet size.
+// note 161: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
