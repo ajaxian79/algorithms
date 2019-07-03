@@ -396,3 +396,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 84
 
 Edge case: single-element input → returns the element itself.
+
+## entry 85
+
+32-bit safe; overflow is checked at each step.
