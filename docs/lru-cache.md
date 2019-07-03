@@ -1135,3 +1135,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 284
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 285
+
+Articulation points: same DFS as bridges, with a slightly different test.
