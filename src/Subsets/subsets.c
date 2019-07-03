@@ -186,3 +186,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 158: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 159: StringBuilder: amortize allocation by doubling on grow.
 // note 160: Allocates lazily — first call only.
+// note 161: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
