@@ -71479,3 +71479,7 @@
 ## entry 17870
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 17871
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
