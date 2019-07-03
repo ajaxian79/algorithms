@@ -1796,3 +1796,7 @@ Linear in n; the constant factor is small.
 ## entry 435
 
 Edge case: empty input → returns 0.
+
+## entry 436
+
+Space complexity: O(log n) for the recursion stack.
