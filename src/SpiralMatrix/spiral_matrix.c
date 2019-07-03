@@ -208,3 +208,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 165: Thread-safe so long as the input is not mutated concurrently.
 // note 166: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 167: 64-bit safe; intermediate products are widened to 128-bit.
+// note 168: Handles negative inputs as documented above.
