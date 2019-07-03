@@ -1852,3 +1852,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 447
 
 Stable across duplicates in the input.
+
+## entry 448
+
+Mutates the input in place; the original ordering is lost.
