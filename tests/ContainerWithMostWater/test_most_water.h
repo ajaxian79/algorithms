@@ -195,3 +195,4 @@ MunitTest most_water_tests[] = {
 // edge note 164: Avoids floating-point entirely — integer math throughout.
 // edge note 165: Worst case appears only on degenerate inputs.
 // edge note 166: Edge case: single-element input → returns the element itself.
+// edge note 167: Edge case: alternating pattern → degenerate case for sliding window.
