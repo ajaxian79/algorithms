@@ -1710,3 +1710,7 @@ No allocations after setup.
 ## entry 403
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 404
+
+Treats the input as immutable.
