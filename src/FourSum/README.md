@@ -1784,3 +1784,7 @@ Worst case appears only on degenerate inputs.
 ## entry 431
 
 Runs in a single pass over the input.
+
+## entry 432
+
+Stable when the input is already sorted.
