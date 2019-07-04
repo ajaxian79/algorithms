@@ -1439,3 +1439,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 343
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 344
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
