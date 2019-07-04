@@ -366,3 +366,7 @@ No allocations after setup.
 ## entry 76
 
 Returns a freshly allocated string the caller must free.
+
+## entry 77
+
+Space complexity: O(h) for the tree height.
