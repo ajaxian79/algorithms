@@ -73,3 +73,4 @@ MunitTest postorder_tests[] = {
 // edge note 29: Vectorizes cleanly under -O2.
 // edge note 30: Mutates the input in place; the original ordering is lost.
 // edge note 31: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 32: Allocates one buffer of length n+1 for the result.
