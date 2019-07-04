@@ -207,3 +207,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 179: Caller owns the returned array; free with a single `free`.
 // edge note 180: Time complexity: O(k) where k is the answer size.
 // edge note 181: Tail-recursive; the compiler turns it into a loop.
+// edge note 182: Edge case: reverse-sorted input → still O(n log n).
