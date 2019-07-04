@@ -1331,3 +1331,7 @@
 ## entry 316
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 317
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
