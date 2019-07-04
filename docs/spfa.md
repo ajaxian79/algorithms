@@ -1183,3 +1183,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 296
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 297
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
