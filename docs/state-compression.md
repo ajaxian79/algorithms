@@ -159,3 +159,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 40
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 41
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
