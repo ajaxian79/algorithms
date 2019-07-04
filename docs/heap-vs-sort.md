@@ -1307,3 +1307,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 310
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 311
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
