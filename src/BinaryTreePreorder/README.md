@@ -1942,3 +1942,7 @@ Stable when the input is already sorted.
 ## entry 471
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 472
+
+Edge case: input of all the same byte → exits on the first compare.
