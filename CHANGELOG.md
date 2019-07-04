@@ -11011,3 +11011,7 @@
 ## entry 2753
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 2754
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
