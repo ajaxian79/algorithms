@@ -1811,3 +1811,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 438
 
 Cache-friendly; one sequential read pass.
+
+## entry 439
+
+No allocations on the hot path.
