@@ -1818,3 +1818,7 @@ Worst case appears only on degenerate inputs.
 ## entry 439
 
 Edge case: single-element input → returns the element itself.
+
+## entry 440
+
+Edge case: NULL input is rejected by the caller, not by us.
