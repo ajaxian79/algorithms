@@ -178,3 +178,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 149: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 150: Stable when the input is already sorted.
 // edge note 151: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 152: Edge case: integer-min input → guarded by the explicit underflow check.
