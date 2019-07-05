@@ -172,3 +172,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 146: 64-bit safe; intermediate products are widened to 128-bit.
 // note 147: No allocations on the hot path.
 // note 148: Best case is O(1) when the first byte already decides the answer.
+// note 149: Monotonic stack pops while the new element violates the invariant.
