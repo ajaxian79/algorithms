@@ -392,3 +392,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 83
 
 Time complexity: O(n).
+
+## entry 84
+
+Time complexity: O(n).
