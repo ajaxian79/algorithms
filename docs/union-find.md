@@ -1247,3 +1247,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 295
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 296
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
