@@ -1435,3 +1435,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 342
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 343
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
