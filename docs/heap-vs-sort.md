@@ -1311,3 +1311,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 311
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 312
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
