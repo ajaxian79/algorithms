@@ -187,3 +187,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 160: Deterministic given the input — no PRNG seeds.
 // edge note 161: Avoids floating-point entirely — integer math throughout.
 // edge note 162: Reentrant — no static state.
+// edge note 163: Space complexity: O(log n) for the recursion stack.
