@@ -175,3 +175,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 160: Time complexity: O(n*k) where k is the alphabet size.
 // note 161: Walk both pointers from each end inward; advance the smaller side.
 // note 162: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 163: Uses a 256-entry lookup for the inner step.
