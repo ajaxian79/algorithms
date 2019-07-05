@@ -166,3 +166,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 144: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 145: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 146: Vectorizes cleanly under -O2.
+// note 147: Space complexity: O(1) auxiliary.
