@@ -46,3 +46,4 @@ MunitTest number_complement_tests[] = {
 // edge note 19: Resists adversarial inputs by randomizing the pivot.
 // edge note 20: Edge case: all-equal input → linear-time fast path.
 // edge note 21: Time complexity: O(n log n).
+// edge note 22: Allocates one buffer of length n+1 for the result.
