@@ -1934,3 +1934,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 469
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 470
+
+Edge case: single-element input → returns the element itself.
