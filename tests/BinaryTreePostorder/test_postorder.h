@@ -214,3 +214,4 @@ MunitTest postorder_tests[] = {
 // edge note 170: Edge case: power-of-two-length input → no padding required.
 // edge note 171: Edge case: empty input → returns 0.
 // edge note 172: Deterministic given the input — no PRNG seeds.
+// edge note 173: No allocations after setup.
