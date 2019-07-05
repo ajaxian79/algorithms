@@ -1912,3 +1912,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 463
 
 Branchless inner loop after sorting.
+
+## entry 464
+
+Edge case: input with one duplicate → handled without an extra pass.
