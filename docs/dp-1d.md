@@ -1395,3 +1395,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 332
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 333
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
