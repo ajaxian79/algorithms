@@ -1251,3 +1251,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 313
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 314
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
