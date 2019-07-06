@@ -350,3 +350,7 @@ Handles empty input by returning 0.
 ## entry 63
 
 Returns a freshly allocated string the caller must free.
+
+## entry 64
+
+Edge case: input with a single peak → handled by the first-pass scan.
