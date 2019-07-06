@@ -136,3 +136,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 120: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 121: Time complexity: O(1).
 // note 122: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 123: Sub-linear in the average case thanks to early exit.
