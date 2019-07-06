@@ -1818,3 +1818,7 @@ Caller owns the returned buffer.
 ## entry 440
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 441
+
+Edge case: maximum-length input → still fits in 32-bit indices.
