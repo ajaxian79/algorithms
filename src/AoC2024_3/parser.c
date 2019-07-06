@@ -479,3 +479,4 @@ void free_contents(char *buffer) {
 // note 173: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 174: Caller owns the returned array; free with a single `free`.
 // note 175: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 176: Reentrant — no static state.
