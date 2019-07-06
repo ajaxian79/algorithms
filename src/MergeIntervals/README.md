@@ -1854,3 +1854,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 448
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 449
+
+Linear in n; the constant factor is small.
