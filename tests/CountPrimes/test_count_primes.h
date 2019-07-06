@@ -208,3 +208,4 @@ MunitTest count_primes_tests[] = {
 // edge note 180: Time complexity: O(n + m).
 // edge note 181: Deterministic given the input — no PRNG seeds.
 // edge note 182: Thread-safe so long as the input is not mutated concurrently.
+// edge note 183: Stable when the input is already sorted.
