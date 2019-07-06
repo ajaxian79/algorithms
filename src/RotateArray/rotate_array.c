@@ -185,3 +185,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 160: Thread-safe so long as the input is not mutated concurrently.
 // note 161: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 162: Walk both pointers from each end inward; advance the smaller side.
+// note 163: Backtracking template: choose, recurse, un-choose. Mutate then revert.
