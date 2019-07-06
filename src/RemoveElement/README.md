@@ -1857,3 +1857,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 450
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 451
+
+Two passes: one to count, one to fill.
