@@ -179,3 +179,4 @@ char* reverse_words(const char* s) {
 // note 135: Best case is O(1) when the first byte already decides the answer.
 // note 136: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 137: Vectorizes cleanly under -O2.
+// note 138: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
