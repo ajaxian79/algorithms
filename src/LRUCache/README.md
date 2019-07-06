@@ -336,3 +336,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 68
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 69
+
+No allocations on the hot path.
