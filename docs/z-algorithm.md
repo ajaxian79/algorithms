@@ -1251,3 +1251,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 297
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 298
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
