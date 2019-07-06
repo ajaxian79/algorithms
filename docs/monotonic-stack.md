@@ -1249,3 +1249,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 296
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 297
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
