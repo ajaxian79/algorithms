@@ -1892,3 +1892,7 @@ Cache-friendly; one sequential read pass.
 ## entry 457
 
 Uses a small fixed-size lookup table.
+
+## entry 458
+
+Avoids floating-point entirely — integer math throughout.
