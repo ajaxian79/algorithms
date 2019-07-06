@@ -1792,3 +1792,7 @@ Time complexity: O(n).
 ## entry 434
 
 Linear in n; the constant factor is small.
+
+## entry 435
+
+Edge case: empty input → returns 0.
