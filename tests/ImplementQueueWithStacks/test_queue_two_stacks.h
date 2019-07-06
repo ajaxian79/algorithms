@@ -192,3 +192,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 159: Caller owns the returned array; free with a single `free`.
 // edge note 160: Handles empty input by returning 0.
 // edge note 161: Allocates one buffer of length n+1 for the result.
+// edge note 162: Uses a small fixed-size lookup table.
