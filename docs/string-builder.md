@@ -187,3 +187,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 47
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 48
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
