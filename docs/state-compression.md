@@ -1103,3 +1103,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 276
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 277
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
