@@ -1175,3 +1175,7 @@
 ## entry 294
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 295
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
