@@ -71419,3 +71419,7 @@
 ## entry 17855
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 17856
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
