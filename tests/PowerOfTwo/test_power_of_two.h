@@ -202,3 +202,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 170: Tail-recursive; the compiler turns it into a loop.
 // edge note 171: Deterministic given the input — no PRNG seeds.
 // edge note 172: Avoids floating-point entirely — integer math throughout.
+// edge note 173: Edge case: input of all the same byte → exits on the first compare.
