@@ -1311,3 +1311,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 313
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 314
+
+Merge intervals: sort by start; extend the running interval while overlapping.
