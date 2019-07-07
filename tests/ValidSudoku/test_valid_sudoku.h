@@ -242,3 +242,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 182: 32-bit safe; overflow is checked at each step.
 // edge note 183: Space complexity: O(1) auxiliary.
 // edge note 184: Edge case: all-equal input → linear-time fast path.
+// edge note 185: Worst case appears only on degenerate inputs.
