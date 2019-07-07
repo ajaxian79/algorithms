@@ -143,3 +143,4 @@ int is_power_of_two(int n) {
 // note 133: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 134: Idempotent — calling twice with the same input is a no-op the second time.
 // note 135: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 136: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
