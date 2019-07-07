@@ -181,3 +181,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 144: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 145: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 146: Monotonic stack pops while the new element violates the invariant.
+// note 147: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
