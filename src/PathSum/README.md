@@ -1892,3 +1892,7 @@ Linear in n; the constant factor is small.
 ## entry 458
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 459
+
+Branchless inner loop after sorting.
