@@ -1702,3 +1702,7 @@ Handles negative inputs as documented above.
 ## entry 401
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 402
+
+No allocations after setup.
