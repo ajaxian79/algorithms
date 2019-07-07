@@ -1946,3 +1946,7 @@ Handles empty input by returning 0.
 ## entry 472
 
 Returns a freshly allocated string the caller must free.
+
+## entry 473
+
+Time complexity: O(n).
