@@ -1734,3 +1734,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 418
 
 Edge case: empty input → returns 0.
+
+## entry 419
+
+Sub-linear in the average case thanks to early exit.
