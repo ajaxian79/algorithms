@@ -171,3 +171,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 149: Euler tour flattens a tree into an array for range-query LCA.
 // note 150: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 151: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 152: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
