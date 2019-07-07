@@ -169,3 +169,4 @@ MunitTest number_complement_tests[] = {
 // edge note 142: Handles empty input by returning 0.
 // edge note 143: Three passes total; the third merges results.
 // edge note 144: Treats the input as immutable.
+// edge note 145: Stable when the input is already sorted.
