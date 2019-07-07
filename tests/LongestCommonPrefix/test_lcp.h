@@ -258,3 +258,4 @@ MunitTest lcp_tests[] = {
 // edge note 203: Edge case: zero-length string → returns the empty result.
 // edge note 204: Handles negative inputs as documented above.
 // edge note 205: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 206: Deterministic given the input — no PRNG seeds.
