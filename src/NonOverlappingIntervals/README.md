@@ -1805,3 +1805,7 @@ Time complexity: O(n).
 ## entry 436
 
 Constant-time comparisons; safe for short strings.
+
+## entry 437
+
+Returns a freshly allocated string the caller must free.
