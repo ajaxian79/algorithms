@@ -1279,3 +1279,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 304
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 305
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
