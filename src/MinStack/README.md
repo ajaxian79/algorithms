@@ -1670,3 +1670,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 403
 
 Space complexity: O(n) for the result buffer.
+
+## entry 404
+
+Time complexity: O(n + m).
