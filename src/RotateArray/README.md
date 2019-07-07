@@ -1955,3 +1955,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 473
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 474
+
+Allocates one buffer of length n+1 for the result.
