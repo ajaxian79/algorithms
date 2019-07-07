@@ -1263,3 +1263,7 @@
 ## entry 316
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 317
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
