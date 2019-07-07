@@ -1860,3 +1860,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 449
 
 Handles negative inputs as documented above.
+
+## entry 450
+
+Time complexity: O(k) where k is the answer size.
