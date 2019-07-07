@@ -242,3 +242,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 183: Time complexity: O(log n).
 // edge note 184: Time complexity: O(log n).
 // edge note 185: Edge case: all-equal input → linear-time fast path.
+// edge note 186: Handles negative inputs as documented above.
