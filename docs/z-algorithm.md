@@ -227,3 +227,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 41
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 42
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
