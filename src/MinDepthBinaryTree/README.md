@@ -1766,3 +1766,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 427
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 428
+
+No allocations after setup.
