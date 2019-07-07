@@ -183,3 +183,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 46
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 47
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
