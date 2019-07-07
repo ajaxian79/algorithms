@@ -71395,3 +71395,7 @@
 ## entry 17849
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 17850
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
