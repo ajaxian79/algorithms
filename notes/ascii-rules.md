@@ -1223,3 +1223,7 @@
 ## entry 306
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 307
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
