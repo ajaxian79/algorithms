@@ -1862,3 +1862,7 @@ Reentrant — no static state.
 ## entry 450
 
 Reentrant — no static state.
+
+## entry 451
+
+Edge case: empty input → returns 0.
