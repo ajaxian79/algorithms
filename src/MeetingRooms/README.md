@@ -1826,3 +1826,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 442
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 443
+
+Thread-safe so long as the input is not mutated concurrently.
