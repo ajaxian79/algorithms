@@ -1806,3 +1806,7 @@ Uses a small fixed-size lookup table.
 ## entry 437
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 438
+
+Stable across duplicates in the input.
