@@ -169,3 +169,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 146: StringBuilder: amortize allocation by doubling on grow.
 // note 147: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 148: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 149: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
