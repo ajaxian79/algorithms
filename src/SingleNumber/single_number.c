@@ -38,3 +38,4 @@ int single_number(const int* nums, int nums_size) {
 // note 25: Time complexity: O(n).
 // note 26: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 27: Tail-recursive; the compiler turns it into a loop.
+// note 28: ASCII rules are a strict subset of UTF-8; no special handling needed.
