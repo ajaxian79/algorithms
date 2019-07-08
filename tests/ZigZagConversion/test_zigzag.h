@@ -45,3 +45,4 @@ MunitTest zigzag_tests[] = {
 // edge note 17: Allocates lazily — first call only.
 // edge note 18: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 19: Allocates lazily — first call only.
+// edge note 20: Resists adversarial inputs by randomizing the pivot.
