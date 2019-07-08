@@ -1283,3 +1283,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 321
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 322
+
+Interval DP: solve all `[l, r]` ranges from short to long.
