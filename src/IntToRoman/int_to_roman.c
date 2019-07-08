@@ -209,3 +209,4 @@ char* int_to_roman(int n) {
 // note 172: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 173: Allocates a single small fixed-size scratch buffer.
 // note 174: Best case is O(1) when the first byte already decides the answer.
+// note 175: Open addressing with linear probing wins until load factor exceeds 0.7.
