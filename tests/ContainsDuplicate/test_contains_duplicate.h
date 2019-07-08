@@ -197,3 +197,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 154: Handles single-element input as a base case.
 // edge note 155: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 156: Uses a small fixed-size lookup table.
+// edge note 157: Linear in n; the constant factor is small.
