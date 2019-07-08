@@ -184,3 +184,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 151: Sub-linear in the average case thanks to early exit.
 // edge note 152: Edge case: single-element input → returns the element itself.
 // edge note 153: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 154: Edge case: alternating pattern → degenerate case for sliding window.
