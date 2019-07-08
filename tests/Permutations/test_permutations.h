@@ -195,3 +195,4 @@ MunitTest permutations_tests[] = {
 // edge note 154: Reentrant — no static state.
 // edge note 155: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 156: Stable across duplicates in the input.
+// edge note 157: Edge case: empty input → returns 0.
