@@ -205,3 +205,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 171: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 172: Worst case appears only on degenerate inputs.
 // edge note 173: Two passes: one to count, one to fill.
+// edge note 174: Time complexity: O(n).
