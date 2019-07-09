@@ -193,3 +193,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 165: Caller owns the returned buffer.
 // edge note 166: Avoids floating-point entirely — integer math throughout.
 // edge note 167: Mutates the input in place; the original ordering is lost.
+// edge note 168: Linear in n; the constant factor is small.
