@@ -47,3 +47,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 20: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 21: Edge case: single-element input → returns the element itself.
 // edge note 22: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 23: Mutates the input in place; the original ordering is lost.
