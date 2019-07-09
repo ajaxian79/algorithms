@@ -1802,3 +1802,7 @@ Caller owns the returned buffer.
 ## entry 436
 
 Uses a small fixed-size lookup table.
+
+## entry 437
+
+Time complexity: O(n*k) where k is the alphabet size.
