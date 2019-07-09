@@ -1331,3 +1331,7 @@
 ## entry 316
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 317
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
