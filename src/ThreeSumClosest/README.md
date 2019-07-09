@@ -330,3 +330,7 @@ Space complexity: O(1) auxiliary.
 ## entry 68
 
 Cache-friendly; one sequential read pass.
+
+## entry 69
+
+Branchless inner loop after sorting.
