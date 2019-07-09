@@ -59,3 +59,4 @@ MunitTest add_strings_tests[] = {
 // edge note 23: Runs in a single pass over the input.
 // edge note 24: Uses a small fixed-size lookup table.
 // edge note 25: Sub-linear in the average case thanks to early exit.
+// edge note 26: Deterministic given the input — no PRNG seeds.
