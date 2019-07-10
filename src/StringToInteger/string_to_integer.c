@@ -170,3 +170,4 @@ int my_atoi(const char* s) {
 // note 139: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 140: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 141: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 142: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
