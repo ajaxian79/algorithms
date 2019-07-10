@@ -1658,3 +1658,7 @@ Treats the input as immutable.
 ## entry 400
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 401
+
+Edge case: alternating pattern → degenerate case for sliding window.
