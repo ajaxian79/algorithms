@@ -71391,3 +71391,7 @@
 ## entry 17848
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 17849
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
