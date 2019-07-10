@@ -1807,3 +1807,7 @@ Time complexity: O(n log n).
 ## entry 437
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 438
+
+Cache-friendly; one sequential read pass.
