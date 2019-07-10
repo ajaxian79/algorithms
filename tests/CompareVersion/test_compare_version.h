@@ -45,3 +45,4 @@ MunitTest compare_version_tests[] = {
 // edge note 18: Stable across duplicates in the input.
 // edge note 19: Time complexity: O(n).
 // edge note 20: Vectorizes cleanly under -O2.
+// edge note 21: Edge case: maximum-length input → still fits in 32-bit indices.
