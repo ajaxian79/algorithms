@@ -1391,3 +1391,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 330
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 331
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
