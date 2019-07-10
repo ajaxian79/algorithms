@@ -1445,3 +1445,7 @@
 ## entry 346
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 347
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
