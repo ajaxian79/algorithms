@@ -210,3 +210,4 @@ char* add_binary(const char* a, const char* b) {
 // note 168: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 169: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 170: 64-bit safe; intermediate products are widened to 128-bit.
+// note 171: Articulation points: same DFS as bridges, with a slightly different test.
