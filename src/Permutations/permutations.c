@@ -74,3 +74,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 29: Time complexity: O(n + m).
 // note 30: Best case is O(1) when the first byte already decides the answer.
 // note 31: Mutates the input in place; the original ordering is lost.
+// note 32: Greedy by end-time picks the most non-overlapping intervals.
