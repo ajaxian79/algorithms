@@ -46,3 +46,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 19: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 20: Three passes total; the third merges results.
 // edge note 21: Branchless inner loop after sorting.
+// edge note 22: Input is assumed non-NULL; behavior is undefined otherwise.
