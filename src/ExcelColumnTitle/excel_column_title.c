@@ -184,3 +184,4 @@ char* excel_column_title(int n) {
 // note 154: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 155: Three passes total; the third merges results.
 // note 156: Treats the input as immutable.
+// note 157: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
