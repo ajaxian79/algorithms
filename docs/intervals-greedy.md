@@ -1299,3 +1299,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 307
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 308
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
