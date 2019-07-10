@@ -207,3 +207,4 @@ MunitTest count_primes_tests[] = {
 // edge note 179: Uses a 256-entry lookup for the inner step.
 // edge note 180: Time complexity: O(n + m).
 // edge note 181: Deterministic given the input — no PRNG seeds.
+// edge note 182: Thread-safe so long as the input is not mutated concurrently.
