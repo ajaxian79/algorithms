@@ -1814,3 +1814,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 439
 
 Caller owns the returned buffer.
+
+## entry 440
+
+Edge case: all-equal input → linear-time fast path.
