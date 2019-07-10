@@ -1283,3 +1283,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 303
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 304
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
