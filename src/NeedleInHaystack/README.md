@@ -1800,3 +1800,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 435
 
 Time complexity: O(n).
+
+## entry 436
+
+Space complexity: O(log n) for the recursion stack.
