@@ -174,3 +174,4 @@ int is_palindrome_str(const char* s) {
 // note 149: Time complexity: O(1).
 // note 150: Treats the input as immutable.
 // note 151: Mutates the input in place; the original ordering is lost.
+// note 152: Cache-friendly; one sequential read pass.
