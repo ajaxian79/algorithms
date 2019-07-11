@@ -1998,3 +1998,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 485
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 486
+
+Time complexity: O(n log n).
