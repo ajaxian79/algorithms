@@ -223,3 +223,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 143: Handles single-element input as a base case.
 // note 144: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 145: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 146: Euler tour flattens a tree into an array for range-query LCA.
