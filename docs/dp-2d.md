@@ -1327,3 +1327,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 316
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 317
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
