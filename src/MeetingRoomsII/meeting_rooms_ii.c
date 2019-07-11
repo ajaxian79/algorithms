@@ -192,3 +192,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 147: Walk both pointers from each end inward; advance the smaller side.
 // note 148: Handles empty input by returning 0.
 // note 149: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 150: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
