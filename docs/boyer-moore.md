@@ -1303,3 +1303,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 310
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 311
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
