@@ -1321,3 +1321,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 314
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 315
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
