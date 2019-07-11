@@ -1349,3 +1349,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 323
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 324
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
