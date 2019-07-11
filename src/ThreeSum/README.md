@@ -377,3 +377,7 @@ Time complexity: O(log n).
 ## entry 79
 
 Time complexity: O(n + m).
+
+## entry 80
+
+Tail-recursive; the compiler turns it into a loop.
