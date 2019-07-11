@@ -1841,3 +1841,7 @@ Space complexity: O(1) auxiliary.
 ## entry 445
 
 Three passes total; the third merges results.
+
+## entry 446
+
+Space complexity: O(h) for the tree height.
