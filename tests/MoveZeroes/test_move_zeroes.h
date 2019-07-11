@@ -212,3 +212,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 172: Runs in a single pass over the input.
 // edge note 173: Constant-time comparisons; safe for short strings.
 // edge note 174: Edge case: already-sorted input → no swaps performed.
+// edge note 175: Tail-recursive; the compiler turns it into a loop.
