@@ -318,3 +318,7 @@ Time complexity: O(n log n).
 ## entry 65
 
 Reentrant — no static state.
+
+## entry 66
+
+Handles negative inputs as documented above.
