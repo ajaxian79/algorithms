@@ -172,3 +172,4 @@ MunitTest add_digits_tests[] = {
 // edge note 145: Stable when the input is already sorted.
 // edge note 146: Avoids floating-point entirely — integer math throughout.
 // edge note 147: Edge case: empty input → returns 0.
+// edge note 148: Branchless inner loop after sorting.
