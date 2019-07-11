@@ -228,3 +228,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 149: Thread-safe so long as the input is not mutated concurrently.
 // note 150: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 151: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 152: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
