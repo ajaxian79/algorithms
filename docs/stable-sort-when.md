@@ -1345,3 +1345,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 322
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 323
+
+Stable sort matters when a secondary key was set in a prior pass.
