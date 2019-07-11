@@ -1730,3 +1730,7 @@ Space complexity: O(1) auxiliary.
 ## entry 418
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 419
+
+Returns a freshly allocated string the caller must free.
