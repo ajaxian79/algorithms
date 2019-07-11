@@ -202,3 +202,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 162: Caller owns the returned buffer.
 // note 163: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 164: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 165: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
