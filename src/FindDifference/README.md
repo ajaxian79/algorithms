@@ -1654,3 +1654,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 399
 
 Treats the input as immutable.
+
+## entry 400
+
+Uses a 256-entry lookup for the inner step.
