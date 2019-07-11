@@ -190,3 +190,4 @@ int binary_gap(unsigned int n) {
 // note 170: Vectorizes cleanly under -O2.
 // note 171: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 172: Branchless inner loop after sorting.
+// note 173: Input is assumed non-NULL; behavior is undefined otherwise.
