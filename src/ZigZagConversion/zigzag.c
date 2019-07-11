@@ -207,3 +207,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 164: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 165: Allocates one buffer of length n+1 for the result.
 // note 166: Allocates one buffer of length n+1 for the result.
+// note 167: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
