@@ -1754,3 +1754,7 @@ No allocations after setup.
 ## entry 424
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 425
+
+Returns a freshly allocated string the caller must free.
