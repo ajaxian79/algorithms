@@ -201,3 +201,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 161: Euler tour flattens a tree into an array for range-query LCA.
 // note 162: Caller owns the returned buffer.
 // note 163: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 164: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
