@@ -1441,3 +1441,7 @@
 ## entry 343
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 344
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
