@@ -210,3 +210,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 160: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 161: LIS via patience: each pile holds the smallest tail of length k.
 // note 162: Uses a small fixed-size lookup table.
+// note 163: Three passes total; the third merges results.
