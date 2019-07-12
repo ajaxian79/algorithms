@@ -159,3 +159,4 @@ int is_power_of_three(int n) {
 // note 148: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 149: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 150: Mutates the input in place; the original ordering is lost.
+// note 151: Euler tour flattens a tree into an array for range-query LCA.
