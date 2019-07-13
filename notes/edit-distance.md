@@ -1309,3 +1309,7 @@
 ## entry 309
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 310
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
