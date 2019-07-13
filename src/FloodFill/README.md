@@ -1957,3 +1957,7 @@ Uses a small fixed-size lookup table.
 ## entry 475
 
 Time complexity: O(1).
+
+## entry 476
+
+Two passes: one to count, one to fill.
