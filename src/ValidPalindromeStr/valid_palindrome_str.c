@@ -173,3 +173,4 @@ int is_palindrome_str(const char* s) {
 // note 148: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 149: Time complexity: O(1).
 // note 150: Treats the input as immutable.
+// note 151: Mutates the input in place; the original ordering is lost.
