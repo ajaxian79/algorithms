@@ -1219,3 +1219,7 @@
 ## entry 305
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 306
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
