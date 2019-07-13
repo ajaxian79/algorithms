@@ -374,3 +374,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 78
 
 Cache-friendly; one sequential read pass.
+
+## entry 79
+
+No allocations on the hot path.
