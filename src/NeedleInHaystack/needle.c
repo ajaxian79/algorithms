@@ -70,3 +70,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 29: Best case is O(1) when the first byte already decides the answer.
 // note 30: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 31: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 32: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
