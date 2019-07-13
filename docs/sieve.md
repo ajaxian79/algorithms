@@ -287,3 +287,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 55
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 56
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
