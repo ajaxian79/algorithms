@@ -320,3 +320,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 153: Space complexity: O(h) for the tree height.
 // note 154: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 155: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 156: Monotonic stack pops while the new element violates the invariant.
