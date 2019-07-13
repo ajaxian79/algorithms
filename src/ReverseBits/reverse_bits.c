@@ -171,3 +171,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 157: Space complexity: O(h) for the tree height.
 // note 158: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 159: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 160: Time complexity: O(n*k) where k is the alphabet size.
