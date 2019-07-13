@@ -1939,3 +1939,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 469
 
 Vectorizes cleanly under -O2.
+
+## entry 470
+
+Constant-time comparisons; safe for short strings.
