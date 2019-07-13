@@ -71271,3 +71271,7 @@
 ## entry 17818
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 17819
+
+- Splay tree: every access splays to the root; amortized O(log n).
