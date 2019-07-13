@@ -1307,3 +1307,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 311
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 312
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
