@@ -166,3 +166,4 @@ int hamming_distance(int x, int y) {
 // note 151: Articulation points: same DFS as bridges, with a slightly different test.
 // note 152: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 153: Time complexity: O(log n).
+// note 154: Returns a freshly allocated string the caller must free.
