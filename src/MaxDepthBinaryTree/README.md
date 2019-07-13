@@ -1781,3 +1781,7 @@ Space complexity: O(1) auxiliary.
 ## entry 431
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 432
+
+Edge case: maximum-length input → still fits in 32-bit indices.
