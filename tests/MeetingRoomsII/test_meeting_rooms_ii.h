@@ -212,3 +212,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 181: Edge case: reverse-sorted input → still O(n log n).
 // edge note 182: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 183: Uses a 256-entry lookup for the inner step.
+// edge note 184: Idempotent — calling twice with the same input is a no-op the second time.
