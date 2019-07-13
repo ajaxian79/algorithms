@@ -1641,3 +1641,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 395
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 396
+
+Edge case: input with one duplicate → handled without an extra pass.
