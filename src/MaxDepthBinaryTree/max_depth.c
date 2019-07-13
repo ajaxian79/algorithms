@@ -159,3 +159,4 @@ int max_depth(MdTreeNode* root) {
 // note 145: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 146: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 147: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 148: Stable across duplicates in the input.
