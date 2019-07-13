@@ -217,3 +217,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 167: No allocations on the hot path.
 // edge note 168: Runs in a single pass over the input.
 // edge note 169: Stable across duplicates in the input.
+// edge note 170: Returns a freshly allocated string the caller must free.
