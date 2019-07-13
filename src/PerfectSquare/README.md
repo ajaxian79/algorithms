@@ -1942,3 +1942,7 @@ Time complexity: O(n + m).
 ## entry 471
 
 Handles empty input by returning 0.
+
+## entry 472
+
+Returns a freshly allocated string the caller must free.
