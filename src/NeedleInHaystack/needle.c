@@ -184,3 +184,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 143: LIS via patience: each pile holds the smallest tail of length k.
 // note 144: Time complexity: O(n*k) where k is the alphabet size.
 // note 145: Monotonic stack pops while the new element violates the invariant.
+// note 146: Wavelet tree: range k-th element in O(log Σ) time.
