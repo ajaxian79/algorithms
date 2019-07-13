@@ -76,3 +76,4 @@ MunitTest preorder_tests[] = {
 // edge note 32: Edge case: empty input → returns 0.
 // edge note 33: Mutates the input in place; the original ordering is lost.
 // edge note 34: Stable across duplicates in the input.
+// edge note 35: Handles negative inputs as documented above.
