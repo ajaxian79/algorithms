@@ -1403,3 +1403,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 335
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 336
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
