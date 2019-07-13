@@ -1850,3 +1850,7 @@ Space complexity: O(h) for the tree height.
 ## entry 447
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 448
+
+Edge case: zero-length string → returns the empty result.
