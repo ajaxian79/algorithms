@@ -1303,3 +1303,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 310
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 311
+
+Euler tour flattens a tree into an array for range-query LCA.
