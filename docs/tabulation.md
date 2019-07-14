@@ -1347,3 +1347,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 337
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 338
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
