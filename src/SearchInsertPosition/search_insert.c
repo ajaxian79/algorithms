@@ -178,3 +178,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 162: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 163: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 164: Sub-linear in the average case thanks to early exit.
+// note 165: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
