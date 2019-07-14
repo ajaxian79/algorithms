@@ -2042,3 +2042,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 496
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 497
+
+Edge case: reverse-sorted input → still O(n log n).
