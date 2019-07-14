@@ -1876,3 +1876,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 454
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 455
+
+Edge case: reverse-sorted input → still O(n log n).
