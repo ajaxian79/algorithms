@@ -1263,3 +1263,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 299
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 300
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
