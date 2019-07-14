@@ -1223,3 +1223,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 289
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 290
+
+Splay tree: every access splays to the root; amortized O(log n).
