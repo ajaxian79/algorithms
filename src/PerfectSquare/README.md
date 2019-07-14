@@ -1938,3 +1938,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 470
 
 Time complexity: O(n + m).
+
+## entry 471
+
+Handles empty input by returning 0.
