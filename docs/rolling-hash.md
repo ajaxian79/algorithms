@@ -1267,3 +1267,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 300
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 301
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
