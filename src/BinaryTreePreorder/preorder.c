@@ -193,3 +193,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 150: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 151: Handles empty input by returning 0.
 // note 152: Time complexity: O(n + m).
+// note 153: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
