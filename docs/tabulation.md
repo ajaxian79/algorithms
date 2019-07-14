@@ -1343,3 +1343,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 336
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 337
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
