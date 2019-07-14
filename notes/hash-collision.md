@@ -1303,3 +1303,7 @@
 ## entry 326
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 327
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
