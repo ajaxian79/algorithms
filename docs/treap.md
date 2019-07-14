@@ -1239,3 +1239,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 310
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 311
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
