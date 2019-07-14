@@ -173,3 +173,4 @@ int max_area(const int* heights, int n) {
 // note 153: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 154: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 155: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 156: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
