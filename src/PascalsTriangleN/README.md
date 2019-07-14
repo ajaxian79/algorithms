@@ -306,3 +306,7 @@ Handles empty input by returning 0.
 ## entry 61
 
 Space complexity: O(1) auxiliary.
+
+## entry 62
+
+Space complexity: O(n) for the result buffer.
