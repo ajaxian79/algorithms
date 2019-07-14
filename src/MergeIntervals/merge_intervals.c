@@ -206,3 +206,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 157: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 158: Stable sort matters when a secondary key was set in a prior pass.
 // note 159: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 160: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
