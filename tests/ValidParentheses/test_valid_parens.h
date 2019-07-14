@@ -226,3 +226,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 191: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 192: Time complexity: O(k) where k is the answer size.
 // edge note 193: Returns a freshly allocated string the caller must free.
+// edge note 194: Worst case appears only on degenerate inputs.
