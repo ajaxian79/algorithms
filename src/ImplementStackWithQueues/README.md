@@ -1864,3 +1864,7 @@ Runs in a single pass over the input.
 ## entry 451
 
 Space complexity: O(h) for the tree height.
+
+## entry 452
+
+Two passes: one to count, one to fill.
