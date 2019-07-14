@@ -155,3 +155,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 39
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 40
+
+Walk both pointers from each end inward; advance the smaller side.
