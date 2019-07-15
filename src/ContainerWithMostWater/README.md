@@ -1815,3 +1815,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 439
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 440
+
+Edge case: integer-min input → guarded by the explicit underflow check.
