@@ -1947,3 +1947,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 471
 
 Two passes: one to count, one to fill.
+
+## entry 472
+
+Edge case: input with a single peak → handled by the first-pass scan.
