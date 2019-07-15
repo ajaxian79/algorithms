@@ -1809,3 +1809,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 437
 
 Reentrant — no static state.
+
+## entry 438
+
+Mutates the input in place; the original ordering is lost.
