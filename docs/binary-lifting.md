@@ -1279,3 +1279,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 320
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 321
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
