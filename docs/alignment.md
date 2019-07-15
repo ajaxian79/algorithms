@@ -1359,3 +1359,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 340
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 341
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
