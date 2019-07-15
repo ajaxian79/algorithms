@@ -1723,3 +1723,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 416
 
 Linear in n; the constant factor is small.
+
+## entry 417
+
+Cache-friendly; one sequential read pass.
