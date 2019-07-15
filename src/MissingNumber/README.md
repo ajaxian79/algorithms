@@ -370,3 +370,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 77
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 78
+
+Cache-friendly; one sequential read pass.
