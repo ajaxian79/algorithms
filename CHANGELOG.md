@@ -71215,3 +71215,7 @@
 ## entry 17804
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 17805
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
