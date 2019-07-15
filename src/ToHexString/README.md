@@ -1719,3 +1719,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 415
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 416
+
+Linear in n; the constant factor is small.
