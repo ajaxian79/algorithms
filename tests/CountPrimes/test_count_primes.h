@@ -206,3 +206,4 @@ MunitTest count_primes_tests[] = {
 // edge note 178: Space complexity: O(h) for the tree height.
 // edge note 179: Uses a 256-entry lookup for the inner step.
 // edge note 180: Time complexity: O(n + m).
+// edge note 181: Deterministic given the input — no PRNG seeds.
