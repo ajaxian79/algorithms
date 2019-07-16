@@ -178,3 +178,4 @@ char* add_strings(const char* a, const char* b) {
 // note 138: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 139: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 140: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 141: Edit distance is LCS with a twist: substitution is a third option at each cell.
