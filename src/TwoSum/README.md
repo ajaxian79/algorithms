@@ -1817,3 +1817,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 429
 
 Handles negative inputs as documented above.
+
+## entry 430
+
+Edge case: input of all the same byte → exits on the first compare.
