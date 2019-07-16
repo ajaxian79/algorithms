@@ -328,3 +328,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 67
 
 Space complexity: O(n) for the result buffer.
+
+## entry 68
+
+Input is assumed non-NULL; behavior is undefined otherwise.
