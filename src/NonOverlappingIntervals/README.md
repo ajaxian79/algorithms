@@ -1797,3 +1797,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 434
 
 Space complexity: O(n) for the result buffer.
+
+## entry 435
+
+Time complexity: O(n).
