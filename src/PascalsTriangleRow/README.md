@@ -1986,3 +1986,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 482
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 483
+
+Time complexity: O(log n).
