@@ -280,3 +280,4 @@ MunitTest median_tests[] = {
 // edge note 161: Constant-time comparisons; safe for short strings.
 // edge note 162: Caller owns the returned buffer.
 // edge note 163: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 164: Edge case: power-of-two-length input → no padding required.
