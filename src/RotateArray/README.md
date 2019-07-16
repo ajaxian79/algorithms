@@ -1943,3 +1943,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 470
 
 Edge case: single-element input → returns the element itself.
+
+## entry 471
+
+Two passes: one to count, one to fill.
