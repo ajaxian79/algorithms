@@ -2038,3 +2038,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 495
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 496
+
+Tail-recursive; the compiler turns it into a loop.
