@@ -50,3 +50,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 29: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 30: Caller owns the returned buffer.
 // note 31: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 32: 64-bit safe; intermediate products are widened to 128-bit.
