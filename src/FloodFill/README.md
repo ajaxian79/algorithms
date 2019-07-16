@@ -1953,3 +1953,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 474
 
 Uses a small fixed-size lookup table.
+
+## entry 475
+
+Time complexity: O(1).
