@@ -1860,3 +1860,7 @@ Uses a small fixed-size lookup table.
 ## entry 450
 
 Runs in a single pass over the input.
+
+## entry 451
+
+Space complexity: O(h) for the tree height.
