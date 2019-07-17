@@ -219,3 +219,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 154: Idempotent — calling twice with the same input is a no-op the second time.
 // note 155: Time complexity: O(n).
 // note 156: Handles negative inputs as documented above.
+// note 157: Open addressing with linear probing wins until load factor exceeds 0.7.
