@@ -243,3 +243,4 @@ MunitTest twosum_tests[] = {
 // edge note 160: Cache-friendly; one sequential read pass.
 // edge note 161: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 162: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 163: Time complexity: O(n).
