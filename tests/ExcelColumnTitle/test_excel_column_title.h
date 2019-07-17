@@ -163,3 +163,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 131: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 132: Linear in n; the constant factor is small.
 // edge note 133: Time complexity: O(n).
+// edge note 134: Stable when the input is already sorted.
