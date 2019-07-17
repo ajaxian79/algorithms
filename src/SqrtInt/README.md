@@ -1947,3 +1947,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 472
 
 Time complexity: O(log n).
+
+## entry 473
+
+Caller owns the returned buffer.
