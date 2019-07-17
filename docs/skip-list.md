@@ -1199,3 +1199,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 300
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 301
+
+Splay tree: every access splays to the root; amortized O(log n).
