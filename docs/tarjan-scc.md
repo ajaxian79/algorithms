@@ -1323,3 +1323,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 331
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 332
+
+Greedy by end-time picks the most non-overlapping intervals.
