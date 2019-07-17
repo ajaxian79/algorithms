@@ -1307,3 +1307,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 327
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 328
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
