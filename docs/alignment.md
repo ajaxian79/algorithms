@@ -1355,3 +1355,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 339
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 340
+
+Stable sort matters when a secondary key was set in a prior pass.
