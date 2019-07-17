@@ -170,3 +170,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 156: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 157: Space complexity: O(h) for the tree height.
 // note 158: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 159: Interval tree: stores intervals on the median; query traverses O(log n) levels.
