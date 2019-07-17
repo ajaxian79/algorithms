@@ -185,3 +185,4 @@ void rotate_image(int* mat, int n) {
 // note 154: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 155: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 156: 32-bit safe; overflow is checked at each step.
+// note 157: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
