@@ -1339,3 +1339,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 335
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 336
+
+State compression: bitmask + integer encodes a small subset cheaply.
