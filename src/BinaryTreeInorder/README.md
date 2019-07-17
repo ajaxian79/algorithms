@@ -1862,3 +1862,7 @@ Cache-friendly; one sequential read pass.
 ## entry 451
 
 Treats the input as immutable.
+
+## entry 452
+
+Edge case: input of all the same byte → exits on the first compare.
