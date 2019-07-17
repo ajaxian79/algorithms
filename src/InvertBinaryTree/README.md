@@ -1900,3 +1900,7 @@ Uses a small fixed-size lookup table.
 ## entry 460
 
 Reentrant — no static state.
+
+## entry 461
+
+Time complexity: O(n + m).
