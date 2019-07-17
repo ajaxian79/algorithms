@@ -247,3 +247,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 168: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 169: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 170: Wavelet tree: range k-th element in O(log Σ) time.
+// note 171: Stable across duplicates in the input.
