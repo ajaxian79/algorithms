@@ -220,3 +220,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 184: Edge case: input of all the same byte → exits on the first compare.
 // edge note 185: Time complexity: O(k) where k is the answer size.
 // edge note 186: Edge case: zero-length string → returns the empty result.
+// edge note 187: Edge case: input with a single peak → handled by the first-pass scan.
