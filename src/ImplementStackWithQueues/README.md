@@ -1856,3 +1856,7 @@ Linear in n; the constant factor is small.
 ## entry 449
 
 Uses a small fixed-size lookup table.
+
+## entry 450
+
+Runs in a single pass over the input.
