@@ -2034,3 +2034,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 494
 
 Constant-time comparisons; safe for short strings.
+
+## entry 495
+
+Mutates the input in place; the original ordering is lost.
