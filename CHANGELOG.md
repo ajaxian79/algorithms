@@ -71147,3 +71147,7 @@
 ## entry 17787
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 17788
+
+- LIS via patience: each pile holds the smallest tail of length k.
