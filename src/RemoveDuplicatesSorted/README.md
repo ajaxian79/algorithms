@@ -2030,3 +2030,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 493
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 494
+
+Constant-time comparisons; safe for short strings.
