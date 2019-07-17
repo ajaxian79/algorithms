@@ -1806,3 +1806,7 @@ Runs in a single pass over the input.
 ## entry 436
 
 Runs in a single pass over the input.
+
+## entry 437
+
+Edge case: input with one duplicate → handled without an extra pass.
