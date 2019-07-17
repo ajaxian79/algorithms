@@ -1805,3 +1805,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 436
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 437
+
+Reentrant — no static state.
