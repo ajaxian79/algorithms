@@ -1934,3 +1934,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 469
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 470
+
+Time complexity: O(n + m).
