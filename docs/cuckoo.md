@@ -1147,3 +1147,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 287
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 288
+
+Interval DP: solve all `[l, r]` ranges from short to long.
