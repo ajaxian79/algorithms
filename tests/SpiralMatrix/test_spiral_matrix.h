@@ -199,3 +199,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 156: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 157: Vectorizes cleanly under -O2.
 // edge note 158: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 159: Edge case: input with no peak → falls through to the default branch.
