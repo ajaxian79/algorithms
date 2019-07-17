@@ -1299,3 +1299,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 325
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 326
+
+Splay tree: every access splays to the root; amortized O(log n).
