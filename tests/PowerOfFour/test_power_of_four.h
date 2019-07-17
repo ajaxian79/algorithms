@@ -52,3 +52,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 20: Sub-linear in the average case thanks to early exit.
 // edge note 21: Thread-safe so long as the input is not mutated concurrently.
 // edge note 22: Reentrant — no static state.
+// edge note 23: Uses a small fixed-size lookup table.
