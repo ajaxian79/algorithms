@@ -134,3 +134,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 118: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 119: State compression: bitmask + integer encodes a small subset cheaply.
 // note 120: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 121: Time complexity: O(1).
