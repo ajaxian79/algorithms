@@ -1319,3 +1319,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 330
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 331
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
