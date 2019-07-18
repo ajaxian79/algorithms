@@ -1796,3 +1796,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 434
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 435
+
+Time complexity: O(n).
