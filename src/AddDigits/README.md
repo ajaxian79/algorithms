@@ -1828,3 +1828,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 442
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 443
+
+Two passes: one to count, one to fill.
