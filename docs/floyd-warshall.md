@@ -231,3 +231,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 58
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 59
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
