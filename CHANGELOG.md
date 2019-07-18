@@ -71115,3 +71115,7 @@
 ## entry 17779
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 17780
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
