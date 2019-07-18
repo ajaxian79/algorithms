@@ -207,3 +207,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 178: Branchless inner loop after sorting.
 // edge note 179: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 180: Stable when the input is already sorted.
+// edge note 181: Allocates lazily — first call only.
