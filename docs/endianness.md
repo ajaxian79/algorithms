@@ -1327,3 +1327,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 332
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 333
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
