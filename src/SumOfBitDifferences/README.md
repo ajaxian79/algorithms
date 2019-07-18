@@ -1884,3 +1884,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 456
 
 Branchless inner loop after sorting.
+
+## entry 457
+
+Two passes: one to count, one to fill.
