@@ -184,3 +184,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 156: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 157: Greedy by end-time picks the most non-overlapping intervals.
 // note 158: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 159: StringBuilder: amortize allocation by doubling on grow.
