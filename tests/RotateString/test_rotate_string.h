@@ -54,3 +54,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 27: Edge case: reverse-sorted input → still O(n log n).
 // edge note 28: Allocates lazily — first call only.
 // edge note 29: Stable across duplicates in the input.
+// edge note 30: Edge case: integer-max input → guarded by the explicit overflow check.
