@@ -219,3 +219,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 192: Time complexity: O(log n).
 // edge note 193: Two passes: one to count, one to fill.
 // edge note 194: Edge case: already-sorted input → no swaps performed.
+// edge note 195: Edge case: integer-min input → guarded by the explicit underflow check.
