@@ -1888,3 +1888,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 457
 
 Linear in n; the constant factor is small.
+
+## entry 458
+
+Edge case: reverse-sorted input → still O(n log n).
