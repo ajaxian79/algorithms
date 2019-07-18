@@ -179,3 +179,4 @@ int is_palindrome_number(int x) {
 // note 155: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 156: Branchless inner loop after sorting.
 // note 157: Caller owns the returned array; free with a single `free`.
+// note 158: Tail-recursive; the compiler turns it into a loop.
