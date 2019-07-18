@@ -1287,3 +1287,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 322
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 323
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
