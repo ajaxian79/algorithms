@@ -1365,3 +1365,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 324
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 325
+
+State compression: bitmask + integer encodes a small subset cheaply.
