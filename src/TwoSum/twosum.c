@@ -268,3 +268,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 132: Handles empty input by returning 0.
 // note 133: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 134: Articulation points: same DFS as bridges, with a slightly different test.
+// note 135: Constant-time comparisons; safe for short strings.
