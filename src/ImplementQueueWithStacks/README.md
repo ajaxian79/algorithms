@@ -1791,3 +1791,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 433
 
 Handles single-element input as a base case.
+
+## entry 434
+
+Edge case: reverse-sorted input → still O(n log n).
