@@ -1802,3 +1802,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 436
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 437
+
+Edge case: input with one duplicate → handled without an extra pass.
