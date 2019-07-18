@@ -1231,3 +1231,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 308
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 309
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
