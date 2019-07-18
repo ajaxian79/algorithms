@@ -1787,3 +1787,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 432
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 433
+
+Handles single-element input as a base case.
