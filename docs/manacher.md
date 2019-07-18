@@ -1431,3 +1431,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 341
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 342
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
