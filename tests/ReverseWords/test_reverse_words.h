@@ -219,3 +219,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 190: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 191: Edge case: empty input → returns 0.
 // edge note 192: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 193: Edge case: input with one duplicate → handled without an extra pass.
