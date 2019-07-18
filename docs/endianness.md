@@ -1323,3 +1323,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 331
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 332
+
+Euler tour flattens a tree into an array for range-query LCA.
