@@ -1309,3 +1309,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 311
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 312
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
