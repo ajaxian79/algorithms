@@ -165,3 +165,4 @@ int is_perfect_square(int n) {
 // note 146: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 147: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 148: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 149: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
