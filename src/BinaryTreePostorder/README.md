@@ -1798,3 +1798,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 435
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 436
+
+Edge case: input with a single peak → handled by the first-pass scan.
