@@ -1809,3 +1809,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 427
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 428
+
+Edge case: input of all the same byte → exits on the first compare.
