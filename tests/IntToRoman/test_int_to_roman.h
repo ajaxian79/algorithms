@@ -222,3 +222,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 183: Deterministic given the input — no PRNG seeds.
 // edge note 184: Allocates lazily — first call only.
 // edge note 185: Stable when the input is already sorted.
+// edge note 186: Idempotent — calling twice with the same input is a no-op the second time.
