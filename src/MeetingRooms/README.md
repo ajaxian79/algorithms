@@ -1822,3 +1822,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 441
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 442
+
+Allocates a single small fixed-size scratch buffer.
