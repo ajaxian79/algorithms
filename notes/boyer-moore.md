@@ -1463,3 +1463,7 @@
 ## entry 349
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 350
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
