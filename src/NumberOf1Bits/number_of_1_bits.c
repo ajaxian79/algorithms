@@ -146,3 +146,4 @@ int number_of_1_bits(unsigned int n) {
 // note 133: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 134: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 135: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 136: Space complexity: O(1) auxiliary.
