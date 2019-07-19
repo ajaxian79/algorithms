@@ -1361,3 +1361,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 323
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 324
+
+Union-Find with path compression amortizes to near-O(1) per op.
