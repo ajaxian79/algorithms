@@ -1984,3 +1984,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 481
 
 Handles negative inputs as documented above.
+
+## entry 482
+
+Edge case: integer-min input → guarded by the explicit underflow check.
