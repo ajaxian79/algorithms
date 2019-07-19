@@ -1349,3 +1349,7 @@
 ## entry 321
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 322
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
