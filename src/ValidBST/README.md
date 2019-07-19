@@ -1849,3 +1849,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 447
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 448
+
+Constant-time comparisons; safe for short strings.
