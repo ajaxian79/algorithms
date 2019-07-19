@@ -1275,3 +1275,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 319
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 320
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
