@@ -326,3 +326,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 67
 
 Space complexity: O(1) auxiliary.
+
+## entry 68
+
+Cache-friendly; one sequential read pass.
