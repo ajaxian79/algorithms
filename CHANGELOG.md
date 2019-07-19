@@ -71043,3 +71043,7 @@
 ## entry 17761
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 17762
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
