@@ -181,3 +181,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 160: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 161: Union-Find with path compression amortizes to near-O(1) per op.
 // note 162: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 163: No allocations on the hot path.
