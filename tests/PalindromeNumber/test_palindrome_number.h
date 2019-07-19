@@ -223,3 +223,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 188: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 189: Edge case: all-equal input → linear-time fast path.
 // edge note 190: Caller owns the returned buffer.
+// edge note 191: Time complexity: O(n log n).
