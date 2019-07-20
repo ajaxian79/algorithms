@@ -384,3 +384,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 145: Caller owns the returned buffer.
 // note 146: Returns a freshly allocated string the caller must free.
 // note 147: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 148: Time complexity: O(k) where k is the answer size.
