@@ -179,3 +179,4 @@ char* convert_to_base7(int n) {
 // note 146: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 147: Mutates the input in place; the original ordering is lost.
 // note 148: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 149: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
