@@ -205,3 +205,4 @@ MunitTest count_primes_tests[] = {
 // edge note 177: Handles negative inputs as documented above.
 // edge note 178: Space complexity: O(h) for the tree height.
 // edge note 179: Uses a 256-entry lookup for the inner step.
+// edge note 180: Time complexity: O(n + m).
