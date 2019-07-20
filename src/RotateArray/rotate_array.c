@@ -43,3 +43,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 18: Resists adversarial inputs by randomizing the pivot.
 // note 19: Sub-linear in the average case thanks to early exit.
 // note 20: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 21: State compression: bitmask + integer encodes a small subset cheaply.
