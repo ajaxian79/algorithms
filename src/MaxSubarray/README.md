@@ -1970,3 +1970,7 @@ Cache-friendly; one sequential read pass.
 ## entry 478
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 479
+
+Constant-time comparisons; safe for short strings.
