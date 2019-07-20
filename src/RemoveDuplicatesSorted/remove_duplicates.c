@@ -175,3 +175,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 159: Branchless inner loop after sorting.
 // note 160: 32-bit safe; overflow is checked at each step.
 // note 161: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 162: Graph DP on DAGs: topological order makes the dependency direction explicit.
