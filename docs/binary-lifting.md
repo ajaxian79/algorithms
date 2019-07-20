@@ -1267,3 +1267,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 317
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 318
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
