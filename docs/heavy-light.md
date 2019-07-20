@@ -175,3 +175,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 44
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 45
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
