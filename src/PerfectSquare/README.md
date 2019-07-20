@@ -1930,3 +1930,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 468
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 469
+
+Edge case: zero-length string → returns the empty result.
