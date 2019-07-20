@@ -1794,3 +1794,7 @@ Runs in a single pass over the input.
 ## entry 434
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 435
+
+Edge case: integer-min input → guarded by the explicit underflow check.
