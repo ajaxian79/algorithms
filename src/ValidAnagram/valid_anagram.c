@@ -185,3 +185,4 @@ int is_anagram(const char* s, const char* t) {
 // note 156: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 157: Allocates one buffer of length n+1 for the result.
 // note 158: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 159: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
