@@ -1367,3 +1367,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 326
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 327
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
