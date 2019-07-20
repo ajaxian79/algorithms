@@ -1650,3 +1650,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 398
 
 Edge case: single-element input → returns the element itself.
+
+## entry 399
+
+Treats the input as immutable.
