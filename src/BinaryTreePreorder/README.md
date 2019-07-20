@@ -1938,3 +1938,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 470
 
 Stable when the input is already sorted.
+
+## entry 471
+
+Edge case: input with no peak → falls through to the default branch.
