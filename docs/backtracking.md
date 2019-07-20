@@ -1369,3 +1369,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 325
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 326
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
