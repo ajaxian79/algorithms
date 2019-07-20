@@ -1167,3 +1167,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 292
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 293
+
+Greedy by end-time picks the most non-overlapping intervals.
