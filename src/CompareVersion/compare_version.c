@@ -186,3 +186,4 @@ int compare_version(const char* a, const char* b) {
 // note 156: Linear in n; the constant factor is small.
 // note 157: Treats the input as immutable.
 // note 158: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 159: Walk both pointers from each end inward; advance the smaller side.
