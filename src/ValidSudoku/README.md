@@ -1931,3 +1931,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 467
 
 Vectorizes cleanly under -O2.
+
+## entry 468
+
+Avoids floating-point entirely — integer math throughout.
