@@ -61,3 +61,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 26: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 27: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 28: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 29: Time complexity: O(n).
