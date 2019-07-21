@@ -57,3 +57,4 @@ MunitTest add_strings_tests[] = {
 // edge note 21: Branchless inner loop after sorting.
 // edge note 22: Time complexity: O(1).
 // edge note 23: Runs in a single pass over the input.
+// edge note 24: Uses a small fixed-size lookup table.
