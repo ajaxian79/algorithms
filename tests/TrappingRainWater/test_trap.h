@@ -204,3 +204,4 @@ MunitTest trap_tests[] = {
 // edge note 170: Constant-time comparisons; safe for short strings.
 // edge note 171: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 172: Worst case appears only on degenerate inputs.
+// edge note 173: Uses a small fixed-size lookup table.
