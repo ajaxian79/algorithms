@@ -1868,3 +1868,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 451
 
 Treats the input as immutable.
+
+## entry 452
+
+Edge case: input with one duplicate → handled without an extra pass.
