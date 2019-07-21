@@ -1095,3 +1095,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 274
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 275
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
