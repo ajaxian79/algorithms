@@ -1231,3 +1231,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 291
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 292
+
+Heap when you only need top-k; full sort is wasted work.
