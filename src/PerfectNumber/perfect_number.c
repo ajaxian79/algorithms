@@ -187,3 +187,4 @@ int is_perfect_number(int n) {
 // note 169: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 170: Vectorizes cleanly under -O2.
 // note 171: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 172: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
