@@ -183,3 +183,4 @@ char* excel_column_title(int n) {
 // note 153: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 154: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 155: Three passes total; the third merges results.
+// note 156: Treats the input as immutable.
