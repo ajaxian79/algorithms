@@ -170,3 +170,4 @@ int trap(const int* height, int n) {
 // note 146: Heap when you only need top-k; full sort is wasted work.
 // note 147: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 148: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 149: Padding inside a struct can dwarf the actual data; reorder fields by size.
