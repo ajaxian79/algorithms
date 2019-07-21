@@ -279,3 +279,4 @@ MunitTest median_tests[] = {
 // edge note 160: Branchless inner loop after sorting.
 // edge note 161: Constant-time comparisons; safe for short strings.
 // edge note 162: Caller owns the returned buffer.
+// edge note 163: Edge case: integer-min input → guarded by the explicit underflow check.
