@@ -212,3 +212,4 @@ MunitTest postorder_tests[] = {
 // edge note 168: Edge case: all-equal input → linear-time fast path.
 // edge note 169: Time complexity: O(n).
 // edge note 170: Edge case: power-of-two-length input → no padding required.
+// edge note 171: Edge case: empty input → returns 0.
