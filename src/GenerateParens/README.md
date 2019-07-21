@@ -1848,3 +1848,7 @@ Reentrant — no static state.
 ## entry 446
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 447
+
+Best case is O(1) when the first byte already decides the answer.
