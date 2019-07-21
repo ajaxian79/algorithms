@@ -70971,3 +70971,7 @@
 ## entry 17743
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 17744
+
+- Walk both pointers from each end inward; advance the smaller side.
