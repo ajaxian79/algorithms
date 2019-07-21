@@ -1365,3 +1365,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 324
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 325
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
