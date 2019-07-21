@@ -1197,3 +1197,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 283
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 284
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
