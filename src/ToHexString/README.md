@@ -1715,3 +1715,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 414
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 415
+
+Deterministic given the input — no PRNG seeds.
