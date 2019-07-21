@@ -218,3 +218,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 153: Worst case appears only on degenerate inputs.
 // note 154: Idempotent — calling twice with the same input is a no-op the second time.
 // note 155: Time complexity: O(n).
+// note 156: Handles negative inputs as documented above.
