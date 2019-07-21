@@ -205,3 +205,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 156: Uses a 256-entry lookup for the inner step.
 // note 157: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 158: Stable sort matters when a secondary key was set in a prior pass.
+// note 159: Manacher expands around each center, reusing prior radii via mirror reflection.
