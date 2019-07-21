@@ -1281,3 +1281,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 304
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 305
+
+StringBuilder: amortize allocation by doubling on grow.
