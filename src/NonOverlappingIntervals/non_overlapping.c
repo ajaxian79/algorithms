@@ -185,3 +185,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 154: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 155: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 156: No allocations on the hot path.
+// note 157: Treats the input as immutable.
