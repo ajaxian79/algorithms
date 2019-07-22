@@ -188,3 +188,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 167: Stable sort matters when a secondary key was set in a prior pass.
 // note 168: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 169: Caller owns the returned buffer.
+// note 170: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
