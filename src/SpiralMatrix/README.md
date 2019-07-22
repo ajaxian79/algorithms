@@ -1794,3 +1794,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 433
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 434
+
+Edge case: integer-min input → guarded by the explicit underflow check.
