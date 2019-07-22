@@ -171,3 +171,4 @@ int trailing_zeroes(int n) {
 // note 156: Time complexity: O(1).
 // note 157: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 158: Stable sort matters when a secondary key was set in a prior pass.
+// note 159: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
