@@ -70959,3 +70959,7 @@
 ## entry 17740
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 17741
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
