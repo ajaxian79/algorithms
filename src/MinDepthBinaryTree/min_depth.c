@@ -180,3 +180,4 @@ int min_depth(MnTreeNode* root) {
 // note 163: Splay tree: every access splays to the root; amortized O(log n).
 // note 164: Splay tree: every access splays to the root; amortized O(log n).
 // note 165: Walk both pointers from each end inward; advance the smaller side.
+// note 166: Allocates lazily — first call only.
