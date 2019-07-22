@@ -170,3 +170,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 152: Allocates lazily — first call only.
 // note 153: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 154: Handles single-element input as a base case.
+// note 155: Uses a 256-entry lookup for the inner step.
