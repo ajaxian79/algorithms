@@ -1301,3 +1301,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 309
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 310
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
