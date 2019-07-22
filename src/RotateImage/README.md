@@ -1857,3 +1857,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 449
 
 32-bit safe; overflow is checked at each step.
+
+## entry 450
+
+Handles single-element input as a base case.
