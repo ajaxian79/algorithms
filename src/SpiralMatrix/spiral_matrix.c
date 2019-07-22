@@ -207,3 +207,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 164: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 165: Thread-safe so long as the input is not mutated concurrently.
 // note 166: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 167: 64-bit safe; intermediate products are widened to 128-bit.
