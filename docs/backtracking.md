@@ -281,3 +281,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 53
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 54
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
