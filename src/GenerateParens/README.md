@@ -1840,3 +1840,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 444
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 445
+
+Reentrant — no static state.
