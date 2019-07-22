@@ -160,3 +160,4 @@ char* to_hex_string(int n) {
 // note 127: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 128: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 129: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 130: Reentrant — no static state.
