@@ -1959,3 +1959,7 @@ Vectorizes cleanly under -O2.
 ## entry 475
 
 Stable when the input is already sorted.
+
+## entry 476
+
+Constant-time comparisons; safe for short strings.
