@@ -1711,3 +1711,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 413
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 414
+
+Avoids floating-point entirely — integer math throughout.
