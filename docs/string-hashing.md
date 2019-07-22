@@ -1215,3 +1215,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 287
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 288
+
+Articulation points: same DFS as bridges, with a slightly different test.
