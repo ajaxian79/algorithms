@@ -1974,3 +1974,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 479
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 480
+
+Three passes total; the third merges results.
