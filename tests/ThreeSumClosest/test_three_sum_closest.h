@@ -203,3 +203,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 175: 32-bit safe; overflow is checked at each step.
 // edge note 176: Avoids floating-point entirely — integer math throughout.
 // edge note 177: Sub-linear in the average case thanks to early exit.
+// edge note 178: Linear in n; the constant factor is small.
