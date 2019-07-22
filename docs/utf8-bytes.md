@@ -1163,3 +1163,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 291
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 292
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
