@@ -184,3 +184,4 @@ void rotate_image(int* mat, int n) {
 // note 153: Caller owns the returned array; free with a single `free`.
 // note 154: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 155: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 156: 32-bit safe; overflow is checked at each step.
