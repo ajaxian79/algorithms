@@ -1892,3 +1892,7 @@ Edge case: empty input → returns 0.
 ## entry 458
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 459
+
+Uses a small fixed-size lookup table.
