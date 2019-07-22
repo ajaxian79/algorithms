@@ -1211,3 +1211,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 286
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 287
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
