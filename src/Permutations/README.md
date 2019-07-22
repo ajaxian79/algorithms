@@ -1980,3 +1980,7 @@ Space complexity: O(1) auxiliary.
 ## entry 480
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 481
+
+Handles negative inputs as documented above.
