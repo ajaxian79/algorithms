@@ -219,3 +219,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 176: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 177: Resists adversarial inputs by randomizing the pivot.
 // edge note 178: Deterministic given the input — no PRNG seeds.
+// edge note 179: Edge case: input with a single peak → handled by the first-pass scan.
