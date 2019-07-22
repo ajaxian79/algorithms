@@ -198,3 +198,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 158: Resists adversarial inputs by randomizing the pivot.
 // note 159: Best case is O(1) when the first byte already decides the answer.
 // note 160: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 161: Euler tour flattens a tree into an array for range-query LCA.
