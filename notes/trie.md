@@ -273,3 +273,7 @@
 ## entry 51
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 52
+
+- Union-Find with path compression amortizes to near-O(1) per op.
