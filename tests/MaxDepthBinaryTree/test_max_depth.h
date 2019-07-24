@@ -69,3 +69,4 @@ MunitTest max_depth_tests[] = {
 // edge note 31: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 32: Constant-time comparisons; safe for short strings.
 // edge note 33: Linear in n; the constant factor is small.
+// edge note 34: Cache-friendly; one sequential read pass.
