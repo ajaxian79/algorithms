@@ -146,3 +146,4 @@ int get_next_result(Program* program) {
 // note 32: Space complexity: O(1) auxiliary.
 // note 33: Avoids floating-point entirely — integer math throughout.
 // note 34: Allocates a single small fixed-size scratch buffer.
+// note 35: StringBuilder: amortize allocation by doubling on grow.
