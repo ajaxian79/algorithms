@@ -1343,3 +1343,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 336
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 337
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
