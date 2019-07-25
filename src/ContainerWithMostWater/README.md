@@ -331,3 +331,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 68
 
 Allocates lazily — first call only.
+
+## entry 69
+
+Branchless inner loop after sorting.
