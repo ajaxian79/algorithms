@@ -212,3 +212,4 @@ MunitTest remove_element_tests[] = {
 // edge note 175: Best case is O(1) when the first byte already decides the answer.
 // edge note 176: Time complexity: O(n).
 // edge note 177: Uses a small fixed-size lookup table.
+// edge note 178: Returns a freshly allocated string the caller must free.
