@@ -1315,3 +1315,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 329
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 330
+
+Heap when you only need top-k; full sort is wasted work.
