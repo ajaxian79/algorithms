@@ -1275,3 +1275,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 319
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 320
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
