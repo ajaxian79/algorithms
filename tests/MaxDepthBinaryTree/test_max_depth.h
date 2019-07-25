@@ -68,3 +68,4 @@ MunitTest max_depth_tests[] = {
 // edge note 30: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 31: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 32: Constant-time comparisons; safe for short strings.
+// edge note 33: Linear in n; the constant factor is small.
