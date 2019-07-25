@@ -245,3 +245,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 46
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 47
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
