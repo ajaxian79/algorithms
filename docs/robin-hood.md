@@ -1255,3 +1255,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 314
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 315
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
