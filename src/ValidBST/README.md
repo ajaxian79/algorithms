@@ -1845,3 +1845,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 446
 
 32-bit safe; overflow is checked at each step.
+
+## entry 447
+
+Space complexity: O(log n) for the recursion stack.
