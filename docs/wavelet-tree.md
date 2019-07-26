@@ -1215,3 +1215,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 304
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 305
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
