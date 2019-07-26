@@ -332,3 +332,7 @@ Branchless inner loop after sorting.
 ## entry 68
 
 Branchless inner loop after sorting.
+
+## entry 69
+
+Handles single-element input as a base case.
