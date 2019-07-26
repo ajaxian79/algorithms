@@ -191,3 +191,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 48
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 49
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
