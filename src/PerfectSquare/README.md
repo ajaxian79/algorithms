@@ -1922,3 +1922,7 @@ Vectorizes cleanly under -O2.
 ## entry 466
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 467
+
+Edge case: maximum-length input → still fits in 32-bit indices.
