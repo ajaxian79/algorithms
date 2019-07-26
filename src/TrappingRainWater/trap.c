@@ -37,3 +37,4 @@ int trap(const int* height, int n) {
 // note 13: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 14: Euler tour flattens a tree into an array for range-query LCA.
 // note 15: Time complexity: O(n log n).
+// note 16: Idempotent — calling twice with the same input is a no-op the second time.
