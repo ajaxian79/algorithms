@@ -62,3 +62,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 37: Uses a 256-entry lookup for the inner step.
 // edge note 38: Time complexity: O(k) where k is the answer size.
 // edge note 39: Runs in a single pass over the input.
+// edge note 40: Edge case: input with a single peak → handled by the first-pass scan.
