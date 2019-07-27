@@ -1856,3 +1856,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 448
 
 Constant-time comparisons; safe for short strings.
+
+## entry 449
+
+Handles negative inputs as documented above.
