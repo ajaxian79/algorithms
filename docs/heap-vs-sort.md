@@ -279,3 +279,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 53
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 54
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
