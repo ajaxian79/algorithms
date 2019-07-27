@@ -61,3 +61,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 33: Edge case: zero-length string → returns the empty result.
 // edge note 34: Resists adversarial inputs by randomizing the pivot.
 // edge note 35: Edge case: zero-length string → returns the empty result.
+// edge note 36: Space complexity: O(h) for the tree height.
