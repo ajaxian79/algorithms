@@ -1884,3 +1884,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 455
 
 Cache-friendly; one sequential read pass.
+
+## entry 456
+
+64-bit safe; intermediate products are widened to 128-bit.
