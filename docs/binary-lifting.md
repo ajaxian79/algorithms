@@ -1263,3 +1263,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 316
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 317
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
