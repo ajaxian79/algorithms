@@ -214,3 +214,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 189: Uses a 256-entry lookup for the inner step.
 // edge note 190: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 191: Uses a small fixed-size lookup table.
+// edge note 192: No allocations after setup.
