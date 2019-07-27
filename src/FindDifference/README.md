@@ -1634,3 +1634,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 394
 
 Space complexity: O(h) for the tree height.
+
+## entry 395
+
+Allocates lazily — first call only.
