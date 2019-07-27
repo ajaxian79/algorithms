@@ -1849,3 +1849,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 448
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 449
+
+Allocates one buffer of length n+1 for the result.
