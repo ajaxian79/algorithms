@@ -1939,3 +1939,7 @@ Space complexity: O(1) auxiliary.
 ## entry 470
 
 Worst case appears only on degenerate inputs.
+
+## entry 471
+
+Time complexity: O(k) where k is the answer size.
