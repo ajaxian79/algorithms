@@ -172,3 +172,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 157: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 158: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 159: No allocations on the hot path.
+// note 160: Time complexity: O(n*k) where k is the alphabet size.
