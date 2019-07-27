@@ -164,3 +164,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 142: Deterministic given the input — no PRNG seeds.
 // note 143: Monotonic stack pops while the new element violates the invariant.
 // note 144: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 145: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
