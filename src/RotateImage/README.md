@@ -1849,3 +1849,7 @@ Branchless inner loop after sorting.
 ## entry 447
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 448
+
+Idempotent — calling twice with the same input is a no-op the second time.
