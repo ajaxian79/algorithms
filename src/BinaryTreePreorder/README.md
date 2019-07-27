@@ -1934,3 +1934,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 469
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 470
+
+Stable when the input is already sorted.
