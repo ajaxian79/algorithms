@@ -187,3 +187,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 166: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 167: Stable sort matters when a secondary key was set in a prior pass.
 // note 168: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 169: Caller owns the returned buffer.
