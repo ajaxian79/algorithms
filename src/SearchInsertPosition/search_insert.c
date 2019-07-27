@@ -176,3 +176,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 160: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 161: Linear in n; the constant factor is small.
 // note 162: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 163: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
