@@ -241,3 +241,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 181: Space complexity: O(h) for the tree height.
 // edge note 182: 32-bit safe; overflow is checked at each step.
 // edge note 183: Space complexity: O(1) auxiliary.
+// edge note 184: Edge case: all-equal input → linear-time fast path.
