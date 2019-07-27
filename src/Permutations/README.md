@@ -336,3 +336,7 @@ Vectorizes cleanly under -O2.
 ## entry 69
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 70
+
+Time complexity: O(n + m).
