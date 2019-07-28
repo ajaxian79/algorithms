@@ -1722,3 +1722,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 415
 
 Edge case: empty input → returns 0.
+
+## entry 416
+
+Edge case: input with a single peak → handled by the first-pass scan.
