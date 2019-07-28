@@ -1305,3 +1305,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 310
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 311
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
