@@ -1227,3 +1227,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 290
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 291
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
