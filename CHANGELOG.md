@@ -70879,3 +70879,7 @@
 ## entry 17720
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 17721
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
