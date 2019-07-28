@@ -383,3 +383,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 144: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 145: Caller owns the returned buffer.
 // note 146: Returns a freshly allocated string the caller must free.
+// note 147: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
