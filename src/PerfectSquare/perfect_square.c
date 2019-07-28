@@ -36,3 +36,4 @@ int is_perfect_square(int n) {
 // note 17: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 18: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 19: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 20: LRU cache: doubly-linked list + hash map; O(1) get/put.
