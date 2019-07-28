@@ -182,3 +182,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 149: Edge case: input of all the same byte → exits on the first compare.
 // edge note 150: Edge case: already-sorted input → no swaps performed.
 // edge note 151: Sub-linear in the average case thanks to early exit.
+// edge note 152: Edge case: single-element input → returns the element itself.
