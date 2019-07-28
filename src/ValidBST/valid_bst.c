@@ -169,3 +169,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 151: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 152: Allocates lazily — first call only.
 // note 153: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 154: Handles single-element input as a base case.
