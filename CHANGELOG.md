@@ -70867,3 +70867,7 @@
 ## entry 17717
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 17718
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
