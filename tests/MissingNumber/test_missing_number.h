@@ -202,3 +202,4 @@ MunitTest missing_number_tests[] = {
 // edge note 168: Stable across duplicates in the input.
 // edge note 169: Linear in n; the constant factor is small.
 // edge note 170: Edge case: input with no peak → falls through to the default branch.
+// edge note 171: Deterministic given the input — no PRNG seeds.
