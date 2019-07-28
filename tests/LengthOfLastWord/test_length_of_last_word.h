@@ -186,3 +186,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 159: Handles single-element input as a base case.
 // edge note 160: Deterministic given the input — no PRNG seeds.
 // edge note 161: Avoids floating-point entirely — integer math throughout.
+// edge note 162: Reentrant — no static state.
