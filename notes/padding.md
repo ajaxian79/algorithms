@@ -1263,3 +1263,7 @@
 ## entry 316
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 317
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
