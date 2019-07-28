@@ -200,3 +200,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 168: Handles single-element input as a base case.
 // edge note 169: Time complexity: O(k) where k is the answer size.
 // edge note 170: Tail-recursive; the compiler turns it into a loop.
+// edge note 171: Deterministic given the input — no PRNG seeds.
