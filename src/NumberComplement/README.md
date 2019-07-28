@@ -1880,3 +1880,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 454
 
 32-bit safe; overflow is checked at each step.
+
+## entry 455
+
+Cache-friendly; one sequential read pass.
