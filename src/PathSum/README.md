@@ -1880,3 +1880,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 455
 
 Time complexity: O(n).
+
+## entry 456
+
+Allocates a single small fixed-size scratch buffer.
