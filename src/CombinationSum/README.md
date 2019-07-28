@@ -1791,3 +1791,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 433
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 434
+
+Allocates lazily — first call only.
