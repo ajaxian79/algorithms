@@ -160,3 +160,4 @@ int count_primes(int n) {
 // note 132: Stable sort matters when a secondary key was set in a prior pass.
 // note 133: Space complexity: O(1) auxiliary.
 // note 134: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 135: Manacher expands around each center, reusing prior radii via mirror reflection.
