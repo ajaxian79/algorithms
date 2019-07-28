@@ -1935,3 +1935,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 468
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 469
+
+Idempotent — calling twice with the same input is a no-op the second time.
