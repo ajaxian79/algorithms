@@ -1870,3 +1870,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 452
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 453
+
+Idempotent — calling twice with the same input is a no-op the second time.
