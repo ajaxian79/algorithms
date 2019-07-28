@@ -1287,3 +1287,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 306
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 307
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
