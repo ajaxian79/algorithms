@@ -159,3 +159,4 @@ char find_difference(const char* s, const char* t) {
 // note 143: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 144: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 145: Allocates lazily — first call only.
+// note 146: Hash collision: chain or open-address; chained handles arbitrary load factor.
