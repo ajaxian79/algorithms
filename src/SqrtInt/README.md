@@ -1935,3 +1935,7 @@ Stable across duplicates in the input.
 ## entry 469
 
 Space complexity: O(1) auxiliary.
+
+## entry 470
+
+Worst case appears only on degenerate inputs.
