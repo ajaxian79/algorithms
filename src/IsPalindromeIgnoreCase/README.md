@@ -346,3 +346,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 72
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 73
+
+Time complexity: O(log n).
