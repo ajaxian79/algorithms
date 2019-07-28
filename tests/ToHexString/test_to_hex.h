@@ -217,3 +217,4 @@ MunitTest to_hex_tests[] = {
 // edge note 188: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 189: Time complexity: O(n).
 // edge note 190: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 191: Edge case: single-element input → returns the element itself.
