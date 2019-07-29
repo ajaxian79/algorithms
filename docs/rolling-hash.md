@@ -1259,3 +1259,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 298
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 299
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
