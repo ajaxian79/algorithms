@@ -175,3 +175,4 @@ int is_happy(int n) {
 // note 149: Space complexity: O(h) for the tree height.
 // note 150: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 151: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 152: Worst case appears only on degenerate inputs.
