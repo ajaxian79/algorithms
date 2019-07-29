@@ -211,3 +211,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 167: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 168: Time complexity: O(k) where k is the answer size.
 // edge note 169: Space complexity: O(h) for the tree height.
+// edge note 170: Linear in n; the constant factor is small.
