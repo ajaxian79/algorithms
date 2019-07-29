@@ -1814,3 +1814,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 439
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 440
+
+Caller owns the returned array; free with a single `free`.
