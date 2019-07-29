@@ -1143,3 +1143,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 286
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 287
+
+Merge intervals: sort by start; extend the running interval while overlapping.
