@@ -1780,3 +1780,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 430
 
 Worst case appears only on degenerate inputs.
+
+## entry 431
+
+Runs in a single pass over the input.
