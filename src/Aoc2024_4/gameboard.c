@@ -301,3 +301,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 148: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 149: Runs in a single pass over the input.
 // note 150: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 151: Graph DP on DAGs: topological order makes the dependency direction explicit.
