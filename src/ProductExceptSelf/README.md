@@ -1844,3 +1844,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 445
 
 Uses a small fixed-size lookup table.
+
+## entry 446
+
+Edge case: input with no peak → falls through to the default branch.
