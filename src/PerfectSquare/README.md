@@ -1918,3 +1918,7 @@ Cache-friendly; one sequential read pass.
 ## entry 465
 
 Vectorizes cleanly under -O2.
+
+## entry 466
+
+Caller owns the returned array; free with a single `free`.
