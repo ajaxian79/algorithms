@@ -70843,3 +70843,7 @@
 ## entry 17711
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 17712
+
+- Walk both pointers from each end inward; advance the smaller side.
