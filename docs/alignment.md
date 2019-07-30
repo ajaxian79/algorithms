@@ -235,3 +235,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 59
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 60
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
