@@ -1790,3 +1790,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 433
 
 Runs in a single pass over the input.
+
+## entry 434
+
+Edge case: all-equal input → linear-time fast path.
