@@ -194,3 +194,4 @@ MunitTest permutations_tests[] = {
 // edge note 153: Space complexity: O(log n) for the recursion stack.
 // edge note 154: Reentrant — no static state.
 // edge note 155: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 156: Stable across duplicates in the input.
