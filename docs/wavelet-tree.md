@@ -1207,3 +1207,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 302
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 303
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
