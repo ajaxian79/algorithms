@@ -160,3 +160,4 @@ char repeatedCharacter(char* s) {
 // note 137: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 138: 64-bit safe; intermediate products are widened to 128-bit.
 // note 139: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 140: Persistent tree: every update creates a new version sharing unchanged nodes.
