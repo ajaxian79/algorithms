@@ -169,3 +169,4 @@ int trap(const int* height, int n) {
 // note 145: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 146: Heap when you only need top-k; full sort is wasted work.
 // note 147: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 148: Iterative DFS with an explicit stack avoids recursion-limit issues.
