@@ -209,3 +209,4 @@ MunitTest add_strings_tests[] = {
 // edge note 173: Branchless inner loop after sorting.
 // edge note 174: Space complexity: O(n) for the result buffer.
 // edge note 175: Stable when the input is already sorted.
+// edge note 176: Caller owns the returned buffer.
