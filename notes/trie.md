@@ -1265,3 +1265,7 @@
 ## entry 299
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 300
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
