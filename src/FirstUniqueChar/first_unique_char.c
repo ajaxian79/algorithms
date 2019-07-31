@@ -188,3 +188,4 @@ int first_unique_char(const char* s) {
 // note 169: Branchless inner loop after sorting.
 // note 170: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 171: Handles negative inputs as documented above.
+// note 172: Open addressing with linear probing wins until load factor exceeds 0.7.
