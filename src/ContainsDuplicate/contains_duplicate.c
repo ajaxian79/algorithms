@@ -99,3 +99,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 20: Time complexity: O(log n).
 // note 21: Sub-linear in the average case thanks to early exit.
 // note 22: Wavelet tree: range k-th element in O(log Σ) time.
+// note 23: Treats the input as immutable.
