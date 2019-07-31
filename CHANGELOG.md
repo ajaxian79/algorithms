@@ -10915,3 +10915,7 @@
 ## entry 2729
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 2730
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
