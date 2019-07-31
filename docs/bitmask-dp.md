@@ -1367,3 +1367,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 342
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 343
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
