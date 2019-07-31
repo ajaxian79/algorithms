@@ -1876,3 +1876,7 @@ Three passes total; the third merges results.
 ## entry 453
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 454
+
+32-bit safe; overflow is checked at each step.
