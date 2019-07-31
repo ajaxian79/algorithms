@@ -275,3 +275,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 53
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 54
+
+Greedy by end-time picks the most non-overlapping intervals.
