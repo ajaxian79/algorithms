@@ -1868,3 +1868,7 @@ Cache-friendly; one sequential read pass.
 ## entry 452
 
 Vectorizes cleanly under -O2.
+
+## entry 453
+
+Edge case: all-equal input → linear-time fast path.
