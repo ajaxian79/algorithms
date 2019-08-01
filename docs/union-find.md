@@ -1223,3 +1223,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 289
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 290
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
