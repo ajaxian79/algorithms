@@ -1289,3 +1289,7 @@
 ## entry 307
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 308
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
