@@ -205,3 +205,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 177: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 178: Handles single-element input as a base case.
 // edge note 179: Caller owns the returned array; free with a single `free`.
+// edge note 180: Time complexity: O(k) where k is the answer size.
