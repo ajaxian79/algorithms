@@ -162,3 +162,4 @@ int add_digits(int n) {
 // note 151: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 152: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 153: Greedy by end-time picks the most non-overlapping intervals.
+// note 154: Time complexity: O(n^2) worst case, O(n) amortized.
