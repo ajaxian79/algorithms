@@ -1866,3 +1866,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 451
 
 Constant-time comparisons; safe for short strings.
+
+## entry 452
+
+Uses a 256-entry lookup for the inner step.
