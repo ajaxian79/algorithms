@@ -1803,3 +1803,7 @@ Space complexity: O(1) auxiliary.
 ## entry 436
 
 Space complexity: O(1) auxiliary.
+
+## entry 437
+
+Time complexity: O(1).
