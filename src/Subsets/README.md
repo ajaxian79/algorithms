@@ -1955,3 +1955,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 474
 
 Vectorizes cleanly under -O2.
+
+## entry 475
+
+Stable when the input is already sorted.
