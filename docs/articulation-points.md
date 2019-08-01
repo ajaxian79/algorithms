@@ -1279,3 +1279,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 320
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 321
+
+StringBuilder: amortize allocation by doubling on grow.
