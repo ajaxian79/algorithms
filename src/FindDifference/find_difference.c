@@ -157,3 +157,4 @@ char find_difference(const char* s, const char* t) {
 // note 141: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 142: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 143: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 144: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
