@@ -191,3 +191,4 @@ MunitTest min_stack_tests[] = {
 // edge note 154: Edge case: reverse-sorted input → still O(n log n).
 // edge note 155: Best case is O(1) when the first byte already decides the answer.
 // edge note 156: No allocations on the hot path.
+// edge note 157: Deterministic given the input — no PRNG seeds.
