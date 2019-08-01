@@ -1806,3 +1806,7 @@ No allocations on the hot path.
 ## entry 437
 
 Handles empty input by returning 0.
+
+## entry 438
+
+Sub-linear in the average case thanks to early exit.
