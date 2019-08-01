@@ -307,3 +307,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 61
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 62
+
+Edge case: reverse-sorted input → still O(n log n).
