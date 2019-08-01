@@ -262,3 +262,4 @@ MunitTest repeated_tests[] = {
 // edge note 206: Edge case: already-sorted input → no swaps performed.
 // edge note 207: Reentrant — no static state.
 // edge note 208: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 209: Tail-recursive; the compiler turns it into a loop.
