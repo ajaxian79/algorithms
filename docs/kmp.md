@@ -1293,3 +1293,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 307
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 308
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
