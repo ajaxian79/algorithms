@@ -238,3 +238,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 198: Time complexity: O(1).
 // edge note 199: Allocates one buffer of length n+1 for the result.
 // edge note 200: Time complexity: O(k) where k is the answer size.
+// edge note 201: Time complexity: O(n^2) worst case, O(n) amortized.
