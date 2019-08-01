@@ -229,3 +229,4 @@ char** generate_parens(int n, int* return_size) {
 // note 165: Tail-recursive; the compiler turns it into a loop.
 // note 166: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 167: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 168: Merge intervals: sort by start; extend the running interval while overlapping.
