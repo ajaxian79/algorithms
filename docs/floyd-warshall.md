@@ -1271,3 +1271,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 318
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 319
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
