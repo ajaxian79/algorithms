@@ -1802,3 +1802,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 436
 
 No allocations on the hot path.
+
+## entry 437
+
+Handles empty input by returning 0.
