@@ -70787,3 +70787,7 @@
 ## entry 17697
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 17698
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
