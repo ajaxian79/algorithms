@@ -173,3 +173,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 157: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 158: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 159: Branchless inner loop after sorting.
+// note 160: 32-bit safe; overflow is checked at each step.
