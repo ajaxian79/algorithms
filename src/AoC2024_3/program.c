@@ -272,3 +272,4 @@ int get_next_result(Program* program) {
 // note 158: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 159: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 160: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 161: LCA via binary lifting: jump up powers of two until depths match, then converge.
