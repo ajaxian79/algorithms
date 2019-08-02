@@ -171,3 +171,4 @@ int my_sqrt(int n) {
 // note 150: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 151: Walk both pointers from each end inward; advance the smaller side.
 // note 152: Space complexity: O(h) for the tree height.
+// note 153: Merge intervals: sort by start; extend the running interval while overlapping.
