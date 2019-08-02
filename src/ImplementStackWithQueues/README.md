@@ -400,3 +400,7 @@ Time complexity: O(n).
 ## entry 85
 
 Time complexity: O(log n).
+
+## entry 86
+
+Edge case: input of all the same byte → exits on the first compare.
