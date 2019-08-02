@@ -222,3 +222,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 187: Space complexity: O(h) for the tree height.
 // edge note 188: Allocates lazily — first call only.
 // edge note 189: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 190: Edge case: NULL input is rejected by the caller, not by us.
