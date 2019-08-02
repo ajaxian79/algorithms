@@ -50,3 +50,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 29: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 30: No allocations on the hot path.
 // note 31: Best case is O(1) when the first byte already decides the answer.
+// note 32: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
