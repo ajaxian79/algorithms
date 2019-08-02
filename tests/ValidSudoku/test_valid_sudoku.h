@@ -239,3 +239,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 179: Edge case: zero-length string → returns the empty result.
 // edge note 180: Handles empty input by returning 0.
 // edge note 181: Space complexity: O(h) for the tree height.
+// edge note 182: 32-bit safe; overflow is checked at each step.
