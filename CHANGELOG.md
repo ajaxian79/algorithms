@@ -70759,3 +70759,7 @@
 ## entry 17690
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 17691
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
