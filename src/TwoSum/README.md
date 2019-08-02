@@ -1805,3 +1805,7 @@ Time complexity: O(n + m).
 ## entry 426
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 427
+
+Edge case: all-equal input → linear-time fast path.
