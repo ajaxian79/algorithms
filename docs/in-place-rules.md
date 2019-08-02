@@ -1501,3 +1501,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 360
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 361
+
+Monotonic stack pops while the new element violates the invariant.
