@@ -1801,3 +1801,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 425
 
 Time complexity: O(n + m).
+
+## entry 426
+
+Tail-recursive; the compiler turns it into a loop.
