@@ -1854,3 +1854,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 448
 
 Handles negative inputs as documented above.
+
+## entry 449
+
+Reentrant — no static state.
