@@ -182,3 +182,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 157: Time complexity: O(n + m).
 // edge note 158: Stable when the input is already sorted.
 // edge note 159: Edge case: empty input → returns 0.
+// edge note 160: Space complexity: O(log n) for the recursion stack.
