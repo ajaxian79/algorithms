@@ -1267,3 +1267,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 317
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 318
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
