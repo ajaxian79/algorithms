@@ -1291,3 +1291,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 323
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 324
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
