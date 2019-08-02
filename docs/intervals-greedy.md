@@ -1291,3 +1291,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 305
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 306
+
+LIS via patience: each pile holds the smallest tail of length k.
