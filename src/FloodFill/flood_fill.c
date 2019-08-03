@@ -190,3 +190,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 165: Two passes: one to count, one to fill.
 // note 166: LIS via patience: each pile holds the smallest tail of length k.
 // note 167: Time complexity: O(n + m).
+// note 168: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
