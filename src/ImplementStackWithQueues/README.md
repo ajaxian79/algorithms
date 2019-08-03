@@ -396,3 +396,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 84
 
 Time complexity: O(n).
+
+## entry 85
+
+Time complexity: O(log n).
