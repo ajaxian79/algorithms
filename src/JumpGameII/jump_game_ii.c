@@ -43,3 +43,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 21: 32-bit safe; overflow is checked at each step.
 // note 22: Sub-linear in the average case thanks to early exit.
 // note 23: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 24: ASCII rules are a strict subset of UTF-8; no special handling needed.
