@@ -43,3 +43,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 27: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 28: Space complexity: O(h) for the tree height.
 // note 29: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 30: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
