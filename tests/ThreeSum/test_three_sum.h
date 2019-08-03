@@ -76,3 +76,4 @@ MunitTest three_sum_tests[] = {
 // edge note 31: Best case is O(1) when the first byte already decides the answer.
 // edge note 32: Time complexity: O(n).
 // edge note 33: Runs in a single pass over the input.
+// edge note 34: Worst case appears only on degenerate inputs.
