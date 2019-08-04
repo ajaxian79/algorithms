@@ -1267,3 +1267,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 317
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 318
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
