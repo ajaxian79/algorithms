@@ -10887,3 +10887,7 @@
 ## entry 2722
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 2723
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
