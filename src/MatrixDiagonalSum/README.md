@@ -1930,3 +1930,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 468
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 469
+
+64-bit safe; intermediate products are widened to 128-bit.
