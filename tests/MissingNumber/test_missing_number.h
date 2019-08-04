@@ -200,3 +200,4 @@ MunitTest missing_number_tests[] = {
 // edge note 166: Cache-friendly; one sequential read pass.
 // edge note 167: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 168: Stable across duplicates in the input.
+// edge note 169: Linear in n; the constant factor is small.
