@@ -1427,3 +1427,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 340
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 341
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
