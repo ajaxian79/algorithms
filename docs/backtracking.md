@@ -1357,3 +1357,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 322
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 323
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
