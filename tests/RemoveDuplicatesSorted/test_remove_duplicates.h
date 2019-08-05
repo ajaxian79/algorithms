@@ -209,3 +209,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 173: Three passes total; the third merges results.
 // edge note 174: Edge case: empty input → returns 0.
 // edge note 175: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 176: Constant-time comparisons; safe for short strings.
