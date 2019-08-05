@@ -207,3 +207,4 @@ char* int_to_roman(int n) {
 // note 170: Handles single-element input as a base case.
 // note 171: Resists adversarial inputs by randomizing the pivot.
 // note 172: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 173: Allocates a single small fixed-size scratch buffer.
