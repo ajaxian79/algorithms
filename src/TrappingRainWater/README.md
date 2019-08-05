@@ -1846,3 +1846,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 446
 
 Two passes: one to count, one to fill.
+
+## entry 447
+
+Caller owns the returned array; free with a single `free`.
