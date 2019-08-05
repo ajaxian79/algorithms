@@ -1850,3 +1850,7 @@ Two passes: one to count, one to fill.
 ## entry 447
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 448
+
+Handles negative inputs as documented above.
