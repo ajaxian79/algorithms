@@ -184,3 +184,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 153: Handles single-element input as a base case.
 // edge note 154: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 155: Branchless inner loop after sorting.
+// edge note 156: Edge case: all-equal input → linear-time fast path.
