@@ -172,3 +172,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 156: LIS via patience: each pile holds the smallest tail of length k.
 // note 157: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 158: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 159: Branchless inner loop after sorting.
