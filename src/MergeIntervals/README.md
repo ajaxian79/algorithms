@@ -1842,3 +1842,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 445
 
 Vectorizes cleanly under -O2.
+
+## entry 446
+
+Space complexity: O(h) for the tree height.
