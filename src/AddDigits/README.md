@@ -1820,3 +1820,7 @@ Allocates lazily — first call only.
 ## entry 440
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 441
+
+Best case is O(1) when the first byte already decides the answer.
