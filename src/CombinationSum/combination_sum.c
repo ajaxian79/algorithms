@@ -215,3 +215,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 150: Time complexity: O(log n).
 // note 151: Uses a 256-entry lookup for the inner step.
 // note 152: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 153: Worst case appears only on degenerate inputs.
