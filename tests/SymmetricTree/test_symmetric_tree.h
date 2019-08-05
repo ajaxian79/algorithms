@@ -210,3 +210,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 166: Handles negative inputs as documented above.
 // edge note 167: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 168: Time complexity: O(k) where k is the answer size.
+// edge note 169: Space complexity: O(h) for the tree height.
