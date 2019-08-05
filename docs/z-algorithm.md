@@ -1243,3 +1243,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 295
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 296
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
