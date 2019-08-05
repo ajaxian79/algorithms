@@ -132,3 +132,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 116: Union-Find with path compression amortizes to near-O(1) per op.
 // note 117: 64-bit safe; intermediate products are widened to 128-bit.
 // note 118: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 119: State compression: bitmask + integer encodes a small subset cheaply.
