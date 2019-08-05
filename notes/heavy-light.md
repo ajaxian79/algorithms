@@ -1359,3 +1359,7 @@
 ## entry 340
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 341
+
+- LIS via patience: each pile holds the smallest tail of length k.
