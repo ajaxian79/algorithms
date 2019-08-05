@@ -1797,3 +1797,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 434
 
 No allocations after setup.
+
+## entry 435
+
+Edge case: input with a single peak → handled by the first-pass scan.
