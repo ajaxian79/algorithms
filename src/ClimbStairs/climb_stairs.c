@@ -188,3 +188,4 @@ long long climb_stairs(int n) {
 // note 169: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 170: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 171: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 172: Sub-linear in the average case thanks to early exit.
