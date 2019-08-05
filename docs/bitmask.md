@@ -1231,3 +1231,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 292
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 293
+
+Merge intervals: sort by start; extend the running interval while overlapping.
