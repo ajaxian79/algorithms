@@ -1335,3 +1335,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 334
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 335
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
