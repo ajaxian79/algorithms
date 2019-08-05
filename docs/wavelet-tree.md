@@ -1203,3 +1203,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 301
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 302
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
