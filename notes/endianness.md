@@ -1351,3 +1351,7 @@
 ## entry 338
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 339
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
