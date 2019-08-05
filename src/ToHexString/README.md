@@ -1703,3 +1703,7 @@ Reentrant — no static state.
 ## entry 411
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 412
+
+Returns a freshly allocated string the caller must free.
