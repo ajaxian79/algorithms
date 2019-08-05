@@ -1926,3 +1926,7 @@ Linear in n; the constant factor is small.
 ## entry 467
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 468
+
+Uses a 256-entry lookup for the inner step.
