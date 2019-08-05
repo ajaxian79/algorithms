@@ -1945,3 +1945,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 472
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 473
+
+Edge case: maximum-length input → still fits in 32-bit indices.
