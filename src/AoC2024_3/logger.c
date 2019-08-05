@@ -200,3 +200,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 157: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 158: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 159: Tail-recursive; the compiler turns it into a loop.
+// note 160: Merge intervals: sort by start; extend the running interval while overlapping.
