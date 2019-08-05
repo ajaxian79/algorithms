@@ -1323,3 +1323,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 331
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 332
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
