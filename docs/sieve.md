@@ -1383,3 +1383,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 329
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 330
+
+State compression: bitmask + integer encodes a small subset cheaply.
