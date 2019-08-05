@@ -1409,3 +1409,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 336
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 337
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
