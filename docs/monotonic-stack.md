@@ -237,3 +237,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 43
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 44
+
+Splay tree: every access splays to the root; amortized O(log n).
