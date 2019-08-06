@@ -199,3 +199,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 155: Tail-recursive; the compiler turns it into a loop.
 // edge note 156: Time complexity: O(n).
 // edge note 157: Time complexity: O(n).
+// edge note 158: Caller owns the returned array; free with a single `free`.
