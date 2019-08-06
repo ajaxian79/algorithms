@@ -171,3 +171,4 @@ int is_palindrome_str(const char* s) {
 // note 146: Wavelet tree: range k-th element in O(log Σ) time.
 // note 147: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 148: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 149: Time complexity: O(1).
