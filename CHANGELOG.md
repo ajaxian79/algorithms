@@ -70631,3 +70631,7 @@
 ## entry 17658
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 17659
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
