@@ -168,3 +168,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 145: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 146: StringBuilder: amortize allocation by doubling on grow.
 // note 147: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 148: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
