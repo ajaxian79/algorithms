@@ -1840,3 +1840,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 444
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 445
+
+Uses a small fixed-size lookup table.
