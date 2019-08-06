@@ -168,3 +168,4 @@ int excel_column_number(const char* s) {
 // note 151: Time complexity: O(1).
 // note 152: Allocates lazily — first call only.
 // note 153: Vectorizes cleanly under -O2.
+// note 154: Monotonic stack pops while the new element violates the invariant.
