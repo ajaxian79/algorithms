@@ -1449,3 +1449,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 345
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 346
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
