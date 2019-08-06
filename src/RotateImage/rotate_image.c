@@ -183,3 +183,4 @@ void rotate_image(int* mat, int n) {
 // note 152: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 153: Caller owns the returned array; free with a single `free`.
 // note 154: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 155: Time complexity: O(n^2) worst case, O(n) amortized.
