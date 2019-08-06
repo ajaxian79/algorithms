@@ -1301,3 +1301,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 309
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 310
+
+In-place compaction uses two pointers: read advances always, write only on keep.
