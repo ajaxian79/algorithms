@@ -1864,3 +1864,7 @@ Allocates lazily — first call only.
 ## entry 451
 
 Cache-friendly; one sequential read pass.
+
+## entry 452
+
+Vectorizes cleanly under -O2.
