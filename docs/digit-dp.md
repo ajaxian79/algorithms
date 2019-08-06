@@ -1211,3 +1211,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 303
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 304
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
