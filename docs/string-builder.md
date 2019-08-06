@@ -1263,3 +1263,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 316
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 317
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
