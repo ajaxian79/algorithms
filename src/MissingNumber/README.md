@@ -1946,3 +1946,7 @@ Time complexity: O(n + m).
 ## entry 471
 
 Time complexity: O(n log n).
+
+## entry 472
+
+Input is assumed non-NULL; behavior is undefined otherwise.
