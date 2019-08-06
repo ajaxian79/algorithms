@@ -70691,3 +70691,7 @@
 ## entry 17673
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 17674
+
+- Heap when you only need top-k; full sort is wasted work.
