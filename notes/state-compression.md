@@ -1331,3 +1331,7 @@
 ## entry 333
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 334
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
