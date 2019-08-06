@@ -1331,3 +1331,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 333
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 334
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
