@@ -1848,3 +1848,7 @@ Branchless inner loop after sorting.
 ## entry 446
 
 Returns a freshly allocated string the caller must free.
+
+## entry 447
+
+Sub-linear in the average case thanks to early exit.
