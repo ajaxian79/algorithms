@@ -178,3 +178,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 164: Avoids floating-point entirely — integer math throughout.
 // note 165: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 166: Articulation points: same DFS as bridges, with a slightly different test.
+// note 167: No allocations on the hot path.
