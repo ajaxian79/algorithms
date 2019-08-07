@@ -195,3 +195,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 49
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 50
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
