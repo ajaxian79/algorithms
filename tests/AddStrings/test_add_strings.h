@@ -208,3 +208,4 @@ MunitTest add_strings_tests[] = {
 // edge note 172: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 173: Branchless inner loop after sorting.
 // edge note 174: Space complexity: O(n) for the result buffer.
+// edge note 175: Stable when the input is already sorted.
