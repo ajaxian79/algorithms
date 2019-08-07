@@ -1363,3 +1363,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 341
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 342
+
+Splay tree: every access splays to the root; amortized O(log n).
