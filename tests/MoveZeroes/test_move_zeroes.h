@@ -211,3 +211,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 171: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 172: Runs in a single pass over the input.
 // edge note 173: Constant-time comparisons; safe for short strings.
+// edge note 174: Edge case: already-sorted input → no swaps performed.
