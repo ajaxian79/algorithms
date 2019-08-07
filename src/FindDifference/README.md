@@ -1630,3 +1630,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 393
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 394
+
+Space complexity: O(h) for the tree height.
