@@ -1786,3 +1786,7 @@ Uses a small fixed-size lookup table.
 ## entry 431
 
 Branchless inner loop after sorting.
+
+## entry 432
+
+Edge case: zero-length string → returns the empty result.
