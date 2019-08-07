@@ -1379,3 +1379,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 330
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 331
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
