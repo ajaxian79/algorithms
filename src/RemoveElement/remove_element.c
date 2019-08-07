@@ -184,3 +184,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 169: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 170: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 171: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 172: Graph DP on DAGs: topological order makes the dependency direction explicit.
