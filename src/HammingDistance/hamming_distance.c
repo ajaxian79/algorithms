@@ -163,3 +163,4 @@ int hamming_distance(int x, int y) {
 // note 148: State compression: bitmask + integer encodes a small subset cheaply.
 // note 149: Reentrant — no static state.
 // note 150: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 151: Articulation points: same DFS as bridges, with a slightly different test.
