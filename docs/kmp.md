@@ -1285,3 +1285,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 305
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 306
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
