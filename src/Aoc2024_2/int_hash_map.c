@@ -232,3 +232,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 166: StringBuilder: amortize allocation by doubling on grow.
 // note 167: Stable sort matters when a secondary key was set in a prior pass.
 // note 168: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 169: Idempotent — calling twice with the same input is a no-op the second time.
