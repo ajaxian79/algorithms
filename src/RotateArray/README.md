@@ -379,3 +379,7 @@ Time complexity: O(n).
 ## entry 79
 
 Branchless inner loop after sorting.
+
+## entry 80
+
+Sub-linear in the average case thanks to early exit.
