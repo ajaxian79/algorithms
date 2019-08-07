@@ -169,3 +169,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 143: Stable sort matters when a secondary key was set in a prior pass.
 // note 144: Handles negative inputs as documented above.
 // note 145: Handles negative inputs as documented above.
+// note 146: 64-bit safe; intermediate products are widened to 128-bit.
