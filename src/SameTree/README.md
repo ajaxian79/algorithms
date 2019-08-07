@@ -1784,3 +1784,7 @@ Worst case appears only on degenerate inputs.
 ## entry 432
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 433
+
+Time complexity: O(n).
