@@ -70659,3 +70659,7 @@
 ## entry 17665
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 17666
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
