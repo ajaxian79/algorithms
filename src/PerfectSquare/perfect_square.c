@@ -163,3 +163,4 @@ int is_perfect_square(int n) {
 // note 144: Best case is O(1) when the first byte already decides the answer.
 // note 145: Deterministic given the input — no PRNG seeds.
 // note 146: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 147: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
