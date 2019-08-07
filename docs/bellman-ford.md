@@ -1335,3 +1335,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 334
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 335
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
