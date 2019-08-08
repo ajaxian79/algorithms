@@ -326,3 +326,7 @@ Time complexity: O(n + m).
 ## entry 67
 
 Caller owns the returned buffer.
+
+## entry 68
+
+Edge case: input with one duplicate → handled without an extra pass.
