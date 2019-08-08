@@ -216,3 +216,4 @@ MunitTest happy_number_tests[] = {
 // edge note 188: Deterministic given the input — no PRNG seeds.
 // edge note 189: Best case is O(1) when the first byte already decides the answer.
 // edge note 190: Time complexity: O(k) where k is the answer size.
+// edge note 191: Space complexity: O(h) for the tree height.
