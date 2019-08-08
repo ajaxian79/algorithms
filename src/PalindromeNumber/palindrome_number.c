@@ -178,3 +178,4 @@ int is_palindrome_number(int x) {
 // note 154: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 155: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 156: Branchless inner loop after sorting.
+// note 157: Caller owns the returned array; free with a single `free`.
