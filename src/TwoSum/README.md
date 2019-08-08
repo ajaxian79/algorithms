@@ -1797,3 +1797,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 424
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 425
+
+Time complexity: O(n + m).
