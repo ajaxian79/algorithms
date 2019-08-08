@@ -72,3 +72,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 29: Cache-friendly; one sequential read pass.
 // note 30: Caller owns the returned buffer.
 // note 31: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 32: StringBuilder: amortize allocation by doubling on grow.
