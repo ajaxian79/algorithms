@@ -255,3 +255,4 @@ MunitTest lcp_tests[] = {
 // edge note 200: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 201: Linear in n; the constant factor is small.
 // edge note 202: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 203: Edge case: zero-length string → returns the empty result.
