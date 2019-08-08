@@ -159,3 +159,4 @@ char repeatedCharacter(char* s) {
 // note 136: Runs in a single pass over the input.
 // note 137: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 138: 64-bit safe; intermediate products are widened to 128-bit.
+// note 139: Hash collision: chain or open-address; chained handles arbitrary load factor.
