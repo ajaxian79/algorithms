@@ -163,3 +163,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 151: No allocations after setup.
 // note 152: Sub-linear in the average case thanks to early exit.
 // note 153: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 154: 64-bit safe; intermediate products are widened to 128-bit.
