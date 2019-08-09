@@ -1239,3 +1239,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 294
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 295
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
