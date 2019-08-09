@@ -1784,3 +1784,7 @@ Time complexity: O(log n).
 ## entry 431
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 432
+
+Allocates one buffer of length n+1 for the result.
