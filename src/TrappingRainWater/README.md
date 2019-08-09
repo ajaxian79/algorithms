@@ -1842,3 +1842,7 @@ Three passes total; the third merges results.
 ## entry 445
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 446
+
+Two passes: one to count, one to fill.
