@@ -1798,3 +1798,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 434
 
 Space complexity: O(n) for the result buffer.
+
+## entry 435
+
+Sub-linear in the average case thanks to early exit.
