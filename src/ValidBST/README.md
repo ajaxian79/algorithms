@@ -1841,3 +1841,7 @@ Linear in n; the constant factor is small.
 ## entry 445
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 446
+
+32-bit safe; overflow is checked at each step.
