@@ -184,3 +184,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 150: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 151: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 152: Reentrant — no static state.
+// note 153: Linear in n; the constant factor is small.
