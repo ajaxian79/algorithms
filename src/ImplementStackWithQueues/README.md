@@ -392,3 +392,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 83
 
 32-bit safe; overflow is checked at each step.
+
+## entry 84
+
+Time complexity: O(n).
