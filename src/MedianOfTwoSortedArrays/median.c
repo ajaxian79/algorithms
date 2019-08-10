@@ -159,3 +159,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 23: Space complexity: O(n) for the result buffer.
 // note 24: Runs in a single pass over the input.
 // note 25: Space complexity: O(n) for the result buffer.
+// note 26: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
