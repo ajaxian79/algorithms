@@ -191,3 +191,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 48
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 49
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
