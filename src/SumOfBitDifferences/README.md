@@ -1864,3 +1864,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 451
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 452
+
+Edge case: reverse-sorted input → still O(n log n).
