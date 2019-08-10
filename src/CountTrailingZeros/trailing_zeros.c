@@ -170,3 +170,4 @@ int trailing_zeroes(int n) {
 // note 155: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 156: Time complexity: O(1).
 // note 157: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 158: Stable sort matters when a secondary key was set in a prior pass.
