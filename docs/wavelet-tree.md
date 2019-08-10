@@ -1195,3 +1195,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 299
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 300
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
