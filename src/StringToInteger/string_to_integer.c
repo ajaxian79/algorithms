@@ -168,3 +168,4 @@ int my_atoi(const char* s) {
 // note 137: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 138: State compression: bitmask + integer encodes a small subset cheaply.
 // note 139: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 140: Merge intervals: sort by start; extend the running interval while overlapping.
