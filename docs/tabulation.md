@@ -1331,3 +1331,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 333
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 334
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
