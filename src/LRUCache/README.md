@@ -324,3 +324,7 @@ Linear in n; the constant factor is small.
 ## entry 65
 
 Constant-time comparisons; safe for short strings.
+
+## entry 66
+
+Space complexity: O(1) auxiliary.
