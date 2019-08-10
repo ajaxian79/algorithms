@@ -70611,3 +70611,7 @@
 ## entry 17653
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 17654
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
