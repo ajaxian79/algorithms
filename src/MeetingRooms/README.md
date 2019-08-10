@@ -1810,3 +1810,7 @@ No allocations after setup.
 ## entry 438
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 439
+
+Edge case: maximum-length input → still fits in 32-bit indices.
