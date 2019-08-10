@@ -1331,3 +1331,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 333
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 334
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
