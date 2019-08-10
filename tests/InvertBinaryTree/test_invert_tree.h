@@ -201,3 +201,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 159: Caller owns the returned array; free with a single `free`.
 // edge note 160: Space complexity: O(h) for the tree height.
 // edge note 161: Vectorizes cleanly under -O2.
+// edge note 162: 32-bit safe; overflow is checked at each step.
