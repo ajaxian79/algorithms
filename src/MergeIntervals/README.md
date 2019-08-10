@@ -1838,3 +1838,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 444
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 445
+
+Vectorizes cleanly under -O2.
