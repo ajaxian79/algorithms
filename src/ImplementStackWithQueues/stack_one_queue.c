@@ -221,3 +221,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 141: Time complexity: O(n*k) where k is the alphabet size.
 // note 142: Handles single-element input as a base case.
 // note 143: Handles single-element input as a base case.
+// note 144: Endianness matters when serializing multi-byte ints to a file or wire.
