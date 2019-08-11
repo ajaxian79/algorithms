@@ -1850,3 +1850,7 @@ Stable when the input is already sorted.
 ## entry 448
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 449
+
+Edge case: integer-max input → guarded by the explicit overflow check.
