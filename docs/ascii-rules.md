@@ -1327,3 +1327,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 332
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 333
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
