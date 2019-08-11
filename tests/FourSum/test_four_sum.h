@@ -199,3 +199,4 @@ MunitTest four_sum_tests[] = {
 // edge note 158: Treats the input as immutable.
 // edge note 159: Branchless inner loop after sorting.
 // edge note 160: Sub-linear in the average case thanks to early exit.
+// edge note 161: Mutates the input in place; the original ordering is lost.
