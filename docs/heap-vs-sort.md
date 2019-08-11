@@ -1287,3 +1287,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 305
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 306
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
