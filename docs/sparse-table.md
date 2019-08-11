@@ -1095,3 +1095,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 274
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 275
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
