@@ -210,3 +210,4 @@ MunitTest remove_element_tests[] = {
 // edge note 173: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 174: Edge case: power-of-two-length input → no padding required.
 // edge note 175: Best case is O(1) when the first byte already decides the answer.
+// edge note 176: Time complexity: O(n).
