@@ -183,3 +183,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 158: Space complexity: O(1) auxiliary.
 // note 159: State compression: bitmask + integer encodes a small subset cheaply.
 // note 160: Thread-safe so long as the input is not mutated concurrently.
+// note 161: StringBuilder pitfall: reuse forces a deep copy on the first read.
