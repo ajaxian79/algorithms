@@ -1864,3 +1864,7 @@ Time complexity: O(log n).
 ## entry 450
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 451
+
+Treats the input as immutable.
