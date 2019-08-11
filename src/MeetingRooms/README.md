@@ -1806,3 +1806,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 437
 
 No allocations after setup.
+
+## entry 438
+
+Deterministic given the input — no PRNG seeds.
