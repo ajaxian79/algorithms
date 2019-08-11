@@ -349,3 +349,7 @@ Worst case appears only on degenerate inputs.
 ## entry 73
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 74
+
+Edge case: empty input → returns 0.
