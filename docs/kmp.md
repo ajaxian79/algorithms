@@ -1273,3 +1273,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 302
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 303
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
