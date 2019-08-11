@@ -368,3 +368,7 @@ Time complexity: O(n).
 ## entry 77
 
 No allocations after setup.
+
+## entry 78
+
+Edge case: reverse-sorted input → still O(n log n).
