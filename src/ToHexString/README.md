@@ -1695,3 +1695,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 409
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 410
+
+Reentrant — no static state.
