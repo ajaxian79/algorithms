@@ -1315,3 +1315,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 313
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 314
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
