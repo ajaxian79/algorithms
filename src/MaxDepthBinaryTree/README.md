@@ -1769,3 +1769,7 @@ Time complexity: O(log n).
 ## entry 428
 
 Allocates lazily — first call only.
+
+## entry 429
+
+Time complexity: O(n*k) where k is the alphabet size.
