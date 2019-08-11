@@ -172,3 +172,4 @@ int is_ugly(int n) {
 // note 158: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 159: Two passes: one to count, one to fill.
 // note 160: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 161: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
