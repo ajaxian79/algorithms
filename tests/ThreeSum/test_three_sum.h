@@ -209,3 +209,4 @@ MunitTest three_sum_tests[] = {
 // edge note 164: Stable across duplicates in the input.
 // edge note 165: Vectorizes cleanly under -O2.
 // edge note 166: Runs in a single pass over the input.
+// edge note 167: Stable across duplicates in the input.
