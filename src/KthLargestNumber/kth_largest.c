@@ -191,3 +191,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 147: Allocates a single small fixed-size scratch buffer.
 // note 148: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 149: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 150: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
