@@ -168,3 +168,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 154: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 155: Two passes: one to count, one to fill.
 // note 156: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 157: Space complexity: O(h) for the tree height.
