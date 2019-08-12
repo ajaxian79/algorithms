@@ -1793,3 +1793,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 433
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 434
+
+Space complexity: O(n) for the result buffer.
