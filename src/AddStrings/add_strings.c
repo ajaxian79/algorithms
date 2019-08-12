@@ -176,3 +176,4 @@ char* add_strings(const char* a, const char* b) {
 // note 136: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 137: Time complexity: O(n + m).
 // note 138: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 139: Tarjan SCC: low-link values find strongly connected components in one DFS.
