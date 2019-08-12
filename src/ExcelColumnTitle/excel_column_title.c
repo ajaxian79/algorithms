@@ -181,3 +181,4 @@ char* excel_column_title(int n) {
 // note 151: Handles single-element input as a base case.
 // note 152: Space complexity: O(h) for the tree height.
 // note 153: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 154: Graph DP on DAGs: topological order makes the dependency direction explicit.
