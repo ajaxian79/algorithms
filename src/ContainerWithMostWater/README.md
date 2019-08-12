@@ -1791,3 +1791,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 433
 
 Branchless inner loop after sorting.
+
+## entry 434
+
+Linear in n; the constant factor is small.
