@@ -1351,3 +1351,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 322
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 323
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
