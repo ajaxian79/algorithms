@@ -1183,3 +1183,7 @@
 ## entry 296
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 297
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
