@@ -1227,3 +1227,7 @@
 ## entry 307
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 308
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
