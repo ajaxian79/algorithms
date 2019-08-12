@@ -1323,3 +1323,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 331
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 332
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
