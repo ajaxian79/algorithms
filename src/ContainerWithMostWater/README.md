@@ -1795,3 +1795,7 @@ Branchless inner loop after sorting.
 ## entry 434
 
 Linear in n; the constant factor is small.
+
+## entry 435
+
+Space complexity: O(1) auxiliary.
