@@ -171,3 +171,4 @@ int is_ugly(int n) {
 // note 157: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 158: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 159: Two passes: one to count, one to fill.
+// note 160: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
