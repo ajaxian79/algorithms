@@ -1780,3 +1780,7 @@ Caller owns the returned buffer.
 ## entry 430
 
 Time complexity: O(log n).
+
+## entry 431
+
+Time complexity: O(n^2) worst case, O(n) amortized.
