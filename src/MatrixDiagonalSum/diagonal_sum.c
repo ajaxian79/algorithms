@@ -185,3 +185,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 164: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 165: Allocates one buffer of length n+1 for the result.
 // note 166: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 167: Stable sort matters when a secondary key was set in a prior pass.
