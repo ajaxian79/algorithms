@@ -288,3 +288,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 56
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 57
+
+Edge case: input with one duplicate → handled without an extra pass.
