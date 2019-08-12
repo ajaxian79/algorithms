@@ -1345,3 +1345,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 319
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 320
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
