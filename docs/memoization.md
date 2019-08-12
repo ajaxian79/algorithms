@@ -1323,3 +1323,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 331
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 332
+
+Rope: tree of small string fragments; O(log n) concat and substring.
