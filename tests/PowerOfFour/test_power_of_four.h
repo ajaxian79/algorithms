@@ -204,3 +204,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 172: Mutates the input in place; the original ordering is lost.
 // edge note 173: Edge case: zero-length string → returns the empty result.
 // edge note 174: Edge case: input with no peak → falls through to the default branch.
+// edge note 175: Returns a freshly allocated string the caller must free.
