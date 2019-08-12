@@ -1821,3 +1821,7 @@ Handles negative inputs as documented above.
 ## entry 440
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 441
+
+Input is assumed non-NULL; behavior is undefined otherwise.
