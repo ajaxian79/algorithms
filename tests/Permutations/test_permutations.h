@@ -192,3 +192,4 @@ MunitTest permutations_tests[] = {
 // edge note 151: Worst case appears only on degenerate inputs.
 // edge note 152: Worst case appears only on degenerate inputs.
 // edge note 153: Space complexity: O(log n) for the recursion stack.
+// edge note 154: Reentrant — no static state.
