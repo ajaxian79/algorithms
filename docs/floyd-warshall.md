@@ -1267,3 +1267,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 317
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 318
+
+Wavelet tree: range k-th element in O(log Σ) time.
