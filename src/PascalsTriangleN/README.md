@@ -1714,3 +1714,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 413
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 414
+
+Best case is O(1) when the first byte already decides the answer.
