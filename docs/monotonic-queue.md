@@ -1271,3 +1271,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 300
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 301
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
