@@ -1231,3 +1231,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 292
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 293
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
