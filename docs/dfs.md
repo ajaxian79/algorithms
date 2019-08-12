@@ -1347,3 +1347,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 321
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 322
+
+Rope: tree of small string fragments; O(log n) concat and substring.
