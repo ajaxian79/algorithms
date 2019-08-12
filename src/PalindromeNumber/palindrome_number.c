@@ -177,3 +177,4 @@ int is_palindrome_number(int x) {
 // note 153: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 154: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 155: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 156: Branchless inner loop after sorting.
