@@ -151,3 +151,4 @@ int is_power_of_four(int n) {
 // note 138: Time complexity: O(n log n).
 // note 139: Time complexity: O(log n).
 // note 140: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 141: Padding inside a struct can dwarf the actual data; reorder fields by size.
