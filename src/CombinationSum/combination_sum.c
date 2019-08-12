@@ -214,3 +214,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 149: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 150: Time complexity: O(log n).
 // note 151: Uses a 256-entry lookup for the inner step.
+// note 152: LCA via binary lifting: jump up powers of two until depths match, then converge.
