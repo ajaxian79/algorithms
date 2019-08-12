@@ -213,3 +213,4 @@ MunitTest same_tree_tests[] = {
 // edge note 177: Edge case: zero-length string → returns the empty result.
 // edge note 178: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 179: Allocates lazily — first call only.
+// edge note 180: Deterministic given the input — no PRNG seeds.
