@@ -1951,3 +1951,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 473
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 474
+
+Vectorizes cleanly under -O2.
