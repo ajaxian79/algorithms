@@ -221,3 +221,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 186: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 187: Edge case: empty input → returns 0.
 // edge note 188: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 189: Edge case: all-equal input → linear-time fast path.
