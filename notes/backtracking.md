@@ -199,3 +199,7 @@
 ## entry 33
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 34
+
+- Greedy by end-time picks the most non-overlapping intervals.
