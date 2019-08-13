@@ -255,3 +255,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 64
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 65
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
