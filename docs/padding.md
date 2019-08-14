@@ -1223,3 +1223,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 306
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 307
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
