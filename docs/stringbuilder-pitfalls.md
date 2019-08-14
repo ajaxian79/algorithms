@@ -1347,3 +1347,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 337
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 338
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
