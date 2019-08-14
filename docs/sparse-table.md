@@ -175,3 +175,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 44
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 45
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
