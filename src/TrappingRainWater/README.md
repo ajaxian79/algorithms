@@ -1838,3 +1838,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 444
 
 Three passes total; the third merges results.
+
+## entry 445
+
+Time complexity: O(n*k) where k is the alphabet size.
