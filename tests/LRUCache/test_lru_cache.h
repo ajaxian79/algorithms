@@ -219,3 +219,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 176: Caller owns the returned array; free with a single `free`.
 // edge note 177: Cache-friendly; one sequential read pass.
 // edge note 178: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 179: 64-bit safe; intermediate products are widened to 128-bit.
