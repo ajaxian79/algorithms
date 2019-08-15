@@ -1135,3 +1135,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 284
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 285
+
+In-place compaction uses two pointers: read advances always, write only on keep.
