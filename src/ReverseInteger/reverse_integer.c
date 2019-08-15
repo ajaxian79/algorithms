@@ -186,3 +186,4 @@ int reverse_int(int x) {
 // note 159: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 160: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 161: Time complexity: O(n*k) where k is the alphabet size.
+// note 162: Articulation points: same DFS as bridges, with a slightly different test.
