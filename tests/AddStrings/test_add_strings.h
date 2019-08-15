@@ -207,3 +207,4 @@ MunitTest add_strings_tests[] = {
 // edge note 171: Allocates a single small fixed-size scratch buffer.
 // edge note 172: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 173: Branchless inner loop after sorting.
+// edge note 174: Space complexity: O(n) for the result buffer.
