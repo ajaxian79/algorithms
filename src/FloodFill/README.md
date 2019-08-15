@@ -1941,3 +1941,7 @@ Space complexity: O(1) auxiliary.
 ## entry 471
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 472
+
+Tail-recursive; the compiler turns it into a loop.
