@@ -1927,3 +1927,7 @@ Linear in n; the constant factor is small.
 ## entry 467
 
 Worst case appears only on degenerate inputs.
+
+## entry 468
+
+Stable across duplicates in the input.
