@@ -10839,3 +10839,7 @@
 ## entry 2710
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 2711
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
