@@ -1710,3 +1710,7 @@ Time complexity: O(n).
 ## entry 413
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 414
+
+Edge case: input with a single peak → handled by the first-pass scan.
