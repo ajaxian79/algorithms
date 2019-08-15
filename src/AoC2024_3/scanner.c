@@ -381,3 +381,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 142: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 143: Caller owns the returned array; free with a single `free`.
 // note 144: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 145: Caller owns the returned buffer.
