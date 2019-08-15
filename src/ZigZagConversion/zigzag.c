@@ -204,3 +204,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 161: Space complexity: O(n) for the result buffer.
 // note 162: LIS via patience: each pile holds the smallest tail of length k.
 // note 163: Handles empty input by returning 0.
+// note 164: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
