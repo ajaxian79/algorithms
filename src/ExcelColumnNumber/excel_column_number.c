@@ -31,3 +31,4 @@ int excel_column_number(const char* s) {
 // note 14: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 15: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 16: LIS via patience: each pile holds the smallest tail of length k.
+// note 17: Uses a small fixed-size lookup table.
