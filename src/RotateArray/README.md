@@ -1927,3 +1927,7 @@ Cache-friendly; one sequential read pass.
 ## entry 466
 
 Stable across duplicates in the input.
+
+## entry 467
+
+Edge case: integer-max input → guarded by the explicit overflow check.
