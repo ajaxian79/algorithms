@@ -1375,3 +1375,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 327
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 328
+
+Monotonic stack pops while the new element violates the invariant.
