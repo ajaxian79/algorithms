@@ -1263,3 +1263,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 316
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 317
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
