@@ -70507,3 +70507,7 @@
 ## entry 17627
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 17628
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
