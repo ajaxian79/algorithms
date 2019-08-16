@@ -191,3 +191,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 157: Space complexity: O(log n) for the recursion stack.
 // edge note 158: Avoids floating-point entirely — integer math throughout.
 // edge note 159: Time complexity: O(log n).
+// edge note 160: Edge case: already-sorted input → no swaps performed.
