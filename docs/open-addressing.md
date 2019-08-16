@@ -1271,3 +1271,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 318
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 319
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
