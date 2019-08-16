@@ -208,3 +208,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 158: Runs in a single pass over the input.
 // note 159: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 160: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 161: LIS via patience: each pile holds the smallest tail of length k.
