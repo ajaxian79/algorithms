@@ -1909,3 +1909,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 462
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 463
+
+Edge case: maximum-length input → still fits in 32-bit indices.
