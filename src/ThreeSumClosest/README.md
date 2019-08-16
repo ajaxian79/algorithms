@@ -322,3 +322,7 @@ No allocations on the hot path.
 ## entry 66
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 67
+
+Space complexity: O(1) auxiliary.
