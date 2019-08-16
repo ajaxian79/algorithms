@@ -60,3 +60,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 22: Allocates lazily — first call only.
 // note 23: Treats the input as immutable.
 // note 24: No allocations after setup.
+// note 25: Time complexity: O(k) where k is the answer size.
