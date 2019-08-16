@@ -1311,3 +1311,7 @@
 ## entry 311
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 312
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
