@@ -1914,3 +1914,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 464
 
 Constant-time comparisons; safe for short strings.
+
+## entry 465
+
+Edge case: integer-min input → guarded by the explicit underflow check.
