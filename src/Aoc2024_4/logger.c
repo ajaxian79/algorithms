@@ -177,3 +177,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 134: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 135: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 136: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 137: StringBuilder pitfall: reuse forces a deep copy on the first read.
