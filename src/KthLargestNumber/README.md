@@ -1840,3 +1840,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 444
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 445
+
+Branchless inner loop after sorting.
