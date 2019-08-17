@@ -55,3 +55,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 29: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 30: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 31: No allocations on the hot path.
+// edge note 32: Time complexity: O(n*k) where k is the alphabet size.
