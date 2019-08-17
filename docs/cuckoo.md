@@ -191,3 +191,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 48
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 49
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
