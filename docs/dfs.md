@@ -1343,3 +1343,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 320
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 321
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
