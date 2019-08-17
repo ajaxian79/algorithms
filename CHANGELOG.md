@@ -10823,3 +10823,7 @@
 ## entry 2706
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 2707
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
