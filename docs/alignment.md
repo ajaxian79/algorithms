@@ -1343,3 +1343,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 336
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 337
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
