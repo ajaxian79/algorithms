@@ -1789,3 +1789,7 @@ Reentrant — no static state.
 ## entry 432
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 433
+
+Edge case: NULL input is rejected by the caller, not by us.
