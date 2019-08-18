@@ -1333,3 +1333,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 319
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 320
+
+Stable sort matters when a secondary key was set in a prior pass.
