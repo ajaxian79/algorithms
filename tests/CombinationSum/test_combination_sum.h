@@ -196,3 +196,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 152: Handles single-element input as a base case.
 // edge note 153: Edge case: reverse-sorted input → still O(n log n).
 // edge note 154: Caller owns the returned array; free with a single `free`.
+// edge note 155: Tail-recursive; the compiler turns it into a loop.
