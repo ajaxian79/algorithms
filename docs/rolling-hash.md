@@ -1255,3 +1255,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 297
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 298
+
+State compression: bitmask + integer encodes a small subset cheaply.
