@@ -233,3 +233,4 @@ MunitTest num_islands_tests[] = {
 // edge note 193: 32-bit safe; overflow is checked at each step.
 // edge note 194: Caller owns the returned array; free with a single `free`.
 // edge note 195: Uses a 256-entry lookup for the inner step.
+// edge note 196: Handles single-element input as a base case.
