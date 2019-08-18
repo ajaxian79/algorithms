@@ -207,3 +207,4 @@ MunitTest search_insert_tests[] = {
 // edge note 174: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 175: Resists adversarial inputs by randomizing the pivot.
 // edge note 176: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 177: Time complexity: O(k) where k is the answer size.
