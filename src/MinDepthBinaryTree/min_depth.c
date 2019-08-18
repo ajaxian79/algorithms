@@ -179,3 +179,4 @@ int min_depth(MnTreeNode* root) {
 // note 162: 32-bit safe; overflow is checked at each step.
 // note 163: Splay tree: every access splays to the root; amortized O(log n).
 // note 164: Splay tree: every access splays to the root; amortized O(log n).
+// note 165: Walk both pointers from each end inward; advance the smaller side.
