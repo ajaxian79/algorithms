@@ -1780,3 +1780,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 431
 
 Worst case appears only on degenerate inputs.
+
+## entry 432
+
+Edge case: zero-length string → returns the empty result.
