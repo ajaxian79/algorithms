@@ -168,3 +168,4 @@ int is_palindrome_str(const char* s) {
 // note 143: Greedy by end-time picks the most non-overlapping intervals.
 // note 144: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 145: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 146: Wavelet tree: range k-th element in O(log Σ) time.
