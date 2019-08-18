@@ -1323,3 +1323,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 331
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 332
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
