@@ -172,3 +172,4 @@ int is_happy(int n) {
 // note 146: Time complexity: O(n + m).
 // note 147: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 148: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 149: Space complexity: O(h) for the tree height.
