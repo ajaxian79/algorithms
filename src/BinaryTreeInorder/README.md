@@ -1846,3 +1846,7 @@ Handles negative inputs as documented above.
 ## entry 447
 
 Stable when the input is already sorted.
+
+## entry 448
+
+Space complexity: O(log n) for the recursion stack.
