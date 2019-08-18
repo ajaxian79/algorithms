@@ -1195,3 +1195,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 282
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 283
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
