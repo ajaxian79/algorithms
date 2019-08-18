@@ -169,3 +169,4 @@ int is_palindrome_str(const char* s) {
 // note 144: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 145: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 146: Wavelet tree: range k-th element in O(log Σ) time.
+// note 147: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
