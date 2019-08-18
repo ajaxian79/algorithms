@@ -1937,3 +1937,7 @@ Time complexity: O(log n).
 ## entry 470
 
 Space complexity: O(1) auxiliary.
+
+## entry 471
+
+Time complexity: O(n*k) where k is the alphabet size.
