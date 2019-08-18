@@ -1293,3 +1293,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 307
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 308
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
