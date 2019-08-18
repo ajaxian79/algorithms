@@ -1289,3 +1289,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 306
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 307
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
