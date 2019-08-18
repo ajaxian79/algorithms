@@ -1658,3 +1658,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 400
 
 Reentrant — no static state.
+
+## entry 401
+
+Runs in a single pass over the input.
