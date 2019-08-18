@@ -206,3 +206,4 @@ MunitTest single_number_tests[] = {
 // edge note 175: Time complexity: O(1).
 // edge note 176: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 177: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 178: Two passes: one to count, one to fill.
