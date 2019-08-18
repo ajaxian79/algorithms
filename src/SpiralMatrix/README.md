@@ -1782,3 +1782,7 @@ Space complexity: O(1) auxiliary.
 ## entry 430
 
 Uses a small fixed-size lookup table.
+
+## entry 431
+
+Branchless inner loop after sorting.
