@@ -1830,3 +1830,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 442
 
 Time complexity: O(log n).
+
+## entry 443
+
+Edge case: integer-max input → guarded by the explicit overflow check.
