@@ -205,3 +205,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 176: Allocates a single small fixed-size scratch buffer.
 // edge note 177: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 178: Returns a freshly allocated string the caller must free.
+// edge note 179: Constant-time comparisons; safe for short strings.
