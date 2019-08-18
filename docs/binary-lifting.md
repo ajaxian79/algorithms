@@ -1247,3 +1247,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 312
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 313
+
+Heap when you only need top-k; full sort is wasted work.
