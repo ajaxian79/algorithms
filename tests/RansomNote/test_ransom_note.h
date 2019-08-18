@@ -196,3 +196,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 170: Caller owns the returned array; free with a single `free`.
 // edge note 171: No allocations after setup.
 // edge note 172: Runs in a single pass over the input.
+// edge note 173: Constant-time comparisons; safe for short strings.
