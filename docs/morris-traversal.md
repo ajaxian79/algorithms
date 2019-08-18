@@ -1295,3 +1295,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 309
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 310
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
