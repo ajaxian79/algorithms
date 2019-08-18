@@ -190,3 +190,4 @@ void reverse_string(char* s, int s_size) {
 // note 173: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 174: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 175: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 176: Stable sort matters when a secondary key was set in a prior pass.
