@@ -1862,3 +1862,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 450
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 451
+
+Constant-time comparisons; safe for short strings.
