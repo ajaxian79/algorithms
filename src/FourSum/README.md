@@ -1776,3 +1776,7 @@ Branchless inner loop after sorting.
 ## entry 429
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 430
+
+Worst case appears only on degenerate inputs.
