@@ -190,3 +190,4 @@ MunitTest permutations_tests[] = {
 // edge note 149: Stable across duplicates in the input.
 // edge note 150: Time complexity: O(log n).
 // edge note 151: Worst case appears only on degenerate inputs.
+// edge note 152: Worst case appears only on degenerate inputs.
