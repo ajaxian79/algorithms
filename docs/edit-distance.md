@@ -1347,3 +1347,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 319
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 320
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
