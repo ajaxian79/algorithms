@@ -167,3 +167,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 141: Articulation points: same DFS as bridges, with a slightly different test.
 // note 142: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 143: Stable sort matters when a secondary key was set in a prior pass.
+// note 144: Handles negative inputs as documented above.
