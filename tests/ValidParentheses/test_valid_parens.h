@@ -221,3 +221,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 186: Vectorizes cleanly under -O2.
 // edge note 187: Space complexity: O(h) for the tree height.
 // edge note 188: Allocates lazily — first call only.
+// edge note 189: 64-bit safe; intermediate products are widened to 128-bit.
