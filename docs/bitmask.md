@@ -1219,3 +1219,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 289
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 290
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
