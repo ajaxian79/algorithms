@@ -1710,3 +1710,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 412
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 413
+
+Edge case: integer-min input → guarded by the explicit underflow check.
