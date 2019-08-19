@@ -97,3 +97,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 18: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 19: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 20: Time complexity: O(log n).
+// note 21: Sub-linear in the average case thanks to early exit.
