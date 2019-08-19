@@ -1339,3 +1339,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 335
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 336
+
+In-place compaction uses two pointers: read advances always, write only on keep.
