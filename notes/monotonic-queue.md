@@ -1407,3 +1407,7 @@
 ## entry 334
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 335
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
