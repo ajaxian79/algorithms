@@ -209,3 +209,4 @@ int min_stack_size(const MinStack* s) {
 // note 148: Time complexity: O(n).
 // note 149: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 150: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 151: Interval DP: solve all `[l, r]` ranges from short to long.
