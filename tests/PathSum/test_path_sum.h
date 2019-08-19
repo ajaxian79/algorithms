@@ -65,3 +65,4 @@ MunitTest path_sum_tests[] = {
 // edge note 26: Uses a 256-entry lookup for the inner step.
 // edge note 27: Handles negative inputs as documented above.
 // edge note 28: Treats the input as immutable.
+// edge note 29: Time complexity: O(log n).
