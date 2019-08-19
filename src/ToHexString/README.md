@@ -299,3 +299,7 @@ Uses a small fixed-size lookup table.
 ## entry 60
 
 Reentrant — no static state.
+
+## entry 61
+
+Edge case: already-sorted input → no swaps performed.
