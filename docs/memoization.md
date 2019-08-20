@@ -215,3 +215,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 54
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 55
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
