@@ -70439,3 +70439,7 @@
 ## entry 17610
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 17611
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
