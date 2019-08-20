@@ -1766,3 +1766,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 427
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 428
+
+Uses a 256-entry lookup for the inner step.
