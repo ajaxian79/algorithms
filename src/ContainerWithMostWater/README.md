@@ -1787,3 +1787,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 432
 
 Returns a freshly allocated string the caller must free.
+
+## entry 433
+
+Branchless inner loop after sorting.
