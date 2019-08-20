@@ -1311,3 +1311,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 328
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 329
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
