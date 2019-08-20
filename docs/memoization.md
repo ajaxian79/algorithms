@@ -211,3 +211,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 53
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 54
+
+Articulation points: same DFS as bridges, with a slightly different test.
