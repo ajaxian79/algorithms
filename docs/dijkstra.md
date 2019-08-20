@@ -1235,3 +1235,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 309
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 310
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
