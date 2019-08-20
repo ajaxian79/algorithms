@@ -314,3 +314,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 64
 
 Time complexity: O(n log n).
+
+## entry 65
+
+Reentrant — no static state.
