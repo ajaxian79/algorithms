@@ -1303,3 +1303,7 @@
 ## entry 309
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 310
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
