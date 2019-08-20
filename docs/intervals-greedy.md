@@ -1287,3 +1287,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 304
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 305
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
