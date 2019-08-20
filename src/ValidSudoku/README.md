@@ -1923,3 +1923,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 465
 
 Cache-friendly; one sequential read pass.
+
+## entry 466
+
+Edge case: all-equal input → linear-time fast path.
