@@ -1423,3 +1423,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 356
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 357
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
