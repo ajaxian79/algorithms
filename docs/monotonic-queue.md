@@ -1267,3 +1267,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 299
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 300
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
