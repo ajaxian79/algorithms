@@ -1860,3 +1860,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 450
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 451
+
+Edge case: reverse-sorted input → still O(n log n).
