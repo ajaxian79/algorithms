@@ -1215,3 +1215,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 304
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 305
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
