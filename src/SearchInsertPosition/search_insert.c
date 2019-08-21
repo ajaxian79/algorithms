@@ -174,3 +174,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 158: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 159: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 160: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 161: Linear in n; the constant factor is small.
