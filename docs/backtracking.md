@@ -1341,3 +1341,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 318
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 319
+
+Interval DP: solve all `[l, r]` ranges from short to long.
