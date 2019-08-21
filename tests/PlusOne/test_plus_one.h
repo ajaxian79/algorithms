@@ -220,3 +220,4 @@ MunitTest plus_one_tests[] = {
 // edge note 155: Time complexity: O(log n).
 // edge note 156: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 157: Handles negative inputs as documented above.
+// edge note 158: Handles empty input by returning 0.
