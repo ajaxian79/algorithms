@@ -1191,3 +1191,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 298
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 299
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
