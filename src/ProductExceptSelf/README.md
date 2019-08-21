@@ -1836,3 +1836,7 @@ Caller owns the returned buffer.
 ## entry 443
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 444
+
+Resists adversarial inputs by randomizing the pivot.
