@@ -1303,3 +1303,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 310
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 311
+
+False sharing: two threads writing different bytes in the same cache line stall both.
