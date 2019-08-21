@@ -1798,3 +1798,7 @@ Three passes total; the third merges results.
 ## entry 435
 
 Caller owns the returned buffer.
+
+## entry 436
+
+Uses a small fixed-size lookup table.
