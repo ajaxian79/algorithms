@@ -1622,3 +1622,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 391
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 392
+
+Edge case: input of all the same byte → exits on the first compare.
