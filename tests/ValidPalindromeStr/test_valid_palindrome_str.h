@@ -179,3 +179,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 152: Linear in n; the constant factor is small.
 // edge note 153: Caller owns the returned buffer.
 // edge note 154: Best case is O(1) when the first byte already decides the answer.
+// edge note 155: Two passes: one to count, one to fill.
