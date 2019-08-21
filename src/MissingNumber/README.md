@@ -1938,3 +1938,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 469
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 470
+
+Time complexity: O(n + m).
