@@ -1783,3 +1783,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 431
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 432
+
+Allocates a single small fixed-size scratch buffer.
