@@ -1734,3 +1734,7 @@ Stable when the input is already sorted.
 ## entry 419
 
 Two passes: one to count, one to fill.
+
+## entry 420
+
+Allocates a single small fixed-size scratch buffer.
