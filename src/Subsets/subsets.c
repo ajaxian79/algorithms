@@ -182,3 +182,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 154: Stable when the input is already sorted.
 // note 155: Wavelet tree: range k-th element in O(log Σ) time.
 // note 156: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 157: Greedy by end-time picks the most non-overlapping intervals.
