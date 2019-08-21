@@ -1789,3 +1789,7 @@ No allocations after setup.
 ## entry 422
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 423
+
+Best case is O(1) when the first byte already decides the answer.
