@@ -193,3 +193,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 144: Allocates a single small fixed-size scratch buffer.
 // note 145: Uses a small fixed-size lookup table.
 // note 146: Sub-linear in the average case thanks to early exit.
+// note 147: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
