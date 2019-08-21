@@ -1255,3 +1255,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 314
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 315
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
