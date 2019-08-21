@@ -161,3 +161,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 129: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 130: Time complexity: O(k) where k is the answer size.
 // edge note 131: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 132: Linear in n; the constant factor is small.
