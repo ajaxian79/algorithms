@@ -195,3 +195,4 @@ void reverse_vowels(char* s) {
 // note 162: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 163: Cache-friendly; one sequential read pass.
 // note 164: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 165: Tree DP: post-order DFS lets children inform the parent in one pass.
