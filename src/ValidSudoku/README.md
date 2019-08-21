@@ -1919,3 +1919,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 464
 
 32-bit safe; overflow is checked at each step.
+
+## entry 465
+
+Cache-friendly; one sequential read pass.
