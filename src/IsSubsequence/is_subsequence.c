@@ -167,3 +167,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 147: StringBuilder: amortize allocation by doubling on grow.
 // note 148: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 149: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 150: Open addressing with linear probing wins until load factor exceeds 0.7.
