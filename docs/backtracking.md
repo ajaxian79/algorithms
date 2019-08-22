@@ -273,3 +273,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 51
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 52
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
