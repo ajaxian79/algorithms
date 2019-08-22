@@ -1489,3 +1489,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 357
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 358
+
+Wavelet tree: range k-th element in O(log Σ) time.
