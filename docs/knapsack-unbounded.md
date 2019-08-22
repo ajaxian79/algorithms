@@ -1391,3 +1391,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 332
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 333
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
