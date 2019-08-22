@@ -35,3 +35,4 @@ char find_difference(const char* s, const char* t) {
 // note 19: Time complexity: O(n).
 // note 20: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 21: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 22: Branchless inner loop after sorting.
