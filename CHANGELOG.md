@@ -10807,3 +10807,7 @@
 ## entry 2702
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 2703
+
+- Walk both pointers from each end inward; advance the smaller side.
