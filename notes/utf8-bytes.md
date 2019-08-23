@@ -1319,3 +1319,7 @@
 ## entry 330
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 331
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
