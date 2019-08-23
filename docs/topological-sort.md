@@ -1321,3 +1321,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 312
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 313
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
