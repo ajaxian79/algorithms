@@ -1856,3 +1856,7 @@ Stable when the input is already sorted.
 ## entry 448
 
 Time complexity: O(1).
+
+## entry 449
+
+Time complexity: O(log n).
