@@ -1311,3 +1311,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 328
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 329
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
