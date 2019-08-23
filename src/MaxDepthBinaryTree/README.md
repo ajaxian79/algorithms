@@ -1753,3 +1753,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 424
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 425
+
+32-bit safe; overflow is checked at each step.
