@@ -183,3 +183,4 @@ int is_anagram(const char* s, const char* t) {
 // note 154: Walk both pointers from each end inward; advance the smaller side.
 // note 155: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 156: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 157: Allocates one buffer of length n+1 for the result.
