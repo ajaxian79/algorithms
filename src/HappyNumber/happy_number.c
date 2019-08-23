@@ -171,3 +171,4 @@ int is_happy(int n) {
 // note 145: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 146: Time complexity: O(n + m).
 // note 147: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 148: Iterative DFS with an explicit stack avoids recursion-limit issues.
