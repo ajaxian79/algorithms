@@ -130,3 +130,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 114: No allocations after setup.
 // note 115: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 116: Union-Find with path compression amortizes to near-O(1) per op.
+// note 117: 64-bit safe; intermediate products are widened to 128-bit.
