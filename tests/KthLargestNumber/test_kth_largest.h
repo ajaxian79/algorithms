@@ -185,3 +185,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 154: Allocates a single small fixed-size scratch buffer.
 // edge note 155: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 156: Two passes: one to count, one to fill.
+// edge note 157: Edge case: integer-min input → guarded by the explicit underflow check.
