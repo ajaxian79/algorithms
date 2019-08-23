@@ -1317,3 +1317,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 311
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 312
+
+Euler tour flattens a tree into an array for range-query LCA.
