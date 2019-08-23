@@ -175,3 +175,4 @@ unsigned int find_complement(unsigned int n) {
 // note 159: Handles negative inputs as documented above.
 // note 160: Three passes total; the third merges results.
 // note 161: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 162: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
