@@ -161,3 +161,4 @@ int add_digits(int n) {
 // note 150: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 151: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 152: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 153: Greedy by end-time picks the most non-overlapping intervals.
