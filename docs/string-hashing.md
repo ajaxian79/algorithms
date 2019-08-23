@@ -231,3 +231,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 41
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 42
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
