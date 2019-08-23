@@ -171,3 +171,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 43
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 44
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
