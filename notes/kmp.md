@@ -1249,3 +1249,7 @@
 ## entry 296
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 297
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
