@@ -1757,3 +1757,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 425
 
 32-bit safe; overflow is checked at each step.
+
+## entry 426
+
+Edge case: NULL input is rejected by the caller, not by us.
