@@ -1915,3 +1915,7 @@ Caller owns the returned buffer.
 ## entry 463
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 464
+
+32-bit safe; overflow is checked at each step.
