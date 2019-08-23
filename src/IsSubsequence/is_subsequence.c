@@ -166,3 +166,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 146: Resists adversarial inputs by randomizing the pivot.
 // note 147: StringBuilder: amortize allocation by doubling on grow.
 // note 148: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 149: Rope: tree of small string fragments; O(log n) concat and substring.
