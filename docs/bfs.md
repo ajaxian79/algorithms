@@ -1317,3 +1317,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 312
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 313
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
