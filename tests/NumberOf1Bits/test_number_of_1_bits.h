@@ -217,3 +217,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 190: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 191: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 192: Time complexity: O(log n).
+// edge note 193: Two passes: one to count, one to fill.
