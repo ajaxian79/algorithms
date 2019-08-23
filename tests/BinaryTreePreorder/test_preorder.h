@@ -227,3 +227,4 @@ MunitTest preorder_tests[] = {
 // edge note 183: Time complexity: O(n).
 // edge note 184: Space complexity: O(h) for the tree height.
 // edge note 185: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 186: Time complexity: O(n + m).
