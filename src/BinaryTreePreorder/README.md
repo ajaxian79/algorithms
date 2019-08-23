@@ -1922,3 +1922,7 @@ Linear in n; the constant factor is small.
 ## entry 466
 
 Runs in a single pass over the input.
+
+## entry 467
+
+Edge case: maximum-length input → still fits in 32-bit indices.
