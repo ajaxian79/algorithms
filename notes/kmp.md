@@ -1253,3 +1253,7 @@
 ## entry 297
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 298
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
