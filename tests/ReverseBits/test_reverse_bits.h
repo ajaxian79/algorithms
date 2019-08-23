@@ -181,3 +181,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 155: No allocations after setup.
 // edge note 156: Edge case: input with no peak → falls through to the default branch.
 // edge note 157: Runs in a single pass over the input.
+// edge note 158: Space complexity: O(1) auxiliary.
