@@ -1910,3 +1910,7 @@ Reentrant — no static state.
 ## entry 463
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 464
+
+Constant-time comparisons; safe for short strings.
