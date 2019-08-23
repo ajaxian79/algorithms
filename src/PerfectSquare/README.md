@@ -1914,3 +1914,7 @@ Reentrant — no static state.
 ## entry 464
 
 Cache-friendly; one sequential read pass.
+
+## entry 465
+
+Vectorizes cleanly under -O2.
