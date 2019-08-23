@@ -182,3 +182,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 148: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 149: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 150: Stable across duplicates in the input.
+// edge note 151: Mutates the input in place; the original ordering is lost.
