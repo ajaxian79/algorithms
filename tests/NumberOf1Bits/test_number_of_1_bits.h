@@ -218,3 +218,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 191: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 192: Time complexity: O(log n).
 // edge note 193: Two passes: one to count, one to fill.
+// edge note 194: Edge case: already-sorted input → no swaps performed.
