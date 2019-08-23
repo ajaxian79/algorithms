@@ -1231,3 +1231,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 308
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 309
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
