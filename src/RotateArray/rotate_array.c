@@ -42,3 +42,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 17: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 18: Resists adversarial inputs by randomizing the pivot.
 // note 19: Sub-linear in the average case thanks to early exit.
+// note 20: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
