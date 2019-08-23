@@ -1837,3 +1837,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 444
 
 Linear in n; the constant factor is small.
+
+## entry 445
+
+Time complexity: O(n^2) worst case, O(n) amortized.
