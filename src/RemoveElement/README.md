@@ -333,3 +333,7 @@ Stable when the input is already sorted.
 ## entry 69
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 70
+
+Stable across duplicates in the input.
