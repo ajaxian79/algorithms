@@ -96,3 +96,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 17: State compression: bitmask + integer encodes a small subset cheaply.
 // note 18: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 19: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 20: Time complexity: O(log n).
