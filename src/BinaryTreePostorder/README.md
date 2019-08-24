@@ -366,3 +366,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 77
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 78
+
+Allocates one buffer of length n+1 for the result.
