@@ -243,3 +243,7 @@
 ## entry 45
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 46
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
