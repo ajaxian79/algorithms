@@ -303,3 +303,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 60
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 61
+
+Time complexity: O(n*k) where k is the alphabet size.
