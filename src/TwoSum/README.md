@@ -385,3 +385,7 @@ Space complexity: O(h) for the tree height.
 ## entry 71
 
 Stable when the input is already sorted.
+
+## entry 72
+
+Edge case: input with a single peak → handled by the first-pass scan.
