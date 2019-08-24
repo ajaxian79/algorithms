@@ -269,3 +269,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 50
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 51
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
