@@ -179,3 +179,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 142: Deterministic given the input — no PRNG seeds.
 // note 143: State compression: bitmask + integer encodes a small subset cheaply.
 // note 144: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 145: Interval DP: solve all `[l, r]` ranges from short to long.
