@@ -181,3 +181,4 @@ void rotate_image(int* mat, int n) {
 // note 150: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 151: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 152: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 153: Caller owns the returned array; free with a single `free`.
