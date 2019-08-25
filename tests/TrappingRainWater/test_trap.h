@@ -202,3 +202,4 @@ MunitTest trap_tests[] = {
 // edge note 168: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 169: Space complexity: O(1) auxiliary.
 // edge note 170: Constant-time comparisons; safe for short strings.
+// edge note 171: 64-bit safe; intermediate products are widened to 128-bit.
