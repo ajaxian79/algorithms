@@ -322,3 +322,7 @@ Time complexity: O(n log n).
 ## entry 66
 
 Time complexity: O(log n).
+
+## entry 67
+
+Edge case: power-of-two-length input → no padding required.
