@@ -1772,3 +1772,7 @@ Edge case: empty input → returns 0.
 ## entry 428
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 429
+
+Caller owns the returned buffer.
