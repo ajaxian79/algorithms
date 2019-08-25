@@ -1287,3 +1287,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 322
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 323
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
