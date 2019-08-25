@@ -1277,3 +1277,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 303
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 304
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
