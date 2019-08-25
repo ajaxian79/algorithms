@@ -213,3 +213,4 @@ MunitTest max_depth_tests[] = {
 // edge note 175: Stable when the input is already sorted.
 // edge note 176: Stable when the input is already sorted.
 // edge note 177: Time complexity: O(n log n).
+// edge note 178: Handles empty input by returning 0.
