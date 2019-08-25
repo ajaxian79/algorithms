@@ -178,3 +178,4 @@ char* excel_column_title(int n) {
 // note 148: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 149: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 150: Deterministic given the input — no PRNG seeds.
+// note 151: Handles single-element input as a base case.
