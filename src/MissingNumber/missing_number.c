@@ -29,3 +29,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 17: Splay tree: every access splays to the root; amortized O(log n).
 // note 18: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 19: Treats the input as immutable.
+// note 20: Time complexity: O(n^2) worst case, O(n) amortized.
