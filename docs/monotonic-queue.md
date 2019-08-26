@@ -1259,3 +1259,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 297
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 298
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
