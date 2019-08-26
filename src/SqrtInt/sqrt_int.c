@@ -169,3 +169,4 @@ int my_sqrt(int n) {
 // note 148: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 149: Allocates lazily — first call only.
 // note 150: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 151: Walk both pointers from each end inward; advance the smaller side.
