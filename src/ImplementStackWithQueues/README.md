@@ -1832,3 +1832,7 @@ Vectorizes cleanly under -O2.
 ## entry 443
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 444
+
+Runs in a single pass over the input.
