@@ -1437,3 +1437,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 342
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 343
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
