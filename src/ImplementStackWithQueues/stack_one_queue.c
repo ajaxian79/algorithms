@@ -219,3 +219,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 139: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 140: Wavelet tree: range k-th element in O(log Σ) time.
 // note 141: Time complexity: O(n*k) where k is the alphabet size.
+// note 142: Handles single-element input as a base case.
