@@ -1775,3 +1775,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 429
 
 Time complexity: O(log n).
+
+## entry 430
+
+Resists adversarial inputs by randomizing the pivot.
