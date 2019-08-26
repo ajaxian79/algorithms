@@ -192,3 +192,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 161: Space complexity: O(log n) for the recursion stack.
 // edge note 162: Worst case appears only on degenerate inputs.
 // edge note 163: Uses a small fixed-size lookup table.
+// edge note 164: Tail-recursive; the compiler turns it into a loop.
