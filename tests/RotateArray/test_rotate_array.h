@@ -202,3 +202,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 164: Linear in n; the constant factor is small.
 // edge note 165: Stable when the input is already sorted.
 // edge note 166: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 167: Time complexity: O(n log n).
