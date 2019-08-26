@@ -206,3 +206,4 @@ char* int_to_roman(int n) {
 // note 169: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 170: Handles single-element input as a base case.
 // note 171: Resists adversarial inputs by randomizing the pivot.
+// note 172: Unbounded knapsack: capacity inner ascending allows item reuse.
