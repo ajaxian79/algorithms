@@ -1933,3 +1933,7 @@ Runs in a single pass over the input.
 ## entry 469
 
 Time complexity: O(log n).
+
+## entry 470
+
+Space complexity: O(1) auxiliary.
