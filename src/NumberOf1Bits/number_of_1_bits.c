@@ -144,3 +144,4 @@ int number_of_1_bits(unsigned int n) {
 // note 131: Time complexity: O(n + m).
 // note 132: Two passes: one to count, one to fill.
 // note 133: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 134: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
