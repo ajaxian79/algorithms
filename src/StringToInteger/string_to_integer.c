@@ -167,3 +167,4 @@ int my_atoi(const char* s) {
 // note 136: No allocations on the hot path.
 // note 137: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 138: State compression: bitmask + integer encodes a small subset cheaply.
+// note 139: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
