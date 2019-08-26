@@ -165,3 +165,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 145: Two passes: one to count, one to fill.
 // note 146: Resists adversarial inputs by randomizing the pivot.
 // note 147: StringBuilder: amortize allocation by doubling on grow.
+// note 148: Persistent tree: every update creates a new version sharing unchanged nodes.
