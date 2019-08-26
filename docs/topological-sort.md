@@ -1313,3 +1313,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 310
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 311
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
