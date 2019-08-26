@@ -217,3 +217,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 181: Allocates a single small fixed-size scratch buffer.
 // edge note 182: Time complexity: O(1).
 // edge note 183: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 184: Edge case: input of all the same byte → exits on the first compare.
