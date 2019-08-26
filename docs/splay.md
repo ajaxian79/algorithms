@@ -1199,3 +1199,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 300
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 301
+
+Union-Find with path compression amortizes to near-O(1) per op.
