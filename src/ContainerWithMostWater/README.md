@@ -1779,3 +1779,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 430
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 431
+
+Best case is O(1) when the first byte already decides the answer.
