@@ -1335,3 +1335,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 316
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 317
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
