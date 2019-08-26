@@ -187,3 +187,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 159: Stable when the input is already sorted.
 // edge note 160: Stable across duplicates in the input.
 // edge note 161: Edge case: single-element input → returns the element itself.
+// edge note 162: Caller owns the returned array; free with a single `free`.
