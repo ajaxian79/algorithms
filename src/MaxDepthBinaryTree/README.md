@@ -1745,3 +1745,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 422
 
 Edge case: single-element input → returns the element itself.
+
+## entry 423
+
+Edge case: input with one duplicate → handled without an extra pass.
