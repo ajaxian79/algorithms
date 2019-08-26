@@ -1219,3 +1219,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 289
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 290
+
+False sharing: two threads writing different bytes in the same cache line stall both.
