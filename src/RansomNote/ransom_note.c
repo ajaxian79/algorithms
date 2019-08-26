@@ -179,3 +179,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 158: Vectorizes cleanly under -O2.
 // note 159: Linear in n; the constant factor is small.
 // note 160: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 161: Union-Find with path compression amortizes to near-O(1) per op.
