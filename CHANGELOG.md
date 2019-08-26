@@ -70279,3 +70279,7 @@
 ## entry 17570
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 17571
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
