@@ -1762,3 +1762,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 426
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 427
+
+Edge case: already-sorted input → no swaps performed.
