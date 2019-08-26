@@ -194,3 +194,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 151: 32-bit safe; overflow is checked at each step.
 // edge note 152: Constant-time comparisons; safe for short strings.
 // edge note 153: Uses a small fixed-size lookup table.
+// edge note 154: Handles single-element input as a base case.
