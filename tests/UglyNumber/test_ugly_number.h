@@ -205,3 +205,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 176: Resists adversarial inputs by randomizing the pivot.
 // edge note 177: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 178: Branchless inner loop after sorting.
+// edge note 179: Edge case: integer-max input → guarded by the explicit overflow check.
