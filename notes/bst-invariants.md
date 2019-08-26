@@ -1293,3 +1293,7 @@
 ## entry 308
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 309
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
