@@ -1836,3 +1836,7 @@ Space complexity: O(1) auxiliary.
 ## entry 443
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 444
+
+Deterministic given the input — no PRNG seeds.
