@@ -1830,3 +1830,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 442
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 443
+
+Edge case: integer-min input → guarded by the explicit underflow check.
