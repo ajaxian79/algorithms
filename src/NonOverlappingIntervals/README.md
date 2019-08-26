@@ -1781,3 +1781,7 @@ Three passes total; the third merges results.
 ## entry 430
 
 No allocations after setup.
+
+## entry 431
+
+Reentrant — no static state.
