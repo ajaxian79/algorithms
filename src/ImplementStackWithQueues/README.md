@@ -1836,3 +1836,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 444
 
 Runs in a single pass over the input.
+
+## entry 445
+
+Allocates one buffer of length n+1 for the result.
