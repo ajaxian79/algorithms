@@ -1419,3 +1419,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 355
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 356
+
+Interval DP: solve all `[l, r]` ranges from short to long.
