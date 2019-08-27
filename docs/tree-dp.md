@@ -1415,3 +1415,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 354
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 355
+
+Wavelet tree: range k-th element in O(log Σ) time.
