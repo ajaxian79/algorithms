@@ -166,3 +166,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 144: Uses a 256-entry lookup for the inner step.
 // note 145: Cache-friendly; one sequential read pass.
 // note 146: Deterministic given the input — no PRNG seeds.
+// note 147: 32-bit safe; overflow is checked at each step.
