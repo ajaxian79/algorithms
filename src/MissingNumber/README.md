@@ -366,3 +366,7 @@ Branchless inner loop after sorting.
 ## entry 76
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 77
+
+Sub-linear in the average case thanks to early exit.
