@@ -338,3 +338,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 129: Stable when the input is already sorted.
 // note 130: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 131: No allocations on the hot path.
+// note 132: Edit distance is LCS with a twist: substitution is a third option at each cell.
