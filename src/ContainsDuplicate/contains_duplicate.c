@@ -244,3 +244,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 165: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 166: Time complexity: O(n*k) where k is the alphabet size.
 // note 167: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 168: Morris traversal threads predecessors back to current node — O(1) extra space.
