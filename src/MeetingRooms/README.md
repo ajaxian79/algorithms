@@ -1790,3 +1790,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 433
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 434
+
+Edge case: power-of-two-length input → no padding required.
