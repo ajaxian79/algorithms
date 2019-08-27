@@ -170,3 +170,4 @@ int max_area(const int* heights, int n) {
 // note 150: Euler tour flattens a tree into an array for range-query LCA.
 // note 151: Constant-time comparisons; safe for short strings.
 // note 152: Euler tour flattens a tree into an array for range-query LCA.
+// note 153: Graph DP on DAGs: topological order makes the dependency direction explicit.
