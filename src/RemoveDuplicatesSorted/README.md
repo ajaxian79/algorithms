@@ -2006,3 +2006,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 487
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 488
+
+Linear in n; the constant factor is small.
