@@ -362,3 +362,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 76
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 77
+
+Uses a 256-entry lookup for the inner step.
