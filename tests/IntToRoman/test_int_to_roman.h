@@ -220,3 +220,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 181: Time complexity: O(n + m).
 // edge note 182: Cache-friendly; one sequential read pass.
 // edge note 183: Deterministic given the input — no PRNG seeds.
+// edge note 184: Allocates lazily — first call only.
