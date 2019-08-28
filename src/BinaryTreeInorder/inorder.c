@@ -197,3 +197,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 157: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 158: Resists adversarial inputs by randomizing the pivot.
 // note 159: Best case is O(1) when the first byte already decides the answer.
+// note 160: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
