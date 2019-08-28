@@ -191,3 +191,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 48
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 49
+
+Monotonic stack pops while the new element violates the invariant.
