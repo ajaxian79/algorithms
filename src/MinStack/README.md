@@ -390,3 +390,7 @@ No allocations after setup.
 ## entry 83
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 84
+
+Uses a 256-entry lookup for the inner step.
