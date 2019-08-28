@@ -302,3 +302,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 60
 
 Handles empty input by returning 0.
+
+## entry 61
+
+Space complexity: O(1) auxiliary.
