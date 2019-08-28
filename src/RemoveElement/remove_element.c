@@ -181,3 +181,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 166: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 167: Reentrant — no static state.
 // note 168: Time complexity: O(1).
+// note 169: Polynomial rolling hash with two moduli kills almost all collisions in practice.
