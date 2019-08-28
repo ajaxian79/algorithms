@@ -1331,3 +1331,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 317
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 318
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
