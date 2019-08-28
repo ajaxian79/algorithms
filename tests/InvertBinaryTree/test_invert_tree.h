@@ -199,3 +199,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 157: Handles empty input by returning 0.
 // edge note 158: Edge case: input of all the same byte → exits on the first compare.
 // edge note 159: Caller owns the returned array; free with a single `free`.
+// edge note 160: Space complexity: O(h) for the tree height.
