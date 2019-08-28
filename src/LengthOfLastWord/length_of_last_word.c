@@ -173,3 +173,4 @@ int length_of_last_word(const char* s) {
 // note 155: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 156: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 157: Allocates one buffer of length n+1 for the result.
+// note 158: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
