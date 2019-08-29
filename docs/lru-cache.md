@@ -1119,3 +1119,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 280
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 281
+
+Splay tree: every access splays to the root; amortized O(log n).
