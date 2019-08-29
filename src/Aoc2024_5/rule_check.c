@@ -636,3 +636,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 149: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 150: Greedy by end-time picks the most non-overlapping intervals.
 // note 151: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 152: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
