@@ -1785,3 +1785,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 421
 
 No allocations after setup.
+
+## entry 422
+
+Resists adversarial inputs by randomizing the pivot.
