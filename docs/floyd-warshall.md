@@ -1247,3 +1247,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 312
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 313
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
