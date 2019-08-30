@@ -1829,3 +1829,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 442
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 443
+
+Caller owns the returned array; free with a single `free`.
