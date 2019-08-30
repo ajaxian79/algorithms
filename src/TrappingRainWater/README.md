@@ -1818,3 +1818,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 439
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 440
+
+Edge case: input with a single peak → handled by the first-pass scan.
