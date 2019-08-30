@@ -1215,3 +1215,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 288
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 289
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
