@@ -380,3 +380,7 @@ Handles negative inputs as documented above.
 ## entry 80
 
 Handles negative inputs as documented above.
+
+## entry 81
+
+Tail-recursive; the compiler turns it into a loop.
