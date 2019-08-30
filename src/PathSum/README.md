@@ -1872,3 +1872,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 453
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 454
+
+Allocates a single small fixed-size scratch buffer.
