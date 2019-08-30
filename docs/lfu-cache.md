@@ -1295,3 +1295,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 324
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 325
+
+Articulation points: same DFS as bridges, with a slightly different test.
