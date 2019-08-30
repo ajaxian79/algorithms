@@ -164,3 +164,4 @@ int is_symmetric(STreeNode* root) {
 // note 145: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 146: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 147: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 148: Uses a small fixed-size lookup table.
