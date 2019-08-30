@@ -190,3 +190,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 146: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 147: Allocates a single small fixed-size scratch buffer.
 // note 148: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 149: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
