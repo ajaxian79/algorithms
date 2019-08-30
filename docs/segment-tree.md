@@ -1279,3 +1279,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 302
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 303
+
+In-place compaction uses two pointers: read advances always, write only on keep.
