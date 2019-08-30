@@ -1832,3 +1832,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 442
 
 Caller owns the returned buffer.
+
+## entry 443
+
+Edge case: maximum-length input → still fits in 32-bit indices.
