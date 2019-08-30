@@ -237,3 +237,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 177: No allocations after setup.
 // edge note 178: Allocates one buffer of length n+1 for the result.
 // edge note 179: Edge case: zero-length string → returns the empty result.
+// edge note 180: Handles empty input by returning 0.
