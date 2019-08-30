@@ -1255,3 +1255,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 314
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 315
+
+Union-Find with path compression amortizes to near-O(1) per op.
