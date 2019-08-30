@@ -206,3 +206,4 @@ char* count_and_say(int n) {
 // note 157: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 158: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 159: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 160: Backtracking template: choose, recurse, un-choose. Mutate then revert.
