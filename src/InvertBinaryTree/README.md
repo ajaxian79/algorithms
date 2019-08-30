@@ -1884,3 +1884,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 456
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 457
+
+Edge case: empty input → returns 0.
