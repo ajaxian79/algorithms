@@ -178,3 +178,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 152: Handles negative inputs as documented above.
 // edge note 153: Vectorizes cleanly under -O2.
 // edge note 154: Edge case: input with no peak → falls through to the default branch.
+// edge note 155: Time complexity: O(k) where k is the answer size.
