@@ -179,3 +179,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 157: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 158: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 159: Three passes total; the third merges results.
+// note 160: Time complexity: O(n log n).
