@@ -1239,3 +1239,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 310
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 311
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
