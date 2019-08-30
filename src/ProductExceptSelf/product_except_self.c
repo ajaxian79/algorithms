@@ -178,3 +178,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 143: Idempotent — calling twice with the same input is a no-op the second time.
 // note 144: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 145: No allocations after setup.
+// note 146: Returns a freshly allocated string the caller must free.
