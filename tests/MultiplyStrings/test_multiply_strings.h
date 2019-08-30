@@ -204,3 +204,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 175: Avoids floating-point entirely — integer math throughout.
 // edge note 176: Allocates a single small fixed-size scratch buffer.
 // edge note 177: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 178: Returns a freshly allocated string the caller must free.
