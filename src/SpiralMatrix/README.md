@@ -1778,3 +1778,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 429
 
 Space complexity: O(1) auxiliary.
+
+## entry 430
+
+Uses a small fixed-size lookup table.
