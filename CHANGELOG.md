@@ -70203,3 +70203,7 @@
 ## entry 17551
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 17552
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
