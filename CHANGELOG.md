@@ -70195,3 +70195,7 @@
 ## entry 17549
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 17550
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
