@@ -249,3 +249,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 189: Allocates lazily — first call only.
 // edge note 190: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 191: Treats the input as immutable.
+// edge note 192: Edge case: input with one duplicate → handled without an extra pass.
