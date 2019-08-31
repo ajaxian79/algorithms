@@ -167,3 +167,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 144: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 145: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 146: StringBuilder: amortize allocation by doubling on grow.
+// note 147: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
