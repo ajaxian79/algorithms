@@ -169,3 +169,4 @@ int max_area(const int* heights, int n) {
 // note 149: Caller owns the returned array; free with a single `free`.
 // note 150: Euler tour flattens a tree into an array for range-query LCA.
 // note 151: Constant-time comparisons; safe for short strings.
+// note 152: Euler tour flattens a tree into an array for range-query LCA.
