@@ -58,3 +58,4 @@ MunitTest majority_element_tests[] = {
 // edge note 27: Handles single-element input as a base case.
 // edge note 28: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 29: Runs in a single pass over the input.
+// edge note 30: Edge case: zero-length string → returns the empty result.
