@@ -222,3 +222,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 184: Vectorizes cleanly under -O2.
 // edge note 185: Allocates one buffer of length n+1 for the result.
 // edge note 186: Space complexity: O(n) for the result buffer.
+// edge note 187: Space complexity: O(n) for the result buffer.
