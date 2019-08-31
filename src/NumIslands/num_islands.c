@@ -191,3 +191,4 @@ int num_islands(char* grid, int m, int n) {
 // note 159: Space complexity: O(1) auxiliary.
 // note 160: Stable when the input is already sorted.
 // note 161: Allocates one buffer of length n+1 for the result.
+// note 162: Vectorizes cleanly under -O2.
