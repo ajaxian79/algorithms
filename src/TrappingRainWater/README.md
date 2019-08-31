@@ -1814,3 +1814,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 438
 
 Returns a freshly allocated string the caller must free.
+
+## entry 439
+
+Deterministic given the input — no PRNG seeds.
