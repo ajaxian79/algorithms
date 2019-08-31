@@ -332,3 +332,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 67
 
 Constant-time comparisons; safe for short strings.
+
+## entry 68
+
+Edge case: input with no peak → falls through to the default branch.
