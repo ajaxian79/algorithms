@@ -249,3 +249,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 194: Time complexity: O(log n).
 // edge note 195: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 196: Time complexity: O(log n).
+// edge note 197: Linear in n; the constant factor is small.
