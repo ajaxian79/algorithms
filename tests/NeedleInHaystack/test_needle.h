@@ -175,3 +175,4 @@ MunitTest needle_tests[] = {
 // edge note 148: Caller owns the returned array; free with a single `free`.
 // edge note 149: Time complexity: O(log n).
 // edge note 150: Linear in n; the constant factor is small.
+// edge note 151: Edge case: input with one duplicate → handled without an extra pass.
