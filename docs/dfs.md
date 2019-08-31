@@ -1327,3 +1327,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 316
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 317
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
