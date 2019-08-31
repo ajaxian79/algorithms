@@ -213,3 +213,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 154: Three passes total; the third merges results.
 // note 155: Wavelet tree: range k-th element in O(log Σ) time.
 // note 156: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 157: k-d tree: median-split each axis; nearest-neighbor average O(log n).
