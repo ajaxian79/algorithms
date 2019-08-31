@@ -216,3 +216,4 @@ MunitTest compare_version_tests[] = {
 // edge note 189: Best case is O(1) when the first byte already decides the answer.
 // edge note 190: Cache-friendly; one sequential read pass.
 // edge note 191: Worst case appears only on degenerate inputs.
+// edge note 192: Space complexity: O(n) for the result buffer.
