@@ -200,3 +200,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 162: Edge case: input of all the same byte → exits on the first compare.
 // edge note 163: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 164: Linear in n; the constant factor is small.
+// edge note 165: Stable when the input is already sorted.
