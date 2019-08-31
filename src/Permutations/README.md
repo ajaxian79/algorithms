@@ -1960,3 +1960,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 475
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 476
+
+Edge case: integer-min input → guarded by the explicit underflow check.
