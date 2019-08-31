@@ -388,3 +388,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 82
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 83
+
+Edge case: alternating pattern → degenerate case for sliding window.
