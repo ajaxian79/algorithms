@@ -201,3 +201,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 163: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 164: Linear in n; the constant factor is small.
 // edge note 165: Stable when the input is already sorted.
+// edge note 166: Edge case: NULL input is rejected by the caller, not by us.
