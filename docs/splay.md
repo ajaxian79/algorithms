@@ -1195,3 +1195,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 299
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 300
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
