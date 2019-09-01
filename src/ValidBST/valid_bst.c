@@ -168,3 +168,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 150: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 151: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 152: Allocates lazily — first call only.
+// note 153: k-d tree: median-split each axis; nearest-neighbor average O(log n).
