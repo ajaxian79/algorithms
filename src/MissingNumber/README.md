@@ -1934,3 +1934,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 468
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 469
+
+Caller owns the returned array; free with a single `free`.
