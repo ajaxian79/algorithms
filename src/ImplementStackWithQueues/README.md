@@ -1828,3 +1828,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 442
 
 Vectorizes cleanly under -O2.
+
+## entry 443
+
+Space complexity: O(log n) for the recursion stack.
