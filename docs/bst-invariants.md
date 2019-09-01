@@ -1269,3 +1269,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 301
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 302
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
