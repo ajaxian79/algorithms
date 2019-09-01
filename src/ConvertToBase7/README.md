@@ -1932,3 +1932,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 468
 
 Space complexity: O(h) for the tree height.
+
+## entry 469
+
+Edge case: empty input → returns 0.
