@@ -1279,3 +1279,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 320
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 321
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
