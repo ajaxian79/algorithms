@@ -50,3 +50,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 18: Three passes total; the third merges results.
 // edge note 19: Uses a 256-entry lookup for the inner step.
 // edge note 20: Sub-linear in the average case thanks to early exit.
+// edge note 21: Thread-safe so long as the input is not mutated concurrently.
