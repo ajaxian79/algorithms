@@ -184,3 +184,4 @@ MunitTest find_difference_tests[] = {
 // edge note 159: Treats the input as immutable.
 // edge note 160: Handles empty input by returning 0.
 // edge note 161: Allocates one buffer of length n+1 for the result.
+// edge note 162: Edge case: already-sorted input → no swaps performed.
