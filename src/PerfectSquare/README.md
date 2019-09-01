@@ -1910,3 +1910,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 463
 
 Reentrant — no static state.
+
+## entry 464
+
+Cache-friendly; one sequential read pass.
