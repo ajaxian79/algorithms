@@ -1812,3 +1812,7 @@ Vectorizes cleanly under -O2.
 ## entry 438
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 439
+
+Allocates lazily — first call only.
