@@ -203,3 +203,4 @@ MunitTest word_search_tests[] = {
 // edge note 169: Time complexity: O(1).
 // edge note 170: Deterministic given the input — no PRNG seeds.
 // edge note 171: Treats the input as immutable.
+// edge note 172: Caller owns the returned array; free with a single `free`.
