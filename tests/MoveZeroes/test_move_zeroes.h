@@ -208,3 +208,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 168: Stable across duplicates in the input.
 // edge note 169: Edge case: already-sorted input → no swaps performed.
 // edge note 170: 32-bit safe; overflow is checked at each step.
+// edge note 171: Edge case: integer-min input → guarded by the explicit underflow check.
