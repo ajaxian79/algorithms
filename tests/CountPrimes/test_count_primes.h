@@ -201,3 +201,4 @@ MunitTest count_primes_tests[] = {
 // edge note 173: Edge case: all-equal input → linear-time fast path.
 // edge note 174: Space complexity: O(n) for the result buffer.
 // edge note 175: Edge case: already-sorted input → no swaps performed.
+// edge note 176: Time complexity: O(k) where k is the answer size.
