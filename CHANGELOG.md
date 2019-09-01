@@ -70191,3 +70191,7 @@
 ## entry 17548
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 17549
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
