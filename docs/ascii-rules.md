@@ -1311,3 +1311,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 328
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 329
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
