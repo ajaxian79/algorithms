@@ -178,3 +178,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 156: State compression: bitmask + integer encodes a small subset cheaply.
 // note 157: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 158: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 159: Three passes total; the third merges results.
