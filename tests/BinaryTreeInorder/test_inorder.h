@@ -234,3 +234,4 @@ MunitTest inorder_tests[] = {
 // edge note 196: Space complexity: O(1) auxiliary.
 // edge note 197: Allocates a single small fixed-size scratch buffer.
 // edge note 198: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 199: Edge case: alternating pattern → degenerate case for sliding window.
