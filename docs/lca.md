@@ -1255,3 +1255,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 314
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 315
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
