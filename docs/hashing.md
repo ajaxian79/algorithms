@@ -1355,3 +1355,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 322
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 323
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
