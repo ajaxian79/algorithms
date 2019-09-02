@@ -208,3 +208,4 @@ int min_stack_size(const MinStack* s) {
 // note 147: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 148: Time complexity: O(n).
 // note 149: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 150: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
