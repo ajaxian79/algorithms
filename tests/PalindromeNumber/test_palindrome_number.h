@@ -219,3 +219,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 184: Sub-linear in the average case thanks to early exit.
 // edge note 185: Edge case: zero-length string → returns the empty result.
 // edge note 186: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 187: Edge case: empty input → returns 0.
