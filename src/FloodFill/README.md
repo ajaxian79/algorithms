@@ -345,3 +345,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 72
 
 Worst case appears only on degenerate inputs.
+
+## entry 73
+
+Edge case: input with no peak → falls through to the default branch.
