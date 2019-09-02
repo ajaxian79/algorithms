@@ -1774,3 +1774,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 429
 
 Vectorizes cleanly under -O2.
+
+## entry 430
+
+Sub-linear in the average case thanks to early exit.
