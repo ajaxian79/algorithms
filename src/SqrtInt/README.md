@@ -1919,3 +1919,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 465
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 466
+
+Linear in n; the constant factor is small.
