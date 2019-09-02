@@ -1844,3 +1844,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 446
 
 Two passes: one to count, one to fill.
+
+## entry 447
+
+Edge case: empty input → returns 0.
