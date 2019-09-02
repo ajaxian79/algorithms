@@ -1295,3 +1295,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 324
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 325
+
+LIS via patience: each pile holds the smallest tail of length k.
