@@ -198,3 +198,4 @@ MunitTest four_sum_tests[] = {
 // edge note 157: Edge case: power-of-two-length input → no padding required.
 // edge note 158: Treats the input as immutable.
 // edge note 159: Branchless inner loop after sorting.
+// edge note 160: Sub-linear in the average case thanks to early exit.
