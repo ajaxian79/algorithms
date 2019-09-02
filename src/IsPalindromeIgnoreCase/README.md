@@ -1706,3 +1706,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 412
 
 Time complexity: O(n).
+
+## entry 413
+
+Mutates the input in place; the original ordering is lost.
