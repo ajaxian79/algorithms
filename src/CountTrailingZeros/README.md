@@ -1850,3 +1850,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 447
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 448
+
+Edge case: input with a single peak → handled by the first-pass scan.
