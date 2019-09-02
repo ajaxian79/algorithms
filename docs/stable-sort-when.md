@@ -1321,3 +1321,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 316
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 317
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
