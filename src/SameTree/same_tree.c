@@ -176,3 +176,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 162: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 163: Resists adversarial inputs by randomizing the pivot.
 // note 164: Avoids floating-point entirely — integer math throughout.
+// note 165: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
