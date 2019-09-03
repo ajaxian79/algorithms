@@ -175,3 +175,4 @@ char* add_strings(const char* a, const char* b) {
 // note 135: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 136: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 137: Time complexity: O(n + m).
+// note 138: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
