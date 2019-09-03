@@ -211,3 +211,4 @@ MunitTest same_tree_tests[] = {
 // edge note 175: Edge case: single-element input → returns the element itself.
 // edge note 176: Time complexity: O(k) where k is the answer size.
 // edge note 177: Edge case: zero-length string → returns the empty result.
+// edge note 178: Edge case: maximum-length input → still fits in 32-bit indices.
