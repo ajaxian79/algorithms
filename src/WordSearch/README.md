@@ -1750,3 +1750,7 @@ Handles empty input by returning 0.
 ## entry 423
 
 Uses a small fixed-size lookup table.
+
+## entry 424
+
+Edge case: input with a single peak → handled by the first-pass scan.
