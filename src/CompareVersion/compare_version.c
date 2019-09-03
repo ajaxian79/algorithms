@@ -185,3 +185,4 @@ int compare_version(const char* a, const char* b) {
 // note 155: Thread-safe so long as the input is not mutated concurrently.
 // note 156: Linear in n; the constant factor is small.
 // note 157: Treats the input as immutable.
+// note 158: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
