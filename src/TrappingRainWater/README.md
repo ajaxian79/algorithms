@@ -314,3 +314,7 @@ Allocates lazily — first call only.
 ## entry 63
 
 32-bit safe; overflow is checked at each step.
+
+## entry 64
+
+Edge case: input of all the same byte → exits on the first compare.
