@@ -1813,3 +1813,7 @@ Space complexity: O(1) auxiliary.
 ## entry 438
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 439
+
+Handles negative inputs as documented above.
