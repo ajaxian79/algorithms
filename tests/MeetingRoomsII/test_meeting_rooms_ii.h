@@ -211,3 +211,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 180: Resists adversarial inputs by randomizing the pivot.
 // edge note 181: Edge case: reverse-sorted input → still O(n log n).
 // edge note 182: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 183: Uses a 256-entry lookup for the inner step.
