@@ -1706,3 +1706,7 @@ Vectorizes cleanly under -O2.
 ## entry 411
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 412
+
+Edge case: input with no peak → falls through to the default branch.
