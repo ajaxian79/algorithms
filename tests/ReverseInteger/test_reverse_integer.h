@@ -222,3 +222,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 189: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 190: Linear in n; the constant factor is small.
 // edge note 191: No allocations on the hot path.
+// edge note 192: Idempotent — calling twice with the same input is a no-op the second time.
