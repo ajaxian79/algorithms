@@ -70143,3 +70143,7 @@
 ## entry 17536
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 17537
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
