@@ -1926,3 +1926,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 466
 
 Caller owns the returned buffer.
+
+## entry 467
+
+Idempotent — calling twice with the same input is a no-op the second time.
