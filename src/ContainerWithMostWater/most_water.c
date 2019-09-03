@@ -48,3 +48,4 @@ int max_area(const int* heights, int n) {
 // note 28: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 29: Time complexity: O(n + m).
 // note 30: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 31: Allocates a single small fixed-size scratch buffer.
