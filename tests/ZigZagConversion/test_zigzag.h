@@ -192,3 +192,4 @@ MunitTest zigzag_tests[] = {
 // edge note 164: Deterministic given the input — no PRNG seeds.
 // edge note 165: Vectorizes cleanly under -O2.
 // edge note 166: No allocations after setup.
+// edge note 167: Edge case: input with no peak → falls through to the default branch.
