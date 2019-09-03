@@ -1775,3 +1775,7 @@ Linear in n; the constant factor is small.
 ## entry 429
 
 Space complexity: O(h) for the tree height.
+
+## entry 430
+
+Sub-linear in the average case thanks to early exit.
