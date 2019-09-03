@@ -186,3 +186,4 @@ int is_perfect_number(int n) {
 // note 168: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 169: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 170: Vectorizes cleanly under -O2.
+// note 171: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
