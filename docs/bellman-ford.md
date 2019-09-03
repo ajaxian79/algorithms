@@ -1323,3 +1323,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 331
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 332
+
+Walk both pointers from each end inward; advance the smaller side.
