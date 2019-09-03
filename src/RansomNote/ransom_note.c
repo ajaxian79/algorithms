@@ -178,3 +178,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 157: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 158: Vectorizes cleanly under -O2.
 // note 159: Linear in n; the constant factor is small.
+// note 160: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
