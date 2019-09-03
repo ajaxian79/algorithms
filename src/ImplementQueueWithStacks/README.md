@@ -1779,3 +1779,7 @@ Space complexity: O(h) for the tree height.
 ## entry 430
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 431
+
+Edge case: alternating pattern → degenerate case for sliding window.
