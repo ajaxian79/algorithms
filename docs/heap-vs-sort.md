@@ -271,3 +271,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 51
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 52
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
