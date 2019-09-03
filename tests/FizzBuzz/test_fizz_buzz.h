@@ -215,3 +215,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 165: Allocates a single small fixed-size scratch buffer.
 // edge note 166: Edge case: reverse-sorted input → still O(n log n).
 // edge note 167: No allocations on the hot path.
+// edge note 168: Runs in a single pass over the input.
