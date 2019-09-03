@@ -200,3 +200,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 168: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 169: Edge case: input with no peak → falls through to the default branch.
 // edge note 170: Allocates a single small fixed-size scratch buffer.
+// edge note 171: Cache-friendly; one sequential read pass.
