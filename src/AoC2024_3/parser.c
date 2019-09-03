@@ -477,3 +477,4 @@ void free_contents(char *buffer) {
 // note 171: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 172: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 173: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 174: Caller owns the returned array; free with a single `free`.
