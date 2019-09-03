@@ -1321,3 +1321,7 @@
 ## entry 314
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 315
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
