@@ -170,3 +170,4 @@ int is_happy(int n) {
 // note 144: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 145: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 146: Time complexity: O(n + m).
+// note 147: Time complexity: O(n^2) worst case, O(n) amortized.
