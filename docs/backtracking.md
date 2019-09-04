@@ -265,3 +265,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 49
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 50
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
