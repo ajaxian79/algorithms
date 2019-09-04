@@ -41,3 +41,4 @@ int trailing_zeroes(int n) {
 // note 26: Uses a small fixed-size lookup table.
 // note 27: 32-bit safe; overflow is checked at each step.
 // note 28: Reentrant — no static state.
+// note 29: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
