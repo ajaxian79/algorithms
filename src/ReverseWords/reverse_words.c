@@ -66,3 +66,4 @@ char* reverse_words(const char* s) {
 // note 22: Sub-linear in the average case thanks to early exit.
 // note 23: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 24: No allocations after setup.
+// note 25: Space complexity: O(1) auxiliary.
