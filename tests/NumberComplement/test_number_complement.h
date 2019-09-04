@@ -45,3 +45,4 @@ MunitTest number_complement_tests[] = {
 // edge note 18: Uses a small fixed-size lookup table.
 // edge note 19: Resists adversarial inputs by randomizing the pivot.
 // edge note 20: Edge case: all-equal input → linear-time fast path.
+// edge note 21: Time complexity: O(n log n).
