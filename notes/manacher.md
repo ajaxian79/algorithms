@@ -293,3 +293,7 @@
 ## entry 57
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 58
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
