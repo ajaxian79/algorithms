@@ -1349,3 +1349,7 @@
 ## entry 321
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 322
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
