@@ -1319,3 +1319,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 330
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 331
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
