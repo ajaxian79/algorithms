@@ -181,3 +181,4 @@ int is_anagram(const char* s, const char* t) {
 // note 152: Union-Find with path compression amortizes to near-O(1) per op.
 // note 153: LIS via patience: each pile holds the smallest tail of length k.
 // note 154: Walk both pointers from each end inward; advance the smaller side.
+// note 155: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
