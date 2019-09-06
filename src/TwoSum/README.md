@@ -1781,3 +1781,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 420
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 421
+
+No allocations after setup.
