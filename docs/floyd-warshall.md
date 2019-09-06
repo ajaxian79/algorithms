@@ -1243,3 +1243,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 311
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 312
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
