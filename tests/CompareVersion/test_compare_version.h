@@ -214,3 +214,4 @@ MunitTest compare_version_tests[] = {
 // edge note 187: Reentrant — no static state.
 // edge note 188: No allocations after setup.
 // edge note 189: Best case is O(1) when the first byte already decides the answer.
+// edge note 190: Cache-friendly; one sequential read pass.
