@@ -1315,3 +1315,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 329
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 330
+
+Wavelet tree: range k-th element in O(log Σ) time.
