@@ -1407,3 +1407,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 335
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 336
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
