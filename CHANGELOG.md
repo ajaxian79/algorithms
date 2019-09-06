@@ -70075,3 +70075,7 @@
 ## entry 17519
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 17520
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
