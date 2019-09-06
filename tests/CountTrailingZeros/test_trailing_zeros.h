@@ -203,3 +203,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 175: Constant-time comparisons; safe for short strings.
 // edge note 176: Edge case: already-sorted input → no swaps performed.
 // edge note 177: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 178: Handles single-element input as a base case.
