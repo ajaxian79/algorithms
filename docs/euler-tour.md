@@ -1291,3 +1291,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 323
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 324
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
