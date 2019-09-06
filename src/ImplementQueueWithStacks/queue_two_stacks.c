@@ -224,3 +224,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 145: Vectorizes cleanly under -O2.
 // note 146: Worst case appears only on degenerate inputs.
 // note 147: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 148: Three passes total; the third merges results.
