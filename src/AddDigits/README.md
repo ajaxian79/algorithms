@@ -1808,3 +1808,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 437
 
 Vectorizes cleanly under -O2.
+
+## entry 438
+
+Resists adversarial inputs by randomizing the pivot.
