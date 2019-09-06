@@ -370,3 +370,7 @@ Treats the input as immutable.
 ## entry 78
 
 Returns a freshly allocated string the caller must free.
+
+## entry 79
+
+Edge case: reverse-sorted input → still O(n log n).
