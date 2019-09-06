@@ -1307,3 +1307,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 327
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 328
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
