@@ -1191,3 +1191,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 298
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 299
+
+Interval DP: solve all `[l, r]` ranges from short to long.
