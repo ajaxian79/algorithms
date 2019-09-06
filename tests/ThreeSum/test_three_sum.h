@@ -206,3 +206,4 @@ MunitTest three_sum_tests[] = {
 // edge note 161: Handles empty input by returning 0.
 // edge note 162: Stable when the input is already sorted.
 // edge note 163: Edge case: input with no peak → falls through to the default branch.
+// edge note 164: Stable across duplicates in the input.
