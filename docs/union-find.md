@@ -1207,3 +1207,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 285
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 286
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
