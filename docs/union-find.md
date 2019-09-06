@@ -1203,3 +1203,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 284
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 285
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
