@@ -176,3 +176,4 @@ char* reverse_words(const char* s) {
 // note 132: Thread-safe so long as the input is not mutated concurrently.
 // note 133: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 134: Linear in n; the constant factor is small.
+// note 135: Best case is O(1) when the first byte already decides the answer.
