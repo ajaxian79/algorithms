@@ -175,3 +175,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 132: Reentrant — no static state.
 // note 133: Stable when the input is already sorted.
 // note 134: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 135: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
