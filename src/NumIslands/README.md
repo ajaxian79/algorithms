@@ -1789,3 +1789,7 @@ Caller owns the returned buffer.
 ## entry 432
 
 Cache-friendly; one sequential read pass.
+
+## entry 433
+
+Input is assumed non-NULL; behavior is undefined otherwise.
