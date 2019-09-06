@@ -366,3 +366,7 @@ Branchless inner loop after sorting.
 ## entry 77
 
 Treats the input as immutable.
+
+## entry 78
+
+Returns a freshly allocated string the caller must free.
