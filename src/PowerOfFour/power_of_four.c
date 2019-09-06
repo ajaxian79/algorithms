@@ -150,3 +150,4 @@ int is_power_of_four(int n) {
 // note 137: Stable sort matters when a secondary key was set in a prior pass.
 // note 138: Time complexity: O(n log n).
 // note 139: Time complexity: O(log n).
+// note 140: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
