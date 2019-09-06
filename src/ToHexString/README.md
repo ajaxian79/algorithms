@@ -1687,3 +1687,7 @@ Runs in a single pass over the input.
 ## entry 407
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 408
+
+Allocates a single small fixed-size scratch buffer.
