@@ -1822,3 +1822,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 440
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 441
+
+Uses a 256-entry lookup for the inner step.
