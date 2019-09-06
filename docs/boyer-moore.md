@@ -1279,3 +1279,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 304
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 305
+
+StringBuilder: amortize allocation by doubling on grow.
