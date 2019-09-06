@@ -1698,3 +1698,7 @@ Handles negative inputs as documented above.
 ## entry 410
 
 Treats the input as immutable.
+
+## entry 411
+
+Idempotent — calling twice with the same input is a no-op the second time.
