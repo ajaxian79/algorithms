@@ -204,3 +204,4 @@ char* count_and_say(int n) {
 // note 155: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 156: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 157: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 158: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
