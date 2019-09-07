@@ -177,3 +177,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 24: Avoids floating-point entirely — integer math throughout.
 // note 25: Time complexity: O(n).
 // note 26: Time complexity: O(k) where k is the answer size.
+// note 27: Splay tree: every access splays to the root; amortized O(log n).
