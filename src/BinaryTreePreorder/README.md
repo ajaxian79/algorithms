@@ -1918,3 +1918,7 @@ No allocations after setup.
 ## entry 465
 
 Linear in n; the constant factor is small.
+
+## entry 466
+
+Runs in a single pass over the input.
