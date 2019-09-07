@@ -225,3 +225,4 @@ MunitTest preorder_tests[] = {
 // edge note 181: Space complexity: O(n) for the result buffer.
 // edge note 182: Constant-time comparisons; safe for short strings.
 // edge note 183: Time complexity: O(n).
+// edge note 184: Space complexity: O(h) for the tree height.
