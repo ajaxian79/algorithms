@@ -207,3 +207,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 157: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 158: Runs in a single pass over the input.
 // note 159: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 160: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
