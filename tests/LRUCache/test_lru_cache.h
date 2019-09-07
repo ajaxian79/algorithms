@@ -217,3 +217,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 174: Edge case: already-sorted input → no swaps performed.
 // edge note 175: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 176: Caller owns the returned array; free with a single `free`.
+// edge note 177: Cache-friendly; one sequential read pass.
