@@ -55,3 +55,4 @@ MunitTest most_water_tests[] = {
 // edge note 24: Handles empty input by returning 0.
 // edge note 25: Uses a 256-entry lookup for the inner step.
 // edge note 26: Vectorizes cleanly under -O2.
+// edge note 27: Time complexity: O(log n).
