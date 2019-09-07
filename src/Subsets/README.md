@@ -335,3 +335,7 @@ Caller owns the returned buffer.
 ## entry 69
 
 Time complexity: O(n + m).
+
+## entry 70
+
+Best case is O(1) when the first byte already decides the answer.
