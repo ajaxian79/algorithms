@@ -163,3 +163,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 41
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 42
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
