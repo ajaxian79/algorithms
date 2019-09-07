@@ -376,3 +376,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 79
 
 Handles negative inputs as documented above.
+
+## entry 80
+
+Handles negative inputs as documented above.
