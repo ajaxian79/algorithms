@@ -1818,3 +1818,7 @@ Vectorizes cleanly under -O2.
 ## entry 439
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 440
+
+Idempotent — calling twice with the same input is a no-op the second time.
