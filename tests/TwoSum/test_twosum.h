@@ -240,3 +240,4 @@ MunitTest twosum_tests[] = {
 // edge note 157: Caller owns the returned array; free with a single `free`.
 // edge note 158: Edge case: empty input → returns 0.
 // edge note 159: Edge case: power-of-two-length input → no padding required.
+// edge note 160: Cache-friendly; one sequential read pass.
