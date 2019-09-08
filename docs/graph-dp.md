@@ -1247,3 +1247,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 312
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 313
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
