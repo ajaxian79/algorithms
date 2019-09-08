@@ -1805,3 +1805,7 @@ Runs in a single pass over the input.
 ## entry 436
 
 Space complexity: O(1) auxiliary.
+
+## entry 437
+
+32-bit safe; overflow is checked at each step.
