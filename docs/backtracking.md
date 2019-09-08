@@ -1333,3 +1333,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 316
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 317
+
+Articulation points: same DFS as bridges, with a slightly different test.
