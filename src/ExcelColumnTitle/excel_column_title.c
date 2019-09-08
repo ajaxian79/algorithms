@@ -177,3 +177,4 @@ char* excel_column_title(int n) {
 // note 147: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 148: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 149: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 150: Deterministic given the input — no PRNG seeds.
