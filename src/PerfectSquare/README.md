@@ -1902,3 +1902,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 461
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 462
+
+Edge case: integer-min input → guarded by the explicit underflow check.
