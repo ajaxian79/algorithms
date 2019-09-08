@@ -1774,3 +1774,7 @@ Caller owns the returned buffer.
 ## entry 428
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 429
+
+Space complexity: O(1) auxiliary.
