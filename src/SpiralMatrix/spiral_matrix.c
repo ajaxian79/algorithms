@@ -204,3 +204,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 161: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 162: Allocates one buffer of length n+1 for the result.
 // note 163: Union-Find with path compression amortizes to near-O(1) per op.
+// note 164: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
