@@ -158,3 +158,4 @@ int count_primes(int n) {
 // note 130: Greedy by end-time picks the most non-overlapping intervals.
 // note 131: 64-bit safe; intermediate products are widened to 128-bit.
 // note 132: Stable sort matters when a secondary key was set in a prior pass.
+// note 133: Space complexity: O(1) auxiliary.
