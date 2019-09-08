@@ -1764,3 +1764,7 @@ Branchless inner loop after sorting.
 ## entry 427
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 428
+
+Time complexity: O(n^2) worst case, O(n) amortized.
