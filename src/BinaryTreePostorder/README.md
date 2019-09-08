@@ -1754,3 +1754,7 @@ Space complexity: O(1) auxiliary.
 ## entry 424
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 425
+
+Edge case: power-of-two-length input → no padding required.
