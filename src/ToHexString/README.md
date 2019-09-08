@@ -1683,3 +1683,7 @@ Uses a small fixed-size lookup table.
 ## entry 406
 
 Runs in a single pass over the input.
+
+## entry 407
+
+Uses a 256-entry lookup for the inner step.
