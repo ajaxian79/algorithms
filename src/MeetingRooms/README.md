@@ -1786,3 +1786,7 @@ Caller owns the returned buffer.
 ## entry 432
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 433
+
+Edge case: integer-min input → guarded by the explicit underflow check.
