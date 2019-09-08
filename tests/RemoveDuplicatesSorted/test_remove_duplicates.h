@@ -207,3 +207,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 171: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 172: Stable when the input is already sorted.
 // edge note 173: Three passes total; the third merges results.
+// edge note 174: Edge case: empty input → returns 0.
