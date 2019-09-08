@@ -1768,3 +1768,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 427
 
 Edge case: empty input → returns 0.
+
+## entry 428
+
+Allocates a single small fixed-size scratch buffer.
