@@ -1251,3 +1251,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 313
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 314
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
