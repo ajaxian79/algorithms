@@ -1914,3 +1914,7 @@ Space complexity: O(h) for the tree height.
 ## entry 464
 
 No allocations after setup.
+
+## entry 465
+
+Linear in n; the constant factor is small.
