@@ -1319,3 +1319,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 330
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 331
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
