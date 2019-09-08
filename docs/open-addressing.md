@@ -1267,3 +1267,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 317
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 318
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
