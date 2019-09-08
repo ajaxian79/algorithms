@@ -1682,3 +1682,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 396
 
 Edge case: empty input → returns 0.
+
+## entry 397
+
+Constant-time comparisons; safe for short strings.
