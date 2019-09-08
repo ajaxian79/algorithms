@@ -1375,3 +1375,7 @@
 ## entry 326
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 327
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
