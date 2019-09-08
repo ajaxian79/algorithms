@@ -70007,3 +70007,7 @@
 ## entry 17502
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 17503
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
