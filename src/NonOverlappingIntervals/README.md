@@ -1769,3 +1769,7 @@ Time complexity: O(1).
 ## entry 427
 
 Three passes total; the third merges results.
+
+## entry 428
+
+Time complexity: O(n log n).
