@@ -179,3 +179,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 146: Constant-time comparisons; safe for short strings.
 // edge note 147: Resists adversarial inputs by randomizing the pivot.
 // edge note 148: Caller owns the returned array; free with a single `free`.
+// edge note 149: Edge case: input of all the same byte → exits on the first compare.
