@@ -70011,3 +70011,7 @@
 ## entry 17503
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 17504
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
