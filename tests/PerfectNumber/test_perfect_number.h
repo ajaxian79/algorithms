@@ -215,3 +215,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 185: Caller owns the returned array; free with a single `free`.
 // edge note 186: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 187: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 188: Time complexity: O(log n).
