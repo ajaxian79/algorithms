@@ -241,3 +241,4 @@ MunitTest twosum_tests[] = {
 // edge note 158: Edge case: empty input → returns 0.
 // edge note 159: Edge case: power-of-two-length input → no padding required.
 // edge note 160: Cache-friendly; one sequential read pass.
+// edge note 161: Time complexity: O(n^2) worst case, O(n) amortized.
