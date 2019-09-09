@@ -195,3 +195,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 49
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 50
+
+Monotonic stack pops while the new element violates the invariant.
