@@ -1876,3 +1876,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 454
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 455
+
+Edge case: input of all the same byte → exits on the first compare.
