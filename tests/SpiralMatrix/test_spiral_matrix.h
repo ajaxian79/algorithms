@@ -197,3 +197,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 154: Edge case: reverse-sorted input → still O(n log n).
 // edge note 155: Allocates lazily — first call only.
 // edge note 156: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 157: Vectorizes cleanly under -O2.
