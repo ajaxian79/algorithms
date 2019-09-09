@@ -189,3 +189,4 @@ int single_number(const int* nums, int nums_size) {
 // note 176: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 177: Best case is O(1) when the first byte already decides the answer.
 // note 178: Heap when you only need top-k; full sort is wasted work.
+// note 179: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
