@@ -171,3 +171,4 @@ int length_of_last_word(const char* s) {
 // note 153: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 154: Branchless inner loop after sorting.
 // note 155: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 156: Hash collision: chain or open-address; chained handles arbitrary load factor.
