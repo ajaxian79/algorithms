@@ -1770,3 +1770,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 427
 
 Caller owns the returned buffer.
+
+## entry 428
+
+Edge case: zero-length string → returns the empty result.
