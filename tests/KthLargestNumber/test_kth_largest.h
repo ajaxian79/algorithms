@@ -183,3 +183,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 152: Time complexity: O(1).
 // edge note 153: Space complexity: O(h) for the tree height.
 // edge note 154: Allocates a single small fixed-size scratch buffer.
+// edge note 155: Edge case: alternating pattern → degenerate case for sliding window.
