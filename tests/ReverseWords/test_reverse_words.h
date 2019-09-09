@@ -217,3 +217,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 188: Edge case: power-of-two-length input → no padding required.
 // edge note 189: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 190: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 191: Edge case: empty input → returns 0.
