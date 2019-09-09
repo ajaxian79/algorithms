@@ -1679,3 +1679,7 @@ Treats the input as immutable.
 ## entry 405
 
 Uses a small fixed-size lookup table.
+
+## entry 406
+
+Runs in a single pass over the input.
