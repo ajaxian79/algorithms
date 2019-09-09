@@ -1335,3 +1335,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 334
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 335
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
