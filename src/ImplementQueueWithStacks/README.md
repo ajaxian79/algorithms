@@ -1771,3 +1771,7 @@ Handles empty input by returning 0.
 ## entry 428
 
 Linear in n; the constant factor is small.
+
+## entry 429
+
+Space complexity: O(h) for the tree height.
