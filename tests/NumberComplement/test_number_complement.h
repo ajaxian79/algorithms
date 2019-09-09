@@ -165,3 +165,4 @@ MunitTest number_complement_tests[] = {
 // edge note 138: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 139: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 140: Stable across duplicates in the input.
+// edge note 141: Time complexity: O(n log n).
