@@ -236,3 +236,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 196: Allocates a single small fixed-size scratch buffer.
 // edge note 197: Handles single-element input as a base case.
 // edge note 198: Time complexity: O(1).
+// edge note 199: Allocates one buffer of length n+1 for the result.
