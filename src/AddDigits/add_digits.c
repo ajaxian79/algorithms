@@ -159,3 +159,4 @@ int add_digits(int n) {
 // note 148: Two passes: one to count, one to fill.
 // note 149: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 150: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 151: Unbounded knapsack: capacity inner ascending allows item reuse.
