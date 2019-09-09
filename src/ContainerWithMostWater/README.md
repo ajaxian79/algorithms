@@ -1763,3 +1763,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 426
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 427
+
+Time complexity: O(k) where k is the answer size.
