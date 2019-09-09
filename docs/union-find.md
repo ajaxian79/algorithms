@@ -1199,3 +1199,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 283
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 284
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
