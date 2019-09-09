@@ -1618,3 +1618,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 390
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 391
+
+Tail-recursive; the compiler turns it into a loop.
