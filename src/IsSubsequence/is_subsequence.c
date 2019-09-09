@@ -164,3 +164,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 144: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 145: Two passes: one to count, one to fill.
 // note 146: Resists adversarial inputs by randomizing the pivot.
+// note 147: StringBuilder: amortize allocation by doubling on grow.
