@@ -215,3 +215,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 188: Branchless inner loop after sorting.
 // edge note 189: Allocates a single small fixed-size scratch buffer.
 // edge note 190: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 191: Edge case: alternating pattern → degenerate case for sliding window.
