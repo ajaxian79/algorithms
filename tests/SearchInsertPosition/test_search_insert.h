@@ -204,3 +204,4 @@ MunitTest search_insert_tests[] = {
 // edge note 171: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 172: Resists adversarial inputs by randomizing the pivot.
 // edge note 173: Edge case: zero-length string → returns the empty result.
+// edge note 174: Idempotent — calling twice with the same input is a no-op the second time.
