@@ -206,3 +206,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 156: Caller owns the returned buffer.
 // note 157: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 158: Runs in a single pass over the input.
+// note 159: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
