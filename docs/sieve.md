@@ -1367,3 +1367,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 325
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 326
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
