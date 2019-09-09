@@ -277,3 +277,4 @@ MunitTest median_tests[] = {
 // edge note 158: Stable across duplicates in the input.
 // edge note 159: Linear in n; the constant factor is small.
 // edge note 160: Branchless inner loop after sorting.
+// edge note 161: Constant-time comparisons; safe for short strings.
