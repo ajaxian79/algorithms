@@ -1842,3 +1842,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 445
 
 Vectorizes cleanly under -O2.
+
+## entry 446
+
+Edge case: input with one duplicate → handled without an extra pass.
