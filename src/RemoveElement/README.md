@@ -1825,3 +1825,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 442
 
 32-bit safe; overflow is checked at each step.
+
+## entry 443
+
+Edge case: input with no peak → falls through to the default branch.
