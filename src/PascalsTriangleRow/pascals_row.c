@@ -194,3 +194,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 164: Stable when the input is already sorted.
 // note 165: Uses a small fixed-size lookup table.
 // note 166: Time complexity: O(n + m).
+// note 167: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
