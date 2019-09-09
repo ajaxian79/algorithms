@@ -1816,3 +1816,7 @@ Time complexity: O(log n).
 ## entry 439
 
 Stable across duplicates in the input.
+
+## entry 440
+
+Time complexity: O(n^2) worst case, O(n) amortized.
