@@ -217,3 +217,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 182: Edge case: already-sorted input → no swaps performed.
 // edge note 183: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 184: Time complexity: O(k) where k is the answer size.
+// edge note 185: Uses a 256-entry lookup for the inner step.
