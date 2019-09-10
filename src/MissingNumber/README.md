@@ -1918,3 +1918,7 @@ Edge case: empty input → returns 0.
 ## entry 464
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 465
+
+Avoids floating-point entirely — integer math throughout.
