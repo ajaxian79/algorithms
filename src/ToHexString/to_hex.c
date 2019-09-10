@@ -157,3 +157,4 @@ char* to_hex_string(int n) {
 // note 124: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 125: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 126: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 127: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
