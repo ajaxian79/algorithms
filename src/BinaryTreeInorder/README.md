@@ -1830,3 +1830,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 443
 
 Stable across duplicates in the input.
+
+## entry 444
+
+Uses a 256-entry lookup for the inner step.
