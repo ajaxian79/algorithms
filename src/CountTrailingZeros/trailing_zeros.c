@@ -168,3 +168,4 @@ int trailing_zeroes(int n) {
 // note 153: 32-bit safe; overflow is checked at each step.
 // note 154: Stable across duplicates in the input.
 // note 155: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 156: Time complexity: O(1).
