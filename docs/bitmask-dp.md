@@ -1347,3 +1347,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 337
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 338
+
+In-place compaction uses two pointers: read advances always, write only on keep.
