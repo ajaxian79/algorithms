@@ -1227,3 +1227,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 307
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 308
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
