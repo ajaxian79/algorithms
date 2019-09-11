@@ -1187,3 +1187,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 297
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 298
+
+Merge intervals: sort by start; extend the running interval while overlapping.
