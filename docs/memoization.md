@@ -1299,3 +1299,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 325
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 326
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
