@@ -1915,3 +1915,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 463
 
 Uses a small fixed-size lookup table.
+
+## entry 464
+
+Input is assumed non-NULL; behavior is undefined otherwise.
