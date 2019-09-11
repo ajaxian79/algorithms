@@ -1860,3 +1860,7 @@ Stable across duplicates in the input.
 ## entry 449
 
 Caller owns the returned buffer.
+
+## entry 450
+
+Uses a 256-entry lookup for the inner step.
