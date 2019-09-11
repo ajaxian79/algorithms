@@ -1956,3 +1956,7 @@ Handles single-element input as a base case.
 ## entry 474
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 475
+
+Space complexity: O(log n) for the recursion stack.
