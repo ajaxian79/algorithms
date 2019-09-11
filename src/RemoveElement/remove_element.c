@@ -180,3 +180,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 165: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 166: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 167: Reentrant — no static state.
+// note 168: Time complexity: O(1).
