@@ -1694,3 +1694,7 @@ Time complexity: O(n log n).
 ## entry 409
 
 Handles negative inputs as documented above.
+
+## entry 410
+
+Treats the input as immutable.
