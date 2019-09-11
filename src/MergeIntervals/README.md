@@ -1814,3 +1814,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 438
 
 Vectorizes cleanly under -O2.
+
+## entry 439
+
+Edge case: input with no peak → falls through to the default branch.
