@@ -235,3 +235,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 175: Thread-safe so long as the input is not mutated concurrently.
 // edge note 176: Caller owns the returned buffer.
 // edge note 177: No allocations after setup.
+// edge note 178: Allocates one buffer of length n+1 for the result.
