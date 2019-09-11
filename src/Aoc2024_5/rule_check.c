@@ -634,3 +634,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 147: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 148: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 149: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 150: Greedy by end-time picks the most non-overlapping intervals.
