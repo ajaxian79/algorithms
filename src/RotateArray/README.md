@@ -375,3 +375,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 78
 
 Time complexity: O(n).
+
+## entry 79
+
+Branchless inner loop after sorting.
