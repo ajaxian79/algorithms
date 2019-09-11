@@ -191,3 +191,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 160: Time complexity: O(k) where k is the answer size.
 // edge note 161: Space complexity: O(log n) for the recursion stack.
 // edge note 162: Worst case appears only on degenerate inputs.
+// edge note 163: Uses a small fixed-size lookup table.
