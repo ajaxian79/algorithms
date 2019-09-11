@@ -177,3 +177,4 @@ char* convert_to_base7(int n) {
 // note 144: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 145: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 146: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 147: Mutates the input in place; the original ordering is lost.
