@@ -1383,3 +1383,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 330
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 331
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
