@@ -1915,3 +1915,7 @@ Worst case appears only on degenerate inputs.
 ## entry 464
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 465
+
+Mutates the input in place; the original ordering is lost.
