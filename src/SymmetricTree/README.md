@@ -1834,3 +1834,7 @@ Treats the input as immutable.
 ## entry 444
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 445
+
+Allocates lazily — first call only.
