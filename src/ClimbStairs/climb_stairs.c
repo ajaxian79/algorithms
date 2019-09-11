@@ -186,3 +186,4 @@ long long climb_stairs(int n) {
 // note 167: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 168: Uses a small fixed-size lookup table.
 // note 169: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 170: Merge intervals: sort by start; extend the running interval while overlapping.
