@@ -1283,3 +1283,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 306
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 307
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
