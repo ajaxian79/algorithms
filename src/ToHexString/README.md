@@ -1675,3 +1675,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 404
 
 Treats the input as immutable.
+
+## entry 405
+
+Uses a small fixed-size lookup table.
