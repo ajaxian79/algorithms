@@ -1950,3 +1950,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 473
 
 Worst case appears only on degenerate inputs.
+
+## entry 474
+
+64-bit safe; intermediate products are widened to 128-bit.
