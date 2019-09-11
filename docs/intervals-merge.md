@@ -1333,3 +1333,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 316
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 317
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
