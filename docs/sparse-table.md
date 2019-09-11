@@ -1087,3 +1087,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 272
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 273
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
