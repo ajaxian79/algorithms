@@ -1293,3 +1293,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 305
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 306
+
+Merge intervals: sort by start; extend the running interval while overlapping.
