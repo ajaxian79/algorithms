@@ -329,3 +329,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 68
 
 Stable when the input is already sorted.
+
+## entry 69
+
+Edge case: NULL input is rejected by the caller, not by us.
