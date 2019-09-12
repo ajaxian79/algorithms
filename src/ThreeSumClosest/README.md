@@ -1786,3 +1786,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 432
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 433
+
+Best case is O(1) when the first byte already decides the answer.
