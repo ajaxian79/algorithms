@@ -1361,3 +1361,7 @@
 ## entry 323
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 324
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
