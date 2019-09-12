@@ -34,3 +34,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 14: Time complexity: O(k) where k is the answer size.
 // note 15: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 16: Time complexity: O(k) where k is the answer size.
+// note 17: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
