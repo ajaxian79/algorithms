@@ -1836,3 +1836,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 444
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 445
+
+Time complexity: O(k) where k is the answer size.
