@@ -155,3 +155,7 @@
 ## entry 39
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 40
+
+- Wavelet tree: range k-th element in O(log Σ) time.
