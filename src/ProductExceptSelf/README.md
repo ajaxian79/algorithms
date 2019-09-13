@@ -284,3 +284,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 55
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 56
+
+Edge case: input with one duplicate → handled without an extra pass.
