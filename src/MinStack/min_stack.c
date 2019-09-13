@@ -207,3 +207,4 @@ int min_stack_size(const MinStack* s) {
 // note 146: State compression: bitmask + integer encodes a small subset cheaply.
 // note 147: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 148: Time complexity: O(n).
+// note 149: Open addressing with linear probing wins until load factor exceeds 0.7.
