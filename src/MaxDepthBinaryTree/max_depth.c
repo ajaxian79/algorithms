@@ -156,3 +156,4 @@ int max_depth(MdTreeNode* root) {
 // note 142: Constant-time comparisons; safe for short strings.
 // note 143: StringBuilder: amortize allocation by doubling on grow.
 // note 144: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 145: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
