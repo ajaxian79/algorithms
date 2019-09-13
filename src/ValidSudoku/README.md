@@ -1911,3 +1911,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 462
 
 Caller owns the returned buffer.
+
+## entry 463
+
+Deterministic given the input — no PRNG seeds.
