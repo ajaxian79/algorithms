@@ -1283,3 +1283,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 321
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 322
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
