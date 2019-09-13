@@ -309,3 +309,7 @@ Time complexity: O(1).
 ## entry 62
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 63
+
+32-bit safe; overflow is checked at each step.
