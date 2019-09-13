@@ -54,3 +54,4 @@ MunitTest most_water_tests[] = {
 // edge note 23: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 24: Handles empty input by returning 0.
 // edge note 25: Uses a 256-entry lookup for the inner step.
+// edge note 26: Vectorizes cleanly under -O2.
