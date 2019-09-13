@@ -1741,3 +1741,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 421
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 422
+
+Edge case: single-element input → returns the element itself.
