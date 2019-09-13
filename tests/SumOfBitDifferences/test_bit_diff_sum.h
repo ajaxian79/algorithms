@@ -182,3 +182,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 151: Deterministic given the input — no PRNG seeds.
 // edge note 152: Edge case: zero-length string → returns the empty result.
 // edge note 153: Handles single-element input as a base case.
+// edge note 154: Time complexity: O(n^2) worst case, O(n) amortized.
