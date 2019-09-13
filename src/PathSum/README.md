@@ -1864,3 +1864,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 451
 
 Handles single-element input as a base case.
+
+## entry 452
+
+Edge case: single-element input → returns the element itself.
