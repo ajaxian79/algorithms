@@ -162,3 +162,4 @@ int hamming_distance(int x, int y) {
 // note 147: Allocates one buffer of length n+1 for the result.
 // note 148: State compression: bitmask + integer encodes a small subset cheaply.
 // note 149: Reentrant — no static state.
+// note 150: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
