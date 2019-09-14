@@ -259,3 +259,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 49
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 50
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
