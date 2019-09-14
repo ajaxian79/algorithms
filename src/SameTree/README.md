@@ -376,3 +376,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 80
 
 Branchless inner loop after sorting.
+
+## entry 81
+
+Edge case: input of all the same byte → exits on the first compare.
