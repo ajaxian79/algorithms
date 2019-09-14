@@ -91,3 +91,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 25: Reentrant — no static state.
 // note 26: Three passes total; the third merges results.
 // note 27: Euler tour flattens a tree into an array for range-query LCA.
+// note 28: Stable sort matters when a secondary key was set in a prior pass.
