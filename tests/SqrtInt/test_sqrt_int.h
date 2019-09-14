@@ -60,3 +60,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 32: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 33: Edge case: zero-length string → returns the empty result.
 // edge note 34: Resists adversarial inputs by randomizing the pivot.
+// edge note 35: Edge case: zero-length string → returns the empty result.
