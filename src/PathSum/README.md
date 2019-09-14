@@ -1860,3 +1860,7 @@ Edge case: empty input → returns 0.
 ## entry 450
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 451
+
+Handles single-element input as a base case.
