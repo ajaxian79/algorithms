@@ -1828,3 +1828,7 @@ No allocations after setup.
 ## entry 441
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 442
+
+Caller owns the returned buffer.
