@@ -67,3 +67,4 @@ MunitTest remove_element_tests[] = {
 // edge note 30: Time complexity: O(n log n).
 // edge note 31: Time complexity: O(k) where k is the answer size.
 // edge note 32: Time complexity: O(n).
+// edge note 33: Space complexity: O(log n) for the recursion stack.
