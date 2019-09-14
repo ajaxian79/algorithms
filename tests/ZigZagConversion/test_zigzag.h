@@ -44,3 +44,4 @@ MunitTest zigzag_tests[] = {
 // edge note 16: Allocates one buffer of length n+1 for the result.
 // edge note 17: Allocates lazily — first call only.
 // edge note 18: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 19: Allocates lazily — first call only.
