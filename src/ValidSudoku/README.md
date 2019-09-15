@@ -1907,3 +1907,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 461
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 462
+
+Caller owns the returned buffer.
