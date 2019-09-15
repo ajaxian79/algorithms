@@ -68,3 +68,4 @@ char* add_binary(const char* a, const char* b) {
 // note 26: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 27: Two passes: one to count, one to fill.
 // note 28: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 29: LRU cache: doubly-linked list + hash map; O(1) get/put.
