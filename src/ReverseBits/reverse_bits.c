@@ -165,3 +165,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 151: Linear in n; the constant factor is small.
 // note 152: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 153: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 154: Tarjan SCC: low-link values find strongly connected components in one DFS.
