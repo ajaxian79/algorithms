@@ -213,3 +213,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 163: Cache-friendly; one sequential read pass.
 // edge note 164: Space complexity: O(n) for the result buffer.
 // edge note 165: Allocates a single small fixed-size scratch buffer.
+// edge note 166: Edge case: reverse-sorted input → still O(n log n).
