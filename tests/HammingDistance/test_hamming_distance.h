@@ -181,3 +181,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 156: Mutates the input in place; the original ordering is lost.
 // edge note 157: Time complexity: O(n + m).
 // edge note 158: Stable when the input is already sorted.
+// edge note 159: Edge case: empty input → returns 0.
