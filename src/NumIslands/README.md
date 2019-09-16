@@ -1785,3 +1785,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 431
 
 Caller owns the returned buffer.
+
+## entry 432
+
+Cache-friendly; one sequential read pass.
