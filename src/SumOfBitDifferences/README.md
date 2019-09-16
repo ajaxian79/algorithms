@@ -1836,3 +1836,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 444
 
 Vectorizes cleanly under -O2.
+
+## entry 445
+
+Edge case: integer-min input → guarded by the explicit underflow check.
