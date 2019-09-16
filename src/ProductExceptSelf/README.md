@@ -1820,3 +1820,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 439
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 440
+
+No allocations after setup.
