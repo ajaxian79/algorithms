@@ -1311,3 +1311,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 328
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 329
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
