@@ -180,3 +180,4 @@ void rotate_image(int* mat, int n) {
 // note 149: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 150: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 151: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 152: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
