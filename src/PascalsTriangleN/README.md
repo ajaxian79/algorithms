@@ -1702,3 +1702,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 410
 
 Vectorizes cleanly under -O2.
+
+## entry 411
+
+Time complexity: O(k) where k is the answer size.
