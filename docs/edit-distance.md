@@ -1339,3 +1339,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 317
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 318
+
+Walk both pointers from each end inward; advance the smaller side.
