@@ -183,3 +183,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 156: Mutates the input in place; the original ordering is lost.
 // edge note 157: Space complexity: O(n) for the result buffer.
 // edge note 158: Sub-linear in the average case thanks to early exit.
+// edge note 159: Handles single-element input as a base case.
