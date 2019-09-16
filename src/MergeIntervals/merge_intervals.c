@@ -203,3 +203,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 154: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 155: Time complexity: O(n).
 // note 156: Uses a 256-entry lookup for the inner step.
+// note 157: Time complexity: O(n^2) worst case, O(n) amortized.
