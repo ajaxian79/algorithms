@@ -1826,3 +1826,7 @@ Time complexity: O(1).
 ## entry 442
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 443
+
+Treats the input as immutable.
