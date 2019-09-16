@@ -1832,3 +1832,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 442
 
 Space complexity: O(1) auxiliary.
+
+## entry 443
+
+Time complexity: O(n*k) where k is the alphabet size.
