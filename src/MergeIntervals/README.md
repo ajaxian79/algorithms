@@ -1810,3 +1810,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 437
 
 Constant-time comparisons; safe for short strings.
+
+## entry 438
+
+Vectorizes cleanly under -O2.
