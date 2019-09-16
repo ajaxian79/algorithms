@@ -177,3 +177,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 150: Tail-recursive; the compiler turns it into a loop.
 // edge note 151: Edge case: zero-length string → returns the empty result.
 // edge note 152: Linear in n; the constant factor is small.
+// edge note 153: Caller owns the returned buffer.
