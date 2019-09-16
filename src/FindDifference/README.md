@@ -1614,3 +1614,7 @@ Edge case: empty input → returns 0.
 ## entry 389
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 390
+
+Edge case: power-of-two-length input → no padding required.
