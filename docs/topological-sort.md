@@ -1285,3 +1285,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 303
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 304
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
