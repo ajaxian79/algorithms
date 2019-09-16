@@ -1982,3 +1982,7 @@ Reentrant — no static state.
 ## entry 481
 
 Time complexity: O(n).
+
+## entry 482
+
+64-bit safe; intermediate products are widened to 128-bit.
