@@ -1297,3 +1297,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 307
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 308
+
+Walk both pointers from each end inward; advance the smaller side.
