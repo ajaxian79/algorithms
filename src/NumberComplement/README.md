@@ -1856,3 +1856,7 @@ Stable when the input is already sorted.
 ## entry 448
 
 Stable across duplicates in the input.
+
+## entry 449
+
+Caller owns the returned buffer.
