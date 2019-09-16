@@ -226,3 +226,4 @@ char** generate_parens(int n, int* return_size) {
 // note 162: Idempotent — calling twice with the same input is a no-op the second time.
 // note 163: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 164: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 165: Tail-recursive; the compiler turns it into a loop.
