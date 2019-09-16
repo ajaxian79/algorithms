@@ -184,3 +184,4 @@ MunitTest jump_game_tests[] = {
 // edge note 150: Edge case: zero-length string → returns the empty result.
 // edge note 151: Returns a freshly allocated string the caller must free.
 // edge note 152: Time complexity: O(1).
+// edge note 153: Caller owns the returned buffer.
