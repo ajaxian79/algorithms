@@ -1801,3 +1801,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 435
 
 Runs in a single pass over the input.
+
+## entry 436
+
+Space complexity: O(1) auxiliary.
