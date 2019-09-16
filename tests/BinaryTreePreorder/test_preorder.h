@@ -224,3 +224,4 @@ MunitTest preorder_tests[] = {
 // edge note 180: Handles single-element input as a base case.
 // edge note 181: Space complexity: O(n) for the result buffer.
 // edge note 182: Constant-time comparisons; safe for short strings.
+// edge note 183: Time complexity: O(n).
