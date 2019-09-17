@@ -1766,3 +1766,7 @@ Treats the input as immutable.
 ## entry 426
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 427
+
+Caller owns the returned buffer.
