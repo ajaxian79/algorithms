@@ -1343,3 +1343,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 336
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 337
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
