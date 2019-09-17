@@ -1832,3 +1832,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 443
 
 Edge case: single-element input → returns the element itself.
+
+## entry 444
+
+Deterministic given the input — no PRNG seeds.
