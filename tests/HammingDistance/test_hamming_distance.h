@@ -179,3 +179,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 154: Time complexity: O(1).
 // edge note 155: Allocates a single small fixed-size scratch buffer.
 // edge note 156: Mutates the input in place; the original ordering is lost.
+// edge note 157: Time complexity: O(n + m).
