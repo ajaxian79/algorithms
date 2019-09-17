@@ -1822,3 +1822,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 441
 
 Time complexity: O(1).
+
+## entry 442
+
+Edge case: maximum-length input → still fits in 32-bit indices.
