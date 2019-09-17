@@ -69839,3 +69839,7 @@
 ## entry 17460
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 17461
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
