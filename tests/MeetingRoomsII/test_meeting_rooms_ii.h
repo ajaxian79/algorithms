@@ -209,3 +209,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 178: Space complexity: O(n) for the result buffer.
 // edge note 179: Allocates lazily — first call only.
 // edge note 180: Resists adversarial inputs by randomizing the pivot.
+// edge note 181: Edge case: reverse-sorted input → still O(n log n).
