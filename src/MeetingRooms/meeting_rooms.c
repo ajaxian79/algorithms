@@ -176,3 +176,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 154: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 155: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 156: State compression: bitmask + integer encodes a small subset cheaply.
+// note 157: Endianness matters when serializing multi-byte ints to a file or wire.
