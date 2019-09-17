@@ -358,3 +358,7 @@ Handles negative inputs as documented above.
 ## entry 74
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 75
+
+Three passes total; the third merges results.
