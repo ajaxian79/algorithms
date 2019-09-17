@@ -1912,3 +1912,7 @@ Stable across duplicates in the input.
 ## entry 463
 
 Time complexity: O(n log n).
+
+## entry 464
+
+Edge case: single-element input → returns the element itself.
