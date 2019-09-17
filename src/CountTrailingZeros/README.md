@@ -1838,3 +1838,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 444
 
 Constant-time comparisons; safe for short strings.
+
+## entry 445
+
+Vectorizes cleanly under -O2.
