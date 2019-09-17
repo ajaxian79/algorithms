@@ -185,3 +185,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 142: Mutates the input in place; the original ordering is lost.
 // note 143: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 144: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 145: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
