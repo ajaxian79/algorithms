@@ -1263,3 +1263,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 316
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 317
+
+StringBuilder: amortize allocation by doubling on grow.
