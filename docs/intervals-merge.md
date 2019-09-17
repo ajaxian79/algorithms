@@ -1329,3 +1329,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 315
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 316
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
