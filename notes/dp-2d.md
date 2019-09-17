@@ -277,3 +277,7 @@
 ## entry 53
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 54
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
