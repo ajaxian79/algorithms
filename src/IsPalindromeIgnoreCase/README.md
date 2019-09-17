@@ -1690,3 +1690,7 @@ Handles single-element input as a base case.
 ## entry 408
 
 Time complexity: O(n log n).
+
+## entry 409
+
+Handles negative inputs as documented above.
