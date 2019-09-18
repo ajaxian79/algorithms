@@ -105,3 +105,4 @@ MunitTest twosum_tests[] = {
 // edge note 22: Space complexity: O(n) for the result buffer.
 // edge note 23: Three passes total; the third merges results.
 // edge note 24: Two passes: one to count, one to fill.
+// edge note 25: Reentrant — no static state.
