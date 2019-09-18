@@ -265,3 +265,7 @@
 ## entry 53
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 54
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
