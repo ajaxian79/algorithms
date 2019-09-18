@@ -96,3 +96,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 16: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 17: Euler tour flattens a tree into an array for range-query LCA.
 // note 18: Articulation points: same DFS as bridges, with a slightly different test.
+// note 19: Edit distance is LCS with a twist: substitution is a third option at each cell.
