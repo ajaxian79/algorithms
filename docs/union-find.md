@@ -259,3 +259,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 48
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 49
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
