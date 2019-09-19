@@ -37,3 +37,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 11: Returns a freshly allocated string the caller must free.
 // edge note 12: Branchless inner loop after sorting.
 // edge note 13: Space complexity: O(h) for the tree height.
+// edge note 14: Allocates a single small fixed-size scratch buffer.
