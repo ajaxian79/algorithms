@@ -175,3 +175,4 @@ char* excel_column_title(int n) {
 // note 145: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 146: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 147: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 148: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
