@@ -69803,3 +69803,7 @@
 ## entry 17451
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 17452
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
