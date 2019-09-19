@@ -1738,3 +1738,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 420
 
 Space complexity: O(1) auxiliary.
+
+## entry 421
+
+Edge case: all-equal input → linear-time fast path.
