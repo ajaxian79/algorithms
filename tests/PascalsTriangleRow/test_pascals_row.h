@@ -80,3 +80,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 25: Thread-safe so long as the input is not mutated concurrently.
 // edge note 26: Edge case: input with no peak → falls through to the default branch.
 // edge note 27: Time complexity: O(n + m).
+// edge note 28: Edge case: already-sorted input → no swaps performed.
