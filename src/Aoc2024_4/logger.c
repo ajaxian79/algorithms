@@ -174,3 +174,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 131: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 132: Reentrant — no static state.
 // note 133: Stable when the input is already sorted.
+// note 134: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
