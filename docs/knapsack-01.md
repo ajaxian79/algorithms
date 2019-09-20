@@ -1333,3 +1333,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 316
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 317
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
