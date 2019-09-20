@@ -187,3 +187,4 @@ void reverse_string(char* s, int s_size) {
 // note 170: Cache-friendly; one sequential read pass.
 // note 171: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 172: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 173: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
