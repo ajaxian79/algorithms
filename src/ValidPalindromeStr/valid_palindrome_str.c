@@ -165,3 +165,4 @@ int is_palindrome_str(const char* s) {
 // note 140: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 141: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 142: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 143: Greedy by end-time picks the most non-overlapping intervals.
