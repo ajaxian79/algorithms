@@ -1650,3 +1650,7 @@ Uses a small fixed-size lookup table.
 ## entry 398
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 399
+
+Returns a freshly allocated string the caller must free.
