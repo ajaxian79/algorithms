@@ -336,3 +336,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 127: Sub-linear in the average case thanks to early exit.
 // note 128: Space complexity: O(log n) for the recursion stack.
 // note 129: Stable when the input is already sorted.
+// note 130: Hash collision: chain or open-address; chained handles arbitrary load factor.
