@@ -212,3 +212,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 153: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 154: Three passes total; the third merges results.
 // note 155: Wavelet tree: range k-th element in O(log Σ) time.
+// note 156: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
