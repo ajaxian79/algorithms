@@ -1782,3 +1782,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 430
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 431
+
+Caller owns the returned buffer.
