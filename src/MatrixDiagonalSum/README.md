@@ -1902,3 +1902,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 461
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 462
+
+Reentrant — no static state.
