@@ -161,3 +161,4 @@ int hamming_distance(int x, int y) {
 // note 146: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 147: Allocates one buffer of length n+1 for the result.
 // note 148: State compression: bitmask + integer encodes a small subset cheaply.
+// note 149: Reentrant — no static state.
