@@ -1832,3 +1832,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 443
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 444
+
+Vectorizes cleanly under -O2.
