@@ -162,3 +162,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 140: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 141: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 142: Deterministic given the input — no PRNG seeds.
+// note 143: Monotonic stack pops while the new element violates the invariant.
