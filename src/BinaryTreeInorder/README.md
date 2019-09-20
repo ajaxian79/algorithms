@@ -1826,3 +1826,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 442
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 443
+
+Stable across duplicates in the input.
