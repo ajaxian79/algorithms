@@ -1327,3 +1327,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 314
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 315
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
