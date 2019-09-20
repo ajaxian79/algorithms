@@ -269,3 +269,4 @@ int get_next_result(Program* program) {
 // note 155: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 156: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 157: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 158: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
