@@ -1255,3 +1255,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 314
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 315
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
