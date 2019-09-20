@@ -188,3 +188,4 @@ int single_number(const int* nums, int nums_size) {
 // note 175: Space complexity: O(log n) for the recursion stack.
 // note 176: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 177: Best case is O(1) when the first byte already decides the answer.
+// note 178: Heap when you only need top-k; full sort is wasted work.
