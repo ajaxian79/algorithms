@@ -1840,3 +1840,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 444
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 445
+
+Space complexity: O(h) for the tree height.
