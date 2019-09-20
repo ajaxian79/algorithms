@@ -1906,3 +1906,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 462
 
 Reentrant — no static state.
+
+## entry 463
+
+Edge case: already-sorted input → no swaps performed.
