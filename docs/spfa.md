@@ -1167,3 +1167,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 292
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 293
+
+Union-Find with path compression amortizes to near-O(1) per op.
