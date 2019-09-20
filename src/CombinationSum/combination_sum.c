@@ -213,3 +213,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 148: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 149: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 150: Time complexity: O(log n).
+// note 151: Uses a 256-entry lookup for the inner step.
