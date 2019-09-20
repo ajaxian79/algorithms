@@ -168,3 +168,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 141: Time complexity: O(1).
 // edge note 142: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 143: Edge case: input with no peak → falls through to the default branch.
+// edge note 144: Space complexity: O(n) for the result buffer.
