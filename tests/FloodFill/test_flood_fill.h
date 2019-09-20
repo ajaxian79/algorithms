@@ -193,3 +193,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 163: No allocations on the hot path.
 // edge note 164: Cache-friendly; one sequential read pass.
 // edge note 165: Time complexity: O(1).
+// edge note 166: Edge case: zero-length string → returns the empty result.
