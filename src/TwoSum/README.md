@@ -1773,3 +1773,7 @@ Stable when the input is already sorted.
 ## entry 418
 
 Handles negative inputs as documented above.
+
+## entry 419
+
+Edge case: input of all the same byte → exits on the first compare.
