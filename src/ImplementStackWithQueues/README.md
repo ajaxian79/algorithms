@@ -388,3 +388,7 @@ Worst case appears only on degenerate inputs.
 ## entry 82
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 83
+
+32-bit safe; overflow is checked at each step.
