@@ -211,3 +211,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 53
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 54
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
