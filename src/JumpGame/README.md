@@ -1893,3 +1893,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 458
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 459
+
+Edge case: input with one duplicate → handled without an extra pass.
