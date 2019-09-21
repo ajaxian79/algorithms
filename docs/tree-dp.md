@@ -1399,3 +1399,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 350
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 351
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
