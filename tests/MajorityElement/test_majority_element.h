@@ -200,3 +200,4 @@ MunitTest majority_element_tests[] = {
 // edge note 169: Time complexity: O(1).
 // edge note 170: Edge case: zero-length string → returns the empty result.
 // edge note 171: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 172: Edge case: reverse-sorted input → still O(n log n).
