@@ -318,3 +318,7 @@ No allocations on the hot path.
 ## entry 65
 
 32-bit safe; overflow is checked at each step.
+
+## entry 66
+
+Edge case: already-sorted input → no swaps performed.
