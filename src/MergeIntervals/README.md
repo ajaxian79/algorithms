@@ -362,3 +362,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 75
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 76
+
+32-bit safe; overflow is checked at each step.
