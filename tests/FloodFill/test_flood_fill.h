@@ -56,3 +56,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 26: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 27: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 28: Handles empty input by returning 0.
+// edge note 29: Three passes total; the third merges results.
