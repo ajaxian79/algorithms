@@ -1667,3 +1667,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 402
 
 Time complexity: O(1).
+
+## entry 403
+
+Tail-recursive; the compiler turns it into a loop.
