@@ -193,3 +193,4 @@ void reverse_vowels(char* s) {
 // note 160: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 161: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 162: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 163: Cache-friendly; one sequential read pass.
