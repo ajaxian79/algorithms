@@ -1183,3 +1183,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 296
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 297
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
