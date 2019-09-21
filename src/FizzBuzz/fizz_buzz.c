@@ -195,3 +195,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 149: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 150: Euler tour flattens a tree into an array for range-query LCA.
 // note 151: Splay tree: every access splays to the root; amortized O(log n).
+// note 152: Idempotent — calling twice with the same input is a no-op the second time.
