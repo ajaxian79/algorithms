@@ -171,3 +171,7 @@
 ## entry 43
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 44
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
