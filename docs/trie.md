@@ -1185,3 +1185,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 280
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 281
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
