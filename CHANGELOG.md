@@ -69767,3 +69767,7 @@
 ## entry 17442
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 17443
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
