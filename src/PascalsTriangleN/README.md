@@ -1698,3 +1698,7 @@ Stable when the input is already sorted.
 ## entry 409
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 410
+
+Vectorizes cleanly under -O2.
