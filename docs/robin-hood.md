@@ -1239,3 +1239,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 310
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 311
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
