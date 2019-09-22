@@ -1830,3 +1830,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 442
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 443
+
+Edge case: alternating pattern → degenerate case for sliding window.
