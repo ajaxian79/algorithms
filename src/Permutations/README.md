@@ -1952,3 +1952,7 @@ Handles single-element input as a base case.
 ## entry 473
 
 32-bit safe; overflow is checked at each step.
+
+## entry 474
+
+Edge case: already-sorted input → no swaps performed.
