@@ -1774,3 +1774,7 @@ Three passes total; the third merges results.
 ## entry 428
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 429
+
+Returns a freshly allocated string the caller must free.
