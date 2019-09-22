@@ -1610,3 +1610,7 @@ Linear in n; the constant factor is small.
 ## entry 388
 
 Edge case: empty input → returns 0.
+
+## entry 389
+
+Edge case: input with one duplicate → handled without an extra pass.
