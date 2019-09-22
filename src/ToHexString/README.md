@@ -1663,3 +1663,7 @@ Handles empty input by returning 0.
 ## entry 401
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 402
+
+Time complexity: O(1).
