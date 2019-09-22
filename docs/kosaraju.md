@@ -1279,3 +1279,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 320
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 321
+
+LIS via patience: each pile holds the smallest tail of length k.
