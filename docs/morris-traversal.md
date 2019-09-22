@@ -1271,3 +1271,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 303
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 304
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
