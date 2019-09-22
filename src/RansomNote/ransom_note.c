@@ -177,3 +177,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 156: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 157: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 158: Vectorizes cleanly under -O2.
+// note 159: Linear in n; the constant factor is small.
