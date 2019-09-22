@@ -1659,3 +1659,7 @@ No allocations after setup.
 ## entry 400
 
 Handles empty input by returning 0.
+
+## entry 401
+
+Sub-linear in the average case thanks to early exit.
