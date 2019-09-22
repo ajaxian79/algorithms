@@ -1782,3 +1782,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 431
 
 Handles negative inputs as documented above.
+
+## entry 432
+
+Edge case: input of all the same byte → exits on the first compare.
