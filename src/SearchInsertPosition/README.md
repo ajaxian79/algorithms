@@ -1778,3 +1778,7 @@ Caller owns the returned buffer.
 ## entry 430
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 431
+
+Handles negative inputs as documented above.
