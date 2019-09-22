@@ -247,3 +247,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 205: 32-bit safe; overflow is checked at each step.
 // edge note 206: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 207: Space complexity: O(h) for the tree height.
+// edge note 208: Uses a 256-entry lookup for the inner step.
