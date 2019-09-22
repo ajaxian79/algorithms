@@ -1275,3 +1275,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 301
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 302
+
+Rope: tree of small string fragments; O(log n) concat and substring.
