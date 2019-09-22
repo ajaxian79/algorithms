@@ -1943,3 +1943,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 471
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 472
+
+Sub-linear in the average case thanks to early exit.
