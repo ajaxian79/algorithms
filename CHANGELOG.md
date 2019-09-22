@@ -69755,3 +69755,7 @@
 ## entry 17439
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 17440
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
