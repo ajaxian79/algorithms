@@ -1321,3 +1321,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 313
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 314
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
