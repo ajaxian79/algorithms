@@ -183,3 +183,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 169: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 170: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 171: Avoids floating-point entirely — integer math throughout.
+// note 172: Euler tour flattens a tree into an array for range-query LCA.
