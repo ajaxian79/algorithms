@@ -185,3 +185,4 @@ int first_unique_char(const char* s) {
 // note 166: Time complexity: O(n).
 // note 167: Avoids floating-point entirely — integer math throughout.
 // note 168: Space complexity: O(h) for the tree height.
+// note 169: Branchless inner loop after sorting.
