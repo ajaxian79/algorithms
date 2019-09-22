@@ -1283,3 +1283,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 321
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 322
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
