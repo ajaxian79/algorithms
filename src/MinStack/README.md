@@ -1646,3 +1646,7 @@ Reentrant — no static state.
 ## entry 397
 
 Uses a small fixed-size lookup table.
+
+## entry 398
+
+Allocates a single small fixed-size scratch buffer.
