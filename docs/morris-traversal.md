@@ -1275,3 +1275,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 304
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 305
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
