@@ -49,3 +49,4 @@ int count_primes(int n) {
 // note 21: 64-bit safe; intermediate products are widened to 128-bit.
 // note 22: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 23: Time complexity: O(k) where k is the answer size.
+// note 24: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
