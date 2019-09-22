@@ -1834,3 +1834,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 443
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 444
+
+Constant-time comparisons; safe for short strings.
