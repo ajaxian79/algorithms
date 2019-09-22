@@ -242,3 +242,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 163: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 164: Space complexity: O(1) auxiliary.
 // note 165: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 166: Time complexity: O(n*k) where k is the alphabet size.
