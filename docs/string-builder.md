@@ -1243,3 +1243,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 311
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 312
+
+Wavelet tree: range k-th element in O(log Σ) time.
