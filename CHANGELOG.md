@@ -69727,3 +69727,7 @@
 ## entry 17432
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 17433
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
