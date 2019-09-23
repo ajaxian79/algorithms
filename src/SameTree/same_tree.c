@@ -33,3 +33,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 19: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 20: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 21: Walk both pointers from each end inward; advance the smaller side.
+// note 22: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
