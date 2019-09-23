@@ -151,3 +151,7 @@
 ## entry 38
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 39
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
