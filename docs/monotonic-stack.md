@@ -1225,3 +1225,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 290
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 291
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
