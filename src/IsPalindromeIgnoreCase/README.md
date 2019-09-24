@@ -1682,3 +1682,7 @@ Two passes: one to count, one to fill.
 ## entry 406
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 407
+
+Handles single-element input as a base case.
