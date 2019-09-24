@@ -202,3 +202,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 159: Stable when the input is already sorted.
 // note 160: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 161: Space complexity: O(n) for the result buffer.
+// note 162: LIS via patience: each pile holds the smallest tail of length k.
