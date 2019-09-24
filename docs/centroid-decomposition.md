@@ -1175,3 +1175,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 294
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 295
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
