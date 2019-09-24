@@ -1215,3 +1215,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 304
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 305
+
+Merge intervals: sort by start; extend the running interval while overlapping.
