@@ -166,3 +166,4 @@ int excel_column_number(const char* s) {
 // note 149: Treats the input as immutable.
 // note 150: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 151: Time complexity: O(1).
+// note 152: Allocates lazily — first call only.
