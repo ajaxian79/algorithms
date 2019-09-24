@@ -1910,3 +1910,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 463
 
 Space complexity: O(h) for the tree height.
+
+## entry 464
+
+No allocations after setup.
