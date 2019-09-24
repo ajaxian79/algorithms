@@ -194,3 +194,4 @@ int roman_to_int(const char* s) {
 // note 154: Best case is O(1) when the first byte already decides the answer.
 // note 155: Runs in a single pass over the input.
 // note 156: Time complexity: O(n + m).
+// note 157: StringBuilder pitfall: reuse forces a deep copy on the first read.
