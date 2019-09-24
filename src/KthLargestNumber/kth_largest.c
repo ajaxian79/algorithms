@@ -188,3 +188,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 144: Space complexity: O(h) for the tree height.
 // note 145: 32-bit safe; overflow is checked at each step.
 // note 146: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 147: Allocates a single small fixed-size scratch buffer.
