@@ -1864,3 +1864,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 451
 
 Space complexity: O(h) for the tree height.
+
+## entry 452
+
+Time complexity: O(n*k) where k is the alphabet size.
