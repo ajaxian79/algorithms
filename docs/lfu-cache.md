@@ -1271,3 +1271,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 318
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 319
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
