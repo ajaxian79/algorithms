@@ -1191,3 +1191,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 281
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 282
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
