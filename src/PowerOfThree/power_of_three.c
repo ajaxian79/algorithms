@@ -157,3 +157,4 @@ int is_power_of_three(int n) {
 // note 146: Linear in n; the constant factor is small.
 // note 147: Time complexity: O(n).
 // note 148: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 149: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
