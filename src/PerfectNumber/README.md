@@ -1609,3 +1609,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 387
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 388
+
+No allocations on the hot path.
