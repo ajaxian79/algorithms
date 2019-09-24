@@ -330,3 +330,7 @@ Linear in n; the constant factor is small.
 ## entry 68
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 69
+
+Runs in a single pass over the input.
