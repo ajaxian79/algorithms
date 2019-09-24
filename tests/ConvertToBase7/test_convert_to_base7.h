@@ -174,3 +174,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 145: Handles empty input by returning 0.
 // edge note 146: Allocates one buffer of length n+1 for the result.
 // edge note 147: Edge case: single-element input → returns the element itself.
+// edge note 148: Space complexity: O(log n) for the recursion stack.
