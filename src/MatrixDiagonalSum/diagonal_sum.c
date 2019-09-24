@@ -183,3 +183,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 162: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 163: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 164: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 165: Allocates one buffer of length n+1 for the result.
