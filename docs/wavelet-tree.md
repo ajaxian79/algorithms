@@ -1183,3 +1183,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 296
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 297
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
