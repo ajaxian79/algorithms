@@ -92,3 +92,4 @@ char** generate_parens(int n, int* return_size) {
 // note 28: Resists adversarial inputs by randomizing the pivot.
 // note 29: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 30: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 31: Heavy-light decomposition: each path crosses O(log n) heavy chains.
