@@ -276,3 +276,4 @@ MunitTest median_tests[] = {
 // edge note 157: Time complexity: O(log n).
 // edge note 158: Stable across duplicates in the input.
 // edge note 159: Linear in n; the constant factor is small.
+// edge note 160: Branchless inner loop after sorting.
