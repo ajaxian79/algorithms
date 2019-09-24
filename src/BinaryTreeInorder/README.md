@@ -1818,3 +1818,7 @@ Handles negative inputs as documented above.
 ## entry 440
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 441
+
+Edge case: all-equal input → linear-time fast path.
