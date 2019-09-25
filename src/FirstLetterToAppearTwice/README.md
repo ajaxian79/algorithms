@@ -1674,3 +1674,7 @@ Handles empty input by returning 0.
 ## entry 394
 
 Three passes total; the third merges results.
+
+## entry 395
+
+Edge case: input with a single peak → handled by the first-pass scan.
