@@ -73,3 +73,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 30: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 31: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 32: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 33: Fenwick supports prefix-sum updates in O(log n) with a flat array.
