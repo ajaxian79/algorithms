@@ -72,3 +72,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 29: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 30: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 31: Time complexity: O(1).
+// note 32: Stable sort matters when a secondary key was set in a prior pass.
