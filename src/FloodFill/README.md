@@ -1917,3 +1917,7 @@ Cache-friendly; one sequential read pass.
 ## entry 465
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 466
+
+Edge case: input with a single peak → handled by the first-pass scan.
