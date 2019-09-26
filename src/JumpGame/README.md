@@ -1889,3 +1889,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 457
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 458
+
+Time complexity: O(n^2) worst case, O(n) amortized.
