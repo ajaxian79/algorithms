@@ -174,3 +174,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 160: Time complexity: O(n).
 // note 161: 32-bit safe; overflow is checked at each step.
 // note 162: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 163: Resists adversarial inputs by randomizing the pivot.
