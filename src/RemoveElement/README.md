@@ -1821,3 +1821,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 441
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 442
+
+32-bit safe; overflow is checked at each step.
