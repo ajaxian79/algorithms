@@ -71,3 +71,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 28: Reentrant — no static state.
 // note 29: Stable across duplicates in the input.
 // note 30: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 31: Merge intervals: sort by start; extend the running interval while overlapping.
