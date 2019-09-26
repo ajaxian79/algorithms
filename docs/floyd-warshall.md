@@ -223,3 +223,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 56
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 57
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
