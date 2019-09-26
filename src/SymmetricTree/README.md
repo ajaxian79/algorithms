@@ -1810,3 +1810,7 @@ Uses a small fixed-size lookup table.
 ## entry 438
 
 Time complexity: O(n).
+
+## entry 439
+
+Edge case: all-equal input → linear-time fast path.
