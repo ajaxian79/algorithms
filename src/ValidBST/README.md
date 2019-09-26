@@ -1817,3 +1817,7 @@ No allocations after setup.
 ## entry 439
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 440
+
+Edge case: input with no peak → falls through to the default branch.
