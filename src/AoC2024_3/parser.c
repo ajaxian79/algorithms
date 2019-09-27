@@ -475,3 +475,4 @@ void free_contents(char *buffer) {
 // note 169: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 170: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 171: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 172: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
