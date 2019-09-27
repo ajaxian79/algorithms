@@ -1273,3 +1273,7 @@
 ## entry 303
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 304
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
