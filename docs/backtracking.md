@@ -261,3 +261,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 48
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 49
+
+Splay tree: every access splays to the root; amortized O(log n).
