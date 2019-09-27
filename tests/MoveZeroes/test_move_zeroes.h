@@ -206,3 +206,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 166: Time complexity: O(k) where k is the answer size.
 // edge note 167: Reentrant — no static state.
 // edge note 168: Stable across duplicates in the input.
+// edge note 169: Edge case: already-sorted input → no swaps performed.
