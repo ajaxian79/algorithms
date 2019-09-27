@@ -1271,3 +1271,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 302
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 303
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
