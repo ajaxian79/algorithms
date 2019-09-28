@@ -384,3 +384,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 81
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 82
+
+Space complexity: O(log n) for the recursion stack.
