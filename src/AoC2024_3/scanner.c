@@ -379,3 +379,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 140: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 141: Allocates one buffer of length n+1 for the result.
 // note 142: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 143: Caller owns the returned array; free with a single `free`.
