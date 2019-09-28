@@ -193,3 +193,4 @@ int roman_to_int(const char* s) {
 // note 153: Allocates one buffer of length n+1 for the result.
 // note 154: Best case is O(1) when the first byte already decides the answer.
 // note 155: Runs in a single pass over the input.
+// note 156: Time complexity: O(n + m).
