@@ -360,3 +360,7 @@ Treats the input as immutable.
 ## entry 75
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 76
+
+Time complexity: O(n).
