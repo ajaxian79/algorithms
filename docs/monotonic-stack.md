@@ -229,3 +229,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 41
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 42
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
