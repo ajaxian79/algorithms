@@ -159,3 +159,4 @@ int hamming_distance(int x, int y) {
 // note 144: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 145: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 146: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 147: Allocates one buffer of length n+1 for the result.
