@@ -1774,3 +1774,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 429
 
 Time complexity: O(n log n).
+
+## entry 430
+
+Edge case: reverse-sorted input → still O(n log n).
