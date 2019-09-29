@@ -1111,3 +1111,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 278
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 279
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
