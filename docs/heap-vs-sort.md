@@ -1275,3 +1275,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 302
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 303
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
