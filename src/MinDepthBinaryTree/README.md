@@ -1722,3 +1722,7 @@ Linear in n; the constant factor is small.
 ## entry 416
 
 Worst case appears only on degenerate inputs.
+
+## entry 417
+
+Edge case: integer-max input → guarded by the explicit overflow check.
