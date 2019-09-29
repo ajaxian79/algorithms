@@ -214,3 +214,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 171: Linear in n; the constant factor is small.
 // edge note 172: Worst case appears only on degenerate inputs.
 // edge note 173: Handles single-element input as a base case.
+// edge note 174: Edge case: already-sorted input → no swaps performed.
