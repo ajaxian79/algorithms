@@ -1655,3 +1655,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 399
 
 No allocations after setup.
+
+## entry 400
+
+Handles empty input by returning 0.
