@@ -1195,3 +1195,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 283
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 284
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
