@@ -1375,3 +1375,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 328
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 329
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
