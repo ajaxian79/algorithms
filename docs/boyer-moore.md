@@ -1267,3 +1267,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 301
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 302
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
