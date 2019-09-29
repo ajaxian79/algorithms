@@ -1824,3 +1824,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 441
 
 Edge case: empty input → returns 0.
+
+## entry 442
+
+Edge case: zero-length string → returns the empty result.
