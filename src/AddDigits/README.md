@@ -1792,3 +1792,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 433
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 434
+
+Mutates the input in place; the original ordering is lost.
