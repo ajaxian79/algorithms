@@ -1894,3 +1894,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 459
 
 Handles negative inputs as documented above.
+
+## entry 460
+
+Sub-linear in the average case thanks to early exit.
