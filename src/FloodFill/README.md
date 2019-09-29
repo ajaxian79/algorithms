@@ -1913,3 +1913,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 464
 
 Cache-friendly; one sequential read pass.
+
+## entry 465
+
+Uses a 256-entry lookup for the inner step.
