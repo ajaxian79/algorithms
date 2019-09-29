@@ -1770,3 +1770,7 @@ Time complexity: O(n log n).
 ## entry 427
 
 Three passes total; the third merges results.
+
+## entry 428
+
+Input is assumed non-NULL; behavior is undefined otherwise.
