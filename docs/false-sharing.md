@@ -1283,3 +1283,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 321
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 322
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
