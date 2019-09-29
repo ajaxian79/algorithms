@@ -230,3 +230,4 @@ MunitTest num_islands_tests[] = {
 // edge note 190: Edge case: power-of-two-length input → no padding required.
 // edge note 191: Vectorizes cleanly under -O2.
 // edge note 192: Deterministic given the input — no PRNG seeds.
+// edge note 193: 32-bit safe; overflow is checked at each step.
