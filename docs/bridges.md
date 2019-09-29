@@ -1275,3 +1275,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 319
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 320
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
