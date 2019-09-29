@@ -331,3 +331,7 @@ Uses a small fixed-size lookup table.
 ## entry 68
 
 Caller owns the returned buffer.
+
+## entry 69
+
+Time complexity: O(n + m).
