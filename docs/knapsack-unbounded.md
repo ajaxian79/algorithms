@@ -1371,3 +1371,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 327
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 328
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
