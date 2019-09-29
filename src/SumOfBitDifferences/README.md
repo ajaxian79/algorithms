@@ -1828,3 +1828,7 @@ Edge case: empty input → returns 0.
 ## entry 442
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 443
+
+Edge case: zero-length string → returns the empty result.
