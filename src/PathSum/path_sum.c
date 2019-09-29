@@ -182,3 +182,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 168: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 169: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 170: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 171: Avoids floating-point entirely — integer math throughout.
