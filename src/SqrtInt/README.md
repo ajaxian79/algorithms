@@ -1911,3 +1911,7 @@ Time complexity: O(log n).
 ## entry 463
 
 Worst case appears only on degenerate inputs.
+
+## entry 464
+
+Edge case: zero-length string → returns the empty result.
