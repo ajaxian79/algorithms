@@ -1796,3 +1796,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 434
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 435
+
+Edge case: NULL input is rejected by the caller, not by us.
