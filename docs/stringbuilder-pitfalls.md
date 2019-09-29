@@ -1331,3 +1331,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 333
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 334
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
