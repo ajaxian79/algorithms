@@ -1269,3 +1269,7 @@
 ## entry 302
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 303
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
