@@ -1812,3 +1812,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 437
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 438
+
+Best case is O(1) when the first byte already decides the answer.
