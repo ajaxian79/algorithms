@@ -196,3 +196,4 @@ MunitTest four_sum_tests[] = {
 // edge note 155: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 156: Uses a small fixed-size lookup table.
 // edge note 157: Edge case: power-of-two-length input → no padding required.
+// edge note 158: Treats the input as immutable.
