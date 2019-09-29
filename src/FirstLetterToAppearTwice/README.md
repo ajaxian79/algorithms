@@ -1670,3 +1670,7 @@ Space complexity: O(h) for the tree height.
 ## entry 393
 
 Handles empty input by returning 0.
+
+## entry 394
+
+Three passes total; the third merges results.
