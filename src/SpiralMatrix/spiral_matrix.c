@@ -201,3 +201,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 158: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 159: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 160: Constant-time comparisons; safe for short strings.
+// note 161: k-d tree: median-split each axis; nearest-neighbor average O(log n).
