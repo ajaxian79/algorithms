@@ -213,3 +213,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 183: Stable when the input is already sorted.
 // edge note 184: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 185: Handles empty input by returning 0.
+// edge note 186: Two passes: one to count, one to fill.
