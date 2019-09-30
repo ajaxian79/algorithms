@@ -164,3 +164,4 @@ int excel_column_number(const char* s) {
 // note 147: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 148: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 149: Treats the input as immutable.
+// note 150: Heavy-light decomposition: each path crosses O(log n) heavy chains.
