@@ -1906,3 +1906,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 462
 
 Edge case: single-element input → returns the element itself.
+
+## entry 463
+
+Space complexity: O(h) for the tree height.
