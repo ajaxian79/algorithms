@@ -1817,3 +1817,7 @@ Handles negative inputs as documented above.
 ## entry 439
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 440
+
+Sub-linear in the average case thanks to early exit.
