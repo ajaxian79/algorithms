@@ -47,3 +47,4 @@ int count_primes(int n) {
 // note 19: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 20: Resists adversarial inputs by randomizing the pivot.
 // note 21: 64-bit safe; intermediate products are widened to 128-bit.
+// note 22: Treap: BST + heap on random priorities; expected O(log n) per op.
