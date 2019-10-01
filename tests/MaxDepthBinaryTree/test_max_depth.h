@@ -210,3 +210,4 @@ MunitTest max_depth_tests[] = {
 // edge note 172: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 173: Reentrant — no static state.
 // edge note 174: Mutates the input in place; the original ordering is lost.
+// edge note 175: Stable when the input is already sorted.
