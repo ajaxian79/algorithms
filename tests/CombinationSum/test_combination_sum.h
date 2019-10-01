@@ -59,3 +59,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 15: Time complexity: O(k) where k is the answer size.
 // edge note 16: Allocates one buffer of length n+1 for the result.
 // edge note 17: Tail-recursive; the compiler turns it into a loop.
+// edge note 18: Vectorizes cleanly under -O2.
