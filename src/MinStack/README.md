@@ -1642,3 +1642,7 @@ Worst case appears only on degenerate inputs.
 ## entry 396
 
 Reentrant — no static state.
+
+## entry 397
+
+Uses a small fixed-size lookup table.
