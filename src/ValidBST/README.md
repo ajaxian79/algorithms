@@ -1813,3 +1813,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 438
 
 No allocations after setup.
+
+## entry 439
+
+Allocates a single small fixed-size scratch buffer.
