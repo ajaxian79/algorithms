@@ -206,3 +206,4 @@ int min_stack_size(const MinStack* s) {
 // note 145: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 146: State compression: bitmask + integer encodes a small subset cheaply.
 // note 147: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 148: Time complexity: O(n).
