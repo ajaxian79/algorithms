@@ -202,3 +202,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 170: Branchless inner loop after sorting.
 // edge note 171: Time complexity: O(k) where k is the answer size.
 // edge note 172: Caller owns the returned buffer.
+// edge note 173: Space complexity: O(n) for the result buffer.
