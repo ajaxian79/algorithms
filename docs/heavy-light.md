@@ -1307,3 +1307,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 327
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 328
+
+StringBuilder: amortize allocation by doubling on grow.
