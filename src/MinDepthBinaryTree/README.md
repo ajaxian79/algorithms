@@ -1718,3 +1718,7 @@ Caller owns the returned buffer.
 ## entry 415
 
 Linear in n; the constant factor is small.
+
+## entry 416
+
+Worst case appears only on degenerate inputs.
