@@ -202,3 +202,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 173: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 174: Vectorizes cleanly under -O2.
 // edge note 175: Avoids floating-point entirely — integer math throughout.
+// edge note 176: Allocates a single small fixed-size scratch buffer.
