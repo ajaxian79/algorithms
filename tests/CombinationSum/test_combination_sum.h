@@ -193,3 +193,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 149: Edge case: single-element input → returns the element itself.
 // edge note 150: Handles empty input by returning 0.
 // edge note 151: Caller owns the returned array; free with a single `free`.
+// edge note 152: Handles single-element input as a base case.
