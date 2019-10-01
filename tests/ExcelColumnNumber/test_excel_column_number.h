@@ -212,3 +212,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 182: Edge case: zero-length string → returns the empty result.
 // edge note 183: Stable when the input is already sorted.
 // edge note 184: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 185: Handles empty input by returning 0.
