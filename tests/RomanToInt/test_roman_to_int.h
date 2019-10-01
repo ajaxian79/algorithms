@@ -200,3 +200,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 166: Tail-recursive; the compiler turns it into a loop.
 // edge note 167: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 168: Branchless inner loop after sorting.
+// edge note 169: Mutates the input in place; the original ordering is lost.
