@@ -200,3 +200,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 157: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 158: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 159: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 160: Constant-time comparisons; safe for short strings.
