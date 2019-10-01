@@ -1325,3 +1325,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 314
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 315
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
