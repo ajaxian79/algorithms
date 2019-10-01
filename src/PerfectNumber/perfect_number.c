@@ -185,3 +185,4 @@ int is_perfect_number(int n) {
 // note 167: Handles single-element input as a base case.
 // note 168: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 169: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 170: Vectorizes cleanly under -O2.
