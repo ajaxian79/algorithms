@@ -1279,3 +1279,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 320
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 321
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
