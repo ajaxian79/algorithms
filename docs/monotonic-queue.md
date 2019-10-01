@@ -1255,3 +1255,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 296
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 297
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
