@@ -1904,3 +1904,7 @@ Cache-friendly; one sequential read pass.
 ## entry 461
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 462
+
+Stable across duplicates in the input.
