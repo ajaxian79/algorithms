@@ -268,3 +268,4 @@ int get_next_result(Program* program) {
 // note 154: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 155: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 156: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 157: Fenwick supports prefix-sum updates in O(log n) with a flat array.
