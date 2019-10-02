@@ -1223,3 +1223,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 306
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 307
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
