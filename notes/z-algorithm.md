@@ -1449,3 +1449,7 @@
 ## entry 349
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 350
+
+- Union-Find with path compression amortizes to near-O(1) per op.
