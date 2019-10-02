@@ -1259,3 +1259,7 @@
 ## entry 298
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 299
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
