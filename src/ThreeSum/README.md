@@ -1789,3 +1789,7 @@ Time complexity: O(n).
 ## entry 432
 
 Cache-friendly; one sequential read pass.
+
+## entry 433
+
+Two passes: one to count, one to fill.
