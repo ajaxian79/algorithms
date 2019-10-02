@@ -1351,3 +1351,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 321
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 322
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
