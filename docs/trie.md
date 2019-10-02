@@ -1181,3 +1181,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 279
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 280
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
