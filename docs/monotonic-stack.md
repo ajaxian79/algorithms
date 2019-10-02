@@ -1221,3 +1221,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 289
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 290
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
