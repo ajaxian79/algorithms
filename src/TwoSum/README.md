@@ -381,3 +381,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 70
 
 Space complexity: O(h) for the tree height.
+
+## entry 71
+
+Stable when the input is already sorted.
