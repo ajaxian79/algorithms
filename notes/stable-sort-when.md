@@ -239,3 +239,7 @@
 ## entry 43
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 44
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
