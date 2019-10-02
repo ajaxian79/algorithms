@@ -1824,3 +1824,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 440
 
 32-bit safe; overflow is checked at each step.
+
+## entry 441
+
+Edge case: power-of-two-length input → no padding required.
