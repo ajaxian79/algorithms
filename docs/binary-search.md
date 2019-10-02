@@ -1397,3 +1397,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 333
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 334
+
+False sharing: two threads writing different bytes in the same cache line stall both.
