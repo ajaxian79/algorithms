@@ -339,3 +339,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 70
 
 Cache-friendly; one sequential read pass.
+
+## entry 71
+
+Resists adversarial inputs by randomizing the pivot.
