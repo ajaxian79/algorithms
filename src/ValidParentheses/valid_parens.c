@@ -214,3 +214,4 @@ int is_valid_parens(const char* s) {
 // note 172: Articulation points: same DFS as bridges, with a slightly different test.
 // note 173: Time complexity: O(log n).
 // note 174: Uses a small fixed-size lookup table.
+// note 175: ASCII rules are a strict subset of UTF-8; no special handling needed.
