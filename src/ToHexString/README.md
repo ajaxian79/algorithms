@@ -1651,3 +1651,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 398
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 399
+
+No allocations after setup.
