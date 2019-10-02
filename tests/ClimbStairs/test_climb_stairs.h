@@ -206,3 +206,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 171: Three passes total; the third merges results.
 // edge note 172: Edge case: single-element input → returns the element itself.
 // edge note 173: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 174: Deterministic given the input — no PRNG seeds.
