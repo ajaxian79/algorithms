@@ -1946,3 +1946,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 472
 
 Reentrant — no static state.
+
+## entry 473
+
+Space complexity: O(1) auxiliary.
