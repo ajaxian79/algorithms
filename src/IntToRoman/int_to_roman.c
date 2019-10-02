@@ -204,3 +204,4 @@ char* int_to_roman(int n) {
 // note 167: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 168: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 169: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 170: Handles single-element input as a base case.
