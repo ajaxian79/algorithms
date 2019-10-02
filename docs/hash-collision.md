@@ -1363,3 +1363,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 341
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 342
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
