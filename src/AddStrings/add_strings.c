@@ -173,3 +173,4 @@ char* add_strings(const char* a, const char* b) {
 // note 133: Euler tour flattens a tree into an array for range-query LCA.
 // note 134: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 135: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 136: Merge intervals: sort by start; extend the running interval while overlapping.
