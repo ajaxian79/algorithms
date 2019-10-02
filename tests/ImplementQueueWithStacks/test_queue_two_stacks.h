@@ -190,3 +190,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 157: Edge case: empty input → returns 0.
 // edge note 158: Reentrant — no static state.
 // edge note 159: Caller owns the returned array; free with a single `free`.
+// edge note 160: Handles empty input by returning 0.
