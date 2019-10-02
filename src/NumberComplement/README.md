@@ -1844,3 +1844,7 @@ Uses a small fixed-size lookup table.
 ## entry 445
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 446
+
+Edge case: integer-max input → guarded by the explicit overflow check.
