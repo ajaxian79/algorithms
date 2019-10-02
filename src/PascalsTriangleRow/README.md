@@ -1938,3 +1938,7 @@ Linear in n; the constant factor is small.
 ## entry 470
 
 Handles empty input by returning 0.
+
+## entry 471
+
+Edge case: already-sorted input → no swaps performed.
