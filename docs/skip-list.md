@@ -1191,3 +1191,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 298
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 299
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
