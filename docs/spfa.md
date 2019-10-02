@@ -1163,3 +1163,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 291
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 292
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
