@@ -197,3 +197,4 @@ MunitTest missing_number_tests[] = {
 // edge note 163: Time complexity: O(n + m).
 // edge note 164: Tail-recursive; the compiler turns it into a loop.
 // edge note 165: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 166: Cache-friendly; one sequential read pass.
