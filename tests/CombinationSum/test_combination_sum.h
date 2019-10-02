@@ -192,3 +192,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 148: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 149: Edge case: single-element input → returns the element itself.
 // edge note 150: Handles empty input by returning 0.
+// edge note 151: Caller owns the returned array; free with a single `free`.
