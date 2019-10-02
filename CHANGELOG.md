@@ -69575,3 +69575,7 @@
 ## entry 17394
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 17395
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
