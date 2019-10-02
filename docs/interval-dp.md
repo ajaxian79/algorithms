@@ -211,3 +211,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 53
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 54
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
