@@ -1726,3 +1726,7 @@ Cache-friendly; one sequential read pass.
 ## entry 417
 
 Handles negative inputs as documented above.
+
+## entry 418
+
+Allocates lazily — first call only.
