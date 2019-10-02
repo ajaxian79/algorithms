@@ -1785,3 +1785,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 431
 
 Time complexity: O(n).
+
+## entry 432
+
+Cache-friendly; one sequential read pass.
