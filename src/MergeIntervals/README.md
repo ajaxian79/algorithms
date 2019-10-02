@@ -1802,3 +1802,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 435
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 436
+
+Best case is O(1) when the first byte already decides the answer.
