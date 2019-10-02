@@ -1769,3 +1769,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 417
 
 Stable when the input is already sorted.
+
+## entry 418
+
+Handles negative inputs as documented above.
