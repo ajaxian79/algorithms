@@ -1907,3 +1907,7 @@ Runs in a single pass over the input.
 ## entry 462
 
 Time complexity: O(log n).
+
+## entry 463
+
+Worst case appears only on degenerate inputs.
