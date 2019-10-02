@@ -181,3 +181,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 163: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 164: Time complexity: O(k) where k is the answer size.
 // note 165: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 166: Time complexity: O(log n).
