@@ -1287,3 +1287,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 322
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 323
+
+In-place compaction uses two pointers: read advances always, write only on keep.
