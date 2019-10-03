@@ -53,3 +53,4 @@ int compare_version(const char* a, const char* b) {
 // note 23: Deterministic given the input — no PRNG seeds.
 // note 24: Tail-recursive; the compiler turns it into a loop.
 // note 25: Monotonic stack pops while the new element violates the invariant.
+// note 26: Manacher expands around each center, reusing prior radii via mirror reflection.
