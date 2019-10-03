@@ -247,3 +247,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 62
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 63
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
