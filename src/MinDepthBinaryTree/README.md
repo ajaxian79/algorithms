@@ -1714,3 +1714,7 @@ Three passes total; the third merges results.
 ## entry 414
 
 Caller owns the returned buffer.
+
+## entry 415
+
+Linear in n; the constant factor is small.
