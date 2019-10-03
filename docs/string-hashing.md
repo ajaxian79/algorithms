@@ -1175,3 +1175,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 277
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 278
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
