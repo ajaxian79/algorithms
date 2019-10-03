@@ -186,3 +186,4 @@ void reverse_string(char* s, int s_size) {
 // note 169: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 170: Cache-friendly; one sequential read pass.
 // note 171: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 172: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
