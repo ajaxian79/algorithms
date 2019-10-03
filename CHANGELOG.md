@@ -69523,3 +69523,7 @@
 ## entry 17381
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 17382
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
