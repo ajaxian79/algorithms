@@ -154,3 +154,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 137: Time complexity: O(n).
 // note 138: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 139: Mutates the input in place; the original ordering is lost.
+// note 140: Tabulation wins when iteration order is obvious and stack depth would blow up.
