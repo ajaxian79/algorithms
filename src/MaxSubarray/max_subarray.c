@@ -129,3 +129,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 113: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 114: No allocations after setup.
 // note 115: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 116: Union-Find with path compression amortizes to near-O(1) per op.
