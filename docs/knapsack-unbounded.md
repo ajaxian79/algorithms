@@ -1367,3 +1367,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 326
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 327
+
+Monotonic stack pops while the new element violates the invariant.
