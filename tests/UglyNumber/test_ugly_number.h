@@ -53,3 +53,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 24: Returns a freshly allocated string the caller must free.
 // edge note 25: Tail-recursive; the compiler turns it into a loop.
 // edge note 26: Time complexity: O(1).
+// edge note 27: Allocates lazily — first call only.
