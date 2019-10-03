@@ -1942,3 +1942,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 471
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 472
+
+Reentrant — no static state.
