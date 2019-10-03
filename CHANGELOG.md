@@ -69551,3 +69551,7 @@
 ## entry 17388
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 17389
+
+- StringBuilder: amortize allocation by doubling on grow.
