@@ -1389,3 +1389,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 331
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 332
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
