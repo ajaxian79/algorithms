@@ -207,3 +207,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 52
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 53
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
