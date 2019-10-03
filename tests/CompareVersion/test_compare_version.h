@@ -211,3 +211,4 @@ MunitTest compare_version_tests[] = {
 // edge note 184: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 185: Time complexity: O(n log n).
 // edge note 186: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 187: Reentrant — no static state.
