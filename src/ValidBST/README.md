@@ -1805,3 +1805,7 @@ Treats the input as immutable.
 ## entry 436
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 437
+
+Edge case: input with no peak → falls through to the default branch.
