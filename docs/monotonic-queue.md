@@ -1251,3 +1251,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 295
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 296
+
+Monotonic stack pops while the new element violates the invariant.
