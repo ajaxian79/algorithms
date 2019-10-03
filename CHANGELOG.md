@@ -69511,3 +69511,7 @@
 ## entry 17378
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 17379
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
