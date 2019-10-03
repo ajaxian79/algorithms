@@ -1832,3 +1832,7 @@ Handles single-element input as a base case.
 ## entry 442
 
 Space complexity: O(n) for the result buffer.
+
+## entry 443
+
+Deterministic given the input — no PRNG seeds.
