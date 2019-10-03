@@ -1223,3 +1223,7 @@
 ## entry 306
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 307
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
