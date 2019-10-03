@@ -1813,3 +1813,7 @@ Time complexity: O(1).
 ## entry 438
 
 Handles negative inputs as documented above.
+
+## entry 439
+
+Allocates one buffer of length n+1 for the result.
