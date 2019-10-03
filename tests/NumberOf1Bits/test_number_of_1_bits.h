@@ -211,3 +211,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 184: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 185: Stable across duplicates in the input.
 // edge note 186: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 187: Time complexity: O(n*k) where k is the alphabet size.
