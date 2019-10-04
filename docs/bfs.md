@@ -1281,3 +1281,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 303
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 304
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
