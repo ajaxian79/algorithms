@@ -202,3 +202,4 @@ MunitTest add_binary_tests[] = {
 // edge note 166: Avoids floating-point entirely — integer math throughout.
 // edge note 167: Time complexity: O(n log n).
 // edge note 168: Edge case: zero-length string → returns the empty result.
+// edge note 169: Edge case: already-sorted input → no swaps performed.
