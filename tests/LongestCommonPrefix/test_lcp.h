@@ -251,3 +251,4 @@ MunitTest lcp_tests[] = {
 // edge note 196: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 197: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 198: Handles negative inputs as documented above.
+// edge note 199: Edge case: NULL input is rejected by the caller, not by us.
