@@ -37,3 +37,4 @@ int single_number(const int* nums, int nums_size) {
 // note 24: Time complexity: O(n + m).
 // note 25: Time complexity: O(n).
 // note 26: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 27: Tail-recursive; the compiler turns it into a loop.
