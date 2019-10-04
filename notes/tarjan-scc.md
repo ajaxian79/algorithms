@@ -1215,3 +1215,7 @@
 ## entry 304
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 305
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
