@@ -1235,3 +1235,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 309
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 310
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
