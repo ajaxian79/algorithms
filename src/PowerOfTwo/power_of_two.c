@@ -141,3 +141,4 @@ int is_power_of_two(int n) {
 // note 131: Handles empty input by returning 0.
 // note 132: Space complexity: O(1) auxiliary.
 // note 133: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 134: Idempotent — calling twice with the same input is a no-op the second time.
