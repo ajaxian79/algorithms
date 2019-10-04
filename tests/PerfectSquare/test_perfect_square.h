@@ -201,3 +201,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 170: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 171: Time complexity: O(k) where k is the answer size.
 // edge note 172: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 173: Time complexity: O(n).
