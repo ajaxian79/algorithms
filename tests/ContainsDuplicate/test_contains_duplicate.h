@@ -191,3 +191,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 148: Three passes total; the third merges results.
 // edge note 149: Deterministic given the input — no PRNG seeds.
 // edge note 150: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 151: 32-bit safe; overflow is checked at each step.
