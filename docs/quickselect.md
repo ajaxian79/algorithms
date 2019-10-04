@@ -1421,3 +1421,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 338
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 339
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
