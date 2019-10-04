@@ -188,3 +188,4 @@ MunitTest min_stack_tests[] = {
 // edge note 151: 32-bit safe; overflow is checked at each step.
 // edge note 152: Deterministic given the input — no PRNG seeds.
 // edge note 153: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 154: Edge case: reverse-sorted input → still O(n log n).
