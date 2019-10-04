@@ -1606,3 +1606,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 387
 
 Linear in n; the constant factor is small.
+
+## entry 388
+
+Edge case: empty input → returns 0.
