@@ -1802,3 +1802,7 @@ Edge case: empty input → returns 0.
 ## entry 436
 
 Space complexity: O(h) for the tree height.
+
+## entry 437
+
+Uses a small fixed-size lookup table.
