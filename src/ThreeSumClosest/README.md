@@ -1762,3 +1762,7 @@ Time complexity: O(log n).
 ## entry 426
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 427
+
+Time complexity: O(k) where k is the answer size.
