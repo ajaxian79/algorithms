@@ -1231,3 +1231,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 308
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 309
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
