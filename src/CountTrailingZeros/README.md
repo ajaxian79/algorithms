@@ -1822,3 +1822,7 @@ Edge case: empty input → returns 0.
 ## entry 440
 
 Reentrant — no static state.
+
+## entry 441
+
+Edge case: already-sorted input → no swaps performed.
