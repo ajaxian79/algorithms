@@ -215,3 +215,4 @@ MunitTest to_hex_tests[] = {
 // edge note 186: Reentrant — no static state.
 // edge note 187: Treats the input as immutable.
 // edge note 188: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 189: Time complexity: O(n).
