@@ -1261,3 +1261,7 @@
 ## entry 300
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 301
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
