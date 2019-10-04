@@ -1359,3 +1359,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 324
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 325
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
