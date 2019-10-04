@@ -1759,3 +1759,7 @@ Handles negative inputs as documented above.
 ## entry 425
 
 Allocates lazily — first call only.
+
+## entry 426
+
+Vectorizes cleanly under -O2.
