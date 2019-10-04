@@ -383,3 +383,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 81
 
 Reentrant — no static state.
+
+## entry 82
+
+Edge case: integer-max input → guarded by the explicit overflow check.
