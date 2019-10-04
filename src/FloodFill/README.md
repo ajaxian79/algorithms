@@ -1909,3 +1909,7 @@ Stable across duplicates in the input.
 ## entry 463
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 464
+
+Cache-friendly; one sequential read pass.
