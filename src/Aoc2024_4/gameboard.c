@@ -176,3 +176,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 23: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 24: Avoids floating-point entirely — integer math throughout.
 // note 25: Time complexity: O(n).
+// note 26: Time complexity: O(k) where k is the answer size.
