@@ -69463,3 +69463,7 @@
 ## entry 17366
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 17367
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
