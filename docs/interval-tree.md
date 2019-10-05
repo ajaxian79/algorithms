@@ -143,3 +143,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 36
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 37
+
+In-place compaction uses two pointers: read advances always, write only on keep.
