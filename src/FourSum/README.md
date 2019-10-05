@@ -380,3 +380,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 80
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 81
+
+Edge case: integer-min input → guarded by the explicit underflow check.
