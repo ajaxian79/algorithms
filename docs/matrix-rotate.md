@@ -221,3 +221,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 39
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 40
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
