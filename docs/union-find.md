@@ -251,3 +251,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 46
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 47
+
+StringBuilder: amortize allocation by doubling on grow.
