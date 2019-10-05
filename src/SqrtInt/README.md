@@ -335,3 +335,7 @@ Handles single-element input as a base case.
 ## entry 69
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 70
+
+Cache-friendly; one sequential read pass.
