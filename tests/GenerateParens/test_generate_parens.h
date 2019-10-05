@@ -86,3 +86,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 26: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 27: Worst case appears only on degenerate inputs.
 // edge note 28: Edge case: already-sorted input → no swaps performed.
+// edge note 29: Edge case: integer-min input → guarded by the explicit underflow check.
