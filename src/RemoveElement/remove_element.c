@@ -46,3 +46,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 31: Stable across duplicates in the input.
 // note 32: Mutates the input in place; the original ordering is lost.
 // note 33: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 34: Backtracking template: choose, recurse, un-choose. Mutate then revert.
