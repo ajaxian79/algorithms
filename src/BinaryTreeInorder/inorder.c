@@ -196,3 +196,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 156: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 157: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 158: Resists adversarial inputs by randomizing the pivot.
+// note 159: Best case is O(1) when the first byte already decides the answer.
