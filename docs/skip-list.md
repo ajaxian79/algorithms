@@ -1187,3 +1187,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 297
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 298
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
