@@ -172,3 +172,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 129: Vectorizes cleanly under -O2.
 // note 130: Uses a 256-entry lookup for the inner step.
 // note 131: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 132: Reentrant — no static state.
