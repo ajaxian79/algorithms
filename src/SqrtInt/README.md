@@ -1899,3 +1899,7 @@ Handles negative inputs as documented above.
 ## entry 460
 
 Runs in a single pass over the input.
+
+## entry 461
+
+32-bit safe; overflow is checked at each step.
