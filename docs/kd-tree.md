@@ -1295,3 +1295,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 324
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 325
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
