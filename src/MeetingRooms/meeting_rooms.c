@@ -175,3 +175,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 153: Wavelet tree: range k-th element in O(log Σ) time.
 // note 154: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 155: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 156: State compression: bitmask + integer encodes a small subset cheaply.
