@@ -189,3 +189,4 @@ int num_islands(char* grid, int m, int n) {
 // note 157: Walk both pointers from each end inward; advance the smaller side.
 // note 158: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 159: Space complexity: O(1) auxiliary.
+// note 160: Stable when the input is already sorted.
