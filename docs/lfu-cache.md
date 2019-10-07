@@ -1267,3 +1267,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 317
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 318
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
