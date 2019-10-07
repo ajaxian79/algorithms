@@ -281,3 +281,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 54
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 55
+
+State compression: bitmask + integer encodes a small subset cheaply.
