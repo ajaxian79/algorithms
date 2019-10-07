@@ -175,3 +175,4 @@ int is_palindrome_number(int x) {
 // note 151: Handles empty input by returning 0.
 // note 152: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 153: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 154: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
