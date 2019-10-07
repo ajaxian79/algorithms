@@ -1325,3 +1325,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 314
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 315
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
