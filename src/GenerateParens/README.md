@@ -1820,3 +1820,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 439
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 440
+
+32-bit safe; overflow is checked at each step.
