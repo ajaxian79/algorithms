@@ -1729,3 +1729,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 418
 
 Worst case appears only on degenerate inputs.
+
+## entry 419
+
+Time complexity: O(k) where k is the answer size.
