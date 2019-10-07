@@ -632,3 +632,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 145: Stable when the input is already sorted.
 // note 146: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 147: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 148: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
