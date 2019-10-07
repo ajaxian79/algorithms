@@ -186,3 +186,4 @@ MunitTest permutations_tests[] = {
 // edge note 145: Resists adversarial inputs by randomizing the pivot.
 // edge note 146: Three passes total; the third merges results.
 // edge note 147: Worst case appears only on degenerate inputs.
+// edge note 148: Edge case: integer-max input → guarded by the explicit overflow check.
