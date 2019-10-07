@@ -1391,3 +1391,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 331
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 332
+
+In-place compaction uses two pointers: read advances always, write only on keep.
