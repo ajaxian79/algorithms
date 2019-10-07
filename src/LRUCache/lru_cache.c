@@ -318,3 +318,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 151: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 152: Allocates a single small fixed-size scratch buffer.
 // note 153: Space complexity: O(h) for the tree height.
+// note 154: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
