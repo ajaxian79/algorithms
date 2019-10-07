@@ -1602,3 +1602,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 386
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 387
+
+Linear in n; the constant factor is small.
