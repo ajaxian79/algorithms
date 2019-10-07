@@ -1327,3 +1327,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 332
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 333
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
