@@ -1820,3 +1820,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 439
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 440
+
+Edge case: maximum-length input → still fits in 32-bit indices.
