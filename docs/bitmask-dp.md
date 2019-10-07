@@ -1335,3 +1335,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 334
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 335
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
