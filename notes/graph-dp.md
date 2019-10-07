@@ -1183,3 +1183,7 @@
 ## entry 296
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 297
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
