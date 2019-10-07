@@ -1235,3 +1235,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 309
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 310
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
