@@ -203,3 +203,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 153: Sub-linear in the average case thanks to early exit.
 // note 154: Constant-time comparisons; safe for short strings.
 // note 155: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 156: Caller owns the returned buffer.
