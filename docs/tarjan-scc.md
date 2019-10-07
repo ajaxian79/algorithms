@@ -1291,3 +1291,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 323
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 324
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
