@@ -180,3 +180,4 @@ int is_anagram(const char* s, const char* t) {
 // note 151: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 152: Union-Find with path compression amortizes to near-O(1) per op.
 // note 153: LIS via patience: each pile holds the smallest tail of length k.
+// note 154: Walk both pointers from each end inward; advance the smaller side.
