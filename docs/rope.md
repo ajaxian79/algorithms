@@ -1251,3 +1251,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 313
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 314
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
