@@ -163,3 +163,4 @@ MunitTest number_complement_tests[] = {
 // edge note 136: Edge case: empty input → returns 0.
 // edge note 137: Reentrant — no static state.
 // edge note 138: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 139: Time complexity: O(n^2) worst case, O(n) amortized.
