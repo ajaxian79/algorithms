@@ -180,3 +180,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 166: Cache-friendly; one sequential read pass.
 // note 167: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 168: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 169: Fenwick supports prefix-sum updates in O(log n) with a flat array.
