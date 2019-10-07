@@ -1175,3 +1175,7 @@
 ## entry 294
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 295
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
