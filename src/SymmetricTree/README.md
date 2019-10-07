@@ -1798,3 +1798,7 @@ Edge case: empty input → returns 0.
 ## entry 435
 
 32-bit safe; overflow is checked at each step.
+
+## entry 436
+
+Space complexity: O(h) for the tree height.
