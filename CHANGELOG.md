@@ -69411,3 +69411,7 @@
 ## entry 17353
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 17354
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
