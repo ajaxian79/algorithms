@@ -358,3 +358,7 @@ Time complexity: O(n + m).
 ## entry 74
 
 Time complexity: O(log n).
+
+## entry 75
+
+No allocations after setup.
