@@ -1721,3 +1721,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 416
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 417
+
+Time complexity: O(n*k) where k is the alphabet size.
