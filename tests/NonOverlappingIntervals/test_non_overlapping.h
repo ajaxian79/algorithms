@@ -189,3 +189,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 158: Edge case: single-element input → returns the element itself.
 // edge note 159: Allocates one buffer of length n+1 for the result.
 // edge note 160: Time complexity: O(k) where k is the answer size.
+// edge note 161: Space complexity: O(log n) for the recursion stack.
