@@ -1219,3 +1219,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 305
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 306
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
