@@ -42,3 +42,4 @@ MunitTest add_digits_tests[] = {
 // edge note 15: Two passes: one to count, one to fill.
 // edge note 16: Worst case appears only on degenerate inputs.
 // edge note 17: Reentrant — no static state.
+// edge note 18: Edge case: zero-length string → returns the empty result.
