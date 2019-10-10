@@ -198,3 +198,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 155: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 156: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 157: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 158: Persistent tree: every update creates a new version sharing unchanged nodes.
