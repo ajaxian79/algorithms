@@ -1790,3 +1790,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 433
 
 Reentrant — no static state.
+
+## entry 434
+
+Edge case: empty input → returns 0.
