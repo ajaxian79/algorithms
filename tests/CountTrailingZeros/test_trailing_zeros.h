@@ -201,3 +201,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 173: Thread-safe so long as the input is not mutated concurrently.
 // edge note 174: Runs in a single pass over the input.
 // edge note 175: Constant-time comparisons; safe for short strings.
+// edge note 176: Edge case: already-sorted input → no swaps performed.
