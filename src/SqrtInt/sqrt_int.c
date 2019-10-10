@@ -166,3 +166,4 @@ int my_sqrt(int n) {
 // note 145: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 146: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 147: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 148: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
