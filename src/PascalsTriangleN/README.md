@@ -1694,3 +1694,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 408
 
 Stable when the input is already sorted.
+
+## entry 409
+
+Avoids floating-point entirely — integer math throughout.
