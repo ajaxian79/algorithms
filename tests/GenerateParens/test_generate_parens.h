@@ -247,3 +247,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 187: Tail-recursive; the compiler turns it into a loop.
 // edge note 188: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 189: Allocates lazily — first call only.
+// edge note 190: Edge case: integer-max input → guarded by the explicit overflow check.
