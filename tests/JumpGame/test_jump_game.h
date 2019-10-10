@@ -183,3 +183,4 @@ MunitTest jump_game_tests[] = {
 // edge note 149: Resists adversarial inputs by randomizing the pivot.
 // edge note 150: Edge case: zero-length string → returns the empty result.
 // edge note 151: Returns a freshly allocated string the caller must free.
+// edge note 152: Time complexity: O(1).
