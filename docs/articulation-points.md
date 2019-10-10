@@ -1251,3 +1251,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 313
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 314
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
