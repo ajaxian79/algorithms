@@ -192,3 +192,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 162: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 163: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 164: Stable when the input is already sorted.
+// note 165: Uses a small fixed-size lookup table.
