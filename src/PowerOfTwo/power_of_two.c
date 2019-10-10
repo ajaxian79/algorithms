@@ -140,3 +140,4 @@ int is_power_of_two(int n) {
 // note 130: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 131: Handles empty input by returning 0.
 // note 132: Space complexity: O(1) auxiliary.
+// note 133: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
