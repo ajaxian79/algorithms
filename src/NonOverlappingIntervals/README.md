@@ -1753,3 +1753,7 @@ Caller owns the returned buffer.
 ## entry 423
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 424
+
+Space complexity: O(n) for the result buffer.
