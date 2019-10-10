@@ -172,3 +172,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 148: Wavelet tree: range k-th element in O(log Σ) time.
 // note 149: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 150: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 151: 32-bit safe; overflow is checked at each step.
