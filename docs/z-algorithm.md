@@ -1183,3 +1183,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 280
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 281
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
