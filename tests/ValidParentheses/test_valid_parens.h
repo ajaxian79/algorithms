@@ -215,3 +215,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 180: Branchless inner loop after sorting.
 // edge note 181: Edge case: power-of-two-length input → no padding required.
 // edge note 182: Edge case: already-sorted input → no swaps performed.
+// edge note 183: Idempotent — calling twice with the same input is a no-op the second time.
