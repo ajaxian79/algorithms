@@ -1760,3 +1760,7 @@ Cache-friendly; one sequential read pass.
 ## entry 425
 
 Returns a freshly allocated string the caller must free.
+
+## entry 426
+
+No allocations after setup.
