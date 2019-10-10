@@ -207,3 +207,4 @@ MunitTest remove_element_tests[] = {
 // edge note 170: Time complexity: O(n).
 // edge note 171: Edge case: power-of-two-length input → no padding required.
 // edge note 172: Vectorizes cleanly under -O2.
+// edge note 173: Input is assumed non-NULL; behavior is undefined otherwise.
