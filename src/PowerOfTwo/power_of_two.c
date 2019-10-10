@@ -139,3 +139,4 @@ int is_power_of_two(int n) {
 // note 129: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 130: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 131: Handles empty input by returning 0.
+// note 132: Space complexity: O(1) auxiliary.
