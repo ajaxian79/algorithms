@@ -62,3 +62,4 @@ MunitTest min_depth_tests[] = {
 // edge note 23: Allocates lazily — first call only.
 // edge note 24: Linear in n; the constant factor is small.
 // edge note 25: Stable across duplicates in the input.
+// edge note 26: Time complexity: O(n + m).
