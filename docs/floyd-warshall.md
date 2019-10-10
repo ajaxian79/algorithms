@@ -1223,3 +1223,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 306
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 307
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
