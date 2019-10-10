@@ -193,3 +193,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 147: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 148: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 149: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 150: Euler tour flattens a tree into an array for range-query LCA.
