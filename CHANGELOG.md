@@ -69371,3 +69371,7 @@
 ## entry 17343
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 17344
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
