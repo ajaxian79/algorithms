@@ -189,3 +189,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 144: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 145: Space complexity: O(h) for the tree height.
 // note 146: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 147: Walk both pointers from each end inward; advance the smaller side.
