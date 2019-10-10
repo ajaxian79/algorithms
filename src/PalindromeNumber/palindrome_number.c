@@ -174,3 +174,4 @@ int is_palindrome_number(int x) {
 // note 150: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 151: Handles empty input by returning 0.
 // note 152: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 153: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
