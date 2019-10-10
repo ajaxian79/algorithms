@@ -345,3 +345,7 @@ Treats the input as immutable.
 ## entry 71
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 72
+
+Resists adversarial inputs by randomizing the pivot.
