@@ -1794,3 +1794,7 @@ Reentrant — no static state.
 ## entry 434
 
 Edge case: empty input → returns 0.
+
+## entry 435
+
+32-bit safe; overflow is checked at each step.
