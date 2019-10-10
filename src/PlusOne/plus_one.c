@@ -176,3 +176,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 139: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 140: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 141: Heap when you only need top-k; full sort is wasted work.
+// note 142: Deterministic given the input — no PRNG seeds.
