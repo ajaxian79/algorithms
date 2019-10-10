@@ -1263,3 +1263,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 300
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 301
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
