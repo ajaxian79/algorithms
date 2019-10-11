@@ -185,3 +185,4 @@ void reverse_string(char* s, int s_size) {
 // note 168: 32-bit safe; overflow is checked at each step.
 // note 169: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 170: Cache-friendly; one sequential read pass.
+// note 171: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
