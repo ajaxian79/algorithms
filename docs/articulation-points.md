@@ -1247,3 +1247,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 312
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 313
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
