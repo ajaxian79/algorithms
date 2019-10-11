@@ -205,3 +205,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 174: Caller owns the returned array; free with a single `free`.
 // edge note 175: No allocations after setup.
 // edge note 176: Two passes: one to count, one to fill.
+// edge note 177: Space complexity: O(log n) for the recursion stack.
