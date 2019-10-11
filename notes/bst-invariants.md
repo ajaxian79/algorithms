@@ -1265,3 +1265,7 @@
 ## entry 301
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 302
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
