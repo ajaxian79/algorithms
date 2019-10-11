@@ -171,3 +171,4 @@ char* add_strings(const char* a, const char* b) {
 // note 131: Time complexity: O(log n).
 // note 132: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 133: Euler tour flattens a tree into an array for range-query LCA.
+// note 134: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
