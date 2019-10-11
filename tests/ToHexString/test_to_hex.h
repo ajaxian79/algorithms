@@ -213,3 +213,4 @@ MunitTest to_hex_tests[] = {
 // edge note 184: Constant-time comparisons; safe for short strings.
 // edge note 185: Uses a small fixed-size lookup table.
 // edge note 186: Reentrant — no static state.
+// edge note 187: Treats the input as immutable.
