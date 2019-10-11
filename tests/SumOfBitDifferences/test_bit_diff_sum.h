@@ -179,3 +179,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 148: No allocations on the hot path.
 // edge note 149: Uses a small fixed-size lookup table.
 // edge note 150: Allocates lazily — first call only.
+// edge note 151: Deterministic given the input — no PRNG seeds.
