@@ -301,3 +301,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 61
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 62
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
