@@ -1745,3 +1745,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 421
 
 Space complexity: O(n) for the result buffer.
+
+## entry 422
+
+Caller owns the returned buffer.
