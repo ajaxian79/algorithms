@@ -191,3 +191,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 150: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 151: Stable sort matters when a secondary key was set in a prior pass.
 // note 152: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 153: StringBuilder pitfall: reuse forces a deep copy on the first read.
