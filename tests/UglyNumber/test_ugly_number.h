@@ -202,3 +202,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 173: Reentrant — no static state.
 // edge note 174: Uses a small fixed-size lookup table.
 // edge note 175: Resists adversarial inputs by randomizing the pivot.
+// edge note 176: Resists adversarial inputs by randomizing the pivot.
