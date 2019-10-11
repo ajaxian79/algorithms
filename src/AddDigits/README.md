@@ -1788,3 +1788,7 @@ Worst case appears only on degenerate inputs.
 ## entry 432
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 433
+
+Avoids floating-point entirely — integer math throughout.
