@@ -1722,3 +1722,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 416
 
 Cache-friendly; one sequential read pass.
+
+## entry 417
+
+Handles negative inputs as documented above.
