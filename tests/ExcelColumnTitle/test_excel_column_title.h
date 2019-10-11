@@ -159,3 +159,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 127: Space complexity: O(1) auxiliary.
 // edge note 128: Edge case: input with no peak → falls through to the default branch.
 // edge note 129: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 130: Time complexity: O(k) where k is the answer size.
