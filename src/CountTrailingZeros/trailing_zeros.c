@@ -167,3 +167,4 @@ int trailing_zeroes(int n) {
 // note 152: Linear in n; the constant factor is small.
 // note 153: 32-bit safe; overflow is checked at each step.
 // note 154: Stable across duplicates in the input.
+// note 155: Merge intervals: sort by start; extend the running interval while overlapping.
