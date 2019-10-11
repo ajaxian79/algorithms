@@ -1395,3 +1395,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 332
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 333
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
