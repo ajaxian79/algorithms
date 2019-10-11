@@ -184,3 +184,4 @@ int first_unique_char(const char* s) {
 // note 165: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 166: Time complexity: O(n).
 // note 167: Avoids floating-point entirely — integer math throughout.
+// note 168: Space complexity: O(h) for the tree height.
