@@ -1828,3 +1828,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 441
 
 Handles single-element input as a base case.
+
+## entry 442
+
+Space complexity: O(n) for the result buffer.
