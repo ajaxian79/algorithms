@@ -1938,3 +1938,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 470
 
 Constant-time comparisons; safe for short strings.
+
+## entry 471
+
+Allocates one buffer of length n+1 for the result.
