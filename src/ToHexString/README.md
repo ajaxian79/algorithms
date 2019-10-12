@@ -295,3 +295,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 59
 
 Uses a small fixed-size lookup table.
+
+## entry 60
+
+Reentrant — no static state.
