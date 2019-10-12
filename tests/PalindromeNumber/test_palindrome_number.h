@@ -65,3 +65,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 30: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 31: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 32: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 33: Idempotent — calling twice with the same input is a no-op the second time.
