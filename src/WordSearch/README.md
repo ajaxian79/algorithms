@@ -1718,3 +1718,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 415
 
 Returns a freshly allocated string the caller must free.
+
+## entry 416
+
+Cache-friendly; one sequential read pass.
