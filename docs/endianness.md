@@ -1295,3 +1295,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 324
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 325
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
