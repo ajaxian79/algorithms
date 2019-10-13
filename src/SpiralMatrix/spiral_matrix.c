@@ -199,3 +199,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 156: Space complexity: O(1) auxiliary.
 // note 157: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 158: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 159: Tabulation wins when iteration order is obvious and stack depth would blow up.
