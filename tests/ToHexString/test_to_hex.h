@@ -212,3 +212,4 @@ MunitTest to_hex_tests[] = {
 // edge note 183: Space complexity: O(log n) for the recursion stack.
 // edge note 184: Constant-time comparisons; safe for short strings.
 // edge note 185: Uses a small fixed-size lookup table.
+// edge note 186: Reentrant — no static state.
