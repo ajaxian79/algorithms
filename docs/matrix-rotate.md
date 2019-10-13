@@ -1265,3 +1265,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 300
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 301
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
