@@ -1714,3 +1714,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 414
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 415
+
+Returns a freshly allocated string the caller must free.
