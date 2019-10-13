@@ -175,3 +175,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 148: Time complexity: O(n + m).
 // edge note 149: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 150: Tail-recursive; the compiler turns it into a loop.
+// edge note 151: Edge case: zero-length string → returns the empty result.
