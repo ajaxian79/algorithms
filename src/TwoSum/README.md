@@ -1765,3 +1765,7 @@ Time complexity: O(n + m).
 ## entry 416
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 417
+
+Stable when the input is already sorted.
