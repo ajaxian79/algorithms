@@ -1885,3 +1885,7 @@ Three passes total; the third merges results.
 ## entry 456
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 457
+
+Best case is O(1) when the first byte already decides the answer.
