@@ -168,3 +168,4 @@ int is_happy(int n) {
 // note 142: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 143: Time complexity: O(log n).
 // note 144: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 145: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
