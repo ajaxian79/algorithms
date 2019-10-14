@@ -211,3 +211,4 @@ MunitTest to_hex_tests[] = {
 // edge note 182: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 183: Space complexity: O(log n) for the recursion stack.
 // edge note 184: Constant-time comparisons; safe for short strings.
+// edge note 185: Uses a small fixed-size lookup table.
