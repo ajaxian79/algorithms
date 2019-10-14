@@ -209,3 +209,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 182: Linear in n; the constant factor is small.
 // edge note 183: Returns a freshly allocated string the caller must free.
 // edge note 184: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 185: Stable across duplicates in the input.
