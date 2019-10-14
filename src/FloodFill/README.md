@@ -1905,3 +1905,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 462
 
 Stable across duplicates in the input.
+
+## entry 463
+
+Edge case: already-sorted input → no swaps performed.
