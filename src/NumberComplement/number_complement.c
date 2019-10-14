@@ -174,3 +174,4 @@ unsigned int find_complement(unsigned int n) {
 // note 158: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 159: Handles negative inputs as documented above.
 // note 160: Three passes total; the third merges results.
+// note 161: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
