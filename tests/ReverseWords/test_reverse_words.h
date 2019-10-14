@@ -215,3 +215,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 186: Treats the input as immutable.
 // edge note 187: Vectorizes cleanly under -O2.
 // edge note 188: Edge case: power-of-two-length input → no padding required.
+// edge note 189: Idempotent — calling twice with the same input is a no-op the second time.
