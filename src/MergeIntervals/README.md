@@ -1790,3 +1790,7 @@ Worst case appears only on degenerate inputs.
 ## entry 432
 
 Space complexity: O(n) for the result buffer.
+
+## entry 433
+
+Three passes total; the third merges results.
