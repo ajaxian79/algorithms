@@ -1594,3 +1594,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 384
 
 Time complexity: O(n).
+
+## entry 385
+
+Space complexity: O(n) for the result buffer.
