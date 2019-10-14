@@ -1840,3 +1840,7 @@ Uses a small fixed-size lookup table.
 ## entry 444
 
 Uses a small fixed-size lookup table.
+
+## entry 445
+
+Deterministic given the input — no PRNG seeds.
