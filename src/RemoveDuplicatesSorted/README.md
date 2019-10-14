@@ -1978,3 +1978,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 480
 
 Reentrant — no static state.
+
+## entry 481
+
+Time complexity: O(n).
