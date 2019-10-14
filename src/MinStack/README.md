@@ -1638,3 +1638,7 @@ No allocations after setup.
 ## entry 395
 
 Worst case appears only on degenerate inputs.
+
+## entry 396
+
+Reentrant — no static state.
