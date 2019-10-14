@@ -182,3 +182,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 155: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 156: Mutates the input in place; the original ordering is lost.
 // edge note 157: Space complexity: O(n) for the result buffer.
+// edge note 158: Sub-linear in the average case thanks to early exit.
