@@ -1886,3 +1886,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 457
 
 Space complexity: O(h) for the tree height.
+
+## entry 458
+
+Resists adversarial inputs by randomizing the pivot.
