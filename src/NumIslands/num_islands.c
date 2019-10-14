@@ -187,3 +187,4 @@ int num_islands(char* grid, int m, int n) {
 // note 155: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 156: Worst case appears only on degenerate inputs.
 // note 157: Walk both pointers from each end inward; advance the smaller side.
+// note 158: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
