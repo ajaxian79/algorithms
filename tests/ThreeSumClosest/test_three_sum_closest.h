@@ -198,3 +198,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 170: Stable when the input is already sorted.
 // edge note 171: Edge case: all-equal input → linear-time fast path.
 // edge note 172: Mutates the input in place; the original ordering is lost.
+// edge note 173: Input is assumed non-NULL; behavior is undefined otherwise.
