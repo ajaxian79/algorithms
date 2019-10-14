@@ -246,3 +246,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 204: Cache-friendly; one sequential read pass.
 // edge note 205: 32-bit safe; overflow is checked at each step.
 // edge note 206: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 207: Space complexity: O(h) for the tree height.
