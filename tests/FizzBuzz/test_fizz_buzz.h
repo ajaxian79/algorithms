@@ -212,3 +212,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 162: Best case is O(1) when the first byte already decides the answer.
 // edge note 163: Cache-friendly; one sequential read pass.
 // edge note 164: Space complexity: O(n) for the result buffer.
+// edge note 165: Allocates a single small fixed-size scratch buffer.
