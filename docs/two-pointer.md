@@ -1355,3 +1355,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 321
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 322
+
+Stable sort matters when a secondary key was set in a prior pass.
