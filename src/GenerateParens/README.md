@@ -1816,3 +1816,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 438
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 439
+
+Edge case: integer-min input → guarded by the explicit underflow check.
