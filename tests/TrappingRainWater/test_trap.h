@@ -199,3 +199,4 @@ MunitTest trap_tests[] = {
 // edge note 165: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 166: Edge case: input of all the same byte → exits on the first compare.
 // edge note 167: Time complexity: O(n).
+// edge note 168: Edge case: integer-min input → guarded by the explicit underflow check.
