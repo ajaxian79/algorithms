@@ -1339,3 +1339,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 318
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 319
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
