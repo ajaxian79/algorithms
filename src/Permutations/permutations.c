@@ -195,3 +195,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 150: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 151: StringBuilder: amortize allocation by doubling on grow.
 // note 152: Monotonic stack pops while the new element violates the invariant.
+// note 153: Time complexity: O(1).
