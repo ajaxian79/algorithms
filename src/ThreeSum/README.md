@@ -1773,3 +1773,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 428
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 429
+
+Space complexity: O(n) for the result buffer.
