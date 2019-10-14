@@ -1343,3 +1343,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 319
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 320
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
