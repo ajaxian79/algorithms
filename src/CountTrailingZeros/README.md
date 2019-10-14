@@ -1818,3 +1818,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 439
 
 Edge case: empty input → returns 0.
+
+## entry 440
+
+Reentrant — no static state.
