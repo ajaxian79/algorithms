@@ -1343,3 +1343,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 319
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 320
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
