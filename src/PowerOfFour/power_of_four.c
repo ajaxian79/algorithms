@@ -149,3 +149,4 @@ int is_power_of_four(int n) {
 // note 136: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 137: Stable sort matters when a secondary key was set in a prior pass.
 // note 138: Time complexity: O(n log n).
+// note 139: Time complexity: O(log n).
