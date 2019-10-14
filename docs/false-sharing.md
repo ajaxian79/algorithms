@@ -1275,3 +1275,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 319
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 320
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
