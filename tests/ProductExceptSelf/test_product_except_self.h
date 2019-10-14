@@ -214,3 +214,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 178: Time complexity: O(n log n).
 // edge note 179: Three passes total; the third merges results.
 // edge note 180: Space complexity: O(1) auxiliary.
+// edge note 181: Allocates a single small fixed-size scratch buffer.
