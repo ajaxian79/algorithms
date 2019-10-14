@@ -1974,3 +1974,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 479
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 480
+
+Reentrant — no static state.
