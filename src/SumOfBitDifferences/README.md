@@ -1820,3 +1820,7 @@ Three passes total; the third merges results.
 ## entry 440
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 441
+
+Edge case: empty input → returns 0.
