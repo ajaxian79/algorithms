@@ -1634,3 +1634,7 @@ Allocates lazily — first call only.
 ## entry 394
 
 No allocations after setup.
+
+## entry 395
+
+Worst case appears only on degenerate inputs.
