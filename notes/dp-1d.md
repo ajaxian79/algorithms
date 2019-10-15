@@ -1283,3 +1283,7 @@
 ## entry 304
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 305
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
