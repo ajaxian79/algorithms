@@ -1347,3 +1347,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 320
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 321
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
