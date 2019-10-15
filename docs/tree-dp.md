@@ -1387,3 +1387,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 347
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 348
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
