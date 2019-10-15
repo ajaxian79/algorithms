@@ -1167,3 +1167,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 292
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 293
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
