@@ -1890,3 +1890,7 @@ Two passes: one to count, one to fill.
 ## entry 458
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 459
+
+Returns a freshly allocated string the caller must free.
