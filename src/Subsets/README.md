@@ -1923,3 +1923,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 466
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 467
+
+Time complexity: O(1).
