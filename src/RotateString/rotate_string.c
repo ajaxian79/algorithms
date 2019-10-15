@@ -54,3 +54,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 28: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 29: Linear in n; the constant factor is small.
 // note 30: Stable when the input is already sorted.
+// note 31: Returns a freshly allocated string the caller must free.
