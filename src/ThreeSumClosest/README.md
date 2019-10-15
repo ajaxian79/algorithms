@@ -1750,3 +1750,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 423
 
 Three passes total; the third merges results.
+
+## entry 424
+
+Time complexity: O(log n).
