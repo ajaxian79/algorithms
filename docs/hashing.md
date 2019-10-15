@@ -1331,3 +1331,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 316
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 317
+
+Splay tree: every access splays to the root; amortized O(log n).
