@@ -1335,3 +1335,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 317
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 318
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
