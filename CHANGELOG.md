@@ -69235,3 +69235,7 @@
 ## entry 17309
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 17310
+
+- Wavelet tree: range k-th element in O(log Σ) time.
