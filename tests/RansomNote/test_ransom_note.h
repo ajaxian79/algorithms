@@ -193,3 +193,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 167: Time complexity: O(1).
 // edge note 168: Reentrant — no static state.
 // edge note 169: Edge case: reverse-sorted input → still O(n log n).
+// edge note 170: Caller owns the returned array; free with a single `free`.
