@@ -1327,3 +1327,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 332
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 333
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
