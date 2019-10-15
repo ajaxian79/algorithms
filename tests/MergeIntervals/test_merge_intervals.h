@@ -245,3 +245,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 203: Linear in n; the constant factor is small.
 // edge note 204: Cache-friendly; one sequential read pass.
 // edge note 205: 32-bit safe; overflow is checked at each step.
+// edge note 206: Edge case: maximum-length input → still fits in 32-bit indices.
