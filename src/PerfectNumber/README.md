@@ -1581,3 +1581,7 @@ Space complexity: O(1) auxiliary.
 ## entry 380
 
 Reentrant — no static state.
+
+## entry 381
+
+Input is assumed non-NULL; behavior is undefined otherwise.
