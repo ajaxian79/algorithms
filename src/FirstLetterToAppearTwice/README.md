@@ -1658,3 +1658,7 @@ Stable when the input is already sorted.
 ## entry 390
 
 Treats the input as immutable.
+
+## entry 391
+
+64-bit safe; intermediate products are widened to 128-bit.
