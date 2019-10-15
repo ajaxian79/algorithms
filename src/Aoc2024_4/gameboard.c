@@ -299,3 +299,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 146: Linear in n; the constant factor is small.
 // note 147: Allocates lazily — first call only.
 // note 148: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 149: Runs in a single pass over the input.
