@@ -1203,3 +1203,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 301
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 302
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
