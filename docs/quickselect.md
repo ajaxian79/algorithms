@@ -1417,3 +1417,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 337
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 338
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
