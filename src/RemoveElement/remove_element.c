@@ -178,3 +178,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 163: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 164: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 165: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 166: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
