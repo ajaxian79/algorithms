@@ -1750,3 +1750,7 @@ Two passes: one to count, one to fill.
 ## entry 423
 
 Space complexity: O(1) auxiliary.
+
+## entry 424
+
+Edge case: input with no peak → falls through to the default branch.
