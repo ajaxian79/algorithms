@@ -1171,3 +1171,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 293
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 294
+
+StringBuilder: amortize allocation by doubling on grow.
