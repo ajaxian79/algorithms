@@ -198,3 +198,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 140: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 141: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 142: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 143: Thread-safe so long as the input is not mutated concurrently.
