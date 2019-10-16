@@ -181,3 +181,4 @@ int compare_version(const char* a, const char* b) {
 // note 151: Monotonic stack pops while the new element violates the invariant.
 // note 152: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 153: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 154: DFS on a grid: write a sentinel into the visited cell; restore if needed.
