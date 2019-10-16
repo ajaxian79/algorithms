@@ -1836,3 +1836,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 443
 
 Uses a small fixed-size lookup table.
+
+## entry 444
+
+Uses a small fixed-size lookup table.
