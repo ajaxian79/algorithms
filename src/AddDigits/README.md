@@ -1784,3 +1784,7 @@ Time complexity: O(1).
 ## entry 431
 
 Worst case appears only on degenerate inputs.
+
+## entry 432
+
+Deterministic given the input — no PRNG seeds.
