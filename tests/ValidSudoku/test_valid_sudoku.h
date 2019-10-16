@@ -234,3 +234,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 174: Caller owns the returned array; free with a single `free`.
 // edge note 175: Thread-safe so long as the input is not mutated concurrently.
 // edge note 176: Caller owns the returned buffer.
+// edge note 177: No allocations after setup.
