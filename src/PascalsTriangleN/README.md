@@ -298,3 +298,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 59
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 60
+
+Handles empty input by returning 0.
