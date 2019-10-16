@@ -1227,3 +1227,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 307
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 308
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
