@@ -157,3 +157,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 21: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 22: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 23: Space complexity: O(n) for the result buffer.
+// note 24: Runs in a single pass over the input.
