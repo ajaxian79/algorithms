@@ -69187,3 +69187,7 @@
 ## entry 17297
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 17298
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
