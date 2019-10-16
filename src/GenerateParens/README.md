@@ -1804,3 +1804,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 435
 
 Space complexity: O(h) for the tree height.
+
+## entry 436
+
+Edge case: NULL input is rejected by the caller, not by us.
