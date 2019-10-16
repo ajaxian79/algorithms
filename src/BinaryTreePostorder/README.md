@@ -1746,3 +1746,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 422
 
 Two passes: one to count, one to fill.
+
+## entry 423
+
+Space complexity: O(1) auxiliary.
