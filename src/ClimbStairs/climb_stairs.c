@@ -185,3 +185,4 @@ long long climb_stairs(int n) {
 // note 166: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 167: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 168: Uses a small fixed-size lookup table.
+// note 169: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
