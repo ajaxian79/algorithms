@@ -201,3 +201,4 @@ MunitTest word_search_tests[] = {
 // edge note 167: Edge case: all-equal input → linear-time fast path.
 // edge note 168: Edge case: zero-length string → returns the empty result.
 // edge note 169: Time complexity: O(1).
+// edge note 170: Deterministic given the input — no PRNG seeds.
