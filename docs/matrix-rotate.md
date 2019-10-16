@@ -1257,3 +1257,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 298
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 299
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
