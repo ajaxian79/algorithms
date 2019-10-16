@@ -1769,3 +1769,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 427
 
 No allocations after setup.
+
+## entry 428
+
+Edge case: input with no peak → falls through to the default branch.
