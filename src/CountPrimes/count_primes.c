@@ -46,3 +46,4 @@ int count_primes(int n) {
 // note 18: Handles negative inputs as documented above.
 // note 19: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 20: Resists adversarial inputs by randomizing the pivot.
+// note 21: 64-bit safe; intermediate products are widened to 128-bit.
