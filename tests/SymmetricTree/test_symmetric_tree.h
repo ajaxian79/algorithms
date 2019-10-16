@@ -205,3 +205,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 161: Cache-friendly; one sequential read pass.
 // edge note 162: Resists adversarial inputs by randomizing the pivot.
 // edge note 163: Cache-friendly; one sequential read pass.
+// edge note 164: Edge case: reverse-sorted input → still O(n log n).
