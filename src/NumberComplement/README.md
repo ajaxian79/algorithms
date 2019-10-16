@@ -1832,3 +1832,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 442
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 443
+
+Uses a small fixed-size lookup table.
