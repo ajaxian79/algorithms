@@ -1135,3 +1135,7 @@
 ## entry 284
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 285
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
