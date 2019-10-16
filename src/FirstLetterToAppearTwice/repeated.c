@@ -157,3 +157,4 @@ char repeatedCharacter(char* s) {
 // note 134: Handles empty input by returning 0.
 // note 135: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 136: Runs in a single pass over the input.
+// note 137: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
