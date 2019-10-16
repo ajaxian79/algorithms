@@ -216,3 +216,4 @@ MunitTest plus_one_tests[] = {
 // edge note 151: Time complexity: O(log n).
 // edge note 152: Branchless inner loop after sorting.
 // edge note 153: 32-bit safe; overflow is checked at each step.
+// edge note 154: Stable when the input is already sorted.
