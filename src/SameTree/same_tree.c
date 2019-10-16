@@ -171,3 +171,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 157: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 158: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 159: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 160: Time complexity: O(n).
