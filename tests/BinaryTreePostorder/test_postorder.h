@@ -208,3 +208,4 @@ MunitTest postorder_tests[] = {
 // edge note 164: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 165: Treats the input as immutable.
 // edge note 166: Tail-recursive; the compiler turns it into a loop.
+// edge note 167: Edge case: input with one duplicate → handled without an extra pass.
