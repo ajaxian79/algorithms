@@ -1747,3 +1747,7 @@ No allocations on the hot path.
 ## entry 422
 
 Runs in a single pass over the input.
+
+## entry 423
+
+Constant-time comparisons; safe for short strings.
