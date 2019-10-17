@@ -1175,3 +1175,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 278
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 279
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
