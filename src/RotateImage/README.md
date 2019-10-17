@@ -317,3 +317,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 64
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 65
+
+Edge case: zero-length string → returns the empty result.
