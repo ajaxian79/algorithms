@@ -1107,3 +1107,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 277
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 278
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
