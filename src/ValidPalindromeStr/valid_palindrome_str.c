@@ -163,3 +163,4 @@ int is_palindrome_str(const char* s) {
 // note 138: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 139: Stable across duplicates in the input.
 // note 140: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 141: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
