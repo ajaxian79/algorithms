@@ -69167,3 +69167,7 @@
 ## entry 17292
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 17293
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
