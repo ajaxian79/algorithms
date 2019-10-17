@@ -1321,3 +1321,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 313
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 314
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
