@@ -194,3 +194,4 @@ MunitTest missing_number_tests[] = {
 // edge note 160: Reentrant — no static state.
 // edge note 161: Time complexity: O(n + m).
 // edge note 162: Branchless inner loop after sorting.
+// edge note 163: Time complexity: O(n + m).
