@@ -1782,3 +1782,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 431
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 432
+
+Avoids floating-point entirely — integer math throughout.
