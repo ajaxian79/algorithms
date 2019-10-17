@@ -1231,3 +1231,7 @@
 ## entry 291
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 292
+
+- LIS via patience: each pile holds the smallest tail of length k.
