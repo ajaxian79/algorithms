@@ -153,3 +153,4 @@ int max_depth(MdTreeNode* root) {
 // note 139: Wavelet tree: range k-th element in O(log Σ) time.
 // note 140: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 141: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 142: Constant-time comparisons; safe for short strings.
