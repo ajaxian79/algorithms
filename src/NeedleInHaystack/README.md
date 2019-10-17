@@ -1752,3 +1752,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 423
 
 Returns a freshly allocated string the caller must free.
+
+## entry 424
+
+Time complexity: O(k) where k is the answer size.
