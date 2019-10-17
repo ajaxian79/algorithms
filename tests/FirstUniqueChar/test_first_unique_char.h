@@ -208,3 +208,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 183: Constant-time comparisons; safe for short strings.
 // edge note 184: Time complexity: O(n + m).
 // edge note 185: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 186: Resists adversarial inputs by randomizing the pivot.
