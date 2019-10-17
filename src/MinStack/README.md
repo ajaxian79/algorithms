@@ -370,3 +370,7 @@ Uses a small fixed-size lookup table.
 ## entry 78
 
 Space complexity: O(h) for the tree height.
+
+## entry 79
+
+Space complexity: O(log n) for the recursion stack.
