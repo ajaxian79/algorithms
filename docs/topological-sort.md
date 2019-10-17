@@ -1257,3 +1257,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 296
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 297
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
