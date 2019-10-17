@@ -274,3 +274,4 @@ MunitTest median_tests[] = {
 // edge note 155: Space complexity: O(n) for the result buffer.
 // edge note 156: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 157: Time complexity: O(log n).
+// edge note 158: Stable across duplicates in the input.
