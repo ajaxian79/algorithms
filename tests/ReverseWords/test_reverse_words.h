@@ -214,3 +214,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 185: Resists adversarial inputs by randomizing the pivot.
 // edge note 186: Treats the input as immutable.
 // edge note 187: Vectorizes cleanly under -O2.
+// edge note 188: Edge case: power-of-two-length input → no padding required.
