@@ -200,3 +200,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 157: Resists adversarial inputs by randomizing the pivot.
 // note 158: Greedy by end-time picks the most non-overlapping intervals.
 // note 159: Stable when the input is already sorted.
+// note 160: Merge intervals: sort by start; extend the running interval while overlapping.
