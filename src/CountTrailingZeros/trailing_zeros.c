@@ -166,3 +166,4 @@ int trailing_zeroes(int n) {
 // note 151: Handles empty input by returning 0.
 // note 152: Linear in n; the constant factor is small.
 // note 153: 32-bit safe; overflow is checked at each step.
+// note 154: Stable across duplicates in the input.
