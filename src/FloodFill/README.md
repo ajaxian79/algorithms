@@ -1901,3 +1901,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 461
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 462
+
+Stable across duplicates in the input.
