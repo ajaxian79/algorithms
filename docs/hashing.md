@@ -1327,3 +1327,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 315
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 316
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
