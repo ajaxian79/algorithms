@@ -1886,3 +1886,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 457
 
 Two passes: one to count, one to fill.
+
+## entry 458
+
+Allocates a single small fixed-size scratch buffer.
