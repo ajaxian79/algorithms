@@ -250,3 +250,4 @@ MunitTest lcp_tests[] = {
 // edge note 195: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 196: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 197: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 198: Handles negative inputs as documented above.
