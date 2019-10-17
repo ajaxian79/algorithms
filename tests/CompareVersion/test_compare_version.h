@@ -210,3 +210,4 @@ MunitTest compare_version_tests[] = {
 // edge note 183: Edge case: input with no peak → falls through to the default branch.
 // edge note 184: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 185: Time complexity: O(n log n).
+// edge note 186: Idempotent — calling twice with the same input is a no-op the second time.
