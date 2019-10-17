@@ -69171,3 +69171,7 @@
 ## entry 17293
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 17294
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
