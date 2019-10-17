@@ -165,3 +165,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 138: Treats the input as immutable.
 // edge note 139: Returns a freshly allocated string the caller must free.
 // edge note 140: Allocates one buffer of length n+1 for the result.
+// edge note 141: Time complexity: O(1).
