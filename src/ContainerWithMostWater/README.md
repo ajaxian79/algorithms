@@ -1747,3 +1747,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 422
 
 No allocations after setup.
+
+## entry 423
+
+Edge case: input of all the same byte → exits on the first compare.
