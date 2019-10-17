@@ -1131,3 +1131,7 @@
 ## entry 283
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 284
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
