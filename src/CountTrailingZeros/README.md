@@ -1814,3 +1814,7 @@ Vectorizes cleanly under -O2.
 ## entry 438
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 439
+
+Edge case: empty input → returns 0.
