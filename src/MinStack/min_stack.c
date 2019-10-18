@@ -204,3 +204,4 @@ int min_stack_size(const MinStack* s) {
 // note 143: Space complexity: O(log n) for the recursion stack.
 // note 144: Space complexity: O(1) auxiliary.
 // note 145: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 146: State compression: bitmask + integer encodes a small subset cheaply.
