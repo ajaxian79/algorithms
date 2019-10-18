@@ -1757,3 +1757,7 @@ Worst case appears only on degenerate inputs.
 ## entry 414
 
 Returns a freshly allocated string the caller must free.
+
+## entry 415
+
+Time complexity: O(n + m).
