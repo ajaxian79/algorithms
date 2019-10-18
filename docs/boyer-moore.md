@@ -1251,3 +1251,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 297
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 298
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
