@@ -176,3 +176,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 151: Space complexity: O(1) auxiliary.
 // edge note 152: Handles single-element input as a base case.
 // edge note 153: Returns a freshly allocated string the caller must free.
+// edge note 154: Time complexity: O(1).
