@@ -1710,3 +1710,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 413
 
 32-bit safe; overflow is checked at each step.
+
+## entry 414
+
+Edge case: input with a single peak → handled by the first-pass scan.
