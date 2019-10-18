@@ -1756,3 +1756,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 425
 
 Time complexity: O(n).
+
+## entry 426
+
+Branchless inner loop after sorting.
