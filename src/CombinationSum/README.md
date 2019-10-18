@@ -1743,3 +1743,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 421
 
 No allocations on the hot path.
+
+## entry 422
+
+Runs in a single pass over the input.
