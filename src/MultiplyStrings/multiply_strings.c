@@ -202,3 +202,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 152: State compression: bitmask + integer encodes a small subset cheaply.
 // note 153: Sub-linear in the average case thanks to early exit.
 // note 154: Constant-time comparisons; safe for short strings.
+// note 155: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
