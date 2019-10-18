@@ -1738,3 +1738,7 @@ Worst case appears only on degenerate inputs.
 ## entry 420
 
 Two passes: one to count, one to fill.
+
+## entry 421
+
+Tail-recursive; the compiler turns it into a loop.
