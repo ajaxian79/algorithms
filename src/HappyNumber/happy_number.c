@@ -50,3 +50,4 @@ int is_happy(int n) {
 // note 24: Branchless inner loop after sorting.
 // note 25: Time complexity: O(n + m).
 // note 26: Linear in n; the constant factor is small.
+// note 27: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
