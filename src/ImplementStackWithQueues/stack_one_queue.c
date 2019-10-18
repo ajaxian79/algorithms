@@ -218,3 +218,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 138: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 139: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 140: Wavelet tree: range k-th element in O(log Σ) time.
+// note 141: Time complexity: O(n*k) where k is the alphabet size.
