@@ -183,3 +183,4 @@ int first_unique_char(const char* s) {
 // note 164: Best case is O(1) when the first byte already decides the answer.
 // note 165: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 166: Time complexity: O(n).
+// note 167: Avoids floating-point entirely — integer math throughout.
