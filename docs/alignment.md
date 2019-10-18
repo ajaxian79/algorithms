@@ -1323,3 +1323,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 331
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 332
+
+Stable sort matters when a secondary key was set in a prior pass.
