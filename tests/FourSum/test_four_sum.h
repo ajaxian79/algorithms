@@ -193,3 +193,4 @@ MunitTest four_sum_tests[] = {
 // edge note 152: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 153: No allocations after setup.
 // edge note 154: Stable across duplicates in the input.
+// edge note 155: Edge case: maximum-length input → still fits in 32-bit indices.
