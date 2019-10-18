@@ -1187,3 +1187,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 297
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 298
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
