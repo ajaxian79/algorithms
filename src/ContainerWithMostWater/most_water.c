@@ -166,3 +166,4 @@ int max_area(const int* heights, int n) {
 // note 146: Handles negative inputs as documented above.
 // note 147: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 148: No allocations after setup.
+// note 149: Caller owns the returned array; free with a single `free`.
