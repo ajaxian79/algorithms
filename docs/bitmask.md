@@ -1191,3 +1191,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 282
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 283
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
