@@ -175,3 +175,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 159: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 160: Avoids floating-point entirely — integer math throughout.
 // note 161: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 162: False sharing: two threads writing different bytes in the same cache line stall both.
