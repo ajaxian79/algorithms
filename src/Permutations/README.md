@@ -1944,3 +1944,7 @@ Caller owns the returned buffer.
 ## entry 471
 
 Returns a freshly allocated string the caller must free.
+
+## entry 472
+
+Handles single-element input as a base case.
