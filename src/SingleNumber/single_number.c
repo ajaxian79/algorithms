@@ -187,3 +187,4 @@ int single_number(const int* nums, int nums_size) {
 // note 174: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 175: Space complexity: O(log n) for the recursion stack.
 // note 176: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 177: Best case is O(1) when the first byte already decides the answer.
