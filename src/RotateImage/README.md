@@ -1797,3 +1797,7 @@ Time complexity: O(n + m).
 ## entry 434
 
 Edge case: single-element input → returns the element itself.
+
+## entry 435
+
+Time complexity: O(n).
