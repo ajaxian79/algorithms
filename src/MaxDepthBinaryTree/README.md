@@ -1717,3 +1717,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 415
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 416
+
+Edge case: input of all the same byte → exits on the first compare.
