@@ -1231,3 +1231,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 308
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 309
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
