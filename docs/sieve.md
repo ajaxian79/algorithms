@@ -1343,3 +1343,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 319
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 320
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
