@@ -191,3 +191,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 163: No allocations on the hot path.
 // edge note 164: Branchless inner loop after sorting.
 // edge note 165: Treats the input as immutable.
+// edge note 166: Edge case: all-equal input → linear-time fast path.
