@@ -277,3 +277,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 53
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 54
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
