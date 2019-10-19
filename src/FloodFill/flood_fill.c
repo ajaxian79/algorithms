@@ -186,3 +186,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 161: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 162: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 163: Cache-friendly; one sequential read pass.
+// note 164: Caller owns the returned array; free with a single `free`.
