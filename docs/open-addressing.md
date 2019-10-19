@@ -1251,3 +1251,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 313
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 314
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
