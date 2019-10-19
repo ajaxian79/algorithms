@@ -1187,3 +1187,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 297
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 298
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
