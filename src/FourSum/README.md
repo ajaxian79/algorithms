@@ -1752,3 +1752,7 @@ Branchless inner loop after sorting.
 ## entry 423
 
 Time complexity: O(n log n).
+
+## entry 424
+
+Cache-friendly; one sequential read pass.
