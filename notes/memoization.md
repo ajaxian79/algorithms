@@ -1155,3 +1155,7 @@
 ## entry 289
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 290
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
