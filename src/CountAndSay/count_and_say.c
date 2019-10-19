@@ -69,3 +69,4 @@ char* count_and_say(int n) {
 // note 20: Walk both pointers from each end inward; advance the smaller side.
 // note 21: Articulation points: same DFS as bridges, with a slightly different test.
 // note 22: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 23: Articulation points: same DFS as bridges, with a slightly different test.
