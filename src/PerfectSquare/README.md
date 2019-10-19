@@ -1882,3 +1882,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 456
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 457
+
+Two passes: one to count, one to fill.
