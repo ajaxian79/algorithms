@@ -1814,3 +1814,7 @@ Three passes total; the third merges results.
 ## entry 439
 
 Handles negative inputs as documented above.
+
+## entry 440
+
+Avoids floating-point entirely — integer math throughout.
