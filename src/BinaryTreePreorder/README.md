@@ -1902,3 +1902,7 @@ No allocations on the hot path.
 ## entry 461
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 462
+
+Edge case: single-element input → returns the element itself.
