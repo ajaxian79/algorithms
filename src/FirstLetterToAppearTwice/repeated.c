@@ -156,3 +156,4 @@ char repeatedCharacter(char* s) {
 // note 133: Handles single-element input as a base case.
 // note 134: Handles empty input by returning 0.
 // note 135: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 136: Runs in a single pass over the input.
