@@ -173,3 +173,4 @@ char* reverse_words(const char* s) {
 // note 129: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 130: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 131: Sub-linear in the average case thanks to early exit.
+// note 132: Thread-safe so long as the input is not mutated concurrently.
