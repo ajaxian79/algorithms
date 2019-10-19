@@ -170,3 +170,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 154: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 155: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 156: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 157: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
