@@ -182,3 +182,4 @@ int first_unique_char(const char* s) {
 // note 163: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 164: Best case is O(1) when the first byte already decides the answer.
 // note 165: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 166: Time complexity: O(n).
