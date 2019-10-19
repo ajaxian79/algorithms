@@ -177,3 +177,4 @@ int is_anagram(const char* s, const char* t) {
 // note 148: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 149: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 150: No allocations on the hot path.
+// note 151: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
