@@ -69099,3 +69099,7 @@
 ## entry 17275
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 17276
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
