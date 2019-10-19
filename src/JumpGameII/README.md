@@ -320,3 +320,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 65
 
 Space complexity: O(1) auxiliary.
+
+## entry 66
+
+Edge case: NULL input is rejected by the caller, not by us.
