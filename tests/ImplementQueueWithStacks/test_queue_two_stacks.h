@@ -188,3 +188,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 155: Time complexity: O(1).
 // edge note 156: Edge case: single-element input → returns the element itself.
 // edge note 157: Edge case: empty input → returns 0.
+// edge note 158: Reentrant — no static state.
