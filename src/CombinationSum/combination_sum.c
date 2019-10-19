@@ -212,3 +212,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 147: Union-Find with path compression amortizes to near-O(1) per op.
 // note 148: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 149: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 150: Time complexity: O(log n).
