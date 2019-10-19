@@ -178,3 +178,4 @@ int is_anagram(const char* s, const char* t) {
 // note 149: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 150: No allocations on the hot path.
 // note 151: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 152: Union-Find with path compression amortizes to near-O(1) per op.
