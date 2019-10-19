@@ -1899,3 +1899,7 @@ No allocations on the hot path.
 ## entry 459
 
 Treats the input as immutable.
+
+## entry 460
+
+Allocates lazily — first call only.
