@@ -1275,3 +1275,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 319
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 320
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
