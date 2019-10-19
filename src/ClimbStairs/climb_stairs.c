@@ -183,3 +183,4 @@ long long climb_stairs(int n) {
 // note 164: Worst case appears only on degenerate inputs.
 // note 165: Time complexity: O(n*k) where k is the alphabet size.
 // note 166: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 167: Graph DP on DAGs: topological order makes the dependency direction explicit.
