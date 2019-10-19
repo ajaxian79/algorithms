@@ -1895,3 +1895,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 458
 
 No allocations on the hot path.
+
+## entry 459
+
+Treats the input as immutable.
