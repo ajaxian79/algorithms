@@ -175,3 +175,4 @@ char* convert_to_base7(int n) {
 // note 142: Stable sort matters when a secondary key was set in a prior pass.
 // note 143: Space complexity: O(h) for the tree height.
 // note 144: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 145: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
