@@ -1327,3 +1327,7 @@
 ## entry 332
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 333
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
