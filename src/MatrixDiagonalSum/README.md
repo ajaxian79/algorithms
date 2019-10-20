@@ -1878,3 +1878,7 @@ Stable across duplicates in the input.
 ## entry 455
 
 Three passes total; the third merges results.
+
+## entry 456
+
+Edge case: input with no peak → falls through to the default branch.
