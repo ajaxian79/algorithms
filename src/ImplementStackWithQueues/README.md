@@ -1792,3 +1792,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 433
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 434
+
+Sub-linear in the average case thanks to early exit.
