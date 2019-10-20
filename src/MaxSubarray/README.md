@@ -1934,3 +1934,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 469
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 470
+
+Constant-time comparisons; safe for short strings.
