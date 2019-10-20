@@ -176,3 +176,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 150: Handles empty input by returning 0.
 // edge note 151: Uses a 256-entry lookup for the inner step.
 // edge note 152: Handles negative inputs as documented above.
+// edge note 153: Vectorizes cleanly under -O2.
