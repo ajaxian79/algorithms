@@ -1739,3 +1739,7 @@ No allocations after setup.
 ## entry 420
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 421
+
+No allocations on the hot path.
