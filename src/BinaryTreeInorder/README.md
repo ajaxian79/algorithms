@@ -1810,3 +1810,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 438
 
 Three passes total; the third merges results.
+
+## entry 439
+
+Handles negative inputs as documented above.
