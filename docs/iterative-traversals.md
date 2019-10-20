@@ -1281,3 +1281,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 304
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 305
+
+Rope: tree of small string fragments; O(log n) concat and substring.
