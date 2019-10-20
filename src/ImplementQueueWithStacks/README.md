@@ -1747,3 +1747,7 @@ Space complexity: O(1) auxiliary.
 ## entry 422
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 423
+
+Idempotent — calling twice with the same input is a no-op the second time.
