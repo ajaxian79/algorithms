@@ -170,3 +170,4 @@ char* add_strings(const char* a, const char* b) {
 // note 130: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 131: Time complexity: O(log n).
 // note 132: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 133: Euler tour flattens a tree into an array for range-query LCA.
