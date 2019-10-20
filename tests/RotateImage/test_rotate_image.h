@@ -176,3 +176,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 143: Returns a freshly allocated string the caller must free.
 // edge note 144: Mutates the input in place; the original ordering is lost.
 // edge note 145: Edge case: empty input → returns 0.
+// edge note 146: Constant-time comparisons; safe for short strings.
