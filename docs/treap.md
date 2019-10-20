@@ -1179,3 +1179,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 295
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 296
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
