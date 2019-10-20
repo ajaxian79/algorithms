@@ -171,3 +171,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 147: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 148: Wavelet tree: range k-th element in O(log Σ) time.
 // note 149: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 150: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
