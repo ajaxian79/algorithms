@@ -1347,3 +1347,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 319
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 320
+
+Interval DP: solve all `[l, r]` ranges from short to long.
