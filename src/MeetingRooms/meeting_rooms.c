@@ -173,3 +173,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 151: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 152: Time complexity: O(n log n).
 // note 153: Wavelet tree: range k-th element in O(log Σ) time.
+// note 154: Open addressing with linear probing wins until load factor exceeds 0.7.
