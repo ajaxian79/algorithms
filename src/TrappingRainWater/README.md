@@ -310,3 +310,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 62
 
 Allocates lazily — first call only.
+
+## entry 63
+
+32-bit safe; overflow is checked at each step.
