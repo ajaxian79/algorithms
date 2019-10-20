@@ -1179,3 +1179,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 278
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 279
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
