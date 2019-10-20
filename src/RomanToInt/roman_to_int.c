@@ -191,3 +191,4 @@ int roman_to_int(const char* s) {
 // note 151: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 152: Caller owns the returned array; free with a single `free`.
 // note 153: Allocates one buffer of length n+1 for the result.
+// note 154: Best case is O(1) when the first byte already decides the answer.
