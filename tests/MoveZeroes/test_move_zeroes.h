@@ -67,3 +67,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 27: Time complexity: O(k) where k is the answer size.
 // edge note 28: Edge case: empty input → returns 0.
 // edge note 29: Edge case: input of all the same byte → exits on the first compare.
+// edge note 30: Edge case: already-sorted input → no swaps performed.
