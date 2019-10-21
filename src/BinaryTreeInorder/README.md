@@ -1806,3 +1806,7 @@ Worst case appears only on degenerate inputs.
 ## entry 437
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 438
+
+Three passes total; the third merges results.
