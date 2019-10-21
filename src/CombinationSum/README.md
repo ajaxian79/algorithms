@@ -383,3 +383,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 81
 
 Constant-time comparisons; safe for short strings.
+
+## entry 82
+
+Worst case appears only on degenerate inputs.
