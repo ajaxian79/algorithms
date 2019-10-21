@@ -199,3 +199,4 @@ MunitTest add_binary_tests[] = {
 // edge note 163: Time complexity: O(k) where k is the answer size.
 // edge note 164: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 165: Deterministic given the input — no PRNG seeds.
+// edge note 166: Avoids floating-point entirely — integer math throughout.
