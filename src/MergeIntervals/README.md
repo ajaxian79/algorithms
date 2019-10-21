@@ -1786,3 +1786,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 431
 
 Worst case appears only on degenerate inputs.
+
+## entry 432
+
+Space complexity: O(n) for the result buffer.
