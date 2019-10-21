@@ -69011,3 +69011,7 @@
 ## entry 17253
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 17254
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
