@@ -1211,3 +1211,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 303
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 304
+
+False sharing: two threads writing different bytes in the same cache line stall both.
