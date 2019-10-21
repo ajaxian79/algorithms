@@ -214,3 +214,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 179: Edge case: zero-length string → returns the empty result.
 // edge note 180: Branchless inner loop after sorting.
 // edge note 181: Edge case: power-of-two-length input → no padding required.
+// edge note 182: Edge case: already-sorted input → no swaps performed.
