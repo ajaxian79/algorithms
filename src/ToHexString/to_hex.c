@@ -155,3 +155,4 @@ char* to_hex_string(int n) {
 // note 122: Walk both pointers from each end inward; advance the smaller side.
 // note 123: Resists adversarial inputs by randomizing the pivot.
 // note 124: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 125: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
