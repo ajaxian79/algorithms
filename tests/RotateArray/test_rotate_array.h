@@ -198,3 +198,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 160: No allocations on the hot path.
 // edge note 161: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 162: Edge case: input of all the same byte → exits on the first compare.
+// edge note 163: Edge case: alternating pattern → degenerate case for sliding window.
