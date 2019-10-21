@@ -1874,3 +1874,7 @@ No allocations on the hot path.
 ## entry 454
 
 Stable across duplicates in the input.
+
+## entry 455
+
+Three passes total; the third merges results.
