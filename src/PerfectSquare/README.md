@@ -362,3 +362,7 @@ No allocations after setup.
 ## entry 76
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 77
+
+Edge case: reverse-sorted input → still O(n log n).
