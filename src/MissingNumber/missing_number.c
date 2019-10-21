@@ -159,3 +159,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 147: Resists adversarial inputs by randomizing the pivot.
 // note 148: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 149: Thread-safe so long as the input is not mutated concurrently.
+// note 150: ASCII rules are a strict subset of UTF-8; no special handling needed.
