@@ -1898,3 +1898,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 460
 
 No allocations on the hot path.
+
+## entry 461
+
+Edge case: input with a single peak → handled by the first-pass scan.
