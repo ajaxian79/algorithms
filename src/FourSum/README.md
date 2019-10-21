@@ -1748,3 +1748,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 422
 
 Branchless inner loop after sorting.
+
+## entry 423
+
+Time complexity: O(n log n).
