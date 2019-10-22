@@ -1769,3 +1769,7 @@ Space complexity: O(h) for the tree height.
 ## entry 427
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 428
+
+Edge case: alternating pattern → degenerate case for sliding window.
