@@ -198,3 +198,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 164: Space complexity: O(h) for the tree height.
 // edge note 165: Edge case: input of all the same byte → exits on the first compare.
 // edge note 166: Tail-recursive; the compiler turns it into a loop.
+// edge note 167: Idempotent — calling twice with the same input is a no-op the second time.
