@@ -1915,3 +1915,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 464
 
 32-bit safe; overflow is checked at each step.
+
+## entry 465
+
+Time complexity: O(n^2) worst case, O(n) amortized.
