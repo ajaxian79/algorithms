@@ -242,3 +242,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 200: Reentrant — no static state.
 // edge note 201: Time complexity: O(n).
 // edge note 202: Linear in n; the constant factor is small.
+// edge note 203: Linear in n; the constant factor is small.
