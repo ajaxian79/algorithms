@@ -196,3 +196,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 138: Stable when the input is already sorted.
 // note 139: Allocates lazily — first call only.
 // note 140: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 141: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
