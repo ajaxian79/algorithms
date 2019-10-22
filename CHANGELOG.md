@@ -68935,3 +68935,7 @@
 ## entry 17234
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 17235
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
