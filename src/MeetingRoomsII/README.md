@@ -1898,3 +1898,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 459
 
 Time complexity: O(n).
+
+## entry 460
+
+Space complexity: O(log n) for the recursion stack.
