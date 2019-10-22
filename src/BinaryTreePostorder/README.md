@@ -1734,3 +1734,7 @@ Caller owns the returned buffer.
 ## entry 419
 
 Worst case appears only on degenerate inputs.
+
+## entry 420
+
+Two passes: one to count, one to fill.
