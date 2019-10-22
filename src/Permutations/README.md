@@ -1940,3 +1940,7 @@ Branchless inner loop after sorting.
 ## entry 470
 
 Caller owns the returned buffer.
+
+## entry 471
+
+Returns a freshly allocated string the caller must free.
