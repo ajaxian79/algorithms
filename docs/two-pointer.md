@@ -1343,3 +1343,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 318
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 319
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
