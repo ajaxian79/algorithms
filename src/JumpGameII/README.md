@@ -1828,3 +1828,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 442
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 443
+
+Edge case: single-element input → returns the element itself.
