@@ -68963,3 +68963,7 @@
 ## entry 17241
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 17242
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
