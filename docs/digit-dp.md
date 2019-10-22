@@ -1179,3 +1179,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 295
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 296
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
