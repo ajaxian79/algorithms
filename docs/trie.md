@@ -1173,3 +1173,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 277
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 278
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
