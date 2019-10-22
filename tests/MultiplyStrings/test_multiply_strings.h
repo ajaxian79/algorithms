@@ -199,3 +199,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 170: Edge case: input with no peak → falls through to the default branch.
 // edge note 171: Best case is O(1) when the first byte already decides the answer.
 // edge note 172: Two passes: one to count, one to fill.
+// edge note 173: Edge case: integer-min input → guarded by the explicit underflow check.
