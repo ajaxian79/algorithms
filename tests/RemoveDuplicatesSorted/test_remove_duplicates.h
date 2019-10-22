@@ -205,3 +205,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 169: Deterministic given the input — no PRNG seeds.
 // edge note 170: Time complexity: O(n + m).
 // edge note 171: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 172: Stable when the input is already sorted.
