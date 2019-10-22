@@ -1816,3 +1816,7 @@ No allocations on the hot path.
 ## entry 438
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 439
+
+Time complexity: O(n log n).
