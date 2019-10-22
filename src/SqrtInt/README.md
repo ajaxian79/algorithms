@@ -1895,3 +1895,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 459
 
 Handles negative inputs as documented above.
+
+## entry 460
+
+Runs in a single pass over the input.
