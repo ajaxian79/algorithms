@@ -1573,3 +1573,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 378
 
 Time complexity: O(1).
+
+## entry 379
+
+Space complexity: O(1) auxiliary.
