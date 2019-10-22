@@ -354,3 +354,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 73
 
 Constant-time comparisons; safe for short strings.
+
+## entry 74
+
+Space complexity: O(n) for the result buffer.
