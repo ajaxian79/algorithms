@@ -183,3 +183,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 46
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 47
+
+Euler tour flattens a tree into an array for range-query LCA.
