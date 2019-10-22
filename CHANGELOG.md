@@ -68959,3 +68959,7 @@
 ## entry 17240
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 17241
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
