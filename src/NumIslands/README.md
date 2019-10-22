@@ -1761,3 +1761,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 425
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 426
+
+Edge case: reverse-sorted input → still O(n log n).
