@@ -1809,3 +1809,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 438
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 439
+
+Edge case: maximum-length input → still fits in 32-bit indices.
