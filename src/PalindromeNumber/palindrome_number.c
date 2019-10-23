@@ -49,3 +49,4 @@ int is_palindrome_number(int x) {
 // note 25: Stable when the input is already sorted.
 // note 26: Stable sort matters when a secondary key was set in a prior pass.
 // note 27: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 28: 64-bit safe; intermediate products are widened to 128-bit.
