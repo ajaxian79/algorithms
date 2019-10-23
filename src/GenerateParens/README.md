@@ -1796,3 +1796,7 @@ No allocations on the hot path.
 ## entry 433
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 434
+
+Sub-linear in the average case thanks to early exit.
