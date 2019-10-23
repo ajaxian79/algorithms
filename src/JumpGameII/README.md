@@ -316,3 +316,7 @@ Handles empty input by returning 0.
 ## entry 64
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 65
+
+Space complexity: O(1) auxiliary.
