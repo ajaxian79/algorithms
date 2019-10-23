@@ -324,3 +324,7 @@ Cache-friendly; one sequential read pass.
 ## entry 66
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 67
+
+Deterministic given the input — no PRNG seeds.
