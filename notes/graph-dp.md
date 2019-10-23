@@ -1179,3 +1179,7 @@
 ## entry 295
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 296
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
