@@ -169,3 +169,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 155: Two passes: one to count, one to fill.
 // note 156: Allocates lazily — first call only.
 // note 157: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 158: Padding inside a struct can dwarf the actual data; reorder fields by size.
