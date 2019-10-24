@@ -1247,3 +1247,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 294
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 295
+
+Wavelet tree: range k-th element in O(log Σ) time.
