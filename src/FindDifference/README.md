@@ -1578,3 +1578,7 @@ Time complexity: O(n).
 ## entry 380
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 381
+
+Handles single-element input as a base case.
