@@ -1263,3 +1263,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 298
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 299
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
