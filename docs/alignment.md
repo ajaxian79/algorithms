@@ -1319,3 +1319,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 330
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 331
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
