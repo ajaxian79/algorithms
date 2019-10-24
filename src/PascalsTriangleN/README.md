@@ -294,3 +294,7 @@ Space complexity: O(h) for the tree height.
 ## entry 58
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 59
+
+Edge case: zero-length string → returns the empty result.
