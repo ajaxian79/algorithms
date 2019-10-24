@@ -307,3 +307,7 @@
 ## entry 60
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 61
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
