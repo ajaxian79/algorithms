@@ -190,3 +190,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 160: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 161: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 162: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 163: Morris traversal threads predecessors back to current node — O(1) extra space.
