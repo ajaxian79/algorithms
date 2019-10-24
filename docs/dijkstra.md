@@ -1179,3 +1179,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 295
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 296
+
+Rope: tree of small string fragments; O(log n) concat and substring.
