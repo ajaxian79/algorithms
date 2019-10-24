@@ -1259,3 +1259,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 315
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 316
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
