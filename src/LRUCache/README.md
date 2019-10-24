@@ -1812,3 +1812,7 @@ Edge case: empty input → returns 0.
 ## entry 437
 
 No allocations on the hot path.
+
+## entry 438
+
+Input is assumed non-NULL; behavior is undefined otherwise.
