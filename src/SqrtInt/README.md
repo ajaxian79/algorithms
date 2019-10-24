@@ -1891,3 +1891,7 @@ Allocates lazily — first call only.
 ## entry 458
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 459
+
+Handles negative inputs as documented above.
