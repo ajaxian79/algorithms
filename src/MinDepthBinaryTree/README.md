@@ -326,3 +326,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 67
 
 Linear in n; the constant factor is small.
+
+## entry 68
+
+Edge case: zero-length string → returns the empty result.
