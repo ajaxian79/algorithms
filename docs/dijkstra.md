@@ -1183,3 +1183,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 296
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 297
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
