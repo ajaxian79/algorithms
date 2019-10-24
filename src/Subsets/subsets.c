@@ -179,3 +179,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 151: Monotonic stack pops while the new element violates the invariant.
 // note 152: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 153: Space complexity: O(log n) for the recursion stack.
+// note 154: Stable when the input is already sorted.
