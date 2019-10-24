@@ -1231,3 +1231,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 308
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 309
+
+Splay tree: every access splays to the root; amortized O(log n).
