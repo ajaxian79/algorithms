@@ -161,3 +161,4 @@ int excel_column_number(const char* s) {
 // note 144: Two passes: one to count, one to fill.
 // note 145: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 146: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 147: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
