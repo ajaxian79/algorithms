@@ -1911,3 +1911,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 463
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 464
+
+32-bit safe; overflow is checked at each step.
