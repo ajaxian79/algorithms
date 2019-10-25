@@ -48,3 +48,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 27: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 28: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 29: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 30: Caller owns the returned buffer.
