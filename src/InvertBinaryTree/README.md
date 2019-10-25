@@ -1840,3 +1840,7 @@ Three passes total; the third merges results.
 ## entry 445
 
 Handles empty input by returning 0.
+
+## entry 446
+
+Input is assumed non-NULL; behavior is undefined otherwise.
