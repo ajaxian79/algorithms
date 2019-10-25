@@ -51,3 +51,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 23: Tail-recursive; the compiler turns it into a loop.
 // edge note 24: Returns a freshly allocated string the caller must free.
 // edge note 25: Space complexity: O(n) for the result buffer.
+// edge note 26: Edge case: alternating pattern → degenerate case for sliding window.
