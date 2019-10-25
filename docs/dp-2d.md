@@ -1267,3 +1267,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 301
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 302
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
