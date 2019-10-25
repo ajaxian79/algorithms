@@ -1706,3 +1706,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 412
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 413
+
+32-bit safe; overflow is checked at each step.
