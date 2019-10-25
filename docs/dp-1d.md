@@ -1323,3 +1323,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 314
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 315
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
