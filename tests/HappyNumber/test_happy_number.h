@@ -213,3 +213,4 @@ MunitTest happy_number_tests[] = {
 // edge note 185: Allocates lazily — first call only.
 // edge note 186: Space complexity: O(1) auxiliary.
 // edge note 187: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 188: Deterministic given the input — no PRNG seeds.
