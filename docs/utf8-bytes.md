@@ -1139,3 +1139,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 285
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 286
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
