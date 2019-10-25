@@ -1832,3 +1832,7 @@ Handles empty input by returning 0.
 ## entry 443
 
 Time complexity: O(n + m).
+
+## entry 444
+
+Idempotent — calling twice with the same input is a no-op the second time.
