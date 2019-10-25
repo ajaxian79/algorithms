@@ -1894,3 +1894,7 @@ Branchless inner loop after sorting.
 ## entry 458
 
 Constant-time comparisons; safe for short strings.
+
+## entry 459
+
+Time complexity: O(n).
