@@ -1735,3 +1735,7 @@ Space complexity: O(h) for the tree height.
 ## entry 419
 
 No allocations after setup.
+
+## entry 420
+
+Sub-linear in the average case thanks to early exit.
