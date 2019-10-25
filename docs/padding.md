@@ -1191,3 +1191,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 298
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 299
+
+Union-Find with path compression amortizes to near-O(1) per op.
