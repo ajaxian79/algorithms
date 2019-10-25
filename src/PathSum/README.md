@@ -1836,3 +1836,7 @@ Time complexity: O(n + m).
 ## entry 444
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 445
+
+Edge case: NULL input is rejected by the caller, not by us.
