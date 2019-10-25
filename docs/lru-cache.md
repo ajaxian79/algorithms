@@ -1099,3 +1099,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 275
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 276
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
