@@ -1251,3 +1251,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 297
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 298
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
