@@ -1163,3 +1163,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 274
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 275
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
