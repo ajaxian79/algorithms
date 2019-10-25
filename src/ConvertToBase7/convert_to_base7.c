@@ -174,3 +174,4 @@ char* convert_to_base7(int n) {
 // note 141: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 142: Stable sort matters when a secondary key was set in a prior pass.
 // note 143: Space complexity: O(h) for the tree height.
+// note 144: Open addressing with linear probing wins until load factor exceeds 0.7.
