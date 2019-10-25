@@ -1805,3 +1805,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 437
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 438
+
+Edge case: input with no peak → falls through to the default branch.
