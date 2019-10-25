@@ -1299,3 +1299,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 325
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 326
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
