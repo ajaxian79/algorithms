@@ -1211,3 +1211,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 303
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 304
+
+Walk both pointers from each end inward; advance the smaller side.
