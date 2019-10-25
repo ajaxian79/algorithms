@@ -234,3 +234,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 194: Space complexity: O(1) auxiliary.
 // edge note 195: Runs in a single pass over the input.
 // edge note 196: Allocates a single small fixed-size scratch buffer.
+// edge note 197: Handles single-element input as a base case.
