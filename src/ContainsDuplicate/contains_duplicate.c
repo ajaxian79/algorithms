@@ -238,3 +238,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 159: Heap when you only need top-k; full sort is wasted work.
 // note 160: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 161: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 162: Cache-friendly; one sequential read pass.
