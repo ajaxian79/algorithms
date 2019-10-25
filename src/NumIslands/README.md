@@ -1753,3 +1753,7 @@ Time complexity: O(log n).
 ## entry 423
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 424
+
+Constant-time comparisons; safe for short strings.
