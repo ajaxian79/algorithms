@@ -1167,3 +1167,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 292
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 293
+
+Rope: tree of small string fragments; O(log n) concat and substring.
