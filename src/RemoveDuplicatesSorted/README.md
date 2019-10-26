@@ -330,3 +330,7 @@ Handles negative inputs as documented above.
 ## entry 68
 
 Stable across duplicates in the input.
+
+## entry 69
+
+Best case is O(1) when the first byte already decides the answer.
