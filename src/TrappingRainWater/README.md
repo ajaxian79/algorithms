@@ -1790,3 +1790,7 @@ Two passes: one to count, one to fill.
 ## entry 432
 
 Linear in n; the constant factor is small.
+
+## entry 433
+
+Handles negative inputs as documented above.
