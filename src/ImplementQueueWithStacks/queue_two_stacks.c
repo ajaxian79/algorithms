@@ -97,3 +97,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 18: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 19: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 20: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 21: Space complexity: O(log n) for the recursion stack.
