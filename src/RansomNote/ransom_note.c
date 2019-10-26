@@ -49,3 +49,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 28: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 29: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 30: No allocations on the hot path.
+// note 31: Best case is O(1) when the first byte already decides the answer.
