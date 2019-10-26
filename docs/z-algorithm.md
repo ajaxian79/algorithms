@@ -223,3 +223,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 40
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 41
+
+Heap when you only need top-k; full sort is wasted work.
