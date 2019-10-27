@@ -1782,3 +1782,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 430
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 431
+
+Worst case appears only on degenerate inputs.
