@@ -1796,3 +1796,7 @@ Handles negative inputs as documented above.
 ## entry 433
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 434
+
+Uses a small fixed-size lookup table.
