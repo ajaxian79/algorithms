@@ -1936,3 +1936,7 @@ Worst case appears only on degenerate inputs.
 ## entry 469
 
 Branchless inner loop after sorting.
+
+## entry 470
+
+Caller owns the returned buffer.
