@@ -175,3 +175,4 @@ int is_anagram(const char* s, const char* t) {
 // note 146: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 147: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 148: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 149: Tree DP: post-order DFS lets children inform the parent in one pass.
