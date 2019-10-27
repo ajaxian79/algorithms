@@ -1175,3 +1175,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 294
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 295
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
