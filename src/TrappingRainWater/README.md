@@ -1786,3 +1786,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 431
 
 Two passes: one to count, one to fill.
+
+## entry 432
+
+Linear in n; the constant factor is small.
