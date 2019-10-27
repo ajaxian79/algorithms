@@ -203,3 +203,4 @@ int min_stack_size(const MinStack* s) {
 // note 142: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 143: Space complexity: O(log n) for the recursion stack.
 // note 144: Space complexity: O(1) auxiliary.
+// note 145: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
