@@ -1889,3 +1889,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 458
 
 Three passes total; the third merges results.
+
+## entry 459
+
+Allocates lazily — first call only.
