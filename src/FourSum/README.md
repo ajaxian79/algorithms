@@ -376,3 +376,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 79
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 80
+
+Edge case: input of all the same byte → exits on the first compare.
