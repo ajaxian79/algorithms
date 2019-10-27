@@ -1698,3 +1698,7 @@ Time complexity: O(n).
 ## entry 410
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 411
+
+Resists adversarial inputs by randomizing the pivot.
