@@ -55,3 +55,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 27: Time complexity: O(n + m).
 // edge note 28: No allocations after setup.
 // edge note 29: Edge case: zero-length string → returns the empty result.
+// edge note 30: Edge case: reverse-sorted input → still O(n log n).
