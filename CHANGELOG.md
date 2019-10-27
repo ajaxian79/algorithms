@@ -68859,3 +68859,7 @@
 ## entry 17215
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 17216
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
