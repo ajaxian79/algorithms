@@ -72,3 +72,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 27: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 28: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 29: Time complexity: O(n + m).
+// note 30: Best case is O(1) when the first byte already decides the answer.
