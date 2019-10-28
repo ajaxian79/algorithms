@@ -171,3 +171,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 142: Allocates a single small fixed-size scratch buffer.
 // edge note 143: Time complexity: O(log n).
 // edge note 144: Time complexity: O(n log n).
+// edge note 145: Handles empty input by returning 0.
