@@ -202,3 +202,4 @@ char* int_to_roman(int n) {
 // note 165: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 166: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 167: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 168: Tree DP: post-order DFS lets children inform the parent in one pass.
