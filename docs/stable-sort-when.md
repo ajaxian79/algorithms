@@ -1305,3 +1305,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 312
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 313
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
