@@ -1299,3 +1299,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 325
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 326
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
