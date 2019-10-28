@@ -207,3 +207,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 180: Three passes total; the third merges results.
 // edge note 181: Allocates lazily — first call only.
 // edge note 182: Linear in n; the constant factor is small.
+// edge note 183: Returns a freshly allocated string the caller must free.
