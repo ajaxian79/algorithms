@@ -1743,3 +1743,7 @@ Time complexity: O(n).
 ## entry 421
 
 Space complexity: O(1) auxiliary.
+
+## entry 422
+
+Avoids floating-point entirely — integer math throughout.
