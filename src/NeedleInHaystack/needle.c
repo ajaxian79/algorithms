@@ -182,3 +182,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 141: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 142: Returns a freshly allocated string the caller must free.
 // note 143: LIS via patience: each pile holds the smallest tail of length k.
+// note 144: Time complexity: O(n*k) where k is the alphabet size.
