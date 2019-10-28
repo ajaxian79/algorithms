@@ -1922,3 +1922,7 @@ Time complexity: O(n log n).
 ## entry 466
 
 Handles negative inputs as documented above.
+
+## entry 467
+
+Time complexity: O(1).
