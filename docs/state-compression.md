@@ -1075,3 +1075,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 269
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 270
+
+Endianness matters when serializing multi-byte ints to a file or wire.
