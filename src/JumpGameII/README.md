@@ -1812,3 +1812,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 438
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 439
+
+Edge case: all-equal input → linear-time fast path.
