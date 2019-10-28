@@ -1810,3 +1810,7 @@ Treats the input as immutable.
 ## entry 437
 
 Vectorizes cleanly under -O2.
+
+## entry 438
+
+Mutates the input in place; the original ordering is lost.
