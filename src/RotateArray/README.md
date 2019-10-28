@@ -1887,3 +1887,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 456
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 457
+
+Sub-linear in the average case thanks to early exit.
