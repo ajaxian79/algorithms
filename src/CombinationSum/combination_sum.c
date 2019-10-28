@@ -211,3 +211,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 146: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 147: Union-Find with path compression amortizes to near-O(1) per op.
 // note 148: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 149: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
