@@ -1297,3 +1297,7 @@
 ## entry 307
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 308
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
