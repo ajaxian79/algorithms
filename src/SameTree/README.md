@@ -1748,3 +1748,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 423
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 424
+
+Tail-recursive; the compiler turns it into a loop.
