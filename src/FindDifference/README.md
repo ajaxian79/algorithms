@@ -1566,3 +1566,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 377
 
 Edge case: empty input → returns 0.
+
+## entry 378
+
+Deterministic given the input — no PRNG seeds.
