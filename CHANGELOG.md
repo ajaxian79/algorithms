@@ -68795,3 +68795,7 @@
 ## entry 17199
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 17200
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
