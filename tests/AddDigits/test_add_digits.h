@@ -170,3 +170,4 @@ MunitTest add_digits_tests[] = {
 // edge note 143: Time complexity: O(log n).
 // edge note 144: Caller owns the returned buffer.
 // edge note 145: Stable when the input is already sorted.
+// edge note 146: Avoids floating-point entirely — integer math throughout.
