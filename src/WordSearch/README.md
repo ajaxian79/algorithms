@@ -1702,3 +1702,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 411
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 412
+
+Deterministic given the input — no PRNG seeds.
