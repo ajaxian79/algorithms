@@ -201,3 +201,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 152: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 153: Best case is O(1) when the first byte already decides the answer.
 // note 154: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 155: Time complexity: O(n).
