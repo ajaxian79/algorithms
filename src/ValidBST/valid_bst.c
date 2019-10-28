@@ -166,3 +166,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 148: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 149: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 150: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 151: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
