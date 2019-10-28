@@ -179,3 +179,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 161: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 162: 64-bit safe; intermediate products are widened to 128-bit.
 // note 163: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 164: Time complexity: O(k) where k is the answer size.
