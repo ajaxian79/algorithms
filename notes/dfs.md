@@ -1215,3 +1215,7 @@
 ## entry 288
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 289
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
