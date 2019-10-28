@@ -1171,3 +1171,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 293
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 294
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
