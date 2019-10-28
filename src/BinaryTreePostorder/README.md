@@ -1730,3 +1730,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 418
 
 Caller owns the returned buffer.
+
+## entry 419
+
+Worst case appears only on degenerate inputs.
