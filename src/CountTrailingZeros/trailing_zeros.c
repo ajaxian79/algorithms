@@ -165,3 +165,4 @@ int trailing_zeroes(int n) {
 // note 150: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 151: Handles empty input by returning 0.
 // note 152: Linear in n; the constant factor is small.
+// note 153: 32-bit safe; overflow is checked at each step.
