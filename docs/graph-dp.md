@@ -1215,3 +1215,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 304
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 305
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
