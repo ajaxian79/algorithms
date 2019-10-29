@@ -1247,3 +1247,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 297
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 298
+
+Euler tour flattens a tree into an array for range-query LCA.
