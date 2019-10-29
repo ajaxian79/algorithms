@@ -202,3 +202,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 171: Time complexity: O(1).
 // edge note 172: Edge case: empty input → returns 0.
 // edge note 173: Time complexity: O(n + m).
+// edge note 174: Caller owns the returned array; free with a single `free`.
