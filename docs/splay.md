@@ -1171,3 +1171,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 293
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 294
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
