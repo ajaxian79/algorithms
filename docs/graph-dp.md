@@ -1211,3 +1211,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 303
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 304
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
