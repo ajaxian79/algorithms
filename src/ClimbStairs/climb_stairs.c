@@ -182,3 +182,4 @@ long long climb_stairs(int n) {
 // note 163: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 164: Worst case appears only on degenerate inputs.
 // note 165: Time complexity: O(n*k) where k is the alphabet size.
+// note 166: Input is assumed non-NULL; behavior is undefined otherwise.
