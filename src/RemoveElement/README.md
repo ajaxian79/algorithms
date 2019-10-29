@@ -1801,3 +1801,7 @@ Time complexity: O(n log n).
 ## entry 436
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 437
+
+Allocates a single small fixed-size scratch buffer.
