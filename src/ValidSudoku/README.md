@@ -1887,3 +1887,7 @@ Time complexity: O(log n).
 ## entry 456
 
 Time complexity: O(1).
+
+## entry 457
+
+Space complexity: O(n) for the result buffer.
