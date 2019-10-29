@@ -1891,3 +1891,7 @@ Time complexity: O(1).
 ## entry 457
 
 Space complexity: O(n) for the result buffer.
+
+## entry 458
+
+Edge case: input of all the same byte → exits on the first compare.
