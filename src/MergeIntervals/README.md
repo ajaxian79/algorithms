@@ -1778,3 +1778,7 @@ Stable when the input is already sorted.
 ## entry 429
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 430
+
+Tail-recursive; the compiler turns it into a loop.
