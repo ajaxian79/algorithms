@@ -1333,3 +1333,7 @@
 ## entry 316
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 317
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
