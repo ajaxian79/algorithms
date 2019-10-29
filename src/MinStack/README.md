@@ -1630,3 +1630,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 393
 
 Allocates lazily — first call only.
+
+## entry 394
+
+No allocations after setup.
