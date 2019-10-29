@@ -1738,3 +1738,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 420
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 421
+
+Vectorizes cleanly under -O2.
