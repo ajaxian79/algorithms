@@ -243,3 +243,7 @@
 ## entry 43
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 44
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
