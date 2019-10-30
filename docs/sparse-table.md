@@ -1071,3 +1071,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 268
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 269
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
