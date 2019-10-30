@@ -1255,3 +1255,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 296
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 297
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
