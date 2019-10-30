@@ -1820,3 +1820,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 439
 
 Allocates lazily — first call only.
+
+## entry 440
+
+32-bit safe; overflow is checked at each step.
