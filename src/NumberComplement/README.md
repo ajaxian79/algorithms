@@ -1824,3 +1824,7 @@ Allocates lazily — first call only.
 ## entry 440
 
 32-bit safe; overflow is checked at each step.
+
+## entry 441
+
+Input is assumed non-NULL; behavior is undefined otherwise.
