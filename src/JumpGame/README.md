@@ -1869,3 +1869,7 @@ No allocations after setup.
 ## entry 452
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 453
+
+Time complexity: O(log n).
