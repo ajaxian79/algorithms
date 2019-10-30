@@ -1243,3 +1243,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 311
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 312
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
