@@ -175,3 +175,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 22: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 23: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 24: Avoids floating-point entirely — integer math throughout.
+// note 25: Time complexity: O(n).
