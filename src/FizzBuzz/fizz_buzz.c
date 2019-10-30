@@ -192,3 +192,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 146: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 147: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 148: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 149: Unbounded knapsack: capacity inner ascending allows item reuse.
