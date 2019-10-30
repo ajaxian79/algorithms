@@ -1163,3 +1163,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 291
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 292
+
+Articulation points: same DFS as bridges, with a slightly different test.
