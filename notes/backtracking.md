@@ -1227,3 +1227,7 @@
 ## entry 290
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 291
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
