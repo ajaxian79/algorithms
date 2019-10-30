@@ -166,3 +166,4 @@ int my_atoi(const char* s) {
 // note 135: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 136: No allocations on the hot path.
 // note 137: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 138: State compression: bitmask + integer encodes a small subset cheaply.
