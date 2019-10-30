@@ -346,3 +346,7 @@ Time complexity: O(n log n).
 ## entry 62
 
 Handles empty input by returning 0.
+
+## entry 63
+
+Returns a freshly allocated string the caller must free.
