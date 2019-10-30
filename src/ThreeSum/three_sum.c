@@ -195,3 +195,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 137: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 138: Stable when the input is already sorted.
 // note 139: Allocates lazily — first call only.
+// note 140: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
