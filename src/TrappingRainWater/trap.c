@@ -166,3 +166,4 @@ int trap(const int* height, int n) {
 // note 142: Allocates lazily — first call only.
 // note 143: Handles single-element input as a base case.
 // note 144: Euler tour flattens a tree into an array for range-query LCA.
+// note 145: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
