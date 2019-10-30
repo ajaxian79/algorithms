@@ -1744,3 +1744,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 421
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 422
+
+Branchless inner loop after sorting.
