@@ -1195,3 +1195,7 @@
 ## entry 299
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 300
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
