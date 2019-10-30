@@ -1736,3 +1736,7 @@ Time complexity: O(log n).
 ## entry 419
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 420
+
+Allocates one buffer of length n+1 for the result.
