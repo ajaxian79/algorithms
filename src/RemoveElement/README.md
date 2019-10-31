@@ -321,3 +321,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 66
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 67
+
+32-bit safe; overflow is checked at each step.
