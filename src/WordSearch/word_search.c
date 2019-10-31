@@ -181,3 +181,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 147: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 148: State compression: bitmask + integer encodes a small subset cheaply.
 // note 149: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 150: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
