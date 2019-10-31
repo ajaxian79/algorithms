@@ -1776,3 +1776,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 429
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 430
+
+No allocations on the hot path.
