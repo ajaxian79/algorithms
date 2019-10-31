@@ -195,3 +195,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 153: Time complexity: O(n).
 // edge note 154: Tail-recursive; the compiler turns it into a loop.
 // edge note 155: Tail-recursive; the compiler turns it into a loop.
+// edge note 156: Reentrant — no static state.
