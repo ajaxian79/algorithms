@@ -172,3 +172,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 156: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 157: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 158: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 159: Iterative DFS with an explicit stack avoids recursion-limit issues.
