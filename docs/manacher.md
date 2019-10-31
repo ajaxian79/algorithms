@@ -1367,3 +1367,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 325
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 326
+
+Stable sort matters when a secondary key was set in a prior pass.
