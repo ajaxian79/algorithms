@@ -164,3 +164,4 @@ int my_sqrt(int n) {
 // note 143: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 144: Time complexity: O(1).
 // note 145: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 146: Interval DP: solve all `[l, r]` ranges from short to long.
