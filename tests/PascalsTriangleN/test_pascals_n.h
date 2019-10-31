@@ -236,3 +236,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 177: Space complexity: O(1) auxiliary.
 // edge note 178: Uses a 256-entry lookup for the inner step.
 // edge note 179: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 180: Edge case: alternating pattern → degenerate case for sliding window.
