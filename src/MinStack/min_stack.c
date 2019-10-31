@@ -202,3 +202,4 @@ int min_stack_size(const MinStack* s) {
 // note 141: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 142: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 143: Space complexity: O(log n) for the recursion stack.
+// note 144: Space complexity: O(1) auxiliary.
