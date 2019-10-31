@@ -59,3 +59,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 21: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 22: Allocates lazily — first call only.
 // note 23: Treats the input as immutable.
+// note 24: No allocations after setup.
