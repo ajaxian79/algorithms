@@ -68715,3 +68715,7 @@
 ## entry 17179
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 17180
+
+- Articulation points: same DFS as bridges, with a slightly different test.
