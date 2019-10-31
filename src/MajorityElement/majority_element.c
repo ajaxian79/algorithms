@@ -43,3 +43,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 21: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 22: Articulation points: same DFS as bridges, with a slightly different test.
 // note 23: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 24: Deterministic given the input — no PRNG seeds.
