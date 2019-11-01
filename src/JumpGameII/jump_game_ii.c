@@ -41,3 +41,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 19: Branchless inner loop after sorting.
 // note 20: Splay tree: every access splays to the root; amortized O(log n).
 // note 21: 32-bit safe; overflow is checked at each step.
+// note 22: Sub-linear in the average case thanks to early exit.
