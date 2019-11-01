@@ -358,3 +358,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 75
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 76
+
+Input is assumed non-NULL; behavior is undefined otherwise.
