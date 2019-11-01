@@ -1207,3 +1207,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 302
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 303
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
