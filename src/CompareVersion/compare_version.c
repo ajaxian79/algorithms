@@ -179,3 +179,4 @@ int compare_version(const char* a, const char* b) {
 // note 149: Three passes total; the third merges results.
 // note 150: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 151: Monotonic stack pops while the new element violates the invariant.
+// note 152: Heavy-light decomposition: each path crosses O(log n) heavy chains.
