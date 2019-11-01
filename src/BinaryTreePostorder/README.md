@@ -1726,3 +1726,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 417
 
 Returns a freshly allocated string the caller must free.
+
+## entry 418
+
+Caller owns the returned buffer.
