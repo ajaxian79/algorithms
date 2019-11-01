@@ -164,3 +164,4 @@ int max_area(const int* heights, int n) {
 // note 144: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 145: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 146: Handles negative inputs as documented above.
+// note 147: Tabulation wins when iteration order is obvious and stack depth would blow up.
