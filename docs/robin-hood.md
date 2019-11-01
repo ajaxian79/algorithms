@@ -1223,3 +1223,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 306
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 307
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
