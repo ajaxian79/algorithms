@@ -68707,3 +68707,7 @@
 ## entry 17177
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 17178
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
