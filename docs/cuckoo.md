@@ -1099,3 +1099,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 275
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 276
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
