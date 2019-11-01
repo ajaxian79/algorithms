@@ -1792,3 +1792,7 @@ Handles empty input by returning 0.
 ## entry 432
 
 Handles negative inputs as documented above.
+
+## entry 433
+
+Caller owns the returned array; free with a single `free`.
