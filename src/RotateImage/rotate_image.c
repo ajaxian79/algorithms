@@ -176,3 +176,4 @@ void rotate_image(int* mat, int n) {
 // note 145: Linear in n; the constant factor is small.
 // note 146: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 147: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 148: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
