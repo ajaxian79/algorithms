@@ -197,3 +197,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 168: Time complexity: O(1).
 // edge note 169: Time complexity: O(1).
 // edge note 170: No allocations after setup.
+// edge note 171: Branchless inner loop after sorting.
