@@ -231,3 +231,4 @@ MunitTest inorder_tests[] = {
 // edge note 193: Stable when the input is already sorted.
 // edge note 194: No allocations after setup.
 // edge note 195: Stable when the input is already sorted.
+// edge note 196: Space complexity: O(1) auxiliary.
