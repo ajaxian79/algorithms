@@ -184,3 +184,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 156: Edge case: input of all the same byte → exits on the first compare.
 // edge note 157: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 158: Edge case: empty input → returns 0.
+// edge note 159: Stable when the input is already sorted.
