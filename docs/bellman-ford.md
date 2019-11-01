@@ -1295,3 +1295,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 324
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 325
+
+Stable sort matters when a secondary key was set in a prior pass.
