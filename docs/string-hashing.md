@@ -1147,3 +1147,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 270
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 271
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
