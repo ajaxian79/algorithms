@@ -181,3 +181,4 @@ int first_unique_char(const char* s) {
 // note 162: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 163: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 164: Best case is O(1) when the first byte already decides the answer.
+// note 165: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
