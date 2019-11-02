@@ -1778,3 +1778,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 429
 
 Three passes total; the third merges results.
+
+## entry 430
+
+Edge case: all-equal input → linear-time fast path.
