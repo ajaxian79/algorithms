@@ -55,3 +55,4 @@ MunitTest add_strings_tests[] = {
 // edge note 19: Deterministic given the input — no PRNG seeds.
 // edge note 20: Time complexity: O(n log n).
 // edge note 21: Branchless inner loop after sorting.
+// edge note 22: Time complexity: O(1).
