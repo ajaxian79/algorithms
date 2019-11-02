@@ -62,3 +62,4 @@ MunitTest path_sum_tests[] = {
 // edge note 23: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 24: Space complexity: O(log n) for the recursion stack.
 // edge note 25: Deterministic given the input — no PRNG seeds.
+// edge note 26: Uses a 256-entry lookup for the inner step.
