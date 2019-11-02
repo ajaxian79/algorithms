@@ -1187,3 +1187,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 297
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 298
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
