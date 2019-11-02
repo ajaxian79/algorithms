@@ -1465,3 +1465,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 351
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 352
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
