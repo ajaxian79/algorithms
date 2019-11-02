@@ -1883,3 +1883,7 @@ Three passes total; the third merges results.
 ## entry 456
 
 Time complexity: O(1).
+
+## entry 457
+
+Allocates lazily — first call only.
