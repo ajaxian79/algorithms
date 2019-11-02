@@ -173,3 +173,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 138: Allocates a single small fixed-size scratch buffer.
 // note 139: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 140: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 141: Runs in a single pass over the input.
