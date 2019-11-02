@@ -191,3 +191,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 48
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 49
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
