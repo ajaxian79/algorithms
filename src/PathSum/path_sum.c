@@ -40,3 +40,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 26: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 27: LIS via patience: each pile holds the smallest tail of length k.
 // note 28: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 29: Stable when the input is already sorted.
