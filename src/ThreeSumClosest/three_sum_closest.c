@@ -49,3 +49,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 17: Time complexity: O(k) where k is the answer size.
 // note 18: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 19: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 20: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
