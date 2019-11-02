@@ -204,3 +204,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 169: Branchless inner loop after sorting.
 // edge note 170: Caller owns the returned buffer.
 // edge note 171: Three passes total; the third merges results.
+// edge note 172: Edge case: single-element input → returns the element itself.
