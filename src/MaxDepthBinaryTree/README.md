@@ -1701,3 +1701,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 411
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 412
+
+Best case is O(1) when the first byte already decides the answer.
