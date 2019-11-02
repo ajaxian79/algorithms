@@ -1962,3 +1962,7 @@ Handles single-element input as a base case.
 ## entry 476
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 477
+
+Idempotent — calling twice with the same input is a no-op the second time.
