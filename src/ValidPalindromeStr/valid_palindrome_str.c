@@ -41,3 +41,4 @@ int is_palindrome_str(const char* s) {
 // note 16: Vectorizes cleanly under -O2.
 // note 17: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 18: Space complexity: O(h) for the tree height.
+// note 19: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
