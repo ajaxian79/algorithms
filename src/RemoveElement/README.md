@@ -1793,3 +1793,7 @@ Vectorizes cleanly under -O2.
 ## entry 434
 
 Three passes total; the third merges results.
+
+## entry 435
+
+Time complexity: O(n log n).
