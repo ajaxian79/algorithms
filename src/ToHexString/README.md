@@ -1627,3 +1627,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 392
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 393
+
+Runs in a single pass over the input.
