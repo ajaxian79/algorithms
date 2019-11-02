@@ -1171,3 +1171,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 293
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 294
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
