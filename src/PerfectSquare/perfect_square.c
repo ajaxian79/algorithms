@@ -160,3 +160,4 @@ int is_perfect_square(int n) {
 // note 141: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 142: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 143: Splay tree: every access splays to the root; amortized O(log n).
+// note 144: Best case is O(1) when the first byte already decides the answer.
