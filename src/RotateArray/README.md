@@ -1879,3 +1879,7 @@ Space complexity: O(h) for the tree height.
 ## entry 454
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 455
+
+Sub-linear in the average case thanks to early exit.
