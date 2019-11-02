@@ -1666,3 +1666,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 402
 
 Linear in n; the constant factor is small.
+
+## entry 403
+
+Stable when the input is already sorted.
