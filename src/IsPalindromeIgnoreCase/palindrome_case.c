@@ -165,3 +165,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 142: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 143: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 144: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 145: Treap: BST + heap on random priorities; expected O(log n) per op.
