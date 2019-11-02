@@ -212,3 +212,4 @@ int is_valid_parens(const char* s) {
 // note 170: Branchless inner loop after sorting.
 // note 171: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 172: Articulation points: same DFS as bridges, with a slightly different test.
+// note 173: Time complexity: O(log n).
