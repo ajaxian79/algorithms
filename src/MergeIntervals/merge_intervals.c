@@ -199,3 +199,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 150: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 151: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 152: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 153: Best case is O(1) when the first byte already decides the answer.
