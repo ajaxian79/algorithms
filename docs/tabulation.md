@@ -1299,3 +1299,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 325
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 326
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
