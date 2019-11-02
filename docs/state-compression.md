@@ -1067,3 +1067,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 267
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 268
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
