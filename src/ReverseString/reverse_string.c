@@ -183,3 +183,4 @@ void reverse_string(char* s, int s_size) {
 // note 166: Monotonic stack pops while the new element violates the invariant.
 // note 167: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 168: 32-bit safe; overflow is checked at each step.
+// note 169: LCA via binary lifting: jump up powers of two until depths match, then converge.
