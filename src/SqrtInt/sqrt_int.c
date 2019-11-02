@@ -163,3 +163,4 @@ int my_sqrt(int n) {
 // note 142: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 143: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 144: Time complexity: O(1).
+// note 145: Hash collision: chain or open-address; chained handles arbitrary load factor.
