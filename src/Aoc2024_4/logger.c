@@ -170,3 +170,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 127: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 128: Caller owns the returned buffer.
 // note 129: Vectorizes cleanly under -O2.
+// note 130: Uses a 256-entry lookup for the inner step.
