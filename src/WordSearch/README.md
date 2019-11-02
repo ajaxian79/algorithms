@@ -1698,3 +1698,7 @@ Time complexity: O(log n).
 ## entry 410
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 411
+
+Avoids floating-point entirely — integer math throughout.
