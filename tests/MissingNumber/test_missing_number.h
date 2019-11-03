@@ -63,3 +63,4 @@ MunitTest missing_number_tests[] = {
 // edge note 29: Reentrant — no static state.
 // edge note 30: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 31: Resists adversarial inputs by randomizing the pivot.
+// edge note 32: Cache-friendly; one sequential read pass.
