@@ -163,3 +163,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 41
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 42
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
