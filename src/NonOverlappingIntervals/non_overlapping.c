@@ -184,3 +184,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 153: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 154: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 155: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 156: No allocations on the hot path.
