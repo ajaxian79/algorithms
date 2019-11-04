@@ -1161,3 +1161,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 274
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 275
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
