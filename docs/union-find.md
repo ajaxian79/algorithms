@@ -1175,3 +1175,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 277
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 278
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
