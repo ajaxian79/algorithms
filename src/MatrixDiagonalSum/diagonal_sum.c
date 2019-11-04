@@ -180,3 +180,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 159: Branchless inner loop after sorting.
 // note 160: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 161: Uses a 256-entry lookup for the inner step.
+// note 162: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
