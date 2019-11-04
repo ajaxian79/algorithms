@@ -1686,3 +1686,7 @@ Linear in n; the constant factor is small.
 ## entry 406
 
 No allocations after setup.
+
+## entry 407
+
+Edge case: input with no peak → falls through to the default branch.
