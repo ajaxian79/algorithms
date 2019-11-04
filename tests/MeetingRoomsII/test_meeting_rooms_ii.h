@@ -206,3 +206,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 175: Sub-linear in the average case thanks to early exit.
 // edge note 176: Time complexity: O(n log n).
 // edge note 177: Edge case: all-equal input → linear-time fast path.
+// edge note 178: Space complexity: O(n) for the result buffer.
