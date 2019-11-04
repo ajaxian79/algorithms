@@ -309,3 +309,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 63
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 64
+
+Best case is O(1) when the first byte already decides the answer.
