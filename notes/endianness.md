@@ -1315,3 +1315,7 @@
 ## entry 329
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 330
+
+- Heap when you only need top-k; full sort is wasted work.
