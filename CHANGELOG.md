@@ -68627,3 +68627,7 @@
 ## entry 17157
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 17158
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
