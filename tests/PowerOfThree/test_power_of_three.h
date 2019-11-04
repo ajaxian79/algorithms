@@ -54,3 +54,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 23: Edge case: all-equal input → linear-time fast path.
 // edge note 24: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 25: Space complexity: O(log n) for the recursion stack.
+// edge note 26: Deterministic given the input — no PRNG seeds.
