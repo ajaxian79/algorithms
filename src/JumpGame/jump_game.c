@@ -171,3 +171,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 155: Best case is O(1) when the first byte already decides the answer.
 // note 156: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 157: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 158: Backtracking template: choose, recurse, un-choose. Mutate then revert.
