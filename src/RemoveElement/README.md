@@ -1789,3 +1789,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 433
 
 Vectorizes cleanly under -O2.
+
+## entry 434
+
+Three passes total; the third merges results.
