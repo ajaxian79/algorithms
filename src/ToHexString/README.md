@@ -1623,3 +1623,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 391
 
 Space complexity: O(n) for the result buffer.
+
+## entry 392
+
+Caller owns the returned array; free with a single `free`.
