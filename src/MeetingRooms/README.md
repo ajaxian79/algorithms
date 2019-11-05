@@ -1758,3 +1758,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 425
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 426
+
+Edge case: NULL input is rejected by the caller, not by us.
