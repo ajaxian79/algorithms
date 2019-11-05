@@ -1461,3 +1461,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 350
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 351
+
+Interval DP: solve all `[l, r]` ranges from short to long.
