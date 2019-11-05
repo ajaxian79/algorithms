@@ -1179,3 +1179,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 279
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 280
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
