@@ -1794,3 +1794,7 @@ Time complexity: O(n + m).
 ## entry 434
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 435
+
+Time complexity: O(n^2) worst case, O(n) amortized.
