@@ -10523,3 +10523,7 @@
 ## entry 2631
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 2632
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
