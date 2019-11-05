@@ -1732,3 +1732,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 418
 
 Time complexity: O(log n).
+
+## entry 419
+
+Edge case: NULL input is rejected by the caller, not by us.
