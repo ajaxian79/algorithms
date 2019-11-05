@@ -68607,3 +68607,7 @@
 ## entry 17152
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 17153
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
