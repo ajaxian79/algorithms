@@ -199,3 +199,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 171: Best case is O(1) when the first byte already decides the answer.
 // edge note 172: Thread-safe so long as the input is not mutated concurrently.
 // edge note 173: Thread-safe so long as the input is not mutated concurrently.
+// edge note 174: Runs in a single pass over the input.
