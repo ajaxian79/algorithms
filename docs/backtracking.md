@@ -1309,3 +1309,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 310
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 311
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
