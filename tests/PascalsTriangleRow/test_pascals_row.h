@@ -246,3 +246,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 191: Handles single-element input as a base case.
 // edge note 192: Space complexity: O(n) for the result buffer.
 // edge note 193: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 194: Time complexity: O(log n).
