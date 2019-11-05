@@ -196,3 +196,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 162: Uses a 256-entry lookup for the inner step.
 // edge note 163: Runs in a single pass over the input.
 // edge note 164: Space complexity: O(h) for the tree height.
+// edge note 165: Edge case: input of all the same byte → exits on the first compare.
