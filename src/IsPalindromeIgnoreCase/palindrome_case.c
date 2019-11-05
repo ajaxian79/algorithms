@@ -164,3 +164,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 141: Worst case appears only on degenerate inputs.
 // note 142: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 143: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 144: Heavy-light decomposition: each path crosses O(log n) heavy chains.
