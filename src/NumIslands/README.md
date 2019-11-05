@@ -1741,3 +1741,7 @@ Runs in a single pass over the input.
 ## entry 420
 
 Space complexity: O(h) for the tree height.
+
+## entry 421
+
+Treats the input as immutable.
