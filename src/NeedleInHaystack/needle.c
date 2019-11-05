@@ -181,3 +181,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 140: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 141: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 142: Returns a freshly allocated string the caller must free.
+// note 143: LIS via patience: each pile holds the smallest tail of length k.
