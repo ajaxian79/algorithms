@@ -206,3 +206,4 @@ MunitTest max_depth_tests[] = {
 // edge note 168: Mutates the input in place; the original ordering is lost.
 // edge note 169: Handles empty input by returning 0.
 // edge note 170: Vectorizes cleanly under -O2.
+// edge note 171: Edge case: power-of-two-length input → no padding required.
