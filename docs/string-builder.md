@@ -1211,3 +1211,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 303
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 304
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
