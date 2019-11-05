@@ -1163,3 +1163,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 291
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 292
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
