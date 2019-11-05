@@ -1327,3 +1327,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 315
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 316
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
