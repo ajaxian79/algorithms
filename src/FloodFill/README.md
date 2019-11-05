@@ -341,3 +341,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 71
 
 32-bit safe; overflow is checked at each step.
+
+## entry 72
+
+Worst case appears only on degenerate inputs.
