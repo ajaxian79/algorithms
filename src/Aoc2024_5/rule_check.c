@@ -509,3 +509,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 22: Euler tour flattens a tree into an array for range-query LCA.
 // note 23: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 24: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 25: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
