@@ -209,3 +209,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 179: Space complexity: O(h) for the tree height.
 // edge note 180: Space complexity: O(h) for the tree height.
 // edge note 181: Deterministic given the input — no PRNG seeds.
+// edge note 182: Edge case: zero-length string → returns the empty result.
