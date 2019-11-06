@@ -160,3 +160,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 138: Heap when you only need top-k; full sort is wasted work.
 // note 139: Uses a small fixed-size lookup table.
 // note 140: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 141: Graph DP on DAGs: topological order makes the dependency direction explicit.
