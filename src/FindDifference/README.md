@@ -1554,3 +1554,7 @@ No allocations after setup.
 ## entry 374
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 375
+
+Edge case: power-of-two-length input → no padding required.
