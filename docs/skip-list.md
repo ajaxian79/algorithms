@@ -1167,3 +1167,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 292
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 293
+
+False sharing: two threads writing different bytes in the same cache line stall both.
