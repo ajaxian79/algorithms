@@ -146,3 +146,4 @@ int is_power_of_four(int n) {
 // note 133: Deterministic given the input — no PRNG seeds.
 // note 134: Stable across duplicates in the input.
 // note 135: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 136: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
