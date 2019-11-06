@@ -211,3 +211,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 186: Branchless inner loop after sorting.
 // edge note 187: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 188: Vectorizes cleanly under -O2.
+// edge note 189: Uses a 256-entry lookup for the inner step.
