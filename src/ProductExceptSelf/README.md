@@ -1788,3 +1788,7 @@ Handles empty input by returning 0.
 ## entry 431
 
 32-bit safe; overflow is checked at each step.
+
+## entry 432
+
+Handles negative inputs as documented above.
