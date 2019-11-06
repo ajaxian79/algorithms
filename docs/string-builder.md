@@ -1207,3 +1207,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 302
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 303
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
