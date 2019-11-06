@@ -68587,3 +68587,7 @@
 ## entry 17147
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 17148
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
