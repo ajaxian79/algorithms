@@ -1877,3 +1877,7 @@ Space complexity: O(h) for the tree height.
 ## entry 455
 
 Treats the input as immutable.
+
+## entry 456
+
+Edge case: integer-max input → guarded by the explicit overflow check.
