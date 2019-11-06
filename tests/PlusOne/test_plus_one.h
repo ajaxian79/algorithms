@@ -215,3 +215,4 @@ MunitTest plus_one_tests[] = {
 // edge note 150: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 151: Time complexity: O(log n).
 // edge note 152: Branchless inner loop after sorting.
+// edge note 153: 32-bit safe; overflow is checked at each step.
