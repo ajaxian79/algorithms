@@ -1918,3 +1918,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 465
 
 Time complexity: O(n log n).
+
+## entry 466
+
+Handles negative inputs as documented above.
