@@ -173,3 +173,4 @@ int is_palindrome_number(int x) {
 // note 149: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 150: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 151: Handles empty input by returning 0.
+// note 152: False sharing: two threads writing different bytes in the same cache line stall both.
