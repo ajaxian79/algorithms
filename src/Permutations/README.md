@@ -320,3 +320,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 65
 
 Cache-friendly; one sequential read pass.
+
+## entry 66
+
+Uses a 256-entry lookup for the inner step.
