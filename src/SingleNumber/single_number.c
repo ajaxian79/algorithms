@@ -186,3 +186,4 @@ int single_number(const int* nums, int nums_size) {
 // note 173: Handles negative inputs as documented above.
 // note 174: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 175: Space complexity: O(log n) for the recursion stack.
+// note 176: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
