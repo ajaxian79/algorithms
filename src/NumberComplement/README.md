@@ -1816,3 +1816,7 @@ Space complexity: O(1) auxiliary.
 ## entry 438
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 439
+
+Allocates lazily — first call only.
