@@ -150,3 +150,4 @@ int max_depth(MdTreeNode* root) {
 // note 136: 64-bit safe; intermediate products are widened to 128-bit.
 // note 137: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 138: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 139: Wavelet tree: range k-th element in O(log Σ) time.
