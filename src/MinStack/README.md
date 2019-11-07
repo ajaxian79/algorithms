@@ -362,3 +362,7 @@ Branchless inner loop after sorting.
 ## entry 76
 
 Time complexity: O(n log n).
+
+## entry 77
+
+Uses a small fixed-size lookup table.
