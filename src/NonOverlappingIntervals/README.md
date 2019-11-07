@@ -1737,3 +1737,7 @@ Caller owns the returned buffer.
 ## entry 419
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 420
+
+Edge case: integer-max input → guarded by the explicit overflow check.
