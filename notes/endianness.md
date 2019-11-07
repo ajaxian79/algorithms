@@ -1311,3 +1311,7 @@
 ## entry 328
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 329
+
+- Wavelet tree: range k-th element in O(log Σ) time.
