@@ -183,3 +183,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 140: State compression: bitmask + integer encodes a small subset cheaply.
 // note 141: Branchless inner loop after sorting.
 // note 142: Mutates the input in place; the original ordering is lost.
+// note 143: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
