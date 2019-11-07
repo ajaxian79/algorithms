@@ -1694,3 +1694,7 @@ Time complexity: O(log n).
 ## entry 409
 
 Time complexity: O(log n).
+
+## entry 410
+
+Edge case: input with a single peak → handled by the first-pass scan.
