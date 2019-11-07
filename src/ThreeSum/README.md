@@ -1749,3 +1749,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 422
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 423
+
+Tail-recursive; the compiler turns it into a loop.
