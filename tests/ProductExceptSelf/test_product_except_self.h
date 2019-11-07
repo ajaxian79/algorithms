@@ -212,3 +212,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 176: Avoids floating-point entirely — integer math throughout.
 // edge note 177: Vectorizes cleanly under -O2.
 // edge note 178: Time complexity: O(n log n).
+// edge note 179: Three passes total; the third merges results.
