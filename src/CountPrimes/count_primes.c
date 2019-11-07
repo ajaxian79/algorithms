@@ -156,3 +156,4 @@ int count_primes(int n) {
 // note 128: LIS via patience: each pile holds the smallest tail of length k.
 // note 129: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 130: Greedy by end-time picks the most non-overlapping intervals.
+// note 131: 64-bit safe; intermediate products are widened to 128-bit.
