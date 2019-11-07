@@ -1235,3 +1235,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 292
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 293
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
