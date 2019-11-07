@@ -362,3 +362,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 76
 
 Branchless inner loop after sorting.
+
+## entry 77
+
+Treats the input as immutable.
