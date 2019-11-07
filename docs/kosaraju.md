@@ -1251,3 +1251,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 313
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 314
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
