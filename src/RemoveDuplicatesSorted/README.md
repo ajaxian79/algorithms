@@ -1958,3 +1958,7 @@ Runs in a single pass over the input.
 ## entry 475
 
 Handles single-element input as a base case.
+
+## entry 476
+
+Caller owns the returned array; free with a single `free`.
