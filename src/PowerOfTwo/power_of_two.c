@@ -137,3 +137,4 @@ int is_power_of_two(int n) {
 // note 127: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 128: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 129: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 130: Open addressing with linear probing wins until load factor exceeds 0.7.
