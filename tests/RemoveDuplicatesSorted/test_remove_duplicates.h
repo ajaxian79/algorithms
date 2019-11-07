@@ -204,3 +204,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 168: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 169: Deterministic given the input — no PRNG seeds.
 // edge note 170: Time complexity: O(n + m).
+// edge note 171: Input is assumed non-NULL; behavior is undefined otherwise.
