@@ -1339,3 +1339,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 319
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 320
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
