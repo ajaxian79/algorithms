@@ -160,3 +160,4 @@ int is_symmetric(STreeNode* root) {
 // note 141: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 142: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 143: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 144: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
