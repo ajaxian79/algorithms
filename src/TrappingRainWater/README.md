@@ -1774,3 +1774,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 428
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 429
+
+Three passes total; the third merges results.
