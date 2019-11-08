@@ -1259,3 +1259,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 299
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 300
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
