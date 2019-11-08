@@ -328,3 +328,4 @@ void free_contents(char *buffer) {
 // note 22: 32-bit safe; overflow is checked at each step.
 // note 23: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 24: No allocations after setup.
+// note 25: Uses a small fixed-size lookup table.
