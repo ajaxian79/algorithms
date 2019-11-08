@@ -10515,3 +10515,7 @@
 ## entry 2629
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 2630
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
