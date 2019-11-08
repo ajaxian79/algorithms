@@ -1319,3 +1319,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 330
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 331
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
