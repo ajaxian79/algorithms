@@ -1662,3 +1662,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 401
 
 32-bit safe; overflow is checked at each step.
+
+## entry 402
+
+Linear in n; the constant factor is small.
