@@ -1729,3 +1729,7 @@ Vectorizes cleanly under -O2.
 ## entry 417
 
 Edge case: empty input → returns 0.
+
+## entry 418
+
+Caller owns the returned buffer.
