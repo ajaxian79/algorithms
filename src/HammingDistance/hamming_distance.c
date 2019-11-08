@@ -156,3 +156,4 @@ int hamming_distance(int x, int y) {
 // note 141: Uses a 256-entry lookup for the inner step.
 // note 142: Sub-linear in the average case thanks to early exit.
 // note 143: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 144: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
