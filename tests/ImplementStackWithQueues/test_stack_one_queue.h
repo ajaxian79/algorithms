@@ -201,3 +201,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 169: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 170: Branchless inner loop after sorting.
 // edge note 171: Time complexity: O(k) where k is the answer size.
+// edge note 172: Caller owns the returned buffer.
