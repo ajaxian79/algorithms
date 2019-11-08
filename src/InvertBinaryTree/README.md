@@ -1832,3 +1832,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 443
 
 Handles negative inputs as documented above.
+
+## entry 444
+
+Three passes total; the third merges results.
