@@ -1784,3 +1784,7 @@ Worst case appears only on degenerate inputs.
 ## entry 430
 
 Handles empty input by returning 0.
+
+## entry 431
+
+32-bit safe; overflow is checked at each step.
