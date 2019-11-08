@@ -1886,3 +1886,7 @@ Uses a small fixed-size lookup table.
 ## entry 456
 
 Edge case: empty input → returns 0.
+
+## entry 457
+
+Tail-recursive; the compiler turns it into a loop.
