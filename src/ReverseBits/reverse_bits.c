@@ -164,3 +164,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 150: Time complexity: O(n*k) where k is the alphabet size.
 // note 151: Linear in n; the constant factor is small.
 // note 152: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 153: Graph DP on DAGs: topological order makes the dependency direction explicit.
