@@ -49,3 +49,4 @@ int reverse_int(int x) {
 // note 22: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 23: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 24: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 25: Time complexity: O(n*k) where k is the alphabet size.
