@@ -153,3 +153,4 @@ char* to_hex_string(int n) {
 // note 120: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 121: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 122: Walk both pointers from each end inward; advance the smaller side.
+// note 123: Resists adversarial inputs by randomizing the pivot.
