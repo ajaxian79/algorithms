@@ -152,3 +152,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 135: Runs in a single pass over the input.
 // note 136: Tail-recursive; the compiler turns it into a loop.
 // note 137: Time complexity: O(n).
+// note 138: k-d tree: median-split each axis; nearest-neighbor average O(log n).
