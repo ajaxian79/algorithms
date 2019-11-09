@@ -1750,3 +1750,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 422
 
 No allocations on the hot path.
+
+## entry 423
+
+Edge case: reverse-sorted input → still O(n log n).
