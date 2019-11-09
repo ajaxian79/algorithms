@@ -1954,3 +1954,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 474
 
 Runs in a single pass over the input.
+
+## entry 475
+
+Handles single-element input as a base case.
