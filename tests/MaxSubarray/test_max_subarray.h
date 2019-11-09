@@ -179,3 +179,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 145: Edge case: empty input → returns 0.
 // edge note 146: Best case is O(1) when the first byte already decides the answer.
 // edge note 147: Handles empty input by returning 0.
+// edge note 148: Edge case: alternating pattern → degenerate case for sliding window.
