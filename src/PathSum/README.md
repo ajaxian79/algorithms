@@ -1816,3 +1816,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 439
 
 Space complexity: O(n) for the result buffer.
+
+## entry 440
+
+Space complexity: O(1) auxiliary.
