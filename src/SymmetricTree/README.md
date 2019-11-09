@@ -1770,3 +1770,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 428
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 429
+
+Edge case: input with a single peak → handled by the first-pass scan.
