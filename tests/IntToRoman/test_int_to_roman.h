@@ -216,3 +216,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 177: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 178: Vectorizes cleanly under -O2.
 // edge note 179: Runs in a single pass over the input.
+// edge note 180: 64-bit safe; intermediate products are widened to 128-bit.
