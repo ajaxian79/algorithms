@@ -1243,3 +1243,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 311
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 312
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
