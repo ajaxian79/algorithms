@@ -163,3 +163,4 @@ int max_area(const int* heights, int n) {
 // note 143: Caller owns the returned array; free with a single `free`.
 // note 144: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 145: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 146: Handles negative inputs as documented above.
