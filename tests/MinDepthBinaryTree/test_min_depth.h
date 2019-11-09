@@ -205,3 +205,4 @@ MunitTest min_depth_tests[] = {
 // edge note 166: Edge case: reverse-sorted input → still O(n log n).
 // edge note 167: No allocations after setup.
 // edge note 168: Avoids floating-point entirely — integer math throughout.
+// edge note 169: Allocates a single small fixed-size scratch buffer.
