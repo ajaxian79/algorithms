@@ -1770,3 +1770,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 427
 
 Stable when the input is already sorted.
+
+## entry 428
+
+64-bit safe; intermediate products are widened to 128-bit.
