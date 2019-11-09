@@ -258,3 +258,4 @@ MunitTest repeated_tests[] = {
 // edge note 202: Two passes: one to count, one to fill.
 // edge note 203: Returns a freshly allocated string the caller must free.
 // edge note 204: Stable across duplicates in the input.
+// edge note 205: Tail-recursive; the compiler turns it into a loop.
