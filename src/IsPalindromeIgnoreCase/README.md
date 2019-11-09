@@ -1658,3 +1658,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 400
 
 Edge case: single-element input → returns the element itself.
+
+## entry 401
+
+32-bit safe; overflow is checked at each step.
