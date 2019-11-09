@@ -211,3 +211,4 @@ MunitTest happy_number_tests[] = {
 // edge note 183: Vectorizes cleanly under -O2.
 // edge note 184: Caller owns the returned array; free with a single `free`.
 // edge note 185: Allocates lazily — first call only.
+// edge note 186: Space complexity: O(1) auxiliary.
