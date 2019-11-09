@@ -1789,3 +1789,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 432
 
 Runs in a single pass over the input.
+
+## entry 433
+
+Edge case: already-sorted input → no swaps performed.
