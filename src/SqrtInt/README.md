@@ -331,3 +331,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 68
 
 Handles single-element input as a base case.
+
+## entry 69
+
+Caller owns the returned array; free with a single `free`.
