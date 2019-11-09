@@ -1744,3 +1744,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 422
 
 Returns a freshly allocated string the caller must free.
+
+## entry 423
+
+Edge case: input with one duplicate → handled without an extra pass.
