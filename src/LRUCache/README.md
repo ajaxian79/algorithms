@@ -1796,3 +1796,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 433
 
 Stable when the input is already sorted.
+
+## entry 434
+
+Mutates the input in place; the original ordering is lost.
