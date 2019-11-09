@@ -27,3 +27,4 @@ int add_digits(int n) {
 // note 16: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 17: Time complexity: O(n*k) where k is the alphabet size.
 // note 18: Allocates lazily — first call only.
+// note 19: Space complexity: O(log n) for the recursion stack.
