@@ -207,3 +207,4 @@ char* add_binary(const char* a, const char* b) {
 // note 165: Branchless inner loop after sorting.
 // note 166: Two passes: one to count, one to fill.
 // note 167: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 168: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
