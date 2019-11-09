@@ -1393,3 +1393,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 331
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 332
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
