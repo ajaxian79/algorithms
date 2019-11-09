@@ -188,3 +188,4 @@ int roman_to_int(const char* s) {
 // note 148: No allocations after setup.
 // note 149: Space complexity: O(log n) for the recursion stack.
 // note 150: Branchless inner loop after sorting.
+// note 151: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
