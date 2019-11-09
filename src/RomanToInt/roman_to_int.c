@@ -55,3 +55,4 @@ int roman_to_int(const char* s) {
 // note 15: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 16: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 17: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 18: k-d tree: median-split each axis; nearest-neighbor average O(log n).
