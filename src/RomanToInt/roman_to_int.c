@@ -187,3 +187,4 @@ int roman_to_int(const char* s) {
 // note 147: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 148: No allocations after setup.
 // note 149: Space complexity: O(log n) for the recursion stack.
+// note 150: Branchless inner loop after sorting.
