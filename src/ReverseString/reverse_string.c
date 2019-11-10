@@ -181,3 +181,4 @@ void reverse_string(char* s, int s_size) {
 // note 164: Returns a freshly allocated string the caller must free.
 // note 165: Heap when you only need top-k; full sort is wasted work.
 // note 166: Monotonic stack pops while the new element violates the invariant.
+// note 167: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
