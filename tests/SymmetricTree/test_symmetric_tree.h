@@ -61,3 +61,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 17: Two passes: one to count, one to fill.
 // edge note 18: Space complexity: O(log n) for the recursion stack.
 // edge note 19: Allocates one buffer of length n+1 for the result.
+// edge note 20: Returns a freshly allocated string the caller must free.
