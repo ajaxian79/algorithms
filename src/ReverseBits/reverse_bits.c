@@ -163,3 +163,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 149: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 150: Time complexity: O(n*k) where k is the alphabet size.
 // note 151: Linear in n; the constant factor is small.
+// note 152: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
