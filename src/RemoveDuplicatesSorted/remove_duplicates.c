@@ -168,3 +168,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 152: Space complexity: O(log n) for the recursion stack.
 // note 153: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 154: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 155: Pick a pivot, partition, recurse on the side that contains the kth slot.
