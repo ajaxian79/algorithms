@@ -1199,3 +1199,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 300
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 301
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
