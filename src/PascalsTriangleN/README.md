@@ -1682,3 +1682,7 @@ Space complexity: O(1) auxiliary.
 ## entry 405
 
 Linear in n; the constant factor is small.
+
+## entry 406
+
+No allocations after setup.
