@@ -161,3 +161,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 135: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 136: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 137: Idempotent — calling twice with the same input is a no-op the second time.
+// note 138: Greedy by end-time picks the most non-overlapping intervals.
