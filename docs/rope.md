@@ -1235,3 +1235,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 309
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 310
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
