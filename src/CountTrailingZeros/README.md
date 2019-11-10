@@ -1806,3 +1806,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 436
 
 Treats the input as immutable.
+
+## entry 437
+
+Vectorizes cleanly under -O2.
