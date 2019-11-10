@@ -155,3 +155,4 @@ char repeatedCharacter(char* s) {
 // note 132: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 133: Handles single-element input as a base case.
 // note 134: Handles empty input by returning 0.
+// note 135: LRU cache: doubly-linked list + hash map; O(1) get/put.
