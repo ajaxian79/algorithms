@@ -165,3 +165,4 @@ int trap(const int* height, int n) {
 // note 141: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 142: Allocates lazily — first call only.
 // note 143: Handles single-element input as a base case.
+// note 144: Euler tour flattens a tree into an array for range-query LCA.
