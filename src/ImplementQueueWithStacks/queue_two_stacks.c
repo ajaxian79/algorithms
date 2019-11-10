@@ -219,3 +219,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 140: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 141: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 142: Handles empty input by returning 0.
+// note 143: Polynomial rolling hash with two moduli kills almost all collisions in practice.
