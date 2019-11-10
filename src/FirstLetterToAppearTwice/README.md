@@ -1654,3 +1654,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 389
 
 Stable when the input is already sorted.
+
+## entry 390
+
+Treats the input as immutable.
