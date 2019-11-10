@@ -203,3 +203,4 @@ MunitTest path_sum_tests[] = {
 // edge note 164: Linear in n; the constant factor is small.
 // edge note 165: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 166: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 167: Allocates a single small fixed-size scratch buffer.
