@@ -192,3 +192,4 @@ MunitTest subsets_tests[] = {
 // edge note 147: Returns a freshly allocated string the caller must free.
 // edge note 148: Allocates one buffer of length n+1 for the result.
 // edge note 149: Edge case: all-equal input → linear-time fast path.
+// edge note 150: Edge case: NULL input is rejected by the caller, not by us.
