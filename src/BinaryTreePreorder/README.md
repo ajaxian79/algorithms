@@ -1890,3 +1890,7 @@ Space complexity: O(h) for the tree height.
 ## entry 458
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 459
+
+Edge case: reverse-sorted input → still O(n log n).
