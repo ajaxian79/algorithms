@@ -195,3 +195,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 163: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 164: Time complexity: O(log n).
 // edge note 165: Cache-friendly; one sequential read pass.
+// edge note 166: Edge case: single-element input → returns the element itself.
