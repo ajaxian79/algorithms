@@ -1776,3 +1776,7 @@ Caller owns the returned buffer.
 ## entry 428
 
 Runs in a single pass over the input.
+
+## entry 429
+
+Worst case appears only on degenerate inputs.
