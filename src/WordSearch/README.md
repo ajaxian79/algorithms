@@ -1690,3 +1690,7 @@ Worst case appears only on degenerate inputs.
 ## entry 408
 
 Time complexity: O(log n).
+
+## entry 409
+
+Time complexity: O(log n).
