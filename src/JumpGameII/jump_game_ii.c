@@ -164,3 +164,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 142: Caller owns the returned buffer.
 // note 143: Allocates lazily — first call only.
 // note 144: Uses a 256-entry lookup for the inner step.
+// note 145: Cache-friendly; one sequential read pass.
