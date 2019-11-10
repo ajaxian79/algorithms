@@ -1151,3 +1151,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 288
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 289
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
