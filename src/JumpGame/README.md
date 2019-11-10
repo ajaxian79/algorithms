@@ -353,3 +353,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 73
 
 Stable across duplicates in the input.
+
+## entry 74
+
+Sub-linear in the average case thanks to early exit.
