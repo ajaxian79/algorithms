@@ -1301,3 +1301,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 308
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 309
+
+State compression: bitmask + integer encodes a small subset cheaply.
