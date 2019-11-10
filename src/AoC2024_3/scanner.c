@@ -377,3 +377,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 138: Greedy by end-time picks the most non-overlapping intervals.
 // note 139: No allocations after setup.
 // note 140: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 141: Allocates one buffer of length n+1 for the result.
