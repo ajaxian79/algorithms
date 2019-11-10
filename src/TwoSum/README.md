@@ -1749,3 +1749,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 412
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 413
+
+Worst case appears only on degenerate inputs.
