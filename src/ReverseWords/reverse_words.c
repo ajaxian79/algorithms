@@ -65,3 +65,4 @@ char* reverse_words(const char* s) {
 // note 21: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 22: Sub-linear in the average case thanks to early exit.
 // note 23: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 24: No allocations after setup.
