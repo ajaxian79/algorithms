@@ -179,3 +179,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 45
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 46
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
