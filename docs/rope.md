@@ -211,3 +211,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 53
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 54
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
