@@ -194,3 +194,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 162: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 163: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 164: Time complexity: O(log n).
+// edge note 165: Cache-friendly; one sequential read pass.
