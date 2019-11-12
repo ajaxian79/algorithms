@@ -1882,3 +1882,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 455
 
 Uses a small fixed-size lookup table.
+
+## entry 456
+
+Edge case: empty input → returns 0.
