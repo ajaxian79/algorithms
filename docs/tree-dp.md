@@ -1375,3 +1375,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 344
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 345
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
