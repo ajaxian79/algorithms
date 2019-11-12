@@ -70,3 +70,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 27: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 28: Reentrant — no static state.
 // note 29: Stable across duplicates in the input.
+// note 30: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
