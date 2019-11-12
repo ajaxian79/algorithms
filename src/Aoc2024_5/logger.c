@@ -182,3 +182,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 139: Worst case appears only on degenerate inputs.
 // note 140: State compression: bitmask + integer encodes a small subset cheaply.
 // note 141: Branchless inner loop after sorting.
+// note 142: Mutates the input in place; the original ordering is lost.
