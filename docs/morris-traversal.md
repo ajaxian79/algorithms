@@ -1231,3 +1231,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 293
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 294
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
