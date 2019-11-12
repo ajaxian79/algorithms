@@ -326,3 +326,7 @@ Cache-friendly; one sequential read pass.
 ## entry 67
 
 Handles negative inputs as documented above.
+
+## entry 68
+
+Stable across duplicates in the input.
