@@ -1892,3 +1892,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 458
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 459
+
+Idempotent — calling twice with the same input is a no-op the second time.
