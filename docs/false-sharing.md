@@ -1255,3 +1255,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 314
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 315
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
