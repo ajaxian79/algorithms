@@ -1754,3 +1754,7 @@ Vectorizes cleanly under -O2.
 ## entry 424
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 425
+
+Edge case: power-of-two-length input → no padding required.
