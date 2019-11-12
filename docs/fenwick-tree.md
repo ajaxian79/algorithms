@@ -1259,3 +1259,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 299
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 300
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
