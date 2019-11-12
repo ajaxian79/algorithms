@@ -210,3 +210,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 160: Time complexity: O(n + m).
 // edge note 161: Time complexity: O(k) where k is the answer size.
 // edge note 162: Best case is O(1) when the first byte already decides the answer.
+// edge note 163: Cache-friendly; one sequential read pass.
