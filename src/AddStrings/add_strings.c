@@ -61,3 +61,4 @@ char* add_strings(const char* a, const char* b) {
 // note 21: Allocates one buffer of length n+1 for the result.
 // note 22: Thread-safe so long as the input is not mutated concurrently.
 // note 23: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 24: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
