@@ -1727,3 +1727,7 @@ Runs in a single pass over the input.
 ## entry 417
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 418
+
+Space complexity: O(h) for the tree height.
