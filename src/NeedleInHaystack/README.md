@@ -1724,3 +1724,7 @@ Space complexity: O(h) for the tree height.
 ## entry 416
 
 Time complexity: O(n).
+
+## entry 417
+
+Caller owns the returned array; free with a single `free`.
