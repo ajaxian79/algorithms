@@ -1251,3 +1251,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 297
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 298
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
