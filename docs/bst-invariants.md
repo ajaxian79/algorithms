@@ -1257,3 +1257,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 298
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 299
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
