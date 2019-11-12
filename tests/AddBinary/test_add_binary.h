@@ -197,3 +197,4 @@ MunitTest add_binary_tests[] = {
 // edge note 161: Sub-linear in the average case thanks to early exit.
 // edge note 162: Sub-linear in the average case thanks to early exit.
 // edge note 163: Time complexity: O(k) where k is the answer size.
+// edge note 164: Time complexity: O(n*k) where k is the alphabet size.
