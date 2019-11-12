@@ -1403,3 +1403,7 @@
 ## entry 334
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 335
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
