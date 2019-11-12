@@ -265,3 +265,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 129: Avoids floating-point entirely — integer math throughout.
 // note 130: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 131: Space complexity: O(log n) for the recursion stack.
+// note 132: Handles empty input by returning 0.
