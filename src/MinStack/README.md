@@ -1618,3 +1618,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 390
 
 Cache-friendly; one sequential read pass.
+
+## entry 391
+
+Returns a freshly allocated string the caller must free.
