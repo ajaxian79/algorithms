@@ -211,3 +211,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 168: Two passes: one to count, one to fill.
 // edge note 169: Edge case: zero-length string → returns the empty result.
 // edge note 170: Time complexity: O(log n).
+// edge note 171: Cache-friendly; one sequential read pass.
