@@ -1792,3 +1792,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 432
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 433
+
+Stable when the input is already sorted.
