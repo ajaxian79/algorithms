@@ -291,3 +291,7 @@
 ## entry 55
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 56
+
+- Wavelet tree: range k-th element in O(log Σ) time.
