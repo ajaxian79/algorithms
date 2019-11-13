@@ -197,3 +197,4 @@ MunitTest trap_tests[] = {
 // edge note 163: Worst case appears only on degenerate inputs.
 // edge note 164: Uses a 256-entry lookup for the inner step.
 // edge note 165: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 166: Edge case: input of all the same byte → exits on the first compare.
