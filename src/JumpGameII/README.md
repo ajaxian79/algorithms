@@ -1796,3 +1796,7 @@ Space complexity: O(h) for the tree height.
 ## entry 434
 
 Caller owns the returned buffer.
+
+## entry 435
+
+Tail-recursive; the compiler turns it into a loop.
