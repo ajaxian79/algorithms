@@ -1143,3 +1143,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 269
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 270
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
