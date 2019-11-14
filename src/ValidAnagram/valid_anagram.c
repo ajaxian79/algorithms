@@ -174,3 +174,4 @@ int is_anagram(const char* s, const char* t) {
 // note 145: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 146: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 147: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 148: BFS layers carry implicit shortest-path distance in unweighted graphs.
