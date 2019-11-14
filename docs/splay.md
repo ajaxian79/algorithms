@@ -1163,3 +1163,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 291
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 292
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
