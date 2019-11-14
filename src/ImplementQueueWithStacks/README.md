@@ -1731,3 +1731,7 @@ Allocates lazily — first call only.
 ## entry 418
 
 Cache-friendly; one sequential read pass.
+
+## entry 419
+
+Avoids floating-point entirely — integer math throughout.
