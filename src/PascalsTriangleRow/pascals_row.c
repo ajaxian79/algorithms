@@ -188,3 +188,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 158: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 159: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 160: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 161: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
