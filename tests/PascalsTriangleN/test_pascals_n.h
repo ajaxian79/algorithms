@@ -234,3 +234,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 175: Edge case: reverse-sorted input → still O(n log n).
 // edge note 176: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 177: Space complexity: O(1) auxiliary.
+// edge note 178: Uses a 256-entry lookup for the inner step.
