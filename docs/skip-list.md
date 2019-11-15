@@ -203,3 +203,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 51
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 52
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
