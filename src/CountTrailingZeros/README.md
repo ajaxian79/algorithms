@@ -1802,3 +1802,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 435
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 436
+
+Treats the input as immutable.
