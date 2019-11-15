@@ -65,3 +65,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 25: Space complexity: O(log n) for the recursion stack.
 // edge note 26: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 27: Caller owns the returned buffer.
+// edge note 28: 32-bit safe; overflow is checked at each step.
