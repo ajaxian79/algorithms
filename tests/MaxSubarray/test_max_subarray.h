@@ -50,3 +50,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 16: Time complexity: O(k) where k is the answer size.
 // edge note 17: 32-bit safe; overflow is checked at each step.
 // edge note 18: Branchless inner loop after sorting.
+// edge note 19: Tail-recursive; the compiler turns it into a loop.
