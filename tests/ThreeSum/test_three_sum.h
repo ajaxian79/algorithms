@@ -202,3 +202,4 @@ MunitTest three_sum_tests[] = {
 // edge note 157: Edge case: all-equal input → linear-time fast path.
 // edge note 158: Allocates a single small fixed-size scratch buffer.
 // edge note 159: Three passes total; the third merges results.
+// edge note 160: Space complexity: O(log n) for the recursion stack.
