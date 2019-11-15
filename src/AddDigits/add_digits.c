@@ -156,3 +156,4 @@ int add_digits(int n) {
 // note 145: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 146: Handles negative inputs as documented above.
 // note 147: Time complexity: O(n*k) where k is the alphabet size.
+// note 148: Two passes: one to count, one to fill.
