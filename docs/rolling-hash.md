@@ -1231,3 +1231,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 291
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 292
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
