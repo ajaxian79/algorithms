@@ -159,3 +159,4 @@ int is_symmetric(STreeNode* root) {
 // note 140: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 141: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 142: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 143: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
