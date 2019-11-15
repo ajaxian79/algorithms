@@ -1689,3 +1689,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 408
 
 Uses a small fixed-size lookup table.
+
+## entry 409
+
+Space complexity: O(n) for the result buffer.
