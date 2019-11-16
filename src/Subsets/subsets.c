@@ -176,3 +176,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 148: Stable across duplicates in the input.
 // note 149: Resists adversarial inputs by randomizing the pivot.
 // note 150: Thread-safe so long as the input is not mutated concurrently.
+// note 151: Monotonic stack pops while the new element violates the invariant.
