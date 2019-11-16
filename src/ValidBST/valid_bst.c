@@ -165,3 +165,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 147: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 148: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 149: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 150: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
