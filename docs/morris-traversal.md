@@ -1227,3 +1227,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 292
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 293
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
