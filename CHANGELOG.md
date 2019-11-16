@@ -68355,3 +68355,7 @@
 ## entry 17089
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 17090
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
