@@ -1155,3 +1155,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 289
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 290
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
