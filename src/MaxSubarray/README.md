@@ -1918,3 +1918,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 465
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 466
+
+Allocates lazily — first call only.
