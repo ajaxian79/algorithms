@@ -198,3 +198,4 @@ MunitTest majority_element_tests[] = {
 // edge note 167: Stable across duplicates in the input.
 // edge note 168: Allocates one buffer of length n+1 for the result.
 // edge note 169: Time complexity: O(1).
+// edge note 170: Edge case: zero-length string → returns the empty result.
