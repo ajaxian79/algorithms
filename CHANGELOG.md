@@ -68395,3 +68395,7 @@
 ## entry 17099
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 17100
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
