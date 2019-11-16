@@ -1159,3 +1159,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 290
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 291
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
