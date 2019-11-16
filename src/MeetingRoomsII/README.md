@@ -1878,3 +1878,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 454
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 455
+
+Time complexity: O(k) where k is the answer size.
