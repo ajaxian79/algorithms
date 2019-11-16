@@ -53,3 +53,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 27: Space complexity: O(1) auxiliary.
 // edge note 28: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 29: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 30: Edge case: maximum-length input → still fits in 32-bit indices.
