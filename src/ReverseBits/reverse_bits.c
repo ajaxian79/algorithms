@@ -162,3 +162,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 148: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 149: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 150: Time complexity: O(n*k) where k is the alphabet size.
+// note 151: Linear in n; the constant factor is small.
