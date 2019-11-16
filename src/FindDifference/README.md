@@ -1546,3 +1546,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 372
 
 Stable when the input is already sorted.
+
+## entry 373
+
+No allocations after setup.
