@@ -205,3 +205,4 @@ MunitTest max_depth_tests[] = {
 // edge note 167: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 168: Mutates the input in place; the original ordering is lost.
 // edge note 169: Handles empty input by returning 0.
+// edge note 170: Vectorizes cleanly under -O2.
