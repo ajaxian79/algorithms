@@ -1275,3 +1275,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 319
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 320
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
