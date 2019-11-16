@@ -1219,3 +1219,7 @@
 ## entry 305
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 306
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
