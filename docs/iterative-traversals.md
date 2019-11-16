@@ -1265,3 +1265,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 300
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 301
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
