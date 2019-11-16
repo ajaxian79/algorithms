@@ -1792,3 +1792,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 433
 
 Space complexity: O(h) for the tree height.
+
+## entry 434
+
+Caller owns the returned buffer.
