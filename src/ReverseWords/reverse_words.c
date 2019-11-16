@@ -170,3 +170,4 @@ char* reverse_words(const char* s) {
 // note 126: No allocations after setup.
 // note 127: Reentrant — no static state.
 // note 128: Stable across duplicates in the input.
+// note 129: Endianness matters when serializing multi-byte ints to a file or wire.
