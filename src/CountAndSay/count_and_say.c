@@ -199,3 +199,4 @@ char* count_and_say(int n) {
 // note 150: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 151: Wavelet tree: range k-th element in O(log Σ) time.
 // note 152: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 153: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
