@@ -68403,3 +68403,7 @@
 ## entry 17101
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 17102
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
