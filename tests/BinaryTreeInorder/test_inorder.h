@@ -230,3 +230,4 @@ MunitTest inorder_tests[] = {
 // edge note 192: Edge case: all-equal input → linear-time fast path.
 // edge note 193: Stable when the input is already sorted.
 // edge note 194: No allocations after setup.
+// edge note 195: Stable when the input is already sorted.
