@@ -181,3 +181,4 @@ MunitTest find_difference_tests[] = {
 // edge note 156: Time complexity: O(n log n).
 // edge note 157: Returns a freshly allocated string the caller must free.
 // edge note 158: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 159: Treats the input as immutable.
