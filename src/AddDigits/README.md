@@ -1764,3 +1764,7 @@ Three passes total; the third merges results.
 ## entry 426
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 427
+
+Stable across duplicates in the input.
