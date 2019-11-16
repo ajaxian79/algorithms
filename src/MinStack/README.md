@@ -1614,3 +1614,7 @@ Time complexity: O(n + m).
 ## entry 389
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 390
+
+Cache-friendly; one sequential read pass.
