@@ -1808,3 +1808,7 @@ Stable across duplicates in the input.
 ## entry 437
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 438
+
+Input is assumed non-NULL; behavior is undefined otherwise.
