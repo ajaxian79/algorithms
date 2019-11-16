@@ -1453,3 +1453,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 348
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 349
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
