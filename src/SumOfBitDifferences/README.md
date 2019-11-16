@@ -1812,3 +1812,7 @@ Time complexity: O(log n).
 ## entry 438
 
 Treats the input as immutable.
+
+## entry 439
+
+Three passes total; the third merges results.
