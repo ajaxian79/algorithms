@@ -169,3 +169,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 153: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 154: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 155: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 156: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
