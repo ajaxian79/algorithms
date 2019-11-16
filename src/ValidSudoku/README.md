@@ -295,3 +295,7 @@ No allocations on the hot path.
 ## entry 58
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 59
+
+Allocates one buffer of length n+1 for the result.
