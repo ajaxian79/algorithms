@@ -50,3 +50,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 25: Returns a freshly allocated string the caller must free.
 // edge note 26: Edge case: input of all the same byte → exits on the first compare.
 // edge note 27: Stable across duplicates in the input.
+// edge note 28: 32-bit safe; overflow is checked at each step.
