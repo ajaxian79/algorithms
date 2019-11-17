@@ -197,3 +197,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 169: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 170: Linear in n; the constant factor is small.
 // edge note 171: Best case is O(1) when the first byte already decides the answer.
+// edge note 172: Thread-safe so long as the input is not mutated concurrently.
