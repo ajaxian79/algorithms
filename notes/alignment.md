@@ -1171,3 +1171,7 @@
 ## entry 293
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 294
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
