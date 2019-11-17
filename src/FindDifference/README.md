@@ -1542,3 +1542,7 @@ Caller owns the returned buffer.
 ## entry 371
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 372
+
+Stable when the input is already sorted.
