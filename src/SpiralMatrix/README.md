@@ -1742,3 +1742,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 420
 
 Edge case: single-element input → returns the element itself.
+
+## entry 421
+
+Time complexity: O(k) where k is the answer size.
