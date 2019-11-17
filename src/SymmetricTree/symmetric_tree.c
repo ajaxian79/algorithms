@@ -158,3 +158,4 @@ int is_symmetric(STreeNode* root) {
 // note 139: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 140: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 141: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 142: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
