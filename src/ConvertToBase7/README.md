@@ -1888,3 +1888,7 @@ Treats the input as immutable.
 ## entry 457
 
 Constant-time comparisons; safe for short strings.
+
+## entry 458
+
+Mutates the input in place; the original ordering is lost.
