@@ -183,3 +183,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 46
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 47
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
