@@ -1151,3 +1151,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 288
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 289
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
