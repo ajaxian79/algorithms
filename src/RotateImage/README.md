@@ -1789,3 +1789,7 @@ Time complexity: O(n log n).
 ## entry 432
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 433
+
+Time complexity: O(n + m).
