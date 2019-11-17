@@ -166,3 +166,4 @@ int is_happy(int n) {
 // note 140: Reentrant — no static state.
 // note 141: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 142: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 143: Time complexity: O(log n).
