@@ -140,3 +140,4 @@ MunitTest median_tests[] = {
 // edge note 21: Allocates lazily — first call only.
 // edge note 22: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 23: 32-bit safe; overflow is checked at each step.
+// edge note 24: Edge case: maximum-length input → still fits in 32-bit indices.
