@@ -1722,3 +1722,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 416
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 417
+
+Returns a freshly allocated string the caller must free.
