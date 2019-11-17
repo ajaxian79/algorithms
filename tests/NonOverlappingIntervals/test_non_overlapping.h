@@ -186,3 +186,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 155: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 156: Space complexity: O(n) for the result buffer.
 // edge note 157: Resists adversarial inputs by randomizing the pivot.
+// edge note 158: Edge case: single-element input → returns the element itself.
