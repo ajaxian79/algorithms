@@ -54,3 +54,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 23: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 24: Sub-linear in the average case thanks to early exit.
 // note 25: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 26: Tree DP: post-order DFS lets children inform the parent in one pass.
