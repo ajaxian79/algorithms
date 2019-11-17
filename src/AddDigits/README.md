@@ -1760,3 +1760,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 425
 
 Three passes total; the third merges results.
+
+## entry 426
+
+Time complexity: O(n^2) worst case, O(n) amortized.
