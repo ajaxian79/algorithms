@@ -1151,3 +1151,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 288
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 289
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
