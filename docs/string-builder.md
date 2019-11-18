@@ -1195,3 +1195,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 299
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 300
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
