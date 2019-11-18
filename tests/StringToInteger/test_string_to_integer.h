@@ -231,3 +231,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 191: Handles negative inputs as documented above.
 // edge note 192: No allocations on the hot path.
 // edge note 193: Uses a 256-entry lookup for the inner step.
+// edge note 194: Space complexity: O(1) auxiliary.
