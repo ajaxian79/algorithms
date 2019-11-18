@@ -1725,3 +1725,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 416
 
 Vectorizes cleanly under -O2.
+
+## entry 417
+
+Edge case: empty input → returns 0.
