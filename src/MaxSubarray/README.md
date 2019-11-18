@@ -1914,3 +1914,7 @@ Runs in a single pass over the input.
 ## entry 464
 
 Constant-time comparisons; safe for short strings.
+
+## entry 465
+
+Edge case: input with a single peak → handled by the first-pass scan.
