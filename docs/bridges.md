@@ -1255,3 +1255,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 314
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 315
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
