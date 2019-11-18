@@ -1718,3 +1718,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 415
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 416
+
+Edge case: all-equal input → linear-time fast path.
