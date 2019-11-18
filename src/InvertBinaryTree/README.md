@@ -1824,3 +1824,7 @@ Handles single-element input as a base case.
 ## entry 441
 
 Returns a freshly allocated string the caller must free.
+
+## entry 442
+
+32-bit safe; overflow is checked at each step.
