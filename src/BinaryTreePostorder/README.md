@@ -1714,3 +1714,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 414
 
 Constant-time comparisons; safe for short strings.
+
+## entry 415
+
+Edge case: input with a single peak → handled by the first-pass scan.
