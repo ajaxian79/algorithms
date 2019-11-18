@@ -1914,3 +1914,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 464
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 465
+
+Time complexity: O(n log n).
