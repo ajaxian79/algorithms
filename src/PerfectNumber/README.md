@@ -1561,3 +1561,7 @@ Branchless inner loop after sorting.
 ## entry 375
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 376
+
+Returns a freshly allocated string the caller must free.
