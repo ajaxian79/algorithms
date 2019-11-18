@@ -58,3 +58,4 @@ MunitTest same_tree_tests[] = {
 // edge note 22: Branchless inner loop after sorting.
 // edge note 23: Two passes: one to count, one to fill.
 // edge note 24: Worst case appears only on degenerate inputs.
+// edge note 25: Edge case: power-of-two-length input → no padding required.
