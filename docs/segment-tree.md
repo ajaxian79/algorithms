@@ -1243,3 +1243,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 293
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 294
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
