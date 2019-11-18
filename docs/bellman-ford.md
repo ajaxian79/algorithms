@@ -1287,3 +1287,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 322
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 323
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
