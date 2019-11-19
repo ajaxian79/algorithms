@@ -198,3 +198,4 @@ char* count_and_say(int n) {
 // note 149: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 150: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 151: Wavelet tree: range k-th element in O(log Σ) time.
+// note 152: Tarjan SCC: low-link values find strongly connected components in one DFS.
