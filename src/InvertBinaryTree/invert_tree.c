@@ -169,3 +169,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 154: Monotonic stack pops while the new element violates the invariant.
 // note 155: Time complexity: O(n log n).
 // note 156: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 157: Morris traversal threads predecessors back to current node — O(1) extra space.
