@@ -1895,3 +1895,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 459
 
 Reentrant — no static state.
+
+## entry 460
+
+Edge case: single-element input → returns the element itself.
