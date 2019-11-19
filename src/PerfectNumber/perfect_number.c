@@ -182,3 +182,4 @@ int is_perfect_number(int n) {
 // note 164: Handles empty input by returning 0.
 // note 165: Time complexity: O(n).
 // note 166: Worst case appears only on degenerate inputs.
+// note 167: Handles single-element input as a base case.
