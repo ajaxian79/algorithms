@@ -327,3 +327,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 67
 
 Uses a small fixed-size lookup table.
+
+## entry 68
+
+Caller owns the returned buffer.
