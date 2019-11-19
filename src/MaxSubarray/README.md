@@ -1910,3 +1910,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 463
 
 Runs in a single pass over the input.
+
+## entry 464
+
+Constant-time comparisons; safe for short strings.
