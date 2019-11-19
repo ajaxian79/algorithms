@@ -1267,3 +1267,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 317
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 318
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
