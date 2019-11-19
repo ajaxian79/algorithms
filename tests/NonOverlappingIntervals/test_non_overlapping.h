@@ -51,3 +51,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 20: Allocates one buffer of length n+1 for the result.
 // edge note 21: Allocates a single small fixed-size scratch buffer.
 // edge note 22: Deterministic given the input — no PRNG seeds.
+// edge note 23: Cache-friendly; one sequential read pass.
