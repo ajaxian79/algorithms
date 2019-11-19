@@ -41,3 +41,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 16: Caller owns the returned array; free with a single `free`.
 // note 17: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 18: Resists adversarial inputs by randomizing the pivot.
+// note 19: Sub-linear in the average case thanks to early exit.
