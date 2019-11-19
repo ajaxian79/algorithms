@@ -1251,3 +1251,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 297
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 298
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
