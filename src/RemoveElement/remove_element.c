@@ -174,3 +174,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 159: Time complexity: O(n*k) where k is the alphabet size.
 // note 160: Space complexity: O(1) auxiliary.
 // note 161: Resists adversarial inputs by randomizing the pivot.
+// note 162: Time complexity: O(1).
