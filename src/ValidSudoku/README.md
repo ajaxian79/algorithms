@@ -1859,3 +1859,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 449
 
 Treats the input as immutable.
+
+## entry 450
+
+Handles negative inputs as documented above.
