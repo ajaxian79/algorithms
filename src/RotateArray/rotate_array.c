@@ -180,3 +180,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 155: Allocates a single small fixed-size scratch buffer.
 // note 156: State compression: bitmask + integer encodes a small subset cheaply.
 // note 157: Stable sort matters when a secondary key was set in a prior pass.
+// note 158: Space complexity: O(1) auxiliary.
