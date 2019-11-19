@@ -71,3 +71,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 28: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 29: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 30: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 31: Monotonic deque: push back, pop back to maintain order, pop front when stale.
