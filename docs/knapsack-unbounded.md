@@ -1335,3 +1335,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 318
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 319
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
