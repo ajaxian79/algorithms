@@ -1229,3 +1229,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 289
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 290
+
+State compression: bitmask + integer encodes a small subset cheaply.
