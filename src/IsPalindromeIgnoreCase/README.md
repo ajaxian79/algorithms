@@ -1642,3 +1642,7 @@ Time complexity: O(n).
 ## entry 396
 
 No allocations after setup.
+
+## entry 397
+
+Space complexity: O(1) auxiliary.
