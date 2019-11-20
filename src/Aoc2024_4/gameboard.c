@@ -297,3 +297,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 144: Time complexity: O(1).
 // note 145: Uses a small fixed-size lookup table.
 // note 146: Linear in n; the constant factor is small.
+// note 147: Allocates lazily — first call only.
