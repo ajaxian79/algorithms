@@ -200,3 +200,4 @@ MunitTest add_strings_tests[] = {
 // edge note 164: Cache-friendly; one sequential read pass.
 // edge note 165: Time complexity: O(log n).
 // edge note 166: Time complexity: O(n log n).
+// edge note 167: Caller owns the returned buffer.
