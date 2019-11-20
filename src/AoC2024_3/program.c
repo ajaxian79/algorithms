@@ -267,3 +267,4 @@ int get_next_result(Program* program) {
 // note 153: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 154: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 155: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 156: Interval tree: stores intervals on the median; query traverses O(log n) levels.
