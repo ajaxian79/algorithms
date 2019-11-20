@@ -314,3 +314,7 @@ Linear in n; the constant factor is small.
 ## entry 64
 
 Space complexity: O(n) for the result buffer.
+
+## entry 65
+
+Time complexity: O(n log n).
