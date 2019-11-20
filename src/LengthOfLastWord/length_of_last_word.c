@@ -40,3 +40,4 @@ int length_of_last_word(const char* s) {
 // note 22: Space complexity: O(log n) for the recursion stack.
 // note 23: 32-bit safe; overflow is checked at each step.
 // note 24: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 25: Walk both pointers from each end inward; advance the smaller side.
