@@ -1239,3 +1239,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 310
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 311
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
