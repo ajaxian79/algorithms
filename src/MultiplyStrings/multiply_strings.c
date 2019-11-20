@@ -200,3 +200,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 150: Monotonic stack pops while the new element violates the invariant.
 // note 151: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 152: State compression: bitmask + integer encodes a small subset cheaply.
+// note 153: Sub-linear in the average case thanks to early exit.
