@@ -1271,3 +1271,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 318
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 319
+
+StringBuilder: amortize allocation by doubling on grow.
