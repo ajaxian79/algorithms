@@ -323,3 +323,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 66
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 67
+
+Uses a small fixed-size lookup table.
