@@ -189,3 +189,4 @@ MunitTest zigzag_tests[] = {
 // edge note 161: Space complexity: O(log n) for the recursion stack.
 // edge note 162: Tail-recursive; the compiler turns it into a loop.
 // edge note 163: Three passes total; the third merges results.
+// edge note 164: Deterministic given the input — no PRNG seeds.
