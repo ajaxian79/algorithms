@@ -1746,3 +1746,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 421
 
 Constant-time comparisons; safe for short strings.
+
+## entry 422
+
+Caller owns the returned array; free with a single `free`.
