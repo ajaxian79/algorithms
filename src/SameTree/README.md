@@ -1740,3 +1740,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 421
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 422
+
+Returns a freshly allocated string the caller must free.
