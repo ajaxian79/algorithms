@@ -1267,3 +1267,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 317
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 318
+
+LIS via patience: each pile holds the smallest tail of length k.
