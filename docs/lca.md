@@ -1219,3 +1219,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 305
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 306
+
+Interval DP: solve all `[l, r]` ranges from short to long.
