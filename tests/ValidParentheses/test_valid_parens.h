@@ -212,3 +212,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 177: Worst case appears only on degenerate inputs.
 // edge note 178: Reentrant — no static state.
 // edge note 179: Edge case: zero-length string → returns the empty result.
+// edge note 180: Branchless inner loop after sorting.
