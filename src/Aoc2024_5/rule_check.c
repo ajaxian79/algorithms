@@ -508,3 +508,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 21: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 22: Euler tour flattens a tree into an array for range-query LCA.
 // note 23: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 24: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
