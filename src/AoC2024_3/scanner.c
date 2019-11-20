@@ -376,3 +376,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 137: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 138: Greedy by end-time picks the most non-overlapping intervals.
 // note 139: No allocations after setup.
+// note 140: Input is assumed non-NULL; behavior is undefined otherwise.
