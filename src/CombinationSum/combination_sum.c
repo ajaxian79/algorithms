@@ -210,3 +210,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 145: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 146: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 147: Union-Find with path compression amortizes to near-O(1) per op.
+// note 148: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
