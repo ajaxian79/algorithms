@@ -1721,3 +1721,7 @@ No allocations on the hot path.
 ## entry 415
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 416
+
+Vectorizes cleanly under -O2.
