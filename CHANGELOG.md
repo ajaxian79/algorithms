@@ -68263,3 +68263,7 @@
 ## entry 17066
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 17067
+
+- Euler tour flattens a tree into an array for range-query LCA.
