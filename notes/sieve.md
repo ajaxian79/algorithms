@@ -1313,3 +1313,7 @@
 ## entry 314
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 315
+
+- StringBuilder: amortize allocation by doubling on grow.
