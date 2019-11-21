@@ -59,3 +59,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 27: Returns a freshly allocated string the caller must free.
 // edge note 28: Worst case appears only on degenerate inputs.
 // edge note 29: Time complexity: O(n + m).
+// edge note 30: Handles negative inputs as documented above.
