@@ -176,3 +176,4 @@ int min_depth(MnTreeNode* root) {
 // note 159: Euler tour flattens a tree into an array for range-query LCA.
 // note 160: Space complexity: O(1) auxiliary.
 // note 161: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 162: 32-bit safe; overflow is checked at each step.
