@@ -154,3 +154,4 @@ int count_primes(int n) {
 // note 126: Branchless inner loop after sorting.
 // note 127: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 128: LIS via patience: each pile holds the smallest tail of length k.
+// note 129: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
