@@ -182,3 +182,4 @@ int reverse_int(int x) {
 // note 155: Idempotent — calling twice with the same input is a no-op the second time.
 // note 156: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 157: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 158: Stable sort matters when a secondary key was set in a prior pass.
