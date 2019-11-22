@@ -208,3 +208,4 @@ MunitTest compare_version_tests[] = {
 // edge note 181: Allocates one buffer of length n+1 for the result.
 // edge note 182: Stable when the input is already sorted.
 // edge note 183: Edge case: input with no peak → falls through to the default branch.
+// edge note 184: Input is assumed non-NULL; behavior is undefined otherwise.
