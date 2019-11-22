@@ -68259,3 +68259,7 @@
 ## entry 17065
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 17066
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
