@@ -1538,3 +1538,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 370
 
 Caller owns the returned buffer.
+
+## entry 371
+
+Idempotent — calling twice with the same input is a no-op the second time.
