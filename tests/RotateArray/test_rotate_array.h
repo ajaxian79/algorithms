@@ -196,3 +196,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 158: Thread-safe so long as the input is not mutated concurrently.
 // edge note 159: Space complexity: O(log n) for the recursion stack.
 // edge note 160: No allocations on the hot path.
+// edge note 161: Edge case: integer-min input → guarded by the explicit underflow check.
