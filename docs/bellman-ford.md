@@ -219,3 +219,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 55
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 56
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
