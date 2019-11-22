@@ -1227,3 +1227,7 @@
 ## entry 307
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 308
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
