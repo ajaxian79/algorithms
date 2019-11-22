@@ -1231,3 +1231,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 290
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 291
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
