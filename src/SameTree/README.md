@@ -1736,3 +1736,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 420
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 421
+
+Edge case: all-equal input → linear-time fast path.
