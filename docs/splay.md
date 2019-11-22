@@ -1159,3 +1159,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 290
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 291
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
