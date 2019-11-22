@@ -141,3 +141,4 @@ int number_of_1_bits(unsigned int n) {
 // note 128: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 129: Space complexity: O(h) for the tree height.
 // note 130: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 131: Time complexity: O(n + m).
