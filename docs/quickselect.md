@@ -1389,3 +1389,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 330
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 331
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
