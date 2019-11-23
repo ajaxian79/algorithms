@@ -314,3 +314,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 64
 
 No allocations on the hot path.
+
+## entry 65
+
+32-bit safe; overflow is checked at each step.
