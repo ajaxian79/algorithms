@@ -1283,3 +1283,7 @@
 ## entry 321
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 322
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
