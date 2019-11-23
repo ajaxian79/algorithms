@@ -233,3 +233,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 41
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 42
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
