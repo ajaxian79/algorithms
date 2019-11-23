@@ -1796,3 +1796,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 433
 
 Cache-friendly; one sequential read pass.
+
+## entry 434
+
+Edge case: alternating pattern → degenerate case for sliding window.
