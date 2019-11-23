@@ -1882,3 +1882,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 456
 
 Treats the input as immutable.
+
+## entry 457
+
+Space complexity: O(h) for the tree height.
