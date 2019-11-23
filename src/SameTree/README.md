@@ -1732,3 +1732,7 @@ Caller owns the returned buffer.
 ## entry 419
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 420
+
+Mutates the input in place; the original ordering is lost.
