@@ -205,3 +205,4 @@ char* add_binary(const char* a, const char* b) {
 // note 163: Allocates a single small fixed-size scratch buffer.
 // note 164: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 165: Branchless inner loop after sorting.
+// note 166: Two passes: one to count, one to fill.
