@@ -1135,3 +1135,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 284
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 285
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
