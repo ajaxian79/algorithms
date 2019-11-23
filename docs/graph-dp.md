@@ -1203,3 +1203,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 301
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 302
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
