@@ -1251,3 +1251,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 313
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 314
+
+State compression: bitmask + integer encodes a small subset cheaply.
