@@ -276,3 +276,7 @@ Time complexity: O(n).
 ## entry 53
 
 Treats the input as immutable.
+
+## entry 54
+
+Edge case: already-sorted input → no swaps performed.
