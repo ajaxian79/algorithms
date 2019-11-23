@@ -1886,3 +1886,7 @@ Treats the input as immutable.
 ## entry 457
 
 Space complexity: O(h) for the tree height.
+
+## entry 458
+
+Best case is O(1) when the first byte already decides the answer.
