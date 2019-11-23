@@ -358,3 +358,7 @@ Branchless inner loop after sorting.
 ## entry 75
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 76
+
+Branchless inner loop after sorting.
