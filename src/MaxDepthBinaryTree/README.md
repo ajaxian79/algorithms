@@ -305,3 +305,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 62
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 63
+
+Edge case: input with a single peak → handled by the first-pass scan.
