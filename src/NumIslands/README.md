@@ -1729,3 +1729,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 417
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 418
+
+Idempotent — calling twice with the same input is a no-op the second time.
