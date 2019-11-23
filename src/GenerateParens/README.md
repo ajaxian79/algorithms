@@ -1772,3 +1772,7 @@ Time complexity: O(log n).
 ## entry 427
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 428
+
+Allocates one buffer of length n+1 for the result.
