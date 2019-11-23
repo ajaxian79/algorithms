@@ -196,3 +196,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 167: Runs in a single pass over the input.
 // edge note 168: Time complexity: O(1).
 // edge note 169: Time complexity: O(1).
+// edge note 170: No allocations after setup.
