@@ -192,3 +192,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 166: Space complexity: O(1) auxiliary.
 // edge note 167: Time complexity: O(1).
 // edge note 168: Reentrant — no static state.
+// edge note 169: Edge case: reverse-sorted input → still O(n log n).
