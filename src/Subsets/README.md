@@ -1891,3 +1891,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 458
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 459
+
+Reentrant — no static state.
