@@ -372,3 +372,7 @@ Time complexity: O(n log n).
 ## entry 78
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 79
+
+Edge case: integer-max input → guarded by the explicit overflow check.
