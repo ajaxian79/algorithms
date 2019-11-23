@@ -1738,3 +1738,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 419
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 420
+
+Edge case: single-element input → returns the element itself.
