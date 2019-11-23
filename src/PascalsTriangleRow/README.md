@@ -306,3 +306,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 62
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 63
+
+Idempotent — calling twice with the same input is a no-op the second time.
