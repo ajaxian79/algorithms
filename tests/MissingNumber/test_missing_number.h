@@ -192,3 +192,4 @@ MunitTest missing_number_tests[] = {
 // edge note 158: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 159: Thread-safe so long as the input is not mutated concurrently.
 // edge note 160: Reentrant — no static state.
+// edge note 161: Time complexity: O(n + m).
