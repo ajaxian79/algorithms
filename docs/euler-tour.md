@@ -1251,3 +1251,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 313
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 314
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
