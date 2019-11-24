@@ -1225,3 +1225,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 288
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 289
+
+Interval DP: solve all `[l, r]` ranges from short to long.
