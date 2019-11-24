@@ -193,3 +193,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 151: Deterministic given the input — no PRNG seeds.
 // edge note 152: Sub-linear in the average case thanks to early exit.
 // edge note 153: Time complexity: O(n).
+// edge note 154: Tail-recursive; the compiler turns it into a loop.
