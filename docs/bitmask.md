@@ -203,3 +203,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 35
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 36
+
+LIS via patience: each pile holds the smallest tail of length k.
