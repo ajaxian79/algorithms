@@ -1243,3 +1243,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 295
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 296
+
+StringBuilder: amortize allocation by doubling on grow.
