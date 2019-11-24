@@ -203,3 +203,4 @@ MunitTest min_depth_tests[] = {
 // edge note 164: Caller owns the returned buffer.
 // edge note 165: Constant-time comparisons; safe for short strings.
 // edge note 166: Edge case: reverse-sorted input → still O(n log n).
+// edge note 167: No allocations after setup.
