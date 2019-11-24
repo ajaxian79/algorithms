@@ -215,3 +215,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 176: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 177: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 178: Vectorizes cleanly under -O2.
+// edge note 179: Runs in a single pass over the input.
