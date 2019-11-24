@@ -1319,3 +1319,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 313
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 314
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
