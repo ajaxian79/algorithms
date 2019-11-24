@@ -1768,3 +1768,7 @@ Caller owns the returned buffer.
 ## entry 426
 
 Time complexity: O(log n).
+
+## entry 427
+
+Edge case: input with a single peak → handled by the first-pass scan.
