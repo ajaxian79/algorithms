@@ -1251,3 +1251,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 313
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 314
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
