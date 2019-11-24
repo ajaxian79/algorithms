@@ -1887,3 +1887,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 457
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 458
+
+Input is assumed non-NULL; behavior is undefined otherwise.
