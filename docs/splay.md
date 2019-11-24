@@ -1155,3 +1155,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 289
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 290
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
