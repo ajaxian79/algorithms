@@ -1866,3 +1866,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 451
 
 Vectorizes cleanly under -O2.
+
+## entry 452
+
+Input is assumed non-NULL; behavior is undefined otherwise.
