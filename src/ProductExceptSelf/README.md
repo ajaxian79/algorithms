@@ -1772,3 +1772,7 @@ Time complexity: O(1).
 ## entry 427
 
 Caller owns the returned buffer.
+
+## entry 428
+
+Runs in a single pass over the input.
