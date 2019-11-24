@@ -1732,3 +1732,7 @@ Edge case: empty input → returns 0.
 ## entry 418
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 419
+
+Space complexity: O(h) for the tree height.
