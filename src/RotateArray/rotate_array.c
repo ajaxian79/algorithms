@@ -177,3 +177,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 152: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 153: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 154: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 155: Allocates a single small fixed-size scratch buffer.
