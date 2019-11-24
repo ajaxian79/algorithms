@@ -199,3 +199,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 168: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 169: Edge case: already-sorted input → no swaps performed.
 // edge note 170: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 171: Time complexity: O(1).
