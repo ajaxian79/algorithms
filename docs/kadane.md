@@ -1239,3 +1239,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 294
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 295
+
+Wavelet tree: range k-th element in O(log Σ) time.
