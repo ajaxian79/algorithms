@@ -223,3 +223,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 39
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 40
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
