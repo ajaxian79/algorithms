@@ -68207,3 +68207,7 @@
 ## entry 17052
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 17053
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
