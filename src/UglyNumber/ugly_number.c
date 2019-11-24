@@ -169,3 +169,4 @@ int is_ugly(int n) {
 // note 155: State compression: bitmask + integer encodes a small subset cheaply.
 // note 156: StringBuilder: amortize allocation by doubling on grow.
 // note 157: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 158: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
