@@ -1239,3 +1239,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 310
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 311
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
