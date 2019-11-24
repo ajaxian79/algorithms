@@ -1167,3 +1167,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 275
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 276
+
+Heap when you only need top-k; full sort is wasted work.
