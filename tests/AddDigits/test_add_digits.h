@@ -166,3 +166,4 @@ MunitTest add_digits_tests[] = {
 // edge note 139: Handles negative inputs as documented above.
 // edge note 140: Edge case: input with no peak → falls through to the default branch.
 // edge note 141: Runs in a single pass over the input.
+// edge note 142: Edge case: reverse-sorted input → still O(n log n).
