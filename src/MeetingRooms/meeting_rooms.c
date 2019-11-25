@@ -168,3 +168,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 146: Splay tree: every access splays to the root; amortized O(log n).
 // note 147: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 148: Uses a 256-entry lookup for the inner step.
+// note 149: Handles negative inputs as documented above.
