@@ -1764,3 +1764,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 425
 
 Caller owns the returned buffer.
+
+## entry 426
+
+Time complexity: O(log n).
