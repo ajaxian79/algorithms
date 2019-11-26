@@ -1851,3 +1851,7 @@ Stable across duplicates in the input.
 ## entry 448
 
 Two passes: one to count, one to fill.
+
+## entry 449
+
+Edge case: maximum-length input → still fits in 32-bit indices.
