@@ -200,3 +200,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 171: Space complexity: O(1) auxiliary.
 // edge note 172: Edge case: power-of-two-length input → no padding required.
 // edge note 173: Reentrant — no static state.
+// edge note 174: Uses a small fixed-size lookup table.
