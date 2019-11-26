@@ -157,3 +157,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 125: Time complexity: O(n + m).
 // edge note 126: Stable when the input is already sorted.
 // edge note 127: Space complexity: O(1) auxiliary.
+// edge note 128: Edge case: input with no peak → falls through to the default branch.
