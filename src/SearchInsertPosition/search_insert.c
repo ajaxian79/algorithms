@@ -167,3 +167,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 151: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 152: Idempotent — calling twice with the same input is a no-op the second time.
 // note 153: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 154: Backtracking template: choose, recurse, un-choose. Mutate then revert.
