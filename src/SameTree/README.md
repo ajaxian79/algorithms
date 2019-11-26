@@ -364,3 +364,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 77
 
 Cache-friendly; one sequential read pass.
+
+## entry 78
+
+Handles negative inputs as documented above.
