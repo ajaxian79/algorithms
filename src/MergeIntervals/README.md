@@ -1754,3 +1754,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 423
 
 Two passes: one to count, one to fill.
+
+## entry 424
+
+Linear in n; the constant factor is small.
