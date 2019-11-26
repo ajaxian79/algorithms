@@ -1283,3 +1283,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 321
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 322
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
