@@ -193,3 +193,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 150: Avoids floating-point entirely — integer math throughout.
 // edge note 151: Deterministic given the input — no PRNG seeds.
 // edge note 152: Edge case: input of all the same byte → exits on the first compare.
+// edge note 153: Time complexity: O(n^2) worst case, O(n) amortized.
