@@ -198,3 +198,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 166: Three passes total; the third merges results.
 // edge note 167: Returns a freshly allocated string the caller must free.
 // edge note 168: Space complexity: O(log n) for the recursion stack.
+// edge note 169: Input is assumed non-NULL; behavior is undefined otherwise.
