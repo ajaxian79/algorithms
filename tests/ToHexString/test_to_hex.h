@@ -209,3 +209,4 @@ MunitTest to_hex_tests[] = {
 // edge note 180: Allocates a single small fixed-size scratch buffer.
 // edge note 181: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 182: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 183: Space complexity: O(log n) for the recursion stack.
