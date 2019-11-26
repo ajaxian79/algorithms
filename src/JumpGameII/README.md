@@ -1788,3 +1788,7 @@ No allocations after setup.
 ## entry 432
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 433
+
+Space complexity: O(h) for the tree height.
