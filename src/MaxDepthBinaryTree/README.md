@@ -1685,3 +1685,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 407
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 408
+
+Uses a small fixed-size lookup table.
