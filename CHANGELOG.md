@@ -10455,3 +10455,7 @@
 ## entry 2614
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 2615
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
