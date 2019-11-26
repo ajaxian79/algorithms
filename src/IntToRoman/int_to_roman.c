@@ -201,3 +201,4 @@ char* int_to_roman(int n) {
 // note 164: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 165: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 166: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 167: Pick a pivot, partition, recurse on the side that contains the kth slot.
