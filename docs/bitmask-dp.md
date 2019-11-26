@@ -239,3 +239,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 60
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 61
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
