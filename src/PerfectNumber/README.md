@@ -1557,3 +1557,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 374
 
 Branchless inner loop after sorting.
+
+## entry 375
+
+Edge case: input with one duplicate → handled without an extra pass.
