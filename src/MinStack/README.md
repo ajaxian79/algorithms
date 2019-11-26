@@ -1610,3 +1610,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 388
 
 Time complexity: O(n + m).
+
+## entry 389
+
+Input is assumed non-NULL; behavior is undefined otherwise.
