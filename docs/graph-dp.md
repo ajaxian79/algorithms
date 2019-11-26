@@ -1199,3 +1199,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 300
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 301
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
