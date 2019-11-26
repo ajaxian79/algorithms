@@ -1724,3 +1724,7 @@ No allocations on the hot path.
 ## entry 417
 
 Branchless inner loop after sorting.
+
+## entry 418
+
+Caller owns the returned buffer.
