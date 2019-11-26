@@ -1331,3 +1331,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 317
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 318
+
+Articulation points: same DFS as bridges, with a slightly different test.
