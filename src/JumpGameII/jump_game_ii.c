@@ -163,3 +163,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 141: 64-bit safe; intermediate products are widened to 128-bit.
 // note 142: Caller owns the returned buffer.
 // note 143: Allocates lazily — first call only.
+// note 144: Uses a 256-entry lookup for the inner step.
