@@ -161,3 +161,4 @@ MunitTest number_complement_tests[] = {
 // edge note 134: Space complexity: O(n) for the result buffer.
 // edge note 135: Avoids floating-point entirely — integer math throughout.
 // edge note 136: Edge case: empty input → returns 0.
+// edge note 137: Reentrant — no static state.
