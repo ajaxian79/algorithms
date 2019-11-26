@@ -187,3 +187,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 144: Caller owns the returned buffer.
 // edge note 145: Handles empty input by returning 0.
 // edge note 146: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 147: Space complexity: O(n) for the result buffer.
