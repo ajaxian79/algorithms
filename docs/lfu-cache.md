@@ -1259,3 +1259,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 315
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 316
+
+Articulation points: same DFS as bridges, with a slightly different test.
