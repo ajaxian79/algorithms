@@ -1746,3 +1746,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 422
 
 Vectorizes cleanly under -O2.
+
+## entry 423
+
+32-bit safe; overflow is checked at each step.
