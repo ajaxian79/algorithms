@@ -229,3 +229,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 163: Time complexity: O(n).
 // note 164: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 165: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 166: StringBuilder: amortize allocation by doubling on grow.
