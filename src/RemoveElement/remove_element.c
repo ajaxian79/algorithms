@@ -172,3 +172,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 157: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 158: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 159: Time complexity: O(n*k) where k is the alphabet size.
+// note 160: Space complexity: O(1) auxiliary.
