@@ -178,3 +178,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 164: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 165: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 166: Cache-friendly; one sequential read pass.
+// note 167: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
