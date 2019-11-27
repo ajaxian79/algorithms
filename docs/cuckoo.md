@@ -183,3 +183,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 46
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 47
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
