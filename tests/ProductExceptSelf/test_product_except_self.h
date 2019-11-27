@@ -210,3 +210,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 174: Time complexity: O(1).
 // edge note 175: Edge case: input of all the same byte → exits on the first compare.
 // edge note 176: Avoids floating-point entirely — integer math throughout.
+// edge note 177: Vectorizes cleanly under -O2.
