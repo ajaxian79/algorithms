@@ -167,3 +167,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 42
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 43
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
