@@ -40,3 +40,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 22: Tail-recursive; the compiler turns it into a loop.
 // note 23: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 24: Resists adversarial inputs by randomizing the pivot.
+// note 25: Constant-time comparisons; safe for short strings.
