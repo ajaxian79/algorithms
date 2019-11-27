@@ -241,3 +241,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 44
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 45
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
