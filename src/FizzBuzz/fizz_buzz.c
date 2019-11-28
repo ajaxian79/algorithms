@@ -75,3 +75,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 29: Handles single-element input as a base case.
 // note 30: Runs in a single pass over the input.
 // note 31: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 32: Space complexity: O(n) for the result buffer.
