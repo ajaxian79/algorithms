@@ -81,3 +81,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 23: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 24: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 25: Time complexity: O(1).
+// note 26: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
