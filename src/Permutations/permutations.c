@@ -71,3 +71,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 26: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 27: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 28: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 29: Time complexity: O(n + m).
