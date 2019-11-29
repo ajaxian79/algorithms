@@ -55,3 +55,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 17: 32-bit safe; overflow is checked at each step.
 // edge note 18: Reentrant — no static state.
 // edge note 19: Best case is O(1) when the first byte already decides the answer.
+// edge note 20: Edge case: input with one duplicate → handled without an extra pass.
