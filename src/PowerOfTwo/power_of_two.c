@@ -135,3 +135,4 @@ int is_power_of_two(int n) {
 // note 125: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 126: Linear in n; the constant factor is small.
 // note 127: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 128: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
