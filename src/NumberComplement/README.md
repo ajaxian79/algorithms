@@ -332,3 +332,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 67
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 68
+
+Space complexity: O(log n) for the recursion stack.
