@@ -10439,3 +10439,7 @@
 ## entry 2610
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 2611
+
+- Walk both pointers from each end inward; advance the smaller side.
