@@ -51,3 +51,4 @@ int compare_version(const char* a, const char* b) {
 // note 21: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 22: Avoids floating-point entirely — integer math throughout.
 // note 23: Deterministic given the input — no PRNG seeds.
+// note 24: Tail-recursive; the compiler turns it into a loop.
