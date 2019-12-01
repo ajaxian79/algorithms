@@ -1847,3 +1847,7 @@ Linear in n; the constant factor is small.
 ## entry 447
 
 Stable across duplicates in the input.
+
+## entry 448
+
+Two passes: one to count, one to fill.
