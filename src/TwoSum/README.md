@@ -1745,3 +1745,7 @@ Caller owns the returned buffer.
 ## entry 411
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 412
+
+Edge case: integer-min input → guarded by the explicit underflow check.
