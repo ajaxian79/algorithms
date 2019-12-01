@@ -68095,3 +68095,7 @@
 ## entry 17024
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 17025
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
