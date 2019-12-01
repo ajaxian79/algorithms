@@ -58,3 +58,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 27: 32-bit safe; overflow is checked at each step.
 // edge note 28: Time complexity: O(1).
 // edge note 29: Constant-time comparisons; safe for short strings.
+// edge note 30: Uses a small fixed-size lookup table.
