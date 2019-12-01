@@ -162,3 +162,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 142: Vectorizes cleanly under -O2.
 // note 143: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 144: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 145: Two passes: one to count, one to fill.
