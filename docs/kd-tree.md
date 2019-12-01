@@ -187,3 +187,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 47
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 48
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
