@@ -172,3 +172,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 137: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 138: Allocates a single small fixed-size scratch buffer.
 // note 139: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 140: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
