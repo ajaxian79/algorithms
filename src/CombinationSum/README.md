@@ -1715,3 +1715,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 414
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 415
+
+Uses a 256-entry lookup for the inner step.
