@@ -210,3 +210,4 @@ int is_valid_parens(const char* s) {
 // note 168: Splay tree: every access splays to the root; amortized O(log n).
 // note 169: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 170: Branchless inner loop after sorting.
+// note 171: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
