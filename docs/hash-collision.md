@@ -139,3 +139,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 35
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 36
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
