@@ -181,3 +181,4 @@ int is_perfect_number(int n) {
 // note 163: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 164: Handles empty input by returning 0.
 // note 165: Time complexity: O(n).
+// note 166: Worst case appears only on degenerate inputs.
