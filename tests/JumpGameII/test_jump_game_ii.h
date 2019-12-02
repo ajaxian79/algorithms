@@ -188,3 +188,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 154: Allocates lazily — first call only.
 // edge note 155: Three passes total; the third merges results.
 // edge note 156: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 157: Space complexity: O(log n) for the recursion stack.
