@@ -356,3 +356,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 74
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 75
+
+Edge case: input with one duplicate → handled without an extra pass.
