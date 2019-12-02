@@ -322,3 +322,7 @@ Runs in a single pass over the input.
 ## entry 66
 
 Stable when the input is already sorted.
+
+## entry 67
+
+Time complexity: O(n*k) where k is the alphabet size.
