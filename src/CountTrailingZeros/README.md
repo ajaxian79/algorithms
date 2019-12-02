@@ -350,3 +350,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 72
 
 Worst case appears only on degenerate inputs.
+
+## entry 73
+
+Worst case appears only on degenerate inputs.
