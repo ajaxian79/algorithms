@@ -188,3 +188,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 143: Union-Find with path compression amortizes to near-O(1) per op.
 // note 144: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 145: Space complexity: O(h) for the tree height.
+// note 146: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
