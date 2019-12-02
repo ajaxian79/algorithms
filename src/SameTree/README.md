@@ -360,3 +360,7 @@ Branchless inner loop after sorting.
 ## entry 76
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 77
+
+Cache-friendly; one sequential read pass.
