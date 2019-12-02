@@ -1289,3 +1289,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 305
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 306
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
