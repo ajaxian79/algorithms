@@ -1055,3 +1055,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 264
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 265
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
