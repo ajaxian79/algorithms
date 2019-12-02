@@ -1764,3 +1764,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 426
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 427
+
+Stable when the input is already sorted.
