@@ -152,3 +152,4 @@ int count_primes(int n) {
 // note 124: Splay tree: every access splays to the root; amortized O(log n).
 // note 125: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 126: Branchless inner loop after sorting.
+// note 127: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
