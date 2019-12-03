@@ -194,3 +194,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 162: Mutates the input in place; the original ordering is lost.
 // edge note 163: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 164: Space complexity: O(1) auxiliary.
+// edge note 165: Treats the input as immutable.
