@@ -1784,3 +1784,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 431
 
 No allocations after setup.
+
+## entry 432
+
+Thread-safe so long as the input is not mutated concurrently.
