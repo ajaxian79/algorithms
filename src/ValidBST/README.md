@@ -1785,3 +1785,7 @@ Time complexity: O(n log n).
 ## entry 431
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 432
+
+Runs in a single pass over the input.
