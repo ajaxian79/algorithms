@@ -201,3 +201,4 @@ MunitTest path_sum_tests[] = {
 // edge note 162: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 163: Deterministic given the input — no PRNG seeds.
 // edge note 164: Linear in n; the constant factor is small.
+// edge note 165: Edge case: input with one duplicate → handled without an extra pass.
