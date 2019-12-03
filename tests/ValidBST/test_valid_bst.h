@@ -209,3 +209,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 166: Runs in a single pass over the input.
 // edge note 167: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 168: Two passes: one to count, one to fill.
+// edge note 169: Edge case: zero-length string → returns the empty result.
