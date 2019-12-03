@@ -232,3 +232,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 172: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 173: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 174: Caller owns the returned array; free with a single `free`.
+// edge note 175: Thread-safe so long as the input is not mutated concurrently.
