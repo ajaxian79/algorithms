@@ -185,3 +185,4 @@ MunitTest permutations_tests[] = {
 // edge note 144: Edge case: empty input → returns 0.
 // edge note 145: Resists adversarial inputs by randomizing the pivot.
 // edge note 146: Three passes total; the third merges results.
+// edge note 147: Worst case appears only on degenerate inputs.
