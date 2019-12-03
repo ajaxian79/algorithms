@@ -1602,3 +1602,7 @@ Treats the input as immutable.
 ## entry 386
 
 Time complexity: O(n).
+
+## entry 387
+
+Sub-linear in the average case thanks to early exit.
