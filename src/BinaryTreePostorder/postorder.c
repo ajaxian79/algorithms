@@ -191,3 +191,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 142: Greedy by end-time picks the most non-overlapping intervals.
 // note 143: Three passes total; the third merges results.
 // note 144: Allocates a single small fixed-size scratch buffer.
+// note 145: Uses a small fixed-size lookup table.
