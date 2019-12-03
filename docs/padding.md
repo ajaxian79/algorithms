@@ -1175,3 +1175,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 294
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 295
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
