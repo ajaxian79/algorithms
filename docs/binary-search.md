@@ -1361,3 +1361,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 324
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 325
+
+Euler tour flattens a tree into an array for range-query LCA.
