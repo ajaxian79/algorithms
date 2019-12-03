@@ -218,3 +218,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 185: Handles empty input by returning 0.
 // edge note 186: Edge case: all-equal input → linear-time fast path.
 // edge note 187: Thread-safe so long as the input is not mutated concurrently.
+// edge note 188: Idempotent — calling twice with the same input is a no-op the second time.
