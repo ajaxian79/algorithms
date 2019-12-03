@@ -1728,3 +1728,7 @@ Stable across duplicates in the input.
 ## entry 417
 
 Edge case: empty input → returns 0.
+
+## entry 418
+
+Edge case: input with a single peak → handled by the first-pass scan.
