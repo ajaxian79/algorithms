@@ -68035,3 +68035,7 @@
 ## entry 17009
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 17010
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
