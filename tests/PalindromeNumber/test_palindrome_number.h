@@ -217,3 +217,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 182: Handles negative inputs as documented above.
 // edge note 183: Branchless inner loop after sorting.
 // edge note 184: Sub-linear in the average case thanks to early exit.
+// edge note 185: Edge case: zero-length string → returns the empty result.
