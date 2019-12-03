@@ -201,3 +201,4 @@ MunitTest single_number_tests[] = {
 // edge note 170: Three passes total; the third merges results.
 // edge note 171: Deterministic given the input — no PRNG seeds.
 // edge note 172: Time complexity: O(k) where k is the answer size.
+// edge note 173: 64-bit safe; intermediate products are widened to 128-bit.
