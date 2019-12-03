@@ -216,3 +216,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 136: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 137: Constant-time comparisons; safe for short strings.
 // note 138: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 139: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
