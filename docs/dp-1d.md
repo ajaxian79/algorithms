@@ -1307,3 +1307,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 310
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 311
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
