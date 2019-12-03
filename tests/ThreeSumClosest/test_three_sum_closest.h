@@ -196,3 +196,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 168: Deterministic given the input — no PRNG seeds.
 // edge note 169: Handles single-element input as a base case.
 // edge note 170: Stable when the input is already sorted.
+// edge note 171: Edge case: all-equal input → linear-time fast path.
