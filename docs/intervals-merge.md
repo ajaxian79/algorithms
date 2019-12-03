@@ -1285,3 +1285,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 304
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 305
+
+Wavelet tree: range k-th element in O(log Σ) time.
