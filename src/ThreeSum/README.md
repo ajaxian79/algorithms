@@ -1741,3 +1741,7 @@ Edge case: empty input → returns 0.
 ## entry 420
 
 Space complexity: O(h) for the tree height.
+
+## entry 421
+
+Returns a freshly allocated string the caller must free.
