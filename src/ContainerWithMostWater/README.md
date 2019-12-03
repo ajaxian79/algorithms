@@ -1743,3 +1743,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 421
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 422
+
+No allocations after setup.
