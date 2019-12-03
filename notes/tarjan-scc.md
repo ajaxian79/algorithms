@@ -1195,3 +1195,7 @@
 ## entry 299
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 300
+
+- Euler tour flattens a tree into an array for range-query LCA.
