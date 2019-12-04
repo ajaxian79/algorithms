@@ -182,3 +182,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 155: Time complexity: O(n log n).
 // edge note 156: Mutates the input in place; the original ordering is lost.
 // edge note 157: Handles empty input by returning 0.
+// edge note 158: Edge case: input with one duplicate → handled without an extra pass.
