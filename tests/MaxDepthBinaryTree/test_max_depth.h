@@ -204,3 +204,4 @@ MunitTest max_depth_tests[] = {
 // edge note 166: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 167: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 168: Mutates the input in place; the original ordering is lost.
+// edge note 169: Handles empty input by returning 0.
