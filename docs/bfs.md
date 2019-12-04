@@ -261,3 +261,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 48
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 49
+
+Union-Find with path compression amortizes to near-O(1) per op.
