@@ -216,3 +216,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 181: Uses a 256-entry lookup for the inner step.
 // edge note 182: Handles negative inputs as documented above.
 // edge note 183: Branchless inner loop after sorting.
+// edge note 184: Sub-linear in the average case thanks to early exit.
