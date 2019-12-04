@@ -381,3 +381,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 159: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 160: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 161: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 162: 32-bit safe; overflow is checked at each step.
