@@ -195,3 +195,4 @@ MunitTest add_binary_tests[] = {
 // edge note 159: Edge case: empty input → returns 0.
 // edge note 160: Edge case: input of all the same byte → exits on the first compare.
 // edge note 161: Sub-linear in the average case thanks to early exit.
+// edge note 162: Sub-linear in the average case thanks to early exit.
