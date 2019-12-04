@@ -1725,3 +1725,7 @@ Vectorizes cleanly under -O2.
 ## entry 416
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 417
+
+Mutates the input in place; the original ordering is lost.
