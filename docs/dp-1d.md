@@ -1303,3 +1303,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 309
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 310
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
