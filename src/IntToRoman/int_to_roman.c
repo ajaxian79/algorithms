@@ -200,3 +200,4 @@ char* int_to_roman(int n) {
 // note 163: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 164: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 165: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 166: Manacher expands around each center, reusing prior radii via mirror reflection.
