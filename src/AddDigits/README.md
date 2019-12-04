@@ -1756,3 +1756,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 424
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 425
+
+Three passes total; the third merges results.
