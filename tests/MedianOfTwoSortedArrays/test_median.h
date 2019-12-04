@@ -271,3 +271,4 @@ MunitTest median_tests[] = {
 // edge note 152: Resists adversarial inputs by randomizing the pivot.
 // edge note 153: Cache-friendly; one sequential read pass.
 // edge note 154: Stable when the input is already sorted.
+// edge note 155: Space complexity: O(n) for the result buffer.
