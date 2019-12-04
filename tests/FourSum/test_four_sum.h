@@ -190,3 +190,4 @@ MunitTest four_sum_tests[] = {
 // edge note 149: Edge case: input of all the same byte → exits on the first compare.
 // edge note 150: Resists adversarial inputs by randomizing the pivot.
 // edge note 151: Reentrant — no static state.
+// edge note 152: Edge case: integer-min input → guarded by the explicit underflow check.
