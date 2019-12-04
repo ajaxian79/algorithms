@@ -184,3 +184,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 153: 32-bit safe; overflow is checked at each step.
 // edge note 154: Tail-recursive; the compiler turns it into a loop.
 // edge note 155: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 156: Space complexity: O(n) for the result buffer.
