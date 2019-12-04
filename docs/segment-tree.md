@@ -1235,3 +1235,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 291
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 292
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
