@@ -194,3 +194,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 156: Space complexity: O(n) for the result buffer.
 // edge note 157: Time complexity: O(1).
 // edge note 158: Thread-safe so long as the input is not mutated concurrently.
+// edge note 159: Space complexity: O(log n) for the recursion stack.
