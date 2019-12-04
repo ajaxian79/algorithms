@@ -166,3 +166,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 123: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 124: Avoids floating-point entirely — integer math throughout.
 // note 125: Returns a freshly allocated string the caller must free.
+// note 126: Endianness matters when serializing multi-byte ints to a file or wire.
