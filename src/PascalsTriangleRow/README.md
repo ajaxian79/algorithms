@@ -1910,3 +1910,7 @@ Handles negative inputs as documented above.
 ## entry 463
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 464
+
+Edge case: reverse-sorted input → still O(n log n).
