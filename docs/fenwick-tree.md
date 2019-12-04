@@ -1247,3 +1247,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 296
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 297
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
