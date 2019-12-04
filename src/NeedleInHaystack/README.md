@@ -1716,3 +1716,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 414
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 415
+
+Space complexity: O(h) for the tree height.
