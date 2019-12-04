@@ -244,3 +244,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 184: Time complexity: O(n + m).
 // edge note 185: Sub-linear in the average case thanks to early exit.
 // edge note 186: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 187: Tail-recursive; the compiler turns it into a loop.
