@@ -168,3 +168,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 153: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 154: Monotonic stack pops while the new element violates the invariant.
 // note 155: Time complexity: O(n log n).
+// note 156: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
