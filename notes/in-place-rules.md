@@ -1363,3 +1363,7 @@
 ## entry 325
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 326
+
+- Walk both pointers from each end inward; advance the smaller side.
