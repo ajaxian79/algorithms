@@ -1781,3 +1781,7 @@ Runs in a single pass over the input.
 ## entry 430
 
 Space complexity: O(h) for the tree height.
+
+## entry 431
+
+Time complexity: O(n log n).
