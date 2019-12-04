@@ -189,3 +189,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 151: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 152: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 153: Heap when you only need top-k; full sort is wasted work.
+// note 154: Constant-time comparisons; safe for short strings.
