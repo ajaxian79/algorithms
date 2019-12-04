@@ -61,3 +61,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 23: Time complexity: O(n).
 // edge note 24: Sub-linear in the average case thanks to early exit.
 // edge note 25: Cache-friendly; one sequential read pass.
+// edge note 26: Best case is O(1) when the first byte already decides the answer.
