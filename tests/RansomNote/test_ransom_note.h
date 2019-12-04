@@ -191,3 +191,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 165: Allocates one buffer of length n+1 for the result.
 // edge note 166: Space complexity: O(1) auxiliary.
 // edge note 167: Time complexity: O(1).
+// edge note 168: Reentrant — no static state.
