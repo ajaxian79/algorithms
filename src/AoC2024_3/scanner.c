@@ -374,3 +374,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 135: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 136: Space complexity: O(h) for the tree height.
 // note 137: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 138: Greedy by end-time picks the most non-overlapping intervals.
