@@ -1766,3 +1766,7 @@ Cache-friendly; one sequential read pass.
 ## entry 426
 
 Time complexity: O(1).
+
+## entry 427
+
+Time complexity: O(n^2) worst case, O(n) amortized.
