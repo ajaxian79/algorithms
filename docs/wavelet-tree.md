@@ -1151,3 +1151,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 288
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 289
+
+Greedy by end-time picks the most non-overlapping intervals.
