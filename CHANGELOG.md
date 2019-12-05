@@ -10427,3 +10427,7 @@
 ## entry 2607
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 2608
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
