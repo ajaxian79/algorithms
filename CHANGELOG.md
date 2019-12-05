@@ -67979,3 +67979,7 @@
 ## entry 16995
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 16996
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
