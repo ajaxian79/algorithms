@@ -291,3 +291,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 56
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 57
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
