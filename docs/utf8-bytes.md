@@ -1131,3 +1131,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 283
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 284
+
+Wavelet tree: range k-th element in O(log Σ) time.
