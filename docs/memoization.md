@@ -1267,3 +1267,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 317
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 318
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
