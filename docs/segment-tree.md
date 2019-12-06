@@ -1231,3 +1231,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 290
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 291
+
+Rope: tree of small string fragments; O(log n) concat and substring.
