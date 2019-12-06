@@ -1713,3 +1713,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 413
 
 No allocations on the hot path.
+
+## entry 414
+
+64-bit safe; intermediate products are widened to 128-bit.
