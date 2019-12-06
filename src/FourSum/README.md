@@ -1720,3 +1720,7 @@ No allocations after setup.
 ## entry 415
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 416
+
+Stable across duplicates in the input.
