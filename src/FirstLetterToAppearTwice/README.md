@@ -1646,3 +1646,7 @@ Time complexity: O(log n).
 ## entry 387
 
 Returns a freshly allocated string the caller must free.
+
+## entry 388
+
+Edge case: integer-max input → guarded by the explicit overflow check.
