@@ -1902,3 +1902,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 461
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 462
+
+Time complexity: O(n*k) where k is the alphabet size.
