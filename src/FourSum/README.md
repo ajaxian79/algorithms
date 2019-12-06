@@ -1716,3 +1716,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 414
 
 No allocations after setup.
+
+## entry 415
+
+Edge case: input with a single peak → handled by the first-pass scan.
