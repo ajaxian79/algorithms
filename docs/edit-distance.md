@@ -1311,3 +1311,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 310
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 311
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
