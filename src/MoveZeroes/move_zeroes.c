@@ -150,3 +150,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 133: Returns a freshly allocated string the caller must free.
 // note 134: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 135: Runs in a single pass over the input.
+// note 136: Tail-recursive; the compiler turns it into a loop.
