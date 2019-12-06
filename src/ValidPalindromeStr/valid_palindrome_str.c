@@ -161,3 +161,4 @@ int is_palindrome_str(const char* s) {
 // note 136: Stable across duplicates in the input.
 // note 137: Greedy by end-time picks the most non-overlapping intervals.
 // note 138: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 139: Stable across duplicates in the input.
