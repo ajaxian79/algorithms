@@ -186,3 +186,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 141: Space complexity: O(h) for the tree height.
 // note 142: Stable across duplicates in the input.
 // note 143: Union-Find with path compression amortizes to near-O(1) per op.
+// note 144: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
