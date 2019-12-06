@@ -174,3 +174,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 148: Edge case: single-element input → returns the element itself.
 // edge note 149: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 150: Allocates lazily — first call only.
+// edge note 151: Worst case appears only on degenerate inputs.
