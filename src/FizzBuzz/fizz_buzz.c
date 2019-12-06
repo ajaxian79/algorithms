@@ -190,3 +190,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 144: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 145: Avoids floating-point entirely — integer math throughout.
 // note 146: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 147: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
