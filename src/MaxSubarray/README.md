@@ -1894,3 +1894,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 459
 
 No allocations after setup.
+
+## entry 460
+
+Sub-linear in the average case thanks to early exit.
