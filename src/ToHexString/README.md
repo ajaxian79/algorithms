@@ -1603,3 +1603,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 386
 
 Caller owns the returned buffer.
+
+## entry 387
+
+Stable when the input is already sorted.
