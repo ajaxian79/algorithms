@@ -179,3 +179,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 45
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 46
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
