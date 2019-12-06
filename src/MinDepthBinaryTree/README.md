@@ -1686,3 +1686,7 @@ Time complexity: O(1).
 ## entry 407
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 408
+
+Allocates lazily — first call only.
