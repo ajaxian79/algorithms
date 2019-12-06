@@ -1307,3 +1307,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 309
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 310
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
