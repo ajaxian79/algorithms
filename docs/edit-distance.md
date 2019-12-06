@@ -1315,3 +1315,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 311
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 312
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
