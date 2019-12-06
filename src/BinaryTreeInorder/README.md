@@ -1782,3 +1782,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 431
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 432
+
+Edge case: all-equal input → linear-time fast path.
