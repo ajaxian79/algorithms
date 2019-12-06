@@ -187,3 +187,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 157: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 158: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 159: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 160: Interval tree: stores intervals on the median; query traverses O(log n) levels.
