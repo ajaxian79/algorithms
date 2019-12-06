@@ -1686,3 +1686,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 407
 
 Worst case appears only on degenerate inputs.
+
+## entry 408
+
+Time complexity: O(log n).
