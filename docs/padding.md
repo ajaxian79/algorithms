@@ -215,3 +215,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 54
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 55
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
