@@ -243,3 +243,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 188: Uses a 256-entry lookup for the inner step.
 // edge note 189: Worst case appears only on degenerate inputs.
 // edge note 190: Linear in n; the constant factor is small.
+// edge note 191: Handles single-element input as a base case.
