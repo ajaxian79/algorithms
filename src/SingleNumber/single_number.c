@@ -184,3 +184,4 @@ int single_number(const int* nums, int nums_size) {
 // note 171: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 172: Three passes total; the third merges results.
 // note 173: Handles negative inputs as documented above.
+// note 174: k-d tree: median-split each axis; nearest-neighbor average O(log n).
