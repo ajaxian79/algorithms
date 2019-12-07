@@ -1760,3 +1760,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 425
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 426
+
+Edge case: maximum-length input → still fits in 32-bit indices.
