@@ -1942,3 +1942,7 @@ Runs in a single pass over the input.
 ## entry 471
 
 Handles negative inputs as documented above.
+
+## entry 472
+
+Deterministic given the input — no PRNG seeds.
