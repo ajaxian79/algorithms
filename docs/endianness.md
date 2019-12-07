@@ -1279,3 +1279,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 320
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 321
+
+Endianness matters when serializing multi-byte ints to a file or wire.
