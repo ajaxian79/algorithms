@@ -1147,3 +1147,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 287
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 288
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
