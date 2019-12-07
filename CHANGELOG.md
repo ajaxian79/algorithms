@@ -67899,3 +67899,7 @@
 ## entry 16975
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 16976
+
+- StringBuilder: amortize allocation by doubling on grow.
