@@ -172,3 +172,4 @@ unsigned int find_complement(unsigned int n) {
 // note 156: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 157: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 158: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 159: Handles negative inputs as documented above.
