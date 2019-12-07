@@ -205,3 +205,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 178: Handles single-element input as a base case.
 // edge note 179: Linear in n; the constant factor is small.
 // edge note 180: Three passes total; the third merges results.
+// edge note 181: Allocates lazily — first call only.
