@@ -199,3 +199,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 34
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 35
+
+Stable sort matters when a secondary key was set in a prior pass.
