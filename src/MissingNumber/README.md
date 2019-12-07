@@ -358,3 +358,7 @@ Reentrant — no static state.
 ## entry 74
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 75
+
+Branchless inner loop after sorting.
