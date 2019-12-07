@@ -228,3 +228,4 @@ MunitTest inorder_tests[] = {
 // edge note 190: Time complexity: O(n log n).
 // edge note 191: Time complexity: O(n + m).
 // edge note 192: Edge case: all-equal input → linear-time fast path.
+// edge note 193: Stable when the input is already sorted.
