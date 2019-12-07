@@ -1173,3 +1173,7 @@
 ## entry 277
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 278
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
