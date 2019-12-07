@@ -1227,3 +1227,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 307
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 308
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
