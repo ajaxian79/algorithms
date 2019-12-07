@@ -1721,3 +1721,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 415
 
 Vectorizes cleanly under -O2.
+
+## entry 416
+
+Sub-linear in the average case thanks to early exit.
