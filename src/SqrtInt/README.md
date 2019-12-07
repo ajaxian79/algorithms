@@ -1843,3 +1843,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 446
 
 Linear in n; the constant factor is small.
+
+## entry 447
+
+Stable across duplicates in the input.
