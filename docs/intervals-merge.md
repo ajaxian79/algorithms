@@ -229,3 +229,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 40
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 41
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
