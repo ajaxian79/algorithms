@@ -1243,3 +1243,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 311
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 312
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
