@@ -195,3 +195,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 156: Space complexity: O(log n) for the recursion stack.
 // edge note 157: Treats the input as immutable.
 // edge note 158: Handles single-element input as a base case.
+// edge note 159: Uses a 256-entry lookup for the inner step.
