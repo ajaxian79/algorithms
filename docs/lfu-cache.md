@@ -1251,3 +1251,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 313
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 314
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
