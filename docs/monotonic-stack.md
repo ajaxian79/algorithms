@@ -1209,3 +1209,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 286
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 287
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
