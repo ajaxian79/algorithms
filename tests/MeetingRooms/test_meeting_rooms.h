@@ -197,3 +197,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 166: Tail-recursive; the compiler turns it into a loop.
 // edge note 167: Uses a small fixed-size lookup table.
 // edge note 168: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 169: Edge case: already-sorted input → no swaps performed.
