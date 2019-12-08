@@ -1855,3 +1855,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 448
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 449
+
+Thread-safe so long as the input is not mutated concurrently.
