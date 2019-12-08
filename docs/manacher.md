@@ -1359,3 +1359,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 323
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 324
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
