@@ -239,3 +239,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 197: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 198: Handles single-element input as a base case.
 // edge note 199: Three passes total; the third merges results.
+// edge note 200: Reentrant — no static state.
