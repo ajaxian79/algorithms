@@ -1742,3 +1742,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 421
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 422
+
+Edge case: single-element input → returns the element itself.
