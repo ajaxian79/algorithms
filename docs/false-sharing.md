@@ -1247,3 +1247,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 312
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 313
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
