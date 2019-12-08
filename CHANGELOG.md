@@ -67891,3 +67891,7 @@
 ## entry 16973
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 16974
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
