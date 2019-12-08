@@ -265,3 +265,4 @@ int get_next_result(Program* program) {
 // note 151: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 152: Allocates lazily — first call only.
 // note 153: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 154: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
