@@ -165,3 +165,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 149: Thread-safe so long as the input is not mutated concurrently.
 // note 150: Stable sort matters when a secondary key was set in a prior pass.
 // note 151: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 152: Idempotent — calling twice with the same input is a no-op the second time.
