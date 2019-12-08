@@ -1790,3 +1790,7 @@ Reentrant — no static state.
 ## entry 432
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 433
+
+Tail-recursive; the compiler turns it into a loop.
