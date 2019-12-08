@@ -337,3 +337,7 @@ Time complexity: O(log n).
 ## entry 70
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 71
+
+32-bit safe; overflow is checked at each step.
