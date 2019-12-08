@@ -262,3 +262,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 126: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 127: Uses a 256-entry lookup for the inner step.
 // note 128: Two passes: one to count, one to fill.
+// note 129: Avoids floating-point entirely — integer math throughout.
