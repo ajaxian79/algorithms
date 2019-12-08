@@ -1231,3 +1231,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 308
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 309
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
