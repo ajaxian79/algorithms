@@ -1756,3 +1756,7 @@ Time complexity: O(n).
 ## entry 423
 
 Treats the input as immutable.
+
+## entry 424
+
+Returns a freshly allocated string the caller must free.
