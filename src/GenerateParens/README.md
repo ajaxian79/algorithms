@@ -1752,3 +1752,7 @@ Stable across duplicates in the input.
 ## entry 422
 
 Time complexity: O(n).
+
+## entry 423
+
+Treats the input as immutable.
