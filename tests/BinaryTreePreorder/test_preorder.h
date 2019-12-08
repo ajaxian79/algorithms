@@ -74,3 +74,4 @@ MunitTest preorder_tests[] = {
 // edge note 30: 32-bit safe; overflow is checked at each step.
 // edge note 31: Time complexity: O(log n).
 // edge note 32: Edge case: empty input → returns 0.
+// edge note 33: Mutates the input in place; the original ordering is lost.
