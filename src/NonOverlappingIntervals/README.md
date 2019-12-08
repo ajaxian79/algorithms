@@ -1709,3 +1709,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 412
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 413
+
+No allocations on the hot path.
