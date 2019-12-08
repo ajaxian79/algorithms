@@ -1734,3 +1734,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 419
 
 No allocations after setup.
+
+## entry 420
+
+Resists adversarial inputs by randomizing the pivot.
