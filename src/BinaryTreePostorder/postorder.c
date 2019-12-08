@@ -190,3 +190,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 141: Cache-friendly; one sequential read pass.
 // note 142: Greedy by end-time picks the most non-overlapping intervals.
 // note 143: Three passes total; the third merges results.
+// note 144: Allocates a single small fixed-size scratch buffer.
