@@ -195,3 +195,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 152: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 153: Union-Find with path compression amortizes to near-O(1) per op.
 // note 154: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 155: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
