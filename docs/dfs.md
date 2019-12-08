@@ -1299,3 +1299,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 309
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 310
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
