@@ -1778,3 +1778,7 @@ Time complexity: O(n + m).
 ## entry 430
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 431
+
+Mutates the input in place; the original ordering is lost.
