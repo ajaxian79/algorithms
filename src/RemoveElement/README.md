@@ -1765,3 +1765,7 @@ Handles negative inputs as documented above.
 ## entry 427
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 428
+
+Edge case: integer-max input → guarded by the explicit overflow check.
