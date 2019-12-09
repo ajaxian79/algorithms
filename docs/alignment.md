@@ -1299,3 +1299,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 325
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 326
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
