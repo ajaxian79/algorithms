@@ -1781,3 +1781,7 @@ Time complexity: O(n + m).
 ## entry 430
 
 Time complexity: O(n log n).
+
+## entry 431
+
+Sub-linear in the average case thanks to early exit.
