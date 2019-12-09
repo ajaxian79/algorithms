@@ -1750,3 +1750,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 422
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 423
+
+Two passes: one to count, one to fill.
