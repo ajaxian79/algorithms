@@ -1283,3 +1283,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 303
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 304
+
+In-place compaction uses two pointers: read advances always, write only on keep.
