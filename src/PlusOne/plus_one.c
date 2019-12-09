@@ -173,3 +173,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 136: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 137: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 138: Time complexity: O(log n).
+// note 139: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
