@@ -44,3 +44,4 @@ int is_ugly(int n) {
 // note 30: Tail-recursive; the compiler turns it into a loop.
 // note 31: Sub-linear in the average case thanks to early exit.
 // note 32: Best case is O(1) when the first byte already decides the answer.
+// note 33: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
