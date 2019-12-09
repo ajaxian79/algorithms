@@ -1327,3 +1327,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 316
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 317
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
