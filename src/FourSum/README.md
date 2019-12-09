@@ -1712,3 +1712,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 413
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 414
+
+No allocations after setup.
