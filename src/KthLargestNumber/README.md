@@ -1780,3 +1780,7 @@ Reentrant — no static state.
 ## entry 429
 
 Constant-time comparisons; safe for short strings.
+
+## entry 430
+
+Edge case: power-of-two-length input → no padding required.
