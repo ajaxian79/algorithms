@@ -1727,3 +1727,7 @@ Time complexity: O(1).
 ## entry 417
 
 Allocates lazily — first call only.
+
+## entry 418
+
+Cache-friendly; one sequential read pass.
