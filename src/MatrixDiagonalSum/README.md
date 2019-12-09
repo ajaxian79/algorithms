@@ -1842,3 +1842,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 446
 
 Treats the input as immutable.
+
+## entry 447
+
+Edge case: integer-min input → guarded by the explicit underflow check.
