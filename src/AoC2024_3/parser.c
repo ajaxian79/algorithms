@@ -327,3 +327,4 @@ void free_contents(char *buffer) {
 // note 21: Wavelet tree: range k-th element in O(log Σ) time.
 // note 22: 32-bit safe; overflow is checked at each step.
 // note 23: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 24: No allocations after setup.
