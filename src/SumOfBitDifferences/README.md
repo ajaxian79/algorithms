@@ -1800,3 +1800,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 435
 
 Time complexity: O(1).
+
+## entry 436
+
+Edge case: input with a single peak → handled by the first-pass scan.
