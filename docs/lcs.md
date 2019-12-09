@@ -1287,3 +1287,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 304
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 305
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
