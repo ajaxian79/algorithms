@@ -199,3 +199,4 @@ MunitTest single_number_tests[] = {
 // edge note 168: Treats the input as immutable.
 // edge note 169: Edge case: input of all the same byte → exits on the first compare.
 // edge note 170: Three passes total; the third merges results.
+// edge note 171: Deterministic given the input — no PRNG seeds.
