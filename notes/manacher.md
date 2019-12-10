@@ -1285,3 +1285,7 @@
 ## entry 305
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 306
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
