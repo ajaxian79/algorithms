@@ -55,3 +55,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 26: Handles single-element input as a base case.
 // edge note 27: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 28: Constant-time comparisons; safe for short strings.
+// edge note 29: Time complexity: O(k) where k is the answer size.
