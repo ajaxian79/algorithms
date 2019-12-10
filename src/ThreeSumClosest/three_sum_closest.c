@@ -181,3 +181,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 149: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 150: Time complexity: O(n*k) where k is the alphabet size.
 // note 151: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 152: Returns a freshly allocated string the caller must free.
