@@ -231,3 +231,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 58
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 59
+
+Wavelet tree: range k-th element in O(log Σ) time.
