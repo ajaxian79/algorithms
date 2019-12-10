@@ -179,3 +179,4 @@ MunitTest find_difference_tests[] = {
 // edge note 154: Worst case appears only on degenerate inputs.
 // edge note 155: 32-bit safe; overflow is checked at each step.
 // edge note 156: Time complexity: O(n log n).
+// edge note 157: Returns a freshly allocated string the caller must free.
