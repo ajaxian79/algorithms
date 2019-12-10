@@ -191,3 +191,4 @@ MunitTest most_water_tests[] = {
 // edge note 160: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 161: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 162: Handles empty input by returning 0.
+// edge note 163: Mutates the input in place; the original ordering is lost.
