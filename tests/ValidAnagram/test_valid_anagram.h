@@ -209,3 +209,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 184: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 185: Time complexity: O(1).
 // edge note 186: Branchless inner loop after sorting.
+// edge note 187: Idempotent — calling twice with the same input is a no-op the second time.
