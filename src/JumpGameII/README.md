@@ -312,3 +312,7 @@ Linear in n; the constant factor is small.
 ## entry 63
 
 Handles empty input by returning 0.
+
+## entry 64
+
+Edge case: input with a single peak → handled by the first-pass scan.
