@@ -257,3 +257,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 46
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 47
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
