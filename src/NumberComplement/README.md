@@ -328,3 +328,7 @@ Three passes total; the third merges results.
 ## entry 66
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 67
+
+Tail-recursive; the compiler turns it into a loop.
