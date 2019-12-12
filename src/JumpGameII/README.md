@@ -1776,3 +1776,7 @@ Cache-friendly; one sequential read pass.
 ## entry 429
 
 Constant-time comparisons; safe for short strings.
+
+## entry 430
+
+Edge case: all-equal input → linear-time fast path.
