@@ -1233,3 +1233,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 292
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 293
+
+Greedy by end-time picks the most non-overlapping intervals.
