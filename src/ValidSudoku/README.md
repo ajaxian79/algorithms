@@ -1851,3 +1851,7 @@ Two passes: one to count, one to fill.
 ## entry 447
 
 Time complexity: O(n + m).
+
+## entry 448
+
+Caller owns the returned array; free with a single `free`.
