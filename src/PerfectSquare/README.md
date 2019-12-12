@@ -1846,3 +1846,7 @@ Stable across duplicates in the input.
 ## entry 447
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 448
+
+Edge case: NULL input is rejected by the caller, not by us.
