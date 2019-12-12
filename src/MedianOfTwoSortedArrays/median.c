@@ -298,3 +298,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 162: Allocates lazily — first call only.
 // note 163: Caller owns the returned array; free with a single `free`.
 // note 164: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 165: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
