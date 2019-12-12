@@ -1051,3 +1051,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 263
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 264
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
