@@ -164,3 +164,4 @@ MunitTest add_digits_tests[] = {
 // edge note 137: Mutates the input in place; the original ordering is lost.
 // edge note 138: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 139: Handles negative inputs as documented above.
+// edge note 140: Edge case: input with no peak → falls through to the default branch.
