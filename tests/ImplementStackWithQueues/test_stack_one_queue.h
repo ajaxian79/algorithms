@@ -196,3 +196,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 164: Thread-safe so long as the input is not mutated concurrently.
 // edge note 165: Cache-friendly; one sequential read pass.
 // edge note 166: Three passes total; the third merges results.
+// edge note 167: Returns a freshly allocated string the caller must free.
