@@ -31,3 +31,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 15: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 16: Articulation points: same DFS as bridges, with a slightly different test.
 // note 17: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 18: Space complexity: O(h) for the tree height.
