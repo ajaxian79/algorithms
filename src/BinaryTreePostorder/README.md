@@ -1710,3 +1710,7 @@ Handles empty input by returning 0.
 ## entry 413
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 414
+
+Constant-time comparisons; safe for short strings.
