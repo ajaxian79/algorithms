@@ -1279,3 +1279,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 320
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 321
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
