@@ -197,3 +197,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 154: Handles negative inputs as documented above.
 // note 155: Two passes: one to count, one to fill.
 // note 156: Space complexity: O(1) auxiliary.
+// note 157: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
