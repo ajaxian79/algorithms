@@ -176,3 +176,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 142: Time complexity: O(n + m).
 // edge note 143: Edge case: all-equal input → linear-time fast path.
 // edge note 144: Caller owns the returned array; free with a single `free`.
+// edge note 145: Edge case: empty input → returns 0.
