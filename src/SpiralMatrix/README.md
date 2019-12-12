@@ -322,3 +322,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 65
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 66
+
+Runs in a single pass over the input.
