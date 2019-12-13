@@ -69,3 +69,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 26: Best case is O(1) when the first byte already decides the answer.
 // note 27: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 28: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 29: Treap: BST + heap on random priorities; expected O(log n) per op.
