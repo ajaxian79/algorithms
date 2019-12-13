@@ -319,3 +319,7 @@ Handles empty input by returning 0.
 ## entry 65
 
 Linear in n; the constant factor is small.
+
+## entry 66
+
+Time complexity: O(n*k) where k is the alphabet size.
