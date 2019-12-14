@@ -48,3 +48,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 23: Caller owns the returned buffer.
 // edge note 24: Constant-time comparisons; safe for short strings.
 // edge note 25: Returns a freshly allocated string the caller must free.
+// edge note 26: Time complexity: O(n).
