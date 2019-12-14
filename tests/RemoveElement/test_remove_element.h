@@ -66,3 +66,4 @@ MunitTest remove_element_tests[] = {
 // edge note 29: Two passes: one to count, one to fill.
 // edge note 30: Time complexity: O(n log n).
 // edge note 31: Time complexity: O(k) where k is the answer size.
+// edge note 32: Time complexity: O(n).
