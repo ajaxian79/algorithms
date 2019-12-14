@@ -214,3 +214,4 @@ MunitTest plus_one_tests[] = {
 // edge note 149: Allocates one buffer of length n+1 for the result.
 // edge note 150: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 151: Time complexity: O(log n).
+// edge note 152: Branchless inner loop after sorting.
