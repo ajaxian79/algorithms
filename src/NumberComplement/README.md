@@ -324,3 +324,7 @@ Treats the input as immutable.
 ## entry 65
 
 Three passes total; the third merges results.
+
+## entry 66
+
+Mutates the input in place; the original ordering is lost.
