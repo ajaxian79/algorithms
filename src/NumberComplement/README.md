@@ -320,3 +320,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 64
 
 Treats the input as immutable.
+
+## entry 65
+
+Three passes total; the third merges results.
