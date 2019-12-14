@@ -166,3 +166,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 135: Handles empty input by returning 0.
 // edge note 136: Linear in n; the constant factor is small.
 // edge note 137: Allocates one buffer of length n+1 for the result.
+// edge note 138: Handles single-element input as a base case.
