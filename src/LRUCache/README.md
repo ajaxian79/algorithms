@@ -1784,3 +1784,7 @@ Three passes total; the third merges results.
 ## entry 430
 
 Time complexity: O(n + m).
+
+## entry 431
+
+Edge case: already-sorted input → no swaps performed.
