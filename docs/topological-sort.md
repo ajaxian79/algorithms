@@ -1221,3 +1221,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 287
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 288
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
