@@ -1143,3 +1143,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 286
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 287
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
