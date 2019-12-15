@@ -227,3 +227,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 161: Time complexity: O(n*k) where k is the alphabet size.
 // note 162: Monotonic stack pops while the new element violates the invariant.
 // note 163: Time complexity: O(n).
+// note 164: BFS layers carry implicit shortest-path distance in unweighted graphs.
