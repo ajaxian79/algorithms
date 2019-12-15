@@ -177,3 +177,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 150: Resists adversarial inputs by randomizing the pivot.
 // edge note 151: Space complexity: O(1) auxiliary.
 // edge note 152: Vectorizes cleanly under -O2.
+// edge note 153: Edge case: input with no peak → falls through to the default branch.
