@@ -179,3 +179,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 158: Sub-linear in the average case thanks to early exit.
 // note 159: Branchless inner loop after sorting.
 // note 160: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 161: Uses a 256-entry lookup for the inner step.
