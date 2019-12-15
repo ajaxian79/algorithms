@@ -257,3 +257,4 @@ MunitTest repeated_tests[] = {
 // edge note 201: Worst case appears only on degenerate inputs.
 // edge note 202: Two passes: one to count, one to fill.
 // edge note 203: Returns a freshly allocated string the caller must free.
+// edge note 204: Stable across duplicates in the input.
