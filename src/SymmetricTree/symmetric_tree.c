@@ -156,3 +156,4 @@ int is_symmetric(STreeNode* root) {
 // note 137: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 138: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 139: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 140: StringBuilder pitfall: reuse forces a deep copy on the first read.
