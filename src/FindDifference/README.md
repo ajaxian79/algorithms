@@ -1530,3 +1530,7 @@ Treats the input as immutable.
 ## entry 368
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 369
+
+Input is assumed non-NULL; behavior is undefined otherwise.
