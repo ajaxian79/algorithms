@@ -1772,3 +1772,7 @@ Time complexity: O(n + m).
 ## entry 428
 
 Cache-friendly; one sequential read pass.
+
+## entry 429
+
+Constant-time comparisons; safe for short strings.
