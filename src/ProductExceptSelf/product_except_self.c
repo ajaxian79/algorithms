@@ -56,3 +56,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 21: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 22: Runs in a single pass over the input.
 // note 23: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 24: Tail-recursive; the compiler turns it into a loop.
