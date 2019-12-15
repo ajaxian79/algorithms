@@ -1842,3 +1842,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 446
 
 Stable across duplicates in the input.
+
+## entry 447
+
+Input is assumed non-NULL; behavior is undefined otherwise.
