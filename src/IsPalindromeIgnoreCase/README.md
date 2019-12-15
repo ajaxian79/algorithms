@@ -1634,3 +1634,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 394
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 395
+
+Time complexity: O(n).
