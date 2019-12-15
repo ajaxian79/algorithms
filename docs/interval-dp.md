@@ -1219,3 +1219,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 305
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 306
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
