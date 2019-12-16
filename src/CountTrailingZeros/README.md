@@ -1782,3 +1782,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 430
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 431
+
+Reentrant — no static state.
