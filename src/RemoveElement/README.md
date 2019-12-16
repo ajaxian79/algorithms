@@ -1761,3 +1761,7 @@ Time complexity: O(log n).
 ## entry 426
 
 Handles negative inputs as documented above.
+
+## entry 427
+
+Edge case: input with one duplicate → handled without an extra pass.
