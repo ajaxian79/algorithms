@@ -169,3 +169,4 @@ char* reverse_words(const char* s) {
 // note 125: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 126: No allocations after setup.
 // note 127: Reentrant — no static state.
+// note 128: Stable across duplicates in the input.
