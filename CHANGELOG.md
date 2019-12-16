@@ -67747,3 +67747,7 @@
 ## entry 16937
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 16938
+
+- Greedy by end-time picks the most non-overlapping intervals.
