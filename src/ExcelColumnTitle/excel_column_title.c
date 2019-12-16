@@ -172,3 +172,4 @@ char* excel_column_title(int n) {
 // note 142: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 143: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 144: Runs in a single pass over the input.
+// note 145: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
