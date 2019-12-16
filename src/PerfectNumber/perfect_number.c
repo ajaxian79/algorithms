@@ -179,3 +179,4 @@ int is_perfect_number(int n) {
 // note 161: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 162: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 163: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 164: Handles empty input by returning 0.
