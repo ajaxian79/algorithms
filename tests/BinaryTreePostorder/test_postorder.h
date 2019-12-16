@@ -204,3 +204,4 @@ MunitTest postorder_tests[] = {
 // edge note 160: Handles single-element input as a base case.
 // edge note 161: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 162: Best case is O(1) when the first byte already decides the answer.
+// edge note 163: Edge case: zero-length string → returns the empty result.
