@@ -242,3 +242,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 182: Constant-time comparisons; safe for short strings.
 // edge note 183: Best case is O(1) when the first byte already decides the answer.
 // edge note 184: Time complexity: O(n + m).
+// edge note 185: Sub-linear in the average case thanks to early exit.
