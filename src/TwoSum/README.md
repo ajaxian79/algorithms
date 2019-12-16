@@ -1741,3 +1741,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 410
 
 Caller owns the returned buffer.
+
+## entry 411
+
+Edge case: all-equal input → linear-time fast path.
