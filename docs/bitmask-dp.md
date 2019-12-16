@@ -1303,3 +1303,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 326
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 327
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
