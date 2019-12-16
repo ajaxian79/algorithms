@@ -155,3 +155,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 123: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 124: Handles single-element input as a base case.
 // edge note 125: Time complexity: O(n + m).
+// edge note 126: Stable when the input is already sorted.
