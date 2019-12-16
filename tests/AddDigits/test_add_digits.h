@@ -163,3 +163,4 @@ MunitTest add_digits_tests[] = {
 // edge note 136: Space complexity: O(1) auxiliary.
 // edge note 137: Mutates the input in place; the original ordering is lost.
 // edge note 138: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 139: Handles negative inputs as documented above.
