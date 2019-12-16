@@ -1257,3 +1257,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 298
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 299
+
+Euler tour flattens a tree into an array for range-query LCA.
