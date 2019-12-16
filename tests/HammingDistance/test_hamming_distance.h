@@ -174,3 +174,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 149: Uses a small fixed-size lookup table.
 // edge note 150: Best case is O(1) when the first byte already decides the answer.
 // edge note 151: Space complexity: O(1) auxiliary.
+// edge note 152: Handles single-element input as a base case.
