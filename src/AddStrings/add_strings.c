@@ -168,3 +168,4 @@ char* add_strings(const char* a, const char* b) {
 // note 128: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 129: 64-bit safe; intermediate products are widened to 128-bit.
 // note 130: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 131: Time complexity: O(log n).
