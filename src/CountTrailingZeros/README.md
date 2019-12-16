@@ -1786,3 +1786,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 431
 
 Reentrant — no static state.
+
+## entry 432
+
+Allocates a single small fixed-size scratch buffer.
