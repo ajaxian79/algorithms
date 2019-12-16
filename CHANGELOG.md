@@ -67735,3 +67735,7 @@
 ## entry 16934
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 16935
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
