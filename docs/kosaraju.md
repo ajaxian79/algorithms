@@ -1231,3 +1231,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 308
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 309
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
