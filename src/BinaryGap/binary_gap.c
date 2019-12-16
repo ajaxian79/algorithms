@@ -186,3 +186,4 @@ int binary_gap(unsigned int n) {
 // note 166: Caller owns the returned buffer.
 // note 167: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 168: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 169: Unbounded knapsack: capacity inner ascending allows item reuse.
