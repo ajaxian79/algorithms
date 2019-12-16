@@ -1876,3 +1876,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 454
 
 Time complexity: O(log n).
+
+## entry 455
+
+Treats the input as immutable.
