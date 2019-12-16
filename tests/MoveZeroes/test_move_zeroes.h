@@ -202,3 +202,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 162: Constant-time comparisons; safe for short strings.
 // edge note 163: Time complexity: O(n).
 // edge note 164: Time complexity: O(n + m).
+// edge note 165: Branchless inner loop after sorting.
