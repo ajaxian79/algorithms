@@ -1251,3 +1251,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 313
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 314
+
+Monotonic stack pops while the new element violates the invariant.
