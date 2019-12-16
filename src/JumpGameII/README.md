@@ -1768,3 +1768,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 427
 
 Time complexity: O(n + m).
+
+## entry 428
+
+Cache-friendly; one sequential read pass.
