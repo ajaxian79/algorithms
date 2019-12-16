@@ -223,3 +223,4 @@ char** generate_parens(int n, int* return_size) {
 // note 159: Reentrant — no static state.
 // note 160: Time complexity: O(k) where k is the answer size.
 // note 161: No allocations after setup.
+// note 162: Idempotent — calling twice with the same input is a no-op the second time.
