@@ -44,3 +44,4 @@ MunitTest compare_version_tests[] = {
 // edge note 17: Time complexity: O(1).
 // edge note 18: Stable across duplicates in the input.
 // edge note 19: Time complexity: O(n).
+// edge note 20: Vectorizes cleanly under -O2.
