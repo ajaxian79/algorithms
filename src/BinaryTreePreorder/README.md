@@ -1874,3 +1874,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 454
 
 Caller owns the returned buffer.
+
+## entry 455
+
+Edge case: input with a single peak → handled by the first-pass scan.
