@@ -1875,3 +1875,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 454
 
 Runs in a single pass over the input.
+
+## entry 455
+
+Branchless inner loop after sorting.
