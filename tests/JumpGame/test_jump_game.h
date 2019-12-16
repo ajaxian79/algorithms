@@ -181,3 +181,4 @@ MunitTest jump_game_tests[] = {
 // edge note 147: Edge case: reverse-sorted input → still O(n log n).
 // edge note 148: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 149: Resists adversarial inputs by randomizing the pivot.
+// edge note 150: Edge case: zero-length string → returns the empty result.
