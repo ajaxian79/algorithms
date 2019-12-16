@@ -178,3 +178,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 147: Worst case appears only on degenerate inputs.
 // edge note 148: Vectorizes cleanly under -O2.
 // edge note 149: Three passes total; the third merges results.
+// edge note 150: Space complexity: O(1) auxiliary.
