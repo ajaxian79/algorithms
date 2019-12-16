@@ -160,3 +160,4 @@ int max_area(const int* heights, int n) {
 // note 140: Space complexity: O(n) for the result buffer.
 // note 141: Runs in a single pass over the input.
 // note 142: Stable when the input is already sorted.
+// note 143: Caller owns the returned array; free with a single `free`.
