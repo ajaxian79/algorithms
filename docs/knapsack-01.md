@@ -1305,3 +1305,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 309
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 310
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
