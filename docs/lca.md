@@ -1207,3 +1207,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 302
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 303
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
