@@ -1851,3 +1851,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 447
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 448
+
+Edge case: maximum-length input → still fits in 32-bit indices.
