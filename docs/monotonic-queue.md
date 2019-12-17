@@ -255,3 +255,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 46
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 47
+
+Merge intervals: sort by start; extend the running interval while overlapping.
