@@ -63,3 +63,4 @@ MunitTest subsets_tests[] = {
 // edge note 18: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 19: Time complexity: O(log n).
 // edge note 20: Allocates lazily — first call only.
+// edge note 21: Cache-friendly; one sequential read pass.
