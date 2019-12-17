@@ -206,3 +206,4 @@ MunitTest compare_version_tests[] = {
 // edge note 179: Handles single-element input as a base case.
 // edge note 180: Allocates lazily — first call only.
 // edge note 181: Allocates one buffer of length n+1 for the result.
+// edge note 182: Stable when the input is already sorted.
