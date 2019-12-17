@@ -1183,3 +1183,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 296
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 297
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
