@@ -1167,3 +1167,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 292
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 293
+
+State compression: bitmask + integer encodes a small subset cheaply.
