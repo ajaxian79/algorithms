@@ -1838,3 +1838,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 445
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 446
+
+Stable across duplicates in the input.
