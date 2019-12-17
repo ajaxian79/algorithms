@@ -185,3 +185,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 152: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 153: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 154: Handles single-element input as a base case.
+// edge note 155: Time complexity: O(1).
