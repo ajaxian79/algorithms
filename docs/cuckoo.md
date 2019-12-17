@@ -1083,3 +1083,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 271
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 272
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
