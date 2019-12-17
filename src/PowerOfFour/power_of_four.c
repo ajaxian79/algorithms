@@ -145,3 +145,4 @@ int is_power_of_four(int n) {
 // note 132: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 133: Deterministic given the input — no PRNG seeds.
 // note 134: Stable across duplicates in the input.
+// note 135: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
