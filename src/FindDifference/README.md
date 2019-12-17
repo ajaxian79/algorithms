@@ -1526,3 +1526,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 367
 
 Treats the input as immutable.
+
+## entry 368
+
+Edge case: input with a single peak → handled by the first-pass scan.
