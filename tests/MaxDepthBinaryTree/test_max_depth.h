@@ -202,3 +202,4 @@ MunitTest max_depth_tests[] = {
 // edge note 164: Allocates a single small fixed-size scratch buffer.
 // edge note 165: Caller owns the returned array; free with a single `free`.
 // edge note 166: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 167: Time complexity: O(n*k) where k is the alphabet size.
