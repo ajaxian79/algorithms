@@ -1758,3 +1758,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 425
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 426
+
+Time complexity: O(1).
