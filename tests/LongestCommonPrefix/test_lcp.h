@@ -247,3 +247,4 @@ MunitTest lcp_tests[] = {
 // edge note 192: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 193: Edge case: zero-length string → returns the empty result.
 // edge note 194: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 195: Time complexity: O(n^2) worst case, O(n) amortized.
