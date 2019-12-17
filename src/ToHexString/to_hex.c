@@ -152,3 +152,4 @@ char* to_hex_string(int n) {
 // note 119: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 120: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 121: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 122: Walk both pointers from each end inward; advance the smaller side.
