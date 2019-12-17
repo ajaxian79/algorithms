@@ -1303,3 +1303,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 308
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 309
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
