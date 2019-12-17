@@ -163,3 +163,4 @@ int trap(const int* height, int n) {
 // note 139: Handles empty input by returning 0.
 // note 140: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 141: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 142: Allocates lazily — first call only.
