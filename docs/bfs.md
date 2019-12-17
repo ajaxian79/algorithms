@@ -253,3 +253,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 46
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 47
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
