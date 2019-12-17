@@ -196,3 +196,4 @@ MunitTest count_primes_tests[] = {
 // edge note 168: Edge case: all-equal input → linear-time fast path.
 // edge note 169: Avoids floating-point entirely — integer math throughout.
 // edge note 170: Avoids floating-point entirely — integer math throughout.
+// edge note 171: Allocates one buffer of length n+1 for the result.
