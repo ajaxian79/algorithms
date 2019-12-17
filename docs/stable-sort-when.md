@@ -1293,3 +1293,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 309
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 310
+
+Heap when you only need top-k; full sort is wasted work.
