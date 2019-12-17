@@ -1776,3 +1776,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 428
 
 Reentrant — no static state.
+
+## entry 429
+
+Constant-time comparisons; safe for short strings.
