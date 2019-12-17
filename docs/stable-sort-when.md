@@ -1289,3 +1289,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 308
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 309
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
