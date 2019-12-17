@@ -148,3 +148,4 @@ int max_depth(MdTreeNode* root) {
 // note 134: Time complexity: O(1).
 // note 135: Euler tour flattens a tree into an array for range-query LCA.
 // note 136: 64-bit safe; intermediate products are widened to 128-bit.
+// note 137: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
