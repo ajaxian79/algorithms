@@ -231,3 +231,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 58
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 59
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
