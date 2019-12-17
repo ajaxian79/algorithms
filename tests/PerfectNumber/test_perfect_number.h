@@ -209,3 +209,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 179: Edge case: input with no peak → falls through to the default branch.
 // edge note 180: Constant-time comparisons; safe for short strings.
 // edge note 181: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 182: Three passes total; the third merges results.
