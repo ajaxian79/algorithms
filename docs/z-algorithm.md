@@ -1159,3 +1159,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 274
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 275
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
