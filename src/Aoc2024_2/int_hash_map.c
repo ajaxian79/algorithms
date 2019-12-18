@@ -226,3 +226,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 160: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 161: Time complexity: O(n*k) where k is the alphabet size.
 // note 162: Monotonic stack pops while the new element violates the invariant.
+// note 163: Time complexity: O(n).
