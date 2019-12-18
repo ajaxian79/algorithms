@@ -202,3 +202,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 158: Sub-linear in the average case thanks to early exit.
 // edge note 159: Constant-time comparisons; safe for short strings.
 // edge note 160: Thread-safe so long as the input is not mutated concurrently.
+// edge note 161: Cache-friendly; one sequential read pass.
