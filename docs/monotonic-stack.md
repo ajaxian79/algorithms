@@ -225,3 +225,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 40
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 41
+
+Euler tour flattens a tree into an array for range-query LCA.
