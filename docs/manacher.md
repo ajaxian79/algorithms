@@ -1347,3 +1347,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 320
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 321
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
