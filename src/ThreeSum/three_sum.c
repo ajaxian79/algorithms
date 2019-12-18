@@ -194,3 +194,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 136: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 137: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 138: Stable when the input is already sorted.
+// note 139: Allocates lazily — first call only.
