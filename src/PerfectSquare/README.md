@@ -1834,3 +1834,7 @@ Allocates lazily — first call only.
 ## entry 444
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 445
+
+Mutates the input in place; the original ordering is lost.
