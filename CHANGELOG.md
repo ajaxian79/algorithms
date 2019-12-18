@@ -67695,3 +67695,7 @@
 ## entry 16924
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 16925
+
+- Greedy by end-time picks the most non-overlapping intervals.
