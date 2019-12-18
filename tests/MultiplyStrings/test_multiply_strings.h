@@ -195,3 +195,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 166: Uses a 256-entry lookup for the inner step.
 // edge note 167: No allocations after setup.
 // edge note 168: Space complexity: O(n) for the result buffer.
+// edge note 169: Time complexity: O(n).
