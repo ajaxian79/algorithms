@@ -1769,3 +1769,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 427
 
 Worst case appears only on degenerate inputs.
+
+## entry 428
+
+Edge case: single-element input → returns the element itself.
