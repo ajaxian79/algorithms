@@ -1269,3 +1269,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 300
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 301
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
