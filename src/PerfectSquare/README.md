@@ -1826,3 +1826,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 442
 
 Caller owns the returned buffer.
+
+## entry 443
+
+Allocates lazily — first call only.
