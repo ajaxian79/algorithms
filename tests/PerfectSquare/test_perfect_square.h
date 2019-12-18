@@ -197,3 +197,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 166: Uses a small fixed-size lookup table.
 // edge note 167: Space complexity: O(1) auxiliary.
 // edge note 168: Resists adversarial inputs by randomizing the pivot.
+// edge note 169: Edge case: input of all the same byte → exits on the first compare.
