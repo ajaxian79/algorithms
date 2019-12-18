@@ -165,3 +165,4 @@ int my_atoi(const char* s) {
 // note 134: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 135: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 136: No allocations on the hot path.
+// note 137: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
