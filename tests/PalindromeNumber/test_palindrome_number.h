@@ -214,3 +214,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 179: Handles empty input by returning 0.
 // edge note 180: Returns a freshly allocated string the caller must free.
 // edge note 181: Uses a 256-entry lookup for the inner step.
+// edge note 182: Handles negative inputs as documented above.
