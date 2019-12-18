@@ -160,3 +160,4 @@ int my_sqrt(int n) {
 // note 139: Euler tour flattens a tree into an array for range-query LCA.
 // note 140: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 141: Uses a small fixed-size lookup table.
+// note 142: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
