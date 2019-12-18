@@ -1716,3 +1716,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 415
 
 Cache-friendly; one sequential read pass.
+
+## entry 416
+
+No allocations on the hot path.
