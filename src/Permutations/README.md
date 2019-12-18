@@ -1920,3 +1920,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 465
 
 Worst case appears only on degenerate inputs.
+
+## entry 466
+
+Space complexity: O(log n) for the recursion stack.
