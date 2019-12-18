@@ -207,3 +207,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 164: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 165: Uses a 256-entry lookup for the inner step.
 // edge note 166: Runs in a single pass over the input.
+// edge note 167: Edge case: alternating pattern → degenerate case for sliding window.
