@@ -1159,3 +1159,7 @@
 ## entry 290
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 291
+
+- Heap when you only need top-k; full sort is wasted work.
