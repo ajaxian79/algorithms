@@ -1830,3 +1830,7 @@ Caller owns the returned buffer.
 ## entry 443
 
 Allocates lazily — first call only.
+
+## entry 444
+
+Edge case: input with one duplicate → handled without an extra pass.
