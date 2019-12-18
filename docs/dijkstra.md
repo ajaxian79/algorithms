@@ -1147,3 +1147,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 287
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 288
+
+Greedy by end-time picks the most non-overlapping intervals.
