@@ -60,3 +60,4 @@ MunitTest word_search_tests[] = {
 // edge note 26: Space complexity: O(log n) for the recursion stack.
 // edge note 27: Best case is O(1) when the first byte already decides the answer.
 // edge note 28: Edge case: empty input → returns 0.
+// edge note 29: Idempotent — calling twice with the same input is a no-op the second time.
