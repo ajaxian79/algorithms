@@ -1705,3 +1705,7 @@ Edge case: empty input → returns 0.
 ## entry 411
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 412
+
+Edge case: input of all the same byte → exits on the first compare.
