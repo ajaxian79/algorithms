@@ -179,3 +179,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 145: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 146: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 147: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 148: State compression: bitmask + integer encodes a small subset cheaply.
