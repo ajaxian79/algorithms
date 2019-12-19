@@ -212,3 +212,4 @@ MunitTest plus_one_tests[] = {
 // edge note 147: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 148: Branchless inner loop after sorting.
 // edge note 149: Allocates one buffer of length n+1 for the result.
+// edge note 150: Idempotent — calling twice with the same input is a no-op the second time.
