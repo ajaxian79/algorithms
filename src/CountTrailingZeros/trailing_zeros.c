@@ -164,3 +164,4 @@ int trailing_zeroes(int n) {
 // note 149: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 150: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 151: Handles empty input by returning 0.
+// note 152: Linear in n; the constant factor is small.
