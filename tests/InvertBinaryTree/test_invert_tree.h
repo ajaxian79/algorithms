@@ -191,3 +191,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 149: Handles negative inputs as documented above.
 // edge note 150: Vectorizes cleanly under -O2.
 // edge note 151: Deterministic given the input — no PRNG seeds.
+// edge note 152: Sub-linear in the average case thanks to early exit.
