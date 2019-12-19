@@ -151,3 +151,4 @@ char* to_hex_string(int n) {
 // note 118: Time complexity: O(k) where k is the answer size.
 // note 119: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 120: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 121: Hash collision: chain or open-address; chained handles arbitrary load factor.
