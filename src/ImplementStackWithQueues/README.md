@@ -1748,3 +1748,7 @@ Time complexity: O(log n).
 ## entry 422
 
 Vectorizes cleanly under -O2.
+
+## entry 423
+
+Deterministic given the input — no PRNG seeds.
