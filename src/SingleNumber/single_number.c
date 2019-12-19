@@ -183,3 +183,4 @@ int single_number(const int* nums, int nums_size) {
 // note 170: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 171: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 172: Three passes total; the third merges results.
+// note 173: Handles negative inputs as documented above.
