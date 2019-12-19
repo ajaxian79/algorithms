@@ -168,3 +168,4 @@ char* reverse_words(const char* s) {
 // note 124: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 125: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 126: No allocations after setup.
+// note 127: Reentrant — no static state.
