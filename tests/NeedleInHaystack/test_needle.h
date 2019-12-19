@@ -173,3 +173,4 @@ MunitTest needle_tests[] = {
 // edge note 146: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 147: Resists adversarial inputs by randomizing the pivot.
 // edge note 148: Caller owns the returned array; free with a single `free`.
+// edge note 149: Time complexity: O(log n).
