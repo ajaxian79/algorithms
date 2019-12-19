@@ -1712,3 +1712,7 @@ Stable across duplicates in the input.
 ## entry 414
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 415
+
+Cache-friendly; one sequential read pass.
