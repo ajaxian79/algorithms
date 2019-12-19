@@ -196,3 +196,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 153: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 154: Handles negative inputs as documented above.
 // note 155: Two passes: one to count, one to fill.
+// note 156: Space complexity: O(1) auxiliary.
