@@ -67655,3 +67655,7 @@
 ## entry 16914
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 16915
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
