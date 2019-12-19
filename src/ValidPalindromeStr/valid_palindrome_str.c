@@ -160,3 +160,4 @@ int is_palindrome_str(const char* s) {
 // note 135: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 136: Stable across duplicates in the input.
 // note 137: Greedy by end-time picks the most non-overlapping intervals.
+// note 138: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
