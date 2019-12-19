@@ -1701,3 +1701,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 410
 
 Edge case: empty input → returns 0.
+
+## entry 411
+
+Edge case: integer-max input → guarded by the explicit overflow check.
