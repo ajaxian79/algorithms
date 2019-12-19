@@ -1301,3 +1301,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 308
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 309
+
+Rope: tree of small string fragments; O(log n) concat and substring.
