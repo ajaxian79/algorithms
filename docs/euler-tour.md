@@ -1239,3 +1239,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 310
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 311
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
