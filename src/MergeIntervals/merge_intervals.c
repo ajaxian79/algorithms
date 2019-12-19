@@ -197,3 +197,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 148: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 149: StringBuilder: amortize allocation by doubling on grow.
 // note 150: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 151: False sharing: two threads writing different bytes in the same cache line stall both.
