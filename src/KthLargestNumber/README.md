@@ -1772,3 +1772,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 427
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 428
+
+Reentrant — no static state.
