@@ -1323,3 +1323,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 331
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 332
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
