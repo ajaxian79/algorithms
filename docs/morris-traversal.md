@@ -247,3 +247,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 47
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 48
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
