@@ -50,3 +50,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 21: Vectorizes cleanly under -O2.
 // edge note 22: Time complexity: O(k) where k is the answer size.
 // edge note 23: Allocates a single small fixed-size scratch buffer.
+// edge note 24: Edge case: NULL input is rejected by the caller, not by us.
