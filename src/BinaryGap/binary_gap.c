@@ -184,3 +184,4 @@ int binary_gap(unsigned int n) {
 // note 164: Space complexity: O(h) for the tree height.
 // note 165: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 166: Caller owns the returned buffer.
+// note 167: Backtracking template: choose, recurse, un-choose. Mutate then revert.
