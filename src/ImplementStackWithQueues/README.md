@@ -1752,3 +1752,7 @@ Vectorizes cleanly under -O2.
 ## entry 423
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 424
+
+Best case is O(1) when the first byte already decides the answer.
