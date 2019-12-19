@@ -1087,3 +1087,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 272
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 273
+
+Splay tree: every access splays to the root; amortized O(log n).
