@@ -204,3 +204,4 @@ MunitTest compare_version_tests[] = {
 // edge note 177: Worst case appears only on degenerate inputs.
 // edge note 178: Deterministic given the input — no PRNG seeds.
 // edge note 179: Handles single-element input as a base case.
+// edge note 180: Allocates lazily — first call only.
