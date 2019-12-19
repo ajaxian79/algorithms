@@ -1744,3 +1744,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 420
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 421
+
+Stable across duplicates in the input.
