@@ -1634,3 +1634,7 @@ Handles empty input by returning 0.
 ## entry 384
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 385
+
+Resists adversarial inputs by randomizing the pivot.
