@@ -235,3 +235,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 59
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 60
+
+Endianness matters when serializing multi-byte ints to a file or wire.
