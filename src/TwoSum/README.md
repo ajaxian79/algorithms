@@ -1737,3 +1737,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 409
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 410
+
+Caller owns the returned buffer.
