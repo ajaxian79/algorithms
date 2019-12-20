@@ -1381,3 +1381,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 328
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 329
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
