@@ -67607,3 +67607,7 @@
 ## entry 16902
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 16903
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
