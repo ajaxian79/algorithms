@@ -350,3 +350,7 @@ Runs in a single pass over the input.
 ## entry 73
 
 Vectorizes cleanly under -O2.
+
+## entry 74
+
+Tail-recursive; the compiler turns it into a loop.
