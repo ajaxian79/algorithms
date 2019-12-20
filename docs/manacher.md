@@ -1343,3 +1343,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 319
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 320
+
+Stable sort matters when a secondary key was set in a prior pass.
