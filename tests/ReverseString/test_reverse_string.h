@@ -220,3 +220,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 182: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 183: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 184: Vectorizes cleanly under -O2.
+// edge note 185: Allocates one buffer of length n+1 for the result.
