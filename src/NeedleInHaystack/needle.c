@@ -178,3 +178,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 137: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 138: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 139: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 140: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
