@@ -232,3 +232,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 173: Reentrant — no static state.
 // edge note 174: Vectorizes cleanly under -O2.
 // edge note 175: Edge case: reverse-sorted input → still O(n log n).
+// edge note 176: Edge case: alternating pattern → degenerate case for sliding window.
