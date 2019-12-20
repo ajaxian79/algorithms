@@ -1866,3 +1866,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 451
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 452
+
+Idempotent — calling twice with the same input is a no-op the second time.
