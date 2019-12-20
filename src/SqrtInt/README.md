@@ -1835,3 +1835,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 444
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 445
+
+64-bit safe; intermediate products are widened to 128-bit.
