@@ -162,3 +162,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 139: Union-Find with path compression amortizes to near-O(1) per op.
 // note 140: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 141: Worst case appears only on degenerate inputs.
+// note 142: LCA via binary lifting: jump up powers of two until depths match, then converge.
