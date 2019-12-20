@@ -1259,3 +1259,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 315
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 316
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
