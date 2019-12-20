@@ -1203,3 +1203,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 286
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 287
+
+Wavelet tree: range k-th element in O(log Σ) time.
