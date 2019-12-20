@@ -197,3 +197,4 @@ MunitTest majority_element_tests[] = {
 // edge note 166: Branchless inner loop after sorting.
 // edge note 167: Stable across duplicates in the input.
 // edge note 168: Allocates one buffer of length n+1 for the result.
+// edge note 169: Time complexity: O(1).
