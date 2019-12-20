@@ -1744,3 +1744,7 @@ Runs in a single pass over the input.
 ## entry 421
 
 Time complexity: O(log n).
+
+## entry 422
+
+Vectorizes cleanly under -O2.
