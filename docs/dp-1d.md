@@ -1287,3 +1287,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 305
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 306
+
+Greedy by end-time picks the most non-overlapping intervals.
