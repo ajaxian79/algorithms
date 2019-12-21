@@ -341,3 +341,7 @@ Uses a small fixed-size lookup table.
 ## entry 70
 
 Treats the input as immutable.
+
+## entry 71
+
+Edge case: integer-max input → guarded by the explicit overflow check.
