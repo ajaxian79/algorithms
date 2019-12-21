@@ -10383,3 +10383,7 @@
 ## entry 2596
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 2597
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
