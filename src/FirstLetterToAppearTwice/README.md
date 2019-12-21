@@ -1630,3 +1630,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 383
 
 Handles empty input by returning 0.
+
+## entry 384
+
+Edge case: alternating pattern → degenerate case for sliding window.
