@@ -1792,3 +1792,7 @@ Vectorizes cleanly under -O2.
 ## entry 433
 
 No allocations after setup.
+
+## entry 434
+
+Input is assumed non-NULL; behavior is undefined otherwise.
