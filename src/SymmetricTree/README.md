@@ -1754,3 +1754,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 424
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 425
+
+Avoids floating-point entirely — integer math throughout.
