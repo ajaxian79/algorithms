@@ -1193,3 +1193,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 282
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 283
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
