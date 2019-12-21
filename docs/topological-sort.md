@@ -1213,3 +1213,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 285
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 286
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
