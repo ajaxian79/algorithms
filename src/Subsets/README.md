@@ -1871,3 +1871,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 453
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 454
+
+Runs in a single pass over the input.
