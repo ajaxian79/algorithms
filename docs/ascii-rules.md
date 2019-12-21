@@ -219,3 +219,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 55
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 56
+
+Stable sort matters when a secondary key was set in a prior pass.
