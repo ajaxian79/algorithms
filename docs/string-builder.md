@@ -175,3 +175,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 44
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 45
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
