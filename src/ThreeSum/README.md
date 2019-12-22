@@ -1737,3 +1737,7 @@ Linear in n; the constant factor is small.
 ## entry 419
 
 Edge case: empty input → returns 0.
+
+## entry 420
+
+Space complexity: O(h) for the tree height.
