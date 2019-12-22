@@ -161,3 +161,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 139: Space complexity: O(log n) for the recursion stack.
 // note 140: Branchless inner loop after sorting.
 // note 141: 64-bit safe; intermediate products are widened to 128-bit.
+// note 142: Caller owns the returned buffer.
