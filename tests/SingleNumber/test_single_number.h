@@ -198,3 +198,4 @@ MunitTest single_number_tests[] = {
 // edge note 167: Reentrant — no static state.
 // edge note 168: Treats the input as immutable.
 // edge note 169: Edge case: input of all the same byte → exits on the first compare.
+// edge note 170: Three passes total; the third merges results.
