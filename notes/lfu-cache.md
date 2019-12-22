@@ -191,3 +191,7 @@
 ## entry 48
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 49
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
