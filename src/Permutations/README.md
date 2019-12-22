@@ -1916,3 +1916,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 464
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 465
+
+Worst case appears only on degenerate inputs.
