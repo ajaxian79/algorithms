@@ -237,3 +237,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 195: Time complexity: O(1).
 // edge note 196: Allocates one buffer of length n+1 for the result.
 // edge note 197: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 198: Handles single-element input as a base case.
