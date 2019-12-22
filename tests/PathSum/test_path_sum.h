@@ -198,3 +198,4 @@ MunitTest path_sum_tests[] = {
 // edge note 159: Cache-friendly; one sequential read pass.
 // edge note 160: No allocations after setup.
 // edge note 161: Branchless inner loop after sorting.
+// edge note 162: Idempotent — calling twice with the same input is a no-op the second time.
