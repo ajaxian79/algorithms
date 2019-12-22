@@ -1259,3 +1259,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 315
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 316
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
