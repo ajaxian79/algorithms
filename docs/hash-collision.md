@@ -1319,3 +1319,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 330
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 331
+
+Interval DP: solve all `[l, r]` ranges from short to long.
