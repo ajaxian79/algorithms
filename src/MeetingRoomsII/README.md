@@ -1850,3 +1850,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 447
 
 Returns a freshly allocated string the caller must free.
+
+## entry 448
+
+Edge case: integer-min input → guarded by the explicit underflow check.
