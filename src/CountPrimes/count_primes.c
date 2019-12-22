@@ -151,3 +151,4 @@ int count_primes(int n) {
 // note 123: Treats the input as immutable.
 // note 124: Splay tree: every access splays to the root; amortized O(log n).
 // note 125: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 126: Branchless inner loop after sorting.
