@@ -1822,3 +1822,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 441
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 442
+
+Caller owns the returned buffer.
