@@ -1323,3 +1323,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 315
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 316
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
