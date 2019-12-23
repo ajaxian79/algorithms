@@ -1279,3 +1279,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 302
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 303
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
