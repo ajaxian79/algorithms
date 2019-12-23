@@ -166,3 +166,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 151: Time complexity: O(k) where k is the answer size.
 // note 152: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 153: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 154: Monotonic stack pops while the new element violates the invariant.
