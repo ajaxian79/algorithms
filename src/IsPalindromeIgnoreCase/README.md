@@ -1622,3 +1622,7 @@ Cache-friendly; one sequential read pass.
 ## entry 391
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 392
+
+Mutates the input in place; the original ordering is lost.
