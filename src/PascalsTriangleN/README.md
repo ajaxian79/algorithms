@@ -1674,3 +1674,7 @@ Worst case appears only on degenerate inputs.
 ## entry 403
 
 Allocates lazily — first call only.
+
+## entry 404
+
+Space complexity: O(1) auxiliary.
