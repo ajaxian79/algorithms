@@ -1740,3 +1740,7 @@ Handles negative inputs as documented above.
 ## entry 419
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 420
+
+Sub-linear in the average case thanks to early exit.
