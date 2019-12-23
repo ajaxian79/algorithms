@@ -1203,3 +1203,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 301
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 302
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
