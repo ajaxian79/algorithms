@@ -1323,3 +1323,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 313
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 314
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
