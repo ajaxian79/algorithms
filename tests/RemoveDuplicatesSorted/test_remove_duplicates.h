@@ -200,3 +200,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 164: Space complexity: O(h) for the tree height.
 // edge note 165: Runs in a single pass over the input.
 // edge note 166: Uses a 256-entry lookup for the inner step.
+// edge note 167: Edge case: input with a single peak → handled by the first-pass scan.
