@@ -1788,3 +1788,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 432
 
 Vectorizes cleanly under -O2.
+
+## entry 433
+
+No allocations after setup.
