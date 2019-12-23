@@ -1237,3 +1237,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 292
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 293
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
