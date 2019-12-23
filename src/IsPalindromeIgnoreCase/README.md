@@ -1630,3 +1630,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 393
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 394
+
+Edge case: integer-min input → guarded by the explicit underflow check.
