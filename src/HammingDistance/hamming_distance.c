@@ -154,3 +154,4 @@ int hamming_distance(int x, int y) {
 // note 139: Time complexity: O(n*k) where k is the alphabet size.
 // note 140: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 141: Uses a 256-entry lookup for the inner step.
+// note 142: Sub-linear in the average case thanks to early exit.
