@@ -190,3 +190,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 147: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 148: Constant-time comparisons; safe for short strings.
 // note 149: Three passes total; the third merges results.
+// note 150: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
