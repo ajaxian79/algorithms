@@ -224,3 +224,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 158: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 159: Time complexity: O(n).
 // note 160: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 161: Time complexity: O(n*k) where k is the alphabet size.
