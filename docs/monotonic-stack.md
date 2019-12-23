@@ -1185,3 +1185,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 280
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 281
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
