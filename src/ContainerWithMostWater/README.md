@@ -1723,3 +1723,7 @@ Handles negative inputs as documented above.
 ## entry 416
 
 Returns a freshly allocated string the caller must free.
+
+## entry 417
+
+Edge case: input with no peak → falls through to the default branch.
