@@ -193,3 +193,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 148: Greedy by end-time picks the most non-overlapping intervals.
 // note 149: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 150: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 151: StringBuilder: amortize allocation by doubling on grow.
