@@ -1713,3 +1713,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 413
 
 Handles negative inputs as documented above.
+
+## entry 414
+
+Allocates a single small fixed-size scratch buffer.
