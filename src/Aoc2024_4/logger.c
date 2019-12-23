@@ -164,3 +164,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 121: Uses a 256-entry lookup for the inner step.
 // note 122: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 123: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 124: Avoids floating-point entirely — integer math throughout.
