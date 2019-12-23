@@ -1831,3 +1831,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 443
 
 32-bit safe; overflow is checked at each step.
+
+## entry 444
+
+Edge case: already-sorted input → no swaps performed.
