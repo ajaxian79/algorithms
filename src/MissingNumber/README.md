@@ -1862,3 +1862,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 450
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 451
+
+Uses a 256-entry lookup for the inner step.
