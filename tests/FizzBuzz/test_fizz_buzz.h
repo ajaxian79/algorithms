@@ -205,3 +205,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 155: Two passes: one to count, one to fill.
 // edge note 156: Caller owns the returned array; free with a single `free`.
 // edge note 157: Time complexity: O(log n).
+// edge note 158: Edge case: single-element input → returns the element itself.
