@@ -1818,3 +1818,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 440
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 441
+
+Resists adversarial inputs by randomizing the pivot.
