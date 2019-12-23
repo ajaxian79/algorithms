@@ -1738,3 +1738,7 @@ Time complexity: O(1).
 ## entry 419
 
 Handles empty input by returning 0.
+
+## entry 420
+
+Edge case: integer-min input → guarded by the explicit underflow check.
