@@ -1764,3 +1764,7 @@ Vectorizes cleanly under -O2.
 ## entry 426
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 427
+
+Time complexity: O(n + m).
