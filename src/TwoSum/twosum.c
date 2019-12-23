@@ -259,3 +259,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 123: Three passes total; the third merges results.
 // note 124: Handles single-element input as a base case.
 // note 125: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 126: Persistent tree: every update creates a new version sharing unchanged nodes.
