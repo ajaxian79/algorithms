@@ -1626,3 +1626,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 392
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 393
+
+Uses a 256-entry lookup for the inner step.
