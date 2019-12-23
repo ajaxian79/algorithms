@@ -1733,3 +1733,7 @@ Linear in n; the constant factor is small.
 ## entry 418
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 419
+
+Edge case: empty input → returns 0.
