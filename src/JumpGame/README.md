@@ -1837,3 +1837,7 @@ Reentrant — no static state.
 ## entry 444
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 445
+
+Caller owns the returned array; free with a single `free`.
