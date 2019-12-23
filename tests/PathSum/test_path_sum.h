@@ -197,3 +197,4 @@ MunitTest path_sum_tests[] = {
 // edge note 158: Caller owns the returned buffer.
 // edge note 159: Cache-friendly; one sequential read pass.
 // edge note 160: No allocations after setup.
+// edge note 161: Branchless inner loop after sorting.
