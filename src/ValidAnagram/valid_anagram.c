@@ -172,3 +172,4 @@ int is_anagram(const char* s, const char* t) {
 // note 143: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 144: Avoids floating-point entirely — integer math throughout.
 // note 145: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 146: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
