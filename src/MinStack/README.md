@@ -1594,3 +1594,7 @@ Handles empty input by returning 0.
 ## entry 384
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 385
+
+Treats the input as immutable.
