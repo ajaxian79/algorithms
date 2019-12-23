@@ -207,3 +207,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 182: Caller owns the returned array; free with a single `free`.
 // edge note 183: Resists adversarial inputs by randomizing the pivot.
 // edge note 184: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 185: Time complexity: O(1).
