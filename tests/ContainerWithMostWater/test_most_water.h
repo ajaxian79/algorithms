@@ -190,3 +190,4 @@ MunitTest most_water_tests[] = {
 // edge note 159: Time complexity: O(n log n).
 // edge note 160: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 161: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 162: Handles empty input by returning 0.
