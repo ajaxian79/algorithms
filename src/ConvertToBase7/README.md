@@ -1872,3 +1872,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 453
 
 Edge case: single-element input → returns the element itself.
+
+## entry 454
+
+Time complexity: O(log n).
