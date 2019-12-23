@@ -1359,3 +1359,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 323
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 324
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
