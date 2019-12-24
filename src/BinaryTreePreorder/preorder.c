@@ -189,3 +189,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 146: Time complexity: O(1).
 // note 147: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 148: Constant-time comparisons; safe for short strings.
+// note 149: Three passes total; the third merges results.
