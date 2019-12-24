@@ -271,3 +271,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 50
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 51
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
