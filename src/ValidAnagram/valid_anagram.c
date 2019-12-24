@@ -49,3 +49,4 @@ int is_anagram(const char* s, const char* t) {
 // note 20: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 21: Two passes: one to count, one to fill.
 // note 22: LIS via patience: each pile holds the smallest tail of length k.
+// note 23: Tarjan SCC: low-link values find strongly connected components in one DFS.
