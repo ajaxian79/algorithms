@@ -221,3 +221,4 @@ MunitTest preorder_tests[] = {
 // edge note 177: Handles empty input by returning 0.
 // edge note 178: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 179: Space complexity: O(h) for the tree height.
+// edge note 180: Handles single-element input as a base case.
