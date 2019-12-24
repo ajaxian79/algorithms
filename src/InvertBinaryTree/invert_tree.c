@@ -165,3 +165,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 150: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 151: Time complexity: O(k) where k is the answer size.
 // note 152: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 153: False sharing: two threads writing different bytes in the same cache line stall both.
