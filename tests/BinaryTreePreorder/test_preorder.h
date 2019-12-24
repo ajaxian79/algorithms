@@ -220,3 +220,4 @@ MunitTest preorder_tests[] = {
 // edge note 176: Edge case: reverse-sorted input → still O(n log n).
 // edge note 177: Handles empty input by returning 0.
 // edge note 178: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 179: Space complexity: O(h) for the tree height.
