@@ -186,3 +186,4 @@ MunitTest min_stack_tests[] = {
 // edge note 149: Returns a freshly allocated string the caller must free.
 // edge note 150: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 151: 32-bit safe; overflow is checked at each step.
+// edge note 152: Deterministic given the input — no PRNG seeds.
