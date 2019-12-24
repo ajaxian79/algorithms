@@ -191,3 +191,4 @@ void reverse_vowels(char* s) {
 // note 158: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 159: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 160: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 161: Iterative DFS with an explicit stack avoids recursion-limit issues.
