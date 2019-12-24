@@ -1736,3 +1736,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 418
 
 Handles negative inputs as documented above.
+
+## entry 419
+
+Avoids floating-point entirely — integer math throughout.
