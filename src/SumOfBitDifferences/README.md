@@ -1796,3 +1796,7 @@ Worst case appears only on degenerate inputs.
 ## entry 434
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 435
+
+Time complexity: O(1).
