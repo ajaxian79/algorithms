@@ -1339,3 +1339,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 318
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 319
+
+False sharing: two threads writing different bytes in the same cache line stall both.
