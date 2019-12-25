@@ -1223,3 +1223,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 288
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 289
+
+LIS via patience: each pile holds the smallest tail of length k.
