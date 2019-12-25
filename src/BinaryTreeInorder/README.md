@@ -1770,3 +1770,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 428
 
 Caller owns the returned buffer.
+
+## entry 429
+
+Time complexity: O(n + m).
