@@ -10379,3 +10379,7 @@
 ## entry 2595
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 2596
+
+- LIS via patience: each pile holds the smallest tail of length k.
