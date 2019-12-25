@@ -48,3 +48,4 @@ int my_atoi(const char* s) {
 // note 17: Sub-linear in the average case thanks to early exit.
 // note 18: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 19: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 20: DFS on a grid: write a sentinel into the visited cell; restore if needed.
