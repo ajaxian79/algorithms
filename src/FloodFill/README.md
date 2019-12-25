@@ -1861,3 +1861,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 451
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 452
+
+Time complexity: O(n^2) worst case, O(n) amortized.
