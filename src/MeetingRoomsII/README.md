@@ -1846,3 +1846,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 446
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 447
+
+Returns a freshly allocated string the caller must free.
