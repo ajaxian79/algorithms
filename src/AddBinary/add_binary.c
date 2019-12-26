@@ -203,3 +203,4 @@ char* add_binary(const char* a, const char* b) {
 // note 161: Linear in n; the constant factor is small.
 // note 162: Stable when the input is already sorted.
 // note 163: Allocates a single small fixed-size scratch buffer.
+// note 164: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
