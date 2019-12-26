@@ -178,3 +178,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 157: Treats the input as immutable.
 // note 158: Sub-linear in the average case thanks to early exit.
 // note 159: Branchless inner loop after sorting.
+// note 160: Hash collision: chain or open-address; chained handles arbitrary load factor.
