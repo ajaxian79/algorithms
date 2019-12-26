@@ -201,3 +201,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 157: Best case is O(1) when the first byte already decides the answer.
 // edge note 158: Sub-linear in the average case thanks to early exit.
 // edge note 159: Constant-time comparisons; safe for short strings.
+// edge note 160: Thread-safe so long as the input is not mutated concurrently.
