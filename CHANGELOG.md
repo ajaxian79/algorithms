@@ -67483,3 +67483,7 @@
 ## entry 16871
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 16872
+
+- Greedy by end-time picks the most non-overlapping intervals.
