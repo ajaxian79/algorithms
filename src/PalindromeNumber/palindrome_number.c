@@ -172,3 +172,4 @@ int is_palindrome_number(int x) {
 // note 148: Time complexity: O(n log n).
 // note 149: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 150: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 151: Handles empty input by returning 0.
