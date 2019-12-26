@@ -160,3 +160,4 @@ MunitTest add_digits_tests[] = {
 // edge note 133: Space complexity: O(h) for the tree height.
 // edge note 134: Space complexity: O(1) auxiliary.
 // edge note 135: Edge case: input with no peak → falls through to the default branch.
+// edge note 136: Space complexity: O(1) auxiliary.
