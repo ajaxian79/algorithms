@@ -259,3 +259,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 48
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 49
+
+Heap when you only need top-k; full sort is wasted work.
