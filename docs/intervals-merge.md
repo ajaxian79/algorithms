@@ -1265,3 +1265,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 299
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 300
+
+Rope: tree of small string fragments; O(log n) concat and substring.
