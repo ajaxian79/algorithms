@@ -183,3 +183,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 138: Avoids floating-point entirely — integer math throughout.
 // note 139: Space complexity: O(1) auxiliary.
 // note 140: Stable sort matters when a secondary key was set in a prior pass.
+// note 141: Space complexity: O(h) for the tree height.
