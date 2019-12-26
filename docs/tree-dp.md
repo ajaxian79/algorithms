@@ -1359,3 +1359,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 340
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 341
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
