@@ -240,3 +240,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 180: Edge case: input with no peak → falls through to the default branch.
 // edge note 181: Worst case appears only on degenerate inputs.
 // edge note 182: Constant-time comparisons; safe for short strings.
+// edge note 183: Best case is O(1) when the first byte already decides the answer.
