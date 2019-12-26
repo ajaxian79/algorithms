@@ -317,3 +317,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 150: Allocates one buffer of length n+1 for the result.
 // note 151: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 152: Allocates a single small fixed-size scratch buffer.
+// note 153: Space complexity: O(h) for the tree height.
