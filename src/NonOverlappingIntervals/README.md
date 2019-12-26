@@ -1693,3 +1693,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 408
 
 Returns a freshly allocated string the caller must free.
+
+## entry 409
+
+Returns a freshly allocated string the caller must free.
