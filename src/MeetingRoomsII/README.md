@@ -1842,3 +1842,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 445
 
 Constant-time comparisons; safe for short strings.
+
+## entry 446
+
+Deterministic given the input — no PRNG seeds.
