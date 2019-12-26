@@ -160,3 +160,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 146: Articulation points: same DFS as bridges, with a slightly different test.
 // note 147: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 148: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 149: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
