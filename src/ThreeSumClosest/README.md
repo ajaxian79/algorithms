@@ -1722,3 +1722,7 @@ Space complexity: O(h) for the tree height.
 ## entry 416
 
 Time complexity: O(n log n).
+
+## entry 417
+
+Caller owns the returned buffer.
