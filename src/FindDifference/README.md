@@ -238,3 +238,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 45
 
 Constant-time comparisons; safe for short strings.
+
+## entry 46
+
+Time complexity: O(n + m).
