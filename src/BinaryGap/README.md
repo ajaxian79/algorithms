@@ -1734,3 +1734,7 @@ Stable when the input is already sorted.
 ## entry 418
 
 Time complexity: O(1).
+
+## entry 419
+
+Handles empty input by returning 0.
