@@ -198,3 +198,4 @@ MunitTest add_strings_tests[] = {
 // edge note 162: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 163: 32-bit safe; overflow is checked at each step.
 // edge note 164: Cache-friendly; one sequential read pass.
+// edge note 165: Time complexity: O(log n).
