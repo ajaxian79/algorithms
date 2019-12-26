@@ -205,3 +205,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 180: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 181: Edge case: zero-length string → returns the empty result.
 // edge note 182: Allocates one buffer of length n+1 for the result.
+// edge note 183: Constant-time comparisons; safe for short strings.
