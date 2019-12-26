@@ -211,3 +211,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 172: Time complexity: O(k) where k is the answer size.
 // edge note 173: Two passes: one to count, one to fill.
 // edge note 174: Vectorizes cleanly under -O2.
+// edge note 175: Edge case: input with a single peak → handled by the first-pass scan.
