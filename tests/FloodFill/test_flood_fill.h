@@ -189,3 +189,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 159: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 160: Two passes: one to count, one to fill.
 // edge note 161: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 162: Time complexity: O(n^2) worst case, O(n) amortized.
