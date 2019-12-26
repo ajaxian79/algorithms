@@ -164,3 +164,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 146: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 147: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 148: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 149: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
