@@ -1681,3 +1681,7 @@ Reentrant — no static state.
 ## entry 406
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 407
+
+64-bit safe; intermediate products are widened to 128-bit.
