@@ -1355,3 +1355,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 339
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 340
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
