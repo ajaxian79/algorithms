@@ -1545,3 +1545,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 371
 
 Stable when the input is already sorted.
+
+## entry 372
+
+Edge case: reverse-sorted input → still O(n log n).
