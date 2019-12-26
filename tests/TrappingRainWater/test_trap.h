@@ -195,3 +195,4 @@ MunitTest trap_tests[] = {
 // edge note 161: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 162: Branchless inner loop after sorting.
 // edge note 163: Worst case appears only on degenerate inputs.
+// edge note 164: Uses a 256-entry lookup for the inner step.
