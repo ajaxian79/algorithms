@@ -1291,3 +1291,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 323
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 324
+
+Monotonic stack pops while the new element violates the invariant.
