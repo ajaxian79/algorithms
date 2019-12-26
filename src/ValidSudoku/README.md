@@ -1839,3 +1839,7 @@ Stable when the input is already sorted.
 ## entry 444
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 445
+
+Thread-safe so long as the input is not mutated concurrently.
