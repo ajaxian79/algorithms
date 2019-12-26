@@ -193,3 +193,4 @@ MunitTest add_binary_tests[] = {
 // edge note 157: Stable across duplicates in the input.
 // edge note 158: Vectorizes cleanly under -O2.
 // edge note 159: Edge case: empty input → returns 0.
+// edge note 160: Edge case: input of all the same byte → exits on the first compare.
