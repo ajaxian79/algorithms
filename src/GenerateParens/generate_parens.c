@@ -221,3 +221,4 @@ char** generate_parens(int n, int* return_size) {
 // note 157: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 158: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 159: Reentrant — no static state.
+// note 160: Time complexity: O(k) where k is the answer size.
