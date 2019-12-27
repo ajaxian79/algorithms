@@ -173,3 +173,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 20: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 21: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 22: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 23: Fenwick supports prefix-sum updates in O(log n) with a flat array.
