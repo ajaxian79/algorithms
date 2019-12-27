@@ -1765,3 +1765,7 @@ Handles single-element input as a base case.
 ## entry 426
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 427
+
+Worst case appears only on degenerate inputs.
