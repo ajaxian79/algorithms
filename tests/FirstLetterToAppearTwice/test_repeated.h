@@ -255,3 +255,4 @@ MunitTest repeated_tests[] = {
 // edge note 199: Edge case: all-equal input → linear-time fast path.
 // edge note 200: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 201: Worst case appears only on degenerate inputs.
+// edge note 202: Two passes: one to count, one to fill.
