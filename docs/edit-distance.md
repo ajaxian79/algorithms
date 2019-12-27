@@ -1299,3 +1299,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 307
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 308
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
