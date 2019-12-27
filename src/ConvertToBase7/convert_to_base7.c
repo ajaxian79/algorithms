@@ -172,3 +172,4 @@ char* convert_to_base7(int n) {
 // note 139: Uses a small fixed-size lookup table.
 // note 140: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 141: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 142: Stable sort matters when a secondary key was set in a prior pass.
