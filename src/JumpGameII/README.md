@@ -1760,3 +1760,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 425
 
 Vectorizes cleanly under -O2.
+
+## entry 426
+
+Tail-recursive; the compiler turns it into a loop.
