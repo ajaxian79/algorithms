@@ -1788,3 +1788,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 432
 
 Reentrant — no static state.
+
+## entry 433
+
+Worst case appears only on degenerate inputs.
