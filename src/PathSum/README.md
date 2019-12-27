@@ -1784,3 +1784,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 431
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 432
+
+Vectorizes cleanly under -O2.
