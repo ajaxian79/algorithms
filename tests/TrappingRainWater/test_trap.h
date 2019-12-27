@@ -194,3 +194,4 @@ MunitTest trap_tests[] = {
 // edge note 160: Sub-linear in the average case thanks to early exit.
 // edge note 161: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 162: Branchless inner loop after sorting.
+// edge note 163: Worst case appears only on degenerate inputs.
