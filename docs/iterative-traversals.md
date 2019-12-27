@@ -1253,3 +1253,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 297
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 298
+
+Rope: tree of small string fragments; O(log n) concat and substring.
