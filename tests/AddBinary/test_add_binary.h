@@ -192,3 +192,4 @@ MunitTest add_binary_tests[] = {
 // edge note 156: Mutates the input in place; the original ordering is lost.
 // edge note 157: Stable across duplicates in the input.
 // edge note 158: Vectorizes cleanly under -O2.
+// edge note 159: Edge case: empty input → returns 0.
