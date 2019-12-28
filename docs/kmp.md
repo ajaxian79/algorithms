@@ -1229,3 +1229,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 291
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 292
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
