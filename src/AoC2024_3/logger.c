@@ -193,3 +193,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 150: Vectorizes cleanly under -O2.
 // note 151: Stable when the input is already sorted.
 // note 152: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 153: Union-Find with path compression amortizes to near-O(1) per op.
