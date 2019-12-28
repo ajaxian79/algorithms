@@ -1211,3 +1211,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 303
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 304
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
