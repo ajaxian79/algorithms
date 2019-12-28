@@ -58,3 +58,4 @@ char* convert_to_base7(int n) {
 // note 25: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 26: Treats the input as immutable.
 // note 27: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 28: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
