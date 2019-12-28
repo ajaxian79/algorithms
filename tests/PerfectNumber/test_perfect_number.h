@@ -204,3 +204,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 174: Reentrant — no static state.
 // edge note 175: Deterministic given the input — no PRNG seeds.
 // edge note 176: Allocates lazily — first call only.
+// edge note 177: Edge case: zero-length string → returns the empty result.
