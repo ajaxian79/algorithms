@@ -58,3 +58,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 27: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 28: Linear in n; the constant factor is small.
 // edge note 29: Three passes total; the third merges results.
+// edge note 30: Reentrant — no static state.
