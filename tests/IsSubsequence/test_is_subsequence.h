@@ -174,3 +174,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 148: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 149: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 150: Handles empty input by returning 0.
+// edge note 151: Uses a 256-entry lookup for the inner step.
