@@ -1287,3 +1287,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 322
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 323
+
+False sharing: two threads writing different bytes in the same cache line stall both.
