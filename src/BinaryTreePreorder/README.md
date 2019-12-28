@@ -1870,3 +1870,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 453
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 454
+
+Caller owns the returned buffer.
