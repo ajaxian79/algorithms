@@ -1728,3 +1728,7 @@ Vectorizes cleanly under -O2.
 ## entry 416
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 417
+
+Edge case: maximum-length input → still fits in 32-bit indices.
