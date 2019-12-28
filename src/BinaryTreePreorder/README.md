@@ -354,3 +354,7 @@ Space complexity: O(h) for the tree height.
 ## entry 74
 
 Branchless inner loop after sorting.
+
+## entry 75
+
+Edge case: already-sorted input → no swaps performed.
