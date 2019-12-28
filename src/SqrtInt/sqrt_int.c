@@ -159,3 +159,4 @@ int my_sqrt(int n) {
 // note 138: Articulation points: same DFS as bridges, with a slightly different test.
 // note 139: Euler tour flattens a tree into an array for range-query LCA.
 // note 140: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 141: Uses a small fixed-size lookup table.
