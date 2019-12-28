@@ -1135,3 +1135,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 284
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 285
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
