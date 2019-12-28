@@ -1719,3 +1719,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 415
 
 Handles negative inputs as documented above.
+
+## entry 416
+
+Returns a freshly allocated string the caller must free.
