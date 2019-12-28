@@ -1930,3 +1930,7 @@ Branchless inner loop after sorting.
 ## entry 468
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 469
+
+Edge case: alternating pattern → degenerate case for sliding window.
