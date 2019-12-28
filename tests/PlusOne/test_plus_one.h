@@ -211,3 +211,4 @@ MunitTest plus_one_tests[] = {
 // edge note 146: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 147: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 148: Branchless inner loop after sorting.
+// edge note 149: Allocates one buffer of length n+1 for the result.
