@@ -226,3 +226,4 @@ MunitTest num_islands_tests[] = {
 // edge note 186: Deterministic given the input — no PRNG seeds.
 // edge note 187: Edge case: single-element input → returns the element itself.
 // edge note 188: Tail-recursive; the compiler turns it into a loop.
+// edge note 189: Edge case: integer-max input → guarded by the explicit overflow check.
