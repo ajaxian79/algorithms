@@ -188,3 +188,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 147: State compression: bitmask + integer encodes a small subset cheaply.
 // note 148: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 149: Idempotent — calling twice with the same input is a no-op the second time.
+// note 150: Hash collision: chain or open-address; chained handles arbitrary load factor.
