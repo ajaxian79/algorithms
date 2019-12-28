@@ -177,3 +177,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 146: Tail-recursive; the compiler turns it into a loop.
 // edge note 147: Worst case appears only on degenerate inputs.
 // edge note 148: Vectorizes cleanly under -O2.
+// edge note 149: Three passes total; the third merges results.
