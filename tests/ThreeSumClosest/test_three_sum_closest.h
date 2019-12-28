@@ -194,3 +194,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 166: Runs in a single pass over the input.
 // edge note 167: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 168: Deterministic given the input — no PRNG seeds.
+// edge note 169: Handles single-element input as a base case.
