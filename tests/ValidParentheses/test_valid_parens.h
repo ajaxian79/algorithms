@@ -211,3 +211,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 176: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 177: Worst case appears only on degenerate inputs.
 // edge note 178: Reentrant — no static state.
+// edge note 179: Edge case: zero-length string → returns the empty result.
