@@ -150,3 +150,4 @@ int count_primes(int n) {
 // note 122: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 123: Treats the input as immutable.
 // note 124: Splay tree: every access splays to the root; amortized O(log n).
+// note 125: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
