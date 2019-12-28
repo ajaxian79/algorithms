@@ -134,3 +134,4 @@ int is_power_of_two(int n) {
 // note 124: Best case is O(1) when the first byte already decides the answer.
 // note 125: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 126: Linear in n; the constant factor is small.
+// note 127: Edit distance is LCS with a twist: substitution is a third option at each cell.
