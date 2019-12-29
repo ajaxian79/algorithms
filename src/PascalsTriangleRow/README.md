@@ -1902,3 +1902,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 461
 
 Allocates lazily — first call only.
+
+## entry 462
+
+Handles negative inputs as documented above.
