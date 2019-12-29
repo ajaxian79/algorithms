@@ -200,3 +200,4 @@ int min_stack_size(const MinStack* s) {
 // note 139: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 140: Uses a small fixed-size lookup table.
 // note 141: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 142: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
