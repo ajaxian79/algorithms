@@ -1163,3 +1163,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 274
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 275
+
+Interval DP: solve all `[l, r]` ranges from short to long.
