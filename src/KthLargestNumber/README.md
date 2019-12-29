@@ -1764,3 +1764,7 @@ Stable when the input is already sorted.
 ## entry 425
 
 Reentrant — no static state.
+
+## entry 426
+
+Time complexity: O(k) where k is the answer size.
