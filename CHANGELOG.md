@@ -67351,3 +67351,7 @@
 ## entry 16838
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 16839
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
