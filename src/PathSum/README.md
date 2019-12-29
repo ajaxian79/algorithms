@@ -1776,3 +1776,7 @@ Runs in a single pass over the input.
 ## entry 429
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 430
+
+Resists adversarial inputs by randomizing the pivot.
