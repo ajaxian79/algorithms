@@ -1171,3 +1171,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 277
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 278
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
