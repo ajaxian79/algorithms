@@ -1733,3 +1733,7 @@ Handles single-element input as a base case.
 ## entry 408
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 409
+
+Time complexity: O(k) where k is the answer size.
