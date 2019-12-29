@@ -1681,3 +1681,7 @@ Space complexity: O(1) auxiliary.
 ## entry 405
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 406
+
+Space complexity: O(1) auxiliary.
