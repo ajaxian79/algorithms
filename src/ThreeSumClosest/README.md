@@ -1718,3 +1718,7 @@ Three passes total; the third merges results.
 ## entry 415
 
 Space complexity: O(h) for the tree height.
+
+## entry 416
+
+Time complexity: O(n log n).
