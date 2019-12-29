@@ -318,3 +318,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 64
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 65
+
+Edge case: already-sorted input → no swaps performed.
