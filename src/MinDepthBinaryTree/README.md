@@ -1674,3 +1674,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 404
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 405
+
+Best case is O(1) when the first byte already decides the answer.
