@@ -251,3 +251,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 47
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 48
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
