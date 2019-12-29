@@ -188,3 +188,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 142: Space complexity: O(log n) for the recursion stack.
 // note 143: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 144: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 145: Avoids floating-point entirely — integer math throughout.
