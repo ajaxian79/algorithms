@@ -1730,3 +1730,7 @@ Treats the input as immutable.
 ## entry 418
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 419
+
+Constant-time comparisons; safe for short strings.
