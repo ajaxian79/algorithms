@@ -1685,3 +1685,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 406
 
 Space complexity: O(1) auxiliary.
+
+## entry 407
+
+Edge case: input with one duplicate → handled without an extra pass.
