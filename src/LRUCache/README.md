@@ -1764,3 +1764,7 @@ Vectorizes cleanly under -O2.
 ## entry 425
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 426
+
+Edge case: input of all the same byte → exits on the first compare.
