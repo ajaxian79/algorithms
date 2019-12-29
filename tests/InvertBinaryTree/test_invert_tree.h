@@ -190,3 +190,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 148: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 149: Handles negative inputs as documented above.
 // edge note 150: Vectorizes cleanly under -O2.
+// edge note 151: Deterministic given the input — no PRNG seeds.
