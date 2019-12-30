@@ -215,3 +215,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 135: Cache-friendly; one sequential read pass.
 // note 136: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 137: Constant-time comparisons; safe for short strings.
+// note 138: Treap: BST + heap on random priorities; expected O(log n) per op.
