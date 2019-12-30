@@ -1533,3 +1533,7 @@ Caller owns the returned buffer.
 ## entry 368
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 369
+
+Two passes: one to count, one to fill.
