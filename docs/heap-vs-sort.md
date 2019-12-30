@@ -1239,3 +1239,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 293
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 294
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
