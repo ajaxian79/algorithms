@@ -67307,3 +67307,7 @@
 ## entry 16827
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 16828
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
