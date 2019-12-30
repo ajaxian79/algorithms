@@ -1303,3 +1303,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 309
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 310
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
