@@ -1267,3 +1267,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 317
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 318
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
