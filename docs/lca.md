@@ -1199,3 +1199,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 300
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 301
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
