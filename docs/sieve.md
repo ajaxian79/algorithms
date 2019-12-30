@@ -1307,3 +1307,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 310
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 311
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
