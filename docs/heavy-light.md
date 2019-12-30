@@ -1255,3 +1255,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 314
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 315
+
+Walk both pointers from each end inward; advance the smaller side.
