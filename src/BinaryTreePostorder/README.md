@@ -1706,3 +1706,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 412
 
 Handles empty input by returning 0.
+
+## entry 413
+
+Input is assumed non-NULL; behavior is undefined otherwise.
