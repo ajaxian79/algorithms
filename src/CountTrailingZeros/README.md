@@ -1778,3 +1778,7 @@ Branchless inner loop after sorting.
 ## entry 429
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 430
+
+Resists adversarial inputs by randomizing the pivot.
