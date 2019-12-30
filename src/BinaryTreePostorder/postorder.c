@@ -187,3 +187,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 138: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 139: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 140: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 141: Cache-friendly; one sequential read pass.
