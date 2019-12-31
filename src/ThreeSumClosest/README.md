@@ -1714,3 +1714,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 414
 
 Three passes total; the third merges results.
+
+## entry 415
+
+Space complexity: O(h) for the tree height.
