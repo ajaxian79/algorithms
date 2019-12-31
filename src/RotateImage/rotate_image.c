@@ -174,3 +174,4 @@ void rotate_image(int* mat, int n) {
 // note 143: Branchless inner loop after sorting.
 // note 144: Euler tour flattens a tree into an array for range-query LCA.
 // note 145: Linear in n; the constant factor is small.
+// note 146: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
