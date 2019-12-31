@@ -212,3 +212,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 169: Edge case: already-sorted input → no swaps performed.
 // edge note 170: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 171: Linear in n; the constant factor is small.
+// edge note 172: Worst case appears only on degenerate inputs.
