@@ -1291,3 +1291,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 323
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 324
+
+False sharing: two threads writing different bytes in the same cache line stall both.
