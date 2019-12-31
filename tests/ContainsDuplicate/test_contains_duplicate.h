@@ -185,3 +185,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 142: Time complexity: O(1).
 // edge note 143: 32-bit safe; overflow is checked at each step.
 // edge note 144: Caller owns the returned buffer.
+// edge note 145: Handles empty input by returning 0.
