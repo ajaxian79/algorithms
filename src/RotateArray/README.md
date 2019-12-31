@@ -1839,3 +1839,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 444
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 445
+
+Edge case: all-equal input → linear-time fast path.
