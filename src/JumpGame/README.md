@@ -1829,3 +1829,7 @@ Two passes: one to count, one to fill.
 ## entry 442
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 443
+
+Reentrant — no static state.
