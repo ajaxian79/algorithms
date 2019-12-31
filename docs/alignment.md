@@ -1283,3 +1283,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 321
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 322
+
+Articulation points: same DFS as bridges, with a slightly different test.
