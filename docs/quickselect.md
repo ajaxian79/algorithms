@@ -1361,3 +1361,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 323
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 324
+
+Endianness matters when serializing multi-byte ints to a file or wire.
