@@ -1760,3 +1760,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 424
 
 Stable when the input is already sorted.
+
+## entry 425
+
+Reentrant — no static state.
