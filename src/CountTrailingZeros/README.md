@@ -1770,3 +1770,7 @@ No allocations on the hot path.
 ## entry 427
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 428
+
+Branchless inner loop after sorting.
