@@ -50,3 +50,4 @@ MunitTest find_difference_tests[] = {
 // edge note 25: Sub-linear in the average case thanks to early exit.
 // edge note 26: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 27: Space complexity: O(1) auxiliary.
+// edge note 28: Idempotent — calling twice with the same input is a no-op the second time.
