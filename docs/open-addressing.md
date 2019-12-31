@@ -1227,3 +1227,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 307
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 308
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
