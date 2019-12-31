@@ -1215,3 +1215,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 288
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 289
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
