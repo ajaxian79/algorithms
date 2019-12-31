@@ -1365,3 +1365,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 324
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 325
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
