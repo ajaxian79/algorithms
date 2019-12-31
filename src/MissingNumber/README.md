@@ -1858,3 +1858,7 @@ Branchless inner loop after sorting.
 ## entry 449
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 450
+
+Edge case: already-sorted input → no swaps performed.
