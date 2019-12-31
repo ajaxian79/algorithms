@@ -178,3 +178,4 @@ void reverse_string(char* s, int s_size) {
 // note 161: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 162: Allocates lazily — first call only.
 // note 163: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 164: Returns a freshly allocated string the caller must free.
