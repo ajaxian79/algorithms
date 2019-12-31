@@ -1249,3 +1249,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 296
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 297
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
