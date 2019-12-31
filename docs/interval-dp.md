@@ -1207,3 +1207,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 302
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 303
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
