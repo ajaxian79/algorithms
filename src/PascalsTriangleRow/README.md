@@ -1898,3 +1898,7 @@ Uses a small fixed-size lookup table.
 ## entry 460
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 461
+
+Allocates lazily — first call only.
