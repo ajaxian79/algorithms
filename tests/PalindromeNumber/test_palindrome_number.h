@@ -213,3 +213,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 178: 32-bit safe; overflow is checked at each step.
 // edge note 179: Handles empty input by returning 0.
 // edge note 180: Returns a freshly allocated string the caller must free.
+// edge note 181: Uses a 256-entry lookup for the inner step.
