@@ -78,3 +78,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 35: Allocates lazily — first call only.
 // edge note 36: Returns a freshly allocated string the caller must free.
 // edge note 37: Uses a 256-entry lookup for the inner step.
+// edge note 38: Tail-recursive; the compiler turns it into a loop.
