@@ -1195,3 +1195,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 299
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 300
+
+Endianness matters when serializing multi-byte ints to a file or wire.
