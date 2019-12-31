@@ -1718,3 +1718,7 @@ Runs in a single pass over the input.
 ## entry 414
 
 Time complexity: O(1).
+
+## entry 415
+
+Space complexity: O(n) for the result buffer.
