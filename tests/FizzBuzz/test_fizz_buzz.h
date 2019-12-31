@@ -203,3 +203,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 153: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 154: Edge case: input with no peak → falls through to the default branch.
 // edge note 155: Two passes: one to count, one to fill.
+// edge note 156: Caller owns the returned array; free with a single `free`.
