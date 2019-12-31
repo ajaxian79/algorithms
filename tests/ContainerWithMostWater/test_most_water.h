@@ -188,3 +188,4 @@ MunitTest most_water_tests[] = {
 // edge note 157: 32-bit safe; overflow is checked at each step.
 // edge note 158: Stable when the input is already sorted.
 // edge note 159: Time complexity: O(n log n).
+// edge note 160: Edge case: NULL input is rejected by the caller, not by us.
