@@ -1303,3 +1303,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 309
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 310
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
