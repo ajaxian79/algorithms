@@ -189,3 +189,4 @@ void reverse_vowels(char* s) {
 // note 156: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 157: Walk both pointers from each end inward; advance the smaller side.
 // note 158: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 159: Interval DP: solve all `[l, r]` ranges from short to long.
