@@ -1868,3 +1868,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 452
 
 Returns a freshly allocated string the caller must free.
+
+## entry 453
+
+Edge case: single-element input → returns the element itself.
