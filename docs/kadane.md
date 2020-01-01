@@ -1227,3 +1227,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 291
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 292
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
