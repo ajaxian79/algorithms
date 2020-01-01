@@ -1187,3 +1187,7 @@
 ## entry 280
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 281
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
