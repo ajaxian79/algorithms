@@ -1912,3 +1912,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 463
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 464
+
+Resists adversarial inputs by randomizing the pivot.
