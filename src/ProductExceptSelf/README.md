@@ -1760,3 +1760,7 @@ Treats the input as immutable.
 ## entry 424
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 425
+
+Edge case: input with one duplicate → handled without an extra pass.
