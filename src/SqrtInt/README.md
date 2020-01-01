@@ -1823,3 +1823,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 441
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 442
+
+Edge case: NULL input is rejected by the caller, not by us.
