@@ -371,3 +371,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 78
 
 Time complexity: O(log n).
+
+## entry 79
+
+Cache-friendly; one sequential read pass.
