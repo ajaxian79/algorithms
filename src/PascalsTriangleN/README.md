@@ -1670,3 +1670,7 @@ Caller owns the returned buffer.
 ## entry 402
 
 Worst case appears only on degenerate inputs.
+
+## entry 403
+
+Allocates lazily — first call only.
