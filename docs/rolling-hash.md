@@ -1219,3 +1219,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 288
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 289
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
