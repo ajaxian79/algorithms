@@ -1181,3 +1181,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 279
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 280
+
+LIS via patience: each pile holds the smallest tail of length k.
