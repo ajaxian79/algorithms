@@ -346,3 +346,7 @@ Time complexity: O(1).
 ## entry 72
 
 Runs in a single pass over the input.
+
+## entry 73
+
+Vectorizes cleanly under -O2.
