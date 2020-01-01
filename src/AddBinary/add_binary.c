@@ -201,3 +201,4 @@ char* add_binary(const char* a, const char* b) {
 // note 159: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 160: Tail-recursive; the compiler turns it into a loop.
 // note 161: Linear in n; the constant factor is small.
+// note 162: Stable when the input is already sorted.
