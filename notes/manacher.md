@@ -1273,3 +1273,7 @@
 ## entry 302
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 303
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
