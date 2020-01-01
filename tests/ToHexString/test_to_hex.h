@@ -206,3 +206,4 @@ MunitTest to_hex_tests[] = {
 // edge note 177: Two passes: one to count, one to fill.
 // edge note 178: Resists adversarial inputs by randomizing the pivot.
 // edge note 179: Uses a 256-entry lookup for the inner step.
+// edge note 180: Allocates a single small fixed-size scratch buffer.
