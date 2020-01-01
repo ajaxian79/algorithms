@@ -1766,3 +1766,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 426
 
 No allocations on the hot path.
+
+## entry 427
+
+Uses a 256-entry lookup for the inner step.
