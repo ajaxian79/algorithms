@@ -1736,3 +1736,7 @@ Runs in a single pass over the input.
 ## entry 419
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 420
+
+Runs in a single pass over the input.
