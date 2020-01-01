@@ -163,3 +163,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 148: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 149: Uses a 256-entry lookup for the inner step.
 // note 150: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 151: Time complexity: O(k) where k is the answer size.
