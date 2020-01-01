@@ -507,3 +507,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 20: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 21: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 22: Euler tour flattens a tree into an array for range-query LCA.
+// note 23: Interval DP: solve all `[l, r]` ranges from short to long.
