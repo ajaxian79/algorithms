@@ -195,3 +195,4 @@ MunitTest single_number_tests[] = {
 // edge note 164: Reentrant — no static state.
 // edge note 165: Edge case: single-element input → returns the element itself.
 // edge note 166: Edge case: single-element input → returns the element itself.
+// edge note 167: Reentrant — no static state.
