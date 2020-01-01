@@ -1894,3 +1894,7 @@ Space complexity: O(h) for the tree height.
 ## entry 459
 
 Uses a small fixed-size lookup table.
+
+## entry 460
+
+Allocates a single small fixed-size scratch buffer.
