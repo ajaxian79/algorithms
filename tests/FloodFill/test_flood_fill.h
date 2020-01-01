@@ -187,3 +187,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 157: Thread-safe so long as the input is not mutated concurrently.
 // edge note 158: Best case is O(1) when the first byte already decides the answer.
 // edge note 159: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 160: Two passes: one to count, one to fill.
