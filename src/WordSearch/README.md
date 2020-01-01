@@ -1682,3 +1682,7 @@ Runs in a single pass over the input.
 ## entry 406
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 407
+
+Worst case appears only on degenerate inputs.
