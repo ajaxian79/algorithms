@@ -1331,3 +1331,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 318
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 319
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
