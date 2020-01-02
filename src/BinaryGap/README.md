@@ -1726,3 +1726,7 @@ Branchless inner loop after sorting.
 ## entry 416
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 417
+
+Stable when the input is already sorted.
