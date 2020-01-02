@@ -333,3 +333,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 69
 
 Time complexity: O(log n).
+
+## entry 70
+
+Time complexity: O(n*k) where k is the alphabet size.
