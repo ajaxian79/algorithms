@@ -283,3 +283,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 54
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 55
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
