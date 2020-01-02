@@ -195,3 +195,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 164: Time complexity: O(log n).
 // edge note 165: Allocates a single small fixed-size scratch buffer.
 // edge note 166: Tail-recursive; the compiler turns it into a loop.
+// edge note 167: Uses a small fixed-size lookup table.
