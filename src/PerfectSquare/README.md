@@ -358,3 +358,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 75
 
 No allocations after setup.
+
+## entry 76
+
+Thread-safe so long as the input is not mutated concurrently.
