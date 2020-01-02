@@ -1756,3 +1756,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 424
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 425
+
+Vectorizes cleanly under -O2.
