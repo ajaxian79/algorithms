@@ -215,3 +215,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 38
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 39
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
