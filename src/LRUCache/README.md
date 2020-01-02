@@ -1760,3 +1760,7 @@ Time complexity: O(n).
 ## entry 424
 
 Vectorizes cleanly under -O2.
+
+## entry 425
+
+Sub-linear in the average case thanks to early exit.
