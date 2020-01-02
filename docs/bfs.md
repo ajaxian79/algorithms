@@ -1225,3 +1225,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 289
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 290
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
