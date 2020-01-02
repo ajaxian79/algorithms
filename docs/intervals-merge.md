@@ -1257,3 +1257,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 297
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 298
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
