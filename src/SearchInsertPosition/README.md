@@ -1722,3 +1722,7 @@ Three passes total; the third merges results.
 ## entry 416
 
 No allocations on the hot path.
+
+## entry 417
+
+Treats the input as immutable.
