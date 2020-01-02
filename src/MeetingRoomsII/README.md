@@ -1834,3 +1834,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 443
 
 Treats the input as immutable.
+
+## entry 444
+
+Edge case: integer-max input → guarded by the explicit overflow check.
