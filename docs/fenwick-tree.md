@@ -1235,3 +1235,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 293
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 294
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
