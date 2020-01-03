@@ -159,3 +159,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 40
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 41
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
