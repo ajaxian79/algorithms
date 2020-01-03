@@ -175,3 +175,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 44
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 45
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
