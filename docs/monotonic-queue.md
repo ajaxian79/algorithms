@@ -251,3 +251,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 45
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 46
+
+Rope: tree of small string fragments; O(log n) concat and substring.
