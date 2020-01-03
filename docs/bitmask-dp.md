@@ -231,3 +231,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 58
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 59
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
