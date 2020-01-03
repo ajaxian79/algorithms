@@ -10335,3 +10335,7 @@
 ## entry 2584
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 2585
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
