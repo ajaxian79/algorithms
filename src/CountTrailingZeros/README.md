@@ -1762,3 +1762,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 425
 
 Returns a freshly allocated string the caller must free.
+
+## entry 426
+
+No allocations on the hot path.
