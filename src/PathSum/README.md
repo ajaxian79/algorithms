@@ -364,3 +364,7 @@ Space complexity: O(h) for the tree height.
 ## entry 76
 
 Handles empty input by returning 0.
+
+## entry 77
+
+Stable across duplicates in the input.
