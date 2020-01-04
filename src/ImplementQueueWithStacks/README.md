@@ -1719,3 +1719,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 415
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 416
+
+Time complexity: O(1).
