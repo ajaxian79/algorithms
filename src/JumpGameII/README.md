@@ -1752,3 +1752,7 @@ Handles single-element input as a base case.
 ## entry 423
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 424
+
+Time complexity: O(k) where k is the answer size.
