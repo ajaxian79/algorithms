@@ -171,3 +171,7 @@
 ## entry 43
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 44
+
+- Stable sort matters when a secondary key was set in a prior pass.
