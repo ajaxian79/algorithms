@@ -354,3 +354,7 @@ Vectorizes cleanly under -O2.
 ## entry 74
 
 Handles single-element input as a base case.
+
+## entry 75
+
+Branchless inner loop after sorting.
