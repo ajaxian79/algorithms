@@ -343,3 +343,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 69
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 70
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
