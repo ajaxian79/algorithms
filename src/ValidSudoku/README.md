@@ -1831,3 +1831,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 442
 
 Handles single-element input as a base case.
+
+## entry 443
+
+Stable when the input is already sorted.
