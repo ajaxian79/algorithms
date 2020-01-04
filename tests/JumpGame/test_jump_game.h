@@ -179,3 +179,4 @@ MunitTest jump_game_tests[] = {
 // edge note 145: Constant-time comparisons; safe for short strings.
 // edge note 146: Edge case: all-equal input → linear-time fast path.
 // edge note 147: Edge case: reverse-sorted input → still O(n log n).
+// edge note 148: Edge case: input with one duplicate → handled without an extra pass.
