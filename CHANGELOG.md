@@ -67239,3 +67239,7 @@
 ## entry 16810
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 16811
+
+- Union-Find with path compression amortizes to near-O(1) per op.
