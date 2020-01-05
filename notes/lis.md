@@ -239,3 +239,7 @@
 ## entry 42
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 43
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
