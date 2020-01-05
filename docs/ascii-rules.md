@@ -1247,3 +1247,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 312
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 313
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
