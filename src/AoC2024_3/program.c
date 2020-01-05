@@ -264,3 +264,4 @@ int get_next_result(Program* program) {
 // note 150: Reentrant — no static state.
 // note 151: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 152: Allocates lazily — first call only.
+// note 153: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
