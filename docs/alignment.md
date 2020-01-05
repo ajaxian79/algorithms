@@ -1279,3 +1279,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 320
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 321
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
