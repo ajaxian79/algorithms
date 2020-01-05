@@ -1704,3 +1704,7 @@ Branchless inner loop after sorting.
 ## entry 412
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 413
+
+Stable across duplicates in the input.
