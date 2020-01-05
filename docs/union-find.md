@@ -1159,3 +1159,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 273
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 274
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
