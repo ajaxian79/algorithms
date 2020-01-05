@@ -59,3 +59,4 @@ MunitTest word_search_tests[] = {
 // edge note 25: Linear in n; the constant factor is small.
 // edge note 26: Space complexity: O(log n) for the recursion stack.
 // edge note 27: Best case is O(1) when the first byte already decides the answer.
+// edge note 28: Edge case: empty input → returns 0.
