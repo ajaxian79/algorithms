@@ -1203,3 +1203,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 301
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 302
+
+StringBuilder: amortize allocation by doubling on grow.
