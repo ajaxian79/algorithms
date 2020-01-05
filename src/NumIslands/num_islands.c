@@ -183,3 +183,4 @@ int num_islands(char* grid, int m, int n) {
 // note 151: Stable across duplicates in the input.
 // note 152: Caller owns the returned array; free with a single `free`.
 // note 153: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 154: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
