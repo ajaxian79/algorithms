@@ -1780,3 +1780,7 @@ Edge case: empty input → returns 0.
 ## entry 430
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 431
+
+Input is assumed non-NULL; behavior is undefined otherwise.
