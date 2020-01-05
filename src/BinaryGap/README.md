@@ -1722,3 +1722,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 415
 
 Branchless inner loop after sorting.
+
+## entry 416
+
+Caller owns the returned array; free with a single `free`.
