@@ -1666,3 +1666,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 401
 
 Caller owns the returned buffer.
+
+## entry 402
+
+Worst case appears only on degenerate inputs.
