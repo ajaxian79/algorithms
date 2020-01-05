@@ -212,3 +212,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 177: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 178: 32-bit safe; overflow is checked at each step.
 // edge note 179: Handles empty input by returning 0.
+// edge note 180: Returns a freshly allocated string the caller must free.
