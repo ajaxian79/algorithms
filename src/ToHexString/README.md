@@ -1595,3 +1595,7 @@ Treats the input as immutable.
 ## entry 384
 
 No allocations after setup.
+
+## entry 385
+
+Returns a freshly allocated string the caller must free.
