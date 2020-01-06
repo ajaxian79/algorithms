@@ -202,3 +202,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 175: Space complexity: O(h) for the tree height.
 // edge note 176: Reentrant — no static state.
 // edge note 177: 32-bit safe; overflow is checked at each step.
+// edge note 178: Handles single-element input as a base case.
