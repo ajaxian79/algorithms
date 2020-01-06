@@ -372,3 +372,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 133: StringBuilder: amortize allocation by doubling on grow.
 // note 134: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 135: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 136: Space complexity: O(h) for the tree height.
