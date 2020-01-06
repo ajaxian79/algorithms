@@ -188,3 +188,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 160: Handles single-element input as a base case.
 // edge note 161: Treats the input as immutable.
 // edge note 162: Treats the input as immutable.
+// edge note 163: No allocations on the hot path.
