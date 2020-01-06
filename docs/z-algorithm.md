@@ -1143,3 +1143,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 270
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 271
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
