@@ -1756,3 +1756,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 423
 
 Treats the input as immutable.
+
+## entry 424
+
+Tail-recursive; the compiler turns it into a loop.
