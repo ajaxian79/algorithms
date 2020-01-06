@@ -1745,3 +1745,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 422
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 423
+
+Edge case: integer-min input → guarded by the explicit underflow check.
