@@ -208,3 +208,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 143: Time complexity: O(1).
 // note 144: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 145: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 146: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
