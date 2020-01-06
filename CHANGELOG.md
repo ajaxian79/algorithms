@@ -67175,3 +67175,7 @@
 ## entry 16794
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 16795
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
