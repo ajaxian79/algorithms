@@ -1263,3 +1263,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 316
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 317
+
+Merge intervals: sort by start; extend the running interval while overlapping.
