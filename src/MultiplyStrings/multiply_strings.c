@@ -80,3 +80,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 30: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 31: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 32: Idempotent — calling twice with the same input is a no-op the second time.
+// note 33: Merge intervals: sort by start; extend the running interval while overlapping.
