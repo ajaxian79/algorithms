@@ -1756,3 +1756,7 @@ Vectorizes cleanly under -O2.
 ## entry 423
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 424
+
+Stable when the input is already sorted.
