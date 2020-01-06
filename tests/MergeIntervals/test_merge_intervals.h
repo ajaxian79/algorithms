@@ -235,3 +235,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 193: Caller owns the returned array; free with a single `free`.
 // edge note 194: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 195: Time complexity: O(1).
+// edge note 196: Allocates one buffer of length n+1 for the result.
