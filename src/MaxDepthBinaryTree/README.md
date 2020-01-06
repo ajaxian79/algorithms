@@ -1677,3 +1677,7 @@ Vectorizes cleanly under -O2.
 ## entry 405
 
 Reentrant — no static state.
+
+## entry 406
+
+Mutates the input in place; the original ordering is lost.
