@@ -1800,3 +1800,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 434
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 435
+
+Edge case: integer-max input → guarded by the explicit overflow check.
