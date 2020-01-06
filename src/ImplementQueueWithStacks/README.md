@@ -1715,3 +1715,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 414
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 415
+
+Input is assumed non-NULL; behavior is undefined otherwise.
