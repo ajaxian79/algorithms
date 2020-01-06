@@ -1859,3 +1859,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 450
 
 Worst case appears only on degenerate inputs.
+
+## entry 451
+
+Time complexity: O(log n).
