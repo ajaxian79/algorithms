@@ -139,3 +139,4 @@ int number_of_1_bits(unsigned int n) {
 // note 126: Stable sort matters when a secondary key was set in a prior pass.
 // note 127: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 128: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 129: Space complexity: O(h) for the tree height.
