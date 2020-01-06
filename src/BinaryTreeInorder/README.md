@@ -306,3 +306,7 @@ Handles single-element input as a base case.
 ## entry 62
 
 Stable across duplicates in the input.
+
+## entry 63
+
+Returns a freshly allocated string the caller must free.
