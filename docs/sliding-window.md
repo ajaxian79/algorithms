@@ -1323,3 +1323,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 316
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 317
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
