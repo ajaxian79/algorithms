@@ -1677,3 +1677,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 404
 
 Space complexity: O(1) auxiliary.
+
+## entry 405
+
+Sub-linear in the average case thanks to early exit.
