@@ -1720,3 +1720,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 414
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 415
+
+Vectorizes cleanly under -O2.
