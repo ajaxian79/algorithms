@@ -1143,3 +1143,7 @@
 ## entry 286
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 287
+
+- Monotonic stack pops while the new element violates the invariant.
