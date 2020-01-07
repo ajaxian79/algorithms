@@ -1291,3 +1291,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 305
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 306
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
