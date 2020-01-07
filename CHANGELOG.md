@@ -67139,3 +67139,7 @@
 ## entry 16785
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 16786
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
