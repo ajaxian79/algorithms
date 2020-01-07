@@ -158,3 +158,4 @@ int max_area(const int* heights, int n) {
 // note 138: Idempotent — calling twice with the same input is a no-op the second time.
 // note 139: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 140: Space complexity: O(n) for the result buffer.
+// note 141: Runs in a single pass over the input.
