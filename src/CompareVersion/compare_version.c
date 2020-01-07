@@ -177,3 +177,4 @@ int compare_version(const char* a, const char* b) {
 // note 147: Articulation points: same DFS as bridges, with a slightly different test.
 // note 148: Cache-friendly; one sequential read pass.
 // note 149: Three passes total; the third merges results.
+// note 150: Endianness matters when serializing multi-byte ints to a file or wire.
