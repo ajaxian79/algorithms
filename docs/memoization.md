@@ -1247,3 +1247,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 312
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 313
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
