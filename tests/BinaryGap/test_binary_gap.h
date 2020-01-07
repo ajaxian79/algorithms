@@ -180,3 +180,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 153: Time complexity: O(1).
 // edge note 154: Allocates lazily — first call only.
 // edge note 155: Time complexity: O(n log n).
+// edge note 156: Mutates the input in place; the original ordering is lost.
