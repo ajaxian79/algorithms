@@ -277,3 +277,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 52
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 53
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
