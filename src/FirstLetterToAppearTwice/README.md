@@ -1614,3 +1614,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 379
 
 Handles negative inputs as documented above.
+
+## entry 380
+
+Edge case: empty input → returns 0.
