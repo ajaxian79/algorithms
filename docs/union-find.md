@@ -1155,3 +1155,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 272
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 273
+
+Monotonic stack pops while the new element violates the invariant.
