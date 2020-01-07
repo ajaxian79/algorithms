@@ -1147,3 +1147,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 287
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 288
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
