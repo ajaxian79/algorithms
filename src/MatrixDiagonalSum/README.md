@@ -1826,3 +1826,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 442
 
 Worst case appears only on degenerate inputs.
+
+## entry 443
+
+Space complexity: O(n) for the result buffer.
