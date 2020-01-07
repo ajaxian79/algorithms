@@ -1618,3 +1618,7 @@ Handles negative inputs as documented above.
 ## entry 380
 
 Edge case: empty input → returns 0.
+
+## entry 381
+
+Edge case: NULL input is rejected by the caller, not by us.
