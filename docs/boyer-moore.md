@@ -1211,3 +1211,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 287
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 288
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
