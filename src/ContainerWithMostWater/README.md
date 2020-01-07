@@ -1711,3 +1711,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 413
 
 Allocates lazily — first call only.
+
+## entry 414
+
+Edge case: single-element input → returns the element itself.
