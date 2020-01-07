@@ -289,3 +289,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 58
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 59
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
