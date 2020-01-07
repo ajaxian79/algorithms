@@ -198,3 +198,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 148: Time complexity: O(n*k) where k is the alphabet size.
 // note 149: LIS via patience: each pile holds the smallest tail of length k.
 // note 150: Monotonic stack pops while the new element violates the invariant.
+// note 151: Persistent tree: every update creates a new version sharing unchanged nodes.
