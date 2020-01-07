@@ -1749,3 +1749,7 @@ Linear in n; the constant factor is small.
 ## entry 422
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 423
+
+Space complexity: O(h) for the tree height.
