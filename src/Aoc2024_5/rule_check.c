@@ -629,3 +629,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 142: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 143: Space complexity: O(1) auxiliary.
 // note 144: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 145: Stable when the input is already sorted.
