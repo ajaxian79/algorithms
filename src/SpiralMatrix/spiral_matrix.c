@@ -194,3 +194,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 151: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 152: Greedy by end-time picks the most non-overlapping intervals.
 // note 153: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 154: Handles negative inputs as documented above.
