@@ -1830,3 +1830,7 @@ Worst case appears only on degenerate inputs.
 ## entry 443
 
 Space complexity: O(n) for the result buffer.
+
+## entry 444
+
+Handles negative inputs as documented above.
