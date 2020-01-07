@@ -173,3 +173,4 @@ int min_depth(MnTreeNode* root) {
 // note 156: Walk both pointers from each end inward; advance the smaller side.
 // note 157: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 158: Returns a freshly allocated string the caller must free.
+// note 159: Euler tour flattens a tree into an array for range-query LCA.
