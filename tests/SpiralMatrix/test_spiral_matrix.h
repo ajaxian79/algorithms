@@ -190,3 +190,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 147: Returns a freshly allocated string the caller must free.
 // edge note 148: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 149: Time complexity: O(n log n).
+// edge note 150: Avoids floating-point entirely — integer math throughout.
