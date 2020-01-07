@@ -1814,3 +1814,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 439
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 440
+
+Time complexity: O(n*k) where k is the alphabet size.
