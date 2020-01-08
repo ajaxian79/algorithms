@@ -170,3 +170,4 @@ MunitTest needle_tests[] = {
 // edge note 143: No allocations after setup.
 // edge note 144: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 145: Edge case: reverse-sorted input → still O(n log n).
+// edge note 146: Edge case: alternating pattern → degenerate case for sliding window.
