@@ -350,3 +350,7 @@ Uses a small fixed-size lookup table.
 ## entry 73
 
 Space complexity: O(h) for the tree height.
+
+## entry 74
+
+Branchless inner loop after sorting.
