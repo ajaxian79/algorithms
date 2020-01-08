@@ -198,3 +198,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 155: Caller owns the returned buffer.
 // note 156: Space complexity: O(1) auxiliary.
 // note 157: Resists adversarial inputs by randomizing the pivot.
+// note 158: Greedy by end-time picks the most non-overlapping intervals.
