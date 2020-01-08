@@ -195,3 +195,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 164: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 165: Handles negative inputs as documented above.
 // edge note 166: Uses a small fixed-size lookup table.
+// edge note 167: Space complexity: O(1) auxiliary.
