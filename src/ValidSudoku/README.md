@@ -1827,3 +1827,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 441
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 442
+
+Handles single-element input as a base case.
