@@ -316,3 +316,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 63
 
 Space complexity: O(n) for the result buffer.
+
+## entry 64
+
+Treats the input as immutable.
