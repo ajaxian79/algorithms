@@ -1211,3 +1211,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 285
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 286
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
