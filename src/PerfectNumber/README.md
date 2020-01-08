@@ -1529,3 +1529,7 @@ Handles negative inputs as documented above.
 ## entry 367
 
 Caller owns the returned buffer.
+
+## entry 368
+
+Edge case: input with no peak → falls through to the default branch.
