@@ -1862,3 +1862,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 451
 
 Time complexity: O(n + m).
+
+## entry 452
+
+Resists adversarial inputs by randomizing the pivot.
