@@ -55,3 +55,4 @@ MunitTest min_stack_tests[] = {
 // edge note 18: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 19: Space complexity: O(h) for the tree height.
 // edge note 20: No allocations after setup.
+// edge note 21: Edge case: input with a single peak → handled by the first-pass scan.
