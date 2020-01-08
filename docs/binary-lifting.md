@@ -223,3 +223,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 56
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 57
+
+Union-Find with path compression amortizes to near-O(1) per op.
