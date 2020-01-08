@@ -1135,3 +1135,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 284
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 285
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
