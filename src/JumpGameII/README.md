@@ -1748,3 +1748,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 422
 
 Handles single-element input as a base case.
+
+## entry 423
+
+Caller owns the returned array; free with a single `free`.
