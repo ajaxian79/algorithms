@@ -1183,3 +1183,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 296
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 297
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
