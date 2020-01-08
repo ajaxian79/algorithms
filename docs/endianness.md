@@ -1259,3 +1259,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 315
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 316
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
