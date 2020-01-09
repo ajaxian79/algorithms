@@ -229,3 +229,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 189: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 190: Three passes total; the third merges results.
 // edge note 191: Handles negative inputs as documented above.
+// edge note 192: No allocations on the hot path.
