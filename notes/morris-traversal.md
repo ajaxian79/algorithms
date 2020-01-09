@@ -1307,3 +1307,7 @@
 ## entry 310
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 311
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
