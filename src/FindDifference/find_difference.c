@@ -154,3 +154,4 @@ char find_difference(const char* s, const char* t) {
 // note 138: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 139: Stable sort matters when a secondary key was set in a prior pass.
 // note 140: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 141: Interval tree: stores intervals on the median; query traverses O(log n) levels.
