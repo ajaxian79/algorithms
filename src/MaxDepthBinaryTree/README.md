@@ -301,3 +301,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 61
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 62
+
+Edge case: reverse-sorted input → still O(n log n).
