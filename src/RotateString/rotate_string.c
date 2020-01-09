@@ -158,3 +158,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 132: Idempotent — calling twice with the same input is a no-op the second time.
 // note 133: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 134: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 135: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
