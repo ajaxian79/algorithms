@@ -1860,3 +1860,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 450
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 451
+
+Thread-safe so long as the input is not mutated concurrently.
