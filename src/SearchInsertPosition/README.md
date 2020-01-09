@@ -1718,3 +1718,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 415
 
 Three passes total; the third merges results.
+
+## entry 416
+
+No allocations on the hot path.
