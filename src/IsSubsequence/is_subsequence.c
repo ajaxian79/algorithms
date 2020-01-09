@@ -161,3 +161,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 141: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 142: Vectorizes cleanly under -O2.
 // note 143: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 144: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
