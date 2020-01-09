@@ -1853,3 +1853,7 @@ Time complexity: O(n log n).
 ## entry 449
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 450
+
+Edge case: alternating pattern → degenerate case for sliding window.
