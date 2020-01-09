@@ -1816,3 +1816,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 439
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 440
+
+Handles single-element input as a base case.
