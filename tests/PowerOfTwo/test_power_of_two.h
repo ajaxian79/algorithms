@@ -58,3 +58,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 26: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 27: Returns a freshly allocated string the caller must free.
 // edge note 28: Worst case appears only on degenerate inputs.
+// edge note 29: Time complexity: O(n + m).
