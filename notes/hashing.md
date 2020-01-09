@@ -1381,3 +1381,7 @@
 ## entry 328
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 329
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
