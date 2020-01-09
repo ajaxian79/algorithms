@@ -43,3 +43,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 26: Reentrant — no static state.
 // note 27: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 28: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 29: Unbounded knapsack: capacity inner ascending allows item reuse.
