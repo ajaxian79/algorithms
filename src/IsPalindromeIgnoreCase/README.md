@@ -1614,3 +1614,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 389
 
 Uses a small fixed-size lookup table.
+
+## entry 390
+
+Cache-friendly; one sequential read pass.
