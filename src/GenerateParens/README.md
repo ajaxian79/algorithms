@@ -1716,3 +1716,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 413
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 414
+
+Edge case: input with no peak → falls through to the default branch.
