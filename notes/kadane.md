@@ -247,3 +247,7 @@
 ## entry 44
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 45
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
