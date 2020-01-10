@@ -1047,3 +1047,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 262
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 263
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
