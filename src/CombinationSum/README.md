@@ -379,3 +379,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 80
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 81
+
+Constant-time comparisons; safe for short strings.
