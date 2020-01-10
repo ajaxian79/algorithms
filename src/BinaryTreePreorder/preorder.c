@@ -187,3 +187,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 144: Best case is O(1) when the first byte already decides the answer.
 // note 145: Time complexity: O(n*k) where k is the alphabet size.
 // note 146: Time complexity: O(1).
+// note 147: Open addressing with linear probing wins until load factor exceeds 0.7.
