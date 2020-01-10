@@ -1856,3 +1856,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 449
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 450
+
+Sub-linear in the average case thanks to early exit.
