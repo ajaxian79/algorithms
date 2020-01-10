@@ -313,3 +313,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 63
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 64
+
+Deterministic given the input — no PRNG seeds.
