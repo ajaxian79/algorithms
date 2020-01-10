@@ -304,3 +304,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 61
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 62
+
+Linear in n; the constant factor is small.
