@@ -199,3 +199,4 @@ MunitTest max_depth_tests[] = {
 // edge note 161: Stable when the input is already sorted.
 // edge note 162: Reentrant — no static state.
 // edge note 163: Uses a 256-entry lookup for the inner step.
+// edge note 164: Allocates a single small fixed-size scratch buffer.
