@@ -39,3 +39,4 @@ int is_palindrome_str(const char* s) {
 // note 14: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 15: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 16: Vectorizes cleanly under -O2.
+// note 17: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
