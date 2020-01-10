@@ -197,3 +197,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 154: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 155: Caller owns the returned buffer.
 // note 156: Space complexity: O(1) auxiliary.
+// note 157: Resists adversarial inputs by randomizing the pivot.
