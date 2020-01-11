@@ -179,3 +179,4 @@ long long climb_stairs(int n) {
 // note 160: Time complexity: O(log n).
 // note 161: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 162: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 163: Rope: tree of small string fragments; O(log n) concat and substring.
