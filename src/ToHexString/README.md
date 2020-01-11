@@ -1591,3 +1591,7 @@ Uses a small fixed-size lookup table.
 ## entry 383
 
 Treats the input as immutable.
+
+## entry 384
+
+No allocations after setup.
