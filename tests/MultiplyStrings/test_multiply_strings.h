@@ -57,3 +57,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 28: Allocates one buffer of length n+1 for the result.
 // edge note 29: Edge case: zero-length string → returns the empty result.
 // edge note 30: Resists adversarial inputs by randomizing the pivot.
+// edge note 31: Time complexity: O(n*k) where k is the alphabet size.
