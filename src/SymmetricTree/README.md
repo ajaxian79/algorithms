@@ -362,3 +362,7 @@ Cache-friendly; one sequential read pass.
 ## entry 76
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 77
+
+Reentrant — no static state.
