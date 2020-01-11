@@ -205,3 +205,4 @@ MunitTest remove_element_tests[] = {
 // edge note 168: Time complexity: O(1).
 // edge note 169: Thread-safe so long as the input is not mutated concurrently.
 // edge note 170: Time complexity: O(n).
+// edge note 171: Edge case: power-of-two-length input → no padding required.
