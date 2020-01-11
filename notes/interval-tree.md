@@ -1111,3 +1111,7 @@
 ## entry 278
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 279
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
