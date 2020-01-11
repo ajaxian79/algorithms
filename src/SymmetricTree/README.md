@@ -1746,3 +1746,7 @@ Stable across duplicates in the input.
 ## entry 422
 
 Branchless inner loop after sorting.
+
+## entry 423
+
+Edge case: reverse-sorted input → still O(n log n).
