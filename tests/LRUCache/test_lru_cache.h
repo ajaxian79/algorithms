@@ -77,3 +77,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 34: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 35: Allocates lazily — first call only.
 // edge note 36: Returns a freshly allocated string the caller must free.
+// edge note 37: Uses a 256-entry lookup for the inner step.
