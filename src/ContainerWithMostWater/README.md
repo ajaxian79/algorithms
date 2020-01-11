@@ -1707,3 +1707,7 @@ Handles empty input by returning 0.
 ## entry 412
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 413
+
+Allocates lazily — first call only.
