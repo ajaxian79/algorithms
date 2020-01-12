@@ -195,3 +195,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 146: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 147: 64-bit safe; intermediate products are widened to 128-bit.
 // note 148: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 149: StringBuilder: amortize allocation by doubling on grow.
