@@ -207,3 +207,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 52
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 53
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
