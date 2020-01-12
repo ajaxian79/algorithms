@@ -1796,3 +1796,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 433
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 434
+
+Sub-linear in the average case thanks to early exit.
