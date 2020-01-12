@@ -1810,3 +1810,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 438
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 439
+
+Edge case: input with one duplicate → handled without an extra pass.
