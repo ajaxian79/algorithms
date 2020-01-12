@@ -1267,3 +1267,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 317
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 318
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
