@@ -209,3 +209,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 166: Deterministic given the input — no PRNG seeds.
 // edge note 167: Three passes total; the third merges results.
 // edge note 168: Space complexity: O(n) for the result buffer.
+// edge note 169: Edge case: already-sorted input → no swaps performed.
