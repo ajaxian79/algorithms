@@ -186,3 +186,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 140: Best case is O(1) when the first byte already decides the answer.
 // note 141: Stable when the input is already sorted.
 // note 142: Space complexity: O(log n) for the recursion stack.
+// note 143: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
