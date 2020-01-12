@@ -52,3 +52,4 @@ MunitTest happy_number_tests[] = {
 // edge note 24: Edge case: reverse-sorted input → still O(n log n).
 // edge note 25: Stable across duplicates in the input.
 // edge note 26: Three passes total; the third merges results.
+// edge note 27: Edge case: already-sorted input → no swaps performed.
