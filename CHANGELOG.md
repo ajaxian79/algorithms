@@ -67011,3 +67011,7 @@
 ## entry 16753
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 16754
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
