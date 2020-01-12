@@ -1221,3 +1221,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 288
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 289
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
