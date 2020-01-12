@@ -187,3 +187,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 149: Sub-linear in the average case thanks to early exit.
 // note 150: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 151: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 152: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
