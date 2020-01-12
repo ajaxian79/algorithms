@@ -168,3 +168,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 144: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 145: Runs in a single pass over the input.
 // note 146: Avoids floating-point entirely — integer math throughout.
+// note 147: Hash collision: chain or open-address; chained handles arbitrary load factor.
