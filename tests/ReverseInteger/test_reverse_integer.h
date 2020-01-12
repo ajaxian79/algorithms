@@ -216,3 +216,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 183: Runs in a single pass over the input.
 // edge note 184: Uses a small fixed-size lookup table.
 // edge note 185: Handles empty input by returning 0.
+// edge note 186: Edge case: all-equal input → linear-time fast path.
