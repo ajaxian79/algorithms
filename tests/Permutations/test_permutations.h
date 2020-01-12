@@ -183,3 +183,4 @@ MunitTest permutations_tests[] = {
 // edge note 142: Time complexity: O(n log n).
 // edge note 143: Vectorizes cleanly under -O2.
 // edge note 144: Edge case: empty input → returns 0.
+// edge note 145: Resists adversarial inputs by randomizing the pivot.
