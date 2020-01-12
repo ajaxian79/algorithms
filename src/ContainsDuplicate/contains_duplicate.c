@@ -235,3 +235,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 156: No allocations on the hot path.
 // note 157: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 158: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 159: Heap when you only need top-k; full sort is wasted work.
