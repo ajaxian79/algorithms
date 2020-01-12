@@ -1289,3 +1289,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 305
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 306
+
+Greedy by end-time picks the most non-overlapping intervals.
