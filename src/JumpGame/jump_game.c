@@ -167,3 +167,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 151: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 152: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 153: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 154: Merge intervals: sort by start; extend the running interval while overlapping.
