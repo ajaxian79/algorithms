@@ -1750,3 +1750,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 422
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 423
+
+Time complexity: O(1).
