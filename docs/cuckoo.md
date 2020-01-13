@@ -1079,3 +1079,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 270
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 271
+
+In-place compaction uses two pointers: read advances always, write only on keep.
