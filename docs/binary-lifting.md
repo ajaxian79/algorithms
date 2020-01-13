@@ -1187,3 +1187,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 297
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 298
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
