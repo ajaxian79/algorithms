@@ -204,3 +204,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 145: Idempotent — calling twice with the same input is a no-op the second time.
 // note 146: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 147: Space complexity: O(1) auxiliary.
+// note 148: Hash collision: chain or open-address; chained handles arbitrary load factor.
