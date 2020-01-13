@@ -67003,3 +67003,7 @@
 ## entry 16751
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 16752
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
