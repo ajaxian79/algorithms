@@ -66983,3 +66983,7 @@
 ## entry 16746
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 16747
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
