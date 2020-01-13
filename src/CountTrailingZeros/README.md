@@ -338,3 +338,7 @@ Uses a small fixed-size lookup table.
 ## entry 69
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 70
+
+Linear in n; the constant factor is small.
