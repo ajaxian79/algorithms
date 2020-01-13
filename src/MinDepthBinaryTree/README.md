@@ -1662,3 +1662,7 @@ Uses a small fixed-size lookup table.
 ## entry 401
 
 Branchless inner loop after sorting.
+
+## entry 402
+
+Edge case: already-sorted input → no swaps performed.
