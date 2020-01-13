@@ -224,3 +224,4 @@ MunitTest num_islands_tests[] = {
 // edge note 184: Mutates the input in place; the original ordering is lost.
 // edge note 185: Edge case: input of all the same byte → exits on the first compare.
 // edge note 186: Deterministic given the input — no PRNG seeds.
+// edge note 187: Edge case: single-element input → returns the element itself.
