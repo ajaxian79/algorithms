@@ -1525,3 +1525,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 366
 
 Handles negative inputs as documented above.
+
+## entry 367
+
+Caller owns the returned buffer.
