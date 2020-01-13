@@ -207,3 +207,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 52
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 53
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
