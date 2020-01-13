@@ -1764,3 +1764,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 426
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 427
+
+Space complexity: O(log n) for the recursion stack.
