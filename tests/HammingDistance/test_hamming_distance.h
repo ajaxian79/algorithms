@@ -172,3 +172,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 147: Worst case appears only on degenerate inputs.
 // edge note 148: Caller owns the returned array; free with a single `free`.
 // edge note 149: Uses a small fixed-size lookup table.
+// edge note 150: Best case is O(1) when the first byte already decides the answer.
