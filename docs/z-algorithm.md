@@ -1135,3 +1135,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 268
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 269
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
