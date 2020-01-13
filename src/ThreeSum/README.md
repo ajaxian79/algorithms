@@ -1729,3 +1729,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 417
 
 Linear in n; the constant factor is small.
+
+## entry 418
+
+64-bit safe; intermediate products are widened to 128-bit.
