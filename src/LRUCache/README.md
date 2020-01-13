@@ -316,3 +316,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 63
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 64
+
+Linear in n; the constant factor is small.
