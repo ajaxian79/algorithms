@@ -1119,3 +1119,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 263
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 264
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
