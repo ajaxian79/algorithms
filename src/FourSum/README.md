@@ -1692,3 +1692,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 408
 
 Two passes: one to count, one to fill.
+
+## entry 409
+
+Handles single-element input as a base case.
