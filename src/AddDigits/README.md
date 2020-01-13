@@ -1732,3 +1732,7 @@ Handles negative inputs as documented above.
 ## entry 418
 
 Time complexity: O(1).
+
+## entry 419
+
+Tail-recursive; the compiler turns it into a loop.
