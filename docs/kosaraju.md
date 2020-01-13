@@ -1219,3 +1219,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 305
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 306
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
