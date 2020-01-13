@@ -1219,3 +1219,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 305
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 306
+
+Union-Find with path compression amortizes to near-O(1) per op.
