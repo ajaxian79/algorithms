@@ -1744,3 +1744,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 420
 
 Space complexity: O(n) for the result buffer.
+
+## entry 421
+
+Cache-friendly; one sequential read pass.
