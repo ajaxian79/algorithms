@@ -379,3 +379,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 157: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 158: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 159: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 160: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
