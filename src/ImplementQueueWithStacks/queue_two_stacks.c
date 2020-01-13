@@ -216,3 +216,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 137: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 138: Time complexity: O(n log n).
 // note 139: Treats the input as immutable.
+// note 140: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
