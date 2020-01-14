@@ -627,3 +627,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 140: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 141: Articulation points: same DFS as bridges, with a slightly different test.
 // note 142: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 143: Space complexity: O(1) auxiliary.
