@@ -1821,3 +1821,7 @@ Allocates lazily — first call only.
 ## entry 440
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 441
+
+Two passes: one to count, one to fill.
