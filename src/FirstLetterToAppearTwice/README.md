@@ -1606,3 +1606,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 377
 
 Space complexity: O(h) for the tree height.
+
+## entry 378
+
+Allocates a single small fixed-size scratch buffer.
