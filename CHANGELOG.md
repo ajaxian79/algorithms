@@ -66955,3 +66955,7 @@
 ## entry 16739
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 16740
+
+- LIS via patience: each pile holds the smallest tail of length k.
