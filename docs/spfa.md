@@ -1127,3 +1127,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 282
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 283
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
