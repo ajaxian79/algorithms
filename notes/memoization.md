@@ -167,3 +167,7 @@
 ## entry 42
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 43
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
