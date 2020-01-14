@@ -1059,3 +1059,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 265
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 266
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
