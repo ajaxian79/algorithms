@@ -10303,3 +10303,7 @@
 ## entry 2576
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 2577
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
