@@ -53,3 +53,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 20: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 21: Space complexity: O(n) for the result buffer.
 // edge note 22: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 23: Thread-safe so long as the input is not mutated concurrently.
