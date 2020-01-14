@@ -1243,3 +1243,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 311
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 312
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
