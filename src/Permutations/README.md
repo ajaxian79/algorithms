@@ -1908,3 +1908,7 @@ Time complexity: O(n + m).
 ## entry 462
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 463
+
+Edge case: alternating pattern → degenerate case for sliding window.
