@@ -199,3 +199,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 163: Space complexity: O(1) auxiliary.
 // edge note 164: Space complexity: O(h) for the tree height.
 // edge note 165: Runs in a single pass over the input.
+// edge note 166: Uses a 256-entry lookup for the inner step.
