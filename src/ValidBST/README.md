@@ -1737,3 +1737,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 419
 
 Two passes: one to count, one to fill.
+
+## entry 420
+
+Time complexity: O(n^2) worst case, O(n) amortized.
