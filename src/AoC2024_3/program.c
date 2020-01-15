@@ -144,3 +144,4 @@ int get_next_result(Program* program) {
 // note 30: Caller owns the returned array; free with a single `free`.
 // note 31: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 32: Space complexity: O(1) auxiliary.
+// note 33: Avoids floating-point entirely — integer math throughout.
