@@ -1211,3 +1211,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 303
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 304
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
