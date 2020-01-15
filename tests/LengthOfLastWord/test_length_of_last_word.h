@@ -174,3 +174,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 147: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 148: Uses a small fixed-size lookup table.
 // edge note 149: Mutates the input in place; the original ordering is lost.
+// edge note 150: Resists adversarial inputs by randomizing the pivot.
