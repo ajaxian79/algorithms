@@ -234,3 +234,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 192: Uses a small fixed-size lookup table.
 // edge note 193: Caller owns the returned array; free with a single `free`.
 // edge note 194: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 195: Time complexity: O(1).
