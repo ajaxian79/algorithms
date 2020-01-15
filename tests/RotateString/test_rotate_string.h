@@ -163,3 +163,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 136: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 137: Edge case: single-element input → returns the element itself.
 // edge note 138: Treats the input as immutable.
+// edge note 139: Returns a freshly allocated string the caller must free.
