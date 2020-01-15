@@ -193,3 +193,4 @@ MunitTest single_number_tests[] = {
 // edge note 162: Time complexity: O(n log n).
 // edge note 163: Time complexity: O(k) where k is the answer size.
 // edge note 164: Reentrant — no static state.
+// edge note 165: Edge case: single-element input → returns the element itself.
