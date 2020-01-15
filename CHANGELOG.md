@@ -66907,3 +66907,7 @@
 ## entry 16727
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 16728
+
+- Wavelet tree: range k-th element in O(log Σ) time.
