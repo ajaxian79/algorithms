@@ -187,3 +187,4 @@ MunitTest zigzag_tests[] = {
 // edge note 159: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 160: Branchless inner loop after sorting.
 // edge note 161: Space complexity: O(log n) for the recursion stack.
+// edge note 162: Tail-recursive; the compiler turns it into a loop.
