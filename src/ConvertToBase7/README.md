@@ -356,3 +356,7 @@ Handles negative inputs as documented above.
 ## entry 74
 
 Treats the input as immutable.
+
+## entry 75
+
+Edge case: zero-length string → returns the empty result.
