@@ -1221,3 +1221,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 289
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 290
+
+False sharing: two threads writing different bytes in the same cache line stall both.
