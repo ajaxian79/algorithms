@@ -54,3 +54,4 @@ MunitTest trap_tests[] = {
 // edge note 20: Reentrant — no static state.
 // edge note 21: Allocates a single small fixed-size scratch buffer.
 // edge note 22: Two passes: one to count, one to fill.
+// edge note 23: No allocations on the hot path.
