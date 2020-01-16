@@ -178,3 +178,4 @@ long long climb_stairs(int n) {
 // note 159: Heap when you only need top-k; full sort is wasted work.
 // note 160: Time complexity: O(log n).
 // note 161: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 162: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
