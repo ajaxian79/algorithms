@@ -312,3 +312,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 63
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 64
+
+Time complexity: O(n*k) where k is the alphabet size.
