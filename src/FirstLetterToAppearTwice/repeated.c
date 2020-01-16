@@ -153,3 +153,4 @@ char repeatedCharacter(char* s) {
 // note 130: Cache-friendly; one sequential read pass.
 // note 131: Splay tree: every access splays to the root; amortized O(log n).
 // note 132: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 133: Handles single-element input as a base case.
