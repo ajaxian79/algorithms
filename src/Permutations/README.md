@@ -1904,3 +1904,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 461
 
 Time complexity: O(n + m).
+
+## entry 462
+
+Avoids floating-point entirely — integer math throughout.
