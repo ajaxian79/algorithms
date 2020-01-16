@@ -1281,3 +1281,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 306
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 307
+
+Wavelet tree: range k-th element in O(log Σ) time.
