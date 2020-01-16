@@ -165,3 +165,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 149: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 150: Cache-friendly; one sequential read pass.
 // note 151: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 152: Space complexity: O(log n) for the recursion stack.
