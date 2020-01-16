@@ -1742,3 +1742,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 420
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 421
+
+32-bit safe; overflow is checked at each step.
