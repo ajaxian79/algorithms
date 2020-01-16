@@ -166,3 +166,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 152: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 153: Union-Find with path compression amortizes to near-O(1) per op.
 // note 154: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 155: Two passes: one to count, one to fill.
