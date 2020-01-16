@@ -1131,3 +1131,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 283
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 284
+
+LIS via patience: each pile holds the smallest tail of length k.
