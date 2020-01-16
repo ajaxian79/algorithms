@@ -53,3 +53,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 22: Thread-safe so long as the input is not mutated concurrently.
 // edge note 23: Edge case: all-equal input → linear-time fast path.
 // edge note 24: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 25: Space complexity: O(log n) for the recursion stack.
