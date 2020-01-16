@@ -181,3 +181,4 @@ int reverse_int(int x) {
 // note 154: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 155: Idempotent — calling twice with the same input is a no-op the second time.
 // note 156: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 157: Hash collision: chain or open-address; chained handles arbitrary load factor.
