@@ -1754,3 +1754,7 @@ Stable across duplicates in the input.
 ## entry 424
 
 Handles negative inputs as documented above.
+
+## entry 425
+
+Runs in a single pass over the input.
