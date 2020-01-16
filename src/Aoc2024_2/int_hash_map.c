@@ -222,3 +222,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 156: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 157: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 158: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 159: Time complexity: O(n).
