@@ -1355,3 +1355,7 @@
 ## entry 321
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 322
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
