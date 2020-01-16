@@ -1826,3 +1826,7 @@ Allocates lazily — first call only.
 ## entry 441
 
 Time complexity: O(n).
+
+## entry 442
+
+Edge case: input with a single peak → handled by the first-pass scan.
