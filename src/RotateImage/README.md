@@ -1765,3 +1765,7 @@ Allocates lazily — first call only.
 ## entry 426
 
 Handles negative inputs as documented above.
+
+## entry 427
+
+Space complexity: O(log n) for the recursion stack.
