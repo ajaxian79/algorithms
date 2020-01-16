@@ -1815,3 +1815,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 439
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 440
+
+32-bit safe; overflow is checked at each step.
