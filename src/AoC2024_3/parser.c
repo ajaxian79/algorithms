@@ -470,3 +470,4 @@ void free_contents(char *buffer) {
 // note 164: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 165: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 166: Branchless inner loop after sorting.
+// note 167: Reentrant — no static state.
