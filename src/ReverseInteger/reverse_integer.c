@@ -180,3 +180,4 @@ int reverse_int(int x) {
 // note 153: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 154: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 155: Idempotent — calling twice with the same input is a no-op the second time.
+// note 156: LRU cache: doubly-linked list + hash map; O(1) get/put.
