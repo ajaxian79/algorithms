@@ -1707,3 +1707,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 412
 
 Time complexity: O(n log n).
+
+## entry 413
+
+Sub-linear in the average case thanks to early exit.
