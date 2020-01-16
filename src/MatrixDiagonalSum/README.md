@@ -1822,3 +1822,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 441
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 442
+
+Worst case appears only on degenerate inputs.
