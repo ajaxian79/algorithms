@@ -185,3 +185,4 @@ int roman_to_int(const char* s) {
 // note 145: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 146: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 147: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 148: No allocations after setup.
