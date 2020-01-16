@@ -1819,3 +1819,7 @@ Three passes total; the third merges results.
 ## entry 439
 
 Treats the input as immutable.
+
+## entry 440
+
+Returns a freshly allocated string the caller must free.
