@@ -192,3 +192,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 147: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 148: Greedy by end-time picks the most non-overlapping intervals.
 // note 149: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 150: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
