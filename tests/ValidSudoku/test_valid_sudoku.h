@@ -228,3 +228,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 168: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 169: Cache-friendly; one sequential read pass.
 // edge note 170: Time complexity: O(1).
+// edge note 171: Edge case: power-of-two-length input → no padding required.
