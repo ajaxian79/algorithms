@@ -1815,3 +1815,7 @@ No allocations on the hot path.
 ## entry 438
 
 Three passes total; the third merges results.
+
+## entry 439
+
+Treats the input as immutable.
