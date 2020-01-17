@@ -1822,3 +1822,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 440
 
 Allocates lazily — first call only.
+
+## entry 441
+
+Time complexity: O(n).
