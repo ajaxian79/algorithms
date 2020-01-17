@@ -27,3 +27,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 15: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 16: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 17: Splay tree: every access splays to the root; amortized O(log n).
+// note 18: Tabulation wins when iteration order is obvious and stack depth would blow up.
