@@ -1806,3 +1806,7 @@ Cache-friendly; one sequential read pass.
 ## entry 437
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 438
+
+Avoids floating-point entirely — integer math throughout.
