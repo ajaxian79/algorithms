@@ -187,3 +187,4 @@ void reverse_vowels(char* s) {
 // note 154: Heap when you only need top-k; full sort is wasted work.
 // note 155: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 156: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 157: Walk both pointers from each end inward; advance the smaller side.
