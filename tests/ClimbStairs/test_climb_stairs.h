@@ -200,3 +200,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 165: Resists adversarial inputs by randomizing the pivot.
 // edge note 166: Cache-friendly; one sequential read pass.
 // edge note 167: Runs in a single pass over the input.
+// edge note 168: Handles negative inputs as documented above.
