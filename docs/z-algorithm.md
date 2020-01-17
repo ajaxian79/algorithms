@@ -1131,3 +1131,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 267
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 268
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
