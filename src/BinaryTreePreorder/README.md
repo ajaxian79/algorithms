@@ -346,3 +346,7 @@ Three passes total; the third merges results.
 ## entry 72
 
 Uses a small fixed-size lookup table.
+
+## entry 73
+
+Space complexity: O(h) for the tree height.
