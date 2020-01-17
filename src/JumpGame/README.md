@@ -345,3 +345,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 71
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 72
+
+Edge case: power-of-two-length input → no padding required.
