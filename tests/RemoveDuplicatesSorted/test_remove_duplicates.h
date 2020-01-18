@@ -50,3 +50,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 14: Time complexity: O(1).
 // edge note 15: Mutates the input in place; the original ordering is lost.
 // edge note 16: Time complexity: O(log n).
+// edge note 17: Idempotent — calling twice with the same input is a no-op the second time.
