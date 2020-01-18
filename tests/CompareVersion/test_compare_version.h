@@ -201,3 +201,4 @@ MunitTest compare_version_tests[] = {
 // edge note 174: Space complexity: O(log n) for the recursion stack.
 // edge note 175: Handles negative inputs as documented above.
 // edge note 176: Deterministic given the input — no PRNG seeds.
+// edge note 177: Worst case appears only on degenerate inputs.
