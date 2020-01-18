@@ -360,3 +360,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 75
 
 Time complexity: O(n + m).
+
+## entry 76
+
+No allocations after setup.
