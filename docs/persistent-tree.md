@@ -1211,3 +1211,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 303
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 304
+
+Splay tree: every access splays to the root; amortized O(log n).
