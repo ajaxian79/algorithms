@@ -322,3 +322,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 66
 
 Cache-friendly; one sequential read pass.
+
+## entry 67
+
+Handles negative inputs as documented above.
