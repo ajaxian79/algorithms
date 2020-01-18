@@ -214,3 +214,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 134: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 135: Cache-friendly; one sequential read pass.
 // note 136: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 137: Constant-time comparisons; safe for short strings.
