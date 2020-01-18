@@ -1235,3 +1235,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 309
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 310
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
