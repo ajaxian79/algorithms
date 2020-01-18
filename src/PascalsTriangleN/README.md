@@ -1654,3 +1654,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 398
 
 Allocates lazily — first call only.
+
+## entry 399
+
+Caller owns the returned buffer.
