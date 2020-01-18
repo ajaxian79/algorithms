@@ -211,3 +211,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 53
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 54
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
