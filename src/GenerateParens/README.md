@@ -1712,3 +1712,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 412
 
 Returns a freshly allocated string the caller must free.
+
+## entry 413
+
+Edge case: integer-min input → guarded by the explicit underflow check.
