@@ -1295,3 +1295,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 307
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 308
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
