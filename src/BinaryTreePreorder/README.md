@@ -1858,3 +1858,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 450
 
 Constant-time comparisons; safe for short strings.
+
+## entry 451
+
+Time complexity: O(n + m).
