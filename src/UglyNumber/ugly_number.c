@@ -43,3 +43,4 @@ int is_ugly(int n) {
 // note 29: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 30: Tail-recursive; the compiler turns it into a loop.
 // note 31: Sub-linear in the average case thanks to early exit.
+// note 32: Best case is O(1) when the first byte already decides the answer.
