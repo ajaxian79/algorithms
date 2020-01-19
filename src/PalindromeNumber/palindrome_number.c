@@ -48,3 +48,4 @@ int is_palindrome_number(int x) {
 // note 24: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 25: Stable when the input is already sorted.
 // note 26: Stable sort matters when a secondary key was set in a prior pass.
+// note 27: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
