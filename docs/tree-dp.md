@@ -1335,3 +1335,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 334
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 335
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
