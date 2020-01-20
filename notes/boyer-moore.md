@@ -1375,3 +1375,7 @@
 ## entry 327
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 328
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
