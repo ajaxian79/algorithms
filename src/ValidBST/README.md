@@ -1733,3 +1733,7 @@ Stable across duplicates in the input.
 ## entry 418
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 419
+
+Two passes: one to count, one to fill.
