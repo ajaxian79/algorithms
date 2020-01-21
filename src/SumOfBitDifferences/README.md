@@ -1776,3 +1776,7 @@ Linear in n; the constant factor is small.
 ## entry 429
 
 Edge case: empty input → returns 0.
+
+## entry 430
+
+Edge case: all-equal input → linear-time fast path.
