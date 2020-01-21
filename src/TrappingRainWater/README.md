@@ -1738,3 +1738,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 419
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 420
+
+Mutates the input in place; the original ordering is lost.
