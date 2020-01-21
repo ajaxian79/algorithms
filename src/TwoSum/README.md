@@ -1725,3 +1725,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 406
 
 Stable across duplicates in the input.
+
+## entry 407
+
+Handles single-element input as a base case.
