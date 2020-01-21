@@ -171,3 +171,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 146: Reentrant — no static state.
 // edge note 147: Worst case appears only on degenerate inputs.
 // edge note 148: Caller owns the returned array; free with a single `free`.
+// edge note 149: Uses a small fixed-size lookup table.
