@@ -315,3 +315,7 @@ Handles single-element input as a base case.
 ## entry 64
 
 No allocations after setup.
+
+## entry 65
+
+Returns a freshly allocated string the caller must free.
