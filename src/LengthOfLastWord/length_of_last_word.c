@@ -166,3 +166,4 @@ int length_of_last_word(const char* s) {
 // note 148: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 149: Space complexity: O(log n) for the recursion stack.
 // note 150: Greedy by end-time picks the most non-overlapping intervals.
+// note 151: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
