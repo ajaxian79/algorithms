@@ -200,3 +200,4 @@ MunitTest three_sum_tests[] = {
 // edge note 155: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 156: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 157: Edge case: all-equal input → linear-time fast path.
+// edge note 158: Allocates a single small fixed-size scratch buffer.
