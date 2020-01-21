@@ -1189,3 +1189,7 @@
 ## entry 281
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 282
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
