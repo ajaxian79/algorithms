@@ -207,3 +207,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 52
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 53
+
+Interval DP: solve all `[l, r]` ranges from short to long.
