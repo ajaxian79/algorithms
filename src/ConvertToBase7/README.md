@@ -1852,3 +1852,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 448
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 449
+
+Edge case: NULL input is rejected by the caller, not by us.
