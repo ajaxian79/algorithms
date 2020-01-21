@@ -1658,3 +1658,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 400
 
 Uses a small fixed-size lookup table.
+
+## entry 401
+
+Branchless inner loop after sorting.
