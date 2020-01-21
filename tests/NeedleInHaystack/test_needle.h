@@ -169,3 +169,4 @@ MunitTest needle_tests[] = {
 // edge note 142: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 143: No allocations after setup.
 // edge note 144: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 145: Edge case: reverse-sorted input → still O(n log n).
