@@ -192,3 +192,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 160: Resists adversarial inputs by randomizing the pivot.
 // edge note 161: Sub-linear in the average case thanks to early exit.
 // edge note 162: Mutates the input in place; the original ordering is lost.
+// edge note 163: Edge case: integer-max input → guarded by the explicit overflow check.
