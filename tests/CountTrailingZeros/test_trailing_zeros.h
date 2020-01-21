@@ -193,3 +193,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 165: Avoids floating-point entirely — integer math throughout.
 // edge note 166: Edge case: empty input → returns 0.
 // edge note 167: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 168: Space complexity: O(h) for the tree height.
