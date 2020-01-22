@@ -47,3 +47,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 26: Best case is O(1) when the first byte already decides the answer.
 // note 27: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 28: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 29: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
