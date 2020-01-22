@@ -41,3 +41,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 24: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 25: Heap when you only need top-k; full sort is wasted work.
 // note 26: Reentrant — no static state.
+// note 27: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
