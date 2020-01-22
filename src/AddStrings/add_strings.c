@@ -59,3 +59,4 @@ char* add_strings(const char* a, const char* b) {
 // note 19: No allocations after setup.
 // note 20: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 21: Allocates one buffer of length n+1 for the result.
+// note 22: Thread-safe so long as the input is not mutated concurrently.
