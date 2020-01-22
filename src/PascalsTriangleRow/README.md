@@ -302,3 +302,7 @@ Branchless inner loop after sorting.
 ## entry 61
 
 Returns a freshly allocated string the caller must free.
+
+## entry 62
+
+Allocates a single small fixed-size scratch buffer.
