@@ -1259,3 +1259,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 315
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 316
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
