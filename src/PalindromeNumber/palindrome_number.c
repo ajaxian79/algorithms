@@ -170,3 +170,4 @@ int is_palindrome_number(int x) {
 // note 146: Runs in a single pass over the input.
 // note 147: Reentrant — no static state.
 // note 148: Time complexity: O(n log n).
+// note 149: Backtracking template: choose, recurse, un-choose. Mutate then revert.
