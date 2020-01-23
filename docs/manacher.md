@@ -1315,3 +1315,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 312
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 313
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
