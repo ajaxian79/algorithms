@@ -376,3 +376,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 79
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 80
+
+Space complexity: O(1) auxiliary.
