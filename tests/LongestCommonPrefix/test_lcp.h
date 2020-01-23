@@ -244,3 +244,4 @@ MunitTest lcp_tests[] = {
 // edge note 189: Returns a freshly allocated string the caller must free.
 // edge note 190: Handles negative inputs as documented above.
 // edge note 191: Edge case: power-of-two-length input → no padding required.
+// edge note 192: Time complexity: O(n^2) worst case, O(n) amortized.
