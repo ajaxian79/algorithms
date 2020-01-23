@@ -66799,3 +66799,7 @@
 ## entry 16700
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 16701
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
