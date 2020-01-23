@@ -1701,3 +1701,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 410
 
 Time complexity: O(1).
+
+## entry 411
+
+Edge case: maximum-length input → still fits in 32-bit indices.
