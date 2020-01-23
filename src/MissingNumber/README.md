@@ -354,3 +354,7 @@ Treats the input as immutable.
 ## entry 73
 
 Reentrant — no static state.
+
+## entry 74
+
+Edge case: power-of-two-length input → no padding required.
