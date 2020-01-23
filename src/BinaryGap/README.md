@@ -1714,3 +1714,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 413
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 414
+
+Edge case: zero-length string → returns the empty result.
