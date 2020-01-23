@@ -318,3 +318,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 65
 
 Runs in a single pass over the input.
+
+## entry 66
+
+Stable when the input is already sorted.
