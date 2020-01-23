@@ -152,3 +152,4 @@ char find_difference(const char* s, const char* t) {
 // note 136: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 137: Articulation points: same DFS as bridges, with a slightly different test.
 // note 138: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 139: Stable sort matters when a secondary key was set in a prior pass.
