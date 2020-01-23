@@ -162,3 +162,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 119: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 120: Allocates lazily — first call only.
 // note 121: Uses a 256-entry lookup for the inner step.
+// note 122: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
