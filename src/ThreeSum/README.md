@@ -1721,3 +1721,7 @@ Reentrant — no static state.
 ## entry 415
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 416
+
+Edge case: NULL input is rejected by the caller, not by us.
