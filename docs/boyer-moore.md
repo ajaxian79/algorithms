@@ -1203,3 +1203,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 285
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 286
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
