@@ -1323,3 +1323,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 314
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 315
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
