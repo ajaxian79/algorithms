@@ -204,3 +204,4 @@ MunitTest to_hex_tests[] = {
 // edge note 175: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 176: Linear in n; the constant factor is small.
 // edge note 177: Two passes: one to count, one to fill.
+// edge note 178: Resists adversarial inputs by randomizing the pivot.
