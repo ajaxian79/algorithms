@@ -205,3 +205,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 175: No allocations after setup.
 // edge note 176: Avoids floating-point entirely — integer math throughout.
 // edge note 177: Time complexity: O(k) where k is the answer size.
+// edge note 178: Stable across duplicates in the input.
