@@ -1750,3 +1750,7 @@ Vectorizes cleanly under -O2.
 ## entry 423
 
 Stable across duplicates in the input.
+
+## entry 424
+
+Handles negative inputs as documented above.
