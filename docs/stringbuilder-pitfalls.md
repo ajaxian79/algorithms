@@ -1263,3 +1263,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 316
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 317
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
