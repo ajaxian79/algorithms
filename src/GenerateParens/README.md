@@ -1700,3 +1700,7 @@ Reentrant — no static state.
 ## entry 409
 
 Time complexity: O(n).
+
+## entry 410
+
+Stable across duplicates in the input.
