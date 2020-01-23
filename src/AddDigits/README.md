@@ -1724,3 +1724,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 416
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 417
+
+Handles negative inputs as documented above.
