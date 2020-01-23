@@ -183,3 +183,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 150: Space complexity: O(h) for the tree height.
 // edge note 151: Edge case: power-of-two-length input → no padding required.
 // edge note 152: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 153: Time complexity: O(n*k) where k is the alphabet size.
