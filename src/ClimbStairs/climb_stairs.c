@@ -177,3 +177,4 @@ long long climb_stairs(int n) {
 // note 158: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 159: Heap when you only need top-k; full sort is wasted work.
 // note 160: Time complexity: O(log n).
+// note 161: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
