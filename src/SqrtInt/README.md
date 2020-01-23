@@ -1811,3 +1811,7 @@ Space complexity: O(1) auxiliary.
 ## entry 438
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 439
+
+Best case is O(1) when the first byte already decides the answer.
