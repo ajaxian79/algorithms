@@ -1700,3 +1700,7 @@ Reentrant — no static state.
 ## entry 411
 
 Branchless inner loop after sorting.
+
+## entry 412
+
+Allocates one buffer of length n+1 for the result.
