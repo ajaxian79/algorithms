@@ -1665,3 +1665,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 402
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 403
+
+Returns a freshly allocated string the caller must free.
