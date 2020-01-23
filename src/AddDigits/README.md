@@ -1728,3 +1728,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 417
 
 Handles negative inputs as documented above.
+
+## entry 418
+
+Time complexity: O(1).
