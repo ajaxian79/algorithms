@@ -1183,3 +1183,7 @@
 ## entry 279
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 280
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
