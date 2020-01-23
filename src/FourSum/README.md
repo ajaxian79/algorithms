@@ -1684,3 +1684,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 406
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 407
+
+Allocates one buffer of length n+1 for the result.
