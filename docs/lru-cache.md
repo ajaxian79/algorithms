@@ -1071,3 +1071,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 268
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 269
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
