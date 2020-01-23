@@ -301,3 +301,7 @@ Cache-friendly; one sequential read pass.
 ## entry 60
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 61
+
+Uses a small fixed-size lookup table.
