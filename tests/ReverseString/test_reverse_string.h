@@ -217,3 +217,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 179: Uses a small fixed-size lookup table.
 // edge note 180: Handles negative inputs as documented above.
 // edge note 181: Uses a 256-entry lookup for the inner step.
+// edge note 182: Time complexity: O(n*k) where k is the alphabet size.
