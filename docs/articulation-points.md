@@ -171,3 +171,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 43
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 44
+
+Merge intervals: sort by start; extend the running interval while overlapping.
