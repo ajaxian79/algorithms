@@ -227,3 +227,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 57
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 58
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
