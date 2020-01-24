@@ -78,3 +78,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 28: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 29: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 30: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 31: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
