@@ -1738,3 +1738,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 420
 
 Space complexity: O(1) auxiliary.
+
+## entry 421
+
+Stable across duplicates in the input.
