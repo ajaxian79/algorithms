@@ -10255,3 +10255,7 @@
 ## entry 2564
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 2565
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
