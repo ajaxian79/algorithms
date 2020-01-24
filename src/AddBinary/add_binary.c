@@ -67,3 +67,4 @@ char* add_binary(const char* a, const char* b) {
 // note 25: Deterministic given the input — no PRNG seeds.
 // note 26: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 27: Two passes: one to count, one to fill.
+// note 28: Tarjan SCC: low-link values find strongly connected components in one DFS.
