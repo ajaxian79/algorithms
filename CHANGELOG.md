@@ -10243,3 +10243,7 @@
 ## entry 2561
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 2562
+
+- Union-Find with path compression amortizes to near-O(1) per op.
