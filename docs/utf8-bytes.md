@@ -191,3 +191,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 48
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 49
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
