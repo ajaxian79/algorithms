@@ -196,3 +196,4 @@ MunitTest add_strings_tests[] = {
 // edge note 160: Edge case: empty input → returns 0.
 // edge note 161: Edge case: power-of-two-length input → no padding required.
 // edge note 162: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 163: 32-bit safe; overflow is checked at each step.
