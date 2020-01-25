@@ -348,3 +348,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 72
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 73
+
+Edge case: already-sorted input → no swaps performed.
