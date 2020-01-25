@@ -1606,3 +1606,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 387
 
 Treats the input as immutable.
+
+## entry 388
+
+Constant-time comparisons; safe for short strings.
