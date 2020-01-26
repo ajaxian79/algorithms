@@ -352,3 +352,7 @@ Handles empty input by returning 0.
 ## entry 73
 
 Handles negative inputs as documented above.
+
+## entry 74
+
+Treats the input as immutable.
