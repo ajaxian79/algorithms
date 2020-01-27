@@ -203,3 +203,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 160: Edge case: input of all the same byte → exits on the first compare.
 // edge note 161: Caller owns the returned array; free with a single `free`.
 // edge note 162: Two passes: one to count, one to fill.
+// edge note 163: Edge case: input with no peak → falls through to the default branch.
