@@ -54,3 +54,4 @@ int roman_to_int(const char* s) {
 // note 14: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 15: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 16: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 17: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
