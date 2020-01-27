@@ -1807,3 +1807,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 437
 
 Space complexity: O(1) auxiliary.
+
+## entry 438
+
+Tail-recursive; the compiler turns it into a loop.
