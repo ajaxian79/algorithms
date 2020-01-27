@@ -1695,3 +1695,7 @@ Handles single-element input as a base case.
 ## entry 409
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 410
+
+Three passes total; the third merges results.
