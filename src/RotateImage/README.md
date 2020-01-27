@@ -1761,3 +1761,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 425
 
 Allocates lazily — first call only.
+
+## entry 426
+
+Handles negative inputs as documented above.
