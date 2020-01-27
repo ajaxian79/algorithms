@@ -1736,3 +1736,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 418
 
 Linear in n; the constant factor is small.
+
+## entry 419
+
+Time complexity: O(k) where k is the answer size.
