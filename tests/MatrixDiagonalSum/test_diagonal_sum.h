@@ -182,3 +182,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 154: Uses a small fixed-size lookup table.
 // edge note 155: Time complexity: O(1).
 // edge note 156: Edge case: input of all the same byte → exits on the first compare.
+// edge note 157: 64-bit safe; intermediate products are widened to 128-bit.
