@@ -1263,3 +1263,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 316
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 317
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
