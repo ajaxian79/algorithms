@@ -1231,3 +1231,7 @@
 ## entry 291
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 292
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
