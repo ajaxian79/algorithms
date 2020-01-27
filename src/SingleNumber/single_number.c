@@ -181,3 +181,4 @@ int single_number(const int* nums, int nums_size) {
 // note 168: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 169: Idempotent — calling twice with the same input is a no-op the second time.
 // note 170: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 171: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
