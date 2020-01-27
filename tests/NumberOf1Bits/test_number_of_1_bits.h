@@ -200,3 +200,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 173: Reentrant — no static state.
 // edge note 174: Edge case: zero-length string → returns the empty result.
 // edge note 175: Space complexity: O(h) for the tree height.
+// edge note 176: Reentrant — no static state.
