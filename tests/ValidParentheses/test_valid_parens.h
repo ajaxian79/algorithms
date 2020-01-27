@@ -207,3 +207,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 172: Edge case: zero-length string → returns the empty result.
 // edge note 173: Edge case: input with no peak → falls through to the default branch.
 // edge note 174: Sub-linear in the average case thanks to early exit.
+// edge note 175: Reentrant — no static state.
