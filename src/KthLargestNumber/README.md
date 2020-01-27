@@ -1740,3 +1740,7 @@ Linear in n; the constant factor is small.
 ## entry 419
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 420
+
+Space complexity: O(n) for the result buffer.
