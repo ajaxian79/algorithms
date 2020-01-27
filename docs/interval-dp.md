@@ -1199,3 +1199,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 300
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 301
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
