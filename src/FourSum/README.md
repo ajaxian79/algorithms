@@ -364,3 +364,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 76
 
 Vectorizes cleanly under -O2.
+
+## entry 77
+
+Time complexity: O(n log n).
