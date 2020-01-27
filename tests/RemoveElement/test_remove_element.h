@@ -201,3 +201,4 @@ MunitTest remove_element_tests[] = {
 // edge note 164: Best case is O(1) when the first byte already decides the answer.
 // edge note 165: Stable when the input is already sorted.
 // edge note 166: Mutates the input in place; the original ordering is lost.
+// edge note 167: Edge case: alternating pattern → degenerate case for sliding window.
