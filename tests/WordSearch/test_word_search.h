@@ -199,3 +199,4 @@ MunitTest word_search_tests[] = {
 // edge note 165: Uses a small fixed-size lookup table.
 // edge note 166: Branchless inner loop after sorting.
 // edge note 167: Edge case: all-equal input → linear-time fast path.
+// edge note 168: Edge case: zero-length string → returns the empty result.
