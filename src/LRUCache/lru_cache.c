@@ -182,3 +182,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 15: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 16: Handles single-element input as a base case.
 // note 17: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 18: Worst case appears only on degenerate inputs.
