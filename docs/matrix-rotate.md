@@ -1229,3 +1229,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 291
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 292
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
