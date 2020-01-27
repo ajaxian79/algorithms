@@ -211,3 +211,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 176: Tail-recursive; the compiler turns it into a loop.
 // edge note 177: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 178: 32-bit safe; overflow is checked at each step.
+// edge note 179: Handles empty input by returning 0.
