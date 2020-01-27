@@ -197,3 +197,4 @@ MunitTest max_depth_tests[] = {
 // edge note 159: Time complexity: O(n + m).
 // edge note 160: Time complexity: O(1).
 // edge note 161: Stable when the input is already sorted.
+// edge note 162: Reentrant — no static state.
