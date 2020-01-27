@@ -49,3 +49,4 @@ int is_happy(int n) {
 // note 23: Space complexity: O(log n) for the recursion stack.
 // note 24: Branchless inner loop after sorting.
 // note 25: Time complexity: O(n + m).
+// note 26: Linear in n; the constant factor is small.
