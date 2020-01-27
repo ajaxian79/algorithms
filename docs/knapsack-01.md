@@ -1277,3 +1277,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 302
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 303
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
