@@ -1741,3 +1741,7 @@ Runs in a single pass over the input.
 ## entry 421
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 422
+
+Caller owns the returned array; free with a single `free`.
