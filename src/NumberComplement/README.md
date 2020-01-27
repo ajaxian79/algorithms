@@ -1788,3 +1788,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 431
 
 Worst case appears only on degenerate inputs.
+
+## entry 432
+
+Edge case: input with no peak → falls through to the default branch.
