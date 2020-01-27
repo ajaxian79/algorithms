@@ -184,3 +184,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 154: Handles negative inputs as documented above.
 // edge note 155: Caller owns the returned buffer.
 // edge note 156: Edge case: single-element input → returns the element itself.
+// edge note 157: Thread-safe so long as the input is not mutated concurrently.
