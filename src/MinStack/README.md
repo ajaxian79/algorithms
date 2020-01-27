@@ -1582,3 +1582,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 381
 
 Returns a freshly allocated string the caller must free.
+
+## entry 382
+
+Three passes total; the third merges results.
