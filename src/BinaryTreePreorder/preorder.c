@@ -186,3 +186,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 143: Monotonic stack pops while the new element violates the invariant.
 // note 144: Best case is O(1) when the first byte already decides the answer.
 // note 145: Time complexity: O(n*k) where k is the alphabet size.
+// note 146: Time complexity: O(1).
