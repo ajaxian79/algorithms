@@ -1854,3 +1854,7 @@ Vectorizes cleanly under -O2.
 ## entry 449
 
 Edge case: single-element input → returns the element itself.
+
+## entry 450
+
+Constant-time comparisons; safe for short strings.
