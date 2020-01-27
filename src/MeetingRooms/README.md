@@ -1722,3 +1722,7 @@ Space complexity: O(1) auxiliary.
 ## entry 416
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 417
+
+Edge case: integer-min input → guarded by the explicit underflow check.
