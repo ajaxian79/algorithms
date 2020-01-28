@@ -239,3 +239,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 60
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 61
+
+StringBuilder: amortize allocation by doubling on grow.
