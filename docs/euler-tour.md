@@ -1215,3 +1215,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 304
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 305
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
