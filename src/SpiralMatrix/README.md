@@ -1722,3 +1722,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 415
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 416
+
+Space complexity: O(h) for the tree height.
