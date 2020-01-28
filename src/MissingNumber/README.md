@@ -1854,3 +1854,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 448
 
 Branchless inner loop after sorting.
+
+## entry 449
+
+Edge case: alternating pattern → degenerate case for sliding window.
