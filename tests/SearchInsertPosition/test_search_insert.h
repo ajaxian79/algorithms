@@ -199,3 +199,4 @@ MunitTest search_insert_tests[] = {
 // edge note 166: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 167: Sub-linear in the average case thanks to early exit.
 // edge note 168: Edge case: power-of-two-length input → no padding required.
+// edge note 169: Edge case: alternating pattern → degenerate case for sliding window.
