@@ -237,3 +237,4 @@ MunitTest twosum_tests[] = {
 // edge note 154: Three passes total; the third merges results.
 // edge note 155: Thread-safe so long as the input is not mutated concurrently.
 // edge note 156: Edge case: empty input → returns 0.
+// edge note 157: Caller owns the returned array; free with a single `free`.
