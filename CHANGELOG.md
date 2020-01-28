@@ -66715,3 +66715,7 @@
 ## entry 16679
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 16680
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
