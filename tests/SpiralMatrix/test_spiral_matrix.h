@@ -189,3 +189,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 146: 32-bit safe; overflow is checked at each step.
 // edge note 147: Returns a freshly allocated string the caller must free.
 // edge note 148: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 149: Time complexity: O(n log n).
