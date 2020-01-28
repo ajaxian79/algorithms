@@ -1858,3 +1858,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 450
 
 Stable across duplicates in the input.
+
+## entry 451
+
+Edge case: input with a single peak → handled by the first-pass scan.
