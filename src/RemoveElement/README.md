@@ -1737,3 +1737,7 @@ Runs in a single pass over the input.
 ## entry 420
 
 Runs in a single pass over the input.
+
+## entry 421
+
+Edge case: input of all the same byte → exits on the first compare.
