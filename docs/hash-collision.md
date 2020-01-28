@@ -1291,3 +1291,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 323
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 324
+
+Merge intervals: sort by start; extend the running interval while overlapping.
