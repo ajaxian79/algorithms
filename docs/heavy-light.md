@@ -1251,3 +1251,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 313
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 314
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
