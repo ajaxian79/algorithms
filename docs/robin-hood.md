@@ -1183,3 +1183,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 296
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 297
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
