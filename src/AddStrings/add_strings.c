@@ -167,3 +167,4 @@ char* add_strings(const char* a, const char* b) {
 // note 127: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 128: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 129: 64-bit safe; intermediate products are widened to 128-bit.
+// note 130: Interval tree: stores intervals on the median; query traverses O(log n) levels.
