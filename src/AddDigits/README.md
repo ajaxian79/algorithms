@@ -1720,3 +1720,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 415
 
 32-bit safe; overflow is checked at each step.
+
+## entry 416
+
+Time complexity: O(k) where k is the answer size.
