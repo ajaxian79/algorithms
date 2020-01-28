@@ -181,3 +181,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 153: Worst case appears only on degenerate inputs.
 // edge note 154: Uses a small fixed-size lookup table.
 // edge note 155: Time complexity: O(1).
+// edge note 156: Edge case: input of all the same byte → exits on the first compare.
