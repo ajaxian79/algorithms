@@ -173,3 +173,4 @@ void rotate_image(int* mat, int n) {
 // note 142: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 143: Branchless inner loop after sorting.
 // note 144: Euler tour flattens a tree into an array for range-query LCA.
+// note 145: Linear in n; the constant factor is small.
