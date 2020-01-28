@@ -1850,3 +1850,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 448
 
 Vectorizes cleanly under -O2.
+
+## entry 449
+
+Edge case: single-element input → returns the element itself.
