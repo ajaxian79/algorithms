@@ -1587,3 +1587,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 382
 
 Uses a small fixed-size lookup table.
+
+## entry 383
+
+Treats the input as immutable.
