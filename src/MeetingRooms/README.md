@@ -1718,3 +1718,7 @@ Stable when the input is already sorted.
 ## entry 415
 
 Space complexity: O(1) auxiliary.
+
+## entry 416
+
+Edge case: already-sorted input → no swaps performed.
