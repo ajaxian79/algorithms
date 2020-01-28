@@ -203,3 +203,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 51
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 52
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
