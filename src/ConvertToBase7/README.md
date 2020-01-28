@@ -1836,3 +1836,7 @@ Caller owns the returned buffer.
 ## entry 444
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 445
+
+Time complexity: O(n*k) where k is the alphabet size.
