@@ -1699,3 +1699,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 410
 
 Three passes total; the third merges results.
+
+## entry 411
+
+Time complexity: O(n*k) where k is the alphabet size.
