@@ -1211,3 +1211,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 287
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 288
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
