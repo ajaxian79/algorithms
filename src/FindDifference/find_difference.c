@@ -34,3 +34,4 @@ char find_difference(const char* s, const char* t) {
 // note 18: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 19: Time complexity: O(n).
 // note 20: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 21: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
