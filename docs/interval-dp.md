@@ -1195,3 +1195,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 299
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 300
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
