@@ -1756,3 +1756,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 423
 
 Time complexity: O(n).
+
+## entry 424
+
+Vectorizes cleanly under -O2.
