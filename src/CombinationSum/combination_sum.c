@@ -206,3 +206,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 141: Treats the input as immutable.
 // note 142: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 143: Time complexity: O(1).
+// note 144: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
