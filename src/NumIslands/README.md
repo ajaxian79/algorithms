@@ -1693,3 +1693,7 @@ Uses a small fixed-size lookup table.
 ## entry 408
 
 Time complexity: O(n log n).
+
+## entry 409
+
+Edge case: single-element input → returns the element itself.
