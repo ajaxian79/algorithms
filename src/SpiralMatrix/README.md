@@ -314,3 +314,7 @@ Stable when the input is already sorted.
 ## entry 63
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 64
+
+Thread-safe so long as the input is not mutated concurrently.
