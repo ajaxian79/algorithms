@@ -264,3 +264,7 @@ No allocations after setup.
 ## entry 50
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 51
+
+Edge case: input with no peak → falls through to the default branch.
