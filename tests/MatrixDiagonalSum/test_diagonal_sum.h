@@ -180,3 +180,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 152: Constant-time comparisons; safe for short strings.
 // edge note 153: Worst case appears only on degenerate inputs.
 // edge note 154: Uses a small fixed-size lookup table.
+// edge note 155: Time complexity: O(1).
