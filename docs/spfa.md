@@ -1119,3 +1119,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 280
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 281
+
+LIS via patience: each pile holds the smallest tail of length k.
