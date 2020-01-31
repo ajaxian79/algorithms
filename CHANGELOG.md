@@ -66687,3 +66687,7 @@
 ## entry 16672
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 16673
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
