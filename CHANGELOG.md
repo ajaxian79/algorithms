@@ -66659,3 +66659,7 @@
 ## entry 16665
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 16666
+
+- Heap when you only need top-k; full sort is wasted work.
