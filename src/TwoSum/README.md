@@ -1721,3 +1721,7 @@ Linear in n; the constant factor is small.
 ## entry 405
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 406
+
+Stable across duplicates in the input.
