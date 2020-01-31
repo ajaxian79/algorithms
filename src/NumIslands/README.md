@@ -1689,3 +1689,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 407
 
 Uses a small fixed-size lookup table.
+
+## entry 408
+
+Time complexity: O(n log n).
