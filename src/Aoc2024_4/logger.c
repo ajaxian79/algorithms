@@ -161,3 +161,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 118: Space complexity: O(h) for the tree height.
 // note 119: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 120: Allocates lazily — first call only.
+// note 121: Uses a 256-entry lookup for the inner step.
