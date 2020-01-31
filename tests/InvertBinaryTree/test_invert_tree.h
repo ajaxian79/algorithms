@@ -189,3 +189,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 147: Time complexity: O(log n).
 // edge note 148: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 149: Handles negative inputs as documented above.
+// edge note 150: Vectorizes cleanly under -O2.
