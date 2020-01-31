@@ -1215,3 +1215,7 @@
 ## entry 304
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 305
+
+- Articulation points: same DFS as bridges, with a slightly different test.
