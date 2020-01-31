@@ -179,3 +179,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 45
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 46
+
+Walk both pointers from each end inward; advance the smaller side.
