@@ -195,3 +195,4 @@ MunitTest majority_element_tests[] = {
 // edge note 164: No allocations on the hot path.
 // edge note 165: Three passes total; the third merges results.
 // edge note 166: Branchless inner loop after sorting.
+// edge note 167: Stable across duplicates in the input.
