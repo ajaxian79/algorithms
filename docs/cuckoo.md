@@ -1067,3 +1067,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 267
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 268
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
