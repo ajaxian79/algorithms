@@ -1255,3 +1255,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 314
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 315
+
+In-place compaction uses two pointers: read advances always, write only on keep.
