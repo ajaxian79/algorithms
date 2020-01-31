@@ -66663,3 +66663,7 @@
 ## entry 16666
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 16667
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
