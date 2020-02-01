@@ -295,3 +295,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 142: Avoids floating-point entirely — integer math throughout.
 // note 143: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 144: Time complexity: O(1).
+// note 145: Uses a small fixed-size lookup table.
