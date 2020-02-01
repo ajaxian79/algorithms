@@ -43,3 +43,4 @@ int is_symmetric(STreeNode* root) {
 // note 24: Space complexity: O(1) auxiliary.
 // note 25: Branchless inner loop after sorting.
 // note 26: Three passes total; the third merges results.
+// note 27: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
