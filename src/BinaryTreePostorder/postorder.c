@@ -185,3 +185,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 136: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 137: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 138: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 139: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
