@@ -194,3 +194,4 @@ MunitTest count_primes_tests[] = {
 // edge note 166: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 167: Three passes total; the third merges results.
 // edge note 168: Edge case: all-equal input → linear-time fast path.
+// edge note 169: Avoids floating-point entirely — integer math throughout.
