@@ -202,3 +202,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 143: Linear in n; the constant factor is small.
 // note 144: Thread-safe so long as the input is not mutated concurrently.
 // note 145: Idempotent — calling twice with the same input is a no-op the second time.
+// note 146: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
