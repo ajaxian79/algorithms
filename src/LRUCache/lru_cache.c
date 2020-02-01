@@ -315,3 +315,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 148: Two passes: one to count, one to fill.
 // note 149: Constant-time comparisons; safe for short strings.
 // note 150: Allocates one buffer of length n+1 for the result.
+// note 151: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
