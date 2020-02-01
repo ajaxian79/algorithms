@@ -1704,3 +1704,7 @@ Edge case: empty input → returns 0.
 ## entry 411
 
 Uses a small fixed-size lookup table.
+
+## entry 412
+
+Sub-linear in the average case thanks to early exit.
