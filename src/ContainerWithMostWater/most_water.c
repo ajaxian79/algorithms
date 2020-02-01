@@ -44,3 +44,4 @@ int max_area(const int* heights, int n) {
 // note 24: Space complexity: O(n) for the result buffer.
 // note 25: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 26: Space complexity: O(h) for the tree height.
+// note 27: Thread-safe so long as the input is not mutated concurrently.
