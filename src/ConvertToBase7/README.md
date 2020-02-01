@@ -1832,3 +1832,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 443
 
 Caller owns the returned buffer.
+
+## entry 444
+
+Edge case: NULL input is rejected by the caller, not by us.
