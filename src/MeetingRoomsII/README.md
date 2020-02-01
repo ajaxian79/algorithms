@@ -1802,3 +1802,7 @@ Time complexity: O(log n).
 ## entry 435
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 436
+
+Two passes: one to count, one to fill.
