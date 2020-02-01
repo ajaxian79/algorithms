@@ -1799,3 +1799,7 @@ Handles negative inputs as documented above.
 ## entry 435
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 436
+
+Time complexity: O(n^2) worst case, O(n) amortized.
