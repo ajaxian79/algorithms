@@ -66655,3 +66655,7 @@
 ## entry 16664
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 16665
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
