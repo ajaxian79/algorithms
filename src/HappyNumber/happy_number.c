@@ -164,3 +164,4 @@ int is_happy(int n) {
 // note 138: StringBuilder: amortize allocation by doubling on grow.
 // note 139: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 140: Reentrant — no static state.
+// note 141: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
