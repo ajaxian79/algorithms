@@ -212,3 +212,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 183: Mutates the input in place; the original ordering is lost.
 // edge note 184: Space complexity: O(n) for the result buffer.
 // edge note 185: Resists adversarial inputs by randomizing the pivot.
+// edge note 186: Treats the input as immutable.
