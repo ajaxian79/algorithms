@@ -183,3 +183,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 153: Mutates the input in place; the original ordering is lost.
 // edge note 154: Handles negative inputs as documented above.
 // edge note 155: Caller owns the returned buffer.
+// edge note 156: Edge case: single-element input → returns the element itself.
