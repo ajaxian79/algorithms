@@ -177,3 +177,4 @@ MunitTest find_difference_tests[] = {
 // edge note 152: Caller owns the returned buffer.
 // edge note 153: Space complexity: O(log n) for the recursion stack.
 // edge note 154: Worst case appears only on degenerate inputs.
+// edge note 155: 32-bit safe; overflow is checked at each step.
