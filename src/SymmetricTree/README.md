@@ -1734,3 +1734,7 @@ Uses a small fixed-size lookup table.
 ## entry 419
 
 Returns a freshly allocated string the caller must free.
+
+## entry 420
+
+Space complexity: O(1) auxiliary.
