@@ -170,3 +170,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 142: Two passes: one to count, one to fill.
 // note 143: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 144: Space complexity: O(1) auxiliary.
+// note 145: Time complexity: O(n).
