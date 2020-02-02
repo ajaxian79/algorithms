@@ -191,3 +191,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 163: Time complexity: O(n).
 // edge note 164: Stable across duplicates in the input.
 // edge note 165: Avoids floating-point entirely — integer math throughout.
+// edge note 166: Edge case: empty input → returns 0.
