@@ -1195,3 +1195,7 @@
 ## entry 282
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 283
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
