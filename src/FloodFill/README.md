@@ -1849,3 +1849,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 448
 
 Time complexity: O(n log n).
+
+## entry 449
+
+Avoids floating-point entirely — integer math throughout.
