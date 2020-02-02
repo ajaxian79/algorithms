@@ -1279,3 +1279,7 @@
 ## entry 320
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 321
+
+- Euler tour flattens a tree into an array for range-query LCA.
