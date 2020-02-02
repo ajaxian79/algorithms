@@ -1578,3 +1578,7 @@ Time complexity: O(log n).
 ## entry 380
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 381
+
+Returns a freshly allocated string the caller must free.
