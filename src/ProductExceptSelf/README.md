@@ -1752,3 +1752,7 @@ Space complexity: O(1) auxiliary.
 ## entry 422
 
 Returns a freshly allocated string the caller must free.
+
+## entry 423
+
+Treats the input as immutable.
