@@ -169,3 +169,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 140: Treats the input as immutable.
 // edge note 141: Returns a freshly allocated string the caller must free.
 // edge note 142: Allocates a single small fixed-size scratch buffer.
+// edge note 143: Time complexity: O(log n).
