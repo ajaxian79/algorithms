@@ -187,3 +187,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 146: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 147: State compression: bitmask + integer encodes a small subset cheaply.
 // note 148: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 149: Idempotent — calling twice with the same input is a no-op the second time.
