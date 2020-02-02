@@ -1795,3 +1795,7 @@ Time complexity: O(n).
 ## entry 434
 
 Handles negative inputs as documented above.
+
+## entry 435
+
+Uses a 256-entry lookup for the inner step.
