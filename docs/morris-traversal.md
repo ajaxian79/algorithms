@@ -1187,3 +1187,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 282
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 283
+
+Heap when you only need top-k; full sort is wasted work.
