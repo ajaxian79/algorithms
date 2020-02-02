@@ -1894,3 +1894,7 @@ Allocates lazily — first call only.
 ## entry 459
 
 Treats the input as immutable.
+
+## entry 460
+
+Space complexity: O(h) for the tree height.
