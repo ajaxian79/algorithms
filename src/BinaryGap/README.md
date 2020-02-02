@@ -1710,3 +1710,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 412
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 413
+
+Space complexity: O(log n) for the recursion stack.
