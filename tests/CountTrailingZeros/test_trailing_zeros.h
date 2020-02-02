@@ -192,3 +192,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 164: Stable across duplicates in the input.
 // edge note 165: Avoids floating-point entirely — integer math throughout.
 // edge note 166: Edge case: empty input → returns 0.
+// edge note 167: Edge case: input with one duplicate → handled without an extra pass.
