@@ -1239,3 +1239,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 310
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 311
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
