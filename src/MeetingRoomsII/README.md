@@ -1794,3 +1794,7 @@ Branchless inner loop after sorting.
 ## entry 433
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 434
+
+Time complexity: O(log n).
