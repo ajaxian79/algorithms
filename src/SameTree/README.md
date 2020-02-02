@@ -1696,3 +1696,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 410
 
 Reentrant — no static state.
+
+## entry 411
+
+Branchless inner loop after sorting.
