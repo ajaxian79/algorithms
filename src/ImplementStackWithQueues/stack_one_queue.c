@@ -210,3 +210,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 130: 32-bit safe; overflow is checked at each step.
 // note 131: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 132: Time complexity: O(n + m).
+// note 133: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
