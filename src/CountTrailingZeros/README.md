@@ -1742,3 +1742,7 @@ Caller owns the returned buffer.
 ## entry 420
 
 Allocates lazily — first call only.
+
+## entry 421
+
+Branchless inner loop after sorting.
