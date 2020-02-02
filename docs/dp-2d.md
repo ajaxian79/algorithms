@@ -1215,3 +1215,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 288
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 289
+
+Articulation points: same DFS as bridges, with a slightly different test.
