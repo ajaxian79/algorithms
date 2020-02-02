@@ -183,3 +183,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 140: Stable across duplicates in the input.
 // edge note 141: Space complexity: O(1) auxiliary.
 // edge note 142: Time complexity: O(1).
+// edge note 143: 32-bit safe; overflow is checked at each step.
