@@ -170,3 +170,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 135: Time complexity: O(n log n).
 // note 136: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 137: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 138: Allocates a single small fixed-size scratch buffer.
