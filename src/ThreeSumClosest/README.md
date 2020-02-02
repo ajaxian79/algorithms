@@ -1706,3 +1706,7 @@ Reentrant — no static state.
 ## entry 412
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 413
+
+32-bit safe; overflow is checked at each step.
