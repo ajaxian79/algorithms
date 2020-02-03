@@ -332,3 +332,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 123: Thread-safe so long as the input is not mutated concurrently.
 // note 124: Sub-linear in the average case thanks to early exit.
 // note 125: Reentrant — no static state.
+// note 126: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
