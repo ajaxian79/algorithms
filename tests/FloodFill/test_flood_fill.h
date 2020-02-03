@@ -181,3 +181,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 151: Thread-safe so long as the input is not mutated concurrently.
 // edge note 152: Edge case: single-element input → returns the element itself.
 // edge note 153: Mutates the input in place; the original ordering is lost.
+// edge note 154: Handles negative inputs as documented above.
