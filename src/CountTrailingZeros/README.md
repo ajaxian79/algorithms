@@ -1738,3 +1738,7 @@ No allocations after setup.
 ## entry 419
 
 Caller owns the returned buffer.
+
+## entry 420
+
+Allocates lazily — first call only.
