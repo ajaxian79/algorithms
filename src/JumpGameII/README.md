@@ -1732,3 +1732,7 @@ Time complexity: O(n log n).
 ## entry 418
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 419
+
+Sub-linear in the average case thanks to early exit.
