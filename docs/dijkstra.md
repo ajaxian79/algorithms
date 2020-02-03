@@ -1139,3 +1139,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 285
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 286
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
