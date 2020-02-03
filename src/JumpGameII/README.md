@@ -1736,3 +1736,7 @@ Time complexity: O(n log n).
 ## entry 419
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 420
+
+Linear in n; the constant factor is small.
