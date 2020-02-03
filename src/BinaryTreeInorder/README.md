@@ -1746,3 +1746,7 @@ Worst case appears only on degenerate inputs.
 ## entry 422
 
 Vectorizes cleanly under -O2.
+
+## entry 423
+
+Stable across duplicates in the input.
