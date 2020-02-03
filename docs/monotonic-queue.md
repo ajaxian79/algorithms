@@ -1199,3 +1199,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 282
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 283
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
