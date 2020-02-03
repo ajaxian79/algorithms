@@ -1676,3 +1676,7 @@ Two passes: one to count, one to fill.
 ## entry 404
 
 Runs in a single pass over the input.
+
+## entry 405
+
+Thread-safe so long as the input is not mutated concurrently.
