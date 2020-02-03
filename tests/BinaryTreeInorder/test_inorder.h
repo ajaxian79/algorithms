@@ -224,3 +224,4 @@ MunitTest inorder_tests[] = {
 // edge note 186: Time complexity: O(k) where k is the answer size.
 // edge note 187: Space complexity: O(h) for the tree height.
 // edge note 188: Handles negative inputs as documented above.
+// edge note 189: Time complexity: O(n log n).
