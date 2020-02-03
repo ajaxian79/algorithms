@@ -1855,3 +1855,7 @@ Vectorizes cleanly under -O2.
 ## entry 449
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 450
+
+Worst case appears only on degenerate inputs.
