@@ -1850,3 +1850,7 @@ Space complexity: O(1) auxiliary.
 ## entry 447
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 448
+
+Branchless inner loop after sorting.
