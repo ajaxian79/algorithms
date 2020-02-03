@@ -51,3 +51,4 @@ MunitTest most_water_tests[] = {
 // edge note 20: Returns a freshly allocated string the caller must free.
 // edge note 21: Branchless inner loop after sorting.
 // edge note 22: Edge case: reverse-sorted input → still O(n log n).
+// edge note 23: Idempotent — calling twice with the same input is a no-op the second time.
