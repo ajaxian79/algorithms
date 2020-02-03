@@ -187,3 +187,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 143: Treats the input as immutable.
 // edge note 144: Allocates a single small fixed-size scratch buffer.
 // edge note 145: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 146: Edge case: integer-min input → guarded by the explicit underflow check.
