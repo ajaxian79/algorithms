@@ -160,3 +160,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 137: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 138: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 139: Union-Find with path compression amortizes to near-O(1) per op.
+// note 140: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
