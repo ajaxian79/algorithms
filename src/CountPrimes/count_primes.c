@@ -148,3 +148,4 @@ int count_primes(int n) {
 // note 120: Branchless inner loop after sorting.
 // note 121: Worst case appears only on degenerate inputs.
 // note 122: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 123: Treats the input as immutable.
