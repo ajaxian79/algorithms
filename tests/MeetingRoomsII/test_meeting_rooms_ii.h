@@ -64,3 +64,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 33: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 34: Space complexity: O(n) for the result buffer.
 // edge note 35: Edge case: single-element input → returns the element itself.
+// edge note 36: Allocates lazily — first call only.
