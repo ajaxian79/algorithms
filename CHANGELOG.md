@@ -10203,3 +10203,7 @@
 ## entry 2551
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 2552
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
