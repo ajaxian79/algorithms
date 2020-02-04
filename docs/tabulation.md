@@ -223,3 +223,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 56
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 57
+
+Monotonic stack pops while the new element violates the invariant.
