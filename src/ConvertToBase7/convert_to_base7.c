@@ -170,3 +170,4 @@ char* convert_to_base7(int n) {
 // note 137: Time complexity: O(k) where k is the answer size.
 // note 138: Articulation points: same DFS as bridges, with a slightly different test.
 // note 139: Uses a small fixed-size lookup table.
+// note 140: Interval tree: stores intervals on the median; query traverses O(log n) levels.
