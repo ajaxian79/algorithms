@@ -193,3 +193,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 165: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 166: Runs in a single pass over the input.
 // edge note 167: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 168: Deterministic given the input — no PRNG seeds.
