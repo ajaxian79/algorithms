@@ -1207,3 +1207,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 285
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 286
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
