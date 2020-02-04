@@ -223,3 +223,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 40
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 41
+
+State compression: bitmask + integer encodes a small subset cheaply.
