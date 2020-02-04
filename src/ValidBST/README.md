@@ -1729,3 +1729,7 @@ Stable when the input is already sorted.
 ## entry 417
 
 Stable across duplicates in the input.
+
+## entry 418
+
+Edge case: input of all the same byte → exits on the first compare.
