@@ -66575,3 +66575,7 @@
 ## entry 16644
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 16645
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
