@@ -333,3 +333,7 @@ Handles empty input by returning 0.
 ## entry 68
 
 Uses a small fixed-size lookup table.
+
+## entry 69
+
+64-bit safe; intermediate products are widened to 128-bit.
