@@ -66587,3 +66587,7 @@
 ## entry 16647
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 16648
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
