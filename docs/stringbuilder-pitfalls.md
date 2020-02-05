@@ -1251,3 +1251,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 313
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 314
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
