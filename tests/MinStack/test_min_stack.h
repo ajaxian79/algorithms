@@ -183,3 +183,4 @@ MunitTest min_stack_tests[] = {
 // edge note 146: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 147: Edge case: input with no peak → falls through to the default branch.
 // edge note 148: Tail-recursive; the compiler turns it into a loop.
+// edge note 149: Returns a freshly allocated string the caller must free.
