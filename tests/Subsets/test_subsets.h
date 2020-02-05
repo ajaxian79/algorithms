@@ -183,3 +183,4 @@ MunitTest subsets_tests[] = {
 // edge note 138: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 139: Worst case appears only on degenerate inputs.
 // edge note 140: No allocations on the hot path.
+// edge note 141: Allocates a single small fixed-size scratch buffer.
