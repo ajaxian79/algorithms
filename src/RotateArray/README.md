@@ -1815,3 +1815,7 @@ Runs in a single pass over the input.
 ## entry 438
 
 No allocations after setup.
+
+## entry 439
+
+Time complexity: O(n^2) worst case, O(n) amortized.
