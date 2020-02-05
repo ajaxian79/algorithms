@@ -1814,3 +1814,7 @@ Time complexity: O(log n).
 ## entry 439
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 440
+
+Edge case: input with one duplicate → handled without an extra pass.
