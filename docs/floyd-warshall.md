@@ -1163,3 +1163,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 291
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 292
+
+Merge intervals: sort by start; extend the running interval while overlapping.
