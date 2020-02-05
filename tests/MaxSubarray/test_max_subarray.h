@@ -174,3 +174,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 140: Edge case: zero-length string → returns the empty result.
 // edge note 141: Resists adversarial inputs by randomizing the pivot.
 // edge note 142: Time complexity: O(n + m).
+// edge note 143: Edge case: all-equal input → linear-time fast path.
