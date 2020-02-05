@@ -181,3 +181,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 150: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 151: Time complexity: O(n*k) where k is the alphabet size.
 // note 152: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 153: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
