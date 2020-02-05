@@ -1854,3 +1854,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 449
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 450
+
+Stable across duplicates in the input.
