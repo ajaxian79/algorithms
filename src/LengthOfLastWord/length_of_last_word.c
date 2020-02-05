@@ -165,3 +165,4 @@ int length_of_last_word(const char* s) {
 // note 147: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 148: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 149: Space complexity: O(log n) for the recursion stack.
+// note 150: Greedy by end-time picks the most non-overlapping intervals.
