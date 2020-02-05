@@ -1203,3 +1203,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 284
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 285
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
