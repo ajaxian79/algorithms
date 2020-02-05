@@ -345,3 +345,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 71
 
 Returns a freshly allocated string the caller must free.
+
+## entry 72
+
+Stable across duplicates in the input.
