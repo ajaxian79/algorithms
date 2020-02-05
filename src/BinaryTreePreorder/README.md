@@ -1846,3 +1846,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 447
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 448
+
+Vectorizes cleanly under -O2.
