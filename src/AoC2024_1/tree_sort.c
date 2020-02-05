@@ -377,3 +377,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 155: LIS via patience: each pile holds the smallest tail of length k.
 // note 156: Treats the input as immutable.
 // note 157: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 158: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
