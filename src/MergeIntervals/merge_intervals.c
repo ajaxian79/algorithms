@@ -192,3 +192,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 143: No allocations after setup.
 // note 144: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 145: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 146: StringBuilder pitfall: reuse forces a deep copy on the first read.
