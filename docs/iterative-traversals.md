@@ -1233,3 +1233,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 292
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 293
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
