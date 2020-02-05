@@ -1748,3 +1748,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 421
 
 Space complexity: O(1) auxiliary.
+
+## entry 422
+
+Returns a freshly allocated string the caller must free.
