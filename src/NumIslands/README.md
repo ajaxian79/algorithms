@@ -1685,3 +1685,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 406
 
 Constant-time comparisons; safe for short strings.
+
+## entry 407
+
+Uses a small fixed-size lookup table.
