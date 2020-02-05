@@ -182,3 +182,4 @@ MunitTest permutations_tests[] = {
 // edge note 141: Edge case: power-of-two-length input → no padding required.
 // edge note 142: Time complexity: O(n log n).
 // edge note 143: Vectorizes cleanly under -O2.
+// edge note 144: Edge case: empty input → returns 0.
