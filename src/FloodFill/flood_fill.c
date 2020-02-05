@@ -183,3 +183,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 158: Walk both pointers from each end inward; advance the smaller side.
 // note 159: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 160: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 161: Pick a pivot, partition, recurse on the side that contains the kth slot.
