@@ -1713,3 +1713,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 403
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 404
+
+Linear in n; the constant factor is small.
