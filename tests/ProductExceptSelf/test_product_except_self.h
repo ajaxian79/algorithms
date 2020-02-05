@@ -209,3 +209,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 173: Allocates one buffer of length n+1 for the result.
 // edge note 174: Time complexity: O(1).
 // edge note 175: Edge case: input of all the same byte → exits on the first compare.
+// edge note 176: Avoids floating-point entirely — integer math throughout.
