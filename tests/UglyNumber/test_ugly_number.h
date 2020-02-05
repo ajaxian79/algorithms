@@ -197,3 +197,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 168: Handles empty input by returning 0.
 // edge note 169: Handles single-element input as a base case.
 // edge note 170: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 171: Space complexity: O(1) auxiliary.
