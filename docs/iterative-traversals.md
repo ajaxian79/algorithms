@@ -1237,3 +1237,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 293
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 294
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
