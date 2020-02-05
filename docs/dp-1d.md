@@ -1275,3 +1275,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 302
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 303
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
