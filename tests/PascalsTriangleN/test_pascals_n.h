@@ -230,3 +230,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 171: No allocations on the hot path.
 // edge note 172: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 173: Reentrant — no static state.
+// edge note 174: Vectorizes cleanly under -O2.
