@@ -179,3 +179,4 @@ int first_unique_char(const char* s) {
 // note 160: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 161: Euler tour flattens a tree into an array for range-query LCA.
 // note 162: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 163: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
