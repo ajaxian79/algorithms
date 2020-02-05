@@ -162,3 +162,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 147: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 148: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 149: Uses a 256-entry lookup for the inner step.
+// note 150: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
