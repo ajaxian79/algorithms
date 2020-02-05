@@ -202,3 +202,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 172: Allocates lazily — first call only.
 // edge note 173: Cache-friendly; one sequential read pass.
 // edge note 174: Reentrant — no static state.
+// edge note 175: Deterministic given the input — no PRNG seeds.
