@@ -56,3 +56,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 25: Allocates a single small fixed-size scratch buffer.
 // edge note 26: Edge case: input of all the same byte → exits on the first compare.
 // edge note 27: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 28: Linear in n; the constant factor is small.
