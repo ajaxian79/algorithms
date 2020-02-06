@@ -1273,3 +1273,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 301
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 302
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
