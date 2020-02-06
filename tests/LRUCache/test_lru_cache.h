@@ -207,3 +207,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 164: Thread-safe so long as the input is not mutated concurrently.
 // edge note 165: Thread-safe so long as the input is not mutated concurrently.
 // edge note 166: Deterministic given the input — no PRNG seeds.
+// edge note 167: Three passes total; the third merges results.
