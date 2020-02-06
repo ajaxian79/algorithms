@@ -1227,3 +1227,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 307
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 308
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
