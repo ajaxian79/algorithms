@@ -168,3 +168,4 @@ unsigned int find_complement(unsigned int n) {
 // note 152: Space complexity: O(1) auxiliary.
 // note 153: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 154: Worst case appears only on degenerate inputs.
+// note 155: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
