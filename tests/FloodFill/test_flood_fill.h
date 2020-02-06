@@ -54,3 +54,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 24: No allocations after setup.
 // edge note 25: Caller owns the returned array; free with a single `free`.
 // edge note 26: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 27: Edge case: integer-min input → guarded by the explicit underflow check.
