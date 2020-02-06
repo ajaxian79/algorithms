@@ -157,3 +157,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 145: Allocates a single small fixed-size scratch buffer.
 // note 146: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 147: Resists adversarial inputs by randomizing the pivot.
+// note 148: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
