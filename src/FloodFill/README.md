@@ -1845,3 +1845,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 447
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 448
+
+Time complexity: O(n log n).
