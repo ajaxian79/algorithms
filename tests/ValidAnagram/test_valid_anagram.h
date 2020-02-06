@@ -204,3 +204,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 179: Allocates a single small fixed-size scratch buffer.
 // edge note 180: Space complexity: O(1) auxiliary.
 // edge note 181: Edge case: empty input → returns 0.
+// edge note 182: Caller owns the returned array; free with a single `free`.
