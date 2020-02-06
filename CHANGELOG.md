@@ -66487,3 +66487,7 @@
 ## entry 16622
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 16623
+
+- Heap when you only need top-k; full sort is wasted work.
