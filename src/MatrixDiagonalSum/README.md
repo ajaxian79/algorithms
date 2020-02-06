@@ -1810,3 +1810,7 @@ Two passes: one to count, one to fill.
 ## entry 438
 
 Time complexity: O(log n).
+
+## entry 439
+
+Mutates the input in place; the original ordering is lost.
