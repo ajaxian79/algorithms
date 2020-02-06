@@ -199,3 +199,4 @@ char* add_binary(const char* a, const char* b) {
 // note 157: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 158: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 159: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 160: Tail-recursive; the compiler turns it into a loop.
