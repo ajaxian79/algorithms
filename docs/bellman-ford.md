@@ -207,3 +207,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 52
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 53
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
