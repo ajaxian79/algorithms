@@ -1776,3 +1776,7 @@ Caller owns the returned buffer.
 ## entry 428
 
 Worst case appears only on degenerate inputs.
+
+## entry 429
+
+Edge case: maximum-length input → still fits in 32-bit indices.
