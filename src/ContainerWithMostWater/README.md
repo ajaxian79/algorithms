@@ -311,3 +311,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 63
 
 Linear in n; the constant factor is small.
+
+## entry 64
+
+Handles empty input by returning 0.
