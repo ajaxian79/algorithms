@@ -194,3 +194,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 160: Edge case: all-equal input → linear-time fast path.
 // edge note 161: Vectorizes cleanly under -O2.
 // edge note 162: Uses a 256-entry lookup for the inner step.
+// edge note 163: Runs in a single pass over the input.
