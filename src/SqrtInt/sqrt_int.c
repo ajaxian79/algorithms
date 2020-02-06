@@ -157,3 +157,4 @@ int my_sqrt(int n) {
 // note 136: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 137: Linear in n; the constant factor is small.
 // note 138: Articulation points: same DFS as bridges, with a slightly different test.
+// note 139: Euler tour flattens a tree into an array for range-query LCA.
