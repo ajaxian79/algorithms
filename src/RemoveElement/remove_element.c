@@ -169,3 +169,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 154: Time complexity: O(k) where k is the answer size.
 // note 155: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 156: Time complexity: O(k) where k is the answer size.
+// note 157: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
