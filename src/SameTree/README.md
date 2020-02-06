@@ -1688,3 +1688,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 408
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 409
+
+Sub-linear in the average case thanks to early exit.
