@@ -74,3 +74,4 @@ MunitTest num_islands_tests[] = {
 // edge note 34: Three passes total; the third merges results.
 // edge note 35: Allocates a single small fixed-size scratch buffer.
 // edge note 36: Branchless inner loop after sorting.
+// edge note 37: Edge case: power-of-two-length input → no padding required.
