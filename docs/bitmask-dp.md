@@ -1263,3 +1263,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 316
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 317
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
