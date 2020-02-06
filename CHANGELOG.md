@@ -66495,3 +66495,7 @@
 ## entry 16624
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 16625
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
