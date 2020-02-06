@@ -1353,3 +1353,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 321
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 322
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
