@@ -172,3 +172,4 @@ int min_depth(MnTreeNode* root) {
 // note 155: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 156: Walk both pointers from each end inward; advance the smaller side.
 // note 157: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 158: Returns a freshly allocated string the caller must free.
