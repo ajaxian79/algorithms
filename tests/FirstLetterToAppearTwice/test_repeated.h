@@ -76,3 +76,4 @@ MunitTest repeated_tests[] = {
 // edge note 20: Returns a freshly allocated string the caller must free.
 // edge note 21: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 22: Stable when the input is already sorted.
+// edge note 23: Edge case: reverse-sorted input → still O(n log n).
