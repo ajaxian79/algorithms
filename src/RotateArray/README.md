@@ -1811,3 +1811,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 437
 
 Runs in a single pass over the input.
+
+## entry 438
+
+No allocations after setup.
