@@ -1151,3 +1151,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 288
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 289
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
