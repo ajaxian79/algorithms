@@ -1806,3 +1806,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 437
 
 Two passes: one to count, one to fill.
+
+## entry 438
+
+Time complexity: O(log n).
