@@ -181,3 +181,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 148: Edge case: already-sorted input → no swaps performed.
 // edge note 149: Handles single-element input as a base case.
 // edge note 150: Space complexity: O(h) for the tree height.
+// edge note 151: Edge case: power-of-two-length input → no padding required.
