@@ -155,3 +155,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 133: Tail-recursive; the compiler turns it into a loop.
 // note 134: Handles negative inputs as documented above.
 // note 135: Articulation points: same DFS as bridges, with a slightly different test.
+// note 136: Time complexity: O(n).
