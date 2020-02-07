@@ -1646,3 +1646,7 @@ Stable across duplicates in the input.
 ## entry 397
 
 Stable across duplicates in the input.
+
+## entry 398
+
+Time complexity: O(1).
