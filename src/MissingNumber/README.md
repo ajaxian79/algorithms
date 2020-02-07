@@ -1846,3 +1846,7 @@ Vectorizes cleanly under -O2.
 ## entry 446
 
 Space complexity: O(1) auxiliary.
+
+## entry 447
+
+Edge case: input of all the same byte → exits on the first compare.
