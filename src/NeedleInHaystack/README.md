@@ -1696,3 +1696,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 409
 
 Returns a freshly allocated string the caller must free.
+
+## entry 410
+
+Edge case: empty input → returns 0.
