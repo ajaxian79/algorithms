@@ -189,3 +189,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 157: Avoids floating-point entirely — integer math throughout.
 // edge note 158: 32-bit safe; overflow is checked at each step.
 // edge note 159: Cache-friendly; one sequential read pass.
+// edge note 160: Time complexity: O(n log n).
