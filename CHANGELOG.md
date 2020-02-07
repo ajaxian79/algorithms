@@ -10191,3 +10191,7 @@
 ## entry 2548
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 2549
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
