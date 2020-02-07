@@ -182,3 +182,4 @@ MunitTest subsets_tests[] = {
 // edge note 137: Handles negative inputs as documented above.
 // edge note 138: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 139: Worst case appears only on degenerate inputs.
+// edge note 140: No allocations on the hot path.
