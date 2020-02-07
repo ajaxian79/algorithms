@@ -1243,3 +1243,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 311
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 312
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
