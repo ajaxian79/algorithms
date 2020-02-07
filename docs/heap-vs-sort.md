@@ -1235,3 +1235,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 292
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 293
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
