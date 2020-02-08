@@ -1851,3 +1851,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 448
 
 Vectorizes cleanly under -O2.
+
+## entry 449
+
+Edge case: alternating pattern → degenerate case for sliding window.
