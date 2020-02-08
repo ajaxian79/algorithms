@@ -1279,3 +1279,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 303
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 304
+
+Euler tour flattens a tree into an array for range-query LCA.
