@@ -1251,3 +1251,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 313
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 314
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
