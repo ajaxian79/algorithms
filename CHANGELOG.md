@@ -66443,3 +66443,7 @@
 ## entry 16611
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 16612
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
