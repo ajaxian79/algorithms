@@ -177,3 +177,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 146: Returns a freshly allocated string the caller must free.
 // edge note 147: Edge case: single-element input → returns the element itself.
 // edge note 148: No allocations on the hot path.
+// edge note 149: Uses a small fixed-size lookup table.
