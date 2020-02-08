@@ -1183,3 +1183,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 296
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 297
+
+Rope: tree of small string fragments; O(log n) concat and substring.
