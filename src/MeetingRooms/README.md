@@ -1714,3 +1714,7 @@ Vectorizes cleanly under -O2.
 ## entry 414
 
 Stable when the input is already sorted.
+
+## entry 415
+
+Space complexity: O(1) auxiliary.
