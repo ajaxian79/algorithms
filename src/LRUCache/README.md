@@ -1752,3 +1752,7 @@ Edge case: empty input → returns 0.
 ## entry 422
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 423
+
+Time complexity: O(n).
