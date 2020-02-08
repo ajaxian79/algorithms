@@ -1842,3 +1842,7 @@ Linear in n; the constant factor is small.
 ## entry 446
 
 Constant-time comparisons; safe for short strings.
+
+## entry 447
+
+Time complexity: O(n*k) where k is the alphabet size.
