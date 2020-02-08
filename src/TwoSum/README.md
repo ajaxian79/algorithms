@@ -357,3 +357,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 64
 
 No allocations after setup.
+
+## entry 65
+
+Edge case: already-sorted input → no swaps performed.
