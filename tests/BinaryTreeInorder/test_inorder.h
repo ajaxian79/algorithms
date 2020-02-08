@@ -222,3 +222,4 @@ MunitTest inorder_tests[] = {
 // edge note 184: Caller owns the returned array; free with a single `free`.
 // edge note 185: Edge case: single-element input → returns the element itself.
 // edge note 186: Time complexity: O(k) where k is the answer size.
+// edge note 187: Space complexity: O(h) for the tree height.
