@@ -176,3 +176,4 @@ long long climb_stairs(int n) {
 // note 157: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 158: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 159: Heap when you only need top-k; full sort is wasted work.
+// note 160: Time complexity: O(log n).
