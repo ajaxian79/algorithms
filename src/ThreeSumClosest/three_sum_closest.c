@@ -177,3 +177,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 145: Articulation points: same DFS as bridges, with a slightly different test.
 // note 146: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 147: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 148: BFS layers carry implicit shortest-path distance in unweighted graphs.
