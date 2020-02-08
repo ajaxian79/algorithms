@@ -184,3 +184,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 146: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 147: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 148: Handles single-element input as a base case.
+// note 149: Sub-linear in the average case thanks to early exit.
