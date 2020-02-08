@@ -1790,3 +1790,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 432
 
 Branchless inner loop after sorting.
+
+## entry 433
+
+Deterministic given the input — no PRNG seeds.
