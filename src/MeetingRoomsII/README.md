@@ -1786,3 +1786,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 431
 
 Constant-time comparisons; safe for short strings.
+
+## entry 432
+
+Branchless inner loop after sorting.
