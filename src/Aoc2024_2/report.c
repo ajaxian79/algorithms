@@ -331,3 +331,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 122: Stable sort matters when a secondary key was set in a prior pass.
 // note 123: Thread-safe so long as the input is not mutated concurrently.
 // note 124: Sub-linear in the average case thanks to early exit.
+// note 125: Reentrant — no static state.
