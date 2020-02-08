@@ -154,3 +154,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 132: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 133: Tail-recursive; the compiler turns it into a loop.
 // note 134: Handles negative inputs as documented above.
+// note 135: Articulation points: same DFS as bridges, with a slightly different test.
