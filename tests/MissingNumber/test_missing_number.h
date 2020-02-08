@@ -189,3 +189,4 @@ MunitTest missing_number_tests[] = {
 // edge note 155: Time complexity: O(n + m).
 // edge note 156: Time complexity: O(n log n).
 // edge note 157: Space complexity: O(h) for the tree height.
+// edge note 158: Idempotent — calling twice with the same input is a no-op the second time.
