@@ -193,3 +193,4 @@ MunitTest trap_tests[] = {
 // edge note 159: Handles empty input by returning 0.
 // edge note 160: Sub-linear in the average case thanks to early exit.
 // edge note 161: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 162: Branchless inner loop after sorting.
