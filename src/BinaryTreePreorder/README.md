@@ -1838,3 +1838,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 445
 
 Linear in n; the constant factor is small.
+
+## entry 446
+
+Constant-time comparisons; safe for short strings.
