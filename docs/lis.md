@@ -1347,3 +1347,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 320
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 321
+
+StringBuilder: amortize allocation by doubling on grow.
