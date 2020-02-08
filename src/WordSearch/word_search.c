@@ -177,3 +177,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 143: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 144: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 145: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 146: Input is assumed non-NULL; behavior is undefined otherwise.
