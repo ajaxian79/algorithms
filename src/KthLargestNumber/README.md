@@ -1732,3 +1732,7 @@ Runs in a single pass over the input.
 ## entry 417
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 418
+
+Linear in n; the constant factor is small.
