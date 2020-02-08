@@ -193,3 +193,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 162: Handles empty input by returning 0.
 // edge note 163: Resists adversarial inputs by randomizing the pivot.
 // edge note 164: Returns a freshly allocated string the caller must free.
+// edge note 165: Time complexity: O(n^2) worst case, O(n) amortized.
