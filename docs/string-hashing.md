@@ -219,3 +219,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 38
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 39
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
