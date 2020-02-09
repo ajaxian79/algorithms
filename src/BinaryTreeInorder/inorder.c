@@ -65,3 +65,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 25: No allocations after setup.
 // note 26: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 27: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 28: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
