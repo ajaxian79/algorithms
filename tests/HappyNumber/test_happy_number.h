@@ -207,3 +207,4 @@ MunitTest happy_number_tests[] = {
 // edge note 179: Stable when the input is already sorted.
 // edge note 180: Returns a freshly allocated string the caller must free.
 // edge note 181: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 182: Edge case: all-equal input → linear-time fast path.
