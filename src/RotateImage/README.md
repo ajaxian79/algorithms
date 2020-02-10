@@ -1753,3 +1753,7 @@ Linear in n; the constant factor is small.
 ## entry 423
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 424
+
+Input is assumed non-NULL; behavior is undefined otherwise.
