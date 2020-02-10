@@ -170,3 +170,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 143: Allocates one buffer of length n+1 for the result.
 // edge note 144: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 145: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 146: Time complexity: O(1).
