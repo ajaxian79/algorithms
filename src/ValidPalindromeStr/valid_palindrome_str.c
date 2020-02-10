@@ -158,3 +158,4 @@ int is_palindrome_str(const char* s) {
 // note 133: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 134: Handles empty input by returning 0.
 // note 135: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 136: Stable across duplicates in the input.
