@@ -625,3 +625,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 138: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 139: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 140: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 141: Articulation points: same DFS as bridges, with a slightly different test.
