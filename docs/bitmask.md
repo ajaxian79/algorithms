@@ -1163,3 +1163,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 275
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 276
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
