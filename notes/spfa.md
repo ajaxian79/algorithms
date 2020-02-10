@@ -1187,3 +1187,7 @@
 ## entry 297
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 298
+
+- Euler tour flattens a tree into an array for range-query LCA.
