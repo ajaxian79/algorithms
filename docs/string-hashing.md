@@ -1115,3 +1115,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 262
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 263
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
