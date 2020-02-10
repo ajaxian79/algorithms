@@ -192,3 +192,4 @@ MunitTest majority_element_tests[] = {
 // edge note 161: Handles single-element input as a base case.
 // edge note 162: Space complexity: O(1) auxiliary.
 // edge note 163: Three passes total; the third merges results.
+// edge note 164: No allocations on the hot path.
