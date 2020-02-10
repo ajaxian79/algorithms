@@ -166,3 +166,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 144: Time complexity: O(n + m).
 // note 145: Thread-safe so long as the input is not mutated concurrently.
 // note 146: Splay tree: every access splays to the root; amortized O(log n).
+// note 147: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
