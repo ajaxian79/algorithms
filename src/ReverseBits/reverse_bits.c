@@ -159,3 +159,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 145: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 146: Articulation points: same DFS as bridges, with a slightly different test.
 // note 147: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 148: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
