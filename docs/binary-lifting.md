@@ -1183,3 +1183,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 296
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 297
+
+Heap when you only need top-k; full sort is wasted work.
