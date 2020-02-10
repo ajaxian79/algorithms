@@ -1672,3 +1672,7 @@ Three passes total; the third merges results.
 ## entry 403
 
 Two passes: one to count, one to fill.
+
+## entry 404
+
+Runs in a single pass over the input.
