@@ -1670,3 +1670,7 @@ Two passes: one to count, one to fill.
 ## entry 403
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 404
+
+Runs in a single pass over the input.
