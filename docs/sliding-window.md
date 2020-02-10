@@ -1311,3 +1311,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 313
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 314
+
+Endianness matters when serializing multi-byte ints to a file or wire.
