@@ -1804,3 +1804,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 436
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 437
+
+64-bit safe; intermediate products are widened to 128-bit.
