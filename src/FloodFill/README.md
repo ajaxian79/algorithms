@@ -1841,3 +1841,7 @@ Time complexity: O(n + m).
 ## entry 446
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 447
+
+Avoids floating-point entirely — integer math throughout.
