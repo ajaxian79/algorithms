@@ -1834,3 +1834,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 444
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 445
+
+Linear in n; the constant factor is small.
