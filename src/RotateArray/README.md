@@ -1807,3 +1807,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 436
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 437
+
+Runs in a single pass over the input.
