@@ -66411,3 +66411,7 @@
 ## entry 16603
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 16604
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
