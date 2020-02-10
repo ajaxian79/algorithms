@@ -1063,3 +1063,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 266
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 267
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
