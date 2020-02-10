@@ -1791,3 +1791,7 @@ Stable when the input is already sorted.
 ## entry 433
 
 Time complexity: O(n).
+
+## entry 434
+
+Handles negative inputs as documented above.
