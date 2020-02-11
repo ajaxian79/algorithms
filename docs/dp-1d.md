@@ -1271,3 +1271,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 301
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 302
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
