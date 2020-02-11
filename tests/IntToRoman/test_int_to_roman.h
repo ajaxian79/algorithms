@@ -208,3 +208,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 169: Uses a small fixed-size lookup table.
 // edge note 170: Handles empty input by returning 0.
 // edge note 171: Stable across duplicates in the input.
+// edge note 172: Time complexity: O(k) where k is the answer size.
