@@ -175,3 +175,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 144: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 145: Uses a 256-entry lookup for the inner step.
 // edge note 146: Returns a freshly allocated string the caller must free.
+// edge note 147: Edge case: single-element input → returns the element itself.
