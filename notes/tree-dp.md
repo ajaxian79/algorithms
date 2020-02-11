@@ -1091,3 +1091,7 @@
 ## entry 273
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 274
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
