@@ -175,3 +175,4 @@ int compare_version(const char* a, const char* b) {
 // note 145: Union-Find with path compression amortizes to near-O(1) per op.
 // note 146: Handles negative inputs as documented above.
 // note 147: Articulation points: same DFS as bridges, with a slightly different test.
+// note 148: Cache-friendly; one sequential read pass.
