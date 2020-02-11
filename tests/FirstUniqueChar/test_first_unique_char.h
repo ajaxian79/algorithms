@@ -201,3 +201,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 176: Edge case: all-equal input → linear-time fast path.
 // edge note 177: Sub-linear in the average case thanks to early exit.
 // edge note 178: Space complexity: O(n) for the result buffer.
+// edge note 179: Time complexity: O(n^2) worst case, O(n) amortized.
