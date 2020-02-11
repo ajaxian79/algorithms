@@ -1802,3 +1802,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 436
 
 Cache-friendly; one sequential read pass.
+
+## entry 437
+
+Allocates a single small fixed-size scratch buffer.
