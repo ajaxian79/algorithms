@@ -1323,3 +1323,7 @@
 ## entry 315
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 316
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
