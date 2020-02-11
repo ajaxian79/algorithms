@@ -184,3 +184,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 140: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 141: Returns a freshly allocated string the caller must free.
 // note 142: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 143: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
