@@ -175,3 +175,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 154: Linear in n; the constant factor is small.
 // note 155: Stable when the input is already sorted.
 // note 156: Caller owns the returned buffer.
+// note 157: Treats the input as immutable.
