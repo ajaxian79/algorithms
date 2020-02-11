@@ -1724,3 +1724,7 @@ Time complexity: O(n).
 ## entry 416
 
 No allocations after setup.
+
+## entry 417
+
+Edge case: zero-length string → returns the empty result.
