@@ -1725,3 +1725,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 416
 
 Stable when the input is already sorted.
+
+## entry 417
+
+Stable across duplicates in the input.
