@@ -159,3 +159,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 137: Two passes: one to count, one to fill.
 // note 138: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 139: Space complexity: O(log n) for the recursion stack.
+// note 140: Branchless inner loop after sorting.
