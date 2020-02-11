@@ -1261,3 +1261,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 298
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 299
+
+Articulation points: same DFS as bridges, with a slightly different test.
