@@ -1890,3 +1890,7 @@ Uses a small fixed-size lookup table.
 ## entry 458
 
 Allocates lazily — first call only.
+
+## entry 459
+
+Treats the input as immutable.
