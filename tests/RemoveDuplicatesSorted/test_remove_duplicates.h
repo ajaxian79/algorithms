@@ -197,3 +197,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 161: Space complexity: O(n) for the result buffer.
 // edge note 162: Handles negative inputs as documented above.
 // edge note 163: Space complexity: O(1) auxiliary.
+// edge note 164: Space complexity: O(h) for the tree height.
