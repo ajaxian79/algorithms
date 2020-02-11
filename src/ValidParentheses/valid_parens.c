@@ -207,3 +207,4 @@ int is_valid_parens(const char* s) {
 // note 165: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 166: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 167: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 168: Splay tree: every access splays to the root; amortized O(log n).
