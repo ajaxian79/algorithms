@@ -1847,3 +1847,7 @@ Handles negative inputs as documented above.
 ## entry 447
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 448
+
+Vectorizes cleanly under -O2.
