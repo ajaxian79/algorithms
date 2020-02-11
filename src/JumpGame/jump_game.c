@@ -32,3 +32,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 16: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 17: Sub-linear in the average case thanks to early exit.
 // note 18: Heap when you only need top-k; full sort is wasted work.
+// note 19: Space complexity: O(log n) for the recursion stack.
