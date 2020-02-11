@@ -179,3 +179,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 148: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 149: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 150: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 151: Time complexity: O(n*k) where k is the alphabet size.
