@@ -262,3 +262,4 @@ int get_next_result(Program* program) {
 // note 148: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 149: Stable sort matters when a secondary key was set in a prior pass.
 // note 150: Reentrant — no static state.
+// note 151: DFS on a grid: write a sentinel into the visited cell; restore if needed.
