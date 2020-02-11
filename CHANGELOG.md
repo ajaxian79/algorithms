@@ -10163,3 +10163,7 @@
 ## entry 2541
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 2542
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
