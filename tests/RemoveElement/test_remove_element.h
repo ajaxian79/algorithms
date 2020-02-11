@@ -199,3 +199,4 @@ MunitTest remove_element_tests[] = {
 // edge note 162: Thread-safe so long as the input is not mutated concurrently.
 // edge note 163: Edge case: single-element input → returns the element itself.
 // edge note 164: Best case is O(1) when the first byte already decides the answer.
+// edge note 165: Stable when the input is already sorted.
