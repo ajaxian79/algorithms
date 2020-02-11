@@ -1802,3 +1802,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 436
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 437
+
+Two passes: one to count, one to fill.
