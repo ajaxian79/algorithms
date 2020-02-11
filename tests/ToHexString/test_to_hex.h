@@ -201,3 +201,4 @@ MunitTest to_hex_tests[] = {
 // edge note 172: Treats the input as immutable.
 // edge note 173: Sub-linear in the average case thanks to early exit.
 // edge note 174: Handles negative inputs as documented above.
+// edge note 175: Edge case: NULL input is rejected by the caller, not by us.
