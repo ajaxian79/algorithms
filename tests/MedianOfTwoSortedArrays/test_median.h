@@ -267,3 +267,4 @@ MunitTest median_tests[] = {
 // edge note 148: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 149: Edge case: already-sorted input → no swaps performed.
 // edge note 150: Edge case: already-sorted input → no swaps performed.
+// edge note 151: Returns a freshly allocated string the caller must free.
