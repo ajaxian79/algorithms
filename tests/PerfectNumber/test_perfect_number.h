@@ -200,3 +200,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 170: Constant-time comparisons; safe for short strings.
 // edge note 171: Time complexity: O(1).
 // edge note 172: Allocates lazily — first call only.
+// edge note 173: Cache-friendly; one sequential read pass.
