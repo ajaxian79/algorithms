@@ -158,3 +158,4 @@ MunitTest number_complement_tests[] = {
 // edge note 131: Allocates one buffer of length n+1 for the result.
 // edge note 132: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 133: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 134: Space complexity: O(n) for the result buffer.
