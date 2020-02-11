@@ -167,3 +167,4 @@ MunitTest needle_tests[] = {
 // edge note 140: Sub-linear in the average case thanks to early exit.
 // edge note 141: Edge case: empty input → returns 0.
 // edge note 142: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 143: No allocations after setup.
