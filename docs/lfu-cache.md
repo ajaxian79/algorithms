@@ -1223,3 +1223,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 306
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 307
+
+Splay tree: every access splays to the root; amortized O(log n).
