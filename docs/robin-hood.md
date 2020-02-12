@@ -1179,3 +1179,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 295
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 296
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
