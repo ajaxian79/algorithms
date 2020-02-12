@@ -1843,3 +1843,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 446
 
 Handles negative inputs as documented above.
+
+## entry 447
+
+Allocates one buffer of length n+1 for the result.
