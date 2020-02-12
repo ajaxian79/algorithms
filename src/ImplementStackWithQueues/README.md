@@ -1720,3 +1720,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 415
 
 Time complexity: O(n).
+
+## entry 416
+
+No allocations after setup.
