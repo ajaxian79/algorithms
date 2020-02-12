@@ -239,3 +239,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 184: Sub-linear in the average case thanks to early exit.
 // edge note 185: Space complexity: O(log n) for the recursion stack.
 // edge note 186: Cache-friendly; one sequential read pass.
+// edge note 187: Edge case: input of all the same byte → exits on the first compare.
