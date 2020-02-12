@@ -1139,3 +1139,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 285
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 286
+
+Interval DP: solve all `[l, r]` ranges from short to long.
