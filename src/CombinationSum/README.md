@@ -375,3 +375,7 @@ Handles negative inputs as documented above.
 ## entry 79
 
 Returns a freshly allocated string the caller must free.
+
+## entry 80
+
+Sub-linear in the average case thanks to early exit.
