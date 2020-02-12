@@ -348,3 +348,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 72
 
 Handles empty input by returning 0.
+
+## entry 73
+
+Handles negative inputs as documented above.
