@@ -1710,3 +1710,7 @@ Worst case appears only on degenerate inputs.
 ## entry 413
 
 Vectorizes cleanly under -O2.
+
+## entry 414
+
+Stable when the input is already sorted.
