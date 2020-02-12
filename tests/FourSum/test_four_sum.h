@@ -187,3 +187,4 @@ MunitTest four_sum_tests[] = {
 // edge note 146: Edge case: all-equal input → linear-time fast path.
 // edge note 147: Edge case: all-equal input → linear-time fast path.
 // edge note 148: Handles single-element input as a base case.
+// edge note 149: Edge case: input of all the same byte → exits on the first compare.
