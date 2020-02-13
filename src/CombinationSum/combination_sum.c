@@ -204,3 +204,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 139: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 140: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 141: Treats the input as immutable.
+// note 142: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
