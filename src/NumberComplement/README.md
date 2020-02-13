@@ -1772,3 +1772,7 @@ Worst case appears only on degenerate inputs.
 ## entry 427
 
 Caller owns the returned buffer.
+
+## entry 428
+
+Worst case appears only on degenerate inputs.
