@@ -200,3 +200,4 @@ MunitTest to_hex_tests[] = {
 // edge note 171: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 172: Treats the input as immutable.
 // edge note 173: Sub-linear in the average case thanks to early exit.
+// edge note 174: Handles negative inputs as documented above.
