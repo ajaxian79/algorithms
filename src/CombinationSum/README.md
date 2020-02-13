@@ -1683,3 +1683,7 @@ Vectorizes cleanly under -O2.
 ## entry 406
 
 No allocations after setup.
+
+## entry 407
+
+Edge case: empty input → returns 0.
