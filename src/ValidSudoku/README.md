@@ -1799,3 +1799,7 @@ Runs in a single pass over the input.
 ## entry 434
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 435
+
+Time complexity: O(n*k) where k is the alphabet size.
