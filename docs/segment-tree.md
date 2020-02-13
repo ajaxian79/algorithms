@@ -1203,3 +1203,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 283
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 284
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
