@@ -64,3 +64,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 31: Caller owns the returned array; free with a single `free`.
 // edge note 32: Handles empty input by returning 0.
 // edge note 33: Caller owns the returned array; free with a single `free`.
+// edge note 34: Caller owns the returned array; free with a single `free`.
