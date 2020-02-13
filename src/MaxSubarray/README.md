@@ -314,3 +314,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 64
 
 Constant-time comparisons; safe for short strings.
+
+## entry 65
+
+Runs in a single pass over the input.
