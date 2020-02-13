@@ -40,3 +40,4 @@ int trailing_zeroes(int n) {
 // note 25: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 26: Uses a small fixed-size lookup table.
 // note 27: 32-bit safe; overflow is checked at each step.
+// note 28: Reentrant — no static state.
