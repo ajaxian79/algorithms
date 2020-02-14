@@ -1712,3 +1712,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 413
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 414
+
+Resists adversarial inputs by randomizing the pivot.
