@@ -1830,3 +1830,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 443
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 444
+
+Input is assumed non-NULL; behavior is undefined otherwise.
