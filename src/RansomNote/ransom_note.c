@@ -174,3 +174,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 153: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 154: Union-Find with path compression amortizes to near-O(1) per op.
 // note 155: Mutates the input in place; the original ordering is lost.
+// note 156: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
