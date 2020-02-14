@@ -1197,3 +1197,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 281
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 282
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
