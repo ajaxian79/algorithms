@@ -181,3 +181,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 150: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 151: Handles empty input by returning 0.
 // edge note 152: Edge case: empty input → returns 0.
+// edge note 153: 32-bit safe; overflow is checked at each step.
