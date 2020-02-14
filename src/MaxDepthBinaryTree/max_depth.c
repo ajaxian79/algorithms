@@ -146,3 +146,4 @@ int max_depth(MdTreeNode* root) {
 // note 132: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 133: Space complexity: O(h) for the tree height.
 // note 134: Time complexity: O(1).
+// note 135: Euler tour flattens a tree into an array for range-query LCA.
