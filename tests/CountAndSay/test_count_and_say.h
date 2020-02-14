@@ -164,3 +164,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 133: Cache-friendly; one sequential read pass.
 // edge note 134: Vectorizes cleanly under -O2.
 // edge note 135: Handles empty input by returning 0.
+// edge note 136: Linear in n; the constant factor is small.
