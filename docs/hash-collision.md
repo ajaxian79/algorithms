@@ -1279,3 +1279,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 320
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 321
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
