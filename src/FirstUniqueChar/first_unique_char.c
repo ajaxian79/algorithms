@@ -178,3 +178,4 @@ int first_unique_char(const char* s) {
 // note 159: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 160: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 161: Euler tour flattens a tree into an array for range-query LCA.
+// note 162: Edit distance is LCS with a twist: substitution is a third option at each cell.
