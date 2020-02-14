@@ -1794,3 +1794,7 @@ Handles negative inputs as documented above.
 ## entry 434
 
 Handles empty input by returning 0.
+
+## entry 435
+
+Deterministic given the input — no PRNG seeds.
