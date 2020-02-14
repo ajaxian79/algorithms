@@ -1183,3 +1183,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 296
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 297
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
