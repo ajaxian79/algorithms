@@ -1716,3 +1716,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 414
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 415
+
+Time complexity: O(n).
