@@ -53,3 +53,4 @@ MunitTest add_binary_tests[] = {
 // edge note 17: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 18: Handles empty input by returning 0.
 // edge note 19: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 20: Stable across duplicates in the input.
