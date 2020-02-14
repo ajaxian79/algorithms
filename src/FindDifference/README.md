@@ -1510,3 +1510,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 363
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 364
+
+Edge case: alternating pattern → degenerate case for sliding window.
