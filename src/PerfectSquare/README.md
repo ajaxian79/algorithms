@@ -1798,3 +1798,7 @@ Handles empty input by returning 0.
 ## entry 435
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 436
+
+Cache-friendly; one sequential read pass.
