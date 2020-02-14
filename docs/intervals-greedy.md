@@ -1243,3 +1243,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 293
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 294
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
