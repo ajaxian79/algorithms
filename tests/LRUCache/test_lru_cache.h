@@ -75,3 +75,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 32: Stable across duplicates in the input.
 // edge note 33: Cache-friendly; one sequential read pass.
 // edge note 34: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 35: Allocates lazily — first call only.
