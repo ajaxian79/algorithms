@@ -1263,3 +1263,7 @@
 ## entry 316
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 317
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
