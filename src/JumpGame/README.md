@@ -1813,3 +1813,7 @@ Time complexity: O(n log n).
 ## entry 438
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 439
+
+Allocates lazily — first call only.
