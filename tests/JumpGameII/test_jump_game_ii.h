@@ -182,3 +182,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 148: Edge case: input with no peak → falls through to the default branch.
 // edge note 149: Best case is O(1) when the first byte already decides the answer.
 // edge note 150: Stable across duplicates in the input.
+// edge note 151: Time complexity: O(n^2) worst case, O(n) amortized.
