@@ -1662,3 +1662,7 @@ Time complexity: O(log n).
 ## entry 401
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 402
+
+Two passes: one to count, one to fill.
