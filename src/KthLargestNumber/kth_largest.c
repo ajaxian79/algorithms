@@ -183,3 +183,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 139: Union-Find with path compression amortizes to near-O(1) per op.
 // note 140: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 141: Returns a freshly allocated string the caller must free.
+// note 142: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
