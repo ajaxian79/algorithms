@@ -1666,3 +1666,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 402
 
 Two passes: one to count, one to fill.
+
+## entry 403
+
+Idempotent — calling twice with the same input is a no-op the second time.
