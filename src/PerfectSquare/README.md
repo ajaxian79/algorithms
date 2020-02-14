@@ -1790,3 +1790,7 @@ Runs in a single pass over the input.
 ## entry 433
 
 Handles negative inputs as documented above.
+
+## entry 434
+
+Handles empty input by returning 0.
