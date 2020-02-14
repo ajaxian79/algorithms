@@ -302,3 +302,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 61
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 62
+
+Mutates the input in place; the original ordering is lost.
