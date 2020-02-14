@@ -151,3 +151,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 38
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 39
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
