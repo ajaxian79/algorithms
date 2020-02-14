@@ -1151,3 +1151,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 288
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 289
+
+State compression: bitmask + integer encodes a small subset cheaply.
