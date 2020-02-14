@@ -1798,3 +1798,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 435
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 436
+
+Edge case: power-of-two-length input → no padding required.
