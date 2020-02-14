@@ -1681,3 +1681,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 405
 
 Constant-time comparisons; safe for short strings.
+
+## entry 406
+
+Constant-time comparisons; safe for short strings.
