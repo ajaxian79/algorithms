@@ -312,3 +312,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 145: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 146: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 147: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 148: Two passes: one to count, one to fill.
