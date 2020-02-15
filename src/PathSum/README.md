@@ -360,3 +360,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 75
 
 Space complexity: O(h) for the tree height.
+
+## entry 76
+
+Handles empty input by returning 0.
