@@ -307,3 +307,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 62
 
 Space complexity: O(n) for the result buffer.
+
+## entry 63
+
+Linear in n; the constant factor is small.
