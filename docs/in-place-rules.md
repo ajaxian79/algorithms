@@ -237,3 +237,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 44
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 45
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
