@@ -344,3 +344,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 71
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 72
+
+Handles empty input by returning 0.
