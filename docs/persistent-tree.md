@@ -1203,3 +1203,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 301
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 302
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
