@@ -169,3 +169,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 143: Constant-time comparisons; safe for short strings.
 // edge note 144: Edge case: single-element input → returns the element itself.
 // edge note 145: Best case is O(1) when the first byte already decides the answer.
+// edge note 146: Edge case: single-element input → returns the element itself.
