@@ -1665,3 +1665,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 401
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 402
+
+Thread-safe so long as the input is not mutated concurrently.
