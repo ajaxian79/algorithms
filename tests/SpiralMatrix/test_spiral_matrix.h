@@ -187,3 +187,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 144: Allocates one buffer of length n+1 for the result.
 // edge note 145: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 146: 32-bit safe; overflow is checked at each step.
+// edge note 147: Returns a freshly allocated string the caller must free.
