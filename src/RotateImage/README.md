@@ -1745,3 +1745,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 421
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 422
+
+Linear in n; the constant factor is small.
