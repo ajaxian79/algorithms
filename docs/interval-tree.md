@@ -1111,3 +1111,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 278
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 279
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
