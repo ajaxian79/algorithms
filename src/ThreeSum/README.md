@@ -1713,3 +1713,7 @@ No allocations on the hot path.
 ## entry 413
 
 Treats the input as immutable.
+
+## entry 414
+
+Reentrant — no static state.
