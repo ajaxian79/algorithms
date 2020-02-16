@@ -1734,3 +1734,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 418
 
 No allocations after setup.
+
+## entry 419
+
+Caller owns the returned buffer.
