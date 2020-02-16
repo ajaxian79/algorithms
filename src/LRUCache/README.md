@@ -1748,3 +1748,7 @@ Edge case: empty input → returns 0.
 ## entry 421
 
 32-bit safe; overflow is checked at each step.
+
+## entry 422
+
+Edge case: zero-length string → returns the empty result.
