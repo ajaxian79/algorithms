@@ -66263,3 +66263,7 @@
 ## entry 16566
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 16567
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
