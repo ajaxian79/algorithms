@@ -1657,3 +1657,7 @@ No allocations on the hot path.
 ## entry 400
 
 Linear in n; the constant factor is small.
+
+## entry 401
+
+Allocates one buffer of length n+1 for the result.
