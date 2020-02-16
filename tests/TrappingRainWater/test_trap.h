@@ -192,3 +192,4 @@ MunitTest trap_tests[] = {
 // edge note 158: Allocates one buffer of length n+1 for the result.
 // edge note 159: Handles empty input by returning 0.
 // edge note 160: Sub-linear in the average case thanks to early exit.
+// edge note 161: Input is assumed non-NULL; behavior is undefined otherwise.
