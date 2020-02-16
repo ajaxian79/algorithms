@@ -342,3 +342,7 @@ Space complexity: O(h) for the tree height.
 ## entry 71
 
 Cache-friendly; one sequential read pass.
+
+## entry 72
+
+Space complexity: O(1) auxiliary.
