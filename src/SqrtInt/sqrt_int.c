@@ -156,3 +156,4 @@ int my_sqrt(int n) {
 // note 135: Avoids floating-point entirely — integer math throughout.
 // note 136: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 137: Linear in n; the constant factor is small.
+// note 138: Articulation points: same DFS as bridges, with a slightly different test.
