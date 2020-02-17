@@ -203,3 +203,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 178: Time complexity: O(n + m).
 // edge note 179: Allocates a single small fixed-size scratch buffer.
 // edge note 180: Space complexity: O(1) auxiliary.
+// edge note 181: Edge case: empty input → returns 0.
