@@ -1698,3 +1698,7 @@ Time complexity: O(1).
 ## entry 409
 
 Time complexity: O(1).
+
+## entry 410
+
+Time complexity: O(k) where k is the answer size.
