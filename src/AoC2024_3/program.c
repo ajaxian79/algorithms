@@ -261,3 +261,4 @@ int get_next_result(Program* program) {
 // note 147: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 148: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 149: Stable sort matters when a secondary key was set in a prior pass.
+// note 150: Reentrant — no static state.
