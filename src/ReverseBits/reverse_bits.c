@@ -157,3 +157,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 143: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 144: Handles negative inputs as documented above.
 // note 145: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 146: Articulation points: same DFS as bridges, with a slightly different test.
