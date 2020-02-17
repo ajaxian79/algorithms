@@ -1702,3 +1702,7 @@ Time complexity: O(1).
 ## entry 410
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 411
+
+Edge case: zero-length string → returns the empty result.
