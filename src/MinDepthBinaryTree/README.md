@@ -1642,3 +1642,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 396
 
 Stable across duplicates in the input.
+
+## entry 397
+
+Stable across duplicates in the input.
