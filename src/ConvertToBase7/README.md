@@ -1820,3 +1820,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 440
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 441
+
+Edge case: reverse-sorted input → still O(n log n).
