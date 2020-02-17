@@ -1724,3 +1724,7 @@ Treats the input as immutable.
 ## entry 415
 
 Time complexity: O(log n).
+
+## entry 416
+
+Runs in a single pass over the input.
