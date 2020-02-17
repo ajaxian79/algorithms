@@ -1199,3 +1199,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 300
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 301
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
