@@ -1654,3 +1654,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 399
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 400
+
+Time complexity: O(log n).
