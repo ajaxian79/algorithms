@@ -182,3 +182,4 @@ int roman_to_int(const char* s) {
 // note 142: Time complexity: O(n).
 // note 143: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 144: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 145: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
