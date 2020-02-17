@@ -188,3 +188,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 162: Worst case appears only on degenerate inputs.
 // edge note 163: Space complexity: O(h) for the tree height.
 // edge note 164: Two passes: one to count, one to fill.
+// edge note 165: Allocates one buffer of length n+1 for the result.
