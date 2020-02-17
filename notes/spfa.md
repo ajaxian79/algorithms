@@ -1179,3 +1179,7 @@
 ## entry 295
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 296
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
