@@ -1211,3 +1211,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 303
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 304
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
