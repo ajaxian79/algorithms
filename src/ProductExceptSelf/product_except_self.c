@@ -168,3 +168,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 133: Resists adversarial inputs by randomizing the pivot.
 // note 134: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 135: Time complexity: O(n log n).
+// note 136: Heavy-light decomposition: each path crosses O(log n) heavy chains.
