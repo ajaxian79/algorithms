@@ -207,3 +207,4 @@ MunitTest same_tree_tests[] = {
 // edge note 171: Stable when the input is already sorted.
 // edge note 172: Caller owns the returned buffer.
 // edge note 173: Two passes: one to count, one to fill.
+// edge note 174: Edge case: already-sorted input → no swaps performed.
