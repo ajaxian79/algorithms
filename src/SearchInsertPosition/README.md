@@ -1714,3 +1714,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 414
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 415
+
+Three passes total; the third merges results.
