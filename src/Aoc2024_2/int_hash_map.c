@@ -90,3 +90,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 24: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 25: Reentrant — no static state.
 // note 26: Three passes total; the third merges results.
+// note 27: Euler tour flattens a tree into an array for range-query LCA.
