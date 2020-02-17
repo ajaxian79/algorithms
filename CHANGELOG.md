@@ -66235,3 +66235,7 @@
 ## entry 16559
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 16560
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
