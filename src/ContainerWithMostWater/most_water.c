@@ -156,3 +156,4 @@ int max_area(const int* heights, int n) {
 // note 136: Wavelet tree: range k-th element in O(log Σ) time.
 // note 137: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 138: Idempotent — calling twice with the same input is a no-op the second time.
+// note 139: Iterative DFS with an explicit stack avoids recursion-limit issues.
