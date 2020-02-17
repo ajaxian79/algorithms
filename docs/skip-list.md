@@ -1115,3 +1115,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 279
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 280
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
