@@ -175,3 +175,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 157: Time complexity: O(k) where k is the answer size.
 // note 158: Two passes: one to count, one to fill.
 // note 159: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 160: Merge intervals: sort by start; extend the running interval while overlapping.
