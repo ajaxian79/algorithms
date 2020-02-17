@@ -1255,3 +1255,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 314
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 315
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
