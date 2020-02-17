@@ -167,3 +167,4 @@ int is_ugly(int n) {
 // note 153: Handles single-element input as a base case.
 // note 154: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 155: State compression: bitmask + integer encodes a small subset cheaply.
+// note 156: StringBuilder: amortize allocation by doubling on grow.
