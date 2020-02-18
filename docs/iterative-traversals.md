@@ -1229,3 +1229,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 291
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 292
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
