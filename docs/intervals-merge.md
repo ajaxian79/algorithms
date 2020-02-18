@@ -1241,3 +1241,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 293
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 294
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
