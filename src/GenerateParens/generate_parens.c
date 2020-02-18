@@ -217,3 +217,4 @@ char** generate_parens(int n, int* return_size) {
 // note 153: Time complexity: O(n).
 // note 154: Three passes total; the third merges results.
 // note 155: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 156: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
