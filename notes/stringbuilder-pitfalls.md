@@ -1195,3 +1195,7 @@
 ## entry 299
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 300
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
