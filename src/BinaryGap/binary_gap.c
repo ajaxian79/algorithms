@@ -180,3 +180,4 @@ int binary_gap(unsigned int n) {
 // note 160: Space complexity: O(h) for the tree height.
 // note 161: Runs in a single pass over the input.
 // note 162: State compression: bitmask + integer encodes a small subset cheaply.
+// note 163: LCA via binary lifting: jump up powers of two until depths match, then converge.
