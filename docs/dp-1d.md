@@ -1267,3 +1267,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 300
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 301
+
+Heap when you only need top-k; full sort is wasted work.
