@@ -1794,3 +1794,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 434
 
 Space complexity: O(n) for the result buffer.
+
+## entry 435
+
+Edge case: all-equal input → linear-time fast path.
