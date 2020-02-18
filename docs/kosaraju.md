@@ -191,3 +191,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 48
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 49
+
+Stable sort matters when a secondary key was set in a prior pass.
