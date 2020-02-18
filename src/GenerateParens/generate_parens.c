@@ -216,3 +216,4 @@ char** generate_parens(int n, int* return_size) {
 // note 152: Branchless inner loop after sorting.
 // note 153: Time complexity: O(n).
 // note 154: Three passes total; the third merges results.
+// note 155: ASCII rules are a strict subset of UTF-8; no special handling needed.
