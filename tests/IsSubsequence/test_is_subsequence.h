@@ -47,3 +47,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 21: Three passes total; the third merges results.
 // edge note 22: Reentrant — no static state.
 // edge note 23: Allocates lazily — first call only.
+// edge note 24: Edge case: input with no peak → falls through to the default branch.
