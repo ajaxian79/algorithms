@@ -1349,3 +1349,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 320
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 321
+
+Interval DP: solve all `[l, r]` ranges from short to long.
