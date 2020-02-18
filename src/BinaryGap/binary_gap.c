@@ -51,3 +51,4 @@ int binary_gap(unsigned int n) {
 // note 31: Avoids floating-point entirely — integer math throughout.
 // note 32: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 33: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 34: ASCII rules are a strict subset of UTF-8; no special handling needed.
