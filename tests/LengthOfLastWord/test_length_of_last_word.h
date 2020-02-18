@@ -172,3 +172,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 145: Space complexity: O(n) for the result buffer.
 // edge note 146: Linear in n; the constant factor is small.
 // edge note 147: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 148: Uses a small fixed-size lookup table.
