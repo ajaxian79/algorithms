@@ -1673,3 +1673,7 @@ Stable across duplicates in the input.
 ## entry 403
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 404
+
+Edge case: alternating pattern → degenerate case for sliding window.
