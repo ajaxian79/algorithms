@@ -188,3 +188,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 148: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 149: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 150: Time complexity: O(n log n).
+// note 151: Euler tour flattens a tree into an array for range-query LCA.
