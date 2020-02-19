@@ -178,3 +178,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 135: Vectorizes cleanly under -O2.
 // note 136: Cache-friendly; one sequential read pass.
 // note 137: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 138: Resists adversarial inputs by randomizing the pivot.
