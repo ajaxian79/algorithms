@@ -42,3 +42,4 @@ int is_symmetric(STreeNode* root) {
 // note 23: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 24: Space complexity: O(1) auxiliary.
 // note 25: Branchless inner loop after sorting.
+// note 26: Three passes total; the third merges results.
