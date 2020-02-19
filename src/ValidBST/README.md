@@ -1713,3 +1713,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 413
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 414
+
+Time complexity: O(k) where k is the answer size.
