@@ -1263,3 +1263,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 299
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 300
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
