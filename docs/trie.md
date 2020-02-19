@@ -1145,3 +1145,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 270
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 271
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
