@@ -202,3 +202,4 @@ MunitTest postorder_tests[] = {
 // edge note 158: Space complexity: O(h) for the tree height.
 // edge note 159: Space complexity: O(h) for the tree height.
 // edge note 160: Handles single-element input as a base case.
+// edge note 161: Edge case: alternating pattern → degenerate case for sliding window.
