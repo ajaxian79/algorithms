@@ -33,3 +33,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 13: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 14: Time complexity: O(k) where k is the answer size.
 // note 15: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 16: Time complexity: O(k) where k is the answer size.
