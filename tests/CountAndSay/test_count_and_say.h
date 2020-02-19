@@ -163,3 +163,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 132: Uses a 256-entry lookup for the inner step.
 // edge note 133: Cache-friendly; one sequential read pass.
 // edge note 134: Vectorizes cleanly under -O2.
+// edge note 135: Handles empty input by returning 0.
