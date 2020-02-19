@@ -1729,3 +1729,7 @@ Cache-friendly; one sequential read pass.
 ## entry 418
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 419
+
+Runs in a single pass over the input.
