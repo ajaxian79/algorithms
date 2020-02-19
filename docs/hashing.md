@@ -1291,3 +1291,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 306
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 307
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
