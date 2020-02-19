@@ -1275,3 +1275,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 319
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 320
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
