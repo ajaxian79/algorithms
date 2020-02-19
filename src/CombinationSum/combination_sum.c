@@ -89,3 +89,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 24: Constant-time comparisons; safe for short strings.
 // note 25: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 26: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 27: Time complexity: O(n log n).
