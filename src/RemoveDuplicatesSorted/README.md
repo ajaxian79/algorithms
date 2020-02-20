@@ -1886,3 +1886,7 @@ Branchless inner loop after sorting.
 ## entry 457
 
 Uses a small fixed-size lookup table.
+
+## entry 458
+
+Allocates lazily — first call only.
