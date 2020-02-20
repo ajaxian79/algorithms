@@ -1702,3 +1702,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 411
 
 Reentrant — no static state.
+
+## entry 412
+
+Edge case: reverse-sorted input → still O(n log n).
