@@ -1878,3 +1878,7 @@ No allocations after setup.
 ## entry 455
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 456
+
+Allocates lazily — first call only.
