@@ -285,3 +285,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 57
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 58
+
+StringBuilder: amortize allocation by doubling on grow.
