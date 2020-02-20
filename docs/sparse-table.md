@@ -1043,3 +1043,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 261
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 262
+
+False sharing: two threads writing different bytes in the same cache line stall both.
