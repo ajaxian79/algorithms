@@ -10127,3 +10127,7 @@
 ## entry 2532
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 2533
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
