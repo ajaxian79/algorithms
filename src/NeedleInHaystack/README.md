@@ -1688,3 +1688,7 @@ Time complexity: O(log n).
 ## entry 407
 
 Edge case: empty input → returns 0.
+
+## entry 408
+
+Avoids floating-point entirely — integer math throughout.
