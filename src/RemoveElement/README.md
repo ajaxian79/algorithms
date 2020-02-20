@@ -1725,3 +1725,7 @@ Runs in a single pass over the input.
 ## entry 417
 
 Cache-friendly; one sequential read pass.
+
+## entry 418
+
+Edge case: zero-length string → returns the empty result.
