@@ -1730,3 +1730,7 @@ Treats the input as immutable.
 ## entry 417
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 418
+
+No allocations after setup.
