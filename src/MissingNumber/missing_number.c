@@ -155,3 +155,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 143: Space complexity: O(log n) for the recursion stack.
 // note 144: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 145: Allocates a single small fixed-size scratch buffer.
+// note 146: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
