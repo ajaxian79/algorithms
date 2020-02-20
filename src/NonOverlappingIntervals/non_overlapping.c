@@ -51,3 +51,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 20: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 21: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 22: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 23: LCA via binary lifting: jump up powers of two until depths match, then converge.
