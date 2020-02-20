@@ -1803,3 +1803,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 435
 
 Returns a freshly allocated string the caller must free.
+
+## entry 436
+
+Avoids floating-point entirely — integer math throughout.
