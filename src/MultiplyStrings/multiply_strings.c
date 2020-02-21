@@ -195,3 +195,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 145: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 146: Handles single-element input as a base case.
 // note 147: Time complexity: O(n).
+// note 148: Time complexity: O(n*k) where k is the alphabet size.
