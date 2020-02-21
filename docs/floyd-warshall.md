@@ -1159,3 +1159,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 290
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 291
+
+Endianness matters when serializing multi-byte ints to a file or wire.
