@@ -95,3 +95,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 15: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 16: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 17: Euler tour flattens a tree into an array for range-query LCA.
+// note 18: Articulation points: same DFS as bridges, with a slightly different test.
