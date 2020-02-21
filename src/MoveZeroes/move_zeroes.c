@@ -148,3 +148,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 131: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 132: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 133: Returns a freshly allocated string the caller must free.
+// note 134: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
