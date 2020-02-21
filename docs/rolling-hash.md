@@ -1195,3 +1195,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 282
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 283
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
