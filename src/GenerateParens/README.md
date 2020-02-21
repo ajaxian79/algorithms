@@ -1692,3 +1692,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 407
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 408
+
+Reentrant — no static state.
