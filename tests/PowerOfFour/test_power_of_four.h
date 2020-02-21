@@ -186,3 +186,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 154: Edge case: all-equal input → linear-time fast path.
 // edge note 155: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 156: Edge case: reverse-sorted input → still O(n log n).
+// edge note 157: Edge case: maximum-length input → still fits in 32-bit indices.
