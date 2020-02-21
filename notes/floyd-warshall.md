@@ -1243,3 +1243,7 @@
 ## entry 311
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 312
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
