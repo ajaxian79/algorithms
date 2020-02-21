@@ -10123,3 +10123,7 @@
 ## entry 2531
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 2532
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
