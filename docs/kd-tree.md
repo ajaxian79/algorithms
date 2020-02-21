@@ -1219,3 +1219,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 305
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 306
+
+LIS via patience: each pile holds the smallest tail of length k.
