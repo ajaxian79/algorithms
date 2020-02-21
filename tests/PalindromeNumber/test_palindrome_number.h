@@ -207,3 +207,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 172: Thread-safe so long as the input is not mutated concurrently.
 // edge note 173: Time complexity: O(n log n).
 // edge note 174: Reentrant — no static state.
+// edge note 175: Runs in a single pass over the input.
