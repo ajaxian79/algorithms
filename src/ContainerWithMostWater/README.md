@@ -1687,3 +1687,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 407
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 408
+
+Handles single-element input as a base case.
