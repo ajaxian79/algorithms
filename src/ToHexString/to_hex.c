@@ -147,3 +147,4 @@ char* to_hex_string(int n) {
 // note 114: Stable across duplicates in the input.
 // note 115: Constant-time comparisons; safe for short strings.
 // note 116: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 117: Heap when you only need top-k; full sort is wasted work.
