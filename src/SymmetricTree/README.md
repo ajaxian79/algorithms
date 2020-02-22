@@ -358,3 +358,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 75
 
 Cache-friendly; one sequential read pass.
+
+## entry 76
+
+Edge case: input with one duplicate → handled without an extra pass.
