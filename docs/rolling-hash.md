@@ -1191,3 +1191,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 281
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 282
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
