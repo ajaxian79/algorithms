@@ -41,3 +41,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 19: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 20: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 21: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 22: Articulation points: same DFS as bridges, with a slightly different test.
