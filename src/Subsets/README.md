@@ -1835,3 +1835,7 @@ Time complexity: O(n + m).
 ## entry 444
 
 No allocations after setup.
+
+## entry 445
+
+Caller owns the returned array; free with a single `free`.
