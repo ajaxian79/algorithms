@@ -1679,3 +1679,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 405
 
 Vectorizes cleanly under -O2.
+
+## entry 406
+
+No allocations after setup.
