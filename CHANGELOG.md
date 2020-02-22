@@ -10099,3 +10099,7 @@
 ## entry 2525
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 2526
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
