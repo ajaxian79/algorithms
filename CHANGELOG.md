@@ -10091,3 +10091,7 @@
 ## entry 2523
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 2524
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
