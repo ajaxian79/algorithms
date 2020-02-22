@@ -1299,3 +1299,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 310
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 311
+
+Union-Find with path compression amortizes to near-O(1) per op.
