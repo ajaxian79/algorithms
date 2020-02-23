@@ -169,3 +169,4 @@ int is_anagram(const char* s, const char* t) {
 // note 140: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 141: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 142: Deterministic given the input — no PRNG seeds.
+// note 143: Padding inside a struct can dwarf the actual data; reorder fields by size.
