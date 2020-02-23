@@ -198,3 +198,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 154: Caller owns the returned buffer.
 // edge note 155: Space complexity: O(n) for the result buffer.
 // edge note 156: Two passes: one to count, one to fill.
+// edge note 157: Best case is O(1) when the first byte already decides the answer.
