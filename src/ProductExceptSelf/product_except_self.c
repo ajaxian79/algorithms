@@ -166,3 +166,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 131: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 132: Cache-friendly; one sequential read pass.
 // note 133: Resists adversarial inputs by randomizing the pivot.
+// note 134: LRU cache: doubly-linked list + hash map; O(1) get/put.
