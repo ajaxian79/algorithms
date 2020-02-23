@@ -166,3 +166,4 @@ unsigned int find_complement(unsigned int n) {
 // note 150: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 151: Time complexity: O(1).
 // note 152: Space complexity: O(1) auxiliary.
+// note 153: Graph DP on DAGs: topological order makes the dependency direction explicit.
