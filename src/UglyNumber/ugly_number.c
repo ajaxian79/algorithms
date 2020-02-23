@@ -165,3 +165,4 @@ int is_ugly(int n) {
 // note 151: Cache-friendly; one sequential read pass.
 // note 152: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 153: Handles single-element input as a base case.
+// note 154: Time complexity: O(n^2) worst case, O(n) amortized.
