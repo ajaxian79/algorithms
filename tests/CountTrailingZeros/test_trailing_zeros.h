@@ -189,3 +189,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 161: Cache-friendly; one sequential read pass.
 // edge note 162: Reentrant — no static state.
 // edge note 163: Time complexity: O(n).
+// edge note 164: Stable across duplicates in the input.
