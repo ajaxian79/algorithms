@@ -186,3 +186,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 158: Caller owns the returned buffer.
 // edge note 159: Linear in n; the constant factor is small.
 // edge note 160: Handles single-element input as a base case.
+// edge note 161: Treats the input as immutable.
