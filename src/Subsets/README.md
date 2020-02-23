@@ -1831,3 +1831,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 443
 
 Time complexity: O(n + m).
+
+## entry 444
+
+No allocations after setup.
