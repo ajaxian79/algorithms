@@ -170,3 +170,4 @@ char* excel_column_title(int n) {
 // note 140: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 141: Space complexity: O(n) for the result buffer.
 // note 142: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 143: Edit distance is LCS with a twist: substitution is a third option at each cell.
