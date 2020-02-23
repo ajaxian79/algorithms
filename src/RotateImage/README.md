@@ -305,3 +305,7 @@ Time complexity: O(n log n).
 ## entry 61
 
 32-bit safe; overflow is checked at each step.
+
+## entry 62
+
+Edge case: integer-max input → guarded by the explicit overflow check.
