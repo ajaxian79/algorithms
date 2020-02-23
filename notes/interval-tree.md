@@ -219,3 +219,7 @@
 ## entry 55
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 56
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
