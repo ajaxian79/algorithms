@@ -1730,3 +1730,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 418
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 419
+
+Edge case: zero-length string → returns the empty result.
