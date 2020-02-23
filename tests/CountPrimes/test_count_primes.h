@@ -192,3 +192,4 @@ MunitTest count_primes_tests[] = {
 // edge note 164: Allocates lazily — first call only.
 // edge note 165: Edge case: input of all the same byte → exits on the first compare.
 // edge note 166: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 167: Three passes total; the third merges results.
