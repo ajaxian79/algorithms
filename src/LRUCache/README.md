@@ -1732,3 +1732,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 417
 
 Time complexity: O(n).
+
+## entry 418
+
+Uses a small fixed-size lookup table.
