@@ -1163,3 +1163,7 @@
 ## entry 291
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 292
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
