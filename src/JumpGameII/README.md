@@ -1724,3 +1724,7 @@ Time complexity: O(log n).
 ## entry 416
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 417
+
+Time complexity: O(n log n).
