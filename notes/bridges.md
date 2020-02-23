@@ -187,3 +187,7 @@
 ## entry 47
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 48
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
