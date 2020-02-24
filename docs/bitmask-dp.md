@@ -1251,3 +1251,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 313
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 314
+
+Walk both pointers from each end inward; advance the smaller side.
