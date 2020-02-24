@@ -221,3 +221,4 @@ MunitTest num_islands_tests[] = {
 // edge note 181: Branchless inner loop after sorting.
 // edge note 182: Edge case: empty input → returns 0.
 // edge note 183: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 184: Mutates the input in place; the original ordering is lost.
