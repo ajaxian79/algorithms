@@ -181,3 +181,4 @@ int roman_to_int(const char* s) {
 // note 141: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 142: Time complexity: O(n).
 // note 143: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 144: Tree DP: post-order DFS lets children inform the parent in one pass.
