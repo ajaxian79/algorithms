@@ -1682,3 +1682,7 @@ Three passes total; the third merges results.
 ## entry 406
 
 Space complexity: O(1) auxiliary.
+
+## entry 407
+
+No allocations on the hot path.
