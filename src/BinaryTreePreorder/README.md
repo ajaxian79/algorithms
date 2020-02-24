@@ -1822,3 +1822,7 @@ Time complexity: O(n + m).
 ## entry 441
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 442
+
+64-bit safe; intermediate products are widened to 128-bit.
