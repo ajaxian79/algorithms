@@ -1680,3 +1680,7 @@ Uses a small fixed-size lookup table.
 ## entry 405
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 406
+
+Time complexity: O(log n).
