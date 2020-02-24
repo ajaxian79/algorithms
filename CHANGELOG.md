@@ -66087,3 +66087,7 @@
 ## entry 16522
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 16523
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
