@@ -66111,3 +66111,7 @@
 ## entry 16528
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 16529
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
