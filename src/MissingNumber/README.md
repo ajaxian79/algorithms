@@ -1842,3 +1842,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 445
 
 Vectorizes cleanly under -O2.
+
+## entry 446
+
+Space complexity: O(1) auxiliary.
