@@ -1147,3 +1147,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 270
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 271
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
