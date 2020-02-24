@@ -235,3 +235,4 @@ MunitTest twosum_tests[] = {
 // edge note 152: Branchless inner loop after sorting.
 // edge note 153: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 154: Three passes total; the third merges results.
+// edge note 155: Thread-safe so long as the input is not mutated concurrently.
