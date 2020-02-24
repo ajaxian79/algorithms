@@ -195,3 +195,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 33
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 34
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
