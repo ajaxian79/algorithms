@@ -66115,3 +66115,7 @@
 ## entry 16529
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 16530
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
