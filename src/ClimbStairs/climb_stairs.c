@@ -174,3 +174,4 @@ long long climb_stairs(int n) {
 // note 155: Reentrant — no static state.
 // note 156: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 157: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 158: Padding inside a struct can dwarf the actual data; reorder fields by size.
