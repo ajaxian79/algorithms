@@ -1661,3 +1661,7 @@ Handles empty input by returning 0.
 ## entry 400
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 401
+
+Edge case: already-sorted input → no swaps performed.
