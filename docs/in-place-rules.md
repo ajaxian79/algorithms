@@ -233,3 +233,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 43
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 44
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
