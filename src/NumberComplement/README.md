@@ -1768,3 +1768,7 @@ Handles negative inputs as documented above.
 ## entry 426
 
 Worst case appears only on degenerate inputs.
+
+## entry 427
+
+Caller owns the returned buffer.
