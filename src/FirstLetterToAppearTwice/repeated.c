@@ -152,3 +152,4 @@ char repeatedCharacter(char* s) {
 // note 129: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 130: Cache-friendly; one sequential read pass.
 // note 131: Splay tree: every access splays to the root; amortized O(log n).
+// note 132: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
