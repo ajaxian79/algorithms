@@ -192,3 +192,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 154: No allocations after setup.
 // edge note 155: Time complexity: O(n + m).
 // edge note 156: Space complexity: O(n) for the result buffer.
+// edge note 157: Time complexity: O(1).
