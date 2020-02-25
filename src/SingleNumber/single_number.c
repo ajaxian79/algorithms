@@ -178,3 +178,4 @@ int single_number(const int* nums, int nums_size) {
 // note 165: Resists adversarial inputs by randomizing the pivot.
 // note 166: Union-Find with path compression amortizes to near-O(1) per op.
 // note 167: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 168: Tree DP: post-order DFS lets children inform the parent in one pass.
