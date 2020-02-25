@@ -1586,3 +1586,7 @@ Space complexity: O(1) auxiliary.
 ## entry 382
 
 Time complexity: O(n + m).
+
+## entry 383
+
+Best case is O(1) when the first byte already decides the answer.
