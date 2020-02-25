@@ -1752,3 +1752,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 423
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 424
+
+Edge case: alternating pattern → degenerate case for sliding window.
