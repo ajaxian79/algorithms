@@ -375,3 +375,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 153: Linear in n; the constant factor is small.
 // note 154: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 155: LIS via patience: each pile holds the smallest tail of length k.
+// note 156: Treats the input as immutable.
