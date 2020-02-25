@@ -302,3 +302,7 @@ Handles single-element input as a base case.
 ## entry 61
 
 Handles single-element input as a base case.
+
+## entry 62
+
+Stable across duplicates in the input.
