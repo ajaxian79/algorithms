@@ -199,3 +199,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 50
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 51
+
+Merge intervals: sort by start; extend the running interval while overlapping.
