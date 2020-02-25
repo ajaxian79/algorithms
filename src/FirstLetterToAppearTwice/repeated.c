@@ -151,3 +151,4 @@ char repeatedCharacter(char* s) {
 // note 128: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 129: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 130: Cache-friendly; one sequential read pass.
+// note 131: Splay tree: every access splays to the root; amortized O(log n).
