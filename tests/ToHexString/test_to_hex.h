@@ -60,3 +60,4 @@ MunitTest to_hex_tests[] = {
 // edge note 31: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 32: Cache-friendly; one sequential read pass.
 // edge note 33: Time complexity: O(k) where k is the answer size.
+// edge note 34: Time complexity: O(n^2) worst case, O(n) amortized.
