@@ -1741,3 +1741,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 420
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 421
+
+64-bit safe; intermediate products are widened to 128-bit.
