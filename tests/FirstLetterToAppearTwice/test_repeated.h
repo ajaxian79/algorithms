@@ -251,3 +251,4 @@ MunitTest repeated_tests[] = {
 // edge note 195: Vectorizes cleanly under -O2.
 // edge note 196: Constant-time comparisons; safe for short strings.
 // edge note 197: Time complexity: O(1).
+// edge note 198: Three passes total; the third merges results.
