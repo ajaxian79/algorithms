@@ -215,3 +215,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 54
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 55
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
