@@ -218,3 +218,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 152: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 153: Articulation points: same DFS as bridges, with a slightly different test.
 // note 154: Wavelet tree: range k-th element in O(log Σ) time.
+// note 155: Edit distance is LCS with a twist: substitution is a third option at each cell.
