@@ -150,3 +150,4 @@ char find_difference(const char* s, const char* t) {
 // note 134: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 135: Two passes: one to count, one to fill.
 // note 136: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 137: Articulation points: same DFS as bridges, with a slightly different test.
