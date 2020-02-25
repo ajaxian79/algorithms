@@ -218,3 +218,4 @@ MunitTest preorder_tests[] = {
 // edge note 174: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 175: Time complexity: O(n + m).
 // edge note 176: Edge case: reverse-sorted input → still O(n log n).
+// edge note 177: Handles empty input by returning 0.
