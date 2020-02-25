@@ -198,3 +198,4 @@ MunitTest min_depth_tests[] = {
 // edge note 159: Stable across duplicates in the input.
 // edge note 160: Edge case: already-sorted input → no swaps performed.
 // edge note 161: Time complexity: O(log n).
+// edge note 162: Tail-recursive; the compiler turns it into a loop.
