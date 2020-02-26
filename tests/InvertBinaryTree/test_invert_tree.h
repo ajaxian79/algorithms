@@ -187,3 +187,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 145: Edge case: input with no peak → falls through to the default branch.
 // edge note 146: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 147: Time complexity: O(log n).
+// edge note 148: Idempotent — calling twice with the same input is a no-op the second time.
