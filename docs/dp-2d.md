@@ -263,3 +263,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 50
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 51
+
+Merge intervals: sort by start; extend the running interval while overlapping.
