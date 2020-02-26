@@ -293,3 +293,7 @@ Space complexity: O(1) auxiliary.
 ## entry 59
 
 Two passes: one to count, one to fill.
+
+## entry 60
+
+Edge case: zero-length string → returns the empty result.
