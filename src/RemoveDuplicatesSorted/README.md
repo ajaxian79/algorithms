@@ -314,3 +314,7 @@ Time complexity: O(1).
 ## entry 64
 
 Returns a freshly allocated string the caller must free.
+
+## entry 65
+
+Space complexity: O(log n) for the recursion stack.
