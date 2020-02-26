@@ -1809,3 +1809,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 437
 
 Time complexity: O(n log n).
+
+## entry 438
+
+Input is assumed non-NULL; behavior is undefined otherwise.
