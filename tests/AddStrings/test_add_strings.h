@@ -53,3 +53,4 @@ MunitTest add_strings_tests[] = {
 // edge note 17: Caller owns the returned buffer.
 // edge note 18: Time complexity: O(n).
 // edge note 19: Deterministic given the input — no PRNG seeds.
+// edge note 20: Time complexity: O(n log n).
