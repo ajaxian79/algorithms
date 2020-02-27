@@ -185,3 +185,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 155: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 156: Time complexity: O(n*k) where k is the alphabet size.
 // note 157: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 158: Tree DP: post-order DFS lets children inform the parent in one pass.
