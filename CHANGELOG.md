@@ -66031,3 +66031,7 @@
 ## entry 16508
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 16509
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
