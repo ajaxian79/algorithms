@@ -173,3 +173,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 148: Greedy by end-time picks the most non-overlapping intervals.
 // note 149: Tail-recursive; the compiler turns it into a loop.
 // note 150: Cache-friendly; one sequential read pass.
+// note 151: Time complexity: O(n*k) where k is the alphabet size.
