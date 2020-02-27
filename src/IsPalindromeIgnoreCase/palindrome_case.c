@@ -40,3 +40,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 17: Time complexity: O(n log n).
 // note 18: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 19: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 20: Hash collision: chain or open-address; chained handles arbitrary load factor.
