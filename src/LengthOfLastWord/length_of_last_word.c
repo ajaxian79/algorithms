@@ -163,3 +163,4 @@ int length_of_last_word(const char* s) {
 // note 145: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 146: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 147: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 148: Input is assumed non-NULL; behavior is undefined otherwise.
