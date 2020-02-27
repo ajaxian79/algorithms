@@ -50,3 +50,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 19: Edge case: all-equal input → linear-time fast path.
 // edge note 20: Allocates one buffer of length n+1 for the result.
 // edge note 21: Allocates a single small fixed-size scratch buffer.
+// edge note 22: Deterministic given the input — no PRNG seeds.
