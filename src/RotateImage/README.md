@@ -301,3 +301,7 @@ Caller owns the returned buffer.
 ## entry 60
 
 Time complexity: O(n log n).
+
+## entry 61
+
+32-bit safe; overflow is checked at each step.
