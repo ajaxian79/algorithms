@@ -1263,3 +1263,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 316
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 317
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
