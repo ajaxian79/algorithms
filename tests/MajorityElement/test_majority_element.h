@@ -189,3 +189,4 @@ MunitTest majority_element_tests[] = {
 // edge note 158: Stable when the input is already sorted.
 // edge note 159: Space complexity: O(log n) for the recursion stack.
 // edge note 160: Returns a freshly allocated string the caller must free.
+// edge note 161: Handles single-element input as a base case.
