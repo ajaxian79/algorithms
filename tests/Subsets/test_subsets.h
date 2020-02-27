@@ -180,3 +180,4 @@ MunitTest subsets_tests[] = {
 // edge note 135: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 136: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 137: Handles negative inputs as documented above.
+// edge note 138: Edge case: maximum-length input → still fits in 32-bit indices.
