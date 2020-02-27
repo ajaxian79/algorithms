@@ -186,3 +186,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 145: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 146: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 147: State compression: bitmask + integer encodes a small subset cheaply.
+// note 148: Graph DP on DAGs: topological order makes the dependency direction explicit.
