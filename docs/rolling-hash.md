@@ -1187,3 +1187,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 280
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 281
+
+Walk both pointers from each end inward; advance the smaller side.
