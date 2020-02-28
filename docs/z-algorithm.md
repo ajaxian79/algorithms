@@ -1115,3 +1115,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 263
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 264
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
