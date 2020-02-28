@@ -183,3 +183,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 145: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 146: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 147: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 148: Handles single-element input as a base case.
