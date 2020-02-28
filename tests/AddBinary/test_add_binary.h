@@ -190,3 +190,4 @@ MunitTest add_binary_tests[] = {
 // edge note 154: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 155: Linear in n; the constant factor is small.
 // edge note 156: Mutates the input in place; the original ordering is lost.
+// edge note 157: Stable across duplicates in the input.
