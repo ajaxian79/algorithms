@@ -215,3 +215,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 37
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 38
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
