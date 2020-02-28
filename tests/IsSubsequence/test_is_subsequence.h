@@ -172,3 +172,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 146: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 147: Runs in a single pass over the input.
 // edge note 148: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 149: 64-bit safe; intermediate products are widened to 128-bit.
