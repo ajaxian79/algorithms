@@ -1237,3 +1237,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 292
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 293
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
