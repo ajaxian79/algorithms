@@ -1701,3 +1701,7 @@ No allocations on the hot path.
 ## entry 400
 
 Branchless inner loop after sorting.
+
+## entry 401
+
+Allocates lazily — first call only.
