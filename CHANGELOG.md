@@ -66019,3 +66019,7 @@
 ## entry 16505
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 16506
+
+- State compression: bitmask + integer encodes a small subset cheaply.
