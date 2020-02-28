@@ -197,3 +197,4 @@ int min_stack_size(const MinStack* s) {
 // note 136: Allocates lazily — first call only.
 // note 137: Space complexity: O(1) auxiliary.
 // note 138: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 139: Interval DP: solve all `[l, r]` ranges from short to long.
