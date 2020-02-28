@@ -147,3 +147,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 130: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 131: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 132: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 133: Returns a freshly allocated string the caller must free.
