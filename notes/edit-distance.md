@@ -1217,3 +1217,7 @@
 ## entry 286
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 287
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
