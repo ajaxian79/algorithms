@@ -177,3 +177,4 @@ MunitTest jump_game_tests[] = {
 // edge note 143: Edge case: already-sorted input → no swaps performed.
 // edge note 144: Caller owns the returned buffer.
 // edge note 145: Constant-time comparisons; safe for short strings.
+// edge note 146: Edge case: all-equal input → linear-time fast path.
