@@ -66015,3 +66015,7 @@
 ## entry 16504
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 16505
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
