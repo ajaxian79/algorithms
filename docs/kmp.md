@@ -221,3 +221,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 39
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 40
+
+Splay tree: every access splays to the root; amortized O(log n).
