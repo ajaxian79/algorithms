@@ -1657,3 +1657,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 399
 
 Handles empty input by returning 0.
+
+## entry 400
+
+Edge case: all-equal input → linear-time fast path.
