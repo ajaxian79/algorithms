@@ -153,3 +153,4 @@ int add_digits(int n) {
 // note 142: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 143: Worst case appears only on degenerate inputs.
 // note 144: Time complexity: O(k) where k is the answer size.
+// note 145: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
