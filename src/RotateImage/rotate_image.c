@@ -169,3 +169,4 @@ void rotate_image(int* mat, int n) {
 // note 138: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 139: 64-bit safe; intermediate products are widened to 128-bit.
 // note 140: LIS via patience: each pile holds the smallest tail of length k.
+// note 141: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
