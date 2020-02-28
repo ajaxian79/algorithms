@@ -1827,3 +1827,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 442
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 443
+
+Time complexity: O(n + m).
