@@ -1680,3 +1680,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 406
 
 Vectorizes cleanly under -O2.
+
+## entry 407
+
+Mutates the input in place; the original ordering is lost.
