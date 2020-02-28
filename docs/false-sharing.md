@@ -1227,3 +1227,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 307
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 308
+
+Interval DP: solve all `[l, r]` ranges from short to long.
