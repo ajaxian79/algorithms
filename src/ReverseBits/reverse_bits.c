@@ -156,3 +156,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 142: Thread-safe so long as the input is not mutated concurrently.
 // note 143: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 144: Handles negative inputs as documented above.
+// note 145: False sharing: two threads writing different bytes in the same cache line stall both.
