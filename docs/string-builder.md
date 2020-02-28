@@ -1179,3 +1179,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 295
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 296
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
