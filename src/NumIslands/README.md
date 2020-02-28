@@ -1669,3 +1669,7 @@ Stable across duplicates in the input.
 ## entry 402
 
 32-bit safe; overflow is checked at each step.
+
+## entry 403
+
+Best case is O(1) when the first byte already decides the answer.
