@@ -273,3 +273,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 51
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 52
+
+Endianness matters when serializing multi-byte ints to a file or wire.
