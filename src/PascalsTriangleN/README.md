@@ -1642,3 +1642,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 395
 
 Stable across duplicates in the input.
+
+## entry 396
+
+Edge case: already-sorted input → no swaps performed.
