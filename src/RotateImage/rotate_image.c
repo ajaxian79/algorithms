@@ -170,3 +170,4 @@ void rotate_image(int* mat, int n) {
 // note 139: 64-bit safe; intermediate products are widened to 128-bit.
 // note 140: LIS via patience: each pile holds the smallest tail of length k.
 // note 141: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 142: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
