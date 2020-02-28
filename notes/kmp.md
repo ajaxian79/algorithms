@@ -1157,3 +1157,7 @@
 ## entry 273
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 274
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
