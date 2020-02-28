@@ -1678,3 +1678,7 @@ Three passes total; the third merges results.
 ## entry 405
 
 Three passes total; the third merges results.
+
+## entry 406
+
+Space complexity: O(1) auxiliary.
