@@ -1213,3 +1213,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 287
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 288
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
