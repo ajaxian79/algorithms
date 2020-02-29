@@ -336,3 +336,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 69
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 70
+
+Avoids floating-point entirely — integer math throughout.
