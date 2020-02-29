@@ -1878,3 +1878,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 455
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 456
+
+Branchless inner loop after sorting.
