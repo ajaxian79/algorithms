@@ -1187,3 +1187,7 @@
 ## entry 280
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 281
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
