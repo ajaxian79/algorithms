@@ -164,3 +164,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 142: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 143: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 144: Time complexity: O(n + m).
+// note 145: Thread-safe so long as the input is not mutated concurrently.
