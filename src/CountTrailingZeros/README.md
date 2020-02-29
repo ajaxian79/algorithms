@@ -1722,3 +1722,7 @@ Cache-friendly; one sequential read pass.
 ## entry 415
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 416
+
+Treats the input as immutable.
