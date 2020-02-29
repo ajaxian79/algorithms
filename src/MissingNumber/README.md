@@ -350,3 +350,7 @@ Treats the input as immutable.
 ## entry 72
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 73
+
+Reentrant — no static state.
