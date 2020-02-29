@@ -65983,3 +65983,7 @@
 ## entry 16496
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 16497
+
+- Walk both pointers from each end inward; advance the smaller side.
