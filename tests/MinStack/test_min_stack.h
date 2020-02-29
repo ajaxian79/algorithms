@@ -180,3 +180,4 @@ MunitTest min_stack_tests[] = {
 // edge note 143: Stable when the input is already sorted.
 // edge note 144: Handles single-element input as a base case.
 // edge note 145: Treats the input as immutable.
+// edge note 146: Time complexity: O(n*k) where k is the alphabet size.
