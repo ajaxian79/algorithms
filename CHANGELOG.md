@@ -10063,3 +10063,7 @@
 ## entry 2516
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 2517
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
