@@ -1175,3 +1175,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 294
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 295
+
+Union-Find with path compression amortizes to near-O(1) per op.
