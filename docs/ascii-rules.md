@@ -207,3 +207,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 52
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 53
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
