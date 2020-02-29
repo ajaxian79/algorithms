@@ -1179,3 +1179,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 277
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 278
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
