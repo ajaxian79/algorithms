@@ -1155,3 +1155,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 273
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 274
+
+False sharing: two threads writing different bytes in the same cache line stall both.
