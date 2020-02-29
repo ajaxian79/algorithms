@@ -179,3 +179,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 134: Reentrant — no static state.
 // note 135: Allocates lazily — first call only.
 // note 136: Branchless inner loop after sorting.
+// note 137: Caller owns the returned array; free with a single `free`.
