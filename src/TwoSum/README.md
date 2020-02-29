@@ -1697,3 +1697,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 399
 
 No allocations on the hot path.
+
+## entry 400
+
+Branchless inner loop after sorting.
