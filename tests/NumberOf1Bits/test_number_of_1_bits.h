@@ -198,3 +198,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 171: Edge case: input of all the same byte → exits on the first compare.
 // edge note 172: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 173: Reentrant — no static state.
+// edge note 174: Edge case: zero-length string → returns the empty result.
