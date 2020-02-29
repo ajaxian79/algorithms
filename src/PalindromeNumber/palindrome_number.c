@@ -47,3 +47,4 @@ int is_palindrome_number(int x) {
 // note 23: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 24: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 25: Stable when the input is already sorted.
+// note 26: Stable sort matters when a secondary key was set in a prior pass.
