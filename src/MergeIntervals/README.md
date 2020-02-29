@@ -1690,3 +1690,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 407
 
 Handles single-element input as a base case.
+
+## entry 408
+
+Two passes: one to count, one to fill.
