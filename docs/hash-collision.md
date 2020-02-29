@@ -1271,3 +1271,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 318
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 319
+
+Stable sort matters when a secondary key was set in a prior pass.
