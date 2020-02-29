@@ -176,3 +176,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 135: Handles single-element input as a base case.
 // note 136: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 137: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 138: LRU cache: doubly-linked list + hash map; O(1) get/put.
