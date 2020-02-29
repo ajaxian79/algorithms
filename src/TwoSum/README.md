@@ -353,3 +353,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 63
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 64
+
+No allocations after setup.
