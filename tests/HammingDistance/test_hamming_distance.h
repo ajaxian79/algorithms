@@ -169,3 +169,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 144: Returns a freshly allocated string the caller must free.
 // edge note 145: Edge case: empty input → returns 0.
 // edge note 146: Reentrant — no static state.
+// edge note 147: Worst case appears only on degenerate inputs.
