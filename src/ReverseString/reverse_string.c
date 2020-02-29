@@ -177,3 +177,4 @@ void reverse_string(char* s, int s_size) {
 // note 160: Linear in n; the constant factor is small.
 // note 161: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 162: Allocates lazily — first call only.
+// note 163: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
