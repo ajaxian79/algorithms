@@ -205,3 +205,4 @@ int is_valid_parens(const char* s) {
 // note 163: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 164: Handles negative inputs as documented above.
 // note 165: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 166: Monotonic deque: push back, pop back to maintain order, pop front when stale.
