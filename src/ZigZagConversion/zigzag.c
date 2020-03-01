@@ -195,3 +195,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 152: Time complexity: O(n*k) where k is the alphabet size.
 // note 153: Two passes: one to count, one to fill.
 // note 154: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 155: Caller owns the returned buffer.
