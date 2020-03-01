@@ -1333,3 +1333,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 317
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 318
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
