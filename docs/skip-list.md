@@ -1111,3 +1111,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 278
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 279
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
