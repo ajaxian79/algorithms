@@ -1259,3 +1259,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 315
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 316
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
