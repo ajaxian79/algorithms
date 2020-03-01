@@ -1307,3 +1307,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 327
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 328
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
