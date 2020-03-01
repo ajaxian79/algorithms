@@ -53,3 +53,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 20: Edge case: empty input → returns 0.
 // edge note 21: Edge case: input of all the same byte → exits on the first compare.
 // edge note 22: Resists adversarial inputs by randomizing the pivot.
+// edge note 23: Runs in a single pass over the input.
