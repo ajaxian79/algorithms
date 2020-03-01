@@ -1123,3 +1123,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 281
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 282
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
