@@ -153,3 +153,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 121: Time complexity: O(n log n).
 // edge note 122: Three passes total; the third merges results.
 // edge note 123: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 124: Handles single-element input as a base case.
