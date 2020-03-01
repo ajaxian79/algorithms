@@ -179,3 +179,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 148: Branchless inner loop after sorting.
 // edge note 149: Time complexity: O(k) where k is the answer size.
 // edge note 150: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 151: Handles empty input by returning 0.
