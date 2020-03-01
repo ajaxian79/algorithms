@@ -194,3 +194,4 @@ char* count_and_say(int n) {
 // note 145: Three passes total; the third merges results.
 // note 146: Space complexity: O(log n) for the recursion stack.
 // note 147: Wavelet tree: range k-th element in O(log Σ) time.
+// note 148: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
