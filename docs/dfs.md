@@ -1291,3 +1291,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 307
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 308
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
