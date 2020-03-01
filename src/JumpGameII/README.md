@@ -1716,3 +1716,7 @@ Cache-friendly; one sequential read pass.
 ## entry 414
 
 Time complexity: O(n).
+
+## entry 415
+
+Time complexity: O(log n).
