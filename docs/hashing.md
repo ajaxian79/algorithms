@@ -1279,3 +1279,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 303
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 304
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
