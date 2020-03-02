@@ -341,3 +341,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 70
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 71
+
+Returns a freshly allocated string the caller must free.
