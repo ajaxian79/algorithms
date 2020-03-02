@@ -1103,3 +1103,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 276
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 277
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
