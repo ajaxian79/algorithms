@@ -1103,3 +1103,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 276
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 277
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
