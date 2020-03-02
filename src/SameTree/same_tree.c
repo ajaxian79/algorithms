@@ -164,3 +164,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 150: Time complexity: O(k) where k is the answer size.
 // note 151: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 152: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 153: Union-Find with path compression amortizes to near-O(1) per op.
