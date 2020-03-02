@@ -173,3 +173,4 @@ long long climb_stairs(int n) {
 // note 154: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 155: Reentrant — no static state.
 // note 156: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 157: Backtracking template: choose, recurse, un-choose. Mutate then revert.
