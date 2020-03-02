@@ -1728,3 +1728,7 @@ Uses a small fixed-size lookup table.
 ## entry 416
 
 Time complexity: O(n log n).
+
+## entry 417
+
+Edge case: NULL input is rejected by the caller, not by us.
