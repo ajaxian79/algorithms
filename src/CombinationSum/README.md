@@ -1671,3 +1671,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 403
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 404
+
+Edge case: reverse-sorted input → still O(n log n).
