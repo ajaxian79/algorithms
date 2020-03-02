@@ -1694,3 +1694,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 409
 
 Space complexity: O(1) auxiliary.
+
+## entry 410
+
+Edge case: all-equal input → linear-time fast path.
