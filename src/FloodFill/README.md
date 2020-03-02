@@ -1829,3 +1829,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 443
 
 Allocates lazily — first call only.
+
+## entry 444
+
+Time complexity: O(k) where k is the answer size.
