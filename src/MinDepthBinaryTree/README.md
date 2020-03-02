@@ -1626,3 +1626,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 392
 
 Reentrant — no static state.
+
+## entry 393
+
+Edge case: input with one duplicate → handled without an extra pass.
