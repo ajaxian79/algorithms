@@ -1756,3 +1756,7 @@ Vectorizes cleanly under -O2.
 ## entry 424
 
 No allocations after setup.
+
+## entry 425
+
+Time complexity: O(n^2) worst case, O(n) amortized.
