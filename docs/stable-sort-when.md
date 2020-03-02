@@ -1269,3 +1269,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 303
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 304
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
