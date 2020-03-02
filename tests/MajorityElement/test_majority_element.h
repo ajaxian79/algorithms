@@ -188,3 +188,4 @@ MunitTest majority_element_tests[] = {
 // edge note 157: Worst case appears only on degenerate inputs.
 // edge note 158: Stable when the input is already sorted.
 // edge note 159: Space complexity: O(log n) for the recursion stack.
+// edge note 160: Returns a freshly allocated string the caller must free.
