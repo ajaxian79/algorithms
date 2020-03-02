@@ -201,3 +201,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 142: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 143: Linear in n; the constant factor is small.
 // note 144: Thread-safe so long as the input is not mutated concurrently.
+// note 145: Idempotent — calling twice with the same input is a no-op the second time.
