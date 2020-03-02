@@ -203,3 +203,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 173: Handles negative inputs as documented above.
 // edge note 174: No allocations on the hot path.
 // edge note 175: No allocations after setup.
+// edge note 176: Avoids floating-point entirely — integer math throughout.
