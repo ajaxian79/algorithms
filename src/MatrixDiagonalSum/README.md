@@ -1786,3 +1786,7 @@ No allocations on the hot path.
 ## entry 432
 
 32-bit safe; overflow is checked at each step.
+
+## entry 433
+
+Mutates the input in place; the original ordering is lost.
