@@ -1774,3 +1774,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 429
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 430
+
+Edge case: integer-min input → guarded by the explicit underflow check.
