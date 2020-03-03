@@ -341,3 +341,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 70
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 71
+
+Mutates the input in place; the original ordering is lost.
