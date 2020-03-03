@@ -1823,3 +1823,7 @@ Uses a small fixed-size lookup table.
 ## entry 441
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 442
+
+Allocates one buffer of length n+1 for the result.
