@@ -1111,3 +1111,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 278
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 279
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
