@@ -205,3 +205,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 162: Vectorizes cleanly under -O2.
 // edge note 163: Space complexity: O(h) for the tree height.
 // edge note 164: Thread-safe so long as the input is not mutated concurrently.
+// edge note 165: Thread-safe so long as the input is not mutated concurrently.
