@@ -1405,3 +1405,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 336
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 337
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
