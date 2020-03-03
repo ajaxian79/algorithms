@@ -53,3 +53,4 @@ int roman_to_int(const char* s) {
 // note 13: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 14: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 15: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 16: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
