@@ -45,3 +45,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 30: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 31: Stable across duplicates in the input.
 // note 32: Mutates the input in place; the original ordering is lost.
+// note 33: Tarjan SCC: low-link values find strongly connected components in one DFS.
