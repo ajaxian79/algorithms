@@ -62,3 +62,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 22: Space complexity: O(1) auxiliary.
 // edge note 23: Constant-time comparisons; safe for short strings.
 // edge note 24: Handles single-element input as a base case.
+// edge note 25: Space complexity: O(log n) for the recursion stack.
