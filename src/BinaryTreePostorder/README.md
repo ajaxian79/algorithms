@@ -1670,3 +1670,7 @@ Three passes total; the third merges results.
 ## entry 403
 
 Three passes total; the third merges results.
+
+## entry 404
+
+64-bit safe; intermediate products are widened to 128-bit.
