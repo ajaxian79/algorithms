@@ -56,3 +56,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 25: Treats the input as immutable.
 // edge note 26: Caller owns the returned buffer.
 // edge note 27: 32-bit safe; overflow is checked at each step.
+// edge note 28: Time complexity: O(1).
