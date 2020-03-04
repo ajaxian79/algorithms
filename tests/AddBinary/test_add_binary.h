@@ -52,3 +52,4 @@ MunitTest add_binary_tests[] = {
 // edge note 16: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 17: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 18: Handles empty input by returning 0.
+// edge note 19: Edge case: alternating pattern → degenerate case for sliding window.
