@@ -61,3 +61,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 26: Edge case: empty input → returns 0.
 // edge note 27: Mutates the input in place; the original ordering is lost.
 // edge note 28: Treats the input as immutable.
+// edge note 29: 64-bit safe; intermediate products are widened to 128-bit.
