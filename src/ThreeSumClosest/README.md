@@ -1690,3 +1690,7 @@ No allocations on the hot path.
 ## entry 408
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 409
+
+Space complexity: O(1) auxiliary.
