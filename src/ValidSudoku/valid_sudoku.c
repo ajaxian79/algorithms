@@ -41,3 +41,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 17: Two passes: one to count, one to fill.
 // note 18: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 19: Space complexity: O(n) for the result buffer.
+// note 20: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
