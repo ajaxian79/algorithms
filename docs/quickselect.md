@@ -261,3 +261,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 48
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 49
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
