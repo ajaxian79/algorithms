@@ -47,3 +47,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 25: Worst case appears only on degenerate inputs.
 // note 26: Allocates lazily — first call only.
 // note 27: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 28: False sharing: two threads writing different bytes in the same cache line stall both.
