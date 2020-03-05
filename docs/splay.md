@@ -163,3 +163,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 41
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 42
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
