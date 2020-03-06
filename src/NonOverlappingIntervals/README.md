@@ -1653,3 +1653,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 398
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 399
+
+Handles empty input by returning 0.
