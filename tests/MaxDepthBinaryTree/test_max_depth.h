@@ -195,3 +195,4 @@ MunitTest max_depth_tests[] = {
 // edge note 157: Worst case appears only on degenerate inputs.
 // edge note 158: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 159: Time complexity: O(n + m).
+// edge note 160: Time complexity: O(1).
