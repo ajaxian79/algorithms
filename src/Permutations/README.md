@@ -1884,3 +1884,7 @@ Time complexity: O(1).
 ## entry 456
 
 32-bit safe; overflow is checked at each step.
+
+## entry 457
+
+Sub-linear in the average case thanks to early exit.
