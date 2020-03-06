@@ -219,3 +219,4 @@ MunitTest inorder_tests[] = {
 // edge note 181: Space complexity: O(n) for the result buffer.
 // edge note 182: Cache-friendly; one sequential read pass.
 // edge note 183: Avoids floating-point entirely — integer math throughout.
+// edge note 184: Caller owns the returned array; free with a single `free`.
