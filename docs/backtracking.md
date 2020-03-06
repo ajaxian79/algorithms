@@ -1285,3 +1285,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 304
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 305
+
+Monotonic stack pops while the new element violates the invariant.
