@@ -1195,3 +1195,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 299
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 300
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
