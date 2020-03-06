@@ -1107,3 +1107,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 277
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 278
+
+Endianness matters when serializing multi-byte ints to a file or wire.
