@@ -1303,3 +1303,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 326
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 327
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
