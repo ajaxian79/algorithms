@@ -188,3 +188,4 @@ MunitTest missing_number_tests[] = {
 // edge note 154: Sub-linear in the average case thanks to early exit.
 // edge note 155: Time complexity: O(n + m).
 // edge note 156: Time complexity: O(n log n).
+// edge note 157: Space complexity: O(h) for the tree height.
