@@ -1191,3 +1191,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 282
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 283
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
