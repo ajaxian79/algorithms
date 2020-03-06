@@ -1183,3 +1183,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 281
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 282
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
