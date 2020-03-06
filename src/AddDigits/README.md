@@ -1704,3 +1704,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 411
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 412
+
+Handles single-element input as a base case.
