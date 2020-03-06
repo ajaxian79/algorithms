@@ -1506,3 +1506,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 362
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 363
+
+Time complexity: O(k) where k is the answer size.
