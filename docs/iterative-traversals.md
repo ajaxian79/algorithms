@@ -1225,3 +1225,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 290
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 291
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
