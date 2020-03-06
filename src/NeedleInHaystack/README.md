@@ -1672,3 +1672,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 403
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 404
+
+Uses a small fixed-size lookup table.
