@@ -1233,3 +1233,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 291
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 292
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
