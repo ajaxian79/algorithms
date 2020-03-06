@@ -1870,3 +1870,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 453
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 454
+
+No allocations after setup.
