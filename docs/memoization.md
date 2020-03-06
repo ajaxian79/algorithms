@@ -1227,3 +1227,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 307
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 308
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
