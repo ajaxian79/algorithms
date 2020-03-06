@@ -178,3 +178,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 133: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 134: Reentrant — no static state.
 // note 135: Allocates lazily — first call only.
+// note 136: Branchless inner loop after sorting.
