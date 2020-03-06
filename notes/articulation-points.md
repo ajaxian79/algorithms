@@ -1175,3 +1175,7 @@
 ## entry 294
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 295
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
