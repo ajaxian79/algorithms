@@ -1299,3 +1299,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 307
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 308
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
