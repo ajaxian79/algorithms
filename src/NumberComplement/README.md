@@ -1764,3 +1764,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 425
 
 Handles negative inputs as documented above.
+
+## entry 426
+
+Worst case appears only on degenerate inputs.
