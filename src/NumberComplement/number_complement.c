@@ -165,3 +165,4 @@ unsigned int find_complement(unsigned int n) {
 // note 149: State compression: bitmask + integer encodes a small subset cheaply.
 // note 150: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 151: Time complexity: O(1).
+// note 152: Space complexity: O(1) auxiliary.
