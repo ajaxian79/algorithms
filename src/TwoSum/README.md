@@ -1693,3 +1693,7 @@ Stable when the input is already sorted.
 ## entry 398
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 399
+
+No allocations on the hot path.
