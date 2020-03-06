@@ -190,3 +190,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 151: Vectorizes cleanly under -O2.
 // edge note 152: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 153: Runs in a single pass over the input.
+// edge note 154: Handles single-element input as a base case.
