@@ -1638,3 +1638,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 394
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 395
+
+Stable across duplicates in the input.
