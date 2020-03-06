@@ -44,3 +44,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 29: Splay tree: every access splays to the root; amortized O(log n).
 // note 30: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 31: Stable across duplicates in the input.
+// note 32: Mutates the input in place; the original ordering is lost.
