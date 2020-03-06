@@ -1211,3 +1211,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 303
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 304
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
