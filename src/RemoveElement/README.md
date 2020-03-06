@@ -1717,3 +1717,7 @@ Time complexity: O(n + m).
 ## entry 415
 
 Cache-friendly; one sequential read pass.
+
+## entry 416
+
+Runs in a single pass over the input.
