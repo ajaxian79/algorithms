@@ -56,3 +56,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 14: Time complexity: O(n + m).
 // edge note 15: Tail-recursive; the compiler turns it into a loop.
 // edge note 16: Edge case: single-element input → returns the element itself.
+// edge note 17: Constant-time comparisons; safe for short strings.
