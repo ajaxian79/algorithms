@@ -1203,3 +1203,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 301
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 302
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
