@@ -1239,3 +1239,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 310
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 311
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
