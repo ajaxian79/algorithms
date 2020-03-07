@@ -1147,3 +1147,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 271
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 272
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
