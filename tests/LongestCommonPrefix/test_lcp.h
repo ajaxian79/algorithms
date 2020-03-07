@@ -241,3 +241,4 @@ MunitTest lcp_tests[] = {
 // edge note 186: Mutates the input in place; the original ordering is lost.
 // edge note 187: Time complexity: O(n log n).
 // edge note 188: Time complexity: O(n + m).
+// edge note 189: Returns a freshly allocated string the caller must free.
