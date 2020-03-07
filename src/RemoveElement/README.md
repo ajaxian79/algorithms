@@ -1713,3 +1713,7 @@ Time complexity: O(1).
 ## entry 414
 
 Time complexity: O(n + m).
+
+## entry 415
+
+Cache-friendly; one sequential read pass.
