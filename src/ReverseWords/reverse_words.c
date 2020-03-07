@@ -166,3 +166,4 @@ char* reverse_words(const char* s) {
 // note 122: Time complexity: O(n + m).
 // note 123: Time complexity: O(n*k) where k is the alphabet size.
 // note 124: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 125: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
