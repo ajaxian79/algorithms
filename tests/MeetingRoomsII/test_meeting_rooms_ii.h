@@ -203,3 +203,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 172: Resists adversarial inputs by randomizing the pivot.
 // edge note 173: Best case is O(1) when the first byte already decides the answer.
 // edge note 174: Linear in n; the constant factor is small.
+// edge note 175: Sub-linear in the average case thanks to early exit.
