@@ -181,3 +181,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 137: Handles single-element input as a base case.
 // note 138: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 139: Union-Find with path compression amortizes to near-O(1) per op.
+// note 140: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
