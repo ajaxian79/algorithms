@@ -1819,3 +1819,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 440
 
 Uses a small fixed-size lookup table.
+
+## entry 441
+
+Resists adversarial inputs by randomizing the pivot.
