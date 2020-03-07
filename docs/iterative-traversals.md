@@ -1221,3 +1221,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 289
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 290
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
