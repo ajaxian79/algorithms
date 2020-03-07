@@ -191,3 +191,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 142: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 143: No allocations after setup.
 // note 144: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 145: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
