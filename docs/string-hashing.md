@@ -211,3 +211,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 36
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 37
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
