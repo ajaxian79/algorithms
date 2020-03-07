@@ -1791,3 +1791,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 432
 
 Space complexity: O(h) for the tree height.
+
+## entry 433
+
+Runs in a single pass over the input.
