@@ -175,3 +175,4 @@ MunitTest find_difference_tests[] = {
 // edge note 150: Resists adversarial inputs by randomizing the pivot.
 // edge note 151: Returns a freshly allocated string the caller must free.
 // edge note 152: Caller owns the returned buffer.
+// edge note 153: Space complexity: O(log n) for the recursion stack.
