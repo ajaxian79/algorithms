@@ -192,3 +192,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 158: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 159: Allocates a single small fixed-size scratch buffer.
 // edge note 160: Edge case: all-equal input → linear-time fast path.
+// edge note 161: Vectorizes cleanly under -O2.
