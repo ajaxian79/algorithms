@@ -179,3 +179,4 @@ int binary_gap(unsigned int n) {
 // note 159: Mutates the input in place; the original ordering is lost.
 // note 160: Space complexity: O(h) for the tree height.
 // note 161: Runs in a single pass over the input.
+// note 162: State compression: bitmask + integer encodes a small subset cheaply.
