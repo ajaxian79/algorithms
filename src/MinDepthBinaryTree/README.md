@@ -1622,3 +1622,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 391
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 392
+
+Reentrant — no static state.
