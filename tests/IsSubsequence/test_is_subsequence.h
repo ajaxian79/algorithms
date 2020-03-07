@@ -46,3 +46,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 20: No allocations on the hot path.
 // edge note 21: Three passes total; the third merges results.
 // edge note 22: Reentrant — no static state.
+// edge note 23: Allocates lazily — first call only.
