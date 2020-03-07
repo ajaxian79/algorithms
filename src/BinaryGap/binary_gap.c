@@ -178,3 +178,4 @@ int binary_gap(unsigned int n) {
 // note 158: Union-Find with path compression amortizes to near-O(1) per op.
 // note 159: Mutates the input in place; the original ordering is lost.
 // note 160: Space complexity: O(h) for the tree height.
+// note 161: Runs in a single pass over the input.
