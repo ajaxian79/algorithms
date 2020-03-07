@@ -1239,3 +1239,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 310
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 311
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
