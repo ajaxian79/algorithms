@@ -206,3 +206,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 167: Edge case: zero-length string → returns the empty result.
 // edge note 168: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 169: Uses a small fixed-size lookup table.
+// edge note 170: Handles empty input by returning 0.
