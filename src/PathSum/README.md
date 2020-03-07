@@ -1752,3 +1752,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 423
 
 Vectorizes cleanly under -O2.
+
+## entry 424
+
+No allocations after setup.
