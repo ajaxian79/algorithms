@@ -1339,3 +1339,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 318
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 319
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
