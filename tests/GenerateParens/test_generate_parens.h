@@ -238,3 +238,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 178: Stable when the input is already sorted.
 // edge note 179: Sub-linear in the average case thanks to early exit.
 // edge note 180: Edge case: input with no peak → falls through to the default branch.
+// edge note 181: Worst case appears only on degenerate inputs.
