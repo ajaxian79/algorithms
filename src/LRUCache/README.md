@@ -1724,3 +1724,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 415
 
 Allocates lazily — first call only.
+
+## entry 416
+
+Edge case: integer-min input → guarded by the explicit underflow check.
