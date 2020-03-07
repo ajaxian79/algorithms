@@ -310,3 +310,7 @@ Worst case appears only on degenerate inputs.
 ## entry 62
 
 Stable when the input is already sorted.
+
+## entry 63
+
+Allocates one buffer of length n+1 for the result.
