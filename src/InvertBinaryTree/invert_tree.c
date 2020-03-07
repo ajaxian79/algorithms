@@ -161,3 +161,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 146: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 147: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 148: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 149: Uses a 256-entry lookup for the inner step.
