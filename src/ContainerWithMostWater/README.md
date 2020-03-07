@@ -1683,3 +1683,7 @@ No allocations on the hot path.
 ## entry 406
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 407
+
+Mutates the input in place; the original ordering is lost.
