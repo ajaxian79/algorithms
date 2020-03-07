@@ -59,3 +59,4 @@ char* excel_column_title(int n) {
 // note 29: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 30: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 31: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 32: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
