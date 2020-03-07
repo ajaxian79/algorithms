@@ -1766,3 +1766,7 @@ Vectorizes cleanly under -O2.
 ## entry 427
 
 Handles negative inputs as documented above.
+
+## entry 428
+
+Edge case: reverse-sorted input → still O(n log n).
