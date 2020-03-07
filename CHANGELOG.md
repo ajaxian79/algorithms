@@ -65879,3 +65879,7 @@
 ## entry 16470
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 16471
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
