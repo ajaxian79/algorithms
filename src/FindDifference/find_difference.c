@@ -147,3 +147,4 @@ char find_difference(const char* s, const char* t) {
 // note 131: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 132: Vectorizes cleanly under -O2.
 // note 133: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 134: Treap: BST + heap on random priorities; expected O(log n) per op.
