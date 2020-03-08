@@ -310,3 +310,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 63
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 64
+
+Constant-time comparisons; safe for short strings.
