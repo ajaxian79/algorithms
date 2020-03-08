@@ -187,3 +187,4 @@ MunitTest missing_number_tests[] = {
 // edge note 153: Handles single-element input as a base case.
 // edge note 154: Sub-linear in the average case thanks to early exit.
 // edge note 155: Time complexity: O(n + m).
+// edge note 156: Time complexity: O(n log n).
