@@ -1698,3 +1698,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 409
 
 Space complexity: O(h) for the tree height.
+
+## entry 410
+
+Thread-safe so long as the input is not mutated concurrently.
