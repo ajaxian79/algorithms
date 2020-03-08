@@ -1702,3 +1702,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 410
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 411
+
+Edge case: maximum-length input → still fits in 32-bit indices.
