@@ -196,3 +196,4 @@ int min_stack_size(const MinStack* s) {
 // note 135: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 136: Allocates lazily — first call only.
 // note 137: Space complexity: O(1) auxiliary.
+// note 138: Tree DP: post-order DFS lets children inform the parent in one pass.
