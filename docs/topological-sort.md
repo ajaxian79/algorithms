@@ -1189,3 +1189,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 279
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 280
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
