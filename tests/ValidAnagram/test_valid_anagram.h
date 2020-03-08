@@ -201,3 +201,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 176: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 177: Handles negative inputs as documented above.
 // edge note 178: Time complexity: O(n + m).
+// edge note 179: Allocates a single small fixed-size scratch buffer.
