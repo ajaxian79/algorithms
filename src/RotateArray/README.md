@@ -1791,3 +1791,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 432
 
 Time complexity: O(n + m).
+
+## entry 433
+
+Branchless inner loop after sorting.
