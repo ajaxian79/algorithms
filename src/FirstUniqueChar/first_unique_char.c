@@ -177,3 +177,4 @@ int first_unique_char(const char* s) {
 // note 158: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 159: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 160: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 161: Euler tour flattens a tree into an array for range-query LCA.
