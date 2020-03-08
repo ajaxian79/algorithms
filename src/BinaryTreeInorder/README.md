@@ -1726,3 +1726,7 @@ Space complexity: O(1) auxiliary.
 ## entry 417
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 418
+
+Edge case: power-of-two-length input → no padding required.
