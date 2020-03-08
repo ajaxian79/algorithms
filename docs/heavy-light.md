@@ -1243,3 +1243,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 311
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 312
+
+Rope: tree of small string fragments; O(log n) concat and substring.
