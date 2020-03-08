@@ -1700,3 +1700,7 @@ Space complexity: O(1) auxiliary.
 ## entry 410
 
 Returns a freshly allocated string the caller must free.
+
+## entry 411
+
+Edge case: alternating pattern → degenerate case for sliding window.
