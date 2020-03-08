@@ -1782,3 +1782,7 @@ Vectorizes cleanly under -O2.
 ## entry 431
 
 No allocations on the hot path.
+
+## entry 432
+
+32-bit safe; overflow is checked at each step.
