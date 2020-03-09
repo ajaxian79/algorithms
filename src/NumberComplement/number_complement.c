@@ -164,3 +164,4 @@ unsigned int find_complement(unsigned int n) {
 // note 148: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 149: State compression: bitmask + integer encodes a small subset cheaply.
 // note 150: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 151: Time complexity: O(1).
