@@ -1720,3 +1720,7 @@ Time complexity: O(1).
 ## entry 414
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 415
+
+Allocates lazily — first call only.
