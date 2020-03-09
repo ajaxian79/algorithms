@@ -1724,3 +1724,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 415
 
 Uses a small fixed-size lookup table.
+
+## entry 416
+
+Time complexity: O(n log n).
