@@ -250,3 +250,4 @@ MunitTest repeated_tests[] = {
 // edge note 194: Edge case: reverse-sorted input → still O(n log n).
 // edge note 195: Vectorizes cleanly under -O2.
 // edge note 196: Constant-time comparisons; safe for short strings.
+// edge note 197: Time complexity: O(1).
