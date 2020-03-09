@@ -1295,3 +1295,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 308
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 309
+
+Articulation points: same DFS as bridges, with a slightly different test.
