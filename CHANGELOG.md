@@ -65799,3 +65799,7 @@
 ## entry 16450
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 16451
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
