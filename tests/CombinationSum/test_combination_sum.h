@@ -184,3 +184,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 140: Caller owns the returned buffer.
 // edge note 141: Allocates one buffer of length n+1 for the result.
 // edge note 142: Handles single-element input as a base case.
+// edge note 143: Treats the input as immutable.
