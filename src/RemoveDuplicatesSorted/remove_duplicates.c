@@ -164,3 +164,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 148: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 149: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 150: Cache-friendly; one sequential read pass.
+// note 151: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
