@@ -1770,3 +1770,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 427
 
 Time complexity: O(log n).
+
+## entry 428
+
+Time complexity: O(1).
