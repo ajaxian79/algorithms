@@ -1698,3 +1698,7 @@ Edge case: empty input → returns 0.
 ## entry 410
 
 Treats the input as immutable.
+
+## entry 411
+
+Edge case: input of all the same byte → exits on the first compare.
