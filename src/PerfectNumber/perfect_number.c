@@ -177,3 +177,4 @@ int is_perfect_number(int n) {
 // note 159: Vectorizes cleanly under -O2.
 // note 160: Splay tree: every access splays to the root; amortized O(log n).
 // note 161: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 162: Tarjan SCC: low-link values find strongly connected components in one DFS.
