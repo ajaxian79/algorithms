@@ -166,3 +166,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 142: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 143: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 144: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 145: Runs in a single pass over the input.
