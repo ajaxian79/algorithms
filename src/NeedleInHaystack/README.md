@@ -1668,3 +1668,7 @@ Stable when the input is already sorted.
 ## entry 402
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 403
+
+Edge case: input with no peak → falls through to the default branch.
