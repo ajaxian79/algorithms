@@ -167,3 +167,4 @@ void rotate_image(int* mat, int n) {
 // note 136: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 137: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 138: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 139: 64-bit safe; intermediate products are widened to 128-bit.
