@@ -1171,3 +1171,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 293
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 294
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
