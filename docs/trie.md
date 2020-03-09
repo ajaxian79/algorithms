@@ -1141,3 +1141,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 269
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 270
+
+Stable sort matters when a secondary key was set in a prior pass.
