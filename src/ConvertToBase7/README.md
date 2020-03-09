@@ -332,3 +332,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 68
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 69
+
+Edge case: zero-length string → returns the empty result.
