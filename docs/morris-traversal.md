@@ -1175,3 +1175,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 279
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 280
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
