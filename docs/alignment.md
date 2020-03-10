@@ -1235,3 +1235,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 309
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 310
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
