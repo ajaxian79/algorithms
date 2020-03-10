@@ -1618,3 +1618,7 @@ Stable when the input is already sorted.
 ## entry 390
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 391
+
+Edge case: already-sorted input → no swaps performed.
