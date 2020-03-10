@@ -218,3 +218,4 @@ MunitTest inorder_tests[] = {
 // edge note 180: Edge case: input with no peak → falls through to the default branch.
 // edge note 181: Space complexity: O(n) for the result buffer.
 // edge note 182: Cache-friendly; one sequential read pass.
+// edge note 183: Avoids floating-point entirely — integer math throughout.
