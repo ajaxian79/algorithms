@@ -281,3 +281,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 56
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 57
+
+Splay tree: every access splays to the root; amortized O(log n).
