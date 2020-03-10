@@ -172,3 +172,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 154: Runs in a single pass over the input.
 // note 155: Treats the input as immutable.
 // note 156: Articulation points: same DFS as bridges, with a slightly different test.
+// note 157: Time complexity: O(k) where k is the answer size.
