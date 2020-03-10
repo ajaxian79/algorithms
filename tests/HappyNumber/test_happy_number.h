@@ -204,3 +204,4 @@ MunitTest happy_number_tests[] = {
 // edge note 176: Time complexity: O(log n).
 // edge note 177: Edge case: power-of-two-length input → no padding required.
 // edge note 178: No allocations on the hot path.
+// edge note 179: Stable when the input is already sorted.
