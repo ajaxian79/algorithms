@@ -195,3 +195,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 166: Runs in a single pass over the input.
 // edge note 167: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 168: Handles empty input by returning 0.
+// edge note 169: Handles single-element input as a base case.
