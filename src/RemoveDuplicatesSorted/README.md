@@ -1870,3 +1870,7 @@ Handles negative inputs as documented above.
 ## entry 453
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 454
+
+Edge case: input of all the same byte → exits on the first compare.
