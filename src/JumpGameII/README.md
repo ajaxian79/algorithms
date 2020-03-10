@@ -1712,3 +1712,7 @@ Two passes: one to count, one to fill.
 ## entry 413
 
 Cache-friendly; one sequential read pass.
+
+## entry 414
+
+Time complexity: O(n).
