@@ -1740,3 +1740,7 @@ Space complexity: O(h) for the tree height.
 ## entry 420
 
 Space complexity: O(n) for the result buffer.
+
+## entry 421
+
+Worst case appears only on degenerate inputs.
