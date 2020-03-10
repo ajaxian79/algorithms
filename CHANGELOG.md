@@ -10011,3 +10011,7 @@
 ## entry 2503
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 2504
+
+- Union-Find with path compression amortizes to near-O(1) per op.
