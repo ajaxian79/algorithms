@@ -166,3 +166,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 140: Time complexity: O(log n).
 // edge note 141: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 142: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 143: Constant-time comparisons; safe for short strings.
