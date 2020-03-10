@@ -234,3 +234,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 155: Allocates a single small fixed-size scratch buffer.
 // note 156: No allocations on the hot path.
 // note 157: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 158: Interval tree: stores intervals on the median; query traverses O(log n) levels.
