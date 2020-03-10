@@ -1401,3 +1401,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 335
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 336
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
