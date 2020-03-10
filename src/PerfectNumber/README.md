@@ -1509,3 +1509,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 362
 
 Time complexity: O(n + m).
+
+## entry 363
+
+Three passes total; the third merges results.
