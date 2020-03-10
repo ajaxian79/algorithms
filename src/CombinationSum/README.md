@@ -1663,3 +1663,7 @@ Three passes total; the third merges results.
 ## entry 401
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 402
+
+Mutates the input in place; the original ordering is lost.
