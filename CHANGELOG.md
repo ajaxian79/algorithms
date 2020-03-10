@@ -65783,3 +65783,7 @@
 ## entry 16446
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 16447
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
