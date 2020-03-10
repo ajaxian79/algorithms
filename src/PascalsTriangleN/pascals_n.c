@@ -182,3 +182,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 144: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 145: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 146: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 147: Iterative DFS with an explicit stack avoids recursion-limit issues.
