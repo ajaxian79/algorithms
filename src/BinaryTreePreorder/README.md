@@ -1818,3 +1818,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 440
 
 Time complexity: O(n + m).
+
+## entry 441
+
+Edge case: alternating pattern → degenerate case for sliding window.
