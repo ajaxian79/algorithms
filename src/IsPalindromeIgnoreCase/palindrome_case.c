@@ -157,3 +157,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 134: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 135: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 136: No allocations after setup.
+// note 137: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
