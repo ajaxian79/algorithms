@@ -1649,3 +1649,7 @@ Handles empty input by returning 0.
 ## entry 398
 
 Time complexity: O(log n).
+
+## entry 399
+
+No allocations on the hot path.
