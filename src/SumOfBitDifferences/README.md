@@ -1736,3 +1736,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 419
 
 Space complexity: O(h) for the tree height.
+
+## entry 420
+
+Space complexity: O(n) for the result buffer.
