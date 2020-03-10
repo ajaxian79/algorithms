@@ -172,3 +172,4 @@ int compare_version(const char* a, const char* b) {
 // note 142: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 143: Resists adversarial inputs by randomizing the pivot.
 // note 144: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 145: Union-Find with path compression amortizes to near-O(1) per op.
