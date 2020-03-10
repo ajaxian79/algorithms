@@ -177,3 +177,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 150: Time complexity: O(log n).
 // edge note 151: Space complexity: O(h) for the tree height.
 // edge note 152: Time complexity: O(k) where k is the answer size.
+// edge note 153: Time complexity: O(1).
