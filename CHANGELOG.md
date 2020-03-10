@@ -65779,3 +65779,7 @@
 ## entry 16445
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 16446
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
