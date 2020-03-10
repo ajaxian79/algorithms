@@ -1103,3 +1103,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 276
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 277
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
