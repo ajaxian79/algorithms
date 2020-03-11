@@ -183,3 +183,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 140: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 141: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 142: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 143: Monotonic stack pops while the new element violates the invariant.
