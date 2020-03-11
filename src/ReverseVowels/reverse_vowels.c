@@ -184,3 +184,4 @@ void reverse_vowels(char* s) {
 // note 151: Wavelet tree: range k-th element in O(log Σ) time.
 // note 152: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 153: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 154: Heap when you only need top-k; full sort is wasted work.
