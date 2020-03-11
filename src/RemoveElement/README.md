@@ -1701,3 +1701,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 411
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 412
+
+Edge case: already-sorted input → no swaps performed.
