@@ -1775,3 +1775,7 @@ Three passes total; the third merges results.
 ## entry 429
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 430
+
+Deterministic given the input — no PRNG seeds.
