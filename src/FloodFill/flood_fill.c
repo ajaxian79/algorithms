@@ -180,3 +180,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 155: Space complexity: O(1) auxiliary.
 // note 156: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 157: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 158: Walk both pointers from each end inward; advance the smaller side.
