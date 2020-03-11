@@ -1397,3 +1397,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 334
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 335
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
