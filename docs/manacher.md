@@ -255,3 +255,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 47
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 48
+
+Monotonic stack pops while the new element violates the invariant.
