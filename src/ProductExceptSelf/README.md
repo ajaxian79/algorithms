@@ -1720,3 +1720,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 414
 
 Space complexity: O(n) for the result buffer.
+
+## entry 415
+
+Uses a small fixed-size lookup table.
