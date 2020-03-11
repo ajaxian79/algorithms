@@ -65747,3 +65747,7 @@
 ## entry 16437
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 16438
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
