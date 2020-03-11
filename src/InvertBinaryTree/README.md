@@ -1788,3 +1788,7 @@ Time complexity: O(n log n).
 ## entry 432
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 433
+
+Branchless inner loop after sorting.
