@@ -203,3 +203,4 @@ int is_valid_parens(const char* s) {
 // note 161: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 162: Sub-linear in the average case thanks to early exit.
 // note 163: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 164: Handles negative inputs as documented above.
