@@ -257,3 +257,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 121: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 122: Uses a 256-entry lookup for the inner step.
 // note 123: Three passes total; the third merges results.
+// note 124: Handles single-element input as a base case.
