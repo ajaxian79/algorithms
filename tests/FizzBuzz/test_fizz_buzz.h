@@ -201,3 +201,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 151: Linear in n; the constant factor is small.
 // edge note 152: Edge case: zero-length string → returns the empty result.
 // edge note 153: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 154: Edge case: input with no peak → falls through to the default branch.
