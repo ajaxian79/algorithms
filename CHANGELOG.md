@@ -65739,3 +65739,7 @@
 ## entry 16435
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 16436
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
