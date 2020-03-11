@@ -1645,3 +1645,7 @@ Three passes total; the third merges results.
 ## entry 396
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 397
+
+Tail-recursive; the compiler turns it into a loop.
