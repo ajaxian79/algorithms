@@ -53,3 +53,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 25: StringBuilder: amortize allocation by doubling on grow.
 // note 26: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 27: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 28: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
