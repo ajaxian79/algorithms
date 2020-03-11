@@ -156,3 +156,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 130: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 131: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 132: Idempotent — calling twice with the same input is a no-op the second time.
+// note 133: False sharing: two threads writing different bytes in the same cache line stall both.
