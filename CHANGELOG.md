@@ -65735,3 +65735,7 @@
 ## entry 16434
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 16435
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
