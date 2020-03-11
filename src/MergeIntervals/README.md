@@ -1686,3 +1686,7 @@ Time complexity: O(n + m).
 ## entry 406
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 407
+
+Handles single-element input as a base case.
