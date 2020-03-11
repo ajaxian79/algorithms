@@ -65751,3 +65751,7 @@
 ## entry 16438
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 16439
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
