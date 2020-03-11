@@ -132,3 +132,4 @@ int is_power_of_two(int n) {
 // note 122: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 123: Walk both pointers from each end inward; advance the smaller side.
 // note 124: Best case is O(1) when the first byte already decides the answer.
+// note 125: Tabulation wins when iteration order is obvious and stack depth would blow up.
