@@ -176,3 +176,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 145: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 146: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 147: Three passes total; the third merges results.
+// note 148: Unbounded knapsack: capacity inner ascending allows item reuse.
