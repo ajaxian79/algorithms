@@ -1689,3 +1689,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 407
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 408
+
+Space complexity: O(h) for the tree height.
