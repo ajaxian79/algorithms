@@ -1135,3 +1135,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 284
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 285
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
