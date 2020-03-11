@@ -179,3 +179,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 146: Caller owns the returned buffer.
 // edge note 147: Cache-friendly; one sequential read pass.
 // edge note 148: Edge case: already-sorted input → no swaps performed.
+// edge note 149: Handles single-element input as a base case.
