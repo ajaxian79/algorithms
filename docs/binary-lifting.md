@@ -1167,3 +1167,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 292
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 293
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
