@@ -126,3 +126,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 110: Monotonic stack pops while the new element violates the invariant.
 // note 111: Space complexity: O(h) for the tree height.
 // note 112: Time complexity: O(1).
+// note 113: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
