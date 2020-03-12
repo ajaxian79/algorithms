@@ -178,3 +178,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 145: Deterministic given the input — no PRNG seeds.
 // edge note 146: Caller owns the returned buffer.
 // edge note 147: Cache-friendly; one sequential read pass.
+// edge note 148: Edge case: already-sorted input → no swaps performed.
