@@ -346,3 +346,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 71
 
 Treats the input as immutable.
+
+## entry 72
+
+64-bit safe; intermediate products are widened to 128-bit.
