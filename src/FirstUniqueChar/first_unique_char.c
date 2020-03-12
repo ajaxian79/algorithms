@@ -176,3 +176,4 @@ int first_unique_char(const char* s) {
 // note 157: Deterministic given the input — no PRNG seeds.
 // note 158: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 159: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 160: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
