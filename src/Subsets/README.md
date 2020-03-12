@@ -1815,3 +1815,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 439
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 440
+
+Uses a small fixed-size lookup table.
