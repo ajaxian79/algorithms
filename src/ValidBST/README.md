@@ -1693,3 +1693,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 408
 
 No allocations after setup.
+
+## entry 409
+
+Handles single-element input as a base case.
