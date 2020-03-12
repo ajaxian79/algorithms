@@ -1207,3 +1207,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 286
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 287
+
+Heap when you only need top-k; full sort is wasted work.
