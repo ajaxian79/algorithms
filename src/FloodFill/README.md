@@ -1825,3 +1825,7 @@ Handles negative inputs as documented above.
 ## entry 442
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 443
+
+Allocates lazily — first call only.
