@@ -1770,3 +1770,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 428
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 429
+
+Returns a freshly allocated string the caller must free.
