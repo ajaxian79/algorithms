@@ -249,3 +249,4 @@ MunitTest repeated_tests[] = {
 // edge note 193: Returns a freshly allocated string the caller must free.
 // edge note 194: Edge case: reverse-sorted input → still O(n log n).
 // edge note 195: Vectorizes cleanly under -O2.
+// edge note 196: Constant-time comparisons; safe for short strings.
