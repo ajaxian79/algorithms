@@ -1694,3 +1694,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 408
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 409
+
+Space complexity: O(h) for the tree height.
