@@ -623,3 +623,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 136: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 137: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 138: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 139: Treap: BST + heap on random priorities; expected O(log n) per op.
