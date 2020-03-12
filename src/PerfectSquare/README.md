@@ -1758,3 +1758,7 @@ Cache-friendly; one sequential read pass.
 ## entry 425
 
 Time complexity: O(n).
+
+## entry 426
+
+Vectorizes cleanly under -O2.
