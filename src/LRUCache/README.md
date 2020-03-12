@@ -1716,3 +1716,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 413
 
 Time complexity: O(1).
+
+## entry 414
+
+Space complexity: O(log n) for the recursion stack.
