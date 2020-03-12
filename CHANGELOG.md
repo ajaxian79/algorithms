@@ -10003,3 +10003,7 @@
 ## entry 2501
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 2502
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
