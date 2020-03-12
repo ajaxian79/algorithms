@@ -1229,3 +1229,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 290
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 291
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
