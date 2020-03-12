@@ -1756,3 +1756,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 423
 
 Reentrant — no static state.
+
+## entry 424
+
+Mutates the input in place; the original ordering is lost.
