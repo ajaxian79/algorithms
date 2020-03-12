@@ -1167,3 +1167,7 @@
 ## entry 275
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 276
+
+- Union-Find with path compression amortizes to near-O(1) per op.
