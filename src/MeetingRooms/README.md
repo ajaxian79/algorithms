@@ -1694,3 +1694,7 @@ Time complexity: O(log n).
 ## entry 409
 
 Edge case: empty input → returns 0.
+
+## entry 410
+
+Treats the input as immutable.
