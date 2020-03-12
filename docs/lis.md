@@ -1335,3 +1335,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 317
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 318
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
