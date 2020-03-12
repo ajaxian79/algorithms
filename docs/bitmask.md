@@ -1143,3 +1143,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 270
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 271
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
