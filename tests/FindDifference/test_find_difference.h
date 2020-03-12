@@ -172,3 +172,4 @@ MunitTest find_difference_tests[] = {
 // edge note 147: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 148: Edge case: power-of-two-length input → no padding required.
 // edge note 149: Space complexity: O(1) auxiliary.
+// edge note 150: Resists adversarial inputs by randomizing the pivot.
