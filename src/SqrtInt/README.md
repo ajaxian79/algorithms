@@ -311,3 +311,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 63
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 64
+
+Cache-friendly; one sequential read pass.
