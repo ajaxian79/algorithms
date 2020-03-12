@@ -290,3 +290,7 @@ Stable when the input is already sorted.
 ## entry 57
 
 Space complexity: O(h) for the tree height.
+
+## entry 58
+
+Uses a 256-entry lookup for the inner step.
