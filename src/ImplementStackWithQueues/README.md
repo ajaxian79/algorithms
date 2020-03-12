@@ -1696,3 +1696,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 409
 
 Two passes: one to count, one to fill.
+
+## entry 410
+
+No allocations after setup.
