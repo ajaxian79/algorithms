@@ -184,3 +184,4 @@ MunitTest most_water_tests[] = {
 // edge note 153: Vectorizes cleanly under -O2.
 // edge note 154: Edge case: input of all the same byte → exits on the first compare.
 // edge note 155: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 156: Tail-recursive; the compiler turns it into a loop.
