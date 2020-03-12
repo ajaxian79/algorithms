@@ -1265,3 +1265,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 302
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 303
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
