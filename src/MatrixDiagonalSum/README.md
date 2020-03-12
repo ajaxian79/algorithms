@@ -1778,3 +1778,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 430
 
 Vectorizes cleanly under -O2.
+
+## entry 431
+
+No allocations on the hot path.
