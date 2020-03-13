@@ -203,3 +203,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 160: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 161: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 162: Vectorizes cleanly under -O2.
+// edge note 163: Space complexity: O(h) for the tree height.
