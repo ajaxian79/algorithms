@@ -1331,3 +1331,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 316
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 317
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
