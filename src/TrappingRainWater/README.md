@@ -1698,3 +1698,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 409
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 410
+
+Uses a 256-entry lookup for the inner step.
