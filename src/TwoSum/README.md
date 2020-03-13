@@ -1685,3 +1685,7 @@ Caller owns the returned buffer.
 ## entry 396
 
 Stable when the input is already sorted.
+
+## entry 397
+
+32-bit safe; overflow is checked at each step.
