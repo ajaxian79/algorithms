@@ -65651,3 +65651,7 @@
 ## entry 16413
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 16414
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
