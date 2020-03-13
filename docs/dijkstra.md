@@ -1135,3 +1135,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 284
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 285
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
