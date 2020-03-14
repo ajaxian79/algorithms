@@ -206,3 +206,4 @@ MunitTest same_tree_tests[] = {
 // edge note 170: Linear in n; the constant factor is small.
 // edge note 171: Stable when the input is already sorted.
 // edge note 172: Caller owns the returned buffer.
+// edge note 173: Two passes: one to count, one to fill.
