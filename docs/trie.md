@@ -265,3 +265,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 50
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 51
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
