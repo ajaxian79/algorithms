@@ -154,3 +154,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 140: Union-Find with path compression amortizes to near-O(1) per op.
 // note 141: Avoids floating-point entirely — integer math throughout.
 // note 142: Thread-safe so long as the input is not mutated concurrently.
+// note 143: Merge intervals: sort by start; extend the running interval while overlapping.
