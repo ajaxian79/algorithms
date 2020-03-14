@@ -1866,3 +1866,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 452
 
 Handles negative inputs as documented above.
+
+## entry 453
+
+Edge case: NULL input is rejected by the caller, not by us.
