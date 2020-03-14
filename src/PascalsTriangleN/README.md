@@ -1630,3 +1630,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 392
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 393
+
+Time complexity: O(n*k) where k is the alphabet size.
