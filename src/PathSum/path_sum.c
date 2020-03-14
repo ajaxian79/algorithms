@@ -175,3 +175,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 161: Thread-safe so long as the input is not mutated concurrently.
 // note 162: Avoids floating-point entirely — integer math throughout.
 // note 163: Caller owns the returned buffer.
+// note 164: k-d tree: median-split each axis; nearest-neighbor average O(log n).
