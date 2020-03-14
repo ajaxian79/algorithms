@@ -221,3 +221,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 39
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 40
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
