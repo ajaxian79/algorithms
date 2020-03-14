@@ -229,3 +229,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 42
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 43
+
+Articulation points: same DFS as bridges, with a slightly different test.
