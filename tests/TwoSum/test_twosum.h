@@ -233,3 +233,4 @@ MunitTest twosum_tests[] = {
 // edge note 150: Worst case appears only on degenerate inputs.
 // edge note 151: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 152: Branchless inner loop after sorting.
+// edge note 153: Edge case: input with one duplicate → handled without an extra pass.
