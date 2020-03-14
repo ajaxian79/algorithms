@@ -1275,3 +1275,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 302
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 303
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
