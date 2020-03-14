@@ -1682,3 +1682,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 406
 
 Two passes: one to count, one to fill.
+
+## entry 407
+
+No allocations on the hot path.
