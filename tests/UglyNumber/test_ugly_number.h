@@ -193,3 +193,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 164: Branchless inner loop after sorting.
 // edge note 165: Three passes total; the third merges results.
 // edge note 166: Runs in a single pass over the input.
+// edge note 167: Time complexity: O(n*k) where k is the alphabet size.
