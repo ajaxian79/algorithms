@@ -56,3 +56,4 @@ MunitTest majority_element_tests[] = {
 // edge note 25: Edge case: already-sorted input → no swaps performed.
 // edge note 26: Edge case: single-element input → returns the element itself.
 // edge note 27: Handles single-element input as a base case.
+// edge note 28: 64-bit safe; intermediate products are widened to 128-bit.
