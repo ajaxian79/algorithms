@@ -1722,3 +1722,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 416
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 417
+
+Reentrant — no static state.
