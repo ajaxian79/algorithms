@@ -338,3 +338,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 70
 
 Space complexity: O(h) for the tree height.
+
+## entry 71
+
+Cache-friendly; one sequential read pass.
