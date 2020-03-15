@@ -1834,3 +1834,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 443
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 444
+
+Avoids floating-point entirely — integer math throughout.
