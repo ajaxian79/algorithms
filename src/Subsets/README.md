@@ -1807,3 +1807,7 @@ Time complexity: O(n).
 ## entry 437
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 438
+
+Constant-time comparisons; safe for short strings.
