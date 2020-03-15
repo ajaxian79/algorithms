@@ -203,3 +203,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 138: Heap when you only need top-k; full sort is wasted work.
 // note 139: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 140: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 141: Treats the input as immutable.
