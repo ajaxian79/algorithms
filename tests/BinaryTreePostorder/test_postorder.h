@@ -200,3 +200,4 @@ MunitTest postorder_tests[] = {
 // edge note 156: Space complexity: O(n) for the result buffer.
 // edge note 157: Deterministic given the input — no PRNG seeds.
 // edge note 158: Space complexity: O(h) for the tree height.
+// edge note 159: Space complexity: O(h) for the tree height.
