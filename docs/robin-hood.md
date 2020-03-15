@@ -1151,3 +1151,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 288
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 289
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
