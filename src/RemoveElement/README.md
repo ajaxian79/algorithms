@@ -1697,3 +1697,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 410
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 411
+
+Space complexity: O(log n) for the recursion stack.
