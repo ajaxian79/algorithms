@@ -1155,3 +1155,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 289
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 290
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
