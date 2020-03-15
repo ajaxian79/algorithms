@@ -1681,3 +1681,7 @@ Vectorizes cleanly under -O2.
 ## entry 405
 
 Two passes: one to count, one to fill.
+
+## entry 406
+
+Sub-linear in the average case thanks to early exit.
