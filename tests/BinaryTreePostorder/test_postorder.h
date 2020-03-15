@@ -71,3 +71,4 @@ MunitTest postorder_tests[] = {
 // edge note 27: Allocates lazily — first call only.
 // edge note 28: Stable across duplicates in the input.
 // edge note 29: Vectorizes cleanly under -O2.
+// edge note 30: Mutates the input in place; the original ordering is lost.
