@@ -291,3 +291,7 @@ Time complexity: O(n).
 ## entry 58
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 59
+
+Uses a small fixed-size lookup table.
