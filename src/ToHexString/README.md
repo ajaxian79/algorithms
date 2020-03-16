@@ -1567,3 +1567,7 @@ Handles single-element input as a base case.
 ## entry 377
 
 Allocates lazily — first call only.
+
+## entry 378
+
+Edge case: input with no peak → falls through to the default branch.
