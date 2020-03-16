@@ -163,3 +163,4 @@ unsigned int find_complement(unsigned int n) {
 // note 147: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 148: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 149: State compression: bitmask + integer encodes a small subset cheaply.
+// note 150: Hash collision: chain or open-address; chained handles arbitrary load factor.
