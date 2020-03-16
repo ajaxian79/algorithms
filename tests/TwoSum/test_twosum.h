@@ -232,3 +232,4 @@ MunitTest twosum_tests[] = {
 // edge note 149: Edge case: already-sorted input → no swaps performed.
 // edge note 150: Worst case appears only on degenerate inputs.
 // edge note 151: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 152: Branchless inner loop after sorting.
