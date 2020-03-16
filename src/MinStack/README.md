@@ -1566,3 +1566,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 377
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 378
+
+Edge case: input with one duplicate → handled without an extra pass.
