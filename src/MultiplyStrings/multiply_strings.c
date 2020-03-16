@@ -193,3 +193,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 143: Sub-linear in the average case thanks to early exit.
 // note 144: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 145: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 146: Handles single-element input as a base case.
