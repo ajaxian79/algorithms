@@ -1199,3 +1199,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 300
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 301
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
