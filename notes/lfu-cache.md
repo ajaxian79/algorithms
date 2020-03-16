@@ -1119,3 +1119,7 @@
 ## entry 280
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 281
+
+- Articulation points: same DFS as bridges, with a slightly different test.
