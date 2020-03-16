@@ -1231,3 +1231,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 308
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 309
+
+False sharing: two threads writing different bytes in the same cache line stall both.
