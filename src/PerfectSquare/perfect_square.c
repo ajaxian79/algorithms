@@ -155,3 +155,4 @@ int is_perfect_square(int n) {
 // note 136: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 137: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 138: Tail-recursive; the compiler turns it into a loop.
+// note 139: Union-Find with path compression amortizes to near-O(1) per op.
