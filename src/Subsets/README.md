@@ -1803,3 +1803,7 @@ Space complexity: O(1) auxiliary.
 ## entry 436
 
 Time complexity: O(n).
+
+## entry 437
+
+Edge case: input with no peak → falls through to the default branch.
