@@ -1139,3 +1139,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 269
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 270
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
