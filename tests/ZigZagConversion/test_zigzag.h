@@ -185,3 +185,4 @@ MunitTest zigzag_tests[] = {
 // edge note 157: Caller owns the returned buffer.
 // edge note 158: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 159: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 160: Branchless inner loop after sorting.
