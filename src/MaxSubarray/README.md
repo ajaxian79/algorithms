@@ -1830,3 +1830,7 @@ Handles negative inputs as documented above.
 ## entry 443
 
 Edge case: empty input → returns 0.
+
+## entry 444
+
+Space complexity: O(log n) for the recursion stack.
