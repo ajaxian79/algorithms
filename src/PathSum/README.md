@@ -1744,3 +1744,7 @@ Cache-friendly; one sequential read pass.
 ## entry 421
 
 No allocations on the hot path.
+
+## entry 422
+
+Edge case: single-element input → returns the element itself.
