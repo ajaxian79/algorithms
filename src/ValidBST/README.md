@@ -1689,3 +1689,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 407
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 408
+
+No allocations after setup.
