@@ -65619,3 +65619,7 @@
 ## entry 16405
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 16406
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
