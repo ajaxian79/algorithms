@@ -1733,3 +1733,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 418
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 419
+
+32-bit safe; overflow is checked at each step.
