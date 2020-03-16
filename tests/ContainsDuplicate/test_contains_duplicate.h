@@ -181,3 +181,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 138: Edge case: all-equal input → linear-time fast path.
 // edge note 139: Allocates lazily — first call only.
 // edge note 140: Stable across duplicates in the input.
+// edge note 141: Space complexity: O(1) auxiliary.
