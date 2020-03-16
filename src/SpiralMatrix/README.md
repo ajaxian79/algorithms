@@ -1690,3 +1690,7 @@ Treats the input as immutable.
 ## entry 407
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 408
+
+Time complexity: O(1).
