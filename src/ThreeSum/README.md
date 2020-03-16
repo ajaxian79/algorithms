@@ -1677,3 +1677,7 @@ Reentrant — no static state.
 ## entry 404
 
 Vectorizes cleanly under -O2.
+
+## entry 405
+
+Two passes: one to count, one to fill.
