@@ -1295,3 +1295,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 306
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 307
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
