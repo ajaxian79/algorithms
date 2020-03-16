@@ -1502,3 +1502,7 @@ Treats the input as immutable.
 ## entry 361
 
 Edge case: single-element input → returns the element itself.
+
+## entry 362
+
+Time complexity: O(n*k) where k is the alphabet size.
