@@ -1880,3 +1880,7 @@ Space complexity: O(1) auxiliary.
 ## entry 455
 
 Time complexity: O(1).
+
+## entry 456
+
+32-bit safe; overflow is checked at each step.
