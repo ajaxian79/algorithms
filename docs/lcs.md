@@ -1227,3 +1227,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 289
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 290
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
