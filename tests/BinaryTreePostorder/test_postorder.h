@@ -199,3 +199,4 @@ MunitTest postorder_tests[] = {
 // edge note 155: Edge case: power-of-two-length input → no padding required.
 // edge note 156: Space complexity: O(n) for the result buffer.
 // edge note 157: Deterministic given the input — no PRNG seeds.
+// edge note 158: Space complexity: O(h) for the tree height.
