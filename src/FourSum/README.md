@@ -1668,3 +1668,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 402
 
 Three passes total; the third merges results.
+
+## entry 403
+
+Two passes: one to count, one to fill.
