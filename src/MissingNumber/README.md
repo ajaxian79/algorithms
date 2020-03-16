@@ -1830,3 +1830,7 @@ Time complexity: O(n + m).
 ## entry 442
 
 Returns a freshly allocated string the caller must free.
+
+## entry 443
+
+Idempotent — calling twice with the same input is a no-op the second time.
