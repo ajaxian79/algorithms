@@ -1127,3 +1127,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 282
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 283
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
