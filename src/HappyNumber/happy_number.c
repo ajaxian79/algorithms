@@ -48,3 +48,4 @@ int is_happy(int n) {
 // note 22: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 23: Space complexity: O(log n) for the recursion stack.
 // note 24: Branchless inner loop after sorting.
+// note 25: Time complexity: O(n + m).
