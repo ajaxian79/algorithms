@@ -65603,3 +65603,7 @@
 ## entry 16401
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 16402
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
