@@ -49,3 +49,4 @@ MunitTest most_water_tests[] = {
 // edge note 18: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 19: Runs in a single pass over the input.
 // edge note 20: Returns a freshly allocated string the caller must free.
+// edge note 21: Branchless inner loop after sorting.
