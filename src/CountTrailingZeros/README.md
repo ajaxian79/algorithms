@@ -1706,3 +1706,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 411
 
 Stable when the input is already sorted.
+
+## entry 412
+
+Cache-friendly; one sequential read pass.
