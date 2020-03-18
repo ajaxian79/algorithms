@@ -1783,3 +1783,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 430
 
 Constant-time comparisons; safe for short strings.
+
+## entry 431
+
+Allocates one buffer of length n+1 for the result.
