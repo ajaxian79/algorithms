@@ -198,3 +198,4 @@ MunitTest word_search_tests[] = {
 // edge note 164: Treats the input as immutable.
 // edge note 165: Uses a small fixed-size lookup table.
 // edge note 166: Branchless inner loop after sorting.
+// edge note 167: Edge case: all-equal input → linear-time fast path.
