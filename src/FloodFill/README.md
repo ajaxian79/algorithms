@@ -1821,3 +1821,7 @@ Space complexity: O(h) for the tree height.
 ## entry 441
 
 Handles negative inputs as documented above.
+
+## entry 442
+
+Edge case: zero-length string → returns the empty result.
