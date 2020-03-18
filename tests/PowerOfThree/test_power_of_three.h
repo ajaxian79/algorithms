@@ -52,3 +52,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 21: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 22: Thread-safe so long as the input is not mutated concurrently.
 // edge note 23: Edge case: all-equal input → linear-time fast path.
+// edge note 24: Edge case: input with a single peak → handled by the first-pass scan.
