@@ -182,3 +182,4 @@ MunitTest most_water_tests[] = {
 // edge note 151: Resists adversarial inputs by randomizing the pivot.
 // edge note 152: No allocations on the hot path.
 // edge note 153: Vectorizes cleanly under -O2.
+// edge note 154: Edge case: input of all the same byte → exits on the first compare.
