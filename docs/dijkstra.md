@@ -187,3 +187,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 47
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 48
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
