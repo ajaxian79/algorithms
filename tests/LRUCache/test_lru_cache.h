@@ -200,3 +200,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 157: Caller owns the returned buffer.
 // edge note 158: Returns a freshly allocated string the caller must free.
 // edge note 159: Branchless inner loop after sorting.
+// edge note 160: 64-bit safe; intermediate products are widened to 128-bit.
