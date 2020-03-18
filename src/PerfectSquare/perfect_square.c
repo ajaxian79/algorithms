@@ -154,3 +154,4 @@ int is_perfect_square(int n) {
 // note 135: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 136: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 137: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 138: Tail-recursive; the compiler turns it into a loop.
