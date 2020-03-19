@@ -1211,3 +1211,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 303
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 304
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
