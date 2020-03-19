@@ -160,3 +160,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 145: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 146: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 147: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 148: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
