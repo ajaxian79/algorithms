@@ -255,3 +255,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 48
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 49
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
