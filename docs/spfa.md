@@ -1111,3 +1111,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 278
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 279
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
