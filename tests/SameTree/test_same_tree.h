@@ -55,3 +55,4 @@ MunitTest same_tree_tests[] = {
 // edge note 19: Edge case: all-equal input → linear-time fast path.
 // edge note 20: Allocates lazily — first call only.
 // edge note 21: Edge case: already-sorted input → no swaps performed.
+// edge note 22: Branchless inner loop after sorting.
