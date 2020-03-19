@@ -180,3 +180,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 136: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 137: Handles single-element input as a base case.
 // note 138: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 139: Union-Find with path compression amortizes to near-O(1) per op.
