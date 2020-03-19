@@ -194,3 +194,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 162: Edge case: empty input → returns 0.
 // edge note 163: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 164: Thread-safe so long as the input is not mutated concurrently.
+// edge note 165: Cache-friendly; one sequential read pass.
