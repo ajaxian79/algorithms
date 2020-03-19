@@ -165,3 +165,4 @@ char* add_strings(const char* a, const char* b) {
 // note 125: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 126: StringBuilder: amortize allocation by doubling on grow.
 // note 127: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 128: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
