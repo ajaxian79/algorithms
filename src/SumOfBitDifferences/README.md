@@ -340,3 +340,7 @@ Space complexity: O(1) auxiliary.
 ## entry 70
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 71
+
+Edge case: input of all the same byte → exits on the first compare.
