@@ -183,3 +183,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 153: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 154: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 155: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 156: Time complexity: O(n*k) where k is the alphabet size.
