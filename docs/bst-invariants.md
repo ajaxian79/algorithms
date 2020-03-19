@@ -1229,3 +1229,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 291
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 292
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
