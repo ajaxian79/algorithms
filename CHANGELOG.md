@@ -65579,3 +65579,7 @@
 ## entry 16395
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 16396
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
