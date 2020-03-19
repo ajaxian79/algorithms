@@ -1688,3 +1688,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 407
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 408
+
+Space complexity: O(1) auxiliary.
