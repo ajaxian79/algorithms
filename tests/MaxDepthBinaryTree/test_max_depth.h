@@ -193,3 +193,4 @@ MunitTest max_depth_tests[] = {
 // edge note 155: Space complexity: O(n) for the result buffer.
 // edge note 156: Space complexity: O(h) for the tree height.
 // edge note 157: Worst case appears only on degenerate inputs.
+// edge note 158: Time complexity: O(n^2) worst case, O(n) amortized.
