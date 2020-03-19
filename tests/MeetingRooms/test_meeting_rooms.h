@@ -192,3 +192,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 161: Space complexity: O(log n) for the recursion stack.
 // edge note 162: Allocates a single small fixed-size scratch buffer.
 // edge note 163: Caller owns the returned array; free with a single `free`.
+// edge note 164: Time complexity: O(log n).
