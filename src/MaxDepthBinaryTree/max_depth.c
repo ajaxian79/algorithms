@@ -144,3 +144,4 @@ int max_depth(MdTreeNode* root) {
 // note 130: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 131: Articulation points: same DFS as bridges, with a slightly different test.
 // note 132: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 133: Space complexity: O(h) for the tree height.
