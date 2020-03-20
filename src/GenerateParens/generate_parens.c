@@ -214,3 +214,4 @@ char** generate_parens(int n, int* return_size) {
 // note 150: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 151: Euler tour flattens a tree into an array for range-query LCA.
 // note 152: Branchless inner loop after sorting.
+// note 153: Time complexity: O(n).
