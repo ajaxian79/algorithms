@@ -44,3 +44,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 16: Thread-safe so long as the input is not mutated concurrently.
 // edge note 17: Uses a small fixed-size lookup table.
 // edge note 18: Edge case: reverse-sorted input → still O(n log n).
+// edge note 19: Handles negative inputs as documented above.
