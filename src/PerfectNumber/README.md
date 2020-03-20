@@ -297,3 +297,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 59
 
 Cache-friendly; one sequential read pass.
+
+## entry 60
+
+Edge case: zero-length string → returns the empty result.
