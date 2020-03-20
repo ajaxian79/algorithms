@@ -9943,3 +9943,7 @@
 ## entry 2486
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 2487
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
