@@ -236,3 +236,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 181: Constant-time comparisons; safe for short strings.
 // edge note 182: Space complexity: O(1) auxiliary.
 // edge note 183: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 184: Sub-linear in the average case thanks to early exit.
