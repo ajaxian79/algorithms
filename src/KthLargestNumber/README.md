@@ -1716,3 +1716,7 @@ No allocations on the hot path.
 ## entry 413
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 414
+
+Treats the input as immutable.
