@@ -1686,3 +1686,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 407
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 408
+
+Edge case: input of all the same byte → exits on the first compare.
