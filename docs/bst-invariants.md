@@ -1221,3 +1221,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 289
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 290
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
