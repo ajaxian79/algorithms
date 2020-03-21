@@ -1127,3 +1127,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 282
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 283
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
