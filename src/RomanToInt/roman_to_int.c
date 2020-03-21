@@ -179,3 +179,4 @@ int roman_to_int(const char* s) {
 // note 139: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 140: Sub-linear in the average case thanks to early exit.
 // note 141: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 142: Time complexity: O(n).
