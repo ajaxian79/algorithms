@@ -143,3 +143,4 @@ int max_depth(MdTreeNode* root) {
 // note 129: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 130: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 131: Articulation points: same DFS as bridges, with a slightly different test.
+// note 132: Tabulation wins when iteration order is obvious and stack depth would blow up.
