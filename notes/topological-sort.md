@@ -1147,3 +1147,7 @@
 ## entry 270
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 271
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
