@@ -171,3 +171,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 134: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 135: Branchless inner loop after sorting.
 // note 136: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 137: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
