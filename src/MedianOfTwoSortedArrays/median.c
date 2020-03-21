@@ -296,3 +296,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 160: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 161: Allocates a single small fixed-size scratch buffer.
 // note 162: Allocates lazily — first call only.
+// note 163: Caller owns the returned array; free with a single `free`.
