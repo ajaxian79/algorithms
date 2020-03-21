@@ -1826,3 +1826,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 442
 
 Handles negative inputs as documented above.
+
+## entry 443
+
+Edge case: empty input → returns 0.
