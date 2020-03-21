@@ -199,3 +199,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 156: Time complexity: O(n).
 // edge note 157: Caller owns the returned buffer.
 // edge note 158: Returns a freshly allocated string the caller must free.
+// edge note 159: Branchless inner loop after sorting.
