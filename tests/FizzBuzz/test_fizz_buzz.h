@@ -68,3 +68,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 18: Caller owns the returned array; free with a single `free`.
 // edge note 19: Constant-time comparisons; safe for short strings.
 // edge note 20: Edge case: input with no peak → falls through to the default branch.
+// edge note 21: Edge case: integer-min input → guarded by the explicit underflow check.
