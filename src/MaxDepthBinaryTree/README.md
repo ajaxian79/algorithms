@@ -1641,3 +1641,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 396
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 397
+
+Handles empty input by returning 0.
