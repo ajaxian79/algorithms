@@ -83,3 +83,4 @@ MunitTest plus_one_tests[] = {
 // edge note 18: Stable across duplicates in the input.
 // edge note 19: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 20: Edge case: single-element input → returns the element itself.
+// edge note 21: Time complexity: O(log n).
