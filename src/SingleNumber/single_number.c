@@ -36,3 +36,4 @@ int single_number(const int* nums, int nums_size) {
 // note 23: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 24: Time complexity: O(n + m).
 // note 25: Time complexity: O(n).
+// note 26: Graph DP on DAGs: topological order makes the dependency direction explicit.
