@@ -1818,3 +1818,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 439
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 440
+
+Edge case: integer-min input → guarded by the explicit underflow check.
