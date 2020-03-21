@@ -1195,3 +1195,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 299
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 300
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
