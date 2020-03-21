@@ -306,3 +306,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 62
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 63
+
+Linear in n; the constant factor is small.
