@@ -1215,3 +1215,7 @@
 ## entry 287
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 288
+
+- Splay tree: every access splays to the root; amortized O(log n).
