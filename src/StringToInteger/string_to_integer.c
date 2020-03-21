@@ -163,3 +163,4 @@ int my_atoi(const char* s) {
 // note 132: Allocates lazily — first call only.
 // note 133: Mutates the input in place; the original ordering is lost.
 // note 134: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 135: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
