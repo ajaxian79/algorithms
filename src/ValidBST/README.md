@@ -1685,3 +1685,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 406
 
 Returns a freshly allocated string the caller must free.
+
+## entry 407
+
+Uses a 256-entry lookup for the inner step.
