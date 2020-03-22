@@ -1659,3 +1659,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 400
 
 Three passes total; the third merges results.
+
+## entry 401
+
+Avoids floating-point entirely — integer math throughout.
