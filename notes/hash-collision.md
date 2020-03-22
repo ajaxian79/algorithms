@@ -1171,3 +1171,7 @@
 ## entry 293
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 294
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
