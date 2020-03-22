@@ -1255,3 +1255,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 314
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 315
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
