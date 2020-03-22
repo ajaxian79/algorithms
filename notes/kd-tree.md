@@ -1059,3 +1059,7 @@
 ## entry 265
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 266
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
