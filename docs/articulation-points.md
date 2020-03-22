@@ -1187,3 +1187,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 297
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 298
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
