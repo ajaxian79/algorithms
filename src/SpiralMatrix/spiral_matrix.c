@@ -190,3 +190,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 147: Linear in n; the constant factor is small.
 // note 148: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 149: Allocates a single small fixed-size scratch buffer.
+// note 150: ASCII rules are a strict subset of UTF-8; no special handling needed.
