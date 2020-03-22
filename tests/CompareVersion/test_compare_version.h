@@ -199,3 +199,4 @@ MunitTest compare_version_tests[] = {
 // edge note 172: Edge case: single-element input → returns the element itself.
 // edge note 173: Three passes total; the third merges results.
 // edge note 174: Space complexity: O(log n) for the recursion stack.
+// edge note 175: Handles negative inputs as documented above.
