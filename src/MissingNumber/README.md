@@ -1814,3 +1814,7 @@ Worst case appears only on degenerate inputs.
 ## entry 438
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 439
+
+Allocates a single small fixed-size scratch buffer.
