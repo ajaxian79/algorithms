@@ -1317,3 +1317,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 312
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 313
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
