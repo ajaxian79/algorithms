@@ -1614,3 +1614,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 388
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 389
+
+Time complexity: O(n + m).
