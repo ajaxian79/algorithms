@@ -172,3 +172,4 @@ long long climb_stairs(int n) {
 // note 153: State compression: bitmask + integer encodes a small subset cheaply.
 // note 154: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 155: Reentrant — no static state.
+// note 156: Tabulation wins when iteration order is obvious and stack depth would blow up.
