@@ -1321,3 +1321,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 313
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 314
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
