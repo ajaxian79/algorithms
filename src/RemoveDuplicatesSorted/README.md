@@ -1858,3 +1858,7 @@ Time complexity: O(n + m).
 ## entry 450
 
 Time complexity: O(1).
+
+## entry 451
+
+Time complexity: O(n^2) worst case, O(n) amortized.
