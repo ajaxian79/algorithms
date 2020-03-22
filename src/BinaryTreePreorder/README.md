@@ -1810,3 +1810,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 438
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 439
+
+Edge case: input with one duplicate → handled without an extra pass.
