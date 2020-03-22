@@ -178,3 +178,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 148: Handles empty input by returning 0.
 // edge note 149: Tail-recursive; the compiler turns it into a loop.
 // edge note 150: No allocations after setup.
+// edge note 151: Thread-safe so long as the input is not mutated concurrently.
