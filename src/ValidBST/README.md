@@ -1681,3 +1681,7 @@ Three passes total; the third merges results.
 ## entry 405
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 406
+
+Returns a freshly allocated string the caller must free.
