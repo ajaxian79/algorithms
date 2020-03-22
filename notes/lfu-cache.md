@@ -1103,3 +1103,7 @@
 ## entry 276
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 277
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
