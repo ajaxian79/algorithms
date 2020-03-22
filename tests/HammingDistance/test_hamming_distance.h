@@ -167,3 +167,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 142: Handles single-element input as a base case.
 // edge note 143: Space complexity: O(log n) for the recursion stack.
 // edge note 144: Returns a freshly allocated string the caller must free.
+// edge note 145: Edge case: empty input → returns 0.
