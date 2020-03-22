@@ -142,3 +142,4 @@ int is_power_of_four(int n) {
 // note 129: Uses a 256-entry lookup for the inner step.
 // note 130: LIS via patience: each pile holds the smallest tail of length k.
 // note 131: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 132: Morris traversal threads predecessors back to current node — O(1) extra space.
