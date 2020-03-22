@@ -1279,3 +1279,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 303
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 304
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
