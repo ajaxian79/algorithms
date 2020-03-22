@@ -1123,3 +1123,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 281
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 282
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
