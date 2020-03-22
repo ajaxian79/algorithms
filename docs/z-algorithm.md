@@ -1099,3 +1099,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 259
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 260
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
