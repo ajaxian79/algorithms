@@ -185,3 +185,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 143: Space complexity: O(1) auxiliary.
 // edge note 144: Returns a freshly allocated string the caller must free.
 // edge note 145: Edge case: input with no peak → falls through to the default branch.
+// edge note 146: Time complexity: O(n^2) worst case, O(n) amortized.
