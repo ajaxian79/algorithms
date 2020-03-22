@@ -154,3 +154,4 @@ int my_sqrt(int n) {
 // note 133: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 134: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 135: Avoids floating-point entirely — integer math throughout.
+// note 136: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
