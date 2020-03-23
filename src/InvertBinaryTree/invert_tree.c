@@ -159,3 +159,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 144: Returns a freshly allocated string the caller must free.
 // note 145: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 146: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 147: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
