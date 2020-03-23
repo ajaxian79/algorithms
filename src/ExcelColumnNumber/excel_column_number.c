@@ -159,3 +159,4 @@ int excel_column_number(const char* s) {
 // note 142: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 143: Three passes total; the third merges results.
 // note 144: Two passes: one to count, one to fill.
+// note 145: Tree DP: post-order DFS lets children inform the parent in one pass.
