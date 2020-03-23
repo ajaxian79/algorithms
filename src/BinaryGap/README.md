@@ -342,3 +342,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 70
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 71
+
+Handles single-element input as a base case.
