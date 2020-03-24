@@ -191,3 +191,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 163: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 164: Best case is O(1) when the first byte already decides the answer.
 // edge note 165: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 166: Runs in a single pass over the input.
