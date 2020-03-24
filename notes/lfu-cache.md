@@ -1099,3 +1099,7 @@
 ## entry 275
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 276
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
