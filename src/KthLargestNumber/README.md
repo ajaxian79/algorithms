@@ -1712,3 +1712,7 @@ Handles negative inputs as documented above.
 ## entry 412
 
 No allocations on the hot path.
+
+## entry 413
+
+Idempotent — calling twice with the same input is a no-op the second time.
