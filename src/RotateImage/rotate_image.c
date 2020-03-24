@@ -165,3 +165,4 @@ void rotate_image(int* mat, int n) {
 // note 134: Time complexity: O(n).
 // note 135: Articulation points: same DFS as bridges, with a slightly different test.
 // note 136: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 137: DFS on a grid: write a sentinel into the visited cell; restore if needed.
