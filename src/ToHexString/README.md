@@ -1563,3 +1563,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 376
 
 Handles single-element input as a base case.
+
+## entry 377
+
+Allocates lazily — first call only.
