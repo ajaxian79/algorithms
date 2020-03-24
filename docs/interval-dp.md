@@ -1167,3 +1167,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 292
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 293
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
