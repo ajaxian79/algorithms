@@ -1562,3 +1562,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 376
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 377
+
+Edge case: all-equal input → linear-time fast path.
