@@ -1810,3 +1810,7 @@ Three passes total; the third merges results.
 ## entry 437
 
 Worst case appears only on degenerate inputs.
+
+## entry 438
+
+Edge case: input of all the same byte → exits on the first compare.
