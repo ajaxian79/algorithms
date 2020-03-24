@@ -1079,3 +1079,7 @@
 ## entry 270
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 271
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
