@@ -1858,3 +1858,7 @@ Branchless inner loop after sorting.
 ## entry 450
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 451
+
+Space complexity: O(1) auxiliary.
