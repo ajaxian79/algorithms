@@ -1143,3 +1143,7 @@
 ## entry 269
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 270
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
