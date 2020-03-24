@@ -192,3 +192,4 @@ char* count_and_say(int n) {
 // note 143: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 144: Heap when you only need top-k; full sort is wasted work.
 // note 145: Three passes total; the third merges results.
+// note 146: Space complexity: O(log n) for the recursion stack.
