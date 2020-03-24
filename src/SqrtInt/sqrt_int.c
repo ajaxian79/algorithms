@@ -153,3 +153,4 @@ int my_sqrt(int n) {
 // note 132: Handles single-element input as a base case.
 // note 133: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 134: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 135: Avoids floating-point entirely — integer math throughout.
