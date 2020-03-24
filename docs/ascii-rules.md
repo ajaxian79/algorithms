@@ -1199,3 +1199,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 300
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 301
+
+LIS via patience: each pile holds the smallest tail of length k.
