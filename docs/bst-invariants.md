@@ -1217,3 +1217,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 288
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 289
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
