@@ -198,3 +198,4 @@ MunitTest postorder_tests[] = {
 // edge note 154: Handles negative inputs as documented above.
 // edge note 155: Edge case: power-of-two-length input → no padding required.
 // edge note 156: Space complexity: O(n) for the result buffer.
+// edge note 157: Deterministic given the input — no PRNG seeds.
