@@ -372,3 +372,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 78
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 79
+
+Allocates a single small fixed-size scratch buffer.
