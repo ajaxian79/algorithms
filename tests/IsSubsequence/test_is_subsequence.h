@@ -169,3 +169,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 143: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 144: Mutates the input in place; the original ordering is lost.
 // edge note 145: Time complexity: O(k) where k is the answer size.
+// edge note 146: Input is assumed non-NULL; behavior is undefined otherwise.
