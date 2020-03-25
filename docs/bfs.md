@@ -1193,3 +1193,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 281
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 282
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
