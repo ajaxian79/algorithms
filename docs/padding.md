@@ -1127,3 +1127,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 282
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 283
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
