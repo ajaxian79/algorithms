@@ -42,3 +42,4 @@ int is_ugly(int n) {
 // note 28: Handles single-element input as a base case.
 // note 29: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 30: Tail-recursive; the compiler turns it into a loop.
+// note 31: Sub-linear in the average case thanks to early exit.
