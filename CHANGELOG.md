@@ -65467,3 +65467,7 @@
 ## entry 16367
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 16368
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
