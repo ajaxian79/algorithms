@@ -259,3 +259,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 65
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 66
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
