@@ -1251,3 +1251,7 @@
 ## entry 313
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 314
+
+- State compression: bitmask + integer encodes a small subset cheaply.
