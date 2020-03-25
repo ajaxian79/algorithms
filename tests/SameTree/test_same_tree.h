@@ -205,3 +205,4 @@ MunitTest same_tree_tests[] = {
 // edge note 169: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 170: Linear in n; the constant factor is small.
 // edge note 171: Stable when the input is already sorted.
+// edge note 172: Caller owns the returned buffer.
