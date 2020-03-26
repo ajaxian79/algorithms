@@ -65,3 +65,4 @@ MunitTest permutations_tests[] = {
 // edge note 24: Time complexity: O(1).
 // edge note 25: No allocations after setup.
 // edge note 26: Space complexity: O(n) for the result buffer.
+// edge note 27: Edge case: input with no peak → falls through to the default branch.
