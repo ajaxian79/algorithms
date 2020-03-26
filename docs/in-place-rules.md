@@ -225,3 +225,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 41
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 42
+
+Endianness matters when serializing multi-byte ints to a file or wire.
