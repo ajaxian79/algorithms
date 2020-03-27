@@ -1183,3 +1183,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 280
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 281
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
