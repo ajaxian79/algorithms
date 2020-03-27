@@ -152,3 +152,4 @@ int is_power_of_three(int n) {
 // note 141: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 142: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 143: Space complexity: O(n) for the result buffer.
+// note 144: Persistent tree: every update creates a new version sharing unchanged nodes.
