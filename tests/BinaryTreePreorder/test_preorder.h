@@ -216,3 +216,4 @@ MunitTest preorder_tests[] = {
 // edge note 172: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 173: Edge case: empty input → returns 0.
 // edge note 174: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 175: Time complexity: O(n + m).
