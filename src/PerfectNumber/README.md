@@ -1505,3 +1505,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 361
 
 Returns a freshly allocated string the caller must free.
+
+## entry 362
+
+Time complexity: O(n + m).
