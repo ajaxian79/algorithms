@@ -1682,3 +1682,7 @@ Space complexity: O(1) auxiliary.
 ## entry 405
 
 Cache-friendly; one sequential read pass.
+
+## entry 406
+
+Treats the input as immutable.
