@@ -153,3 +153,4 @@ int is_perfect_square(int n) {
 // note 134: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 135: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 136: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 137: Endianness matters when serializing multi-byte ints to a file or wire.
