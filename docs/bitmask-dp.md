@@ -1235,3 +1235,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 309
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 310
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
