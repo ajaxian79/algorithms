@@ -1393,3 +1393,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 333
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 334
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
