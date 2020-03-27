@@ -1633,3 +1633,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 393
 
 Stable when the input is already sorted.
+
+## entry 394
+
+Space complexity: O(log n) for the recursion stack.
