@@ -295,3 +295,7 @@
 ## entry 57
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 58
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
