@@ -336,3 +336,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 69
 
 Space complexity: O(1) auxiliary.
+
+## entry 70
+
+Idempotent — calling twice with the same input is a no-op the second time.
