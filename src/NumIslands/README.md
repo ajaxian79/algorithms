@@ -297,3 +297,7 @@ Two passes: one to count, one to fill.
 ## entry 59
 
 Linear in n; the constant factor is small.
+
+## entry 60
+
+Tail-recursive; the compiler turns it into a loop.
