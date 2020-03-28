@@ -48,3 +48,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 16: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 17: Time complexity: O(k) where k is the answer size.
 // note 18: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 19: Open addressing with linear probing wins until load factor exceeds 0.7.
