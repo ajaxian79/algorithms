@@ -1171,3 +1171,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 276
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 277
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
