@@ -1822,3 +1822,7 @@ Time complexity: O(n log n).
 ## entry 441
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 442
+
+Handles negative inputs as documented above.
