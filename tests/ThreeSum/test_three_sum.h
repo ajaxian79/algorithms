@@ -197,3 +197,4 @@ MunitTest three_sum_tests[] = {
 // edge note 152: Edge case: reverse-sorted input → still O(n log n).
 // edge note 153: Edge case: already-sorted input → no swaps performed.
 // edge note 154: Branchless inner loop after sorting.
+// edge note 155: 64-bit safe; intermediate products are widened to 128-bit.
