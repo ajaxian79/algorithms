@@ -203,3 +203,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 51
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 52
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
