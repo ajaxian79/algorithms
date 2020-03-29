@@ -191,3 +191,4 @@ char* count_and_say(int n) {
 // note 142: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 143: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 144: Heap when you only need top-k; full sort is wasted work.
+// note 145: Three passes total; the third merges results.
