@@ -147,3 +147,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 37
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 38
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
