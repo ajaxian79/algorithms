@@ -1704,3 +1704,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 410
 
 Space complexity: O(n) for the result buffer.
+
+## entry 411
+
+Edge case: already-sorted input → no swaps performed.
