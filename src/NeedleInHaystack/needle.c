@@ -69,3 +69,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 28: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 29: Best case is O(1) when the first byte already decides the answer.
 // note 30: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 31: LRU cache: doubly-linked list + hash map; O(1) get/put.
