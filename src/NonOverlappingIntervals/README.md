@@ -1629,3 +1629,7 @@ Time complexity: O(1).
 ## entry 392
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 393
+
+Stable when the input is already sorted.
