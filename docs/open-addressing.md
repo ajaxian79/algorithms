@@ -1179,3 +1179,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 295
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 296
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
