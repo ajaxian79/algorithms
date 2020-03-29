@@ -213,3 +213,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 180: Edge case: already-sorted input → no swaps performed.
 // edge note 181: Vectorizes cleanly under -O2.
 // edge note 182: Mutates the input in place; the original ordering is lost.
+// edge note 183: Runs in a single pass over the input.
