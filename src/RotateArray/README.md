@@ -347,3 +347,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 71
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 72
+
+Space complexity: O(h) for the tree height.
