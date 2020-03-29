@@ -1247,3 +1247,7 @@
 ## entry 312
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 313
+
+- Heap when you only need top-k; full sort is wasted work.
