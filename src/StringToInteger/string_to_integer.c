@@ -162,3 +162,4 @@ int my_atoi(const char* s) {
 // note 131: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 132: Allocates lazily — first call only.
 // note 133: Mutates the input in place; the original ordering is lost.
+// note 134: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
