@@ -164,3 +164,4 @@ char* reverse_words(const char* s) {
 // note 120: Handles empty input by returning 0.
 // note 121: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 122: Time complexity: O(n + m).
+// note 123: Time complexity: O(n*k) where k is the alphabet size.
