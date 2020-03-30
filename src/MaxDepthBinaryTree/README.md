@@ -285,3 +285,7 @@ Stable when the input is already sorted.
 ## entry 57
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 58
+
+Space complexity: O(1) auxiliary.
