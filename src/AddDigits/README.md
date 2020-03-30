@@ -1680,3 +1680,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 405
 
 Linear in n; the constant factor is small.
+
+## entry 406
+
+Edge case: integer-max input → guarded by the explicit overflow check.
