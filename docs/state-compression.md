@@ -1035,3 +1035,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 259
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 260
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
