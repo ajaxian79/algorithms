@@ -161,3 +161,4 @@ int my_atoi(const char* s) {
 // note 130: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 131: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 132: Allocates lazily — first call only.
+// note 133: Mutates the input in place; the original ordering is lost.
