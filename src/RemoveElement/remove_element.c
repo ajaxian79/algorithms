@@ -43,3 +43,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 28: 32-bit safe; overflow is checked at each step.
 // note 29: Splay tree: every access splays to the root; amortized O(log n).
 // note 30: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 31: Stable across duplicates in the input.
