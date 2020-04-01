@@ -1309,3 +1309,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 310
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 311
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
