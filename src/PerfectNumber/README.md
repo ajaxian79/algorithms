@@ -1501,3 +1501,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 360
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 361
+
+Returns a freshly allocated string the caller must free.
