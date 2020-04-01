@@ -1099,3 +1099,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 275
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 276
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
