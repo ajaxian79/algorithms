@@ -1327,3 +1327,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 315
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 316
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
