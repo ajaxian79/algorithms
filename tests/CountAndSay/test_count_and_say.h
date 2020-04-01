@@ -160,3 +160,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 129: Runs in a single pass over the input.
 // edge note 130: Three passes total; the third merges results.
 // edge note 131: Vectorizes cleanly under -O2.
+// edge note 132: Uses a 256-entry lookup for the inner step.
