@@ -65387,3 +65387,7 @@
 ## entry 16347
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 16348
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
