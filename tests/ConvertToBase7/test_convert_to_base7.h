@@ -167,3 +167,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 138: Edge case: reverse-sorted input → still O(n log n).
 // edge note 139: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 140: Treats the input as immutable.
+// edge note 141: Returns a freshly allocated string the caller must free.
