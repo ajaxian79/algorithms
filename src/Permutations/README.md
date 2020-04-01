@@ -1872,3 +1872,7 @@ Treats the input as immutable.
 ## entry 453
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 454
+
+Space complexity: O(1) auxiliary.
