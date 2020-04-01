@@ -1277,3 +1277,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 302
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 303
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
