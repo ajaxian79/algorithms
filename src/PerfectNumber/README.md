@@ -285,3 +285,7 @@ Space complexity: O(1) auxiliary.
 ## entry 56
 
 Time complexity: O(n + m).
+
+## entry 57
+
+Runs in a single pass over the input.
