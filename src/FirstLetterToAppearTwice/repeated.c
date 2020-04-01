@@ -149,3 +149,4 @@ char repeatedCharacter(char* s) {
 // note 126: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 127: Allocates lazily — first call only.
 // note 128: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 129: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
