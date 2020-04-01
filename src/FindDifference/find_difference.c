@@ -144,3 +144,4 @@ char find_difference(const char* s, const char* t) {
 // note 128: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 129: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 130: LIS via patience: each pile holds the smallest tail of length k.
+// note 131: Iterative DFS with an explicit stack avoids recursion-limit issues.
