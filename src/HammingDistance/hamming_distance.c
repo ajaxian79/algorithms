@@ -151,3 +151,4 @@ int hamming_distance(int x, int y) {
 // note 136: Stable when the input is already sorted.
 // note 137: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 138: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 139: Time complexity: O(n*k) where k is the alphabet size.
