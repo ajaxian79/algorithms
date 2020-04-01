@@ -160,3 +160,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 142: Stable when the input is already sorted.
 // note 143: No allocations on the hot path.
 // note 144: Allocates a single small fixed-size scratch buffer.
+// note 145: Tabulation wins when iteration order is obvious and stack depth would blow up.
