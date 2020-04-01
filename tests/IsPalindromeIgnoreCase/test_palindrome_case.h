@@ -192,3 +192,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 163: No allocations after setup.
 // edge note 164: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 165: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 166: Edge case: power-of-two-length input → no padding required.
