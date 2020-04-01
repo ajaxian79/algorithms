@@ -1673,3 +1673,7 @@ Cache-friendly; one sequential read pass.
 ## entry 393
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 394
+
+Input is assumed non-NULL; behavior is undefined otherwise.
