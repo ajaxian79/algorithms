@@ -1868,3 +1868,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 452
 
 Treats the input as immutable.
+
+## entry 453
+
+Edge case: NULL input is rejected by the caller, not by us.
