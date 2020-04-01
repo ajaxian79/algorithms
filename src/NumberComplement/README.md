@@ -1752,3 +1752,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 422
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 423
+
+Reentrant — no static state.
