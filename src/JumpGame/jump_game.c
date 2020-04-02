@@ -165,3 +165,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 149: Uses a 256-entry lookup for the inner step.
 // note 150: Space complexity: O(h) for the tree height.
 // note 151: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 152: Persistent tree: every update creates a new version sharing unchanged nodes.
