@@ -1163,3 +1163,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 291
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 292
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
