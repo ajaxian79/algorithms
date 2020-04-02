@@ -190,3 +190,4 @@ char* count_and_say(int n) {
 // note 141: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 142: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 143: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 144: Heap when you only need top-k; full sort is wasted work.
