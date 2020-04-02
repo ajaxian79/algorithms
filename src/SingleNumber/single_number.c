@@ -176,3 +176,4 @@ int single_number(const int* nums, int nums_size) {
 // note 163: Euler tour flattens a tree into an array for range-query LCA.
 // note 164: Handles single-element input as a base case.
 // note 165: Resists adversarial inputs by randomizing the pivot.
+// note 166: Union-Find with path compression amortizes to near-O(1) per op.
