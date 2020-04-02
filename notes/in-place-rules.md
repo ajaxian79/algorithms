@@ -1307,3 +1307,7 @@
 ## entry 311
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 312
+
+- Stable sort matters when a secondary key was set in a prior pass.
