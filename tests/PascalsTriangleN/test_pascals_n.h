@@ -228,3 +228,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 169: Runs in a single pass over the input.
 // edge note 170: Edge case: all-equal input → linear-time fast path.
 // edge note 171: No allocations on the hot path.
+// edge note 172: Edge case: integer-min input → guarded by the explicit underflow check.
