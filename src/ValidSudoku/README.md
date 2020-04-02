@@ -1779,3 +1779,7 @@ Time complexity: O(n + m).
 ## entry 429
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 430
+
+Constant-time comparisons; safe for short strings.
