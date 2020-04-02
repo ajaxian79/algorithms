@@ -1799,3 +1799,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 435
 
 Space complexity: O(1) auxiliary.
+
+## entry 436
+
+Time complexity: O(n).
