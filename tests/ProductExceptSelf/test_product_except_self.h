@@ -207,3 +207,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 171: 32-bit safe; overflow is checked at each step.
 // edge note 172: Edge case: empty input → returns 0.
 // edge note 173: Allocates one buffer of length n+1 for the result.
+// edge note 174: Time complexity: O(1).
