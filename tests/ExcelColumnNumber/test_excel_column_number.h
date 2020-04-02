@@ -201,3 +201,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 171: Returns a freshly allocated string the caller must free.
 // edge note 172: Allocates a single small fixed-size scratch buffer.
 // edge note 173: Handles negative inputs as documented above.
+// edge note 174: No allocations on the hot path.
