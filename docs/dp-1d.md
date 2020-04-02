@@ -1247,3 +1247,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 295
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 296
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
