@@ -53,3 +53,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 24: Edge case: already-sorted input → no swaps performed.
 // edge note 25: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 26: Time complexity: O(n).
+// edge note 27: Handles negative inputs as documented above.
