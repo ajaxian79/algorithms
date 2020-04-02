@@ -185,3 +185,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 157: Tail-recursive; the compiler turns it into a loop.
 // edge note 158: Caller owns the returned buffer.
 // edge note 159: Linear in n; the constant factor is small.
+// edge note 160: Handles single-element input as a base case.
