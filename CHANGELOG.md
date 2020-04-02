@@ -65359,3 +65359,7 @@
 ## entry 16340
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 16341
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
