@@ -1275,3 +1275,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 302
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 303
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
