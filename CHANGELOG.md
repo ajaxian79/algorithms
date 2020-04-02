@@ -65331,3 +65331,7 @@
 ## entry 16333
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 16334
+
+- State compression: bitmask + integer encodes a small subset cheaply.
