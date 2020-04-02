@@ -314,3 +314,7 @@ Stable across duplicates in the input.
 ## entry 64
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 65
+
+Edge case: already-sorted input → no swaps performed.
