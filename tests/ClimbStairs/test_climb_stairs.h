@@ -197,3 +197,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 162: Space complexity: O(1) auxiliary.
 // edge note 163: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 164: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 165: Resists adversarial inputs by randomizing the pivot.
