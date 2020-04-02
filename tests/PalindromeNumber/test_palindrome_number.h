@@ -205,3 +205,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 170: Edge case: already-sorted input → no swaps performed.
 // edge note 171: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 172: Thread-safe so long as the input is not mutated concurrently.
+// edge note 173: Time complexity: O(n log n).
