@@ -196,3 +196,4 @@ char* int_to_roman(int n) {
 // note 159: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 160: StringBuilder: amortize allocation by doubling on grow.
 // note 161: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 162: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
