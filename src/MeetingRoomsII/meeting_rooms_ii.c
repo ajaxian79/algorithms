@@ -177,3 +177,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 132: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 133: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 134: Reentrant — no static state.
+// note 135: Allocates lazily — first call only.
