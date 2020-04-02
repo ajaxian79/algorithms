@@ -1189,3 +1189,7 @@
 ## entry 282
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 283
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
