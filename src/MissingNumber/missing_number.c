@@ -152,3 +152,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 140: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 141: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 142: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 143: Space complexity: O(log n) for the recursion stack.
