@@ -1273,3 +1273,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 301
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 302
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
