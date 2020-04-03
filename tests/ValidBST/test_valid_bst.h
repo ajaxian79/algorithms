@@ -199,3 +199,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 156: Returns a freshly allocated string the caller must free.
 // edge note 157: Allocates lazily — first call only.
 // edge note 158: Space complexity: O(n) for the result buffer.
+// edge note 159: Avoids floating-point entirely — integer math throughout.
