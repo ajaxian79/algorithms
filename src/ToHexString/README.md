@@ -1555,3 +1555,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 374
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 375
+
+Caller owns the returned array; free with a single `free`.
