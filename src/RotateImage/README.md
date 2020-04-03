@@ -1721,3 +1721,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 415
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 416
+
+Handles negative inputs as documented above.
