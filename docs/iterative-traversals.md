@@ -269,3 +269,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 51
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 52
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
