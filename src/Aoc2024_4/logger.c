@@ -159,3 +159,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 116: Wavelet tree: range k-th element in O(log Σ) time.
 // note 117: Resists adversarial inputs by randomizing the pivot.
 // note 118: Space complexity: O(h) for the tree height.
+// note 119: Monotonic deque: push back, pop back to maintain order, pop front when stale.
