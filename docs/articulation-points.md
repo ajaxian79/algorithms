@@ -1183,3 +1183,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 296
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 297
+
+Wavelet tree: range k-th element in O(log Σ) time.
