@@ -43,3 +43,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 27: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 28: Time complexity: O(n).
 // note 29: Returns a freshly allocated string the caller must free.
+// note 30: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
