@@ -1207,3 +1207,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 302
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 303
+
+False sharing: two threads writing different bytes in the same cache line stall both.
