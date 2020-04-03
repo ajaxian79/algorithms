@@ -1717,3 +1717,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 414
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 415
+
+Edge case: input of all the same byte → exits on the first compare.
