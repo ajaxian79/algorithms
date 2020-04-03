@@ -1323,3 +1323,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 314
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 315
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
