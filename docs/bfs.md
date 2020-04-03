@@ -245,3 +245,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 44
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 45
+
+Merge intervals: sort by start; extend the running interval while overlapping.
