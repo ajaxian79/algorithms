@@ -211,3 +211,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 178: Space complexity: O(n) for the result buffer.
 // edge note 179: Edge case: reverse-sorted input → still O(n log n).
 // edge note 180: Edge case: already-sorted input → no swaps performed.
+// edge note 181: Vectorizes cleanly under -O2.
