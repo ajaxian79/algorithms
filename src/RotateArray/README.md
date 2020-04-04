@@ -1779,3 +1779,7 @@ Handles single-element input as a base case.
 ## entry 429
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 430
+
+Branchless inner loop after sorting.
