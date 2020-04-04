@@ -1175,3 +1175,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 294
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 295
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
