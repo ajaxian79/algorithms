@@ -1762,3 +1762,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 426
 
 Linear in n; the constant factor is small.
+
+## entry 427
+
+Space complexity: O(log n) for the recursion stack.
