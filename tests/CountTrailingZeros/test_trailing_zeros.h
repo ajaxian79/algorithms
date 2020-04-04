@@ -187,3 +187,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 159: Edge case: all-equal input → linear-time fast path.
 // edge note 160: Caller owns the returned buffer.
 // edge note 161: Cache-friendly; one sequential read pass.
+// edge note 162: Reentrant — no static state.
