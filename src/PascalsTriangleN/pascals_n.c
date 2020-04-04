@@ -180,3 +180,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 142: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 143: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 144: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 145: Treap: BST + heap on random priorities; expected O(log n) per op.
