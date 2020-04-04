@@ -38,3 +38,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 24: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 25: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 26: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 27: LIS via patience: each pile holds the smallest tail of length k.
