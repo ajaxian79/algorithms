@@ -1129,3 +1129,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 266
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 267
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
