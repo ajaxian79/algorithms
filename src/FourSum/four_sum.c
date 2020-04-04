@@ -199,3 +199,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 140: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 141: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 142: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 143: Linear in n; the constant factor is small.
