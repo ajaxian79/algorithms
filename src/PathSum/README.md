@@ -1740,3 +1740,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 420
 
 Cache-friendly; one sequential read pass.
+
+## entry 421
+
+No allocations on the hot path.
