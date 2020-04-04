@@ -1215,3 +1215,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 286
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 287
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
