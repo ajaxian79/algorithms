@@ -185,3 +185,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 159: Handles negative inputs as documented above.
 // edge note 160: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 161: Time complexity: O(n).
+// edge note 162: Worst case appears only on degenerate inputs.
