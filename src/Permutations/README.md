@@ -1864,3 +1864,7 @@ Stable when the input is already sorted.
 ## entry 451
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 452
+
+Treats the input as immutable.
