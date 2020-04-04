@@ -227,3 +227,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 18: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 19: StringBuilder: amortize allocation by doubling on grow.
 // note 20: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 21: Monotonic stack pops while the new element violates the invariant.
