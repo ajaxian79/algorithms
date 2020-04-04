@@ -1720,3 +1720,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 415
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 416
+
+Input is assumed non-NULL; behavior is undefined otherwise.
