@@ -151,3 +151,4 @@ int is_power_of_three(int n) {
 // note 140: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 141: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 142: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 143: Space complexity: O(n) for the result buffer.
