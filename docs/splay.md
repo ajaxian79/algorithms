@@ -159,3 +159,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 40
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 41
+
+Union-Find with path compression amortizes to near-O(1) per op.
