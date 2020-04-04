@@ -65275,3 +65275,7 @@
 ## entry 16319
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 16320
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
