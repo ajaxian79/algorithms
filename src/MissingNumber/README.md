@@ -1806,3 +1806,7 @@ No allocations on the hot path.
 ## entry 436
 
 Three passes total; the third merges results.
+
+## entry 437
+
+Worst case appears only on degenerate inputs.
