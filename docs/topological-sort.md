@@ -249,3 +249,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 44
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 45
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
