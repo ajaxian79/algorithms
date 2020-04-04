@@ -156,3 +156,4 @@ int is_palindrome_str(const char* s) {
 // note 131: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 132: Sub-linear in the average case thanks to early exit.
 // note 133: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 134: Handles empty input by returning 0.
