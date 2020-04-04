@@ -1802,3 +1802,7 @@ Time complexity: O(1).
 ## entry 435
 
 No allocations on the hot path.
+
+## entry 436
+
+Three passes total; the third merges results.
