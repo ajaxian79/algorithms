@@ -1211,3 +1211,7 @@
 ## entry 303
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 304
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
