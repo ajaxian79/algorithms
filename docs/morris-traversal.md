@@ -1159,3 +1159,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 275
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 276
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
