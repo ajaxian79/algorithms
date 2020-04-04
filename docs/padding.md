@@ -1123,3 +1123,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 281
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 282
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
