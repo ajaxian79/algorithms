@@ -1207,3 +1207,7 @@
 ## entry 285
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 286
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
