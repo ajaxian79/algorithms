@@ -1087,3 +1087,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 272
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 273
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
