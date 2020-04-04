@@ -141,3 +141,4 @@ int max_depth(MdTreeNode* root) {
 // note 127: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 128: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 129: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 130: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
