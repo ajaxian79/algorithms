@@ -1291,3 +1291,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 305
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 306
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
