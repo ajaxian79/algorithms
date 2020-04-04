@@ -1602,3 +1602,7 @@ Edge case: empty input → returns 0.
 ## entry 386
 
 Handles empty input by returning 0.
+
+## entry 387
+
+Edge case: reverse-sorted input → still O(n log n).
