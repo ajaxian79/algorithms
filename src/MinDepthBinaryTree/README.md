@@ -1598,3 +1598,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 385
 
 Edge case: empty input → returns 0.
+
+## entry 386
+
+Handles empty input by returning 0.
