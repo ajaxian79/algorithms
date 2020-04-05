@@ -334,3 +334,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 69
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 70
+
+Tail-recursive; the compiler turns it into a loop.
