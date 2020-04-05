@@ -1854,3 +1854,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 449
 
 Branchless inner loop after sorting.
+
+## entry 450
+
+Input is assumed non-NULL; behavior is undefined otherwise.
