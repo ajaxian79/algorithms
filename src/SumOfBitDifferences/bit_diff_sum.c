@@ -170,3 +170,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 152: Runs in a single pass over the input.
 // note 153: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 154: Runs in a single pass over the input.
+// note 155: Treats the input as immutable.
