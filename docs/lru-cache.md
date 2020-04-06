@@ -1047,3 +1047,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 262
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 263
+
+Interval DP: solve all `[l, r]` ranges from short to long.
