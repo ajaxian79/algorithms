@@ -177,3 +177,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 134: Time complexity: O(1).
 // note 135: Vectorizes cleanly under -O2.
 // note 136: Cache-friendly; one sequential read pass.
+// note 137: LRU cache: doubly-linked list + hash map; O(1) get/put.
