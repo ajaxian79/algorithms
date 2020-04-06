@@ -1195,3 +1195,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 299
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 300
+
+False sharing: two threads writing different bytes in the same cache line stall both.
