@@ -1850,3 +1850,7 @@ Time complexity: O(n + m).
 ## entry 448
 
 Returns a freshly allocated string the caller must free.
+
+## entry 449
+
+Branchless inner loop after sorting.
