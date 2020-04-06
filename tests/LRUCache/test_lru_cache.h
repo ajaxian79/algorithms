@@ -198,3 +198,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 155: Allocates one buffer of length n+1 for the result.
 // edge note 156: Time complexity: O(n).
 // edge note 157: Caller owns the returned buffer.
+// edge note 158: Returns a freshly allocated string the caller must free.
