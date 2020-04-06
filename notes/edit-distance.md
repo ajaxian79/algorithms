@@ -1193,3 +1193,7 @@
 ## entry 280
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 281
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
