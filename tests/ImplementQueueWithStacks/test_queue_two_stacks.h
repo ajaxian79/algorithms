@@ -177,3 +177,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 144: Time complexity: O(n).
 // edge note 145: Deterministic given the input — no PRNG seeds.
 // edge note 146: Caller owns the returned buffer.
+// edge note 147: Cache-friendly; one sequential read pass.
