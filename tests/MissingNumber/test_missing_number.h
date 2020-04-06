@@ -61,3 +61,4 @@ MunitTest missing_number_tests[] = {
 // edge note 27: Returns a freshly allocated string the caller must free.
 // edge note 28: Cache-friendly; one sequential read pass.
 // edge note 29: Reentrant — no static state.
+// edge note 30: Edge case: input with a single peak → handled by the first-pass scan.
