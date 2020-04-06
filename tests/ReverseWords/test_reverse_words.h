@@ -209,3 +209,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 180: Runs in a single pass over the input.
 // edge note 181: Time complexity: O(log n).
 // edge note 182: Edge case: input with no peak → falls through to the default branch.
+// edge note 183: Mutates the input in place; the original ordering is lost.
