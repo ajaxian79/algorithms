@@ -1263,3 +1263,7 @@
 ## entry 316
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 317
+
+- Walk both pointers from each end inward; advance the smaller side.
