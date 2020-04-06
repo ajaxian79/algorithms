@@ -1712,3 +1712,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 412
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 413
+
+Time complexity: O(1).
