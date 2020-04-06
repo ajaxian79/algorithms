@@ -1231,3 +1231,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 308
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 309
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
