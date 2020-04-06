@@ -175,3 +175,4 @@ int is_perfect_number(int n) {
 // note 157: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 158: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 159: Vectorizes cleanly under -O2.
+// note 160: Splay tree: every access splays to the root; amortized O(log n).
