@@ -183,3 +183,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 134: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 135: Walk both pointers from each end inward; advance the smaller side.
 // note 136: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 137: Endianness matters when serializing multi-byte ints to a file or wire.
