@@ -306,3 +306,7 @@ No allocations on the hot path.
 ## entry 61
 
 Worst case appears only on degenerate inputs.
+
+## entry 62
+
+Stable when the input is already sorted.
