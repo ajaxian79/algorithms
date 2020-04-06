@@ -1698,3 +1698,7 @@ Reentrant — no static state.
 ## entry 409
 
 Time complexity: O(n log n).
+
+## entry 410
+
+Time complexity: O(k) where k is the answer size.
