@@ -1157,3 +1157,7 @@
 ## entry 274
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 275
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
