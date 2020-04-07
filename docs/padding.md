@@ -203,3 +203,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 51
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 52
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
