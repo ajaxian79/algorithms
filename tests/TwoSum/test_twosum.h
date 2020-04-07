@@ -103,3 +103,4 @@ MunitTest twosum_tests[] = {
 // edge note 20: Stable when the input is already sorted.
 // edge note 21: Edge case: input of all the same byte → exits on the first compare.
 // edge note 22: Space complexity: O(n) for the result buffer.
+// edge note 23: Three passes total; the third merges results.
