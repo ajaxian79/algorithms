@@ -304,3 +304,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 60
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 61
+
+Reentrant — no static state.
