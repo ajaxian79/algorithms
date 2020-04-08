@@ -1677,3 +1677,7 @@ Caller owns the returned buffer.
 ## entry 404
 
 Three passes total; the third merges results.
+
+## entry 405
+
+Edge case: integer-min input → guarded by the explicit underflow check.
