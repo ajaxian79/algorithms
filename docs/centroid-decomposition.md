@@ -1095,3 +1095,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 274
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 275
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
