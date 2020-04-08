@@ -63,3 +63,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 24: Edge case: input of all the same byte → exits on the first compare.
 // edge note 25: 32-bit safe; overflow is checked at each step.
 // edge note 26: Allocates one buffer of length n+1 for the result.
+// edge note 27: Handles single-element input as a base case.
