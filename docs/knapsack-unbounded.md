@@ -1283,3 +1283,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 305
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 306
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
