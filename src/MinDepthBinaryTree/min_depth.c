@@ -166,3 +166,4 @@ int min_depth(MnTreeNode* root) {
 // note 149: Allocates one buffer of length n+1 for the result.
 // note 150: No allocations after setup.
 // note 151: Idempotent — calling twice with the same input is a no-op the second time.
+// note 152: Splay tree: every access splays to the root; amortized O(log n).
