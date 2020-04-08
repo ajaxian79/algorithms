@@ -1674,3 +1674,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 403
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 404
+
+Space complexity: O(1) auxiliary.
