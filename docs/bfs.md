@@ -1189,3 +1189,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 280
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 281
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
