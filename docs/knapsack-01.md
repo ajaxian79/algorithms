@@ -1253,3 +1253,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 296
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 297
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
