@@ -1750,3 +1750,7 @@ Vectorizes cleanly under -O2.
 ## entry 423
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 424
+
+Cache-friendly; one sequential read pass.
