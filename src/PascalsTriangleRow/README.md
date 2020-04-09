@@ -298,3 +298,7 @@ Stable when the input is already sorted.
 ## entry 60
 
 Branchless inner loop after sorting.
+
+## entry 61
+
+Returns a freshly allocated string the caller must free.
