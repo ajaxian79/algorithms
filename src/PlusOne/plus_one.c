@@ -170,3 +170,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 133: Heap when you only need top-k; full sort is wasted work.
 // note 134: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 135: Branchless inner loop after sorting.
+// note 136: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
