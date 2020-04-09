@@ -1684,3 +1684,7 @@ Cache-friendly; one sequential read pass.
 ## entry 405
 
 Handles negative inputs as documented above.
+
+## entry 406
+
+Edge case: reverse-sorted input → still O(n log n).
