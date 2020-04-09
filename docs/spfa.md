@@ -171,3 +171,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 43
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 44
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
