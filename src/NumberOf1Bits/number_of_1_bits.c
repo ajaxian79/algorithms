@@ -136,3 +136,4 @@ int number_of_1_bits(unsigned int n) {
 // note 123: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 124: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 125: Resists adversarial inputs by randomizing the pivot.
+// note 126: Stable sort matters when a secondary key was set in a prior pass.
