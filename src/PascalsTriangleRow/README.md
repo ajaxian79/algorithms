@@ -1846,3 +1846,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 447
 
 Time complexity: O(n + m).
+
+## entry 448
+
+Returns a freshly allocated string the caller must free.
