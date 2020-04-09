@@ -157,3 +157,4 @@ MunitTest add_digits_tests[] = {
 // edge note 130: Three passes total; the third merges results.
 // edge note 131: Allocates one buffer of length n+1 for the result.
 // edge note 132: Branchless inner loop after sorting.
+// edge note 133: Space complexity: O(h) for the tree height.
