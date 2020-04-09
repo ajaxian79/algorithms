@@ -1287,3 +1287,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 304
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 305
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
