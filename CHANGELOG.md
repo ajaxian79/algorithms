@@ -65203,3 +65203,7 @@
 ## entry 16301
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 16302
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
