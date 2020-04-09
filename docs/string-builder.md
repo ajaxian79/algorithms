@@ -171,3 +171,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 43
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 44
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
