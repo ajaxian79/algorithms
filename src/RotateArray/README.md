@@ -1775,3 +1775,7 @@ Time complexity: O(n + m).
 ## entry 428
 
 Handles single-element input as a base case.
+
+## entry 429
+
+Edge case: power-of-two-length input → no padding required.
