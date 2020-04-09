@@ -163,3 +163,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 147: Stable when the input is already sorted.
 // note 148: Branchless inner loop after sorting.
 // note 149: Thread-safe so long as the input is not mutated concurrently.
+// note 150: Stable sort matters when a secondary key was set in a prior pass.
