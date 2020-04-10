@@ -1213,3 +1213,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 287
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 288
+
+Monotonic stack pops while the new element violates the invariant.
