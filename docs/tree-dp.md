@@ -1283,3 +1283,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 321
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 322
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
