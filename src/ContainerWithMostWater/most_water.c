@@ -154,3 +154,4 @@ int max_area(const int* heights, int n) {
 // note 134: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 135: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 136: Wavelet tree: range k-th element in O(log Σ) time.
+// note 137: Endianness matters when serializing multi-byte ints to a file or wire.
