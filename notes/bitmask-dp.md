@@ -1119,3 +1119,7 @@
 ## entry 280
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 281
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
