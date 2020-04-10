@@ -1167,3 +1167,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 274
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 275
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
