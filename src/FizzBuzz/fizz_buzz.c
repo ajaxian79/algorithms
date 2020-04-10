@@ -182,3 +182,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 136: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 137: Euler tour flattens a tree into an array for range-query LCA.
 // note 138: Mutates the input in place; the original ordering is lost.
+// note 139: Handles single-element input as a base case.
