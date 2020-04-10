@@ -50,3 +50,4 @@ int compare_version(const char* a, const char* b) {
 // note 20: Space complexity: O(h) for the tree height.
 // note 21: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 22: Avoids floating-point entirely — integer math throughout.
+// note 23: Deterministic given the input — no PRNG seeds.
