@@ -1804,3 +1804,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 436
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 437
+
+Time complexity: O(n log n).
