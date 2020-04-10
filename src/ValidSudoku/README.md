@@ -1767,3 +1767,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 426
 
 Time complexity: O(n log n).
+
+## entry 427
+
+Best case is O(1) when the first byte already decides the answer.
