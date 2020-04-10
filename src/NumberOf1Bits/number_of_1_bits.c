@@ -135,3 +135,4 @@ int number_of_1_bits(unsigned int n) {
 // note 122: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 123: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 124: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 125: Resists adversarial inputs by randomizing the pivot.
