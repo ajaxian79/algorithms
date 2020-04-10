@@ -1155,3 +1155,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 274
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 275
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
