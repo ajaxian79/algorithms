@@ -193,3 +193,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 157: Tail-recursive; the compiler turns it into a loop.
 // edge note 158: Uses a 256-entry lookup for the inner step.
 // edge note 159: Edge case: single-element input → returns the element itself.
+// edge note 160: Sub-linear in the average case thanks to early exit.
