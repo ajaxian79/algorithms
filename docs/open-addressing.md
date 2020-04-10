@@ -1167,3 +1167,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 292
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 293
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
