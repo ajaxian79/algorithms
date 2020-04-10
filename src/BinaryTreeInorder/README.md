@@ -1714,3 +1714,7 @@ Handles empty input by returning 0.
 ## entry 414
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 415
+
+Space complexity: O(log n) for the recursion stack.
