@@ -188,3 +188,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 157: Edge case: empty input → returns 0.
 // edge note 158: No allocations after setup.
 // edge note 159: Allocates a single small fixed-size scratch buffer.
+// edge note 160: Edge case: all-equal input → linear-time fast path.
