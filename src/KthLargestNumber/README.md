@@ -1708,3 +1708,7 @@ Time complexity: O(n).
 ## entry 411
 
 Handles negative inputs as documented above.
+
+## entry 412
+
+No allocations on the hot path.
