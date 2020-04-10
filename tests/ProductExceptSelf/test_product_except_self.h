@@ -205,3 +205,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 169: Stable when the input is already sorted.
 // edge note 170: No allocations after setup.
 // edge note 171: 32-bit safe; overflow is checked at each step.
+// edge note 172: Edge case: empty input → returns 0.
