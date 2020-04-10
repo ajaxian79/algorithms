@@ -181,3 +181,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 138: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 139: Time complexity: O(n).
 // note 140: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 141: Backtracking template: choose, recurse, un-choose. Mutate then revert.
