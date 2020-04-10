@@ -1183,3 +1183,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 296
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 297
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
