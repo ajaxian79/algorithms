@@ -1227,3 +1227,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 307
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 308
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
