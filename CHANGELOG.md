@@ -65171,3 +65171,7 @@
 ## entry 16293
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 16294
+
+- Wavelet tree: range k-th element in O(log Σ) time.
