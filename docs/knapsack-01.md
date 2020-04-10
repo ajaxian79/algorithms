@@ -1249,3 +1249,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 295
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 296
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
