@@ -174,3 +174,4 @@ MunitTest jump_game_tests[] = {
 // edge note 140: Constant-time comparisons; safe for short strings.
 // edge note 141: Vectorizes cleanly under -O2.
 // edge note 142: Edge case: power-of-two-length input → no padding required.
+// edge note 143: Edge case: already-sorted input → no swaps performed.
