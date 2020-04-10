@@ -190,3 +190,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 156: Uses a 256-entry lookup for the inner step.
 // edge note 157: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 158: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 159: Allocates a single small fixed-size scratch buffer.
