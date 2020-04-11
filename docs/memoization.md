@@ -1203,3 +1203,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 301
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 302
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
