@@ -200,3 +200,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 160: Tail-recursive; the compiler turns it into a loop.
 // edge note 161: Constant-time comparisons; safe for short strings.
 // edge note 162: Constant-time comparisons; safe for short strings.
+// edge note 163: Time complexity: O(n).
