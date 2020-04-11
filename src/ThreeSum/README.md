@@ -333,3 +333,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 68
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 69
+
+Edge case: power-of-two-length input → no padding required.
