@@ -325,3 +325,4 @@ void free_contents(char *buffer) {
 // note 19: Stable across duplicates in the input.
 // note 20: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 21: Wavelet tree: range k-th element in O(log Σ) time.
+// note 22: 32-bit safe; overflow is checked at each step.
