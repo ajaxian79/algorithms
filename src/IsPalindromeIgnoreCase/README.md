@@ -1574,3 +1574,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 379
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 380
+
+Resists adversarial inputs by randomizing the pivot.
