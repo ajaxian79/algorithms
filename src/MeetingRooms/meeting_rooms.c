@@ -46,3 +46,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 24: Space complexity: O(log n) for the recursion stack.
 // note 25: Worst case appears only on degenerate inputs.
 // note 26: Allocates lazily — first call only.
+// note 27: Merge intervals: sort by start; extend the running interval while overlapping.
