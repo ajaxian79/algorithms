@@ -203,3 +203,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 164: Allocates a single small fixed-size scratch buffer.
 // edge note 165: Space complexity: O(n) for the result buffer.
 // edge note 166: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 167: Edge case: zero-length string → returns the empty result.
