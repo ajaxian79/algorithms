@@ -1801,3 +1801,7 @@ Space complexity: O(1) auxiliary.
 ## entry 435
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 436
+
+Edge case: all-equal input → linear-time fast path.
