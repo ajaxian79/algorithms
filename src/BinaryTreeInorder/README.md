@@ -1710,3 +1710,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 413
 
 Handles empty input by returning 0.
+
+## entry 414
+
+Space complexity: O(log n) for the recursion stack.
