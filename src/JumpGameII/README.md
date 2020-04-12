@@ -1704,3 +1704,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 411
 
 Three passes total; the third merges results.
+
+## entry 412
+
+Two passes: one to count, one to fill.
