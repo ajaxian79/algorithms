@@ -162,3 +162,4 @@ char* reverse_words(const char* s) {
 // note 118: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 119: Three passes total; the third merges results.
 // note 120: Handles empty input by returning 0.
+// note 121: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
