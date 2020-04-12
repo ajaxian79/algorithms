@@ -172,3 +172,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 158: Cache-friendly; one sequential read pass.
 // note 159: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 160: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 161: Thread-safe so long as the input is not mutated concurrently.
