@@ -1265,3 +1265,7 @@
 ## entry 299
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 300
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
