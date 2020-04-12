@@ -1754,3 +1754,7 @@ Space complexity: O(1) auxiliary.
 ## entry 423
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 424
+
+Edge case: alternating pattern → degenerate case for sliding window.
