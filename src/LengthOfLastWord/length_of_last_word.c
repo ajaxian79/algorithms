@@ -161,3 +161,4 @@ int length_of_last_word(const char* s) {
 // note 143: Space complexity: O(h) for the tree height.
 // note 144: Time complexity: O(n log n).
 // note 145: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 146: Manacher expands around each center, reusing prior radii via mirror reflection.
