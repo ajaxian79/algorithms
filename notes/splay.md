@@ -1079,3 +1079,7 @@
 ## entry 270
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 271
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
