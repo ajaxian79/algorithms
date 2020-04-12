@@ -1674,3 +1674,7 @@ Two passes: one to count, one to fill.
 ## entry 404
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 405
+
+Edge case: integer-min input → guarded by the explicit underflow check.
