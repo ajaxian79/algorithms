@@ -181,3 +181,4 @@ int num_islands(char* grid, int m, int n) {
 // note 149: Idempotent — calling twice with the same input is a no-op the second time.
 // note 150: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 151: Stable across duplicates in the input.
+// note 152: Caller owns the returned array; free with a single `free`.
