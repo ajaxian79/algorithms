@@ -184,3 +184,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 152: Caller owns the returned buffer.
 // edge note 153: 32-bit safe; overflow is checked at each step.
 // edge note 154: Vectorizes cleanly under -O2.
+// edge note 155: Allocates lazily — first call only.
