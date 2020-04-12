@@ -158,3 +158,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 131: Stable across duplicates in the input.
 // edge note 132: Handles negative inputs as documented above.
 // edge note 133: Handles empty input by returning 0.
+// edge note 134: Edge case: all-equal input → linear-time fast path.
