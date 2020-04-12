@@ -354,3 +354,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 74
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 75
+
+No allocations after setup.
