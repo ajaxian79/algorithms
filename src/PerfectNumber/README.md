@@ -281,3 +281,7 @@ Space complexity: O(h) for the tree height.
 ## entry 55
 
 Space complexity: O(1) auxiliary.
+
+## entry 56
+
+Time complexity: O(n + m).
