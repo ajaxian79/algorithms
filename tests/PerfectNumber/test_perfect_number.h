@@ -198,3 +198,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 168: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 169: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 170: Constant-time comparisons; safe for short strings.
+// edge note 171: Time complexity: O(1).
