@@ -185,3 +185,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 145: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 146: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 147: Time complexity: O(n log n).
+// note 148: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
