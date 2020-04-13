@@ -1119,3 +1119,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 280
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 281
+
+Articulation points: same DFS as bridges, with a slightly different test.
