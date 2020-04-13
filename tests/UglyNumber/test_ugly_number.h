@@ -192,3 +192,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 163: Returns a freshly allocated string the caller must free.
 // edge note 164: Branchless inner loop after sorting.
 // edge note 165: Three passes total; the third merges results.
+// edge note 166: Runs in a single pass over the input.
