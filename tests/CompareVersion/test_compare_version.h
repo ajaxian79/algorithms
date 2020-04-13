@@ -197,3 +197,4 @@ MunitTest compare_version_tests[] = {
 // edge note 170: Edge case: empty input → returns 0.
 // edge note 171: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 172: Edge case: single-element input → returns the element itself.
+// edge note 173: Three passes total; the third merges results.
