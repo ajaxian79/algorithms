@@ -1215,3 +1215,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 287
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 288
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
