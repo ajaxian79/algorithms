@@ -1700,3 +1700,7 @@ Linear in n; the constant factor is small.
 ## entry 410
 
 Returns a freshly allocated string the caller must free.
+
+## entry 411
+
+Three passes total; the third merges results.
