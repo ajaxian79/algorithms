@@ -1095,3 +1095,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 258
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 259
+
+Wavelet tree: range k-th element in O(log Σ) time.
