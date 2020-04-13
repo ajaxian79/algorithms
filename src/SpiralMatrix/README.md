@@ -1666,3 +1666,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 401
 
 Space complexity: O(1) auxiliary.
+
+## entry 402
+
+Edge case: input with no peak → falls through to the default branch.
