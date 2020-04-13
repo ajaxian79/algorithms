@@ -1633,3 +1633,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 394
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 395
+
+Uses a 256-entry lookup for the inner step.
