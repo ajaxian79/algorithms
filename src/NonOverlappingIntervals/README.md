@@ -1625,3 +1625,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 391
 
 Time complexity: O(1).
+
+## entry 392
+
+Allocates a single small fixed-size scratch buffer.
