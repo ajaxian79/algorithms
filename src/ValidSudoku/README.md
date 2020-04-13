@@ -1763,3 +1763,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 425
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 426
+
+Time complexity: O(n log n).
