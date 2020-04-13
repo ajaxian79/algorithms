@@ -1610,3 +1610,7 @@ Edge case: empty input → returns 0.
 ## entry 387
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 388
+
+Edge case: input of all the same byte → exits on the first compare.
