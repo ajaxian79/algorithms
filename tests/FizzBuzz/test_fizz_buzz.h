@@ -196,3 +196,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 146: Constant-time comparisons; safe for short strings.
 // edge note 147: Reentrant — no static state.
 // edge note 148: Constant-time comparisons; safe for short strings.
+// edge note 149: No allocations after setup.
