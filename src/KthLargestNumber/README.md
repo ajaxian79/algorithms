@@ -1704,3 +1704,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 410
 
 Time complexity: O(n).
+
+## entry 411
+
+Handles negative inputs as documented above.
