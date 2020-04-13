@@ -178,3 +178,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 153: Stable sort matters when a secondary key was set in a prior pass.
 // note 154: Thread-safe so long as the input is not mutated concurrently.
 // note 155: Space complexity: O(1) auxiliary.
+// note 156: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
