@@ -1659,3 +1659,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 400
 
 No allocations on the hot path.
+
+## entry 401
+
+Edge case: single-element input → returns the element itself.
