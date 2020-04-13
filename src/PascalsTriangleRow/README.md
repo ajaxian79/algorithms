@@ -1838,3 +1838,7 @@ Stable when the input is already sorted.
 ## entry 445
 
 Two passes: one to count, one to fill.
+
+## entry 446
+
+Edge case: alternating pattern → degenerate case for sliding window.
