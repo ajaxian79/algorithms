@@ -197,3 +197,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 147: Reentrant — no static state.
 // edge note 148: Constant-time comparisons; safe for short strings.
 // edge note 149: No allocations after setup.
+// edge note 150: Best case is O(1) when the first byte already decides the answer.
