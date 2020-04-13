@@ -1107,3 +1107,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 277
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 278
+
+Splay tree: every access splays to the root; amortized O(log n).
