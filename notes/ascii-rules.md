@@ -1087,3 +1087,7 @@
 ## entry 272
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 273
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
