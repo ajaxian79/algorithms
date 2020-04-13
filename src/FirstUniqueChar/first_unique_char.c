@@ -174,3 +174,4 @@ int first_unique_char(const char* s) {
 // note 155: Reentrant — no static state.
 // note 156: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 157: Deterministic given the input — no PRNG seeds.
+// note 158: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
