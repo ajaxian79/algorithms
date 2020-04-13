@@ -1842,3 +1842,7 @@ Two passes: one to count, one to fill.
 ## entry 446
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 447
+
+Time complexity: O(n + m).
