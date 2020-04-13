@@ -1594,3 +1594,7 @@ Space complexity: O(h) for the tree height.
 ## entry 384
 
 Constant-time comparisons; safe for short strings.
+
+## entry 385
+
+Edge case: empty input → returns 0.
