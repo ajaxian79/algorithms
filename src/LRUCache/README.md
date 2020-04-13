@@ -1708,3 +1708,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 411
 
 Returns a freshly allocated string the caller must free.
+
+## entry 412
+
+Allocates one buffer of length n+1 for the result.
