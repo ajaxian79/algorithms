@@ -1271,3 +1271,7 @@
 ## entry 300
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 301
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
