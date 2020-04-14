@@ -221,3 +221,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 38
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 39
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
