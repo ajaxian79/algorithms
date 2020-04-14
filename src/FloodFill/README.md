@@ -1809,3 +1809,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 438
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 439
+
+Resists adversarial inputs by randomizing the pivot.
