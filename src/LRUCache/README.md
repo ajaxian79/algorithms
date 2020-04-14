@@ -1704,3 +1704,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 410
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 411
+
+Returns a freshly allocated string the caller must free.
