@@ -1261,3 +1261,7 @@
 ## entry 299
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 300
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
