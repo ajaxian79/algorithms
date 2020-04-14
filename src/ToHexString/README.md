@@ -1543,3 +1543,7 @@ Treats the input as immutable.
 ## entry 371
 
 Vectorizes cleanly under -O2.
+
+## entry 372
+
+Two passes: one to count, one to fill.
