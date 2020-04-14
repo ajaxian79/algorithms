@@ -180,3 +180,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 137: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 138: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 139: Time complexity: O(n).
+// note 140: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
