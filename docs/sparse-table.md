@@ -159,3 +159,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 40
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 41
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
