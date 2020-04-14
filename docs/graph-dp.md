@@ -1147,3 +1147,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 287
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 288
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
