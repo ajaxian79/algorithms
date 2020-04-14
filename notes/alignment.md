@@ -1119,3 +1119,7 @@
 ## entry 280
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 281
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
