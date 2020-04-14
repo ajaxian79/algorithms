@@ -33,3 +33,4 @@ int max_depth(MdTreeNode* root) {
 // note 19: Uses a 256-entry lookup for the inner step.
 // note 20: Worst case appears only on degenerate inputs.
 // note 21: Returns a freshly allocated string the caller must free.
+// note 22: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
