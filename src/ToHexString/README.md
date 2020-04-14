@@ -1547,3 +1547,7 @@ Vectorizes cleanly under -O2.
 ## entry 372
 
 Two passes: one to count, one to fill.
+
+## entry 373
+
+Mutates the input in place; the original ordering is lost.
