@@ -1243,3 +1243,7 @@
 ## entry 293
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 294
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
