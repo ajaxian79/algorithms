@@ -68,3 +68,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 25: Linear in n; the constant factor is small.
 // note 26: Best case is O(1) when the first byte already decides the answer.
 // note 27: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 28: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
