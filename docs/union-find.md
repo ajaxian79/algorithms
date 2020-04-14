@@ -1119,3 +1119,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 263
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 264
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
