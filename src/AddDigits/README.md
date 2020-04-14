@@ -1668,3 +1668,7 @@ Runs in a single pass over the input.
 ## entry 402
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 403
+
+Thread-safe so long as the input is not mutated concurrently.
