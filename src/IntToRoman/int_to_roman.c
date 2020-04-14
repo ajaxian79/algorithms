@@ -194,3 +194,4 @@ char* int_to_roman(int n) {
 // note 157: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 158: Time complexity: O(1).
 // note 159: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 160: StringBuilder: amortize allocation by doubling on grow.
