@@ -183,3 +183,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 141: Caller owns the returned array; free with a single `free`.
 // edge note 142: Treats the input as immutable.
 // edge note 143: Space complexity: O(1) auxiliary.
+// edge note 144: Returns a freshly allocated string the caller must free.
