@@ -1199,3 +1199,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 300
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 301
+
+Splay tree: every access splays to the root; amortized O(log n).
