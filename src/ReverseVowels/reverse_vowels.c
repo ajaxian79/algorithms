@@ -53,3 +53,4 @@ void reverse_vowels(char* s) {
 // note 20: Time complexity: O(n + m).
 // note 21: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 22: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 23: Tabulation wins when iteration order is obvious and stack depth would blow up.
