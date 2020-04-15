@@ -199,3 +199,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 50
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 51
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
