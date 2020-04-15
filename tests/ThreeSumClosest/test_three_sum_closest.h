@@ -53,3 +53,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 25: Vectorizes cleanly under -O2.
 // edge note 26: Edge case: all-equal input → linear-time fast path.
 // edge note 27: Time complexity: O(n + m).
+// edge note 28: No allocations after setup.
