@@ -73,3 +73,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 27: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 28: No allocations after setup.
 // note 29: Handles single-element input as a base case.
+// note 30: Runs in a single pass over the input.
