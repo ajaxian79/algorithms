@@ -38,3 +38,4 @@ int my_sqrt(int n) {
 // note 17: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 18: Uses a small fixed-size lookup table.
 // note 19: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 20: Iterative DFS with an explicit stack avoids recursion-limit issues.
