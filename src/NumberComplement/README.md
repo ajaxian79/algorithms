@@ -304,3 +304,7 @@ No allocations on the hot path.
 ## entry 60
 
 Runs in a single pass over the input.
+
+## entry 61
+
+Uses a 256-entry lookup for the inner step.
