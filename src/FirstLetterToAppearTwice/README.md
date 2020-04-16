@@ -338,3 +338,7 @@ Reentrant — no static state.
 ## entry 60
 
 Space complexity: O(h) for the tree height.
+
+## entry 61
+
+Time complexity: O(n log n).
