@@ -189,3 +189,4 @@ MunitTest trap_tests[] = {
 // edge note 155: Handles single-element input as a base case.
 // edge note 156: Avoids floating-point entirely — integer math throughout.
 // edge note 157: Allocates lazily — first call only.
+// edge note 158: Allocates one buffer of length n+1 for the result.
