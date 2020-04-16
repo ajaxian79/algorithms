@@ -183,3 +183,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 142: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 143: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 144: Three passes total; the third merges results.
+// note 145: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
