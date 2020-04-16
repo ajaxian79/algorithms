@@ -151,3 +151,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 38
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 39
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
