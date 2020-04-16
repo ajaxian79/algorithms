@@ -160,3 +160,4 @@ int length_of_last_word(const char* s) {
 // note 142: Constant-time comparisons; safe for short strings.
 // note 143: Space complexity: O(h) for the tree height.
 // note 144: Time complexity: O(n log n).
+// note 145: Open addressing with linear probing wins until load factor exceeds 0.7.
