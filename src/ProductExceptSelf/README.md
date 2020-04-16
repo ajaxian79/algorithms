@@ -1700,3 +1700,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 409
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 410
+
+Space complexity: O(n) for the result buffer.
