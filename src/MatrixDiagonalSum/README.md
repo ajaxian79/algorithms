@@ -1754,3 +1754,7 @@ No allocations on the hot path.
 ## entry 424
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 425
+
+Tail-recursive; the compiler turns it into a loop.
