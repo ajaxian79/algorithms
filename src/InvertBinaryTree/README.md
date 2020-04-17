@@ -1768,3 +1768,7 @@ No allocations on the hot path.
 ## entry 427
 
 Time complexity: O(n).
+
+## entry 428
+
+32-bit safe; overflow is checked at each step.
