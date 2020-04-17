@@ -1834,3 +1834,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 444
 
 Stable when the input is already sorted.
+
+## entry 445
+
+Two passes: one to count, one to fill.
