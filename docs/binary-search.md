@@ -1309,3 +1309,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 311
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 312
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
