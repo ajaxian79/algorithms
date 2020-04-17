@@ -1155,3 +1155,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 289
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 290
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
