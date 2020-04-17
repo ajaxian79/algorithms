@@ -164,3 +164,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 148: Tail-recursive; the compiler turns it into a loop.
 // note 149: Uses a 256-entry lookup for the inner step.
 // note 150: Space complexity: O(h) for the tree height.
+// note 151: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
