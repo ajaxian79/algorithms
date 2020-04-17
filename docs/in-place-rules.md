@@ -1377,3 +1377,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 329
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 330
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
