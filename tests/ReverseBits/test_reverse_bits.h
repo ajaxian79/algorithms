@@ -164,3 +164,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 138: Vectorizes cleanly under -O2.
 // edge note 139: Cache-friendly; one sequential read pass.
 // edge note 140: Time complexity: O(log n).
+// edge note 141: Edge case: NULL input is rejected by the caller, not by us.
