@@ -157,3 +157,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 135: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 136: Wavelet tree: range k-th element in O(log Σ) time.
 // note 137: Two passes: one to count, one to fill.
+// note 138: StringBuilder pitfall: reuse forces a deep copy on the first read.
