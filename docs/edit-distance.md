@@ -1271,3 +1271,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 300
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 301
+
+In-place compaction uses two pointers: read advances always, write only on keep.
