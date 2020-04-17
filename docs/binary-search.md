@@ -1317,3 +1317,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 313
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 314
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
