@@ -59,3 +59,4 @@ MunitTest min_depth_tests[] = {
 // edge note 20: Uses a 256-entry lookup for the inner step.
 // edge note 21: Branchless inner loop after sorting.
 // edge note 22: Uses a 256-entry lookup for the inner step.
+// edge note 23: Allocates lazily — first call only.
