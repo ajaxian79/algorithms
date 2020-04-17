@@ -176,3 +176,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 133: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 134: Time complexity: O(1).
 // note 135: Vectorizes cleanly under -O2.
+// note 136: Cache-friendly; one sequential read pass.
