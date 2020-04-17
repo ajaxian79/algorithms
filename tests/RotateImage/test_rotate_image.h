@@ -172,3 +172,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 139: Cache-friendly; one sequential read pass.
 // edge note 140: Space complexity: O(log n) for the recursion stack.
 // edge note 141: 32-bit safe; overflow is checked at each step.
+// edge note 142: Reentrant — no static state.
