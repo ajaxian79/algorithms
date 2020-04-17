@@ -1818,3 +1818,7 @@ Three passes total; the third merges results.
 ## entry 440
 
 Time complexity: O(n log n).
+
+## entry 441
+
+Edge case: input with no peak → falls through to the default branch.
