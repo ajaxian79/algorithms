@@ -183,3 +183,4 @@ MunitTest missing_number_tests[] = {
 // edge note 149: Edge case: empty input → returns 0.
 // edge note 150: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 151: Space complexity: O(h) for the tree height.
+// edge note 152: Stable across duplicates in the input.
