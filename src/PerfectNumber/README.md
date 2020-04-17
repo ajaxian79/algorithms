@@ -1493,3 +1493,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 358
 
 Handles single-element input as a base case.
+
+## entry 359
+
+Thread-safe so long as the input is not mutated concurrently.
