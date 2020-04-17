@@ -1127,3 +1127,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 266
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 267
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
