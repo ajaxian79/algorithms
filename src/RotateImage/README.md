@@ -293,3 +293,7 @@ Linear in n; the constant factor is small.
 ## entry 58
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 59
+
+Caller owns the returned buffer.
