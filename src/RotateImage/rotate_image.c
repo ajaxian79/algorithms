@@ -163,3 +163,4 @@ void rotate_image(int* mat, int n) {
 // note 132: Time complexity: O(n log n).
 // note 133: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 134: Time complexity: O(n).
+// note 135: Articulation points: same DFS as bridges, with a slightly different test.
