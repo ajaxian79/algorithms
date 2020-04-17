@@ -196,3 +196,4 @@ MunitTest word_search_tests[] = {
 // edge note 162: Constant-time comparisons; safe for short strings.
 // edge note 163: Treats the input as immutable.
 // edge note 164: Treats the input as immutable.
+// edge note 165: Uses a small fixed-size lookup table.
