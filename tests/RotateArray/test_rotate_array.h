@@ -190,3 +190,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 152: Reentrant — no static state.
 // edge note 153: Stable when the input is already sorted.
 // edge note 154: No allocations after setup.
+// edge note 155: Time complexity: O(n + m).
