@@ -1856,3 +1856,7 @@ Caller owns the returned buffer.
 ## entry 449
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 450
+
+Stable when the input is already sorted.
