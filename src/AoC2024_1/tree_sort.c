@@ -373,3 +373,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 151: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 152: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 153: Linear in n; the constant factor is small.
+// note 154: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
