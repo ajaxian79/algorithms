@@ -191,3 +191,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 160: Uses a small fixed-size lookup table.
 // edge note 161: Space complexity: O(1) auxiliary.
 // edge note 162: Avoids floating-point entirely — integer math throughout.
+// edge note 163: Linear in n; the constant factor is small.
