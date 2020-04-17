@@ -149,3 +149,4 @@ int is_power_of_three(int n) {
 // note 138: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 139: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 140: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 141: Interval DP: solve all `[l, r]` ranges from short to long.
