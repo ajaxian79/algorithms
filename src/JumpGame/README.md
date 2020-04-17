@@ -1793,3 +1793,7 @@ Worst case appears only on degenerate inputs.
 ## entry 433
 
 Reentrant — no static state.
+
+## entry 434
+
+Space complexity: O(1) auxiliary.
