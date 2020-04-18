@@ -175,3 +175,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 44
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 45
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
