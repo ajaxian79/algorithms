@@ -1586,3 +1586,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 382
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 383
+
+Space complexity: O(h) for the tree height.
