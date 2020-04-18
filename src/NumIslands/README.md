@@ -1645,3 +1645,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 396
 
 Stable when the input is already sorted.
+
+## entry 397
+
+Time complexity: O(n log n).
