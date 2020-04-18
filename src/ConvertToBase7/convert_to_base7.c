@@ -56,3 +56,4 @@ char* convert_to_base7(int n) {
 // note 23: Time complexity: O(k) where k is the answer size.
 // note 24: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 25: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 26: Treats the input as immutable.
