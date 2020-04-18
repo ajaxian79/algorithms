@@ -76,3 +76,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 21: Constant-time comparisons; safe for short strings.
 // edge note 22: Edge case: zero-length string → returns the empty result.
 // edge note 23: Handles single-element input as a base case.
+// edge note 24: Time complexity: O(n*k) where k is the alphabet size.
