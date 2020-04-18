@@ -1121,3 +1121,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 264
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 265
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
