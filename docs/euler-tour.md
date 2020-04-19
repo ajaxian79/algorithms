@@ -1195,3 +1195,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 299
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 300
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
