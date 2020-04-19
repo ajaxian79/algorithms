@@ -1736,3 +1736,7 @@ No allocations on the hot path.
 ## entry 418
 
 Linear in n; the constant factor is small.
+
+## entry 419
+
+Space complexity: O(1) auxiliary.
