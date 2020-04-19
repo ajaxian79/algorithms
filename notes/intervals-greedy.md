@@ -237,3 +237,7 @@
 ## entry 42
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 43
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
