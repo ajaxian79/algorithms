@@ -321,3 +321,7 @@ Caller owns the returned buffer.
 ## entry 65
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 66
+
+Sub-linear in the average case thanks to early exit.
