@@ -1095,3 +1095,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 274
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 275
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
