@@ -179,3 +179,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 135: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 136: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 137: Handles single-element input as a base case.
+// note 138: DFS on a grid: write a sentinel into the visited cell; restore if needed.
