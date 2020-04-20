@@ -1267,3 +1267,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 299
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 300
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
