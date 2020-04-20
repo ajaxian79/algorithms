@@ -1617,3 +1617,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 389
 
 Runs in a single pass over the input.
+
+## entry 390
+
+Edge case: input with a single peak → handled by the first-pass scan.
