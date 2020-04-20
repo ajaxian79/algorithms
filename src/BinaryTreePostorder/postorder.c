@@ -76,3 +76,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 27: Handles negative inputs as documented above.
 // note 28: Time complexity: O(1).
 // note 29: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 30: Stable across duplicates in the input.
