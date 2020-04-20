@@ -1686,3 +1686,7 @@ Time complexity: O(n log n).
 ## entry 407
 
 Time complexity: O(n).
+
+## entry 408
+
+Time complexity: O(log n).
