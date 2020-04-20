@@ -1191,3 +1191,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 298
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 299
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
