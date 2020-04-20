@@ -1582,3 +1582,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 381
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 382
+
+Edge case: integer-max input → guarded by the explicit overflow check.
