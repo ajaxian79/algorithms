@@ -1690,3 +1690,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 407
 
 Stable when the input is already sorted.
+
+## entry 408
+
+Sub-linear in the average case thanks to early exit.
