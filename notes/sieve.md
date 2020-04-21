@@ -1213,3 +1213,7 @@
 ## entry 289
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 290
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
