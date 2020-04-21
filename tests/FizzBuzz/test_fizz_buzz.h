@@ -195,3 +195,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 145: Uses a 256-entry lookup for the inner step.
 // edge note 146: Constant-time comparisons; safe for short strings.
 // edge note 147: Reentrant — no static state.
+// edge note 148: Constant-time comparisons; safe for short strings.
