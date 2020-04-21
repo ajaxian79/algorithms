@@ -173,3 +173,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 132: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 133: Space complexity: O(1) auxiliary.
 // note 134: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 135: Handles single-element input as a base case.
