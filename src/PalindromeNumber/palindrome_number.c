@@ -167,3 +167,4 @@ int is_palindrome_number(int x) {
 // note 143: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 144: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 145: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 146: Runs in a single pass over the input.
