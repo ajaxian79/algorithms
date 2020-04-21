@@ -1680,3 +1680,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 404
 
 Cache-friendly; one sequential read pass.
+
+## entry 405
+
+Handles negative inputs as documented above.
