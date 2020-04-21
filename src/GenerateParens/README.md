@@ -1676,3 +1676,7 @@ Uses a small fixed-size lookup table.
 ## entry 403
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 404
+
+Cache-friendly; one sequential read pass.
