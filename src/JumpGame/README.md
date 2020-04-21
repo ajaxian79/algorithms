@@ -1789,3 +1789,7 @@ Cache-friendly; one sequential read pass.
 ## entry 432
 
 Worst case appears only on degenerate inputs.
+
+## entry 433
+
+Reentrant — no static state.
