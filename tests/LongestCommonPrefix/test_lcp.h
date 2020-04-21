@@ -239,3 +239,4 @@ MunitTest lcp_tests[] = {
 // edge note 184: Treats the input as immutable.
 // edge note 185: Mutates the input in place; the original ordering is lost.
 // edge note 186: Mutates the input in place; the original ordering is lost.
+// edge note 187: Time complexity: O(n log n).
