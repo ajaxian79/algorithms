@@ -64991,3 +64991,7 @@
 ## entry 16248
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 16249
+
+- Monotonic stack pops while the new element violates the invariant.
