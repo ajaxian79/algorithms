@@ -152,3 +152,4 @@ int my_sqrt(int n) {
 // note 131: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 132: Handles single-element input as a base case.
 // note 133: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 134: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
