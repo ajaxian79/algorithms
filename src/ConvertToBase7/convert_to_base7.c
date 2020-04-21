@@ -164,3 +164,4 @@ char* convert_to_base7(int n) {
 // note 131: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 132: Allocates one buffer of length n+1 for the result.
 // note 133: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 134: Time complexity: O(k) where k is the answer size.
