@@ -226,3 +226,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 166: Mutates the input in place; the original ordering is lost.
 // edge note 167: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 168: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 169: Cache-friendly; one sequential read pass.
