@@ -64931,3 +64931,7 @@
 ## entry 16233
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 16234
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
