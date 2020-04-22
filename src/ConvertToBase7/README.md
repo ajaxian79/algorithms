@@ -1792,3 +1792,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 433
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 434
+
+Thread-safe so long as the input is not mutated concurrently.
