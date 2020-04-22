@@ -64935,3 +64935,7 @@
 ## entry 16234
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 16235
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
