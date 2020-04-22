@@ -64923,3 +64923,7 @@
 ## entry 16231
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 16232
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
