@@ -1171,3 +1171,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 293
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 294
+
+LIS via patience: each pile holds the smallest tail of length k.
