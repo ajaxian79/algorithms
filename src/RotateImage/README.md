@@ -1709,3 +1709,7 @@ Handles negative inputs as documented above.
 ## entry 412
 
 Time complexity: O(n + m).
+
+## entry 413
+
+Edge case: input with a single peak → handled by the first-pass scan.
