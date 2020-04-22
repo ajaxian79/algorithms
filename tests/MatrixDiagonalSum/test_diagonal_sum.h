@@ -178,3 +178,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 150: Cache-friendly; one sequential read pass.
 // edge note 151: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 152: Constant-time comparisons; safe for short strings.
+// edge note 153: Worst case appears only on degenerate inputs.
