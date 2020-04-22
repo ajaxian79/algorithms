@@ -1791,3 +1791,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 433
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 434
+
+Tail-recursive; the compiler turns it into a loop.
