@@ -1117,3 +1117,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 263
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 264
+
+Endianness matters when serializing multi-byte ints to a file or wire.
