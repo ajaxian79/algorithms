@@ -1191,3 +1191,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 282
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 283
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
