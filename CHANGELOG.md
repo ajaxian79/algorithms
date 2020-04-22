@@ -64939,3 +64939,7 @@
 ## entry 16235
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 16236
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
