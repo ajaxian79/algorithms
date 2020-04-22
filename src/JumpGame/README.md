@@ -1785,3 +1785,7 @@ Space complexity: O(1) auxiliary.
 ## entry 431
 
 Cache-friendly; one sequential read pass.
+
+## entry 432
+
+Worst case appears only on degenerate inputs.
