@@ -1231,3 +1231,7 @@
 ## entry 308
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 309
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
