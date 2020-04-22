@@ -1665,3 +1665,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 391
 
 Linear in n; the constant factor is small.
+
+## entry 392
+
+Cache-friendly; one sequential read pass.
