@@ -1195,3 +1195,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 299
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 300
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
