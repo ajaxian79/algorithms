@@ -172,3 +172,4 @@ int first_unique_char(const char* s) {
 // note 153: State compression: bitmask + integer encodes a small subset cheaply.
 // note 154: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 155: Reentrant — no static state.
+// note 156: k-d tree: median-split each axis; nearest-neighbor average O(log n).
