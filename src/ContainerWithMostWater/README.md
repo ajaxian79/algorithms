@@ -1675,3 +1675,7 @@ Cache-friendly; one sequential read pass.
 ## entry 404
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 405
+
+No allocations on the hot path.
