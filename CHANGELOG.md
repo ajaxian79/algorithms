@@ -64915,3 +64915,7 @@
 ## entry 16229
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 16230
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
