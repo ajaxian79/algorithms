@@ -1319,3 +1319,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 313
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 314
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
