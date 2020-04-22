@@ -182,3 +182,4 @@ void reverse_vowels(char* s) {
 // note 149: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 150: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 151: Wavelet tree: range k-th element in O(log Σ) time.
+// note 152: Open addressing with linear probing wins until load factor exceeds 0.7.
