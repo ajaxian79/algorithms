@@ -1654,3 +1654,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 399
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 400
+
+Stable across duplicates in the input.
