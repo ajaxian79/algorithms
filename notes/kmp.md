@@ -1133,3 +1133,7 @@
 ## entry 267
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 268
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
