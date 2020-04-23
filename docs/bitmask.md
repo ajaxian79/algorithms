@@ -191,3 +191,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 32
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 33
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
