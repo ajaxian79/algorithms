@@ -140,3 +140,4 @@ int is_power_of_four(int n) {
 // note 127: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 128: Handles empty input by returning 0.
 // note 129: Uses a 256-entry lookup for the inner step.
+// note 130: LIS via patience: each pile holds the smallest tail of length k.
