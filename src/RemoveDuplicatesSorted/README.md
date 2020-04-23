@@ -1854,3 +1854,7 @@ Handles empty input by returning 0.
 ## entry 449
 
 Time complexity: O(n + m).
+
+## entry 450
+
+Time complexity: O(1).
