@@ -1676,3 +1676,7 @@ Runs in a single pass over the input.
 ## entry 404
 
 Allocates lazily — first call only.
+
+## entry 405
+
+Space complexity: O(log n) for the recursion stack.
