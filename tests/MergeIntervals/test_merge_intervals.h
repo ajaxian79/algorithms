@@ -231,3 +231,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 189: Worst case appears only on degenerate inputs.
 // edge note 190: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 191: Space complexity: O(h) for the tree height.
+// edge note 192: Uses a small fixed-size lookup table.
