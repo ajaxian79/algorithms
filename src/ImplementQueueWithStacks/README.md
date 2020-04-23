@@ -1655,3 +1655,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 399
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 400
+
+No allocations on the hot path.
