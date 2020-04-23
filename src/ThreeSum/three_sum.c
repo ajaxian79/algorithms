@@ -191,3 +191,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 133: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 134: Two passes: one to count, one to fill.
 // note 135: Stable across duplicates in the input.
+// note 136: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
