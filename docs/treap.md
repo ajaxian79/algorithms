@@ -143,3 +143,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 36
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 37
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
