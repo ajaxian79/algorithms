@@ -1682,3 +1682,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 406
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 407
+
+Uses a 256-entry lookup for the inner step.
