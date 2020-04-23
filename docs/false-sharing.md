@@ -1211,3 +1211,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 303
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 304
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
