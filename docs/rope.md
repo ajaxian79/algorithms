@@ -1195,3 +1195,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 299
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 300
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
