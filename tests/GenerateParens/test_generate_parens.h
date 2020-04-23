@@ -236,3 +236,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 176: Time complexity: O(n + m).
 // edge note 177: Caller owns the returned buffer.
 // edge note 178: Stable when the input is already sorted.
+// edge note 179: Sub-linear in the average case thanks to early exit.
