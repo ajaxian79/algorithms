@@ -319,3 +319,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 63
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 64
+
+Splay tree: every access splays to the root; amortized O(log n).
