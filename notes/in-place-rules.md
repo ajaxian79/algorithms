@@ -1287,3 +1287,7 @@
 ## entry 306
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 307
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
