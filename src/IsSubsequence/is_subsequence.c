@@ -159,3 +159,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 139: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 140: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 141: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 142: Vectorizes cleanly under -O2.
