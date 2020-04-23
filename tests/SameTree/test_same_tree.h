@@ -203,3 +203,4 @@ MunitTest same_tree_tests[] = {
 // edge note 167: Space complexity: O(n) for the result buffer.
 // edge note 168: Time complexity: O(1).
 // edge note 169: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 170: Linear in n; the constant factor is small.
