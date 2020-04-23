@@ -1183,3 +1183,7 @@
 ## entry 279
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 280
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
