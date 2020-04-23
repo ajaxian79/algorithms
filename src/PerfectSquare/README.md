@@ -1738,3 +1738,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 420
 
 Stable when the input is already sorted.
+
+## entry 421
+
+Edge case: zero-length string → returns the empty result.
