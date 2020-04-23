@@ -1015,3 +1015,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 254
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 255
+
+Greedy by end-time picks the most non-overlapping intervals.
