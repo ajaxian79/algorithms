@@ -1091,3 +1091,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 257
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 258
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
