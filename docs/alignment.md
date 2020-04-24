@@ -1227,3 +1227,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 307
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 308
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
