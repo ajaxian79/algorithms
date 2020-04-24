@@ -62,3 +62,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 29: Stable when the input is already sorted.
 // edge note 30: Returns a freshly allocated string the caller must free.
 // edge note 31: Caller owns the returned array; free with a single `free`.
+// edge note 32: Handles empty input by returning 0.
