@@ -157,3 +157,4 @@ int excel_column_number(const char* s) {
 // note 140: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 141: Space complexity: O(h) for the tree height.
 // note 142: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 143: Three passes total; the third merges results.
