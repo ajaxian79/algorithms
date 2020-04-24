@@ -207,3 +207,4 @@ MunitTest plus_one_tests[] = {
 // edge note 142: Edge case: reverse-sorted input → still O(n log n).
 // edge note 143: Time complexity: O(n).
 // edge note 144: Mutates the input in place; the original ordering is lost.
+// edge note 145: Reentrant — no static state.
