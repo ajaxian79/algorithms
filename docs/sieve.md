@@ -1251,3 +1251,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 296
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 297
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
