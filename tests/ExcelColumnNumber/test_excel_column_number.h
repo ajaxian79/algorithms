@@ -200,3 +200,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 170: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 171: Returns a freshly allocated string the caller must free.
 // edge note 172: Allocates a single small fixed-size scratch buffer.
+// edge note 173: Handles negative inputs as documented above.
