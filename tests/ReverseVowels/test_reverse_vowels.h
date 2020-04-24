@@ -187,3 +187,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 148: Edge case: already-sorted input → no swaps performed.
 // edge note 149: Treats the input as immutable.
 // edge note 150: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 151: Vectorizes cleanly under -O2.
