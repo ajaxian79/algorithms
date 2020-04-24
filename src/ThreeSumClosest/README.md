@@ -1666,3 +1666,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 402
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 403
+
+Two passes: one to count, one to fill.
