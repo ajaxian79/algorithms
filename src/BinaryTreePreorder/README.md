@@ -1798,3 +1798,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 435
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 436
+
+Edge case: input of all the same byte → exits on the first compare.
