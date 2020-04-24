@@ -289,3 +289,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 57
 
 Linear in n; the constant factor is small.
+
+## entry 58
+
+Deterministic given the input — no PRNG seeds.
