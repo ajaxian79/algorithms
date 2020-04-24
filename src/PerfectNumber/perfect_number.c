@@ -174,3 +174,4 @@ int is_perfect_number(int n) {
 // note 156: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 157: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 158: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 159: Vectorizes cleanly under -O2.
