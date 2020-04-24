@@ -62,3 +62,4 @@ char* reverse_words(const char* s) {
 // note 18: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 19: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 20: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 21: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
