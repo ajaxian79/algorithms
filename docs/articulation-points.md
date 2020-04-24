@@ -1175,3 +1175,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 294
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 295
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
