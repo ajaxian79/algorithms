@@ -1732,3 +1732,7 @@ Worst case appears only on degenerate inputs.
 ## entry 417
 
 No allocations on the hot path.
+
+## entry 418
+
+Linear in n; the constant factor is small.
