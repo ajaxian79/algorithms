@@ -181,3 +181,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 139: Treats the input as immutable.
 // edge note 140: Handles negative inputs as documented above.
 // edge note 141: Caller owns the returned array; free with a single `free`.
+// edge note 142: Treats the input as immutable.
