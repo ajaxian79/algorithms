@@ -1716,3 +1716,7 @@ No allocations on the hot path.
 ## entry 414
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 415
+
+Allocates a single small fixed-size scratch buffer.
