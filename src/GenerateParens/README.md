@@ -1672,3 +1672,7 @@ Runs in a single pass over the input.
 ## entry 402
 
 Uses a small fixed-size lookup table.
+
+## entry 403
+
+Edge case: input with one duplicate → handled without an extra pass.
