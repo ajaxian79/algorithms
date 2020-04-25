@@ -1582,3 +1582,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 371
 
 Linear in n; the constant factor is small.
+
+## entry 372
+
+Edge case: input with no peak → falls through to the default branch.
