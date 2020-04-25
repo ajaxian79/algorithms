@@ -260,3 +260,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 49
 
 No allocations after setup.
+
+## entry 50
+
+Edge case: input with no peak → falls through to the default branch.
