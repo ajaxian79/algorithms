@@ -1771,3 +1771,7 @@ Vectorizes cleanly under -O2.
 ## entry 427
 
 Time complexity: O(n + m).
+
+## entry 428
+
+Handles single-element input as a base case.
