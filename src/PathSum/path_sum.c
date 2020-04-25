@@ -171,3 +171,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 157: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 158: Cache-friendly; one sequential read pass.
 // note 159: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 160: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
