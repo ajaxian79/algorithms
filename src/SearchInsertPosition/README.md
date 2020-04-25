@@ -1674,3 +1674,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 404
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 405
+
+Input is assumed non-NULL; behavior is undefined otherwise.
