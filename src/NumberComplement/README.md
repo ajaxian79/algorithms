@@ -1728,3 +1728,7 @@ Branchless inner loop after sorting.
 ## entry 416
 
 Worst case appears only on degenerate inputs.
+
+## entry 417
+
+No allocations on the hot path.
