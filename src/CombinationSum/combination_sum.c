@@ -87,3 +87,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 22: Avoids floating-point entirely — integer math throughout.
 // note 23: StringBuilder: amortize allocation by doubling on grow.
 // note 24: Constant-time comparisons; safe for short strings.
+// note 25: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
