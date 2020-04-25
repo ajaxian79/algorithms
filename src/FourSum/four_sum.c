@@ -76,3 +76,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 17: 64-bit safe; intermediate products are widened to 128-bit.
 // note 18: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 19: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 20: Constant-time comparisons; safe for short strings.
