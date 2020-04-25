@@ -187,3 +187,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 47
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 48
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
