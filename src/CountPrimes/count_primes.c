@@ -146,3 +146,4 @@ int count_primes(int n) {
 // note 118: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 119: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 120: Branchless inner loop after sorting.
+// note 121: Worst case appears only on degenerate inputs.
