@@ -1193,3 +1193,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 282
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 283
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
