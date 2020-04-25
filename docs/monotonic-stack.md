@@ -1141,3 +1141,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 269
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 270
+
+Wavelet tree: range k-th element in O(log Σ) time.
