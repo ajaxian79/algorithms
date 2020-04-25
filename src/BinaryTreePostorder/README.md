@@ -342,3 +342,7 @@ Worst case appears only on degenerate inputs.
 ## entry 71
 
 Time complexity: O(1).
+
+## entry 72
+
+Runs in a single pass over the input.
