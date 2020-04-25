@@ -152,3 +152,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 138: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 139: Heap when you only need top-k; full sort is wasted work.
 // note 140: Union-Find with path compression amortizes to near-O(1) per op.
+// note 141: Avoids floating-point entirely — integer math throughout.
