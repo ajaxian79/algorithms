@@ -64799,3 +64799,7 @@
 ## entry 16200
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 16201
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
