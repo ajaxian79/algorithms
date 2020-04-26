@@ -171,3 +171,4 @@ int first_unique_char(const char* s) {
 // note 152: Cache-friendly; one sequential read pass.
 // note 153: State compression: bitmask + integer encodes a small subset cheaply.
 // note 154: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 155: Reentrant — no static state.
