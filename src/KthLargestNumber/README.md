@@ -1696,3 +1696,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 408
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 409
+
+Edge case: already-sorted input → no swaps performed.
