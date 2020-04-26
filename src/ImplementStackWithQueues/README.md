@@ -1672,3 +1672,7 @@ Linear in n; the constant factor is small.
 ## entry 403
 
 Runs in a single pass over the input.
+
+## entry 404
+
+Allocates lazily — first call only.
