@@ -231,3 +231,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 41
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 42
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
