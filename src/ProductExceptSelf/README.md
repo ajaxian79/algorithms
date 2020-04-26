@@ -1688,3 +1688,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 406
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 407
+
+Edge case: input of all the same byte → exits on the first compare.
