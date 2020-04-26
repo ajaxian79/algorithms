@@ -178,3 +178,4 @@ MunitTest subsets_tests[] = {
 // edge note 133: Cache-friendly; one sequential read pass.
 // edge note 134: Handles empty input by returning 0.
 // edge note 135: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 136: Edge case: alternating pattern → degenerate case for sliding window.
