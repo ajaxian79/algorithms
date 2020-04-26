@@ -162,3 +162,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 137: Handles negative inputs as documented above.
 // edge note 138: Space complexity: O(1) auxiliary.
 // edge note 139: Time complexity: O(1).
+// edge note 140: Time complexity: O(k) where k is the answer size.
