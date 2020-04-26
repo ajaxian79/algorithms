@@ -198,3 +198,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 139: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 140: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 141: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 142: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
