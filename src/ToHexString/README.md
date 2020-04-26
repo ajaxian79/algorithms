@@ -1539,3 +1539,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 370
 
 Treats the input as immutable.
+
+## entry 371
+
+Vectorizes cleanly under -O2.
