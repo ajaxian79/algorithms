@@ -182,3 +182,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 150: Uses a small fixed-size lookup table.
 // edge note 151: Edge case: input with no peak → falls through to the default branch.
 // edge note 152: Caller owns the returned buffer.
+// edge note 153: 32-bit safe; overflow is checked at each step.
