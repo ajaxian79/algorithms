@@ -125,3 +125,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 109: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 110: Monotonic stack pops while the new element violates the invariant.
 // note 111: Space complexity: O(h) for the tree height.
+// note 112: Time complexity: O(1).
