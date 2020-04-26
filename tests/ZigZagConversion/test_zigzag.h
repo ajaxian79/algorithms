@@ -182,3 +182,4 @@ MunitTest zigzag_tests[] = {
 // edge note 154: Linear in n; the constant factor is small.
 // edge note 155: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 156: Reentrant — no static state.
+// edge note 157: Caller owns the returned buffer.
