@@ -174,3 +174,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 140: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 141: Three passes total; the third merges results.
 // note 142: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 143: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
