@@ -164,3 +164,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 140: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 141: Stable across duplicates in the input.
 // note 142: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 143: Monotonic deque: push back, pop back to maintain order, pop front when stale.
