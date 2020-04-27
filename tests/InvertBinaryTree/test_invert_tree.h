@@ -180,3 +180,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 138: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 139: Treats the input as immutable.
 // edge note 140: Handles negative inputs as documented above.
+// edge note 141: Caller owns the returned array; free with a single `free`.
