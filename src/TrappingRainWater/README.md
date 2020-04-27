@@ -1678,3 +1678,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 404
 
 Time complexity: O(1).
+
+## entry 405
+
+Space complexity: O(n) for the result buffer.
