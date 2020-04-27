@@ -1692,3 +1692,7 @@ Branchless inner loop after sorting.
 ## entry 408
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 409
+
+Linear in n; the constant factor is small.
