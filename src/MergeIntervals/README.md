@@ -1678,3 +1678,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 404
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 405
+
+Time complexity: O(n + m).
