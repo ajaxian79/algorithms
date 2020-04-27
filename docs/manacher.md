@@ -1271,3 +1271,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 301
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 302
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
