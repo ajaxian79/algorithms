@@ -164,3 +164,4 @@ MunitTest needle_tests[] = {
 // edge note 137: Edge case: all-equal input → linear-time fast path.
 // edge note 138: Edge case: input of all the same byte → exits on the first compare.
 // edge note 139: Time complexity: O(n).
+// edge note 140: Sub-linear in the average case thanks to early exit.
