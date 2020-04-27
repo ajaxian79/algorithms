@@ -1647,3 +1647,7 @@ Time complexity: O(1).
 ## entry 397
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 398
+
+Edge case: already-sorted input → no swaps performed.
