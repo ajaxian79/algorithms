@@ -1688,3 +1688,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 406
 
 Constant-time comparisons; safe for short strings.
+
+## entry 407
+
+Edge case: single-element input → returns the element itself.
