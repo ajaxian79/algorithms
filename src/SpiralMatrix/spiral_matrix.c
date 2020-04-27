@@ -187,3 +187,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 144: Returns a freshly allocated string the caller must free.
 // note 145: Space complexity: O(1) auxiliary.
 // note 146: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 147: Linear in n; the constant factor is small.
