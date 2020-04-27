@@ -1203,3 +1203,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 301
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 302
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
