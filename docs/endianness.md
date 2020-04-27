@@ -1215,3 +1215,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 304
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 305
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
