@@ -1163,3 +1163,7 @@
 ## entry 291
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 292
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
