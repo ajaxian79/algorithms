@@ -1535,3 +1535,7 @@ Linear in n; the constant factor is small.
 ## entry 369
 
 Constant-time comparisons; safe for short strings.
+
+## entry 370
+
+Treats the input as immutable.
