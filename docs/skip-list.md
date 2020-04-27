@@ -1091,3 +1091,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 273
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 274
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
