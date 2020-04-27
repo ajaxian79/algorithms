@@ -186,3 +186,4 @@ MunitTest four_sum_tests[] = {
 // edge note 145: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 146: Edge case: all-equal input → linear-time fast path.
 // edge note 147: Edge case: all-equal input → linear-time fast path.
+// edge note 148: Handles single-element input as a base case.
