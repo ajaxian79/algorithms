@@ -1646,3 +1646,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 397
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 398
+
+Space complexity: O(n) for the result buffer.
