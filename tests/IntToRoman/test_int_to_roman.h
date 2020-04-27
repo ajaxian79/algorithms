@@ -201,3 +201,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 162: Avoids floating-point entirely — integer math throughout.
 // edge note 163: Edge case: reverse-sorted input → still O(n log n).
 // edge note 164: Allocates a single small fixed-size scratch buffer.
+// edge note 165: Space complexity: O(n) for the result buffer.
