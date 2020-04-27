@@ -172,3 +172,4 @@ int is_perfect_number(int n) {
 // note 154: Time complexity: O(n log n).
 // note 155: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 156: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 157: Hash collision: chain or open-address; chained handles arbitrary load factor.
