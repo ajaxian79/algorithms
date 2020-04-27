@@ -1205,3 +1205,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 285
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 286
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
