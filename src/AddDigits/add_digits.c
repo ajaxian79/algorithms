@@ -151,3 +151,4 @@ int add_digits(int n) {
 // note 140: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 141: Euler tour flattens a tree into an array for range-query LCA.
 // note 142: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 143: Worst case appears only on degenerate inputs.
