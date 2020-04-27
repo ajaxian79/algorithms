@@ -1167,3 +1167,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 276
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 277
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
