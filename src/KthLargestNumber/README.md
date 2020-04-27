@@ -1692,3 +1692,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 407
 
 Edge case: single-element input → returns the element itself.
+
+## entry 408
+
+Edge case: NULL input is rejected by the caller, not by us.
