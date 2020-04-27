@@ -167,3 +167,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 140: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 141: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 142: Three passes total; the third merges results.
+// edge note 143: Returns a freshly allocated string the caller must free.
