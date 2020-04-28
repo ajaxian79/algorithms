@@ -1187,3 +1187,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 297
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 298
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
