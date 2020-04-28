@@ -1641,3 +1641,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 395
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 396
+
+Stable when the input is already sorted.
