@@ -1664,3 +1664,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 401
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 402
+
+Three passes total; the third merges results.
