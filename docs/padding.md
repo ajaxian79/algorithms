@@ -1115,3 +1115,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 279
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 280
+
+Interval DP: solve all `[l, r]` ranges from short to long.
