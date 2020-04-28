@@ -161,3 +161,4 @@ unsigned int find_complement(unsigned int n) {
 // note 145: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 146: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 147: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 148: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
