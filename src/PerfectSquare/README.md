@@ -1734,3 +1734,7 @@ Edge case: empty input → returns 0.
 ## entry 419
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 420
+
+Stable when the input is already sorted.
