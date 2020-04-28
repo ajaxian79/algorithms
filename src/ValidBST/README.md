@@ -1673,3 +1673,7 @@ No allocations on the hot path.
 ## entry 403
 
 Caller owns the returned buffer.
+
+## entry 404
+
+Three passes total; the third merges results.
