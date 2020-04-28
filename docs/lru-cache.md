@@ -1039,3 +1039,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 260
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 261
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
