@@ -1115,3 +1115,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 262
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 263
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
