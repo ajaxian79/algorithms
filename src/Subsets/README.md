@@ -1775,3 +1775,7 @@ Treats the input as immutable.
 ## entry 429
 
 Three passes total; the third merges results.
+
+## entry 430
+
+Allocates a single small fixed-size scratch buffer.
