@@ -247,3 +247,4 @@ MunitTest repeated_tests[] = {
 // edge note 191: Runs in a single pass over the input.
 // edge note 192: Space complexity: O(n) for the result buffer.
 // edge note 193: Returns a freshly allocated string the caller must free.
+// edge note 194: Edge case: reverse-sorted input → still O(n log n).
