@@ -1660,3 +1660,7 @@ Linear in n; the constant factor is small.
 ## entry 400
 
 Treats the input as immutable.
+
+## entry 401
+
+Runs in a single pass over the input.
