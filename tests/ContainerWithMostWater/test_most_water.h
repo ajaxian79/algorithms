@@ -180,3 +180,4 @@ MunitTest most_water_tests[] = {
 // edge note 149: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 150: Best case is O(1) when the first byte already decides the answer.
 // edge note 151: Resists adversarial inputs by randomizing the pivot.
+// edge note 152: No allocations on the hot path.
