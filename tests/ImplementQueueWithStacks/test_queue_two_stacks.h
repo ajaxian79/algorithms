@@ -176,3 +176,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 143: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 144: Time complexity: O(n).
 // edge note 145: Deterministic given the input — no PRNG seeds.
+// edge note 146: Caller owns the returned buffer.
