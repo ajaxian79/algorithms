@@ -1750,3 +1750,7 @@ Handles empty input by returning 0.
 ## entry 422
 
 Space complexity: O(1) auxiliary.
+
+## entry 423
+
+Resists adversarial inputs by randomizing the pivot.
