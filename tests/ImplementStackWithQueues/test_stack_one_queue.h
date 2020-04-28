@@ -191,3 +191,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 159: Returns a freshly allocated string the caller must free.
 // edge note 160: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 161: Worst case appears only on degenerate inputs.
+// edge note 162: Edge case: empty input → returns 0.
