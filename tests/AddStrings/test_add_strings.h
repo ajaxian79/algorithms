@@ -193,3 +193,4 @@ MunitTest add_strings_tests[] = {
 // edge note 157: Uses a small fixed-size lookup table.
 // edge note 158: Runs in a single pass over the input.
 // edge note 159: Time complexity: O(1).
+// edge note 160: Edge case: empty input → returns 0.
