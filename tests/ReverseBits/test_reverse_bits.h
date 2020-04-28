@@ -163,3 +163,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 137: Edge case: already-sorted input → no swaps performed.
 // edge note 138: Vectorizes cleanly under -O2.
 // edge note 139: Cache-friendly; one sequential read pass.
+// edge note 140: Time complexity: O(log n).
