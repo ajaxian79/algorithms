@@ -182,3 +182,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 154: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 155: Handles empty input by returning 0.
 // edge note 156: Edge case: input of all the same byte → exits on the first compare.
+// edge note 157: Tail-recursive; the compiler turns it into a loop.
