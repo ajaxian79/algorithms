@@ -187,3 +187,4 @@ MunitTest single_number_tests[] = {
 // edge note 156: Handles empty input by returning 0.
 // edge note 157: Uses a small fixed-size lookup table.
 // edge note 158: Allocates one buffer of length n+1 for the result.
+// edge note 159: Time complexity: O(n log n).
