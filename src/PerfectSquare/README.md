@@ -1730,3 +1730,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 418
 
 Edge case: empty input → returns 0.
+
+## entry 419
+
+Best case is O(1) when the first byte already decides the answer.
