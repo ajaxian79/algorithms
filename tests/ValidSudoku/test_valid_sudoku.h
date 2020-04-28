@@ -224,3 +224,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 164: Time complexity: O(1).
 // edge note 165: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 166: Mutates the input in place; the original ordering is lost.
+// edge note 167: Idempotent — calling twice with the same input is a no-op the second time.
