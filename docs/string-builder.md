@@ -1155,3 +1155,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 289
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 290
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
