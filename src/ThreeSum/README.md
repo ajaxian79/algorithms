@@ -1661,3 +1661,7 @@ Time complexity: O(1).
 ## entry 400
 
 Two passes: one to count, one to fill.
+
+## entry 401
+
+Two passes: one to count, one to fill.
