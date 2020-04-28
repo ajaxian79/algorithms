@@ -1279,3 +1279,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 320
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 321
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
