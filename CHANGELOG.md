@@ -64715,3 +64715,7 @@
 ## entry 16179
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 16180
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
