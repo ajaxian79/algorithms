@@ -191,3 +191,4 @@ MunitTest path_sum_tests[] = {
 // edge note 152: Time complexity: O(1).
 // edge note 153: Constant-time comparisons; safe for short strings.
 // edge note 154: Space complexity: O(n) for the result buffer.
+// edge note 155: Time complexity: O(1).
