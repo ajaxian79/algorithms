@@ -1674,3 +1674,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 403
 
 Returns a freshly allocated string the caller must free.
+
+## entry 404
+
+Time complexity: O(1).
