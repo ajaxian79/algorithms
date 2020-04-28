@@ -1779,3 +1779,7 @@ Three passes total; the third merges results.
 ## entry 430
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 431
+
+Time complexity: O(n log n).
