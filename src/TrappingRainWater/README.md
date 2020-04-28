@@ -1670,3 +1670,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 402
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 403
+
+Returns a freshly allocated string the caller must free.
