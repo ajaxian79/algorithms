@@ -150,3 +150,4 @@ int add_digits(int n) {
 // note 139: Splay tree: every access splays to the root; amortized O(log n).
 // note 140: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 141: Euler tour flattens a tree into an array for range-query LCA.
+// note 142: Iterative DFS with an explicit stack avoids recursion-limit issues.
