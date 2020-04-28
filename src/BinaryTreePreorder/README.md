@@ -1794,3 +1794,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 434
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 435
+
+Edge case: power-of-two-length input → no padding required.
