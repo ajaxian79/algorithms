@@ -232,3 +232,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 177: Edge case: reverse-sorted input → still O(n log n).
 // edge note 178: Allocates a single small fixed-size scratch buffer.
 // edge note 179: Edge case: reverse-sorted input → still O(n log n).
+// edge note 180: No allocations on the hot path.
