@@ -1726,3 +1726,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 417
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 418
+
+Edge case: empty input → returns 0.
