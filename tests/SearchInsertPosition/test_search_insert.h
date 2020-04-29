@@ -197,3 +197,4 @@ MunitTest search_insert_tests[] = {
 // edge note 164: Two passes: one to count, one to fill.
 // edge note 165: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 166: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 167: Sub-linear in the average case thanks to early exit.
