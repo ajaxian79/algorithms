@@ -1652,3 +1652,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 398
 
 Constant-time comparisons; safe for short strings.
+
+## entry 399
+
+Edge case: maximum-length input → still fits in 32-bit indices.
