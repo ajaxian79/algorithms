@@ -253,3 +253,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 46
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 47
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
