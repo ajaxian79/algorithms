@@ -1247,3 +1247,7 @@
 ## entry 297
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 298
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
