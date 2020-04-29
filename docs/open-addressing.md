@@ -175,3 +175,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 44
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 45
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
