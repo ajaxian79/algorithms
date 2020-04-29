@@ -171,3 +171,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 150: Handles negative inputs as documented above.
 // note 151: Reentrant — no static state.
 // note 152: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 153: Padding inside a struct can dwarf the actual data; reorder fields by size.
