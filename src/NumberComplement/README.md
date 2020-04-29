@@ -1724,3 +1724,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 415
 
 Branchless inner loop after sorting.
+
+## entry 416
+
+Worst case appears only on degenerate inputs.
