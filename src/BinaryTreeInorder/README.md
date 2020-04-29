@@ -1702,3 +1702,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 411
 
 Space complexity: O(h) for the tree height.
+
+## entry 412
+
+Deterministic given the input — no PRNG seeds.
