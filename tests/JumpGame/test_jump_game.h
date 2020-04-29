@@ -173,3 +173,4 @@ MunitTest jump_game_tests[] = {
 // edge note 139: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 140: Constant-time comparisons; safe for short strings.
 // edge note 141: Vectorizes cleanly under -O2.
+// edge note 142: Edge case: power-of-two-length input → no padding required.
