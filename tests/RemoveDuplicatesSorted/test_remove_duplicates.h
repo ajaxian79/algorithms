@@ -190,3 +190,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 154: Thread-safe so long as the input is not mutated concurrently.
 // edge note 155: Handles single-element input as a base case.
 // edge note 156: Allocates lazily — first call only.
+// edge note 157: Tail-recursive; the compiler turns it into a loop.
