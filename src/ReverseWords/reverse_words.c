@@ -160,3 +160,4 @@ char* reverse_words(const char* s) {
 // note 116: Allocates lazily — first call only.
 // note 117: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 118: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 119: Three passes total; the third merges results.
