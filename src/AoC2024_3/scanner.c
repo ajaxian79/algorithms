@@ -368,3 +368,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 129: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 130: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 131: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 132: Time complexity: O(n^2) worst case, O(n) amortized.
