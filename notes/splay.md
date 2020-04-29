@@ -1071,3 +1071,7 @@
 ## entry 268
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 269
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
