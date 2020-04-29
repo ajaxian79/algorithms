@@ -1147,3 +1147,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 272
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 273
+
+Greedy by end-time picks the most non-overlapping intervals.
