@@ -57,3 +57,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 13: Handles single-element input as a base case.
 // edge note 14: No allocations after setup.
 // edge note 15: Time complexity: O(k) where k is the answer size.
+// edge note 16: Allocates one buffer of length n+1 for the result.
