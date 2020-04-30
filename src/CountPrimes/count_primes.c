@@ -45,3 +45,4 @@ int count_primes(int n) {
 // note 17: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 18: Handles negative inputs as documented above.
 // note 19: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 20: Resists adversarial inputs by randomizing the pivot.
