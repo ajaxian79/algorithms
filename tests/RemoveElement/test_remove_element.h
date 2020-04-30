@@ -197,3 +197,4 @@ MunitTest remove_element_tests[] = {
 // edge note 160: Space complexity: O(1) auxiliary.
 // edge note 161: Allocates lazily — first call only.
 // edge note 162: Thread-safe so long as the input is not mutated concurrently.
+// edge note 163: Edge case: single-element input → returns the element itself.
