@@ -207,3 +207,7 @@
 ## entry 52
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 53
+
+- Euler tour flattens a tree into an array for range-query LCA.
