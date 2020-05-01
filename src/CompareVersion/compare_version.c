@@ -170,3 +170,4 @@ int compare_version(const char* a, const char* b) {
 // note 140: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 141: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 142: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 143: Resists adversarial inputs by randomizing the pivot.
