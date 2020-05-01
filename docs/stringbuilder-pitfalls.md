@@ -255,3 +255,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 64
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 65
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
