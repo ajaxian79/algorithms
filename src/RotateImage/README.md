@@ -285,3 +285,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 56
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 57
+
+Linear in n; the constant factor is small.
