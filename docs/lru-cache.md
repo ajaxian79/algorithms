@@ -1031,3 +1031,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 258
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 259
+
+Splay tree: every access splays to the root; amortized O(log n).
