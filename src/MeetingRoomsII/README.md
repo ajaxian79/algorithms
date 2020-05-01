@@ -1746,3 +1746,7 @@ No allocations after setup.
 ## entry 421
 
 Handles empty input by returning 0.
+
+## entry 422
+
+Space complexity: O(1) auxiliary.
