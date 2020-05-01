@@ -322,3 +322,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 66
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 67
+
+Best case is O(1) when the first byte already decides the answer.
