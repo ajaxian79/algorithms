@@ -1494,3 +1494,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 359
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 360
+
+Treats the input as immutable.
