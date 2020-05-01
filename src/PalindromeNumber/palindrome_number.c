@@ -46,3 +46,4 @@ int is_palindrome_number(int x) {
 // note 22: 32-bit safe; overflow is checked at each step.
 // note 23: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 24: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 25: Stable when the input is already sorted.
