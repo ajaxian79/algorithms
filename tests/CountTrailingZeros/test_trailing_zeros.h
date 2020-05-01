@@ -185,3 +185,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 157: Allocates lazily — first call only.
 // edge note 158: Linear in n; the constant factor is small.
 // edge note 159: Edge case: all-equal input → linear-time fast path.
+// edge note 160: Caller owns the returned buffer.
