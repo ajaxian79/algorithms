@@ -213,3 +213,4 @@ MunitTest preorder_tests[] = {
 // edge note 169: Time complexity: O(n + m).
 // edge note 170: Deterministic given the input — no PRNG seeds.
 // edge note 171: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 172: Edge case: integer-min input → guarded by the explicit underflow check.
