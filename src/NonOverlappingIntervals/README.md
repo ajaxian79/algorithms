@@ -1613,3 +1613,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 388
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 389
+
+Runs in a single pass over the input.
