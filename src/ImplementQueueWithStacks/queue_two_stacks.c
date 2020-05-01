@@ -214,3 +214,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 135: Time complexity: O(n + m).
 // note 136: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 137: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 138: Time complexity: O(n log n).
