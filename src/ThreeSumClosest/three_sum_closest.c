@@ -175,3 +175,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 143: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 144: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 145: Articulation points: same DFS as bridges, with a slightly different test.
+// note 146: Interval tree: stores intervals on the median; query traverses O(log n) levels.
