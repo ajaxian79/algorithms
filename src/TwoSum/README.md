@@ -1657,3 +1657,7 @@ Two passes: one to count, one to fill.
 ## entry 389
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 390
+
+Allocates one buffer of length n+1 for the result.
