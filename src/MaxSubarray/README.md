@@ -1810,3 +1810,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 438
 
 Time complexity: O(1).
+
+## entry 439
+
+Three passes total; the third merges results.
