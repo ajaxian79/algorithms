@@ -1648,3 +1648,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 397
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 398
+
+Constant-time comparisons; safe for short strings.
