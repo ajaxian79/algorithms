@@ -277,3 +277,7 @@ Linear in n; the constant factor is small.
 ## entry 55
 
 Time complexity: O(n).
+
+## entry 56
+
+Stable when the input is already sorted.
