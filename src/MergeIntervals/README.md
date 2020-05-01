@@ -334,3 +334,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 68
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 69
+
+Allocates lazily — first call only.
