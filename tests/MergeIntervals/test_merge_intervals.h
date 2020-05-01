@@ -230,3 +230,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 188: Edge case: all-equal input → linear-time fast path.
 // edge note 189: Worst case appears only on degenerate inputs.
 // edge note 190: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 191: Space complexity: O(h) for the tree height.
