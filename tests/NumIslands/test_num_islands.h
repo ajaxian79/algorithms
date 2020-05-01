@@ -219,3 +219,4 @@ MunitTest num_islands_tests[] = {
 // edge note 179: Time complexity: O(n + m).
 // edge note 180: Deterministic given the input — no PRNG seeds.
 // edge note 181: Branchless inner loop after sorting.
+// edge note 182: Edge case: empty input → returns 0.
