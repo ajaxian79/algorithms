@@ -46,6 +46,7 @@
 #include "HammingDistance/test_hamming_distance.h"
 #include "NumberOf1Bits/test_number_of_1_bits.h"
 #include "ReverseBits/test_reverse_bits.h"
+#include "MissingNumber/test_missing_number.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -339,6 +340,12 @@ MunitSuite suites[] = {
         },{
                 "/reverse_bits",
                 reverse_bits_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/missing_number",
+                missing_number_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
