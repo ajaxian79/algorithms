@@ -330,3 +330,7 @@ Handles empty input by returning 0.
 ## entry 68
 
 Time complexity: O(n).
+
+## entry 69
+
+Avoids floating-point entirely — integer math throughout.
