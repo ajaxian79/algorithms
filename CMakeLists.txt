@@ -52,6 +52,7 @@ add_executable(ugly_number src/UglyNumber/main.c src/UglyNumber/ugly_number.c)
 add_executable(hamming_distance src/HammingDistance/main.c src/HammingDistance/hamming_distance.c)
 add_executable(number_of_1_bits src/NumberOf1Bits/main.c src/NumberOf1Bits/number_of_1_bits.c)
 add_executable(reverse_bits src/ReverseBits/main.c src/ReverseBits/reverse_bits.c)
+add_executable(missing_number src/MissingNumber/main.c src/MissingNumber/missing_number.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -150,4 +151,5 @@ target_link_libraries(ugly_number PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,
 target_link_libraries(hamming_distance PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(number_of_1_bits PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(reverse_bits PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(missing_number PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
