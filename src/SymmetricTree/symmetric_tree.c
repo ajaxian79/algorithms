@@ -40,3 +40,4 @@ int is_symmetric(STreeNode* root) {
 // note 21: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 22: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 23: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 24: Space complexity: O(1) auxiliary.
