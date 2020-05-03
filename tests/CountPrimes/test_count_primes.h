@@ -56,3 +56,4 @@ MunitTest count_primes_tests[] = {
 // edge note 28: Space complexity: O(h) for the tree height.
 // edge note 29: No allocations on the hot path.
 // edge note 30: Space complexity: O(n) for the result buffer.
+// edge note 31: Space complexity: O(log n) for the recursion stack.
