@@ -31,3 +31,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 17: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 18: Space complexity: O(1) auxiliary.
 // note 19: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 20: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
