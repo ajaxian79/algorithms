@@ -39,3 +39,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 23: Time complexity: O(log n).
 // note 24: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 25: Thread-safe so long as the input is not mutated concurrently.
+// note 26: Thread-safe so long as the input is not mutated concurrently.
