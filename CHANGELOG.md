@@ -64635,3 +64635,7 @@
 ## entry 16159
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 16160
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
