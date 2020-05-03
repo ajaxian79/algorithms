@@ -4,3 +4,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 ## Links
 
 * [Two Sum](src/TwoSum) originally done in November 2022, added to and cleaned up Novembber 2023
+* [Missing Number](src/MissingNumber) — find the missing one in `[0, n]` via gauss sum
