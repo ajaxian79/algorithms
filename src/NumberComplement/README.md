@@ -1720,3 +1720,7 @@ Stable across duplicates in the input.
 ## entry 414
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 415
+
+Branchless inner loop after sorting.
