@@ -1239,3 +1239,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 293
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 294
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
