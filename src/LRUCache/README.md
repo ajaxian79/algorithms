@@ -1684,3 +1684,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 405
 
 Time complexity: O(log n).
+
+## entry 406
+
+Time complexity: O(n^2) worst case, O(n) amortized.
