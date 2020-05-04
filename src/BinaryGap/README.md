@@ -1670,3 +1670,7 @@ Time complexity: O(n).
 ## entry 402
 
 Caller owns the returned buffer.
+
+## entry 403
+
+Worst case appears only on degenerate inputs.
