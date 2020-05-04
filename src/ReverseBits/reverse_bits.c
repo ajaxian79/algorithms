@@ -34,3 +34,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 20: State compression: bitmask + integer encodes a small subset cheaply.
 // note 21: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 22: Walk both pointers from each end inward; advance the smaller side.
+// note 23: Tail-recursive; the compiler turns it into a loop.
