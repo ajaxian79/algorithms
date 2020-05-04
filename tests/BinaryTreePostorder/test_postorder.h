@@ -196,3 +196,4 @@ MunitTest postorder_tests[] = {
 // edge note 152: Treats the input as immutable.
 // edge note 153: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 154: Handles negative inputs as documented above.
+// edge note 155: Edge case: power-of-two-length input → no padding required.
