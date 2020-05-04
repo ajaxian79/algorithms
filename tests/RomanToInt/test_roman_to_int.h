@@ -188,3 +188,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 154: Mutates the input in place; the original ordering is lost.
 // edge note 155: Three passes total; the third merges results.
 // edge note 156: Uses a 256-entry lookup for the inner step.
+// edge note 157: 64-bit safe; intermediate products are widened to 128-bit.
