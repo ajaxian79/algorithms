@@ -1201,3 +1201,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 284
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 285
+
+Greedy by end-time picks the most non-overlapping intervals.
