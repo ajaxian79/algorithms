@@ -1191,3 +1191,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 298
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 299
+
+StringBuilder: amortize allocation by doubling on grow.
