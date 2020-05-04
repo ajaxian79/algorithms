@@ -1701,3 +1701,7 @@ Vectorizes cleanly under -O2.
 ## entry 410
 
 Space complexity: O(n) for the result buffer.
+
+## entry 411
+
+Handles negative inputs as documented above.
