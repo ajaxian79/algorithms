@@ -178,3 +178,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 134: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 135: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 136: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 137: Handles single-element input as a base case.
