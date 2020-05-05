@@ -171,3 +171,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 43
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 44
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
