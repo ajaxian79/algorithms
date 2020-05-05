@@ -1670,3 +1670,7 @@ Time complexity: O(n + m).
 ## entry 403
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 404
+
+Mutates the input in place; the original ordering is lost.
