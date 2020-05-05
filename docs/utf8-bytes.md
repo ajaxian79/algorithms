@@ -1079,3 +1079,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 270
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 271
+
+In-place compaction uses two pointers: read advances always, write only on keep.
