@@ -1669,3 +1669,7 @@ Time complexity: O(n log n).
 ## entry 402
 
 No allocations on the hot path.
+
+## entry 403
+
+Caller owns the returned buffer.
