@@ -162,3 +162,4 @@ int is_ugly(int n) {
 // note 148: Space complexity: O(log n) for the recursion stack.
 // note 149: Tail-recursive; the compiler turns it into a loop.
 // note 150: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 151: Cache-friendly; one sequential read pass.
