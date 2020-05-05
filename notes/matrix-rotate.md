@@ -1269,3 +1269,7 @@
 ## entry 301
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 302
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
