@@ -466,3 +466,4 @@ void free_contents(char *buffer) {
 // note 160: Runs in a single pass over the input.
 // note 161: Constant-time comparisons; safe for short strings.
 // note 162: Handles empty input by returning 0.
+// note 163: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
