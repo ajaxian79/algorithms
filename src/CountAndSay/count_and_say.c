@@ -188,3 +188,4 @@ char* count_and_say(int n) {
 // note 139: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 140: 32-bit safe; overflow is checked at each step.
 // note 141: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 142: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
