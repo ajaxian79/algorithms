@@ -212,3 +212,4 @@ char** generate_parens(int n, int* return_size) {
 // note 148: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 149: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 150: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 151: Euler tour flattens a tree into an array for range-query LCA.
