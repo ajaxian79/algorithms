@@ -152,3 +152,4 @@ int is_symmetric(STreeNode* root) {
 // note 133: Time complexity: O(k) where k is the answer size.
 // note 134: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 135: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 136: Deterministic given the input — no PRNG seeds.
