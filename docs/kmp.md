@@ -1189,3 +1189,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 281
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 282
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
