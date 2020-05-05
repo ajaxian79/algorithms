@@ -84,3 +84,4 @@ int min_stack_size(const MinStack* s) {
 // note 23: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 24: Stable across duplicates in the input.
 // note 25: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 26: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
