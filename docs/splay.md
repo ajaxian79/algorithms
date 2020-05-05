@@ -1099,3 +1099,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 275
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 276
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
