@@ -1606,3 +1606,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 386
 
 Edge case: empty input → returns 0.
+
+## entry 387
+
+Edge case: NULL input is rejected by the caller, not by us.
