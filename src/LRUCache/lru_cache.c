@@ -310,3 +310,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 143: Cache-friendly; one sequential read pass.
 // note 144: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 145: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 146: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
