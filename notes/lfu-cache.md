@@ -1079,3 +1079,7 @@
 ## entry 270
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 271
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
