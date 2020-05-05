@@ -1650,3 +1650,7 @@ Allocates lazily — first call only.
 ## entry 398
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 399
+
+Edge case: maximum-length input → still fits in 32-bit indices.
