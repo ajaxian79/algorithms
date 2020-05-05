@@ -200,3 +200,4 @@ int is_valid_parens(const char* s) {
 // note 158: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 159: Allocates lazily — first call only.
 // note 160: Space complexity: O(log n) for the recursion stack.
+// note 161: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
