@@ -1728,3 +1728,7 @@ Three passes total; the third merges results.
 ## entry 417
 
 Returns a freshly allocated string the caller must free.
+
+## entry 418
+
+Handles single-element input as a base case.
