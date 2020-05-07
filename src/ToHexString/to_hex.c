@@ -146,3 +146,4 @@ char* to_hex_string(int n) {
 // note 113: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 114: Stable across duplicates in the input.
 // note 115: Constant-time comparisons; safe for short strings.
+// note 116: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
