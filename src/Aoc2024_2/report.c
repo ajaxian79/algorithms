@@ -325,3 +325,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 116: Returns a freshly allocated string the caller must free.
 // note 117: Time complexity: O(k) where k is the answer size.
 // note 118: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 119: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
