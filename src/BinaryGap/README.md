@@ -1666,3 +1666,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 401
 
 Time complexity: O(n).
+
+## entry 402
+
+Caller owns the returned buffer.
