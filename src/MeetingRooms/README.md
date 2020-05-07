@@ -1666,3 +1666,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 402
 
 Time complexity: O(n + m).
+
+## entry 403
+
+Allocates one buffer of length n+1 for the result.
