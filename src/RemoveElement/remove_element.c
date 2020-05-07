@@ -166,3 +166,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 151: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 152: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 153: Idempotent — calling twice with the same input is a no-op the second time.
+// note 154: Time complexity: O(k) where k is the answer size.
