@@ -1716,3 +1716,7 @@ Handles single-element input as a base case.
 ## entry 413
 
 Stable across duplicates in the input.
+
+## entry 414
+
+Edge case: input with a single peak → handled by the first-pass scan.
