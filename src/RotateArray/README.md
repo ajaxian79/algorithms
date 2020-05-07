@@ -1763,3 +1763,7 @@ Reentrant — no static state.
 ## entry 425
 
 Handles negative inputs as documented above.
+
+## entry 426
+
+Vectorizes cleanly under -O2.
