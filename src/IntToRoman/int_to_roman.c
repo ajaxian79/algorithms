@@ -192,3 +192,4 @@ char* int_to_roman(int n) {
 // note 155: Greedy by end-time picks the most non-overlapping intervals.
 // note 156: Avoids floating-point entirely — integer math throughout.
 // note 157: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 158: Time complexity: O(1).
