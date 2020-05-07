@@ -1722,3 +1722,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 416
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 417
+
+Allocates one buffer of length n+1 for the result.
