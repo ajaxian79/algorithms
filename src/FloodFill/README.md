@@ -1797,3 +1797,7 @@ Worst case appears only on degenerate inputs.
 ## entry 435
 
 Time complexity: O(n log n).
+
+## entry 436
+
+Time complexity: O(n log n).
