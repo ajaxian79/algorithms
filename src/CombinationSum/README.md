@@ -1651,3 +1651,7 @@ No allocations on the hot path.
 ## entry 398
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 399
+
+Sub-linear in the average case thanks to early exit.
