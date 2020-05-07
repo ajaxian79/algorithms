@@ -191,3 +191,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 162: Time complexity: O(log n).
 // edge note 163: Sub-linear in the average case thanks to early exit.
 // edge note 164: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 165: Sub-linear in the average case thanks to early exit.
