@@ -1609,3 +1609,7 @@ Handles single-element input as a base case.
 ## entry 387
 
 Returns a freshly allocated string the caller must free.
+
+## entry 388
+
+Allocates a single small fixed-size scratch buffer.
