@@ -1119,3 +1119,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 280
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 281
+
+Wavelet tree: range k-th element in O(log Σ) time.
