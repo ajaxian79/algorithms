@@ -1801,3 +1801,7 @@ Time complexity: O(n log n).
 ## entry 436
 
 Time complexity: O(n log n).
+
+## entry 437
+
+Allocates one buffer of length n+1 for the result.
