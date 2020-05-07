@@ -297,3 +297,7 @@ Vectorizes cleanly under -O2.
 ## entry 60
 
 Reentrant — no static state.
+
+## entry 61
+
+Thread-safe so long as the input is not mutated concurrently.
