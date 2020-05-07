@@ -1666,3 +1666,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 402
 
 Linear in n; the constant factor is small.
+
+## entry 403
+
+Edge case: all-equal input → linear-time fast path.
