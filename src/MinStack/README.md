@@ -346,3 +346,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 72
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 73
+
+Vectorizes cleanly under -O2.
