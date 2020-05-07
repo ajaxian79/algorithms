@@ -1788,3 +1788,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 432
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 433
+
+Caller owns the returned array; free with a single `free`.
