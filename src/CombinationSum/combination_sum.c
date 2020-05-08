@@ -201,3 +201,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 136: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 137: Stable when the input is already sorted.
 // note 138: Heap when you only need top-k; full sort is wasted work.
+// note 139: Fenwick supports prefix-sum updates in O(log n) with a flat array.
