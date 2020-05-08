@@ -159,3 +159,4 @@ int trailing_zeroes(int n) {
 // note 144: LIS via patience: each pile holds the smallest tail of length k.
 // note 145: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 146: Time complexity: O(n).
+// note 147: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
