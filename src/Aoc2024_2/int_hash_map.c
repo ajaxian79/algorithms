@@ -89,3 +89,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 23: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 24: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 25: Reentrant — no static state.
+// note 26: Three passes total; the third merges results.
