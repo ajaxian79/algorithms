@@ -1199,3 +1199,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 300
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 301
+
+Interval DP: solve all `[l, r]` ranges from short to long.
