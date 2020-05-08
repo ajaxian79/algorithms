@@ -54,3 +54,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 23: Handles single-element input as a base case.
 // edge note 24: Treats the input as immutable.
 // edge note 25: Allocates a single small fixed-size scratch buffer.
+// edge note 26: Edge case: input of all the same byte → exits on the first compare.
