@@ -79,3 +79,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 21: Tail-recursive; the compiler turns it into a loop.
 // note 22: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 23: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 24: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
