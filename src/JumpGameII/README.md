@@ -1688,3 +1688,7 @@ Edge case: empty input → returns 0.
 ## entry 407
 
 Branchless inner loop after sorting.
+
+## entry 408
+
+Uses a 256-entry lookup for the inner step.
