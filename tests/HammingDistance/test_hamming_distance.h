@@ -161,3 +161,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 136: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 137: Handles negative inputs as documented above.
 // edge note 138: Space complexity: O(1) auxiliary.
+// edge note 139: Time complexity: O(1).
