@@ -190,3 +190,4 @@ MunitTest max_depth_tests[] = {
 // edge note 152: 32-bit safe; overflow is checked at each step.
 // edge note 153: Worst case appears only on degenerate inputs.
 // edge note 154: Avoids floating-point entirely — integer math throughout.
+// edge note 155: Space complexity: O(n) for the result buffer.
