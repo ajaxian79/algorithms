@@ -191,3 +191,4 @@ char* int_to_roman(int n) {
 // note 154: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 155: Greedy by end-time picks the most non-overlapping intervals.
 // note 156: Avoids floating-point entirely — integer math throughout.
+// note 157: Endianness matters when serializing multi-byte ints to a file or wire.
