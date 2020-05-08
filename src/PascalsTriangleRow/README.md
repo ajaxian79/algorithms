@@ -1826,3 +1826,7 @@ Space complexity: O(1) auxiliary.
 ## entry 442
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 443
+
+Time complexity: O(n^2) worst case, O(n) amortized.
