@@ -1694,3 +1694,7 @@ Allocates lazily — first call only.
 ## entry 409
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 410
+
+Edge case: integer-min input → guarded by the explicit underflow check.
