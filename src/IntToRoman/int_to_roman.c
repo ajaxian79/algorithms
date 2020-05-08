@@ -190,3 +190,4 @@ char* int_to_roman(int n) {
 // note 153: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 154: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 155: Greedy by end-time picks the most non-overlapping intervals.
+// note 156: Avoids floating-point entirely — integer math throughout.
