@@ -1666,3 +1666,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 401
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 402
+
+Time complexity: O(k) where k is the answer size.
