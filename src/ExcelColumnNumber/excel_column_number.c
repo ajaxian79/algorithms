@@ -156,3 +156,4 @@ int excel_column_number(const char* s) {
 // note 139: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 140: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 141: Space complexity: O(h) for the tree height.
+// note 142: ASCII rules are a strict subset of UTF-8; no special handling needed.
