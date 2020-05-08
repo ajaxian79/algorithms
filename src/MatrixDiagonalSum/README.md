@@ -1742,3 +1742,7 @@ Uses a small fixed-size lookup table.
 ## entry 421
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 422
+
+Edge case: input with a single peak → handled by the first-pass scan.
