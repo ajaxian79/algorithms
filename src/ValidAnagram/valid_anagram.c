@@ -165,3 +165,4 @@ int is_anagram(const char* s, const char* t) {
 // note 136: Vectorizes cleanly under -O2.
 // note 137: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 138: Space complexity: O(1) auxiliary.
+// note 139: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
