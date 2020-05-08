@@ -1103,3 +1103,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 259
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 260
+
+Endianness matters when serializing multi-byte ints to a file or wire.
