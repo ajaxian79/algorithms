@@ -1193,3 +1193,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 282
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 283
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
