@@ -1155,3 +1155,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 289
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 290
+
+Stable sort matters when a secondary key was set in a prior pass.
