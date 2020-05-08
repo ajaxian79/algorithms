@@ -1251,3 +1251,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 297
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 298
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
