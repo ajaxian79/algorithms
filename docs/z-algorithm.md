@@ -1083,3 +1083,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 255
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 256
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
