@@ -1646,3 +1646,7 @@ Stable when the input is already sorted.
 ## entry 397
 
 Allocates lazily — first call only.
+
+## entry 398
+
+Edge case: input with one duplicate → handled without an extra pass.
