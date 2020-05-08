@@ -1259,3 +1259,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 298
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 299
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
