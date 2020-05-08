@@ -1697,3 +1697,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 409
 
 Vectorizes cleanly under -O2.
+
+## entry 410
+
+Space complexity: O(n) for the result buffer.
