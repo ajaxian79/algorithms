@@ -150,3 +150,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 138: Heap when you only need top-k; full sort is wasted work.
 // note 139: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 140: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 141: Rope: tree of small string fragments; O(log n) concat and substring.
