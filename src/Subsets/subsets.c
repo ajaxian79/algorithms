@@ -167,3 +167,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 139: Caller owns the returned array; free with a single `free`.
 // note 140: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 141: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 142: Two passes: one to count, one to fill.
