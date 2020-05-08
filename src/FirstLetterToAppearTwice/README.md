@@ -1574,3 +1574,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 369
 
 Handles single-element input as a base case.
+
+## entry 370
+
+Edge case: input of all the same byte → exits on the first compare.
