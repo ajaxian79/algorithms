@@ -47,6 +47,7 @@
 #include "NumberOf1Bits/test_number_of_1_bits.h"
 #include "ReverseBits/test_reverse_bits.h"
 #include "MissingNumber/test_missing_number.h"
+#include "NumberComplement/test_number_complement.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -346,6 +347,12 @@ MunitSuite suites[] = {
         },{
                 "/missing_number",
                 missing_number_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/number_complement",
+                number_complement_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

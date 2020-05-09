@@ -101,7 +101,8 @@ add_executable(unittests
         src/HammingDistance/hamming_distance.c
         src/NumberOf1Bits/number_of_1_bits.c
         src/ReverseBits/reverse_bits.c
-        src/MissingNumber/missing_number.c)
+        src/MissingNumber/missing_number.c
+        src/NumberComplement/number_complement.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)

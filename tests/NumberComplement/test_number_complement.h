@@ -1,0 +1,27 @@
+//
+// Created by ajaxian on 05/09/20.
+//
+
+#ifndef ALGORITHMS_TEST_NUMBER_COMPLEMENT_H
+#define ALGORITHMS_TEST_NUMBER_COMPLEMENT_H
+
+#include "../tests.h"
+#include "../../src/NumberComplement/number_complement.h"
+
+static MunitResult test_find_complement_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    munit_assert_uint(find_complement(5u),    ==, 2u);
+    munit_assert_uint(find_complement(1u),    ==, 0u);
+    munit_assert_uint(find_complement(0u),    ==, 1u);
+    munit_assert_uint(find_complement(7u),    ==, 0u);
+    munit_assert_uint(find_complement(8u),    ==, 7u);
+    munit_assert_uint(find_complement(1023u), ==, 0u);
+    munit_assert_uint(find_complement(1024u), ==, 1023u);
+    return MUNIT_OK;
+}
+
+MunitTest number_complement_tests[] = {
+    {"/basic", test_find_complement_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_NUMBER_COMPLEMENT_H
