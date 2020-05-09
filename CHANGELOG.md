@@ -9719,3 +9719,7 @@
 ## entry 2430
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 2431
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
