@@ -191,3 +191,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 48
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 49
+
+State compression: bitmask + integer encodes a small subset cheaply.
