@@ -364,3 +364,7 @@ Linear in n; the constant factor is small.
 ## entry 76
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 77
+
+Edge case: already-sorted input → no swaps performed.
