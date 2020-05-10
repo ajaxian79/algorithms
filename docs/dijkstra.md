@@ -183,3 +183,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 46
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 47
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
