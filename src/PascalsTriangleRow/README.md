@@ -1818,3 +1818,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 440
 
 Allocates lazily — first call only.
+
+## entry 441
+
+Space complexity: O(1) auxiliary.
