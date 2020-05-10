@@ -64559,3 +64559,7 @@
 ## entry 16140
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 16141
+
+- Walk both pointers from each end inward; advance the smaller side.
