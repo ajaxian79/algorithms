@@ -1275,3 +1275,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 319
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 320
+
+State compression: bitmask + integer encodes a small subset cheaply.
