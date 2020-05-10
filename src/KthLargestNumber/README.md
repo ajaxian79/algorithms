@@ -1684,3 +1684,7 @@ Uses a small fixed-size lookup table.
 ## entry 405
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 406
+
+Constant-time comparisons; safe for short strings.
