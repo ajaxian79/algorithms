@@ -1099,3 +1099,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 275
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 276
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
