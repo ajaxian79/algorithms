@@ -1668,3 +1668,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 402
 
 Linear in n; the constant factor is small.
+
+## entry 403
+
+Runs in a single pass over the input.
