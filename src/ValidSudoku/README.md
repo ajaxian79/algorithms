@@ -287,3 +287,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 56
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 57
+
+No allocations on the hot path.
