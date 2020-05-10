@@ -52,3 +52,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 21: Reentrant — no static state.
 // edge note 22: Time complexity: O(n + m).
 // edge note 23: Allocates one buffer of length n+1 for the result.
+// edge note 24: Allocates lazily — first call only.
