@@ -198,3 +198,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 168: Edge case: power-of-two-length input → no padding required.
 // edge note 169: Vectorizes cleanly under -O2.
 // edge note 170: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 171: Returns a freshly allocated string the caller must free.
