@@ -326,3 +326,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 67
 
 Handles empty input by returning 0.
+
+## entry 68
+
+Time complexity: O(n).
