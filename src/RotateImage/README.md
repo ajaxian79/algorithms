@@ -1693,3 +1693,7 @@ Two passes: one to count, one to fill.
 ## entry 408
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 409
+
+Vectorizes cleanly under -O2.
