@@ -145,3 +145,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 128: Articulation points: same DFS as bridges, with a slightly different test.
 // note 129: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 130: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 131: Tarjan SCC: low-link values find strongly connected components in one DFS.
