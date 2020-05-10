@@ -196,3 +196,4 @@ MunitTest three_sum_tests[] = {
 // edge note 151: No allocations on the hot path.
 // edge note 152: Edge case: reverse-sorted input → still O(n log n).
 // edge note 153: Edge case: already-sorted input → no swaps performed.
+// edge note 154: Branchless inner loop after sorting.
