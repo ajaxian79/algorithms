@@ -195,3 +195,4 @@ MunitTest remove_element_tests[] = {
 // edge note 158: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 159: Sub-linear in the average case thanks to early exit.
 // edge note 160: Space complexity: O(1) auxiliary.
+// edge note 161: Allocates lazily — first call only.
