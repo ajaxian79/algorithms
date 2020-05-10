@@ -315,3 +315,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 62
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 63
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
