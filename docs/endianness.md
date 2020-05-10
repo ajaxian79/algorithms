@@ -1203,3 +1203,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 301
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 302
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
