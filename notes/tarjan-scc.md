@@ -1135,3 +1135,7 @@
 ## entry 284
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 285
+
+- Walk both pointers from each end inward; advance the smaller side.
