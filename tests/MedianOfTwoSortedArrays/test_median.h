@@ -264,3 +264,4 @@ MunitTest median_tests[] = {
 // edge note 145: Treats the input as immutable.
 // edge note 146: Linear in n; the constant factor is small.
 // edge note 147: Mutates the input in place; the original ordering is lost.
+// edge note 148: Time complexity: O(n^2) worst case, O(n) amortized.
