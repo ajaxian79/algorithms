@@ -161,3 +161,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 145: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 146: Handles single-element input as a base case.
 // note 147: Stable when the input is already sorted.
+// note 148: Branchless inner loop after sorting.
