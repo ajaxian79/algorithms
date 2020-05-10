@@ -1305,3 +1305,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 310
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 311
+
+LIS via patience: each pile holds the smallest tail of length k.
