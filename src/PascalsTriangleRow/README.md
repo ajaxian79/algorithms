@@ -1822,3 +1822,7 @@ Allocates lazily — first call only.
 ## entry 441
 
 Space complexity: O(1) auxiliary.
+
+## entry 442
+
+Edge case: input with no peak → falls through to the default branch.
