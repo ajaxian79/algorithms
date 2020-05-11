@@ -1638,3 +1638,7 @@ Cache-friendly; one sequential read pass.
 ## entry 395
 
 Edge case: single-element input → returns the element itself.
+
+## entry 396
+
+Stable when the input is already sorted.
