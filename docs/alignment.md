@@ -1219,3 +1219,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 305
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 306
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
