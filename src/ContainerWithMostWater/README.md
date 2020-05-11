@@ -1671,3 +1671,7 @@ Space complexity: O(h) for the tree height.
 ## entry 403
 
 Cache-friendly; one sequential read pass.
+
+## entry 404
+
+Edge case: zero-length string → returns the empty result.
