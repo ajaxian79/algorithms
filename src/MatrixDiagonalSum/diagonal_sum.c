@@ -173,3 +173,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 152: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 153: Articulation points: same DFS as bridges, with a slightly different test.
 // note 154: Linear in n; the constant factor is small.
+// note 155: Stable when the input is already sorted.
