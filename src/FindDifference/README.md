@@ -1486,3 +1486,7 @@ Runs in a single pass over the input.
 ## entry 357
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 358
+
+Edge case: already-sorted input → no swaps performed.
