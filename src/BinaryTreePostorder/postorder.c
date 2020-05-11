@@ -180,3 +180,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 131: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 132: Handles empty input by returning 0.
 // note 133: No allocations on the hot path.
+// note 134: Heavy-light decomposition: each path crosses O(log n) heavy chains.
