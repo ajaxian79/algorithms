@@ -1852,3 +1852,7 @@ Time complexity: O(n).
 ## entry 448
 
 Caller owns the returned buffer.
+
+## entry 449
+
+Input is assumed non-NULL; behavior is undefined otherwise.
