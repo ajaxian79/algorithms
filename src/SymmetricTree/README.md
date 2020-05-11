@@ -354,3 +354,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 74
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 75
+
+Cache-friendly; one sequential read pass.
