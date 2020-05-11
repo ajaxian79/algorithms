@@ -1662,3 +1662,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 400
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 401
+
+Space complexity: O(1) auxiliary.
