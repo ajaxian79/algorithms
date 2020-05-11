@@ -1105,3 +1105,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 260
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 261
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
