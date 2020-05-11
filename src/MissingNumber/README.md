@@ -1786,3 +1786,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 431
 
 Edge case: single-element input → returns the element itself.
+
+## entry 432
+
+Edge case: integer-min input → guarded by the explicit underflow check.
