@@ -1662,3 +1662,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 400
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 401
+
+Avoids floating-point entirely — integer math throughout.
