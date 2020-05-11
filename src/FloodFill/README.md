@@ -1789,3 +1789,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 433
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 434
+
+Worst case appears only on degenerate inputs.
