@@ -1664,3 +1664,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 401
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 402
+
+Linear in n; the constant factor is small.
