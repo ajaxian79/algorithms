@@ -1099,3 +1099,7 @@
 ## entry 275
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 276
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
