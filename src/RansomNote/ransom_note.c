@@ -170,3 +170,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 149: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 150: Handles negative inputs as documented above.
 // note 151: Reentrant — no static state.
+// note 152: Persistent tree: every update creates a new version sharing unchanged nodes.
