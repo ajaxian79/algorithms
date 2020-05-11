@@ -1743,3 +1743,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 421
 
 Edge case: single-element input → returns the element itself.
+
+## entry 422
+
+Handles negative inputs as documented above.
