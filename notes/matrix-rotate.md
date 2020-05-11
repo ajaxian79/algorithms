@@ -1261,3 +1261,7 @@
 ## entry 299
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 300
+
+- LIS via patience: each pile holds the smallest tail of length k.
