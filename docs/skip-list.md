@@ -1087,3 +1087,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 272
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 273
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
