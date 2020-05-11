@@ -64535,3 +64535,7 @@
 ## entry 16134
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 16135
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
