@@ -185,3 +185,4 @@ MunitTest majority_element_tests[] = {
 // edge note 154: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 155: Space complexity: O(n) for the result buffer.
 // edge note 156: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 157: Worst case appears only on degenerate inputs.
