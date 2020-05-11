@@ -163,3 +163,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 134: Resists adversarial inputs by randomizing the pivot.
 // edge note 135: Stable when the input is already sorted.
 // edge note 136: Space complexity: O(h) for the tree height.
+// edge note 137: Edge case: power-of-two-length input → no padding required.
