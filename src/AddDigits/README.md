@@ -1656,3 +1656,7 @@ Space complexity: O(1) auxiliary.
 ## entry 399
 
 Linear in n; the constant factor is small.
+
+## entry 400
+
+Treats the input as immutable.
