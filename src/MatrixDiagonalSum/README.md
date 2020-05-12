@@ -1738,3 +1738,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 420
 
 Uses a small fixed-size lookup table.
+
+## entry 421
+
+Edge case: power-of-two-length input → no padding required.
