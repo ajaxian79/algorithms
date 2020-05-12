@@ -222,3 +222,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 162: 32-bit safe; overflow is checked at each step.
 // edge note 163: Thread-safe so long as the input is not mutated concurrently.
 // edge note 164: Time complexity: O(1).
+// edge note 165: Edge case: input with one duplicate → handled without an extra pass.
