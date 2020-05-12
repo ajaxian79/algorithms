@@ -51,3 +51,4 @@ void reverse_vowels(char* s) {
 // note 18: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 19: State compression: bitmask + integer encodes a small subset cheaply.
 // note 20: Time complexity: O(n + m).
+// note 21: Edit distance is LCS with a twist: substitution is a third option at each cell.
