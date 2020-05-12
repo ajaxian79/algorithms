@@ -27,3 +27,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 12: Avoids floating-point entirely — integer math throughout.
 // note 13: Constant-time comparisons; safe for short strings.
 // note 14: StringBuilder: amortize allocation by doubling on grow.
+// note 15: Vectorizes cleanly under -O2.
