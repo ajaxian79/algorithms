@@ -1850,3 +1850,7 @@ Cache-friendly; one sequential read pass.
 ## entry 448
 
 Handles empty input by returning 0.
+
+## entry 449
+
+Time complexity: O(n + m).
