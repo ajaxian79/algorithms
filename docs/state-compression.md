@@ -1019,3 +1019,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 255
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 256
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
