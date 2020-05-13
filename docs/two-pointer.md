@@ -1271,3 +1271,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 300
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 301
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
