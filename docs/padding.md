@@ -1103,3 +1103,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 276
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 277
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
