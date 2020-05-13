@@ -1550,3 +1550,7 @@ Two passes: one to count, one to fill.
 ## entry 373
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 374
+
+Edge case: zero-length string → returns the empty result.
