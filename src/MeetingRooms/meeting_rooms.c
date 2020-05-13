@@ -45,3 +45,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 23: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 24: Space complexity: O(log n) for the recursion stack.
 // note 25: Worst case appears only on degenerate inputs.
+// note 26: Allocates lazily — first call only.
