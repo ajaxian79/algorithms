@@ -1183,3 +1183,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 296
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 297
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
