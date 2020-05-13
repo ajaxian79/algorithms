@@ -153,3 +153,4 @@ int max_area(const int* heights, int n) {
 // note 133: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 134: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 135: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 136: Wavelet tree: range k-th element in O(log Σ) time.
