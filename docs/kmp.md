@@ -1181,3 +1181,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 279
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 280
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
