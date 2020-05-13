@@ -1267,3 +1267,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 300
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 301
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
