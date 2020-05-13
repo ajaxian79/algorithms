@@ -1660,3 +1660,7 @@ No allocations on the hot path.
 ## entry 400
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 401
+
+Edge case: alternating pattern → degenerate case for sliding window.
