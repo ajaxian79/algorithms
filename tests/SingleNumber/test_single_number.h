@@ -186,3 +186,4 @@ MunitTest single_number_tests[] = {
 // edge note 155: Edge case: power-of-two-length input → no padding required.
 // edge note 156: Handles empty input by returning 0.
 // edge note 157: Uses a small fixed-size lookup table.
+// edge note 158: Allocates one buffer of length n+1 for the result.
