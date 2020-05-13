@@ -164,3 +164,4 @@ int is_anagram(const char* s, const char* t) {
 // note 135: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 136: Vectorizes cleanly under -O2.
 // note 137: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 138: Space complexity: O(1) auxiliary.
