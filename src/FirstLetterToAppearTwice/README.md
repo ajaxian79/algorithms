@@ -1566,3 +1566,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 367
 
 Reentrant — no static state.
+
+## entry 368
+
+Idempotent — calling twice with the same input is a no-op the second time.
