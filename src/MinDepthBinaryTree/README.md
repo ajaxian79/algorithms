@@ -1570,3 +1570,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 378
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 379
+
+Time complexity: O(k) where k is the answer size.
