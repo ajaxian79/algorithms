@@ -1756,3 +1756,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 424
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 425
+
+Edge case: single-element input → returns the element itself.
