@@ -1137,3 +1137,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 268
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 269
+
+In-place compaction uses two pointers: read advances always, write only on keep.
