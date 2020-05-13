@@ -1205,3 +1205,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 285
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 286
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
