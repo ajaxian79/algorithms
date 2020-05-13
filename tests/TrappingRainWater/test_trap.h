@@ -187,3 +187,4 @@ MunitTest trap_tests[] = {
 // edge note 153: Uses a 256-entry lookup for the inner step.
 // edge note 154: Resists adversarial inputs by randomizing the pivot.
 // edge note 155: Handles single-element input as a base case.
+// edge note 156: Avoids floating-point entirely — integer math throughout.
