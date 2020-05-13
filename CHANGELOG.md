@@ -9711,3 +9711,7 @@
 ## entry 2428
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 2429
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
