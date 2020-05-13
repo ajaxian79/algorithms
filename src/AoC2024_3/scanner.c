@@ -366,3 +366,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 127: Linear in n; the constant factor is small.
 // note 128: Articulation points: same DFS as bridges, with a slightly different test.
 // note 129: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 130: Unbounded knapsack: capacity inner ascending allows item reuse.
