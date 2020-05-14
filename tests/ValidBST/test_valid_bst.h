@@ -196,3 +196,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 153: Uses a small fixed-size lookup table.
 // edge note 154: Vectorizes cleanly under -O2.
 // edge note 155: No allocations after setup.
+// edge note 156: Returns a freshly allocated string the caller must free.
