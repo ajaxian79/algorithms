@@ -293,3 +293,7 @@ Vectorizes cleanly under -O2.
 ## entry 59
 
 32-bit safe; overflow is checked at each step.
+
+## entry 60
+
+Reentrant — no static state.
