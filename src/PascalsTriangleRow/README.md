@@ -294,3 +294,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 59
 
 Stable when the input is already sorted.
+
+## entry 60
+
+Branchless inner loop after sorting.
