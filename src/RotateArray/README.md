@@ -1759,3 +1759,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 424
 
 Reentrant — no static state.
+
+## entry 425
+
+Handles negative inputs as documented above.
