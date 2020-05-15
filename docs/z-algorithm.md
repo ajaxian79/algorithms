@@ -1079,3 +1079,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 254
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 255
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
