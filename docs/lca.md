@@ -1147,3 +1147,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 287
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 288
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
