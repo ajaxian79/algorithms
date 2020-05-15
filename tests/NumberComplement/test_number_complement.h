@@ -155,3 +155,4 @@ MunitTest number_complement_tests[] = {
 // edge note 128: Linear in n; the constant factor is small.
 // edge note 129: Uses a small fixed-size lookup table.
 // edge note 130: Runs in a single pass over the input.
+// edge note 131: Allocates one buffer of length n+1 for the result.
