@@ -1195,3 +1195,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 299
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 300
+
+False sharing: two threads writing different bytes in the same cache line stall both.
