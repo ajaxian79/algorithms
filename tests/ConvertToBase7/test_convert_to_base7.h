@@ -162,3 +162,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 133: Edge case: all-equal input → linear-time fast path.
 // edge note 134: Resists adversarial inputs by randomizing the pivot.
 // edge note 135: Stable when the input is already sorted.
+// edge note 136: Space complexity: O(h) for the tree height.
