@@ -1654,3 +1654,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 399
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 400
+
+Uses a small fixed-size lookup table.
