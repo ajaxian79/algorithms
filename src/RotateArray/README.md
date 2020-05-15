@@ -1755,3 +1755,7 @@ Runs in a single pass over the input.
 ## entry 423
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 424
+
+Reentrant — no static state.
