@@ -1115,3 +1115,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 279
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 280
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
