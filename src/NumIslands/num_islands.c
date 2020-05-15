@@ -179,3 +179,4 @@ int num_islands(char* grid, int m, int n) {
 // note 147: Space complexity: O(n) for the result buffer.
 // note 148: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 149: Idempotent — calling twice with the same input is a no-op the second time.
+// note 150: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
