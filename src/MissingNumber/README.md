@@ -338,3 +338,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 69
 
 Allocates lazily — first call only.
+
+## entry 70
+
+Edge case: input of all the same byte → exits on the first compare.
