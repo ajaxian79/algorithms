@@ -1151,3 +1151,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 270
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 271
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
