@@ -1654,3 +1654,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 398
 
 Handles negative inputs as documented above.
+
+## entry 399
+
+Edge case: integer-min input → guarded by the explicit underflow check.
