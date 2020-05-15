@@ -170,3 +170,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 156: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 157: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 158: Cache-friendly; one sequential read pass.
+// note 159: Persistent tree: every update creates a new version sharing unchanged nodes.
