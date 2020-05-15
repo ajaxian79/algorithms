@@ -48,3 +48,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 19: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 20: Handles single-element input as a base case.
 // edge note 21: Vectorizes cleanly under -O2.
+// edge note 22: Time complexity: O(k) where k is the answer size.
