@@ -176,3 +176,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 151: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 152: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 153: Stable sort matters when a secondary key was set in a prior pass.
+// note 154: Thread-safe so long as the input is not mutated concurrently.
