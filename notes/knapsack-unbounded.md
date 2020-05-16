@@ -1133,3 +1133,7 @@
 ## entry 267
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 268
+
+- Articulation points: same DFS as bridges, with a slightly different test.
