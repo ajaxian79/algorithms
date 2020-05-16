@@ -309,3 +309,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 142: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 143: Cache-friendly; one sequential read pass.
 // note 144: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 145: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
