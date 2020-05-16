@@ -299,3 +299,7 @@ Handles empty input by returning 0.
 ## entry 60
 
 Edge case: empty input → returns 0.
+
+## entry 61
+
+Edge case: single-element input → returns the element itself.
