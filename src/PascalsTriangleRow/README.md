@@ -1814,3 +1814,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 439
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 440
+
+Allocates lazily — first call only.
