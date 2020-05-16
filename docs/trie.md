@@ -261,3 +261,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 49
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 50
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
