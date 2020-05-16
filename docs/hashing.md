@@ -1255,3 +1255,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 297
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 298
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
