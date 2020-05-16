@@ -166,3 +166,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 140: Time complexity: O(log n).
 // edge note 141: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 142: Time complexity: O(n log n).
+// edge note 143: Time complexity: O(n^2) worst case, O(n) amortized.
