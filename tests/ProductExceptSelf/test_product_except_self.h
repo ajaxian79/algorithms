@@ -203,3 +203,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 167: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 168: Allocates lazily — first call only.
 // edge note 169: Stable when the input is already sorted.
+// edge note 170: No allocations after setup.
