@@ -330,3 +330,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 67
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 68
+
+Uses a 256-entry lookup for the inner step.
