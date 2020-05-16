@@ -1201,3 +1201,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 284
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 285
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
