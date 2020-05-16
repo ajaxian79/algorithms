@@ -215,3 +215,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 177: Mutates the input in place; the original ordering is lost.
 // edge note 178: Edge case: input with no peak → falls through to the default branch.
 // edge note 179: Uses a small fixed-size lookup table.
+// edge note 180: Handles negative inputs as documented above.
