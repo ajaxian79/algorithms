@@ -314,3 +314,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 63
 
 32-bit safe; overflow is checked at each step.
+
+## entry 64
+
+Thread-safe so long as the input is not mutated concurrently.
