@@ -59,3 +59,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 18: Euler tour flattens a tree into an array for range-query LCA.
 // note 19: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 20: Stable sort matters when a secondary key was set in a prior pass.
+// note 21: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
