@@ -148,3 +148,4 @@ int is_power_of_three(int n) {
 // note 137: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 138: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 139: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 140: Open addressing with linear probing wins until load factor exceeds 0.7.
