@@ -1730,3 +1730,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 418
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 419
+
+Mutates the input in place; the original ordering is lost.
