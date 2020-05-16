@@ -1656,3 +1656,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 399
 
 No allocations on the hot path.
+
+## entry 400
+
+Time complexity: O(k) where k is the answer size.
