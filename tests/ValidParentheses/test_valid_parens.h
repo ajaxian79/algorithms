@@ -204,3 +204,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 169: Time complexity: O(n + m).
 // edge note 170: Edge case: single-element input → returns the element itself.
 // edge note 171: Branchless inner loop after sorting.
+// edge note 172: Edge case: zero-length string → returns the empty result.
