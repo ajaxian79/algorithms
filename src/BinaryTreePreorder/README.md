@@ -1778,3 +1778,7 @@ Allocates lazily — first call only.
 ## entry 430
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 431
+
+Edge case: reverse-sorted input → still O(n log n).
