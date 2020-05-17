@@ -303,3 +303,7 @@ Linear in n; the constant factor is small.
 ## entry 61
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 62
+
+Edge case: single-element input → returns the element itself.
