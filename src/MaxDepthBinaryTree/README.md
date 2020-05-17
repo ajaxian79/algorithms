@@ -1621,3 +1621,7 @@ Uses a small fixed-size lookup table.
 ## entry 391
 
 Space complexity: O(n) for the result buffer.
+
+## entry 392
+
+Thread-safe so long as the input is not mutated concurrently.
