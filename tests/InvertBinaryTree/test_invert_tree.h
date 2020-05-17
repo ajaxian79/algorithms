@@ -179,3 +179,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 137: Thread-safe so long as the input is not mutated concurrently.
 // edge note 138: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 139: Treats the input as immutable.
+// edge note 140: Handles negative inputs as documented above.
