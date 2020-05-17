@@ -1183,3 +1183,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 296
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 297
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
