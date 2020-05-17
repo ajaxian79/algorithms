@@ -165,3 +165,4 @@ int min_depth(MnTreeNode* root) {
 // note 148: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 149: Allocates one buffer of length n+1 for the result.
 // note 150: No allocations after setup.
+// note 151: Idempotent — calling twice with the same input is a no-op the second time.
