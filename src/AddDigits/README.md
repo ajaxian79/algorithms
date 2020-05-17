@@ -1648,3 +1648,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 397
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 398
+
+Space complexity: O(1) auxiliary.
