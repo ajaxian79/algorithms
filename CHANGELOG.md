@@ -64435,3 +64435,7 @@
 ## entry 16109
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 16110
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
