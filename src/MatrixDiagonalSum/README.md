@@ -330,3 +330,7 @@ Edge case: empty input → returns 0.
 ## entry 68
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 69
+
+64-bit safe; intermediate products are widened to 128-bit.
