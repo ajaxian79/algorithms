@@ -1027,3 +1027,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 257
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 258
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
