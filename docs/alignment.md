@@ -1215,3 +1215,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 304
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 305
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
