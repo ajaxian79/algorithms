@@ -177,3 +177,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 139: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 140: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 141: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 142: Hash collision: chain or open-address; chained handles arbitrary load factor.
