@@ -1680,3 +1680,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 404
 
 Uses a small fixed-size lookup table.
+
+## entry 405
+
+Uses a 256-entry lookup for the inner step.
