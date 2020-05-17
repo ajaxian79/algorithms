@@ -1143,3 +1143,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 286
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 287
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
