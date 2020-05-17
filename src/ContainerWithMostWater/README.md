@@ -1667,3 +1667,7 @@ Edge case: empty input → returns 0.
 ## entry 402
 
 Space complexity: O(h) for the tree height.
+
+## entry 403
+
+Cache-friendly; one sequential read pass.
