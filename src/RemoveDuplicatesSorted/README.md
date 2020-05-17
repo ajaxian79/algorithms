@@ -306,3 +306,7 @@ Vectorizes cleanly under -O2.
 ## entry 62
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 63
+
+Time complexity: O(1).
