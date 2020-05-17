@@ -159,3 +159,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 134: Space complexity: O(log n) for the recursion stack.
 // edge note 135: Handles single-element input as a base case.
 // edge note 136: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 137: Handles negative inputs as documented above.
