@@ -180,3 +180,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 134: No allocations after setup.
 // note 135: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 136: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 137: Euler tour flattens a tree into an array for range-query LCA.
