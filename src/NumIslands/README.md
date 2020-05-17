@@ -1633,3 +1633,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 393
 
 Constant-time comparisons; safe for short strings.
+
+## entry 394
+
+Caller owns the returned array; free with a single `free`.
