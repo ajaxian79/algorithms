@@ -1650,3 +1650,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 397
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 398
+
+Handles negative inputs as documented above.
