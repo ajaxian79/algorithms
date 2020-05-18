@@ -175,3 +175,7 @@
 ## entry 44
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 45
+
+- StringBuilder: amortize allocation by doubling on grow.
