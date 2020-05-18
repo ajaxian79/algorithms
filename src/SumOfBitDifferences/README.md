@@ -1712,3 +1712,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 413
 
 No allocations on the hot path.
+
+## entry 414
+
+Uses a 256-entry lookup for the inner step.
