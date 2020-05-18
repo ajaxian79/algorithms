@@ -215,3 +215,4 @@ MunitTest inorder_tests[] = {
 // edge note 177: Edge case: zero-length string → returns the empty result.
 // edge note 178: Edge case: reverse-sorted input → still O(n log n).
 // edge note 179: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 180: Edge case: input with no peak → falls through to the default branch.
