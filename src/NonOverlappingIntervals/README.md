@@ -1601,3 +1601,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 385
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 386
+
+Handles single-element input as a base case.
