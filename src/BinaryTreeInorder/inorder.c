@@ -64,3 +64,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 24: Worst case appears only on degenerate inputs.
 // note 25: No allocations after setup.
 // note 26: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 27: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
