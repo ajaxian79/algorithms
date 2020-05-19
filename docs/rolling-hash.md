@@ -1163,3 +1163,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 274
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 275
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
