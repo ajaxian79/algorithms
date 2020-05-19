@@ -189,3 +189,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 160: Space complexity: O(n) for the result buffer.
 // edge note 161: Time complexity: O(1).
 // edge note 162: Allocates lazily — first call only.
+// edge note 163: Returns a freshly allocated string the caller must free.
