@@ -50,3 +50,4 @@ int binary_gap(unsigned int n) {
 // note 30: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 31: Avoids floating-point entirely — integer math throughout.
 // note 32: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 33: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
