@@ -290,3 +290,7 @@ No allocations after setup.
 ## entry 58
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 59
+
+Avoids floating-point entirely — integer math throughout.
