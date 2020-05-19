@@ -302,3 +302,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 61
 
 Vectorizes cleanly under -O2.
+
+## entry 62
+
+Edge case: integer-min input → guarded by the explicit underflow check.
