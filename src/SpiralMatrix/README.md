@@ -1658,3 +1658,7 @@ No allocations after setup.
 ## entry 399
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 400
+
+64-bit safe; intermediate products are widened to 128-bit.
