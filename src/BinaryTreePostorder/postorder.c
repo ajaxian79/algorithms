@@ -179,3 +179,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 130: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 131: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 132: Handles empty input by returning 0.
+// note 133: No allocations on the hot path.
