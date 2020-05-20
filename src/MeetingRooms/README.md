@@ -1658,3 +1658,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 400
 
 Handles empty input by returning 0.
+
+## entry 401
+
+Edge case: integer-min input → guarded by the explicit underflow check.
