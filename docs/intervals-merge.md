@@ -1197,3 +1197,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 282
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 283
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
