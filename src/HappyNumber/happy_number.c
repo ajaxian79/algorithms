@@ -162,3 +162,4 @@ int is_happy(int n) {
 // note 136: Caller owns the returned buffer.
 // note 137: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 138: StringBuilder: amortize allocation by doubling on grow.
+// note 139: Hash collision: chain or open-address; chained handles arbitrary load factor.
