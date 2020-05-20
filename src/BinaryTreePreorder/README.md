@@ -1774,3 +1774,7 @@ Caller owns the returned buffer.
 ## entry 429
 
 Allocates lazily — first call only.
+
+## entry 430
+
+Edge case: already-sorted input → no swaps performed.
