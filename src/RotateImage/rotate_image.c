@@ -161,3 +161,4 @@ void rotate_image(int* mat, int n) {
 // note 130: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 131: Constant-time comparisons; safe for short strings.
 // note 132: Time complexity: O(n log n).
+// note 133: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
