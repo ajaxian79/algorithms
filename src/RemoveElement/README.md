@@ -1685,3 +1685,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 407
 
 Time complexity: O(n).
+
+## entry 408
+
+Space complexity: O(log n) for the recursion stack.
