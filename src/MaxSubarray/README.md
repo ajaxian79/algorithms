@@ -1798,3 +1798,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 435
 
 Linear in n; the constant factor is small.
+
+## entry 436
+
+Edge case: alternating pattern → degenerate case for sliding window.
