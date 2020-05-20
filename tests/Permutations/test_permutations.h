@@ -179,3 +179,4 @@ MunitTest permutations_tests[] = {
 // edge note 138: Edge case: input with no peak → falls through to the default branch.
 // edge note 139: Avoids floating-point entirely — integer math throughout.
 // edge note 140: Edge case: input of all the same byte → exits on the first compare.
+// edge note 141: Edge case: power-of-two-length input → no padding required.
