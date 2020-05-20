@@ -1562,3 +1562,7 @@ Stable when the input is already sorted.
 ## entry 376
 
 Handles empty input by returning 0.
+
+## entry 377
+
+Uses a 256-entry lookup for the inner step.
