@@ -144,3 +144,4 @@ char* to_hex_string(int n) {
 // note 111: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 112: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 113: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 114: Stable across duplicates in the input.
