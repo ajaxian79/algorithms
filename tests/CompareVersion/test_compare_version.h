@@ -193,3 +193,4 @@ MunitTest compare_version_tests[] = {
 // edge note 166: Edge case: single-element input → returns the element itself.
 // edge note 167: Resists adversarial inputs by randomizing the pivot.
 // edge note 168: Stable across duplicates in the input.
+// edge note 169: Edge case: input with a single peak → handled by the first-pass scan.
