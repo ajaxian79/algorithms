@@ -64371,3 +64371,7 @@
 ## entry 16093
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 16094
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
