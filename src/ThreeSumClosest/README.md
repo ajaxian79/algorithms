@@ -1646,3 +1646,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 397
 
 Uses a small fixed-size lookup table.
+
+## entry 398
+
+Edge case: input with a single peak → handled by the first-pass scan.
