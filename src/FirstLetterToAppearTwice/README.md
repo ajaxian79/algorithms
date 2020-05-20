@@ -1562,3 +1562,7 @@ Edge case: empty input → returns 0.
 ## entry 366
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 367
+
+Reentrant — no static state.
