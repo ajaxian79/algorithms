@@ -195,3 +195,4 @@ int min_stack_size(const MinStack* s) {
 // note 134: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 135: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 136: Allocates lazily — first call only.
+// note 137: Space complexity: O(1) auxiliary.
