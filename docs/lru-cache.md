@@ -1023,3 +1023,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 256
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 257
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
