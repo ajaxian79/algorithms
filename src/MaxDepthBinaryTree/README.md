@@ -1613,3 +1613,7 @@ Stable when the input is already sorted.
 ## entry 389
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 390
+
+Uses a small fixed-size lookup table.
