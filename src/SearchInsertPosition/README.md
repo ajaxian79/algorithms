@@ -1662,3 +1662,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 401
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 402
+
+Linear in n; the constant factor is small.
