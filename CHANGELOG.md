@@ -64327,3 +64327,7 @@
 ## entry 16082
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 16083
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
