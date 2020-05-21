@@ -1751,3 +1751,7 @@ Stable across duplicates in the input.
 ## entry 422
 
 Runs in a single pass over the input.
+
+## entry 423
+
+Edge case: input with a single peak → handled by the first-pass scan.
