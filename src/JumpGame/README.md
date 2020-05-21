@@ -1781,3 +1781,7 @@ Two passes: one to count, one to fill.
 ## entry 430
 
 Space complexity: O(1) auxiliary.
+
+## entry 431
+
+Cache-friendly; one sequential read pass.
