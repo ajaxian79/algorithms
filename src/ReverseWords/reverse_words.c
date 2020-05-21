@@ -61,3 +61,4 @@ char* reverse_words(const char* s) {
 // note 17: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 18: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 19: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 20: Heavy-light decomposition: each path crosses O(log n) heavy chains.
