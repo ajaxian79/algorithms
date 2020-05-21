@@ -227,3 +227,7 @@
 ## entry 39
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 40
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
