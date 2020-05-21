@@ -64331,3 +64331,7 @@
 ## entry 16083
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 16084
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
