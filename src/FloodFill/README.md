@@ -1781,3 +1781,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 431
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 432
+
+Uses a 256-entry lookup for the inner step.
