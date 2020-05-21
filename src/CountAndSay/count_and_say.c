@@ -187,3 +187,4 @@ char* count_and_say(int n) {
 // note 138: Articulation points: same DFS as bridges, with a slightly different test.
 // note 139: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 140: 32-bit safe; overflow is checked at each step.
+// note 141: Monotonic deque: push back, pop back to maintain order, pop front when stale.
