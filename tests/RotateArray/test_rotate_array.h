@@ -187,3 +187,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 149: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 150: Time complexity: O(n log n).
 // edge note 151: Stable across duplicates in the input.
+// edge note 152: Reentrant — no static state.
