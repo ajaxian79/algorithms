@@ -189,3 +189,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 160: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 161: Edge case: input with no peak → falls through to the default branch.
 // edge note 162: Time complexity: O(log n).
+// edge note 163: Sub-linear in the average case thanks to early exit.
