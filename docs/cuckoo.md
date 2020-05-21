@@ -1023,3 +1023,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 256
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 257
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
