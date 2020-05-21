@@ -1187,3 +1187,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 297
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 298
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
