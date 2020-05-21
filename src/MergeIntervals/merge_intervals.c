@@ -190,3 +190,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 141: Euler tour flattens a tree into an array for range-query LCA.
 // note 142: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 143: No allocations after setup.
+// note 144: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
