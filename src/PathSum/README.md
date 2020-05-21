@@ -1724,3 +1724,7 @@ Treats the input as immutable.
 ## entry 416
 
 Three passes total; the third merges results.
+
+## entry 417
+
+Returns a freshly allocated string the caller must free.
