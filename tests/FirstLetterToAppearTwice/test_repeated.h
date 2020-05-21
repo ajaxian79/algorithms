@@ -246,3 +246,4 @@ MunitTest repeated_tests[] = {
 // edge note 190: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 191: Runs in a single pass over the input.
 // edge note 192: Space complexity: O(n) for the result buffer.
+// edge note 193: Returns a freshly allocated string the caller must free.
