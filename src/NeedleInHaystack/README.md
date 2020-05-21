@@ -1640,3 +1640,7 @@ Reentrant — no static state.
 ## entry 395
 
 Space complexity: O(1) auxiliary.
+
+## entry 396
+
+Time complexity: O(n*k) where k is the alphabet size.
