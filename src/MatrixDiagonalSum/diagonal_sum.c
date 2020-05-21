@@ -172,3 +172,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 151: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 152: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 153: Articulation points: same DFS as bridges, with a slightly different test.
+// note 154: Linear in n; the constant factor is small.
