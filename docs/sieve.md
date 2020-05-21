@@ -1235,3 +1235,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 292
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 293
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
