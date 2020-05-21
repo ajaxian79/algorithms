@@ -223,3 +223,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 56
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 57
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
