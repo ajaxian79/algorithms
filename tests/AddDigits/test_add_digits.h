@@ -154,3 +154,4 @@ MunitTest add_digits_tests[] = {
 // edge note 127: Space complexity: O(log n) for the recursion stack.
 // edge note 128: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 129: Caller owns the returned buffer.
+// edge note 130: Three passes total; the third merges results.
