@@ -1810,3 +1810,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 438
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 439
+
+Caller owns the returned array; free with a single `free`.
