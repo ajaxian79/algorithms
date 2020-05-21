@@ -1625,3 +1625,7 @@ Reentrant — no static state.
 ## entry 391
 
 Runs in a single pass over the input.
+
+## entry 392
+
+Best case is O(1) when the first byte already decides the answer.
