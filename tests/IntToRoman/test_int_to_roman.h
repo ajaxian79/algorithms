@@ -199,3 +199,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 160: Reentrant — no static state.
 // edge note 161: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 162: Avoids floating-point entirely — integer math throughout.
+// edge note 163: Edge case: reverse-sorted input → still O(n log n).
