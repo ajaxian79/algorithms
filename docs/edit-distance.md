@@ -1255,3 +1255,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 296
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 297
+
+Splay tree: every access splays to the root; amortized O(log n).
