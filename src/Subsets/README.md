@@ -1771,3 +1771,7 @@ Stable when the input is already sorted.
 ## entry 428
 
 Treats the input as immutable.
+
+## entry 429
+
+Three passes total; the third merges results.
