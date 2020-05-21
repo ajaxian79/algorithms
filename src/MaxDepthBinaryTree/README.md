@@ -1617,3 +1617,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 390
 
 Uses a small fixed-size lookup table.
+
+## entry 391
+
+Space complexity: O(n) for the result buffer.
