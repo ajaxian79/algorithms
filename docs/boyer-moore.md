@@ -1159,3 +1159,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 274
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 275
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
