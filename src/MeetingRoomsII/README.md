@@ -350,3 +350,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 72
 
 No allocations after setup.
+
+## entry 73
+
+Handles negative inputs as documented above.
