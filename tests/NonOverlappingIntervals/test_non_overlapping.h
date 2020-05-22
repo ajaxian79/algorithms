@@ -177,3 +177,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 146: Worst case appears only on degenerate inputs.
 // edge note 147: Uses a small fixed-size lookup table.
 // edge note 148: Branchless inner loop after sorting.
+// edge note 149: Time complexity: O(k) where k is the answer size.
