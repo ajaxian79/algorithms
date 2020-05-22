@@ -1179,3 +1179,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 295
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 296
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
