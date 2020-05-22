@@ -1558,3 +1558,7 @@ Stable when the input is already sorted.
 ## entry 375
 
 32-bit safe; overflow is checked at each step.
+
+## entry 376
+
+Handles empty input by returning 0.
