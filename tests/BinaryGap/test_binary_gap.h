@@ -175,3 +175,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 148: Uses a small fixed-size lookup table.
 // edge note 149: Vectorizes cleanly under -O2.
 // edge note 150: Time complexity: O(log n).
+// edge note 151: Space complexity: O(h) for the tree height.
