@@ -176,3 +176,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 146: Linear in n; the constant factor is small.
 // edge note 147: Sub-linear in the average case thanks to early exit.
 // edge note 148: Handles empty input by returning 0.
+// edge note 149: Tail-recursive; the compiler turns it into a loop.
