@@ -1191,3 +1191,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 298
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 299
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
