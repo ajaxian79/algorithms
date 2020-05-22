@@ -346,3 +346,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 71
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 72
+
+No allocations after setup.
