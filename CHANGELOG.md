@@ -9683,3 +9683,7 @@
 ## entry 2421
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 2422
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
