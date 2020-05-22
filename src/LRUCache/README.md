@@ -1676,3 +1676,7 @@ Reentrant — no static state.
 ## entry 403
 
 Time complexity: O(n).
+
+## entry 404
+
+Returns a freshly allocated string the caller must free.
