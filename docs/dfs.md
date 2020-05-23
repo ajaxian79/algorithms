@@ -263,3 +263,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 50
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 51
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
