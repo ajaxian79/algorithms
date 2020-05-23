@@ -350,3 +350,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 73
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 74
+
+Edge case: NULL input is rejected by the caller, not by us.
