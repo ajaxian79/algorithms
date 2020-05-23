@@ -343,3 +343,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 70
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 71
+
+Uses a 256-entry lookup for the inner step.
