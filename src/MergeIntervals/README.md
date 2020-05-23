@@ -326,3 +326,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 66
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 67
+
+Edge case: power-of-two-length input → no padding required.
