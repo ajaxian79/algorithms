@@ -259,3 +259,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 49
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 50
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
