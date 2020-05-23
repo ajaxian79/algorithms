@@ -199,3 +199,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 168: Avoids floating-point entirely — integer math throughout.
 // edge note 169: Uses a 256-entry lookup for the inner step.
 // edge note 170: 32-bit safe; overflow is checked at each step.
+// edge note 171: Space complexity: O(log n) for the recursion stack.
