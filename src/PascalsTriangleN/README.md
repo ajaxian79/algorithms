@@ -278,3 +278,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 54
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 55
+
+Time complexity: O(n*k) where k is the alphabet size.
