@@ -1,0 +1,29 @@
+//
+// Created by ajaxian on 05/23/20.
+//
+
+#ifndef ALGORITHMS_TEST_TO_HEX_H
+#define ALGORITHMS_TEST_TO_HEX_H
+
+#include <stdlib.h>
+
+#include "../tests.h"
+#include "../../src/ToHexString/to_hex.h"
+
+static MunitResult test_to_hex_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    char* s;
+    s = to_hex_string(26);          munit_assert_string_equal(s, "1a");        free(s);
+    s = to_hex_string(-1);          munit_assert_string_equal(s, "ffffffff");  free(s);
+    s = to_hex_string(0);           munit_assert_string_equal(s, "0");         free(s);
+    s = to_hex_string(255);         munit_assert_string_equal(s, "ff");        free(s);
+    s = to_hex_string(-2);          munit_assert_string_equal(s, "fffffffe");  free(s);
+    s = to_hex_string(2147483647);  munit_assert_string_equal(s, "7fffffff");  free(s);
+    return MUNIT_OK;
+}
+
+MunitTest to_hex_tests[] = {
+    {"/basic", test_to_hex_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_TO_HEX_H

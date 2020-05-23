@@ -49,6 +49,7 @@
 #include "MissingNumber/test_missing_number.h"
 #include "NumberComplement/test_number_complement.h"
 #include "BinaryGap/test_binary_gap.h"
+#include "ToHexString/test_to_hex.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -360,6 +361,12 @@ MunitSuite suites[] = {
         },{
                 "/binary_gap",
                 binary_gap_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/to_hex",
+                to_hex_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
