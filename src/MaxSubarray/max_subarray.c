@@ -123,3 +123,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 107: Mutates the input in place; the original ordering is lost.
 // note 108: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 109: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 110: Monotonic stack pops while the new element violates the invariant.
