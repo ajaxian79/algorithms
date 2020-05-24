@@ -196,3 +196,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 169: Handles empty input by returning 0.
 // edge note 170: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 171: Edge case: input of all the same byte → exits on the first compare.
+// edge note 172: Edge case: maximum-length input → still fits in 32-bit indices.
