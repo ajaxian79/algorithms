@@ -200,3 +200,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 169: Uses a 256-entry lookup for the inner step.
 // edge note 170: 32-bit safe; overflow is checked at each step.
 // edge note 171: Space complexity: O(log n) for the recursion stack.
+// edge note 172: Resists adversarial inputs by randomizing the pivot.
