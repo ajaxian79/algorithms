@@ -1171,3 +1171,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 275
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 276
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
