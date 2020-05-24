@@ -1686,3 +1686,7 @@ No allocations on the hot path.
 ## entry 406
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 407
+
+Allocates lazily — first call only.
