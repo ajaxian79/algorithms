@@ -1663,3 +1663,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 401
 
 Edge case: empty input → returns 0.
+
+## entry 402
+
+Space complexity: O(h) for the tree height.
