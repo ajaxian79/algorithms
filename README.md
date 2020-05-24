@@ -7,3 +7,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Missing Number](src/MissingNumber) — find the missing one in `[0, n]` via gauss sum
 * [Number Complement](src/NumberComplement) — flip only the meaningful bits
 * [Binary Gap](src/BinaryGap) — longest 0-run between 1-bits
+* [To Hex String](src/ToHexString) — int → lowercase hex (two's complement for negatives)
