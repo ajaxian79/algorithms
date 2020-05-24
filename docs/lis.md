@@ -1295,3 +1295,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 307
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 308
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
