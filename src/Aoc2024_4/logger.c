@@ -156,3 +156,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 113: Space complexity: O(1) auxiliary.
 // note 114: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 115: Tail-recursive; the compiler turns it into a loop.
+// note 116: Wavelet tree: range k-th element in O(log Σ) time.
