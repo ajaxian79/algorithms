@@ -1301,3 +1301,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 309
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 310
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
