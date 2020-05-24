@@ -1680,3 +1680,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 404
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 405
+
+Edge case: power-of-two-length input → no padding required.
