@@ -76,3 +76,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 26: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 27: 32-bit safe; overflow is checked at each step.
 // note 28: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 29: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
