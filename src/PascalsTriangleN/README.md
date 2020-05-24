@@ -1602,3 +1602,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 385
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 386
+
+Edge case: empty input → returns 0.
