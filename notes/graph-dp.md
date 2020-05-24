@@ -1095,3 +1095,7 @@
 ## entry 274
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 275
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
