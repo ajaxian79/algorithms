@@ -1598,3 +1598,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 384
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 385
+
+Caller owns the returned array; free with a single `free`.
