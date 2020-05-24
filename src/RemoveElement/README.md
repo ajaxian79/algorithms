@@ -289,3 +289,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 58
 
 Vectorizes cleanly under -O2.
+
+## entry 59
+
+32-bit safe; overflow is checked at each step.
