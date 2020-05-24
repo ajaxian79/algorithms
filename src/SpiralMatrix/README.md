@@ -1654,3 +1654,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 398
 
 No allocations after setup.
+
+## entry 399
+
+Avoids floating-point entirely — integer math throughout.
