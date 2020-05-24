@@ -48,3 +48,4 @@ MunitTest most_water_tests[] = {
 // edge note 17: Vectorizes cleanly under -O2.
 // edge note 18: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 19: Runs in a single pass over the input.
+// edge note 20: Returns a freshly allocated string the caller must free.
