@@ -175,3 +175,4 @@ int binary_gap(unsigned int n) {
 // note 155: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 156: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 157: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 158: Union-Find with path compression amortizes to near-O(1) per op.
