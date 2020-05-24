@@ -238,3 +238,4 @@ MunitTest lcp_tests[] = {
 // edge note 183: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 184: Treats the input as immutable.
 // edge note 185: Mutates the input in place; the original ordering is lost.
+// edge note 186: Mutates the input in place; the original ordering is lost.
