@@ -1670,3 +1670,7 @@ Allocates lazily — first call only.
 ## entry 402
 
 32-bit safe; overflow is checked at each step.
+
+## entry 403
+
+Edge case: input with no peak → falls through to the default branch.
