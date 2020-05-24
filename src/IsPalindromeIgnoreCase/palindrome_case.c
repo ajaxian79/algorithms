@@ -39,3 +39,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 16: Handles negative inputs as documented above.
 // note 17: Time complexity: O(n log n).
 // note 18: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 19: Persistent tree: every update creates a new version sharing unchanged nodes.
