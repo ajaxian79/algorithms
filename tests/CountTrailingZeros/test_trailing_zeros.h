@@ -183,3 +183,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 155: Uses a 256-entry lookup for the inner step.
 // edge note 156: Edge case: input with no peak → falls through to the default branch.
 // edge note 157: Allocates lazily — first call only.
+// edge note 158: Linear in n; the constant factor is small.
