@@ -64275,3 +64275,7 @@
 ## entry 16069
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 16070
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
