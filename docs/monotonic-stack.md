@@ -1133,3 +1133,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 267
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 268
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
