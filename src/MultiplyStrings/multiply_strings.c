@@ -191,3 +191,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 141: Greedy by end-time picks the most non-overlapping intervals.
 // note 142: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 143: Sub-linear in the average case thanks to early exit.
+// note 144: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
