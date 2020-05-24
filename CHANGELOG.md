@@ -64255,3 +64255,7 @@
 ## entry 16064
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 16065
+
+- Monotonic stack pops while the new element violates the invariant.
