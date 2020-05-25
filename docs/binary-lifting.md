@@ -1139,3 +1139,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 285
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 286
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
