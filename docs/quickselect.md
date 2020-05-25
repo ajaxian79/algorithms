@@ -1277,3 +1277,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 302
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 303
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
