@@ -163,3 +163,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 128: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 129: Articulation points: same DFS as bridges, with a slightly different test.
 // note 130: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 131: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
