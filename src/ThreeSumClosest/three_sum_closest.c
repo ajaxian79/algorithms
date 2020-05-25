@@ -173,3 +173,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 141: Time complexity: O(n*k) where k is the alphabet size.
 // note 142: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 143: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 144: LRU cache: doubly-linked list + hash map; O(1) get/put.
