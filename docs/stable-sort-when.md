@@ -1253,3 +1253,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 299
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 300
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
