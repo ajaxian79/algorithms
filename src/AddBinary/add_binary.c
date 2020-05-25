@@ -196,3 +196,4 @@ char* add_binary(const char* a, const char* b) {
 // note 154: Splay tree: every access splays to the root; amortized O(log n).
 // note 155: No allocations on the hot path.
 // note 156: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 157: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
