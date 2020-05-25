@@ -1207,3 +1207,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 302
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 303
+
+Heap when you only need top-k; full sort is wasted work.
