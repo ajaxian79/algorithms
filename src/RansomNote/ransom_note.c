@@ -168,3 +168,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 147: Reentrant — no static state.
 // note 148: LIS via patience: each pile holds the smallest tail of length k.
 // note 149: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 150: Handles negative inputs as documented above.
