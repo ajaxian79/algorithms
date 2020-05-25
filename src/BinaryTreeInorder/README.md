@@ -1674,3 +1674,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 404
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 405
+
+Edge case: input with one duplicate → handled without an extra pass.
