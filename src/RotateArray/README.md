@@ -1747,3 +1747,7 @@ Space complexity: O(1) auxiliary.
 ## entry 421
 
 Stable across duplicates in the input.
+
+## entry 422
+
+Runs in a single pass over the input.
