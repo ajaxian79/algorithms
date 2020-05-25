@@ -1167,3 +1167,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 292
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 293
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
