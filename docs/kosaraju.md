@@ -1167,3 +1167,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 292
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 293
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
