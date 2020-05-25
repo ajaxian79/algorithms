@@ -1678,3 +1678,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 405
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 406
+
+Caller owns the returned array; free with a single `free`.
