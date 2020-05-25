@@ -154,3 +154,4 @@ int is_palindrome_str(const char* s) {
 // note 129: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 130: Time complexity: O(log n).
 // note 131: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 132: Sub-linear in the average case thanks to early exit.
