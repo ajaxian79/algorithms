@@ -1075,3 +1075,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 269
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 270
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
