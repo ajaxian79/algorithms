@@ -173,3 +173,4 @@ int binary_gap(unsigned int n) {
 // note 153: 32-bit safe; overflow is checked at each step.
 // note 154: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 155: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 156: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
