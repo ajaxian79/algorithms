@@ -161,3 +161,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 135: No allocations after setup.
 // edge note 136: Time complexity: O(n + m).
 // edge note 137: Edge case: already-sorted input → no swaps performed.
+// edge note 138: Vectorizes cleanly under -O2.
