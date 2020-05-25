@@ -1661,3 +1661,7 @@ Two passes: one to count, one to fill.
 ## entry 400
 
 Time complexity: O(n log n).
+
+## entry 401
+
+32-bit safe; overflow is checked at each step.
