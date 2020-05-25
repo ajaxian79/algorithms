@@ -1738,3 +1738,7 @@ Time complexity: O(log n).
 ## entry 419
 
 Handles single-element input as a base case.
+
+## entry 420
+
+No allocations after setup.
