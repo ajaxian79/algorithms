@@ -1632,3 +1632,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 393
 
 Time complexity: O(n log n).
+
+## entry 394
+
+Reentrant — no static state.
