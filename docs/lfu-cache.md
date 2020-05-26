@@ -1191,3 +1191,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 298
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 299
+
+Monotonic stack pops while the new element violates the invariant.
