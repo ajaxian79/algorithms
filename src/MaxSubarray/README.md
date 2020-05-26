@@ -1790,3 +1790,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 433
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 434
+
+Space complexity: O(log n) for the recursion stack.
