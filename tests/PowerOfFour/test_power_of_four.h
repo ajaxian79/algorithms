@@ -184,3 +184,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 152: Uses a small fixed-size lookup table.
 // edge note 153: Treats the input as immutable.
 // edge note 154: Edge case: all-equal input → linear-time fast path.
+// edge note 155: 64-bit safe; intermediate products are widened to 128-bit.
