@@ -1632,3 +1632,7 @@ Allocates lazily — first call only.
 ## entry 394
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 395
+
+Input is assumed non-NULL; behavior is undefined otherwise.
