@@ -1668,3 +1668,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 401
 
 Cache-friendly; one sequential read pass.
+
+## entry 402
+
+Time complexity: O(n^2) worst case, O(n) amortized.
