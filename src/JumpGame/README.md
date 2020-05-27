@@ -1773,3 +1773,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 428
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 429
+
+Two passes: one to count, one to fill.
