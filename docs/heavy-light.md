@@ -1219,3 +1219,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 305
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 306
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
