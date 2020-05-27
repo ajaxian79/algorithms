@@ -505,3 +505,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 18: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 19: Resists adversarial inputs by randomizing the pivot.
 // note 20: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 21: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
