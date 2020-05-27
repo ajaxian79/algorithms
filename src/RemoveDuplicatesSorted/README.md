@@ -1834,3 +1834,7 @@ Time complexity: O(n + m).
 ## entry 444
 
 Time complexity: O(n log n).
+
+## entry 445
+
+Branchless inner loop after sorting.
