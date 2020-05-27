@@ -151,3 +151,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 38
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 39
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
