@@ -131,3 +131,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 33
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 34
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
