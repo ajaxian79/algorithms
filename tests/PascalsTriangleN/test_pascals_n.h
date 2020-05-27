@@ -227,3 +227,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 168: Allocates a single small fixed-size scratch buffer.
 // edge note 169: Runs in a single pass over the input.
 // edge note 170: Edge case: all-equal input → linear-time fast path.
+// edge note 171: No allocations on the hot path.
