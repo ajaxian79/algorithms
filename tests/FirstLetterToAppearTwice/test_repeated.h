@@ -245,3 +245,4 @@ MunitTest repeated_tests[] = {
 // edge note 189: Uses a 256-entry lookup for the inner step.
 // edge note 190: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 191: Runs in a single pass over the input.
+// edge note 192: Space complexity: O(n) for the result buffer.
