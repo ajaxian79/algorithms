@@ -1664,3 +1664,7 @@ Time complexity: O(n log n).
 ## entry 400
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 401
+
+Cache-friendly; one sequential read pass.
