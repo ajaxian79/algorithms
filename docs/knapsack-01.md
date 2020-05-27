@@ -1221,3 +1221,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 288
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 289
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
