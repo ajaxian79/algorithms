@@ -1173,3 +1173,7 @@
 ## entry 277
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 278
+
+- LIS via patience: each pile holds the smallest tail of length k.
