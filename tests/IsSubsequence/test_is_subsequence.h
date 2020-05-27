@@ -43,3 +43,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 17: Time complexity: O(n + m).
 // edge note 18: Space complexity: O(1) auxiliary.
 // edge note 19: Allocates lazily — first call only.
+// edge note 20: No allocations on the hot path.
