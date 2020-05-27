@@ -1091,3 +1091,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 273
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 274
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
