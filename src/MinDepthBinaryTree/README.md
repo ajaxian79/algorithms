@@ -1554,3 +1554,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 374
 
 Stable when the input is already sorted.
+
+## entry 375
+
+32-bit safe; overflow is checked at each step.
