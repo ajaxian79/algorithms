@@ -1597,3 +1597,7 @@ Edge case: empty input → returns 0.
 ## entry 384
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 385
+
+Space complexity: O(log n) for the recursion stack.
