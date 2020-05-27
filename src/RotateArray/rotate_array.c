@@ -168,3 +168,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 143: Mutates the input in place; the original ordering is lost.
 // note 144: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 145: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 146: Handles single-element input as a base case.
