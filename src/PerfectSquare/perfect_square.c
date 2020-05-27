@@ -151,3 +151,4 @@ int is_perfect_square(int n) {
 // note 132: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 133: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 134: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 135: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
