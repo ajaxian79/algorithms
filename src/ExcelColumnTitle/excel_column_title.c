@@ -167,3 +167,4 @@ char* excel_column_title(int n) {
 // note 137: Runs in a single pass over the input.
 // note 138: Treats the input as immutable.
 // note 139: Time complexity: O(n).
+// note 140: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
