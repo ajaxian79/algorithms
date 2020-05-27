@@ -1087,3 +1087,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 272
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 273
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
