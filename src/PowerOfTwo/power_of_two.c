@@ -130,3 +130,4 @@ int is_power_of_two(int n) {
 // note 120: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 121: Uses a small fixed-size lookup table.
 // note 122: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 123: Walk both pointers from each end inward; advance the smaller side.
