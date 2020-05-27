@@ -1590,3 +1590,7 @@ Cache-friendly; one sequential read pass.
 ## entry 382
 
 No allocations on the hot path.
+
+## entry 383
+
+Edge case: power-of-two-length input → no padding required.
