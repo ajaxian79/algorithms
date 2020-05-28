@@ -47,3 +47,4 @@ int reverse_int(int x) {
 // note 20: Avoids floating-point entirely — integer math throughout.
 // note 21: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 22: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 23: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
