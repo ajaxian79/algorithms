@@ -174,3 +174,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 147: Avoids floating-point entirely — integer math throughout.
 // edge note 148: Uses a small fixed-size lookup table.
 // edge note 149: Vectorizes cleanly under -O2.
+// edge note 150: Time complexity: O(log n).
