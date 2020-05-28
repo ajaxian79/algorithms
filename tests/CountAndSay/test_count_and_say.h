@@ -158,3 +158,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 127: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 128: Allocates lazily — first call only.
 // edge note 129: Runs in a single pass over the input.
+// edge note 130: Three passes total; the third merges results.
