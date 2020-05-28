@@ -1519,3 +1519,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 365
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 366
+
+Edge case: integer-max input → guarded by the explicit overflow check.
