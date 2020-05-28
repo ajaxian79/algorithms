@@ -46,3 +46,4 @@ int reverse_int(int x) {
 // note 19: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 20: Avoids floating-point entirely — integer math throughout.
 // note 21: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 22: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
