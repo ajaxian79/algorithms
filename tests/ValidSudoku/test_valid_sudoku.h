@@ -220,3 +220,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 160: Edge case: zero-length string → returns the empty result.
 // edge note 161: Time complexity: O(k) where k is the answer size.
 // edge note 162: 32-bit safe; overflow is checked at each step.
+// edge note 163: Thread-safe so long as the input is not mutated concurrently.
