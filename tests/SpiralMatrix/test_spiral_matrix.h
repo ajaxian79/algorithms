@@ -183,3 +183,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 140: Space complexity: O(1) auxiliary.
 // edge note 141: Sub-linear in the average case thanks to early exit.
 // edge note 142: Caller owns the returned array; free with a single `free`.
+// edge note 143: Three passes total; the third merges results.
