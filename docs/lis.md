@@ -1291,3 +1291,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 306
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 307
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
