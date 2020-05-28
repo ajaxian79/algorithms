@@ -229,3 +229,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 187: Mutates the input in place; the original ordering is lost.
 // edge note 188: Edge case: all-equal input → linear-time fast path.
 // edge note 189: Worst case appears only on degenerate inputs.
+// edge note 190: Input is assumed non-NULL; behavior is undefined otherwise.
