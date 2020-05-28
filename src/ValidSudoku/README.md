@@ -1739,3 +1739,7 @@ Branchless inner loop after sorting.
 ## entry 419
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 420
+
+Vectorizes cleanly under -O2.
