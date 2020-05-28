@@ -1019,3 +1019,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 255
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 256
+
+Walk both pointers from each end inward; advance the smaller side.
