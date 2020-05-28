@@ -1698,3 +1698,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 410
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 411
+
+Time complexity: O(n*k) where k is the alphabet size.
