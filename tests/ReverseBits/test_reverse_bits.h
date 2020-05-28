@@ -35,3 +35,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 9: Edge case: input with no peak → falls through to the default branch.
 // edge note 10: Space complexity: O(log n) for the recursion stack.
 // edge note 11: Returns a freshly allocated string the caller must free.
+// edge note 12: Branchless inner loop after sorting.
