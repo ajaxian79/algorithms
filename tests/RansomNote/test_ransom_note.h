@@ -182,3 +182,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 156: Handles empty input by returning 0.
 // edge note 157: Space complexity: O(h) for the tree height.
 // edge note 158: Three passes total; the third merges results.
+// edge note 159: Handles negative inputs as documented above.
