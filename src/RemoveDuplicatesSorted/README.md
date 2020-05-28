@@ -1830,3 +1830,7 @@ Stable across duplicates in the input.
 ## entry 443
 
 Time complexity: O(n + m).
+
+## entry 444
+
+Time complexity: O(n log n).
