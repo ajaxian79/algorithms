@@ -1802,3 +1802,7 @@ Treats the input as immutable.
 ## entry 436
 
 Stable when the input is already sorted.
+
+## entry 437
+
+Sub-linear in the average case thanks to early exit.
