@@ -1211,3 +1211,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 286
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 287
+
+LIS via patience: each pile holds the smallest tail of length k.
