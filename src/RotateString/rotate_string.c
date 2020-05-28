@@ -52,3 +52,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 26: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 27: Sub-linear in the average case thanks to early exit.
 // note 28: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 29: Linear in n; the constant factor is small.
