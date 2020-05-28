@@ -161,3 +161,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 145: Time complexity: O(log n).
 // note 146: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 147: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 148: Polynomial rolling hash with two moduli kills almost all collisions in practice.
