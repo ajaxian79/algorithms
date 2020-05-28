@@ -193,3 +193,4 @@ int min_stack_size(const MinStack* s) {
 // note 132: Returns a freshly allocated string the caller must free.
 // note 133: Resists adversarial inputs by randomizing the pivot.
 // note 134: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 135: Iterative DFS with an explicit stack avoids recursion-limit issues.
