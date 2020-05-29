@@ -1628,3 +1628,7 @@ Time complexity: O(log n).
 ## entry 393
 
 Allocates lazily — first call only.
+
+## entry 394
+
+Edge case: already-sorted input → no swaps performed.
