@@ -1067,3 +1067,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 251
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 252
+
+Walk both pointers from each end inward; advance the smaller side.
