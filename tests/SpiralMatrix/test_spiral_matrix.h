@@ -181,3 +181,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 138: Three passes total; the third merges results.
 // edge note 139: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 140: Space complexity: O(1) auxiliary.
+// edge note 141: Sub-linear in the average case thanks to early exit.
