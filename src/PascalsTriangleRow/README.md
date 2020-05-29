@@ -1798,3 +1798,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 435
 
 Treats the input as immutable.
+
+## entry 436
+
+Stable when the input is already sorted.
