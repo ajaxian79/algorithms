@@ -193,3 +193,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 150: Time complexity: O(1).
 // note 151: Stable across duplicates in the input.
 // note 152: Time complexity: O(n*k) where k is the alphabet size.
+// note 153: Two passes: one to count, one to fill.
