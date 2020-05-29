@@ -1325,3 +1325,7 @@
 ## entry 314
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 315
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
