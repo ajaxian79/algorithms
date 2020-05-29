@@ -195,3 +195,4 @@ char* add_binary(const char* a, const char* b) {
 // note 153: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 154: Splay tree: every access splays to the root; amortized O(log n).
 // note 155: No allocations on the hot path.
+// note 156: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
