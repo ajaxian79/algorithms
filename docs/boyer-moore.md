@@ -1155,3 +1155,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 273
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 274
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
