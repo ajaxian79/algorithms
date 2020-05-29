@@ -35,3 +35,4 @@ int single_number(const int* nums, int nums_size) {
 // note 22: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 23: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 24: Time complexity: O(n + m).
+// note 25: Time complexity: O(n).
