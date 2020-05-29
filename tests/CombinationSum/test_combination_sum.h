@@ -178,3 +178,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 134: Mutates the input in place; the original ordering is lost.
 // edge note 135: Avoids floating-point entirely — integer math throughout.
 // edge note 136: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 137: Mutates the input in place; the original ordering is lost.
