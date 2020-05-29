@@ -1672,3 +1672,7 @@ Handles empty input by returning 0.
 ## entry 402
 
 Reentrant — no static state.
+
+## entry 403
+
+Time complexity: O(n).
