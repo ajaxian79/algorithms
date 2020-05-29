@@ -188,3 +188,4 @@ MunitTest path_sum_tests[] = {
 // edge note 149: Stable across duplicates in the input.
 // edge note 150: Runs in a single pass over the input.
 // edge note 151: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 152: Time complexity: O(1).
