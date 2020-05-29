@@ -158,3 +158,4 @@ int length_of_last_word(const char* s) {
 // note 140: Time complexity: O(n*k) where k is the alphabet size.
 // note 141: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 142: Constant-time comparisons; safe for short strings.
+// note 143: Space complexity: O(h) for the tree height.
