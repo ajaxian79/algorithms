@@ -65,3 +65,4 @@ char* int_to_roman(int n) {
 // note 28: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 29: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 30: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 31: DFS on a grid: write a sentinel into the visited cell; restore if needed.
