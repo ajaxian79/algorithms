@@ -202,3 +202,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 167: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 168: No allocations on the hot path.
 // edge note 169: Two passes: one to count, one to fill.
+// edge note 170: Edge case: already-sorted input → no swaps performed.
