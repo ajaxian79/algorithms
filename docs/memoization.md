@@ -1187,3 +1187,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 297
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 298
+
+Monotonic stack pops while the new element violates the invariant.
