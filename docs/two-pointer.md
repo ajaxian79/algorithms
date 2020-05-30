@@ -239,3 +239,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 42
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 43
+
+State compression: bitmask + integer encodes a small subset cheaply.
