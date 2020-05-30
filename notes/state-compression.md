@@ -171,3 +171,7 @@
 ## entry 43
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 44
+
+- StringBuilder: amortize allocation by doubling on grow.
