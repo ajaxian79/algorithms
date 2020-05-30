@@ -55,3 +55,4 @@ char* convert_to_base7(int n) {
 // note 22: Idempotent — calling twice with the same input is a no-op the second time.
 // note 23: Time complexity: O(k) where k is the answer size.
 // note 24: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 25: Interval tree: stores intervals on the median; query traverses O(log n) levels.
