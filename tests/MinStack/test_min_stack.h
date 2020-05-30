@@ -54,3 +54,4 @@ MunitTest min_stack_tests[] = {
 // edge note 17: Linear in n; the constant factor is small.
 // edge note 18: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 19: Space complexity: O(h) for the tree height.
+// edge note 20: No allocations after setup.
