@@ -1,0 +1,27 @@
+//
+// Created by ajaxian on 05/30/20.
+//
+
+#ifndef ALGORITHMS_TEST_ADD_DIGITS_H
+#define ALGORITHMS_TEST_ADD_DIGITS_H
+
+#include "../tests.h"
+#include "../../src/AddDigits/add_digits.h"
+
+static MunitResult test_add_digits_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    munit_assert_int(add_digits(38),    ==, 2);
+    munit_assert_int(add_digits(0),     ==, 0);
+    munit_assert_int(add_digits(9),     ==, 9);
+    munit_assert_int(add_digits(18),    ==, 9);
+    munit_assert_int(add_digits(19),    ==, 1);
+    munit_assert_int(add_digits(99999), ==, 9);
+    munit_assert_int(add_digits(1),     ==, 1);
+    return MUNIT_OK;
+}
+
+MunitTest add_digits_tests[] = {
+    {"/basic", test_add_digits_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_ADD_DIGITS_H

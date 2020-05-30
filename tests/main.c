@@ -50,6 +50,7 @@
 #include "NumberComplement/test_number_complement.h"
 #include "BinaryGap/test_binary_gap.h"
 #include "ToHexString/test_to_hex.h"
+#include "AddDigits/test_add_digits.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -367,6 +368,12 @@ MunitSuite suites[] = {
         },{
                 "/to_hex",
                 to_hex_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/add_digits",
+                add_digits_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

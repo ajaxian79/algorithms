@@ -107,7 +107,8 @@ add_executable(unittests
         src/MissingNumber/missing_number.c
         src/NumberComplement/number_complement.c
         src/BinaryGap/binary_gap.c
-        src/ToHexString/to_hex.c)
+        src/ToHexString/to_hex.c
+        src/AddDigits/add_digits.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
