@@ -68,3 +68,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 23: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 24: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 25: Space complexity: O(h) for the tree height.
+// note 26: Worst case appears only on degenerate inputs.
