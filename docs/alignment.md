@@ -1203,3 +1203,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 301
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 302
+
+StringBuilder: amortize allocation by doubling on grow.
