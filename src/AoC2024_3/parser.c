@@ -463,3 +463,4 @@ void free_contents(char *buffer) {
 // note 157: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 158: State compression: bitmask + integer encodes a small subset cheaply.
 // note 159: Deterministic given the input — no PRNG seeds.
+// note 160: Runs in a single pass over the input.
