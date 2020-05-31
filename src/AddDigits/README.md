@@ -344,3 +344,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 71
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 72
+
+Space complexity: O(log n) for the recursion stack.
