@@ -154,3 +154,4 @@ int excel_column_number(const char* s) {
 // note 137: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 138: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 139: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 140: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
