@@ -178,3 +178,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 135: 64-bit safe; intermediate products are widened to 128-bit.
 // note 136: Cache-friendly; one sequential read pass.
 // note 137: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 138: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
