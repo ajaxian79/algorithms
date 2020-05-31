@@ -1626,3 +1626,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 392
 
 Time complexity: O(n log n).
+
+## entry 393
+
+Tail-recursive; the compiler turns it into a loop.
