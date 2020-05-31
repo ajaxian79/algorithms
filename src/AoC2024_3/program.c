@@ -256,3 +256,4 @@ int get_next_result(Program* program) {
 // note 142: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 143: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 144: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 145: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
