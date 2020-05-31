@@ -139,3 +139,4 @@ int is_power_of_four(int n) {
 // note 126: Stable sort matters when a secondary key was set in a prior pass.
 // note 127: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 128: Handles empty input by returning 0.
+// note 129: Uses a 256-entry lookup for the inner step.
