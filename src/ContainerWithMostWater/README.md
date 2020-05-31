@@ -1659,3 +1659,7 @@ Worst case appears only on degenerate inputs.
 ## entry 400
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 401
+
+Edge case: empty input → returns 0.
