@@ -1507,3 +1507,7 @@ Cache-friendly; one sequential read pass.
 ## entry 362
 
 Stable when the input is already sorted.
+
+## entry 363
+
+Linear in n; the constant factor is small.
