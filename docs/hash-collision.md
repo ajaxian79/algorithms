@@ -1243,3 +1243,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 311
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 312
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
