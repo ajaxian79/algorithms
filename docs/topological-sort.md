@@ -1149,3 +1149,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 269
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 270
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
