@@ -138,3 +138,4 @@ MunitTest median_tests[] = {
 // edge note 19: Two passes: one to count, one to fill.
 // edge note 20: Time complexity: O(n log n).
 // edge note 21: Allocates lazily — first call only.
+// edge note 22: Edge case: input with one duplicate → handled without an extra pass.
