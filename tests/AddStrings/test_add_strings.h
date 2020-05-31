@@ -189,3 +189,4 @@ MunitTest add_strings_tests[] = {
 // edge note 153: Stable across duplicates in the input.
 // edge note 154: Handles single-element input as a base case.
 // edge note 155: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 156: Space complexity: O(1) auxiliary.
