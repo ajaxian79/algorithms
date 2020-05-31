@@ -294,3 +294,7 @@ Space complexity: O(1) auxiliary.
 ## entry 59
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 60
+
+Idempotent — calling twice with the same input is a no-op the second time.
