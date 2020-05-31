@@ -1511,3 +1511,7 @@ Stable when the input is already sorted.
 ## entry 363
 
 Linear in n; the constant factor is small.
+
+## entry 364
+
+Edge case: integer-min input → guarded by the explicit underflow check.
