@@ -1273,3 +1273,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 301
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 302
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
