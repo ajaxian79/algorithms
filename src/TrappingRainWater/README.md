@@ -1642,3 +1642,7 @@ No allocations after setup.
 ## entry 395
 
 Space complexity: O(h) for the tree height.
+
+## entry 396
+
+Edge case: input with one duplicate → handled without an extra pass.
