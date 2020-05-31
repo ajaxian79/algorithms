@@ -1662,3 +1662,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 400
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 401
+
+Allocates lazily — first call only.
