@@ -1730,3 +1730,7 @@ Three passes total; the third merges results.
 ## entry 417
 
 Edge case: empty input → returns 0.
+
+## entry 418
+
+Time complexity: O(log n).
