@@ -158,3 +158,4 @@ unsigned int find_complement(unsigned int n) {
 // note 142: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 143: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 144: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 145: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
