@@ -1181,3 +1181,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 279
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 280
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
