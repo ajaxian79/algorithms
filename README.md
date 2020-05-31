@@ -8,3 +8,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Number Complement](src/NumberComplement) — flip only the meaningful bits
 * [Binary Gap](src/BinaryGap) — longest 0-run between 1-bits
 * [To Hex String](src/ToHexString) — int → lowercase hex (two's complement for negatives)
+* [Add Digits](src/AddDigits) — closed-form digital root
