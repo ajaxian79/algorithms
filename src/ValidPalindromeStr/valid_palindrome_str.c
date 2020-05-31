@@ -152,3 +152,4 @@ int is_palindrome_str(const char* s) {
 // note 127: Treats the input as immutable.
 // note 128: Tail-recursive; the compiler turns it into a loop.
 // note 129: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 130: Time complexity: O(log n).
