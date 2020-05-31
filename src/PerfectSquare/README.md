@@ -1702,3 +1702,7 @@ Uses a small fixed-size lookup table.
 ## entry 411
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 412
+
+Edge case: integer-min input → guarded by the explicit underflow check.
