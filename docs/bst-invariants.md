@@ -1197,3 +1197,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 283
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 284
+
+Monotonic stack pops while the new element violates the invariant.
