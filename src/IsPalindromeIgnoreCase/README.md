@@ -1558,3 +1558,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 375
 
 Uses a small fixed-size lookup table.
+
+## entry 376
+
+Edge case: all-equal input → linear-time fast path.
