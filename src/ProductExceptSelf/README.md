@@ -1672,3 +1672,7 @@ Treats the input as immutable.
 ## entry 402
 
 Time complexity: O(1).
+
+## entry 403
+
+Best case is O(1) when the first byte already decides the answer.
