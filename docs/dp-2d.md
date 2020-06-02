@@ -247,3 +247,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 46
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 47
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
