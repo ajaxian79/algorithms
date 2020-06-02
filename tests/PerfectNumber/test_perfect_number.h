@@ -196,3 +196,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 166: Caller owns the returned array; free with a single `free`.
 // edge note 167: Vectorizes cleanly under -O2.
 // edge note 168: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 169: Edge case: integer-max input → guarded by the explicit overflow check.
