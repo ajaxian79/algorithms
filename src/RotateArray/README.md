@@ -1743,3 +1743,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 420
 
 Space complexity: O(1) auxiliary.
+
+## entry 421
+
+Stable across duplicates in the input.
