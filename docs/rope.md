@@ -1183,3 +1183,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 296
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 297
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
