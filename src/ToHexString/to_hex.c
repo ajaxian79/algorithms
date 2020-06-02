@@ -143,3 +143,4 @@ char* to_hex_string(int n) {
 // note 110: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 111: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 112: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 113: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
