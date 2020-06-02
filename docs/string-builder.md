@@ -1151,3 +1151,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 288
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 289
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
