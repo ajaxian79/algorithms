@@ -199,3 +199,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 50
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 51
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
