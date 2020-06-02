@@ -1790,3 +1790,7 @@ Linear in n; the constant factor is small.
 ## entry 433
 
 Cache-friendly; one sequential read pass.
+
+## entry 434
+
+Input is assumed non-NULL; behavior is undefined otherwise.
