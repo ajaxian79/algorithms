@@ -170,3 +170,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 136: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 137: Cache-friendly; one sequential read pass.
 // note 138: Time complexity: O(n).
+// note 139: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
