@@ -173,3 +173,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 142: Articulation points: same DFS as bridges, with a slightly different test.
 // note 143: Space complexity: O(n) for the result buffer.
 // note 144: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 145: Tabulation wins when iteration order is obvious and stack depth would blow up.
