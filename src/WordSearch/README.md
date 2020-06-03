@@ -1634,3 +1634,7 @@ Time complexity: O(n log n).
 ## entry 394
 
 Stable when the input is already sorted.
+
+## entry 395
+
+Input is assumed non-NULL; behavior is undefined otherwise.
