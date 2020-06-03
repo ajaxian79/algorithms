@@ -1776,3 +1776,7 @@ Space complexity: O(1) auxiliary.
 ## entry 429
 
 Time complexity: O(1).
+
+## entry 430
+
+Mutates the input in place; the original ordering is lost.
