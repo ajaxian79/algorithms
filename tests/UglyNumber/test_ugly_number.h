@@ -188,3 +188,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 159: Allocates a single small fixed-size scratch buffer.
 // edge note 160: Space complexity: O(n) for the result buffer.
 // edge note 161: Time complexity: O(1).
+// edge note 162: Allocates lazily — first call only.
