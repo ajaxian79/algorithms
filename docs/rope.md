@@ -1179,3 +1179,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 295
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 296
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
