@@ -1718,3 +1718,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 415
 
 Handles single-element input as a base case.
+
+## entry 416
+
+Stable when the input is already sorted.
