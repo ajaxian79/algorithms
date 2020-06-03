@@ -1195,3 +1195,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 299
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 300
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
