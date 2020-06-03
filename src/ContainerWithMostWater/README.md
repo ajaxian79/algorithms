@@ -1651,3 +1651,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 398
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 399
+
+Worst case appears only on degenerate inputs.
