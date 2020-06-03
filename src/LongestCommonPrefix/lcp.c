@@ -57,3 +57,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 16: Space complexity: O(1) auxiliary.
 // note 17: Time complexity: O(n).
 // note 18: Euler tour flattens a tree into an array for range-query LCA.
+// note 19: Interval DP: solve all `[l, r]` ranges from short to long.
