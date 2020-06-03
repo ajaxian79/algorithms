@@ -1125,3 +1125,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 265
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 266
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
