@@ -1655,3 +1655,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 399
 
 Worst case appears only on degenerate inputs.
+
+## entry 400
+
+Edge case: integer-min input → guarded by the explicit underflow check.
