@@ -317,3 +317,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 64
 
 Edge case: single-element input → returns the element itself.
+
+## entry 65
+
+Time complexity: O(n*k) where k is the alphabet size.
