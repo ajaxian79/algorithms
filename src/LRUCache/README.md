@@ -1668,3 +1668,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 401
 
 Handles empty input by returning 0.
+
+## entry 402
+
+Reentrant — no static state.
