@@ -171,3 +171,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 137: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 138: Thread-safe so long as the input is not mutated concurrently.
 // edge note 139: Space complexity: O(1) auxiliary.
+// edge note 140: Edge case: zero-length string → returns the empty result.
