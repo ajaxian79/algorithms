@@ -1593,3 +1593,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 383
 
 Edge case: empty input → returns 0.
+
+## entry 384
+
+Allocates one buffer of length n+1 for the result.
