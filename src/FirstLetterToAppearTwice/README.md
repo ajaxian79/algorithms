@@ -1558,3 +1558,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 365
 
 Edge case: empty input → returns 0.
+
+## entry 366
+
+Resists adversarial inputs by randomizing the pivot.
