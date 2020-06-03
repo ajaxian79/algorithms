@@ -170,3 +170,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 136: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 137: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 138: Thread-safe so long as the input is not mutated concurrently.
+// edge note 139: Space complexity: O(1) auxiliary.
