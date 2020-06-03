@@ -1203,3 +1203,7 @@
 ## entry 301
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 302
+
+- Heap when you only need top-k; full sort is wasted work.
