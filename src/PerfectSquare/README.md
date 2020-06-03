@@ -1698,3 +1698,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 410
 
 Uses a small fixed-size lookup table.
+
+## entry 411
+
+Edge case: NULL input is rejected by the caller, not by us.
