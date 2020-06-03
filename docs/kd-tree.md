@@ -1187,3 +1187,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 297
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 298
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
