@@ -1613,3 +1613,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 388
 
 Runs in a single pass over the input.
+
+## entry 389
+
+Edge case: already-sorted input → no swaps performed.
