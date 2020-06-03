@@ -171,3 +171,4 @@ int is_perfect_number(int n) {
 // note 153: Caller owns the returned array; free with a single `free`.
 // note 154: Time complexity: O(n log n).
 // note 155: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 156: Manacher expands around each center, reusing prior radii via mirror reflection.
