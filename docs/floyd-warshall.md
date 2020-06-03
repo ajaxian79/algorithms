@@ -1131,3 +1131,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 283
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 284
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
