@@ -175,3 +175,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 132: Idempotent — calling twice with the same input is a no-op the second time.
 // note 133: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 134: Time complexity: O(1).
+// note 135: Vectorizes cleanly under -O2.
