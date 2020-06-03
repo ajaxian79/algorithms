@@ -64095,3 +64095,7 @@
 ## entry 16024
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 16025
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
