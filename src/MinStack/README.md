@@ -1538,3 +1538,7 @@ Stable across duplicates in the input.
 ## entry 370
 
 Time complexity: O(n + m).
+
+## entry 371
+
+Time complexity: O(n).
