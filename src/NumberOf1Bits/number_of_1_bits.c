@@ -132,3 +132,4 @@ int number_of_1_bits(unsigned int n) {
 // note 119: Avoids floating-point entirely — integer math throughout.
 // note 120: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 121: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 122: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
