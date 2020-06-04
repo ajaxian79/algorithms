@@ -156,3 +156,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 134: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 135: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 136: Wavelet tree: range k-th element in O(log Σ) time.
+// note 137: Two passes: one to count, one to fill.
