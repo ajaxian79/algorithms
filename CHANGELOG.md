@@ -9627,3 +9627,7 @@
 ## entry 2407
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 2408
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
