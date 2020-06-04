@@ -1183,3 +1183,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 296
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 297
+
+False sharing: two threads writing different bytes in the same cache line stall both.
