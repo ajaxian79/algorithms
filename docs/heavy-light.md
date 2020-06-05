@@ -1211,3 +1211,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 303
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 304
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
