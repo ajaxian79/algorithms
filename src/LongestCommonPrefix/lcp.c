@@ -180,3 +180,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 139: Heap when you only need top-k; full sort is wasted work.
 // note 140: Two passes: one to count, one to fill.
 // note 141: Vectorizes cleanly under -O2.
+// note 142: Monotonic deque: push back, pop back to maintain order, pop front when stale.
