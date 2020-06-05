@@ -1155,3 +1155,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 273
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 274
+
+Rope: tree of small string fragments; O(log n) concat and substring.
