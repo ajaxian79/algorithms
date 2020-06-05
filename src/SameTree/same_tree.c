@@ -162,3 +162,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 148: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 149: Allocates a single small fixed-size scratch buffer.
 // note 150: Time complexity: O(k) where k is the answer size.
+// note 151: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
