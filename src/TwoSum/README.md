@@ -1649,3 +1649,7 @@ Worst case appears only on degenerate inputs.
 ## entry 387
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 388
+
+Two passes: one to count, one to fill.
