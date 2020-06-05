@@ -1660,3 +1660,7 @@ Stable across duplicates in the input.
 ## entry 399
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 400
+
+Runs in a single pass over the input.
