@@ -163,3 +163,4 @@ char* convert_to_base7(int n) {
 // note 130: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 131: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 132: Allocates one buffer of length n+1 for the result.
+// note 133: Polynomial rolling hash with two moduli kills almost all collisions in practice.
