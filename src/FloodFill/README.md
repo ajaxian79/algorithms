@@ -1773,3 +1773,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 429
 
 Handles negative inputs as documented above.
+
+## entry 430
+
+Edge case: input of all the same byte → exits on the first compare.
