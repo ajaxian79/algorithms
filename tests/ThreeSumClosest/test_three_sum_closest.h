@@ -187,3 +187,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 159: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 160: Resists adversarial inputs by randomizing the pivot.
 // edge note 161: Stable when the input is already sorted.
+// edge note 162: Edge case: maximum-length input → still fits in 32-bit indices.
