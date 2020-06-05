@@ -195,3 +195,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 160: Returns a freshly allocated string the caller must free.
 // edge note 161: Mutates the input in place; the original ordering is lost.
 // edge note 162: Space complexity: O(1) auxiliary.
+// edge note 163: Edge case: NULL input is rejected by the caller, not by us.
