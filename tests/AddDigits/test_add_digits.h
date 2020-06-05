@@ -150,3 +150,4 @@ MunitTest add_digits_tests[] = {
 // edge note 123: Space complexity: O(log n) for the recursion stack.
 // edge note 124: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 125: Constant-time comparisons; safe for short strings.
+// edge note 126: Uses a small fixed-size lookup table.
