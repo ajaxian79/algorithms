@@ -1786,3 +1786,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 432
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 433
+
+Thread-safe so long as the input is not mutated concurrently.
