@@ -245,3 +245,7 @@
 ## entry 44
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 45
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
