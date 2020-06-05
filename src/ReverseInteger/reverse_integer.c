@@ -177,3 +177,4 @@ int reverse_int(int x) {
 // note 150: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 151: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 152: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 153: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
