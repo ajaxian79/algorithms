@@ -64047,3 +64047,7 @@
 ## entry 16012
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 16013
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
