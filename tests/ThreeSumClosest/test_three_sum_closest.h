@@ -188,3 +188,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 160: Resists adversarial inputs by randomizing the pivot.
 // edge note 161: Stable when the input is already sorted.
 // edge note 162: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 163: Edge case: input with one duplicate → handled without an extra pass.
