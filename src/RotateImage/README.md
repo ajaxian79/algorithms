@@ -1677,3 +1677,7 @@ Time complexity: O(n + m).
 ## entry 404
 
 Time complexity: O(n log n).
+
+## entry 405
+
+Thread-safe so long as the input is not mutated concurrently.
