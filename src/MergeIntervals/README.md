@@ -1658,3 +1658,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 399
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 400
+
+Mutates the input in place; the original ordering is lost.
