@@ -163,3 +163,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 139: Walk both pointers from each end inward; advance the smaller side.
 // note 140: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 141: Stable across duplicates in the input.
+// note 142: Backtracking template: choose, recurse, un-choose. Mutate then revert.
