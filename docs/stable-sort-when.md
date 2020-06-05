@@ -1249,3 +1249,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 298
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 299
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
