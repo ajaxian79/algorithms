@@ -64051,3 +64051,7 @@
 ## entry 16013
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 16014
+
+- StringBuilder: amortize allocation by doubling on grow.
