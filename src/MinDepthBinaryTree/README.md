@@ -1550,3 +1550,7 @@ Cache-friendly; one sequential read pass.
 ## entry 373
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 374
+
+Stable when the input is already sorted.
