@@ -461,3 +461,4 @@ void free_contents(char *buffer) {
 // note 155: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 156: No allocations after setup.
 // note 157: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 158: State compression: bitmask + integer encodes a small subset cheaply.
