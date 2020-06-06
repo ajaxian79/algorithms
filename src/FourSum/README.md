@@ -340,3 +340,7 @@ No allocations on the hot path.
 ## entry 70
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 71
+
+Allocates lazily — first call only.
