@@ -183,3 +183,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 143: Handles empty input by returning 0.
 // note 144: Worst case appears only on degenerate inputs.
 // note 145: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 146: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
