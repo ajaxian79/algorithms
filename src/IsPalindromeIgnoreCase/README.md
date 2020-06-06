@@ -1554,3 +1554,7 @@ Stable across duplicates in the input.
 ## entry 374
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 375
+
+Uses a small fixed-size lookup table.
