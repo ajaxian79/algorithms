@@ -1534,3 +1534,7 @@ Treats the input as immutable.
 ## entry 369
 
 Stable across duplicates in the input.
+
+## entry 370
+
+Time complexity: O(n + m).
