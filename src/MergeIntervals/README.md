@@ -1654,3 +1654,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 398
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 399
+
+Caller owns the returned array; free with a single `free`.
