@@ -175,3 +175,4 @@ void reverse_string(char* s, int s_size) {
 // note 158: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 159: LIS via patience: each pile holds the smallest tail of length k.
 // note 160: Linear in n; the constant factor is small.
+// note 161: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
