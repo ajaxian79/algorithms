@@ -1267,3 +1267,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 317
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 318
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
