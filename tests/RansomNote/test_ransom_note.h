@@ -51,3 +51,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 25: Mutates the input in place; the original ordering is lost.
 // edge note 26: Edge case: reverse-sorted input → still O(n log n).
 // edge note 27: Space complexity: O(1) auxiliary.
+// edge note 28: Edge case: integer-min input → guarded by the explicit underflow check.
