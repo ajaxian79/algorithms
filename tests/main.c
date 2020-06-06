@@ -51,6 +51,7 @@
 #include "BinaryGap/test_binary_gap.h"
 #include "ToHexString/test_to_hex.h"
 #include "AddDigits/test_add_digits.h"
+#include "CountTrailingZeros/test_trailing_zeros.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -374,6 +375,12 @@ MunitSuite suites[] = {
         },{
                 "/add_digits",
                 add_digits_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/trailing_zeros",
+                trailing_zeros_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
