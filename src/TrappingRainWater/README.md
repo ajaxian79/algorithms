@@ -1638,3 +1638,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 394
 
 No allocations after setup.
+
+## entry 395
+
+Space complexity: O(h) for the tree height.
