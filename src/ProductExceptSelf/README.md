@@ -1668,3 +1668,7 @@ Two passes: one to count, one to fill.
 ## entry 401
 
 Treats the input as immutable.
+
+## entry 402
+
+Time complexity: O(1).
