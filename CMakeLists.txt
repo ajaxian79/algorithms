@@ -57,6 +57,7 @@ add_executable(number_complement src/NumberComplement/main.c src/NumberComplemen
 add_executable(binary_gap src/BinaryGap/main.c src/BinaryGap/binary_gap.c)
 add_executable(to_hex src/ToHexString/main.c src/ToHexString/to_hex.c)
 add_executable(add_digits src/AddDigits/main.c src/AddDigits/add_digits.c)
+add_executable(trailing_zeros src/CountTrailingZeros/main.c src/CountTrailingZeros/trailing_zeros.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -165,4 +166,5 @@ target_link_libraries(number_complement PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-st
 target_link_libraries(binary_gap PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(to_hex PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(add_digits PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(trailing_zeros PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
