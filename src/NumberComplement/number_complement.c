@@ -156,3 +156,4 @@ unsigned int find_complement(unsigned int n) {
 // note 140: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 141: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 142: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 143: Merge intervals: sort by start; extend the running interval while overlapping.
