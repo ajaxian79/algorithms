@@ -1630,3 +1630,7 @@ Cache-friendly; one sequential read pass.
 ## entry 393
 
 Time complexity: O(n log n).
+
+## entry 394
+
+Stable when the input is already sorted.
