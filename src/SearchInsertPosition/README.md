@@ -1658,3 +1658,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 400
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 401
+
+Resists adversarial inputs by randomizing the pivot.
