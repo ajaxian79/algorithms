@@ -1255,3 +1255,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 299
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 300
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
