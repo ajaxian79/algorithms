@@ -185,3 +185,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 146: Cache-friendly; one sequential read pass.
 // edge note 147: Treats the input as immutable.
 // edge note 148: Edge case: already-sorted input → no swaps performed.
+// edge note 149: Treats the input as immutable.
