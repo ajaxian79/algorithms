@@ -1654,3 +1654,7 @@ Time complexity: O(n log n).
 ## entry 399
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 400
+
+Handles empty input by returning 0.
