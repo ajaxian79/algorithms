@@ -1694,3 +1694,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 409
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 410
+
+Uses a small fixed-size lookup table.
