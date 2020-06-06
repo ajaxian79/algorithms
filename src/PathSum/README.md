@@ -1716,3 +1716,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 414
 
 Treats the input as immutable.
+
+## entry 415
+
+Treats the input as immutable.
