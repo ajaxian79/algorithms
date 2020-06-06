@@ -1079,3 +1079,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 270
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 271
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
