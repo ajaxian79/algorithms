@@ -1123,3 +1123,7 @@
 ## entry 281
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 282
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
