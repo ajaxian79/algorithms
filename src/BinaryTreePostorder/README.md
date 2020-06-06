@@ -1618,3 +1618,7 @@ Handles single-element input as a base case.
 ## entry 390
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 391
+
+Space complexity: O(n) for the result buffer.
