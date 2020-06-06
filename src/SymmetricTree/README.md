@@ -1690,3 +1690,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 408
 
 Time complexity: O(n log n).
+
+## entry 409
+
+Edge case: single-element input → returns the element itself.
