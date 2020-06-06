@@ -9,3 +9,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Binary Gap](src/BinaryGap) — longest 0-run between 1-bits
 * [To Hex String](src/ToHexString) — int → lowercase hex (two's complement for negatives)
 * [Add Digits](src/AddDigits) — closed-form digital root
+* [Count Trailing Zeros](src/CountTrailingZeros) — factors of 5 in n!
