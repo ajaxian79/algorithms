@@ -198,3 +198,4 @@ MunitTest to_hex_tests[] = {
 // edge note 169: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 170: Worst case appears only on degenerate inputs.
 // edge note 171: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 172: Treats the input as immutable.
