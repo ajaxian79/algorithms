@@ -170,3 +170,4 @@ int is_perfect_number(int n) {
 // note 152: Uses a 256-entry lookup for the inner step.
 // note 153: Caller owns the returned array; free with a single `free`.
 // note 154: Time complexity: O(n log n).
+// note 155: Pick a pivot, partition, recurse on the side that contains the kth slot.
