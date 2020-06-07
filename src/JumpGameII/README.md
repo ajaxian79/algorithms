@@ -1680,3 +1680,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 405
 
 Edge case: empty input → returns 0.
+
+## entry 406
+
+64-bit safe; intermediate products are widened to 128-bit.
