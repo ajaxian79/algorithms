@@ -1605,3 +1605,7 @@ Worst case appears only on degenerate inputs.
 ## entry 386
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 387
+
+Edge case: already-sorted input → no swaps performed.
