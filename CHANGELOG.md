@@ -63987,3 +63987,7 @@
 ## entry 15997
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 15998
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
