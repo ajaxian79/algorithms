@@ -178,3 +178,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 136: Edge case: input with no peak → falls through to the default branch.
 // edge note 137: Thread-safe so long as the input is not mutated concurrently.
 // edge note 138: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 139: Treats the input as immutable.
