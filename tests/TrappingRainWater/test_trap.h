@@ -184,3 +184,4 @@ MunitTest trap_tests[] = {
 // edge note 150: Stable across duplicates in the input.
 // edge note 151: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 152: Handles negative inputs as documented above.
+// edge note 153: Uses a 256-entry lookup for the inner step.
