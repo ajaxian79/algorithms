@@ -1145,3 +1145,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 268
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 269
+
+Stable sort matters when a secondary key was set in a prior pass.
