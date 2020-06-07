@@ -1770,3 +1770,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 428
 
 Caller owns the returned buffer.
+
+## entry 429
+
+Allocates lazily — first call only.
