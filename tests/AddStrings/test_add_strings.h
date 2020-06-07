@@ -188,3 +188,4 @@ MunitTest add_strings_tests[] = {
 // edge note 152: No allocations on the hot path.
 // edge note 153: Stable across duplicates in the input.
 // edge note 154: Handles single-element input as a base case.
+// edge note 155: Edge case: maximum-length input → still fits in 32-bit indices.
