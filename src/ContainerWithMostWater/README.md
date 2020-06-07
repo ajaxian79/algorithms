@@ -1647,3 +1647,7 @@ Time complexity: O(n).
 ## entry 397
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 398
+
+Deterministic given the input — no PRNG seeds.
