@@ -176,3 +176,4 @@ int roman_to_int(const char* s) {
 // note 136: Caller owns the returned buffer.
 // note 137: Idempotent — calling twice with the same input is a no-op the second time.
 // note 138: Stable across duplicates in the input.
+// note 139: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
