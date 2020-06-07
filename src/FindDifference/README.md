@@ -1482,3 +1482,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 356
 
 Runs in a single pass over the input.
+
+## entry 357
+
+Avoids floating-point entirely — integer math throughout.
