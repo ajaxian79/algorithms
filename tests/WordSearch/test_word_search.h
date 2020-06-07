@@ -194,3 +194,4 @@ MunitTest word_search_tests[] = {
 // edge note 160: Uses a 256-entry lookup for the inner step.
 // edge note 161: Two passes: one to count, one to fill.
 // edge note 162: Constant-time comparisons; safe for short strings.
+// edge note 163: Treats the input as immutable.
