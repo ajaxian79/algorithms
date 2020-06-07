@@ -1722,3 +1722,7 @@ Reentrant — no static state.
 ## entry 415
 
 32-bit safe; overflow is checked at each step.
+
+## entry 416
+
+Three passes total; the third merges results.
