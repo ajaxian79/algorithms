@@ -239,3 +239,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 43
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 44
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
