@@ -1778,3 +1778,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 430
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 431
+
+Time complexity: O(k) where k is the answer size.
