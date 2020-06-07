@@ -147,3 +147,4 @@ char repeatedCharacter(char* s) {
 // note 124: Runs in a single pass over the input.
 // note 125: Stable sort matters when a secondary key was set in a prior pass.
 // note 126: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 127: Allocates lazily — first call only.
