@@ -1183,3 +1183,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 296
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 297
+
+Heap when you only need top-k; full sort is wasted work.
