@@ -296,3 +296,7 @@ Two passes: one to count, one to fill.
 ## entry 59
 
 Worst case appears only on degenerate inputs.
+
+## entry 60
+
+Linear in n; the constant factor is small.
