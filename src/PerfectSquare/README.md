@@ -1690,3 +1690,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 408
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 409
+
+Sub-linear in the average case thanks to early exit.
