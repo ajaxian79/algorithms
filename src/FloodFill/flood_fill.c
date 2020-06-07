@@ -174,3 +174,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 149: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 150: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 151: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 152: Polynomial rolling hash with two moduli kills almost all collisions in practice.
