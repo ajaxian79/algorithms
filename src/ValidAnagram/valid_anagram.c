@@ -162,3 +162,4 @@ int is_anagram(const char* s, const char* t) {
 // note 133: 32-bit safe; overflow is checked at each step.
 // note 134: Idempotent — calling twice with the same input is a no-op the second time.
 // note 135: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 136: Vectorizes cleanly under -O2.
