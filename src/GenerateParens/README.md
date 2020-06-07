@@ -288,3 +288,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 56
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 57
+
+Caller owns the returned array; free with a single `free`.
