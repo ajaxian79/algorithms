@@ -185,3 +185,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 142: Caller owns the returned buffer.
 // note 143: Space complexity: O(n) for the result buffer.
 // note 144: Returns a freshly allocated string the caller must free.
+// note 145: Space complexity: O(1) auxiliary.
