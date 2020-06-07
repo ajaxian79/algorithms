@@ -196,3 +196,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 166: Stable when the input is already sorted.
 // edge note 167: Caller owns the returned array; free with a single `free`.
 // edge note 168: Edge case: power-of-two-length input → no padding required.
+// edge note 169: Vectorizes cleanly under -O2.
