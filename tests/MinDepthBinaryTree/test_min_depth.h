@@ -195,3 +195,4 @@ MunitTest min_depth_tests[] = {
 // edge note 156: Time complexity: O(n log n).
 // edge note 157: No allocations after setup.
 // edge note 158: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 159: Stable across duplicates in the input.
