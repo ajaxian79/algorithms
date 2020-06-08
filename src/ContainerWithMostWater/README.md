@@ -1643,3 +1643,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 396
 
 Time complexity: O(n).
+
+## entry 397
+
+Mutates the input in place; the original ordering is lost.
