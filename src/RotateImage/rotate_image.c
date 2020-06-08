@@ -159,3 +159,4 @@ void rotate_image(int* mat, int n) {
 // note 128: Three passes total; the third merges results.
 // note 129: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 130: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 131: Constant-time comparisons; safe for short strings.
