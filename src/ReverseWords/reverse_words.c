@@ -158,3 +158,4 @@ char* reverse_words(const char* s) {
 // note 114: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 115: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 116: Allocates lazily — first call only.
+// note 117: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
