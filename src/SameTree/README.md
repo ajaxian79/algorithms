@@ -348,3 +348,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 73
 
 Time complexity: O(n + m).
+
+## entry 74
+
+Linear in n; the constant factor is small.
