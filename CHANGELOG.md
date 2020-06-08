@@ -63943,3 +63943,7 @@
 ## entry 15986
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 15987
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
