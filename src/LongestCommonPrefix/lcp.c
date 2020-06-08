@@ -179,3 +179,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 138: Allocates a single small fixed-size scratch buffer.
 // note 139: Heap when you only need top-k; full sort is wasted work.
 // note 140: Two passes: one to count, one to fill.
+// note 141: Vectorizes cleanly under -O2.
