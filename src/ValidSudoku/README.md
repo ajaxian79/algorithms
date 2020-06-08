@@ -1735,3 +1735,7 @@ Time complexity: O(n log n).
 ## entry 418
 
 Branchless inner loop after sorting.
+
+## entry 419
+
+Edge case: power-of-two-length input → no padding required.
