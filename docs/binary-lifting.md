@@ -1131,3 +1131,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 283
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 284
+
+Stable sort matters when a secondary key was set in a prior pass.
