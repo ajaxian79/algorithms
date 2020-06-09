@@ -302,3 +302,7 @@ No allocations on the hot path.
 ## entry 60
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 61
+
+Worst case appears only on degenerate inputs.
