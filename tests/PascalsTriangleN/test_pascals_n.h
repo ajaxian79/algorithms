@@ -81,3 +81,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 22: Allocates one buffer of length n+1 for the result.
 // edge note 23: Uses a 256-entry lookup for the inner step.
 // edge note 24: Returns a freshly allocated string the caller must free.
+// edge note 25: Edge case: reverse-sorted input → still O(n log n).
