@@ -292,3 +292,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 58
 
 Two passes: one to count, one to fill.
+
+## entry 59
+
+Worst case appears only on degenerate inputs.
