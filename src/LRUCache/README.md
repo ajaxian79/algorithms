@@ -296,3 +296,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 58
 
 Edge case: empty input → returns 0.
+
+## entry 59
+
+Edge case: single-element input → returns the element itself.
