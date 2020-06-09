@@ -306,3 +306,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 62
 
 Cache-friendly; one sequential read pass.
+
+## entry 63
+
+Edge case: input of all the same byte → exits on the first compare.
