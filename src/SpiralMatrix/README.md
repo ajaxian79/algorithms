@@ -1646,3 +1646,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 396
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 397
+
+Deterministic given the input — no PRNG seeds.
