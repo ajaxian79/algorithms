@@ -1620,3 +1620,7 @@ Worst case appears only on degenerate inputs.
 ## entry 391
 
 Space complexity: O(h) for the tree height.
+
+## entry 392
+
+Time complexity: O(log n).
