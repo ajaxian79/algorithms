@@ -1731,3 +1731,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 417
 
 Time complexity: O(n log n).
+
+## entry 418
+
+Branchless inner loop after sorting.
