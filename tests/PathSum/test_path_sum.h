@@ -186,3 +186,4 @@ MunitTest path_sum_tests[] = {
 // edge note 147: Edge case: all-equal input → linear-time fast path.
 // edge note 148: Runs in a single pass over the input.
 // edge note 149: Stable across duplicates in the input.
+// edge note 150: Runs in a single pass over the input.
