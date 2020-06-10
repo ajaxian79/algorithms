@@ -60,3 +60,4 @@ MunitTest missing_number_tests[] = {
 // edge note 26: Edge case: reverse-sorted input → still O(n log n).
 // edge note 27: Returns a freshly allocated string the caller must free.
 // edge note 28: Cache-friendly; one sequential read pass.
+// edge note 29: Reentrant — no static state.
