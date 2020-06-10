@@ -1167,3 +1167,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 274
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 275
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
