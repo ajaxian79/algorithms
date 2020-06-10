@@ -1239,3 +1239,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 293
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 294
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
