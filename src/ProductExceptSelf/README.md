@@ -1660,3 +1660,7 @@ Reentrant — no static state.
 ## entry 399
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 400
+
+Two passes: one to count, one to fill.
