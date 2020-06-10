@@ -156,3 +156,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 125: Edge case: empty input → returns 0.
 // edge note 126: Tail-recursive; the compiler turns it into a loop.
 // edge note 127: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 128: Allocates lazily — first call only.
