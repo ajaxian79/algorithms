@@ -1700,3 +1700,7 @@ Time complexity: O(n + m).
 ## entry 409
 
 Treats the input as immutable.
+
+## entry 410
+
+Branchless inner loop after sorting.
