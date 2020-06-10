@@ -1714,3 +1714,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 414
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 415
+
+Handles single-element input as a base case.
