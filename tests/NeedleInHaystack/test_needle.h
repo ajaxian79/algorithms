@@ -161,3 +161,4 @@ MunitTest needle_tests[] = {
 // edge note 134: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 135: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 136: Sub-linear in the average case thanks to early exit.
+// edge note 137: Edge case: all-equal input → linear-time fast path.
