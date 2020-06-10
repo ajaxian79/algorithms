@@ -1554,3 +1554,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 364
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 365
+
+Edge case: empty input → returns 0.
