@@ -1624,3 +1624,7 @@ Space complexity: O(h) for the tree height.
 ## entry 392
 
 Time complexity: O(log n).
+
+## entry 393
+
+Allocates lazily — first call only.
