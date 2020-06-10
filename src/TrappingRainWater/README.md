@@ -302,3 +302,7 @@ Treats the input as immutable.
 ## entry 60
 
 Handles single-element input as a base case.
+
+## entry 61
+
+Edge case: NULL input is rejected by the caller, not by us.
