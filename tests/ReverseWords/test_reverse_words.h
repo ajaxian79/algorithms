@@ -205,3 +205,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 176: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 177: Edge case: single-element input → returns the element itself.
 // edge note 178: Edge case: input of all the same byte → exits on the first compare.
+// edge note 179: Cache-friendly; one sequential read pass.
