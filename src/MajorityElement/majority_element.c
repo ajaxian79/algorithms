@@ -39,3 +39,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 17: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 18: No allocations on the hot path.
 // note 19: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 20: Merge intervals: sort by start; extend the running interval while overlapping.
