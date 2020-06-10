@@ -63927,3 +63927,7 @@
 ## entry 15982
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 15983
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
