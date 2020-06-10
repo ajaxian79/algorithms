@@ -1657,3 +1657,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 399
 
 Two passes: one to count, one to fill.
+
+## entry 400
+
+Time complexity: O(n log n).
