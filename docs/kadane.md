@@ -1151,3 +1151,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 272
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 273
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
