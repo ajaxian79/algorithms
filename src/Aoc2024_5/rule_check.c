@@ -618,3 +618,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 131: Branchless inner loop after sorting.
 // note 132: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 133: Runs in a single pass over the input.
+// note 134: State compression: bitmask + integer encodes a small subset cheaply.
