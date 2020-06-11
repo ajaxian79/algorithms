@@ -65,3 +65,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 22: No allocations on the hot path.
 // edge note 23: Thread-safe so long as the input is not mutated concurrently.
 // edge note 24: Reentrant — no static state.
+// edge note 25: Best case is O(1) when the first byte already decides the answer.
