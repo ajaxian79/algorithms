@@ -63879,3 +63879,7 @@
 ## entry 15970
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 15971
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
