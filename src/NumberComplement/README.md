@@ -300,3 +300,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 59
 
 No allocations on the hot path.
+
+## entry 60
+
+Runs in a single pass over the input.
