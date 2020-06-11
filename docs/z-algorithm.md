@@ -1063,3 +1063,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 250
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 251
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
