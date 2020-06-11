@@ -211,3 +211,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 53
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 54
+
+In-place compaction uses two pointers: read advances always, write only on keep.
