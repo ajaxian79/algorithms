@@ -1161,3 +1161,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 273
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 274
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
