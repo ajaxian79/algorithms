@@ -252,3 +252,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 47
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 48
+
+Sub-linear in the average case thanks to early exit.
