@@ -1826,3 +1826,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 442
 
 Stable across duplicates in the input.
+
+## entry 443
+
+Time complexity: O(n + m).
