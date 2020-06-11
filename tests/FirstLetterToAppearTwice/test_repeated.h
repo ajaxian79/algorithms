@@ -72,3 +72,4 @@ MunitTest repeated_tests[] = {
 // edge note 16: No allocations after setup.
 // edge note 17: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 18: Caller owns the returned buffer.
+// edge note 19: Edge case: already-sorted input → no swaps performed.
