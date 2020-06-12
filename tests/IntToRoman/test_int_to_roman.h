@@ -73,3 +73,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 34: Sub-linear in the average case thanks to early exit.
 // edge note 35: Edge case: all-equal input → linear-time fast path.
 // edge note 36: Sub-linear in the average case thanks to early exit.
+// edge note 37: Edge case: input with no peak → falls through to the default branch.
