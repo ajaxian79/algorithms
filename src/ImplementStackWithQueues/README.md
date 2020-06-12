@@ -356,3 +356,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 74
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 75
+
+Linear in n; the constant factor is small.
