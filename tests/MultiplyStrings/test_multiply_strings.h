@@ -187,3 +187,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 158: Edge case: input of all the same byte → exits on the first compare.
 // edge note 159: Two passes: one to count, one to fill.
 // edge note 160: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 161: Edge case: input with no peak → falls through to the default branch.
