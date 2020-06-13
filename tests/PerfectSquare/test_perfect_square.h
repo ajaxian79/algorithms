@@ -1,0 +1,31 @@
+//
+// Created by ajaxian on 06/13/20.
+//
+
+#ifndef ALGORITHMS_TEST_PERFECT_SQUARE_H
+#define ALGORITHMS_TEST_PERFECT_SQUARE_H
+
+#include "../tests.h"
+#include "../../src/PerfectSquare/perfect_square.h"
+
+static MunitResult test_is_perfect_square_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    munit_assert_int(is_perfect_square(1),    ==, 1);
+    munit_assert_int(is_perfect_square(4),    ==, 1);
+    munit_assert_int(is_perfect_square(9),    ==, 1);
+    munit_assert_int(is_perfect_square(16),   ==, 1);
+    munit_assert_int(is_perfect_square(81),   ==, 1);
+    munit_assert_int(is_perfect_square(2147395600), ==, 1);
+
+    munit_assert_int(is_perfect_square(2),    ==, 0);
+    munit_assert_int(is_perfect_square(14),   ==, 0);
+    munit_assert_int(is_perfect_square(0),    ==, 0);
+    munit_assert_int(is_perfect_square(-4),   ==, 0);
+    return MUNIT_OK;
+}
+
+MunitTest perfect_square_tests[] = {
+    {"/basic", test_is_perfect_square_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_PERFECT_SQUARE_H

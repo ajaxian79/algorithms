@@ -52,6 +52,7 @@
 #include "ToHexString/test_to_hex.h"
 #include "AddDigits/test_add_digits.h"
 #include "CountTrailingZeros/test_trailing_zeros.h"
+#include "PerfectSquare/test_perfect_square.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -381,6 +382,12 @@ MunitSuite suites[] = {
         },{
                 "/trailing_zeros",
                 trailing_zeros_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/perfect_square",
+                perfect_square_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
