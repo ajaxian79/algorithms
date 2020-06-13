@@ -1,0 +1,6 @@
+# Perfect Square
+
+Decide whether a positive integer is a perfect square — without using
+`sqrt`. Binary-search the candidate value `mid` in `[1, n]`, comparing
+`mid * mid` against `n`. Use `long` for the multiplication to avoid 32-bit
+overflow on near-`INT_MAX` inputs (e.g. `2147395600 = 46340²`).
