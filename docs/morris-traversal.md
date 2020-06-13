@@ -231,3 +231,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 43
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 44
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
