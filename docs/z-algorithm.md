@@ -207,3 +207,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 36
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 37
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
