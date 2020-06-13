@@ -1478,3 +1478,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 355
 
 Returns a freshly allocated string the caller must free.
+
+## entry 356
+
+Runs in a single pass over the input.
