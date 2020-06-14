@@ -177,3 +177,4 @@ MunitTest min_stack_tests[] = {
 // edge note 140: Edge case: all-equal input → linear-time fast path.
 // edge note 141: Time complexity: O(log n).
 // edge note 142: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 143: Stable when the input is already sorted.
