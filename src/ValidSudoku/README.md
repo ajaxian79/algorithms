@@ -1727,3 +1727,7 @@ Handles negative inputs as documented above.
 ## entry 416
 
 Returns a freshly allocated string the caller must free.
+
+## entry 417
+
+Time complexity: O(n log n).
