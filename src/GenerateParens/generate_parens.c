@@ -211,3 +211,4 @@ char** generate_parens(int n, int* return_size) {
 // note 147: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 148: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 149: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 150: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
