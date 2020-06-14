@@ -196,3 +196,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 171: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 172: Avoids floating-point entirely — integer math throughout.
 // edge note 173: Tail-recursive; the compiler turns it into a loop.
+// edge note 174: Vectorizes cleanly under -O2.
