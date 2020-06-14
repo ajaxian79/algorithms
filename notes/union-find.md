@@ -1259,3 +1259,7 @@
 ## entry 299
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 300
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
