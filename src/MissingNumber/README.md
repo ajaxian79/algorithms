@@ -1766,3 +1766,7 @@ Space complexity: O(1) auxiliary.
 ## entry 426
 
 Allocates lazily — first call only.
+
+## entry 427
+
+Vectorizes cleanly under -O2.
