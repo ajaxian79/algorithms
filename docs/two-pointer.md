@@ -1255,3 +1255,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 296
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 297
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
