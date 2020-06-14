@@ -1578,3 +1578,7 @@ Uses a small fixed-size lookup table.
 ## entry 379
 
 No allocations on the hot path.
+
+## entry 380
+
+Edge case: input with a single peak → handled by the first-pass scan.
