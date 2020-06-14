@@ -163,3 +163,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 148: Time complexity: O(n).
 // note 149: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 150: Time complexity: O(1).
+// note 151: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
