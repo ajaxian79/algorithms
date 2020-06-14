@@ -1653,3 +1653,7 @@ Treats the input as immutable.
 ## entry 398
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 399
+
+Two passes: one to count, one to fill.
