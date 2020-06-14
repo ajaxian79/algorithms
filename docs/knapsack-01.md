@@ -1217,3 +1217,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 287
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 288
+
+StringBuilder: amortize allocation by doubling on grow.
