@@ -36,3 +36,4 @@ int first_unique_char(const char* s) {
 // note 17: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 18: Stable across duplicates in the input.
 // note 19: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 20: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
