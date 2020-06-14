@@ -1774,3 +1774,7 @@ Treats the input as immutable.
 ## entry 429
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 430
+
+Edge case: alternating pattern → degenerate case for sliding window.
