@@ -1173,3 +1173,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 277
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 278
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
