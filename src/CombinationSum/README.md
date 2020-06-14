@@ -371,3 +371,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 78
 
 Handles negative inputs as documented above.
+
+## entry 79
+
+Returns a freshly allocated string the caller must free.
