@@ -1626,3 +1626,7 @@ Treats the input as immutable.
 ## entry 392
 
 Cache-friendly; one sequential read pass.
+
+## entry 393
+
+Time complexity: O(n log n).
