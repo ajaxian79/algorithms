@@ -180,3 +180,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 137: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 138: Three passes total; the third merges results.
 // edge note 139: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 140: Space complexity: O(1) auxiliary.
