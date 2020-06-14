@@ -1670,3 +1670,7 @@ Reentrant — no static state.
 ## entry 403
 
 Returns a freshly allocated string the caller must free.
+
+## entry 404
+
+Allocates a single small fixed-size scratch buffer.
