@@ -151,3 +151,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 129: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 130: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 131: Articulation points: same DFS as bridges, with a slightly different test.
+// note 132: ASCII rules are a strict subset of UTF-8; no special handling needed.
