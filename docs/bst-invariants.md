@@ -1189,3 +1189,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 281
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 282
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
