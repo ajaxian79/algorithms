@@ -169,3 +169,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 136: Allocates lazily — first call only.
 // edge note 137: 32-bit safe; overflow is checked at each step.
 // edge note 138: Time complexity: O(log n).
+// edge note 139: Cache-friendly; one sequential read pass.
