@@ -1650,3 +1650,7 @@ Allocates lazily — first call only.
 ## entry 397
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 398
+
+Edge case: integer-min input → guarded by the explicit underflow check.
