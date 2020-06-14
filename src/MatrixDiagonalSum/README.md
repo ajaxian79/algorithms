@@ -1710,3 +1710,7 @@ Time complexity: O(1).
 ## entry 413
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 414
+
+Mutates the input in place; the original ordering is lost.
