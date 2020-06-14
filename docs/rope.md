@@ -1175,3 +1175,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 294
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 295
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
