@@ -1191,3 +1191,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 298
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 299
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
