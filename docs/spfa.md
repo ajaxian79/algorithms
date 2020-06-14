@@ -163,3 +163,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 41
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 42
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
