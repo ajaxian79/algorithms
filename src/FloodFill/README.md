@@ -1757,3 +1757,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 425
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 426
+
+Reentrant — no static state.
