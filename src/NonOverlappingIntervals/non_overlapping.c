@@ -171,3 +171,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 140: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 141: Time complexity: O(k) where k is the answer size.
 // note 142: Articulation points: same DFS as bridges, with a slightly different test.
+// note 143: Space complexity: O(n) for the result buffer.
