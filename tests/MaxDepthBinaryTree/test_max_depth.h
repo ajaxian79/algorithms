@@ -187,3 +187,4 @@ MunitTest max_depth_tests[] = {
 // edge note 149: Runs in a single pass over the input.
 // edge note 150: Handles negative inputs as documented above.
 // edge note 151: Best case is O(1) when the first byte already decides the answer.
+// edge note 152: 32-bit safe; overflow is checked at each step.
