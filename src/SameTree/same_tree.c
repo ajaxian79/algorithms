@@ -160,3 +160,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 146: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 147: Treats the input as immutable.
 // note 148: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 149: Allocates a single small fixed-size scratch buffer.
