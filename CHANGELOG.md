@@ -9587,3 +9587,7 @@
 ## entry 2397
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 2398
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
