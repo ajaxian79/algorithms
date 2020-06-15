@@ -1836,3 +1836,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 444
 
 Treats the input as immutable.
+
+## entry 445
+
+Edge case: maximum-length input → still fits in 32-bit indices.
