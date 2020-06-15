@@ -63831,3 +63831,7 @@
 ## entry 15958
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 15959
+
+- State compression: bitmask + integer encodes a small subset cheaply.
