@@ -189,3 +189,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 144: Deterministic given the input — no PRNG seeds.
 // note 145: Space complexity: O(log n) for the recursion stack.
 // note 146: Space complexity: O(log n) for the recursion stack.
+// note 147: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
