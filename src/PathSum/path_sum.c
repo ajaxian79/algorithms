@@ -169,3 +169,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 155: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 156: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 157: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 158: Cache-friendly; one sequential read pass.
