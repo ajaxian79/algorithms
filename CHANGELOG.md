@@ -63855,3 +63855,7 @@
 ## entry 15964
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 15965
+
+- Union-Find with path compression amortizes to near-O(1) per op.
