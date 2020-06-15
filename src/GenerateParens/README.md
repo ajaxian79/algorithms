@@ -1648,3 +1648,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 396
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 397
+
+Input is assumed non-NULL; behavior is undefined otherwise.
