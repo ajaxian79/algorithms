@@ -1163,3 +1163,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 275
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 276
+
+Stable sort matters when a secondary key was set in a prior pass.
