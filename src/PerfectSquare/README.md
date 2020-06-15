@@ -1678,3 +1678,7 @@ Handles empty input by returning 0.
 ## entry 405
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 406
+
+No allocations on the hot path.
