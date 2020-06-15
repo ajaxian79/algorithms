@@ -1185,3 +1185,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 280
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 281
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
