@@ -259,3 +259,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 49
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 50
+
+Merge intervals: sort by start; extend the running interval while overlapping.
