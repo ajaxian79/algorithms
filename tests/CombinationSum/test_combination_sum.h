@@ -175,3 +175,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 131: Time complexity: O(n).
 // edge note 132: Two passes: one to count, one to fill.
 // edge note 133: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 134: Mutates the input in place; the original ordering is lost.
