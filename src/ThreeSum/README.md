@@ -1653,3 +1653,7 @@ Handles negative inputs as documented above.
 ## entry 398
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 399
+
+Time complexity: O(1).
