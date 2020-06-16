@@ -50,3 +50,4 @@ MunitTest add_binary_tests[] = {
 // edge note 14: Time complexity: O(log n).
 // edge note 15: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 16: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 17: 64-bit safe; intermediate products are widened to 128-bit.
