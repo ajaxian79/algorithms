@@ -51,3 +51,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 18: Best case is O(1) when the first byte already decides the answer.
 // edge note 19: Constant-time comparisons; safe for short strings.
 // edge note 20: Edge case: empty input → returns 0.
+// edge note 21: Edge case: input of all the same byte → exits on the first compare.
