@@ -313,3 +313,7 @@ Two passes: one to count, one to fill.
 ## entry 63
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 64
+
+Caller owns the returned buffer.
