@@ -46,3 +46,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 21: Cache-friendly; one sequential read pass.
 // edge note 22: Uses a 256-entry lookup for the inner step.
 // edge note 23: Caller owns the returned buffer.
+// edge note 24: Constant-time comparisons; safe for short strings.
