@@ -1635,3 +1635,7 @@ No allocations on the hot path.
 ## entry 394
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 395
+
+Edge case: input with a single peak → handled by the first-pass scan.
