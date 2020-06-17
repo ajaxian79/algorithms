@@ -1614,3 +1614,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 389
 
 Handles single-element input as a base case.
+
+## entry 390
+
+Edge case: zero-length string → returns the empty result.
