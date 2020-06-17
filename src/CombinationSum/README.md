@@ -367,3 +367,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 77
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 78
+
+Handles negative inputs as documented above.
