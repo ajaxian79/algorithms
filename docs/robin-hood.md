@@ -1107,3 +1107,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 277
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 278
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
