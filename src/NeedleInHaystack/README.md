@@ -1628,3 +1628,7 @@ Stable when the input is already sorted.
 ## entry 392
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 393
+
+Time complexity: O(n log n).
