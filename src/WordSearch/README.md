@@ -1622,3 +1622,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 391
 
 Treats the input as immutable.
+
+## entry 392
+
+Cache-friendly; one sequential read pass.
