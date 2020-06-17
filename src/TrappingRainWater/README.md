@@ -298,3 +298,7 @@ Vectorizes cleanly under -O2.
 ## entry 59
 
 Treats the input as immutable.
+
+## entry 60
+
+Handles single-element input as a base case.
