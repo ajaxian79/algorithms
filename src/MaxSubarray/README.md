@@ -1770,3 +1770,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 428
 
 Treats the input as immutable.
+
+## entry 429
+
+Avoids floating-point entirely — integer math throughout.
