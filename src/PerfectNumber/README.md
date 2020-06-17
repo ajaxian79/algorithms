@@ -1473,3 +1473,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 353
 
 Handles single-element input as a base case.
+
+## entry 354
+
+Edge case: input with one duplicate → handled without an extra pass.
