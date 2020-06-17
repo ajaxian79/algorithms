@@ -1231,3 +1231,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 308
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 309
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
