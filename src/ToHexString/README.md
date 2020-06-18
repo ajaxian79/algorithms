@@ -1499,3 +1499,7 @@ Caller owns the returned buffer.
 ## entry 360
 
 Stable across duplicates in the input.
+
+## entry 361
+
+Cache-friendly; one sequential read pass.
