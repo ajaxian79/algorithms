@@ -1637,3 +1637,7 @@ Time complexity: O(1).
 ## entry 384
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 385
+
+Idempotent — calling twice with the same input is a no-op the second time.
