@@ -1251,3 +1251,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 298
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 299
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
