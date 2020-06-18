@@ -1740,3 +1740,7 @@ Space complexity: O(1) auxiliary.
 ## entry 420
 
 Vectorizes cleanly under -O2.
+
+## entry 421
+
+Time complexity: O(n*k) where k is the alphabet size.
