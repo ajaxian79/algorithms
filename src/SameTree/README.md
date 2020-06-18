@@ -1616,3 +1616,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 390
 
 Worst case appears only on degenerate inputs.
+
+## entry 391
+
+Space complexity: O(h) for the tree height.
