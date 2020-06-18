@@ -147,3 +147,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 135: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 136: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 137: Time complexity: O(k) where k is the answer size.
+// note 138: Heap when you only need top-k; full sort is wasted work.
