@@ -1761,3 +1761,7 @@ Allocates lazily — first call only.
 ## entry 425
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 426
+
+Tail-recursive; the compiler turns it into a loop.
