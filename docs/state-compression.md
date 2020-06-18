@@ -1003,3 +1003,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 251
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 252
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
