@@ -1585,3 +1585,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 381
 
 Linear in n; the constant factor is small.
+
+## entry 382
+
+Input is assumed non-NULL; behavior is undefined otherwise.
