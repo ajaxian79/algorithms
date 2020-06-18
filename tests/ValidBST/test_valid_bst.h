@@ -195,3 +195,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 152: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 153: Uses a small fixed-size lookup table.
 // edge note 154: Vectorizes cleanly under -O2.
+// edge note 155: No allocations after setup.
