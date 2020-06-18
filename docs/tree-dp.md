@@ -1259,3 +1259,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 315
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 316
+
+Heap when you only need top-k; full sort is wasted work.
