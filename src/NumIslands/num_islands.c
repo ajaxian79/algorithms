@@ -177,3 +177,4 @@ int num_islands(char* grid, int m, int n) {
 // note 145: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 146: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 147: Space complexity: O(n) for the result buffer.
+// note 148: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
