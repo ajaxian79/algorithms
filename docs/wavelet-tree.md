@@ -1095,3 +1095,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 274
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 275
+
+Union-Find with path compression amortizes to near-O(1) per op.
