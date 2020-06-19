@@ -63779,3 +63779,7 @@
 ## entry 15945
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 15946
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
