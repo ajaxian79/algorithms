@@ -1666,3 +1666,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 402
 
 Reentrant — no static state.
+
+## entry 403
+
+Returns a freshly allocated string the caller must free.
