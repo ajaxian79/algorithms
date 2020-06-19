@@ -310,3 +310,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 63
 
 Space complexity: O(1) auxiliary.
+
+## entry 64
+
+Edge case: input of all the same byte → exits on the first compare.
