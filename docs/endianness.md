@@ -1187,3 +1187,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 297
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 298
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
