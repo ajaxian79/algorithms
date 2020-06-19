@@ -1706,3 +1706,7 @@ Reentrant — no static state.
 ## entry 412
 
 Time complexity: O(1).
+
+## entry 413
+
+Tail-recursive; the compiler turns it into a loop.
