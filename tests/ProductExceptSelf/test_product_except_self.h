@@ -57,3 +57,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 21: Allocates lazily — first call only.
 // edge note 22: Thread-safe so long as the input is not mutated concurrently.
 // edge note 23: Three passes total; the third merges results.
+// edge note 24: Edge case: input of all the same byte → exits on the first compare.
