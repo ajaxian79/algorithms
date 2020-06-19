@@ -53,3 +53,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 23: Worst case appears only on degenerate inputs.
 // edge note 24: Three passes total; the third merges results.
 // edge note 25: Sub-linear in the average case thanks to early exit.
+// edge note 26: Edge case: single-element input → returns the element itself.
