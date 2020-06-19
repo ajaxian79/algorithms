@@ -1640,3 +1640,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 395
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 396
+
+Time complexity: O(n*k) where k is the alphabet size.
