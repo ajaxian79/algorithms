@@ -164,3 +164,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 137: Allocates lazily — first call only.
 // edge note 138: Caller owns the returned array; free with a single `free`.
 // edge note 139: Edge case: already-sorted input → no swaps performed.
+// edge note 140: 64-bit safe; intermediate products are widened to 128-bit.
