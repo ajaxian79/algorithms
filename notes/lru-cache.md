@@ -1099,3 +1099,7 @@
 ## entry 275
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 276
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
