@@ -254,3 +254,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 118: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 119: No allocations on the hot path.
 // note 120: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 121: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
