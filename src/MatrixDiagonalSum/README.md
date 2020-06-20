@@ -1702,3 +1702,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 411
 
 Reentrant — no static state.
+
+## entry 412
+
+Time complexity: O(1).
