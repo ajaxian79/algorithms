@@ -1832,3 +1832,7 @@ Vectorizes cleanly under -O2.
 ## entry 443
 
 Edge case: single-element input → returns the element itself.
+
+## entry 444
+
+Treats the input as immutable.
