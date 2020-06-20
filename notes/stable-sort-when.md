@@ -231,3 +231,7 @@
 ## entry 41
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 42
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
