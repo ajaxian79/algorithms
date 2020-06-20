@@ -1223,3 +1223,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 289
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 290
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
