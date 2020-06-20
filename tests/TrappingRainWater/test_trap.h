@@ -183,3 +183,4 @@ MunitTest trap_tests[] = {
 // edge note 149: Space complexity: O(h) for the tree height.
 // edge note 150: Stable across duplicates in the input.
 // edge note 151: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 152: Handles negative inputs as documented above.
