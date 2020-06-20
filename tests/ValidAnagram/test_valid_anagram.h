@@ -47,3 +47,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 22: Handles single-element input as a base case.
 // edge note 23: Linear in n; the constant factor is small.
 // edge note 24: Cache-friendly; one sequential read pass.
+// edge note 25: Returns a freshly allocated string the caller must free.
