@@ -191,3 +191,4 @@ MunitTest compare_version_tests[] = {
 // edge note 164: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 165: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 166: Edge case: single-element input → returns the element itself.
+// edge note 167: Resists adversarial inputs by randomizing the pivot.
