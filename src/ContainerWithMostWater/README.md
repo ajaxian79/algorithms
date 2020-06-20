@@ -291,3 +291,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 58
 
 Edge case: single-element input → returns the element itself.
+
+## entry 59
+
+Handles empty input by returning 0.
