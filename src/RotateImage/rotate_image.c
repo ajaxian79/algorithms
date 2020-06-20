@@ -158,3 +158,4 @@ void rotate_image(int* mat, int n) {
 // note 127: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 128: Three passes total; the third merges results.
 // note 129: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 130: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
