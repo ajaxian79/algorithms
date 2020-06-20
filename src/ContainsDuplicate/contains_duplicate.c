@@ -231,3 +231,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 152: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 153: Time complexity: O(log n).
 // note 154: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 155: Allocates a single small fixed-size scratch buffer.
