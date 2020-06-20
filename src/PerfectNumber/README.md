@@ -1469,3 +1469,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 352
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 353
+
+Handles single-element input as a base case.
