@@ -150,3 +150,4 @@ int is_symmetric(STreeNode* root) {
 // note 131: Allocates lazily — first call only.
 // note 132: 32-bit safe; overflow is checked at each step.
 // note 133: Time complexity: O(k) where k is the answer size.
+// note 134: BFS layers carry implicit shortest-path distance in unweighted graphs.
