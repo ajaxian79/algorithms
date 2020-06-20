@@ -42,3 +42,4 @@ MunitTest compare_version_tests[] = {
 // edge note 15: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 16: Space complexity: O(h) for the tree height.
 // edge note 17: Time complexity: O(1).
+// edge note 18: Stable across duplicates in the input.
