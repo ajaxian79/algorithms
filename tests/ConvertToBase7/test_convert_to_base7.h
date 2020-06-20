@@ -1,0 +1,29 @@
+//
+// Created by ajaxian on 06/20/20.
+//
+
+#ifndef ALGORITHMS_TEST_CONVERT_TO_BASE7_H
+#define ALGORITHMS_TEST_CONVERT_TO_BASE7_H
+
+#include <stdlib.h>
+
+#include "../tests.h"
+#include "../../src/ConvertToBase7/convert_to_base7.h"
+
+static MunitResult test_convert_to_base7_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    char* s;
+    s = convert_to_base7(0);    munit_assert_string_equal(s, "0");      free(s);
+    s = convert_to_base7(7);    munit_assert_string_equal(s, "10");     free(s);
+    s = convert_to_base7(49);   munit_assert_string_equal(s, "100");    free(s);
+    s = convert_to_base7(100);  munit_assert_string_equal(s, "202");    free(s);
+    s = convert_to_base7(-7);   munit_assert_string_equal(s, "-10");    free(s);
+    s = convert_to_base7(-1);   munit_assert_string_equal(s, "-1");     free(s);
+    return MUNIT_OK;
+}
+
+MunitTest convert_to_base7_tests[] = {
+    {"/basic", test_convert_to_base7_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_CONVERT_TO_BASE7_H

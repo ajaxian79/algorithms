@@ -53,6 +53,7 @@
 #include "AddDigits/test_add_digits.h"
 #include "CountTrailingZeros/test_trailing_zeros.h"
 #include "PerfectSquare/test_perfect_square.h"
+#include "ConvertToBase7/test_convert_to_base7.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -388,6 +389,12 @@ MunitSuite suites[] = {
         },{
                 "/perfect_square",
                 perfect_square_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/convert_to_base7",
+                convert_to_base7_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
