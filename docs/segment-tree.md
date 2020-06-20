@@ -1163,3 +1163,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 273
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 274
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
