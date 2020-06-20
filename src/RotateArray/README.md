@@ -1735,3 +1735,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 418
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 419
+
+Deterministic given the input — no PRNG seeds.
