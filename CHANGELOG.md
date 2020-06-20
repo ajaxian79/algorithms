@@ -63719,3 +63719,7 @@
 ## entry 15930
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 15931
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
