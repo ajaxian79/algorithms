@@ -1,0 +1,33 @@
+//
+// Created by ajaxian on 06/20/20.
+//
+
+#include "convert_to_base7.h"
+
+#include <stdlib.h>
+
+char* convert_to_base7(int n) {
+    if (n == 0) {
+        char* z = malloc(2);
+        if (z) { z[0] = '0'; z[1] = '\0'; }
+        return z;
+    }
+
+    int negative = n < 0;
+    long abs_n = negative ? -(long)n : n;
+    char buf[16];
+    int idx = 0;
+    while (abs_n > 0) {
+        buf[idx++] = (char)('0' + abs_n % 7);
+        abs_n /= 7;
+    }
+
+    int total = idx + (negative ? 1 : 0);
+    char* out = malloc((size_t)total + 1);
+    if (!out) return NULL;
+    int w = 0;
+    if (negative) out[w++] = '-';
+    for (int i = idx - 1; i >= 0; i--) out[w++] = buf[i];
+    out[w] = '\0';
+    return out;
+}

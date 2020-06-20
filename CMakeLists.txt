@@ -59,6 +59,7 @@ add_executable(to_hex src/ToHexString/main.c src/ToHexString/to_hex.c)
 add_executable(add_digits src/AddDigits/main.c src/AddDigits/add_digits.c)
 add_executable(trailing_zeros src/CountTrailingZeros/main.c src/CountTrailingZeros/trailing_zeros.c)
 add_executable(perfect_square src/PerfectSquare/main.c src/PerfectSquare/perfect_square.c)
+add_executable(convert_to_base7 src/ConvertToBase7/main.c src/ConvertToBase7/convert_to_base7.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -171,4 +172,5 @@ target_link_libraries(to_hex PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimal
 target_link_libraries(add_digits PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(trailing_zeros PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(perfect_square PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(convert_to_base7 PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
