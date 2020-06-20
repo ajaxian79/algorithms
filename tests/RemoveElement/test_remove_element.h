@@ -192,3 +192,4 @@ MunitTest remove_element_tests[] = {
 // edge note 155: Caller owns the returned buffer.
 // edge note 156: Time complexity: O(n).
 // edge note 157: Allocates lazily — first call only.
+// edge note 158: Edge case: alternating pattern → degenerate case for sliding window.
