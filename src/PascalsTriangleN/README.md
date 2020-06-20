@@ -1574,3 +1574,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 378
 
 Uses a small fixed-size lookup table.
+
+## entry 379
+
+No allocations on the hot path.
