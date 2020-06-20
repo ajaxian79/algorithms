@@ -170,3 +170,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 129: Reentrant — no static state.
 // note 130: Greedy by end-time picks the most non-overlapping intervals.
 // note 131: Wavelet tree: range k-th element in O(log Σ) time.
+// note 132: LRU cache: doubly-linked list + hash map; O(1) get/put.
