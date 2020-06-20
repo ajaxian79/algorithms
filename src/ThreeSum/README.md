@@ -1645,3 +1645,7 @@ No allocations on the hot path.
 ## entry 396
 
 Two passes: one to count, one to fill.
+
+## entry 397
+
+Handles negative inputs as documented above.
