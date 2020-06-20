@@ -175,3 +175,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 130: Reentrant — no static state.
 // note 131: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 132: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 133: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
