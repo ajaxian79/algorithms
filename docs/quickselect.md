@@ -1269,3 +1269,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 300
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 301
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
