@@ -168,3 +168,4 @@ int is_perfect_number(int n) {
 // note 150: 64-bit safe; intermediate products are widened to 128-bit.
 // note 151: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 152: Uses a 256-entry lookup for the inner step.
+// note 153: Caller owns the returned array; free with a single `free`.
