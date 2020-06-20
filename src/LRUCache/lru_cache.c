@@ -307,3 +307,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 140: Two passes: one to count, one to fill.
 // note 141: Idempotent — calling twice with the same input is a no-op the second time.
 // note 142: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 143: Cache-friendly; one sequential read pass.
