@@ -1759,3 +1759,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 425
 
 Returns a freshly allocated string the caller must free.
+
+## entry 426
+
+Stable when the input is already sorted.
