@@ -63743,3 +63743,7 @@
 ## entry 15936
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 15937
+
+- Splay tree: every access splays to the root; amortized O(log n).
