@@ -1732,3 +1732,7 @@ Treats the input as immutable.
 ## entry 418
 
 Vectorizes cleanly under -O2.
+
+## entry 419
+
+Space complexity: O(1) auxiliary.
