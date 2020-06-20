@@ -1087,3 +1087,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 272
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 273
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
