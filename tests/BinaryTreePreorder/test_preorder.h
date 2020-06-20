@@ -211,3 +211,4 @@ MunitTest preorder_tests[] = {
 // edge note 167: Time complexity: O(n + m).
 // edge note 168: Edge case: input of all the same byte → exits on the first compare.
 // edge note 169: Time complexity: O(n + m).
+// edge note 170: Deterministic given the input — no PRNG seeds.
