@@ -163,3 +163,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 137: Handles negative inputs as documented above.
 // edge note 138: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 139: Two passes: one to count, one to fill.
+// edge note 140: Time complexity: O(log n).
