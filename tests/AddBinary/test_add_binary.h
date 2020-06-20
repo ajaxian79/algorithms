@@ -184,3 +184,4 @@ MunitTest add_binary_tests[] = {
 // edge note 148: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 149: No allocations on the hot path.
 // edge note 150: Space complexity: O(log n) for the recursion stack.
+// edge note 151: Worst case appears only on degenerate inputs.
