@@ -63759,3 +63759,7 @@
 ## entry 15940
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 15941
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
