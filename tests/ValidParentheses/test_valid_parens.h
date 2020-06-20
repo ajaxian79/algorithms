@@ -201,3 +201,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 166: Sub-linear in the average case thanks to early exit.
 // edge note 167: Edge case: single-element input → returns the element itself.
 // edge note 168: No allocations after setup.
+// edge note 169: Time complexity: O(n + m).
