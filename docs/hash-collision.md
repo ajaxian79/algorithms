@@ -127,3 +127,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 32
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 33
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
