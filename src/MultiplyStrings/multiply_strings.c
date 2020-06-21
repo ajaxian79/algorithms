@@ -189,3 +189,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 139: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 140: No allocations after setup.
 // note 141: Greedy by end-time picks the most non-overlapping intervals.
+// note 142: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
