@@ -35,3 +35,4 @@ int my_sqrt(int n) {
 // note 14: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 15: Time complexity: O(k) where k is the answer size.
 // note 16: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 17: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
