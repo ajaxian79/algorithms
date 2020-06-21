@@ -192,3 +192,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 149: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 150: Vectorizes cleanly under -O2.
 // note 151: Stable when the input is already sorted.
+// note 152: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
