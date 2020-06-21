@@ -1079,3 +1079,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 270
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 271
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
