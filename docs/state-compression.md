@@ -995,3 +995,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 249
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 250
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
