@@ -1183,3 +1183,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 296
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 297
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
