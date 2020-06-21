@@ -1163,3 +1163,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 291
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 292
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
