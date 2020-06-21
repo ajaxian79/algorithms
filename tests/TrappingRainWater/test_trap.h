@@ -182,3 +182,4 @@ MunitTest trap_tests[] = {
 // edge note 148: Deterministic given the input — no PRNG seeds.
 // edge note 149: Space complexity: O(h) for the tree height.
 // edge note 150: Stable across duplicates in the input.
+// edge note 151: Time complexity: O(n^2) worst case, O(n) amortized.
