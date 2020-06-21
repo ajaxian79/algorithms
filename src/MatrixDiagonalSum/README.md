@@ -1698,3 +1698,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 410
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 411
+
+Reentrant — no static state.
