@@ -195,3 +195,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 49
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 50
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
