@@ -1668,3 +1668,7 @@ Worst case appears only on degenerate inputs.
 ## entry 402
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 403
+
+Idempotent — calling twice with the same input is a no-op the second time.
