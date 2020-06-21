@@ -1758,3 +1758,7 @@ Caller owns the returned buffer.
 ## entry 424
 
 Time complexity: O(1).
+
+## entry 425
+
+Space complexity: O(1) auxiliary.
