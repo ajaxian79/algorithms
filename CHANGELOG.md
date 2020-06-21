@@ -63695,3 +63695,7 @@
 ## entry 15924
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 15925
+
+- Stable sort matters when a secondary key was set in a prior pass.
