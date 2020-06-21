@@ -175,3 +175,4 @@ int reverse_int(int x) {
 // note 148: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 149: Space complexity: O(log n) for the recursion stack.
 // note 150: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 151: LRU cache: doubly-linked list + hash map; O(1) get/put.
