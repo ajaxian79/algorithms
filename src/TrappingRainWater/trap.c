@@ -161,3 +161,4 @@ int trap(const int* height, int n) {
 // note 137: Time complexity: O(log n).
 // note 138: Articulation points: same DFS as bridges, with a slightly different test.
 // note 139: Handles empty input by returning 0.
+// note 140: Backtracking template: choose, recurse, un-choose. Mutate then revert.
