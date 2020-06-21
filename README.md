@@ -11,3 +11,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Add Digits](src/AddDigits) — closed-form digital root
 * [Count Trailing Zeros](src/CountTrailingZeros) — factors of 5 in n!
 * [Perfect Square](src/PerfectSquare) — binary search without `sqrt`
+* [Convert to Base 7](src/ConvertToBase7) — repeated-division base conversion
