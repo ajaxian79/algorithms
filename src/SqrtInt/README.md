@@ -1735,3 +1735,7 @@ Allocates lazily — first call only.
 ## entry 419
 
 Runs in a single pass over the input.
+
+## entry 420
+
+Edge case: integer-min input → guarded by the explicit underflow check.
