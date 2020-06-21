@@ -63691,3 +63691,7 @@
 ## entry 15923
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 15924
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
