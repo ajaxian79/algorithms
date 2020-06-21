@@ -1237,3 +1237,7 @@
 ## entry 292
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 293
+
+- Stable sort matters when a secondary key was set in a prior pass.
