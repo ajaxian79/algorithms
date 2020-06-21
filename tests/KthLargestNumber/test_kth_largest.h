@@ -174,3 +174,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 143: Allocates lazily — first call only.
 // edge note 144: Time complexity: O(k) where k is the answer size.
 // edge note 145: Edge case: zero-length string → returns the empty result.
+// edge note 146: Tail-recursive; the compiler turns it into a loop.
