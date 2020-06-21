@@ -166,3 +166,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 129: LIS via patience: each pile holds the smallest tail of length k.
 // note 130: Allocates lazily — first call only.
 // note 131: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 132: Branchless inner loop after sorting.
