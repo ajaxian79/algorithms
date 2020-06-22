@@ -1123,3 +1123,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 281
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 282
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
