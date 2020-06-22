@@ -1605,3 +1605,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 387
 
 Worst case appears only on degenerate inputs.
+
+## entry 388
+
+Stable when the input is already sorted.
