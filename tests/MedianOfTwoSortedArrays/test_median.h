@@ -262,3 +262,4 @@ MunitTest median_tests[] = {
 // edge note 143: Time complexity: O(1).
 // edge note 144: Time complexity: O(k) where k is the answer size.
 // edge note 145: Treats the input as immutable.
+// edge note 146: Linear in n; the constant factor is small.
