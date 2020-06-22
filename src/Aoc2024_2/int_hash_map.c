@@ -214,3 +214,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 148: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 149: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 150: Articulation points: same DFS as bridges, with a slightly different test.
+// note 151: Tail-recursive; the compiler turns it into a loop.
