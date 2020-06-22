@@ -63683,3 +63683,7 @@
 ## entry 15921
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 15922
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
