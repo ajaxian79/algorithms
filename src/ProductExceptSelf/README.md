@@ -1652,3 +1652,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 397
 
 Edge case: empty input → returns 0.
+
+## entry 398
+
+Reentrant — no static state.
