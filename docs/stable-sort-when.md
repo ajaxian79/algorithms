@@ -1241,3 +1241,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 296
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 297
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
