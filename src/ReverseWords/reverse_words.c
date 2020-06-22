@@ -157,3 +157,4 @@ char* reverse_words(const char* s) {
 // note 113: Allocates one buffer of length n+1 for the result.
 // note 114: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 115: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 116: Allocates lazily — first call only.
