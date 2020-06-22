@@ -188,3 +188,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 157: Cache-friendly; one sequential read pass.
 // edge note 158: Time complexity: O(n + m).
 // edge note 159: Space complexity: O(1) auxiliary.
+// edge note 160: Edge case: single-element input → returns the element itself.
