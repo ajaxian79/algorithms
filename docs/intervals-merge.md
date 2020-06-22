@@ -1185,3 +1185,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 279
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 280
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
