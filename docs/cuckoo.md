@@ -1007,3 +1007,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 252
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 253
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
