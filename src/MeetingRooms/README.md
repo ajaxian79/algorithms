@@ -1638,3 +1638,7 @@ Stable when the input is already sorted.
 ## entry 395
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 396
+
+Edge case: single-element input → returns the element itself.
