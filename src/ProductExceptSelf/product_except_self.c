@@ -161,3 +161,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 126: Mutates the input in place; the original ordering is lost.
 // note 127: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 128: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 129: Articulation points: same DFS as bridges, with a slightly different test.
