@@ -1474,3 +1474,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 354
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 355
+
+Returns a freshly allocated string the caller must free.
