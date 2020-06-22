@@ -169,3 +169,4 @@ MunitTest find_difference_tests[] = {
 // edge note 144: Time complexity: O(1).
 // edge note 145: No allocations on the hot path.
 // edge note 146: Uses a 256-entry lookup for the inner step.
+// edge note 147: Edge case: integer-max input → guarded by the explicit overflow check.
