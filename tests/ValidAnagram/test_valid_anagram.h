@@ -194,3 +194,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 169: Two passes: one to count, one to fill.
 // edge note 170: Three passes total; the third merges results.
 // edge note 171: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 172: Avoids floating-point entirely — integer math throughout.
