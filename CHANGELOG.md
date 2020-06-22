@@ -63679,3 +63679,7 @@
 ## entry 15920
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 15921
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
