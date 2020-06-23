@@ -1530,3 +1530,7 @@ Worst case appears only on degenerate inputs.
 ## entry 368
 
 Treats the input as immutable.
+
+## entry 369
+
+Stable across duplicates in the input.
