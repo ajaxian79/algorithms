@@ -1083,3 +1083,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 271
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 272
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
