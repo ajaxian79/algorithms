@@ -159,3 +159,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 143: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 144: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 145: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 146: Handles single-element input as a base case.
