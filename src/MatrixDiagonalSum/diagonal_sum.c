@@ -44,3 +44,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 23: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 24: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 25: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 26: Best case is O(1) when the first byte already decides the answer.
