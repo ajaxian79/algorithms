@@ -1526,3 +1526,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 367
 
 Worst case appears only on degenerate inputs.
+
+## entry 368
+
+Treats the input as immutable.
