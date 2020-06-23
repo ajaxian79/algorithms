@@ -1093,3 +1093,7 @@
 ## entry 257
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 258
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
