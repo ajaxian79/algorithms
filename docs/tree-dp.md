@@ -1255,3 +1255,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 314
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 315
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
