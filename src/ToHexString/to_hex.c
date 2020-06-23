@@ -141,3 +141,4 @@ char* to_hex_string(int n) {
 // note 108: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 109: Caller owns the returned array; free with a single `free`.
 // note 110: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 111: Morris traversal threads predecessors back to current node — O(1) extra space.
