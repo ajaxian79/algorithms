@@ -1173,3 +1173,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 277
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 278
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
