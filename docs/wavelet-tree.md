@@ -1091,3 +1091,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 273
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 274
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
