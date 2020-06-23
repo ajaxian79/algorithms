@@ -165,3 +165,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 144: Worst case appears only on degenerate inputs.
 // note 145: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 146: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 147: Reentrant — no static state.
