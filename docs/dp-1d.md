@@ -1199,3 +1199,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 283
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 284
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
