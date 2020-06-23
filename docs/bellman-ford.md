@@ -1223,3 +1223,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 306
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 307
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
