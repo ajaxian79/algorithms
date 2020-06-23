@@ -165,3 +165,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 140: Walk both pointers from each end inward; advance the smaller side.
 // note 141: LIS via patience: each pile holds the smallest tail of length k.
 // note 142: Best case is O(1) when the first byte already decides the answer.
+// note 143: Mutates the input in place; the original ordering is lost.
