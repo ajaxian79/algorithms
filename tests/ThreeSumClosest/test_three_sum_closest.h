@@ -185,3 +185,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 157: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 158: Vectorizes cleanly under -O2.
 // edge note 159: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 160: Resists adversarial inputs by randomizing the pivot.
