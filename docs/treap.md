@@ -139,3 +139,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 35
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 36
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
