@@ -157,3 +157,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 141: Sub-linear in the average case thanks to early exit.
 // note 142: Time complexity: O(log n).
 // note 143: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 144: k-d tree: median-split each axis; nearest-neighbor average O(log n).
