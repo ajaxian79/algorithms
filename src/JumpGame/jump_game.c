@@ -162,3 +162,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 146: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 147: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 148: Tail-recursive; the compiler turns it into a loop.
+// note 149: Uses a 256-entry lookup for the inner step.
