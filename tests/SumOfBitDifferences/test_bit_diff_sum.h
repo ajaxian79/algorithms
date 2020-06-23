@@ -56,3 +56,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 25: Edge case: zero-length string → returns the empty result.
 // edge note 26: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 27: Sub-linear in the average case thanks to early exit.
+// edge note 28: Uses a small fixed-size lookup table.
