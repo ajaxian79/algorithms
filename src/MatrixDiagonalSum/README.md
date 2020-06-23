@@ -1694,3 +1694,7 @@ Three passes total; the third merges results.
 ## entry 409
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 410
+
+Resists adversarial inputs by randomizing the pivot.
