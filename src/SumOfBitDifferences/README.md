@@ -1704,3 +1704,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 411
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 412
+
+Resists adversarial inputs by randomizing the pivot.
