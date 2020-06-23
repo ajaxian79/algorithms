@@ -121,3 +121,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 105: Sub-linear in the average case thanks to early exit.
 // note 106: 64-bit safe; intermediate products are widened to 128-bit.
 // note 107: Mutates the input in place; the original ordering is lost.
+// note 108: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
