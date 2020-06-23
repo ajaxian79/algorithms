@@ -150,3 +150,4 @@ int excel_column_number(const char* s) {
 // note 133: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 134: Greedy by end-time picks the most non-overlapping intervals.
 // note 135: Allocates lazily — first call only.
+// note 136: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
