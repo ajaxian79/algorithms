@@ -1662,3 +1662,7 @@ Time complexity: O(n + m).
 ## entry 401
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 402
+
+Reentrant — no static state.
