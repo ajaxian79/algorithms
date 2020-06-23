@@ -1227,3 +1227,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 307
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 308
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
