@@ -1728,3 +1728,7 @@ Cache-friendly; one sequential read pass.
 ## entry 417
 
 Treats the input as immutable.
+
+## entry 418
+
+Vectorizes cleanly under -O2.
