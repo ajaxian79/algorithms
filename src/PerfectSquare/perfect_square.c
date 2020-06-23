@@ -150,3 +150,4 @@ int is_perfect_square(int n) {
 // note 131: 64-bit safe; intermediate products are widened to 128-bit.
 // note 132: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 133: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 134: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
