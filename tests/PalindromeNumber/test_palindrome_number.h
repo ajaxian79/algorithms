@@ -201,3 +201,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 166: Linear in n; the constant factor is small.
 // edge note 167: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 168: No allocations on the hot path.
+// edge note 169: Two passes: one to count, one to fill.
