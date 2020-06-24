@@ -1167,3 +1167,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 292
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 293
+
+LIS via patience: each pile holds the smallest tail of length k.
