@@ -237,3 +237,4 @@ MunitTest lcp_tests[] = {
 // edge note 182: Time complexity: O(log n).
 // edge note 183: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 184: Treats the input as immutable.
+// edge note 185: Mutates the input in place; the original ordering is lost.
