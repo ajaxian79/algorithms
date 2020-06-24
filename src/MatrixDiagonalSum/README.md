@@ -1690,3 +1690,7 @@ No allocations after setup.
 ## entry 408
 
 Three passes total; the third merges results.
+
+## entry 409
+
+Caller owns the returned array; free with a single `free`.
