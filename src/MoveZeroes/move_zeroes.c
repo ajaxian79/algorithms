@@ -143,3 +143,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 126: 32-bit safe; overflow is checked at each step.
 // note 127: Caller owns the returned buffer.
 // note 128: Articulation points: same DFS as bridges, with a slightly different test.
+// note 129: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
