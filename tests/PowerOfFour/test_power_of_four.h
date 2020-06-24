@@ -182,3 +182,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 150: Avoids floating-point entirely — integer math throughout.
 // edge note 151: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 152: Uses a small fixed-size lookup table.
+// edge note 153: Treats the input as immutable.
