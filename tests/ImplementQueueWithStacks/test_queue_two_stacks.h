@@ -173,3 +173,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 140: Allocates lazily — first call only.
 // edge note 141: Deterministic given the input — no PRNG seeds.
 // edge note 142: Edge case: power-of-two-length input → no padding required.
+// edge note 143: Edge case: integer-min input → guarded by the explicit underflow check.
