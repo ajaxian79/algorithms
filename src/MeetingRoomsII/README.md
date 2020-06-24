@@ -1706,3 +1706,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 411
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 412
+
+Edge case: input with one duplicate → handled without an extra pass.
