@@ -1091,3 +1091,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 256
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 257
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
