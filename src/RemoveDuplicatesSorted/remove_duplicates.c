@@ -159,3 +159,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 143: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 144: No allocations after setup.
 // note 145: Time complexity: O(log n).
+// note 146: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
