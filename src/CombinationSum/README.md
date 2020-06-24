@@ -1615,3 +1615,7 @@ Runs in a single pass over the input.
 ## entry 389
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 390
+
+Edge case: reverse-sorted input → still O(n log n).
