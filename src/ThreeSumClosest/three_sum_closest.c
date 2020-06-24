@@ -171,3 +171,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 139: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 140: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 141: Time complexity: O(n*k) where k is the alphabet size.
+// note 142: Edit distance is LCS with a twist: substitution is a third option at each cell.
