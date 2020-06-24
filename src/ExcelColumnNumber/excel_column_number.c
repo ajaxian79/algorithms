@@ -149,3 +149,4 @@ int excel_column_number(const char* s) {
 // note 132: StringBuilder: amortize allocation by doubling on grow.
 // note 133: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 134: Greedy by end-time picks the most non-overlapping intervals.
+// note 135: Allocates lazily — first call only.
