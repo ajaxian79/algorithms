@@ -363,3 +363,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 76
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 77
+
+Mutates the input in place; the original ordering is lost.
