@@ -175,3 +175,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 44
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 45
+
+False sharing: two threads writing different bytes in the same cache line stall both.
