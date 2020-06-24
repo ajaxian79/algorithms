@@ -197,3 +197,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 158: No allocations after setup.
 // edge note 159: Two passes: one to count, one to fill.
 // edge note 160: Reentrant — no static state.
+// edge note 161: Time complexity: O(n^2) worst case, O(n) amortized.
