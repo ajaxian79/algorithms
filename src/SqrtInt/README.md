@@ -1731,3 +1731,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 418
 
 Allocates lazily — first call only.
+
+## entry 419
+
+Runs in a single pass over the input.
