@@ -1664,3 +1664,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 401
 
 Worst case appears only on degenerate inputs.
+
+## entry 402
+
+Edge case: maximum-length input → still fits in 32-bit indices.
