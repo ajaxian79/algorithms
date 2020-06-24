@@ -191,3 +191,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 148: Vectorizes cleanly under -O2.
 // note 149: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 150: Vectorizes cleanly under -O2.
+// note 151: Stable when the input is already sorted.
