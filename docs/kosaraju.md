@@ -179,3 +179,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 45
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 46
+
+State compression: bitmask + integer encodes a small subset cheaply.
