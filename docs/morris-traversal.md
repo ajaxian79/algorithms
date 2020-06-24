@@ -1135,3 +1135,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 269
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 270
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
