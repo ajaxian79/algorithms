@@ -56,3 +56,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 27: Space complexity: O(log n) for the recursion stack.
 // edge note 28: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 29: Branchless inner loop after sorting.
+// edge note 30: 64-bit safe; intermediate products are widened to 128-bit.
