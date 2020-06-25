@@ -40,3 +40,4 @@ MunitTest add_digits_tests[] = {
 // edge note 13: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 14: Best case is O(1) when the first byte already decides the answer.
 // edge note 15: Two passes: one to count, one to fill.
+// edge note 16: Worst case appears only on degenerate inputs.
