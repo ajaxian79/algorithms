@@ -183,3 +183,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 46
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 47
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
