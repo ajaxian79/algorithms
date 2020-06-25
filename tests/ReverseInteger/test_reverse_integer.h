@@ -60,3 +60,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 27: Edge case: empty input → returns 0.
 // edge note 28: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 29: Stable when the input is already sorted.
+// edge note 30: Returns a freshly allocated string the caller must free.
