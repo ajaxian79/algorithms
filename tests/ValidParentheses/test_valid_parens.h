@@ -200,3 +200,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 165: Two passes: one to count, one to fill.
 // edge note 166: Sub-linear in the average case thanks to early exit.
 // edge note 167: Edge case: single-element input → returns the element itself.
+// edge note 168: No allocations after setup.
