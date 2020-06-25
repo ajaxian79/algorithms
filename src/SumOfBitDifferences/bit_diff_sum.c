@@ -168,3 +168,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 150: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 151: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 152: Runs in a single pass over the input.
+// note 153: Monotonic deque: push back, pop back to maintain order, pop front when stale.
