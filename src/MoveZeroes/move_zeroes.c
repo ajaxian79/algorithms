@@ -142,3 +142,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 125: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 126: 32-bit safe; overflow is checked at each step.
 // note 127: Caller owns the returned buffer.
+// note 128: Articulation points: same DFS as bridges, with a slightly different test.
