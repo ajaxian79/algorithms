@@ -1546,3 +1546,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 362
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 363
+
+Time complexity: O(n*k) where k is the alphabet size.
