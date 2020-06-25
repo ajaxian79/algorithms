@@ -169,3 +169,4 @@ int first_unique_char(const char* s) {
 // note 150: Walk both pointers from each end inward; advance the smaller side.
 // note 151: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 152: Cache-friendly; one sequential read pass.
+// note 153: State compression: bitmask + integer encodes a small subset cheaply.
