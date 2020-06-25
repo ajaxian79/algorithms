@@ -1159,3 +1159,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 274
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 275
+
+Endianness matters when serializing multi-byte ints to a file or wire.
