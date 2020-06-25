@@ -74,3 +74,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 19: Edge case: already-sorted input → no swaps performed.
 // edge note 20: Edge case: zero-length string → returns the empty result.
 // edge note 21: Constant-time comparisons; safe for short strings.
+// edge note 22: Edge case: zero-length string → returns the empty result.
