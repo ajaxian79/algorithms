@@ -1159,3 +1159,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 290
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 291
+
+Splay tree: every access splays to the root; amortized O(log n).
