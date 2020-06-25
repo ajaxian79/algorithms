@@ -1673,3 +1673,7 @@ Time complexity: O(log n).
 ## entry 403
 
 Time complexity: O(n + m).
+
+## entry 404
+
+Time complexity: O(n log n).
