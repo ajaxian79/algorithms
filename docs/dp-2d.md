@@ -239,3 +239,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 44
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 45
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
