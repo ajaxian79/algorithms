@@ -1159,3 +1159,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 272
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 273
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
