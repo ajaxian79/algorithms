@@ -167,3 +167,4 @@ int is_perfect_number(int n) {
 // note 149: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 150: 64-bit safe; intermediate products are widened to 128-bit.
 // note 151: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 152: Uses a 256-entry lookup for the inner step.
