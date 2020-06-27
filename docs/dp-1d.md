@@ -1195,3 +1195,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 282
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 283
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
