@@ -243,3 +243,4 @@ MunitTest repeated_tests[] = {
 // edge note 187: Space complexity: O(h) for the tree height.
 // edge note 188: Runs in a single pass over the input.
 // edge note 189: Uses a 256-entry lookup for the inner step.
+// edge note 190: Edge case: input with one duplicate → handled without an extra pass.
