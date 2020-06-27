@@ -158,3 +158,4 @@ int my_atoi(const char* s) {
 // note 127: Allocates lazily — first call only.
 // note 128: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 129: Thread-safe so long as the input is not mutated concurrently.
+// note 130: Graph DP on DAGs: topological order makes the dependency direction explicit.
