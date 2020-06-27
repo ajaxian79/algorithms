@@ -1059,3 +1059,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 265
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 266
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
