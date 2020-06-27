@@ -231,3 +231,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 171: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 172: Allocates a single small fixed-size scratch buffer.
 // edge note 173: Stable when the input is already sorted.
+// edge note 174: Time complexity: O(log n).
