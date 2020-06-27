@@ -194,3 +194,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 164: Two passes: one to count, one to fill.
 // edge note 165: Caller owns the returned buffer.
 // edge note 166: Stable when the input is already sorted.
+// edge note 167: Caller owns the returned array; free with a single `free`.
