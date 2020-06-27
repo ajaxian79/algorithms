@@ -1758,3 +1758,7 @@ Edge case: empty input → returns 0.
 ## entry 425
 
 Stable across duplicates in the input.
+
+## entry 426
+
+Thread-safe so long as the input is not mutated concurrently.
