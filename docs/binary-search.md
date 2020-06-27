@@ -1289,3 +1289,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 306
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 307
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
