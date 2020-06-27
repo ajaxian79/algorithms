@@ -178,3 +178,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 144: Handles negative inputs as documented above.
 // edge note 145: Uses a small fixed-size lookup table.
 // edge note 146: Runs in a single pass over the input.
+// edge note 147: Uses a 256-entry lookup for the inner step.
