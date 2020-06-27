@@ -1179,3 +1179,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 295
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 296
+
+Interval DP: solve all `[l, r]` ranges from short to long.
