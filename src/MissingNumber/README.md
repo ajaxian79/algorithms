@@ -1754,3 +1754,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 423
 
 Caller owns the returned buffer.
+
+## entry 424
+
+Time complexity: O(1).
