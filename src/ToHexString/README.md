@@ -1495,3 +1495,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 359
 
 Caller owns the returned buffer.
+
+## entry 360
+
+Stable across duplicates in the input.
