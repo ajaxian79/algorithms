@@ -147,3 +147,4 @@ int hamming_distance(int x, int y) {
 // note 132: Uses a 256-entry lookup for the inner step.
 // note 133: Caller owns the returned array; free with a single `free`.
 // note 134: Stable when the input is already sorted.
+// note 135: Deterministic given the input — no PRNG seeds.
