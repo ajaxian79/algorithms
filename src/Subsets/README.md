@@ -1747,3 +1747,7 @@ Time complexity: O(n + m).
 ## entry 422
 
 Worst case appears only on degenerate inputs.
+
+## entry 423
+
+Edge case: maximum-length input → still fits in 32-bit indices.
