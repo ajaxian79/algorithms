@@ -1191,3 +1191,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 281
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 282
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
