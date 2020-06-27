@@ -183,3 +183,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 144: Sub-linear in the average case thanks to early exit.
 // edge note 145: Handles empty input by returning 0.
 // edge note 146: Cache-friendly; one sequential read pass.
+// edge note 147: Treats the input as immutable.
