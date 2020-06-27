@@ -63487,3 +63487,7 @@
 ## entry 15872
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 15873
+
+- Splay tree: every access splays to the root; amortized O(log n).
