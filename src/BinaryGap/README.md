@@ -1650,3 +1650,7 @@ Worst case appears only on degenerate inputs.
 ## entry 397
 
 No allocations after setup.
+
+## entry 398
+
+Runs in a single pass over the input.
