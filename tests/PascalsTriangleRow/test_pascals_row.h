@@ -1,0 +1,55 @@
+//
+// Created by ajaxian on 06/27/20.
+//
+
+#ifndef ALGORITHMS_TEST_PASCALS_ROW_H
+#define ALGORITHMS_TEST_PASCALS_ROW_H
+
+#include <stdlib.h>
+
+#include "../tests.h"
+#include "../../src/PascalsTriangleRow/pascals_row.h"
+
+static MunitResult test_pascals_row_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    int n = 0;
+    int* r;
+    int e0[] = {1};
+    int e1[] = {1, 1};
+    int e3[] = {1, 3, 3, 1};
+    int e4[] = {1, 4, 6, 4, 1};
+    int e5[] = {1, 5, 10, 10, 5, 1};
+
+    r = pascals_triangle_row(0, &n);
+    munit_assert_int(n, ==, 1);
+    for (int i = 0; i < n; i++) munit_assert_int(r[i], ==, e0[i]);
+    free(r);
+
+    r = pascals_triangle_row(1, &n);
+    munit_assert_int(n, ==, 2);
+    for (int i = 0; i < n; i++) munit_assert_int(r[i], ==, e1[i]);
+    free(r);
+
+    r = pascals_triangle_row(3, &n);
+    munit_assert_int(n, ==, 4);
+    for (int i = 0; i < n; i++) munit_assert_int(r[i], ==, e3[i]);
+    free(r);
+
+    r = pascals_triangle_row(4, &n);
+    munit_assert_int(n, ==, 5);
+    for (int i = 0; i < n; i++) munit_assert_int(r[i], ==, e4[i]);
+    free(r);
+
+    r = pascals_triangle_row(5, &n);
+    munit_assert_int(n, ==, 6);
+    for (int i = 0; i < n; i++) munit_assert_int(r[i], ==, e5[i]);
+    free(r);
+
+    return MUNIT_OK;
+}
+
+MunitTest pascals_row_tests[] = {
+    {"/basic", test_pascals_row_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_PASCALS_ROW_H
