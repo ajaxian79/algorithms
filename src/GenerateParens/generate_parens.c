@@ -91,3 +91,4 @@ char** generate_parens(int n, int* return_size) {
 // note 27: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 28: Resists adversarial inputs by randomizing the pivot.
 // note 29: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 30: Open addressing with linear probing wins until load factor exceeds 0.7.
