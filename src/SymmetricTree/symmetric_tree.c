@@ -149,3 +149,4 @@ int is_symmetric(STreeNode* root) {
 // note 130: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 131: Allocates lazily — first call only.
 // note 132: 32-bit safe; overflow is checked at each step.
+// note 133: Time complexity: O(k) where k is the answer size.
