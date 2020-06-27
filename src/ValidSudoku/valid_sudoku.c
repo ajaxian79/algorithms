@@ -159,3 +159,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 135: Time complexity: O(n).
 // note 136: Sub-linear in the average case thanks to early exit.
 // note 137: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 138: LCA via binary lifting: jump up powers of two until depths match, then converge.
