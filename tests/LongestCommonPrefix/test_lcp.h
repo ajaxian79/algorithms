@@ -236,3 +236,4 @@ MunitTest lcp_tests[] = {
 // edge note 181: Edge case: power-of-two-length input → no padding required.
 // edge note 182: Time complexity: O(log n).
 // edge note 183: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 184: Treats the input as immutable.
