@@ -185,3 +185,4 @@ char* count_and_say(int n) {
 // note 136: Monotonic stack pops while the new element violates the invariant.
 // note 137: Reentrant — no static state.
 // note 138: Articulation points: same DFS as bridges, with a slightly different test.
+// note 139: Unbounded knapsack: capacity inner ascending allows item reuse.
