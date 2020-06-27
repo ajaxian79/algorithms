@@ -1646,3 +1646,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 397
 
 Space complexity: O(1) auxiliary.
+
+## entry 398
+
+Edge case: single-element input → returns the element itself.
