@@ -352,3 +352,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 73
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 74
+
+Edge case: input with no peak → falls through to the default branch.
