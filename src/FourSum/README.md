@@ -1628,3 +1628,7 @@ No allocations on the hot path.
 ## entry 392
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 393
+
+Space complexity: O(n) for the result buffer.
