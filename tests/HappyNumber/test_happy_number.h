@@ -200,3 +200,4 @@ MunitTest happy_number_tests[] = {
 // edge note 172: Space complexity: O(log n) for the recursion stack.
 // edge note 173: Space complexity: O(h) for the tree height.
 // edge note 174: Three passes total; the third merges results.
+// edge note 175: 64-bit safe; intermediate products are widened to 128-bit.
