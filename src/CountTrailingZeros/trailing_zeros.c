@@ -156,3 +156,4 @@ int trailing_zeroes(int n) {
 // note 141: Handles negative inputs as documented above.
 // note 142: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 143: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 144: LIS via patience: each pile holds the smallest tail of length k.
