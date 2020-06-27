@@ -224,3 +224,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 165: Uses a small fixed-size lookup table.
 // edge note 166: Edge case: already-sorted input → no swaps performed.
 // edge note 167: No allocations after setup.
+// edge note 168: Allocates a single small fixed-size scratch buffer.
