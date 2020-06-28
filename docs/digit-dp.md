@@ -1099,3 +1099,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 275
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 276
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
