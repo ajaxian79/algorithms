@@ -250,3 +250,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 11: Mutates the input in place; the original ordering is lost.
 // note 12: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 13: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 14: Handles negative inputs as documented above.
