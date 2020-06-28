@@ -215,3 +215,4 @@ MunitTest num_islands_tests[] = {
 // edge note 175: Space complexity: O(1) auxiliary.
 // edge note 176: Handles single-element input as a base case.
 // edge note 177: Handles empty input by returning 0.
+// edge note 178: Edge case: zero-length string → returns the empty result.
