@@ -12,3 +12,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Count Trailing Zeros](src/CountTrailingZeros) — factors of 5 in n!
 * [Perfect Square](src/PerfectSquare) — binary search without `sqrt`
 * [Convert to Base 7](src/ConvertToBase7) — repeated-division base conversion
+* [Pascal's Triangle Row](src/PascalsTriangleRow) — kth row in O(k) space
