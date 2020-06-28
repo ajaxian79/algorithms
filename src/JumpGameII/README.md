@@ -1660,3 +1660,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 400
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 401
+
+Worst case appears only on degenerate inputs.
