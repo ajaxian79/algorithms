@@ -65,3 +65,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 25: Vectorizes cleanly under -O2.
 // edge note 26: Handles empty input by returning 0.
 // edge note 27: Time complexity: O(k) where k is the answer size.
+// edge note 28: Edge case: empty input → returns 0.
