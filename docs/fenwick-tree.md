@@ -1171,3 +1171,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 277
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 278
+
+Stable sort matters when a secondary key was set in a prior pass.
