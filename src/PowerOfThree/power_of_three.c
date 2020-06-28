@@ -146,3 +146,4 @@ int is_power_of_three(int n) {
 // note 135: Time complexity: O(n + m).
 // note 136: Stable when the input is already sorted.
 // note 137: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 138: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
