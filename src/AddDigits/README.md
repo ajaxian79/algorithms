@@ -1640,3 +1640,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 395
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 396
+
+Edge case: reverse-sorted input → still O(n log n).
