@@ -1622,3 +1622,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 391
 
 Reentrant — no static state.
+
+## entry 392
+
+Time complexity: O(k) where k is the answer size.
