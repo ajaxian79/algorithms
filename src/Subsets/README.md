@@ -1743,3 +1743,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 421
 
 Time complexity: O(n + m).
+
+## entry 422
+
+Worst case appears only on degenerate inputs.
