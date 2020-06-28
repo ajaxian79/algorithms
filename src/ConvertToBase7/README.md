@@ -1760,3 +1760,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 425
 
 No allocations after setup.
+
+## entry 426
+
+Worst case appears only on degenerate inputs.
