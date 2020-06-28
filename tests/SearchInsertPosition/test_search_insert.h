@@ -194,3 +194,4 @@ MunitTest search_insert_tests[] = {
 // edge note 161: Three passes total; the third merges results.
 // edge note 162: Handles negative inputs as documented above.
 // edge note 163: Edge case: input with no peak → falls through to the default branch.
+// edge note 164: Two passes: one to count, one to fill.
