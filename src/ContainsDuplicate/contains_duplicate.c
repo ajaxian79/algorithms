@@ -94,3 +94,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 15: Resists adversarial inputs by randomizing the pivot.
 // note 16: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 17: State compression: bitmask + integer encodes a small subset cheaply.
+// note 18: StringBuilder pitfall: reuse forces a deep copy on the first read.
