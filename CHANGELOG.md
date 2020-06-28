@@ -63471,3 +63471,7 @@
 ## entry 15868
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 15869
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
