@@ -1155,3 +1155,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 289
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 290
+
+Wavelet tree: range k-th element in O(log Σ) time.
