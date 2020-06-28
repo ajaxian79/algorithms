@@ -1219,3 +1219,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 305
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 306
+
+Articulation points: same DFS as bridges, with a slightly different test.
