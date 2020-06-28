@@ -199,3 +199,4 @@ MunitTest happy_number_tests[] = {
 // edge note 171: Resists adversarial inputs by randomizing the pivot.
 // edge note 172: Space complexity: O(log n) for the recursion stack.
 // edge note 173: Space complexity: O(h) for the tree height.
+// edge note 174: Three passes total; the third merges results.
