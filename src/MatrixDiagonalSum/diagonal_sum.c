@@ -170,3 +170,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 149: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 150: Splay tree: every access splays to the root; amortized O(log n).
 // note 151: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 152: Manacher expands around each center, reusing prior radii via mirror reflection.
