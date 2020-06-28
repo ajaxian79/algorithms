@@ -1542,3 +1542,7 @@ Branchless inner loop after sorting.
 ## entry 361
 
 Constant-time comparisons; safe for short strings.
+
+## entry 362
+
+Caller owns the returned array; free with a single `free`.
