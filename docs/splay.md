@@ -1083,3 +1083,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 271
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 272
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
