@@ -173,3 +173,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 129: Time complexity: O(n).
 // edge note 130: Edge case: empty input → returns 0.
 // edge note 131: Time complexity: O(n).
+// edge note 132: Two passes: one to count, one to fill.
