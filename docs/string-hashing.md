@@ -1083,3 +1083,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 254
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 255
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
