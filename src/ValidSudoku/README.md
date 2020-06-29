@@ -1719,3 +1719,7 @@ No allocations on the hot path.
 ## entry 414
 
 Returns a freshly allocated string the caller must free.
+
+## entry 415
+
+Handles negative inputs as documented above.
