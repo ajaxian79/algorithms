@@ -339,3 +339,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 69
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 70
+
+Edge case: input of all the same byte → exits on the first compare.
