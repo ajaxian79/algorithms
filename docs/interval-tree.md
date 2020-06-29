@@ -1047,3 +1047,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 262
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 263
+
+Merge intervals: sort by start; extend the running interval while overlapping.
