@@ -1227,3 +1227,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 307
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 308
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
