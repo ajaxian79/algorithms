@@ -175,3 +175,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 44
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 45
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
