@@ -1635,3 +1635,7 @@ Space complexity: O(h) for the tree height.
 ## entry 394
 
 Returns a freshly allocated string the caller must free.
+
+## entry 395
+
+Constant-time comparisons; safe for short strings.
