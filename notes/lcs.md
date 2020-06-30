@@ -1187,3 +1187,7 @@
 ## entry 280
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 281
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
