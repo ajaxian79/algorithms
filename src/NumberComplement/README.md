@@ -1684,3 +1684,7 @@ Branchless inner loop after sorting.
 ## entry 405
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 406
+
+Handles single-element input as a base case.
