@@ -1627,3 +1627,7 @@ Edge case: empty input → returns 0.
 ## entry 392
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 393
+
+No allocations on the hot path.
