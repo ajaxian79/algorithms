@@ -1646,3 +1646,7 @@ No allocations on the hot path.
 ## entry 396
 
 Worst case appears only on degenerate inputs.
+
+## entry 397
+
+No allocations after setup.
