@@ -313,3 +313,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 63
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 64
+
+Edge case: single-element input → returns the element itself.
