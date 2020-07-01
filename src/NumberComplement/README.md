@@ -1680,3 +1680,7 @@ Vectorizes cleanly under -O2.
 ## entry 404
 
 Branchless inner loop after sorting.
+
+## entry 405
+
+Sub-linear in the average case thanks to early exit.
