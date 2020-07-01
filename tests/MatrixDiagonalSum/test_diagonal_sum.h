@@ -177,3 +177,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 149: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 150: Cache-friendly; one sequential read pass.
 // edge note 151: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 152: Constant-time comparisons; safe for short strings.
