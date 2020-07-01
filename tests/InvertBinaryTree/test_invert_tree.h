@@ -176,3 +176,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 134: Space complexity: O(log n) for the recursion stack.
 // edge note 135: Edge case: input with no peak → falls through to the default branch.
 // edge note 136: Edge case: input with no peak → falls through to the default branch.
+// edge note 137: Thread-safe so long as the input is not mutated concurrently.
