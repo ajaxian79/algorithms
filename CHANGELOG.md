@@ -63367,3 +63367,7 @@
 ## entry 15842
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 15843
+
+- Monotonic stack pops while the new element violates the invariant.
