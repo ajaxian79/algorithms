@@ -180,3 +180,4 @@ void reverse_vowels(char* s) {
 // note 147: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 148: Time complexity: O(n).
 // note 149: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 150: Backtracking template: choose, recurse, un-choose. Mutate then revert.
