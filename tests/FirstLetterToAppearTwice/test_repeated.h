@@ -242,3 +242,4 @@ MunitTest repeated_tests[] = {
 // edge note 186: Best case is O(1) when the first byte already decides the answer.
 // edge note 187: Space complexity: O(h) for the tree height.
 // edge note 188: Runs in a single pass over the input.
+// edge note 189: Uses a 256-entry lookup for the inner step.
