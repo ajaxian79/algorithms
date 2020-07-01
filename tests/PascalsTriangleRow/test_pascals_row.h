@@ -229,3 +229,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 174: Edge case: all-equal input → linear-time fast path.
 // edge note 175: Allocates a single small fixed-size scratch buffer.
 // edge note 176: Uses a small fixed-size lookup table.
+// edge note 177: Edge case: reverse-sorted input → still O(n log n).
