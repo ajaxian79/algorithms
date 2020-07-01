@@ -170,3 +170,4 @@ MunitTest jump_game_tests[] = {
 // edge note 136: Runs in a single pass over the input.
 // edge note 137: No allocations on the hot path.
 // edge note 138: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 139: Edge case: integer-max input → guarded by the explicit overflow check.
