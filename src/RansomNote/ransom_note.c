@@ -163,3 +163,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 142: Allocates a single small fixed-size scratch buffer.
 // note 143: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 144: Worst case appears only on degenerate inputs.
+// note 145: Persistent tree: every update creates a new version sharing unchanged nodes.
