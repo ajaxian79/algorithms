@@ -174,3 +174,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 129: Space complexity: O(n) for the result buffer.
 // note 130: Reentrant — no static state.
 // note 131: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 132: Graph DP on DAGs: topological order makes the dependency direction explicit.
