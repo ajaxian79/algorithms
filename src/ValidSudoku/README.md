@@ -1715,3 +1715,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 413
 
 No allocations on the hot path.
+
+## entry 414
+
+Returns a freshly allocated string the caller must free.
