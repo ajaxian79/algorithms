@@ -1724,3 +1724,7 @@ Time complexity: O(n + m).
 ## entry 416
 
 Cache-friendly; one sequential read pass.
+
+## entry 417
+
+Treats the input as immutable.
