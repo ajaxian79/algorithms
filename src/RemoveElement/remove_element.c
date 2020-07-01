@@ -161,3 +161,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 146: Time complexity: O(n + m).
 // note 147: Worst case appears only on degenerate inputs.
 // note 148: Time complexity: O(n).
+// note 149: k-d tree: median-split each axis; nearest-neighbor average O(log n).
