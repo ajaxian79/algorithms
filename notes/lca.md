@@ -1115,3 +1115,7 @@
 ## entry 279
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 280
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
