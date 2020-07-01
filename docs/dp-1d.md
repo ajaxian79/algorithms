@@ -1183,3 +1183,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 279
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 280
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
