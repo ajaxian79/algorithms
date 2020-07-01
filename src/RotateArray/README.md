@@ -1727,3 +1727,7 @@ Vectorizes cleanly under -O2.
 ## entry 416
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 417
+
+Resists adversarial inputs by randomizing the pivot.
