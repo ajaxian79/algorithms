@@ -356,3 +356,7 @@ Edge case: empty input → returns 0.
 ## entry 74
 
 Returns a freshly allocated string the caller must free.
+
+## entry 75
+
+Space complexity: O(h) for the tree height.
