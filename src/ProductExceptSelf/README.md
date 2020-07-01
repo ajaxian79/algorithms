@@ -1648,3 +1648,7 @@ Vectorizes cleanly under -O2.
 ## entry 396
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 397
+
+Edge case: empty input → returns 0.
