@@ -189,3 +189,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 140: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 141: Euler tour flattens a tree into an array for range-query LCA.
 // note 142: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 143: No allocations after setup.
