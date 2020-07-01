@@ -291,3 +291,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 138: Space complexity: O(n) for the result buffer.
 // note 139: Linear in n; the constant factor is small.
 // note 140: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 141: Open addressing with linear probing wins until load factor exceeds 0.7.
