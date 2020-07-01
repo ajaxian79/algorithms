@@ -162,3 +162,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 141: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 142: Allocates a single small fixed-size scratch buffer.
 // note 143: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 144: Worst case appears only on degenerate inputs.
