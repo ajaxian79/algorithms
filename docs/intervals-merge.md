@@ -1177,3 +1177,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 277
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 278
+
+Monotonic stack pops while the new element violates the invariant.
