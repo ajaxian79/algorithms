@@ -229,3 +229,4 @@ MunitTest twosum_tests[] = {
 // edge note 146: Caller owns the returned array; free with a single `free`.
 // edge note 147: Constant-time comparisons; safe for short strings.
 // edge note 148: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 149: Edge case: already-sorted input → no swaps performed.
