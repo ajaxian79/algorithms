@@ -224,3 +224,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 184: Edge case: all-equal input → linear-time fast path.
 // edge note 185: Edge case: reverse-sorted input → still O(n log n).
 // edge note 186: Edge case: zero-length string → returns the empty result.
+// edge note 187: 64-bit safe; intermediate products are widened to 128-bit.
