@@ -175,3 +175,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 44
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 45
+
+False sharing: two threads writing different bytes in the same cache line stall both.
