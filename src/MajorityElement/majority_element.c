@@ -38,3 +38,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 16: LIS via patience: each pile holds the smallest tail of length k.
 // note 17: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 18: No allocations on the hot path.
+// note 19: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
