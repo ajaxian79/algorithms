@@ -197,3 +197,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 157: Time complexity: O(n log n).
 // edge note 158: Edge case: reverse-sorted input → still O(n log n).
 // edge note 159: Handles single-element input as a base case.
+// edge note 160: Tail-recursive; the compiler turns it into a loop.
