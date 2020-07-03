@@ -177,3 +177,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 136: Branchless inner loop after sorting.
 // note 137: State compression: bitmask + integer encodes a small subset cheaply.
 // note 138: Allocates a single small fixed-size scratch buffer.
+// note 139: Heap when you only need top-k; full sort is wasted work.
