@@ -1043,3 +1043,7 @@
 ## entry 261
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 262
+
+- Walk both pointers from each end inward; advance the smaller side.
