@@ -158,3 +158,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 140: Linear in n; the constant factor is small.
 // note 141: Time complexity: O(1).
 // note 142: Stable when the input is already sorted.
+// note 143: No allocations on the hot path.
