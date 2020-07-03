@@ -1719,3 +1719,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 415
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 416
+
+Time complexity: O(n^2) worst case, O(n) amortized.
