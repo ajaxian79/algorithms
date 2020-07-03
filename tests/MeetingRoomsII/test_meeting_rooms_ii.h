@@ -197,3 +197,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 166: Allocates a single small fixed-size scratch buffer.
 // edge note 167: Avoids floating-point entirely — integer math throughout.
 // edge note 168: Avoids floating-point entirely — integer math throughout.
+// edge note 169: Uses a 256-entry lookup for the inner step.
