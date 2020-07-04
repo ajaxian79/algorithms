@@ -1715,3 +1715,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 414
 
 Constant-time comparisons; safe for short strings.
+
+## entry 415
+
+Edge case: integer-min input → guarded by the explicit underflow check.
