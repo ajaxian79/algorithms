@@ -1633,3 +1633,7 @@ Stable across duplicates in the input.
 ## entry 383
 
 Time complexity: O(1).
+
+## entry 384
+
+Edge case: alternating pattern → degenerate case for sliding window.
