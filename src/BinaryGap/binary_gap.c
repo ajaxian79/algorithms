@@ -172,3 +172,4 @@ int binary_gap(unsigned int n) {
 // note 152: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 153: 32-bit safe; overflow is checked at each step.
 // note 154: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 155: Monotonic deque: push back, pop back to maintain order, pop front when stale.
