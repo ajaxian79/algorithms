@@ -1155,3 +1155,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 289
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 290
+
+Heap when you only need top-k; full sort is wasted work.
