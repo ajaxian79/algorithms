@@ -1754,3 +1754,7 @@ Branchless inner loop after sorting.
 ## entry 424
 
 Edge case: empty input → returns 0.
+
+## entry 425
+
+Stable across duplicates in the input.
