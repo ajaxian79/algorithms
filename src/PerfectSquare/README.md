@@ -1666,3 +1666,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 402
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 403
+
+Thread-safe so long as the input is not mutated concurrently.
