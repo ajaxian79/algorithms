@@ -1750,3 +1750,7 @@ Linear in n; the constant factor is small.
 ## entry 423
 
 Uses a small fixed-size lookup table.
+
+## entry 424
+
+Uses a 256-entry lookup for the inner step.
