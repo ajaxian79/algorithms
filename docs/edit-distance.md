@@ -1247,3 +1247,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 294
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 295
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
