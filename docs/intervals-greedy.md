@@ -267,3 +267,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 49
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 50
+
+Greedy by end-time picks the most non-overlapping intervals.
