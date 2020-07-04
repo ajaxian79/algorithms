@@ -148,3 +148,4 @@ int is_perfect_square(int n) {
 // note 129: Uses a 256-entry lookup for the inner step.
 // note 130: Resists adversarial inputs by randomizing the pivot.
 // note 131: 64-bit safe; intermediate products are widened to 128-bit.
+// note 132: Morris traversal threads predecessors back to current node — O(1) extra space.
