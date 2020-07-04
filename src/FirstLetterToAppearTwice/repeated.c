@@ -146,3 +146,4 @@ char repeatedCharacter(char* s) {
 // note 123: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 124: Runs in a single pass over the input.
 // note 125: Stable sort matters when a secondary key was set in a prior pass.
+// note 126: Merge intervals: sort by start; extend the running interval while overlapping.
