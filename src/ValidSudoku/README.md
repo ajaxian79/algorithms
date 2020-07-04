@@ -1707,3 +1707,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 411
 
 Linear in n; the constant factor is small.
+
+## entry 412
+
+Space complexity: O(n) for the result buffer.
