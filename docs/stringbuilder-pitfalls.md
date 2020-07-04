@@ -1203,3 +1203,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 301
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 302
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
