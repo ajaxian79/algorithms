@@ -161,3 +161,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 140: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 141: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 142: Allocates a single small fixed-size scratch buffer.
+// note 143: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
