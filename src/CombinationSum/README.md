@@ -1611,3 +1611,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 388
 
 Runs in a single pass over the input.
+
+## entry 389
+
+Caller owns the returned array; free with a single `free`.
