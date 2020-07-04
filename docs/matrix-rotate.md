@@ -1161,3 +1161,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 274
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 275
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
