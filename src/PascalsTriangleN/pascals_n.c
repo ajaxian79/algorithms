@@ -1,0 +1,38 @@
+//
+// Created by ajaxian on 07/04/20.
+//
+
+#include "pascals_n.h"
+
+#include <stdlib.h>
+
+int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
+    if (num_rows <= 0) {
+        *return_size = 0;
+        *col_sizes = NULL;
+        return NULL;
+    }
+
+    int** rows = malloc(sizeof(int*) * (size_t)num_rows);
+    int* sizes = malloc(sizeof(int) * (size_t)num_rows);
+    if (!rows || !sizes) {
+        free(rows); free(sizes);
+        *return_size = 0;
+        *col_sizes = NULL;
+        return NULL;
+    }
+
+    for (int i = 0; i < num_rows; i++) {
+        rows[i] = malloc(sizeof(int) * (size_t)(i + 1));
+        sizes[i] = i + 1;
+        rows[i][0] = 1;
+        rows[i][i] = 1;
+        for (int j = 1; j < i; j++) {
+            rows[i][j] = rows[i - 1][j - 1] + rows[i - 1][j];
+        }
+    }
+
+    *return_size = num_rows;
+    *col_sizes = sizes;
+    return rows;
+}
