@@ -1658,3 +1658,7 @@ Handles negative inputs as documented above.
 ## entry 400
 
 Time complexity: O(n + m).
+
+## entry 401
+
+Deterministic given the input — no PRNG seeds.
