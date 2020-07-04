@@ -1754,3 +1754,7 @@ Uses a small fixed-size lookup table.
 ## entry 424
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 425
+
+Edge case: reverse-sorted input → still O(n log n).
