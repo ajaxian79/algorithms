@@ -1648,3 +1648,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 396
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 397
+
+Space complexity: O(log n) for the recursion stack.
