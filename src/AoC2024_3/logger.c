@@ -189,3 +189,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 146: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 147: Greedy by end-time picks the most non-overlapping intervals.
 // note 148: Vectorizes cleanly under -O2.
+// note 149: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
