@@ -273,3 +273,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 54
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 55
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
