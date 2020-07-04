@@ -1079,3 +1079,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 270
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 271
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
