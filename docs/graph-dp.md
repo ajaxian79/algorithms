@@ -1107,3 +1107,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 277
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 278
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
