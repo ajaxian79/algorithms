@@ -457,3 +457,4 @@ void free_contents(char *buffer) {
 // note 151: Caller owns the returned array; free with a single `free`.
 // note 152: Walk both pointers from each end inward; advance the smaller side.
 // note 153: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 154: Open addressing with linear probing wins until load factor exceeds 0.7.
