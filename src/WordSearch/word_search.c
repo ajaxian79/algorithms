@@ -169,3 +169,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 135: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 136: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 137: Cache-friendly; one sequential read pass.
+// note 138: Time complexity: O(n).
