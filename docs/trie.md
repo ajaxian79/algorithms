@@ -1089,3 +1089,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 256
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 257
+
+Greedy by end-time picks the most non-overlapping intervals.
