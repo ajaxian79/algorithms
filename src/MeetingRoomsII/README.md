@@ -334,3 +334,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 68
 
 Reentrant — no static state.
+
+## entry 69
+
+Space complexity: O(n) for the result buffer.
