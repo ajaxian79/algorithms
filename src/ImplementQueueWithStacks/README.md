@@ -1623,3 +1623,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 391
 
 Edge case: empty input → returns 0.
+
+## entry 392
+
+Edge case: integer-max input → guarded by the explicit overflow check.
