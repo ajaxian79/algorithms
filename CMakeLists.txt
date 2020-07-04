@@ -117,7 +117,8 @@ add_executable(unittests
         src/CountTrailingZeros/trailing_zeros.c
         src/PerfectSquare/perfect_square.c
         src/ConvertToBase7/convert_to_base7.c
-        src/PascalsTriangleRow/pascals_row.c)
+        src/PascalsTriangleRow/pascals_row.c
+        src/PascalsTriangleN/pascals_n.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)

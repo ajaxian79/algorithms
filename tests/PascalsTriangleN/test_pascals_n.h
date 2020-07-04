@@ -1,0 +1,59 @@
+//
+// Created by ajaxian on 07/04/20.
+//
+
+#ifndef ALGORITHMS_TEST_PASCALS_N_H
+#define ALGORITHMS_TEST_PASCALS_N_H
+
+#include <stdlib.h>
+
+#include "../tests.h"
+#include "../../src/PascalsTriangleN/pascals_n.h"
+
+static void free_triangle(int** t, int* sizes, int rows) {
+    if (!t) return;
+    for (int i = 0; i < rows; i++) free(t[i]);
+    free(t);
+    free(sizes);
+}
+
+static MunitResult test_pascals_n_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    int rows = 0;
+    int* sizes = NULL;
+    int** t = pascals_triangle_n(5, &rows, &sizes);
+    munit_assert_int(rows, ==, 5);
+
+    int expected[5][5] = {
+        {1},
+        {1, 1},
+        {1, 2, 1},
+        {1, 3, 3, 1},
+        {1, 4, 6, 4, 1},
+    };
+    for (int i = 0; i < rows; i++) {
+        munit_assert_int(sizes[i], ==, i + 1);
+        for (int j = 0; j < sizes[i]; j++) {
+            munit_assert_int(t[i][j], ==, expected[i][j]);
+        }
+    }
+    free_triangle(t, sizes, rows);
+    return MUNIT_OK;
+}
+
+static MunitResult test_pascals_n_empty(const MunitParameter params[], void* user_data_or_fixture) {
+    int rows = -1;
+    int* sizes = (int*)0xdeadbeef;
+    int** t = pascals_triangle_n(0, &rows, &sizes);
+    munit_assert_null(t);
+    munit_assert_int(rows, ==, 0);
+    munit_assert_null(sizes);
+    return MUNIT_OK;
+}
+
+MunitTest pascals_n_tests[] = {
+    {"/basic", test_pascals_n_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {"/empty", test_pascals_n_empty, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_PASCALS_N_H
