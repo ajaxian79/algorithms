@@ -1083,3 +1083,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 254
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 255
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
