@@ -63283,3 +63283,7 @@
 ## entry 15821
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 15822
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
