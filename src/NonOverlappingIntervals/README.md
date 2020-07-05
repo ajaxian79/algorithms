@@ -1577,3 +1577,7 @@ Caller owns the returned buffer.
 ## entry 379
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 380
+
+Edge case: input of all the same byte → exits on the first compare.
