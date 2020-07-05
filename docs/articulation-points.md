@@ -1147,3 +1147,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 287
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 288
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
