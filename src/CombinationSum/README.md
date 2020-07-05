@@ -1607,3 +1607,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 387
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 388
+
+Runs in a single pass over the input.
