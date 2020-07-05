@@ -172,3 +172,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 129: Sub-linear in the average case thanks to early exit.
 // note 130: Articulation points: same DFS as bridges, with a slightly different test.
 // note 131: Monotonic stack pops while the new element violates the invariant.
+// note 132: Idempotent — calling twice with the same input is a no-op the second time.
