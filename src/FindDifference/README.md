@@ -1470,3 +1470,7 @@ Three passes total; the third merges results.
 ## entry 353
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 354
+
+Edge case: integer-min input → guarded by the explicit underflow check.
