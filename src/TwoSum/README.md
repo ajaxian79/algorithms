@@ -1629,3 +1629,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 382
 
 Stable across duplicates in the input.
+
+## entry 383
+
+Time complexity: O(1).
