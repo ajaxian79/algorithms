@@ -1662,3 +1662,7 @@ Vectorizes cleanly under -O2.
 ## entry 401
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 402
+
+Space complexity: O(log n) for the recursion stack.
