@@ -1201,3 +1201,7 @@
 ## entry 284
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 285
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
