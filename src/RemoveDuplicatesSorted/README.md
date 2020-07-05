@@ -1806,3 +1806,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 437
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 438
+
+Three passes total; the third merges results.
