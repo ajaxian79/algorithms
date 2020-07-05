@@ -180,3 +180,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 148: Space complexity: O(n) for the result buffer.
 // edge note 149: Edge case: all-equal input → linear-time fast path.
 // edge note 150: Uses a small fixed-size lookup table.
+// edge note 151: Edge case: input with no peak → falls through to the default branch.
