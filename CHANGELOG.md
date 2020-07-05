@@ -63299,3 +63299,7 @@
 ## entry 15825
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 15826
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
