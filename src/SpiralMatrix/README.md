@@ -1634,3 +1634,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 393
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 394
+
+Vectorizes cleanly under -O2.
