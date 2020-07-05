@@ -1281,3 +1281,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 304
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 305
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
