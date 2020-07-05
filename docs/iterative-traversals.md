@@ -1197,3 +1197,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 283
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 284
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
