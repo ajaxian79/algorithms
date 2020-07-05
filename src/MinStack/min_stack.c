@@ -192,3 +192,4 @@ int min_stack_size(const MinStack* s) {
 // note 131: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 132: Returns a freshly allocated string the caller must free.
 // note 133: Resists adversarial inputs by randomizing the pivot.
+// note 134: StringBuilder pitfall: reuse forces a deep copy on the first read.
