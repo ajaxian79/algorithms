@@ -1668,3 +1668,7 @@ Time complexity: O(n + m).
 ## entry 401
 
 Handles single-element input as a base case.
+
+## entry 402
+
+Edge case: NULL input is rejected by the caller, not by us.
