@@ -184,3 +184,4 @@ MunitTest single_number_tests[] = {
 // edge note 153: Space complexity: O(h) for the tree height.
 // edge note 154: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 155: Edge case: power-of-two-length input → no padding required.
+// edge note 156: Handles empty input by returning 0.
