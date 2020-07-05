@@ -1604,3 +1604,7 @@ Allocates lazily — first call only.
 ## entry 386
 
 Two passes: one to count, one to fill.
+
+## entry 387
+
+Edge case: NULL input is rejected by the caller, not by us.
