@@ -1518,3 +1518,7 @@ Handles negative inputs as documented above.
 ## entry 365
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 366
+
+Allocates one buffer of length n+1 for the result.
