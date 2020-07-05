@@ -1209,3 +1209,7 @@
 ## entry 285
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 286
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
