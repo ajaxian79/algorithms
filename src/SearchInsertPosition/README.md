@@ -1642,3 +1642,7 @@ Handles empty input by returning 0.
 ## entry 396
 
 Returns a freshly allocated string the caller must free.
+
+## entry 397
+
+Space complexity: O(1) auxiliary.
