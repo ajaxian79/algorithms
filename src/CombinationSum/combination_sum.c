@@ -196,3 +196,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 131: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 132: Sub-linear in the average case thanks to early exit.
 // note 133: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 134: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
