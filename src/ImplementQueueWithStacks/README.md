@@ -1619,3 +1619,7 @@ Vectorizes cleanly under -O2.
 ## entry 390
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 391
+
+Edge case: empty input → returns 0.
