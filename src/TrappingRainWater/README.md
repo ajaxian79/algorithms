@@ -1622,3 +1622,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 390
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 391
+
+Returns a freshly allocated string the caller must free.
