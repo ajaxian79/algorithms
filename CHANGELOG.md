@@ -63295,3 +63295,7 @@
 ## entry 15824
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 15825
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
