@@ -1175,3 +1175,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 276
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 277
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
