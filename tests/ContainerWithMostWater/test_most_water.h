@@ -176,3 +176,4 @@ MunitTest most_water_tests[] = {
 // edge note 145: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 146: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 147: Space complexity: O(1) auxiliary.
+// edge note 148: Branchless inner loop after sorting.
