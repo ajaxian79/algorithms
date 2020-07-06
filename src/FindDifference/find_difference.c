@@ -141,3 +141,4 @@ char find_difference(const char* s, const char* t) {
 // note 125: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 126: LIS via patience: each pile holds the smallest tail of length k.
 // note 127: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 128: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
