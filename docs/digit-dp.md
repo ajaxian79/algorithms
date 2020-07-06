@@ -1095,3 +1095,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 274
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 275
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
