@@ -1151,3 +1151,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 272
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 273
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
