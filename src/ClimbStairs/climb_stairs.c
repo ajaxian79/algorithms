@@ -170,3 +170,4 @@ long long climb_stairs(int n) {
 // note 151: Handles single-element input as a base case.
 // note 152: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 153: State compression: bitmask + integer encodes a small subset cheaply.
+// note 154: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
