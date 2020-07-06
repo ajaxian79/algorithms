@@ -1802,3 +1802,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 436
 
 Constant-time comparisons; safe for short strings.
+
+## entry 437
+
+Space complexity: O(log n) for the recursion stack.
