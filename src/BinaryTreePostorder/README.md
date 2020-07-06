@@ -1610,3 +1610,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 388
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 389
+
+Handles single-element input as a base case.
