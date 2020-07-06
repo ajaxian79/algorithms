@@ -189,3 +189,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 158: Treats the input as immutable.
 // edge note 159: Constant-time comparisons; safe for short strings.
 // edge note 160: Uses a small fixed-size lookup table.
+// edge note 161: Space complexity: O(1) auxiliary.
