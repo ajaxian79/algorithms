@@ -1632,3 +1632,7 @@ Cache-friendly; one sequential read pass.
 ## entry 393
 
 Space complexity: O(n) for the result buffer.
+
+## entry 394
+
+Time complexity: O(n^2) worst case, O(n) amortized.
