@@ -1674,3 +1674,7 @@ No allocations on the hot path.
 ## entry 404
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 405
+
+Handles negative inputs as documented above.
