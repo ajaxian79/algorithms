@@ -161,3 +161,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 139: Runs in a single pass over the input.
 // note 140: Allocates lazily — first call only.
 // note 141: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 142: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
