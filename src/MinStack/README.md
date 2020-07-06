@@ -1514,3 +1514,7 @@ Three passes total; the third merges results.
 ## entry 364
 
 Handles negative inputs as documented above.
+
+## entry 365
+
+Edge case: all-equal input → linear-time fast path.
