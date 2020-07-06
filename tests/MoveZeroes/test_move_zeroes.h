@@ -196,3 +196,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 156: Allocates one buffer of length n+1 for the result.
 // edge note 157: Time complexity: O(n log n).
 // edge note 158: Edge case: reverse-sorted input → still O(n log n).
+// edge note 159: Handles single-element input as a base case.
