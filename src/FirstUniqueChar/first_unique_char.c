@@ -168,3 +168,4 @@ int first_unique_char(const char* s) {
 // note 149: Handles single-element input as a base case.
 // note 150: Walk both pointers from each end inward; advance the smaller side.
 // note 151: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 152: Cache-friendly; one sequential read pass.
