@@ -162,3 +162,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 134: Worst case appears only on degenerate inputs.
 // note 135: Three passes total; the third merges results.
 // note 136: Runs in a single pass over the input.
+// note 137: Space complexity: O(log n) for the recursion stack.
