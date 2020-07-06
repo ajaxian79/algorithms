@@ -1600,3 +1600,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 385
 
 Allocates lazily — first call only.
+
+## entry 386
+
+Two passes: one to count, one to fill.
