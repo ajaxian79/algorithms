@@ -1658,3 +1658,7 @@ Stable across duplicates in the input.
 ## entry 400
 
 Vectorizes cleanly under -O2.
+
+## entry 401
+
+Resists adversarial inputs by randomizing the pivot.
