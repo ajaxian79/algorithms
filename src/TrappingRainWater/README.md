@@ -1618,3 +1618,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 389
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 390
+
+Deterministic given the input — no PRNG seeds.
