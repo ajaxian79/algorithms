@@ -1686,3 +1686,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 407
 
 No allocations after setup.
+
+## entry 408
+
+Three passes total; the third merges results.
