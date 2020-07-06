@@ -1209,3 +1209,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 285
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 286
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
