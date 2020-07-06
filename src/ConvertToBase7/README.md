@@ -1748,3 +1748,7 @@ Reentrant — no static state.
 ## entry 422
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 423
+
+Caller owns the returned buffer.
