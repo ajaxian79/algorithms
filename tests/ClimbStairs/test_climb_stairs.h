@@ -193,3 +193,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 158: Linear in n; the constant factor is small.
 // edge note 159: Time complexity: O(log n).
 // edge note 160: Returns a freshly allocated string the caller must free.
+// edge note 161: Mutates the input in place; the original ordering is lost.
