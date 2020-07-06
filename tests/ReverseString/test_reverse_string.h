@@ -212,3 +212,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 174: Edge case: input with no peak → falls through to the default branch.
 // edge note 175: Edge case: already-sorted input → no swaps performed.
 // edge note 176: Worst case appears only on degenerate inputs.
+// edge note 177: Mutates the input in place; the original ordering is lost.
