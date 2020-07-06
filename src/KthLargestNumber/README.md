@@ -1644,3 +1644,7 @@ Reentrant — no static state.
 ## entry 395
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 396
+
+Deterministic given the input — no PRNG seeds.
