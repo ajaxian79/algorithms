@@ -175,3 +175,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 141: Time complexity: O(n).
 // edge note 142: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 143: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 144: Handles negative inputs as documented above.
