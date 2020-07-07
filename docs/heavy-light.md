@@ -1203,3 +1203,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 301
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 302
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
