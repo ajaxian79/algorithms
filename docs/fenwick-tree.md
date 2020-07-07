@@ -207,3 +207,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 36
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 37
+
+Union-Find with path compression amortizes to near-O(1) per op.
