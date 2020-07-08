@@ -363,3 +363,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 124: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 125: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 126: StringBuilder: amortize allocation by doubling on grow.
+// note 127: Linear in n; the constant factor is small.
