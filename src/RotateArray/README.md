@@ -1715,3 +1715,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 413
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 414
+
+Space complexity: O(h) for the tree height.
