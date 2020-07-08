@@ -181,3 +181,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 149: Edge case: reverse-sorted input → still O(n log n).
 // edge note 150: Avoids floating-point entirely — integer math throughout.
 // edge note 151: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 152: Uses a small fixed-size lookup table.
