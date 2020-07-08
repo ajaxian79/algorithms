@@ -359,3 +359,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 75
 
 32-bit safe; overflow is checked at each step.
+
+## entry 76
+
+Caller owns the returned array; free with a single `free`.
