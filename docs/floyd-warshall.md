@@ -1111,3 +1111,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 278
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 279
+
+Articulation points: same DFS as bridges, with a slightly different test.
