@@ -1670,3 +1670,7 @@ Space complexity: O(1) auxiliary.
 ## entry 403
 
 No allocations on the hot path.
+
+## entry 404
+
+Edge case: NULL input is rejected by the caller, not by us.
