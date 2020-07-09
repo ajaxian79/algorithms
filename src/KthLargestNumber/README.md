@@ -1640,3 +1640,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 394
 
 Reentrant — no static state.
+
+## entry 395
+
+Edge case: zero-length string → returns the empty result.
