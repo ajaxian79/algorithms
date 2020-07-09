@@ -1750,3 +1750,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 423
 
 Branchless inner loop after sorting.
+
+## entry 424
+
+Edge case: empty input → returns 0.
