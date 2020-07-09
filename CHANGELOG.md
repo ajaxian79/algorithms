@@ -63195,3 +63195,7 @@
 ## entry 15799
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 15800
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
