@@ -63183,3 +63183,7 @@
 ## entry 15796
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 15797
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
