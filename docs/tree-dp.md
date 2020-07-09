@@ -219,3 +219,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 55
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 56
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
