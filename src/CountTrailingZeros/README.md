@@ -1670,3 +1670,7 @@ Uses a small fixed-size lookup table.
 ## entry 402
 
 Reentrant — no static state.
+
+## entry 403
+
+Space complexity: O(n) for the result buffer.
