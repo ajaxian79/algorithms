@@ -180,3 +180,4 @@ MunitTest trap_tests[] = {
 // edge note 146: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 147: Handles single-element input as a base case.
 // edge note 148: Deterministic given the input — no PRNG seeds.
+// edge note 149: Space complexity: O(h) for the tree height.
