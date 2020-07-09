@@ -1611,3 +1611,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 388
 
 Cache-friendly; one sequential read pass.
+
+## entry 389
+
+Vectorizes cleanly under -O2.
