@@ -1155,3 +1155,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 289
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 290
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
