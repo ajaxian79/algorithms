@@ -294,3 +294,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 59
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 60
+
+32-bit safe; overflow is checked at each step.
