@@ -1173,3 +1173,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 276
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 277
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
