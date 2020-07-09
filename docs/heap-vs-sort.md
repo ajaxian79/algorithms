@@ -1179,3 +1179,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 278
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 279
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
