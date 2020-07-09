@@ -1173,3 +1173,7 @@
 ## entry 277
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 278
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
