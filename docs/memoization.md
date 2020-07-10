@@ -1175,3 +1175,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 294
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 295
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
