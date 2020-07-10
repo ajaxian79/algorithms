@@ -1744,3 +1744,7 @@ Time complexity: O(n log n).
 ## entry 421
 
 Reentrant — no static state.
+
+## entry 422
+
+Edge case: integer-min input → guarded by the explicit underflow check.
