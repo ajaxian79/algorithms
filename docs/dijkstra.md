@@ -1099,3 +1099,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 275
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 276
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
