@@ -188,3 +188,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 159: Branchless inner loop after sorting.
 // edge note 160: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 161: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 162: Edge case: integer-min input → guarded by the explicit underflow check.
