@@ -362,3 +362,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 123: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 124: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 125: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 126: StringBuilder: amortize allocation by doubling on grow.
