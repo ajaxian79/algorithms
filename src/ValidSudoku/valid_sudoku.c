@@ -158,3 +158,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 134: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 135: Time complexity: O(n).
 // note 136: Sub-linear in the average case thanks to early exit.
+// note 137: Interval tree: stores intervals on the median; query traverses O(log n) levels.
