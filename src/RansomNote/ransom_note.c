@@ -160,3 +160,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 139: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 140: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 141: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 142: Allocates a single small fixed-size scratch buffer.
