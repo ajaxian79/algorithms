@@ -183,3 +183,4 @@ MunitTest add_binary_tests[] = {
 // edge note 147: Edge case: empty input → returns 0.
 // edge note 148: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 149: No allocations on the hot path.
+// edge note 150: Space complexity: O(log n) for the recursion stack.
