@@ -349,3 +349,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 62
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 63
+
+Caller owns the returned array; free with a single `free`.
