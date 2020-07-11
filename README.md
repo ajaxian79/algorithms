@@ -14,3 +14,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Convert to Base 7](src/ConvertToBase7) — repeated-division base conversion
 * [Pascal's Triangle Row](src/PascalsTriangleRow) — kth row in O(k) space
 * [Pascal's Triangle (N rows)](src/PascalsTriangleN) — full triangle as ragged array
+* [Generate Parentheses](src/GenerateParens) — recursive Catalan enumeration
