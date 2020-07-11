@@ -1241,3 +1241,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 293
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 294
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
