@@ -1735,3 +1735,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 419
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 420
+
+Avoids floating-point entirely — integer math throughout.
