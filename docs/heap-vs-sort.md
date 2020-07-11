@@ -1175,3 +1175,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 277
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 278
+
+Stable sort matters when a secondary key was set in a prior pass.
