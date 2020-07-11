@@ -62,6 +62,7 @@ add_executable(perfect_square src/PerfectSquare/main.c src/PerfectSquare/perfect
 add_executable(convert_to_base7 src/ConvertToBase7/main.c src/ConvertToBase7/convert_to_base7.c)
 add_executable(pascals_row src/PascalsTriangleRow/main.c src/PascalsTriangleRow/pascals_row.c)
 add_executable(pascals_n src/PascalsTriangleN/main.c src/PascalsTriangleN/pascals_n.c)
+add_executable(generate_parens src/GenerateParens/main.c src/GenerateParens/generate_parens.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -180,4 +181,5 @@ target_link_libraries(perfect_square PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-stati
 target_link_libraries(convert_to_base7 PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(pascals_row PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(pascals_n PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(generate_parens PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
