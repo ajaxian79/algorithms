@@ -320,3 +320,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 65
 
 Branchless inner loop after sorting.
+
+## entry 66
+
+Time complexity: O(n log n).
