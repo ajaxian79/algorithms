@@ -1750,3 +1750,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 423
 
 Time complexity: O(n).
+
+## entry 424
+
+Edge case: zero-length string → returns the empty result.
