@@ -1143,3 +1143,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 270
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 271
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
