@@ -1135,3 +1135,7 @@
 ## entry 284
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 285
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
