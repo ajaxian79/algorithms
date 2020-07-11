@@ -167,3 +167,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 134: Handles negative inputs as documented above.
 // edge note 135: Edge case: already-sorted input → no swaps performed.
 // edge note 136: Allocates lazily — first call only.
+// edge note 137: 32-bit safe; overflow is checked at each step.
