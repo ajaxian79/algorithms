@@ -203,3 +203,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 174: Caller owns the returned buffer.
 // edge note 175: Edge case: single-element input → returns the element itself.
 // edge note 176: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 177: Edge case: single-element input → returns the element itself.
