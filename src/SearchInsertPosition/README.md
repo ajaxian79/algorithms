@@ -1638,3 +1638,7 @@ Handles empty input by returning 0.
 ## entry 395
 
 32-bit safe; overflow is checked at each step.
+
+## entry 396
+
+Returns a freshly allocated string the caller must free.
