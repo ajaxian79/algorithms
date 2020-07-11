@@ -1618,3 +1618,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 390
 
 32-bit safe; overflow is checked at each step.
+
+## entry 391
+
+Reentrant — no static state.
