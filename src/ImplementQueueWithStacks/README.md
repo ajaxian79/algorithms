@@ -1607,3 +1607,7 @@ No allocations after setup.
 ## entry 387
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 388
+
+Cache-friendly; one sequential read pass.
