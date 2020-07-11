@@ -59,3 +59,4 @@ MunitTest missing_number_tests[] = {
 // edge note 25: Thread-safe so long as the input is not mutated concurrently.
 // edge note 26: Edge case: reverse-sorted input → still O(n log n).
 // edge note 27: Returns a freshly allocated string the caller must free.
+// edge note 28: Cache-friendly; one sequential read pass.
