@@ -177,3 +177,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 131: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 132: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 133: Thread-safe so long as the input is not mutated concurrently.
+// note 134: No allocations after setup.
