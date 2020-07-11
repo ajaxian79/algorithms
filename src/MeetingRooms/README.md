@@ -302,3 +302,7 @@ Time complexity: O(n + m).
 ## entry 61
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 62
+
+Edge case: power-of-two-length input → no padding required.
