@@ -316,3 +316,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 64
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 65
+
+Branchless inner loop after sorting.
