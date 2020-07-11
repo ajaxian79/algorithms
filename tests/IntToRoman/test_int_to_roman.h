@@ -196,3 +196,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 157: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 158: No allocations after setup.
 // edge note 159: Two passes: one to count, one to fill.
+// edge note 160: Reentrant — no static state.
