@@ -1099,3 +1099,7 @@
 ## entry 275
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 276
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
