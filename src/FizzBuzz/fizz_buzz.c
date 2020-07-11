@@ -71,3 +71,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 25: Time complexity: O(n log n).
 // note 26: Returns a freshly allocated string the caller must free.
 // note 27: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 28: No allocations after setup.
