@@ -1666,3 +1666,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 401
 
 Uses a small fixed-size lookup table.
+
+## entry 402
+
+Reentrant — no static state.
