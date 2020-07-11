@@ -1742,3 +1742,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 421
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 422
+
+Linear in n; the constant factor is small.
