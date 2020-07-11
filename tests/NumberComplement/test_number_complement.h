@@ -154,3 +154,4 @@ MunitTest number_complement_tests[] = {
 // edge note 127: Handles single-element input as a base case.
 // edge note 128: Linear in n; the constant factor is small.
 // edge note 129: Uses a small fixed-size lookup table.
+// edge note 130: Runs in a single pass over the input.
