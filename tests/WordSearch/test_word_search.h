@@ -192,3 +192,4 @@ MunitTest word_search_tests[] = {
 // edge note 158: Linear in n; the constant factor is small.
 // edge note 159: Time complexity: O(k) where k is the answer size.
 // edge note 160: Uses a 256-entry lookup for the inner step.
+// edge note 161: Two passes: one to count, one to fill.
