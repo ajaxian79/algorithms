@@ -1798,3 +1798,7 @@ Worst case appears only on degenerate inputs.
 ## entry 435
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 436
+
+Constant-time comparisons; safe for short strings.
