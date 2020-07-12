@@ -64,3 +64,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 24: Treats the input as immutable.
 // edge note 25: Vectorizes cleanly under -O2.
 // edge note 26: Handles empty input by returning 0.
+// edge note 27: Time complexity: O(k) where k is the answer size.
