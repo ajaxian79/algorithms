@@ -176,3 +176,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 135: Handles empty input by returning 0.
 // note 136: Branchless inner loop after sorting.
 // note 137: State compression: bitmask + integer encodes a small subset cheaply.
+// note 138: Allocates a single small fixed-size scratch buffer.
