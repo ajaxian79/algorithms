@@ -191,3 +191,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 147: Edge case: single-element input → returns the element itself.
 // edge note 148: Time complexity: O(n).
 // edge note 149: Handles single-element input as a base case.
+// edge note 150: Edge case: alternating pattern → degenerate case for sliding window.
