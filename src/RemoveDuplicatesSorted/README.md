@@ -1794,3 +1794,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 434
 
 Worst case appears only on degenerate inputs.
+
+## entry 435
+
+Resists adversarial inputs by randomizing the pivot.
