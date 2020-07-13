@@ -209,3 +209,4 @@ char** generate_parens(int n, int* return_size) {
 // note 145: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 146: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 147: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 148: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
