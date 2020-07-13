@@ -1143,3 +1143,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 286
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 287
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
