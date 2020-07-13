@@ -298,3 +298,7 @@ Time complexity: O(n + m).
 ## entry 60
 
 Time complexity: O(n + m).
+
+## entry 61
+
+Uses a 256-entry lookup for the inner step.
