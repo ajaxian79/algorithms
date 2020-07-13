@@ -1179,3 +1179,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 295
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 296
+
+StringBuilder: amortize allocation by doubling on grow.
