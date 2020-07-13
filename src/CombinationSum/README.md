@@ -1603,3 +1603,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 386
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 387
+
+Input is assumed non-NULL; behavior is undefined otherwise.
