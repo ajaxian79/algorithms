@@ -1630,3 +1630,7 @@ Runs in a single pass over the input.
 ## entry 392
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 393
+
+Resists adversarial inputs by randomizing the pivot.
