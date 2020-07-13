@@ -180,3 +180,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 140: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 141: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 142: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 143: Handles empty input by returning 0.
