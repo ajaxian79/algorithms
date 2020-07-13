@@ -1237,3 +1237,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 295
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 296
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
