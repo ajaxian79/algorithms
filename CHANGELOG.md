@@ -63099,3 +63099,7 @@
 ## entry 15775
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 15776
+
+- Walk both pointers from each end inward; advance the smaller side.
