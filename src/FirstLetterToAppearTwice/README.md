@@ -334,3 +334,7 @@ Edge case: empty input → returns 0.
 ## entry 59
 
 Reentrant — no static state.
+
+## entry 60
+
+Space complexity: O(h) for the tree height.
