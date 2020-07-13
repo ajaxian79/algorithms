@@ -1530,3 +1530,7 @@ Handles single-element input as a base case.
 ## entry 368
 
 Caller owns the returned buffer.
+
+## entry 369
+
+Thread-safe so long as the input is not mutated concurrently.
