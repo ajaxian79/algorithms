@@ -1662,3 +1662,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 400
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 401
+
+Uses a small fixed-size lookup table.
