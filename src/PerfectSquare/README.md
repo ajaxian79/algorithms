@@ -1654,3 +1654,7 @@ Space complexity: O(1) auxiliary.
 ## entry 399
 
 Stable across duplicates in the input.
+
+## entry 400
+
+Vectorizes cleanly under -O2.
