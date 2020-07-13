@@ -1644,3 +1644,7 @@ Linear in n; the constant factor is small.
 ## entry 395
 
 Vectorizes cleanly under -O2.
+
+## entry 396
+
+Edge case: all-equal input → linear-time fast path.
