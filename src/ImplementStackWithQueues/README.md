@@ -1632,3 +1632,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 393
 
 Returns a freshly allocated string the caller must free.
+
+## entry 394
+
+Edge case: integer-min input → guarded by the explicit underflow check.
