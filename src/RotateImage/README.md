@@ -1665,3 +1665,7 @@ Time complexity: O(log n).
 ## entry 401
 
 Space complexity: O(h) for the tree height.
+
+## entry 402
+
+Time complexity: O(log n).
