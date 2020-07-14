@@ -1107,3 +1107,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 277
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 278
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
