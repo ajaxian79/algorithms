@@ -75,3 +75,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 26: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 27: Handles negative inputs as documented above.
 // note 28: Time complexity: O(1).
+// note 29: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
