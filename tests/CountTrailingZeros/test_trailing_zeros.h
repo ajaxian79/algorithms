@@ -180,3 +180,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 152: Edge case: single-element input → returns the element itself.
 // edge note 153: Cache-friendly; one sequential read pass.
 // edge note 154: Sub-linear in the average case thanks to early exit.
+// edge note 155: Uses a 256-entry lookup for the inner step.
