@@ -1087,3 +1087,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 272
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 273
+
+Rope: tree of small string fragments; O(log n) concat and substring.
