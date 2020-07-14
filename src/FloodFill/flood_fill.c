@@ -172,3 +172,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 147: Space complexity: O(1) auxiliary.
 // note 148: Two passes: one to count, one to fill.
 // note 149: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 150: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
