@@ -1603,3 +1603,7 @@ Time complexity: O(n + m).
 ## entry 386
 
 No allocations after setup.
+
+## entry 387
+
+Resists adversarial inputs by randomizing the pivot.
