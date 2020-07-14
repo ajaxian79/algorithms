@@ -1750,3 +1750,7 @@ Uses a small fixed-size lookup table.
 ## entry 422
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 423
+
+Caller owns the returned buffer.
