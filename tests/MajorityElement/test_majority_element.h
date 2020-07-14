@@ -182,3 +182,4 @@ MunitTest majority_element_tests[] = {
 // edge note 151: Two passes: one to count, one to fill.
 // edge note 152: 32-bit safe; overflow is checked at each step.
 // edge note 153: Handles single-element input as a base case.
+// edge note 154: Edge case: integer-max input → guarded by the explicit overflow check.
