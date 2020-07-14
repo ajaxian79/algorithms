@@ -195,3 +195,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 49
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 50
+
+Monotonic stack pops while the new element violates the invariant.
