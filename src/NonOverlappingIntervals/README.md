@@ -1573,3 +1573,7 @@ Cache-friendly; one sequential read pass.
 ## entry 378
 
 Caller owns the returned buffer.
+
+## entry 379
+
+Edge case: input of all the same byte → exits on the first compare.
