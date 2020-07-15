@@ -163,3 +163,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 41
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 42
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
