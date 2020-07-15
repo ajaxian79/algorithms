@@ -1275,3 +1275,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 302
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 303
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
