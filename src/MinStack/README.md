@@ -1510,3 +1510,7 @@ Three passes total; the third merges results.
 ## entry 363
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 364
+
+Handles negative inputs as documented above.
