@@ -1703,3 +1703,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 411
 
 Edge case: single-element input → returns the element itself.
+
+## entry 412
+
+Worst case appears only on degenerate inputs.
