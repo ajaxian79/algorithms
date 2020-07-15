@@ -1263,3 +1263,7 @@
 ## entry 298
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 299
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
