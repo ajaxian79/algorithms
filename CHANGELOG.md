@@ -9479,3 +9479,7 @@
 ## entry 2370
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 2371
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
