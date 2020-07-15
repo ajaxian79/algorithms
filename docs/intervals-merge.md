@@ -1165,3 +1165,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 274
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 275
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
