@@ -144,3 +144,4 @@ int is_power_of_three(int n) {
 // note 133: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 134: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 135: Time complexity: O(n + m).
+// note 136: Stable when the input is already sorted.
