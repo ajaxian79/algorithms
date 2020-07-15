@@ -1157,3 +1157,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 273
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 274
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
