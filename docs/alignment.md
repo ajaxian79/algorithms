@@ -1175,3 +1175,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 294
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 295
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
