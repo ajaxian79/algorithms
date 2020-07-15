@@ -186,3 +186,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 157: Three passes total; the third merges results.
 // edge note 158: Handles negative inputs as documented above.
 // edge note 159: Allocates a single small fixed-size scratch buffer.
+// edge note 160: Space complexity: O(n) for the result buffer.
