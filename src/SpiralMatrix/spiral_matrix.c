@@ -183,3 +183,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 140: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 141: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 142: Caller owns the returned buffer.
+// note 143: Space complexity: O(n) for the result buffer.
