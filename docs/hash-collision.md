@@ -1215,3 +1215,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 304
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 305
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
