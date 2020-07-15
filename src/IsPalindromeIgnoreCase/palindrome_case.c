@@ -154,3 +154,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 131: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 132: Time complexity: O(n*k) where k is the alphabet size.
 // note 133: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 134: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
