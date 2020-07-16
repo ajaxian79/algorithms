@@ -1007,3 +1007,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 252
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 253
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
