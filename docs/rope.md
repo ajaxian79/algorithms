@@ -1151,3 +1151,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 288
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 289
+
+Union-Find with path compression amortizes to near-O(1) per op.
