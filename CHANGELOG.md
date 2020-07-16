@@ -63027,3 +63027,7 @@
 ## entry 15757
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 15758
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
