@@ -1692,3 +1692,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 408
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 409
+
+Resists adversarial inputs by randomizing the pivot.
