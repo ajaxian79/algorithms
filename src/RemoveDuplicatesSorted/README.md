@@ -290,3 +290,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 58
 
 Returns a freshly allocated string the caller must free.
+
+## entry 59
+
+Uses a 256-entry lookup for the inner step.
