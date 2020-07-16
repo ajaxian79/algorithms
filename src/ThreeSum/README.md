@@ -1641,3 +1641,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 395
 
 No allocations on the hot path.
+
+## entry 396
+
+Two passes: one to count, one to fill.
