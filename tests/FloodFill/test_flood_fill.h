@@ -174,3 +174,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 144: Constant-time comparisons; safe for short strings.
 // edge note 145: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 146: Linear in n; the constant factor is small.
+// edge note 147: Sub-linear in the average case thanks to early exit.
