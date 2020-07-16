@@ -199,3 +199,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 164: Linear in n; the constant factor is small.
 // edge note 165: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 166: Linear in n; the constant factor is small.
+// edge note 167: Edge case: NULL input is rejected by the caller, not by us.
