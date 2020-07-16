@@ -186,3 +186,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 157: Resists adversarial inputs by randomizing the pivot.
 // edge note 158: Reentrant — no static state.
 // edge note 159: Branchless inner loop after sorting.
+// edge note 160: Edge case: NULL input is rejected by the caller, not by us.
