@@ -1127,3 +1127,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 266
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 267
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
