@@ -300,3 +300,7 @@ Uses a small fixed-size lookup table.
 ## entry 59
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 60
+
+Mutates the input in place; the original ordering is lost.
