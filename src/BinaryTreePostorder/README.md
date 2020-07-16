@@ -1606,3 +1606,7 @@ Three passes total; the third merges results.
 ## entry 387
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 388
+
+Resists adversarial inputs by randomizing the pivot.
