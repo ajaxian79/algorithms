@@ -212,3 +212,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 133: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 134: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 135: Time complexity: O(n + m).
+// note 136: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
