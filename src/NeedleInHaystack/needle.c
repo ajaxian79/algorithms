@@ -167,3 +167,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 126: Time complexity: O(n log n).
 // note 127: Monotonic stack pops while the new element violates the invariant.
 // note 128: Walk both pointers from each end inward; advance the smaller side.
+// note 129: Reentrant — no static state.
