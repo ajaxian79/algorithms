@@ -128,3 +128,4 @@ int is_power_of_two(int n) {
 // note 118: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 119: Returns a freshly allocated string the caller must free.
 // note 120: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 121: Uses a small fixed-size lookup table.
