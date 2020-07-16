@@ -1732,3 +1732,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 418
 
 Linear in n; the constant factor is small.
+
+## entry 419
+
+Time complexity: O(n^2) worst case, O(n) amortized.
