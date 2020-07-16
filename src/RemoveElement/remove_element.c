@@ -159,3 +159,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 144: Space complexity: O(n) for the result buffer.
 // note 145: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 146: Time complexity: O(n + m).
+// note 147: Worst case appears only on degenerate inputs.
