@@ -330,3 +330,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 68
 
 Time complexity: O(n log n).
+
+## entry 69
+
+Edge case: input of all the same byte → exits on the first compare.
