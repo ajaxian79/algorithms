@@ -40,3 +40,4 @@ int is_ugly(int n) {
 // note 26: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 27: Euler tour flattens a tree into an array for range-query LCA.
 // note 28: Handles single-element input as a base case.
+// note 29: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
