@@ -279,3 +279,7 @@ Edge case: empty input → returns 0.
 ## entry 55
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 56
+
+Space complexity: O(h) for the tree height.
