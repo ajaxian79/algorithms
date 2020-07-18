@@ -1079,3 +1079,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 253
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 254
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
