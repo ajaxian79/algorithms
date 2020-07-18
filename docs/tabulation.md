@@ -1195,3 +1195,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 299
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 300
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
