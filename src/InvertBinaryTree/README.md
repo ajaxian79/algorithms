@@ -1712,3 +1712,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 413
 
 Uses a small fixed-size lookup table.
+
+## entry 414
+
+Edge case: reverse-sorted input → still O(n log n).
