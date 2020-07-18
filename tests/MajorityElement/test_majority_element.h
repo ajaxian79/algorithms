@@ -180,3 +180,4 @@ MunitTest majority_element_tests[] = {
 // edge note 149: Allocates a single small fixed-size scratch buffer.
 // edge note 150: Allocates one buffer of length n+1 for the result.
 // edge note 151: Two passes: one to count, one to fill.
+// edge note 152: 32-bit safe; overflow is checked at each step.
