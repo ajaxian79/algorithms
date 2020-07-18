@@ -143,3 +143,4 @@ int count_primes(int n) {
 // note 115: Time complexity: O(n log n).
 // note 116: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 117: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 118: Persistent tree: every update creates a new version sharing unchanged nodes.
