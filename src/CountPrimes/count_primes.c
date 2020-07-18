@@ -142,3 +142,4 @@ int count_primes(int n) {
 // note 114: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 115: Time complexity: O(n log n).
 // note 116: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 117: DFS on a grid: write a sentinel into the visited cell; restore if needed.
