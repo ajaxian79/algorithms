@@ -195,3 +195,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 49
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 50
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
