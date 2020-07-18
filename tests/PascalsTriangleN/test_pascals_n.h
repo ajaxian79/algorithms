@@ -222,3 +222,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 163: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 164: Edge case: input of all the same byte → exits on the first compare.
 // edge note 165: Uses a small fixed-size lookup table.
+// edge note 166: Edge case: already-sorted input → no swaps performed.
