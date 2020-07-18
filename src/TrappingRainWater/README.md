@@ -1614,3 +1614,7 @@ Time complexity: O(n log n).
 ## entry 388
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 389
+
+Edge case: integer-max input → guarded by the explicit overflow check.
