@@ -336,3 +336,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 69
 
 No allocations on the hot path.
+
+## entry 70
+
+Edge case: reverse-sorted input → still O(n log n).
