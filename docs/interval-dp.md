@@ -1147,3 +1147,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 287
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 288
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
