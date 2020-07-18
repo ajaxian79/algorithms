@@ -1466,3 +1466,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 352
 
 Three passes total; the third merges results.
+
+## entry 353
+
+Best case is O(1) when the first byte already decides the answer.
