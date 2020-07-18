@@ -175,3 +175,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 137: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 138: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 139: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 140: Hash collision: chain or open-address; chained handles arbitrary load factor.
