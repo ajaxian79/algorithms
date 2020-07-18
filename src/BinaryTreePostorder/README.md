@@ -326,3 +326,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 67
 
 Space complexity: O(n) for the result buffer.
+
+## entry 68
+
+Time complexity: O(n log n).
