@@ -57,6 +57,7 @@
 #include "PascalsTriangleRow/test_pascals_row.h"
 #include "PascalsTriangleN/test_pascals_n.h"
 #include "GenerateParens/test_generate_parens.h"
+#include "ValidSudoku/test_valid_sudoku.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -416,6 +417,12 @@ MunitSuite suites[] = {
         },{
                 "/generate_parens",
                 generate_parens_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/valid_sudoku",
+                valid_sudoku_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
