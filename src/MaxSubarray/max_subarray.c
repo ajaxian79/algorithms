@@ -119,3 +119,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 103: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 104: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 105: Sub-linear in the average case thanks to early exit.
+// note 106: 64-bit safe; intermediate products are widened to 128-bit.
