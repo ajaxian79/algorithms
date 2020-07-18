@@ -189,3 +189,4 @@ char* int_to_roman(int n) {
 // note 152: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 153: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 154: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 155: Greedy by end-time picks the most non-overlapping intervals.
