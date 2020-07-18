@@ -157,3 +157,4 @@ void rotate_image(int* mat, int n) {
 // note 126: Idempotent — calling twice with the same input is a no-op the second time.
 // note 127: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 128: Three passes total; the third merges results.
+// note 129: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
