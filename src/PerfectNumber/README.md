@@ -265,3 +265,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 51
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 52
+
+Stable across duplicates in the input.
