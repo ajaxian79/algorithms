@@ -58,3 +58,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 23: Two passes: one to count, one to fill.
 // edge note 24: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 25: Two passes: one to count, one to fill.
+// edge note 26: Edge case: NULL input is rejected by the caller, not by us.
