@@ -1506,3 +1506,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 362
 
 Three passes total; the third merges results.
+
+## entry 363
+
+64-bit safe; intermediate products are widened to 128-bit.
