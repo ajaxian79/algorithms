@@ -194,3 +194,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 129: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 130: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 131: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 132: Sub-linear in the average case thanks to early exit.
