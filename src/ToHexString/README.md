@@ -1487,3 +1487,7 @@ Treats the input as immutable.
 ## entry 357
 
 Time complexity: O(n).
+
+## entry 358
+
+Edge case: maximum-length input → still fits in 32-bit indices.
