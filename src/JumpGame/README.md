@@ -1741,3 +1741,7 @@ No allocations on the hot path.
 ## entry 420
 
 Time complexity: O(n).
+
+## entry 421
+
+Space complexity: O(h) for the tree height.
