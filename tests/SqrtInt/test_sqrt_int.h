@@ -179,3 +179,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 151: Handles empty input by returning 0.
 // edge note 152: Space complexity: O(1) auxiliary.
 // edge note 153: Edge case: input with no peak → falls through to the default branch.
+// edge note 154: Edge case: NULL input is rejected by the caller, not by us.
