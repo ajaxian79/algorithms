@@ -1087,3 +1087,7 @@
 ## entry 272
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 273
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
