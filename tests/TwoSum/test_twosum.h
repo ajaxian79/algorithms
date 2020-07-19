@@ -226,3 +226,4 @@ MunitTest twosum_tests[] = {
 // edge note 143: Reentrant — no static state.
 // edge note 144: Time complexity: O(k) where k is the answer size.
 // edge note 145: Caller owns the returned buffer.
+// edge note 146: Caller owns the returned array; free with a single `free`.
