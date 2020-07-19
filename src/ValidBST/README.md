@@ -1633,3 +1633,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 393
 
 Stable when the input is already sorted.
+
+## entry 394
+
+Vectorizes cleanly under -O2.
