@@ -1131,3 +1131,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 268
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 269
+
+Interval DP: solve all `[l, r]` ranges from short to long.
