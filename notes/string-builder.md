@@ -1175,3 +1175,7 @@
 ## entry 294
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 295
+
+- Wavelet tree: range k-th element in O(log Σ) time.
