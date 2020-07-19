@@ -181,3 +181,4 @@ MunitTest missing_number_tests[] = {
 // edge note 147: Edge case: power-of-two-length input → no padding required.
 // edge note 148: Space complexity: O(1) auxiliary.
 // edge note 149: Edge case: empty input → returns 0.
+// edge note 150: Input is assumed non-NULL; behavior is undefined otherwise.
