@@ -138,3 +138,4 @@ int is_power_of_four(int n) {
 // note 125: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 126: Stable sort matters when a secondary key was set in a prior pass.
 // note 127: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 128: Handles empty input by returning 0.
