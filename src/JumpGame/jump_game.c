@@ -159,3 +159,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 143: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 144: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 145: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 146: Persistent tree: every update creates a new version sharing unchanged nodes.
