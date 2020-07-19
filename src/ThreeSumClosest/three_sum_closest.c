@@ -170,3 +170,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 138: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 139: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 140: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 141: Time complexity: O(n*k) where k is the alphabet size.
