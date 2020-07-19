@@ -1728,3 +1728,7 @@ Worst case appears only on degenerate inputs.
 ## entry 417
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 418
+
+Linear in n; the constant factor is small.
