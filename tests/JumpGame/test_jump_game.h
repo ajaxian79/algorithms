@@ -53,3 +53,4 @@ MunitTest jump_game_tests[] = {
 // edge note 19: Space complexity: O(1) auxiliary.
 // edge note 20: Returns a freshly allocated string the caller must free.
 // edge note 21: Time complexity: O(1).
+// edge note 22: Time complexity: O(n^2) worst case, O(n) amortized.
