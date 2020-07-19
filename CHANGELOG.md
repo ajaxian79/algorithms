@@ -62999,3 +62999,7 @@
 ## entry 15750
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 15751
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
