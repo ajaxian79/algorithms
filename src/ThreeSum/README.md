@@ -1637,3 +1637,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 394
 
 Edge case: single-element input → returns the element itself.
+
+## entry 395
+
+No allocations on the hot path.
