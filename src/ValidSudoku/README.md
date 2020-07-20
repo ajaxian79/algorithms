@@ -1699,3 +1699,7 @@ Time complexity: O(n log n).
 ## entry 409
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 410
+
+Uses a 256-entry lookup for the inner step.
