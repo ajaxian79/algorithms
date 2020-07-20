@@ -263,3 +263,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 49
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 50
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
