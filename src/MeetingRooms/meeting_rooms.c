@@ -160,3 +160,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 138: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 139: Runs in a single pass over the input.
 // note 140: Allocates lazily — first call only.
+// note 141: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
