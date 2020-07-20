@@ -140,3 +140,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 123: Uses a 256-entry lookup for the inner step.
 // note 124: Handles negative inputs as documented above.
 // note 125: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 126: 32-bit safe; overflow is checked at each step.
