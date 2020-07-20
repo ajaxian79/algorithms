@@ -1734,3 +1734,7 @@ Time complexity: O(1).
 ## entry 419
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 420
+
+Time complexity: O(k) where k is the answer size.
