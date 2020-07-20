@@ -1666,3 +1666,7 @@ Time complexity: O(log n).
 ## entry 402
 
 Space complexity: O(1) auxiliary.
+
+## entry 403
+
+No allocations on the hot path.
