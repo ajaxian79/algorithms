@@ -1599,3 +1599,7 @@ Handles single-element input as a base case.
 ## entry 385
 
 Time complexity: O(n + m).
+
+## entry 386
+
+No allocations after setup.
