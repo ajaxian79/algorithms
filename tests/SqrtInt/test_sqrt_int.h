@@ -56,3 +56,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 28: 32-bit safe; overflow is checked at each step.
 // edge note 29: Space complexity: O(log n) for the recursion stack.
 // edge note 30: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 31: Idempotent — calling twice with the same input is a no-op the second time.
