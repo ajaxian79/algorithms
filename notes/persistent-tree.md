@@ -1095,3 +1095,7 @@
 ## entry 274
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 275
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
