@@ -173,3 +173,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 143: Thread-safe so long as the input is not mutated concurrently.
 // edge note 144: Constant-time comparisons; safe for short strings.
 // edge note 145: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 146: Linear in n; the constant factor is small.
