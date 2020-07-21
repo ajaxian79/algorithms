@@ -269,3 +269,7 @@
 ## entry 49
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 50
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
