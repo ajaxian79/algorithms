@@ -188,3 +188,4 @@ MunitTest compare_version_tests[] = {
 // edge note 161: Edge case: all-equal input → linear-time fast path.
 // edge note 162: Mutates the input in place; the original ordering is lost.
 // edge note 163: Returns a freshly allocated string the caller must free.
+// edge note 164: 64-bit safe; intermediate products are widened to 128-bit.
