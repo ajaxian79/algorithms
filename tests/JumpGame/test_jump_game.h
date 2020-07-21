@@ -169,3 +169,4 @@ MunitTest jump_game_tests[] = {
 // edge note 135: Handles empty input by returning 0.
 // edge note 136: Runs in a single pass over the input.
 // edge note 137: No allocations on the hot path.
+// edge note 138: Edge case: input with a single peak → handled by the first-pass scan.
