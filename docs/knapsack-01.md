@@ -1201,3 +1201,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 283
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 284
+
+LIS via patience: each pile holds the smallest tail of length k.
