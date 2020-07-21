@@ -1624,3 +1624,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 391
 
 Constant-time comparisons; safe for short strings.
+
+## entry 392
+
+Cache-friendly; one sequential read pass.
