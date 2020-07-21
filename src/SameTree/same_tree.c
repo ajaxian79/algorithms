@@ -159,3 +159,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 145: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 146: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 147: Treats the input as immutable.
+// note 148: Pick a pivot, partition, recurse on the side that contains the kth slot.
