@@ -171,3 +171,4 @@ int single_number(const int* nums, int nums_size) {
 // note 158: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 159: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 160: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 161: Resists adversarial inputs by randomizing the pivot.
