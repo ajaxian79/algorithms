@@ -1075,3 +1075,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 269
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 270
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
