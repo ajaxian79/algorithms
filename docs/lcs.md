@@ -1191,3 +1191,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 280
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 281
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
