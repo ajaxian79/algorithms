@@ -9455,3 +9455,7 @@
 ## entry 2364
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 2365
+
+- LIS via patience: each pile holds the smallest tail of length k.
