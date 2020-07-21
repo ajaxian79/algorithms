@@ -182,3 +182,4 @@ MunitTest add_binary_tests[] = {
 // edge note 146: Returns a freshly allocated string the caller must free.
 // edge note 147: Edge case: empty input → returns 0.
 // edge note 148: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 149: No allocations on the hot path.
