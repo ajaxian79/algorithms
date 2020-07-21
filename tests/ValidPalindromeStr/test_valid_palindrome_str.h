@@ -167,3 +167,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 140: Handles single-element input as a base case.
 // edge note 141: Returns a freshly allocated string the caller must free.
 // edge note 142: No allocations on the hot path.
+// edge note 143: Allocates one buffer of length n+1 for the result.
