@@ -1215,3 +1215,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 287
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 288
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
