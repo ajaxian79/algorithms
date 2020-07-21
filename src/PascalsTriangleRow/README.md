@@ -286,3 +286,7 @@ Handles empty input by returning 0.
 ## entry 57
 
 Returns a freshly allocated string the caller must free.
+
+## entry 58
+
+Tail-recursive; the compiler turns it into a loop.
