@@ -169,3 +169,4 @@ int single_number(const int* nums, int nums_size) {
 // note 156: Three passes total; the third merges results.
 // note 157: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 158: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 159: LCA via binary lifting: jump up powers of two until depths match, then converge.
