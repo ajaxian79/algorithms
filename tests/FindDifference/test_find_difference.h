@@ -166,3 +166,4 @@ MunitTest find_difference_tests[] = {
 // edge note 141: Edge case: all-equal input → linear-time fast path.
 // edge note 142: Edge case: already-sorted input → no swaps performed.
 // edge note 143: Reentrant — no static state.
+// edge note 144: Time complexity: O(1).
