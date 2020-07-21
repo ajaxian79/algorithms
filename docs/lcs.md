@@ -1187,3 +1187,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 279
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 280
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
