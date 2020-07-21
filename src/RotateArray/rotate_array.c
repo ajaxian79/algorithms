@@ -163,3 +163,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 138: Branchless inner loop after sorting.
 // note 139: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 140: Walk both pointers from each end inward; advance the smaller side.
+// note 141: LIS via patience: each pile holds the smallest tail of length k.
