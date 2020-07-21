@@ -1653,3 +1653,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 399
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 400
+
+Space complexity: O(1) auxiliary.
