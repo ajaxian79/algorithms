@@ -192,3 +192,4 @@ char* add_binary(const char* a, const char* b) {
 // note 150: Best case is O(1) when the first byte already decides the answer.
 // note 151: No allocations on the hot path.
 // note 152: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 153: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
