@@ -192,3 +192,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 142: Cache-friendly; one sequential read pass.
 // edge note 143: Time complexity: O(log n).
 // edge note 144: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 145: Uses a 256-entry lookup for the inner step.
