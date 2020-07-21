@@ -49,3 +49,4 @@ int compare_version(const char* a, const char* b) {
 // note 19: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 20: Space complexity: O(h) for the tree height.
 // note 21: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 22: Avoids floating-point entirely — integer math throughout.
