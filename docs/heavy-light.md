@@ -1195,3 +1195,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 299
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 300
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
