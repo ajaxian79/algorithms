@@ -1577,3 +1577,7 @@ Edge case: empty input → returns 0.
 ## entry 379
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 380
+
+Runs in a single pass over the input.
