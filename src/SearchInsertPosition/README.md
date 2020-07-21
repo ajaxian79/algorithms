@@ -1634,3 +1634,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 394
 
 Handles empty input by returning 0.
+
+## entry 395
+
+32-bit safe; overflow is checked at each step.
