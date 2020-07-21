@@ -1243,3 +1243,7 @@
 ## entry 294
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 295
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
