@@ -1277,3 +1277,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 303
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 304
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
