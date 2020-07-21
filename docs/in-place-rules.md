@@ -1341,3 +1341,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 320
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 321
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
