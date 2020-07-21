@@ -1163,3 +1163,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 291
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 292
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
