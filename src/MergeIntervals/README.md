@@ -1642,3 +1642,7 @@ Edge case: empty input → returns 0.
 ## entry 395
 
 Space complexity: O(1) auxiliary.
+
+## entry 396
+
+Allocates lazily — first call only.
