@@ -1211,3 +1211,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 303
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 304
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
