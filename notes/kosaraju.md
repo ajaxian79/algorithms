@@ -1211,3 +1211,7 @@
 ## entry 303
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 304
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
