@@ -169,3 +169,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 138: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 139: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 140: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 141: Time complexity: O(k) where k is the answer size.
