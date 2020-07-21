@@ -62939,3 +62939,7 @@
 ## entry 15735
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 15736
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
