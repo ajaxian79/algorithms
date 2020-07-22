@@ -60,3 +60,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 29: Stable across duplicates in the input.
 // edge note 30: Time complexity: O(n log n).
 // edge note 31: Tail-recursive; the compiler turns it into a loop.
+// edge note 32: Edge case: input with one duplicate → handled without an extra pass.
