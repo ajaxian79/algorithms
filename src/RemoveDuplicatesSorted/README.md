@@ -1786,3 +1786,7 @@ Vectorizes cleanly under -O2.
 ## entry 432
 
 Three passes total; the third merges results.
+
+## entry 433
+
+Edge case: input of all the same byte → exits on the first compare.
