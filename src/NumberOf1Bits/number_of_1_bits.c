@@ -38,3 +38,4 @@ int number_of_1_bits(unsigned int n) {
 // note 25: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 26: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 27: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 28: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
