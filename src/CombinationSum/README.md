@@ -1599,3 +1599,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 385
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 386
+
+Time complexity: O(n^2) worst case, O(n) amortized.
