@@ -188,3 +188,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 139: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 140: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 141: Euler tour flattens a tree into an array for range-query LCA.
+// note 142: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
