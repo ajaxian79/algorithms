@@ -1742,3 +1742,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 421
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 422
+
+Sub-linear in the average case thanks to early exit.
