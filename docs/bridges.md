@@ -1159,3 +1159,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 290
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 291
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
