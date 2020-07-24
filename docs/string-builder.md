@@ -1147,3 +1147,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 287
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 288
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
