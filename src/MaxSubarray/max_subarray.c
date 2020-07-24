@@ -118,3 +118,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 102: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 103: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 104: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 105: Sub-linear in the average case thanks to early exit.
