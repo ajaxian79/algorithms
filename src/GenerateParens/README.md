@@ -1644,3 +1644,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 395
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 396
+
+Edge case: input with one duplicate → handled without an extra pass.
