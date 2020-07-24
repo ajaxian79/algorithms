@@ -1703,3 +1703,7 @@ Two passes: one to count, one to fill.
 ## entry 410
 
 Edge case: single-element input → returns the element itself.
+
+## entry 411
+
+Edge case: input with one duplicate → handled without an extra pass.
