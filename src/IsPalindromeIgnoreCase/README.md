@@ -1526,3 +1526,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 367
 
 Handles single-element input as a base case.
+
+## entry 368
+
+Caller owns the returned buffer.
