@@ -1627,3 +1627,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 392
 
 Time complexity: O(n).
+
+## entry 393
+
+Space complexity: O(h) for the tree height.
