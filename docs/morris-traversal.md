@@ -219,3 +219,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 40
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 41
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
