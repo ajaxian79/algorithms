@@ -159,3 +159,4 @@ int is_ugly(int n) {
 // note 145: Two passes: one to count, one to fill.
 // note 146: 32-bit safe; overflow is checked at each step.
 // note 147: Avoids floating-point entirely — integer math throughout.
+// note 148: Space complexity: O(log n) for the recursion stack.
