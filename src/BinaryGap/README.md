@@ -1642,3 +1642,7 @@ Handles single-element input as a base case.
 ## entry 395
 
 No allocations on the hot path.
+
+## entry 396
+
+Worst case appears only on degenerate inputs.
