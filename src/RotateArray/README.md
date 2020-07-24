@@ -1699,3 +1699,7 @@ Time complexity: O(1).
 ## entry 409
 
 Two passes: one to count, one to fill.
+
+## entry 410
+
+Edge case: single-element input → returns the element itself.
