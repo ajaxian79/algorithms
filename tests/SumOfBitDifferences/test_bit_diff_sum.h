@@ -168,3 +168,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 137: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 138: Edge case: reverse-sorted input → still O(n log n).
 // edge note 139: Time complexity: O(n + m).
+// edge note 140: Stable across duplicates in the input.
