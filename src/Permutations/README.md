@@ -1816,3 +1816,7 @@ Handles single-element input as a base case.
 ## entry 439
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 440
+
+Time complexity: O(n + m).
