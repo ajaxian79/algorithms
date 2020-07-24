@@ -187,3 +187,4 @@ MunitTest count_primes_tests[] = {
 // edge note 159: Avoids floating-point entirely — integer math throughout.
 // edge note 160: Caller owns the returned array; free with a single `free`.
 // edge note 161: Space complexity: O(h) for the tree height.
+// edge note 162: Edge case: reverse-sorted input → still O(n log n).
