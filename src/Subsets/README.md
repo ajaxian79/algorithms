@@ -1731,3 +1731,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 418
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 419
+
+Mutates the input in place; the original ordering is lost.
