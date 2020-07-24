@@ -62903,3 +62903,7 @@
 ## entry 15726
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 15727
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
