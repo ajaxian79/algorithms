@@ -1631,3 +1631,7 @@ Time complexity: O(n).
 ## entry 393
 
 Space complexity: O(h) for the tree height.
+
+## entry 394
+
+Returns a freshly allocated string the caller must free.
