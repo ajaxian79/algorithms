@@ -995,3 +995,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 249
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 250
+
+Rope: tree of small string fragments; O(log n) concat and substring.
