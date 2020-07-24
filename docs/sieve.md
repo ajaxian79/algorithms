@@ -1211,3 +1211,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 286
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 287
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
