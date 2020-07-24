@@ -1782,3 +1782,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 431
 
 Vectorizes cleanly under -O2.
+
+## entry 432
+
+Three passes total; the third merges results.
