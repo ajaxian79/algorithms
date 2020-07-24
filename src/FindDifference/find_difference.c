@@ -31,3 +31,4 @@ char find_difference(const char* s, const char* t) {
 // note 15: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 16: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 17: Union-Find with path compression amortizes to near-O(1) per op.
+// note 18: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
