@@ -128,3 +128,4 @@ int number_of_1_bits(unsigned int n) {
 // note 115: Resists adversarial inputs by randomizing the pivot.
 // note 116: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 117: No allocations after setup.
+// note 118: LIS via patience: each pile holds the smallest tail of length k.
