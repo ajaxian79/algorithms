@@ -222,3 +222,7 @@ Runs in a single pass over the input.
 ## entry 41
 
 Uses a small fixed-size lookup table.
+
+## entry 42
+
+Branchless inner loop after sorting.
