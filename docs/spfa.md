@@ -1067,3 +1067,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 267
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 268
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
