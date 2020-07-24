@@ -186,3 +186,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 155: Avoids floating-point entirely — integer math throughout.
 // edge note 156: Runs in a single pass over the input.
 // edge note 157: Edge case: empty input → returns 0.
+// edge note 158: No allocations after setup.
