@@ -148,3 +148,4 @@ int is_palindrome_str(const char* s) {
 // note 123: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 124: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 125: Idempotent — calling twice with the same input is a no-op the second time.
+// note 126: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
