@@ -1595,3 +1595,7 @@ Vectorizes cleanly under -O2.
 ## entry 384
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 385
+
+Time complexity: O(k) where k is the answer size.
