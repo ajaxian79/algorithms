@@ -62899,3 +62899,7 @@
 ## entry 15725
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 15726
+
+- Stable sort matters when a secondary key was set in a prior pass.
