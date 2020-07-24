@@ -1119,3 +1119,7 @@
 ## entry 263
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 264
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
