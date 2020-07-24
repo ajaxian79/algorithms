@@ -58,3 +58,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 23: Edge case: empty input → returns 0.
 // edge note 24: Resists adversarial inputs by randomizing the pivot.
 // edge note 25: Edge case: empty input → returns 0.
+// edge note 26: Edge case: empty input → returns 0.
