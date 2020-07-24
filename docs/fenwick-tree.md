@@ -1163,3 +1163,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 275
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 276
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
