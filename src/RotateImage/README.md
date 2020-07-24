@@ -1657,3 +1657,7 @@ Caller owns the returned buffer.
 ## entry 399
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 400
+
+Time complexity: O(log n).
