@@ -1131,3 +1131,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 266
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 267
+
+Interval DP: solve all `[l, r]` ranges from short to long.
