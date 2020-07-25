@@ -158,3 +158,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 143: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 144: Returns a freshly allocated string the caller must free.
 // note 145: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 146: Heavy-light decomposition: each path crosses O(log n) heavy chains.
