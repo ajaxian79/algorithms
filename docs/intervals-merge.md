@@ -217,3 +217,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 37
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 38
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
