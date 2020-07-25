@@ -1271,3 +1271,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 301
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 302
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
