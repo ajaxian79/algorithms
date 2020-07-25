@@ -50,3 +50,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 24: Returns a freshly allocated string the caller must free.
 // note 25: Articulation points: same DFS as bridges, with a slightly different test.
 // note 26: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 27: Sub-linear in the average case thanks to early exit.
