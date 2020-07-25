@@ -1175,3 +1175,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 294
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 295
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
