@@ -1658,3 +1658,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 399
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 400
+
+Edge case: NULL input is rejected by the caller, not by us.
