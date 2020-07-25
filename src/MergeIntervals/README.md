@@ -1638,3 +1638,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 394
 
 Edge case: empty input → returns 0.
+
+## entry 395
+
+Space complexity: O(1) auxiliary.
