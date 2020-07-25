@@ -1619,3 +1619,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 390
 
 Space complexity: O(n) for the result buffer.
+
+## entry 391
+
+Allocates one buffer of length n+1 for the result.
