@@ -1598,3 +1598,7 @@ Worst case appears only on degenerate inputs.
 ## entry 385
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 386
+
+Three passes total; the third merges results.
