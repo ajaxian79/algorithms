@@ -1597,3 +1597,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 385
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 386
+
+Edge case: zero-length string → returns the empty result.
