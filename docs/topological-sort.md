@@ -245,3 +245,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 43
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 44
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
