@@ -175,3 +175,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 131: Uses a small fixed-size lookup table.
 // note 132: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 133: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 134: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
