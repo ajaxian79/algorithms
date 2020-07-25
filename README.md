@@ -16,3 +16,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Pascal's Triangle (N rows)](src/PascalsTriangleN) — full triangle as ragged array
 * [Generate Parentheses](src/GenerateParens) — recursive Catalan enumeration
 * [Valid Sudoku](src/ValidSudoku) — row/column/box duplicate sweep
+* [Matrix Diagonal Sum](src/MatrixDiagonalSum) — both diagonals with center-cell fix
