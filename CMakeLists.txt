@@ -64,6 +64,7 @@ add_executable(pascals_row src/PascalsTriangleRow/main.c src/PascalsTriangleRow/
 add_executable(pascals_n src/PascalsTriangleN/main.c src/PascalsTriangleN/pascals_n.c)
 add_executable(generate_parens src/GenerateParens/main.c src/GenerateParens/generate_parens.c)
 add_executable(valid_sudoku src/ValidSudoku/main.c src/ValidSudoku/valid_sudoku.c)
+add_executable(diagonal_sum src/MatrixDiagonalSum/main.c src/MatrixDiagonalSum/diagonal_sum.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -186,4 +187,5 @@ target_link_libraries(pascals_row PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,
 target_link_libraries(pascals_n PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(generate_parens PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(valid_sudoku PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(diagonal_sum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
