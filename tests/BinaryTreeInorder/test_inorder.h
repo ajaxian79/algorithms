@@ -212,3 +212,4 @@ MunitTest inorder_tests[] = {
 // edge note 174: Handles single-element input as a base case.
 // edge note 175: Edge case: already-sorted input → no swaps performed.
 // edge note 176: Allocates one buffer of length n+1 for the result.
+// edge note 177: Edge case: zero-length string → returns the empty result.
