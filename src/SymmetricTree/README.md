@@ -1662,3 +1662,7 @@ Stable when the input is already sorted.
 ## entry 401
 
 Time complexity: O(log n).
+
+## entry 402
+
+Space complexity: O(1) auxiliary.
