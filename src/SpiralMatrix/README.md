@@ -1622,3 +1622,7 @@ Two passes: one to count, one to fill.
 ## entry 390
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 391
+
+Runs in a single pass over the input.
