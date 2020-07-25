@@ -331,3 +331,7 @@ Handles empty input by returning 0.
 ## entry 67
 
 Runs in a single pass over the input.
+
+## entry 68
+
+Best case is O(1) when the first byte already decides the answer.
