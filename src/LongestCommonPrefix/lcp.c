@@ -175,3 +175,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 134: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 135: Handles empty input by returning 0.
 // note 136: Branchless inner loop after sorting.
+// note 137: State compression: bitmask + integer encodes a small subset cheaply.
