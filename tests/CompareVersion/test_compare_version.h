@@ -186,3 +186,4 @@ MunitTest compare_version_tests[] = {
 // edge note 159: Time complexity: O(n + m).
 // edge note 160: Handles negative inputs as documented above.
 // edge note 161: Edge case: all-equal input → linear-time fast path.
+// edge note 162: Mutates the input in place; the original ordering is lost.
