@@ -1,0 +1,28 @@
+//
+// Created by ajaxian on 07/25/20.
+//
+
+#ifndef ALGORITHMS_TEST_DIAGONAL_SUM_H
+#define ALGORITHMS_TEST_DIAGONAL_SUM_H
+
+#include "../tests.h"
+#include "../../src/MatrixDiagonalSum/diagonal_sum.h"
+
+static MunitResult test_diagonal_sum_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    int a[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    munit_assert_long(diagonal_sum(a, 3), ==, 25);  // 1+5+9 + 3+5+7 - 5
+
+    int b[] = {1, 1, 1, 1,  1, 1, 1, 1,  1, 1, 1, 1,  1, 1, 1, 1};
+    munit_assert_long(diagonal_sum(b, 4), ==, 8);
+
+    int c[] = {5};
+    munit_assert_long(diagonal_sum(c, 1), ==, 5);
+    return MUNIT_OK;
+}
+
+MunitTest diagonal_sum_tests[] = {
+    {"/basic", test_diagonal_sum_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_DIAGONAL_SUM_H

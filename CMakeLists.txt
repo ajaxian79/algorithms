@@ -123,7 +123,8 @@ add_executable(unittests
         src/PascalsTriangleRow/pascals_row.c
         src/PascalsTriangleN/pascals_n.c
         src/GenerateParens/generate_parens.c
-        src/ValidSudoku/valid_sudoku.c)
+        src/ValidSudoku/valid_sudoku.c
+        src/MatrixDiagonalSum/diagonal_sum.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)

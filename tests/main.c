@@ -58,6 +58,7 @@
 #include "PascalsTriangleN/test_pascals_n.h"
 #include "GenerateParens/test_generate_parens.h"
 #include "ValidSudoku/test_valid_sudoku.h"
+#include "MatrixDiagonalSum/test_diagonal_sum.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -423,6 +424,12 @@ MunitSuite suites[] = {
         },{
                 "/valid_sudoku",
                 valid_sudoku_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/diagonal_sum",
+                diagonal_sum_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
