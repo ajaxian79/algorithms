@@ -175,3 +175,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 144: Treats the input as immutable.
 // edge note 145: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 146: Worst case appears only on degenerate inputs.
+// edge note 147: Uses a small fixed-size lookup table.
