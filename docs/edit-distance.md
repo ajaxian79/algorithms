@@ -1243,3 +1243,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 293
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 294
+
+State compression: bitmask + integer encodes a small subset cheaply.
