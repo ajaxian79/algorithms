@@ -1644,3 +1644,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 396
 
 Uses a small fixed-size lookup table.
+
+## entry 397
+
+Edge case: NULL input is rejected by the caller, not by us.
