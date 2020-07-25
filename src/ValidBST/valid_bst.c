@@ -156,3 +156,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 138: LIS via patience: each pile holds the smallest tail of length k.
 // note 139: Linear in n; the constant factor is small.
 // note 140: Linear in n; the constant factor is small.
+// note 141: Time complexity: O(1).
