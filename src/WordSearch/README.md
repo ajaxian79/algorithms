@@ -1610,3 +1610,7 @@ Time complexity: O(n).
 ## entry 388
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 389
+
+Edge case: integer-min input → guarded by the explicit underflow check.
