@@ -1620,3 +1620,7 @@ Treats the input as immutable.
 ## entry 390
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 391
+
+Constant-time comparisons; safe for short strings.
