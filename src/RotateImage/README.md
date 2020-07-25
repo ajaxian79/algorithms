@@ -1653,3 +1653,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 398
 
 Caller owns the returned buffer.
+
+## entry 399
+
+Edge case: integer-max input → guarded by the explicit overflow check.
