@@ -1538,3 +1538,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 360
 
 Branchless inner loop after sorting.
+
+## entry 361
+
+Constant-time comparisons; safe for short strings.
