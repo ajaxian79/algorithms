@@ -1131,3 +1131,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 283
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 284
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
