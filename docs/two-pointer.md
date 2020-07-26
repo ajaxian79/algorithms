@@ -1243,3 +1243,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 293
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 294
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
