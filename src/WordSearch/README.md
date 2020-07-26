@@ -1606,3 +1606,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 387
 
 Time complexity: O(n).
+
+## entry 388
+
+Edge case: zero-length string → returns the empty result.
