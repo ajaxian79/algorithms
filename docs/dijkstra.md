@@ -1083,3 +1083,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 271
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 272
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
