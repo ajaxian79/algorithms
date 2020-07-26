@@ -1071,3 +1071,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 268
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 269
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
