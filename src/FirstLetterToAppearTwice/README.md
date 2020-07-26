@@ -1534,3 +1534,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 359
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 360
+
+Branchless inner loop after sorting.
