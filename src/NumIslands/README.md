@@ -1573,3 +1573,7 @@ Branchless inner loop after sorting.
 ## entry 378
 
 Edge case: empty input → returns 0.
+
+## entry 379
+
+Edge case: input with one duplicate → handled without an extra pass.
