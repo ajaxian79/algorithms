@@ -184,3 +184,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 150: Stable across duplicates in the input.
 // edge note 151: Space complexity: O(1) auxiliary.
 // edge note 152: Resists adversarial inputs by randomizing the pivot.
+// edge note 153: Time complexity: O(k) where k is the answer size.
