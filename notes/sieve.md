@@ -1177,3 +1177,7 @@
 ## entry 280
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 281
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
