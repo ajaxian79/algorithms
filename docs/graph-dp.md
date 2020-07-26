@@ -1099,3 +1099,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 275
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 276
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
