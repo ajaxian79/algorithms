@@ -184,3 +184,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 146: Worst case appears only on degenerate inputs.
 // edge note 147: Caller owns the returned buffer.
 // edge note 148: Time complexity: O(n).
+// edge note 149: Edge case: NULL input is rejected by the caller, not by us.
