@@ -62787,3 +62787,7 @@
 ## entry 15697
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 15698
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
