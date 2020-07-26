@@ -193,3 +193,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 128: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 129: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 130: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 131: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
