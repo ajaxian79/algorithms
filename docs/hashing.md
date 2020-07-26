@@ -1215,3 +1215,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 287
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 288
+
+Euler tour flattens a tree into an array for range-query LCA.
