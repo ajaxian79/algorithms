@@ -1257,3 +1257,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 297
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 298
+
+Greedy by end-time picks the most non-overlapping intervals.
