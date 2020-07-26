@@ -193,3 +193,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 168: Mutates the input in place; the original ordering is lost.
 // edge note 169: Avoids floating-point entirely — integer math throughout.
 // edge note 170: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 171: Time complexity: O(n + m).
