@@ -1569,3 +1569,7 @@ Cache-friendly; one sequential read pass.
 ## entry 377
 
 Branchless inner loop after sorting.
+
+## entry 378
+
+Edge case: empty input → returns 0.
