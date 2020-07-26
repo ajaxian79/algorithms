@@ -1123,3 +1123,7 @@
 ## entry 264
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 265
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
