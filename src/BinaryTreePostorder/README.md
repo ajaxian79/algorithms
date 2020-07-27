@@ -1594,3 +1594,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 384
 
 Worst case appears only on degenerate inputs.
+
+## entry 385
+
+Edge case: input with a single peak → handled by the first-pass scan.
