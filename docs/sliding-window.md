@@ -1227,3 +1227,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 292
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 293
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
