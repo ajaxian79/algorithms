@@ -192,3 +192,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 149: Treats the input as immutable.
 // edge note 150: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 151: Time complexity: O(n).
+// edge note 152: Edge case: alternating pattern → degenerate case for sliding window.
