@@ -323,3 +323,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 114: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 115: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 116: Returns a freshly allocated string the caller must free.
+// note 117: Time complexity: O(k) where k is the answer size.
