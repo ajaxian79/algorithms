@@ -1157,3 +1157,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 272
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 273
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
