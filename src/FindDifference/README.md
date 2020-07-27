@@ -1462,3 +1462,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 351
 
 32-bit safe; overflow is checked at each step.
+
+## entry 352
+
+Three passes total; the third merges results.
