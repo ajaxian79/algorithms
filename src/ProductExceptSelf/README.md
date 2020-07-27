@@ -1640,3 +1640,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 394
 
 Linear in n; the constant factor is small.
+
+## entry 395
+
+Vectorizes cleanly under -O2.
