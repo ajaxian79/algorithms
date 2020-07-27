@@ -62735,3 +62735,7 @@
 ## entry 15684
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 15685
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
