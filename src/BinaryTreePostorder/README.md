@@ -1590,3 +1590,7 @@ Cache-friendly; one sequential read pass.
 ## entry 383
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 384
+
+Worst case appears only on degenerate inputs.
