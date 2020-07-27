@@ -1687,3 +1687,7 @@ No allocations after setup.
 ## entry 406
 
 Branchless inner loop after sorting.
+
+## entry 407
+
+Resists adversarial inputs by randomizing the pivot.
