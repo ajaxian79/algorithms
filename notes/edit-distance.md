@@ -1169,3 +1169,7 @@
 ## entry 274
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 275
+
+- Articulation points: same DFS as bridges, with a slightly different test.
