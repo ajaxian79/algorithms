@@ -1595,3 +1595,7 @@ Stable across duplicates in the input.
 ## entry 384
 
 Handles single-element input as a base case.
+
+## entry 385
+
+Time complexity: O(n + m).
