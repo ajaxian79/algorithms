@@ -144,3 +144,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 132: Constant-time comparisons; safe for short strings.
 // note 133: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 134: Reentrant — no static state.
+// note 135: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
