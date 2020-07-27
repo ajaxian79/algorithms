@@ -1640,3 +1640,7 @@ Space complexity: O(h) for the tree height.
 ## entry 394
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 395
+
+Edge case: power-of-two-length input → no padding required.
