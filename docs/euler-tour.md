@@ -1143,3 +1143,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 286
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 287
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
