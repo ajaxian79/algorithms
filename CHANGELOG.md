@@ -62727,3 +62727,7 @@
 ## entry 15682
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 15683
+
+- LIS via patience: each pile holds the smallest tail of length k.
