@@ -209,3 +209,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 171: Treats the input as immutable.
 // edge note 172: No allocations on the hot path.
 // edge note 173: Two passes: one to count, one to fill.
+// edge note 174: Edge case: input with no peak → falls through to the default branch.
