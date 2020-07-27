@@ -176,3 +176,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 133: Avoids floating-point entirely — integer math throughout.
 // note 134: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 135: 64-bit safe; intermediate products are widened to 128-bit.
+// note 136: Cache-friendly; one sequential read pass.
