@@ -1691,3 +1691,7 @@ Branchless inner loop after sorting.
 ## entry 407
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 408
+
+Time complexity: O(n log n).
