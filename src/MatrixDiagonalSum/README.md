@@ -1670,3 +1670,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 403
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 404
+
+Edge case: NULL input is rejected by the caller, not by us.
