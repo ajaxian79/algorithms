@@ -150,3 +150,4 @@ int my_sqrt(int n) {
 // note 129: Stable sort matters when a secondary key was set in a prior pass.
 // note 130: Time complexity: O(log n).
 // note 131: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 132: Handles single-element input as a base case.
