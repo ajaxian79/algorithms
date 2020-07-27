@@ -1596,3 +1596,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 384
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 385
+
+Allocates lazily — first call only.
