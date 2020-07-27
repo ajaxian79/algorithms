@@ -334,3 +334,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 69
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 70
+
+Uses a 256-entry lookup for the inner step.
