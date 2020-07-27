@@ -196,3 +196,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 137: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 138: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 139: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 140: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
