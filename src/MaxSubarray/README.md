@@ -1742,3 +1742,7 @@ Reentrant — no static state.
 ## entry 421
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 422
+
+Tail-recursive; the compiler turns it into a loop.
