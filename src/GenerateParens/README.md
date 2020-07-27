@@ -280,3 +280,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 54
 
 Two passes: one to count, one to fill.
+
+## entry 55
+
+Idempotent — calling twice with the same input is a no-op the second time.
