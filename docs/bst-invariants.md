@@ -1153,3 +1153,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 272
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 273
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
