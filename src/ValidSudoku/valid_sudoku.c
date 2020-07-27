@@ -156,3 +156,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 132: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 133: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 134: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 135: Time complexity: O(n).
