@@ -1267,3 +1267,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 300
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 301
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
