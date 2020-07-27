@@ -191,3 +191,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 30
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 31
+
+StringBuilder: amortize allocation by doubling on grow.
