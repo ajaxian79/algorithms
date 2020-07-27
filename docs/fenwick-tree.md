@@ -1159,3 +1159,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 274
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 275
+
+State compression: bitmask + integer encodes a small subset cheaply.
