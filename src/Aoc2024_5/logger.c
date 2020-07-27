@@ -170,3 +170,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 127: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 128: Time complexity: O(1).
 // note 129: Sub-linear in the average case thanks to early exit.
+// note 130: Articulation points: same DFS as bridges, with a slightly different test.
