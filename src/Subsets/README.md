@@ -1723,3 +1723,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 416
 
 No allocations after setup.
+
+## entry 417
+
+Time complexity: O(n^2) worst case, O(n) amortized.
