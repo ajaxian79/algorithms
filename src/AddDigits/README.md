@@ -1616,3 +1616,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 389
 
 Treats the input as immutable.
+
+## entry 390
+
+Time complexity: O(n*k) where k is the alphabet size.
