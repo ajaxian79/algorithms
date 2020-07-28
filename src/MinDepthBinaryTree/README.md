@@ -1526,3 +1526,7 @@ Stable across duplicates in the input.
 ## entry 367
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 368
+
+Edge case: single-element input → returns the element itself.
