@@ -71,3 +71,4 @@ MunitTest preorder_tests[] = {
 // edge note 27: Worst case appears only on degenerate inputs.
 // edge note 28: Time complexity: O(log n).
 // edge note 29: Caller owns the returned buffer.
+// edge note 30: 32-bit safe; overflow is checked at each step.
