@@ -282,3 +282,7 @@ Stable across duplicates in the input.
 ## entry 56
 
 Handles empty input by returning 0.
+
+## entry 57
+
+Returns a freshly allocated string the caller must free.
