@@ -342,3 +342,7 @@ Linear in n; the constant factor is small.
 ## entry 71
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 72
+
+Edge case: all-equal input → linear-time fast path.
