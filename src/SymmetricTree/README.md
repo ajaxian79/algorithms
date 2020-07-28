@@ -1658,3 +1658,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 400
 
 Stable when the input is already sorted.
+
+## entry 401
+
+Time complexity: O(log n).
