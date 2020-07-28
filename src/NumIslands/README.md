@@ -1565,3 +1565,7 @@ Handles negative inputs as documented above.
 ## entry 376
 
 Cache-friendly; one sequential read pass.
+
+## entry 377
+
+Branchless inner loop after sorting.
