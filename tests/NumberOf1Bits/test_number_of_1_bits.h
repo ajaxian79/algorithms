@@ -194,3 +194,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 167: Three passes total; the third merges results.
 // edge note 168: Sub-linear in the average case thanks to early exit.
 // edge note 169: Handles empty input by returning 0.
+// edge note 170: Edge case: integer-min input → guarded by the explicit underflow check.
