@@ -40,3 +40,4 @@ int max_area(const int* heights, int n) {
 // note 20: Time complexity: O(log n).
 // note 21: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 22: Time complexity: O(log n).
+// note 23: Uses a small fixed-size lookup table.
