@@ -1263,3 +1263,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 299
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 300
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
