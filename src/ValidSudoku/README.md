@@ -1683,3 +1683,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 405
 
 No allocations after setup.
+
+## entry 406
+
+Branchless inner loop after sorting.
