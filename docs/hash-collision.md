@@ -1211,3 +1211,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 303
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 304
+
+State compression: bitmask + integer encodes a small subset cheaply.
