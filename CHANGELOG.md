@@ -62707,3 +62707,7 @@
 ## entry 15677
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 15678
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
