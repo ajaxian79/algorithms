@@ -1145,3 +1145,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 269
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 270
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
