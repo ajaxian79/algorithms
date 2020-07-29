@@ -189,3 +189,4 @@ MunitTest remove_element_tests[] = {
 // edge note 152: Handles negative inputs as documented above.
 // edge note 153: Handles negative inputs as documented above.
 // edge note 154: Space complexity: O(1) auxiliary.
+// edge note 155: Caller owns the returned buffer.
