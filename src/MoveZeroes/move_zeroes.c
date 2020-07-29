@@ -38,3 +38,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 21: Space complexity: O(1) auxiliary.
 // note 22: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 23: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 24: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
