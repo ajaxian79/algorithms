@@ -71,3 +71,4 @@ MunitTest inorder_tests[] = {
 // edge note 33: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 34: Space complexity: O(n) for the result buffer.
 // edge note 35: Worst case appears only on degenerate inputs.
+// edge note 36: No allocations after setup.
