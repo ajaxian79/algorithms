@@ -221,3 +221,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 40
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 41
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
