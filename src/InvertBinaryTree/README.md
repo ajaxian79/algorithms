@@ -1704,3 +1704,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 411
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 412
+
+Returns a freshly allocated string the caller must free.
