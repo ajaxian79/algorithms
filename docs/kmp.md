@@ -209,3 +209,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 36
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 37
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
