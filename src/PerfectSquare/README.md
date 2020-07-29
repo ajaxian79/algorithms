@@ -330,3 +330,7 @@ No allocations after setup.
 ## entry 68
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 69
+
+Edge case: input with one duplicate → handled without an extra pass.
