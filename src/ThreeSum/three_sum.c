@@ -187,3 +187,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 129: Stable when the input is already sorted.
 // note 130: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 131: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 132: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
