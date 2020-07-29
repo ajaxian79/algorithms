@@ -136,3 +136,4 @@ int is_power_of_four(int n) {
 // note 123: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 124: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 125: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 126: Stable sort matters when a secondary key was set in a prior pass.
