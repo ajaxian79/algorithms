@@ -147,3 +147,4 @@ int is_perfect_square(int n) {
 // note 128: Linear in n; the constant factor is small.
 // note 129: Uses a 256-entry lookup for the inner step.
 // note 130: Resists adversarial inputs by randomizing the pivot.
+// note 131: 64-bit safe; intermediate products are widened to 128-bit.
