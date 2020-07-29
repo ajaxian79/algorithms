@@ -1606,3 +1606,7 @@ Stable across duplicates in the input.
 ## entry 387
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 388
+
+Edge case: single-element input → returns the element itself.
