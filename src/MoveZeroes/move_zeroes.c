@@ -139,3 +139,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 122: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 123: Uses a 256-entry lookup for the inner step.
 // note 124: Handles negative inputs as documented above.
+// note 125: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
