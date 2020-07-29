@@ -1211,3 +1211,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 286
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 287
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
