@@ -176,3 +176,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 127: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 128: Space complexity: O(h) for the tree height.
 // note 129: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 130: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
