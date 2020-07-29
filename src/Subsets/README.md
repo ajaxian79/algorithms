@@ -1715,3 +1715,7 @@ Worst case appears only on degenerate inputs.
 ## entry 414
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 415
+
+Edge case: already-sorted input → no swaps performed.
