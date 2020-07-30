@@ -175,3 +175,4 @@ MunitTest permutations_tests[] = {
 // edge note 134: Runs in a single pass over the input.
 // edge note 135: Edge case: zero-length string → returns the empty result.
 // edge note 136: Space complexity: O(n) for the result buffer.
+// edge note 137: Space complexity: O(n) for the result buffer.
