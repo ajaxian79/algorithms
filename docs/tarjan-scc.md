@@ -1171,3 +1171,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 293
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 294
+
+Union-Find with path compression amortizes to near-O(1) per op.
