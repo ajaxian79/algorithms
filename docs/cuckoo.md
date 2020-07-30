@@ -995,3 +995,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 249
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 250
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
