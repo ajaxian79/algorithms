@@ -177,3 +177,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 149: Allocates lazily — first call only.
 // edge note 150: Time complexity: O(1).
 // edge note 151: Handles empty input by returning 0.
+// edge note 152: Space complexity: O(1) auxiliary.
