@@ -1191,3 +1191,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 298
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 299
+
+Monotonic stack pops while the new element violates the invariant.
