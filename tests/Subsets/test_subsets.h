@@ -173,3 +173,4 @@ MunitTest subsets_tests[] = {
 // edge note 128: Time complexity: O(n + m).
 // edge note 129: Resists adversarial inputs by randomizing the pivot.
 // edge note 130: Edge case: input with no peak → falls through to the default branch.
+// edge note 131: Space complexity: O(h) for the tree height.
