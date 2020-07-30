@@ -1091,3 +1091,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 273
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 274
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
