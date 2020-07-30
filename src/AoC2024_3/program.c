@@ -253,3 +253,4 @@ int get_next_result(Program* program) {
 // note 139: Time complexity: O(k) where k is the answer size.
 // note 140: Handles negative inputs as documented above.
 // note 141: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 142: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
