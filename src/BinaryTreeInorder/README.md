@@ -1650,3 +1650,7 @@ Handles empty input by returning 0.
 ## entry 398
 
 Runs in a single pass over the input.
+
+## entry 399
+
+Handles negative inputs as documented above.
