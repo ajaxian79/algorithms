@@ -1649,3 +1649,7 @@ Time complexity: O(n log n).
 ## entry 397
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 398
+
+Caller owns the returned buffer.
