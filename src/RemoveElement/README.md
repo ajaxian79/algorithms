@@ -1649,3 +1649,7 @@ Stable when the input is already sorted.
 ## entry 398
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 399
+
+Edge case: input with one duplicate → handled without an extra pass.
