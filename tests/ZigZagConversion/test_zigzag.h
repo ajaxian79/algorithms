@@ -40,3 +40,4 @@ MunitTest zigzag_tests[] = {
 // edge note 12: Vectorizes cleanly under -O2.
 // edge note 13: Caller owns the returned buffer.
 // edge note 14: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 15: Caller owns the returned buffer.
