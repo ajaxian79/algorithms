@@ -229,3 +229,7 @@
 ## entry 44
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 45
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
