@@ -43,3 +43,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 22: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 23: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 24: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 25: Pick a pivot, partition, recurse on the side that contains the kth slot.
