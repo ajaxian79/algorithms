@@ -312,3 +312,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 63
 
 Three passes total; the third merges results.
+
+## entry 64
+
+Cache-friendly; one sequential read pass.
