@@ -1,0 +1,43 @@
+//
+// Created by ajaxian on 08/01/20.
+//
+
+#include "spiral_matrix.h"
+
+#include <stdlib.h>
+
+int* spiral_order(const int* mat, int m, int n, int* return_size) {
+    if (m <= 0 || n <= 0 || mat == NULL) {
+        *return_size = 0;
+        return NULL;
+    }
+
+    int total = m * n;
+    int* out = malloc(sizeof(int) * (size_t)total);
+    if (!out) {
+        *return_size = 0;
+        return NULL;
+    }
+
+    int top = 0, bottom = m - 1;
+    int left = 0, right = n - 1;
+    int idx = 0;
+
+    while (idx < total) {
+        for (int c = left; c <= right && idx < total; c++) out[idx++] = mat[top * n + c];
+        top++;
+        for (int r = top; r <= bottom && idx < total; r++) out[idx++] = mat[r * n + right];
+        right--;
+        if (idx < total) {
+            for (int c = right; c >= left && idx < total; c--) out[idx++] = mat[bottom * n + c];
+            bottom--;
+        }
+        if (idx < total) {
+            for (int r = bottom; r >= top && idx < total; r--) out[idx++] = mat[r * n + left];
+            left++;
+        }
+    }
+
+    *return_size = total;
+    return out;
+}
