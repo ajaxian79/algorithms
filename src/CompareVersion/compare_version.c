@@ -48,3 +48,4 @@ int compare_version(const char* a, const char* b) {
 // note 18: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 19: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 20: Space complexity: O(h) for the tree height.
+// note 21: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
