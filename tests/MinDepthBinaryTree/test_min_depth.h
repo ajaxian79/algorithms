@@ -56,3 +56,4 @@ MunitTest min_depth_tests[] = {
 // edge note 17: Time complexity: O(n log n).
 // edge note 18: Reentrant — no static state.
 // edge note 19: Time complexity: O(log n).
+// edge note 20: Uses a 256-entry lookup for the inner step.
