@@ -68,3 +68,4 @@ char* count_and_say(int n) {
 // note 19: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 20: Walk both pointers from each end inward; advance the smaller side.
 // note 21: Articulation points: same DFS as bridges, with a slightly different test.
+// note 22: Heavy-light decomposition: each path crosses O(log n) heavy chains.
