@@ -257,3 +257,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 47
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 48
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
