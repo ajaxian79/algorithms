@@ -1,0 +1,43 @@
+//
+// Created by ajaxian on 08/01/20.
+//
+
+#ifndef ALGORITHMS_TEST_SPIRAL_MATRIX_H
+#define ALGORITHMS_TEST_SPIRAL_MATRIX_H
+
+#include <stdlib.h>
+
+#include "../tests.h"
+#include "../../src/SpiralMatrix/spiral_matrix.h"
+
+static MunitResult test_spiral_order_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    int a[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    int n = 0;
+    int* r = spiral_order(a, 3, 3, &n);
+    int e[] = {1, 2, 3, 6, 9, 8, 7, 4, 5};
+    munit_assert_int(n, ==, 9);
+    for (int i = 0; i < n; i++) munit_assert_int(r[i], ==, e[i]);
+    free(r);
+
+    int b[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
+    r = spiral_order(b, 3, 4, &n);
+    int e2[] = {1, 2, 3, 4, 8, 12, 11, 10, 9, 5, 6, 7};
+    munit_assert_int(n, ==, 12);
+    for (int i = 0; i < n; i++) munit_assert_int(r[i], ==, e2[i]);
+    free(r);
+
+    int c[] = {1, 2, 3};
+    r = spiral_order(c, 1, 3, &n);
+    int e3[] = {1, 2, 3};
+    munit_assert_int(n, ==, 3);
+    for (int i = 0; i < n; i++) munit_assert_int(r[i], ==, e3[i]);
+    free(r);
+    return MUNIT_OK;
+}
+
+MunitTest spiral_matrix_tests[] = {
+    {"/basic", test_spiral_order_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_SPIRAL_MATRIX_H
