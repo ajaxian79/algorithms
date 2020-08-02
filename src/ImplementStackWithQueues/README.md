@@ -348,3 +348,7 @@ Time complexity: O(n log n).
 ## entry 72
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 73
+
+Uses a 256-entry lookup for the inner step.
