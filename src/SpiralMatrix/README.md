@@ -298,3 +298,7 @@ Stable across duplicates in the input.
 ## entry 59
 
 No allocations on the hot path.
+
+## entry 60
+
+64-bit safe; intermediate products are widened to 128-bit.
