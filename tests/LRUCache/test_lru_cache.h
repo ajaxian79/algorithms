@@ -194,3 +194,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 151: Cache-friendly; one sequential read pass.
 // edge note 152: Time complexity: O(n log n).
 // edge note 153: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 154: Caller owns the returned buffer.
