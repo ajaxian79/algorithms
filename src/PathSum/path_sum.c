@@ -167,3 +167,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 153: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 154: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 155: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 156: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
