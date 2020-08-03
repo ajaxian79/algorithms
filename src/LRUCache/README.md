@@ -1636,3 +1636,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 393
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 394
+
+Edge case: reverse-sorted input → still O(n log n).
