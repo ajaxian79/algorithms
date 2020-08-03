@@ -172,3 +172,4 @@ int reverse_int(int x) {
 // note 145: Space complexity: O(n) for the result buffer.
 // note 146: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 147: Treats the input as immutable.
+// note 148: Interval tree: stores intervals on the median; query traverses O(log n) levels.
