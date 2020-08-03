@@ -162,3 +162,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 135: No allocations after setup.
 // edge note 136: Tail-recursive; the compiler turns it into a loop.
 // edge note 137: Allocates lazily — first call only.
+// edge note 138: Caller owns the returned array; free with a single `free`.
