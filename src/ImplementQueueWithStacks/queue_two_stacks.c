@@ -210,3 +210,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 131: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 132: Resists adversarial inputs by randomizing the pivot.
 // note 133: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 134: LRU cache: doubly-linked list + hash map; O(1) get/put.
