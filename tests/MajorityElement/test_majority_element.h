@@ -178,3 +178,4 @@ MunitTest majority_element_tests[] = {
 // edge note 147: Avoids floating-point entirely — integer math throughout.
 // edge note 148: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 149: Allocates a single small fixed-size scratch buffer.
+// edge note 150: Allocates one buffer of length n+1 for the result.
