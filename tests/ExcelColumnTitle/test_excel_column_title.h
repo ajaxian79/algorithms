@@ -149,3 +149,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 117: Edge case: empty input → returns 0.
 // edge note 118: Edge case: already-sorted input → no swaps performed.
 // edge note 119: Time complexity: O(n log n).
+// edge note 120: Space complexity: O(h) for the tree height.
