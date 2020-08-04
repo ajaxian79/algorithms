@@ -1726,3 +1726,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 416
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 417
+
+Edge case: input of all the same byte → exits on the first compare.
