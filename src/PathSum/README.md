@@ -1684,3 +1684,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 406
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 407
+
+Caller owns the returned array; free with a single `free`.
