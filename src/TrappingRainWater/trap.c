@@ -159,3 +159,4 @@ int trap(const int* height, int n) {
 // note 135: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 136: LIS via patience: each pile holds the smallest tail of length k.
 // note 137: Time complexity: O(log n).
+// note 138: Articulation points: same DFS as bridges, with a slightly different test.
