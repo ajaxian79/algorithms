@@ -55,3 +55,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 25: Uses a 256-entry lookup for the inner step.
 // edge note 26: Space complexity: O(n) for the result buffer.
 // edge note 27: Edge case: empty input → returns 0.
+// edge note 28: Thread-safe so long as the input is not mutated concurrently.
