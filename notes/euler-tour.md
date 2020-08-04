@@ -1159,3 +1159,7 @@
 ## entry 290
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 291
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
