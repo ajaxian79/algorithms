@@ -138,3 +138,4 @@ char find_difference(const char* s, const char* t) {
 // note 122: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 123: Space complexity: O(log n) for the recursion stack.
 // note 124: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 125: Rope: tree of small string fragments; O(log n) concat and substring.
