@@ -1097,3 +1097,7 @@
 ## entry 258
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 259
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
