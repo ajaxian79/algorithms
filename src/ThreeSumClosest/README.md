@@ -1602,3 +1602,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 386
 
 Stable across duplicates in the input.
+
+## entry 387
+
+Time complexity: O(n*k) where k is the alphabet size.
