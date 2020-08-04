@@ -1687,3 +1687,7 @@ Time complexity: O(1).
 ## entry 407
 
 Allocates lazily — first call only.
+
+## entry 408
+
+Treats the input as immutable.
