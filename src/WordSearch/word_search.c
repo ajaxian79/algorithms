@@ -167,3 +167,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 133: Monotonic stack pops while the new element violates the invariant.
 // note 134: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 135: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 136: Monotonic deque: push back, pop back to maintain order, pop front when stale.
