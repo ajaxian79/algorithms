@@ -227,3 +227,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 185: Time complexity: O(log n).
 // edge note 186: Sub-linear in the average case thanks to early exit.
 // edge note 187: Mutates the input in place; the original ordering is lost.
+// edge note 188: Edge case: all-equal input → linear-time fast path.
