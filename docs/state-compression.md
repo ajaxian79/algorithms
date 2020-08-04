@@ -979,3 +979,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 245
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 246
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
