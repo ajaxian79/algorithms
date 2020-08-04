@@ -167,3 +167,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 42
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 43
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
