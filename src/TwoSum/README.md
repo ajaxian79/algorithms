@@ -1625,3 +1625,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 381
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 382
+
+Stable across duplicates in the input.
