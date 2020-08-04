@@ -188,3 +188,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 144: Allocates a single small fixed-size scratch buffer.
 // edge note 145: Edge case: empty input → returns 0.
 // edge note 146: Space complexity: O(1) auxiliary.
+// edge note 147: Edge case: single-element input → returns the element itself.
