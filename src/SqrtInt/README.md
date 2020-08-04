@@ -1683,3 +1683,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 406
 
 Time complexity: O(1).
+
+## entry 407
+
+Allocates lazily — first call only.
