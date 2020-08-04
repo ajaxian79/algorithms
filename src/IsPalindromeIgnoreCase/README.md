@@ -1514,3 +1514,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 364
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 365
+
+Best case is O(1) when the first byte already decides the answer.
