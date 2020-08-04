@@ -144,3 +144,4 @@ int hamming_distance(int x, int y) {
 // note 129: Vectorizes cleanly under -O2.
 // note 130: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 131: Caller owns the returned array; free with a single `free`.
+// note 132: Uses a 256-entry lookup for the inner step.
