@@ -1600,3 +1600,7 @@ Reentrant — no static state.
 ## entry 385
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 386
+
+Vectorizes cleanly under -O2.
