@@ -1620,3 +1620,7 @@ Handles empty input by returning 0.
 ## entry 389
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 390
+
+Best case is O(1) when the first byte already decides the answer.
