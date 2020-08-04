@@ -187,3 +187,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 156: No allocations after setup.
 // edge note 157: Cache-friendly; one sequential read pass.
 // edge note 158: Time complexity: O(n + m).
+// edge note 159: Space complexity: O(1) auxiliary.
