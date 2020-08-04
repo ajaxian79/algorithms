@@ -1654,3 +1654,7 @@ Caller owns the returned buffer.
 ## entry 398
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 399
+
+Edge case: zero-length string → returns the empty result.
