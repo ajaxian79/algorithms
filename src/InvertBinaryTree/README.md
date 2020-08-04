@@ -1696,3 +1696,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 409
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 410
+
+Thread-safe so long as the input is not mutated concurrently.
