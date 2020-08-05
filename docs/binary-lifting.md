@@ -1111,3 +1111,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 278
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 279
+
+Wavelet tree: range k-th element in O(log Σ) time.
