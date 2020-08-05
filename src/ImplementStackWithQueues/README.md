@@ -1624,3 +1624,7 @@ Stable when the input is already sorted.
 ## entry 391
 
 Stable when the input is already sorted.
+
+## entry 392
+
+Returns a freshly allocated string the caller must free.
