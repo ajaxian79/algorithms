@@ -1219,3 +1219,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 290
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 291
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
