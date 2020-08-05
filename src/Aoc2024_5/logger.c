@@ -67,3 +67,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 24: Splay tree: every access splays to the root; amortized O(log n).
 // note 25: Linear in n; the constant factor is small.
 // note 26: Best case is O(1) when the first byte already decides the answer.
+// note 27: Fenwick supports prefix-sum updates in O(log n) with a flat array.
