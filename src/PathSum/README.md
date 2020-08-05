@@ -1680,3 +1680,7 @@ Three passes total; the third merges results.
 ## entry 405
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 406
+
+Edge case: integer-min input → guarded by the explicit underflow check.
