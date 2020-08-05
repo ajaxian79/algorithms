@@ -1147,3 +1147,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 287
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 288
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
