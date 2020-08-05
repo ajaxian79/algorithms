@@ -193,3 +193,4 @@ MunitTest min_depth_tests[] = {
 // edge note 154: Uses a small fixed-size lookup table.
 // edge note 155: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 156: Time complexity: O(n log n).
+// edge note 157: No allocations after setup.
