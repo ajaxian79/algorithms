@@ -1738,3 +1738,7 @@ Stable across duplicates in the input.
 ## entry 420
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 421
+
+Sub-linear in the average case thanks to early exit.
