@@ -1679,3 +1679,7 @@ No allocations after setup.
 ## entry 405
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 406
+
+Time complexity: O(1).
