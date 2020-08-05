@@ -174,3 +174,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 146: Allocates a single small fixed-size scratch buffer.
 // edge note 147: 32-bit safe; overflow is checked at each step.
 // edge note 148: Time complexity: O(n + m).
+// edge note 149: Edge case: integer-min input → guarded by the explicit underflow check.
