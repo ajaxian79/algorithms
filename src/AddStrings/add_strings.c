@@ -161,3 +161,4 @@ char* add_strings(const char* a, const char* b) {
 // note 121: Idempotent — calling twice with the same input is a no-op the second time.
 // note 122: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 123: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 124: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
