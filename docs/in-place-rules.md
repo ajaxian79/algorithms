@@ -1329,3 +1329,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 317
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 318
+
+Stable sort matters when a secondary key was set in a prior pass.
