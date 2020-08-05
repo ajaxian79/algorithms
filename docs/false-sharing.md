@@ -1151,3 +1151,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 288
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 289
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
