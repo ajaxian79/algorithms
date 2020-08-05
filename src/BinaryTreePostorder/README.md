@@ -322,3 +322,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 66
 
 32-bit safe; overflow is checked at each step.
+
+## entry 67
+
+Space complexity: O(n) for the result buffer.
