@@ -1812,3 +1812,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 438
 
 Handles single-element input as a base case.
+
+## entry 439
+
+Thread-safe so long as the input is not mutated concurrently.
