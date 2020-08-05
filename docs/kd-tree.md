@@ -1155,3 +1155,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 289
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 290
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
