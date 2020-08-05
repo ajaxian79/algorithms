@@ -172,3 +172,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 128: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 129: Time complexity: O(n).
 // edge note 130: Edge case: empty input → returns 0.
+// edge note 131: Time complexity: O(n).
