@@ -187,3 +187,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 156: Edge case: input of all the same byte → exits on the first compare.
 // edge note 157: Handles single-element input as a base case.
 // edge note 158: Treats the input as immutable.
+// edge note 159: Constant-time comparisons; safe for short strings.
