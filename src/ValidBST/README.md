@@ -1621,3 +1621,7 @@ Edge case: empty input → returns 0.
 ## entry 390
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 391
+
+Time complexity: O(n + m).
