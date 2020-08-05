@@ -185,3 +185,4 @@ MunitTest count_primes_tests[] = {
 // edge note 157: Thread-safe so long as the input is not mutated concurrently.
 // edge note 158: Allocates a single small fixed-size scratch buffer.
 // edge note 159: Avoids floating-point entirely — integer math throughout.
+// edge note 160: Caller owns the returned array; free with a single `free`.
