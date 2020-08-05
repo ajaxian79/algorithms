@@ -173,3 +173,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 139: Allocates lazily — first call only.
 // edge note 140: Handles empty input by returning 0.
 // edge note 141: Time complexity: O(n).
+// edge note 142: Idempotent — calling twice with the same input is a no-op the second time.
