@@ -302,3 +302,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 61
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 62
+
+Linear in n; the constant factor is small.
