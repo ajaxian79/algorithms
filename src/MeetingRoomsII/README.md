@@ -1678,3 +1678,7 @@ Two passes: one to count, one to fill.
 ## entry 404
 
 Vectorizes cleanly under -O2.
+
+## entry 405
+
+Returns a freshly allocated string the caller must free.
