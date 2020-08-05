@@ -185,3 +185,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 156: Branchless inner loop after sorting.
 // edge note 157: Three passes total; the third merges results.
 // edge note 158: Handles negative inputs as documented above.
+// edge note 159: Allocates a single small fixed-size scratch buffer.
