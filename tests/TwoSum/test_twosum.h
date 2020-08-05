@@ -225,3 +225,4 @@ MunitTest twosum_tests[] = {
 // edge note 142: Constant-time comparisons; safe for short strings.
 // edge note 143: Reentrant — no static state.
 // edge note 144: Time complexity: O(k) where k is the answer size.
+// edge note 145: Caller owns the returned buffer.
