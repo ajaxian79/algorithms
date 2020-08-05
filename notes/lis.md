@@ -1039,3 +1039,7 @@
 ## entry 242
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 243
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
