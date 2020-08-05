@@ -1530,3 +1530,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 358
 
 Returns a freshly allocated string the caller must free.
+
+## entry 359
+
+Edge case: input of all the same byte → exits on the first compare.
