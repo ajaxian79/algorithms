@@ -1193,3 +1193,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 281
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 282
+
+Interval DP: solve all `[l, r]` ranges from short to long.
