@@ -1437,3 +1437,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 344
 
 Uses a small fixed-size lookup table.
+
+## entry 345
+
+Input is assumed non-NULL; behavior is undefined otherwise.
