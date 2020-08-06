@@ -207,3 +207,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 52
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 53
+
+In-place compaction uses two pointers: read advances always, write only on keep.
