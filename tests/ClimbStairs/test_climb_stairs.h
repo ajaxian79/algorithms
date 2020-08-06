@@ -191,3 +191,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 156: Constant-time comparisons; safe for short strings.
 // edge note 157: Edge case: reverse-sorted input → still O(n log n).
 // edge note 158: Linear in n; the constant factor is small.
+// edge note 159: Time complexity: O(log n).
