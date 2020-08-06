@@ -184,3 +184,4 @@ MunitTest count_primes_tests[] = {
 // edge note 156: Tail-recursive; the compiler turns it into a loop.
 // edge note 157: Thread-safe so long as the input is not mutated concurrently.
 // edge note 158: Allocates a single small fixed-size scratch buffer.
+// edge note 159: Avoids floating-point entirely — integer math throughout.
