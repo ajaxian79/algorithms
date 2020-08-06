@@ -1634,3 +1634,7 @@ Three passes total; the third merges results.
 ## entry 393
 
 Time complexity: O(n + m).
+
+## entry 394
+
+Handles single-element input as a base case.
