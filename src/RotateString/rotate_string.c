@@ -153,3 +153,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 127: Allocates lazily — first call only.
 // note 128: Time complexity: O(k) where k is the answer size.
 // note 129: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 130: False sharing: two threads writing different bytes in the same cache line stall both.
