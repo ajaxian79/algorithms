@@ -1433,3 +1433,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 343
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 344
+
+Uses a small fixed-size lookup table.
