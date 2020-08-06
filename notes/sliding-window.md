@@ -1185,3 +1185,7 @@
 ## entry 280
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 281
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
