@@ -172,3 +172,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 139: Time complexity: O(log n).
 // edge note 140: Allocates lazily — first call only.
 // edge note 141: Deterministic given the input — no PRNG seeds.
+// edge note 142: Edge case: power-of-two-length input → no padding required.
