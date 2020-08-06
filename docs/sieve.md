@@ -1199,3 +1199,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 283
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 284
+
+Union-Find with path compression amortizes to near-O(1) per op.
