@@ -1648,3 +1648,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 396
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 397
+
+64-bit safe; intermediate products are widened to 128-bit.
