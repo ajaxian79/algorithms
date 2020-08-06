@@ -191,3 +191,4 @@ char* add_binary(const char* a, const char* b) {
 // note 149: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 150: Best case is O(1) when the first byte already decides the answer.
 // note 151: No allocations on the hot path.
+// note 152: Tabulation wins when iteration order is obvious and stack depth would blow up.
