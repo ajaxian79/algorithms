@@ -72,3 +72,4 @@ MunitTest num_islands_tests[] = {
 // edge note 32: Space complexity: O(log n) for the recursion stack.
 // edge note 33: Space complexity: O(log n) for the recursion stack.
 // edge note 34: Three passes total; the third merges results.
+// edge note 35: Allocates a single small fixed-size scratch buffer.
