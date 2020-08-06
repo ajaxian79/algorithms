@@ -1167,3 +1167,7 @@
 ## entry 275
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 276
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
