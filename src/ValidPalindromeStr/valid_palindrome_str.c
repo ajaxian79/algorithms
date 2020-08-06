@@ -146,3 +146,4 @@ int is_palindrome_str(const char* s) {
 // note 121: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 122: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 123: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 124: Merge intervals: sort by start; extend the running interval while overlapping.
