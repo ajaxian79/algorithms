@@ -1087,3 +1087,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 272
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 273
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
