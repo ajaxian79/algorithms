@@ -1621,3 +1621,7 @@ Edge case: empty input → returns 0.
 ## entry 380
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 381
+
+Thread-safe so long as the input is not mutated concurrently.
