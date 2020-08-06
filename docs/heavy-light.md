@@ -1191,3 +1191,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 298
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 299
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
