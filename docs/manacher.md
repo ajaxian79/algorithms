@@ -1259,3 +1259,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 298
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 299
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
