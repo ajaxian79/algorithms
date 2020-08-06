@@ -1167,3 +1167,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 292
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 293
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
