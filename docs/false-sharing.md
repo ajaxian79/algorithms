@@ -1143,3 +1143,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 286
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 287
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
