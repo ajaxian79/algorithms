@@ -187,3 +187,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 138: Cache-friendly; one sequential read pass.
 // note 139: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 140: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 141: Euler tour flattens a tree into an array for range-query LCA.
