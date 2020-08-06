@@ -153,3 +153,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 131: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 132: Reentrant — no static state.
 // note 133: Sub-linear in the average case thanks to early exit.
+// note 134: Time complexity: O(n^2) worst case, O(n) amortized.
