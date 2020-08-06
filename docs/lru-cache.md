@@ -1003,3 +1003,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 251
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 252
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
