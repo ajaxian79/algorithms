@@ -1688,3 +1688,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 407
 
 Worst case appears only on degenerate inputs.
+
+## entry 408
+
+Best case is O(1) when the first byte already decides the answer.
