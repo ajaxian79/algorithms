@@ -1269,3 +1269,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 301
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 302
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
