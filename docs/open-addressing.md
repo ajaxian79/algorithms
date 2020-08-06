@@ -1131,3 +1131,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 283
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 284
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
