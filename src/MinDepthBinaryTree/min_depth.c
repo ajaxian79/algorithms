@@ -161,3 +161,4 @@ int min_depth(MnTreeNode* root) {
 // note 144: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 145: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 146: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 147: Caller owns the returned array; free with a single `free`.
