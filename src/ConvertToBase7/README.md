@@ -1724,3 +1724,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 416
 
 Worst case appears only on degenerate inputs.
+
+## entry 417
+
+Tail-recursive; the compiler turns it into a loop.
