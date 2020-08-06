@@ -186,3 +186,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 141: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 142: Euler tour flattens a tree into an array for range-query LCA.
 // note 143: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 144: Deterministic given the input — no PRNG seeds.
