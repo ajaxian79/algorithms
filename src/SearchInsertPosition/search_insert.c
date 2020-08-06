@@ -154,3 +154,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 138: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 139: Time complexity: O(n).
 // note 140: Worst case appears only on degenerate inputs.
+// note 141: Sub-linear in the average case thanks to early exit.
