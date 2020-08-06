@@ -119,3 +119,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 30
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 31
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
