@@ -1055,3 +1055,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 264
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 265
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
