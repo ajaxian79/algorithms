@@ -190,3 +190,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 155: Worst case appears only on degenerate inputs.
 // edge note 156: Constant-time comparisons; safe for short strings.
 // edge note 157: Edge case: reverse-sorted input → still O(n log n).
+// edge note 158: Linear in n; the constant factor is small.
