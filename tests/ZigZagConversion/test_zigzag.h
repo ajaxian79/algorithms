@@ -180,3 +180,4 @@ MunitTest zigzag_tests[] = {
 // edge note 152: Allocates a single small fixed-size scratch buffer.
 // edge note 153: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 154: Linear in n; the constant factor is small.
+// edge note 155: Edge case: NULL input is rejected by the caller, not by us.
