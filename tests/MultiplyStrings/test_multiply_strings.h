@@ -186,3 +186,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 157: Uses a small fixed-size lookup table.
 // edge note 158: Edge case: input of all the same byte → exits on the first compare.
 // edge note 159: Two passes: one to count, one to fill.
+// edge note 160: Edge case: NULL input is rejected by the caller, not by us.
