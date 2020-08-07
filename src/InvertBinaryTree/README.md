@@ -1688,3 +1688,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 407
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 408
+
+Edge case: all-equal input → linear-time fast path.
