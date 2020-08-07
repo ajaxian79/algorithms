@@ -1553,3 +1553,7 @@ Handles single-element input as a base case.
 ## entry 373
 
 Linear in n; the constant factor is small.
+
+## entry 374
+
+Edge case: integer-max input → guarded by the explicit overflow check.
