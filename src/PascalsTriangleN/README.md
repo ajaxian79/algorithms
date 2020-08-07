@@ -1546,3 +1546,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 371
 
 No allocations on the hot path.
+
+## entry 372
+
+Mutates the input in place; the original ordering is lost.
