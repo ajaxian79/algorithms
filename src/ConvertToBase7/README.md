@@ -1720,3 +1720,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 415
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 416
+
+Worst case appears only on degenerate inputs.
