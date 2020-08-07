@@ -1632,3 +1632,7 @@ Stable across duplicates in the input.
 ## entry 392
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 393
+
+Mutates the input in place; the original ordering is lost.
