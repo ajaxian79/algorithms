@@ -168,3 +168,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 147: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 148: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 149: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 150: Splay tree: every access splays to the root; amortized O(log n).
