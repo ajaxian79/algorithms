@@ -69,3 +69,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 26: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 27: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 28: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 29: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
