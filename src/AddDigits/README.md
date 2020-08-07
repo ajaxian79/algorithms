@@ -1612,3 +1612,7 @@ Space complexity: O(1) auxiliary.
 ## entry 388
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 389
+
+Treats the input as immutable.
