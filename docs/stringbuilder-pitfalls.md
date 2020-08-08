@@ -247,3 +247,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 62
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 63
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
