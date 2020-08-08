@@ -241,3 +241,7 @@
 ## entry 43
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 44
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
