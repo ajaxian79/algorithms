@@ -60,6 +60,7 @@
 #include "ValidSudoku/test_valid_sudoku.h"
 #include "MatrixDiagonalSum/test_diagonal_sum.h"
 #include "SpiralMatrix/test_spiral_matrix.h"
+#include "RotateImage/test_rotate_image.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -437,6 +438,12 @@ MunitSuite suites[] = {
         },{
                 "/spiral_matrix",
                 spiral_matrix_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/rotate_image",
+                rotate_image_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

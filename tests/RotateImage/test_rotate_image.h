@@ -1,0 +1,33 @@
+//
+// Created by ajaxian on 08/08/20.
+//
+
+#ifndef ALGORITHMS_TEST_ROTATE_IMAGE_H
+#define ALGORITHMS_TEST_ROTATE_IMAGE_H
+
+#include "../tests.h"
+#include "../../src/RotateImage/rotate_image.h"
+
+static MunitResult test_rotate_image_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    int a[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    rotate_image(a, 3);
+    int e[] = {7, 4, 1, 8, 5, 2, 9, 6, 3};
+    for (int i = 0; i < 9; i++) munit_assert_int(a[i], ==, e[i]);
+
+    int b[] = {1, 2, 3, 4};
+    rotate_image(b, 2);
+    int e2[] = {3, 1, 4, 2};
+    for (int i = 0; i < 4; i++) munit_assert_int(b[i], ==, e2[i]);
+
+    int c[] = {7};
+    rotate_image(c, 1);
+    munit_assert_int(c[0], ==, 7);
+    return MUNIT_OK;
+}
+
+MunitTest rotate_image_tests[] = {
+    {"/basic", test_rotate_image_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_ROTATE_IMAGE_H
