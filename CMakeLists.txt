@@ -66,6 +66,7 @@ add_executable(generate_parens src/GenerateParens/main.c src/GenerateParens/gene
 add_executable(valid_sudoku src/ValidSudoku/main.c src/ValidSudoku/valid_sudoku.c)
 add_executable(diagonal_sum src/MatrixDiagonalSum/main.c src/MatrixDiagonalSum/diagonal_sum.c)
 add_executable(spiral_matrix src/SpiralMatrix/main.c src/SpiralMatrix/spiral_matrix.c)
+add_executable(rotate_image src/RotateImage/main.c src/RotateImage/rotate_image.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -192,4 +193,5 @@ target_link_libraries(generate_parens PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-stat
 target_link_libraries(valid_sudoku PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(diagonal_sum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(spiral_matrix PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(rotate_image PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)

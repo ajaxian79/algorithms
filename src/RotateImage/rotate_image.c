@@ -1,0 +1,31 @@
+//
+// Created by ajaxian on 08/08/20.
+//
+
+#include "rotate_image.h"
+
+void rotate_image(int* mat, int n) {
+    if (n <= 1) return;
+
+    // 1. Transpose across the main diagonal.
+    for (int i = 0; i < n; i++) {
+        for (int j = i + 1; j < n; j++) {
+            int tmp = mat[i * n + j];
+            mat[i * n + j] = mat[j * n + i];
+            mat[j * n + i] = tmp;
+        }
+    }
+
+    // 2. Reverse each row.
+    for (int r = 0; r < n; r++) {
+        int left = 0;
+        int right = n - 1;
+        while (left < right) {
+            int tmp = mat[r * n + left];
+            mat[r * n + left] = mat[r * n + right];
+            mat[r * n + right] = tmp;
+            left++;
+            right--;
+        }
+    }
+}
