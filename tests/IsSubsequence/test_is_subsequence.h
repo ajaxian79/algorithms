@@ -41,3 +41,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 15: 32-bit safe; overflow is checked at each step.
 // edge note 16: Edge case: input of all the same byte → exits on the first compare.
 // edge note 17: Time complexity: O(n + m).
+// edge note 18: Space complexity: O(1) auxiliary.
