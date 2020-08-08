@@ -18,3 +18,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Valid Sudoku](src/ValidSudoku) — row/column/box duplicate sweep
 * [Matrix Diagonal Sum](src/MatrixDiagonalSum) — both diagonals with center-cell fix
 * [Spiral Matrix](src/SpiralMatrix) — clockwise traversal with shrinking edges
+* [Rotate Image](src/RotateImage) — transpose then reverse rows
