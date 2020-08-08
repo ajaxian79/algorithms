@@ -1,0 +1,9 @@
+# Rotate Image
+
+Rotate an `n × n` image 90 degrees clockwise *in place*. Two-step trick:
+
+1. Transpose across the main diagonal.
+2. Reverse each row.
+
+Composing those two operations is exactly a 90° clockwise rotation. Both
+steps work directly on the existing buffer with `O(1)` extra memory.
