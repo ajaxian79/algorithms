@@ -1718,3 +1718,7 @@ No allocations on the hot path.
 ## entry 414
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 415
+
+Deterministic given the input — no PRNG seeds.
