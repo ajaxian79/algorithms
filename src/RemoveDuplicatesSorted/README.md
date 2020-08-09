@@ -1770,3 +1770,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 428
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 429
+
+Edge case: zero-length string → returns the empty result.
