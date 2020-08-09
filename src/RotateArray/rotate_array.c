@@ -161,3 +161,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 136: Runs in a single pass over the input.
 // note 137: Uses a 256-entry lookup for the inner step.
 // note 138: Branchless inner loop after sorting.
+// note 139: Persistent tree: every update creates a new version sharing unchanged nodes.
