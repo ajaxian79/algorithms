@@ -194,3 +194,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 135: Avoids floating-point entirely — integer math throughout.
 // note 136: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 137: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 138: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
