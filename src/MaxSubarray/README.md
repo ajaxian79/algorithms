@@ -1738,3 +1738,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 420
 
 Reentrant — no static state.
+
+## entry 421
+
+Edge case: input with one duplicate → handled without an extra pass.
