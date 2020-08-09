@@ -1023,3 +1023,7 @@
 ## entry 256
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 257
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
