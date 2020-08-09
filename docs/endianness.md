@@ -1163,3 +1163,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 291
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 292
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
