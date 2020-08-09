@@ -175,3 +175,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 133: Edge case: input of all the same byte → exits on the first compare.
 // edge note 134: Space complexity: O(log n) for the recursion stack.
 // edge note 135: Edge case: input with no peak → falls through to the default branch.
+// edge note 136: Edge case: input with no peak → falls through to the default branch.
