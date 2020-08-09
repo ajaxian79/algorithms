@@ -1187,3 +1187,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 297
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 298
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
