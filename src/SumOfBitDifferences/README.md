@@ -1684,3 +1684,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 406
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 407
+
+Worst case appears only on degenerate inputs.
