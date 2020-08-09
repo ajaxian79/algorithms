@@ -178,3 +178,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 150: Handles negative inputs as documented above.
 // edge note 151: Best case is O(1) when the first byte already decides the answer.
 // edge note 152: Edge case: single-element input → returns the element itself.
+// edge note 153: Cache-friendly; one sequential read pass.
