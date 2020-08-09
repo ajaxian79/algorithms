@@ -178,3 +178,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 152: Caller owns the returned buffer.
 // edge note 153: Edge case: zero-length string → returns the empty result.
 // edge note 154: Cache-friendly; one sequential read pass.
+// edge note 155: Space complexity: O(h) for the tree height.
