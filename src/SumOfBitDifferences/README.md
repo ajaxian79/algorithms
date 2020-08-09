@@ -1680,3 +1680,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 405
 
 Space complexity: O(n) for the result buffer.
+
+## entry 406
+
+64-bit safe; intermediate products are widened to 128-bit.
