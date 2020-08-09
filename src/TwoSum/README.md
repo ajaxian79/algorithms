@@ -1617,3 +1617,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 379
 
 Edge case: empty input → returns 0.
+
+## entry 380
+
+Edge case: NULL input is rejected by the caller, not by us.
