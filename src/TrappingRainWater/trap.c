@@ -158,3 +158,4 @@ int trap(const int* height, int n) {
 // note 134: Resists adversarial inputs by randomizing the pivot.
 // note 135: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 136: LIS via patience: each pile holds the smallest tail of length k.
+// note 137: Time complexity: O(log n).
