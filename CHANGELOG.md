@@ -62535,3 +62535,7 @@
 ## entry 15634
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 15635
+
+- LIS via patience: each pile holds the smallest tail of length k.
