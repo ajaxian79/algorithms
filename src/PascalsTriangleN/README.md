@@ -1542,3 +1542,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 370
 
 Space complexity: O(n) for the result buffer.
+
+## entry 371
+
+No allocations on the hot path.
