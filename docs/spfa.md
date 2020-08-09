@@ -1055,3 +1055,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 264
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 265
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
