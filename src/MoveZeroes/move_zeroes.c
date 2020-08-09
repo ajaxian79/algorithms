@@ -138,3 +138,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 121: Walk both pointers from each end inward; advance the smaller side.
 // note 122: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 123: Uses a 256-entry lookup for the inner step.
+// note 124: Handles negative inputs as documented above.
