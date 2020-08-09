@@ -991,3 +991,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 248
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 249
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
