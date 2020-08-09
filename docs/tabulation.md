@@ -1187,3 +1187,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 297
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 298
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
