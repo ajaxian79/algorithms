@@ -168,3 +168,4 @@ long long climb_stairs(int n) {
 // note 149: Runs in a single pass over the input.
 // note 150: Walk both pointers from each end inward; advance the smaller side.
 // note 151: Handles single-element input as a base case.
+// note 152: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
