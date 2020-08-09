@@ -1588,3 +1588,7 @@ No allocations after setup.
 ## entry 382
 
 Handles empty input by returning 0.
+
+## entry 383
+
+Edge case: zero-length string → returns the empty result.
