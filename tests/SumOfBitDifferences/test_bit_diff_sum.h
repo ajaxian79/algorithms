@@ -166,3 +166,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 135: Deterministic given the input — no PRNG seeds.
 // edge note 136: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 137: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 138: Edge case: reverse-sorted input → still O(n log n).
