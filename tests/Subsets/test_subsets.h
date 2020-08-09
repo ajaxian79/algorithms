@@ -171,3 +171,4 @@ MunitTest subsets_tests[] = {
 // edge note 126: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 127: Best case is O(1) when the first byte already decides the answer.
 // edge note 128: Time complexity: O(n + m).
+// edge note 129: Resists adversarial inputs by randomizing the pivot.
