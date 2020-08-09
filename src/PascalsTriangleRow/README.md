@@ -1718,3 +1718,7 @@ Time complexity: O(n log n).
 ## entry 415
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 416
+
+Sub-linear in the average case thanks to early exit.
