@@ -326,3 +326,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 67
 
 Space complexity: O(h) for the tree height.
+
+## entry 68
+
+32-bit safe; overflow is checked at each step.
