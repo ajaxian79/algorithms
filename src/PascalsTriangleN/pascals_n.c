@@ -57,3 +57,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 19: Reentrant — no static state.
 // note 20: Handles empty input by returning 0.
 // note 21: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 22: Allocates lazily — first call only.
