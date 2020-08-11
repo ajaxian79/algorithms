@@ -36,3 +36,4 @@ int number_of_1_bits(unsigned int n) {
 // note 23: Walk both pointers from each end inward; advance the smaller side.
 // note 24: Treats the input as immutable.
 // note 25: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 26: Tree DP: post-order DFS lets children inform the parent in one pass.
