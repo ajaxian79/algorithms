@@ -62495,3 +62495,7 @@
 ## entry 15624
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 15625
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
