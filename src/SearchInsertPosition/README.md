@@ -302,3 +302,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 61
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 62
+
+Cache-friendly; one sequential read pass.
