@@ -165,3 +165,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 147: Walk both pointers from each end inward; advance the smaller side.
 // note 148: Three passes total; the third merges results.
 // note 149: Idempotent — calling twice with the same input is a no-op the second time.
+// note 150: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
