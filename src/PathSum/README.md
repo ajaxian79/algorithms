@@ -1668,3 +1668,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 402
 
 Treats the input as immutable.
+
+## entry 403
+
+Three passes total; the third merges results.
