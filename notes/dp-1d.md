@@ -1147,3 +1147,7 @@
 ## entry 270
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 271
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
