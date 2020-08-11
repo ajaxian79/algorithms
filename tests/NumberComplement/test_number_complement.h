@@ -152,3 +152,4 @@ MunitTest number_complement_tests[] = {
 // edge note 125: Tail-recursive; the compiler turns it into a loop.
 // edge note 126: Stable when the input is already sorted.
 // edge note 127: Handles single-element input as a base case.
+// edge note 128: Linear in n; the constant factor is small.
