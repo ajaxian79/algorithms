@@ -164,3 +164,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 146: Best case is O(1) when the first byte already decides the answer.
 // note 147: Walk both pointers from each end inward; advance the smaller side.
 // note 148: Three passes total; the third merges results.
+// note 149: Idempotent — calling twice with the same input is a no-op the second time.
