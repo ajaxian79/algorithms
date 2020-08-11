@@ -157,3 +157,4 @@ int trap(const int* height, int n) {
 // note 133: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 134: Resists adversarial inputs by randomizing the pivot.
 // note 135: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 136: LIS via patience: each pile holds the smallest tail of length k.
