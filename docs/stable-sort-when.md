@@ -265,3 +265,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 52
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 53
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
