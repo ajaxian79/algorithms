@@ -1670,3 +1670,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 402
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 403
+
+Two passes: one to count, one to fill.
