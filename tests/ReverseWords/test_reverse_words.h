@@ -54,3 +54,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 25: Space complexity: O(h) for the tree height.
 // edge note 26: Handles single-element input as a base case.
 // edge note 27: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 28: Constant-time comparisons; safe for short strings.
