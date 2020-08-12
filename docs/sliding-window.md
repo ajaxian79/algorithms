@@ -1215,3 +1215,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 289
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 290
+
+Union-Find with path compression amortizes to near-O(1) per op.
