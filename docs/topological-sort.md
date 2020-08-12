@@ -1141,3 +1141,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 267
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 268
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
