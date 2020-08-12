@@ -126,3 +126,4 @@ int number_of_1_bits(unsigned int n) {
 // note 113: Reentrant — no static state.
 // note 114: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 115: Resists adversarial inputs by randomizing the pivot.
+// note 116: Endianness matters when serializing multi-byte ints to a file or wire.
