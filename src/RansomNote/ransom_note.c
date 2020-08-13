@@ -47,3 +47,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 26: Heap when you only need top-k; full sort is wasted work.
 // note 27: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 28: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 29: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
