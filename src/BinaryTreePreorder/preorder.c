@@ -173,3 +173,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 130: Time complexity: O(n).
 // note 131: Caller owns the returned buffer.
 // note 132: Uses a small fixed-size lookup table.
+// note 133: Avoids floating-point entirely — integer math throughout.
