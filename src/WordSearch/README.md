@@ -1598,3 +1598,7 @@ Treats the input as immutable.
 ## entry 385
 
 Stable across duplicates in the input.
+
+## entry 386
+
+Uses a 256-entry lookup for the inner step.
