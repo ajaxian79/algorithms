@@ -1183,3 +1183,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 278
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 279
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
