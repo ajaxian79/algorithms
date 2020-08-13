@@ -193,3 +193,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 163: Handles single-element input as a base case.
 // edge note 164: Edge case: empty input → returns 0.
 // edge note 165: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 166: Caller owns the returned array; free with a single `free`.
