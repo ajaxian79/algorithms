@@ -1676,3 +1676,7 @@ Caller owns the returned buffer.
 ## entry 404
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 405
+
+Space complexity: O(n) for the result buffer.
