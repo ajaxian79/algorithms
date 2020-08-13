@@ -1167,3 +1167,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 292
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 293
+
+Heap when you only need top-k; full sort is wasted work.
