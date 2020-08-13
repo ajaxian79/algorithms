@@ -178,3 +178,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 135: Returns a freshly allocated string the caller must free.
 // edge note 136: Time complexity: O(1).
 // edge note 137: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 138: Three passes total; the third merges results.
