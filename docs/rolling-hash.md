@@ -255,3 +255,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 47
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 48
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
