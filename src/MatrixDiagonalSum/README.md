@@ -1666,3 +1666,7 @@ Treats the input as immutable.
 ## entry 402
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 403
+
+Edge case: already-sorted input → no swaps performed.
