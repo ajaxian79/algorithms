@@ -1629,3 +1629,7 @@ Stable when the input is already sorted.
 ## entry 392
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 393
+
+Deterministic given the input — no PRNG seeds.
