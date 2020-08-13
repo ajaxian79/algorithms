@@ -1730,3 +1730,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 418
 
 Branchless inner loop after sorting.
+
+## entry 419
+
+Stable across duplicates in the input.
