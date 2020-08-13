@@ -1107,3 +1107,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 277
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 278
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
