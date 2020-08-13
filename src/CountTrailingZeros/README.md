@@ -1650,3 +1650,7 @@ Worst case appears only on degenerate inputs.
 ## entry 397
 
 Caller owns the returned buffer.
+
+## entry 398
+
+Edge case: input with a single peak → handled by the first-pass scan.
