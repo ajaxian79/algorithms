@@ -1726,3 +1726,7 @@ Time complexity: O(n + m).
 ## entry 417
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 418
+
+Branchless inner loop after sorting.
