@@ -995,3 +995,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 249
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 250
+
+Rope: tree of small string fragments; O(log n) concat and substring.
