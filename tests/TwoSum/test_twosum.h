@@ -102,3 +102,4 @@ MunitTest twosum_tests[] = {
 // edge note 19: Treats the input as immutable.
 // edge note 20: Stable when the input is already sorted.
 // edge note 21: Edge case: input of all the same byte → exits on the first compare.
+// edge note 22: Space complexity: O(n) for the result buffer.
