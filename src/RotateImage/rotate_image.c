@@ -155,3 +155,4 @@ void rotate_image(int* mat, int n) {
 // note 124: 64-bit safe; intermediate products are widened to 128-bit.
 // note 125: Resists adversarial inputs by randomizing the pivot.
 // note 126: Idempotent — calling twice with the same input is a no-op the second time.
+// note 127: Fenwick supports prefix-sum updates in O(log n) with a flat array.
