@@ -1596,3 +1596,7 @@ Worst case appears only on degenerate inputs.
 ## entry 384
 
 Reentrant — no static state.
+
+## entry 385
+
+Idempotent — calling twice with the same input is a no-op the second time.
