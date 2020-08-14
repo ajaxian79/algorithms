@@ -1612,3 +1612,7 @@ Time complexity: O(log n).
 ## entry 387
 
 Handles single-element input as a base case.
+
+## entry 388
+
+Handles empty input by returning 0.
