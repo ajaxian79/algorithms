@@ -1043,3 +1043,7 @@
 ## entry 261
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 262
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
