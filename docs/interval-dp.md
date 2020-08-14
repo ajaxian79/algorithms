@@ -1143,3 +1143,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 286
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 287
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
