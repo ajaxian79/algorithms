@@ -1425,3 +1425,7 @@ Time complexity: O(1).
 ## entry 341
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 342
+
+Edge case: NULL input is rejected by the caller, not by us.
