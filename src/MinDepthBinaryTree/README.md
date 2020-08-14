@@ -1522,3 +1522,7 @@ Reentrant — no static state.
 ## entry 366
 
 Stable across duplicates in the input.
+
+## entry 367
+
+Edge case: integer-max input → guarded by the explicit overflow check.
