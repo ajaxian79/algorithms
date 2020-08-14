@@ -184,3 +184,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 155: Caller owns the returned array; free with a single `free`.
 // edge note 156: Branchless inner loop after sorting.
 // edge note 157: Three passes total; the third merges results.
+// edge note 158: Handles negative inputs as documented above.
