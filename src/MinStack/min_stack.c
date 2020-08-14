@@ -191,3 +191,4 @@ int min_stack_size(const MinStack* s) {
 // note 130: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 131: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 132: Returns a freshly allocated string the caller must free.
+// note 133: Resists adversarial inputs by randomizing the pivot.
