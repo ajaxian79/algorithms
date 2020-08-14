@@ -1255,3 +1255,7 @@
 ## entry 298
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 299
+
+- Heap when you only need top-k; full sort is wasted work.
