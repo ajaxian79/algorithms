@@ -1616,3 +1616,7 @@ Handles single-element input as a base case.
 ## entry 388
 
 Handles empty input by returning 0.
+
+## entry 389
+
+Edge case: input of all the same byte → exits on the first compare.
