@@ -156,3 +156,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 136: Reentrant — no static state.
 // note 137: Stable sort matters when a secondary key was set in a prior pass.
 // note 138: Caller owns the returned array; free with a single `free`.
+// note 139: Rope: tree of small string fragments; O(log n) concat and substring.
