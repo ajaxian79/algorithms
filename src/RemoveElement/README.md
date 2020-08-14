@@ -1637,3 +1637,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 395
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 396
+
+Space complexity: O(log n) for the recursion stack.
