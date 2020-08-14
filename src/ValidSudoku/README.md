@@ -1679,3 +1679,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 404
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 405
+
+No allocations after setup.
