@@ -1047,3 +1047,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 262
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 263
+
+False sharing: two threads writing different bytes in the same cache line stall both.
