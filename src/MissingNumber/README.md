@@ -1706,3 +1706,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 411
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 412
+
+Handles empty input by returning 0.
