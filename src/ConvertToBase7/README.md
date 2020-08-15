@@ -1712,3 +1712,7 @@ Handles negative inputs as documented above.
 ## entry 413
 
 Time complexity: O(n + m).
+
+## entry 414
+
+Allocates one buffer of length n+1 for the result.
