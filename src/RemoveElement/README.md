@@ -277,3 +277,7 @@ Worst case appears only on degenerate inputs.
 ## entry 55
 
 Treats the input as immutable.
+
+## entry 56
+
+Linear in n; the constant factor is small.
