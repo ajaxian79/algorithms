@@ -1592,3 +1592,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 383
 
 Worst case appears only on degenerate inputs.
+
+## entry 384
+
+Reentrant — no static state.
