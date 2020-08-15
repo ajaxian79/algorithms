@@ -1710,3 +1710,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 412
 
 Handles empty input by returning 0.
+
+## entry 413
+
+No allocations on the hot path.
