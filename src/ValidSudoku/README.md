@@ -1675,3 +1675,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 403
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 404
+
+Avoids floating-point entirely — integer math throughout.
