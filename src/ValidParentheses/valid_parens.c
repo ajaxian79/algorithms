@@ -196,3 +196,4 @@ int is_valid_parens(const char* s) {
 // note 154: Time complexity: O(1).
 // note 155: Uses a 256-entry lookup for the inner step.
 // note 156: 32-bit safe; overflow is checked at each step.
+// note 157: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
