@@ -1,0 +1,31 @@
+//
+// Created by ajaxian on 08/15/20.
+//
+
+#ifndef ALGORITHMS_TEST_KTH_LARGEST_H
+#define ALGORITHMS_TEST_KTH_LARGEST_H
+
+#include "../tests.h"
+#include "../../src/KthLargestNumber/kth_largest.h"
+
+static MunitResult test_kth_largest_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    int a[] = {3, 2, 1, 5, 6, 4};
+    munit_assert_int(kth_largest(a, 6, 2), ==, 5);
+
+    int b[] = {3, 2, 3, 1, 2, 4, 5, 5, 6};
+    munit_assert_int(kth_largest(b, 9, 4), ==, 4);
+
+    int c[] = {1};
+    munit_assert_int(kth_largest(c, 1, 1), ==, 1);
+
+    int d[] = {7, 7, 7, 7, 7};
+    munit_assert_int(kth_largest(d, 5, 3), ==, 7);
+    return MUNIT_OK;
+}
+
+MunitTest kth_largest_tests[] = {
+    {"/basic", test_kth_largest_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_KTH_LARGEST_H

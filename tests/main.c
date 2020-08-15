@@ -61,6 +61,7 @@
 #include "MatrixDiagonalSum/test_diagonal_sum.h"
 #include "SpiralMatrix/test_spiral_matrix.h"
 #include "RotateImage/test_rotate_image.h"
+#include "KthLargestNumber/test_kth_largest.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -444,6 +445,12 @@ MunitSuite suites[] = {
         },{
                 "/rotate_image",
                 rotate_image_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/kth_largest",
+                kth_largest_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

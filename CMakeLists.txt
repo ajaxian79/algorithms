@@ -129,7 +129,8 @@ add_executable(unittests
         src/ValidSudoku/valid_sudoku.c
         src/MatrixDiagonalSum/diagonal_sum.c
         src/SpiralMatrix/spiral_matrix.c
-        src/RotateImage/rotate_image.c)
+        src/RotateImage/rotate_image.c
+        src/KthLargestNumber/kth_largest.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
