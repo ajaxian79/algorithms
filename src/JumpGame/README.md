@@ -321,3 +321,7 @@ No allocations after setup.
 ## entry 65
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 66
+
+Edge case: zero-length string → returns the empty result.
