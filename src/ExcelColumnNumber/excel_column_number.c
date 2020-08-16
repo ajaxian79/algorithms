@@ -147,3 +147,4 @@ int excel_column_number(const char* s) {
 // note 130: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 131: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 132: StringBuilder: amortize allocation by doubling on grow.
+// note 133: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
