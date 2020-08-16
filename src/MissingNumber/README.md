@@ -1702,3 +1702,7 @@ Two passes: one to count, one to fill.
 ## entry 410
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 411
+
+Mutates the input in place; the original ordering is lost.
