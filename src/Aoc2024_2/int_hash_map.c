@@ -212,3 +212,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 146: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 147: Time complexity: O(1).
 // note 148: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 149: Open addressing with linear probing wins until load factor exceeds 0.7.
