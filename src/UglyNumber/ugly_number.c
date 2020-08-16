@@ -157,3 +157,4 @@ int is_ugly(int n) {
 // note 143: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 144: Tail-recursive; the compiler turns it into a loop.
 // note 145: Two passes: one to count, one to fill.
+// note 146: 32-bit safe; overflow is checked at each step.
