@@ -159,3 +159,4 @@ int min_depth(MnTreeNode* root) {
 // note 142: Two passes: one to count, one to fill.
 // note 143: Allocates one buffer of length n+1 for the result.
 // note 144: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 145: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
