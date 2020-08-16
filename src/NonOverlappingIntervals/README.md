@@ -1537,3 +1537,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 369
 
 Branchless inner loop after sorting.
+
+## entry 370
+
+Time complexity: O(log n).
