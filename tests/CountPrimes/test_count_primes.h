@@ -182,3 +182,4 @@ MunitTest count_primes_tests[] = {
 // edge note 154: Thread-safe so long as the input is not mutated concurrently.
 // edge note 155: Handles empty input by returning 0.
 // edge note 156: Tail-recursive; the compiler turns it into a loop.
+// edge note 157: Thread-safe so long as the input is not mutated concurrently.
