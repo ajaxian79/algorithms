@@ -1584,3 +1584,7 @@ No allocations after setup.
 ## entry 381
 
 32-bit safe; overflow is checked at each step.
+
+## entry 382
+
+Handles empty input by returning 0.
