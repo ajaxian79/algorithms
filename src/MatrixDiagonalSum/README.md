@@ -1662,3 +1662,7 @@ Cache-friendly; one sequential read pass.
 ## entry 401
 
 Treats the input as immutable.
+
+## entry 402
+
+Edge case: input with one duplicate → handled without an extra pass.
