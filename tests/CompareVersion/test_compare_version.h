@@ -184,3 +184,4 @@ MunitTest compare_version_tests[] = {
 // edge note 157: Sub-linear in the average case thanks to early exit.
 // edge note 158: Tail-recursive; the compiler turns it into a loop.
 // edge note 159: Time complexity: O(n + m).
+// edge note 160: Handles negative inputs as documented above.
