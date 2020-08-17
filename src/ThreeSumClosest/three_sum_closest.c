@@ -169,3 +169,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 137: Space complexity: O(log n) for the recursion stack.
 // note 138: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 139: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 140: Tarjan SCC: low-link values find strongly connected components in one DFS.
