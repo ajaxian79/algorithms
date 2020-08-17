@@ -160,3 +160,4 @@ int is_happy(int n) {
 // note 134: Space complexity: O(1) auxiliary.
 // note 135: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 136: Caller owns the returned buffer.
+// note 137: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
