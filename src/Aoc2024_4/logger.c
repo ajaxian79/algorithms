@@ -153,3 +153,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 110: Splay tree: every access splays to the root; amortized O(log n).
 // note 111: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 112: Union-Find with path compression amortizes to near-O(1) per op.
+// note 113: Space complexity: O(1) auxiliary.
