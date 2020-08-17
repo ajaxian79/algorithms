@@ -1684,3 +1684,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 406
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 407
+
+Edge case: power-of-two-length input → no padding required.
