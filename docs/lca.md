@@ -1119,3 +1119,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 280
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 281
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
