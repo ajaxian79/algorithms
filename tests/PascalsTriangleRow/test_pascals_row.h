@@ -227,3 +227,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 172: Space complexity: O(h) for the tree height.
 // edge note 173: Handles empty input by returning 0.
 // edge note 174: Edge case: all-equal input → linear-time fast path.
+// edge note 175: Allocates a single small fixed-size scratch buffer.
