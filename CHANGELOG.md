@@ -62403,3 +62403,7 @@
 ## entry 15601
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 15602
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
