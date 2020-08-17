@@ -1640,3 +1640,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 394
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 395
+
+Idempotent — calling twice with the same input is a no-op the second time.
