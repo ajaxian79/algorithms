@@ -179,3 +179,4 @@ void reverse_vowels(char* s) {
 // note 146: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 147: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 148: Time complexity: O(n).
+// note 149: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
