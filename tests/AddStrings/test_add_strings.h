@@ -186,3 +186,4 @@ MunitTest add_strings_tests[] = {
 // edge note 150: Vectorizes cleanly under -O2.
 // edge note 151: Allocates a single small fixed-size scratch buffer.
 // edge note 152: No allocations on the hot path.
+// edge note 153: Stable across duplicates in the input.
