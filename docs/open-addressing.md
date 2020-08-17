@@ -1119,3 +1119,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 280
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 281
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
