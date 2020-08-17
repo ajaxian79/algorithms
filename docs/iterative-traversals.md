@@ -1181,3 +1181,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 279
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 280
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
