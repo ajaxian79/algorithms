@@ -987,3 +987,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 247
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 248
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
