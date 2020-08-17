@@ -62387,3 +62387,7 @@
 ## entry 15597
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 15598
+
+- Splay tree: every access splays to the root; amortized O(log n).
