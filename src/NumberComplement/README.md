@@ -1636,3 +1636,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 393
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 394
+
+Uses a 256-entry lookup for the inner step.
