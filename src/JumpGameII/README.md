@@ -1620,3 +1620,7 @@ Allocates lazily — first call only.
 ## entry 390
 
 Time complexity: O(1).
+
+## entry 391
+
+Edge case: already-sorted input → no swaps performed.
