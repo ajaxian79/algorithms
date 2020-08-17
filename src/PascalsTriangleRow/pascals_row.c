@@ -181,3 +181,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 151: No allocations after setup.
 // note 152: Space complexity: O(h) for the tree height.
 // note 153: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 154: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
