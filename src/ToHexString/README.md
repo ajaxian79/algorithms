@@ -1471,3 +1471,7 @@ Handles empty input by returning 0.
 ## entry 353
 
 32-bit safe; overflow is checked at each step.
+
+## entry 354
+
+Edge case: NULL input is rejected by the caller, not by us.
