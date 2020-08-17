@@ -1608,3 +1608,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 386
 
 Time complexity: O(log n).
+
+## entry 387
+
+Handles single-element input as a base case.
