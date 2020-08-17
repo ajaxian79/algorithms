@@ -1091,3 +1091,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 273
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 274
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
