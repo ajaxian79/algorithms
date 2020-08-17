@@ -1083,3 +1083,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 255
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 256
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
