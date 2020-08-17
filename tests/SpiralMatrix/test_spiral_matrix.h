@@ -176,3 +176,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 133: Time complexity: O(n).
 // edge note 134: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 135: Returns a freshly allocated string the caller must free.
+// edge note 136: Time complexity: O(1).
