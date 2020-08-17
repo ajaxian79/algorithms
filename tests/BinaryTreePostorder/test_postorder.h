@@ -70,3 +70,4 @@ MunitTest postorder_tests[] = {
 // edge note 26: Caller owns the returned buffer.
 // edge note 27: Allocates lazily — first call only.
 // edge note 28: Stable across duplicates in the input.
+// edge note 29: Vectorizes cleanly under -O2.
