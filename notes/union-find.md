@@ -1215,3 +1215,7 @@
 ## entry 288
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 289
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
