@@ -227,3 +227,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 167: No allocations on the hot path.
 // edge note 168: Vectorizes cleanly under -O2.
 // edge note 169: Uses a 256-entry lookup for the inner step.
+// edge note 170: 32-bit safe; overflow is checked at each step.
