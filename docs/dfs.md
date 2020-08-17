@@ -1219,3 +1219,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 289
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 290
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
