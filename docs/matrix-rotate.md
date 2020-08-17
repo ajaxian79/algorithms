@@ -1141,3 +1141,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 269
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 270
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
