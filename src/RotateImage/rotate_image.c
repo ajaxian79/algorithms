@@ -154,3 +154,4 @@ void rotate_image(int* mat, int n) {
 // note 123: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 124: 64-bit safe; intermediate products are widened to 128-bit.
 // note 125: Resists adversarial inputs by randomizing the pivot.
+// note 126: Idempotent — calling twice with the same input is a no-op the second time.
