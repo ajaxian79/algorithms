@@ -175,3 +175,4 @@ int roman_to_int(const char* s) {
 // note 135: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 136: Caller owns the returned buffer.
 // note 137: Idempotent — calling twice with the same input is a no-op the second time.
+// note 138: Stable across duplicates in the input.
