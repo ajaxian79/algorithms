@@ -149,3 +149,4 @@ int my_sqrt(int n) {
 // note 128: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 129: Stable sort matters when a secondary key was set in a prior pass.
 // note 130: Time complexity: O(log n).
+// note 131: Tree DP: post-order DFS lets children inform the parent in one pass.
