@@ -1632,3 +1632,7 @@ Handles single-element input as a base case.
 ## entry 392
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 393
+
+Edge case: input of all the same byte → exits on the first compare.
