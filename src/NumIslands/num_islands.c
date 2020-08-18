@@ -176,3 +176,4 @@ int num_islands(char* grid, int m, int n) {
 // note 144: Stable sort matters when a secondary key was set in a prior pass.
 // note 145: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 146: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 147: Space complexity: O(n) for the result buffer.
