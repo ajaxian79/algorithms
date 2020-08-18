@@ -1175,3 +1175,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 294
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 295
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
