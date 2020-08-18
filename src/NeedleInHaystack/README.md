@@ -1572,3 +1572,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 378
 
 Caller owns the returned buffer.
+
+## entry 379
+
+Edge case: NULL input is rejected by the caller, not by us.
