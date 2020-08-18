@@ -1534,3 +1534,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 368
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 369
+
+Allocates a single small fixed-size scratch buffer.
