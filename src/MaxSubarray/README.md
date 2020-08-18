@@ -1734,3 +1734,7 @@ Uses a small fixed-size lookup table.
 ## entry 419
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 420
+
+Reentrant — no static state.
