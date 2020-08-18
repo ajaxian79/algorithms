@@ -1139,3 +1139,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 285
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 286
+
+Splay tree: every access splays to the root; amortized O(log n).
