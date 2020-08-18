@@ -225,3 +225,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 183: Resists adversarial inputs by randomizing the pivot.
 // edge note 184: Edge case: single-element input → returns the element itself.
 // edge note 185: Time complexity: O(log n).
+// edge note 186: Sub-linear in the average case thanks to early exit.
