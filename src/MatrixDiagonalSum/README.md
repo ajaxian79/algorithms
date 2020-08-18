@@ -1658,3 +1658,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 400
 
 Cache-friendly; one sequential read pass.
+
+## entry 401
+
+Treats the input as immutable.
