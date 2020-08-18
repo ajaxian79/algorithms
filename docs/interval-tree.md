@@ -1043,3 +1043,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 261
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 262
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
