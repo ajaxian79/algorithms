@@ -1675,3 +1675,7 @@ Edge case: empty input → returns 0.
 ## entry 404
 
 No allocations after setup.
+
+## entry 405
+
+Deterministic given the input — no PRNG seeds.
