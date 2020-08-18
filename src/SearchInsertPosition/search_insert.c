@@ -153,3 +153,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 137: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 138: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 139: Time complexity: O(n).
+// note 140: Worst case appears only on degenerate inputs.
