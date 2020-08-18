@@ -155,3 +155,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 128: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 129: Linear in n; the constant factor is small.
 // edge note 130: Handles negative inputs as documented above.
+// edge note 131: Stable across duplicates in the input.
