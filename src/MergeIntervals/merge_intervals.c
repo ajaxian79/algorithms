@@ -186,3 +186,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 137: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 138: Cache-friendly; one sequential read pass.
 // note 139: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 140: Heavy-light decomposition: each path crosses O(log n) heavy chains.
