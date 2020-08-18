@@ -249,3 +249,7 @@
 ## entry 46
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 47
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
