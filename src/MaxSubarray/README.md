@@ -1726,3 +1726,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 417
 
 Handles empty input by returning 0.
+
+## entry 418
+
+Uses a small fixed-size lookup table.
