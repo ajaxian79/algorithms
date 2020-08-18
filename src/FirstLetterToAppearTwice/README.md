@@ -326,3 +326,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 57
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 58
+
+Edge case: empty input → returns 0.
