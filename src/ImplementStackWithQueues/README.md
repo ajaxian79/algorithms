@@ -1616,3 +1616,7 @@ Vectorizes cleanly under -O2.
 ## entry 389
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 390
+
+Stable when the input is already sorted.
