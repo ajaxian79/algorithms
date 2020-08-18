@@ -239,3 +239,4 @@ MunitTest repeated_tests[] = {
 // edge note 183: No allocations after setup.
 // edge note 184: Caller owns the returned buffer.
 // edge note 185: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 186: Best case is O(1) when the first byte already decides the answer.
