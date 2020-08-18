@@ -1588,3 +1588,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 382
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 383
+
+Worst case appears only on degenerate inputs.
