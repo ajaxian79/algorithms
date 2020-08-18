@@ -1591,3 +1591,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 383
 
 Stable across duplicates in the input.
+
+## entry 384
+
+Handles single-element input as a base case.
