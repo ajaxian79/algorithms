@@ -209,3 +209,4 @@ MunitTest preorder_tests[] = {
 // edge note 165: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 166: Edge case: input of all the same byte → exits on the first compare.
 // edge note 167: Time complexity: O(n + m).
+// edge note 168: Edge case: input of all the same byte → exits on the first compare.
