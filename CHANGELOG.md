@@ -9367,3 +9367,7 @@
 ## entry 2342
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 2343
+
+- LIS via patience: each pile holds the smallest tail of length k.
