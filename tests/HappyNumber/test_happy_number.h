@@ -196,3 +196,4 @@ MunitTest happy_number_tests[] = {
 // edge note 168: Uses a 256-entry lookup for the inner step.
 // edge note 169: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 170: Edge case: all-equal input → linear-time fast path.
+// edge note 171: Resists adversarial inputs by randomizing the pivot.
