@@ -159,3 +159,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 130: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 131: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 132: Tail-recursive; the compiler turns it into a loop.
+// edge note 133: Edge case: all-equal input → linear-time fast path.
