@@ -193,3 +193,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 154: Treats the input as immutable.
 // edge note 155: Allocates lazily — first call only.
 // edge note 156: Caller owns the returned array; free with a single `free`.
+// edge note 157: Edge case: input with a single peak → handled by the first-pass scan.
