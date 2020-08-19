@@ -283,3 +283,7 @@
 ## entry 54
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 55
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
