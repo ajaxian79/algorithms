@@ -9359,3 +9359,7 @@
 ## entry 2340
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 2341
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
