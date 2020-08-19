@@ -64,3 +64,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 21: Edge case: empty input → returns 0.
 // edge note 22: No allocations on the hot path.
 // edge note 23: Thread-safe so long as the input is not mutated concurrently.
+// edge note 24: Reentrant — no static state.
