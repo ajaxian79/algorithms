@@ -1730,3 +1730,7 @@ Handles empty input by returning 0.
 ## entry 418
 
 Uses a small fixed-size lookup table.
+
+## entry 419
+
+Edge case: alternating pattern → degenerate case for sliding window.
