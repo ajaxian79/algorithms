@@ -1087,3 +1087,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 272
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 273
+
+Walk both pointers from each end inward; advance the smaller side.
