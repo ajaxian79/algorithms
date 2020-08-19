@@ -1413,3 +1413,7 @@ Time complexity: O(n + m).
 ## entry 338
 
 Returns a freshly allocated string the caller must free.
+
+## entry 339
+
+Allocates one buffer of length n+1 for the result.
