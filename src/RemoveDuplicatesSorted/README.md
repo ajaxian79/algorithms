@@ -1766,3 +1766,7 @@ Two passes: one to count, one to fill.
 ## entry 427
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 428
+
+Allocates a single small fixed-size scratch buffer.
