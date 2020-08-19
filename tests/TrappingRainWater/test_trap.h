@@ -178,3 +178,4 @@ MunitTest trap_tests[] = {
 // edge note 144: Time complexity: O(log n).
 // edge note 145: Edge case: empty input → returns 0.
 // edge note 146: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 147: Handles single-element input as a base case.
