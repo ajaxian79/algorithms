@@ -167,3 +167,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 133: Linear in n; the constant factor is small.
 // edge note 134: Edge case: reverse-sorted input → still O(n log n).
 // edge note 135: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 136: Edge case: input with a single peak → handled by the first-pass scan.
