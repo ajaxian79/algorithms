@@ -348,3 +348,7 @@ Branchless inner loop after sorting.
 ## entry 72
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 73
+
+Time complexity: O(1).
