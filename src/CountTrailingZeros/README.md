@@ -1646,3 +1646,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 396
 
 Worst case appears only on degenerate inputs.
+
+## entry 397
+
+Caller owns the returned buffer.
