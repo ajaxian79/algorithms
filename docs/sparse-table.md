@@ -979,3 +979,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 245
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 246
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
