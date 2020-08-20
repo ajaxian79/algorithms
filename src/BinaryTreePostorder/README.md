@@ -1582,3 +1582,7 @@ Runs in a single pass over the input.
 ## entry 381
 
 Space complexity: O(1) auxiliary.
+
+## entry 382
+
+Cache-friendly; one sequential read pass.
