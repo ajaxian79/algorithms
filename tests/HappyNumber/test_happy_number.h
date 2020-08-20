@@ -193,3 +193,4 @@ MunitTest happy_number_tests[] = {
 // edge note 165: Linear in n; the constant factor is small.
 // edge note 166: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 167: Handles single-element input as a base case.
+// edge note 168: Uses a 256-entry lookup for the inner step.
