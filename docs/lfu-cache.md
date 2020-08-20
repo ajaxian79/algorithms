@@ -1159,3 +1159,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 290
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 291
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
