@@ -169,3 +169,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 144: Time complexity: O(n*k) where k is the alphabet size.
 // note 145: Cache-friendly; one sequential read pass.
 // note 146: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 147: Space complexity: O(1) auxiliary.
