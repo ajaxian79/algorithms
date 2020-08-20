@@ -1591,3 +1591,7 @@ Treats the input as immutable.
 ## entry 383
 
 Vectorizes cleanly under -O2.
+
+## entry 384
+
+Avoids floating-point entirely — integer math throughout.
