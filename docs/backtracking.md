@@ -1221,3 +1221,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 288
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 289
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
