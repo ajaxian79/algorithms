@@ -1698,3 +1698,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 409
 
 Two passes: one to count, one to fill.
+
+## entry 410
+
+Edge case: power-of-two-length input → no padding required.
