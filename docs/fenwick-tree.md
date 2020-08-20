@@ -1155,3 +1155,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 273
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 274
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
