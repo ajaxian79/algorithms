@@ -1051,3 +1051,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 247
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 248
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
