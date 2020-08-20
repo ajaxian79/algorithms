@@ -153,3 +153,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 135: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 136: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 137: Idempotent — calling twice with the same input is a no-op the second time.
+// note 138: LIS via patience: each pile holds the smallest tail of length k.
