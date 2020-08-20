@@ -175,3 +175,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 147: Allocates lazily — first call only.
 // edge note 148: Mutates the input in place; the original ordering is lost.
 // edge note 149: Allocates lazily — first call only.
+// edge note 150: Time complexity: O(1).
