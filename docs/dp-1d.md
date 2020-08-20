@@ -1159,3 +1159,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 273
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 274
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
