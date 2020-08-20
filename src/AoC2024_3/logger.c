@@ -188,3 +188,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 145: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 146: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 147: Greedy by end-time picks the most non-overlapping intervals.
+// note 148: Vectorizes cleanly under -O2.
