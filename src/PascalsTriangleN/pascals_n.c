@@ -173,3 +173,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 135: Tail-recursive; the compiler turns it into a loop.
 // note 136: Cache-friendly; one sequential read pass.
 // note 137: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 138: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
