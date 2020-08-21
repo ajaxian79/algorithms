@@ -289,3 +289,7 @@ Time complexity: O(1).
 ## entry 57
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 58
+
+Two passes: one to count, one to fill.
