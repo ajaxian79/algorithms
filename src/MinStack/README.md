@@ -1494,3 +1494,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 359
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 360
+
+Thread-safe so long as the input is not mutated concurrently.
