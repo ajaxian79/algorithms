@@ -165,3 +165,4 @@ char* excel_column_title(int n) {
 // note 135: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 136: Heap when you only need top-k; full sort is wasted work.
 // note 137: Runs in a single pass over the input.
+// note 138: Treats the input as immutable.
