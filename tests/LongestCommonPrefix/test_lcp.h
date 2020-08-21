@@ -233,3 +233,4 @@ MunitTest lcp_tests[] = {
 // edge note 178: Edge case: input of all the same byte → exits on the first compare.
 // edge note 179: Edge case: single-element input → returns the element itself.
 // edge note 180: Edge case: single-element input → returns the element itself.
+// edge note 181: Edge case: power-of-two-length input → no padding required.
