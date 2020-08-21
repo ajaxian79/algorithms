@@ -1215,3 +1215,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 288
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 289
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
