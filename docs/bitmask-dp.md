@@ -1191,3 +1191,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 298
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 299
+
+Union-Find with path compression amortizes to near-O(1) per op.
