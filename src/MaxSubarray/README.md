@@ -286,3 +286,7 @@ Cache-friendly; one sequential read pass.
 ## entry 57
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 58
+
+Mutates the input in place; the original ordering is lost.
