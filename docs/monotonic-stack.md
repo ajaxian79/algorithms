@@ -1101,3 +1101,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 259
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 260
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
