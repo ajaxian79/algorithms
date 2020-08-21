@@ -208,3 +208,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 175: Edge case: input of all the same byte → exits on the first compare.
 // edge note 176: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 177: Caller owns the returned buffer.
+// edge note 178: Space complexity: O(n) for the result buffer.
