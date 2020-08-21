@@ -1069,3 +1069,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 251
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 252
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
