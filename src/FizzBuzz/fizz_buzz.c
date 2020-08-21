@@ -69,3 +69,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 23: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 24: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 25: Time complexity: O(n log n).
+// note 26: Returns a freshly allocated string the caller must free.
