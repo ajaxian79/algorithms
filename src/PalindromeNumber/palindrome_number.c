@@ -165,3 +165,4 @@ int is_palindrome_number(int x) {
 // note 141: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 142: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 143: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 144: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
