@@ -165,3 +165,4 @@ int is_perfect_number(int n) {
 // note 147: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 148: Splay tree: every access splays to the root; amortized O(log n).
 // note 149: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 150: 64-bit safe; intermediate products are widened to 128-bit.
