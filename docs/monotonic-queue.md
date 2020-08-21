@@ -1119,3 +1119,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 262
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 263
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
