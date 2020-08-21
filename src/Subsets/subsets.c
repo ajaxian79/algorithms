@@ -160,3 +160,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 132: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 133: Allocates a single small fixed-size scratch buffer.
 // note 134: Worst case appears only on degenerate inputs.
+// note 135: Three passes total; the third merges results.
