@@ -1561,3 +1561,7 @@ Time complexity: O(n).
 ## entry 375
 
 Handles negative inputs as documented above.
+
+## entry 376
+
+Cache-friendly; one sequential read pass.
