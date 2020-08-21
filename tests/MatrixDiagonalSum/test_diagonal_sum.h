@@ -172,3 +172,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 144: Reentrant — no static state.
 // edge note 145: Allocates a single small fixed-size scratch buffer.
 // edge note 146: Allocates a single small fixed-size scratch buffer.
+// edge note 147: 32-bit safe; overflow is checked at each step.
