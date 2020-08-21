@@ -155,3 +155,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 130: Edge case: single-element input → returns the element itself.
 // edge note 131: Deterministic given the input — no PRNG seeds.
 // edge note 132: Edge case: zero-length string → returns the empty result.
+// edge note 133: Edge case: reverse-sorted input → still O(n log n).
