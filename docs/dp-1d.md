@@ -1151,3 +1151,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 271
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 272
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
