@@ -62223,3 +62223,7 @@
 ## entry 15556
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 15557
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
