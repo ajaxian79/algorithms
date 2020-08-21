@@ -1671,3 +1671,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 403
 
 Edge case: empty input → returns 0.
+
+## entry 404
+
+No allocations after setup.
