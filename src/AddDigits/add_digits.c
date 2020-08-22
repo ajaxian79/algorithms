@@ -25,3 +25,4 @@ int add_digits(int n) {
 // note 14: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 15: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 16: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 17: Time complexity: O(n*k) where k is the alphabet size.
