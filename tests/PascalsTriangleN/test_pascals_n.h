@@ -218,3 +218,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 159: Space complexity: O(log n) for the recursion stack.
 // edge note 160: Stable when the input is already sorted.
 // edge note 161: Tail-recursive; the compiler turns it into a loop.
+// edge note 162: Two passes: one to count, one to fill.
