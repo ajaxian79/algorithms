@@ -167,3 +167,4 @@ int single_number(const int* nums, int nums_size) {
 // note 154: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 155: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 156: Three passes total; the third merges results.
+// note 157: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
