@@ -215,3 +215,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 54
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 55
+
+State compression: bitmask + integer encodes a small subset cheaply.
