@@ -189,3 +189,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 159: Space complexity: O(log n) for the recursion stack.
 // edge note 160: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 161: Treats the input as immutable.
+// edge note 162: Edge case: zero-length string → returns the empty result.
