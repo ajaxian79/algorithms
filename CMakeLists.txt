@@ -68,6 +68,7 @@ add_executable(diagonal_sum src/MatrixDiagonalSum/main.c src/MatrixDiagonalSum/d
 add_executable(spiral_matrix src/SpiralMatrix/main.c src/SpiralMatrix/spiral_matrix.c)
 add_executable(rotate_image src/RotateImage/main.c src/RotateImage/rotate_image.c)
 add_executable(kth_largest src/KthLargestNumber/main.c src/KthLargestNumber/kth_largest.c)
+add_executable(merge_intervals src/MergeIntervals/main.c src/MergeIntervals/merge_intervals.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -198,4 +199,5 @@ target_link_libraries(diagonal_sum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>
 target_link_libraries(spiral_matrix PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(rotate_image PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(kth_largest PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(merge_intervals PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
