@@ -1618,3 +1618,7 @@ Cache-friendly; one sequential read pass.
 ## entry 390
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 391
+
+Space complexity: O(1) auxiliary.
