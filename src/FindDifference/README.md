@@ -1454,3 +1454,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 349
 
 Space complexity: O(h) for the tree height.
+
+## entry 350
+
+Time complexity: O(n^2) worst case, O(n) amortized.
