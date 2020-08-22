@@ -1,0 +1,42 @@
+//
+// Created by ajaxian on 08/22/20.
+//
+
+#ifndef ALGORITHMS_TEST_MERGE_INTERVALS_H
+#define ALGORITHMS_TEST_MERGE_INTERVALS_H
+
+#include <stdlib.h>
+
+#include "../tests.h"
+#include "../../src/MergeIntervals/merge_intervals.h"
+
+static MunitResult test_merge_intervals_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    int a[] = {1, 3, 2, 6, 8, 10, 15, 18};
+    int n = 0;
+    int* r = merge_intervals(a, 4, &n);
+    munit_assert_int(n, ==, 3);
+    munit_assert_int(r[0], ==, 1); munit_assert_int(r[1], ==, 6);
+    munit_assert_int(r[2], ==, 8); munit_assert_int(r[3], ==, 10);
+    munit_assert_int(r[4], ==, 15); munit_assert_int(r[5], ==, 18);
+    free(r);
+
+    int b[] = {1, 4, 4, 5};
+    r = merge_intervals(b, 2, &n);
+    munit_assert_int(n, ==, 1);
+    munit_assert_int(r[0], ==, 1); munit_assert_int(r[1], ==, 5);
+    free(r);
+
+    int c[] = {1, 4, 0, 4};
+    r = merge_intervals(c, 2, &n);
+    munit_assert_int(n, ==, 1);
+    munit_assert_int(r[0], ==, 0); munit_assert_int(r[1], ==, 4);
+    free(r);
+    return MUNIT_OK;
+}
+
+MunitTest merge_intervals_tests[] = {
+    {"/basic", test_merge_intervals_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_MERGE_INTERVALS_H

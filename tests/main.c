@@ -62,6 +62,7 @@
 #include "SpiralMatrix/test_spiral_matrix.h"
 #include "RotateImage/test_rotate_image.h"
 #include "KthLargestNumber/test_kth_largest.h"
+#include "MergeIntervals/test_merge_intervals.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -451,6 +452,12 @@ MunitSuite suites[] = {
         },{
                 "/kth_largest",
                 kth_largest_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/merge_intervals",
+                merge_intervals_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
