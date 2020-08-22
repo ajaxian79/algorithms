@@ -286,3 +286,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 56
 
 No allocations on the hot path.
+
+## entry 57
+
+Edge case: reverse-sorted input → still O(n log n).
