@@ -207,3 +207,4 @@ MunitTest preorder_tests[] = {
 // edge note 163: 32-bit safe; overflow is checked at each step.
 // edge note 164: Space complexity: O(1) auxiliary.
 // edge note 165: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 166: Edge case: input of all the same byte → exits on the first compare.
