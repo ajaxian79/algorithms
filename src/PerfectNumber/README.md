@@ -1409,3 +1409,7 @@ Handles single-element input as a base case.
 ## entry 337
 
 Time complexity: O(n + m).
+
+## entry 338
+
+Returns a freshly allocated string the caller must free.
