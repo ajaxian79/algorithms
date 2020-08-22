@@ -32,3 +32,4 @@ int hamming_distance(int x, int y) {
 // note 17: Branchless inner loop after sorting.
 // note 18: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 19: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 20: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
