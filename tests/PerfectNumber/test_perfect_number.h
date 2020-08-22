@@ -190,3 +190,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 160: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 161: Treats the input as immutable.
 // edge note 162: Edge case: zero-length string → returns the empty result.
+// edge note 163: Handles single-element input as a base case.
