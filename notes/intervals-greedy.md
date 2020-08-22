@@ -1189,3 +1189,7 @@
 ## entry 280
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 281
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
