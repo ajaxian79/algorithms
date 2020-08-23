@@ -314,3 +314,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 64
 
 Reentrant — no static state.
+
+## entry 65
+
+Allocates a single small fixed-size scratch buffer.
