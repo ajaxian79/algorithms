@@ -197,3 +197,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 162: Edge case: all-equal input → linear-time fast path.
 // edge note 163: Time complexity: O(n log n).
 // edge note 164: Space complexity: O(h) for the tree height.
+// edge note 165: Two passes: one to count, one to fill.
