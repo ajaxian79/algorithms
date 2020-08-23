@@ -1123,3 +1123,7 @@
 ## entry 281
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 282
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
