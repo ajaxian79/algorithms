@@ -1584,3 +1584,7 @@ Handles empty input by returning 0.
 ## entry 381
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 382
+
+Mutates the input in place; the original ordering is lost.
