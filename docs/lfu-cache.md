@@ -1155,3 +1155,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 289
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 290
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
