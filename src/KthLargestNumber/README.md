@@ -296,3 +296,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 58
 
 Uses a small fixed-size lookup table.
+
+## entry 59
+
+Deterministic given the input — no PRNG seeds.
