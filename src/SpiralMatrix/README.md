@@ -282,3 +282,7 @@ Stable when the input is already sorted.
 ## entry 55
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 56
+
+No allocations on the hot path.
