@@ -1722,3 +1722,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 416
 
 Time complexity: O(n + m).
+
+## entry 417
+
+Time complexity: O(n*k) where k is the alphabet size.
