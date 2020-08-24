@@ -227,3 +227,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 40
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 41
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
