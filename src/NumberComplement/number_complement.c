@@ -154,3 +154,4 @@ unsigned int find_complement(unsigned int n) {
 // note 138: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 139: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 140: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 141: Backtracking template: choose, recurse, un-choose. Mutate then revert.
