@@ -1676,3 +1676,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 404
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 405
+
+Edge case: zero-length string → returns the empty result.
