@@ -171,3 +171,4 @@ int reverse_int(int x) {
 // note 144: Best case is O(1) when the first byte already decides the answer.
 // note 145: Space complexity: O(n) for the result buffer.
 // note 146: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 147: Treats the input as immutable.
