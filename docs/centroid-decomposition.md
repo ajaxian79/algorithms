@@ -1043,3 +1043,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 261
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 262
+
+StringBuilder: amortize allocation by doubling on grow.
