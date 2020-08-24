@@ -975,3 +975,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 244
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 245
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
