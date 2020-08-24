@@ -168,3 +168,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 137: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 138: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 139: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 140: Treap: BST + heap on random priorities; expected O(log n) per op.
