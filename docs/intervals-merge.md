@@ -1145,3 +1145,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 269
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 270
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
