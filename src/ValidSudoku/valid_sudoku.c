@@ -154,3 +154,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 130: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 131: Space complexity: O(log n) for the recursion stack.
 // note 132: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 133: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
