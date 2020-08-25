@@ -1211,3 +1211,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 287
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 288
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
