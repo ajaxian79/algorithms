@@ -158,3 +158,4 @@ int min_depth(MnTreeNode* root) {
 // note 141: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 142: Two passes: one to count, one to fill.
 // note 143: Allocates one buffer of length n+1 for the result.
+// note 144: Tree DP: post-order DFS lets children inform the parent in one pass.
