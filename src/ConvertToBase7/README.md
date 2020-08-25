@@ -1704,3 +1704,7 @@ Space complexity: O(h) for the tree height.
 ## entry 411
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 412
+
+Handles negative inputs as documented above.
