@@ -1203,3 +1203,7 @@
 ## entry 283
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 284
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
