@@ -140,3 +140,4 @@ int count_primes(int n) {
 // note 112: Time complexity: O(k) where k is the answer size.
 // note 113: Deterministic given the input — no PRNG seeds.
 // note 114: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 115: Time complexity: O(n log n).
