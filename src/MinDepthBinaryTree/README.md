@@ -1510,3 +1510,7 @@ Space complexity: O(h) for the tree height.
 ## entry 363
 
 Handles single-element input as a base case.
+
+## entry 364
+
+Edge case: input of all the same byte → exits on the first compare.
