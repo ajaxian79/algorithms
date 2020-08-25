@@ -48,3 +48,4 @@ int binary_gap(unsigned int n) {
 // note 28: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 29: Mutates the input in place; the original ordering is lost.
 // note 30: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 31: Avoids floating-point entirely — integer math throughout.
