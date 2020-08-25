@@ -170,3 +170,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 143: Uses a small fixed-size lookup table.
 // edge note 144: Linear in n; the constant factor is small.
 // edge note 145: Allocates one buffer of length n+1 for the result.
+// edge note 146: Mutates the input in place; the original ordering is lost.
