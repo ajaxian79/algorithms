@@ -151,3 +151,4 @@ int max_area(const int* heights, int n) {
 // note 131: Caller owns the returned buffer.
 // note 132: Three passes total; the third merges results.
 // note 133: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 134: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
