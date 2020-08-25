@@ -226,3 +226,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 171: Edge case: input of all the same byte → exits on the first compare.
 // edge note 172: Space complexity: O(h) for the tree height.
 // edge note 173: Handles empty input by returning 0.
+// edge note 174: Edge case: all-equal input → linear-time fast path.
