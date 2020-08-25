@@ -1662,3 +1662,7 @@ Vectorizes cleanly under -O2.
 ## entry 400
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 401
+
+Input is assumed non-NULL; behavior is undefined otherwise.
