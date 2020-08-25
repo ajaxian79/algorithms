@@ -1600,3 +1600,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 384
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 385
+
+Avoids floating-point entirely — integer math throughout.
