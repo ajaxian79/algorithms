@@ -1115,3 +1115,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 261
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 262
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
