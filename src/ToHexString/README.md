@@ -1467,3 +1467,7 @@ No allocations on the hot path.
 ## entry 352
 
 Handles empty input by returning 0.
+
+## entry 353
+
+32-bit safe; overflow is checked at each step.
