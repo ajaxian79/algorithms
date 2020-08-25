@@ -1616,3 +1616,7 @@ Handles single-element input as a base case.
 ## entry 389
 
 Allocates lazily — first call only.
+
+## entry 390
+
+Time complexity: O(1).
