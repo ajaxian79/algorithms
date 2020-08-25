@@ -190,3 +190,4 @@ char* add_binary(const char* a, const char* b) {
 // note 148: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 149: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 150: Best case is O(1) when the first byte already decides the answer.
+// note 151: No allocations on the hot path.
