@@ -1703,3 +1703,7 @@ Vectorizes cleanly under -O2.
 ## entry 411
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 412
+
+32-bit safe; overflow is checked at each step.
