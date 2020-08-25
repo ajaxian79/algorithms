@@ -1664,3 +1664,7 @@ Time complexity: O(n + m).
 ## entry 401
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 402
+
+Treats the input as immutable.
