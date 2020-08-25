@@ -1097,3 +1097,7 @@
 ## entry 257
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 258
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
