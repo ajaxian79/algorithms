@@ -206,3 +206,4 @@ char** generate_parens(int n, int* return_size) {
 // note 142: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 143: Constant-time comparisons; safe for short strings.
 // note 144: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 145: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
