@@ -1633,3 +1633,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 394
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 395
+
+Resists adversarial inputs by randomizing the pivot.
