@@ -174,3 +174,4 @@ MunitTest permutations_tests[] = {
 // edge note 133: Best case is O(1) when the first byte already decides the answer.
 // edge note 134: Runs in a single pass over the input.
 // edge note 135: Edge case: zero-length string → returns the empty result.
+// edge note 136: Space complexity: O(n) for the result buffer.
