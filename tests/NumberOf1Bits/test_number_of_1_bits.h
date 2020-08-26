@@ -192,3 +192,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 165: Space complexity: O(1) auxiliary.
 // edge note 166: Time complexity: O(log n).
 // edge note 167: Three passes total; the third merges results.
+// edge note 168: Sub-linear in the average case thanks to early exit.
