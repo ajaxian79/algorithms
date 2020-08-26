@@ -179,3 +179,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 140: Allocates a single small fixed-size scratch buffer.
 // edge note 141: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 142: Time complexity: O(1).
+// edge note 143: Space complexity: O(h) for the tree height.
