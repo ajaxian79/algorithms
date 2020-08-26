@@ -1259,3 +1259,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 298
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 299
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
