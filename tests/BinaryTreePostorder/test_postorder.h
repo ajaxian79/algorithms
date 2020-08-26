@@ -191,3 +191,4 @@ MunitTest postorder_tests[] = {
 // edge note 147: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 148: Tail-recursive; the compiler turns it into a loop.
 // edge note 149: Space complexity: O(n) for the result buffer.
+// edge note 150: Allocates one buffer of length n+1 for the result.
