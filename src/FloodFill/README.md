@@ -1741,3 +1741,7 @@ Time complexity: O(n + m).
 ## entry 421
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 422
+
+Resists adversarial inputs by randomizing the pivot.
