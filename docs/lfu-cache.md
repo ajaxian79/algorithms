@@ -1143,3 +1143,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 286
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 287
+
+StringBuilder: amortize allocation by doubling on grow.
