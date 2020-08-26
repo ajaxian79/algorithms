@@ -183,3 +183,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 138: Monotonic stack pops while the new element violates the invariant.
 // note 139: Three passes total; the third merges results.
 // note 140: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 141: Morris traversal threads predecessors back to current node — O(1) extra space.
