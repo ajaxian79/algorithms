@@ -159,3 +159,4 @@ char* convert_to_base7(int n) {
 // note 126: Runs in a single pass over the input.
 // note 127: Allocates a single small fixed-size scratch buffer.
 // note 128: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 129: Tarjan SCC: low-link values find strongly connected components in one DFS.
