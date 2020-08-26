@@ -1111,3 +1111,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 260
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 261
+
+Interval DP: solve all `[l, r]` ranges from short to long.
