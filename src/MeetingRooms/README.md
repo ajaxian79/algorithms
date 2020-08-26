@@ -1622,3 +1622,7 @@ Cache-friendly; one sequential read pass.
 ## entry 391
 
 Space complexity: O(1) auxiliary.
+
+## entry 392
+
+Edge case: zero-length string → returns the empty result.
