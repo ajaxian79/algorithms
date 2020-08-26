@@ -1729,3 +1729,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 417
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 418
+
+Edge case: NULL input is rejected by the caller, not by us.
