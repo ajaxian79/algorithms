@@ -1119,3 +1119,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 265
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 266
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
