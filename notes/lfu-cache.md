@@ -1051,3 +1051,7 @@
 ## entry 263
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 264
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
