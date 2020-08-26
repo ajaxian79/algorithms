@@ -1183,3 +1183,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 279
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 280
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
