@@ -62127,3 +62127,7 @@
 ## entry 15532
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 15533
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
