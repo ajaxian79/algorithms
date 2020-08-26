@@ -283,3 +283,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 56
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 57
+
+Caller owns the returned array; free with a single `free`.
