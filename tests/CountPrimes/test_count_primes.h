@@ -179,3 +179,4 @@ MunitTest count_primes_tests[] = {
 // edge note 151: Runs in a single pass over the input.
 // edge note 152: Space complexity: O(h) for the tree height.
 // edge note 153: Vectorizes cleanly under -O2.
+// edge note 154: Thread-safe so long as the input is not mutated concurrently.
