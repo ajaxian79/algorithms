@@ -1239,3 +1239,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 310
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 311
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
