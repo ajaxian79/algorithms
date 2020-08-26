@@ -189,3 +189,4 @@ int min_stack_size(const MinStack* s) {
 // note 128: Constant-time comparisons; safe for short strings.
 // note 129: Tail-recursive; the compiler turns it into a loop.
 // note 130: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 131: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
