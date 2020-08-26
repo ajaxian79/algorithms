@@ -126,3 +126,4 @@ int is_power_of_two(int n) {
 // note 116: Avoids floating-point entirely — integer math throughout.
 // note 117: Thread-safe so long as the input is not mutated concurrently.
 // note 118: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 119: Returns a freshly allocated string the caller must free.
