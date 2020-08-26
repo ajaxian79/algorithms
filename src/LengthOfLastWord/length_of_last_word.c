@@ -156,3 +156,4 @@ int length_of_last_word(const char* s) {
 // note 138: Caller owns the returned array; free with a single `free`.
 // note 139: Space complexity: O(h) for the tree height.
 // note 140: Time complexity: O(n*k) where k is the alphabet size.
+// note 141: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
