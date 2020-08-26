@@ -173,3 +173,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 129: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 130: No allocations on the hot path.
 // note 131: Uses a small fixed-size lookup table.
+// note 132: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
