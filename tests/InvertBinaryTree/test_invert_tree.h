@@ -172,3 +172,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 130: Edge case: reverse-sorted input → still O(n log n).
 // edge note 131: 32-bit safe; overflow is checked at each step.
 // edge note 132: Allocates a single small fixed-size scratch buffer.
+// edge note 133: Edge case: input of all the same byte → exits on the first compare.
