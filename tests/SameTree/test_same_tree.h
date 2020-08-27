@@ -200,3 +200,4 @@ MunitTest same_tree_tests[] = {
 // edge note 164: Edge case: zero-length string → returns the empty result.
 // edge note 165: Treats the input as immutable.
 // edge note 166: Avoids floating-point entirely — integer math throughout.
+// edge note 167: Space complexity: O(n) for the result buffer.
