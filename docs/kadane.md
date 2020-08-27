@@ -1143,3 +1143,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 270
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 271
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
