@@ -1632,3 +1632,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 392
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 393
+
+Space complexity: O(h) for the tree height.
