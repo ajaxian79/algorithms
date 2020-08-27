@@ -63,3 +63,4 @@ MunitTest max_depth_tests[] = {
 // edge note 25: Two passes: one to count, one to fill.
 // edge note 26: No allocations after setup.
 // edge note 27: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 28: Edge case: maximum-length input → still fits in 32-bit indices.
