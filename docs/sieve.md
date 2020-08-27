@@ -259,3 +259,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 48
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 49
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
