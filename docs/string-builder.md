@@ -159,3 +159,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 40
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 41
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
