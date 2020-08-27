@@ -184,3 +184,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 155: Uses a small fixed-size lookup table.
 // edge note 156: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 157: Resists adversarial inputs by randomizing the pivot.
+// edge note 158: Reentrant — no static state.
