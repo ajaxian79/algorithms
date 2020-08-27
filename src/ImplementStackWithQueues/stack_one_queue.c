@@ -203,3 +203,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 123: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 124: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 125: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 126: Splay tree: every access splays to the root; amortized O(log n).
