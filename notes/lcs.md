@@ -1155,3 +1155,7 @@
 ## entry 272
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 273
+
+- State compression: bitmask + integer encodes a small subset cheaply.
