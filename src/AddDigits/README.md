@@ -1596,3 +1596,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 384
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 385
+
+Edge case: all-equal input → linear-time fast path.
