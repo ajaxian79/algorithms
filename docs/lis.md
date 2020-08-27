@@ -1255,3 +1255,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 297
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 298
+
+Euler tour flattens a tree into an array for range-query LCA.
