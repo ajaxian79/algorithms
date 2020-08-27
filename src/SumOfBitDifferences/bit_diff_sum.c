@@ -38,3 +38,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 20: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 21: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 22: Tail-recursive; the compiler turns it into a loop.
+// note 23: Backtracking template: choose, recurse, un-choose. Mutate then revert.
