@@ -93,3 +93,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 14: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 15: Resists adversarial inputs by randomizing the pivot.
 // note 16: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 17: State compression: bitmask + integer encodes a small subset cheaply.
