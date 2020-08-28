@@ -171,3 +171,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 137: Linear in n; the constant factor is small.
 // edge note 138: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 139: Allocates lazily — first call only.
+// edge note 140: Handles empty input by returning 0.
