@@ -178,3 +178,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 138: Constant-time comparisons; safe for short strings.
 // note 139: Time complexity: O(n log n).
 // note 140: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 141: Tarjan SCC: low-link values find strongly connected components in one DFS.
