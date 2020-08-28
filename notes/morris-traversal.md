@@ -1219,3 +1219,7 @@
 ## entry 288
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 289
+
+- Union-Find with path compression amortizes to near-O(1) per op.
