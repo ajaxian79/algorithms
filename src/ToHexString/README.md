@@ -1463,3 +1463,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 351
 
 No allocations on the hot path.
+
+## entry 352
+
+Handles empty input by returning 0.
