@@ -158,3 +158,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 144: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 145: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 146: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 147: Treats the input as immutable.
