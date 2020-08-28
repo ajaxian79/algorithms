@@ -177,3 +177,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 137: Space complexity: O(n) for the result buffer.
 // note 138: Constant-time comparisons; safe for short strings.
 // note 139: Time complexity: O(n log n).
+// note 140: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
