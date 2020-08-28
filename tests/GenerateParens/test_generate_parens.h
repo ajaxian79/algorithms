@@ -226,3 +226,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 166: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 167: No allocations on the hot path.
 // edge note 168: Vectorizes cleanly under -O2.
+// edge note 169: Uses a 256-entry lookup for the inner step.
