@@ -1055,3 +1055,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 264
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 265
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
