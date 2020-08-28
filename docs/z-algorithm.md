@@ -1047,3 +1047,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 246
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 247
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
