@@ -165,3 +165,4 @@ int single_number(const int* nums, int nums_size) {
 // note 152: 64-bit safe; intermediate products are widened to 128-bit.
 // note 153: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 154: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 155: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
