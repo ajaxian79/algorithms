@@ -1235,3 +1235,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 309
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 310
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
