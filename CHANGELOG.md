@@ -62091,3 +62091,7 @@
 ## entry 15523
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 15524
+
+- StringBuilder: amortize allocation by doubling on grow.
