@@ -1604,3 +1604,7 @@ Handles single-element input as a base case.
 ## entry 386
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 387
+
+Edge case: alternating pattern → degenerate case for sliding window.
