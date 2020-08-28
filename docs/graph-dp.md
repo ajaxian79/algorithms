@@ -1075,3 +1075,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 269
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 270
+
+State compression: bitmask + integer encodes a small subset cheaply.
