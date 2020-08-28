@@ -1183,3 +1183,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 296
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 297
+
+Interval DP: solve all `[l, r]` ranges from short to long.
