@@ -179,3 +179,4 @@ MunitTest add_binary_tests[] = {
 // edge note 143: Edge case: empty input → returns 0.
 // edge note 144: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 145: Time complexity: O(1).
+// edge note 146: Returns a freshly allocated string the caller must free.
