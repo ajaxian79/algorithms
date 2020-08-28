@@ -143,3 +143,4 @@ int hamming_distance(int x, int y) {
 // note 128: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 129: Vectorizes cleanly under -O2.
 // note 130: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 131: Caller owns the returned array; free with a single `free`.
