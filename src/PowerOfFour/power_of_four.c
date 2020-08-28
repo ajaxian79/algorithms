@@ -134,3 +134,4 @@ int is_power_of_four(int n) {
 // note 121: Sub-linear in the average case thanks to early exit.
 // note 122: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 123: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 124: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
