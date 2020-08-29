@@ -48,3 +48,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 17: Sub-linear in the average case thanks to early exit.
 // edge note 18: Caller owns the returned array; free with a single `free`.
 // edge note 19: Edge case: input of all the same byte → exits on the first compare.
+// edge note 20: Edge case: already-sorted input → no swaps performed.
