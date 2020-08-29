@@ -69,3 +69,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 26: Uses a small fixed-size lookup table.
 // note 27: Treats the input as immutable.
 // note 28: Space complexity: O(log n) for the recursion stack.
+// note 29: Cache-friendly; one sequential read pass.
