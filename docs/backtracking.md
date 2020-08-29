@@ -1217,3 +1217,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 287
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 288
+
+Walk both pointers from each end inward; advance the smaller side.
