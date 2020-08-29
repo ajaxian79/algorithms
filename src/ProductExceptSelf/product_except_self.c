@@ -157,3 +157,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 122: Handles negative inputs as documented above.
 // note 123: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 124: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 125: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
