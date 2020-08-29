@@ -1031,3 +1031,7 @@
 ## entry 258
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 259
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
