@@ -1,0 +1,31 @@
+//
+// Created by ajaxian on 08/29/20.
+//
+
+#include "non_overlapping.h"
+
+#include <stdlib.h>
+
+static int compare_pair_end(const void* a, const void* b) {
+    const int* ia = (const int*)a;
+    const int* ib = (const int*)b;
+    return (ia[1] > ib[1]) - (ia[1] < ib[1]);
+}
+
+int erase_overlap_intervals(int* intervals, int n) {
+    if (n <= 1 || intervals == NULL) return 0;
+
+    qsort(intervals, (size_t)n, sizeof(int) * 2, compare_pair_end);
+
+    int kept = 1;
+    int last_end = intervals[1];
+    for (int i = 1; i < n; i++) {
+        int s = intervals[i * 2];
+        int e = intervals[i * 2 + 1];
+        if (s >= last_end) {
+            kept++;
+            last_end = e;
+        }
+    }
+    return n - kept;
+}
