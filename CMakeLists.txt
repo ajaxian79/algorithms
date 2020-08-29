@@ -133,7 +133,8 @@ add_executable(unittests
         src/SpiralMatrix/spiral_matrix.c
         src/RotateImage/rotate_image.c
         src/KthLargestNumber/kth_largest.c
-        src/MergeIntervals/merge_intervals.c)
+        src/MergeIntervals/merge_intervals.c
+        src/NonOverlappingIntervals/non_overlapping.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)

@@ -63,6 +63,7 @@
 #include "RotateImage/test_rotate_image.h"
 #include "KthLargestNumber/test_kth_largest.h"
 #include "MergeIntervals/test_merge_intervals.h"
+#include "NonOverlappingIntervals/test_non_overlapping.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -458,6 +459,12 @@ MunitSuite suites[] = {
         },{
                 "/merge_intervals",
                 merge_intervals_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/non_overlapping",
+                non_overlapping_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

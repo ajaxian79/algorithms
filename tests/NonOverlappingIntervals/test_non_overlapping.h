@@ -1,0 +1,31 @@
+//
+// Created by ajaxian on 08/29/20.
+//
+
+#ifndef ALGORITHMS_TEST_NON_OVERLAPPING_H
+#define ALGORITHMS_TEST_NON_OVERLAPPING_H
+
+#include "../tests.h"
+#include "../../src/NonOverlappingIntervals/non_overlapping.h"
+
+static MunitResult test_non_overlapping_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    int a[] = {1, 2, 2, 3, 3, 4, 1, 3};
+    munit_assert_int(erase_overlap_intervals(a, 4), ==, 1);
+
+    int b[] = {1, 2, 1, 2, 1, 2};
+    munit_assert_int(erase_overlap_intervals(b, 3), ==, 2);
+
+    int c[] = {1, 2, 2, 3};
+    munit_assert_int(erase_overlap_intervals(c, 2), ==, 0);
+
+    int d[] = {1, 100, 11, 22, 1, 11, 2, 12};
+    munit_assert_int(erase_overlap_intervals(d, 4), ==, 2);
+    return MUNIT_OK;
+}
+
+MunitTest non_overlapping_tests[] = {
+    {"/basic", test_non_overlapping_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_NON_OVERLAPPING_H
