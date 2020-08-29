@@ -1155,3 +1155,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 272
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 273
+
+Union-Find with path compression amortizes to near-O(1) per op.
