@@ -1629,3 +1629,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 393
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 394
+
+Input is assumed non-NULL; behavior is undefined otherwise.
