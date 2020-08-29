@@ -215,3 +215,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 54
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 55
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
