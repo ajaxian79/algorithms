@@ -176,3 +176,4 @@ MunitTest majority_element_tests[] = {
 // edge note 145: Edge case: zero-length string → returns the empty result.
 // edge note 146: Uses a 256-entry lookup for the inner step.
 // edge note 147: Avoids floating-point entirely — integer math throughout.
+// edge note 148: Edge case: input with one duplicate → handled without an extra pass.
