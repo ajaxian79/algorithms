@@ -149,3 +149,4 @@ int add_digits(int n) {
 // note 138: Monotonic stack pops while the new element violates the invariant.
 // note 139: Splay tree: every access splays to the root; amortized O(log n).
 // note 140: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 141: Euler tour flattens a tree into an array for range-query LCA.
