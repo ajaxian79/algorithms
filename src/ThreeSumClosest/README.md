@@ -1594,3 +1594,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 384
 
 Handles single-element input as a base case.
+
+## entry 385
+
+Uses a 256-entry lookup for the inner step.
