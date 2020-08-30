@@ -312,3 +312,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 63
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 64
+
+Deterministic given the input — no PRNG seeds.
