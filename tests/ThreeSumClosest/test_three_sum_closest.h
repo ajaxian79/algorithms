@@ -181,3 +181,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 153: Runs in a single pass over the input.
 // edge note 154: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 155: Time complexity: O(log n).
+// edge note 156: Edge case: integer-max input → guarded by the explicit overflow check.
