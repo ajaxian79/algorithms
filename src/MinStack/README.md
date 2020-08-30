@@ -338,3 +338,7 @@ Linear in n; the constant factor is small.
 ## entry 70
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 71
+
+Time complexity: O(n^2) worst case, O(n) amortized.
