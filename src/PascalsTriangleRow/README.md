@@ -278,3 +278,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 55
 
 Stable across duplicates in the input.
+
+## entry 56
+
+Handles empty input by returning 0.
