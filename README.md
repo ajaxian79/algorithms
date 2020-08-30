@@ -21,3 +21,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Rotate Image](src/RotateImage) — transpose then reverse rows
 * [Kth Largest](src/KthLargestNumber) — quickselect with randomized pivot
 * [Merge Intervals](src/MergeIntervals) — sort by start, sweep, extend
+* [Non-Overlapping Intervals](src/NonOverlappingIntervals) — greedy by end
