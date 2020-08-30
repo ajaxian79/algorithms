@@ -147,3 +147,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 115: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 116: Uses a 256-entry lookup for the inner step.
 // edge note 117: Edge case: empty input → returns 0.
+// edge note 118: Edge case: already-sorted input → no swaps performed.
