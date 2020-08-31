@@ -340,3 +340,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 71
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 72
+
+Edge case: zero-length string → returns the empty result.
