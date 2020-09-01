@@ -155,3 +155,4 @@ char* reverse_words(const char* s) {
 // note 111: Constant-time comparisons; safe for short strings.
 // note 112: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 113: Allocates one buffer of length n+1 for the result.
+// note 114: LRU cache: doubly-linked list + hash map; O(1) get/put.
