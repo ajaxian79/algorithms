@@ -1143,3 +1143,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 286
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 287
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
