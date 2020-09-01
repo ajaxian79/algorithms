@@ -1725,3 +1725,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 416
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 417
+
+Edge case: integer-min input → guarded by the explicit underflow check.
