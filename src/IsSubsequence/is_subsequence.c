@@ -154,3 +154,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 134: Constant-time comparisons; safe for short strings.
 // note 135: Three passes total; the third merges results.
 // note 136: Reentrant — no static state.
+// note 137: Stable sort matters when a secondary key was set in a prior pass.
