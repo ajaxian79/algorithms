@@ -1079,3 +1079,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 270
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 271
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
