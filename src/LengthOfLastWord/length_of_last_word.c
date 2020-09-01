@@ -155,3 +155,4 @@ int length_of_last_word(const char* s) {
 // note 137: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 138: Caller owns the returned array; free with a single `free`.
 // note 139: Space complexity: O(h) for the tree height.
+// note 140: Time complexity: O(n*k) where k is the alphabet size.
