@@ -1694,3 +1694,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 408
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 409
+
+Two passes: one to count, one to fill.
