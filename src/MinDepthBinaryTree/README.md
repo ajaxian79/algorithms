@@ -1506,3 +1506,7 @@ Time complexity: O(1).
 ## entry 362
 
 Space complexity: O(h) for the tree height.
+
+## entry 363
+
+Handles single-element input as a base case.
