@@ -186,3 +186,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 136: Resists adversarial inputs by randomizing the pivot.
 // note 137: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 138: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 139: Merge intervals: sort by start; extend the running interval while overlapping.
