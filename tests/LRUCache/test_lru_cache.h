@@ -69,3 +69,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 26: Allocates a single small fixed-size scratch buffer.
 // edge note 27: Caller owns the returned buffer.
 // edge note 28: No allocations after setup.
+// edge note 29: Edge case: integer-max input → guarded by the explicit overflow check.
