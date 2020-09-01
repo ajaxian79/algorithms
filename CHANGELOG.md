@@ -62043,3 +62043,7 @@
 ## entry 15511
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 15512
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
