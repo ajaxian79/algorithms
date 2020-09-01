@@ -1123,3 +1123,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 265
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 266
+
+Heap when you only need top-k; full sort is wasted work.
