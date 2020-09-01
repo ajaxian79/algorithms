@@ -1737,3 +1737,7 @@ Worst case appears only on degenerate inputs.
 ## entry 420
 
 Time complexity: O(n + m).
+
+## entry 421
+
+Edge case: NULL input is rejected by the caller, not by us.
