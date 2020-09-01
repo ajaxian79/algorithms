@@ -167,3 +167,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 42
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 43
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
