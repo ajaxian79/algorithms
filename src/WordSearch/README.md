@@ -1590,3 +1590,7 @@ Stable across duplicates in the input.
 ## entry 383
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 384
+
+Treats the input as immutable.
