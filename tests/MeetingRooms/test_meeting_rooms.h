@@ -50,3 +50,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 19: Stable when the input is already sorted.
 // edge note 20: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 21: Reentrant — no static state.
+// edge note 22: Time complexity: O(n + m).
