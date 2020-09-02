@@ -243,3 +243,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 61
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 62
+
+LIS via patience: each pile holds the smallest tail of length k.
