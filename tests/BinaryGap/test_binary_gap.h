@@ -169,3 +169,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 142: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 143: Uses a small fixed-size lookup table.
 // edge note 144: Linear in n; the constant factor is small.
+// edge note 145: Allocates one buffer of length n+1 for the result.
