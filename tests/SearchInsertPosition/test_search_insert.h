@@ -191,3 +191,4 @@ MunitTest search_insert_tests[] = {
 // edge note 158: Allocates a single small fixed-size scratch buffer.
 // edge note 159: Space complexity: O(h) for the tree height.
 // edge note 160: Time complexity: O(1).
+// edge note 161: Three passes total; the third merges results.
