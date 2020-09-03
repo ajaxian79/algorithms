@@ -1733,3 +1733,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 419
 
 Worst case appears only on degenerate inputs.
+
+## entry 420
+
+Time complexity: O(n + m).
