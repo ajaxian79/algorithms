@@ -1549,3 +1549,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 372
 
 Uses a small fixed-size lookup table.
+
+## entry 373
+
+Tail-recursive; the compiler turns it into a loop.
