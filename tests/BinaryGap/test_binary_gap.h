@@ -168,3 +168,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 141: Resists adversarial inputs by randomizing the pivot.
 // edge note 142: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 143: Uses a small fixed-size lookup table.
+// edge note 144: Linear in n; the constant factor is small.
