@@ -1610,3 +1610,7 @@ Two passes: one to count, one to fill.
 ## entry 388
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 389
+
+Input is assumed non-NULL; behavior is undefined otherwise.
