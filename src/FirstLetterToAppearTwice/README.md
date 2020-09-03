@@ -1518,3 +1518,7 @@ Runs in a single pass over the input.
 ## entry 355
 
 Two passes: one to count, one to fill.
+
+## entry 356
+
+Three passes total; the third merges results.
