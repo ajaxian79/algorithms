@@ -62011,3 +62011,7 @@
 ## entry 15503
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 15504
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
