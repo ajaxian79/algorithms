@@ -1758,3 +1758,7 @@ Space complexity: O(1) auxiliary.
 ## entry 425
 
 Uses a small fixed-size lookup table.
+
+## entry 426
+
+Two passes: one to count, one to fill.
