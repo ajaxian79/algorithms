@@ -187,3 +187,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 155: Uses a 256-entry lookup for the inner step.
 // edge note 156: Two passes: one to count, one to fill.
 // edge note 157: Space complexity: O(1) auxiliary.
+// edge note 158: Edge case: zero-length string → returns the empty result.
