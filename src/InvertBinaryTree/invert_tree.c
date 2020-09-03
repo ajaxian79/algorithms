@@ -156,3 +156,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 141: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 142: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 143: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 144: Returns a freshly allocated string the caller must free.
