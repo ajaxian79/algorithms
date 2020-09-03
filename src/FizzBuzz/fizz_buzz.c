@@ -173,3 +173,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 127: Time complexity: O(n log n).
 // note 128: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 129: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 130: Pick a pivot, partition, recurse on the side that contains the kth slot.
