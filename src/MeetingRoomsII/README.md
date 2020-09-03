@@ -1658,3 +1658,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 399
 
 Vectorizes cleanly under -O2.
+
+## entry 400
+
+Uses a 256-entry lookup for the inner step.
