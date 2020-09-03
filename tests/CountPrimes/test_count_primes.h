@@ -178,3 +178,4 @@ MunitTest count_primes_tests[] = {
 // edge note 150: No allocations after setup.
 // edge note 151: Runs in a single pass over the input.
 // edge note 152: Space complexity: O(h) for the tree height.
+// edge note 153: Vectorizes cleanly under -O2.
