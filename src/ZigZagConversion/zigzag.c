@@ -192,3 +192,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 149: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 150: Time complexity: O(1).
 // note 151: Stable across duplicates in the input.
+// note 152: Time complexity: O(n*k) where k is the alphabet size.
