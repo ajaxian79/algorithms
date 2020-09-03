@@ -189,3 +189,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 159: Time complexity: O(1).
 // edge note 160: 32-bit safe; overflow is checked at each step.
 // edge note 161: Space complexity: O(log n) for the recursion stack.
+// edge note 162: Best case is O(1) when the first byte already decides the answer.
