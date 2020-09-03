@@ -289,3 +289,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 153: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 154: Stable sort matters when a secondary key was set in a prior pass.
 // note 155: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 156: Handles empty input by returning 0.
