@@ -1051,3 +1051,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 263
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 264
+
+Stable sort matters when a secondary key was set in a prior pass.
