@@ -1089,3 +1089,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 256
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 257
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
