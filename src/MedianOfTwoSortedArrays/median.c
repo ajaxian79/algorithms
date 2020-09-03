@@ -290,3 +290,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 154: Stable sort matters when a secondary key was set in a prior pass.
 // note 155: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 156: Handles empty input by returning 0.
+// note 157: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
