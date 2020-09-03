@@ -171,3 +171,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 127: 32-bit safe; overflow is checked at each step.
 // note 128: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 129: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 130: No allocations on the hot path.
