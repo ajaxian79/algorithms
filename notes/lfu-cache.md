@@ -1047,3 +1047,7 @@
 ## entry 262
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 263
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
