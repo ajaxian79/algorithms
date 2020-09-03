@@ -61995,3 +61995,7 @@
 ## entry 15499
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 15500
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
