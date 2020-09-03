@@ -1530,3 +1530,7 @@ Space complexity: O(h) for the tree height.
 ## entry 367
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 368
+
+64-bit safe; intermediate products are widened to 128-bit.
