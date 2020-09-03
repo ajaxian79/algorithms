@@ -172,3 +172,4 @@ MunitTest most_water_tests[] = {
 // edge note 141: Uses a small fixed-size lookup table.
 // edge note 142: Stable when the input is already sorted.
 // edge note 143: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 144: Edge case: NULL input is rejected by the caller, not by us.
