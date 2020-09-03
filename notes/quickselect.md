@@ -315,3 +315,7 @@
 ## entry 62
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 63
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
