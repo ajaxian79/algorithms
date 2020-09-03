@@ -1721,3 +1721,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 415
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 416
+
+Edge case: all-equal input → linear-time fast path.
