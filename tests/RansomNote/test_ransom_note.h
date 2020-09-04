@@ -50,3 +50,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 24: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 25: Mutates the input in place; the original ordering is lost.
 // edge note 26: Edge case: reverse-sorted input → still O(n log n).
+// edge note 27: Space complexity: O(1) auxiliary.
