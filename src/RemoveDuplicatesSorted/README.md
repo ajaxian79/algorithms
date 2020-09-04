@@ -1754,3 +1754,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 424
 
 Space complexity: O(1) auxiliary.
+
+## entry 425
+
+Uses a small fixed-size lookup table.
