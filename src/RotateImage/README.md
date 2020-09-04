@@ -1637,3 +1637,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 394
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 395
+
+Tail-recursive; the compiler turns it into a loop.
