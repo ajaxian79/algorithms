@@ -360,3 +360,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 121: Caller owns the returned array; free with a single `free`.
 // note 122: Wavelet tree: range k-th element in O(log Σ) time.
 // note 123: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 124: Interval DP: solve all `[l, r]` ranges from short to long.
