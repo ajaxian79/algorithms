@@ -983,3 +983,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 246
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 247
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
