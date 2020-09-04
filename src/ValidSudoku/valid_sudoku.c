@@ -152,3 +152,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 128: Treats the input as immutable.
 // note 129: Time complexity: O(n).
 // note 130: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 131: Space complexity: O(log n) for the recursion stack.
