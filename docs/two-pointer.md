@@ -1227,3 +1227,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 289
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 290
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
