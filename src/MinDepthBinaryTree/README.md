@@ -1502,3 +1502,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 361
 
 Time complexity: O(1).
+
+## entry 362
+
+Space complexity: O(h) for the tree height.
