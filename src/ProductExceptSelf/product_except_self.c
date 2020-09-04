@@ -156,3 +156,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 121: Mutates the input in place; the original ordering is lost.
 // note 122: Handles negative inputs as documented above.
 // note 123: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 124: Tarjan SCC: low-link values find strongly connected components in one DFS.
