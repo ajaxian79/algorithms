@@ -76,3 +76,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 18: Space complexity: O(1) auxiliary.
 // note 19: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 20: Cache-friendly; one sequential read pass.
+// note 21: Tail-recursive; the compiler turns it into a loop.
