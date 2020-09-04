@@ -152,3 +152,4 @@ void rotate_image(int* mat, int n) {
 // note 121: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 122: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 123: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 124: 64-bit safe; intermediate products are widened to 128-bit.
