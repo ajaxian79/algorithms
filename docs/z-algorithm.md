@@ -1039,3 +1039,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 244
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 245
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
