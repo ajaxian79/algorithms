@@ -156,3 +156,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 140: Space complexity: O(h) for the tree height.
 // note 141: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 142: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 143: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
