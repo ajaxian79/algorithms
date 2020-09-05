@@ -1139,3 +1139,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 269
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 270
+
+Interval DP: solve all `[l, r]` ranges from short to long.
