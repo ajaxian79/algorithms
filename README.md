@@ -22,3 +22,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Kth Largest](src/KthLargestNumber) — quickselect with randomized pivot
 * [Merge Intervals](src/MergeIntervals) — sort by start, sweep, extend
 * [Non-Overlapping Intervals](src/NonOverlappingIntervals) — greedy by end
+* [Meeting Rooms](src/MeetingRooms) — sort by start, check pairwise
