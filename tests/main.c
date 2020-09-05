@@ -64,6 +64,7 @@
 #include "KthLargestNumber/test_kth_largest.h"
 #include "MergeIntervals/test_merge_intervals.h"
 #include "NonOverlappingIntervals/test_non_overlapping.h"
+#include "MeetingRooms/test_meeting_rooms.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -465,6 +466,12 @@ MunitSuite suites[] = {
         },{
                 "/non_overlapping",
                 non_overlapping_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/meeting_rooms",
+                meeting_rooms_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
