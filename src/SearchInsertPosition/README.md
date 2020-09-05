@@ -1614,3 +1614,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 389
 
 Cache-friendly; one sequential read pass.
+
+## entry 390
+
+Edge case: input with a single peak → handled by the first-pass scan.
