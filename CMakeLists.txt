@@ -70,6 +70,7 @@ add_executable(rotate_image src/RotateImage/main.c src/RotateImage/rotate_image.
 add_executable(kth_largest src/KthLargestNumber/main.c src/KthLargestNumber/kth_largest.c)
 add_executable(merge_intervals src/MergeIntervals/main.c src/MergeIntervals/merge_intervals.c)
 add_executable(non_overlapping src/NonOverlappingIntervals/main.c src/NonOverlappingIntervals/non_overlapping.c)
+add_executable(meeting_rooms src/MeetingRooms/main.c src/MeetingRooms/meeting_rooms.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -204,4 +205,5 @@ target_link_libraries(rotate_image PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>
 target_link_libraries(kth_largest PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(merge_intervals PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(non_overlapping PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(meeting_rooms PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
