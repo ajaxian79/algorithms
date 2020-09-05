@@ -1650,3 +1650,7 @@ Linear in n; the constant factor is small.
 ## entry 398
 
 Time complexity: O(n).
+
+## entry 399
+
+Time complexity: O(n*k) where k is the alphabet size.
