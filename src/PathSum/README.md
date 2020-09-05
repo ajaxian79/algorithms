@@ -1660,3 +1660,7 @@ Stable when the input is already sorted.
 ## entry 400
 
 Time complexity: O(n + m).
+
+## entry 401
+
+Edge case: input with a single peak → handled by the first-pass scan.
