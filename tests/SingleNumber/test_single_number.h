@@ -183,3 +183,4 @@ MunitTest single_number_tests[] = {
 // edge note 152: Worst case appears only on degenerate inputs.
 // edge note 153: Space complexity: O(h) for the tree height.
 // edge note 154: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 155: Edge case: power-of-two-length input → no padding required.
