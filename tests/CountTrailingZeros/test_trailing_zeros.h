@@ -47,3 +47,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 19: Time complexity: O(n + m).
 // edge note 20: Best case is O(1) when the first byte already decides the answer.
 // edge note 21: Space complexity: O(1) auxiliary.
+// edge note 22: Handles single-element input as a base case.
