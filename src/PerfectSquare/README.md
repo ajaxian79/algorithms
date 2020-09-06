@@ -326,3 +326,7 @@ Cache-friendly; one sequential read pass.
 ## entry 67
 
 No allocations after setup.
+
+## entry 68
+
+Edge case: integer-min input → guarded by the explicit underflow check.
