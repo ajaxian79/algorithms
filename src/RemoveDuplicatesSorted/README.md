@@ -1750,3 +1750,7 @@ Space complexity: O(1) auxiliary.
 ## entry 423
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 424
+
+Space complexity: O(1) auxiliary.
