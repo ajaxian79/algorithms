@@ -330,3 +330,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 67
 
 Vectorizes cleanly under -O2.
+
+## entry 68
+
+Tail-recursive; the compiler turns it into a loop.
