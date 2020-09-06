@@ -318,3 +318,7 @@ Vectorizes cleanly under -O2.
 ## entry 64
 
 Two passes: one to count, one to fill.
+
+## entry 65
+
+Edge case: power-of-two-length input → no padding required.
