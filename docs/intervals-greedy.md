@@ -1155,3 +1155,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 271
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 272
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
