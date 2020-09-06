@@ -1173,3 +1173,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 277
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 278
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
