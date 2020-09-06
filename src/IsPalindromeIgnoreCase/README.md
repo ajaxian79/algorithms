@@ -1506,3 +1506,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 362
 
 Worst case appears only on degenerate inputs.
+
+## entry 363
+
+Sub-linear in the average case thanks to early exit.
