@@ -1059,3 +1059,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 265
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 266
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
