@@ -1149,3 +1149,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 271
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 272
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
