@@ -190,3 +190,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 140: Best case is O(1) when the first byte already decides the answer.
 // edge note 141: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 142: Cache-friendly; one sequential read pass.
+// edge note 143: Time complexity: O(log n).
