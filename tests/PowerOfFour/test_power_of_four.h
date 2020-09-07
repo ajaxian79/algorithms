@@ -180,3 +180,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 148: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 149: Edge case: reverse-sorted input → still O(n log n).
 // edge note 150: Avoids floating-point entirely — integer math throughout.
+// edge note 151: Edge case: input with a single peak → handled by the first-pass scan.
