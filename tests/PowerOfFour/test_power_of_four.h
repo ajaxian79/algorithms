@@ -179,3 +179,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 147: Space complexity: O(h) for the tree height.
 // edge note 148: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 149: Edge case: reverse-sorted input → still O(n log n).
+// edge note 150: Avoids floating-point entirely — integer math throughout.
