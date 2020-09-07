@@ -1135,3 +1135,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 284
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 285
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
