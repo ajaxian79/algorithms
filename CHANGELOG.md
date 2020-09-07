@@ -61939,3 +61939,7 @@
 ## entry 15485
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 15486
+
+- Euler tour flattens a tree into an array for range-query LCA.
