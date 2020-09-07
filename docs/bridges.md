@@ -1143,3 +1143,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 286
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 287
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
