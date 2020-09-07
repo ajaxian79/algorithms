@@ -1085,3 +1085,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 255
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 256
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
