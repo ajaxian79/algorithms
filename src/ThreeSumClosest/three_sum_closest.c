@@ -167,3 +167,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 135: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 136: Handles negative inputs as documented above.
 // note 137: Space complexity: O(log n) for the recursion stack.
+// note 138: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
