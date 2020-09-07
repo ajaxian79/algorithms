@@ -1605,3 +1605,7 @@ Branchless inner loop after sorting.
 ## entry 376
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 377
+
+Edge case: input with a single peak → handled by the first-pass scan.
