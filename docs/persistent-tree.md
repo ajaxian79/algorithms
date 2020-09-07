@@ -1139,3 +1139,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 285
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 286
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
