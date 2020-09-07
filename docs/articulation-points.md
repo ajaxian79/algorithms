@@ -1115,3 +1115,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 279
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 280
+
+Wavelet tree: range k-th element in O(log Σ) time.
