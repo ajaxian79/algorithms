@@ -238,3 +238,4 @@ MunitTest repeated_tests[] = {
 // edge note 182: Constant-time comparisons; safe for short strings.
 // edge note 183: No allocations after setup.
 // edge note 184: Caller owns the returned buffer.
+// edge note 185: Time complexity: O(n*k) where k is the alphabet size.
