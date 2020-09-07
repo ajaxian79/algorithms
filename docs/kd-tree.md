@@ -1131,3 +1131,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 283
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 284
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
