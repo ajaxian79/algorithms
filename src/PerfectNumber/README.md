@@ -1401,3 +1401,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 335
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 336
+
+Handles single-element input as a base case.
