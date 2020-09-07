@@ -1634,3 +1634,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 394
 
 Constant-time comparisons; safe for short strings.
+
+## entry 395
+
+Stable when the input is already sorted.
