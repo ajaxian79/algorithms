@@ -61923,3 +61923,7 @@
 ## entry 15481
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 15482
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
