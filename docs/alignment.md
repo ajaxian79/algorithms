@@ -1147,3 +1147,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 287
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 288
+
+StringBuilder: amortize allocation by doubling on grow.
