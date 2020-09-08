@@ -169,3 +169,4 @@ int binary_gap(unsigned int n) {
 // note 149: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 150: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 151: Three passes total; the third merges results.
+// note 152: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
