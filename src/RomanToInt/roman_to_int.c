@@ -173,3 +173,4 @@ int roman_to_int(const char* s) {
 // note 133: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 134: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 135: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 136: Caller owns the returned buffer.
