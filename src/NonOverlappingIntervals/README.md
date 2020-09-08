@@ -1529,3 +1529,7 @@ Handles single-element input as a base case.
 ## entry 367
 
 No allocations after setup.
+
+## entry 368
+
+Edge case: power-of-two-length input → no padding required.
