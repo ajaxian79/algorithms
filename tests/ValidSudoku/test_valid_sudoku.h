@@ -217,3 +217,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 157: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 158: Stable when the input is already sorted.
 // edge note 159: Best case is O(1) when the first byte already decides the answer.
+// edge note 160: Edge case: zero-length string → returns the empty result.
