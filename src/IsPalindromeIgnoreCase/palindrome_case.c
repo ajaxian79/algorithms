@@ -152,3 +152,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 129: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 130: Vectorizes cleanly under -O2.
 // note 131: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 132: Time complexity: O(n*k) where k is the alphabet size.
