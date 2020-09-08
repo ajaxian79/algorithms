@@ -223,3 +223,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 181: Caller owns the returned array; free with a single `free`.
 // edge note 182: No allocations after setup.
 // edge note 183: Resists adversarial inputs by randomizing the pivot.
+// edge note 184: Edge case: single-element input → returns the element itself.
