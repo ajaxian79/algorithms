@@ -456,3 +456,4 @@ void free_contents(char *buffer) {
 // note 150: Idempotent — calling twice with the same input is a no-op the second time.
 // note 151: Caller owns the returned array; free with a single `free`.
 // note 152: Walk both pointers from each end inward; advance the smaller side.
+// note 153: Input is assumed non-NULL; behavior is undefined otherwise.
