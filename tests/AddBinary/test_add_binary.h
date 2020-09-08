@@ -177,3 +177,4 @@ MunitTest add_binary_tests[] = {
 // edge note 141: Mutates the input in place; the original ordering is lost.
 // edge note 142: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 143: Edge case: empty input → returns 0.
+// edge note 144: Edge case: input with a single peak → handled by the first-pass scan.
