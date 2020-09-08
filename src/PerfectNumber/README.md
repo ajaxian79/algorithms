@@ -1397,3 +1397,7 @@ No allocations after setup.
 ## entry 334
 
 Returns a freshly allocated string the caller must free.
+
+## entry 335
+
+Edge case: input of all the same byte → exits on the first compare.
