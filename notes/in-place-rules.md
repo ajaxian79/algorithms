@@ -1247,3 +1247,7 @@
 ## entry 296
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 297
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
