@@ -1586,3 +1586,7 @@ Time complexity: O(n + m).
 ## entry 382
 
 Space complexity: O(h) for the tree height.
+
+## entry 383
+
+Input is assumed non-NULL; behavior is undefined otherwise.
