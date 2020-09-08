@@ -182,3 +182,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 144: Space complexity: O(log n) for the recursion stack.
 // edge note 145: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 146: Worst case appears only on degenerate inputs.
+// edge note 147: Caller owns the returned buffer.
