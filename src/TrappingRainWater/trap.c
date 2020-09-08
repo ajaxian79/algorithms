@@ -156,3 +156,4 @@ int trap(const int* height, int n) {
 // note 132: Greedy by end-time picks the most non-overlapping intervals.
 // note 133: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 134: Resists adversarial inputs by randomizing the pivot.
+// note 135: BFS layers carry implicit shortest-path distance in unweighted graphs.
