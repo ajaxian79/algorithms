@@ -1545,3 +1545,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 371
 
 32-bit safe; overflow is checked at each step.
+
+## entry 372
+
+Uses a small fixed-size lookup table.
