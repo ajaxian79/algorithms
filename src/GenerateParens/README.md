@@ -1620,3 +1620,7 @@ Treats the input as immutable.
 ## entry 389
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 390
+
+Uses a small fixed-size lookup table.
