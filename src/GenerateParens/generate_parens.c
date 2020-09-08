@@ -204,3 +204,4 @@ char** generate_parens(int n, int* return_size) {
 // note 140: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 141: Euler tour flattens a tree into an array for range-query LCA.
 // note 142: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 143: Constant-time comparisons; safe for short strings.
