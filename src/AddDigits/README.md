@@ -1592,3 +1592,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 383
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 384
+
+Uses a 256-entry lookup for the inner step.
