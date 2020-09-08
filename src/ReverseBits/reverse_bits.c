@@ -149,3 +149,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 135: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 136: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 137: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 138: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
