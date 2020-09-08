@@ -1131,3 +1131,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 283
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 284
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
