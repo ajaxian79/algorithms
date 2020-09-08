@@ -1117,3 +1117,7 @@
 ## entry 264
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 265
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
