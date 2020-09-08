@@ -1127,3 +1127,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 282
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 283
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
