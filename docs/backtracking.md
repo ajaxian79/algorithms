@@ -253,3 +253,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 46
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 47
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
