@@ -1195,3 +1195,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 282
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 283
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
