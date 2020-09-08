@@ -237,3 +237,4 @@ MunitTest repeated_tests[] = {
 // edge note 181: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 182: Constant-time comparisons; safe for short strings.
 // edge note 183: No allocations after setup.
+// edge note 184: Caller owns the returned buffer.
