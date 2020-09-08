@@ -296,3 +296,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 59
 
 Uses a small fixed-size lookup table.
+
+## entry 60
+
+Best case is O(1) when the first byte already decides the answer.
