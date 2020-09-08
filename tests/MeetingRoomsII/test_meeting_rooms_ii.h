@@ -193,3 +193,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 162: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 163: Branchless inner loop after sorting.
 // edge note 164: Avoids floating-point entirely — integer math throughout.
+// edge note 165: 32-bit safe; overflow is checked at each step.
