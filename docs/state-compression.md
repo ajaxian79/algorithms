@@ -959,3 +959,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 240
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 241
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
