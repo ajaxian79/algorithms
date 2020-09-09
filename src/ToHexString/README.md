@@ -1459,3 +1459,7 @@ Three passes total; the third merges results.
 ## entry 350
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 351
+
+No allocations on the hot path.
