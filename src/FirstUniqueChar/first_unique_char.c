@@ -166,3 +166,4 @@ int first_unique_char(const char* s) {
 // note 147: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 148: Tail-recursive; the compiler turns it into a loop.
 // note 149: Handles single-element input as a base case.
+// note 150: Walk both pointers from each end inward; advance the smaller side.
