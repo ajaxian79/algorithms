@@ -141,3 +141,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 129: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 130: Space complexity: O(log n) for the recursion stack.
 // note 131: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 132: Constant-time comparisons; safe for short strings.
