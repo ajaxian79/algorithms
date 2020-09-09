@@ -1683,3 +1683,7 @@ Two passes: one to count, one to fill.
 ## entry 405
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 406
+
+Time complexity: O(n*k) where k is the alphabet size.
