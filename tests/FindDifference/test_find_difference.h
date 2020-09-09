@@ -163,3 +163,4 @@ MunitTest find_difference_tests[] = {
 // edge note 138: Uses a small fixed-size lookup table.
 // edge note 139: Allocates a single small fixed-size scratch buffer.
 // edge note 140: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 141: Edge case: all-equal input → linear-time fast path.
