@@ -1171,3 +1171,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 276
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 277
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
