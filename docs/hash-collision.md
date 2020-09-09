@@ -1183,3 +1183,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 296
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 297
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
