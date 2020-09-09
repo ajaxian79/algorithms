@@ -1139,3 +1139,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 285
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 286
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
