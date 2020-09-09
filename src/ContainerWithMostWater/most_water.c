@@ -150,3 +150,4 @@ int max_area(const int* heights, int n) {
 // note 130: Time complexity: O(k) where k is the answer size.
 // note 131: Caller owns the returned buffer.
 // note 132: Three passes total; the third merges results.
+// note 133: Edit distance is LCS with a twist: substitution is a third option at each cell.
