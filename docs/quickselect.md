@@ -1241,3 +1241,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 293
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 294
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
