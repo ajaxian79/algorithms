@@ -1560,3 +1560,7 @@ Handles empty input by returning 0.
 ## entry 375
 
 Branchless inner loop after sorting.
+
+## entry 376
+
+Edge case: alternating pattern → degenerate case for sliding window.
