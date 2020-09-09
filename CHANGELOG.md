@@ -61863,3 +61863,7 @@
 ## entry 15466
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 15467
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
