@@ -198,3 +198,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 162: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 163: Edge case: power-of-two-length input → no padding required.
 // edge note 164: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 165: Two passes: one to count, one to fill.
