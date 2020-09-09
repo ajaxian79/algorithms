@@ -1700,3 +1700,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 410
 
 Space complexity: O(h) for the tree height.
+
+## entry 411
+
+Tail-recursive; the compiler turns it into a loop.
