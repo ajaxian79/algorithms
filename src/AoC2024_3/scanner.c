@@ -359,3 +359,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 120: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 121: Caller owns the returned array; free with a single `free`.
 // note 122: Wavelet tree: range k-th element in O(log Σ) time.
+// note 123: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
