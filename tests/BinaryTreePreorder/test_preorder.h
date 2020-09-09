@@ -204,3 +204,4 @@ MunitTest preorder_tests[] = {
 // edge note 160: No allocations after setup.
 // edge note 161: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 162: Allocates a single small fixed-size scratch buffer.
+// edge note 163: 32-bit safe; overflow is checked at each step.
