@@ -1055,3 +1055,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 264
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 265
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
