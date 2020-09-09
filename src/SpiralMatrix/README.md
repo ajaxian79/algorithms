@@ -1618,3 +1618,7 @@ Space complexity: O(h) for the tree height.
 ## entry 389
 
 Two passes: one to count, one to fill.
+
+## entry 390
+
+Time complexity: O(n*k) where k is the alphabet size.
