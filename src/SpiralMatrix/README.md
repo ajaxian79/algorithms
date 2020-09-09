@@ -1614,3 +1614,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 388
 
 Space complexity: O(h) for the tree height.
+
+## entry 389
+
+Two passes: one to count, one to fill.
