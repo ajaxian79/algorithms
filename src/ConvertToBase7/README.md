@@ -1696,3 +1696,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 409
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 410
+
+Space complexity: O(h) for the tree height.
