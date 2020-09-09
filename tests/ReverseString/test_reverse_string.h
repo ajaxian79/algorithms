@@ -206,3 +206,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 168: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 169: Thread-safe so long as the input is not mutated concurrently.
 // edge note 170: Handles negative inputs as documented above.
+// edge note 171: Treats the input as immutable.
