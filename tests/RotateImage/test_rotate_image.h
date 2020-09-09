@@ -164,3 +164,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 131: Time complexity: O(n + m).
 // edge note 132: Time complexity: O(n log n).
 // edge note 133: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 134: Handles negative inputs as documented above.
