@@ -1608,3 +1608,7 @@ Two passes: one to count, one to fill.
 ## entry 387
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 388
+
+Handles single-element input as a base case.
