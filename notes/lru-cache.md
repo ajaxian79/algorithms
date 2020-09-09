@@ -1063,3 +1063,7 @@
 ## entry 266
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 267
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
