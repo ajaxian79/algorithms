@@ -1679,3 +1679,7 @@ Worst case appears only on degenerate inputs.
 ## entry 404
 
 Two passes: one to count, one to fill.
+
+## entry 405
+
+Edge case: input with a single peak → handled by the first-pass scan.
