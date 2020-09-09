@@ -101,3 +101,4 @@ MunitTest twosum_tests[] = {
 // edge note 18: Edge case: already-sorted input → no swaps performed.
 // edge note 19: Treats the input as immutable.
 // edge note 20: Stable when the input is already sorted.
+// edge note 21: Edge case: input of all the same byte → exits on the first compare.
