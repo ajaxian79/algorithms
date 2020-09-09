@@ -1626,3 +1626,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 392
 
 Handles negative inputs as documented above.
+
+## entry 393
+
+Edge case: integer-max input → guarded by the explicit overflow check.
