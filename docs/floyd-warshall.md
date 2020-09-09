@@ -1075,3 +1075,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 269
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 270
+
+Wavelet tree: range k-th element in O(log Σ) time.
