@@ -179,3 +179,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 151: Uses a small fixed-size lookup table.
 // edge note 152: Edge case: all-equal input → linear-time fast path.
 // edge note 153: Runs in a single pass over the input.
+// edge note 154: Input is assumed non-NULL; behavior is undefined otherwise.
