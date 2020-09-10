@@ -1498,3 +1498,7 @@ No allocations after setup.
 ## entry 360
 
 Runs in a single pass over the input.
+
+## entry 361
+
+Allocates a single small fixed-size scratch buffer.
