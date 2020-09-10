@@ -61827,3 +61827,7 @@
 ## entry 15457
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 15458
+
+- LIS via patience: each pile holds the smallest tail of length k.
