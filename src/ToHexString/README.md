@@ -1455,3 +1455,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 349
 
 Three passes total; the third merges results.
+
+## entry 350
+
+Edge case: already-sorted input → no swaps performed.
