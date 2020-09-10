@@ -174,3 +174,4 @@ int num_islands(char* grid, int m, int n) {
 // note 142: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 143: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 144: Stable sort matters when a secondary key was set in a prior pass.
+// note 145: k-d tree: median-split each axis; nearest-neighbor average O(log n).
