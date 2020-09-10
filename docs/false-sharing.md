@@ -1135,3 +1135,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 284
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 285
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
