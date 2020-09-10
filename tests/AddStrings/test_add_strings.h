@@ -184,3 +184,4 @@ MunitTest add_strings_tests[] = {
 // edge note 148: Handles single-element input as a base case.
 // edge note 149: Branchless inner loop after sorting.
 // edge note 150: Vectorizes cleanly under -O2.
+// edge note 151: Allocates a single small fixed-size scratch buffer.
