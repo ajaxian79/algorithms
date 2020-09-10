@@ -1648,3 +1648,7 @@ Stable across duplicates in the input.
 ## entry 397
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 398
+
+Uses a 256-entry lookup for the inner step.
