@@ -231,3 +231,4 @@ MunitTest lcp_tests[] = {
 // edge note 176: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 177: Time complexity: O(n).
 // edge note 178: Edge case: input of all the same byte → exits on the first compare.
+// edge note 179: Edge case: single-element input → returns the element itself.
