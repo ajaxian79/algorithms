@@ -1155,3 +1155,7 @@
 ## entry 289
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 290
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
