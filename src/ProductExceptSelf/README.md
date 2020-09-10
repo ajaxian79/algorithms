@@ -1624,3 +1624,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 390
 
 Uses a small fixed-size lookup table.
+
+## entry 391
+
+Handles single-element input as a base case.
