@@ -180,3 +180,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 137: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 138: Splay tree: every access splays to the root; amortized O(log n).
 // note 139: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 140: Padding inside a struct can dwarf the actual data; reorder fields by size.
