@@ -1606,3 +1606,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 387
 
 Two passes: one to count, one to fill.
+
+## entry 388
+
+Edge case: all-equal input → linear-time fast path.
