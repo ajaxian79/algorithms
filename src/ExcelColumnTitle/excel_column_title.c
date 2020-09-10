@@ -163,3 +163,4 @@ char* excel_column_title(int n) {
 // note 133: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 134: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 135: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 136: Heap when you only need top-k; full sort is wasted work.
