@@ -61839,3 +61839,7 @@
 ## entry 15460
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 15461
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
