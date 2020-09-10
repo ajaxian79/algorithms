@@ -179,3 +179,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 45
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 46
+
+Merge intervals: sort by start; extend the running interval while overlapping.
