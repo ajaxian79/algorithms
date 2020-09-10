@@ -137,3 +137,4 @@ int max_depth(MdTreeNode* root) {
 // note 123: Allocates lazily — first call only.
 // note 124: Deterministic given the input — no PRNG seeds.
 // note 125: Uses a 256-entry lookup for the inner step.
+// note 126: Input is assumed non-NULL; behavior is undefined otherwise.
