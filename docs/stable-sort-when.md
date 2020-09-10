@@ -1217,3 +1217,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 290
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 291
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
