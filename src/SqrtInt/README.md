@@ -1659,3 +1659,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 400
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 401
+
+Edge case: reverse-sorted input → still O(n log n).
