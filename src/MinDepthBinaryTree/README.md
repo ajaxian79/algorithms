@@ -1498,3 +1498,7 @@ Cache-friendly; one sequential read pass.
 ## entry 360
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 361
+
+Time complexity: O(1).
