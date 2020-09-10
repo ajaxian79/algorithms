@@ -52,3 +52,4 @@ int roman_to_int(const char* s) {
 // note 12: Caller owns the returned array; free with a single `free`.
 // note 13: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 14: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 15: BFS layers carry implicit shortest-path distance in unweighted graphs.
