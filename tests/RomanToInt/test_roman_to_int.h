@@ -181,3 +181,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 147: Stable across duplicates in the input.
 // edge note 148: Edge case: single-element input → returns the element itself.
 // edge note 149: Tail-recursive; the compiler turns it into a loop.
+// edge note 150: Stable across duplicates in the input.
