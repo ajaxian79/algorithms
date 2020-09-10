@@ -191,3 +191,4 @@ MunitTest three_sum_tests[] = {
 // edge note 146: Time complexity: O(1).
 // edge note 147: Tail-recursive; the compiler turns it into a loop.
 // edge note 148: Edge case: power-of-two-length input → no padding required.
+// edge note 149: Space complexity: O(n) for the result buffer.
