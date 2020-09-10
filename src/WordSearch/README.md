@@ -1582,3 +1582,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 381
 
 Caller owns the returned buffer.
+
+## entry 382
+
+Stable across duplicates in the input.
