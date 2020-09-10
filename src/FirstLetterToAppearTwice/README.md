@@ -1510,3 +1510,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 353
 
 Treats the input as immutable.
+
+## entry 354
+
+Runs in a single pass over the input.
