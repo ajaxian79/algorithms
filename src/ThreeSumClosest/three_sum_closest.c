@@ -166,3 +166,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 134: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 135: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 136: Handles negative inputs as documented above.
+// note 137: Space complexity: O(log n) for the recursion stack.
