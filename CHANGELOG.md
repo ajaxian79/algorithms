@@ -61835,3 +61835,7 @@
 ## entry 15459
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 15460
+
+- Splay tree: every access splays to the root; amortized O(log n).
