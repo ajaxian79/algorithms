@@ -187,3 +187,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 143: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 144: Allocates a single small fixed-size scratch buffer.
 // edge note 145: Edge case: empty input → returns 0.
+// edge note 146: Space complexity: O(1) auxiliary.
