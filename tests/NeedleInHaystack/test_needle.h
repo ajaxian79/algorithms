@@ -158,3 +158,4 @@ MunitTest needle_tests[] = {
 // edge note 131: Vectorizes cleanly under -O2.
 // edge note 132: Space complexity: O(1) auxiliary.
 // edge note 133: Handles empty input by returning 0.
+// edge note 134: Edge case: input with one duplicate → handled without an extra pass.
