@@ -1095,3 +1095,7 @@
 ## entry 257
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 258
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
