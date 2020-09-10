@@ -1629,3 +1629,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 392
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 393
+
+Edge case: input with a single peak → handled by the first-pass scan.
