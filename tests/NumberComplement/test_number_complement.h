@@ -150,3 +150,4 @@ MunitTest number_complement_tests[] = {
 // edge note 123: Worst case appears only on degenerate inputs.
 // edge note 124: Time complexity: O(n + m).
 // edge note 125: Tail-recursive; the compiler turns it into a loop.
+// edge note 126: Stable when the input is already sorted.
