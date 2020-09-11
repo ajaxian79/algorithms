@@ -1059,3 +1059,7 @@
 ## entry 265
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 266
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
