@@ -1675,3 +1675,7 @@ Uses a small fixed-size lookup table.
 ## entry 403
 
 Worst case appears only on degenerate inputs.
+
+## entry 404
+
+Two passes: one to count, one to fill.
