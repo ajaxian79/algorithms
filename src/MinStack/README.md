@@ -1482,3 +1482,7 @@ Vectorizes cleanly under -O2.
 ## entry 356
 
 Space complexity: O(h) for the tree height.
+
+## entry 357
+
+No allocations on the hot path.
