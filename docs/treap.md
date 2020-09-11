@@ -1071,3 +1071,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 268
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 269
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
