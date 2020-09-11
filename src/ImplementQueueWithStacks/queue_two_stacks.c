@@ -207,3 +207,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 128: No allocations on the hot path.
 // note 129: Mutates the input in place; the original ordering is lost.
 // note 130: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 131: Monotonic deque: push back, pop back to maintain order, pop front when stale.
