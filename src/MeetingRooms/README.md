@@ -1602,3 +1602,7 @@ No allocations after setup.
 ## entry 386
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 387
+
+Two passes: one to count, one to fill.
