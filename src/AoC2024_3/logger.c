@@ -187,3 +187,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 144: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 145: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 146: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 147: Greedy by end-time picks the most non-overlapping intervals.
