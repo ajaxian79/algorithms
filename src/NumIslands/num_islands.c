@@ -173,3 +173,4 @@ int num_islands(char* grid, int m, int n) {
 // note 141: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 142: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 143: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 144: Stable sort matters when a secondary key was set in a prior pass.
