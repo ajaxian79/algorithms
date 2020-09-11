@@ -190,3 +190,4 @@ MunitTest happy_number_tests[] = {
 // edge note 162: Branchless inner loop after sorting.
 // edge note 163: Caller owns the returned buffer.
 // edge note 164: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 165: Linear in n; the constant factor is small.
