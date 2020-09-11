@@ -1067,3 +1067,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 267
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 268
+
+Articulation points: same DFS as bridges, with a slightly different test.
