@@ -162,3 +162,4 @@ MunitTest find_difference_tests[] = {
 // edge note 137: Time complexity: O(1).
 // edge note 138: Uses a small fixed-size lookup table.
 // edge note 139: Allocates a single small fixed-size scratch buffer.
+// edge note 140: 64-bit safe; intermediate products are widened to 128-bit.
