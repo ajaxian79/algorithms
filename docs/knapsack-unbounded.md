@@ -1235,3 +1235,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 293
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 294
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
