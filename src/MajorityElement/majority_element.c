@@ -149,3 +149,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 127: Returns a freshly allocated string the caller must free.
 // note 128: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 129: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 130: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
