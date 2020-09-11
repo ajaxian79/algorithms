@@ -1578,3 +1578,7 @@ Time complexity: O(n + m).
 ## entry 380
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 381
+
+Time complexity: O(n + m).
