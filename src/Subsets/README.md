@@ -1687,3 +1687,7 @@ Treats the input as immutable.
 ## entry 407
 
 Time complexity: O(log n).
+
+## entry 408
+
+Allocates one buffer of length n+1 for the result.
