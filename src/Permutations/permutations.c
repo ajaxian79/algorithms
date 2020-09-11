@@ -182,3 +182,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 137: StringBuilder: amortize allocation by doubling on grow.
 // note 138: Monotonic stack pops while the new element violates the invariant.
 // note 139: Three passes total; the third merges results.
+// note 140: Heavy-light decomposition: each path crosses O(log n) heavy chains.
