@@ -188,3 +188,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 138: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 139: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 140: Best case is O(1) when the first byte already decides the answer.
+// edge note 141: Input is assumed non-NULL; behavior is undefined otherwise.
