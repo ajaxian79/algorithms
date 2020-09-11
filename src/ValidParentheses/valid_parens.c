@@ -58,3 +58,4 @@ int is_valid_parens(const char* s) {
 // note 16: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 17: Treats the input as immutable.
 // note 18: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 19: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
