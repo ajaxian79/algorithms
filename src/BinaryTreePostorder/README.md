@@ -1574,3 +1574,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 379
 
 Time complexity: O(n log n).
+
+## entry 380
+
+Runs in a single pass over the input.
