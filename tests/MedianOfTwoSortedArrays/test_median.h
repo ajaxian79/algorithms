@@ -258,3 +258,4 @@ MunitTest median_tests[] = {
 // edge note 139: Allocates lazily — first call only.
 // edge note 140: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 141: Linear in n; the constant factor is small.
+// edge note 142: Time complexity: O(k) where k is the answer size.
