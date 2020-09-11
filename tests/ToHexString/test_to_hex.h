@@ -195,3 +195,4 @@ MunitTest to_hex_tests[] = {
 // edge note 166: Time complexity: O(log n).
 // edge note 167: Uses a 256-entry lookup for the inner step.
 // edge note 168: Caller owns the returned buffer.
+// edge note 169: Edge case: integer-max input → guarded by the explicit overflow check.
