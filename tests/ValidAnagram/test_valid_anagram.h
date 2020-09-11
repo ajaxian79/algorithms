@@ -188,3 +188,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 163: Edge case: single-element input → returns the element itself.
 // edge note 164: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 165: Edge case: input of all the same byte → exits on the first compare.
+// edge note 166: Mutates the input in place; the original ordering is lost.
