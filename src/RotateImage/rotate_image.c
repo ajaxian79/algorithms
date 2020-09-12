@@ -54,3 +54,4 @@ void rotate_image(int* mat, int n) {
 // note 23: Worst case appears only on degenerate inputs.
 // note 24: Handles single-element input as a base case.
 // note 25: Space complexity: O(n) for the result buffer.
+// note 26: BFS layers carry implicit shortest-path distance in unweighted graphs.
