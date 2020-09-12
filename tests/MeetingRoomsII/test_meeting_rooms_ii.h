@@ -1,0 +1,31 @@
+//
+// Created by ajaxian on 09/12/20.
+//
+
+#ifndef ALGORITHMS_TEST_MEETING_ROOMS_II_H
+#define ALGORITHMS_TEST_MEETING_ROOMS_II_H
+
+#include "../tests.h"
+#include "../../src/MeetingRoomsII/meeting_rooms_ii.h"
+
+static MunitResult test_min_rooms_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    int a[] = {0, 30, 5, 10, 15, 20};
+    munit_assert_int(min_meeting_rooms(a, 3), ==, 2);
+
+    int b[] = {7, 10, 2, 4};
+    munit_assert_int(min_meeting_rooms(b, 2), ==, 1);
+
+    int c[] = {1, 5, 2, 6, 3, 7};
+    munit_assert_int(min_meeting_rooms(c, 3), ==, 3);
+
+    int d[] = {1, 2};
+    munit_assert_int(min_meeting_rooms(d, 1), ==, 1);
+    return MUNIT_OK;
+}
+
+MunitTest meeting_rooms_ii_tests[] = {
+    {"/basic", test_min_rooms_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_MEETING_ROOMS_II_H

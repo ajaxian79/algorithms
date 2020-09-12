@@ -137,7 +137,8 @@ add_executable(unittests
         src/KthLargestNumber/kth_largest.c
         src/MergeIntervals/merge_intervals.c
         src/NonOverlappingIntervals/non_overlapping.c
-        src/MeetingRooms/meeting_rooms.c)
+        src/MeetingRooms/meeting_rooms.c
+        src/MeetingRoomsII/meeting_rooms_ii.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
