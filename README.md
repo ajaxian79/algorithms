@@ -23,3 +23,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Merge Intervals](src/MergeIntervals) — sort by start, sweep, extend
 * [Non-Overlapping Intervals](src/NonOverlappingIntervals) — greedy by end
 * [Meeting Rooms](src/MeetingRooms) — sort by start, check pairwise
+* [Meeting Rooms II](src/MeetingRoomsII) — peak room count via two-pointer sweep
