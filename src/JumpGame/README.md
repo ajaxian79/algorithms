@@ -317,3 +317,7 @@ Space complexity: O(1) auxiliary.
 ## entry 64
 
 No allocations after setup.
+
+## entry 65
+
+Tail-recursive; the compiler turns it into a loop.
