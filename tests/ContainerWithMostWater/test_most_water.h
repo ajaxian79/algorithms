@@ -44,3 +44,4 @@ MunitTest most_water_tests[] = {
 // edge note 13: Edge case: zero-length string → returns the empty result.
 // edge note 14: Deterministic given the input — no PRNG seeds.
 // edge note 15: Edge case: input of all the same byte → exits on the first compare.
+// edge note 16: Edge case: integer-max input → guarded by the explicit overflow check.
