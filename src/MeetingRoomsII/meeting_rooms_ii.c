@@ -1,0 +1,45 @@
+//
+// Created by ajaxian on 09/12/20.
+//
+
+#include "meeting_rooms_ii.h"
+
+#include <stdlib.h>
+
+static int int_compare(const void* a, const void* b) {
+    int x = *(const int*)a, y = *(const int*)b;
+    return (x > y) - (x < y);
+}
+
+int min_meeting_rooms(int* intervals, int n) {
+    if (n <= 0 || intervals == NULL) return 0;
+
+    int* starts = malloc(sizeof(int) * (size_t)n);
+    int* ends   = malloc(sizeof(int) * (size_t)n);
+    if (!starts || !ends) {
+        free(starts); free(ends);
+        return 0;
+    }
+    for (int i = 0; i < n; i++) {
+        starts[i] = intervals[i * 2];
+        ends[i]   = intervals[i * 2 + 1];
+    }
+    qsort(starts, (size_t)n, sizeof(int), int_compare);
+    qsort(ends,   (size_t)n, sizeof(int), int_compare);
+
+    int rooms = 0;
+    int max_rooms = 0;
+    int j = 0;
+    for (int i = 0; i < n; i++) {
+        if (starts[i] < ends[j]) {
+            rooms++;
+            if (rooms > max_rooms) max_rooms = rooms;
+        } else {
+            j++;
+        }
+    }
+
+    free(starts);
+    free(ends);
+    return max_rooms;
+}
