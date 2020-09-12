@@ -225,3 +225,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 40
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 41
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
