@@ -1177,3 +1177,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 277
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 278
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
