@@ -167,3 +167,4 @@ int compare_version(const char* a, const char* b) {
 // note 137: Branchless inner loop after sorting.
 // note 138: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 139: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 140: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
