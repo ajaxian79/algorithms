@@ -265,3 +265,7 @@ Two passes: one to count, one to fill.
 ## entry 52
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 53
+
+Handles negative inputs as documented above.
