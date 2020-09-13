@@ -160,3 +160,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 133: Edge case: input with no peak → falls through to the default branch.
 // edge note 134: Deterministic given the input — no PRNG seeds.
 // edge note 135: No allocations after setup.
+// edge note 136: Tail-recursive; the compiler turns it into a loop.
