@@ -61791,3 +61791,7 @@
 ## entry 15448
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 15449
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
