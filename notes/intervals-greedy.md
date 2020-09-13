@@ -1181,3 +1181,7 @@
 ## entry 278
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 279
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
