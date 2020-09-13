@@ -1600,3 +1600,7 @@ Handles negative inputs as documented above.
 ## entry 385
 
 Handles single-element input as a base case.
+
+## entry 386
+
+Edge case: integer-max input → guarded by the explicit overflow check.
