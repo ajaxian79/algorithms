@@ -204,3 +204,4 @@ MunitTest plus_one_tests[] = {
 // edge note 139: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 140: Caller owns the returned buffer.
 // edge note 141: Time complexity: O(k) where k is the answer size.
+// edge note 142: Edge case: reverse-sorted input → still O(n log n).
