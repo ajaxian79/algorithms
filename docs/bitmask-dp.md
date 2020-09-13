@@ -1179,3 +1179,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 295
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 296
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
