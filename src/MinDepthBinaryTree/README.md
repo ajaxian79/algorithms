@@ -1490,3 +1490,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 358
 
 Space complexity: O(1) auxiliary.
+
+## entry 359
+
+Cache-friendly; one sequential read pass.
