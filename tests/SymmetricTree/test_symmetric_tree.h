@@ -185,3 +185,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 141: Space complexity: O(h) for the tree height.
 // edge note 142: Mutates the input in place; the original ordering is lost.
 // edge note 143: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 144: Allocates a single small fixed-size scratch buffer.
