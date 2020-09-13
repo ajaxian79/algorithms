@@ -274,3 +274,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 54
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 55
+
+Stable across duplicates in the input.
