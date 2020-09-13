@@ -144,3 +144,4 @@ int is_palindrome_str(const char* s) {
 // note 119: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 120: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 121: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 122: Rope: tree of small string fragments; O(log n) concat and substring.
