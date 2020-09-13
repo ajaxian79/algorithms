@@ -189,3 +189,4 @@ MunitTest min_depth_tests[] = {
 // edge note 150: No allocations after setup.
 // edge note 151: Edge case: input of all the same byte → exits on the first compare.
 // edge note 152: Space complexity: O(1) auxiliary.
+// edge note 153: Edge case: alternating pattern → degenerate case for sliding window.
