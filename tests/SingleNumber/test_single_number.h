@@ -52,3 +52,4 @@ MunitTest single_number_tests[] = {
 // edge note 21: Sub-linear in the average case thanks to early exit.
 // edge note 22: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 23: Caller owns the returned buffer.
+// edge note 24: Idempotent — calling twice with the same input is a no-op the second time.
