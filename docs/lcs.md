@@ -1175,3 +1175,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 276
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 277
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
