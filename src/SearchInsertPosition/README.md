@@ -1610,3 +1610,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 388
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 389
+
+Cache-friendly; one sequential read pass.
