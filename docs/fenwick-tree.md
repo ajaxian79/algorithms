@@ -1151,3 +1151,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 272
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 273
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
