@@ -1123,3 +1123,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 281
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 282
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
