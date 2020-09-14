@@ -182,3 +182,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 151: Edge case: all-equal input → linear-time fast path.
 // edge note 152: Edge case: already-sorted input → no swaps performed.
 // edge note 153: Time complexity: O(n).
+// edge note 154: 32-bit safe; overflow is checked at each step.
