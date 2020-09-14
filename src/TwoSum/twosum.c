@@ -252,3 +252,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 116: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 117: Cache-friendly; one sequential read pass.
 // note 118: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 119: No allocations on the hot path.
