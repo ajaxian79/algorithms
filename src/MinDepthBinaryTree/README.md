@@ -1486,3 +1486,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 357
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 358
+
+Space complexity: O(1) auxiliary.
