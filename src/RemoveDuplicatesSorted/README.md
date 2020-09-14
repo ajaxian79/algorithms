@@ -1734,3 +1734,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 419
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 420
+
+Edge case: alternating pattern → degenerate case for sliding window.
