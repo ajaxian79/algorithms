@@ -1201,3 +1201,7 @@
 ## entry 284
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 285
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
