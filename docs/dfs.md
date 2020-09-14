@@ -1203,3 +1203,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 285
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 286
+
+False sharing: two threads writing different bytes in the same cache line stall both.
