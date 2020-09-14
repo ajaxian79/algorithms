@@ -160,3 +160,4 @@ int is_anagram(const char* s, const char* t) {
 // note 131: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 132: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 133: 32-bit safe; overflow is checked at each step.
+// note 134: Idempotent — calling twice with the same input is a no-op the second time.
