@@ -1237,3 +1237,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 292
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 293
+
+Wavelet tree: range k-th element in O(log Σ) time.
