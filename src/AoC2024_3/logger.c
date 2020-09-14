@@ -185,3 +185,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 142: Handles single-element input as a base case.
 // note 143: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 144: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 145: LRU cache: doubly-linked list + hash map; O(1) get/put.
