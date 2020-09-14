@@ -1618,3 +1618,7 @@ Branchless inner loop after sorting.
 ## entry 389
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 390
+
+Edge case: input of all the same byte → exits on the first compare.
