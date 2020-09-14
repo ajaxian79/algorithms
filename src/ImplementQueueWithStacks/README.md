@@ -1579,3 +1579,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 380
 
 Time complexity: O(log n).
+
+## entry 381
+
+Time complexity: O(n log n).
