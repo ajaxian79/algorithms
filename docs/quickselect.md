@@ -1233,3 +1233,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 291
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 292
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
