@@ -1682,3 +1682,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 405
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 406
+
+Edge case: input with a single peak → handled by the first-pass scan.
