@@ -184,3 +184,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 153: Allocates lazily — first call only.
 // edge note 154: Worst case appears only on degenerate inputs.
 // edge note 155: Three passes total; the third merges results.
+// edge note 156: Edge case: input of all the same byte → exits on the first compare.
