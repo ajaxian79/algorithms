@@ -1173,3 +1173,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 276
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 277
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
