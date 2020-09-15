@@ -158,3 +158,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 130: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 131: Deterministic given the input — no PRNG seeds.
 // note 132: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 133: Allocates a single small fixed-size scratch buffer.
