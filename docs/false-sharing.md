@@ -1127,3 +1127,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 282
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 283
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
