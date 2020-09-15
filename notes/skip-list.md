@@ -1055,3 +1055,7 @@
 ## entry 264
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 265
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
