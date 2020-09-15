@@ -1650,3 +1650,7 @@ Cache-friendly; one sequential read pass.
 ## entry 397
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 398
+
+Deterministic given the input — no PRNG seeds.
