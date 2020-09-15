@@ -144,3 +144,4 @@ char repeatedCharacter(char* s) {
 // note 121: Constant-time comparisons; safe for short strings.
 // note 122: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 123: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 124: Runs in a single pass over the input.
