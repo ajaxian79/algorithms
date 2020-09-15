@@ -182,3 +182,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 153: Reentrant — no static state.
 // edge note 154: Time complexity: O(k) where k is the answer size.
 // edge note 155: Uses a small fixed-size lookup table.
+// edge note 156: Idempotent — calling twice with the same input is a no-op the second time.
