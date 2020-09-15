@@ -61703,3 +61703,7 @@
 ## entry 15426
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 15427
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
