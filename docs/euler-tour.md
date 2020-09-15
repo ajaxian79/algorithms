@@ -1135,3 +1135,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 284
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 285
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
