@@ -61711,3 +61711,7 @@
 ## entry 15428
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 15429
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
