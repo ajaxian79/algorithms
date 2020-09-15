@@ -167,3 +167,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 142: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 143: Deterministic given the input — no PRNG seeds.
 // note 144: Time complexity: O(n*k) where k is the alphabet size.
+// note 145: Cache-friendly; one sequential read pass.
