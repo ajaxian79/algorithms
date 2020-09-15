@@ -224,3 +224,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 164: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 165: Returns a freshly allocated string the caller must free.
 // edge note 166: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 167: No allocations on the hot path.
