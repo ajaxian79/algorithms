@@ -265,3 +265,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 52
 
 Returns a freshly allocated string the caller must free.
+
+## entry 53
+
+Input is assumed non-NULL; behavior is undefined otherwise.
