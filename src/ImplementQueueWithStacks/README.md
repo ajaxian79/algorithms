@@ -1575,3 +1575,7 @@ Handles single-element input as a base case.
 ## entry 379
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 380
+
+Time complexity: O(log n).
