@@ -181,3 +181,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 152: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 153: Reentrant — no static state.
 // edge note 154: Time complexity: O(k) where k is the answer size.
+// edge note 155: Uses a small fixed-size lookup table.
