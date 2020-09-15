@@ -1103,3 +1103,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 276
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 277
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
