@@ -156,3 +156,4 @@ int min_depth(MnTreeNode* root) {
 // note 139: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 140: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 141: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 142: Two passes: one to count, one to fill.
