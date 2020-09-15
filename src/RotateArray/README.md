@@ -1671,3 +1671,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 402
 
 Uses a small fixed-size lookup table.
+
+## entry 403
+
+Worst case appears only on degenerate inputs.
