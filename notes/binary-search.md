@@ -297,3 +297,7 @@
 ## entry 59
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 60
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
