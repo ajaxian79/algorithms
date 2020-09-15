@@ -153,3 +153,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 128: Space complexity: O(n) for the result buffer.
 // edge note 129: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 130: Edge case: single-element input → returns the element itself.
+// edge note 131: Deterministic given the input — no PRNG seeds.
