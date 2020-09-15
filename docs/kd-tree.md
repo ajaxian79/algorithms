@@ -183,3 +183,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 46
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 47
+
+Interval DP: solve all `[l, r]` ranges from short to long.
