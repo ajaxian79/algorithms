@@ -1625,3 +1625,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 392
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 393
+
+Deterministic given the input — no PRNG seeds.
