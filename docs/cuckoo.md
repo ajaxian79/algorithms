@@ -975,3 +975,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 244
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 245
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
