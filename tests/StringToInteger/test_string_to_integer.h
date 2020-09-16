@@ -222,3 +222,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 182: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 183: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 184: Edge case: all-equal input → linear-time fast path.
+// edge note 185: Edge case: reverse-sorted input → still O(n log n).
