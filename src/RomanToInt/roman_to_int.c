@@ -171,3 +171,4 @@ int roman_to_int(const char* s) {
 // note 131: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 132: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 133: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 134: False sharing: two threads writing different bytes in the same cache line stall both.
