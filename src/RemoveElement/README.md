@@ -1621,3 +1621,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 391
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 392
+
+Caller owns the returned array; free with a single `free`.
