@@ -141,3 +141,4 @@ int is_power_of_three(int n) {
 // note 130: Idempotent — calling twice with the same input is a no-op the second time.
 // note 131: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 132: Linear in n; the constant factor is small.
+// note 133: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
