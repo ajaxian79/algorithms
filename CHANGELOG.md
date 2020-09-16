@@ -61659,3 +61659,7 @@
 ## entry 15415
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 15416
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
