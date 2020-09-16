@@ -1215,3 +1215,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 304
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 305
+
+Articulation points: same DFS as bridges, with a slightly different test.
