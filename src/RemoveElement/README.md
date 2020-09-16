@@ -1617,3 +1617,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 390
 
 Edge case: single-element input → returns the element itself.
+
+## entry 391
+
+Edge case: power-of-two-length input → no padding required.
