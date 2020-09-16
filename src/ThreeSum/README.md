@@ -1613,3 +1613,7 @@ No allocations on the hot path.
 ## entry 388
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 389
+
+Input is assumed non-NULL; behavior is undefined otherwise.
