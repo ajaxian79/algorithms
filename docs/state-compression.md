@@ -947,3 +947,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 237
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 238
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
