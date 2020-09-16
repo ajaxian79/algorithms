@@ -40,3 +40,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 19: Space complexity: O(1) auxiliary.
 // note 20: Mutates the input in place; the original ordering is lost.
 // note 21: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 22: Tree DP: post-order DFS lets children inform the parent in one pass.
