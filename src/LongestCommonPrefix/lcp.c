@@ -172,3 +172,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 131: Time complexity: O(1).
 // note 132: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 133: Heap when you only need top-k; full sort is wasted work.
+// note 134: Edit distance is LCS with a twist: substitution is a third option at each cell.
