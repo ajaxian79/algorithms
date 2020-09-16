@@ -175,3 +175,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 44
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 45
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
