@@ -194,3 +194,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 159: Time complexity: O(n + m).
 // edge note 160: Constant-time comparisons; safe for short strings.
 // edge note 161: Allocates a single small fixed-size scratch buffer.
+// edge note 162: Edge case: all-equal input → linear-time fast path.
