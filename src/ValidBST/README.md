@@ -1609,3 +1609,7 @@ Allocates lazily — first call only.
 ## entry 387
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 388
+
+Edge case: alternating pattern → degenerate case for sliding window.
