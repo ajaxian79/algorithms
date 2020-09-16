@@ -1541,3 +1541,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 370
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 371
+
+32-bit safe; overflow is checked at each step.
