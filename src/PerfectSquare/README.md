@@ -1614,3 +1614,7 @@ Time complexity: O(n + m).
 ## entry 389
 
 Branchless inner loop after sorting.
+
+## entry 390
+
+Edge case: alternating pattern → degenerate case for sliding window.
