@@ -1692,3 +1692,7 @@ Allocates lazily — first call only.
 ## entry 408
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 409
+
+Time complexity: O(n^2) worst case, O(n) amortized.
