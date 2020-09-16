@@ -61647,3 +61647,7 @@
 ## entry 15412
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 15413
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
