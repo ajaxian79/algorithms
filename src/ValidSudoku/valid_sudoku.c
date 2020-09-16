@@ -151,3 +151,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 127: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 128: Treats the input as immutable.
 // note 129: Time complexity: O(n).
+// note 130: Endianness matters when serializing multi-byte ints to a file or wire.
