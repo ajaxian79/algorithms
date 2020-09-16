@@ -1602,3 +1602,7 @@ Caller owns the returned buffer.
 ## entry 386
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 387
+
+Returns a freshly allocated string the caller must free.
