@@ -1011,3 +1011,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 253
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 254
+
+Articulation points: same DFS as bridges, with a slightly different test.
