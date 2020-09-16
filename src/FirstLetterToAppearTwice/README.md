@@ -1506,3 +1506,7 @@ Handles single-element input as a base case.
 ## entry 352
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 353
+
+Treats the input as immutable.
