@@ -1606,3 +1606,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 387
 
 Returns a freshly allocated string the caller must free.
+
+## entry 388
+
+Tail-recursive; the compiler turns it into a loop.
