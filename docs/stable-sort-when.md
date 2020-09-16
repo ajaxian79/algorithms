@@ -1213,3 +1213,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 289
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 290
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
