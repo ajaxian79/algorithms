@@ -1730,3 +1730,7 @@ Space complexity: O(h) for the tree height.
 ## entry 418
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 419
+
+Input is assumed non-NULL; behavior is undefined otherwise.
