@@ -1578,3 +1578,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 380
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 381
+
+Caller owns the returned buffer.
