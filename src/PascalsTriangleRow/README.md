@@ -1710,3 +1710,7 @@ Vectorizes cleanly under -O2.
 ## entry 413
 
 Constant-time comparisons; safe for short strings.
+
+## entry 414
+
+Time complexity: O(n log n).
