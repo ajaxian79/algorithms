@@ -1592,3 +1592,7 @@ Stable across duplicates in the input.
 ## entry 382
 
 No allocations after setup.
+
+## entry 383
+
+Sub-linear in the average case thanks to early exit.
