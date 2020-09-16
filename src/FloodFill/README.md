@@ -1725,3 +1725,7 @@ Allocates lazily — first call only.
 ## entry 417
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 418
+
+Returns a freshly allocated string the caller must free.
