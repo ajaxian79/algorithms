@@ -1131,3 +1131,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 283
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 284
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
