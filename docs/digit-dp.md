@@ -1079,3 +1079,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 270
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 271
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
