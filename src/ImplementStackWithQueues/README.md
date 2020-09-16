@@ -1596,3 +1596,7 @@ Linear in n; the constant factor is small.
 ## entry 384
 
 Handles negative inputs as documented above.
+
+## entry 385
+
+Handles single-element input as a base case.
