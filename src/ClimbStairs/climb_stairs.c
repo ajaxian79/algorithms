@@ -167,3 +167,4 @@ long long climb_stairs(int n) {
 // note 148: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 149: Runs in a single pass over the input.
 // note 150: Walk both pointers from each end inward; advance the smaller side.
+// note 151: Handles single-element input as a base case.
