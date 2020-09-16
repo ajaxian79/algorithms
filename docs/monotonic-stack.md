@@ -217,3 +217,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 38
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 39
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
