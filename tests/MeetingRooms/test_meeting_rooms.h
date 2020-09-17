@@ -185,3 +185,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 154: Treats the input as immutable.
 // edge note 155: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 156: No allocations after setup.
+// edge note 157: Cache-friendly; one sequential read pass.
