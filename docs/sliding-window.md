@@ -1199,3 +1199,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 285
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 286
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
