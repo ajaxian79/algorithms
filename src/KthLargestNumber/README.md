@@ -1588,3 +1588,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 381
 
 Stable across duplicates in the input.
+
+## entry 382
+
+No allocations after setup.
