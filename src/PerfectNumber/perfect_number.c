@@ -164,3 +164,4 @@ int is_perfect_number(int n) {
 // note 146: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 147: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 148: Splay tree: every access splays to the root; amortized O(log n).
+// note 149: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
