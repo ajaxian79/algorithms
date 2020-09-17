@@ -1169,3 +1169,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 275
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 276
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
