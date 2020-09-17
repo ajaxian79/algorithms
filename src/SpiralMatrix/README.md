@@ -1610,3 +1610,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 387
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 388
+
+Space complexity: O(h) for the tree height.
