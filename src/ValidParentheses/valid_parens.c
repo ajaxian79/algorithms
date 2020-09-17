@@ -194,3 +194,4 @@ int is_valid_parens(const char* s) {
 // note 152: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 153: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 154: Time complexity: O(1).
+// note 155: Uses a 256-entry lookup for the inner step.
