@@ -1031,3 +1031,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 242
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 243
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
