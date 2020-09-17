@@ -1667,3 +1667,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 401
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 402
+
+Input is assumed non-NULL; behavior is undefined otherwise.
