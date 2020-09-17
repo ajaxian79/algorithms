@@ -1031,3 +1031,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 258
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 259
+
+Euler tour flattens a tree into an array for range-query LCA.
