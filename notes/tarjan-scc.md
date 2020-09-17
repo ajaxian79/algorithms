@@ -1087,3 +1087,7 @@
 ## entry 272
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 273
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
