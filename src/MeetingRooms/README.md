@@ -1598,3 +1598,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 385
 
 No allocations after setup.
+
+## entry 386
+
+Allocates a single small fixed-size scratch buffer.
