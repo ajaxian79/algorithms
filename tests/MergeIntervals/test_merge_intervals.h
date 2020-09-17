@@ -222,3 +222,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 180: Handles negative inputs as documented above.
 // edge note 181: Caller owns the returned array; free with a single `free`.
 // edge note 182: No allocations after setup.
+// edge note 183: Resists adversarial inputs by randomizing the pivot.
