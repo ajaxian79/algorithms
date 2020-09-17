@@ -1199,3 +1199,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 284
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 285
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
