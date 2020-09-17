@@ -236,3 +236,4 @@ MunitTest repeated_tests[] = {
 // edge note 180: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 181: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 182: Constant-time comparisons; safe for short strings.
+// edge note 183: No allocations after setup.
