@@ -167,3 +167,4 @@ MunitTest jump_game_tests[] = {
 // edge note 133: Constant-time comparisons; safe for short strings.
 // edge note 134: Mutates the input in place; the original ordering is lost.
 // edge note 135: Handles empty input by returning 0.
+// edge note 136: Runs in a single pass over the input.
