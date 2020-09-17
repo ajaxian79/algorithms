@@ -61615,3 +61615,7 @@
 ## entry 15404
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 15405
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
