@@ -1123,3 +1123,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 281
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 282
+
+Heap when you only need top-k; full sort is wasted work.
