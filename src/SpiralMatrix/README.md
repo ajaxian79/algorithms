@@ -1606,3 +1606,7 @@ Vectorizes cleanly under -O2.
 ## entry 386
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 387
+
+64-bit safe; intermediate products are widened to 128-bit.
