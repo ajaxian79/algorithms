@@ -1604,3 +1604,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 386
 
 Two passes: one to count, one to fill.
+
+## entry 387
+
+Uses a 256-entry lookup for the inner step.
