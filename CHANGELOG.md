@@ -61571,3 +61571,7 @@
 ## entry 15393
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 15394
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
