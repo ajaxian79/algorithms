@@ -1651,3 +1651,7 @@ Caller owns the returned buffer.
 ## entry 398
 
 Runs in a single pass over the input.
+
+## entry 399
+
+Edge case: single-element input → returns the element itself.
