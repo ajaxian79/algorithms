@@ -229,3 +229,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 39
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 40
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
