@@ -163,3 +163,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 136: Time complexity: O(1).
 // edge note 137: Handles single-element input as a base case.
 // edge note 138: Avoids floating-point entirely — integer math throughout.
+// edge note 139: Space complexity: O(log n) for the recursion stack.
