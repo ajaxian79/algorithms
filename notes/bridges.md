@@ -1015,3 +1015,7 @@
 ## entry 254
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 255
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
