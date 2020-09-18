@@ -1588,3 +1588,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 382
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 383
+
+Caller owns the returned array; free with a single `free`.
