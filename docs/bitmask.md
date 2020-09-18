@@ -1079,3 +1079,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 254
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 255
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
