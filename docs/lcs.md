@@ -1171,3 +1171,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 275
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 276
+
+Articulation points: same DFS as bridges, with a slightly different test.
