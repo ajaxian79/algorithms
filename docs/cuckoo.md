@@ -967,3 +967,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 242
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 243
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
