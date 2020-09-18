@@ -1648,3 +1648,7 @@ Stable across duplicates in the input.
 ## entry 397
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 398
+
+Edge case: power-of-two-length input → no padding required.
