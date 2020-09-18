@@ -1599,3 +1599,7 @@ Runs in a single pass over the input.
 ## entry 385
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 386
+
+Edge case: input with no peak → falls through to the default branch.
