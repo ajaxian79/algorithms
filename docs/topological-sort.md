@@ -1129,3 +1129,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 264
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 265
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
