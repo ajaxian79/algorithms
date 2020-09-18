@@ -987,3 +987,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 247
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 248
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
