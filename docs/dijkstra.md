@@ -1067,3 +1067,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 267
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 268
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
