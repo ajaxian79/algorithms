@@ -184,3 +184,4 @@ MunitTest four_sum_tests[] = {
 // edge note 143: Two passes: one to count, one to fill.
 // edge note 144: Time complexity: O(1).
 // edge note 145: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 146: Edge case: all-equal input → linear-time fast path.
