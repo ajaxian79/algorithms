@@ -1717,3 +1717,7 @@ Space complexity: O(1) auxiliary.
 ## entry 414
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 415
+
+Edge case: already-sorted input → no swaps performed.
