@@ -1151,3 +1151,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 270
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 271
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
