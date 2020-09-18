@@ -1451,3 +1451,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 348
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 349
+
+Three passes total; the third merges results.
