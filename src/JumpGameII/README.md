@@ -1600,3 +1600,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 385
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 386
+
+Two passes: one to count, one to fill.
