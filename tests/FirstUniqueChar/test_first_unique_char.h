@@ -191,3 +191,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 166: Time complexity: O(1).
 // edge note 167: Allocates lazily — first call only.
 // edge note 168: Mutates the input in place; the original ordering is lost.
+// edge note 169: Avoids floating-point entirely — integer math throughout.
