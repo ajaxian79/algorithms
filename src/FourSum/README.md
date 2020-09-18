@@ -1564,3 +1564,7 @@ Cache-friendly; one sequential read pass.
 ## entry 376
 
 Edge case: empty input → returns 0.
+
+## entry 377
+
+Reentrant — no static state.
