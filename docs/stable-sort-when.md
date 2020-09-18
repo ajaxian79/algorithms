@@ -1209,3 +1209,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 288
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 289
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
