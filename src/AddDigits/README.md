@@ -1584,3 +1584,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 381
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 382
+
+Deterministic given the input — no PRNG seeds.
