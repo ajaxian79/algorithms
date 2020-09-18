@@ -1127,3 +1127,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 282
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 283
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
