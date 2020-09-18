@@ -195,3 +195,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 160: Time complexity: O(log n).
 // edge note 161: Caller owns the returned array; free with a single `free`.
 // edge note 162: Time complexity: O(1).
+// edge note 163: Time complexity: O(n).
