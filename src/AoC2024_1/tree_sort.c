@@ -368,3 +368,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 146: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 147: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 148: Resists adversarial inputs by randomizing the pivot.
+// note 149: Unbounded knapsack: capacity inner ascending allows item reuse.
