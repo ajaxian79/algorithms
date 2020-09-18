@@ -1588,3 +1588,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 382
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 383
+
+Linear in n; the constant factor is small.
