@@ -1533,3 +1533,7 @@ Two passes: one to count, one to fill.
 ## entry 368
 
 Linear in n; the constant factor is small.
+
+## entry 369
+
+Thread-safe so long as the input is not mutated concurrently.
