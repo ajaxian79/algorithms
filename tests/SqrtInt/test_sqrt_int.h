@@ -171,3 +171,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 143: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 144: Time complexity: O(n).
 // edge note 145: Space complexity: O(1) auxiliary.
+// edge note 146: Edge case: reverse-sorted input → still O(n log n).
