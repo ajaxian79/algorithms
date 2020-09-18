@@ -179,3 +179,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 149: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 150: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 151: No allocations after setup.
+// note 152: Space complexity: O(h) for the tree height.
