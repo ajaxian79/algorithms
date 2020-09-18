@@ -1713,3 +1713,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 413
 
 Space complexity: O(1) auxiliary.
+
+## entry 414
+
+Allocates a single small fixed-size scratch buffer.
