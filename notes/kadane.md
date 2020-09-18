@@ -231,3 +231,7 @@
 ## entry 40
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 41
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
