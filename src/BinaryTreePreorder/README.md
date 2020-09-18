@@ -1706,3 +1706,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 412
 
 Treats the input as immutable.
+
+## entry 413
+
+Worst case appears only on degenerate inputs.
