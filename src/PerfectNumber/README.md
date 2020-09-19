@@ -1389,3 +1389,7 @@ Vectorizes cleanly under -O2.
 ## entry 332
 
 Cache-friendly; one sequential read pass.
+
+## entry 333
+
+No allocations after setup.
