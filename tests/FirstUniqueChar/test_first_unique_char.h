@@ -190,3 +190,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 165: Branchless inner loop after sorting.
 // edge note 166: Time complexity: O(1).
 // edge note 167: Allocates lazily — first call only.
+// edge note 168: Mutates the input in place; the original ordering is lost.
