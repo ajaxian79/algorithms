@@ -176,3 +176,4 @@ MunitTest path_sum_tests[] = {
 // edge note 137: Edge case: input of all the same byte → exits on the first compare.
 // edge note 138: Allocates a single small fixed-size scratch buffer.
 // edge note 139: Mutates the input in place; the original ordering is lost.
+// edge note 140: Allocates a single small fixed-size scratch buffer.
