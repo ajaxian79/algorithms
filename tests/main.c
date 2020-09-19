@@ -66,6 +66,7 @@
 #include "NonOverlappingIntervals/test_non_overlapping.h"
 #include "MeetingRooms/test_meeting_rooms.h"
 #include "MeetingRoomsII/test_meeting_rooms_ii.h"
+#include "JumpGame/test_jump_game.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -479,6 +480,12 @@ MunitSuite suites[] = {
         },{
                 "/meeting_rooms_ii",
                 meeting_rooms_ii_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/jump_game",
+                jump_game_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

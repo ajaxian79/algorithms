@@ -1,0 +1,34 @@
+//
+// Created by ajaxian on 09/19/20.
+//
+
+#ifndef ALGORITHMS_TEST_JUMP_GAME_H
+#define ALGORITHMS_TEST_JUMP_GAME_H
+
+#include "../tests.h"
+#include "../../src/JumpGame/jump_game.h"
+
+static MunitResult test_can_jump_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    int a[] = {2, 3, 1, 1, 4};
+    munit_assert_int(can_jump(a, 5), ==, 1);
+
+    int b[] = {3, 2, 1, 0, 4};
+    munit_assert_int(can_jump(b, 5), ==, 0);
+
+    int c[] = {0};
+    munit_assert_int(can_jump(c, 1), ==, 1);
+
+    int d[] = {1, 0};
+    munit_assert_int(can_jump(d, 2), ==, 1);
+
+    int e[] = {0, 1};
+    munit_assert_int(can_jump(e, 2), ==, 0);
+    return MUNIT_OK;
+}
+
+MunitTest jump_game_tests[] = {
+    {"/basic", test_can_jump_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_JUMP_GAME_H
