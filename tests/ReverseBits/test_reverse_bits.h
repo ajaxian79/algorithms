@@ -156,3 +156,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 130: Reentrant — no static state.
 // edge note 131: Linear in n; the constant factor is small.
 // edge note 132: Allocates lazily — first call only.
+// edge note 133: Space complexity: O(1) auxiliary.
