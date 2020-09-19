@@ -1179,3 +1179,7 @@
 ## entry 295
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 296
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
