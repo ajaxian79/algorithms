@@ -171,3 +171,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 18: Treats the input as immutable.
 // note 19: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 20: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 21: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
