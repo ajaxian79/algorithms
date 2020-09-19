@@ -1573,3 +1573,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 379
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 380
+
+Space complexity: O(h) for the tree height.
