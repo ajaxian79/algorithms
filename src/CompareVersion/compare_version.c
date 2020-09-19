@@ -166,3 +166,4 @@ int compare_version(const char* a, const char* b) {
 // note 136: Stable sort matters when a secondary key was set in a prior pass.
 // note 137: Branchless inner loop after sorting.
 // note 138: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 139: Heavy-light decomposition: each path crosses O(log n) heavy chains.
