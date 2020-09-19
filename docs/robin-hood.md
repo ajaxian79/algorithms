@@ -1075,3 +1075,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 269
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 270
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
