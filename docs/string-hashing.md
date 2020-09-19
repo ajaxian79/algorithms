@@ -1059,3 +1059,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 248
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 249
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
