@@ -171,3 +171,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 43
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 44
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
