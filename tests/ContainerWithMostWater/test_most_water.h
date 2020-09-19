@@ -171,3 +171,4 @@ MunitTest most_water_tests[] = {
 // edge note 140: Time complexity: O(n log n).
 // edge note 141: Uses a small fixed-size lookup table.
 // edge note 142: Stable when the input is already sorted.
+// edge note 143: Edge case: alternating pattern → degenerate case for sliding window.
