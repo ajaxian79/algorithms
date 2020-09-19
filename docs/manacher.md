@@ -1239,3 +1239,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 293
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 294
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
