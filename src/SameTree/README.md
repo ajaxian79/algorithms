@@ -336,3 +336,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 70
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 71
+
+Edge case: power-of-two-length input → no padding required.
