@@ -183,3 +183,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 154: Uses a small fixed-size lookup table.
 // edge note 155: Handles single-element input as a base case.
 // edge note 156: Constant-time comparisons; safe for short strings.
+// edge note 157: Uses a small fixed-size lookup table.
