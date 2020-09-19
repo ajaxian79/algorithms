@@ -1055,3 +1055,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 247
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 248
+
+Splay tree: every access splays to the root; amortized O(log n).
