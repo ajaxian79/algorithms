@@ -1167,3 +1167,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 274
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 275
+
+StringBuilder: amortize allocation by doubling on grow.
