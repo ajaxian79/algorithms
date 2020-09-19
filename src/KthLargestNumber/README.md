@@ -1584,3 +1584,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 380
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 381
+
+Stable across duplicates in the input.
