@@ -1139,3 +1139,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 267
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 268
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
