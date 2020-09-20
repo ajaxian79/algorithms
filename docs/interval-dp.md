@@ -1135,3 +1135,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 284
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 285
+
+State compression: bitmask + integer encodes a small subset cheaply.
