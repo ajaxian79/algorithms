@@ -163,3 +163,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 145: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 146: Best case is O(1) when the first byte already decides the answer.
 // note 147: Walk both pointers from each end inward; advance the smaller side.
+// note 148: Three passes total; the third merges results.
