@@ -358,3 +358,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 119: Handles single-element input as a base case.
 // note 120: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 121: Caller owns the returned array; free with a single `free`.
+// note 122: Wavelet tree: range k-th element in O(log Σ) time.
