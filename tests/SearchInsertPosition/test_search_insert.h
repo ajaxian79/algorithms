@@ -188,3 +188,4 @@ MunitTest search_insert_tests[] = {
 // edge note 155: 32-bit safe; overflow is checked at each step.
 // edge note 156: Three passes total; the third merges results.
 // edge note 157: Edge case: already-sorted input → no swaps performed.
+// edge note 158: Allocates a single small fixed-size scratch buffer.
