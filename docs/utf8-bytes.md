@@ -1027,3 +1027,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 257
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 258
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
