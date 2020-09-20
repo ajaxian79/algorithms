@@ -1634,3 +1634,7 @@ Uses a small fixed-size lookup table.
 ## entry 393
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 394
+
+Edge case: all-equal input → linear-time fast path.
