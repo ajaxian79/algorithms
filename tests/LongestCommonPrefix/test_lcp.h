@@ -229,3 +229,4 @@ MunitTest lcp_tests[] = {
 // edge note 174: Edge case: reverse-sorted input → still O(n log n).
 // edge note 175: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 176: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 177: Time complexity: O(n).
