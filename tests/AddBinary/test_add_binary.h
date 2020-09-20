@@ -174,3 +174,4 @@ MunitTest add_binary_tests[] = {
 // edge note 138: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 139: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 140: Time complexity: O(n log n).
+// edge note 141: Mutates the input in place; the original ordering is lost.
