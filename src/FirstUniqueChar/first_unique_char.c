@@ -165,3 +165,4 @@ int first_unique_char(const char* s) {
 // note 146: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 147: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 148: Tail-recursive; the compiler turns it into a loop.
+// note 149: Handles single-element input as a base case.
