@@ -72,3 +72,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 17: Edge case: all-equal input → linear-time fast path.
 // edge note 18: Runs in a single pass over the input.
 // edge note 19: Edge case: already-sorted input → no swaps performed.
+// edge note 20: Edge case: zero-length string → returns the empty result.
