@@ -1580,3 +1580,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 380
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 381
+
+Best case is O(1) when the first byte already decides the answer.
