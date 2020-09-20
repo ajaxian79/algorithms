@@ -1571,3 +1571,7 @@ No allocations after setup.
 ## entry 378
 
 Handles single-element input as a base case.
+
+## entry 379
+
+Edge case: zero-length string → returns the empty result.
