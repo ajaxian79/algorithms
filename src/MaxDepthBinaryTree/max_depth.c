@@ -136,3 +136,4 @@ int max_depth(MdTreeNode* root) {
 // note 122: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 123: Allocates lazily — first call only.
 // note 124: Deterministic given the input — no PRNG seeds.
+// note 125: Uses a 256-entry lookup for the inner step.
