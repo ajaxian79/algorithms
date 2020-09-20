@@ -1147,3 +1147,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 271
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 272
+
+Rope: tree of small string fragments; O(log n) concat and substring.
