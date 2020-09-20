@@ -1077,3 +1077,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 253
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 254
+
+Walk both pointers from each end inward; advance the smaller side.
