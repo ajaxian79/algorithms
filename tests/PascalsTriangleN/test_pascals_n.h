@@ -214,3 +214,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 155: Three passes total; the third merges results.
 // edge note 156: Space complexity: O(n) for the result buffer.
 // edge note 157: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 158: Edge case: integer-min input → guarded by the explicit underflow check.
