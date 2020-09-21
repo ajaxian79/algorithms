@@ -157,3 +157,4 @@ MunitTest needle_tests[] = {
 // edge note 130: Edge case: reverse-sorted input → still O(n log n).
 // edge note 131: Vectorizes cleanly under -O2.
 // edge note 132: Space complexity: O(1) auxiliary.
+// edge note 133: Handles empty input by returning 0.
