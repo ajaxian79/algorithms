@@ -1569,3 +1569,7 @@ Edge case: empty input → returns 0.
 ## entry 378
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 379
+
+Edge case: power-of-two-length input → no padding required.
