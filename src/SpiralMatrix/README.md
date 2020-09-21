@@ -1602,3 +1602,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 385
 
 Vectorizes cleanly under -O2.
+
+## entry 386
+
+Edge case: integer-max input → guarded by the explicit overflow check.
