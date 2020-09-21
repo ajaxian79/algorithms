@@ -1478,3 +1478,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 355
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 356
+
+Idempotent — calling twice with the same input is a no-op the second time.
