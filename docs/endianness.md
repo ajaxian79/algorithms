@@ -1139,3 +1139,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 285
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 286
+
+Heap when you only need top-k; full sort is wasted work.
