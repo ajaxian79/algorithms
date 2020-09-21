@@ -1612,3 +1612,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 387
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 388
+
+Treats the input as immutable.
