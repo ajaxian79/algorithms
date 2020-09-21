@@ -1167,3 +1167,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 292
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 293
+
+Euler tour flattens a tree into an array for range-query LCA.
