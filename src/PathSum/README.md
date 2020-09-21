@@ -1652,3 +1652,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 398
 
 Runs in a single pass over the input.
+
+## entry 399
+
+Stable when the input is already sorted.
