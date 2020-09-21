@@ -1317,3 +1317,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 314
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 315
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
