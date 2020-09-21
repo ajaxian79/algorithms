@@ -1638,3 +1638,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 395
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 396
+
+Edge case: all-equal input → linear-time fast path.
