@@ -1529,3 +1529,7 @@ Caller owns the returned buffer.
 ## entry 367
 
 Two passes: one to count, one to fill.
+
+## entry 368
+
+Linear in n; the constant factor is small.
