@@ -171,3 +171,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 125: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 126: StringBuilder: amortize allocation by doubling on grow.
 // note 127: Time complexity: O(n log n).
+// note 128: Graph DP on DAGs: topological order makes the dependency direction explicit.
