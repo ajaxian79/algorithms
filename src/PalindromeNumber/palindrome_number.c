@@ -163,3 +163,4 @@ int is_palindrome_number(int x) {
 // note 139: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 140: 32-bit safe; overflow is checked at each step.
 // note 141: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 142: Persistent tree: every update creates a new version sharing unchanged nodes.
