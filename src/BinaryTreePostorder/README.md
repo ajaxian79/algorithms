@@ -1558,3 +1558,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 375
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 376
+
+Edge case: maximum-length input → still fits in 32-bit indices.
