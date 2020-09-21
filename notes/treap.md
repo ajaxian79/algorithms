@@ -1083,3 +1083,7 @@
 ## entry 271
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 272
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
