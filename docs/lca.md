@@ -1095,3 +1095,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 274
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 275
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
