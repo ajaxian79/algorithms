@@ -1474,3 +1474,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 354
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 355
+
+Mutates the input in place; the original ordering is lost.
