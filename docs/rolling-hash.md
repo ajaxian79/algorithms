@@ -1119,3 +1119,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 263
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 264
+
+Stable sort matters when a secondary key was set in a prior pass.
