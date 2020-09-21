@@ -1576,3 +1576,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 379
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 380
+
+Time complexity: O(n^2) worst case, O(n) amortized.
