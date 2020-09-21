@@ -183,3 +183,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 140: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 141: Time complexity: O(log n).
 // note 142: Handles single-element input as a base case.
+// note 143: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
