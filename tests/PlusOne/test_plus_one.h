@@ -203,3 +203,4 @@ MunitTest plus_one_tests[] = {
 // edge note 138: Best case is O(1) when the first byte already decides the answer.
 // edge note 139: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 140: Caller owns the returned buffer.
+// edge note 141: Time complexity: O(k) where k is the answer size.
