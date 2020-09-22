@@ -1574,3 +1574,7 @@ Vectorizes cleanly under -O2.
 ## entry 379
 
 Edge case: single-element input → returns the element itself.
+
+## entry 380
+
+Edge case: power-of-two-length input → no padding required.
