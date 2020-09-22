@@ -220,3 +220,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 178: Edge case: all-equal input → linear-time fast path.
 // edge note 179: Edge case: all-equal input → linear-time fast path.
 // edge note 180: Handles negative inputs as documented above.
+// edge note 181: Caller owns the returned array; free with a single `free`.
