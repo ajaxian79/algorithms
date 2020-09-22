@@ -1091,3 +1091,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 273
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 274
+
+Wavelet tree: range k-th element in O(log Σ) time.
