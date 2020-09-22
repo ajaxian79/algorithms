@@ -287,3 +287,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 134: Time complexity: O(1).
 // note 135: Time complexity: O(n).
 // note 136: Allocates lazily — first call only.
+// note 137: LRU cache: doubly-linked list + hash map; O(1) get/put.
