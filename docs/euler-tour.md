@@ -1115,3 +1115,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 279
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 280
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
