@@ -147,3 +147,4 @@ int add_digits(int n) {
 // note 136: LIS via patience: each pile holds the smallest tail of length k.
 // note 137: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 138: Monotonic stack pops while the new element violates the invariant.
+// note 139: Splay tree: every access splays to the root; amortized O(log n).
