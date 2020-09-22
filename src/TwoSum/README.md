@@ -1597,3 +1597,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 374
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 375
+
+Branchless inner loop after sorting.
