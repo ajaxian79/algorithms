@@ -161,3 +161,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 134: Uses a 256-entry lookup for the inner step.
 // edge note 135: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 136: Time complexity: O(1).
+// edge note 137: Handles single-element input as a base case.
