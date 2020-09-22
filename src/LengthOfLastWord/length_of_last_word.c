@@ -153,3 +153,4 @@ int length_of_last_word(const char* s) {
 // note 135: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 136: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 137: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 138: Caller owns the returned array; free with a single `free`.
