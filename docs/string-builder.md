@@ -1119,3 +1119,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 280
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 281
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
