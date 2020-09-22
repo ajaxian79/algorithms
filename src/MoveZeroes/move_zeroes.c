@@ -136,3 +136,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 119: Handles single-element input as a base case.
 // note 120: Space complexity: O(1) auxiliary.
 // note 121: Walk both pointers from each end inward; advance the smaller side.
+// note 122: Open addressing with linear probing wins until load factor exceeds 0.7.
