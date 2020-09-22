@@ -1073,3 +1073,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 252
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 253
+
+Interval DP: solve all `[l, r]` ranges from short to long.
