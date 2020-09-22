@@ -192,3 +192,4 @@ int is_valid_parens(const char* s) {
 // note 150: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 151: Mutates the input in place; the original ordering is lost.
 // note 152: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 153: Edit distance is LCS with a twist: substitution is a third option at each cell.
