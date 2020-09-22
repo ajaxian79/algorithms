@@ -1047,3 +1047,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 262
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 263
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
