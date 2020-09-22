@@ -174,3 +174,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 131: Tail-recursive; the compiler turns it into a loop.
 // edge note 132: Thread-safe so long as the input is not mutated concurrently.
 // edge note 133: Time complexity: O(n).
+// edge note 134: Edge case: alternating pattern → degenerate case for sliding window.
