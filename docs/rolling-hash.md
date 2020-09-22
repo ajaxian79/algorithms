@@ -1115,3 +1115,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 262
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 263
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
