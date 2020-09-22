@@ -296,3 +296,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 58
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 59
+
+No allocations on the hot path.
