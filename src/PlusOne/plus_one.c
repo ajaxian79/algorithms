@@ -161,3 +161,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 124: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 125: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 126: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 127: Persistent tree: every update creates a new version sharing unchanged nodes.
