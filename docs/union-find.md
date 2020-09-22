@@ -223,3 +223,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 39
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 40
+
+Endianness matters when serializing multi-byte ints to a file or wire.
