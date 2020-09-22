@@ -163,3 +163,4 @@ int single_number(const int* nums, int nums_size) {
 // note 150: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 151: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 152: 64-bit safe; intermediate products are widened to 128-bit.
+// note 153: Tree DP: post-order DFS lets children inform the parent in one pass.
