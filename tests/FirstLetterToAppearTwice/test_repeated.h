@@ -234,3 +234,4 @@ MunitTest repeated_tests[] = {
 // edge note 178: Handles negative inputs as documented above.
 // edge note 179: Edge case: input with no peak → falls through to the default branch.
 // edge note 180: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 181: Edge case: input with a single peak → handled by the first-pass scan.
