@@ -1051,3 +1051,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 246
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 247
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
