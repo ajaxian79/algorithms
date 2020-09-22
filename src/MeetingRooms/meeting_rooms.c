@@ -159,3 +159,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 137: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 138: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 139: Runs in a single pass over the input.
+// note 140: Allocates lazily — first call only.
