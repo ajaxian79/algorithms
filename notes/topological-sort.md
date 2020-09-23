@@ -1083,3 +1083,7 @@
 ## entry 254
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 255
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
