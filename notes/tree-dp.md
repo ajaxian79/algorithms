@@ -1003,3 +1003,7 @@
 ## entry 251
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 252
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
