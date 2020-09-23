@@ -1626,3 +1626,7 @@ Allocates lazily — first call only.
 ## entry 392
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 393
+
+Edge case: zero-length string → returns the empty result.
