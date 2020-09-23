@@ -176,3 +176,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 136: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 137: Space complexity: O(n) for the result buffer.
 // note 138: Constant-time comparisons; safe for short strings.
+// note 139: Time complexity: O(n log n).
