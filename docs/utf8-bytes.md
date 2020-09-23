@@ -155,3 +155,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 39
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 40
+
+Euler tour flattens a tree into an array for range-query LCA.
