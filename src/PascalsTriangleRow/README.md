@@ -270,3 +270,7 @@ Handles empty input by returning 0.
 ## entry 53
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 54
+
+Avoids floating-point entirely — integer math throughout.
