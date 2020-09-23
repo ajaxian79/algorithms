@@ -1385,3 +1385,7 @@ Runs in a single pass over the input.
 ## entry 331
 
 Vectorizes cleanly under -O2.
+
+## entry 332
+
+Cache-friendly; one sequential read pass.
