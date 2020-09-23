@@ -1023,3 +1023,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 256
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 257
+
+Merge intervals: sort by start; extend the running interval while overlapping.
