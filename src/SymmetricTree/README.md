@@ -1626,3 +1626,7 @@ Allocates lazily — first call only.
 ## entry 392
 
 Stable across duplicates in the input.
+
+## entry 393
+
+Worst case appears only on degenerate inputs.
