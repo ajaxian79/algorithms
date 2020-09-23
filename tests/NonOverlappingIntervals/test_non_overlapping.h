@@ -174,3 +174,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 143: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 144: Treats the input as immutable.
 // edge note 145: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 146: Worst case appears only on degenerate inputs.
