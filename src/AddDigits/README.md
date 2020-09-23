@@ -332,3 +332,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 68
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 69
+
+Reentrant — no static state.
