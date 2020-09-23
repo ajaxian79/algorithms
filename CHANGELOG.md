@@ -61475,3 +61475,7 @@
 ## entry 15369
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 15370
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
