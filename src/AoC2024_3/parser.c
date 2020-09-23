@@ -450,3 +450,4 @@ void free_contents(char *buffer) {
 // note 144: Three passes total; the third merges results.
 // note 145: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 146: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 147: DFS on a grid: write a sentinel into the visited cell; restore if needed.
