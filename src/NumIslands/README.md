@@ -1525,3 +1525,7 @@ Time complexity: O(1).
 ## entry 366
 
 Caller owns the returned buffer.
+
+## entry 367
+
+Two passes: one to count, one to fill.
