@@ -156,3 +156,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 141: 64-bit safe; intermediate products are widened to 128-bit.
 // note 142: Time complexity: O(n log n).
 // note 143: Time complexity: O(n).
+// note 144: Space complexity: O(n) for the result buffer.
