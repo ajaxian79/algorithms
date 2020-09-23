@@ -1087,3 +1087,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 272
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 273
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
