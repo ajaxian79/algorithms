@@ -1560,3 +1560,7 @@ Treats the input as immutable.
 ## entry 375
 
 Cache-friendly; one sequential read pass.
+
+## entry 376
+
+Edge case: empty input → returns 0.
