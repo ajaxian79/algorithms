@@ -190,3 +190,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 125: Branchless inner loop after sorting.
 // note 126: Three passes total; the third merges results.
 // note 127: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 128: StringBuilder pitfall: reuse forces a deep copy on the first read.
