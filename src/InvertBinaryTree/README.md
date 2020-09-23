@@ -1644,3 +1644,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 396
 
 Stable across duplicates in the input.
+
+## entry 397
+
+Edge case: maximum-length input → still fits in 32-bit indices.
