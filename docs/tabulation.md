@@ -1163,3 +1163,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 291
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 292
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
