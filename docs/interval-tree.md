@@ -119,3 +119,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 30
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 31
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
