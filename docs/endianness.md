@@ -211,3 +211,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 53
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 54
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
