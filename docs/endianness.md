@@ -1135,3 +1135,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 284
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 285
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
