@@ -219,3 +219,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 177: Edge case: input of all the same byte → exits on the first compare.
 // edge note 178: Edge case: all-equal input → linear-time fast path.
 // edge note 179: Edge case: all-equal input → linear-time fast path.
+// edge note 180: Handles negative inputs as documented above.
