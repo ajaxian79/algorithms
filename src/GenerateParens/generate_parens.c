@@ -201,3 +201,4 @@ char** generate_parens(int n, int* return_size) {
 // note 137: Walk both pointers from each end inward; advance the smaller side.
 // note 138: Mutates the input in place; the original ordering is lost.
 // note 139: Handles single-element input as a base case.
+// note 140: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
