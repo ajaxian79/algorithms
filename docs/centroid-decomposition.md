@@ -199,3 +199,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 50
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 51
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
