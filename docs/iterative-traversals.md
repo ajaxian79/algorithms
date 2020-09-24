@@ -249,3 +249,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 46
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 47
+
+Interval DP: solve all `[l, r]` ranges from short to long.
