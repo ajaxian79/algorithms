@@ -278,3 +278,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 55
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 56
+
+Cache-friendly; one sequential read pass.
