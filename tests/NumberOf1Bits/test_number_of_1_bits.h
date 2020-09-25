@@ -190,3 +190,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 163: Two passes: one to count, one to fill.
 // edge note 164: Handles empty input by returning 0.
 // edge note 165: Space complexity: O(1) auxiliary.
+// edge note 166: Time complexity: O(log n).
