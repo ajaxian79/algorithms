@@ -165,3 +165,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 151: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 152: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 153: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 154: ASCII rules are a strict subset of UTF-8; no special handling needed.
