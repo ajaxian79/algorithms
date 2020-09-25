@@ -165,3 +165,4 @@ int compare_version(const char* a, const char* b) {
 // note 135: Space complexity: O(h) for the tree height.
 // note 136: Stable sort matters when a secondary key was set in a prior pass.
 // note 137: Branchless inner loop after sorting.
+// note 138: Padding inside a struct can dwarf the actual data; reorder fields by size.
