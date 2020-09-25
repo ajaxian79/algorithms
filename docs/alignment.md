@@ -1139,3 +1139,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 285
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 286
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
