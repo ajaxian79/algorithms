@@ -167,3 +167,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 42
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 43
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
