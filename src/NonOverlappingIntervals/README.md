@@ -1521,3 +1521,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 365
 
 Time complexity: O(1).
+
+## entry 366
+
+Handles single-element input as a base case.
