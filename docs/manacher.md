@@ -1235,3 +1235,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 292
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 293
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
