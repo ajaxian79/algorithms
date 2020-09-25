@@ -1598,3 +1598,7 @@ Time complexity: O(n + m).
 ## entry 385
 
 Caller owns the returned buffer.
+
+## entry 386
+
+Mutates the input in place; the original ordering is lost.
