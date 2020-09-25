@@ -1059,3 +1059,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 248
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 249
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
