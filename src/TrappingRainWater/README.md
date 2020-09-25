@@ -1590,3 +1590,7 @@ No allocations after setup.
 ## entry 382
 
 Time complexity: O(n).
+
+## entry 383
+
+Time complexity: O(n*k) where k is the alphabet size.
