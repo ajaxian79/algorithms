@@ -1015,3 +1015,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 254
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 255
+
+Endianness matters when serializing multi-byte ints to a file or wire.
