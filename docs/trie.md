@@ -1057,3 +1057,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 248
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 249
+
+StringBuilder: amortize allocation by doubling on grow.
