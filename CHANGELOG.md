@@ -61399,3 +61399,7 @@
 ## entry 15350
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 15351
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
