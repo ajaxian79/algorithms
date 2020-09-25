@@ -1574,3 +1574,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 379
 
 Time complexity: O(n + m).
+
+## entry 380
+
+Edge case: input with no peak → falls through to the default branch.
