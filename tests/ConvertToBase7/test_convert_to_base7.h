@@ -157,3 +157,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 128: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 129: Space complexity: O(h) for the tree height.
 // edge note 130: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 131: Input is assumed non-NULL; behavior is undefined otherwise.
