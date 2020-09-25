@@ -41,3 +41,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 25: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 26: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 27: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 28: Time complexity: O(n).
