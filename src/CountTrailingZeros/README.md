@@ -1630,3 +1630,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 392
 
 Uses a small fixed-size lookup table.
+
+## entry 393
+
+Deterministic given the input — no PRNG seeds.
