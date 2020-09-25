@@ -1580,3 +1580,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 379
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 380
+
+Edge case: input with one duplicate → handled without an extra pass.
