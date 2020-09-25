@@ -1663,3 +1663,7 @@ Cache-friendly; one sequential read pass.
 ## entry 400
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 401
+
+Time complexity: O(n^2) worst case, O(n) amortized.
