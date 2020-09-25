@@ -1131,3 +1131,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 283
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 284
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
