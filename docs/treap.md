@@ -1059,3 +1059,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 265
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 266
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
