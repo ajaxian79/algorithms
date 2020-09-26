@@ -179,3 +179,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 148: Time complexity: O(n).
 // edge note 149: Uses a 256-entry lookup for the inner step.
 // edge note 150: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 151: Edge case: all-equal input → linear-time fast path.
