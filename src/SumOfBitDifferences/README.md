@@ -292,3 +292,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 58
 
 Returns a freshly allocated string the caller must free.
+
+## entry 59
+
+Uses a small fixed-size lookup table.
