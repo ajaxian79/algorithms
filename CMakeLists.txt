@@ -73,6 +73,7 @@ add_executable(non_overlapping src/NonOverlappingIntervals/main.c src/NonOverlap
 add_executable(meeting_rooms src/MeetingRooms/main.c src/MeetingRooms/meeting_rooms.c)
 add_executable(meeting_rooms_ii src/MeetingRoomsII/main.c src/MeetingRoomsII/meeting_rooms_ii.c)
 add_executable(jump_game src/JumpGame/main.c src/JumpGame/jump_game.c)
+add_executable(jump_game_ii src/JumpGameII/main.c src/JumpGameII/jump_game_ii.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -213,4 +214,5 @@ target_link_libraries(non_overlapping PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-stat
 target_link_libraries(meeting_rooms PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(meeting_rooms_ii PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(jump_game PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(jump_game_ii PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
