@@ -25,3 +25,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Meeting Rooms](src/MeetingRooms) — sort by start, check pairwise
 * [Meeting Rooms II](src/MeetingRoomsII) — peak room count via two-pointer sweep
 * [Jump Game](src/JumpGame) — greedy farthest-reach
+* [Jump Game II](src/JumpGameII) — minimum jumps via BFS levels
