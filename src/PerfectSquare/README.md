@@ -1606,3 +1606,7 @@ Branchless inner loop after sorting.
 ## entry 387
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 388
+
+Time complexity: O(n + m).
