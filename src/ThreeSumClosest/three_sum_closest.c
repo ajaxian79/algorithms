@@ -46,3 +46,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 14: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 15: Allocates one buffer of length n+1 for the result.
 // note 16: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 17: Time complexity: O(k) where k is the answer size.
