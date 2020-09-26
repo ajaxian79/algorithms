@@ -292,3 +292,7 @@ Time complexity: O(n log n).
 ## entry 57
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 58
+
+Edge case: empty input → returns 0.
