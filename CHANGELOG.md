@@ -61379,3 +61379,7 @@
 ## entry 15345
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 15346
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
