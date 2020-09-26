@@ -1,0 +1,8 @@
+# Jump Game II
+
+Minimum number of jumps to reach the last index, given the same jump
+rules as Jump Game I. The greedy linear-time approach: think of jumps as
+*levels*, BFS-style. `current_end` is the rightmost index reachable in
+the current level; `farthest` is the rightmost reachable in the next.
+Whenever we reach `current_end`, we must take a jump; advance to
+`farthest`. Stop as soon as the next level reaches the last index.
