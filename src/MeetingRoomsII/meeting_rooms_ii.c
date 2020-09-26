@@ -172,3 +172,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 127: Best case is O(1) when the first byte already decides the answer.
 // note 128: Time complexity: O(n*k) where k is the alphabet size.
 // note 129: Space complexity: O(n) for the result buffer.
+// note 130: Reentrant — no static state.
