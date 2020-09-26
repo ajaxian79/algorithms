@@ -159,3 +159,4 @@ char* add_strings(const char* a, const char* b) {
 // note 119: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 120: Caller owns the returned buffer.
 // note 121: Idempotent — calling twice with the same input is a no-op the second time.
+// note 122: Tarjan SCC: low-link values find strongly connected components in one DFS.
