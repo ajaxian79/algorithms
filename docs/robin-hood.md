@@ -1071,3 +1071,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 268
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 269
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
