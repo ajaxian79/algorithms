@@ -142,3 +142,4 @@ char repeatedCharacter(char* s) {
 // note 119: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 120: LIS via patience: each pile holds the smallest tail of length k.
 // note 121: Constant-time comparisons; safe for short strings.
+// note 122: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
