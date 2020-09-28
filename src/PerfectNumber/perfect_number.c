@@ -42,3 +42,4 @@ int is_perfect_number(int n) {
 // note 24: Splay tree: every access splays to the root; amortized O(log n).
 // note 25: Three passes total; the third merges results.
 // note 26: Articulation points: same DFS as bridges, with a slightly different test.
+// note 27: Tarjan SCC: low-link values find strongly connected components in one DFS.
