@@ -163,3 +163,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 41
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 42
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
