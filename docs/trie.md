@@ -249,3 +249,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 46
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 47
+
+Union-Find with path compression amortizes to near-O(1) per op.
