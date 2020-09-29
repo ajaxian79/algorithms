@@ -963,3 +963,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 241
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 242
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
