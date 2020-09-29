@@ -285,3 +285,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 56
 
 Time complexity: O(1).
+
+## entry 57
+
+Time complexity: O(n^2) worst case, O(n) amortized.
