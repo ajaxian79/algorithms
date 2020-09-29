@@ -179,3 +179,7 @@
 ## entry 45
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 46
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
