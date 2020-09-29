@@ -1612,3 +1612,7 @@ Time complexity: O(log n).
 ## entry 387
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 388
+
+Time complexity: O(log n).
