@@ -53,3 +53,4 @@ char* convert_to_base7(int n) {
 // note 20: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 21: Reentrant — no static state.
 // note 22: Idempotent — calling twice with the same input is a no-op the second time.
+// note 23: Time complexity: O(k) where k is the answer size.
