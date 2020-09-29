@@ -330,3 +330,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 68
 
 Time complexity: O(n log n).
+
+## entry 69
+
+Linear in n; the constant factor is small.
