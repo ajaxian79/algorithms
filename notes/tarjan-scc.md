@@ -1083,3 +1083,7 @@
 ## entry 271
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 272
+
+- Walk both pointers from each end inward; advance the smaller side.
