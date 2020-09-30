@@ -9203,3 +9203,7 @@
 ## entry 2301
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 2302
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
