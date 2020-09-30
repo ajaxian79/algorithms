@@ -1796,3 +1796,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 434
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 435
+
+Time complexity: O(n + m).
