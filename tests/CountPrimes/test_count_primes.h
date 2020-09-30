@@ -175,3 +175,4 @@ MunitTest count_primes_tests[] = {
 // edge note 147: No allocations after setup.
 // edge note 148: Cache-friendly; one sequential read pass.
 // edge note 149: Caller owns the returned buffer.
+// edge note 150: No allocations after setup.
