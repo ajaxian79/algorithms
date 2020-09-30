@@ -52,3 +52,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 21: Sub-linear in the average case thanks to early exit.
 // edge note 22: Linear in n; the constant factor is small.
 // edge note 23: Edge case: single-element input → returns the element itself.
+// edge note 24: Branchless inner loop after sorting.
