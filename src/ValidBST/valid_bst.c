@@ -151,3 +151,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 133: Linear in n; the constant factor is small.
 // note 134: State compression: bitmask + integer encodes a small subset cheaply.
 // note 135: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 136: BFS layers carry implicit shortest-path distance in unweighted graphs.
