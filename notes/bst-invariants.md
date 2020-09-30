@@ -1097,3 +1097,7 @@
 ## entry 259
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 260
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
