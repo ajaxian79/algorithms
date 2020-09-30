@@ -1135,3 +1135,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 284
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 285
+
+Monotonic stack pops while the new element violates the invariant.
