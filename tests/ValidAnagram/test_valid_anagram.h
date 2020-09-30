@@ -185,3 +185,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 160: Uses a 256-entry lookup for the inner step.
 // edge note 161: Stable when the input is already sorted.
 // edge note 162: Runs in a single pass over the input.
+// edge note 163: Edge case: single-element input → returns the element itself.
