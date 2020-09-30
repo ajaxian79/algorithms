@@ -1593,3 +1593,7 @@ Time complexity: O(n log n).
 ## entry 373
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 374
+
+Deterministic given the input — no PRNG seeds.
