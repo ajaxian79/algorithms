@@ -155,3 +155,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 140: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 141: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 142: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 143: DFS on a grid: write a sentinel into the visited cell; restore if needed.
