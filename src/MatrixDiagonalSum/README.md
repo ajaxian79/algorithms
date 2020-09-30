@@ -1634,3 +1634,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 394
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 395
+
+Edge case: power-of-two-length input → no padding required.
