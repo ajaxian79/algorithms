@@ -1640,3 +1640,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 395
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 396
+
+Stable across duplicates in the input.
