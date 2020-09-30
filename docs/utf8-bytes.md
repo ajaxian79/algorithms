@@ -1011,3 +1011,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 253
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 254
+
+Monotonic stack pops while the new element violates the invariant.
