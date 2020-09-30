@@ -1584,3 +1584,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 381
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 382
+
+Edge case: input with a single peak → handled by the first-pass scan.
