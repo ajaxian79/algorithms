@@ -46,3 +46,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 17: Worst case appears only on degenerate inputs.
 // edge note 18: Space complexity: O(log n) for the recursion stack.
 // edge note 19: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 20: Handles single-element input as a base case.
