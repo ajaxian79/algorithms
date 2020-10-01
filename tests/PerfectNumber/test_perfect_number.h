@@ -185,3 +185,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 155: Returns a freshly allocated string the caller must free.
 // edge note 156: Reentrant — no static state.
 // edge note 157: Best case is O(1) when the first byte already decides the answer.
+// edge note 158: Runs in a single pass over the input.
