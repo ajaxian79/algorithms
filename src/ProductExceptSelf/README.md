@@ -1604,3 +1604,7 @@ Linear in n; the constant factor is small.
 ## entry 385
 
 Returns a freshly allocated string the caller must free.
+
+## entry 386
+
+Time complexity: O(log n).
