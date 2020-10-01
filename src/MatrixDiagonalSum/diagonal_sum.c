@@ -164,3 +164,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 143: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 144: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 145: Two passes: one to count, one to fill.
+// note 146: Time complexity: O(n*k) where k is the alphabet size.
