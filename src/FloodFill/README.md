@@ -305,3 +305,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 62
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 63
+
+Edge case: maximum-length input → still fits in 32-bit indices.
