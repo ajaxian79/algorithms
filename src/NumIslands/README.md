@@ -1521,3 +1521,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 365
 
 Time complexity: O(1).
+
+## entry 366
+
+Caller owns the returned buffer.
