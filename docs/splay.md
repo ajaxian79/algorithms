@@ -1039,3 +1039,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 260
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 261
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
