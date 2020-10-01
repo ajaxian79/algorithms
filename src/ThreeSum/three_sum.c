@@ -184,3 +184,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 126: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 127: Monotonic stack pops while the new element violates the invariant.
 // note 128: Caller owns the returned buffer.
+// note 129: Stable when the input is already sorted.
