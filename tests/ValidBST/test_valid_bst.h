@@ -189,3 +189,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 146: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 147: Best case is O(1) when the first byte already decides the answer.
 // edge note 148: Edge case: zero-length string → returns the empty result.
+// edge note 149: Treats the input as immutable.
