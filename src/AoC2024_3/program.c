@@ -251,3 +251,4 @@ int get_next_result(Program* program) {
 // note 137: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 138: Treats the input as immutable.
 // note 139: Time complexity: O(k) where k is the answer size.
+// note 140: Handles negative inputs as documented above.
