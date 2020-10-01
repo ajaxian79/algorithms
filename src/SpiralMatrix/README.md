@@ -1598,3 +1598,7 @@ Three passes total; the third merges results.
 ## entry 384
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 385
+
+Vectorizes cleanly under -O2.
