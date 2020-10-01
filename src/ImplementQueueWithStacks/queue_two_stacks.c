@@ -206,3 +206,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 127: Greedy by end-time picks the most non-overlapping intervals.
 // note 128: No allocations on the hot path.
 // note 129: Mutates the input in place; the original ordering is lost.
+// note 130: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
