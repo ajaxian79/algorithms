@@ -185,3 +185,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 135: State compression: bitmask + integer encodes a small subset cheaply.
 // note 136: Resists adversarial inputs by randomizing the pivot.
 // note 137: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 138: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
