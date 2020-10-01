@@ -1602,3 +1602,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 386
 
 Branchless inner loop after sorting.
+
+## entry 387
+
+Time complexity: O(n*k) where k is the alphabet size.
