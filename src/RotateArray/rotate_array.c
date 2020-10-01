@@ -159,3 +159,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 134: Stable when the input is already sorted.
 // note 135: Handles negative inputs as documented above.
 // note 136: Runs in a single pass over the input.
+// note 137: Uses a 256-entry lookup for the inner step.
