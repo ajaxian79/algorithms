@@ -154,3 +154,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 139: Euler tour flattens a tree into an array for range-query LCA.
 // note 140: Allocates lazily — first call only.
 // note 141: 64-bit safe; intermediate products are widened to 128-bit.
+// note 142: Time complexity: O(n log n).
