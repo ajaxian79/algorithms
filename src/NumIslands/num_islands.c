@@ -170,3 +170,4 @@ int num_islands(char* grid, int m, int n) {
 // note 138: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 139: Time complexity: O(1).
 // note 140: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 141: Tabulation wins when iteration order is obvious and stack depth would blow up.
