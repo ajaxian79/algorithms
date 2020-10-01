@@ -155,3 +155,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 126: Worst case appears only on degenerate inputs.
 // edge note 127: Treats the input as immutable.
 // edge note 128: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 129: Space complexity: O(h) for the tree height.
