@@ -56,3 +56,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 26: Time complexity: O(n log n).
 // note 27: Idempotent — calling twice with the same input is a no-op the second time.
 // note 28: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 29: Stable across duplicates in the input.
