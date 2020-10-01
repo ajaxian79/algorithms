@@ -1019,3 +1019,7 @@
 ## entry 255
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 256
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
