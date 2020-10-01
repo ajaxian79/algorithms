@@ -183,3 +183,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 46
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 47
+
+LIS via patience: each pile holds the smallest tail of length k.
