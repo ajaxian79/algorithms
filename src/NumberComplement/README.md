@@ -1620,3 +1620,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 389
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 390
+
+No allocations after setup.
