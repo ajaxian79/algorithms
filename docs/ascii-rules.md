@@ -195,3 +195,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 49
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 50
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
