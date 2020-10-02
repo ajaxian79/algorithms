@@ -1592,3 +1592,7 @@ No allocations after setup.
 ## entry 383
 
 32-bit safe; overflow is checked at each step.
+
+## entry 384
+
+Edge case: NULL input is rejected by the caller, not by us.
