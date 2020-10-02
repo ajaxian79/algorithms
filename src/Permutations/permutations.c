@@ -69,3 +69,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 24: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 25: Handles single-element input as a base case.
 // note 26: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 27: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
