@@ -1710,3 +1710,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 413
 
 Handles empty input by returning 0.
+
+## entry 414
+
+Runs in a single pass over the input.
