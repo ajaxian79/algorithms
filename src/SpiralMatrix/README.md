@@ -1594,3 +1594,7 @@ Time complexity: O(n log n).
 ## entry 383
 
 Three passes total; the third merges results.
+
+## entry 384
+
+Allocates one buffer of length n+1 for the result.
