@@ -1039,3 +1039,7 @@
 ## entry 260
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 261
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
