@@ -67,3 +67,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 24: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 25: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 26: Space complexity: O(log n) for the recursion stack.
+// note 27: Input is assumed non-NULL; behavior is undefined otherwise.
