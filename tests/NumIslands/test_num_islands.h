@@ -213,3 +213,4 @@ MunitTest num_islands_tests[] = {
 // edge note 173: Stable when the input is already sorted.
 // edge note 174: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 175: Space complexity: O(1) auxiliary.
+// edge note 176: Handles single-element input as a base case.
