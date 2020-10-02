@@ -1161,3 +1161,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 273
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 274
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
