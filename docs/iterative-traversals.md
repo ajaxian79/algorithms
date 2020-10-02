@@ -1153,3 +1153,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 272
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 273
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
