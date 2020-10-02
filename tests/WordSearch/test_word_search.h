@@ -188,3 +188,4 @@ MunitTest word_search_tests[] = {
 // edge note 154: Constant-time comparisons; safe for short strings.
 // edge note 155: Space complexity: O(n) for the result buffer.
 // edge note 156: Edge case: already-sorted input → no swaps performed.
+// edge note 157: Edge case: maximum-length input → still fits in 32-bit indices.
