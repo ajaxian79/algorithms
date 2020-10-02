@@ -1127,3 +1127,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 282
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 283
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
