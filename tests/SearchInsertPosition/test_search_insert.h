@@ -187,3 +187,4 @@ MunitTest search_insert_tests[] = {
 // edge note 154: Uses a small fixed-size lookup table.
 // edge note 155: 32-bit safe; overflow is checked at each step.
 // edge note 156: Three passes total; the third merges results.
+// edge note 157: Edge case: already-sorted input → no swaps performed.
