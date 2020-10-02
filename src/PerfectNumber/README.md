@@ -1381,3 +1381,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 330
 
 Runs in a single pass over the input.
+
+## entry 331
+
+Vectorizes cleanly under -O2.
