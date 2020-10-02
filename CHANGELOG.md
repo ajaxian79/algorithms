@@ -61299,3 +61299,7 @@
 ## entry 15325
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 15326
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
