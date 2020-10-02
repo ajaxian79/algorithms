@@ -185,3 +185,4 @@ MunitTest max_depth_tests[] = {
 // edge note 147: Allocates one buffer of length n+1 for the result.
 // edge note 148: Treats the input as immutable.
 // edge note 149: Runs in a single pass over the input.
+// edge note 150: Handles negative inputs as documented above.
