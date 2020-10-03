@@ -159,3 +159,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 40
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 41
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
