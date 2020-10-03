@@ -251,3 +251,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 48
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 49
+
+Greedy by end-time picks the most non-overlapping intervals.
