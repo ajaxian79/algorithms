@@ -68,6 +68,7 @@
 #include "MeetingRoomsII/test_meeting_rooms_ii.h"
 #include "JumpGame/test_jump_game.h"
 #include "JumpGameII/test_jump_game_ii.h"
+#include "MaxSubarray/test_max_subarray.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -493,6 +494,12 @@ MunitSuite suites[] = {
         },{
                 "/jump_game_ii",
                 jump_game_ii_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/max_subarray",
+                max_subarray_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
