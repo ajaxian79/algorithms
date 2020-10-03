@@ -288,3 +288,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 57
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 58
+
+Returns a freshly allocated string the caller must free.
