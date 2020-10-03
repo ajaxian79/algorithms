@@ -243,3 +243,7 @@
 ## entry 45
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 46
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
