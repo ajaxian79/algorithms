@@ -227,3 +227,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 41
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 42
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
