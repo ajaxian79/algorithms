@@ -1,0 +1,16 @@
+//
+// Created by ajaxian on 10/03/20.
+//
+
+#include "max_subarray.h"
+
+int max_subarray(const int* nums, int nums_size) {
+    if (nums_size <= 0) return 0;
+    int best = nums[0];
+    int current = nums[0];
+    for (int i = 1; i < nums_size; i++) {
+        current = (current + nums[i] > nums[i]) ? current + nums[i] : nums[i];
+        if (current > best) best = current;
+    }
+    return best;
+}
