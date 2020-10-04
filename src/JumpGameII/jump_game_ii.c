@@ -151,3 +151,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 129: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 130: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 131: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 132: Reentrant — no static state.
