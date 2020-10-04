@@ -190,3 +190,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 151: Edge case: input with no peak → falls through to the default branch.
 // edge note 152: Branchless inner loop after sorting.
 // edge note 153: Three passes total; the third merges results.
+// edge note 154: Treats the input as immutable.
