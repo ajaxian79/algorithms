@@ -340,3 +340,7 @@ Caller owns the returned buffer.
 ## entry 70
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 71
+
+Linear in n; the constant factor is small.
