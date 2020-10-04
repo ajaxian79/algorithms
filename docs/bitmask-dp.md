@@ -203,3 +203,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 51
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 52
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
