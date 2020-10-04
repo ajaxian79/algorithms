@@ -1709,3 +1709,7 @@ Caller owns the returned buffer.
 ## entry 412
 
 Returns a freshly allocated string the caller must free.
+
+## entry 413
+
+Space complexity: O(1) auxiliary.
