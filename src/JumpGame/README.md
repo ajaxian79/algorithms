@@ -1705,3 +1705,7 @@ Treats the input as immutable.
 ## entry 411
 
 Caller owns the returned buffer.
+
+## entry 412
+
+Returns a freshly allocated string the caller must free.
