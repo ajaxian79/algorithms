@@ -1638,3 +1638,7 @@ No allocations after setup.
 ## entry 394
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 395
+
+Cache-friendly; one sequential read pass.
