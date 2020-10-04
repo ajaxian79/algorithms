@@ -1643,3 +1643,7 @@ Uses a small fixed-size lookup table.
 ## entry 396
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 397
+
+Caller owns the returned buffer.
