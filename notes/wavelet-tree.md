@@ -1027,3 +1027,7 @@
 ## entry 257
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 258
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
