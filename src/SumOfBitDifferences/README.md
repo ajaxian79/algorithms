@@ -1636,3 +1636,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 394
 
 Three passes total; the third merges results.
+
+## entry 395
+
+Time complexity: O(log n).
