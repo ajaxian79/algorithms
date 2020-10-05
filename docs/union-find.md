@@ -1055,3 +1055,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 247
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 248
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
