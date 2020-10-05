@@ -1139,3 +1139,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 267
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 268
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
