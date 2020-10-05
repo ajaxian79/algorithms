@@ -152,3 +152,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 125: Uses a small fixed-size lookup table.
 // edge note 126: Mutates the input in place; the original ordering is lost.
 // edge note 127: Time complexity: O(n).
+// edge note 128: Time complexity: O(n^2) worst case, O(n) amortized.
