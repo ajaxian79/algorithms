@@ -1639,3 +1639,7 @@ Stable when the input is already sorted.
 ## entry 395
 
 Uses a small fixed-size lookup table.
+
+## entry 396
+
+Edge case: input with one duplicate → handled without an extra pass.
