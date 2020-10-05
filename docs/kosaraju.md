@@ -1131,3 +1131,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 283
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 284
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
