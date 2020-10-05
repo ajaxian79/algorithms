@@ -1622,3 +1622,7 @@ Caller owns the returned buffer.
 ## entry 390
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 391
+
+Allocates one buffer of length n+1 for the result.
