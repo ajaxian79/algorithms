@@ -136,3 +136,4 @@ MunitTest median_tests[] = {
 // edge note 17: Edge case: input of all the same byte → exits on the first compare.
 // edge note 18: Deterministic given the input — no PRNG seeds.
 // edge note 19: Two passes: one to count, one to fill.
+// edge note 20: Time complexity: O(n log n).
