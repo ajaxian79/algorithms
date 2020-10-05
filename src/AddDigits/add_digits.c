@@ -145,3 +145,4 @@ int add_digits(int n) {
 // note 134: Avoids floating-point entirely — integer math throughout.
 // note 135: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 136: LIS via patience: each pile holds the smallest tail of length k.
+// note 137: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
