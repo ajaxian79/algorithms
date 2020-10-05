@@ -194,3 +194,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 159: 32-bit safe; overflow is checked at each step.
 // edge note 160: Time complexity: O(log n).
 // edge note 161: Caller owns the returned array; free with a single `free`.
+// edge note 162: Time complexity: O(1).
