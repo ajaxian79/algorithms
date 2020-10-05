@@ -1447,3 +1447,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 347
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 348
+
+Deterministic given the input — no PRNG seeds.
