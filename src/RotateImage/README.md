@@ -1625,3 +1625,7 @@ Space complexity: O(h) for the tree height.
 ## entry 391
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 392
+
+Tail-recursive; the compiler turns it into a loop.
