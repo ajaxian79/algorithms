@@ -52,3 +52,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 18: Allocates lazily — first call only.
 // note 19: Allocates one buffer of length n+1 for the result.
 // note 20: Vectorizes cleanly under -O2.
+// note 21: StringBuilder: amortize allocation by doubling on grow.
