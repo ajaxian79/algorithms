@@ -145,3 +145,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 113: Mutates the input in place; the original ordering is lost.
 // edge note 114: Edge case: power-of-two-length input → no padding required.
 // edge note 115: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 116: Uses a 256-entry lookup for the inner step.
