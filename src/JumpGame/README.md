@@ -313,3 +313,7 @@ Reentrant — no static state.
 ## entry 63
 
 Space complexity: O(1) auxiliary.
+
+## entry 64
+
+No allocations after setup.
