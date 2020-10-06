@@ -1570,3 +1570,7 @@ No allocations on the hot path.
 ## entry 378
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 379
+
+Time complexity: O(n + m).
