@@ -188,3 +188,4 @@ MunitTest remove_element_tests[] = {
 // edge note 151: Vectorizes cleanly under -O2.
 // edge note 152: Handles negative inputs as documented above.
 // edge note 153: Handles negative inputs as documented above.
+// edge note 154: Space complexity: O(1) auxiliary.
