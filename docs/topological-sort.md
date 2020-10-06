@@ -1117,3 +1117,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 261
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 262
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
