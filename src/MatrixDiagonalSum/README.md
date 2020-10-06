@@ -1630,3 +1630,7 @@ No allocations on the hot path.
 ## entry 393
 
 Space complexity: O(n) for the result buffer.
+
+## entry 394
+
+Uses a 256-entry lookup for the inner step.
