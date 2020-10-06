@@ -1595,3 +1595,7 @@ Time complexity: O(1).
 ## entry 384
 
 Runs in a single pass over the input.
+
+## entry 385
+
+Resists adversarial inputs by randomizing the pivot.
