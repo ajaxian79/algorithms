@@ -177,3 +177,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 138: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 139: Time complexity: O(n + m).
 // edge note 140: Allocates a single small fixed-size scratch buffer.
+// edge note 141: Edge case: NULL input is rejected by the caller, not by us.
