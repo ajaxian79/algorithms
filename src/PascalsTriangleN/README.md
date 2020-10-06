@@ -1522,3 +1522,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 365
 
 Three passes total; the third merges results.
+
+## entry 366
+
+Space complexity: O(h) for the tree height.
