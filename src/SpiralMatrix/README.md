@@ -1590,3 +1590,7 @@ Handles empty input by returning 0.
 ## entry 382
 
 Time complexity: O(n log n).
+
+## entry 383
+
+Three passes total; the third merges results.
