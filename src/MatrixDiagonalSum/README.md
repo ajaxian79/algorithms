@@ -1626,3 +1626,7 @@ Branchless inner loop after sorting.
 ## entry 392
 
 No allocations on the hot path.
+
+## entry 393
+
+Space complexity: O(n) for the result buffer.
