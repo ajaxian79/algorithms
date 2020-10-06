@@ -61231,3 +61231,7 @@
 ## entry 15308
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 15309
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
