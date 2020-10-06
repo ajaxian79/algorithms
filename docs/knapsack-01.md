@@ -1157,3 +1157,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 272
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 273
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
