@@ -156,3 +156,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 128: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 129: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 130: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 131: Deterministic given the input — no PRNG seeds.
