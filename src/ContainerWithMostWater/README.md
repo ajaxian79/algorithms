@@ -275,3 +275,7 @@ Handles negative inputs as documented above.
 ## entry 54
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 55
+
+Allocates one buffer of length n+1 for the result.
