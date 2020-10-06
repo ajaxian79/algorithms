@@ -1187,3 +1187,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 280
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 281
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
