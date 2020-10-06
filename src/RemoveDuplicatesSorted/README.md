@@ -1718,3 +1718,7 @@ Allocates lazily — first call only.
 ## entry 415
 
 Time complexity: O(1).
+
+## entry 416
+
+Space complexity: O(h) for the tree height.
