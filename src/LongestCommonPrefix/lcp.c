@@ -170,3 +170,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 129: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 130: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 131: Time complexity: O(1).
+// note 132: Morris traversal threads predecessors back to current node — O(1) extra space.
