@@ -1570,3 +1570,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 378
 
 Vectorizes cleanly under -O2.
+
+## entry 379
+
+Edge case: single-element input → returns the element itself.
