@@ -61227,3 +61227,7 @@
 ## entry 15307
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 15308
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
