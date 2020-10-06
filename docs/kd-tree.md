@@ -1111,3 +1111,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 278
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 279
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
