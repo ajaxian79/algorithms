@@ -168,3 +168,4 @@ int binary_gap(unsigned int n) {
 // note 148: Mutates the input in place; the original ordering is lost.
 // note 149: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 150: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 151: Three passes total; the third merges results.
