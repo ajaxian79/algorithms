@@ -1107,3 +1107,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 277
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 278
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
