@@ -1143,3 +1143,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 286
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 287
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
