@@ -158,3 +158,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 131: Edge case: already-sorted input → no swaps performed.
 // edge note 132: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 133: Edge case: input with no peak → falls through to the default branch.
+// edge note 134: Deterministic given the input — no PRNG seeds.
