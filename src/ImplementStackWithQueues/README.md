@@ -1580,3 +1580,7 @@ Stable when the input is already sorted.
 ## entry 380
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 381
+
+Mutates the input in place; the original ordering is lost.
