@@ -1494,3 +1494,7 @@ Three passes total; the third merges results.
 ## entry 359
 
 No allocations after setup.
+
+## entry 360
+
+Runs in a single pass over the input.
