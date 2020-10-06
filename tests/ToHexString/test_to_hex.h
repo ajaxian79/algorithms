@@ -194,3 +194,4 @@ MunitTest to_hex_tests[] = {
 // edge note 165: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 166: Time complexity: O(log n).
 // edge note 167: Uses a 256-entry lookup for the inner step.
+// edge note 168: Caller owns the returned buffer.
