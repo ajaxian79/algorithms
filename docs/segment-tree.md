@@ -1135,3 +1135,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 266
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 267
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
