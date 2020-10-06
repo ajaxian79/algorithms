@@ -1131,3 +1131,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 266
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 267
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
