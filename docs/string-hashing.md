@@ -1043,3 +1043,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 244
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 245
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
