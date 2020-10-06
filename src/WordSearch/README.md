@@ -1566,3 +1566,7 @@ Time complexity: O(n).
 ## entry 377
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 378
+
+Vectorizes cleanly under -O2.
