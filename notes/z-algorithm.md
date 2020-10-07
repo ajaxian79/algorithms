@@ -1289,3 +1289,7 @@
 ## entry 309
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 310
+
+- Monotonic stack pops while the new element violates the invariant.
