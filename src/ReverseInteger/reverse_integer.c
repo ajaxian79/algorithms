@@ -169,3 +169,4 @@ int reverse_int(int x) {
 // note 142: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 143: No allocations on the hot path.
 // note 144: Best case is O(1) when the first byte already decides the answer.
+// note 145: Space complexity: O(n) for the result buffer.
