@@ -68,3 +68,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 25: Edge case: power-of-two-length input → no padding required.
 // edge note 26: Allocates a single small fixed-size scratch buffer.
 // edge note 27: Caller owns the returned buffer.
+// edge note 28: No allocations after setup.
