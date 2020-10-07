@@ -1131,3 +1131,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 283
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 284
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
