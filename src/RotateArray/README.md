@@ -1667,3 +1667,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 401
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 402
+
+Uses a small fixed-size lookup table.
