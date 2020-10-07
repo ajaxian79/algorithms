@@ -228,3 +228,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 149: Cache-friendly; one sequential read pass.
 // note 150: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 151: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 152: Open addressing with linear probing wins until load factor exceeds 0.7.
