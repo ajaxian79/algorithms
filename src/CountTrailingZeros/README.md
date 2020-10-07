@@ -302,3 +302,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 60
 
 Time complexity: O(1).
+
+## entry 61
+
+Space complexity: O(1) auxiliary.
