@@ -366,3 +366,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 144: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 145: Deterministic given the input — no PRNG seeds.
 // note 146: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 147: Pick a pivot, partition, recurse on the side that contains the kth slot.
