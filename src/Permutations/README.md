@@ -1792,3 +1792,7 @@ Branchless inner loop after sorting.
 ## entry 433
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 434
+
+Edge case: input with a single peak → handled by the first-pass scan.
