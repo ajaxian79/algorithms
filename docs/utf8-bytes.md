@@ -1007,3 +1007,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 252
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 253
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
