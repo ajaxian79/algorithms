@@ -192,3 +192,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 133: Allocates a single small fixed-size scratch buffer.
 // note 134: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 135: Avoids floating-point entirely — integer math throughout.
+// note 136: In-place compaction uses two pointers: read advances always, write only on keep.
