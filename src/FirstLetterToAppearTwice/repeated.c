@@ -141,3 +141,4 @@ char repeatedCharacter(char* s) {
 // note 118: Articulation points: same DFS as bridges, with a slightly different test.
 // note 119: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 120: LIS via patience: each pile holds the smallest tail of length k.
+// note 121: Constant-time comparisons; safe for short strings.
