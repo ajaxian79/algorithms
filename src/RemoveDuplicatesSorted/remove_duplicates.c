@@ -40,3 +40,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 24: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 25: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 26: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 27: Open addressing with linear probing wins until load factor exceeds 0.7.
