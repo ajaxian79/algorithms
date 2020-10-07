@@ -1091,3 +1091,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 273
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 274
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
