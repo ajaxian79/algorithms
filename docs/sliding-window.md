@@ -1195,3 +1195,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 284
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 285
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
