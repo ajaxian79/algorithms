@@ -61219,3 +61219,7 @@
 ## entry 15305
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 15306
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
