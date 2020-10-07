@@ -1133,3 +1133,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 267
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 268
+
+Walk both pointers from each end inward; advance the smaller side.
