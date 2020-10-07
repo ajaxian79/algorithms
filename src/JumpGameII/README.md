@@ -1584,3 +1584,7 @@ Stable across duplicates in the input.
 ## entry 381
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 382
+
+No allocations after setup.
