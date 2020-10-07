@@ -1647,3 +1647,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 396
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 397
+
+Edge case: empty input → returns 0.
