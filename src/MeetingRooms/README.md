@@ -1594,3 +1594,7 @@ Allocates lazily — first call only.
 ## entry 384
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 385
+
+No allocations after setup.
