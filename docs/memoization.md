@@ -1139,3 +1139,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 285
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 286
+
+Stable sort matters when a secondary key was set in a prior pass.
