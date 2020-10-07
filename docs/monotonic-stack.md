@@ -1061,3 +1061,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 249
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 250
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
