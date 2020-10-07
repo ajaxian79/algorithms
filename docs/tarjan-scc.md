@@ -1139,3 +1139,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 285
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 286
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
