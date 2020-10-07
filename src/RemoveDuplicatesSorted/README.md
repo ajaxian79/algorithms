@@ -286,3 +286,7 @@ Stable when the input is already sorted.
 ## entry 57
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 58
+
+Returns a freshly allocated string the caller must free.
