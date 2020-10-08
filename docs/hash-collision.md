@@ -1175,3 +1175,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 294
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 295
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
