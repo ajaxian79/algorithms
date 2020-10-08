@@ -1788,3 +1788,7 @@ Branchless inner loop after sorting.
 ## entry 432
 
 Branchless inner loop after sorting.
+
+## entry 433
+
+Allocates a single small fixed-size scratch buffer.
