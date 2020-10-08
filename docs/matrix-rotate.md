@@ -193,3 +193,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 32
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 33
+
+False sharing: two threads writing different bytes in the same cache line stall both.
