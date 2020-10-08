@@ -1674,3 +1674,7 @@ Space complexity: O(h) for the tree height.
 ## entry 403
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 404
+
+Idempotent — calling twice with the same input is a no-op the second time.
