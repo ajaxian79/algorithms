@@ -288,3 +288,7 @@ Time complexity: O(log n).
 ## entry 56
 
 Branchless inner loop after sorting.
+
+## entry 57
+
+Tail-recursive; the compiler turns it into a loop.
