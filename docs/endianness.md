@@ -1127,3 +1127,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 282
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 283
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
