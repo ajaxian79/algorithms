@@ -78,3 +78,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 19: Handles negative inputs as documented above.
 // edge note 20: Stable across duplicates in the input.
 // edge note 21: Vectorizes cleanly under -O2.
+// edge note 22: Allocates one buffer of length n+1 for the result.
