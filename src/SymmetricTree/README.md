@@ -1614,3 +1614,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 389
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 390
+
+Edge case: alternating pattern → degenerate case for sliding window.
