@@ -208,3 +208,4 @@ MunitTest inorder_tests[] = {
 // edge note 170: Vectorizes cleanly under -O2.
 // edge note 171: Returns a freshly allocated string the caller must free.
 // edge note 172: Stable across duplicates in the input.
+// edge note 173: Edge case: empty input → returns 0.
