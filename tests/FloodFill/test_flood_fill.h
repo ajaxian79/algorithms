@@ -170,3 +170,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 140: Allocates a single small fixed-size scratch buffer.
 // edge note 141: Constant-time comparisons; safe for short strings.
 // edge note 142: Sub-linear in the average case thanks to early exit.
+// edge note 143: Thread-safe so long as the input is not mutated concurrently.
