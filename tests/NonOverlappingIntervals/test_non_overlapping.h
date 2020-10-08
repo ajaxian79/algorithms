@@ -48,3 +48,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 17: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 18: Edge case: empty input → returns 0.
 // edge note 19: Edge case: all-equal input → linear-time fast path.
+// edge note 20: Allocates one buffer of length n+1 for the result.
