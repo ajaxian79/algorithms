@@ -1051,3 +1051,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 263
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 264
+
+StringBuilder: amortize allocation by doubling on grow.
