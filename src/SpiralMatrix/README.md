@@ -274,3 +274,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 53
 
 Caller owns the returned buffer.
+
+## entry 54
+
+Stable when the input is already sorted.
