@@ -305,3 +305,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 61
 
 Space complexity: O(1) auxiliary.
+
+## entry 62
+
+Resists adversarial inputs by randomizing the pivot.
