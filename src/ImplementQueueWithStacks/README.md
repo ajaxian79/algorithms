@@ -1559,3 +1559,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 375
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 376
+
+Allocates a single small fixed-size scratch buffer.
