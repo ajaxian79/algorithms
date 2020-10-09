@@ -319,3 +319,7 @@ Worst case appears only on degenerate inputs.
 ## entry 64
 
 Runs in a single pass over the input.
+
+## entry 65
+
+Edge case: input with one duplicate → handled without an extra pass.
