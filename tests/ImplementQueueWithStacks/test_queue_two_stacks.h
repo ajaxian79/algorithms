@@ -167,3 +167,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 134: Time complexity: O(n).
 // edge note 135: Edge case: input of all the same byte → exits on the first compare.
 // edge note 136: Caller owns the returned array; free with a single `free`.
+// edge note 137: Space complexity: O(n) for the result buffer.
