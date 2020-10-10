@@ -61143,3 +61143,7 @@
 ## entry 15286
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 15287
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
