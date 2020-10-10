@@ -69,6 +69,7 @@
 #include "JumpGame/test_jump_game.h"
 #include "JumpGameII/test_jump_game_ii.h"
 #include "MaxSubarray/test_max_subarray.h"
+#include "ProductExceptSelf/test_product_except_self.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -500,6 +501,12 @@ MunitSuite suites[] = {
         },{
                 "/max_subarray",
                 max_subarray_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/product_except_self",
+                product_except_self_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
