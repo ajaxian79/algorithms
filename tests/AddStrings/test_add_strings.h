@@ -183,3 +183,4 @@ MunitTest add_strings_tests[] = {
 // edge note 147: Uses a 256-entry lookup for the inner step.
 // edge note 148: Handles single-element input as a base case.
 // edge note 149: Branchless inner loop after sorting.
+// edge note 150: Vectorizes cleanly under -O2.
