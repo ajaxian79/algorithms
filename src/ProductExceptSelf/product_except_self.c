@@ -1,0 +1,35 @@
+//
+// Created by ajaxian on 10/10/20.
+//
+
+#include "product_except_self.h"
+
+#include <stdlib.h>
+
+int* product_except_self(const int* nums, int nums_size, int* return_size) {
+    if (nums_size <= 0) {
+        *return_size = 0;
+        return NULL;
+    }
+    int* out = malloc(sizeof(int) * (size_t)nums_size);
+    if (!out) {
+        *return_size = 0;
+        return NULL;
+    }
+
+    // Pass 1: out[i] = product of nums[0..i-1].
+    out[0] = 1;
+    for (int i = 1; i < nums_size; i++) {
+        out[i] = out[i - 1] * nums[i - 1];
+    }
+
+    // Pass 2: multiply by suffix product on the way back.
+    int suffix = 1;
+    for (int i = nums_size - 1; i >= 0; i--) {
+        out[i] *= suffix;
+        suffix *= nums[i];
+    }
+
+    *return_size = nums_size;
+    return out;
+}
