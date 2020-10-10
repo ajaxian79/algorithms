@@ -1111,3 +1111,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 261
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 262
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
