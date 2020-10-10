@@ -281,3 +281,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 55
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 56
+
+Time complexity: O(1).
