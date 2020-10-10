@@ -1103,3 +1103,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 276
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 277
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
