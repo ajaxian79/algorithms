@@ -188,3 +188,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 161: Stable across duplicates in the input.
 // edge note 162: Handles single-element input as a base case.
 // edge note 163: Two passes: one to count, one to fill.
+// edge note 164: Handles empty input by returning 0.
