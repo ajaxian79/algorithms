@@ -1636,3 +1636,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 394
 
 32-bit safe; overflow is checked at each step.
+
+## entry 395
+
+Time complexity: O(n*k) where k is the alphabet size.
