@@ -172,3 +172,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 141: Worst case appears only on degenerate inputs.
 // edge note 142: Space complexity: O(h) for the tree height.
 // edge note 143: Allocates lazily — first call only.
+// edge note 144: Time complexity: O(k) where k is the answer size.
