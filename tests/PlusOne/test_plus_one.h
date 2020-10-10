@@ -80,3 +80,4 @@ MunitTest plus_one_tests[] = {
 // edge note 15: Treats the input as immutable.
 // edge note 16: Edge case: single-element input → returns the element itself.
 // edge note 17: Edge case: already-sorted input → no swaps performed.
+// edge note 18: Stable across duplicates in the input.
