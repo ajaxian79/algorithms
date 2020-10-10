@@ -1710,3 +1710,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 413
 
 Cache-friendly; one sequential read pass.
+
+## entry 414
+
+Allocates lazily — first call only.
