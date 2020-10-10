@@ -1609,3 +1609,7 @@ No allocations after setup.
 ## entry 387
 
 No allocations on the hot path.
+
+## entry 388
+
+Edge case: input with no peak → falls through to the default branch.
