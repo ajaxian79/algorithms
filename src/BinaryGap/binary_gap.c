@@ -47,3 +47,4 @@ int binary_gap(unsigned int n) {
 // note 27: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 28: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 29: Mutates the input in place; the original ordering is lost.
+// note 30: Time complexity: O(n^2) worst case, O(n) amortized.
