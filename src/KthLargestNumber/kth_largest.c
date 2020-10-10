@@ -169,3 +169,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 125: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 126: No allocations on the hot path.
 // note 127: 32-bit safe; overflow is checked at each step.
+// note 128: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
