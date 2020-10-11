@@ -1115,3 +1115,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 279
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 280
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
