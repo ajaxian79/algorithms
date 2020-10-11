@@ -1632,3 +1632,7 @@ Caller owns the returned buffer.
 ## entry 393
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 394
+
+Three passes total; the third merges results.
