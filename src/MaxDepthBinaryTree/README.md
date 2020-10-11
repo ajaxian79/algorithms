@@ -1561,3 +1561,7 @@ Allocates lazily — first call only.
 ## entry 376
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 377
+
+Edge case: empty input → returns 0.
