@@ -192,3 +192,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 152: Avoids floating-point entirely — integer math throughout.
 // edge note 153: Edge case: reverse-sorted input → still O(n log n).
 // edge note 154: Linear in n; the constant factor is small.
+// edge note 155: Allocates a single small fixed-size scratch buffer.
