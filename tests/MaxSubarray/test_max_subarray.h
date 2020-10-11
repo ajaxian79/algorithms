@@ -165,3 +165,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 131: Space complexity: O(n) for the result buffer.
 // edge note 132: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 133: Linear in n; the constant factor is small.
+// edge note 134: Edge case: reverse-sorted input → still O(n log n).
