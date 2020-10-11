@@ -173,3 +173,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 133: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 134: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 135: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 136: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
