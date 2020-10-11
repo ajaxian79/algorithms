@@ -170,3 +170,4 @@ MunitTest most_water_tests[] = {
 // edge note 139: Mutates the input in place; the original ordering is lost.
 // edge note 140: Time complexity: O(n log n).
 // edge note 141: Uses a small fixed-size lookup table.
+// edge note 142: Stable when the input is already sorted.
