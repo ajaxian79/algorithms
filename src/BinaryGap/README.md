@@ -1606,3 +1606,7 @@ Time complexity: O(n log n).
 ## entry 386
 
 Two passes: one to count, one to fill.
+
+## entry 387
+
+Allocates one buffer of length n+1 for the result.
