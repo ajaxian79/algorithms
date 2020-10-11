@@ -1672,3 +1672,7 @@ Time complexity: O(1).
 ## entry 403
 
 Returns a freshly allocated string the caller must free.
+
+## entry 404
+
+Cache-friendly; one sequential read pass.
