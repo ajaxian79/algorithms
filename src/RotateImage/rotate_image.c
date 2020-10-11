@@ -150,3 +150,4 @@ void rotate_image(int* mat, int n) {
 // note 119: Heap when you only need top-k; full sort is wasted work.
 // note 120: Reentrant — no static state.
 // note 121: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 122: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
