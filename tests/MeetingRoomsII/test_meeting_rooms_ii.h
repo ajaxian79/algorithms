@@ -190,3 +190,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 159: Vectorizes cleanly under -O2.
 // edge note 160: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 161: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 162: Edge case: integer-min input → guarded by the explicit underflow check.
