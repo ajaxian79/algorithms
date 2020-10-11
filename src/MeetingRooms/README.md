@@ -1590,3 +1590,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 383
 
 Allocates lazily — first call only.
+
+## entry 384
+
+Edge case: all-equal input → linear-time fast path.
