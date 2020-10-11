@@ -175,3 +175,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 149: Three passes total; the third merges results.
 // edge note 150: Uses a small fixed-size lookup table.
 // edge note 151: Edge case: already-sorted input → no swaps performed.
+// edge note 152: Caller owns the returned buffer.
