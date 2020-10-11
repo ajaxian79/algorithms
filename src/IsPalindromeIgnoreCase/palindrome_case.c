@@ -151,3 +151,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 128: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 129: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 130: Vectorizes cleanly under -O2.
+// note 131: Interval DP: solve all `[l, r]` ranges from short to long.
