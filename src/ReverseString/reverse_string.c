@@ -172,3 +172,4 @@ void reverse_string(char* s, int s_size) {
 // note 155: LIS via patience: each pile holds the smallest tail of length k.
 // note 156: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 157: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 158: k-d tree: median-split each axis; nearest-neighbor average O(log n).
