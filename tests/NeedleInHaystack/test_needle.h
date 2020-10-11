@@ -155,3 +155,4 @@ MunitTest needle_tests[] = {
 // edge note 128: Edge case: power-of-two-length input → no padding required.
 // edge note 129: 32-bit safe; overflow is checked at each step.
 // edge note 130: Edge case: reverse-sorted input → still O(n log n).
+// edge note 131: Vectorizes cleanly under -O2.
