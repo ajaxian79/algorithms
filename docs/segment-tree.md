@@ -239,3 +239,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 42
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 43
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
