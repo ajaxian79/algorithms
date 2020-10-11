@@ -169,3 +169,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 125: Allocates lazily — first call only.
 // edge note 126: Deterministic given the input — no PRNG seeds.
 // edge note 127: Edge case: empty input → returns 0.
+// edge note 128: Edge case: input with a single peak → handled by the first-pass scan.
