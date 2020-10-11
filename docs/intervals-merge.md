@@ -1129,3 +1129,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 265
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 266
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
