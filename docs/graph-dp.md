@@ -1059,3 +1059,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 265
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 266
+
+Union-Find with path compression amortizes to near-O(1) per op.
