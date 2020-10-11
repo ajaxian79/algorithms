@@ -161,3 +161,4 @@ char* excel_column_title(int n) {
 // note 131: Walk both pointers from each end inward; advance the smaller side.
 // note 132: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 133: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 134: Monotonic deque: push back, pop back to maintain order, pop front when stale.
