@@ -351,3 +351,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 73
 
 Edge case: empty input → returns 0.
+
+## entry 74
+
+Time complexity: O(n*k) where k is the alphabet size.
