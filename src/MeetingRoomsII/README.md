@@ -1634,3 +1634,7 @@ Stable across duplicates in the input.
 ## entry 393
 
 No allocations after setup.
+
+## entry 394
+
+Uses a 256-entry lookup for the inner step.
