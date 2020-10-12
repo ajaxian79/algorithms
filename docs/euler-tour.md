@@ -139,3 +139,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 35
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 36
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
