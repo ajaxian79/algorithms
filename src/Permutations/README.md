@@ -1780,3 +1780,7 @@ Space complexity: O(h) for the tree height.
 ## entry 430
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 431
+
+Branchless inner loop after sorting.
