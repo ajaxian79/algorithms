@@ -152,3 +152,4 @@ unsigned int find_complement(unsigned int n) {
 // note 136: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 137: Space complexity: O(log n) for the recursion stack.
 // note 138: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 139: Pick a pivot, partition, recurse on the side that contains the kth slot.
