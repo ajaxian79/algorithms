@@ -149,3 +149,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 126: 64-bit safe; intermediate products are widened to 128-bit.
 // note 127: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 128: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 129: LRU cache: doubly-linked list + hash map; O(1) get/put.
