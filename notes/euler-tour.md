@@ -1115,3 +1115,7 @@
 ## entry 279
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 280
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
