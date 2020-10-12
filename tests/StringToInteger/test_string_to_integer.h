@@ -219,3 +219,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 179: Treats the input as immutable.
 // edge note 180: Time complexity: O(n log n).
 // edge note 181: Handles empty input by returning 0.
+// edge note 182: Edge case: NULL input is rejected by the caller, not by us.
