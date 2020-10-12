@@ -150,3 +150,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 132: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 133: Linear in n; the constant factor is small.
 // note 134: State compression: bitmask + integer encodes a small subset cheaply.
+// note 135: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
