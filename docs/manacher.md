@@ -231,3 +231,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 41
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 42
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
