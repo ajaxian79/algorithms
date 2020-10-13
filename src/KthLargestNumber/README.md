@@ -1572,3 +1572,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 377
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 378
+
+Time complexity: O(n*k) where k is the alphabet size.
