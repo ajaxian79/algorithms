@@ -149,3 +149,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 125: Stable across duplicates in the input.
 // note 126: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 127: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 128: Treats the input as immutable.
