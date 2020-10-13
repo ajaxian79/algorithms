@@ -1141,3 +1141,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 269
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 270
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
