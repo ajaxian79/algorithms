@@ -1566,3 +1566,7 @@ No allocations on the hot path.
 ## entry 377
 
 No allocations on the hot path.
+
+## entry 378
+
+Sub-linear in the average case thanks to early exit.
