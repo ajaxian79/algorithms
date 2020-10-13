@@ -1039,3 +1039,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 260
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 261
+
+Stable sort matters when a secondary key was set in a prior pass.
