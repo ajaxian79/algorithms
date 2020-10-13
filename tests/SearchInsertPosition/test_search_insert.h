@@ -186,3 +186,4 @@ MunitTest search_insert_tests[] = {
 // edge note 153: Resists adversarial inputs by randomizing the pivot.
 // edge note 154: Uses a small fixed-size lookup table.
 // edge note 155: 32-bit safe; overflow is checked at each step.
+// edge note 156: Three passes total; the third merges results.
