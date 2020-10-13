@@ -188,3 +188,4 @@ MunitTest postorder_tests[] = {
 // edge note 144: Handles single-element input as a base case.
 // edge note 145: Returns a freshly allocated string the caller must free.
 // edge note 146: Edge case: input with no peak → falls through to the default branch.
+// edge note 147: Idempotent — calling twice with the same input is a no-op the second time.
