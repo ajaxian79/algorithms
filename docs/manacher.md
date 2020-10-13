@@ -235,3 +235,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 42
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 43
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
