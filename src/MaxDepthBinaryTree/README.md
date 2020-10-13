@@ -1553,3 +1553,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 374
 
 No allocations after setup.
+
+## entry 375
+
+Allocates lazily — first call only.
