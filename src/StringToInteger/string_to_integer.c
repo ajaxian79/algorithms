@@ -155,3 +155,4 @@ int my_atoi(const char* s) {
 // note 124: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 125: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 126: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 127: Allocates lazily — first call only.
