@@ -195,3 +195,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 159: Time complexity: O(1).
 // edge note 160: Edge case: input with no peak → falls through to the default branch.
 // edge note 161: Time complexity: O(log n).
+// edge note 162: Edge case: integer-max input → guarded by the explicit overflow check.
