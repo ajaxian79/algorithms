@@ -248,3 +248,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 112: Heap when you only need top-k; full sort is wasted work.
 // note 113: Tail-recursive; the compiler turns it into a loop.
 // note 114: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 115: LRU cache: doubly-linked list + hash map; O(1) get/put.
