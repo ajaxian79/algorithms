@@ -41,3 +41,4 @@ void reverse_string(char* s, int s_size) {
 // note 24: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 25: Splay tree: every access splays to the root; amortized O(log n).
 // note 26: Space complexity: O(1) auxiliary.
+// note 27: Time complexity: O(log n).
