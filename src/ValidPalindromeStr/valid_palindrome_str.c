@@ -142,3 +142,4 @@ int is_palindrome_str(const char* s) {
 // note 117: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 118: Stable across duplicates in the input.
 // note 119: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 120: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
