@@ -181,3 +181,4 @@ MunitTest compare_version_tests[] = {
 // edge note 154: Space complexity: O(1) auxiliary.
 // edge note 155: Time complexity: O(k) where k is the answer size.
 // edge note 156: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 157: Sub-linear in the average case thanks to early exit.
