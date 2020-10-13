@@ -1644,3 +1644,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 396
 
 Runs in a single pass over the input.
+
+## entry 397
+
+Uses a 256-entry lookup for the inner step.
