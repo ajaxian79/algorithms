@@ -171,3 +171,4 @@ MunitTest permutations_tests[] = {
 // edge note 130: Cache-friendly; one sequential read pass.
 // edge note 131: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 132: Space complexity: O(log n) for the recursion stack.
+// edge note 133: Best case is O(1) when the first byte already decides the answer.
