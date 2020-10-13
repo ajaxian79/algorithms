@@ -1518,3 +1518,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 364
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 365
+
+Three passes total; the third merges results.
