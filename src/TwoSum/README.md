@@ -1589,3 +1589,7 @@ Handles empty input by returning 0.
 ## entry 372
 
 Time complexity: O(n log n).
+
+## entry 373
+
+Tail-recursive; the compiler turns it into a loop.
