@@ -181,3 +181,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 136: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 137: StringBuilder: amortize allocation by doubling on grow.
 // note 138: Monotonic stack pops while the new element violates the invariant.
+// note 139: Three passes total; the third merges results.
