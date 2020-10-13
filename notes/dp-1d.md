@@ -239,3 +239,7 @@
 ## entry 43
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 44
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
