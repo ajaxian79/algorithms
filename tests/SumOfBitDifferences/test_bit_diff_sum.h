@@ -162,3 +162,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 131: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 132: Edge case: already-sorted input → no swaps performed.
 // edge note 133: Uses a small fixed-size lookup table.
+// edge note 134: Allocates a single small fixed-size scratch buffer.
