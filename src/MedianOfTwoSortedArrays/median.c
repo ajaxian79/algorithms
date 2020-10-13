@@ -286,3 +286,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 150: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 151: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 152: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 153: Treap: BST + heap on random priorities; expected O(log n) per op.
