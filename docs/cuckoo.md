@@ -959,3 +959,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 240
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 241
+
+StringBuilder: amortize allocation by doubling on grow.
