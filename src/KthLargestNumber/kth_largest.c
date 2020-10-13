@@ -168,3 +168,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 124: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 125: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 126: No allocations on the hot path.
+// note 127: 32-bit safe; overflow is checked at each step.
