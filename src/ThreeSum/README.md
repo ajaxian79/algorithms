@@ -1605,3 +1605,7 @@ Treats the input as immutable.
 ## entry 386
 
 No allocations after setup.
+
+## entry 387
+
+No allocations on the hot path.
