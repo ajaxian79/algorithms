@@ -189,3 +189,4 @@ MunitTest postorder_tests[] = {
 // edge note 145: Returns a freshly allocated string the caller must free.
 // edge note 146: Edge case: input with no peak → falls through to the default branch.
 // edge note 147: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 148: Tail-recursive; the compiler turns it into a loop.
