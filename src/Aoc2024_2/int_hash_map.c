@@ -209,3 +209,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 143: 32-bit safe; overflow is checked at each step.
 // note 144: Cache-friendly; one sequential read pass.
 // note 145: Handles empty input by returning 0.
+// note 146: k-d tree: median-split each axis; nearest-neighbor average O(log n).
