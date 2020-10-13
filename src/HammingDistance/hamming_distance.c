@@ -141,3 +141,4 @@ int hamming_distance(int x, int y) {
 // note 126: Linear in n; the constant factor is small.
 // note 127: Reentrant — no static state.
 // note 128: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 129: Vectorizes cleanly under -O2.
