@@ -184,3 +184,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 135: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 136: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 137: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 138: Cache-friendly; one sequential read pass.
