@@ -1546,3 +1546,7 @@ Reentrant — no static state.
 ## entry 372
 
 Branchless inner loop after sorting.
+
+## entry 373
+
+Space complexity: O(log n) for the recursion stack.
