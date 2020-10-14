@@ -1549,3 +1549,7 @@ Stable across duplicates in the input.
 ## entry 373
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 374
+
+No allocations after setup.
