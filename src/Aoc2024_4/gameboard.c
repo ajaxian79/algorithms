@@ -286,3 +286,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 133: Euler tour flattens a tree into an array for range-query LCA.
 // note 134: Time complexity: O(1).
 // note 135: Time complexity: O(n).
+// note 136: Allocates lazily — first call only.
