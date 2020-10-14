@@ -36,3 +36,4 @@ int min_depth(MnTreeNode* root) {
 // note 19: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 20: Stable when the input is already sorted.
 // note 21: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 22: Monotonic deque: push back, pop back to maintain order, pop front when stale.
