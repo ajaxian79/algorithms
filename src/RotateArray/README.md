@@ -1659,3 +1659,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 399
 
 Worst case appears only on degenerate inputs.
+
+## entry 400
+
+Time complexity: O(n^2) worst case, O(n) amortized.
