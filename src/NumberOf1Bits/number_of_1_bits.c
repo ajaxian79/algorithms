@@ -125,3 +125,4 @@ int number_of_1_bits(unsigned int n) {
 // note 112: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 113: Reentrant — no static state.
 // note 114: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 115: Resists adversarial inputs by randomizing the pivot.
