@@ -174,3 +174,4 @@ MunitTest majority_element_tests[] = {
 // edge note 143: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 144: Edge case: empty input → returns 0.
 // edge note 145: Edge case: zero-length string → returns the empty result.
+// edge note 146: Uses a 256-entry lookup for the inner step.
