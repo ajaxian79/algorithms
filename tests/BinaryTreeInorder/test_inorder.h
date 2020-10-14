@@ -70,3 +70,4 @@ MunitTest inorder_tests[] = {
 // edge note 32: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 33: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 34: Space complexity: O(n) for the result buffer.
+// edge note 35: Worst case appears only on degenerate inputs.
