@@ -170,3 +170,4 @@ MunitTest permutations_tests[] = {
 // edge note 129: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 130: Cache-friendly; one sequential read pass.
 // edge note 131: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 132: Space complexity: O(log n) for the recursion stack.
