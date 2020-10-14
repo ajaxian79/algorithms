@@ -187,3 +187,4 @@ MunitTest word_search_tests[] = {
 // edge note 153: No allocations on the hot path.
 // edge note 154: Constant-time comparisons; safe for short strings.
 // edge note 155: Space complexity: O(n) for the result buffer.
+// edge note 156: Edge case: already-sorted input → no swaps performed.
