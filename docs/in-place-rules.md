@@ -213,3 +213,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 38
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 39
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
