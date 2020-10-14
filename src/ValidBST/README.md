@@ -1601,3 +1601,7 @@ Caller owns the returned buffer.
 ## entry 385
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 386
+
+Allocates lazily — first call only.
