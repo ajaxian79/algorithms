@@ -1035,3 +1035,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 259
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 260
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
