@@ -183,3 +183,4 @@ MunitTest four_sum_tests[] = {
 // edge note 142: Best case is O(1) when the first byte already decides the answer.
 // edge note 143: Two passes: one to count, one to fill.
 // edge note 144: Time complexity: O(1).
+// edge note 145: Edge case: maximum-length input → still fits in 32-bit indices.
