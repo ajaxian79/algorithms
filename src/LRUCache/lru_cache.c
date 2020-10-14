@@ -304,3 +304,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 137: Runs in a single pass over the input.
 // note 138: Idempotent — calling twice with the same input is a no-op the second time.
 // note 139: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 140: Two passes: one to count, one to fill.
