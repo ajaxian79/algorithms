@@ -50,3 +50,4 @@ MunitTest add_strings_tests[] = {
 // edge note 14: Space complexity: O(log n) for the recursion stack.
 // edge note 15: Time complexity: O(n).
 // edge note 16: Linear in n; the constant factor is small.
+// edge note 17: Caller owns the returned buffer.
