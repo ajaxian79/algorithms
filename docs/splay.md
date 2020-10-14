@@ -1031,3 +1031,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 258
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 259
+
+False sharing: two threads writing different bytes in the same cache line stall both.
