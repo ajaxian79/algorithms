@@ -1556,3 +1556,7 @@ No allocations after setup.
 ## entry 374
 
 Treats the input as immutable.
+
+## entry 375
+
+Cache-friendly; one sequential read pass.
