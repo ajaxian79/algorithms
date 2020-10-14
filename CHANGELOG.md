@@ -61027,3 +61027,7 @@
 ## entry 15257
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 15258
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
