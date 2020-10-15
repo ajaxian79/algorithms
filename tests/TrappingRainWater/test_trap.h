@@ -177,3 +177,4 @@ MunitTest trap_tests[] = {
 // edge note 143: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 144: Time complexity: O(log n).
 // edge note 145: Edge case: empty input → returns 0.
+// edge note 146: Edge case: input with a single peak → handled by the first-pass scan.
