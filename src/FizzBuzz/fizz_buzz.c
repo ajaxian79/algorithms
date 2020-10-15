@@ -170,3 +170,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 124: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 125: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 126: StringBuilder: amortize allocation by doubling on grow.
+// note 127: Time complexity: O(n log n).
