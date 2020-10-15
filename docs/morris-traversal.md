@@ -1099,3 +1099,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 260
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 261
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
