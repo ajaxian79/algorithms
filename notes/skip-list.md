@@ -1047,3 +1047,7 @@
 ## entry 262
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 263
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
