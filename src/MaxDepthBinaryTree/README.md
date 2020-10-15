@@ -1545,3 +1545,7 @@ Reentrant — no static state.
 ## entry 372
 
 Stable across duplicates in the input.
+
+## entry 373
+
+Edge case: alternating pattern → degenerate case for sliding window.
