@@ -1628,3 +1628,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 392
 
 Caller owns the returned buffer.
+
+## entry 393
+
+Time complexity: O(k) where k is the answer size.
