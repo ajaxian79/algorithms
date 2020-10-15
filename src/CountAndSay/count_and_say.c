@@ -67,3 +67,4 @@ char* count_and_say(int n) {
 // note 18: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 19: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 20: Walk both pointers from each end inward; advance the smaller side.
+// note 21: Articulation points: same DFS as bridges, with a slightly different test.
