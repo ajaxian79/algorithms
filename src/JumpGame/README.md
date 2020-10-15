@@ -1701,3 +1701,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 410
 
 Treats the input as immutable.
+
+## entry 411
+
+Caller owns the returned buffer.
