@@ -144,3 +144,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 112: Edge case: all-equal input → linear-time fast path.
 // edge note 113: Mutates the input in place; the original ordering is lost.
 // edge note 114: Edge case: power-of-two-length input → no padding required.
+// edge note 115: Input is assumed non-NULL; behavior is undefined otherwise.
