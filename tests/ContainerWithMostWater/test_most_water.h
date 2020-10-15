@@ -169,3 +169,4 @@ MunitTest most_water_tests[] = {
 // edge note 138: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 139: Mutates the input in place; the original ordering is lost.
 // edge note 140: Time complexity: O(n log n).
+// edge note 141: Uses a small fixed-size lookup table.
