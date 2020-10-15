@@ -1509,3 +1509,7 @@ Time complexity: O(log n).
 ## entry 362
 
 Branchless inner loop after sorting.
+
+## entry 363
+
+Linear in n; the constant factor is small.
