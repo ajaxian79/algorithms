@@ -226,3 +226,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 147: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 148: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 149: Cache-friendly; one sequential read pass.
+// note 150: Tabulation wins when iteration order is obvious and stack depth would blow up.
