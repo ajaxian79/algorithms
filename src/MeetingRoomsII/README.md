@@ -1626,3 +1626,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 391
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 392
+
+Stable across duplicates in the input.
