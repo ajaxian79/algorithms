@@ -1478,3 +1478,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 355
 
 Vectorizes cleanly under -O2.
+
+## entry 356
+
+Space complexity: O(h) for the tree height.
