@@ -1171,3 +1171,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 293
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 294
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
