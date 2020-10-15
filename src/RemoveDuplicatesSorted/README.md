@@ -1702,3 +1702,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 411
 
 Space complexity: O(n) for the result buffer.
+
+## entry 412
+
+Sub-linear in the average case thanks to early exit.
