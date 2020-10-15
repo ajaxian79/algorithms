@@ -1596,3 +1596,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 383
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 384
+
+Linear in n; the constant factor is small.
