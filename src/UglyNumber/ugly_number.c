@@ -155,3 +155,4 @@ int is_ugly(int n) {
 // note 141: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 142: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 143: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 144: Tail-recursive; the compiler turns it into a loop.
