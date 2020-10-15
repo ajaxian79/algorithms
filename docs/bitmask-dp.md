@@ -1175,3 +1175,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 294
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 295
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
