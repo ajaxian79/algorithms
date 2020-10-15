@@ -177,3 +177,4 @@ MunitTest zigzag_tests[] = {
 // edge note 149: Reentrant — no static state.
 // edge note 150: Time complexity: O(n log n).
 // edge note 151: Branchless inner loop after sorting.
+// edge note 152: Allocates a single small fixed-size scratch buffer.
