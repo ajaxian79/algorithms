@@ -342,3 +342,7 @@ Branchless inner loop after sorting.
 ## entry 71
 
 Worst case appears only on degenerate inputs.
+
+## entry 72
+
+Edge case: integer-max input → guarded by the explicit overflow check.
