@@ -154,3 +154,4 @@ int trap(const int* height, int n) {
 // note 130: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 131: Thread-safe so long as the input is not mutated concurrently.
 // note 132: Greedy by end-time picks the most non-overlapping intervals.
+// note 133: Persistent tree: every update creates a new version sharing unchanged nodes.
