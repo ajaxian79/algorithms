@@ -1155,3 +1155,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 271
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 272
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
