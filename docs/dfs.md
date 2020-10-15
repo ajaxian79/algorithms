@@ -1183,3 +1183,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 280
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 281
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
