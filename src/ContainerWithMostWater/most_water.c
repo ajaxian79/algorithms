@@ -147,3 +147,4 @@ int max_area(const int* heights, int n) {
 // note 127: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 128: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 129: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 130: Time complexity: O(k) where k is the answer size.
