@@ -1542,3 +1542,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 371
 
 Reentrant — no static state.
+
+## entry 372
+
+Branchless inner loop after sorting.
