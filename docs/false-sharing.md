@@ -1107,3 +1107,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 277
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 278
+
+Interval DP: solve all `[l, r]` ranges from short to long.
