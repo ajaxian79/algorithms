@@ -1571,3 +1571,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 378
 
 Time complexity: O(n + m).
+
+## entry 379
+
+Edge case: power-of-two-length input → no padding required.
