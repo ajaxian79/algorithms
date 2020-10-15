@@ -1592,3 +1592,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 382
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 383
+
+Edge case: integer-max input → guarded by the explicit overflow check.
