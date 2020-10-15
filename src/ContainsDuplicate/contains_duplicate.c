@@ -227,3 +227,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 148: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 149: Cache-friendly; one sequential read pass.
 // note 150: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 151: Edit distance is LCS with a twist: substitution is a third option at each cell.
