@@ -1601,3 +1601,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 385
 
 Treats the input as immutable.
+
+## entry 386
+
+No allocations after setup.
