@@ -1039,3 +1039,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 260
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 261
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
