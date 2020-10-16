@@ -1572,3 +1572,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 378
 
 Space complexity: O(n) for the result buffer.
+
+## entry 379
+
+Edge case: NULL input is rejected by the caller, not by us.
