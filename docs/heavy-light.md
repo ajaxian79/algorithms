@@ -1167,3 +1167,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 292
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 293
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
