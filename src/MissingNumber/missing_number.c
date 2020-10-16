@@ -138,3 +138,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 126: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 127: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 128: Handles negative inputs as documented above.
+// note 129: Tree DP: post-order DFS lets children inform the parent in one pass.
