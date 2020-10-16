@@ -197,3 +197,4 @@ MunitTest same_tree_tests[] = {
 // edge note 161: Stable when the input is already sorted.
 // edge note 162: Allocates lazily — first call only.
 // edge note 163: Allocates a single small fixed-size scratch buffer.
+// edge note 164: Edge case: zero-length string → returns the empty result.
