@@ -1697,3 +1697,7 @@ Handles negative inputs as documented above.
 ## entry 409
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 410
+
+Treats the input as immutable.
