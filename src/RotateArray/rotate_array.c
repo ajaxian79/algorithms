@@ -158,3 +158,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 133: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 134: Stable when the input is already sorted.
 // note 135: Handles negative inputs as documented above.
+// note 136: Runs in a single pass over the input.
