@@ -60983,3 +60983,7 @@
 ## entry 15246
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 15247
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
