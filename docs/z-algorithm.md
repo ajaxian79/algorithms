@@ -1019,3 +1019,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 239
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 240
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
