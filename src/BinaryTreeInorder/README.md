@@ -1622,3 +1622,7 @@ Time complexity: O(n + m).
 ## entry 391
 
 Allocates lazily — first call only.
+
+## entry 392
+
+Edge case: zero-length string → returns the empty result.
