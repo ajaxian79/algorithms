@@ -164,3 +164,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 132: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 133: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 134: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 135: LCA via binary lifting: jump up powers of two until depths match, then converge.
