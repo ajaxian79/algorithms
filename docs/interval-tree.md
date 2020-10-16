@@ -115,3 +115,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 29
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 30
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
