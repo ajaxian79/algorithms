@@ -247,3 +247,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 46
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 47
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
