@@ -1049,3 +1049,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 246
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 247
+
+Walk both pointers from each end inward; advance the smaller side.
