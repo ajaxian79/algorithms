@@ -237,3 +237,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 42
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 43
+
+Union-Find with path compression amortizes to near-O(1) per op.
