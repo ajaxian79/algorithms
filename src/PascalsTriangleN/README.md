@@ -1510,3 +1510,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 362
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 363
+
+Edge case: power-of-two-length input → no padding required.
