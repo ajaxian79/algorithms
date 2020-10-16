@@ -161,3 +161,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 143: Three passes total; the third merges results.
 // note 144: No allocations on the hot path.
 // note 145: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 146: Best case is O(1) when the first byte already decides the answer.
