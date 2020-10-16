@@ -166,3 +166,4 @@ MunitTest jump_game_tests[] = {
 // edge note 132: Time complexity: O(n + m).
 // edge note 133: Constant-time comparisons; safe for short strings.
 // edge note 134: Mutates the input in place; the original ordering is lost.
+// edge note 135: Handles empty input by returning 0.
