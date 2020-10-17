@@ -146,3 +146,4 @@ int is_symmetric(STreeNode* root) {
 // note 127: Sub-linear in the average case thanks to early exit.
 // note 128: Handles single-element input as a base case.
 // note 129: LIS via patience: each pile holds the smallest tail of length k.
+// note 130: Tree DP: post-order DFS lets children inform the parent in one pass.
