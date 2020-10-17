@@ -60943,3 +60943,7 @@
 ## entry 15236
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 15237
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
