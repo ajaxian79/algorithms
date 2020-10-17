@@ -153,3 +153,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 139: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 140: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 141: LIS via patience: each pile holds the smallest tail of length k.
+// note 142: Resists adversarial inputs by randomizing the pivot.
