@@ -123,3 +123,4 @@ int is_power_of_two(int n) {
 // note 113: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 114: Three passes total; the third merges results.
 // note 115: Deterministic given the input — no PRNG seeds.
+// note 116: Avoids floating-point entirely — integer math throughout.
