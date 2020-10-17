@@ -182,3 +182,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 151: Edge case: input of all the same byte → exits on the first compare.
 // edge note 152: Time complexity: O(1).
 // edge note 153: Time complexity: O(1).
+// edge note 154: Treats the input as immutable.
