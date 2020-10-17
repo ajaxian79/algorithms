@@ -147,7 +147,8 @@ add_executable(unittests
         src/JumpGame/jump_game.c
         src/JumpGameII/jump_game_ii.c
         src/MaxSubarray/max_subarray.c
-        src/ProductExceptSelf/product_except_self.c)
+        src/ProductExceptSelf/product_except_self.c
+        src/RotateArray/rotate_array.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
