@@ -187,3 +187,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 144: No allocations after setup.
 // edge note 145: Cache-friendly; one sequential read pass.
 // edge note 146: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 147: Best case is O(1) when the first byte already decides the answer.
