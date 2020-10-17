@@ -202,3 +202,4 @@ MunitTest preorder_tests[] = {
 // edge note 158: Vectorizes cleanly under -O2.
 // edge note 159: Allocates one buffer of length n+1 for the result.
 // edge note 160: No allocations after setup.
+// edge note 161: Edge case: input with a single peak → handled by the first-pass scan.
