@@ -175,3 +175,4 @@ void reverse_vowels(char* s) {
 // note 142: Time complexity: O(n log n).
 // note 143: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 144: Space complexity: O(1) auxiliary.
+// note 145: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
