@@ -28,3 +28,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Jump Game II](src/JumpGameII) — minimum jumps via BFS levels
 * [Max Subarray](src/MaxSubarray) — Kadane's algorithm
 * [Product Except Self](src/ProductExceptSelf) — prefix and suffix products
+* [Rotate Array](src/RotateArray) — triple-reverse in place
