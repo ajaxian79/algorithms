@@ -1585,3 +1585,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 371
 
 Handles empty input by returning 0.
+
+## entry 372
+
+Time complexity: O(n log n).
