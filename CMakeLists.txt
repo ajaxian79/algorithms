@@ -76,6 +76,7 @@ add_executable(jump_game src/JumpGame/main.c src/JumpGame/jump_game.c)
 add_executable(jump_game_ii src/JumpGameII/main.c src/JumpGameII/jump_game_ii.c)
 add_executable(max_subarray src/MaxSubarray/main.c src/MaxSubarray/max_subarray.c)
 add_executable(product_except_self src/ProductExceptSelf/main.c src/ProductExceptSelf/product_except_self.c)
+add_executable(rotate_array src/RotateArray/main.c src/RotateArray/rotate_array.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -222,4 +223,5 @@ target_link_libraries(jump_game PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mi
 target_link_libraries(jump_game_ii PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(max_subarray PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(product_except_self PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(rotate_array PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
