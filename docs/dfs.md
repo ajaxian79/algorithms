@@ -243,3 +243,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 45
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 46
+
+Stable sort matters when a secondary key was set in a prior pass.
