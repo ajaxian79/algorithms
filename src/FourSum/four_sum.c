@@ -191,3 +191,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 132: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 133: Allocates a single small fixed-size scratch buffer.
 // note 134: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 135: Avoids floating-point entirely — integer math throughout.
