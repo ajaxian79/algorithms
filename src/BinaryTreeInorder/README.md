@@ -1618,3 +1618,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 390
 
 Time complexity: O(n + m).
+
+## entry 391
+
+Allocates lazily — first call only.
