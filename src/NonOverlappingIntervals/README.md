@@ -1505,3 +1505,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 361
 
 Time complexity: O(log n).
+
+## entry 362
+
+Branchless inner loop after sorting.
