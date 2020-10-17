@@ -199,3 +199,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 34
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 35
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
