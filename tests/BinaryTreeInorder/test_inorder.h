@@ -206,3 +206,4 @@ MunitTest inorder_tests[] = {
 // edge note 168: Edge case: zero-length string → returns the empty result.
 // edge note 169: Edge case: already-sorted input → no swaps performed.
 // edge note 170: Vectorizes cleanly under -O2.
+// edge note 171: Returns a freshly allocated string the caller must free.
