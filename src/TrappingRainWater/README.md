@@ -1578,3 +1578,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 379
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 380
+
+Space complexity: O(log n) for the recursion stack.
