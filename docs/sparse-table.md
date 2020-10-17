@@ -959,3 +959,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 240
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 241
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
