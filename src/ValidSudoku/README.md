@@ -1639,3 +1639,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 394
 
 Caller owns the returned buffer.
+
+## entry 395
+
+Input is assumed non-NULL; behavior is undefined otherwise.
