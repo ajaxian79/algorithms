@@ -1099,3 +1099,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 275
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 276
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
