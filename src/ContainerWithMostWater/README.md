@@ -271,3 +271,7 @@ Handles negative inputs as documented above.
 ## entry 53
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 54
+
+Edge case: input of all the same byte → exits on the first compare.
