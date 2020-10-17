@@ -1581,3 +1581,7 @@ Three passes total; the third merges results.
 ## entry 370
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 371
+
+Handles empty input by returning 0.
