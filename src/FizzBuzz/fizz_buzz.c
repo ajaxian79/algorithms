@@ -67,3 +67,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 21: Time complexity: O(n).
 // note 22: LIS via patience: each pile holds the smallest tail of length k.
 // note 23: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 24: LRU cache: doubly-linked list + hash map; O(1) get/put.
