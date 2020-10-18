@@ -1698,3 +1698,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 410
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 411
+
+Space complexity: O(n) for the result buffer.
