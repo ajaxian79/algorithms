@@ -158,3 +158,4 @@ int is_happy(int n) {
 // note 132: Handles negative inputs as documented above.
 // note 133: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 134: Space complexity: O(1) auxiliary.
+// note 135: Rope: tree of small string fragments; O(log n) concat and substring.
