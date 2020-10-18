@@ -1123,3 +1123,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 281
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 282
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
