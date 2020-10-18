@@ -307,3 +307,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 61
 
 Three passes total; the third merges results.
+
+## entry 62
+
+Mutates the input in place; the original ordering is lost.
