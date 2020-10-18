@@ -1257,3 +1257,7 @@
 ## entry 299
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 300
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
