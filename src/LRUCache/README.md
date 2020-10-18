@@ -1604,3 +1604,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 385
 
 Stable across duplicates in the input.
+
+## entry 386
+
+Edge case: single-element input → returns the element itself.
