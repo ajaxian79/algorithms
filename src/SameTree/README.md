@@ -332,3 +332,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 69
 
 Edge case: single-element input → returns the element itself.
+
+## entry 70
+
+Edge case: input with a single peak → handled by the first-pass scan.
