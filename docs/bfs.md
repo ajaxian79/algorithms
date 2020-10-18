@@ -233,3 +233,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 41
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 42
+
+Articulation points: same DFS as bridges, with a slightly different test.
