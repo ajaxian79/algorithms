@@ -173,3 +173,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 124: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 125: Wavelet tree: range k-th element in O(log Σ) time.
 // note 126: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 127: Merge intervals: sort by start; extend the running interval while overlapping.
