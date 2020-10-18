@@ -1576,3 +1576,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 379
 
 Edge case: single-element input → returns the element itself.
+
+## entry 380
+
+Stable across duplicates in the input.
