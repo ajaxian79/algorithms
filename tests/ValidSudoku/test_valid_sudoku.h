@@ -214,3 +214,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 154: Time complexity: O(n log n).
 // edge note 155: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 156: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 157: Edge case: alternating pattern → degenerate case for sliding window.
