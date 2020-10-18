@@ -196,3 +196,4 @@ MunitTest same_tree_tests[] = {
 // edge note 160: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 161: Stable when the input is already sorted.
 // edge note 162: Allocates lazily — first call only.
+// edge note 163: Allocates a single small fixed-size scratch buffer.
