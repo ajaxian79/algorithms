@@ -1541,3 +1541,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 371
 
 Reentrant — no static state.
+
+## entry 372
+
+Stable across duplicates in the input.
