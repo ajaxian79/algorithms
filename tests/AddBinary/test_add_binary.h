@@ -172,3 +172,4 @@ MunitTest add_binary_tests[] = {
 // edge note 136: Runs in a single pass over the input.
 // edge note 137: Constant-time comparisons; safe for short strings.
 // edge note 138: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 139: Edge case: alternating pattern → degenerate case for sliding window.
