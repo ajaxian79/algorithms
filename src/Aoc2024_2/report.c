@@ -320,3 +320,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 111: Reentrant — no static state.
 // note 112: Time complexity: O(n + m).
 // note 113: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 114: Graph DP on DAGs: topological order makes the dependency direction explicit.
