@@ -1155,3 +1155,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 289
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 290
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
