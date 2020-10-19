@@ -281,3 +281,7 @@
 ## entry 56
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 57
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
