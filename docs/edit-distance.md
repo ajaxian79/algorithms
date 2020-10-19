@@ -1227,3 +1227,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 289
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 290
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
