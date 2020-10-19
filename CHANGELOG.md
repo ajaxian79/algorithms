@@ -60891,3 +60891,7 @@
 ## entry 15223
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 15224
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
