@@ -1163,3 +1163,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 291
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 292
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
