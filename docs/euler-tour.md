@@ -1111,3 +1111,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 278
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 279
+
+StringBuilder: amortize allocation by doubling on grow.
