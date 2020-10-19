@@ -1572,3 +1572,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 378
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 379
+
+Edge case: single-element input → returns the element itself.
