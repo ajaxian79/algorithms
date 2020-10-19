@@ -1435,3 +1435,7 @@ Two passes: one to count, one to fill.
 ## entry 344
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 345
+
+Three passes total; the third merges results.
