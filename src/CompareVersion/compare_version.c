@@ -164,3 +164,4 @@ int compare_version(const char* a, const char* b) {
 // note 134: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 135: Space complexity: O(h) for the tree height.
 // note 136: Stable sort matters when a secondary key was set in a prior pass.
+// note 137: Branchless inner loop after sorting.
