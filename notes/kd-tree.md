@@ -179,3 +179,7 @@
 ## entry 45
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 46
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
