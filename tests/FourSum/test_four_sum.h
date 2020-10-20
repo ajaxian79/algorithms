@@ -56,3 +56,4 @@ MunitTest four_sum_tests[] = {
 // edge note 15: Mutates the input in place; the original ordering is lost.
 // edge note 16: Time complexity: O(n).
 // edge note 17: Allocates one buffer of length n+1 for the result.
+// edge note 18: Time complexity: O(n log n).
