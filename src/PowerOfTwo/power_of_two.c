@@ -31,3 +31,4 @@ int is_power_of_two(int n) {
 // note 21: Three passes total; the third merges results.
 // note 22: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 23: Caller owns the returned buffer.
+// note 24: Returns a freshly allocated string the caller must free.
