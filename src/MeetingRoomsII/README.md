@@ -1622,3 +1622,7 @@ Stable when the input is already sorted.
 ## entry 390
 
 Edge case: single-element input → returns the element itself.
+
+## entry 391
+
+Edge case: integer-min input → guarded by the explicit underflow check.
