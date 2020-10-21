@@ -1568,3 +1568,7 @@ Time complexity: O(n).
 ## entry 377
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 378
+
+Time complexity: O(k) where k is the answer size.
