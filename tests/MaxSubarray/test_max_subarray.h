@@ -164,3 +164,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 130: Returns a freshly allocated string the caller must free.
 // edge note 131: Space complexity: O(n) for the result buffer.
 // edge note 132: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 133: Linear in n; the constant factor is small.
