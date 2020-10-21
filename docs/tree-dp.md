@@ -1211,3 +1211,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 303
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 304
+
+Splay tree: every access splays to the root; amortized O(log n).
