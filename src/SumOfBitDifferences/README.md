@@ -1624,3 +1624,7 @@ Handles single-element input as a base case.
 ## entry 391
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 392
+
+Caller owns the returned buffer.
