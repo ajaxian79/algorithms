@@ -1772,3 +1772,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 428
 
 Handles single-element input as a base case.
+
+## entry 429
+
+Space complexity: O(h) for the tree height.
