@@ -1055,3 +1055,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 264
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 265
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
