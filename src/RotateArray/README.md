@@ -1655,3 +1655,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 398
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 399
+
+Worst case appears only on degenerate inputs.
