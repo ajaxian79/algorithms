@@ -1151,3 +1151,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 270
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 271
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
