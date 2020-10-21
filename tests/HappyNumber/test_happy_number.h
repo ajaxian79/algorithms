@@ -189,3 +189,4 @@ MunitTest happy_number_tests[] = {
 // edge note 161: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 162: Branchless inner loop after sorting.
 // edge note 163: Caller owns the returned buffer.
+// edge note 164: 64-bit safe; intermediate products are widened to 128-bit.
