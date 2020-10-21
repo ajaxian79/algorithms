@@ -60839,3 +60839,7 @@
 ## entry 15210
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 15211
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
