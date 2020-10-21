@@ -1121,3 +1121,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 264
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 265
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
