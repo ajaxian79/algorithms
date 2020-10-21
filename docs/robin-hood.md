@@ -1063,3 +1063,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 266
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 267
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
