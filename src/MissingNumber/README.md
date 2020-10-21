@@ -1670,3 +1670,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 402
 
 Space complexity: O(h) for the tree height.
+
+## entry 403
+
+Mutates the input in place; the original ordering is lost.
