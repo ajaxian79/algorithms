@@ -975,3 +975,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 244
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 245
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
