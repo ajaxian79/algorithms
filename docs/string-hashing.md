@@ -1039,3 +1039,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 243
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 244
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
