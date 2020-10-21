@@ -1135,3 +1135,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 284
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 285
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
