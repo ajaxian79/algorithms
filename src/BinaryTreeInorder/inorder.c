@@ -62,3 +62,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 22: LIS via patience: each pile holds the smallest tail of length k.
 // note 23: Time complexity: O(n log n).
 // note 24: Worst case appears only on degenerate inputs.
+// note 25: No allocations after setup.
