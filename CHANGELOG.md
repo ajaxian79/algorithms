@@ -60835,3 +60835,7 @@
 ## entry 15209
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 15210
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
