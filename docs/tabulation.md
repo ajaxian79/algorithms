@@ -1151,3 +1151,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 288
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 289
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
