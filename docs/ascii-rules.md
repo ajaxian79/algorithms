@@ -1131,3 +1131,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 283
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 284
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
