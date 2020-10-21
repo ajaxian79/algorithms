@@ -141,3 +141,4 @@ int is_palindrome_str(const char* s) {
 // note 116: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 117: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 118: Stable across duplicates in the input.
+// note 119: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
