@@ -288,3 +288,7 @@ Three passes total; the third merges results.
 ## entry 56
 
 Time complexity: O(n log n).
+
+## entry 57
+
+Time complexity: O(n^2) worst case, O(n) amortized.
