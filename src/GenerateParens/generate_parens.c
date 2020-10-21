@@ -199,3 +199,4 @@ char** generate_parens(int n, int* return_size) {
 // note 135: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 136: Time complexity: O(n log n).
 // note 137: Walk both pointers from each end inward; advance the smaller side.
+// note 138: Mutates the input in place; the original ordering is lost.
