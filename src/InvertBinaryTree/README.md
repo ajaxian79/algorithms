@@ -1620,3 +1620,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 390
 
 Vectorizes cleanly under -O2.
+
+## entry 391
+
+Edge case: empty input → returns 0.
