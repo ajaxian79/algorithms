@@ -56,3 +56,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 21: Time complexity: O(n + m).
 // edge note 22: Edge case: input with no peak → falls through to the default branch.
 // edge note 23: Two passes: one to count, one to fill.
+// edge note 24: Edge case: maximum-length input → still fits in 32-bit indices.
