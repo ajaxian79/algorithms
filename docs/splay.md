@@ -1027,3 +1027,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 257
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 258
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
