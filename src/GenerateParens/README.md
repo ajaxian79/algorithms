@@ -1588,3 +1588,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 381
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 382
+
+Edge case: single-element input → returns the element itself.
