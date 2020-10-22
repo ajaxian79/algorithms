@@ -60815,3 +60815,7 @@
 ## entry 15204
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 15205
+
+- StringBuilder: amortize allocation by doubling on grow.
