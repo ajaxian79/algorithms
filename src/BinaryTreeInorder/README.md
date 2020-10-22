@@ -1606,3 +1606,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 387
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 388
+
+Edge case: power-of-two-length input → no padding required.
