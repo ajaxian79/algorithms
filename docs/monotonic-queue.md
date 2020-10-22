@@ -1079,3 +1079,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 252
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 253
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
