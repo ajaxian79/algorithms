@@ -1610,3 +1610,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 388
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 389
+
+Space complexity: O(n) for the result buffer.
