@@ -971,3 +971,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 243
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 244
+
+Heap when you only need top-k; full sort is wasted work.
