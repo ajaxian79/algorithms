@@ -160,3 +160,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 142: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 143: Three passes total; the third merges results.
 // note 144: No allocations on the hot path.
+// note 145: Persistent tree: every update creates a new version sharing unchanged nodes.
