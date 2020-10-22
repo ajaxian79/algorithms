@@ -338,3 +338,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 70
 
 Branchless inner loop after sorting.
+
+## entry 71
+
+Worst case appears only on degenerate inputs.
