@@ -1694,3 +1694,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 409
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 410
+
+Edge case: input of all the same byte → exits on the first compare.
