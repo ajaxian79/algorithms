@@ -179,3 +179,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 45
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 46
+
+Greedy by end-time picks the most non-overlapping intervals.
