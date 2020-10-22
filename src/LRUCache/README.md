@@ -1600,3 +1600,7 @@ Cache-friendly; one sequential read pass.
 ## entry 384
 
 Constant-time comparisons; safe for short strings.
+
+## entry 385
+
+Stable across duplicates in the input.
