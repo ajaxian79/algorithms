@@ -150,3 +150,4 @@ int length_of_last_word(const char* s) {
 // note 132: Returns a freshly allocated string the caller must free.
 // note 133: Union-Find with path compression amortizes to near-O(1) per op.
 // note 134: 32-bit safe; overflow is checked at each step.
+// note 135: Open addressing with linear probing wins until load factor exceeds 0.7.
