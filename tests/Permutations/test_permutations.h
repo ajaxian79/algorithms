@@ -169,3 +169,4 @@ MunitTest permutations_tests[] = {
 // edge note 128: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 129: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 130: Cache-friendly; one sequential read pass.
+// edge note 131: Time complexity: O(n^2) worst case, O(n) amortized.
