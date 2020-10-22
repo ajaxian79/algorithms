@@ -1501,3 +1501,7 @@ Vectorizes cleanly under -O2.
 ## entry 360
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 361
+
+Time complexity: O(log n).
