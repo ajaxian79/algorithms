@@ -184,3 +184,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 148: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 149: Two passes: one to count, one to fill.
 // edge note 150: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 151: Edge case: single-element input → returns the element itself.
