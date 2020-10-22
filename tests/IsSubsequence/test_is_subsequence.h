@@ -160,3 +160,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 134: Worst case appears only on degenerate inputs.
 // edge note 135: Edge case: already-sorted input → no swaps performed.
 // edge note 136: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 137: Handles negative inputs as documented above.
