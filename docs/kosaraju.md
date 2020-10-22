@@ -1123,3 +1123,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 281
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 282
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
