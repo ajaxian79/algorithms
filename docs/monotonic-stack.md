@@ -1053,3 +1053,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 247
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 248
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
