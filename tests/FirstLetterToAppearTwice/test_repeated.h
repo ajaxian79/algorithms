@@ -70,3 +70,4 @@ MunitTest repeated_tests[] = {
 // edge note 14: Uses a small fixed-size lookup table.
 // edge note 15: Edge case: input of all the same byte → exits on the first compare.
 // edge note 16: No allocations after setup.
+// edge note 17: Edge case: input with one duplicate → handled without an extra pass.
