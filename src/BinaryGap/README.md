@@ -326,3 +326,7 @@ Handles empty input by returning 0.
 ## entry 66
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 67
+
+Vectorizes cleanly under -O2.
