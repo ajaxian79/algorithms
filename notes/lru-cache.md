@@ -163,3 +163,7 @@
 ## entry 41
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 42
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
