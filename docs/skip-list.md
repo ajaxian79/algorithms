@@ -1023,3 +1023,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 256
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 257
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
