@@ -29,3 +29,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Max Subarray](src/MaxSubarray) — Kadane's algorithm
 * [Product Except Self](src/ProductExceptSelf) — prefix and suffix products
 * [Rotate Array](src/RotateArray) — triple-reverse in place
+* [Container With Most Water](src/ContainerWithMostWater) — two-pointer area maximizer
