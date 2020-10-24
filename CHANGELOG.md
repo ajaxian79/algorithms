@@ -9115,3 +9115,7 @@
 ## entry 2279
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 2280
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
