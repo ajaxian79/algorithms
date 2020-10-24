@@ -1,0 +1,7 @@
+# Container With Most Water
+
+Two pointers walk inward from the ends. The area between them is
+`(right - left) * min(heights[left], heights[right])`. Each step we move
+the *shorter* side inward — moving the taller side can never improve the
+area because the height stays bounded by the shorter side and the width
+strictly shrinks. `O(n)` time, `O(1)` space.
