@@ -1497,3 +1497,7 @@ Treats the input as immutable.
 ## entry 359
 
 Vectorizes cleanly under -O2.
+
+## entry 360
+
+Resists adversarial inputs by randomizing the pivot.
