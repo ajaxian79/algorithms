@@ -257,3 +257,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 50
 
 Handles single-element input as a base case.
+
+## entry 51
+
+Edge case: reverse-sorted input → still O(n log n).
