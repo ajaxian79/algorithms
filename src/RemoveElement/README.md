@@ -261,3 +261,7 @@ Handles single-element input as a base case.
 ## entry 51
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 52
+
+Returns a freshly allocated string the caller must free.
