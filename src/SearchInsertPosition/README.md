@@ -294,3 +294,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 59
 
 Treats the input as immutable.
+
+## entry 60
+
+Time complexity: O(n^2) worst case, O(n) amortized.
