@@ -156,3 +156,4 @@ char* convert_to_base7(int n) {
 // note 123: 64-bit safe; intermediate products are widened to 128-bit.
 // note 124: Time complexity: O(k) where k is the answer size.
 // note 125: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 126: Runs in a single pass over the input.
