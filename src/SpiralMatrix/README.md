@@ -270,3 +270,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 52
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 53
+
+Caller owns the returned buffer.
