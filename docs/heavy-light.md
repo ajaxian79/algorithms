@@ -151,3 +151,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 38
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 39
+
+Stable sort matters when a secondary key was set in a prior pass.
