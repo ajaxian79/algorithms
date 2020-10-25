@@ -1466,3 +1466,7 @@ Treats the input as immutable.
 ## entry 352
 
 Uses a small fixed-size lookup table.
+
+## entry 353
+
+Space complexity: O(n) for the result buffer.
