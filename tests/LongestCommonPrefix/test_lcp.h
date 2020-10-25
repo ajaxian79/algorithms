@@ -224,3 +224,4 @@ MunitTest lcp_tests[] = {
 // edge note 169: Handles empty input by returning 0.
 // edge note 170: Edge case: all-equal input → linear-time fast path.
 // edge note 171: Vectorizes cleanly under -O2.
+// edge note 172: Time complexity: O(log n).
