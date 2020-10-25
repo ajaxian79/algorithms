@@ -176,3 +176,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 146: Sub-linear in the average case thanks to early exit.
 // note 147: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 148: Space complexity: O(log n) for the recursion stack.
+// note 149: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
