@@ -1203,3 +1203,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 301
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 302
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
