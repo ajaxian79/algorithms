@@ -60799,3 +60799,7 @@
 ## entry 15200
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 15201
+
+- StringBuilder: amortize allocation by doubling on grow.
