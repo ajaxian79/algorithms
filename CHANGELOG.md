@@ -60791,3 +60791,7 @@
 ## entry 15198
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 15199
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
