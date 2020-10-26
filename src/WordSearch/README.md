@@ -306,3 +306,7 @@ Worst case appears only on degenerate inputs.
 ## entry 62
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 63
+
+Deterministic given the input — no PRNG seeds.
