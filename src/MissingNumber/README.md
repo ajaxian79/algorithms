@@ -314,3 +314,7 @@ Time complexity: O(n).
 ## entry 63
 
 Vectorizes cleanly under -O2.
+
+## entry 64
+
+Two passes: one to count, one to fill.
