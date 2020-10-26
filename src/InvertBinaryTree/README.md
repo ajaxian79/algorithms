@@ -344,3 +344,7 @@ No allocations on the hot path.
 ## entry 71
 
 Branchless inner loop after sorting.
+
+## entry 72
+
+Edge case: all-equal input → linear-time fast path.
