@@ -68,3 +68,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 25: Time complexity: O(log n).
 // note 26: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 27: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 28: Reentrant — no static state.
