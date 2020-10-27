@@ -1768,3 +1768,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 427
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 428
+
+Handles single-element input as a base case.
