@@ -306,3 +306,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 62
 
 Branchless inner loop after sorting.
+
+## entry 63
+
+Edge case: maximum-length input → still fits in 32-bit indices.
