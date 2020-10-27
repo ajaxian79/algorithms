@@ -191,3 +191,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 48
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 49
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
