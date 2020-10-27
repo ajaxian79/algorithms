@@ -298,3 +298,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 59
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 60
+
+Time complexity: O(1).
