@@ -1193,3 +1193,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 284
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 285
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
