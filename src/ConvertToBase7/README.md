@@ -304,3 +304,7 @@ Time complexity: O(n log n).
 ## entry 61
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 62
+
+Returns a freshly allocated string the caller must free.
