@@ -170,3 +170,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 142: Edge case: empty input → returns 0.
 // edge note 143: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 144: Reentrant — no static state.
+// edge note 145: Allocates a single small fixed-size scratch buffer.
