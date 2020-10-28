@@ -1117,3 +1117,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 263
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 264
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
