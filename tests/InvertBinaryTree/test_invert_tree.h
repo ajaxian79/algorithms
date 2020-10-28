@@ -170,3 +170,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 128: Edge case: single-element input → returns the element itself.
 // edge note 129: Avoids floating-point entirely — integer math throughout.
 // edge note 130: Edge case: reverse-sorted input → still O(n log n).
+// edge note 131: 32-bit safe; overflow is checked at each step.
