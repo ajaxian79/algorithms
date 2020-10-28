@@ -1099,3 +1099,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 275
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 276
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
