@@ -1027,3 +1027,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 257
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 258
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
