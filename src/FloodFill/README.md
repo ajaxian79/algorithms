@@ -1709,3 +1709,7 @@ Three passes total; the third merges results.
 ## entry 413
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 414
+
+Time complexity: O(n*k) where k is the alphabet size.
