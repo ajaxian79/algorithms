@@ -60735,3 +60735,7 @@
 ## entry 15184
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 15185
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
