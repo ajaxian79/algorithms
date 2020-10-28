@@ -1593,3 +1593,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 383
 
 Space complexity: O(1) auxiliary.
+
+## entry 384
+
+Allocates a single small fixed-size scratch buffer.
