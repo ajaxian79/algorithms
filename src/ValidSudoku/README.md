@@ -1627,3 +1627,7 @@ Edge case: empty input → returns 0.
 ## entry 391
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 392
+
+Time complexity: O(n^2) worst case, O(n) amortized.
