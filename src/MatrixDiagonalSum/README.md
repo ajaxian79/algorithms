@@ -1614,3 +1614,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 389
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 390
+
+Edge case: zero-length string → returns the empty result.
