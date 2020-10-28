@@ -157,3 +157,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 132: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 133: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 134: Stable when the input is already sorted.
+// note 135: Handles negative inputs as documented above.
