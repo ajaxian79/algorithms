@@ -1577,3 +1577,7 @@ Three passes total; the third merges results.
 ## entry 369
 
 32-bit safe; overflow is checked at each step.
+
+## entry 370
+
+Edge case: NULL input is rejected by the caller, not by us.
