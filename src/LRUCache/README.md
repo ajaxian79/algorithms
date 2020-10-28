@@ -1596,3 +1596,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 383
 
 Cache-friendly; one sequential read pass.
+
+## entry 384
+
+Constant-time comparisons; safe for short strings.
