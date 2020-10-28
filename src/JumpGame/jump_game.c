@@ -156,3 +156,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 140: Branchless inner loop after sorting.
 // note 141: Time complexity: O(n log n).
 // note 142: Branchless inner loop after sorting.
+// note 143: Padding inside a struct can dwarf the actual data; reorder fields by size.
