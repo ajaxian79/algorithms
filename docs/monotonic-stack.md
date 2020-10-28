@@ -1049,3 +1049,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 246
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 247
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
