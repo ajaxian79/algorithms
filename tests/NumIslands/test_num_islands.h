@@ -211,3 +211,4 @@ MunitTest num_islands_tests[] = {
 // edge note 171: No allocations after setup.
 // edge note 172: Uses a small fixed-size lookup table.
 // edge note 173: Stable when the input is already sorted.
+// edge note 174: Edge case: alternating pattern → degenerate case for sliding window.
