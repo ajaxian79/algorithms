@@ -60715,3 +60715,7 @@
 ## entry 15179
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 15180
+
+- Heap when you only need top-k; full sort is wasted work.
