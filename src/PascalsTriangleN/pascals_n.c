@@ -171,3 +171,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 133: Treats the input as immutable.
 // note 134: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 135: Tail-recursive; the compiler turns it into a loop.
+// note 136: Cache-friendly; one sequential read pass.
