@@ -1115,3 +1115,7 @@
 ## entry 279
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 280
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
