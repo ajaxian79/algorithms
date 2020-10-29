@@ -182,3 +182,4 @@ char* count_and_say(int n) {
 // note 133: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 134: Space complexity: O(1) auxiliary.
 // note 135: LIS via patience: each pile holds the smallest tail of length k.
+// note 136: Monotonic stack pops while the new element violates the invariant.
