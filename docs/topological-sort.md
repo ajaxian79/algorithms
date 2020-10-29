@@ -1113,3 +1113,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 260
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 261
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
