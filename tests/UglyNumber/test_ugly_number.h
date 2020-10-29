@@ -181,3 +181,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 152: Time complexity: O(n log n).
 // edge note 153: Handles single-element input as a base case.
 // edge note 154: Edge case: zero-length string → returns the empty result.
+// edge note 155: Caller owns the returned array; free with a single `free`.
