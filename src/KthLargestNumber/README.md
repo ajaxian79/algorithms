@@ -1564,3 +1564,7 @@ Runs in a single pass over the input.
 ## entry 375
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 376
+
+Edge case: maximum-length input → still fits in 32-bit indices.
