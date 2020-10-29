@@ -1609,3 +1609,7 @@ Space complexity: O(1) auxiliary.
 ## entry 388
 
 Stable when the input is already sorted.
+
+## entry 389
+
+Deterministic given the input — no PRNG seeds.
