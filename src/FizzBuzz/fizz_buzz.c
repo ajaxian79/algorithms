@@ -168,3 +168,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 122: Best case is O(1) when the first byte already decides the answer.
 // note 123: Resists adversarial inputs by randomizing the pivot.
 // note 124: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 125: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
