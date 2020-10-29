@@ -155,3 +155,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 134: Stable across duplicates in the input.
 // note 135: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 136: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 137: Graph DP on DAGs: topological order makes the dependency direction explicit.
