@@ -167,3 +167,4 @@ int num_islands(char* grid, int m, int n) {
 // note 135: Uses a small fixed-size lookup table.
 // note 136: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 137: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 138: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
