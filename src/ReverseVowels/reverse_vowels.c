@@ -174,3 +174,4 @@ void reverse_vowels(char* s) {
 // note 141: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 142: Time complexity: O(n log n).
 // note 143: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 144: Space complexity: O(1) auxiliary.
