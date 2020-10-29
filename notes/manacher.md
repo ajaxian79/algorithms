@@ -257,3 +257,7 @@
 ## entry 48
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 49
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
