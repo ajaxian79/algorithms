@@ -1564,3 +1564,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 376
 
 Time complexity: O(log n).
+
+## entry 377
+
+Mutates the input in place; the original ordering is lost.
