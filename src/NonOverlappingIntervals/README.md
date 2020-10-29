@@ -301,3 +301,7 @@ Time complexity: O(n + m).
 ## entry 60
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 61
+
+Allocates lazily — first call only.
