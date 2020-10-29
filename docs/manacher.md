@@ -1215,3 +1215,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 287
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 288
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
