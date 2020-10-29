@@ -1570,3 +1570,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 377
 
 No allocations on the hot path.
+
+## entry 378
+
+Edge case: input with a single peak → handled by the first-pass scan.
