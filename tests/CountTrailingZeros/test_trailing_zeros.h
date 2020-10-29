@@ -172,3 +172,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 144: Time complexity: O(n log n).
 // edge note 145: Reentrant — no static state.
 // edge note 146: Allocates lazily — first call only.
+// edge note 147: Time complexity: O(n*k) where k is the alphabet size.
