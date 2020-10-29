@@ -184,3 +184,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 152: Treats the input as immutable.
 // edge note 153: Time complexity: O(n + m).
 // edge note 154: Branchless inner loop after sorting.
+// edge note 155: Uses a 256-entry lookup for the inner step.
