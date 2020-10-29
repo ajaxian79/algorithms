@@ -1586,3 +1586,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 382
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 383
+
+Allocates lazily — first call only.
