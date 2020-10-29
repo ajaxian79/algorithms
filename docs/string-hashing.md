@@ -1035,3 +1035,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 242
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 243
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
