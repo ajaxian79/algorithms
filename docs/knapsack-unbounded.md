@@ -1211,3 +1211,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 287
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 288
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
