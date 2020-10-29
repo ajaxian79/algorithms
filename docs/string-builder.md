@@ -1091,3 +1091,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 273
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 274
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
