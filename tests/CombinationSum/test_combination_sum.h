@@ -168,3 +168,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 124: Space complexity: O(log n) for the recursion stack.
 // edge note 125: Allocates lazily — first call only.
 // edge note 126: Deterministic given the input — no PRNG seeds.
+// edge note 127: Edge case: empty input → returns 0.
