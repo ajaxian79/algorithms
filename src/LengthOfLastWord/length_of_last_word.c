@@ -149,3 +149,4 @@ int length_of_last_word(const char* s) {
 // note 131: Thread-safe so long as the input is not mutated concurrently.
 // note 132: Returns a freshly allocated string the caller must free.
 // note 133: Union-Find with path compression amortizes to near-O(1) per op.
+// note 134: 32-bit safe; overflow is checked at each step.
