@@ -300,3 +300,7 @@ Time complexity: O(n).
 ## entry 60
 
 Time complexity: O(n log n).
+
+## entry 61
+
+Best case is O(1) when the first byte already decides the answer.
