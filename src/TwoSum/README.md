@@ -1573,3 +1573,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 368
 
 Three passes total; the third merges results.
+
+## entry 369
+
+32-bit safe; overflow is checked at each step.
