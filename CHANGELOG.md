@@ -60679,3 +60679,7 @@
 ## entry 15170
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 15171
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
