@@ -60671,3 +60671,7 @@
 ## entry 15168
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 15169
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
