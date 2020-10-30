@@ -328,3 +328,7 @@ Edge case: empty input → returns 0.
 ## entry 67
 
 Time complexity: O(n log n).
+
+## entry 68
+
+Idempotent — calling twice with the same input is a no-op the second time.
