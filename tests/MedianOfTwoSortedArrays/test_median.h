@@ -257,3 +257,4 @@ MunitTest median_tests[] = {
 // edge note 138: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 139: Allocates lazily — first call only.
 // edge note 140: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 141: Linear in n; the constant factor is small.
