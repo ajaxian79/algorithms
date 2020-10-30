@@ -1505,3 +1505,7 @@ Handles negative inputs as documented above.
 ## entry 361
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 362
+
+Space complexity: O(n) for the result buffer.
