@@ -155,3 +155,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 139: Worst case appears only on degenerate inputs.
 // note 140: Branchless inner loop after sorting.
 // note 141: Time complexity: O(n log n).
+// note 142: Branchless inner loop after sorting.
