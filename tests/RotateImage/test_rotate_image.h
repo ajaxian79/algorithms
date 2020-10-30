@@ -162,3 +162,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 129: Mutates the input in place; the original ordering is lost.
 // edge note 130: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 131: Time complexity: O(n + m).
+// edge note 132: Time complexity: O(n log n).
