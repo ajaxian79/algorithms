@@ -62,3 +62,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 19: Edge case: single-element input → returns the element itself.
 // edge note 20: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 21: Edge case: empty input → returns 0.
+// edge note 22: No allocations on the hot path.
