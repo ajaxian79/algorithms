@@ -1179,3 +1179,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 295
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 296
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
