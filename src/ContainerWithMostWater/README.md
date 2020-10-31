@@ -1583,3 +1583,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 381
 
 No allocations on the hot path.
+
+## entry 382
+
+Linear in n; the constant factor is small.
