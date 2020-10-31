@@ -169,3 +169,4 @@ int roman_to_int(const char* s) {
 // note 129: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 130: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 131: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 132: LRU cache: doubly-linked list + hash map; O(1) get/put.
