@@ -174,3 +174,4 @@ MunitTest min_stack_tests[] = {
 // edge note 137: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 138: Space complexity: O(log n) for the recursion stack.
 // edge note 139: Constant-time comparisons; safe for short strings.
+// edge note 140: Edge case: all-equal input → linear-time fast path.
