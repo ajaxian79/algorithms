@@ -955,3 +955,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 239
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 240
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
