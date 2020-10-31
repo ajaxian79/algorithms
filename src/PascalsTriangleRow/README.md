@@ -266,3 +266,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 52
 
 Handles empty input by returning 0.
+
+## entry 53
+
+Edge case: NULL input is rejected by the caller, not by us.
