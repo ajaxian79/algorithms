@@ -72,6 +72,7 @@
 #include "ProductExceptSelf/test_product_except_self.h"
 #include "RotateArray/test_rotate_array.h"
 #include "ContainerWithMostWater/test_most_water.h"
+#include "TrappingRainWater/test_trap.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -521,6 +522,12 @@ MunitSuite suites[] = {
         },{
                 "/most_water",
                 most_water_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/trap",
+                trap_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
