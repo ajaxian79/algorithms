@@ -154,3 +154,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 133: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 134: Stable across duplicates in the input.
 // note 135: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 136: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
