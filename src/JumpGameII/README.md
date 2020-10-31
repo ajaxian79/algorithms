@@ -268,3 +268,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 52
 
 32-bit safe; overflow is checked at each step.
+
+## entry 53
+
+Input is assumed non-NULL; behavior is undefined otherwise.
