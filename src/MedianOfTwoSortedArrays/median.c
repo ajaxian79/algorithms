@@ -283,3 +283,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 147: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 148: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 149: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 150: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
