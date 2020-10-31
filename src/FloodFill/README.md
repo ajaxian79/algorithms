@@ -1705,3 +1705,7 @@ Handles negative inputs as documented above.
 ## entry 412
 
 Three passes total; the third merges results.
+
+## entry 413
+
+Edge case: integer-min input → guarded by the explicit underflow check.
