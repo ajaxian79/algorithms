@@ -153,3 +153,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 125: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 126: Vectorizes cleanly under -O2.
 // note 127: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 128: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
