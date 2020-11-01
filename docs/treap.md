@@ -1043,3 +1043,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 261
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 262
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
