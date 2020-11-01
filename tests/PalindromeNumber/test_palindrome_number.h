@@ -191,3 +191,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 156: Handles empty input by returning 0.
 // edge note 157: Edge case: single-element input → returns the element itself.
 // edge note 158: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 159: 32-bit safe; overflow is checked at each step.
