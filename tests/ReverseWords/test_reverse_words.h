@@ -201,3 +201,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 172: Handles single-element input as a base case.
 // edge note 173: Thread-safe so long as the input is not mutated concurrently.
 // edge note 174: Caller owns the returned buffer.
+// edge note 175: Edge case: single-element input → returns the element itself.
