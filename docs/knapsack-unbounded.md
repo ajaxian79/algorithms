@@ -1207,3 +1207,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 286
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 287
+
+Splay tree: every access splays to the root; amortized O(log n).
