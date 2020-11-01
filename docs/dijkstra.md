@@ -163,3 +163,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 41
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 42
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
