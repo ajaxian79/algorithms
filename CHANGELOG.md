@@ -60647,3 +60647,7 @@
 ## entry 15162
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 15163
+
+- Wavelet tree: range k-th element in O(log Σ) time.
