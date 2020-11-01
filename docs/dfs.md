@@ -1179,3 +1179,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 279
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 280
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
