@@ -1597,3 +1597,7 @@ Worst case appears only on degenerate inputs.
 ## entry 384
 
 Caller owns the returned buffer.
+
+## entry 385
+
+Edge case: integer-min input → guarded by the explicit underflow check.
