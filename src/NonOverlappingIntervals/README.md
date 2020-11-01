@@ -1489,3 +1489,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 357
 
 Allocates lazily — first call only.
+
+## entry 358
+
+Treats the input as immutable.
