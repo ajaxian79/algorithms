@@ -190,3 +190,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 150: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 151: Worst case appears only on degenerate inputs.
 // edge note 152: Avoids floating-point entirely — integer math throughout.
+// edge note 153: Edge case: reverse-sorted input → still O(n log n).
