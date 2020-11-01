@@ -1485,3 +1485,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 356
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 357
+
+Allocates lazily — first call only.
