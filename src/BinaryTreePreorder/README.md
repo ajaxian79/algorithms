@@ -318,3 +318,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 65
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 66
+
+Idempotent — calling twice with the same input is a no-op the second time.
