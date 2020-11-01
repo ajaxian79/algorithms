@@ -165,3 +165,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 132: No allocations after setup.
 // edge note 133: Uses a 256-entry lookup for the inner step.
 // edge note 134: Time complexity: O(n).
+// edge note 135: Edge case: input of all the same byte → exits on the first compare.
