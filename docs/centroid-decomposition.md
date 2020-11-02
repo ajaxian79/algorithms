@@ -1023,3 +1023,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 256
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 257
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
