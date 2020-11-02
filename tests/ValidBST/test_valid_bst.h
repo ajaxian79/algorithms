@@ -185,3 +185,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 142: Edge case: zero-length string → returns the empty result.
 // edge note 143: Handles single-element input as a base case.
 // edge note 144: No allocations after setup.
+// edge note 145: Cache-friendly; one sequential read pass.
