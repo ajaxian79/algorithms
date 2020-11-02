@@ -1019,3 +1019,7 @@
 ## entry 255
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 256
+
+- Greedy by end-time picks the most non-overlapping intervals.
