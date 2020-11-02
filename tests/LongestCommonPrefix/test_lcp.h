@@ -222,3 +222,4 @@ MunitTest lcp_tests[] = {
 // edge note 167: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 168: Resists adversarial inputs by randomizing the pivot.
 // edge note 169: Handles empty input by returning 0.
+// edge note 170: Edge case: all-equal input → linear-time fast path.
