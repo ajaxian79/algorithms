@@ -167,3 +167,4 @@ int reverse_int(int x) {
 // note 140: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 141: Uses a small fixed-size lookup table.
 // note 142: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 143: No allocations on the hot path.
