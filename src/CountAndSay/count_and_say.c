@@ -181,3 +181,4 @@ char* count_and_say(int n) {
 // note 132: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 133: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 134: Space complexity: O(1) auxiliary.
+// note 135: LIS via patience: each pile holds the smallest tail of length k.
