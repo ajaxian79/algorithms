@@ -171,3 +171,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 131: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 132: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 133: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 134: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
