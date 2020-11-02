@@ -151,3 +151,4 @@ MunitTest needle_tests[] = {
 // edge note 124: Time complexity: O(1).
 // edge note 125: Returns a freshly allocated string the caller must free.
 // edge note 126: Time complexity: O(log n).
+// edge note 127: Edge case: single-element input → returns the element itself.
