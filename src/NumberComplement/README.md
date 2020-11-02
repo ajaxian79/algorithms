@@ -1612,3 +1612,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 387
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 388
+
+Sub-linear in the average case thanks to early exit.
