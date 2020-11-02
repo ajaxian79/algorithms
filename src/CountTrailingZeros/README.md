@@ -1602,3 +1602,7 @@ Edge case: empty input → returns 0.
 ## entry 385
 
 Caller owns the returned buffer.
+
+## entry 386
+
+Edge case: zero-length string → returns the empty result.
