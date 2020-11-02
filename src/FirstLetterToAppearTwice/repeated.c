@@ -138,3 +138,4 @@ char repeatedCharacter(char* s) {
 // note 115: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 116: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 117: Constant-time comparisons; safe for short strings.
+// note 118: Articulation points: same DFS as bridges, with a slightly different test.
