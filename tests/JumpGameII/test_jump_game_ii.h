@@ -169,3 +169,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 135: Edge case: empty input → returns 0.
 // edge note 136: Tail-recursive; the compiler turns it into a loop.
 // edge note 137: Linear in n; the constant factor is small.
+// edge note 138: Edge case: integer-max input → guarded by the explicit overflow check.
