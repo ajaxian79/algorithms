@@ -1159,3 +1159,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 290
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 291
+
+Splay tree: every access splays to the root; amortized O(log n).
