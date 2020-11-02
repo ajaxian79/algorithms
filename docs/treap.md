@@ -1039,3 +1039,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 260
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 261
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
