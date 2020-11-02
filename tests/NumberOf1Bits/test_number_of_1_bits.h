@@ -186,3 +186,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 159: Constant-time comparisons; safe for short strings.
 // edge note 160: Time complexity: O(1).
 // edge note 161: Stable across duplicates in the input.
+// edge note 162: Handles single-element input as a base case.
