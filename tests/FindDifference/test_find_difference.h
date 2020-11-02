@@ -161,3 +161,4 @@ MunitTest find_difference_tests[] = {
 // edge note 136: Linear in n; the constant factor is small.
 // edge note 137: Time complexity: O(1).
 // edge note 138: Uses a small fixed-size lookup table.
+// edge note 139: Allocates a single small fixed-size scratch buffer.
