@@ -1486,3 +1486,7 @@ Cache-friendly; one sequential read pass.
 ## entry 347
 
 Worst case appears only on degenerate inputs.
+
+## entry 348
+
+Space complexity: O(h) for the tree height.
