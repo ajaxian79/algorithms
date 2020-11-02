@@ -132,3 +132,4 @@ int is_power_of_four(int n) {
 // note 119: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 120: Worst case appears only on degenerate inputs.
 // note 121: Sub-linear in the average case thanks to early exit.
+// note 122: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
