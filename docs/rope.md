@@ -1103,3 +1103,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 276
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 277
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
