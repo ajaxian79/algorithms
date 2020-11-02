@@ -1618,3 +1618,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 389
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 390
+
+Edge case: already-sorted input → no swaps performed.
