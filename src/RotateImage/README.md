@@ -1605,3 +1605,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 386
 
 Returns a freshly allocated string the caller must free.
+
+## entry 387
+
+Time complexity: O(n*k) where k is the alphabet size.
