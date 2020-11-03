@@ -60591,3 +60591,7 @@
 ## entry 15148
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 15149
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
