@@ -999,3 +999,7 @@
 ## entry 250
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 251
+
+- Splay tree: every access splays to the root; amortized O(log n).
