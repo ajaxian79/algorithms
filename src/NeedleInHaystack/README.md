@@ -1556,3 +1556,7 @@ Allocates lazily — first call only.
 ## entry 374
 
 Handles empty input by returning 0.
+
+## entry 375
+
+Branchless inner loop after sorting.
