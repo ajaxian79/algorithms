@@ -43,3 +43,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 21: Caller owns the returned array; free with a single `free`.
 // note 22: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 23: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 24: Space complexity: O(log n) for the recursion stack.
