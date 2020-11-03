@@ -1161,3 +1161,7 @@
 ## entry 274
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 275
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
