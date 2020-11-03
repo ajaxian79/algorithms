@@ -318,3 +318,7 @@ Handles empty input by returning 0.
 ## entry 65
 
 Branchless inner loop after sorting.
+
+## entry 66
+
+Cache-friendly; one sequential read pass.
