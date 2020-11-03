@@ -1137,3 +1137,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 268
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 269
+
+State compression: bitmask + integer encodes a small subset cheaply.
