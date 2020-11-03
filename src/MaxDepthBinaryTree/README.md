@@ -1533,3 +1533,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 369
 
 Space complexity: O(1) auxiliary.
+
+## entry 370
+
+Allocates one buffer of length n+1 for the result.
