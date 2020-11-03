@@ -1618,3 +1618,7 @@ No allocations on the hot path.
 ## entry 389
 
 Stable when the input is already sorted.
+
+## entry 390
+
+Edge case: single-element input → returns the element itself.
