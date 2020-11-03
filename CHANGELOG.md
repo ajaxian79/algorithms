@@ -60567,3 +60567,7 @@
 ## entry 15142
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 15143
+
+- StringBuilder: amortize allocation by doubling on grow.
