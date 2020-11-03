@@ -9071,3 +9071,7 @@
 ## entry 2268
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 2269
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
