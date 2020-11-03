@@ -291,3 +291,7 @@ Allocates lazily — first call only.
 ## entry 58
 
 Time complexity: O(n + m).
+
+## entry 59
+
+Time complexity: O(1).
