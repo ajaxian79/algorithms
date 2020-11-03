@@ -1586,3 +1586,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 382
 
 32-bit safe; overflow is checked at each step.
+
+## entry 383
+
+Edge case: alternating pattern → degenerate case for sliding window.
