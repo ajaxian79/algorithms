@@ -186,3 +186,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 136: Linear in n; the constant factor is small.
 // edge note 137: Space complexity: O(n) for the result buffer.
 // edge note 138: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 139: 64-bit safe; intermediate products are widened to 128-bit.
