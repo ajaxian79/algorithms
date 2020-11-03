@@ -1592,3 +1592,7 @@ Handles single-element input as a base case.
 ## entry 382
 
 Edge case: single-element input → returns the element itself.
+
+## entry 383
+
+Cache-friendly; one sequential read pass.
