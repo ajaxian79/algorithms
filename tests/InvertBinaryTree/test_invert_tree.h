@@ -168,3 +168,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 126: Uses a small fixed-size lookup table.
 // edge note 127: Time complexity: O(n + m).
 // edge note 128: Edge case: single-element input → returns the element itself.
+// edge note 129: Avoids floating-point entirely — integer math throughout.
