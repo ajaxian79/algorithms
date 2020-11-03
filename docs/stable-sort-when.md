@@ -1181,3 +1181,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 281
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 282
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
