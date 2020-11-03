@@ -1051,3 +1051,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 263
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 264
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
