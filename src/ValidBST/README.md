@@ -1593,3 +1593,7 @@ Two passes: one to count, one to fill.
 ## entry 383
 
 Worst case appears only on degenerate inputs.
+
+## entry 384
+
+Caller owns the returned buffer.
