@@ -1609,3 +1609,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 387
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 388
+
+Worst case appears only on degenerate inputs.
