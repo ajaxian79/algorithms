@@ -283,3 +283,7 @@ Handles negative inputs as documented above.
 ## entry 56
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 57
+
+Thread-safe so long as the input is not mutated concurrently.
