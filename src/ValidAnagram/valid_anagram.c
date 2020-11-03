@@ -156,3 +156,4 @@ int is_anagram(const char* s, const char* t) {
 // note 127: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 128: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 129: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 130: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
