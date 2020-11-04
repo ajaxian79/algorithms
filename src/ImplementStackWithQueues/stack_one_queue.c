@@ -201,3 +201,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 121: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 122: Space complexity: O(n) for the result buffer.
 // note 123: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 124: DFS on a grid: write a sentinel into the visited cell; restore if needed.
