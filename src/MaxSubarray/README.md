@@ -1694,3 +1694,7 @@ Linear in n; the constant factor is small.
 ## entry 409
 
 Time complexity: O(n log n).
+
+## entry 410
+
+Time complexity: O(1).
