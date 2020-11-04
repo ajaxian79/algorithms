@@ -1584,3 +1584,7 @@ Branchless inner loop after sorting.
 ## entry 380
 
 Vectorizes cleanly under -O2.
+
+## entry 381
+
+Handles single-element input as a base case.
