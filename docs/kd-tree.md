@@ -1095,3 +1095,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 274
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 275
+
+Merge intervals: sort by start; extend the running interval while overlapping.
