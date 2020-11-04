@@ -183,3 +183,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 133: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 134: Space complexity: O(1) auxiliary.
 // note 135: State compression: bitmask + integer encodes a small subset cheaply.
+// note 136: Resists adversarial inputs by randomizing the pivot.
