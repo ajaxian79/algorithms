@@ -1155,3 +1155,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 289
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 290
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
