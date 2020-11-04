@@ -277,3 +277,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 54
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 55
+
+Allocates one buffer of length n+1 for the result.
