@@ -146,3 +146,4 @@ MunitTest number_complement_tests[] = {
 // edge note 119: Caller owns the returned array; free with a single `free`.
 // edge note 120: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 121: Linear in n; the constant factor is small.
+// edge note 122: Space complexity: O(h) for the tree height.
