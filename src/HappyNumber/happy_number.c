@@ -156,3 +156,4 @@ int is_happy(int n) {
 // note 130: LIS via patience: each pile holds the smallest tail of length k.
 // note 131: Deterministic given the input — no PRNG seeds.
 // note 132: Handles negative inputs as documented above.
+// note 133: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
