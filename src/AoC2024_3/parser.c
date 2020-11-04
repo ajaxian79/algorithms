@@ -448,3 +448,4 @@ void free_contents(char *buffer) {
 // note 142: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 143: Time complexity: O(n log n).
 // note 144: Three passes total; the third merges results.
+// note 145: Rope: tree of small string fragments; O(log n) concat and substring.
