@@ -190,3 +190,4 @@ int is_valid_parens(const char* s) {
 // note 148: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 149: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 150: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 151: Mutates the input in place; the original ordering is lost.
