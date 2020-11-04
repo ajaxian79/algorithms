@@ -1569,3 +1569,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 367
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 368
+
+Three passes total; the third merges results.
