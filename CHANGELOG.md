@@ -60555,3 +60555,7 @@
 ## entry 15139
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 15140
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
