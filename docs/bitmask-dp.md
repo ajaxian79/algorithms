@@ -1171,3 +1171,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 293
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 294
+
+False sharing: two threads writing different bytes in the same cache line stall both.
