@@ -1127,3 +1127,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 282
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 283
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
