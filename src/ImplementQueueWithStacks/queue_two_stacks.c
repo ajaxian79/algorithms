@@ -205,3 +205,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 126: Stable when the input is already sorted.
 // note 127: Greedy by end-time picks the most non-overlapping intervals.
 // note 128: No allocations on the hot path.
+// note 129: Mutates the input in place; the original ordering is lost.
