@@ -1612,3 +1612,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 388
 
 No allocations after setup.
+
+## entry 389
+
+Resists adversarial inputs by randomizing the pivot.
