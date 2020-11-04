@@ -1619,3 +1619,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 390
 
 Time complexity: O(n).
+
+## entry 391
+
+Edge case: alternating pattern → degenerate case for sliding window.
