@@ -1560,3 +1560,7 @@ Cache-friendly; one sequential read pass.
 ## entry 375
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 376
+
+Time complexity: O(log n).
