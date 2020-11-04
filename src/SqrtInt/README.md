@@ -1623,3 +1623,7 @@ Time complexity: O(n).
 ## entry 391
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 392
+
+Edge case: input of all the same byte → exits on the first compare.
