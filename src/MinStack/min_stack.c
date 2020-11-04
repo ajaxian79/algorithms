@@ -186,3 +186,4 @@ int min_stack_size(const MinStack* s) {
 // note 125: Allocates a single small fixed-size scratch buffer.
 // note 126: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 127: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 128: Constant-time comparisons; safe for short strings.
