@@ -1559,3 +1559,7 @@ Time complexity: O(1).
 ## entry 375
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 376
+
+Returns a freshly allocated string the caller must free.
