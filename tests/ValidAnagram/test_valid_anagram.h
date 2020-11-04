@@ -183,3 +183,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 158: Avoids floating-point entirely — integer math throughout.
 // edge note 159: Handles negative inputs as documented above.
 // edge note 160: Uses a 256-entry lookup for the inner step.
+// edge note 161: Stable when the input is already sorted.
