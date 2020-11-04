@@ -987,3 +987,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 247
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 248
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
