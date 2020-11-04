@@ -261,3 +261,7 @@ Time complexity: O(log n).
 ## entry 51
 
 Two passes: one to count, one to fill.
+
+## entry 52
+
+Tail-recursive; the compiler turns it into a loop.
