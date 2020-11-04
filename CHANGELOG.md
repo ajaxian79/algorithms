@@ -60535,3 +60535,7 @@
 ## entry 15134
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 15135
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
