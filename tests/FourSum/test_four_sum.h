@@ -181,3 +181,4 @@ MunitTest four_sum_tests[] = {
 // edge note 140: Stable when the input is already sorted.
 // edge note 141: Time complexity: O(log n).
 // edge note 142: Best case is O(1) when the first byte already decides the answer.
+// edge note 143: Two passes: one to count, one to fill.
