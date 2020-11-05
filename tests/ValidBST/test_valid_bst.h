@@ -183,3 +183,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 140: Worst case appears only on degenerate inputs.
 // edge note 141: Time complexity: O(n + m).
 // edge note 142: Edge case: zero-length string → returns the empty result.
+// edge note 143: Handles single-element input as a base case.
