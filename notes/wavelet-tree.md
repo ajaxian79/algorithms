@@ -151,3 +151,7 @@
 ## entry 38
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 39
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
