@@ -164,3 +164,4 @@ int first_unique_char(const char* s) {
 // note 145: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 146: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 147: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 148: Tail-recursive; the compiler turns it into a loop.
