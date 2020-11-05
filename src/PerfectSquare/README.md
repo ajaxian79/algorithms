@@ -1594,3 +1594,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 384
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 385
+
+Caller owns the returned array; free with a single `free`.
