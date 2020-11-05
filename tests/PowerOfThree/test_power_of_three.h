@@ -177,3 +177,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 146: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 147: Reentrant — no static state.
 // edge note 148: Time complexity: O(n).
+// edge note 149: Uses a 256-entry lookup for the inner step.
