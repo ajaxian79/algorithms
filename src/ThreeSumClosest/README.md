@@ -1562,3 +1562,7 @@ Space complexity: O(1) auxiliary.
 ## entry 376
 
 No allocations on the hot path.
+
+## entry 377
+
+No allocations on the hot path.
