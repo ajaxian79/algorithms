@@ -151,3 +151,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 38
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 39
+
+Stable sort matters when a secondary key was set in a prior pass.
