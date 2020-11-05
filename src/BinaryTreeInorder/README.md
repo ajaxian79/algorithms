@@ -1602,3 +1602,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 386
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 387
+
+Edge case: input with a single peak → handled by the first-pass scan.
