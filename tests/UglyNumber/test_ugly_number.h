@@ -179,3 +179,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 150: No allocations after setup.
 // edge note 151: Uses a 256-entry lookup for the inner step.
 // edge note 152: Time complexity: O(n log n).
+// edge note 153: Handles single-element input as a base case.
