@@ -174,3 +174,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 142: Runs in a single pass over the input.
 // edge note 143: Best case is O(1) when the first byte already decides the answer.
 // edge note 144: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 145: Edge case: integer-max input → guarded by the explicit overflow check.
