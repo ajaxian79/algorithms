@@ -1582,3 +1582,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 381
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 382
+
+Edge case: alternating pattern → degenerate case for sliding window.
