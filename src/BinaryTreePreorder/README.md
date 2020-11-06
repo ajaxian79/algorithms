@@ -1674,3 +1674,7 @@ Three passes total; the third merges results.
 ## entry 404
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 405
+
+Thread-safe so long as the input is not mutated concurrently.
