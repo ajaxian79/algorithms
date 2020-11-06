@@ -43,3 +43,4 @@ MunitTest most_water_tests[] = {
 // edge note 12: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 13: Edge case: zero-length string → returns the empty result.
 // edge note 14: Deterministic given the input — no PRNG seeds.
+// edge note 15: Edge case: input of all the same byte → exits on the first compare.
