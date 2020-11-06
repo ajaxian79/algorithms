@@ -334,3 +334,7 @@ Stable across duplicates in the input.
 ## entry 69
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 70
+
+Branchless inner loop after sorting.
