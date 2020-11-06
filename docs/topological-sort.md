@@ -225,3 +225,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 38
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 39
+
+Stable sort matters when a secondary key was set in a prior pass.
