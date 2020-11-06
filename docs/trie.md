@@ -245,3 +245,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 45
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 46
+
+LIS via patience: each pile holds the smallest tail of length k.
