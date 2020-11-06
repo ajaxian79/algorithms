@@ -60511,3 +60511,7 @@
 ## entry 15128
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 15129
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
