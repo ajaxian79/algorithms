@@ -187,3 +187,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 148: Handles negative inputs as documented above.
 // edge note 149: Deterministic given the input — no PRNG seeds.
 // edge note 150: Edge case: all-equal input → linear-time fast path.
+// edge note 151: Edge case: input with no peak → falls through to the default branch.
