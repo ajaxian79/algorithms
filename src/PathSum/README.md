@@ -1632,3 +1632,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 393
 
 Allocates lazily — first call only.
+
+## entry 394
+
+Linear in n; the constant factor is small.
