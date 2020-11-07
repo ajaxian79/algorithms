@@ -1605,3 +1605,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 387
 
 Space complexity: O(1) auxiliary.
+
+## entry 388
+
+Stable when the input is already sorted.
