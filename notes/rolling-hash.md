@@ -1143,3 +1143,7 @@
 ## entry 268
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 269
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
