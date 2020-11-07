@@ -1506,3 +1506,7 @@ Branchless inner loop after sorting.
 ## entry 361
 
 Constant-time comparisons; safe for short strings.
+
+## entry 362
+
+Mutates the input in place; the original ordering is lost.
