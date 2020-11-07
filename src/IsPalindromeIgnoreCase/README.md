@@ -1470,3 +1470,7 @@ Worst case appears only on degenerate inputs.
 ## entry 353
 
 Constant-time comparisons; safe for short strings.
+
+## entry 354
+
+Edge case: alternating pattern → degenerate case for sliding window.
