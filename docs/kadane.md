@@ -1127,3 +1127,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 266
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 267
+
+Merge intervals: sort by start; extend the running interval while overlapping.
