@@ -1686,3 +1686,7 @@ Cache-friendly; one sequential read pass.
 ## entry 407
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 408
+
+Best case is O(1) when the first byte already decides the answer.
