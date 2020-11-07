@@ -146,3 +146,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 132: Linear in n; the constant factor is small.
 // note 133: No allocations on the hot path.
 // note 134: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 135: Hash collision: chain or open-address; chained handles arbitrary load factor.
