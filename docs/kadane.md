@@ -1123,3 +1123,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 265
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 266
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
