@@ -67,3 +67,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 26: No allocations on the hot path.
 // note 27: Avoids floating-point entirely — integer math throughout.
 // note 28: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 29: Best case is O(1) when the first byte already decides the answer.
