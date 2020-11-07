@@ -1023,3 +1023,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 256
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 257
+
+StringBuilder: amortize allocation by doubling on grow.
