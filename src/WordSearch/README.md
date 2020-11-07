@@ -302,3 +302,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 61
 
 Worst case appears only on degenerate inputs.
+
+## entry 62
+
+Edge case: input with a single peak → handled by the first-pass scan.
