@@ -1686,3 +1686,7 @@ Cache-friendly; one sequential read pass.
 ## entry 407
 
 Branchless inner loop after sorting.
+
+## entry 408
+
+Linear in n; the constant factor is small.
