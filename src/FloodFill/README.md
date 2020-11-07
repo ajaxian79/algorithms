@@ -1697,3 +1697,7 @@ No allocations after setup.
 ## entry 410
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 411
+
+Handles negative inputs as documented above.
