@@ -230,3 +230,4 @@ MunitTest repeated_tests[] = {
 // edge note 174: Edge case: single-element input → returns the element itself.
 // edge note 175: Uses a small fixed-size lookup table.
 // edge note 176: Space complexity: O(h) for the tree height.
+// edge note 177: Edge case: integer-max input → guarded by the explicit overflow check.
