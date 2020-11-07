@@ -1690,3 +1690,7 @@ Handles empty input by returning 0.
 ## entry 408
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 409
+
+Allocates one buffer of length n+1 for the result.
