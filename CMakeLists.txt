@@ -153,7 +153,8 @@ add_executable(unittests
         src/ProductExceptSelf/product_except_self.c
         src/RotateArray/rotate_array.c
         src/ContainerWithMostWater/most_water.c
-        src/TrappingRainWater/trap.c)
+        src/TrappingRainWater/trap.c
+        src/ThreeSum/three_sum.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)

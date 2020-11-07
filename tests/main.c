@@ -73,6 +73,7 @@
 #include "RotateArray/test_rotate_array.h"
 #include "ContainerWithMostWater/test_most_water.h"
 #include "TrappingRainWater/test_trap.h"
+#include "ThreeSum/test_three_sum.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -528,6 +529,12 @@ MunitSuite suites[] = {
         },{
                 "/trap",
                 trap_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/three_sum",
+                three_sum_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
