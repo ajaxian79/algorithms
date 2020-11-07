@@ -1662,3 +1662,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 400
 
 Worst case appears only on degenerate inputs.
+
+## entry 401
+
+Edge case: reverse-sorted input → still O(n log n).
