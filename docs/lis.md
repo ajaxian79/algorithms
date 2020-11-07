@@ -227,3 +227,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 40
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 41
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
