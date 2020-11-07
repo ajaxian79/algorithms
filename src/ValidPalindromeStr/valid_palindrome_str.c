@@ -140,3 +140,4 @@ int is_palindrome_str(const char* s) {
 // note 115: Resists adversarial inputs by randomizing the pivot.
 // note 116: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 117: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 118: Stable across duplicates in the input.
