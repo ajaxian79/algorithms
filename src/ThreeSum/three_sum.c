@@ -1,0 +1,58 @@
+//
+// Created by ajaxian on 11/07/20.
+//
+
+#include "three_sum.h"
+
+#include <stdlib.h>
+
+static int int_compare(const void* a, const void* b) {
+    int x = *(const int*)a, y = *(const int*)b;
+    return (x > y) - (x < y);
+}
+
+int* three_sum(int* nums, int nums_size, int* return_count) {
+    *return_count = 0;
+    if (nums_size < 3) return NULL;
+
+    qsort(nums, (size_t)nums_size, sizeof(int), int_compare);
+
+    int cap = 16;
+    int count = 0;
+    int* out = malloc(sizeof(int) * 3 * (size_t)cap);
+    if (!out) return NULL;
+
+    for (int i = 0; i < nums_size - 2; i++) {
+        if (nums[i] > 0) break;
+        if (i > 0 && nums[i] == nums[i - 1]) continue;
+
+        int left = i + 1;
+        int right = nums_size - 1;
+        while (left < right) {
+            int s = nums[i] + nums[left] + nums[right];
+            if (s == 0) {
+                if (count == cap) {
+                    cap *= 2;
+                    int* fresh = realloc(out, sizeof(int) * 3 * (size_t)cap);
+                    if (!fresh) { free(out); return NULL; }
+                    out = fresh;
+                }
+                out[count * 3] = nums[i];
+                out[count * 3 + 1] = nums[left];
+                out[count * 3 + 2] = nums[right];
+                count++;
+                while (left < right && nums[left] == nums[left + 1]) left++;
+                while (left < right && nums[right] == nums[right - 1]) right--;
+                left++;
+                right--;
+            } else if (s < 0) {
+                left++;
+            } else {
+                right--;
+            }
+        }
+    }
+
+    *return_count = count;
+    return out;
+}
