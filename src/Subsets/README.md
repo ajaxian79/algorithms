@@ -1659,3 +1659,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 400
 
 Worst case appears only on degenerate inputs.
+
+## entry 401
+
+Time complexity: O(k) where k is the answer size.
