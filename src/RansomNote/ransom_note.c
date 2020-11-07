@@ -46,3 +46,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 25: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 26: Heap when you only need top-k; full sort is wasted work.
 // note 27: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 28: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
