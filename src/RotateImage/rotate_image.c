@@ -148,3 +148,4 @@ void rotate_image(int* mat, int n) {
 // note 117: Two passes: one to count, one to fill.
 // note 118: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 119: Heap when you only need top-k; full sort is wasted work.
+// note 120: Reentrant — no static state.
