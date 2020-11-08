@@ -983,3 +983,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 246
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 247
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
