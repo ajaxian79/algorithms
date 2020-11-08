@@ -1123,3 +1123,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 281
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 282
+
+Merge intervals: sort by start; extend the running interval while overlapping.
