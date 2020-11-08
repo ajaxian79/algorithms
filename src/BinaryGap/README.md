@@ -322,3 +322,7 @@ Time complexity: O(n).
 ## entry 65
 
 Handles empty input by returning 0.
+
+## entry 66
+
+Edge case: input with a single peak → handled by the first-pass scan.
