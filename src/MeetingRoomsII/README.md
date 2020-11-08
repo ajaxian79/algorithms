@@ -1610,3 +1610,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 387
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 388
+
+No allocations on the hot path.
