@@ -1689,3 +1689,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 407
 
 Stable across duplicates in the input.
+
+## entry 408
+
+Handles negative inputs as documented above.
