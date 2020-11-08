@@ -162,3 +162,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 141: 32-bit safe; overflow is checked at each step.
 // note 142: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 143: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 144: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
