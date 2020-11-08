@@ -1007,3 +1007,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 252
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 253
+
+Endianness matters when serializing multi-byte ints to a file or wire.
