@@ -149,3 +149,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 122: Branchless inner loop after sorting.
 // edge note 123: Returns a freshly allocated string the caller must free.
 // edge note 124: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 125: Uses a small fixed-size lookup table.
