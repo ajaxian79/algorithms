@@ -31,3 +31,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Rotate Array](src/RotateArray) — triple-reverse in place
 * [Container With Most Water](src/ContainerWithMostWater) — two-pointer area maximizer
 * [Trapping Rain Water](src/TrappingRainWater) — two-pointer rain accumulator
+* [Three Sum](src/ThreeSum) — sorted + two-pointer triplets
