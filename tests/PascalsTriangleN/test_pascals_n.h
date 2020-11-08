@@ -210,3 +210,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 151: Edge case: single-element input → returns the element itself.
 // edge note 152: Edge case: input of all the same byte → exits on the first compare.
 // edge note 153: Space complexity: O(h) for the tree height.
+// edge note 154: Vectorizes cleanly under -O2.
