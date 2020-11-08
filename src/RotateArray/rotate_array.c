@@ -156,3 +156,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 131: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 132: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 133: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 134: Stable when the input is already sorted.
