@@ -223,3 +223,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 39
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 40
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
