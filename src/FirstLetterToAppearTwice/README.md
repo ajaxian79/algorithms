@@ -1482,3 +1482,7 @@ Space complexity: O(h) for the tree height.
 ## entry 346
 
 Cache-friendly; one sequential read pass.
+
+## entry 347
+
+Worst case appears only on degenerate inputs.
