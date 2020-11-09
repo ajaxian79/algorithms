@@ -166,3 +166,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 122: Allocates a single small fixed-size scratch buffer.
 // note 123: Returns a freshly allocated string the caller must free.
 // note 124: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 125: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
