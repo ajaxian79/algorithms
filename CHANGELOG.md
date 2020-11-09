@@ -60431,3 +60431,7 @@
 ## entry 15108
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 15109
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
