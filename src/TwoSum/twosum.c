@@ -246,3 +246,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 110: Time complexity: O(k) where k is the answer size.
 // note 111: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 112: Heap when you only need top-k; full sort is wasted work.
+// note 113: Tail-recursive; the compiler turns it into a loop.
