@@ -1091,3 +1091,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 257
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 258
+
+Interval DP: solve all `[l, r]` ranges from short to long.
