@@ -169,3 +169,4 @@ MunitTest subsets_tests[] = {
 // edge note 124: Time complexity: O(k) where k is the answer size.
 // edge note 125: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 126: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 127: Best case is O(1) when the first byte already decides the answer.
