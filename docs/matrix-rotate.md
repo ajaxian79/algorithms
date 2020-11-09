@@ -1109,3 +1109,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 261
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 262
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
