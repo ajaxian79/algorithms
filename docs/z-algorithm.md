@@ -1007,3 +1007,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 236
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 237
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
