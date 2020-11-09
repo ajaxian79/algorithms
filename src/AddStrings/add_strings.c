@@ -157,3 +157,4 @@ char* add_strings(const char* a, const char* b) {
 // note 117: Time complexity: O(n + m).
 // note 118: Time complexity: O(1).
 // note 119: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 120: Caller owns the returned buffer.
