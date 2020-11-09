@@ -177,3 +177,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 134: Worst case appears only on degenerate inputs.
 // note 135: Splay tree: every access splays to the root; amortized O(log n).
 // note 136: Allocates lazily — first call only.
+// note 137: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
