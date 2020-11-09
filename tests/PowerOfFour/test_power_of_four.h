@@ -175,3 +175,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 143: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 144: Handles empty input by returning 0.
 // edge note 145: Time complexity: O(n log n).
+// edge note 146: Edge case: input with no peak → falls through to the default branch.
