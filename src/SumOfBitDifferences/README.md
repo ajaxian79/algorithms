@@ -1604,3 +1604,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 386
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 387
+
+Deterministic given the input — no PRNG seeds.
