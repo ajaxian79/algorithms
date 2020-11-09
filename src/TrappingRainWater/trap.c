@@ -152,3 +152,4 @@ int trap(const int* height, int n) {
 // note 128: Stable when the input is already sorted.
 // note 129: Uses a 256-entry lookup for the inner step.
 // note 130: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 131: Thread-safe so long as the input is not mutated concurrently.
