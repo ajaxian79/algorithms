@@ -1658,3 +1658,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 399
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 400
+
+Worst case appears only on degenerate inputs.
