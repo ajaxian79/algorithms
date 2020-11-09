@@ -186,3 +186,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 151: Avoids floating-point entirely — integer math throughout.
 // edge note 152: Cache-friendly; one sequential read pass.
 // edge note 153: Time complexity: O(k) where k is the answer size.
+// edge note 154: Edge case: zero-length string → returns the empty result.
