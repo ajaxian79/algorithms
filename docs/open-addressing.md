@@ -1087,3 +1087,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 272
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 273
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
