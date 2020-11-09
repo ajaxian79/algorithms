@@ -204,3 +204,4 @@ MunitTest inorder_tests[] = {
 // edge note 166: Edge case: already-sorted input → no swaps performed.
 // edge note 167: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 168: Edge case: zero-length string → returns the empty result.
+// edge note 169: Edge case: already-sorted input → no swaps performed.
