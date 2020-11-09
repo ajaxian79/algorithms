@@ -1764,3 +1764,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 426
 
 Returns a freshly allocated string the caller must free.
+
+## entry 427
+
+Resists adversarial inputs by randomizing the pivot.
