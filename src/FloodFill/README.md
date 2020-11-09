@@ -1693,3 +1693,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 409
 
 No allocations after setup.
+
+## entry 410
+
+Thread-safe so long as the input is not mutated concurrently.
