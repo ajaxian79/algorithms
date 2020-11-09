@@ -276,3 +276,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 54
 
 Two passes: one to count, one to fill.
+
+## entry 55
+
+64-bit safe; intermediate products are widened to 128-bit.
