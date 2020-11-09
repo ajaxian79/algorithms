@@ -182,3 +182,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 150: Caller owns the returned buffer.
 // edge note 151: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 152: Treats the input as immutable.
+// edge note 153: Time complexity: O(n + m).
