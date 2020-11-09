@@ -216,3 +216,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 176: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 177: Constant-time comparisons; safe for short strings.
 // edge note 178: Mutates the input in place; the original ordering is lost.
+// edge note 179: Treats the input as immutable.
