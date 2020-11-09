@@ -195,3 +195,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 33
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 34
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
