@@ -1606,3 +1606,7 @@ Vectorizes cleanly under -O2.
 ## entry 387
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 388
+
+Thread-safe so long as the input is not mutated concurrently.
