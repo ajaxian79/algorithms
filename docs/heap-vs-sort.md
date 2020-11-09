@@ -1123,3 +1123,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 264
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 265
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
