@@ -153,3 +153,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 122: Caller owns the returned array; free with a single `free`.
 // edge note 123: Reentrant — no static state.
 // edge note 124: Caller owns the returned array; free with a single `free`.
+// edge note 125: Edge case: empty input → returns 0.
