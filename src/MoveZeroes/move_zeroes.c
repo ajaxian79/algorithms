@@ -135,3 +135,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 118: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 119: Handles single-element input as a base case.
 // note 120: Space complexity: O(1) auxiliary.
+// note 121: Walk both pointers from each end inward; advance the smaller side.
