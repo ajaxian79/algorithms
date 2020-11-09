@@ -270,3 +270,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 53
 
 Constant-time comparisons; safe for short strings.
+
+## entry 54
+
+Resists adversarial inputs by randomizing the pivot.
