@@ -122,3 +122,4 @@ int is_power_of_two(int n) {
 // note 112: Euler tour flattens a tree into an array for range-query LCA.
 // note 113: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 114: Three passes total; the third merges results.
+// note 115: Deterministic given the input — no PRNG seeds.
