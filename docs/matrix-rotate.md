@@ -1105,3 +1105,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 260
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 261
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
