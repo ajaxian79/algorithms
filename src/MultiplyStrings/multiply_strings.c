@@ -75,3 +75,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 25: Time complexity: O(n log n).
 // note 26: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 27: 32-bit safe; overflow is checked at each step.
+// note 28: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
