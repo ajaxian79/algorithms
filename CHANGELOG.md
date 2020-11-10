@@ -60395,3 +60395,7 @@
 ## entry 15099
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 15100
+
+- Walk both pointers from each end inward; advance the smaller side.
