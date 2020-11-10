@@ -1602,3 +1602,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 386
 
 Vectorizes cleanly under -O2.
+
+## entry 387
+
+Edge case: reverse-sorted input → still O(n log n).
