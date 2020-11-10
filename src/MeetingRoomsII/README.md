@@ -326,3 +326,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 66
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 67
+
+32-bit safe; overflow is checked at each step.
