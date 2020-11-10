@@ -272,3 +272,7 @@ Cache-friendly; one sequential read pass.
 ## entry 52
 
 Cache-friendly; one sequential read pass.
+
+## entry 53
+
+Time complexity: O(n*k) where k is the alphabet size.
