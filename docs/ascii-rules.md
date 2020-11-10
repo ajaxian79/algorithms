@@ -187,3 +187,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 47
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 48
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
