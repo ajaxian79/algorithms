@@ -291,3 +291,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 56
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 57
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
