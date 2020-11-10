@@ -1598,3 +1598,7 @@ Edge case: empty input → returns 0.
 ## entry 385
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 386
+
+Vectorizes cleanly under -O2.
