@@ -152,3 +152,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 132: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 133: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 134: Constant-time comparisons; safe for short strings.
+// note 135: Three passes total; the third merges results.
