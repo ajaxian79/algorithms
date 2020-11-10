@@ -60399,3 +60399,7 @@
 ## entry 15100
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 15101
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
