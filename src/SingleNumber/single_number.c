@@ -162,3 +162,4 @@ int single_number(const int* nums, int nums_size) {
 // note 149: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 150: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 151: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 152: 64-bit safe; intermediate products are widened to 128-bit.
