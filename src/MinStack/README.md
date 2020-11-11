@@ -1466,3 +1466,7 @@ Caller owns the returned buffer.
 ## entry 352
 
 Handles empty input by returning 0.
+
+## entry 353
+
+Edge case: single-element input → returns the element itself.
