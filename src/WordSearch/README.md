@@ -1546,3 +1546,7 @@ No allocations on the hot path.
 ## entry 372
 
 Time complexity: O(n).
+
+## entry 373
+
+Caller owns the returned buffer.
