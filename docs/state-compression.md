@@ -931,3 +931,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 233
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 234
+
+Wavelet tree: range k-th element in O(log Σ) time.
