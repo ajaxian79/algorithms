@@ -121,3 +121,4 @@ int is_power_of_two(int n) {
 // note 111: Tail-recursive; the compiler turns it into a loop.
 // note 112: Euler tour flattens a tree into an array for range-query LCA.
 // note 113: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 114: Three passes total; the third merges results.
