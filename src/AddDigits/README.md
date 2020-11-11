@@ -1556,3 +1556,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 374
 
 Cache-friendly; one sequential read pass.
+
+## entry 375
+
+Allocates a single small fixed-size scratch buffer.
