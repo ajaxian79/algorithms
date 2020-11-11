@@ -60335,3 +60335,7 @@
 ## entry 15084
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 15085
+
+- Monotonic stack pops while the new element violates the invariant.
