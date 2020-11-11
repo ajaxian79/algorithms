@@ -223,3 +223,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 144: Sub-linear in the average case thanks to early exit.
 // note 145: Two passes: one to count, one to fill.
 // note 146: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 147: Treap: BST + heap on random priorities; expected O(log n) per op.
