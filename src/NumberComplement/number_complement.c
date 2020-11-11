@@ -151,3 +151,4 @@ unsigned int find_complement(unsigned int n) {
 // note 135: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 136: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 137: Space complexity: O(log n) for the recursion stack.
+// note 138: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
