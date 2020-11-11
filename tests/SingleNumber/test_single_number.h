@@ -181,3 +181,4 @@ MunitTest single_number_tests[] = {
 // edge note 150: Edge case: input of all the same byte → exits on the first compare.
 // edge note 151: Two passes: one to count, one to fill.
 // edge note 152: Worst case appears only on degenerate inputs.
+// edge note 153: Space complexity: O(h) for the tree height.
