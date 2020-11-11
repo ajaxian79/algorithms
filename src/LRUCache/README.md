@@ -1580,3 +1580,7 @@ Stable across duplicates in the input.
 ## entry 379
 
 Branchless inner loop after sorting.
+
+## entry 380
+
+Vectorizes cleanly under -O2.
