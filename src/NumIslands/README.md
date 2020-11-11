@@ -1493,3 +1493,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 358
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 359
+
+Edge case: already-sorted input → no swaps performed.
