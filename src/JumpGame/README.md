@@ -1681,3 +1681,7 @@ No allocations after setup.
 ## entry 405
 
 Runs in a single pass over the input.
+
+## entry 406
+
+Edge case: already-sorted input → no swaps performed.
