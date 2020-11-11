@@ -1045,3 +1045,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 245
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 246
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
