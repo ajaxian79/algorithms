@@ -181,3 +181,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 149: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 150: Caller owns the returned buffer.
 // edge note 151: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 152: Treats the input as immutable.
