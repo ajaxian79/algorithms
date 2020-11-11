@@ -167,3 +167,4 @@ int roman_to_int(const char* s) {
 // note 127: Splay tree: every access splays to the root; amortized O(log n).
 // note 128: State compression: bitmask + integer encodes a small subset cheaply.
 // note 129: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 130: Tree DP: post-order DFS lets children inform the parent in one pass.
