@@ -1497,3 +1497,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 359
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 360
+
+Handles negative inputs as documented above.
