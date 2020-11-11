@@ -175,3 +175,4 @@ MunitTest trap_tests[] = {
 // edge note 141: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 142: Time complexity: O(n log n).
 // edge note 143: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 144: Time complexity: O(log n).
