@@ -1580,3 +1580,7 @@ Treats the input as immutable.
 ## entry 379
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 380
+
+Uses a 256-entry lookup for the inner step.
