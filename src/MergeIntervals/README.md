@@ -1610,3 +1610,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 387
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 388
+
+Thread-safe so long as the input is not mutated concurrently.
