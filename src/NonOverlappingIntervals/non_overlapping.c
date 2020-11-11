@@ -165,3 +165,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 134: No allocations after setup.
 // note 135: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 136: Vectorizes cleanly under -O2.
+// note 137: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
