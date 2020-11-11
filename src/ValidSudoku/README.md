@@ -1619,3 +1619,7 @@ No allocations on the hot path.
 ## entry 389
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 390
+
+Edge case: empty input → returns 0.
