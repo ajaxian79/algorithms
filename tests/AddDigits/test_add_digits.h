@@ -147,3 +147,4 @@ MunitTest add_digits_tests[] = {
 // edge note 120: Treats the input as immutable.
 // edge note 121: Time complexity: O(1).
 // edge note 122: Two passes: one to count, one to fill.
+// edge note 123: Space complexity: O(log n) for the recursion stack.
