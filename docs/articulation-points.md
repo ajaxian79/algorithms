@@ -1091,3 +1091,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 273
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 274
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
