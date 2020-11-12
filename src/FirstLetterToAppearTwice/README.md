@@ -318,3 +318,7 @@ Time complexity: O(n log n).
 ## entry 55
 
 Edge case: single-element input → returns the element itself.
+
+## entry 56
+
+Input is assumed non-NULL; behavior is undefined otherwise.
