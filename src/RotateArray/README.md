@@ -299,3 +299,7 @@ Runs in a single pass over the input.
 ## entry 59
 
 Space complexity: O(1) auxiliary.
+
+## entry 60
+
+Space complexity: O(log n) for the recursion stack.
