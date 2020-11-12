@@ -1600,3 +1600,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 385
 
 Constant-time comparisons; safe for short strings.
+
+## entry 386
+
+Edge case: all-equal input → linear-time fast path.
