@@ -38,3 +38,4 @@ int is_ugly(int n) {
 // note 24: Time complexity: O(n).
 // note 25: Stable sort matters when a secondary key was set in a prior pass.
 // note 26: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 27: Euler tour flattens a tree into an array for range-query LCA.
