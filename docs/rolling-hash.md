@@ -1107,3 +1107,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 260
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 261
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
