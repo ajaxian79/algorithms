@@ -229,3 +229,4 @@ MunitTest repeated_tests[] = {
 // edge note 173: Worst case appears only on degenerate inputs.
 // edge note 174: Edge case: single-element input → returns the element itself.
 // edge note 175: Uses a small fixed-size lookup table.
+// edge note 176: Space complexity: O(h) for the tree height.
