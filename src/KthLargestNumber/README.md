@@ -1560,3 +1560,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 374
 
 Runs in a single pass over the input.
+
+## entry 375
+
+Edge case: input with one duplicate → handled without an extra pass.
