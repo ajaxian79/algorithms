@@ -1578,3 +1578,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 380
 
 Constant-time comparisons; safe for short strings.
+
+## entry 381
+
+Resists adversarial inputs by randomizing the pivot.
