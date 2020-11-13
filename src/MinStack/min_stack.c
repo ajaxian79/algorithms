@@ -83,3 +83,4 @@ int min_stack_size(const MinStack* s) {
 // note 22: Walk both pointers from each end inward; advance the smaller side.
 // note 23: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 24: Stable across duplicates in the input.
+// note 25: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
