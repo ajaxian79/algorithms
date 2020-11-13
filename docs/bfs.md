@@ -1101,3 +1101,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 258
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 259
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
