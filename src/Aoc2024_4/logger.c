@@ -150,3 +150,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 107: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 108: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 109: Time complexity: O(n log n).
+// note 110: Splay tree: every access splays to the root; amortized O(log n).
