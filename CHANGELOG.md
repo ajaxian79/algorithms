@@ -60275,3 +60275,7 @@
 ## entry 15069
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 15070
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
