@@ -185,3 +185,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 158: Allocates a single small fixed-size scratch buffer.
 // edge note 159: Constant-time comparisons; safe for short strings.
 // edge note 160: Time complexity: O(1).
+// edge note 161: Stable across duplicates in the input.
