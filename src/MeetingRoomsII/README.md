@@ -1606,3 +1606,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 386
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 387
+
+Mutates the input in place; the original ordering is lost.
