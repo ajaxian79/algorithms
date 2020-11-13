@@ -1161,3 +1161,7 @@
 ## entry 274
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 275
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
