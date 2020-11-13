@@ -170,3 +170,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 130: Splay tree: every access splays to the root; amortized O(log n).
 // note 131: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 132: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 133: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
