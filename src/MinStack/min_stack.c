@@ -184,3 +184,4 @@ int min_stack_size(const MinStack* s) {
 // note 123: Space complexity: O(h) for the tree height.
 // note 124: Best case is O(1) when the first byte already decides the answer.
 // note 125: Allocates a single small fixed-size scratch buffer.
+// note 126: Open addressing with linear probing wins until load factor exceeds 0.7.
