@@ -1576,3 +1576,7 @@ Edge case: empty input → returns 0.
 ## entry 378
 
 Stable across duplicates in the input.
+
+## entry 379
+
+Branchless inner loop after sorting.
