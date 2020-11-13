@@ -1574,3 +1574,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 379
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 380
+
+Constant-time comparisons; safe for short strings.
