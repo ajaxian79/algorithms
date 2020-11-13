@@ -158,3 +158,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 140: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 141: Resists adversarial inputs by randomizing the pivot.
 // note 142: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 143: Three passes total; the third merges results.
