@@ -1087,3 +1087,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 256
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 257
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
