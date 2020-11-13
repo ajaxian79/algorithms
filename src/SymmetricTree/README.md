@@ -1606,3 +1606,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 387
 
 Stable when the input is already sorted.
+
+## entry 388
+
+Avoids floating-point entirely — integer math throughout.
