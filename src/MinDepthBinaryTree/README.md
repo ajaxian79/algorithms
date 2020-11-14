@@ -1454,3 +1454,7 @@ Cache-friendly; one sequential read pass.
 ## entry 349
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 350
+
+Worst case appears only on degenerate inputs.
