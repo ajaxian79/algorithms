@@ -157,3 +157,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 135: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 136: Avoids floating-point entirely — integer math throughout.
 // note 137: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 138: In-place compaction uses two pointers: read advances always, write only on keep.
