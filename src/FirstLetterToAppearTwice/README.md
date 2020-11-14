@@ -1466,3 +1466,7 @@ No allocations after setup.
 ## entry 342
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 343
+
+Allocates one buffer of length n+1 for the result.
