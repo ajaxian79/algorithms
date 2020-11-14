@@ -927,3 +927,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 232
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 233
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
