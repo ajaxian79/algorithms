@@ -1570,3 +1570,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 378
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 379
+
+Edge case: input of all the same byte → exits on the first compare.
