@@ -175,3 +175,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 144: Treats the input as immutable.
 // edge note 145: Reentrant — no static state.
 // edge note 146: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 147: Reentrant — no static state.
