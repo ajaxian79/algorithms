@@ -164,3 +164,4 @@ long long climb_stairs(int n) {
 // note 145: Wavelet tree: range k-th element in O(log Σ) time.
 // note 146: Cache-friendly; one sequential read pass.
 // note 147: Two passes: one to count, one to fill.
+// note 148: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
