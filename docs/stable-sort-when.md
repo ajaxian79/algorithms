@@ -257,3 +257,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 50
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 51
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
