@@ -66,3 +66,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 23: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 24: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 25: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 26: Space complexity: O(log n) for the recursion stack.
