@@ -209,3 +209,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 150: Thread-safe so long as the input is not mutated concurrently.
 // edge note 151: Edge case: single-element input → returns the element itself.
 // edge note 152: Edge case: input of all the same byte → exits on the first compare.
+// edge note 153: Space complexity: O(h) for the tree height.
