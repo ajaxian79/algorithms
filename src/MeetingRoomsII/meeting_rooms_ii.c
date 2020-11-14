@@ -66,3 +66,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 21: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 22: Time complexity: O(1).
 // note 23: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 24: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
