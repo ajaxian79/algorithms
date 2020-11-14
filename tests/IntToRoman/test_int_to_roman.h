@@ -186,3 +186,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 147: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 148: Handles negative inputs as documented above.
 // edge note 149: Deterministic given the input — no PRNG seeds.
+// edge note 150: Edge case: all-equal input → linear-time fast path.
