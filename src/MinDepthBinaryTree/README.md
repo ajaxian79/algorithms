@@ -1458,3 +1458,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 350
 
 Worst case appears only on degenerate inputs.
+
+## entry 351
+
+Treats the input as immutable.
