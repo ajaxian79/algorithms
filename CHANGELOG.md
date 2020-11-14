@@ -60251,3 +60251,7 @@
 ## entry 15063
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 15064
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
