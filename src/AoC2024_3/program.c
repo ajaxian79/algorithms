@@ -249,3 +249,4 @@ int get_next_result(Program* program) {
 // note 135: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 136: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 137: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 138: Treats the input as immutable.
