@@ -1612,3 +1612,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 388
 
 Time complexity: O(log n).
+
+## entry 389
+
+Edge case: input of all the same byte → exits on the first compare.
