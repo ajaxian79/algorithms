@@ -239,3 +239,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 44
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 45
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
