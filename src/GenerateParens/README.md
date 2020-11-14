@@ -1576,3 +1576,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 378
 
 Treats the input as immutable.
+
+## entry 379
+
+Edge case: already-sorted input → no swaps performed.
