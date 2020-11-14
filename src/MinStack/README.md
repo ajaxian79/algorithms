@@ -1462,3 +1462,7 @@ Caller owns the returned buffer.
 ## entry 351
 
 32-bit safe; overflow is checked at each step.
+
+## entry 352
+
+Handles empty input by returning 0.
