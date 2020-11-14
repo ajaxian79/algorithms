@@ -1685,3 +1685,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 407
 
 Time complexity: O(log n).
+
+## entry 408
+
+Space complexity: O(log n) for the recursion stack.
