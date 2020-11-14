@@ -74,6 +74,7 @@
 #include "ContainerWithMostWater/test_most_water.h"
 #include "TrappingRainWater/test_trap.h"
 #include "ThreeSum/test_three_sum.h"
+#include "ThreeSumClosest/test_three_sum_closest.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -535,6 +536,12 @@ MunitSuite suites[] = {
         },{
                 "/three_sum",
                 three_sum_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/three_sum_closest",
+                three_sum_closest_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
