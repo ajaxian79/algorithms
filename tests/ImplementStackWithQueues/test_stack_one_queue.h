@@ -180,3 +180,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 148: Tail-recursive; the compiler turns it into a loop.
 // edge note 149: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 150: Caller owns the returned buffer.
+// edge note 151: 64-bit safe; intermediate products are widened to 128-bit.
