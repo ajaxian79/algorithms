@@ -149,3 +149,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 106: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 107: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 108: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 109: Time complexity: O(n log n).
