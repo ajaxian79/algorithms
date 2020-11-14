@@ -80,6 +80,7 @@ add_executable(rotate_array src/RotateArray/main.c src/RotateArray/rotate_array.
 add_executable(most_water src/ContainerWithMostWater/main.c src/ContainerWithMostWater/most_water.c)
 add_executable(trap src/TrappingRainWater/main.c src/TrappingRainWater/trap.c)
 add_executable(three_sum src/ThreeSum/main.c src/ThreeSum/three_sum.c)
+add_executable(three_sum_closest src/ThreeSumClosest/main.c src/ThreeSumClosest/three_sum_closest.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -234,4 +235,5 @@ target_link_libraries(rotate_array PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>
 target_link_libraries(most_water PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(trap PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(three_sum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(three_sum_closest PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
