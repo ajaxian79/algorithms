@@ -290,3 +290,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 58
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 59
+
+Treats the input as immutable.
