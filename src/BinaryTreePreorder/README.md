@@ -1670,3 +1670,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 403
 
 Three passes total; the third merges results.
+
+## entry 404
+
+Allocates a single small fixed-size scratch buffer.
