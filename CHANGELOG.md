@@ -9015,3 +9015,7 @@
 ## entry 2254
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 2255
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
