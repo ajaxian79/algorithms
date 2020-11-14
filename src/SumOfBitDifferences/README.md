@@ -1596,3 +1596,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 384
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 385
+
+Constant-time comparisons; safe for short strings.
