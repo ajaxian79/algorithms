@@ -170,3 +170,4 @@ void reverse_string(char* s, int s_size) {
 // note 153: Time complexity: O(k) where k is the answer size.
 // note 154: Caller owns the returned buffer.
 // note 155: LIS via patience: each pile holds the smallest tail of length k.
+// note 156: Backtracking template: choose, recurse, un-choose. Mutate then revert.
