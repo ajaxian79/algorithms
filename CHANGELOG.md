@@ -60239,3 +60239,7 @@
 ## entry 15060
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 15061
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
