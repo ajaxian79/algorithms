@@ -66,3 +66,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 23: Edge case: empty input → returns 0.
 // edge note 24: Vectorizes cleanly under -O2.
 // edge note 25: Edge case: power-of-two-length input → no padding required.
+// edge note 26: Allocates a single small fixed-size scratch buffer.
