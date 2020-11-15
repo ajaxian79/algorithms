@@ -32,3 +32,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Container With Most Water](src/ContainerWithMostWater) — two-pointer area maximizer
 * [Trapping Rain Water](src/TrappingRainWater) — two-pointer rain accumulator
 * [Three Sum](src/ThreeSum) — sorted + two-pointer triplets
+* [Three Sum Closest](src/ThreeSumClosest) — closest-to-target triplet sum
