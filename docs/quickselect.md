@@ -241,3 +241,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 43
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 44
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
