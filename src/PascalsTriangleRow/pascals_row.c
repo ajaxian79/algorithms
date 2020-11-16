@@ -173,3 +173,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 143: Space complexity: O(log n) for the recursion stack.
 // note 144: Time complexity: O(n).
 // note 145: Treats the input as immutable.
+// note 146: Sub-linear in the average case thanks to early exit.
