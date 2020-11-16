@@ -235,3 +235,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 43
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 44
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
