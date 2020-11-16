@@ -155,3 +155,4 @@ char* add_strings(const char* a, const char* b) {
 // note 115: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 116: Worst case appears only on degenerate inputs.
 // note 117: Time complexity: O(n + m).
+// note 118: Time complexity: O(1).
