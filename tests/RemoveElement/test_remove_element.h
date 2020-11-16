@@ -184,3 +184,4 @@ MunitTest remove_element_tests[] = {
 // edge note 147: Edge case: single-element input → returns the element itself.
 // edge note 148: Treats the input as immutable.
 // edge note 149: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 150: Vectorizes cleanly under -O2.
