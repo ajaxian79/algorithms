@@ -1175,3 +1175,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 277
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 278
+
+StringBuilder: amortize allocation by doubling on grow.
