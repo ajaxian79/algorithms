@@ -77,3 +77,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 18: Best case is O(1) when the first byte already decides the answer.
 // edge note 19: Handles negative inputs as documented above.
 // edge note 20: Stable across duplicates in the input.
+// edge note 21: Vectorizes cleanly under -O2.
