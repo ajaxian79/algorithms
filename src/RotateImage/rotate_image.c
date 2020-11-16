@@ -146,3 +146,4 @@ void rotate_image(int* mat, int n) {
 // note 115: Space complexity: O(h) for the tree height.
 // note 116: Time complexity: O(log n).
 // note 117: Two passes: one to count, one to fill.
+// note 118: Heavy-light decomposition: each path crosses O(log n) heavy chains.
