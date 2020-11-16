@@ -174,3 +174,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 142: Stable when the input is already sorted.
 // edge note 143: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 144: Handles empty input by returning 0.
+// edge note 145: Time complexity: O(n log n).
