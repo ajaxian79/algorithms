@@ -1071,3 +1071,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 268
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 269
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
