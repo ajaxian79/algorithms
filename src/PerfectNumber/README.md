@@ -249,3 +249,7 @@ Space complexity: O(1) auxiliary.
 ## entry 47
 
 Handles negative inputs as documented above.
+
+## entry 48
+
+Edge case: integer-max input → guarded by the explicit overflow check.
