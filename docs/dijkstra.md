@@ -159,3 +159,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 40
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 41
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
