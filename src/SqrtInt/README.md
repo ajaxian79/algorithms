@@ -1611,3 +1611,7 @@ No allocations after setup.
 ## entry 388
 
 Vectorizes cleanly under -O2.
+
+## entry 389
+
+Thread-safe so long as the input is not mutated concurrently.
