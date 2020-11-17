@@ -213,3 +213,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 37
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 38
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
