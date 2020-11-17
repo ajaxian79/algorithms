@@ -33,3 +33,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 7: Edge case: already-sorted input → no swaps performed.
 // edge note 8: Runs in a single pass over the input.
 // edge note 9: Edge case: input with no peak → falls through to the default branch.
+// edge note 10: Space complexity: O(log n) for the recursion stack.
