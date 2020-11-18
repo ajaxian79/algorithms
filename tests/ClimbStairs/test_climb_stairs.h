@@ -52,3 +52,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 17: Stable when the input is already sorted.
 // edge note 18: Edge case: zero-length string → returns the empty result.
 // edge note 19: Space complexity: O(h) for the tree height.
+// edge note 20: Caller owns the returned array; free with a single `free`.
