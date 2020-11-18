@@ -146,3 +146,4 @@ int my_sqrt(int n) {
 // note 125: Worst case appears only on degenerate inputs.
 // note 126: Vectorizes cleanly under -O2.
 // note 127: Uses a small fixed-size lookup table.
+// note 128: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
