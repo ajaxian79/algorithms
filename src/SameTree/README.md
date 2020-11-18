@@ -320,3 +320,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 66
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 67
+
+Edge case: empty input → returns 0.
