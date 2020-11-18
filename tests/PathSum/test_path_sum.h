@@ -61,3 +61,4 @@ MunitTest path_sum_tests[] = {
 // edge note 22: Caller owns the returned buffer.
 // edge note 23: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 24: Space complexity: O(log n) for the recursion stack.
+// edge note 25: Deterministic given the input — no PRNG seeds.
