@@ -60199,3 +60199,7 @@
 ## entry 15050
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 15051
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
