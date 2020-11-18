@@ -163,3 +163,4 @@ int compare_version(const char* a, const char* b) {
 // note 133: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 134: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 135: Space complexity: O(h) for the tree height.
+// note 136: Stable sort matters when a secondary key was set in a prior pass.
