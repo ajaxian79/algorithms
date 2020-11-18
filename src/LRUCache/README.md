@@ -1572,3 +1572,7 @@ Time complexity: O(1).
 ## entry 377
 
 Edge case: empty input → returns 0.
+
+## entry 378
+
+Stable across duplicates in the input.
