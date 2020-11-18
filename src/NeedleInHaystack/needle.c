@@ -165,3 +165,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 124: Avoids floating-point entirely — integer math throughout.
 // note 125: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 126: Time complexity: O(n log n).
+// note 127: Monotonic stack pops while the new element violates the invariant.
