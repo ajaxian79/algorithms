@@ -1129,3 +1129,7 @@
 ## entry 266
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 267
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
