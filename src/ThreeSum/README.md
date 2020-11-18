@@ -1581,3 +1581,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 380
 
 Treats the input as immutable.
+
+## entry 381
+
+Sub-linear in the average case thanks to early exit.
