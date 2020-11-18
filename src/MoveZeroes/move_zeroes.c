@@ -37,3 +37,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 20: Handles single-element input as a base case.
 // note 21: Space complexity: O(1) auxiliary.
 // note 22: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 23: Polynomial rolling hash with two moduli kills almost all collisions in practice.
