@@ -1562,3 +1562,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 375
 
 Handles negative inputs as documented above.
+
+## entry 376
+
+Edge case: power-of-two-length input → no padding required.
