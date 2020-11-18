@@ -1686,3 +1686,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 407
 
 Handles empty input by returning 0.
+
+## entry 408
+
+Edge case: input with no peak → falls through to the default branch.
