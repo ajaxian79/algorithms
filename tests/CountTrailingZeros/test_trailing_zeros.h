@@ -171,3 +171,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 143: Edge case: input with no peak → falls through to the default branch.
 // edge note 144: Time complexity: O(n log n).
 // edge note 145: Reentrant — no static state.
+// edge note 146: Allocates lazily — first call only.
