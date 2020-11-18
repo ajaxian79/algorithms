@@ -153,3 +153,4 @@ char* convert_to_base7(int n) {
 // note 120: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 121: Idempotent — calling twice with the same input is a no-op the second time.
 // note 122: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 123: 64-bit safe; intermediate products are widened to 128-bit.
