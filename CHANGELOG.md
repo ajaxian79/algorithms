@@ -60203,3 +60203,7 @@
 ## entry 15051
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 15052
+
+- Stable sort matters when a secondary key was set in a prior pass.
