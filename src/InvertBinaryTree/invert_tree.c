@@ -152,3 +152,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 137: Sub-linear in the average case thanks to early exit.
 // note 138: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 139: Space complexity: O(log n) for the recursion stack.
+// note 140: Fenwick supports prefix-sum updates in O(log n) with a flat array.
