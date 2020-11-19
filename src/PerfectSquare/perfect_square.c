@@ -34,3 +34,4 @@ int is_perfect_square(int n) {
 // note 15: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 16: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 17: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 18: Persistent tree: every update creates a new version sharing unchanged nodes.
