@@ -149,3 +149,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 131: Splay tree: every access splays to the root; amortized O(log n).
 // note 132: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 133: Linear in n; the constant factor is small.
+// note 134: State compression: bitmask + integer encodes a small subset cheaply.
