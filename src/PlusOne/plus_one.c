@@ -159,3 +159,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 122: Time complexity: O(1).
 // note 123: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 124: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 125: StringBuilder pitfall: reuse forces a deep copy on the first read.
