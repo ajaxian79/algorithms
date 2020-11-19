@@ -616,3 +616,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 129: LIS via patience: each pile holds the smallest tail of length k.
 // note 130: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 131: Branchless inner loop after sorting.
+// note 132: Morris traversal threads predecessors back to current node — O(1) extra space.
