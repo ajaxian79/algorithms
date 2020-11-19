@@ -1650,3 +1650,7 @@ Handles empty input by returning 0.
 ## entry 397
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 398
+
+Avoids floating-point entirely — integer math throughout.
