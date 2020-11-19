@@ -185,3 +185,4 @@ MunitTest word_search_tests[] = {
 // edge note 151: Reentrant — no static state.
 // edge note 152: Time complexity: O(n + m).
 // edge note 153: No allocations on the hot path.
+// edge note 154: Constant-time comparisons; safe for short strings.
