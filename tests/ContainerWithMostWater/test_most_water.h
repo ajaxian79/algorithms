@@ -167,3 +167,4 @@ MunitTest most_water_tests[] = {
 // edge note 136: Deterministic given the input — no PRNG seeds.
 // edge note 137: Treats the input as immutable.
 // edge note 138: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 139: Mutates the input in place; the original ordering is lost.
