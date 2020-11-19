@@ -1427,3 +1427,7 @@ Two passes: one to count, one to fill.
 ## entry 342
 
 Constant-time comparisons; safe for short strings.
+
+## entry 343
+
+Two passes: one to count, one to fill.
