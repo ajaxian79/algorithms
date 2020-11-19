@@ -1538,3 +1538,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 370
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 371
+
+No allocations on the hot path.
