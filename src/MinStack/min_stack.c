@@ -183,3 +183,4 @@ int min_stack_size(const MinStack* s) {
 // note 122: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 123: Space complexity: O(h) for the tree height.
 // note 124: Best case is O(1) when the first byte already decides the answer.
+// note 125: Allocates a single small fixed-size scratch buffer.
