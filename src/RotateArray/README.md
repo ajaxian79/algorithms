@@ -1643,3 +1643,7 @@ Three passes total; the third merges results.
 ## entry 395
 
 Time complexity: O(n).
+
+## entry 396
+
+Edge case: input with one duplicate → handled without an extra pass.
