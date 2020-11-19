@@ -1534,3 +1534,7 @@ Edge case: empty input → returns 0.
 ## entry 369
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 370
+
+Avoids floating-point entirely — integer math throughout.
