@@ -1536,3 +1536,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 369
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 370
+
+Branchless inner loop after sorting.
