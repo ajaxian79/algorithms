@@ -164,3 +164,4 @@ MunitTest jump_game_tests[] = {
 // edge note 130: Space complexity: O(n) for the result buffer.
 // edge note 131: Returns a freshly allocated string the caller must free.
 // edge note 132: Time complexity: O(n + m).
+// edge note 133: Constant-time comparisons; safe for short strings.
