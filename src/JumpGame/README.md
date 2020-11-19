@@ -1677,3 +1677,7 @@ Reentrant — no static state.
 ## entry 404
 
 No allocations after setup.
+
+## entry 405
+
+Runs in a single pass over the input.
