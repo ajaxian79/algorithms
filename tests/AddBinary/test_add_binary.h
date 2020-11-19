@@ -170,3 +170,4 @@ MunitTest add_binary_tests[] = {
 // edge note 134: Resists adversarial inputs by randomizing the pivot.
 // edge note 135: 32-bit safe; overflow is checked at each step.
 // edge note 136: Runs in a single pass over the input.
+// edge note 137: Constant-time comparisons; safe for short strings.
