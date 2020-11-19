@@ -318,3 +318,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 109: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 110: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 111: Reentrant — no static state.
+// note 112: Time complexity: O(n + m).
