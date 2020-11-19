@@ -150,3 +150,4 @@ unsigned int find_complement(unsigned int n) {
 // note 134: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 135: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 136: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 137: Space complexity: O(log n) for the recursion stack.
