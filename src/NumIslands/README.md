@@ -1489,3 +1489,7 @@ Space complexity: O(h) for the tree height.
 ## entry 357
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 358
+
+Time complexity: O(n*k) where k is the alphabet size.
