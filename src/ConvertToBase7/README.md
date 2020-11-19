@@ -1652,3 +1652,7 @@ Uses a small fixed-size lookup table.
 ## entry 398
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 399
+
+Edge case: integer-max input → guarded by the explicit overflow check.
