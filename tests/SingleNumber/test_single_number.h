@@ -180,3 +180,4 @@ MunitTest single_number_tests[] = {
 // edge note 149: Linear in n; the constant factor is small.
 // edge note 150: Edge case: input of all the same byte → exits on the first compare.
 // edge note 151: Two passes: one to count, one to fill.
+// edge note 152: Worst case appears only on degenerate inputs.
