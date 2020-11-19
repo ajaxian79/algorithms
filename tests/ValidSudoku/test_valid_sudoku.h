@@ -211,3 +211,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 151: 32-bit safe; overflow is checked at each step.
 // edge note 152: Constant-time comparisons; safe for short strings.
 // edge note 153: Edge case: power-of-two-length input → no padding required.
+// edge note 154: Time complexity: O(n log n).
