@@ -1651,3 +1651,7 @@ Branchless inner loop after sorting.
 ## entry 398
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 399
+
+Space complexity: O(log n) for the recursion stack.
