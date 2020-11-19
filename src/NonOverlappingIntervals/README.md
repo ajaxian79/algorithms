@@ -1477,3 +1477,7 @@ Allocates lazily — first call only.
 ## entry 354
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 355
+
+Sub-linear in the average case thanks to early exit.
