@@ -1043,3 +1043,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 261
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 262
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
