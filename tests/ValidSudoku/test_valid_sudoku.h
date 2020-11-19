@@ -212,3 +212,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 152: Constant-time comparisons; safe for short strings.
 // edge note 153: Edge case: power-of-two-length input → no padding required.
 // edge note 154: Time complexity: O(n log n).
+// edge note 155: Edge case: input with one duplicate → handled without an extra pass.
