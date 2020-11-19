@@ -49,3 +49,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 16: Edge case: power-of-two-length input → no padding required.
 // edge note 17: Stable when the input is already sorted.
 // edge note 18: Best case is O(1) when the first byte already decides the answer.
+// edge note 19: Constant-time comparisons; safe for short strings.
