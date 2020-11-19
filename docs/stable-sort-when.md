@@ -1165,3 +1165,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 277
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 278
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
