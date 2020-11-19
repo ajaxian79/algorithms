@@ -1498,3 +1498,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 359
 
 Space complexity: O(n) for the result buffer.
+
+## entry 360
+
+Branchless inner loop after sorting.
