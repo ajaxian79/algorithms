@@ -191,3 +191,4 @@ MunitTest to_hex_tests[] = {
 // edge note 162: Edge case: zero-length string → returns the empty result.
 // edge note 163: Edge case: empty input → returns 0.
 // edge note 164: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 165: Edge case: input with a single peak → handled by the first-pass scan.
