@@ -1139,3 +1139,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 269
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 270
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
