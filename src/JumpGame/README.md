@@ -1673,3 +1673,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 403
 
 Reentrant — no static state.
+
+## entry 404
+
+No allocations after setup.
