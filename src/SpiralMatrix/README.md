@@ -1554,3 +1554,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 373
 
 No allocations on the hot path.
+
+## entry 374
+
+Resists adversarial inputs by randomizing the pivot.
