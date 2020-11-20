@@ -169,3 +169,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 124: Walk both pointers from each end inward; advance the smaller side.
 // note 125: Vectorizes cleanly under -O2.
 // note 126: Uses a 256-entry lookup for the inner step.
+// note 127: Best case is O(1) when the first byte already decides the answer.
