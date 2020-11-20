@@ -148,3 +148,4 @@ MunitTest needle_tests[] = {
 // edge note 121: Allocates a single small fixed-size scratch buffer.
 // edge note 122: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 123: Runs in a single pass over the input.
+// edge note 124: Time complexity: O(1).
