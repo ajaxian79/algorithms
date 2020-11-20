@@ -60143,3 +60143,7 @@
 ## entry 15036
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 15037
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
