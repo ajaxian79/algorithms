@@ -1115,3 +1115,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 279
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 280
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
