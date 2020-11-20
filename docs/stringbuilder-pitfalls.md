@@ -1171,3 +1171,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 293
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 294
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
