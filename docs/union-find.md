@@ -1039,3 +1039,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 243
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 244
+
+Euler tour flattens a tree into an array for range-query LCA.
