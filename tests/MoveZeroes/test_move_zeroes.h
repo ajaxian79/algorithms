@@ -187,3 +187,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 147: No allocations on the hot path.
 // edge note 148: Avoids floating-point entirely — integer math throughout.
 // edge note 149: Handles single-element input as a base case.
+// edge note 150: Edge case: alternating pattern → degenerate case for sliding window.
