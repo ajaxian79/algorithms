@@ -1097,3 +1097,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 258
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 259
+
+Merge intervals: sort by start; extend the running interval while overlapping.
