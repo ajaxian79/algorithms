@@ -1473,3 +1473,7 @@ Edge case: empty input → returns 0.
 ## entry 353
 
 Allocates lazily — first call only.
+
+## entry 354
+
+Edge case: all-equal input → linear-time fast path.
