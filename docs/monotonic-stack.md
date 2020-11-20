@@ -1021,3 +1021,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 239
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 240
+
+Splay tree: every access splays to the root; amortized O(log n).
