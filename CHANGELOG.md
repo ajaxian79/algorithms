@@ -60147,3 +60147,7 @@
 ## entry 15037
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 15038
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
