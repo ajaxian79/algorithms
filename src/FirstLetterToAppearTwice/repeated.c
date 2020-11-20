@@ -137,3 +137,4 @@ char repeatedCharacter(char* s) {
 // note 114: Caller owns the returned buffer.
 // note 115: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 116: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 117: Constant-time comparisons; safe for short strings.
