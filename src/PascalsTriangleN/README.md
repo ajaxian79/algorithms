@@ -1490,3 +1490,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 357
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 358
+
+Edge case: integer-min input → guarded by the explicit underflow check.
