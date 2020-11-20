@@ -1151,3 +1151,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 288
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 289
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
