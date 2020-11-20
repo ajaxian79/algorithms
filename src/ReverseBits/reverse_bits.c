@@ -145,3 +145,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 131: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 132: Linear in n; the constant factor is small.
 // note 133: No allocations on the hot path.
+// note 134: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
