@@ -1576,3 +1576,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 378
 
 Caller owns the returned buffer.
+
+## entry 379
+
+Deterministic given the input — no PRNG seeds.
