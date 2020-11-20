@@ -158,3 +158,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 131: Worst case appears only on degenerate inputs.
 // edge note 132: Edge case: zero-length string → returns the empty result.
 // edge note 133: Edge case: empty input → returns 0.
+// edge note 134: Uses a 256-entry lookup for the inner step.
