@@ -263,3 +263,7 @@ Worst case appears only on degenerate inputs.
 ## entry 51
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 52
+
+Handles negative inputs as documented above.
