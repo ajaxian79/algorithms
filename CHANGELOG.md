@@ -60131,3 +60131,7 @@
 ## entry 15033
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 15034
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
