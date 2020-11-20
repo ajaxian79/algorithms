@@ -152,3 +152,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 117: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 118: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 119: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 120: 64-bit safe; intermediate products are widened to 128-bit.
