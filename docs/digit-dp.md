@@ -1039,3 +1039,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 260
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 261
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
