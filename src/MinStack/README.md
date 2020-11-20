@@ -1458,3 +1458,7 @@ Branchless inner loop after sorting.
 ## entry 350
 
 Caller owns the returned buffer.
+
+## entry 351
+
+32-bit safe; overflow is checked at each step.
