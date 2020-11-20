@@ -1019,3 +1019,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 255
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 256
+
+Stable sort matters when a secondary key was set in a prior pass.
