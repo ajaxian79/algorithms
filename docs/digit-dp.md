@@ -1035,3 +1035,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 259
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 260
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
