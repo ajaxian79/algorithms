@@ -221,3 +221,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 166: Time complexity: O(n + m).
 // edge note 167: Cache-friendly; one sequential read pass.
 // edge note 168: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 169: Handles negative inputs as documented above.
