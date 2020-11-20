@@ -158,3 +158,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 121: Cache-friendly; one sequential read pass.
 // note 122: Time complexity: O(1).
 // note 123: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 124: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
