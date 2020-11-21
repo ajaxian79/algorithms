@@ -1646,3 +1646,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 396
 
 Handles empty input by returning 0.
+
+## entry 397
+
+Edge case: input with a single peak → handled by the first-pass scan.
