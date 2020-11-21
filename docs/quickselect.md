@@ -1209,3 +1209,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 285
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 286
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
