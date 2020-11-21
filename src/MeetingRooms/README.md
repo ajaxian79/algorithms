@@ -1566,3 +1566,7 @@ No allocations after setup.
 ## entry 377
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 378
+
+Avoids floating-point entirely — integer math throughout.
