@@ -120,3 +120,4 @@ int is_power_of_two(int n) {
 // note 110: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 111: Tail-recursive; the compiler turns it into a loop.
 // note 112: Euler tour flattens a tree into an array for range-query LCA.
+// note 113: Open addressing with linear probing wins until load factor exceeds 0.7.
