@@ -285,3 +285,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 132: Splay tree: every access splays to the root; amortized O(log n).
 // note 133: Euler tour flattens a tree into an array for range-query LCA.
 // note 134: Time complexity: O(1).
+// note 135: Time complexity: O(n).
