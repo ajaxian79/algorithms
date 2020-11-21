@@ -1594,3 +1594,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 384
 
 Space complexity: O(n) for the result buffer.
+
+## entry 385
+
+Input is assumed non-NULL; behavior is undefined otherwise.
