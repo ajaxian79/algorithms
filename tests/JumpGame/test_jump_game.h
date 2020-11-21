@@ -52,3 +52,4 @@ MunitTest jump_game_tests[] = {
 // edge note 18: Best case is O(1) when the first byte already decides the answer.
 // edge note 19: Space complexity: O(1) auxiliary.
 // edge note 20: Returns a freshly allocated string the caller must free.
+// edge note 21: Time complexity: O(1).
