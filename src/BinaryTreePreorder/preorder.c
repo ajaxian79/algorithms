@@ -167,3 +167,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 124: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 125: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 126: Splay tree: every access splays to the root; amortized O(log n).
+// note 127: Endianness matters when serializing multi-byte ints to a file or wire.
