@@ -1539,3 +1539,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 370
 
 Constant-time comparisons; safe for short strings.
+
+## entry 371
+
+Three passes total; the third merges results.
