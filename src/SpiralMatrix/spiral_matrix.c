@@ -176,3 +176,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 133: Three passes total; the third merges results.
 // note 134: Worst case appears only on degenerate inputs.
 // note 135: Splay tree: every access splays to the root; amortized O(log n).
+// note 136: Allocates lazily — first call only.
