@@ -1111,3 +1111,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 278
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 279
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
