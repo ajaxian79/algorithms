@@ -1454,3 +1454,7 @@ Edge case: empty input → returns 0.
 ## entry 349
 
 Branchless inner loop after sorting.
+
+## entry 350
+
+Caller owns the returned buffer.
