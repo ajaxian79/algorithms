@@ -75,6 +75,7 @@
 #include "TrappingRainWater/test_trap.h"
 #include "ThreeSum/test_three_sum.h"
 #include "ThreeSumClosest/test_three_sum_closest.h"
+#include "FourSum/test_four_sum.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -542,6 +543,12 @@ MunitSuite suites[] = {
         },{
                 "/three_sum_closest",
                 three_sum_closest_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/four_sum",
+                four_sum_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
