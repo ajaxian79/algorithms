@@ -1669,3 +1669,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 402
 
 Returns a freshly allocated string the caller must free.
+
+## entry 403
+
+Reentrant — no static state.
