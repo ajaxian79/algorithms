@@ -175,3 +175,4 @@ MunitTest zigzag_tests[] = {
 // edge note 147: Time complexity: O(n + m).
 // edge note 148: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 149: Reentrant — no static state.
+// edge note 150: Time complexity: O(n log n).
