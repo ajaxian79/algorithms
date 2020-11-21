@@ -1528,3 +1528,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 367
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 368
+
+Edge case: power-of-two-length input → no padding required.
