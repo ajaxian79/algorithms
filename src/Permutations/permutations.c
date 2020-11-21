@@ -178,3 +178,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 133: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 134: Mutates the input in place; the original ordering is lost.
 // note 135: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 136: Persistent tree: every update creates a new version sharing unchanged nodes.
