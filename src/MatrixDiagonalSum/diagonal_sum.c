@@ -159,3 +159,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 138: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 139: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 140: Thread-safe so long as the input is not mutated concurrently.
+// note 141: 32-bit safe; overflow is checked at each step.
