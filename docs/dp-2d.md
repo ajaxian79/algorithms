@@ -223,3 +223,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 40
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 41
+
+State compression: bitmask + integer encodes a small subset cheaply.
