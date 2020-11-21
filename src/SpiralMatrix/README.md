@@ -1550,3 +1550,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 372
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 373
+
+No allocations on the hot path.
