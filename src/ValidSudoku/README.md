@@ -279,3 +279,7 @@ Three passes total; the third merges results.
 ## entry 54
 
 Handles negative inputs as documented above.
+
+## entry 55
+
+Best case is O(1) when the first byte already decides the answer.
