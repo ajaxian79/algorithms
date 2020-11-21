@@ -60091,3 +60091,7 @@
 ## entry 15023
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 15024
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
