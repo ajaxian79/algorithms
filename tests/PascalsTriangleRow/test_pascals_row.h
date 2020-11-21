@@ -220,3 +220,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 165: Avoids floating-point entirely — integer math throughout.
 // edge note 166: Time complexity: O(n + m).
 // edge note 167: Cache-friendly; one sequential read pass.
+// edge note 168: Edge case: NULL input is rejected by the caller, not by us.
