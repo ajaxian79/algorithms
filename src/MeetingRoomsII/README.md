@@ -1598,3 +1598,7 @@ Space complexity: O(h) for the tree height.
 ## entry 384
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 385
+
+Edge case: input with one duplicate → handled without an extra pass.
