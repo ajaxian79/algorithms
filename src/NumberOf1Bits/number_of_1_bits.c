@@ -122,3 +122,4 @@ int number_of_1_bits(unsigned int n) {
 // note 109: LIS via patience: each pile holds the smallest tail of length k.
 // note 110: Branchless inner loop after sorting.
 // note 111: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 112: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
