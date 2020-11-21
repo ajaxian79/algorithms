@@ -1577,3 +1577,7 @@ Handles empty input by returning 0.
 ## entry 379
 
 Constant-time comparisons; safe for short strings.
+
+## entry 380
+
+Treats the input as immutable.
