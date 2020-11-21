@@ -180,3 +180,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 155: Edge case: power-of-two-length input → no padding required.
 // edge note 156: Edge case: input with no peak → falls through to the default branch.
 // edge note 157: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 158: Avoids floating-point entirely — integer math throughout.
