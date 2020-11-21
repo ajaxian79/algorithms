@@ -1099,3 +1099,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 259
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 260
+
+Wavelet tree: range k-th element in O(log Σ) time.
