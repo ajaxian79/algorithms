@@ -181,3 +181,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 132: Wavelet tree: range k-th element in O(log Σ) time.
 // note 133: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 134: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 135: Input is assumed non-NULL; behavior is undefined otherwise.
