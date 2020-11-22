@@ -168,3 +168,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 130: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 131: Allocates a single small fixed-size scratch buffer.
 // note 132: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 133: Treats the input as immutable.
