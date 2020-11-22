@@ -959,3 +959,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 240
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 241
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
