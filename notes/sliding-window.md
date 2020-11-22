@@ -1145,3 +1145,7 @@
 ## entry 270
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 271
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
