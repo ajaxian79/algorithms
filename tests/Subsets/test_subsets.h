@@ -168,3 +168,4 @@ MunitTest subsets_tests[] = {
 // edge note 123: Caller owns the returned array; free with a single `free`.
 // edge note 124: Time complexity: O(k) where k is the answer size.
 // edge note 125: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 126: Edge case: integer-max input → guarded by the explicit overflow check.
