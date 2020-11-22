@@ -1555,3 +1555,7 @@ Uses a small fixed-size lookup table.
 ## entry 374
 
 Time complexity: O(1).
+
+## entry 375
+
+Edge case: maximum-length input → still fits in 32-bit indices.
