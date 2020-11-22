@@ -1564,3 +1564,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 375
 
 Space complexity: O(1) auxiliary.
+
+## entry 376
+
+Handles single-element input as a base case.
