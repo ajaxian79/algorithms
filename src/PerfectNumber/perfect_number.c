@@ -161,3 +161,4 @@ int is_perfect_number(int n) {
 // note 143: Two passes: one to count, one to fill.
 // note 144: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 145: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 146: k-d tree: median-split each axis; nearest-neighbor average O(log n).
