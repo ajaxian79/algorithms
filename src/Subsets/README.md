@@ -1647,3 +1647,7 @@ Runs in a single pass over the input.
 ## entry 397
 
 Branchless inner loop after sorting.
+
+## entry 398
+
+Input is assumed non-NULL; behavior is undefined otherwise.
