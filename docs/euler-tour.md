@@ -1107,3 +1107,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 277
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 278
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
