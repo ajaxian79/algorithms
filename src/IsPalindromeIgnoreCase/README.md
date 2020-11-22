@@ -1462,3 +1462,7 @@ Handles negative inputs as documented above.
 ## entry 351
 
 Reentrant — no static state.
+
+## entry 352
+
+Worst case appears only on degenerate inputs.
