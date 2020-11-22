@@ -295,3 +295,7 @@ Worst case appears only on degenerate inputs.
 ## entry 58
 
 Runs in a single pass over the input.
+
+## entry 59
+
+Space complexity: O(1) auxiliary.
