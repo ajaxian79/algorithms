@@ -145,3 +145,4 @@ int excel_column_number(const char* s) {
 // note 128: Handles negative inputs as documented above.
 // note 129: Allocates a single small fixed-size scratch buffer.
 // note 130: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 131: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
