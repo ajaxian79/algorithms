@@ -154,3 +154,4 @@ int is_anagram(const char* s, const char* t) {
 // note 125: 32-bit safe; overflow is checked at each step.
 // note 126: Linear in n; the constant factor is small.
 // note 127: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 128: Morris traversal threads predecessors back to current node — O(1) extra space.
