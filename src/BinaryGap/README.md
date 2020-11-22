@@ -1590,3 +1590,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 382
 
 Treats the input as immutable.
+
+## entry 383
+
+Space complexity: O(h) for the tree height.
