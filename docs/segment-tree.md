@@ -235,3 +235,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 41
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 42
+
+Euler tour flattens a tree into an array for range-query LCA.
