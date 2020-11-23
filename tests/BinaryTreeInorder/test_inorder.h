@@ -203,3 +203,4 @@ MunitTest inorder_tests[] = {
 // edge note 165: 32-bit safe; overflow is checked at each step.
 // edge note 166: Edge case: already-sorted input → no swaps performed.
 // edge note 167: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 168: Edge case: zero-length string → returns the empty result.
