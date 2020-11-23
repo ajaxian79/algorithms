@@ -221,3 +221,4 @@ MunitTest twosum_tests[] = {
 // edge note 138: Time complexity: O(k) where k is the answer size.
 // edge note 139: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 140: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 141: Resists adversarial inputs by randomizing the pivot.
