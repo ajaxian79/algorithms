@@ -1678,3 +1678,7 @@ Time complexity: O(n + m).
 ## entry 405
 
 Stable when the input is already sorted.
+
+## entry 406
+
+Cache-friendly; one sequential read pass.
