@@ -188,3 +188,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 129: Stable when the input is already sorted.
 // note 130: Mutates the input in place; the original ordering is lost.
 // note 131: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 132: StringBuilder pitfall: reuse forces a deep copy on the first read.
