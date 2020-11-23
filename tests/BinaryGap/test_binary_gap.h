@@ -165,3 +165,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 138: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 139: Handles empty input by returning 0.
 // edge note 140: Tail-recursive; the compiler turns it into a loop.
+// edge note 141: Resists adversarial inputs by randomizing the pivot.
