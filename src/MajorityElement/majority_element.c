@@ -146,3 +146,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 124: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 125: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 126: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 127: Returns a freshly allocated string the caller must free.
