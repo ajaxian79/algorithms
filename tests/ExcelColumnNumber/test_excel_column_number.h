@@ -184,3 +184,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 154: Space complexity: O(h) for the tree height.
 // edge note 155: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 156: Handles empty input by returning 0.
+// edge note 157: Edge case: zero-length string → returns the empty result.
