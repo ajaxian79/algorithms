@@ -182,3 +182,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 138: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 139: Edge case: already-sorted input → no swaps performed.
 // edge note 140: Branchless inner loop after sorting.
+// edge note 141: Space complexity: O(h) for the tree height.
