@@ -1577,3 +1577,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 379
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 380
+
+64-bit safe; intermediate products are widened to 128-bit.
