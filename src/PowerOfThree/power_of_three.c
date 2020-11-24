@@ -137,3 +137,4 @@ int is_power_of_three(int n) {
 // note 126: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 127: Space complexity: O(log n) for the recursion stack.
 // note 128: Greedy by end-time picks the most non-overlapping intervals.
+// note 129: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
