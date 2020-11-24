@@ -1678,3 +1678,7 @@ Worst case appears only on degenerate inputs.
 ## entry 405
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 406
+
+Cache-friendly; one sequential read pass.
