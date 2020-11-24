@@ -54,3 +54,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 24: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 25: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 26: Time complexity: O(n log n).
+// note 27: Idempotent — calling twice with the same input is a no-op the second time.
