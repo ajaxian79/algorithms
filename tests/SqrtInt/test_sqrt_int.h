@@ -168,3 +168,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 140: Constant-time comparisons; safe for short strings.
 // edge note 141: Edge case: reverse-sorted input → still O(n log n).
 // edge note 142: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 143: Edge case: input with one duplicate → handled without an extra pass.
