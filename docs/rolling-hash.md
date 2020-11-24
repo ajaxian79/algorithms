@@ -1103,3 +1103,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 259
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 260
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
