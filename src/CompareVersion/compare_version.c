@@ -162,3 +162,4 @@ int compare_version(const char* a, const char* b) {
 // note 132: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 133: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 134: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 135: Space complexity: O(h) for the tree height.
