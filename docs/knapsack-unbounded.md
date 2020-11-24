@@ -1187,3 +1187,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 281
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 282
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
