@@ -1099,3 +1099,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 258
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 259
+
+In-place compaction uses two pointers: read advances always, write only on keep.
