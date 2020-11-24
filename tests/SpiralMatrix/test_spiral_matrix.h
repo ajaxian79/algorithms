@@ -172,3 +172,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 129: Linear in n; the constant factor is small.
 // edge note 130: Space complexity: O(n) for the result buffer.
 // edge note 131: Tail-recursive; the compiler turns it into a loop.
+// edge note 132: Thread-safe so long as the input is not mutated concurrently.
