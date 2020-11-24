@@ -1486,3 +1486,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 356
 
 Constant-time comparisons; safe for short strings.
+
+## entry 357
+
+Edge case: power-of-two-length input → no padding required.
