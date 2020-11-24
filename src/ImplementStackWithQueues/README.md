@@ -1548,3 +1548,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 372
 
 Time complexity: O(n log n).
+
+## entry 373
+
+Deterministic given the input — no PRNG seeds.
