@@ -1681,3 +1681,7 @@ Reentrant — no static state.
 ## entry 406
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 407
+
+Time complexity: O(log n).
