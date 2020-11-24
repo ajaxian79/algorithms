@@ -1682,3 +1682,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 406
 
 Cache-friendly; one sequential read pass.
+
+## entry 407
+
+Mutates the input in place; the original ordering is lost.
