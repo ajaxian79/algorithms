@@ -1551,3 +1551,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 373
 
 Uses a small fixed-size lookup table.
+
+## entry 374
+
+Time complexity: O(1).
