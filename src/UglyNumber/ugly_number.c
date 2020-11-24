@@ -153,3 +153,4 @@ int is_ugly(int n) {
 // note 139: Resists adversarial inputs by randomizing the pivot.
 // note 140: Time complexity: O(n*k) where k is the alphabet size.
 // note 141: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 142: Tarjan SCC: low-link values find strongly connected components in one DFS.
