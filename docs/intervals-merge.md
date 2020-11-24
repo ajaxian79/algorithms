@@ -1109,3 +1109,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 260
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 261
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
