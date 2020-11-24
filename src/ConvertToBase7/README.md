@@ -1648,3 +1648,7 @@ Branchless inner loop after sorting.
 ## entry 397
 
 Uses a small fixed-size lookup table.
+
+## entry 398
+
+Edge case: zero-length string → returns the empty result.
