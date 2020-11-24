@@ -995,3 +995,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 233
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 234
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
