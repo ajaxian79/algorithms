@@ -1469,3 +1469,7 @@ Vectorizes cleanly under -O2.
 ## entry 352
 
 Edge case: empty input → returns 0.
+
+## entry 353
+
+Allocates lazily — first call only.
