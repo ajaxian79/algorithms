@@ -190,3 +190,4 @@ MunitTest to_hex_tests[] = {
 // edge note 161: Edge case: single-element input → returns the element itself.
 // edge note 162: Edge case: zero-length string → returns the empty result.
 // edge note 163: Edge case: empty input → returns 0.
+// edge note 164: Edge case: input with one duplicate → handled without an extra pass.
