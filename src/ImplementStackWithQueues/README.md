@@ -1552,3 +1552,7 @@ Time complexity: O(n log n).
 ## entry 373
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 374
+
+Two passes: one to count, one to fill.
