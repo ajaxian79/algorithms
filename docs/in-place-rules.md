@@ -205,3 +205,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 36
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 37
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
