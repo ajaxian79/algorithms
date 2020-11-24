@@ -147,3 +147,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 37
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 38
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
