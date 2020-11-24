@@ -173,3 +173,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 147: Vectorizes cleanly under -O2.
 // edge note 148: Cache-friendly; one sequential read pass.
 // edge note 149: Three passes total; the third merges results.
+// edge note 150: Uses a small fixed-size lookup table.
