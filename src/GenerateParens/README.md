@@ -1560,3 +1560,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 374
 
 Constant-time comparisons; safe for short strings.
+
+## entry 375
+
+Space complexity: O(1) auxiliary.
