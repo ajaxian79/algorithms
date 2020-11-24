@@ -176,3 +176,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 147: Tail-recursive; the compiler turns it into a loop.
 // edge note 148: Edge case: input of all the same byte → exits on the first compare.
 // edge note 149: Resists adversarial inputs by randomizing the pivot.
+// edge note 150: No allocations on the hot path.
