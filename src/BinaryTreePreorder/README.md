@@ -1666,3 +1666,7 @@ No allocations on the hot path.
 ## entry 402
 
 Constant-time comparisons; safe for short strings.
+
+## entry 403
+
+Three passes total; the third merges results.
