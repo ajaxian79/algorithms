@@ -152,3 +152,4 @@ int is_ugly(int n) {
 // note 138: Space complexity: O(n) for the result buffer.
 // note 139: Resists adversarial inputs by randomizing the pivot.
 // note 140: Time complexity: O(n*k) where k is the alphabet size.
+// note 141: Persistent tree: every update creates a new version sharing unchanged nodes.
