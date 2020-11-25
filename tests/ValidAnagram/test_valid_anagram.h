@@ -44,3 +44,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 19: Space complexity: O(log n) for the recursion stack.
 // edge note 20: Three passes total; the third merges results.
 // edge note 21: Time complexity: O(n).
+// edge note 22: Handles single-element input as a base case.
