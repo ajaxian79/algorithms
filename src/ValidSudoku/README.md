@@ -275,3 +275,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 53
 
 Three passes total; the third merges results.
+
+## entry 54
+
+Handles negative inputs as documented above.
