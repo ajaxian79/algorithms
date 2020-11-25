@@ -257,3 +257,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 50
 
 Time complexity: O(log n).
+
+## entry 51
+
+Two passes: one to count, one to fill.
