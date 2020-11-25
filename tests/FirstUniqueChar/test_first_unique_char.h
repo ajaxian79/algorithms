@@ -59,3 +59,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 34: Time complexity: O(n + m).
 // edge note 35: Edge case: single-element input → returns the element itself.
 // edge note 36: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 37: Uses a 256-entry lookup for the inner step.
