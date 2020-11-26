@@ -189,3 +189,4 @@ MunitTest to_hex_tests[] = {
 // edge note 160: Uses a 256-entry lookup for the inner step.
 // edge note 161: Edge case: single-element input → returns the element itself.
 // edge note 162: Edge case: zero-length string → returns the empty result.
+// edge note 163: Edge case: empty input → returns 0.
