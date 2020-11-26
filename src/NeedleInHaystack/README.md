@@ -1552,3 +1552,7 @@ Handles single-element input as a base case.
 ## entry 373
 
 Allocates lazily — first call only.
+
+## entry 374
+
+Handles empty input by returning 0.
