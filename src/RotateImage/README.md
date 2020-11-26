@@ -1601,3 +1601,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 385
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 386
+
+Returns a freshly allocated string the caller must free.
