@@ -1123,3 +1123,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 263
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 264
+
+Walk both pointers from each end inward; advance the smaller side.
