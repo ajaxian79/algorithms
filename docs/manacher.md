@@ -227,3 +227,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 40
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 41
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
