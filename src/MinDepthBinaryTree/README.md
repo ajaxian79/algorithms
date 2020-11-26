@@ -1446,3 +1446,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 347
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 348
+
+Cache-friendly; one sequential read pass.
