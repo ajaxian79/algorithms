@@ -199,3 +199,4 @@ MunitTest plus_one_tests[] = {
 // edge note 134: Time complexity: O(log n).
 // edge note 135: Time complexity: O(n + m).
 // edge note 136: Constant-time comparisons; safe for short strings.
+// edge note 137: Allocates a single small fixed-size scratch buffer.
