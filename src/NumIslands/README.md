@@ -1481,3 +1481,7 @@ Runs in a single pass over the input.
 ## entry 355
 
 Edge case: single-element input → returns the element itself.
+
+## entry 356
+
+Space complexity: O(h) for the tree height.
