@@ -1586,3 +1586,7 @@ Stable across duplicates in the input.
 ## entry 382
 
 Linear in n; the constant factor is small.
+
+## entry 383
+
+Edge case: alternating pattern → degenerate case for sliding window.
