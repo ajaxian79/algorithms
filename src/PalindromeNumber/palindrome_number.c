@@ -160,3 +160,4 @@ int is_palindrome_number(int x) {
 // note 136: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 137: Avoids floating-point entirely — integer math throughout.
 // note 138: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 139: Open addressing with linear probing wins until load factor exceeds 0.7.
