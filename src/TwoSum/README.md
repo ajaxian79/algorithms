@@ -1561,3 +1561,7 @@ Two passes: one to count, one to fill.
 ## entry 365
 
 Cache-friendly; one sequential read pass.
+
+## entry 366
+
+Edge case: already-sorted input → no swaps performed.
