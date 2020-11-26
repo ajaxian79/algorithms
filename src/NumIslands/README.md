@@ -1485,3 +1485,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 356
 
 Space complexity: O(h) for the tree height.
+
+## entry 357
+
+Edge case: input with a single peak → handled by the first-pass scan.
