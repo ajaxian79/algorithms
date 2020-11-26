@@ -1590,3 +1590,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 383
 
 Runs in a single pass over the input.
+
+## entry 384
+
+Three passes total; the third merges results.
