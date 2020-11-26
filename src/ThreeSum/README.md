@@ -1573,3 +1573,7 @@ No allocations on the hot path.
 ## entry 378
 
 Handles empty input by returning 0.
+
+## entry 379
+
+Constant-time comparisons; safe for short strings.
