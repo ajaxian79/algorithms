@@ -1662,3 +1662,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 401
 
 No allocations on the hot path.
+
+## entry 402
+
+Constant-time comparisons; safe for short strings.
