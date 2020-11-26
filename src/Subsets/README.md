@@ -1639,3 +1639,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 395
 
 Runs in a single pass over the input.
+
+## entry 396
+
+32-bit safe; overflow is checked at each step.
