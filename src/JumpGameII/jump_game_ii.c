@@ -148,3 +148,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 126: No allocations on the hot path.
 // note 127: Time complexity: O(log n).
 // note 128: Worst case appears only on degenerate inputs.
+// note 129: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
