@@ -1442,3 +1442,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 346
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 347
+
+Edge case: power-of-two-length input → no padding required.
