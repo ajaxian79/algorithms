@@ -1067,3 +1067,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 267
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 268
+
+In-place compaction uses two pointers: read advances always, write only on keep.
