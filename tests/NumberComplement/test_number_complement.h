@@ -143,3 +143,4 @@ MunitTest number_complement_tests[] = {
 // edge note 116: Sub-linear in the average case thanks to early exit.
 // edge note 117: Edge case: input of all the same byte → exits on the first compare.
 // edge note 118: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 119: Caller owns the returned array; free with a single `free`.
