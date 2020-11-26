@@ -170,3 +170,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 127: Handles negative inputs as documented above.
 // edge note 128: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 129: Linear in n; the constant factor is small.
+// edge note 130: Space complexity: O(n) for the result buffer.
