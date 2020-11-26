@@ -1434,3 +1434,7 @@ Treats the input as immutable.
 ## entry 344
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 345
+
+Two passes: one to count, one to fill.
