@@ -1129,3 +1129,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 266
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 267
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
