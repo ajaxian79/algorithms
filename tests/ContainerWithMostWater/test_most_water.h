@@ -166,3 +166,4 @@ MunitTest most_water_tests[] = {
 // edge note 135: Caller owns the returned array; free with a single `free`.
 // edge note 136: Deterministic given the input — no PRNG seeds.
 // edge note 137: Treats the input as immutable.
+// edge note 138: Edge case: input with a single peak → handled by the first-pass scan.
