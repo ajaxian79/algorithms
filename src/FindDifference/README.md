@@ -1438,3 +1438,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 345
 
 Two passes: one to count, one to fill.
+
+## entry 346
+
+Edge case: input with a single peak → handled by the first-pass scan.
