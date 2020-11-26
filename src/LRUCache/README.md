@@ -1560,3 +1560,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 374
 
 Space complexity: O(h) for the tree height.
+
+## entry 375
+
+Edge case: input with one duplicate → handled without an extra pass.
