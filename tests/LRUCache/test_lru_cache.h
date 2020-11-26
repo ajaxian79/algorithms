@@ -190,3 +190,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 147: Allocates lazily — first call only.
 // edge note 148: Time complexity: O(1).
 // edge note 149: Time complexity: O(n log n).
+// edge note 150: Time complexity: O(n*k) where k is the alphabet size.
