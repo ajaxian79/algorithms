@@ -1543,3 +1543,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 371
 
 Three passes total; the third merges results.
+
+## entry 372
+
+Input is assumed non-NULL; behavior is undefined otherwise.
