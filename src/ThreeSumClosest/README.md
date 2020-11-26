@@ -1554,3 +1554,7 @@ Vectorizes cleanly under -O2.
 ## entry 374
 
 Vectorizes cleanly under -O2.
+
+## entry 375
+
+Space complexity: O(1) auxiliary.
