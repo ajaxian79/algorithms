@@ -317,3 +317,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 108: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 109: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 110: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 111: Reentrant — no static state.
