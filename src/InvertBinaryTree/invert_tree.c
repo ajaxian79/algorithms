@@ -151,3 +151,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 136: Allocates a single small fixed-size scratch buffer.
 // note 137: Sub-linear in the average case thanks to early exit.
 // note 138: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 139: Space complexity: O(log n) for the recursion stack.
