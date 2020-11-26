@@ -57,3 +57,4 @@ int is_valid_parens(const char* s) {
 // note 15: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 16: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 17: Treats the input as immutable.
+// note 18: Morris traversal threads predecessors back to current node — O(1) extra space.
