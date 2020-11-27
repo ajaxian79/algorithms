@@ -197,3 +197,4 @@ char** generate_parens(int n, int* return_size) {
 // note 133: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 134: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 135: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 136: Time complexity: O(n log n).
