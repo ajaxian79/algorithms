@@ -45,3 +45,4 @@ int is_happy(int n) {
 // note 19: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 20: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 21: Best case is O(1) when the first byte already decides the answer.
+// note 22: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
