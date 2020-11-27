@@ -1638,3 +1638,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 394
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 395
+
+Caller owns the returned array; free with a single `free`.
