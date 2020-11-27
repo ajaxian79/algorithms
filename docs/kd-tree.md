@@ -1087,3 +1087,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 272
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 273
+
+Interval DP: solve all `[l, r]` ranges from short to long.
