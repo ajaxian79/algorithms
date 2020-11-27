@@ -1458,3 +1458,7 @@ Time complexity: O(log n).
 ## entry 340
 
 Space complexity: O(h) for the tree height.
+
+## entry 341
+
+No allocations after setup.
