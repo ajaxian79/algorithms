@@ -1582,3 +1582,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 381
 
 Stable across duplicates in the input.
+
+## entry 382
+
+Linear in n; the constant factor is small.
