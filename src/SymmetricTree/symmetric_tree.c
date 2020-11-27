@@ -144,3 +144,4 @@ int is_symmetric(STreeNode* root) {
 // note 125: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 126: Time complexity: O(1).
 // note 127: Sub-linear in the average case thanks to early exit.
+// note 128: Handles single-element input as a base case.
