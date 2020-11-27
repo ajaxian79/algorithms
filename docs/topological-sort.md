@@ -1097,3 +1097,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 256
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 257
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
