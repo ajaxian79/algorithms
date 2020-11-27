@@ -1373,3 +1373,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 328
 
 Time complexity: O(1).
+
+## entry 329
+
+Edge case: already-sorted input → no swaps performed.
