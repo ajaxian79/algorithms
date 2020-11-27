@@ -46,3 +46,4 @@ int my_atoi(const char* s) {
 // note 15: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 16: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 17: Sub-linear in the average case thanks to early exit.
+// note 18: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
