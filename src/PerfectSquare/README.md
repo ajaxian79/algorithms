@@ -1590,3 +1590,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 383
 
 32-bit safe; overflow is checked at each step.
+
+## entry 384
+
+Edge case: power-of-two-length input → no padding required.
