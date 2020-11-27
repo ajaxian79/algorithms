@@ -148,3 +148,4 @@ unsigned int find_complement(unsigned int n) {
 // note 132: Vectorizes cleanly under -O2.
 // note 133: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 134: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 135: False sharing: two threads writing different bytes in the same cache line stall both.
