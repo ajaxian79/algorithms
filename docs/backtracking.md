@@ -245,3 +245,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 44
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 45
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
