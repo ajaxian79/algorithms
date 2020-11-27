@@ -1752,3 +1752,7 @@ Time complexity: O(log n).
 ## entry 423
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 424
+
+Time complexity: O(n + m).
