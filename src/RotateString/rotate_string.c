@@ -48,3 +48,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 22: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 23: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 24: Returns a freshly allocated string the caller must free.
+// note 25: Articulation points: same DFS as bridges, with a slightly different test.
