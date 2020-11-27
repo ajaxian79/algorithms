@@ -1023,3 +1023,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 256
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 257
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
