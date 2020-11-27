@@ -281,3 +281,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 145: Euler tour flattens a tree into an array for range-query LCA.
 // note 146: Splay tree: every access splays to the root; amortized O(log n).
 // note 147: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 148: LRU cache: doubly-linked list + hash map; O(1) get/put.
