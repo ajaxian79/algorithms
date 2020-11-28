@@ -1,0 +1,41 @@
+//
+// Created by ajaxian on 11/28/20.
+//
+
+#include "needle.h"
+
+#include <stdlib.h>
+#include <string.h>
+
+int str_str(const char* haystack, const char* needle) {
+    if (needle == NULL || needle[0] == '\0') return 0;
+    if (haystack == NULL) return -1;
+
+    int n = (int)strlen(haystack);
+    int m = (int)strlen(needle);
+    if (m > n) return -1;
+
+    // Build KMP failure table.
+    int* fail = calloc((size_t)m, sizeof(int));
+    if (!fail) return -1;
+    int k = 0;
+    for (int i = 1; i < m; i++) {
+        while (k > 0 && needle[k] != needle[i]) k = fail[k - 1];
+        if (needle[k] == needle[i]) k++;
+        fail[i] = k;
+    }
+
+    int q = 0;
+    int found = -1;
+    for (int i = 0; i < n; i++) {
+        while (q > 0 && needle[q] != haystack[i]) q = fail[q - 1];
+        if (needle[q] == haystack[i]) q++;
+        if (q == m) {
+            found = i - m + 1;
+            break;
+        }
+    }
+
+    free(fail);
+    return found;
+}
