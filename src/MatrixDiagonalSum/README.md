@@ -314,3 +314,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 64
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 65
+
+Edge case: NULL input is rejected by the caller, not by us.
