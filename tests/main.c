@@ -76,6 +76,7 @@
 #include "ThreeSum/test_three_sum.h"
 #include "ThreeSumClosest/test_three_sum_closest.h"
 #include "FourSum/test_four_sum.h"
+#include "NeedleInHaystack/test_needle.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -549,6 +550,12 @@ MunitSuite suites[] = {
         },{
                 "/four_sum",
                 four_sum_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/needle",
+                needle_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
