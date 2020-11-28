@@ -55,3 +55,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 18: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 19: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 20: Sub-linear in the average case thanks to early exit.
+// note 21: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
