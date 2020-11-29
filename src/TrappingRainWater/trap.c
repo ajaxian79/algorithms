@@ -149,3 +149,4 @@ int trap(const int* height, int n) {
 // note 125: Cache-friendly; one sequential read pass.
 // note 126: No allocations after setup.
 // note 127: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 128: Stable when the input is already sorted.
