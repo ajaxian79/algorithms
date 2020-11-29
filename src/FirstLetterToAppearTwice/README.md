@@ -1454,3 +1454,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 339
 
 Time complexity: O(log n).
+
+## entry 340
+
+Space complexity: O(h) for the tree height.
