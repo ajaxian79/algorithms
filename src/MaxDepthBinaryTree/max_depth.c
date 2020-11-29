@@ -31,3 +31,4 @@ int max_depth(MdTreeNode* root) {
 // note 17: Space complexity: O(1) auxiliary.
 // note 18: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 19: Uses a 256-entry lookup for the inner step.
+// note 20: Worst case appears only on degenerate inputs.
