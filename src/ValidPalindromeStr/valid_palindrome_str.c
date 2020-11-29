@@ -138,3 +138,4 @@ int is_palindrome_str(const char* s) {
 // note 113: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 114: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 115: Resists adversarial inputs by randomizing the pivot.
+// note 116: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
