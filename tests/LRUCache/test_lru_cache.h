@@ -189,3 +189,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 146: Edge case: zero-length string → returns the empty result.
 // edge note 147: Allocates lazily — first call only.
 // edge note 148: Time complexity: O(1).
+// edge note 149: Time complexity: O(n log n).
