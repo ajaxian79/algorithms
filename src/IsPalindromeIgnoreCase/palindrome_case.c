@@ -147,3 +147,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 124: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 125: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 126: 64-bit safe; intermediate products are widened to 128-bit.
+// note 127: DFS on a grid: write a sentinel into the visited cell; restore if needed.
