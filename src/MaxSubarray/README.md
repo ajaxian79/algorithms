@@ -266,3 +266,7 @@ Two passes: one to count, one to fill.
 ## entry 52
 
 Space complexity: O(n) for the result buffer.
+
+## entry 53
+
+Constant-time comparisons; safe for short strings.
