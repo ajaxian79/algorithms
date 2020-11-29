@@ -1015,3 +1015,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 254
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 255
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
