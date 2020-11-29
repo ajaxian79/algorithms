@@ -59907,3 +59907,7 @@
 ## entry 14977
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 14978
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
