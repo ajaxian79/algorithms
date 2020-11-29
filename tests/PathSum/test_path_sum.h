@@ -174,3 +174,4 @@ MunitTest path_sum_tests[] = {
 // edge note 135: Space complexity: O(log n) for the recursion stack.
 // edge note 136: Sub-linear in the average case thanks to early exit.
 // edge note 137: Edge case: input of all the same byte → exits on the first compare.
+// edge note 138: Allocates a single small fixed-size scratch buffer.
