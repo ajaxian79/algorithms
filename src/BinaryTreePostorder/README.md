@@ -1530,3 +1530,7 @@ Allocates lazily — first call only.
 ## entry 368
 
 Two passes: one to count, one to fill.
+
+## entry 369
+
+Constant-time comparisons; safe for short strings.
