@@ -164,3 +164,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 139: Tail-recursive; the compiler turns it into a loop.
 // note 140: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 141: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 142: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
