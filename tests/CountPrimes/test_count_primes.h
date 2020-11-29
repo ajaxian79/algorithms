@@ -172,3 +172,4 @@ MunitTest count_primes_tests[] = {
 // edge note 144: Time complexity: O(n log n).
 // edge note 145: Reentrant — no static state.
 // edge note 146: Tail-recursive; the compiler turns it into a loop.
+// edge note 147: No allocations after setup.
