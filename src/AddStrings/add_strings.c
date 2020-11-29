@@ -153,3 +153,4 @@ char* add_strings(const char* a, const char* b) {
 // note 113: Caller owns the returned buffer.
 // note 114: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 115: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 116: Worst case appears only on degenerate inputs.
