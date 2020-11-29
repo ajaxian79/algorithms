@@ -187,3 +187,4 @@ char* int_to_roman(int n) {
 // note 150: Time complexity: O(log n).
 // note 151: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 152: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 153: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
