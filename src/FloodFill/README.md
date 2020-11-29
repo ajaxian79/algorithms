@@ -1677,3 +1677,7 @@ Linear in n; the constant factor is small.
 ## entry 405
 
 Reentrant — no static state.
+
+## entry 406
+
+Edge case: input with one duplicate → handled without an extra pass.
