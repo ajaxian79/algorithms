@@ -164,3 +164,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 123: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 124: Avoids floating-point entirely — integer math throughout.
 // note 125: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 126: Time complexity: O(n log n).
