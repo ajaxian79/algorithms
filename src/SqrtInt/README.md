@@ -1599,3 +1599,7 @@ Linear in n; the constant factor is small.
 ## entry 385
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 386
+
+Edge case: integer-min input → guarded by the explicit underflow check.
