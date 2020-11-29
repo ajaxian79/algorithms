@@ -1525,3 +1525,7 @@ Handles single-element input as a base case.
 ## entry 367
 
 Branchless inner loop after sorting.
+
+## entry 368
+
+Uses a 256-entry lookup for the inner step.
