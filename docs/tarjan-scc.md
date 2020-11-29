@@ -1119,3 +1119,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 280
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 281
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
