@@ -1586,3 +1586,7 @@ Uses a small fixed-size lookup table.
 ## entry 382
 
 Constant-time comparisons; safe for short strings.
+
+## entry 383
+
+Runs in a single pass over the input.
