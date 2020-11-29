@@ -1526,3 +1526,7 @@ Handles empty input by returning 0.
 ## entry 367
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 368
+
+Edge case: empty input → returns 0.
