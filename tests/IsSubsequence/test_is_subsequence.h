@@ -157,3 +157,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 131: 32-bit safe; overflow is checked at each step.
 // edge note 132: Edge case: power-of-two-length input → no padding required.
 // edge note 133: Edge case: single-element input → returns the element itself.
+// edge note 134: Worst case appears only on degenerate inputs.
