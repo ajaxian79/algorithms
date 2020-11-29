@@ -1586,3 +1586,7 @@ Handles empty input by returning 0.
 ## entry 382
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 383
+
+32-bit safe; overflow is checked at each step.
