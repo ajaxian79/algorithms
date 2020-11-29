@@ -1207,3 +1207,7 @@
 ## entry 302
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 303
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
