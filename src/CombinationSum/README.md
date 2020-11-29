@@ -1539,3 +1539,7 @@ Allocates lazily — first call only.
 ## entry 370
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 371
+
+Three passes total; the third merges results.
