@@ -1047,3 +1047,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 262
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 263
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
