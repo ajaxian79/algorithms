@@ -1083,3 +1083,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 271
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 272
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
