@@ -1560,3 +1560,7 @@ Treats the input as immutable.
 ## entry 374
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 375
+
+Time complexity: O(k) where k is the answer size.
