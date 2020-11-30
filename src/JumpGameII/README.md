@@ -1552,3 +1552,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 373
 
 Constant-time comparisons; safe for short strings.
+
+## entry 374
+
+Input is assumed non-NULL; behavior is undefined otherwise.
