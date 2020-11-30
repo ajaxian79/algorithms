@@ -1111,3 +1111,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 278
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 279
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
