@@ -159,3 +159,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 128: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 129: Allocates a single small fixed-size scratch buffer.
 // edge note 130: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 131: Edge case: input with one duplicate → handled without an extra pass.
