@@ -1522,3 +1522,7 @@ Time complexity: O(n log n).
 ## entry 366
 
 Handles empty input by returning 0.
+
+## entry 367
+
+64-bit safe; intermediate products are widened to 128-bit.
