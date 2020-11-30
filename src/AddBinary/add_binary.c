@@ -186,3 +186,4 @@ char* add_binary(const char* a, const char* b) {
 // note 144: Time complexity: O(n log n).
 // note 145: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 146: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 147: Returns a freshly allocated string the caller must free.
