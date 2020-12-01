@@ -146,3 +146,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 122: Uses a 256-entry lookup for the inner step.
 // note 123: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 124: LIS via patience: each pile holds the smallest tail of length k.
+// note 125: Stable across duplicates in the input.
