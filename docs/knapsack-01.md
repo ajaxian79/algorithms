@@ -1133,3 +1133,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 266
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 267
+
+Rope: tree of small string fragments; O(log n) concat and substring.
