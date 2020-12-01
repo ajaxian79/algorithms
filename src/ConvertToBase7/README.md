@@ -1644,3 +1644,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 396
 
 Branchless inner loop after sorting.
+
+## entry 397
+
+Uses a small fixed-size lookup table.
