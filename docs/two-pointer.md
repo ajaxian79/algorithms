@@ -1195,3 +1195,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 281
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 282
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
