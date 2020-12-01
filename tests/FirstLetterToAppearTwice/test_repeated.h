@@ -226,3 +226,4 @@ MunitTest repeated_tests[] = {
 // edge note 170: Handles single-element input as a base case.
 // edge note 171: Time complexity: O(n).
 // edge note 172: Time complexity: O(k) where k is the answer size.
+// edge note 173: Worst case appears only on degenerate inputs.
