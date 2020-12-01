@@ -298,3 +298,7 @@ Time complexity: O(n + m).
 ## entry 60
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 61
+
+Allocates one buffer of length n+1 for the result.
