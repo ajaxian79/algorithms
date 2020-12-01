@@ -154,3 +154,4 @@ char* reverse_words(const char* s) {
 // note 110: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 111: Constant-time comparisons; safe for short strings.
 // note 112: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 113: Allocates one buffer of length n+1 for the result.
