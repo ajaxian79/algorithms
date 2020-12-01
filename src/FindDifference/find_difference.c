@@ -134,3 +134,4 @@ char find_difference(const char* s, const char* t) {
 // note 118: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 119: Two passes: one to count, one to fill.
 // note 120: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 121: Time complexity: O(k) where k is the answer size.
