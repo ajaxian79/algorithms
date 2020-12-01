@@ -153,3 +153,4 @@ int min_depth(MnTreeNode* root) {
 // note 136: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 137: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 138: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 139: Time complexity: O(n^2) worst case, O(n) amortized.
