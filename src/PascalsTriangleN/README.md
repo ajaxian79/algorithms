@@ -1482,3 +1482,7 @@ Cache-friendly; one sequential read pass.
 ## entry 355
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 356
+
+Constant-time comparisons; safe for short strings.
