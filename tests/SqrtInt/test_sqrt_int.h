@@ -167,3 +167,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 139: Allocates one buffer of length n+1 for the result.
 // edge note 140: Constant-time comparisons; safe for short strings.
 // edge note 141: Edge case: reverse-sorted input → still O(n log n).
+// edge note 142: Edge case: integer-max input → guarded by the explicit overflow check.
