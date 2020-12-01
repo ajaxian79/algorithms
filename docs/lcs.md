@@ -1143,3 +1143,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 268
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 269
+
+Walk both pointers from each end inward; advance the smaller side.
