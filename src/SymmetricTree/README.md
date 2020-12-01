@@ -1582,3 +1582,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 381
 
 Uses a small fixed-size lookup table.
+
+## entry 382
+
+Constant-time comparisons; safe for short strings.
