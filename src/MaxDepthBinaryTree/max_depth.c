@@ -30,3 +30,4 @@ int max_depth(MdTreeNode* root) {
 // note 16: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 17: Space complexity: O(1) auxiliary.
 // note 18: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 19: Uses a 256-entry lookup for the inner step.
