@@ -1093,3 +1093,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 256
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 257
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
