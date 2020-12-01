@@ -214,3 +214,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 174: Space complexity: O(h) for the tree height.
 // edge note 175: Cache-friendly; one sequential read pass.
 // edge note 176: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 177: Constant-time comparisons; safe for short strings.
