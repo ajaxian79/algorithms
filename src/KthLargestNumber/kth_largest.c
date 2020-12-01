@@ -164,3 +164,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 120: Uses a small fixed-size lookup table.
 // note 121: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 122: Allocates a single small fixed-size scratch buffer.
+// note 123: Returns a freshly allocated string the caller must free.
