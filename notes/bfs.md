@@ -1133,3 +1133,7 @@
 ## entry 266
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 267
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
