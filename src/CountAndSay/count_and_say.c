@@ -178,3 +178,4 @@ char* count_and_say(int n) {
 // note 129: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 130: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 131: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 132: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
