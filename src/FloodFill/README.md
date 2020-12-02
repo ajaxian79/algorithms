@@ -1673,3 +1673,7 @@ Three passes total; the third merges results.
 ## entry 404
 
 Linear in n; the constant factor is small.
+
+## entry 405
+
+Reentrant — no static state.
