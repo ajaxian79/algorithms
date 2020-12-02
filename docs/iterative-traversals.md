@@ -241,3 +241,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 44
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 45
+
+Splay tree: every access splays to the root; amortized O(log n).
