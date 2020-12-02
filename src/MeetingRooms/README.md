@@ -1558,3 +1558,7 @@ Vectorizes cleanly under -O2.
 ## entry 375
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 376
+
+No allocations after setup.
