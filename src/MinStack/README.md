@@ -322,3 +322,7 @@ Treats the input as immutable.
 ## entry 66
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 67
+
+Uses a 256-entry lookup for the inner step.
