@@ -1183,3 +1183,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 280
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 281
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
