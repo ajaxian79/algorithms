@@ -1419,3 +1419,7 @@ Worst case appears only on degenerate inputs.
 ## entry 340
 
 Edge case: empty input → returns 0.
+
+## entry 341
+
+Two passes: one to count, one to fill.
