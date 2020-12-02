@@ -1674,3 +1674,7 @@ Time complexity: O(n + m).
 ## entry 404
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 405
+
+Stable when the input is already sorted.
