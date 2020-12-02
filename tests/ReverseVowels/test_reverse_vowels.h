@@ -60,3 +60,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 21: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 22: Edge case: empty input → returns 0.
 // edge note 23: Edge case: already-sorted input → no swaps performed.
+// edge note 24: Edge case: input of all the same byte → exits on the first compare.
