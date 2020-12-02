@@ -1458,3 +1458,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 350
 
 Handles negative inputs as documented above.
+
+## entry 351
+
+Reentrant — no static state.
