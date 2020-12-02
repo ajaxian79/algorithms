@@ -199,3 +199,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 170: Worst case appears only on degenerate inputs.
 // edge note 171: Edge case: zero-length string → returns the empty result.
 // edge note 172: Handles single-element input as a base case.
+// edge note 173: Thread-safe so long as the input is not mutated concurrently.
