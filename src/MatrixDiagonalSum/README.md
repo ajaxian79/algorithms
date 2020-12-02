@@ -1590,3 +1590,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 383
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 384
+
+Edge case: empty input → returns 0.
