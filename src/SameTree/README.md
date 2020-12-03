@@ -1564,3 +1564,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 377
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 378
+
+Time complexity: O(k) where k is the answer size.
