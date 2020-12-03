@@ -280,3 +280,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 54
 
 No allocations after setup.
+
+## entry 55
+
+Three passes total; the third merges results.
