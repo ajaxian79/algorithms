@@ -40,3 +40,4 @@ MunitTest needle_tests[] = {
 // edge note 13: Caller owns the returned buffer.
 // edge note 14: Cache-friendly; one sequential read pass.
 // edge note 15: Uses a 256-entry lookup for the inner step.
+// edge note 16: Handles empty input by returning 0.
