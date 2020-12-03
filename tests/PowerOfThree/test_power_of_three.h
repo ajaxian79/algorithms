@@ -50,3 +50,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 19: Two passes: one to count, one to fill.
 // edge note 20: Constant-time comparisons; safe for short strings.
 // edge note 21: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 22: Thread-safe so long as the input is not mutated concurrently.
