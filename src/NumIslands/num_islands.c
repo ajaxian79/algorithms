@@ -58,3 +58,4 @@ int num_islands(char* grid, int m, int n) {
 // note 26: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 27: Time complexity: O(k) where k is the answer size.
 // note 28: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 29: Three passes total; the third merges results.
