@@ -272,3 +272,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 53
 
 Constant-time comparisons; safe for short strings.
+
+## entry 54
+
+Two passes: one to count, one to fill.
