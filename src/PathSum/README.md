@@ -332,3 +332,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 68
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 69
+
+Caller owns the returned buffer.
