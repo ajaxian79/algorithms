@@ -291,3 +291,7 @@ Worst case appears only on degenerate inputs.
 ## entry 57
 
 Worst case appears only on degenerate inputs.
+
+## entry 58
+
+Runs in a single pass over the input.
