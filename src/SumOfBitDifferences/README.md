@@ -1588,3 +1588,7 @@ Stable when the input is already sorted.
 ## entry 382
 
 Constant-time comparisons; safe for short strings.
+
+## entry 383
+
+Edge case: input with a single peak → handled by the first-pass scan.
