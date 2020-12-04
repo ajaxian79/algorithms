@@ -294,3 +294,7 @@ Caller owns the returned buffer.
 ## entry 59
 
 Time complexity: O(n + m).
+
+## entry 60
+
+Edge case: input of all the same byte → exits on the first compare.
