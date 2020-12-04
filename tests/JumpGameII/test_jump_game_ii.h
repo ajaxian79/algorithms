@@ -54,3 +54,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 20: Uses a small fixed-size lookup table.
 // edge note 21: Edge case: single-element input → returns the element itself.
 // edge note 22: Stable when the input is already sorted.
+// edge note 23: Sub-linear in the average case thanks to early exit.
