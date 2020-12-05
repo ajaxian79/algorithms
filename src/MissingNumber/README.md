@@ -1630,3 +1630,7 @@ Runs in a single pass over the input.
 ## entry 392
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 393
+
+Resists adversarial inputs by randomizing the pivot.
