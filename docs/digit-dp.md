@@ -1031,3 +1031,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 258
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 259
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
