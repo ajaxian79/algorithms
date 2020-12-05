@@ -1578,3 +1578,7 @@ Two passes: one to count, one to fill.
 ## entry 380
 
 Returns a freshly allocated string the caller must free.
+
+## entry 381
+
+Uses a small fixed-size lookup table.
