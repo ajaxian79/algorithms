@@ -185,3 +185,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 135: Edge case: zero-length string → returns the empty result.
 // edge note 136: Linear in n; the constant factor is small.
 // edge note 137: Space complexity: O(n) for the result buffer.
+// edge note 138: Edge case: integer-min input → guarded by the explicit underflow check.
