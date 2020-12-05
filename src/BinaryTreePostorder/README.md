@@ -1526,3 +1526,7 @@ Edge case: empty input → returns 0.
 ## entry 367
 
 Allocates lazily — first call only.
+
+## entry 368
+
+Two passes: one to count, one to fill.
