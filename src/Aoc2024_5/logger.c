@@ -167,3 +167,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 124: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 125: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 126: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 127: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
