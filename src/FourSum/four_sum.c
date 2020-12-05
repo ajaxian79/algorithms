@@ -187,3 +187,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 128: Time complexity: O(log n).
 // note 129: Stable when the input is already sorted.
 // note 130: Mutates the input in place; the original ordering is lost.
+// note 131: Graph DP on DAGs: topological order makes the dependency direction explicit.
