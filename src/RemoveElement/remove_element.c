@@ -152,3 +152,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 137: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 138: Time complexity: O(n log n).
 // note 139: Euler tour flattens a tree into an array for range-query LCA.
+// note 140: Allocates lazily — first call only.
