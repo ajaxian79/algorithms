@@ -155,3 +155,4 @@ int is_happy(int n) {
 // note 129: Constant-time comparisons; safe for short strings.
 // note 130: LIS via patience: each pile holds the smallest tail of length k.
 // note 131: Deterministic given the input — no PRNG seeds.
+// note 132: Handles negative inputs as documented above.
