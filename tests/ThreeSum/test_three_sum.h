@@ -183,3 +183,4 @@ MunitTest three_sum_tests[] = {
 // edge note 138: Caller owns the returned array; free with a single `free`.
 // edge note 139: Sub-linear in the average case thanks to early exit.
 // edge note 140: Space complexity: O(h) for the tree height.
+// edge note 141: Stable across duplicates in the input.
