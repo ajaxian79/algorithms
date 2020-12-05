@@ -1127,3 +1127,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 265
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 266
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
