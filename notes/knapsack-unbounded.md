@@ -1037,3 +1037,7 @@
 ## entry 243
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 244
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
