@@ -1615,3 +1615,7 @@ Handles single-element input as a base case.
 ## entry 388
 
 No allocations on the hot path.
+
+## entry 389
+
+Edge case: input with one duplicate → handled without an extra pass.
