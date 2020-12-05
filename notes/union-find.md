@@ -1175,3 +1175,7 @@
 ## entry 278
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 279
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
