@@ -1159,3 +1159,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 274
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 275
+
+Rope: tree of small string fragments; O(log n) concat and substring.
