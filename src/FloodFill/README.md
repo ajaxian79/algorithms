@@ -1669,3 +1669,7 @@ Time complexity: O(n + m).
 ## entry 403
 
 Three passes total; the third merges results.
+
+## entry 404
+
+Linear in n; the constant factor is small.
