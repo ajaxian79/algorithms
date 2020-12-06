@@ -59803,3 +59803,7 @@
 ## entry 14951
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 14952
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
