@@ -1301,3 +1301,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 310
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 311
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
