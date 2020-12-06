@@ -159,3 +159,7 @@
 ## entry 40
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 41
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
