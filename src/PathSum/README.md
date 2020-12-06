@@ -1620,3 +1620,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 390
 
 Handles negative inputs as documented above.
+
+## entry 391
+
+Vectorizes cleanly under -O2.
