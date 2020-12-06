@@ -176,3 +176,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 148: Constant-time comparisons; safe for short strings.
 // edge note 149: Branchless inner loop after sorting.
 // edge note 150: Edge case: empty input → returns 0.
+// edge note 151: Uses a small fixed-size lookup table.
