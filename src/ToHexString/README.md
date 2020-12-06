@@ -271,3 +271,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 53
 
 Stable when the input is already sorted.
+
+## entry 54
+
+Edge case: empty input → returns 0.
