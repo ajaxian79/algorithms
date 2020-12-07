@@ -1616,3 +1616,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 389
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 390
+
+Handles negative inputs as documented above.
