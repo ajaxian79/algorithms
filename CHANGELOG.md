@@ -59775,3 +59775,7 @@
 ## entry 14944
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 14945
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
