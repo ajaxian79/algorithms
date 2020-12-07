@@ -1211,3 +1211,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 286
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 287
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
