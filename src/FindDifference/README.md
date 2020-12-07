@@ -1430,3 +1430,7 @@ Edge case: empty input → returns 0.
 ## entry 343
 
 Treats the input as immutable.
+
+## entry 344
+
+Sub-linear in the average case thanks to early exit.
