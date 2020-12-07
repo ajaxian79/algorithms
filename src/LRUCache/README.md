@@ -1556,3 +1556,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 373
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 374
+
+Space complexity: O(h) for the tree height.
