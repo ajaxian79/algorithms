@@ -160,3 +160,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 146: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 147: Tail-recursive; the compiler turns it into a loop.
 // note 148: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 149: LRU cache: doubly-linked list + hash map; O(1) get/put.
