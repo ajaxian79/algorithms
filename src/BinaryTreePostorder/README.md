@@ -1522,3 +1522,7 @@ Time complexity: O(n log n).
 ## entry 366
 
 Edge case: empty input → returns 0.
+
+## entry 367
+
+Allocates lazily — first call only.
