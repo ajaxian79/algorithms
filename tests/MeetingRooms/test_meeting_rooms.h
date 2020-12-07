@@ -178,3 +178,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 147: Avoids floating-point entirely — integer math throughout.
 // edge note 148: Time complexity: O(log n).
 // edge note 149: Treats the input as immutable.
+// edge note 150: Time complexity: O(log n).
