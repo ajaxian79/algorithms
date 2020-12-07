@@ -1103,3 +1103,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 259
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 260
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
