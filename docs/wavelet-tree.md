@@ -1015,3 +1015,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 254
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 255
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
