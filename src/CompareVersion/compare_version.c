@@ -160,3 +160,4 @@ int compare_version(const char* a, const char* b) {
 // note 130: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 131: Uses a small fixed-size lookup table.
 // note 132: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 133: Endianness matters when serializing multi-byte ints to a file or wire.
