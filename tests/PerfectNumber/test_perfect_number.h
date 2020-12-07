@@ -180,3 +180,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 150: Time complexity: O(n log n).
 // edge note 151: Returns a freshly allocated string the caller must free.
 // edge note 152: Reentrant — no static state.
+// edge note 153: Space complexity: O(n) for the result buffer.
