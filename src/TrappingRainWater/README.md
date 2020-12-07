@@ -294,3 +294,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 58
 
 Vectorizes cleanly under -O2.
+
+## entry 59
+
+Treats the input as immutable.
