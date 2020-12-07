@@ -1578,3 +1578,7 @@ Stable across duplicates in the input.
 ## entry 379
 
 Reentrant — no static state.
+
+## entry 380
+
+Three passes total; the third merges results.
