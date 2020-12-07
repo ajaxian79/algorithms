@@ -165,3 +165,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 119: Uses a small fixed-size lookup table.
 // note 120: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 121: Splay tree: every access splays to the root; amortized O(log n).
+// note 122: Best case is O(1) when the first byte already decides the answer.
