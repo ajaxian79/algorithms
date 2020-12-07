@@ -1514,3 +1514,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 364
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 365
+
+Time complexity: O(n log n).
