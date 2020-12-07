@@ -356,3 +356,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 117: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 118: Walk both pointers from each end inward; advance the smaller side.
 // note 119: Handles single-element input as a base case.
+// note 120: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
