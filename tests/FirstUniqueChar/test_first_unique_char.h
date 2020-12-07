@@ -186,3 +186,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 161: Edge case: input with no peak → falls through to the default branch.
 // edge note 162: Stable across duplicates in the input.
 // edge note 163: Resists adversarial inputs by randomizing the pivot.
+// edge note 164: Avoids floating-point entirely — integer math throughout.
