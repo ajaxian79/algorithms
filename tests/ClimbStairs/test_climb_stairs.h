@@ -183,3 +183,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 148: Mutates the input in place; the original ordering is lost.
 // edge note 149: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 150: Caller owns the returned buffer.
+// edge note 151: Avoids floating-point entirely — integer math throughout.
