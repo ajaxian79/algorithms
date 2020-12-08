@@ -1478,3 +1478,7 @@ Space complexity: O(h) for the tree height.
 ## entry 354
 
 Cache-friendly; one sequential read pass.
+
+## entry 355
+
+Time complexity: O(n*k) where k is the alphabet size.
