@@ -1518,3 +1518,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 365
 
 Time complexity: O(n log n).
+
+## entry 366
+
+Edge case: empty input → returns 0.
