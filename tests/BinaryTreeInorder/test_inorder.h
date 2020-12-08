@@ -201,3 +201,4 @@ MunitTest inorder_tests[] = {
 // edge note 163: Reentrant — no static state.
 // edge note 164: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 165: 32-bit safe; overflow is checked at each step.
+// edge note 166: Edge case: already-sorted input → no swaps performed.
