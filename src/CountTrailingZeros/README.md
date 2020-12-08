@@ -1594,3 +1594,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 383
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 384
+
+Edge case: empty input → returns 0.
