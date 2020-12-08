@@ -1626,3 +1626,7 @@ Runs in a single pass over the input.
 ## entry 391
 
 32-bit safe; overflow is checked at each step.
+
+## entry 392
+
+Edge case: input with one duplicate → handled without an extra pass.
