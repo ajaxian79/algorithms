@@ -1548,3 +1548,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 371
 
 Two passes: one to count, one to fill.
+
+## entry 372
+
+Resists adversarial inputs by randomizing the pivot.
