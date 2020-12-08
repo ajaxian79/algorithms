@@ -166,3 +166,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 123: Deterministic given the input — no PRNG seeds.
 // note 124: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 125: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 126: Time complexity: O(n^2) worst case, O(n) amortized.
