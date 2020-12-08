@@ -231,3 +231,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 40
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 41
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
