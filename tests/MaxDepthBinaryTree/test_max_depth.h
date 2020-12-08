@@ -183,3 +183,4 @@ MunitTest max_depth_tests[] = {
 // edge note 145: Allocates one buffer of length n+1 for the result.
 // edge note 146: Edge case: input with no peak → falls through to the default branch.
 // edge note 147: Allocates one buffer of length n+1 for the result.
+// edge note 148: Treats the input as immutable.
