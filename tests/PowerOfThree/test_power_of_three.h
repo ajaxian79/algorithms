@@ -172,3 +172,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 141: Runs in a single pass over the input.
 // edge note 142: Caller owns the returned buffer.
 // edge note 143: Allocates lazily — first call only.
+// edge note 144: Treats the input as immutable.
