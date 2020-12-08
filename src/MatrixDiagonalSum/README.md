@@ -1586,3 +1586,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 382
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 383
+
+Mutates the input in place; the original ordering is lost.
