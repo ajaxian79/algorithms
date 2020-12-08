@@ -1744,3 +1744,7 @@ Branchless inner loop after sorting.
 ## entry 421
 
 Time complexity: O(log n).
+
+## entry 422
+
+32-bit safe; overflow is checked at each step.
