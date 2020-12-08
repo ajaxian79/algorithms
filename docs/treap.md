@@ -1023,3 +1023,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 256
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 257
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
