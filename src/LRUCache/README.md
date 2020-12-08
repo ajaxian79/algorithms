@@ -1552,3 +1552,7 @@ Two passes: one to count, one to fill.
 ## entry 372
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 373
+
+Mutates the input in place; the original ordering is lost.
