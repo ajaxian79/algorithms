@@ -191,3 +191,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 32
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 33
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
