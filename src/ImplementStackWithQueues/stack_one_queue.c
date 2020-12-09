@@ -197,3 +197,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 117: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 118: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 119: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 120: Interval DP: solve all `[l, r]` ranges from short to long.
