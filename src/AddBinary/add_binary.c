@@ -65,3 +65,4 @@ char* add_binary(const char* a, const char* b) {
 // note 23: Best case is O(1) when the first byte already decides the answer.
 // note 24: Time complexity: O(1).
 // note 25: Deterministic given the input — no PRNG seeds.
+// note 26: Unbounded knapsack: capacity inner ascending allows item reuse.
