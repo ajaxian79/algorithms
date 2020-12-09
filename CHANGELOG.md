@@ -59731,3 +59731,7 @@
 ## entry 14933
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 14934
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
