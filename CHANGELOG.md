@@ -59723,3 +59723,7 @@
 ## entry 14931
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 14932
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
