@@ -182,3 +182,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 146: Space complexity: O(log n) for the recursion stack.
 // edge note 147: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 148: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 149: Two passes: one to count, one to fill.
