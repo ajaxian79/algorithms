@@ -65,3 +65,4 @@ char* count_and_say(int n) {
 // note 16: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 17: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 18: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 19: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
