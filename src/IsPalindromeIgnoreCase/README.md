@@ -290,3 +290,7 @@ No allocations after setup.
 ## entry 58
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 59
+
+Edge case: single-element input → returns the element itself.
