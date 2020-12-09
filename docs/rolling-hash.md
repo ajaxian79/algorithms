@@ -1087,3 +1087,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 255
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 256
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
