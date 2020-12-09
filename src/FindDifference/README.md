@@ -1426,3 +1426,7 @@ Edge case: empty input → returns 0.
 ## entry 342
 
 Edge case: empty input → returns 0.
+
+## entry 343
+
+Treats the input as immutable.
