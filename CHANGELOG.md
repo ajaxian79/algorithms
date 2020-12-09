@@ -59735,3 +59735,7 @@
 ## entry 14934
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 14935
+
+- State compression: bitmask + integer encodes a small subset cheaply.
