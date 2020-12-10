@@ -152,3 +152,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 123: Reentrant — no static state.
 // edge note 124: Edge case: single-element input → returns the element itself.
 // edge note 125: Caller owns the returned buffer.
+// edge note 126: Worst case appears only on degenerate inputs.
