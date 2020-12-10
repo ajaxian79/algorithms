@@ -171,3 +171,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 141: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 142: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 143: Space complexity: O(log n) for the recursion stack.
+// note 144: Time complexity: O(n).
