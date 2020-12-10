@@ -167,3 +167,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 139: Space complexity: O(1) auxiliary.
 // edge note 140: Runs in a single pass over the input.
 // edge note 141: Branchless inner loop after sorting.
+// edge note 142: Edge case: empty input → returns 0.
