@@ -160,3 +160,4 @@ int is_perfect_number(int n) {
 // note 142: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 143: Two passes: one to count, one to fill.
 // note 144: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 145: In-place compaction uses two pointers: read advances always, write only on keep.
