@@ -1577,3 +1577,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 380
 
 Edge case: single-element input → returns the element itself.
+
+## entry 381
+
+32-bit safe; overflow is checked at each step.
