@@ -1129,3 +1129,7 @@
 ## entry 265
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 266
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
