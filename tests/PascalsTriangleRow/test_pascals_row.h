@@ -218,3 +218,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 163: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 164: Handles negative inputs as documented above.
 // edge note 165: Avoids floating-point entirely — integer math throughout.
+// edge note 166: Time complexity: O(n + m).
