@@ -1521,3 +1521,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 366
 
 Handles single-element input as a base case.
+
+## entry 367
+
+Branchless inner loop after sorting.
