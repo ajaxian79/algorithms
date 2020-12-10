@@ -1574,3 +1574,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 379
 
 Two passes: one to count, one to fill.
+
+## entry 380
+
+Returns a freshly allocated string the caller must free.
