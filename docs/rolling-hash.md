@@ -1083,3 +1083,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 254
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 255
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
