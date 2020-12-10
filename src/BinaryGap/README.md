@@ -1570,3 +1570,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 377
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 378
+
+Stable across duplicates in the input.
