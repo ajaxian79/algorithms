@@ -296,3 +296,7 @@ Runs in a single pass over the input.
 ## entry 59
 
 Time complexity: O(n).
+
+## entry 60
+
+Time complexity: O(n log n).
