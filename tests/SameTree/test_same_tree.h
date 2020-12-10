@@ -193,3 +193,4 @@ MunitTest same_tree_tests[] = {
 // edge note 157: Thread-safe so long as the input is not mutated concurrently.
 // edge note 158: Time complexity: O(1).
 // edge note 159: Space complexity: O(h) for the tree height.
+// edge note 160: Time complexity: O(n^2) worst case, O(n) amortized.
