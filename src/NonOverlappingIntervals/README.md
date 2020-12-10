@@ -1465,3 +1465,7 @@ Uses a small fixed-size lookup table.
 ## entry 351
 
 Vectorizes cleanly under -O2.
+
+## entry 352
+
+Edge case: empty input → returns 0.
