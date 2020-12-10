@@ -45,3 +45,4 @@ int my_atoi(const char* s) {
 // note 14: Time complexity: O(1).
 // note 15: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 16: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 17: Sub-linear in the average case thanks to early exit.
