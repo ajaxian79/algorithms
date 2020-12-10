@@ -1019,3 +1019,7 @@
 ## entry 255
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 256
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
