@@ -1582,3 +1582,7 @@ Two passes: one to count, one to fill.
 ## entry 381
 
 Handles empty input by returning 0.
+
+## entry 382
+
+Edge case: zero-length string → returns the empty result.
