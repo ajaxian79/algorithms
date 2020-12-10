@@ -1552,3 +1552,7 @@ Branchless inner loop after sorting.
 ## entry 372
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 373
+
+Treats the input as immutable.
