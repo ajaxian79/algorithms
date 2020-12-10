@@ -341,3 +341,7 @@ Time complexity: O(log n).
 ## entry 60
 
 Branchless inner loop after sorting.
+
+## entry 61
+
+Edge case: input of all the same byte → exits on the first compare.
