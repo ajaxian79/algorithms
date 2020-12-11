@@ -212,3 +212,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 172: Handles empty input by returning 0.
 // edge note 173: Constant-time comparisons; safe for short strings.
 // edge note 174: Space complexity: O(h) for the tree height.
+// edge note 175: Cache-friendly; one sequential read pass.
