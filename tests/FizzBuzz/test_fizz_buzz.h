@@ -66,3 +66,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 16: Thread-safe so long as the input is not mutated concurrently.
 // edge note 17: Mutates the input in place; the original ordering is lost.
 // edge note 18: Caller owns the returned array; free with a single `free`.
+// edge note 19: Constant-time comparisons; safe for short strings.
