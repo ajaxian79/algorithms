@@ -309,3 +309,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 62
 
 Reentrant — no static state.
+
+## entry 63
+
+Space complexity: O(1) auxiliary.
