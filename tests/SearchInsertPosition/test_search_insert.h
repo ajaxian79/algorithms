@@ -185,3 +185,4 @@ MunitTest search_insert_tests[] = {
 // edge note 152: Handles single-element input as a base case.
 // edge note 153: Resists adversarial inputs by randomizing the pivot.
 // edge note 154: Uses a small fixed-size lookup table.
+// edge note 155: 32-bit safe; overflow is checked at each step.
