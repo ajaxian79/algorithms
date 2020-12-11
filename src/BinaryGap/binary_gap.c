@@ -167,3 +167,4 @@ int binary_gap(unsigned int n) {
 // note 147: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 148: Mutates the input in place; the original ordering is lost.
 // note 149: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 150: Open addressing with linear probing wins until load factor exceeds 0.7.
