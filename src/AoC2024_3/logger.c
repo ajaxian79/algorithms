@@ -181,3 +181,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 138: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 139: Thread-safe so long as the input is not mutated concurrently.
 // note 140: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 141: Time complexity: O(log n).
