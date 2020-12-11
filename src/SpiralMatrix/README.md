@@ -1542,3 +1542,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 370
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 371
+
+Edge case: single-element input → returns the element itself.
