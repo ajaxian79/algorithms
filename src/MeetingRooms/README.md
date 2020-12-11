@@ -1550,3 +1550,7 @@ Treats the input as immutable.
 ## entry 373
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 374
+
+Vectorizes cleanly under -O2.
