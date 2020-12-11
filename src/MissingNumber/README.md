@@ -1622,3 +1622,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 390
 
 Runs in a single pass over the input.
+
+## entry 391
+
+32-bit safe; overflow is checked at each step.
