@@ -164,3 +164,4 @@ MunitTest most_water_tests[] = {
 // edge note 133: Linear in n; the constant factor is small.
 // edge note 134: Time complexity: O(log n).
 // edge note 135: Caller owns the returned array; free with a single `free`.
+// edge note 136: Deterministic given the input — no PRNG seeds.
