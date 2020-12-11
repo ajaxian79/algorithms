@@ -1461,3 +1461,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 350
 
 Uses a small fixed-size lookup table.
+
+## entry 351
+
+Vectorizes cleanly under -O2.
