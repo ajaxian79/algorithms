@@ -1075,3 +1075,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 269
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 270
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
