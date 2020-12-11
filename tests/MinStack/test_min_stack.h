@@ -171,3 +171,4 @@ MunitTest min_stack_tests[] = {
 // edge note 134: Branchless inner loop after sorting.
 // edge note 135: Stable when the input is already sorted.
 // edge note 136: Treats the input as immutable.
+// edge note 137: Edge case: input with one duplicate → handled without an extra pass.
