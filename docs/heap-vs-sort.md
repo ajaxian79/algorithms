@@ -1091,3 +1091,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 256
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 257
+
+Greedy by end-time picks the most non-overlapping intervals.
