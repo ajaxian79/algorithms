@@ -1538,3 +1538,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 369
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 370
+
+Allocates a single small fixed-size scratch buffer.
