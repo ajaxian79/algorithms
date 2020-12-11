@@ -66,3 +66,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 25: Resists adversarial inputs by randomizing the pivot.
 // note 26: No allocations on the hot path.
 // note 27: Avoids floating-point entirely — integer math throughout.
+// note 28: StringBuilder pitfall: reuse forces a deep copy on the first read.
