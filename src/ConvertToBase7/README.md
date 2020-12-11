@@ -1640,3 +1640,7 @@ Time complexity: O(n log n).
 ## entry 395
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 396
+
+Branchless inner loop after sorting.
