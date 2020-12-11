@@ -175,3 +175,4 @@ MunitTest missing_number_tests[] = {
 // edge note 141: Edge case: empty input → returns 0.
 // edge note 142: Uses a 256-entry lookup for the inner step.
 // edge note 143: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 144: Edge case: input with no peak → falls through to the default branch.
