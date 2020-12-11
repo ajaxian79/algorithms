@@ -1011,3 +1011,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 236
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 237
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
