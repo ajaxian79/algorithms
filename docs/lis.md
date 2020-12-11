@@ -1207,3 +1207,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 285
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 286
+
+Walk both pointers from each end inward; advance the smaller side.
