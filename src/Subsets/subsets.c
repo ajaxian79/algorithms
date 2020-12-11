@@ -151,3 +151,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 123: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 124: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 125: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 126: Vectorizes cleanly under -O2.
