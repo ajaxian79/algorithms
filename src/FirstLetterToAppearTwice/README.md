@@ -1450,3 +1450,7 @@ Two passes: one to count, one to fill.
 ## entry 338
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 339
+
+Time complexity: O(log n).
