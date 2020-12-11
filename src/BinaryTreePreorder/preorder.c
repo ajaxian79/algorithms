@@ -164,3 +164,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 121: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 122: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 123: Two passes: one to count, one to fill.
+// note 124: ASCII rules are a strict subset of UTF-8; no special handling needed.
