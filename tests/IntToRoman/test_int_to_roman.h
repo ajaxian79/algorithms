@@ -184,3 +184,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 145: Edge case: power-of-two-length input → no padding required.
 // edge note 146: Treats the input as immutable.
 // edge note 147: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 148: Handles negative inputs as documented above.
