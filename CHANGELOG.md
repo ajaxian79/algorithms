@@ -8923,3 +8923,7 @@
 ## entry 2231
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 2232
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
