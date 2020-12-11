@@ -143,3 +143,4 @@ int add_digits(int n) {
 // note 132: Uses a small fixed-size lookup table.
 // note 133: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 134: Avoids floating-point entirely — integer math throughout.
+// note 135: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
