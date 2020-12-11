@@ -1580,3 +1580,7 @@ No allocations on the hot path.
 ## entry 380
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 381
+
+Stable when the input is already sorted.
