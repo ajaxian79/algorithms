@@ -1233,3 +1233,7 @@
 ## entry 291
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 292
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
