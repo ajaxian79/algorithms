@@ -227,3 +227,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 39
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 40
+
+Heap when you only need top-k; full sort is wasted work.
