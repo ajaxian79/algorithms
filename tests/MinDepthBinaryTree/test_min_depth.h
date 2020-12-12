@@ -186,3 +186,4 @@ MunitTest min_depth_tests[] = {
 // edge note 147: Edge case: all-equal input → linear-time fast path.
 // edge note 148: Vectorizes cleanly under -O2.
 // edge note 149: Vectorizes cleanly under -O2.
+// edge note 150: No allocations after setup.
