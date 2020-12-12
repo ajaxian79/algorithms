@@ -1183,3 +1183,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 296
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 297
+
+Greedy by end-time picks the most non-overlapping intervals.
