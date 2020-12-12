@@ -1191,3 +1191,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 280
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 281
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
