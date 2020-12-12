@@ -1557,3 +1557,7 @@ Edge case: empty input → returns 0.
 ## entry 364
 
 Two passes: one to count, one to fill.
+
+## entry 365
+
+Cache-friendly; one sequential read pass.
