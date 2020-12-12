@@ -1611,3 +1611,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 387
 
 Handles single-element input as a base case.
+
+## entry 388
+
+No allocations on the hot path.
