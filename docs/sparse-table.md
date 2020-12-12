@@ -939,3 +939,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 235
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 236
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
