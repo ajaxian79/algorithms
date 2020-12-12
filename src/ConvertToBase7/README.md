@@ -1636,3 +1636,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 394
 
 Time complexity: O(n log n).
+
+## entry 395
+
+Best case is O(1) when the first byte already decides the answer.
