@@ -1087,3 +1087,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 272
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 273
+
+Rope: tree of small string fragments; O(log n) concat and substring.
