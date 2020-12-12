@@ -83,6 +83,7 @@ add_executable(three_sum src/ThreeSum/main.c src/ThreeSum/three_sum.c)
 add_executable(three_sum_closest src/ThreeSumClosest/main.c src/ThreeSumClosest/three_sum_closest.c)
 add_executable(four_sum src/FourSum/main.c src/FourSum/four_sum.c)
 add_executable(needle src/NeedleInHaystack/main.c src/NeedleInHaystack/needle.c)
+add_executable(search_insert src/SearchInsertPosition/main.c src/SearchInsertPosition/search_insert.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -243,4 +244,5 @@ target_link_libraries(three_sum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mi
 target_link_libraries(three_sum_closest PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(four_sum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(needle PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(search_insert PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
