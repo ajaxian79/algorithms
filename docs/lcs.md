@@ -1135,3 +1135,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 266
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 267
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
