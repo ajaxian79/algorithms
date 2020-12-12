@@ -8915,3 +8915,7 @@
 ## entry 2229
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 2230
+
+- State compression: bitmask + integer encodes a small subset cheaply.
