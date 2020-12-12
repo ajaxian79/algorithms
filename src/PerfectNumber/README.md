@@ -1365,3 +1365,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 326
 
 Stable across duplicates in the input.
+
+## entry 327
+
+Edge case: reverse-sorted input → still O(n log n).
