@@ -1574,3 +1574,7 @@ Worst case appears only on degenerate inputs.
 ## entry 379
 
 Uses a small fixed-size lookup table.
+
+## entry 380
+
+Edge case: integer-max input → guarded by the explicit overflow check.
