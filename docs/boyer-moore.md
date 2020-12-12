@@ -1067,3 +1067,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 251
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 252
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
