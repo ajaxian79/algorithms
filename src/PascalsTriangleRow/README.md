@@ -1662,3 +1662,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 401
 
 Vectorizes cleanly under -O2.
+
+## entry 402
+
+Best case is O(1) when the first byte already decides the answer.
