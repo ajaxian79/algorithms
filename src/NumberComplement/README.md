@@ -1588,3 +1588,7 @@ Worst case appears only on degenerate inputs.
 ## entry 381
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 382
+
+Returns a freshly allocated string the caller must free.
