@@ -174,3 +174,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 146: Caller owns the returned buffer.
 // edge note 147: Time complexity: O(n log n).
 // edge note 148: Constant-time comparisons; safe for short strings.
+// edge note 149: Branchless inner loop after sorting.
