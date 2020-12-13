@@ -171,3 +171,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 43
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 44
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
