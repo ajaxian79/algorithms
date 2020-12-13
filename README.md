@@ -35,3 +35,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Three Sum Closest](src/ThreeSumClosest) — closest-to-target triplet sum
 * [Four Sum](src/FourSum) — sorted + nested two-pointer quadruplets
 * [Needle in Haystack](src/NeedleInHaystack) — KMP substring search
+* [Search Insert Position](src/SearchInsertPosition) — lower-bound binary search
