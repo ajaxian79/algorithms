@@ -1121,3 +1121,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 264
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 265
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
