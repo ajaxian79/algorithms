@@ -1151,3 +1151,7 @@
 ## entry 288
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 289
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
