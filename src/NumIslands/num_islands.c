@@ -165,3 +165,4 @@ int num_islands(char* grid, int m, int n) {
 // note 133: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 134: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 135: Uses a small fixed-size lookup table.
+// note 136: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
