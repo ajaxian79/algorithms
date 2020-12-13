@@ -1665,3 +1665,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 402
 
 Time complexity: O(n + m).
+
+## entry 403
+
+Three passes total; the third merges results.
