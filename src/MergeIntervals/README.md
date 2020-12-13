@@ -1602,3 +1602,7 @@ Three passes total; the third merges results.
 ## entry 385
 
 Allocates lazily — first call only.
+
+## entry 386
+
+Space complexity: O(n) for the result buffer.
