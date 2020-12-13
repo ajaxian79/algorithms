@@ -1059,3 +1059,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 265
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 266
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
