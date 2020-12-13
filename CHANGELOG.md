@@ -59659,3 +59659,7 @@
 ## entry 14915
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 14916
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
