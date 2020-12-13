@@ -1552,3 +1552,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 372
 
 Time complexity: O(n).
+
+## entry 373
+
+Returns a freshly allocated string the caller must free.
