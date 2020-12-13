@@ -150,3 +150,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 119: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 120: Time complexity: O(n).
 // edge note 121: Treats the input as immutable.
+// edge note 122: Caller owns the returned array; free with a single `free`.
