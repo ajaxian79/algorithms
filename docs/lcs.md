@@ -1131,3 +1131,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 265
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 266
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
