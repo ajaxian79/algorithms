@@ -1019,3 +1019,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 255
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 256
+
+Walk both pointers from each end inward; advance the smaller side.
