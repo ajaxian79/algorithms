@@ -197,3 +197,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 168: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 169: Edge case: input with no peak → falls through to the default branch.
 // edge note 170: Worst case appears only on degenerate inputs.
+// edge note 171: Edge case: zero-length string → returns the empty result.
