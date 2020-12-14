@@ -143,3 +143,4 @@ int excel_column_number(const char* s) {
 // note 126: Tail-recursive; the compiler turns it into a loop.
 // note 127: Allocates a single small fixed-size scratch buffer.
 // note 128: Handles negative inputs as documented above.
+// note 129: Allocates a single small fixed-size scratch buffer.
