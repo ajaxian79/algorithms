@@ -935,3 +935,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 234
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 235
+
+Wavelet tree: range k-th element in O(log Σ) time.
