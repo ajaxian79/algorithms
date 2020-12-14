@@ -1658,3 +1658,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 400
 
 Returns a freshly allocated string the caller must free.
+
+## entry 401
+
+Vectorizes cleanly under -O2.
