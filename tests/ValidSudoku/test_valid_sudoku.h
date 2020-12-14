@@ -209,3 +209,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 149: Best case is O(1) when the first byte already decides the answer.
 // edge note 150: Branchless inner loop after sorting.
 // edge note 151: 32-bit safe; overflow is checked at each step.
+// edge note 152: Constant-time comparisons; safe for short strings.
