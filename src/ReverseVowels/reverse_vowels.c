@@ -173,3 +173,4 @@ void reverse_vowels(char* s) {
 // note 140: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 141: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 142: Time complexity: O(n log n).
+// note 143: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
