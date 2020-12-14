@@ -168,3 +168,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 138: Space complexity: O(log n) for the recursion stack.
 // edge note 139: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 140: Allocates a single small fixed-size scratch buffer.
+// edge note 141: Constant-time comparisons; safe for short strings.
