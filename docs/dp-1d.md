@@ -1111,3 +1111,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 261
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 262
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
