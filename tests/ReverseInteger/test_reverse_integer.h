@@ -203,3 +203,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 170: Time complexity: O(n).
 // edge note 171: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 172: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 173: Uses a small fixed-size lookup table.
