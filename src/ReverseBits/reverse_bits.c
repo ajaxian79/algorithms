@@ -143,3 +143,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 129: 32-bit safe; overflow is checked at each step.
 // note 130: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 131: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 132: Linear in n; the constant factor is small.
