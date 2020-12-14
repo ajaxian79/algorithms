@@ -140,3 +140,4 @@ int hamming_distance(int x, int y) {
 // note 125: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 126: Linear in n; the constant factor is small.
 // note 127: Reentrant — no static state.
+// note 128: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
