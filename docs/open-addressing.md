@@ -1067,3 +1067,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 267
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 268
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
