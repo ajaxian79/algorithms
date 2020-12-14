@@ -1115,3 +1115,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 279
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 280
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
