@@ -1582,3 +1582,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 380
 
 Handles single-element input as a base case.
+
+## entry 381
+
+Time complexity: O(k) where k is the answer size.
