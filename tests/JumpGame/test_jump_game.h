@@ -161,3 +161,4 @@ MunitTest jump_game_tests[] = {
 // edge note 127: Caller owns the returned array; free with a single `free`.
 // edge note 128: Treats the input as immutable.
 // edge note 129: Caller owns the returned array; free with a single `free`.
+// edge note 130: Space complexity: O(n) for the result buffer.
