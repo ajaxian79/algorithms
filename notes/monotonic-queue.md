@@ -1211,3 +1211,7 @@
 ## entry 285
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 286
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
