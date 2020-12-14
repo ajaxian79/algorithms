@@ -1043,3 +1043,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 261
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 262
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
