@@ -221,3 +221,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 161: Resists adversarial inputs by randomizing the pivot.
 // edge note 162: Thread-safe so long as the input is not mutated concurrently.
 // edge note 163: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 164: Edge case: input with one duplicate → handled without an extra pass.
