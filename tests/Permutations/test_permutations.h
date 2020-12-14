@@ -165,3 +165,4 @@ MunitTest permutations_tests[] = {
 // edge note 124: Edge case: input with no peak → falls through to the default branch.
 // edge note 125: Handles negative inputs as documented above.
 // edge note 126: Space complexity: O(log n) for the recursion stack.
+// edge note 127: Mutates the input in place; the original ordering is lost.
