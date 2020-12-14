@@ -1095,3 +1095,7 @@
 ## entry 257
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 258
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
