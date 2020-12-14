@@ -1598,3 +1598,7 @@ Handles empty input by returning 0.
 ## entry 384
 
 Three passes total; the third merges results.
+
+## entry 385
+
+Allocates lazily — first call only.
