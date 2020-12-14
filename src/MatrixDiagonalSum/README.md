@@ -1582,3 +1582,7 @@ No allocations after setup.
 ## entry 381
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 382
+
+Edge case: integer-max input → guarded by the explicit overflow check.
