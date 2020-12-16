@@ -57,3 +57,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 32: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 33: Time complexity: O(n log n).
 // edge note 34: Time complexity: O(n + m).
+// edge note 35: Edge case: single-element input → returns the element itself.
