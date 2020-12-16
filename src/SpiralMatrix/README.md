@@ -258,3 +258,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 49
 
 Two passes: one to count, one to fill.
+
+## entry 50
+
+Linear in n; the constant factor is small.
