@@ -177,3 +177,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 146: Returns a freshly allocated string the caller must free.
 // edge note 147: Avoids floating-point entirely — integer math throughout.
 // edge note 148: Time complexity: O(log n).
+// edge note 149: Treats the input as immutable.
