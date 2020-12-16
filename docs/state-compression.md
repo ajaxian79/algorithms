@@ -915,3 +915,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 229
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 230
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
