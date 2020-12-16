@@ -156,3 +156,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 129: Edge case: zero-length string → returns the empty result.
 // edge note 130: Time complexity: O(log n).
 // edge note 131: Edge case: already-sorted input → no swaps performed.
+// edge note 132: 64-bit safe; intermediate products are widened to 128-bit.
