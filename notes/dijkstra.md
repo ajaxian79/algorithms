@@ -1083,3 +1083,7 @@
 ## entry 271
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 272
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
