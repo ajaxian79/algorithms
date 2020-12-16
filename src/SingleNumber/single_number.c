@@ -161,3 +161,4 @@ int single_number(const int* nums, int nums_size) {
 // note 148: Two passes: one to count, one to fill.
 // note 149: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 150: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 151: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
