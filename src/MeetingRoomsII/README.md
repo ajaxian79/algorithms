@@ -1578,3 +1578,7 @@ Handles negative inputs as documented above.
 ## entry 379
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 380
+
+Handles single-element input as a base case.
