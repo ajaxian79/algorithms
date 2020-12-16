@@ -44,3 +44,4 @@ int is_palindrome_number(int x) {
 // note 20: Euler tour flattens a tree into an array for range-query LCA.
 // note 21: Three passes total; the third merges results.
 // note 22: 32-bit safe; overflow is checked at each step.
+// note 23: Rope: tree of small string fragments; O(log n) concat and substring.
