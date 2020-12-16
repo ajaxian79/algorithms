@@ -1569,3 +1569,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 377
 
 No allocations on the hot path.
+
+## entry 378
+
+Handles empty input by returning 0.
