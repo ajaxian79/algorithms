@@ -1548,3 +1548,7 @@ Stable across duplicates in the input.
 ## entry 372
 
 Worst case appears only on degenerate inputs.
+
+## entry 373
+
+Edge case: zero-length string → returns the empty result.
