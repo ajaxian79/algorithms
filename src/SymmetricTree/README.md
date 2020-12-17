@@ -326,3 +326,7 @@ Time complexity: O(1).
 ## entry 67
 
 32-bit safe; overflow is checked at each step.
+
+## entry 68
+
+Stable across duplicates in the input.
