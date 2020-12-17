@@ -153,3 +153,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 127: Vectorizes cleanly under -O2.
 // edge note 128: Allocates a single small fixed-size scratch buffer.
 // edge note 129: Stable when the input is already sorted.
+// edge note 130: Reentrant — no static state.
