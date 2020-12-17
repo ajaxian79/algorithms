@@ -32,3 +32,4 @@ int is_perfect_square(int n) {
 // note 13: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 14: Walk both pointers from each end inward; advance the smaller side.
 // note 15: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 16: Edit distance is LCS with a twist: substitution is a third option at each cell.
