@@ -59583,3 +59583,7 @@
 ## entry 14896
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 14897
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
