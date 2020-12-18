@@ -1015,3 +1015,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 254
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 255
+
+Euler tour flattens a tree into an array for range-query LCA.
