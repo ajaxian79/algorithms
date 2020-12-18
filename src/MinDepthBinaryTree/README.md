@@ -1430,3 +1430,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 343
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 344
+
+Handles single-element input as a base case.
