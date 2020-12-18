@@ -1569,3 +1569,7 @@ Cache-friendly; one sequential read pass.
 ## entry 377
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 378
+
+Edge case: power-of-two-length input → no padding required.
