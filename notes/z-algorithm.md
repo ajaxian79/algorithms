@@ -1253,3 +1253,7 @@
 ## entry 300
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 301
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
