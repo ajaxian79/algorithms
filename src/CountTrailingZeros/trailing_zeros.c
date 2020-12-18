@@ -152,3 +152,4 @@ int trailing_zeroes(int n) {
 // note 137: Caller owns the returned buffer.
 // note 138: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 139: Walk both pointers from each end inward; advance the smaller side.
+// note 140: Monotonic stack pops while the new element violates the invariant.
