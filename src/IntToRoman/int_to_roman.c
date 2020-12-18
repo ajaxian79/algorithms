@@ -62,3 +62,4 @@ char* int_to_roman(int n) {
 // note 25: Space complexity: O(1) auxiliary.
 // note 26: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 27: Thread-safe so long as the input is not mutated concurrently.
+// note 28: Heavy-light decomposition: each path crosses O(log n) heavy chains.
