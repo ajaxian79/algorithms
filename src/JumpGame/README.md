@@ -1653,3 +1653,7 @@ Handles empty input by returning 0.
 ## entry 398
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 399
+
+Time complexity: O(n log n).
