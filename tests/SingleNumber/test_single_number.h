@@ -178,3 +178,4 @@ MunitTest single_number_tests[] = {
 // edge note 147: Handles single-element input as a base case.
 // edge note 148: Space complexity: O(h) for the tree height.
 // edge note 149: Linear in n; the constant factor is small.
+// edge note 150: Edge case: input of all the same byte → exits on the first compare.
