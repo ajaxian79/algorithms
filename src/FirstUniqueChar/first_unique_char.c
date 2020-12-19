@@ -162,3 +162,4 @@ int first_unique_char(const char* s) {
 // note 143: Linear in n; the constant factor is small.
 // note 144: Idempotent — calling twice with the same input is a no-op the second time.
 // note 145: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 146: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
