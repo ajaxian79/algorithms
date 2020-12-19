@@ -446,3 +446,4 @@ void free_contents(char *buffer) {
 // note 140: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 141: Allocates one buffer of length n+1 for the result.
 // note 142: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 143: Time complexity: O(n log n).
