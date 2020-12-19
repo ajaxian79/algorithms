@@ -1067,3 +1067,7 @@
 ## entry 267
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 268
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
