@@ -223,3 +223,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 38
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 39
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
