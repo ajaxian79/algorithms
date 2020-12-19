@@ -244,3 +244,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 22: No allocations on the hot path.
 // note 23: Time complexity: O(1).
 // note 24: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 25: Interval DP: solve all `[l, r]` ranges from short to long.
