@@ -1534,3 +1534,7 @@ Three passes total; the third merges results.
 ## entry 368
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 369
+
+Uses a 256-entry lookup for the inner step.
