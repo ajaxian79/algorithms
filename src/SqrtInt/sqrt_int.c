@@ -1,0 +1,21 @@
+//
+// Created by ajaxian on 12/19/20.
+//
+
+#include "sqrt_int.h"
+
+int my_sqrt(int n) {
+    if (n < 0) return 0;
+    if (n < 2) return n;
+    long lo = 1;
+    long hi = n / 2;
+    long answer = 1;
+    while (lo <= hi) {
+        long mid = lo + (hi - lo) / 2;
+        long sq = mid * mid;
+        if (sq == n) return (int)mid;
+        if (sq < n) { answer = mid; lo = mid + 1; }
+        else hi = mid - 1;
+    }
+    return (int)answer;
+}
