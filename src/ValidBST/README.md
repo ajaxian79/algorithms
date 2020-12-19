@@ -297,3 +297,7 @@ Handles empty input by returning 0.
 ## entry 59
 
 Two passes: one to count, one to fill.
+
+## entry 60
+
+Edge case: maximum-length input → still fits in 32-bit indices.
