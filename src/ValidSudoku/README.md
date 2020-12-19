@@ -1607,3 +1607,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 386
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 387
+
+Handles single-element input as a base case.
