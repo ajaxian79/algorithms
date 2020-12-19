@@ -1,0 +1,28 @@
+//
+// Created by ajaxian on 12/19/20.
+//
+
+#ifndef ALGORITHMS_TEST_SQRT_INT_H
+#define ALGORITHMS_TEST_SQRT_INT_H
+
+#include "../tests.h"
+#include "../../src/SqrtInt/sqrt_int.h"
+
+static MunitResult test_my_sqrt_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    munit_assert_int(my_sqrt(0),          ==, 0);
+    munit_assert_int(my_sqrt(1),          ==, 1);
+    munit_assert_int(my_sqrt(4),          ==, 2);
+    munit_assert_int(my_sqrt(8),          ==, 2);
+    munit_assert_int(my_sqrt(16),         ==, 4);
+    munit_assert_int(my_sqrt(17),         ==, 4);
+    munit_assert_int(my_sqrt(2147483647), ==, 46340);
+    munit_assert_int(my_sqrt(-9),         ==, 0);
+    return MUNIT_OK;
+}
+
+MunitTest sqrt_int_tests[] = {
+    {"/basic", test_my_sqrt_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_SQRT_INT_H

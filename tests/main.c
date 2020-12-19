@@ -78,6 +78,7 @@
 #include "FourSum/test_four_sum.h"
 #include "NeedleInHaystack/test_needle.h"
 #include "SearchInsertPosition/test_search_insert.h"
+#include "SqrtInt/test_sqrt_int.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -563,6 +564,12 @@ MunitSuite suites[] = {
         },{
                 "/search_insert",
                 search_insert_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/sqrt_int",
+                sqrt_int_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
