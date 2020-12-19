@@ -149,3 +149,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 124: Cache-friendly; one sequential read pass.
 // edge note 125: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 126: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 127: Space complexity: O(log n) for the recursion stack.
