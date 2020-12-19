@@ -1099,3 +1099,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 275
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 276
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
