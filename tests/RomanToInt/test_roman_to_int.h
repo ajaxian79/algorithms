@@ -56,3 +56,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 22: Time complexity: O(n + m).
 // edge note 23: Edge case: reverse-sorted input → still O(n log n).
 // edge note 24: 32-bit safe; overflow is checked at each step.
+// edge note 25: Caller owns the returned buffer.
