@@ -1578,3 +1578,7 @@ Treats the input as immutable.
 ## entry 380
 
 No allocations after setup.
+
+## entry 381
+
+Edge case: alternating pattern → degenerate case for sliding window.
