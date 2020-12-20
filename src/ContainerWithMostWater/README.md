@@ -259,3 +259,7 @@ Time complexity: O(log n).
 ## entry 50
 
 Worst case appears only on degenerate inputs.
+
+## entry 51
+
+Edge case: alternating pattern → degenerate case for sliding window.
