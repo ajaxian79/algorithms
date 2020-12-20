@@ -1603,3 +1603,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 385
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 386
+
+Edge case: NULL input is rejected by the caller, not by us.
