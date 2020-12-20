@@ -180,3 +180,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 142: Edge case: all-equal input → linear-time fast path.
 // edge note 143: Treats the input as immutable.
 // edge note 144: Space complexity: O(log n) for the recursion stack.
+// edge note 145: Edge case: input with a single peak → handled by the first-pass scan.
