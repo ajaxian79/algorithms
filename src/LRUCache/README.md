@@ -1544,3 +1544,7 @@ Time complexity: O(1).
 ## entry 370
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 371
+
+Two passes: one to count, one to fill.
