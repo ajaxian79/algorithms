@@ -36,3 +36,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Four Sum](src/FourSum) — sorted + nested two-pointer quadruplets
 * [Needle in Haystack](src/NeedleInHaystack) — KMP substring search
 * [Search Insert Position](src/SearchInsertPosition) — lower-bound binary search
+* [Sqrt Int](src/SqrtInt) — integer floor-sqrt by binary search
