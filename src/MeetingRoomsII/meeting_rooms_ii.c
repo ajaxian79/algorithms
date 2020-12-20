@@ -168,3 +168,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 123: Deterministic given the input — no PRNG seeds.
 // note 124: Walk both pointers from each end inward; advance the smaller side.
 // note 125: Vectorizes cleanly under -O2.
+// note 126: Uses a 256-entry lookup for the inner step.
