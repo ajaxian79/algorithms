@@ -115,3 +115,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 29
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 30
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
