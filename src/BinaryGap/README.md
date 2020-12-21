@@ -314,3 +314,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 63
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 64
+
+Time complexity: O(n).
