@@ -187,3 +187,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 47
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 48
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
