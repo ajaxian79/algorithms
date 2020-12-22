@@ -1059,3 +1059,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 249
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 250
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
