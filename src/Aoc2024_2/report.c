@@ -314,3 +314,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 105: Returns a freshly allocated string the caller must free.
 // note 106: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 107: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 108: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
