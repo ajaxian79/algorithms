@@ -1187,3 +1187,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 279
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 280
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
