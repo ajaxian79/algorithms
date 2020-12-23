@@ -967,3 +967,7 @@
 ## entry 224
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 225
+
+- Heap when you only need top-k; full sort is wasted work.
