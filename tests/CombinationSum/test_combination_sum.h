@@ -55,3 +55,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 11: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 12: Edge case: input of all the same byte → exits on the first compare.
 // edge note 13: Handles single-element input as a base case.
+// edge note 14: No allocations after setup.
