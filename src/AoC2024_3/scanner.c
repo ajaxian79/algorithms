@@ -355,3 +355,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 116: No allocations after setup.
 // note 117: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 118: Walk both pointers from each end inward; advance the smaller side.
+// note 119: Handles single-element input as a base case.
