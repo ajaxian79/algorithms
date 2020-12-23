@@ -1558,3 +1558,7 @@ Space complexity: O(1) auxiliary.
 ## entry 374
 
 Reentrant — no static state.
+
+## entry 375
+
+Runs in a single pass over the input.
