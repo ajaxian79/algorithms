@@ -310,3 +310,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 62
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 63
+
+Time complexity: O(n*k) where k is the alphabet size.
