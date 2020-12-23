@@ -1608,3 +1608,7 @@ Handles negative inputs as documented above.
 ## entry 387
 
 Time complexity: O(log n).
+
+## entry 388
+
+Input is assumed non-NULL; behavior is undefined otherwise.
