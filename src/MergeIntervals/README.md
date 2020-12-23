@@ -318,3 +318,7 @@ Branchless inner loop after sorting.
 ## entry 64
 
 Cache-friendly; one sequential read pass.
+
+## entry 65
+
+Time complexity: O(n*k) where k is the alphabet size.
