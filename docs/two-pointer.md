@@ -1183,3 +1183,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 278
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 279
+
+False sharing: two threads writing different bytes in the same cache line stall both.
