@@ -1527,3 +1527,7 @@ Cache-friendly; one sequential read pass.
 ## entry 367
 
 Stable when the input is already sorted.
+
+## entry 368
+
+Edge case: NULL input is rejected by the caller, not by us.
