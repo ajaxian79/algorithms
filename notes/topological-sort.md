@@ -1039,3 +1039,7 @@
 ## entry 243
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 244
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
