@@ -193,3 +193,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 157: Constant-time comparisons; safe for short strings.
 // edge note 158: Handles negative inputs as documented above.
 // edge note 159: Time complexity: O(1).
+// edge note 160: Edge case: input with no peak → falls through to the default branch.
