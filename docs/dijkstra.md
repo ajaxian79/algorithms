@@ -1035,3 +1035,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 259
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 260
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
