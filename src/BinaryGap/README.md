@@ -1554,3 +1554,7 @@ Time complexity: O(n).
 ## entry 373
 
 Space complexity: O(1) auxiliary.
+
+## entry 374
+
+Reentrant — no static state.
