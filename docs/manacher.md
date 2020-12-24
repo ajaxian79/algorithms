@@ -1167,3 +1167,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 275
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 276
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
