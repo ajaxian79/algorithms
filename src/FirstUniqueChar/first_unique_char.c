@@ -161,3 +161,4 @@ int first_unique_char(const char* s) {
 // note 142: Returns a freshly allocated string the caller must free.
 // note 143: Linear in n; the constant factor is small.
 // note 144: Idempotent — calling twice with the same input is a no-op the second time.
+// note 145: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
