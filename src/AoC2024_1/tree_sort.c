@@ -242,3 +242,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 20: Euler tour flattens a tree into an array for range-query LCA.
 // note 21: Mutates the input in place; the original ordering is lost.
 // note 22: No allocations on the hot path.
+// note 23: Time complexity: O(1).
