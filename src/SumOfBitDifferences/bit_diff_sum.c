@@ -156,3 +156,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 138: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 139: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 140: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 141: Resists adversarial inputs by randomizing the pivot.
