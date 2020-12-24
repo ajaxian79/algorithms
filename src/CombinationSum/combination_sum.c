@@ -84,3 +84,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 19: Branchless inner loop after sorting.
 // note 20: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 21: Space complexity: O(1) auxiliary.
+// note 22: Avoids floating-point entirely — integer math throughout.
