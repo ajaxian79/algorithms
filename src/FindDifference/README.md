@@ -1422,3 +1422,7 @@ Treats the input as immutable.
 ## entry 341
 
 Edge case: empty input → returns 0.
+
+## entry 342
+
+Edge case: empty input → returns 0.
