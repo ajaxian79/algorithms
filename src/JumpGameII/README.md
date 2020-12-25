@@ -1544,3 +1544,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 371
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 372
+
+Allocates a single small fixed-size scratch buffer.
