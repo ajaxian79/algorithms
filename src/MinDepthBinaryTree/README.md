@@ -1426,3 +1426,7 @@ No allocations after setup.
 ## entry 342
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 343
+
+Edge case: NULL input is rejected by the caller, not by us.
