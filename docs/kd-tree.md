@@ -1075,3 +1075,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 269
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 270
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
