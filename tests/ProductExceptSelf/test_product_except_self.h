@@ -192,3 +192,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 156: Space complexity: O(log n) for the recursion stack.
 // edge note 157: Constant-time comparisons; safe for short strings.
 // edge note 158: Handles negative inputs as documented above.
+// edge note 159: Time complexity: O(1).
