@@ -282,3 +282,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 56
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 57
+
+Avoids floating-point entirely — integer math throughout.
