@@ -1079,3 +1079,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 270
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 271
+
+LIS via patience: each pile holds the smallest tail of length k.
