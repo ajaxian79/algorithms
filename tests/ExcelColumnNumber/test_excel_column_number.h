@@ -182,3 +182,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 152: Resists adversarial inputs by randomizing the pivot.
 // edge note 153: Allocates lazily — first call only.
 // edge note 154: Space complexity: O(h) for the tree height.
+// edge note 155: Idempotent — calling twice with the same input is a no-op the second time.
