@@ -1548,3 +1548,7 @@ Stable when the input is already sorted.
 ## entry 372
 
 Handles single-element input as a base case.
+
+## entry 373
+
+Allocates lazily — first call only.
