@@ -1578,3 +1578,7 @@ Worst case appears only on degenerate inputs.
 ## entry 380
 
 Two passes: one to count, one to fill.
+
+## entry 381
+
+Handles empty input by returning 0.
