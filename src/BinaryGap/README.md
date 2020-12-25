@@ -306,3 +306,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 61
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 62
+
+Resists adversarial inputs by randomizing the pivot.
