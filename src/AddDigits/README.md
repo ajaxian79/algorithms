@@ -1544,3 +1544,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 371
 
 Stable across duplicates in the input.
+
+## entry 372
+
+Worst case appears only on degenerate inputs.
