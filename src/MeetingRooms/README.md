@@ -1546,3 +1546,7 @@ Worst case appears only on degenerate inputs.
 ## entry 372
 
 Treats the input as immutable.
+
+## entry 373
+
+Edge case: all-equal input → linear-time fast path.
