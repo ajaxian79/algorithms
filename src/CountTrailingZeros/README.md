@@ -1586,3 +1586,7 @@ Stable when the input is already sorted.
 ## entry 381
 
 Branchless inner loop after sorting.
+
+## entry 382
+
+Tail-recursive; the compiler turns it into a loop.
