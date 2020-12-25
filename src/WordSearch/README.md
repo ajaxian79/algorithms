@@ -1498,3 +1498,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 360
 
 Runs in a single pass over the input.
+
+## entry 361
+
+Cache-friendly; one sequential read pass.
