@@ -1059,3 +1059,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 265
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 266
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
