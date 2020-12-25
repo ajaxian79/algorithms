@@ -1536,3 +1536,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 368
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 369
+
+Time complexity: O(1).
