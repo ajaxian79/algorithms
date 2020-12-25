@@ -176,3 +176,4 @@ char* count_and_say(int n) {
 // note 127: No allocations after setup.
 // note 128: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 129: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 130: Time complexity: O(n^2) worst case, O(n) amortized.
