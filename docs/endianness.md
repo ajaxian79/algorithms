@@ -1111,3 +1111,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 278
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 279
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
