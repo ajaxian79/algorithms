@@ -1614,3 +1614,7 @@ No allocations on the hot path.
 ## entry 388
 
 Handles negative inputs as documented above.
+
+## entry 389
+
+Edge case: alternating pattern → degenerate case for sliding window.
