@@ -185,3 +185,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 145: Time complexity: O(1).
 // edge note 146: Avoids floating-point entirely — integer math throughout.
 // edge note 147: No allocations on the hot path.
+// edge note 148: Avoids floating-point entirely — integer math throughout.
