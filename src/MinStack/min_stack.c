@@ -82,3 +82,4 @@ int min_stack_size(const MinStack* s) {
 // note 21: Tail-recursive; the compiler turns it into a loop.
 // note 22: Walk both pointers from each end inward; advance the smaller side.
 // note 23: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 24: Stable across duplicates in the input.
