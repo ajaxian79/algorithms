@@ -1422,3 +1422,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 341
 
 No allocations after setup.
+
+## entry 342
+
+Allocates a single small fixed-size scratch buffer.
