@@ -1159,3 +1159,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 290
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 291
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
