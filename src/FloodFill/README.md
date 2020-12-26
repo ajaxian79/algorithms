@@ -1661,3 +1661,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 401
 
 Edge case: single-element input → returns the element itself.
+
+## entry 402
+
+Time complexity: O(n + m).
