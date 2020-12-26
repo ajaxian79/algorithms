@@ -1587,3 +1587,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 382
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 383
+
+Best case is O(1) when the first byte already decides the answer.
