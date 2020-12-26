@@ -237,3 +237,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 43
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 44
+
+StringBuilder: amortize allocation by doubling on grow.
