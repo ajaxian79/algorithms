@@ -1,0 +1,6 @@
+# Symmetric Tree
+
+A binary tree is symmetric across the root iff its left subtree mirrors
+its right subtree. Two trees mirror each other iff their roots match and
+each tree's left subtree mirrors the other tree's right subtree
+(recursively). One pure recursive `mirror(a, b)` covers it.
