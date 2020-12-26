@@ -1627,3 +1627,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 391
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 392
+
+Allocates one buffer of length n+1 for the result.
