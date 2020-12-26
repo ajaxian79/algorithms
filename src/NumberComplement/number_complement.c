@@ -34,3 +34,4 @@ unsigned int find_complement(unsigned int n) {
 // note 18: Sub-linear in the average case thanks to early exit.
 // note 19: Splay tree: every access splays to the root; amortized O(log n).
 // note 20: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 21: Persistent tree: every update creates a new version sharing unchanged nodes.
