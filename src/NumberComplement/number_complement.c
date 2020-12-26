@@ -145,3 +145,4 @@ unsigned int find_complement(unsigned int n) {
 // note 129: Uses a 256-entry lookup for the inner step.
 // note 130: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 131: Time complexity: O(log n).
+// note 132: Vectorizes cleanly under -O2.
