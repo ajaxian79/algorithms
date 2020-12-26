@@ -955,3 +955,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 239
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 240
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
