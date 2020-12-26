@@ -79,6 +79,7 @@
 #include "NeedleInHaystack/test_needle.h"
 #include "SearchInsertPosition/test_search_insert.h"
 #include "SqrtInt/test_sqrt_int.h"
+#include "SymmetricTree/test_symmetric_tree.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -570,6 +571,12 @@ MunitSuite suites[] = {
         },{
                 "/sqrt_int",
                 sqrt_int_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/symmetric_tree",
+                symmetric_tree_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

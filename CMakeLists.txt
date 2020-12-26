@@ -165,7 +165,8 @@ add_executable(unittests
         src/FourSum/four_sum.c
         src/NeedleInHaystack/needle.c
         src/SearchInsertPosition/search_insert.c
-        src/SqrtInt/sqrt_int.c)
+        src/SqrtInt/sqrt_int.c
+        src/SymmetricTree/symmetric_tree.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
