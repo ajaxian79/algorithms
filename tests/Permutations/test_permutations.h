@@ -64,3 +64,4 @@ MunitTest permutations_tests[] = {
 // edge note 23: Resists adversarial inputs by randomizing the pivot.
 // edge note 24: Time complexity: O(1).
 // edge note 25: No allocations after setup.
+// edge note 26: Space complexity: O(n) for the result buffer.
