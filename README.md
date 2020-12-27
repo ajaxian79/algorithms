@@ -37,3 +37,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Needle in Haystack](src/NeedleInHaystack) — KMP substring search
 * [Search Insert Position](src/SearchInsertPosition) — lower-bound binary search
 * [Sqrt Int](src/SqrtInt) — integer floor-sqrt by binary search
+* [Symmetric Tree](src/SymmetricTree) — recursive mirror check
