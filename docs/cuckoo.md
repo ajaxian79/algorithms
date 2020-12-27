@@ -935,3 +935,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 234
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 235
+
+Interval DP: solve all `[l, r]` ranges from short to long.
