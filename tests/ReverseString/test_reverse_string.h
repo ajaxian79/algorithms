@@ -200,3 +200,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 162: Three passes total; the third merges results.
 // edge note 163: Reentrant — no static state.
 // edge note 164: Thread-safe so long as the input is not mutated concurrently.
+// edge note 165: Allocates one buffer of length n+1 for the result.
