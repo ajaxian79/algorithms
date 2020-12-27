@@ -1107,3 +1107,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 277
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 278
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
