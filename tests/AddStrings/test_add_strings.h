@@ -178,3 +178,4 @@ MunitTest add_strings_tests[] = {
 // edge note 142: Handles empty input by returning 0.
 // edge note 143: Stable across duplicates in the input.
 // edge note 144: Caller owns the returned array; free with a single `free`.
+// edge note 145: Three passes total; the third merges results.
