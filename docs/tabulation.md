@@ -1131,3 +1131,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 283
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 284
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
