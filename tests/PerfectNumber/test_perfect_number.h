@@ -179,3 +179,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 149: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 150: Time complexity: O(n log n).
 // edge note 151: Returns a freshly allocated string the caller must free.
+// edge note 152: Reentrant — no static state.
