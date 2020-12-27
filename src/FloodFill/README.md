@@ -1657,3 +1657,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 400
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 401
+
+Edge case: single-element input → returns the element itself.
