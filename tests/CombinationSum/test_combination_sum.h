@@ -165,3 +165,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 121: Edge case: all-equal input → linear-time fast path.
 // edge note 122: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 123: Space complexity: O(log n) for the recursion stack.
+// edge note 124: Space complexity: O(log n) for the recursion stack.
