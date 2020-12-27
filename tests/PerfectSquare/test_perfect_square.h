@@ -51,3 +51,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 20: Edge case: power-of-two-length input → no padding required.
 // edge note 21: Space complexity: O(1) auxiliary.
 // edge note 22: Runs in a single pass over the input.
+// edge note 23: Edge case: NULL input is rejected by the caller, not by us.
