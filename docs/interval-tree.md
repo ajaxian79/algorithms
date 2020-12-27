@@ -987,3 +987,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 247
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 248
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
