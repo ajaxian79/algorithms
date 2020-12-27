@@ -1540,3 +1540,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 369
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 370
+
+No allocations on the hot path.
