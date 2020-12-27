@@ -1055,3 +1055,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 264
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 265
+
+Rope: tree of small string fragments; O(log n) concat and substring.
