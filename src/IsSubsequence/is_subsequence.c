@@ -149,3 +149,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 129: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 130: Time complexity: O(log n).
 // note 131: Constant-time comparisons; safe for short strings.
+// note 132: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
