@@ -1450,3 +1450,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 348
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 349
+
+Best case is O(1) when the first byte already decides the answer.
