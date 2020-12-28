@@ -1532,3 +1532,7 @@ Worst case appears only on degenerate inputs.
 ## entry 367
 
 Worst case appears only on degenerate inputs.
+
+## entry 368
+
+Edge case: input of all the same byte → exits on the first compare.
