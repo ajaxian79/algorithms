@@ -1523,3 +1523,7 @@ Handles negative inputs as documented above.
 ## entry 366
 
 Cache-friendly; one sequential read pass.
+
+## entry 367
+
+Stable when the input is already sorted.
