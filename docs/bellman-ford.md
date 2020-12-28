@@ -1147,3 +1147,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 287
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 288
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
