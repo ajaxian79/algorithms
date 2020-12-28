@@ -42,3 +42,4 @@ MunitTest number_complement_tests[] = {
 // edge note 15: Three passes total; the third merges results.
 // edge note 16: Space complexity: O(log n) for the recursion stack.
 // edge note 17: Branchless inner loop after sorting.
+// edge note 18: Uses a small fixed-size lookup table.
