@@ -1562,3 +1562,7 @@ Caller owns the returned buffer.
 ## entry 376
 
 Stable across duplicates in the input.
+
+## entry 377
+
+Space complexity: O(n) for the result buffer.
