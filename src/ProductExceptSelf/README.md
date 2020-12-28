@@ -1548,3 +1548,7 @@ Handles empty input by returning 0.
 ## entry 371
 
 Branchless inner loop after sorting.
+
+## entry 372
+
+Resists adversarial inputs by randomizing the pivot.
