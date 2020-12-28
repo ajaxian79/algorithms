@@ -1087,3 +1087,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 255
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 256
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
