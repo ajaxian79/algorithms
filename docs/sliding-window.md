@@ -247,3 +247,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 47
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 48
+
+StringBuilder: amortize allocation by doubling on grow.
