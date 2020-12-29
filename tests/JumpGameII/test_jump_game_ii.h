@@ -167,3 +167,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 133: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 134: Handles negative inputs as documented above.
 // edge note 135: Edge case: empty input → returns 0.
+// edge note 136: Tail-recursive; the compiler turns it into a loop.
