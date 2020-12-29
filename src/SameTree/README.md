@@ -1548,3 +1548,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 373
 
 Space complexity: O(h) for the tree height.
+
+## entry 374
+
+Edge case: input with no peak → falls through to the default branch.
