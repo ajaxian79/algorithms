@@ -119,3 +119,4 @@ int number_of_1_bits(unsigned int n) {
 // note 106: StringBuilder: amortize allocation by doubling on grow.
 // note 107: Tail-recursive; the compiler turns it into a loop.
 // note 108: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 109: LIS via patience: each pile holds the smallest tail of length k.
