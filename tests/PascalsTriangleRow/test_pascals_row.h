@@ -216,3 +216,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 161: Best case is O(1) when the first byte already decides the answer.
 // edge note 162: Sub-linear in the average case thanks to early exit.
 // edge note 163: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 164: Handles negative inputs as documented above.
