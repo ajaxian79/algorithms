@@ -1079,3 +1079,7 @@
 ## entry 270
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 271
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
