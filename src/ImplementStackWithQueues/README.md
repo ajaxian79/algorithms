@@ -336,3 +336,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 69
 
 Handles empty input by returning 0.
+
+## entry 70
+
+Input is assumed non-NULL; behavior is undefined otherwise.
