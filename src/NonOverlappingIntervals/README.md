@@ -293,3 +293,7 @@ Branchless inner loop after sorting.
 ## entry 58
 
 Space complexity: O(1) auxiliary.
+
+## entry 59
+
+Time complexity: O(n + m).
