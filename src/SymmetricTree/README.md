@@ -1566,3 +1566,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 377
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 378
+
+Space complexity: O(n) for the result buffer.
