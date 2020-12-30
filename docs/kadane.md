@@ -1095,3 +1095,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 258
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 259
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
