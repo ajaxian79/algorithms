@@ -1561,3 +1561,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 375
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 376
+
+Cache-friendly; one sequential read pass.
