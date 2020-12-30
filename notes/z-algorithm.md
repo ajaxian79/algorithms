@@ -1249,3 +1249,7 @@
 ## entry 299
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 300
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
