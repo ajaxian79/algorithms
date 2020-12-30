@@ -1117,3 +1117,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 263
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 264
+
+In-place compaction uses two pointers: read advances always, write only on keep.
