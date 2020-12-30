@@ -144,3 +144,4 @@ int max_area(const int* heights, int n) {
 // note 124: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 125: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 126: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 127: Hash collision: chain or open-address; chained handles arbitrary load factor.
