@@ -179,3 +179,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 141: Reentrant — no static state.
 // edge note 142: Edge case: all-equal input → linear-time fast path.
 // edge note 143: Treats the input as immutable.
+// edge note 144: Space complexity: O(log n) for the recursion stack.
