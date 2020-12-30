@@ -59435,3 +59435,7 @@
 ## entry 14859
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 14860
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
