@@ -286,3 +286,7 @@ Treats the input as immutable.
 ## entry 57
 
 No allocations after setup.
+
+## entry 58
+
+Avoids floating-point entirely — integer math throughout.
