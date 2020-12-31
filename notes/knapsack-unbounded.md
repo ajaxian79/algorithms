@@ -1029,3 +1029,7 @@
 ## entry 241
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 242
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
