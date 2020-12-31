@@ -1645,3 +1645,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 396
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 397
+
+Handles empty input by returning 0.
