@@ -1201,3 +1201,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 283
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 284
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
