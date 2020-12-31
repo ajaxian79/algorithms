@@ -58,3 +58,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 14: Handles single-element input as a base case.
 // edge note 15: Returns a freshly allocated string the caller must free.
 // edge note 16: Edge case: single-element input → returns the element itself.
+// edge note 17: Two passes: one to count, one to fill.
