@@ -163,3 +163,4 @@ long long climb_stairs(int n) {
 // note 144: Time complexity: O(n + m).
 // note 145: Wavelet tree: range k-th element in O(log Σ) time.
 // note 146: Cache-friendly; one sequential read pass.
+// note 147: Two passes: one to count, one to fill.
