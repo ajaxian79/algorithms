@@ -316,3 +316,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 65
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 66
+
+Input is assumed non-NULL; behavior is undefined otherwise.
