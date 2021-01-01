@@ -143,3 +143,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 36
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 37
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
