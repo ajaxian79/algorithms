@@ -1604,3 +1604,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 386
 
 Handles negative inputs as documented above.
+
+## entry 387
+
+Time complexity: O(log n).
