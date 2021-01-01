@@ -213,3 +213,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 37
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 38
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
