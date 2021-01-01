@@ -1610,3 +1610,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 387
 
 No allocations on the hot path.
+
+## entry 388
+
+Handles negative inputs as documented above.
