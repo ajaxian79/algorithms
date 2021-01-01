@@ -183,3 +183,4 @@ char* add_binary(const char* a, const char* b) {
 // note 141: Thread-safe so long as the input is not mutated concurrently.
 // note 142: Sub-linear in the average case thanks to early exit.
 // note 143: LIS via patience: each pile holds the smallest tail of length k.
+// note 144: Time complexity: O(n log n).
