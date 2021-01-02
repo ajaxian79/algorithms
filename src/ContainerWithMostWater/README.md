@@ -255,3 +255,7 @@ Allocates lazily — first call only.
 ## entry 49
 
 Time complexity: O(log n).
+
+## entry 50
+
+Worst case appears only on degenerate inputs.
