@@ -1113,3 +1113,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 262
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 263
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
