@@ -298,3 +298,7 @@ No allocations on the hot path.
 ## entry 60
 
 Constant-time comparisons; safe for short strings.
+
+## entry 61
+
+Worst case appears only on degenerate inputs.
