@@ -1583,3 +1583,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 381
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 382
+
+Edge case: reverse-sorted input → still O(n log n).
