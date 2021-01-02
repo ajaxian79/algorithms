@@ -86,6 +86,7 @@ add_executable(needle src/NeedleInHaystack/main.c src/NeedleInHaystack/needle.c)
 add_executable(search_insert src/SearchInsertPosition/main.c src/SearchInsertPosition/search_insert.c)
 add_executable(sqrt_int src/SqrtInt/main.c src/SqrtInt/sqrt_int.c)
 add_executable(symmetric_tree src/SymmetricTree/main.c src/SymmetricTree/symmetric_tree.c)
+add_executable(max_depth src/MaxDepthBinaryTree/main.c src/MaxDepthBinaryTree/max_depth.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -252,4 +253,5 @@ target_link_libraries(needle PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimal
 target_link_libraries(search_insert PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(sqrt_int PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(symmetric_tree PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(max_depth PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
