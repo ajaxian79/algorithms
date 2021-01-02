@@ -1650,3 +1650,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 398
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 399
+
+Edge case: input with one duplicate → handled without an extra pass.
