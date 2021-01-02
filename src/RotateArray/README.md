@@ -1623,3 +1623,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 390
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 391
+
+Idempotent — calling twice with the same input is a no-op the second time.
