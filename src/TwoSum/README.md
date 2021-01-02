@@ -1553,3 +1553,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 363
 
 Edge case: empty input → returns 0.
+
+## entry 364
+
+Two passes: one to count, one to fill.
