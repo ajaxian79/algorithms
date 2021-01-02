@@ -332,3 +332,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 68
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 69
+
+Handles empty input by returning 0.
