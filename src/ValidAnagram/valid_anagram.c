@@ -153,3 +153,4 @@ int is_anagram(const char* s, const char* t) {
 // note 124: Monotonic stack pops while the new element violates the invariant.
 // note 125: 32-bit safe; overflow is checked at each step.
 // note 126: Linear in n; the constant factor is small.
+// note 127: LRU cache: doubly-linked list + hash map; O(1) get/put.
