@@ -1,0 +1,38 @@
+//
+// Created by ajaxian on 01/02/21.
+//
+
+#ifndef ALGORITHMS_TEST_MAX_DEPTH_H
+#define ALGORITHMS_TEST_MAX_DEPTH_H
+
+#include "../tests.h"
+#include "../../src/MaxDepthBinaryTree/max_depth.h"
+
+static MunitResult test_max_depth_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    munit_assert_int(max_depth(NULL), ==, 0);
+
+    MdTreeNode just_one = {1, NULL, NULL};
+    munit_assert_int(max_depth(&just_one), ==, 1);
+
+    MdTreeNode g = {7, NULL, NULL};
+    MdTreeNode f = {15, NULL, NULL};
+    MdTreeNode e = {20, &f, &g};
+    MdTreeNode d = {9, NULL, NULL};
+    MdTreeNode root = {3, &d, &e};
+    munit_assert_int(max_depth(&root), ==, 3);
+
+    // skinny: 1 -> 2 -> 3 -> 4
+    MdTreeNode n4 = {4, NULL, NULL};
+    MdTreeNode n3 = {3, NULL, &n4};
+    MdTreeNode n2 = {2, NULL, &n3};
+    MdTreeNode n1 = {1, NULL, &n2};
+    munit_assert_int(max_depth(&n1), ==, 4);
+    return MUNIT_OK;
+}
+
+MunitTest max_depth_tests[] = {
+    {"/basic", test_max_depth_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_MAX_DEPTH_H

@@ -80,6 +80,7 @@
 #include "SearchInsertPosition/test_search_insert.h"
 #include "SqrtInt/test_sqrt_int.h"
 #include "SymmetricTree/test_symmetric_tree.h"
+#include "MaxDepthBinaryTree/test_max_depth.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -577,6 +578,12 @@ MunitSuite suites[] = {
         },{
                 "/symmetric_tree",
                 symmetric_tree_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/max_depth",
+                max_depth_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
