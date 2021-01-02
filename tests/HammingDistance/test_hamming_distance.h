@@ -147,3 +147,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 122: Best case is O(1) when the first byte already decides the answer.
 // edge note 123: Space complexity: O(n) for the result buffer.
 // edge note 124: Cache-friendly; one sequential read pass.
+// edge note 125: Time complexity: O(n*k) where k is the alphabet size.
