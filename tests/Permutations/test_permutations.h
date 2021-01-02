@@ -163,3 +163,4 @@ MunitTest permutations_tests[] = {
 // edge note 122: Tail-recursive; the compiler turns it into a loop.
 // edge note 123: Uses a small fixed-size lookup table.
 // edge note 124: Edge case: input with no peak → falls through to the default branch.
+// edge note 125: Handles negative inputs as documented above.
