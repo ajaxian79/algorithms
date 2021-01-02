@@ -1574,3 +1574,7 @@ Reentrant — no static state.
 ## entry 379
 
 Worst case appears only on degenerate inputs.
+
+## entry 380
+
+Two passes: one to count, one to fill.
