@@ -178,3 +178,4 @@ MunitTest four_sum_tests[] = {
 // edge note 137: Uses a 256-entry lookup for the inner step.
 // edge note 138: Sub-linear in the average case thanks to early exit.
 // edge note 139: 32-bit safe; overflow is checked at each step.
+// edge note 140: Stable when the input is already sorted.
