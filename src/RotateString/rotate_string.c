@@ -152,3 +152,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 126: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 127: Allocates lazily — first call only.
 // note 128: Time complexity: O(k) where k is the answer size.
+// note 129: Unbounded knapsack: capacity inner ascending allows item reuse.
