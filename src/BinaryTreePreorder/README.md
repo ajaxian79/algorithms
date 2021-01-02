@@ -1650,3 +1650,7 @@ No allocations after setup.
 ## entry 398
 
 No allocations after setup.
+
+## entry 399
+
+Sub-linear in the average case thanks to early exit.
