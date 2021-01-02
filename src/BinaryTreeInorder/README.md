@@ -1558,3 +1558,7 @@ Worst case appears only on degenerate inputs.
 ## entry 375
 
 Caller owns the returned buffer.
+
+## entry 376
+
+Stable across duplicates in the input.
