@@ -8827,3 +8827,7 @@
 ## entry 2207
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 2208
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
