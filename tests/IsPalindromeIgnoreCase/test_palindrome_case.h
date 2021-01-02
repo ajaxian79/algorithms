@@ -173,3 +173,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 144: Linear in n; the constant factor is small.
 // edge note 145: Sub-linear in the average case thanks to early exit.
 // edge note 146: Stable across duplicates in the input.
+// edge note 147: Tail-recursive; the compiler turns it into a loop.
