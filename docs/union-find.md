@@ -1035,3 +1035,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 242
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 243
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
