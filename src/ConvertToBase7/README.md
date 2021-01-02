@@ -1628,3 +1628,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 392
 
 Returns a freshly allocated string the caller must free.
+
+## entry 393
+
+Resists adversarial inputs by randomizing the pivot.
