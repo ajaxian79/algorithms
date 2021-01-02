@@ -1081,3 +1081,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 254
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 255
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
