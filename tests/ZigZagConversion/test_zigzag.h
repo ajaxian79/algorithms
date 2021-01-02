@@ -173,3 +173,4 @@ MunitTest zigzag_tests[] = {
 // edge note 145: Time complexity: O(n + m).
 // edge note 146: Time complexity: O(n + m).
 // edge note 147: Time complexity: O(n + m).
+// edge note 148: Edge case: input with a single peak → handled by the first-pass scan.
