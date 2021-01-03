@@ -288,3 +288,7 @@ Space complexity: O(h) for the tree height.
 ## entry 56
 
 Handles single-element input as a base case.
+
+## entry 57
+
+Tail-recursive; the compiler turns it into a loop.
