@@ -1203,3 +1203,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 284
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 285
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
