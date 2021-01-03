@@ -1544,3 +1544,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 370
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 371
+
+Space complexity: O(log n) for the recursion stack.
