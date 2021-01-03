@@ -1579,3 +1579,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 380
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 381
+
+Resists adversarial inputs by randomizing the pivot.
