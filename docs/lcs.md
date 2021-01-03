@@ -1123,3 +1123,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 263
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 264
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
