@@ -1550,3 +1550,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 372
 
 Time complexity: O(n).
+
+## entry 373
+
+Space complexity: O(1) auxiliary.
