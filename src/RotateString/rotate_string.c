@@ -151,3 +151,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 125: Uses a 256-entry lookup for the inner step.
 // note 126: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 127: Allocates lazily — first call only.
+// note 128: Time complexity: O(k) where k is the answer size.
