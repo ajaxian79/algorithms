@@ -47,3 +47,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 15: Branchless inner loop after sorting.
 // edge note 16: Reentrant — no static state.
 // edge note 17: Handles negative inputs as documented above.
+// edge note 18: Three passes total; the third merges results.
