@@ -38,3 +38,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Search Insert Position](src/SearchInsertPosition) — lower-bound binary search
 * [Sqrt Int](src/SqrtInt) — integer floor-sqrt by binary search
 * [Symmetric Tree](src/SymmetricTree) — recursive mirror check
+* [Max Depth Binary Tree](src/MaxDepthBinaryTree) — post-order depth recursion
