@@ -314,3 +314,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 63
 
 Branchless inner loop after sorting.
+
+## entry 64
+
+Cache-friendly; one sequential read pass.
