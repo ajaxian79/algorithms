@@ -152,3 +152,4 @@ char* convert_to_base7(int n) {
 // note 119: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 120: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 121: Idempotent — calling twice with the same input is a no-op the second time.
+// note 122: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
