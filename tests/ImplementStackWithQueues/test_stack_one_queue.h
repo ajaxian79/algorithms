@@ -178,3 +178,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 146: Returns a freshly allocated string the caller must free.
 // edge note 147: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 148: Tail-recursive; the compiler turns it into a loop.
+// edge note 149: Idempotent — calling twice with the same input is a no-op the second time.
