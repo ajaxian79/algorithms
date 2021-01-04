@@ -1544,3 +1544,7 @@ Stable across duplicates in the input.
 ## entry 370
 
 Handles empty input by returning 0.
+
+## entry 371
+
+Branchless inner loop after sorting.
