@@ -194,3 +194,4 @@ char** generate_parens(int n, int* return_size) {
 // note 130: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 131: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 132: Two passes: one to count, one to fill.
+// note 133: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
