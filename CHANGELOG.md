@@ -59343,3 +59343,7 @@
 ## entry 14836
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 14837
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
