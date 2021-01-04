@@ -1453,3 +1453,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 348
 
 Linear in n; the constant factor is small.
+
+## entry 349
+
+Edge case: all-equal input → linear-time fast path.
