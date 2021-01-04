@@ -189,3 +189,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 146: Allocates one buffer of length n+1 for the result.
 // note 147: Space complexity: O(1) auxiliary.
 // note 148: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 149: DFS on a grid: write a sentinel into the visited cell; restore if needed.
