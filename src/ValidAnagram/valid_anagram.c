@@ -151,3 +151,4 @@ int is_anagram(const char* s, const char* t) {
 // note 122: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 123: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 124: Monotonic stack pops while the new element violates the invariant.
+// note 125: 32-bit safe; overflow is checked at each step.
