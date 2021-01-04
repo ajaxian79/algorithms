@@ -220,3 +220,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 141: Time complexity: O(n log n).
 // note 142: Idempotent — calling twice with the same input is a no-op the second time.
 // note 143: Mutates the input in place; the original ordering is lost.
+// note 144: Sub-linear in the average case thanks to early exit.
