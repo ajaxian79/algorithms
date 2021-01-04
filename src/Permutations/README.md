@@ -1736,3 +1736,7 @@ Branchless inner loop after sorting.
 ## entry 419
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 420
+
+Branchless inner loop after sorting.
