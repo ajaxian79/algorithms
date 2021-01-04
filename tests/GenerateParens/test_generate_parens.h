@@ -219,3 +219,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 159: Branchless inner loop after sorting.
 // edge note 160: Deterministic given the input — no PRNG seeds.
 // edge note 161: Resists adversarial inputs by randomizing the pivot.
+// edge note 162: Thread-safe so long as the input is not mutated concurrently.
