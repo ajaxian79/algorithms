@@ -1119,3 +1119,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 263
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 264
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
