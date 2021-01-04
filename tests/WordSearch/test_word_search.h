@@ -55,3 +55,4 @@ MunitTest word_search_tests[] = {
 // edge note 21: Allocates one buffer of length n+1 for the result.
 // edge note 22: Mutates the input in place; the original ordering is lost.
 // edge note 23: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 24: Edge case: empty input → returns 0.
