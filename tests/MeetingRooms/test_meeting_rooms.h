@@ -175,3 +175,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 144: Resists adversarial inputs by randomizing the pivot.
 // edge note 145: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 146: Returns a freshly allocated string the caller must free.
+// edge note 147: Avoids floating-point entirely — integer math throughout.
