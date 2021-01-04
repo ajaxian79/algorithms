@@ -1055,3 +1055,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 248
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 249
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
