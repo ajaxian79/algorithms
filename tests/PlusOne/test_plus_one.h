@@ -197,3 +197,4 @@ MunitTest plus_one_tests[] = {
 // edge note 132: Cache-friendly; one sequential read pass.
 // edge note 133: Handles empty input by returning 0.
 // edge note 134: Time complexity: O(log n).
+// edge note 135: Time complexity: O(n + m).
