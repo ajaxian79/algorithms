@@ -152,3 +152,4 @@ char* add_strings(const char* a, const char* b) {
 // note 112: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 113: Caller owns the returned buffer.
 // note 114: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 115: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
