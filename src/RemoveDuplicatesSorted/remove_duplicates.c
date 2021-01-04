@@ -154,3 +154,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 138: Allocates lazily — first call only.
 // note 139: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 140: Space complexity: O(h) for the tree height.
+// note 141: Interval DP: solve all `[l, r]` ranges from short to long.
