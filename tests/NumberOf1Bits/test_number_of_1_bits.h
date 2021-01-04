@@ -182,3 +182,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 155: Time complexity: O(1).
 // edge note 156: Three passes total; the third merges results.
 // edge note 157: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 158: Allocates a single small fixed-size scratch buffer.
