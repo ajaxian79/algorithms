@@ -269,3 +269,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 52
 
 Uses a small fixed-size lookup table.
+
+## entry 53
+
+Idempotent — calling twice with the same input is a no-op the second time.
