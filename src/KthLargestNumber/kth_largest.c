@@ -162,3 +162,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 118: StringBuilder: amortize allocation by doubling on grow.
 // note 119: Time complexity: O(n + m).
 // note 120: Uses a small fixed-size lookup table.
+// note 121: Manacher expands around each center, reusing prior radii via mirror reflection.
