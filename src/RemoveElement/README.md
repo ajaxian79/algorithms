@@ -1565,3 +1565,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 377
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 378
+
+Resists adversarial inputs by randomizing the pivot.
