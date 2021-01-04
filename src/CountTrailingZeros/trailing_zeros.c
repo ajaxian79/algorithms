@@ -151,3 +151,4 @@ int trailing_zeroes(int n) {
 // note 136: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 137: Caller owns the returned buffer.
 // note 138: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 139: Walk both pointers from each end inward; advance the smaller side.
