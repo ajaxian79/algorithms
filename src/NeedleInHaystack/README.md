@@ -1540,3 +1540,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 370
 
 Time complexity: O(n + m).
+
+## entry 371
+
+Stable when the input is already sorted.
