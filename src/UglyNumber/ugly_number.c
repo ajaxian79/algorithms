@@ -151,3 +151,4 @@ int is_ugly(int n) {
 // note 137: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 138: Space complexity: O(n) for the result buffer.
 // note 139: Resists adversarial inputs by randomizing the pivot.
+// note 140: Time complexity: O(n*k) where k is the alphabet size.
