@@ -1093,3 +1093,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 255
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 256
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
