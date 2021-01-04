@@ -1536,3 +1536,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 369
 
 Runs in a single pass over the input.
+
+## entry 370
+
+Branchless inner loop after sorting.
