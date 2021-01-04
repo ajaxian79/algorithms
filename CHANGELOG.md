@@ -59319,3 +59319,7 @@
 ## entry 14830
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 14831
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
