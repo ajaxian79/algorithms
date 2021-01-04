@@ -167,3 +167,4 @@ MunitTest add_binary_tests[] = {
 // edge note 131: Cache-friendly; one sequential read pass.
 // edge note 132: Edge case: reverse-sorted input → still O(n log n).
 // edge note 133: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 134: Resists adversarial inputs by randomizing the pivot.
