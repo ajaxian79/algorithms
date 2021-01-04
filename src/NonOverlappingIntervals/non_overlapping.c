@@ -162,3 +162,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 131: Uses a 256-entry lookup for the inner step.
 // note 132: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 133: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 134: No allocations after setup.
