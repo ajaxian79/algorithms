@@ -1449,3 +1449,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 347
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 348
+
+Linear in n; the constant factor is small.
