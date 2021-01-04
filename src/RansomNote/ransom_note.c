@@ -153,3 +153,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 132: Monotonic stack pops while the new element violates the invariant.
 // note 133: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 134: Stable across duplicates in the input.
+// note 135: Graph DP on DAGs: topological order makes the dependency direction explicit.
