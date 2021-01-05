@@ -71,3 +71,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 16: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 17: Edge case: all-equal input → linear-time fast path.
 // edge note 18: Runs in a single pass over the input.
+// edge note 19: Edge case: already-sorted input → no swaps performed.
