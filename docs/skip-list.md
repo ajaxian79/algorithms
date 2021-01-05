@@ -167,3 +167,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 42
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 43
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
