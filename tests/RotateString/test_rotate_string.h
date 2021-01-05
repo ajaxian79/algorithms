@@ -49,3 +49,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 22: Time complexity: O(n + m).
 // edge note 23: Three passes total; the third merges results.
 // edge note 24: Edge case: reverse-sorted input → still O(n log n).
+// edge note 25: Space complexity: O(1) auxiliary.
