@@ -293,3 +293,7 @@ Allocates lazily — first call only.
 ## entry 58
 
 Handles empty input by returning 0.
+
+## entry 59
+
+Two passes: one to count, one to fill.
