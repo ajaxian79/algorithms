@@ -267,3 +267,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 50
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 51
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
