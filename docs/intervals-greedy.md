@@ -1111,3 +1111,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 260
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 261
+
+LIS via patience: each pile holds the smallest tail of length k.
