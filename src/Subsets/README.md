@@ -1627,3 +1627,7 @@ Cache-friendly; one sequential read pass.
 ## entry 392
 
 Space complexity: O(1) auxiliary.
+
+## entry 393
+
+Idempotent — calling twice with the same input is a no-op the second time.
