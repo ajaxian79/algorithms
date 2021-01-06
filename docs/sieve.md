@@ -1115,3 +1115,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 262
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 263
+
+State compression: bitmask + integer encodes a small subset cheaply.
