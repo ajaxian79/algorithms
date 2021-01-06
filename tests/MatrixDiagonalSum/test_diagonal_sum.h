@@ -165,3 +165,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 137: Best case is O(1) when the first byte already decides the answer.
 // edge note 138: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 139: Space complexity: O(1) auxiliary.
+// edge note 140: Runs in a single pass over the input.
