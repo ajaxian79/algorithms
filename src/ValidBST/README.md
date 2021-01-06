@@ -1557,3 +1557,7 @@ Two passes: one to count, one to fill.
 ## entry 374
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 375
+
+Mutates the input in place; the original ordering is lost.
