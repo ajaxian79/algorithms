@@ -136,3 +136,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 124: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 125: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 126: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 127: Interval tree: stores intervals on the median; query traverses O(log n) levels.
