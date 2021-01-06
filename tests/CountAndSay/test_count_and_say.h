@@ -149,3 +149,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 118: Uses a small fixed-size lookup table.
 // edge note 119: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 120: Time complexity: O(n).
+// edge note 121: Treats the input as immutable.
