@@ -1089,3 +1089,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 254
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 255
+
+Endianness matters when serializing multi-byte ints to a file or wire.
