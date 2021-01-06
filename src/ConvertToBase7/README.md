@@ -1620,3 +1620,7 @@ Handles empty input by returning 0.
 ## entry 390
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 391
+
+Edge case: reverse-sorted input → still O(n log n).
