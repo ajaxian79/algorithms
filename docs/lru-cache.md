@@ -951,3 +951,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 238
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 239
+
+Articulation points: same DFS as bridges, with a slightly different test.
