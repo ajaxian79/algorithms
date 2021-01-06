@@ -1123,3 +1123,7 @@
 ## entry 265
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 266
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
