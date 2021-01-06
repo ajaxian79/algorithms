@@ -1561,3 +1561,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 375
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 376
+
+Edge case: input with a single peak → handled by the first-pass scan.
