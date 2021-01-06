@@ -1071,3 +1071,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 268
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 269
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
