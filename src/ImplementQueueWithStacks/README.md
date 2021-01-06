@@ -331,3 +331,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 68
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 69
+
+Space complexity: O(log n) for the recursion stack.
