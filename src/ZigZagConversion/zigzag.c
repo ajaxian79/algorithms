@@ -188,3 +188,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 145: Uses a small fixed-size lookup table.
 // note 146: Allocates one buffer of length n+1 for the result.
 // note 147: Space complexity: O(1) auxiliary.
+// note 148: False sharing: two threads writing different bytes in the same cache line stall both.
