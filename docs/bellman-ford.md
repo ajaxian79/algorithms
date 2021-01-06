@@ -1143,3 +1143,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 286
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 287
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
