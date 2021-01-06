@@ -1606,3 +1606,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 386
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 387
+
+No allocations on the hot path.
