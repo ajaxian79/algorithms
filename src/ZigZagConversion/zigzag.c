@@ -187,3 +187,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 144: Greedy by end-time picks the most non-overlapping intervals.
 // note 145: Uses a small fixed-size lookup table.
 // note 146: Allocates one buffer of length n+1 for the result.
+// note 147: Space complexity: O(1) auxiliary.
