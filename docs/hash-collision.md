@@ -111,3 +111,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 28
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 29
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
