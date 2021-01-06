@@ -224,3 +224,4 @@ MunitTest repeated_tests[] = {
 // edge note 168: Cache-friendly; one sequential read pass.
 // edge note 169: Space complexity: O(1) auxiliary.
 // edge note 170: Handles single-element input as a base case.
+// edge note 171: Time complexity: O(n).
