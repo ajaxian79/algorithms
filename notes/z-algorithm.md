@@ -1245,3 +1245,7 @@
 ## entry 298
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 299
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
