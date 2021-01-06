@@ -186,3 +186,4 @@ MunitTest happy_number_tests[] = {
 // edge note 158: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 159: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 160: Edge case: empty input → returns 0.
+// edge note 161: Edge case: integer-max input → guarded by the explicit overflow check.
