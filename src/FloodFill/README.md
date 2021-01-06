@@ -1649,3 +1649,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 398
 
 Allocates lazily — first call only.
+
+## entry 399
+
+Edge case: integer-max input → guarded by the explicit overflow check.
