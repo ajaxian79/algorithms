@@ -1522,3 +1522,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 365
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 366
+
+Input is assumed non-NULL; behavior is undefined otherwise.
