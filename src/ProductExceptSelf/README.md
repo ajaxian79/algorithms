@@ -1540,3 +1540,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 369
 
 Stable across duplicates in the input.
+
+## entry 370
+
+Handles empty input by returning 0.
