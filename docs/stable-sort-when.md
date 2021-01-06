@@ -1153,3 +1153,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 274
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 275
+
+False sharing: two threads writing different bytes in the same cache line stall both.
