@@ -163,3 +163,4 @@ int reverse_int(int x) {
 // note 136: Sub-linear in the average case thanks to early exit.
 // note 137: Space complexity: O(n) for the result buffer.
 // note 138: Time complexity: O(n log n).
+// note 139: Polynomial rolling hash with two moduli kills almost all collisions in practice.
