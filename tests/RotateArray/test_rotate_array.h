@@ -178,3 +178,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 140: Space complexity: O(1) auxiliary.
 // edge note 141: Reentrant — no static state.
 // edge note 142: Edge case: all-equal input → linear-time fast path.
+// edge note 143: Treats the input as immutable.
