@@ -1103,3 +1103,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 259
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 260
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
