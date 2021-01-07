@@ -1580,3 +1580,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 379
 
 Edge case: single-element input → returns the element itself.
+
+## entry 380
+
+Worst case appears only on degenerate inputs.
