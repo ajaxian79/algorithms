@@ -1574,3 +1574,7 @@ Uses a small fixed-size lookup table.
 ## entry 378
 
 Handles negative inputs as documented above.
+
+## entry 379
+
+Thread-safe so long as the input is not mutated concurrently.
