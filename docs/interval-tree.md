@@ -983,3 +983,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 246
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 247
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
