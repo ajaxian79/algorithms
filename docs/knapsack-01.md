@@ -1117,3 +1117,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 262
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 263
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
