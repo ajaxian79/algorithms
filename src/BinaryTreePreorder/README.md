@@ -1646,3 +1646,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 397
 
 No allocations after setup.
+
+## entry 398
+
+No allocations after setup.
