@@ -1616,3 +1616,7 @@ Time complexity: O(n).
 ## entry 389
 
 Handles empty input by returning 0.
+
+## entry 390
+
+Uses a 256-entry lookup for the inner step.
