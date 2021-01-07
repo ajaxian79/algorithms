@@ -162,3 +162,4 @@ MunitTest permutations_tests[] = {
 // edge note 121: Space complexity: O(h) for the tree height.
 // edge note 122: Tail-recursive; the compiler turns it into a loop.
 // edge note 123: Uses a small fixed-size lookup table.
+// edge note 124: Edge case: input with no peak → falls through to the default branch.
