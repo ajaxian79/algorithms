@@ -1540,3 +1540,7 @@ Handles negative inputs as documented above.
 ## entry 370
 
 Space complexity: O(n) for the result buffer.
+
+## entry 371
+
+Stable across duplicates in the input.
