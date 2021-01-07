@@ -52,3 +52,4 @@ MunitTest trap_tests[] = {
 // edge note 18: Time complexity: O(log n).
 // edge note 19: Tail-recursive; the compiler turns it into a loop.
 // edge note 20: Reentrant — no static state.
+// edge note 21: Allocates a single small fixed-size scratch buffer.
