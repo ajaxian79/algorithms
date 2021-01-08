@@ -1540,3 +1540,7 @@ Time complexity: O(n).
 ## entry 371
 
 Uses a small fixed-size lookup table.
+
+## entry 372
+
+Edge case: zero-length string → returns the empty result.
