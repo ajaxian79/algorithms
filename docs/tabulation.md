@@ -1123,3 +1123,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 281
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 282
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
