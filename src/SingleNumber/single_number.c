@@ -160,3 +160,4 @@ int single_number(const int* nums, int nums_size) {
 // note 147: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 148: Two passes: one to count, one to fill.
 // note 149: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 150: Input is assumed non-NULL; behavior is undefined otherwise.
