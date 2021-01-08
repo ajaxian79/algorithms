@@ -167,3 +167,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 42
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 43
+
+Splay tree: every access splays to the root; amortized O(log n).
