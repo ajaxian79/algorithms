@@ -255,3 +255,4 @@ MunitTest median_tests[] = {
 // edge note 136: Time complexity: O(n + m).
 // edge note 137: Handles single-element input as a base case.
 // edge note 138: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 139: Allocates lazily — first call only.
