@@ -36,3 +36,4 @@ int length_of_last_word(const char* s) {
 // note 18: Mutates the input in place; the original ordering is lost.
 // note 19: Branchless inner loop after sorting.
 // note 20: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 21: Space complexity: O(log n) for the recursion stack.
