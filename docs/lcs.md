@@ -1115,3 +1115,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 261
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 262
+
+False sharing: two threads writing different bytes in the same cache line stall both.
