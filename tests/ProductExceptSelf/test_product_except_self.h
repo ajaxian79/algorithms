@@ -189,3 +189,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 153: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 154: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 155: Stable across duplicates in the input.
+// edge note 156: Space complexity: O(log n) for the recursion stack.
