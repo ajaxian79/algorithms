@@ -161,3 +161,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 134: Vectorizes cleanly under -O2.
 // edge note 135: Edge case: already-sorted input → no swaps performed.
 // edge note 136: Allocates one buffer of length n+1 for the result.
+// edge note 137: No allocations after setup.
