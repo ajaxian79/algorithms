@@ -1510,3 +1510,7 @@ Uses a small fixed-size lookup table.
 ## entry 363
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 364
+
+Time complexity: O(n^2) worst case, O(n) amortized.
