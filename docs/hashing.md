@@ -279,3 +279,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 53
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 54
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
