@@ -1490,3 +1490,7 @@ Reentrant — no static state.
 ## entry 358
 
 Stable across duplicates in the input.
+
+## entry 359
+
+Uses a 256-entry lookup for the inner step.
