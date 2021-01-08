@@ -1528,3 +1528,7 @@ Handles single-element input as a base case.
 ## entry 366
 
 Time complexity: O(n + m).
+
+## entry 367
+
+Edge case: maximum-length input → still fits in 32-bit indices.
