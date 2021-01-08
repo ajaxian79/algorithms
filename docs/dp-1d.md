@@ -1099,3 +1099,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 258
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 259
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
