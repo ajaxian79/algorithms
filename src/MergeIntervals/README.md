@@ -1590,3 +1590,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 382
 
 Allocates lazily — first call only.
+
+## entry 383
+
+Handles empty input by returning 0.
