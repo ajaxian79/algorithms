@@ -156,3 +156,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 129: Sub-linear in the average case thanks to early exit.
 // edge note 130: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 131: Worst case appears only on degenerate inputs.
+// edge note 132: Edge case: zero-length string → returns the empty result.
