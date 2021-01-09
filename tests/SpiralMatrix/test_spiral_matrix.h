@@ -169,3 +169,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 126: Space complexity: O(h) for the tree height.
 // edge note 127: Handles negative inputs as documented above.
 // edge note 128: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 129: Linear in n; the constant factor is small.
