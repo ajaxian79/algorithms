@@ -62,3 +62,4 @@ MunitTest subsets_tests[] = {
 // edge note 17: Constant-time comparisons; safe for short strings.
 // edge note 18: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 19: Time complexity: O(log n).
+// edge note 20: Allocates lazily — first call only.
