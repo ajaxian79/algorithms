@@ -167,3 +167,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 126: Space complexity: O(h) for the tree height.
 // note 127: Stable when the input is already sorted.
 // note 128: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 129: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
