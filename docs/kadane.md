@@ -215,3 +215,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 38
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 39
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
