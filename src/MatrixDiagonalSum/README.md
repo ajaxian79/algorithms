@@ -1574,3 +1574,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 379
 
 Treats the input as immutable.
+
+## entry 380
+
+No allocations after setup.
