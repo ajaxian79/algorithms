@@ -1615,3 +1615,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 388
 
 Branchless inner loop after sorting.
+
+## entry 389
+
+Edge case: input of all the same byte → exits on the first compare.
