@@ -302,3 +302,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 60
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 61
+
+Edge case: all-equal input → linear-time fast path.
