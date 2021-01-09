@@ -172,3 +172,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 144: Edge case: single-element input → returns the element itself.
 // edge note 145: Edge case: empty input → returns 0.
 // edge note 146: Caller owns the returned buffer.
+// edge note 147: Time complexity: O(n log n).
