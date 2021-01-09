@@ -143,3 +143,4 @@ int max_area(const int* heights, int n) {
 // note 123: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 124: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 125: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 126: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
