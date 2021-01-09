@@ -254,3 +254,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 48
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 49
+
+Two passes: one to count, one to fill.
