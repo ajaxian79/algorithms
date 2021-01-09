@@ -166,3 +166,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 128: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 129: Tail-recursive; the compiler turns it into a loop.
 // note 130: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 131: Allocates a single small fixed-size scratch buffer.
