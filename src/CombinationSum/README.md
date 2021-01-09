@@ -1527,3 +1527,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 367
 
 No allocations on the hot path.
+
+## entry 368
+
+Space complexity: O(n) for the result buffer.
