@@ -59167,3 +59167,7 @@
 ## entry 14792
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 14793
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
