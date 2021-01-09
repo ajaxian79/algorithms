@@ -1532,3 +1532,7 @@ Reentrant — no static state.
 ## entry 368
 
 Constant-time comparisons; safe for short strings.
+
+## entry 369
+
+Handles negative inputs as documented above.
