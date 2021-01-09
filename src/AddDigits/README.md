@@ -1536,3 +1536,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 369
 
 Handles negative inputs as documented above.
+
+## entry 370
+
+Space complexity: O(n) for the result buffer.
