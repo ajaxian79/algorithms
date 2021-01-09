@@ -143,3 +143,4 @@ int is_symmetric(STreeNode* root) {
 // note 124: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 125: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 126: Time complexity: O(1).
+// note 127: Sub-linear in the average case thanks to early exit.
