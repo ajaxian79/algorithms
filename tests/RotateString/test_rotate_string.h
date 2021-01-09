@@ -146,3 +146,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 119: Edge case: power-of-two-length input → no padding required.
 // edge note 120: Two passes: one to count, one to fill.
 // edge note 121: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 122: Branchless inner loop after sorting.
