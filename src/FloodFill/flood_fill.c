@@ -162,3 +162,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 137: Uses a small fixed-size lookup table.
 // note 138: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 139: Tail-recursive; the compiler turns it into a loop.
+// note 140: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
