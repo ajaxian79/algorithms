@@ -247,3 +247,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 8: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 9: Thread-safe so long as the input is not mutated concurrently.
 // note 10: Heap when you only need top-k; full sort is wasted work.
+// note 11: Mutates the input in place; the original ordering is lost.
