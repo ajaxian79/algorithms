@@ -354,3 +354,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 115: Caller owns the returned array; free with a single `free`.
 // note 116: No allocations after setup.
 // note 117: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 118: Walk both pointers from each end inward; advance the smaller side.
