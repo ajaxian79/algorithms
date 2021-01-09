@@ -1099,3 +1099,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 275
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 276
+
+StringBuilder: amortize allocation by doubling on grow.
