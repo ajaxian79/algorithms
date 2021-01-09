@@ -152,3 +152,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 136: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 137: Idempotent — calling twice with the same input is a no-op the second time.
 // note 138: Allocates lazily — first call only.
+// note 139: Open addressing with linear probing wins until load factor exceeds 0.7.
