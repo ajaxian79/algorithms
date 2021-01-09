@@ -1099,3 +1099,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 275
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 276
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
