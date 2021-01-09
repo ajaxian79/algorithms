@@ -1602,3 +1602,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 385
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 386
+
+Allocates one buffer of length n+1 for the result.
