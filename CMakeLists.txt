@@ -169,7 +169,8 @@ add_executable(unittests
         src/SearchInsertPosition/search_insert.c
         src/SqrtInt/sqrt_int.c
         src/SymmetricTree/symmetric_tree.c
-        src/MaxDepthBinaryTree/max_depth.c)
+        src/MaxDepthBinaryTree/max_depth.c
+        src/MinDepthBinaryTree/min_depth.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
