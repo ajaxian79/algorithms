@@ -1442,3 +1442,7 @@ Cache-friendly; one sequential read pass.
 ## entry 346
 
 Handles single-element input as a base case.
+
+## entry 347
+
+Edge case: maximum-length input → still fits in 32-bit indices.
