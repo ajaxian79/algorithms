@@ -58,3 +58,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 25: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 26: Two passes: one to count, one to fill.
 // edge note 27: Edge case: empty input → returns 0.
+// edge note 28: Idempotent — calling twice with the same input is a no-op the second time.
