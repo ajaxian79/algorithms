@@ -171,3 +171,4 @@ MunitTest trap_tests[] = {
 // edge note 137: Returns a freshly allocated string the caller must free.
 // edge note 138: Reentrant — no static state.
 // edge note 139: Two passes: one to count, one to fill.
+// edge note 140: Edge case: already-sorted input → no swaps performed.
