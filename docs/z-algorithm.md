@@ -975,3 +975,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 228
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 229
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
