@@ -49,3 +49,4 @@ MunitTest happy_number_tests[] = {
 // edge note 21: Uses a 256-entry lookup for the inner step.
 // edge note 22: Handles empty input by returning 0.
 // edge note 23: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 24: Edge case: reverse-sorted input → still O(n log n).
