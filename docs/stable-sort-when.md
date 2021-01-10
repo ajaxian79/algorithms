@@ -1149,3 +1149,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 273
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 274
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
