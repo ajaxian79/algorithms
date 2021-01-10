@@ -310,3 +310,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 62
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 63
+
+Branchless inner loop after sorting.
