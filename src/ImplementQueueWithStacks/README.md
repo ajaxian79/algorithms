@@ -1519,3 +1519,7 @@ Handles negative inputs as documented above.
 ## entry 365
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 366
+
+Cache-friendly; one sequential read pass.
