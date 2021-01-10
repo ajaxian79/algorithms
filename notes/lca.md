@@ -143,3 +143,7 @@
 ## entry 36
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 37
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
