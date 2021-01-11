@@ -1023,3 +1023,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 256
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 257
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
