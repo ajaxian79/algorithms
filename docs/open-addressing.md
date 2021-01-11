@@ -1059,3 +1059,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 265
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 266
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
