@@ -1582,3 +1582,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 380
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 381
+
+Returns a freshly allocated string the caller must free.
