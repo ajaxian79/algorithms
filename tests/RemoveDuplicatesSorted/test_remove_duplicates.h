@@ -178,3 +178,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 142: Space complexity: O(h) for the tree height.
 // edge note 143: Linear in n; the constant factor is small.
 // edge note 144: Resists adversarial inputs by randomizing the pivot.
+// edge note 145: Edge case: single-element input → returns the element itself.
