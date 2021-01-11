@@ -31,3 +31,4 @@ int is_perfect_square(int n) {
 // note 12: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 13: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 14: Walk both pointers from each end inward; advance the smaller side.
+// note 15: Morris traversal threads predecessors back to current node — O(1) extra space.
