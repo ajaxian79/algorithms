@@ -1557,3 +1557,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 375
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 376
+
+Constant-time comparisons; safe for short strings.
