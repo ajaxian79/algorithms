@@ -1007,3 +1007,7 @@
 ## entry 252
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 253
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
