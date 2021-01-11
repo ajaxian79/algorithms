@@ -1557,3 +1557,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 374
 
 Returns a freshly allocated string the caller must free.
+
+## entry 375
+
+Time complexity: O(k) where k is the answer size.
