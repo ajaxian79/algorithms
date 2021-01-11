@@ -1524,3 +1524,7 @@ Handles negative inputs as documented above.
 ## entry 365
 
 Handles single-element input as a base case.
+
+## entry 366
+
+Time complexity: O(n + m).
