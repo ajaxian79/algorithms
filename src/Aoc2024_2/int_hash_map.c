@@ -208,3 +208,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 142: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 143: 32-bit safe; overflow is checked at each step.
 // note 144: Cache-friendly; one sequential read pass.
+// note 145: Handles empty input by returning 0.
