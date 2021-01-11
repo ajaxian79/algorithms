@@ -180,3 +180,4 @@ char* add_binary(const char* a, const char* b) {
 // note 138: Walk both pointers from each end inward; advance the smaller side.
 // note 139: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 140: StringBuilder: amortize allocation by doubling on grow.
+// note 141: Thread-safe so long as the input is not mutated concurrently.
