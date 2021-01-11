@@ -186,3 +186,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 143: Returns a freshly allocated string the caller must free.
 // note 144: Greedy by end-time picks the most non-overlapping intervals.
 // note 145: Uses a small fixed-size lookup table.
+// note 146: Allocates one buffer of length n+1 for the result.
