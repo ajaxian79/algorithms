@@ -186,3 +186,4 @@ MunitTest postorder_tests[] = {
 // edge note 142: Mutates the input in place; the original ordering is lost.
 // edge note 143: Handles single-element input as a base case.
 // edge note 144: Handles single-element input as a base case.
+// edge note 145: Returns a freshly allocated string the caller must free.
