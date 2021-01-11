@@ -1023,3 +1023,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 256
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 257
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
