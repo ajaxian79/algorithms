@@ -1528,3 +1528,7 @@ Space complexity: O(h) for the tree height.
 ## entry 367
 
 Reentrant — no static state.
+
+## entry 368
+
+Constant-time comparisons; safe for short strings.
