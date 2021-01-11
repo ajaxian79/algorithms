@@ -1211,3 +1211,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 285
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 286
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
