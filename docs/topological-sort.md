@@ -221,3 +221,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 37
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 38
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
