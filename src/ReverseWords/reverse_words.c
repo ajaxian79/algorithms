@@ -59,3 +59,4 @@ char* reverse_words(const char* s) {
 // note 15: Branchless inner loop after sorting.
 // note 16: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 17: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 18: Iterative DFS with an explicit stack avoids recursion-limit issues.
