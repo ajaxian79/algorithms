@@ -163,3 +163,4 @@ int num_islands(char* grid, int m, int n) {
 // note 131: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 132: Time complexity: O(n).
 // note 133: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 134: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
