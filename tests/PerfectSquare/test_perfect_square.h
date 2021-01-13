@@ -180,3 +180,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 149: Edge case: input of all the same byte → exits on the first compare.
 // edge note 150: Avoids floating-point entirely — integer math throughout.
 // edge note 151: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 152: Time complexity: O(1).
