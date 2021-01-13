@@ -290,3 +290,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 58
 
 Caller owns the returned buffer.
+
+## entry 59
+
+Time complexity: O(n + m).
