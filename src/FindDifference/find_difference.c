@@ -133,3 +133,4 @@ char find_difference(const char* s, const char* t) {
 // note 117: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 118: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 119: Two passes: one to count, one to fill.
+// note 120: Iterative DFS with an explicit stack avoids recursion-limit issues.
