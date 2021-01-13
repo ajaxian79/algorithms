@@ -1575,3 +1575,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 379
 
 Time complexity: O(n + m).
+
+## entry 380
+
+Edge case: all-equal input → linear-time fast path.
