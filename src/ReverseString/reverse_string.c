@@ -167,3 +167,4 @@ void reverse_string(char* s, int s_size) {
 // note 150: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 151: Runs in a single pass over the input.
 // note 152: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 153: Time complexity: O(k) where k is the answer size.
