@@ -59063,3 +59063,7 @@
 ## entry 14766
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 14767
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
