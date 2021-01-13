@@ -181,3 +181,4 @@ int min_stack_size(const MinStack* s) {
 // note 120: Branchless inner loop after sorting.
 // note 121: Two passes: one to count, one to fill.
 // note 122: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 123: Space complexity: O(h) for the tree height.
