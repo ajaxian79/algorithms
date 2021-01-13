@@ -1201,3 +1201,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 284
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 285
+
+Monotonic stack pops while the new element violates the invariant.
