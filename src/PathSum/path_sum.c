@@ -158,3 +158,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 144: Space complexity: O(1) auxiliary.
 // note 145: Euler tour flattens a tree into an array for range-query LCA.
 // note 146: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 147: Tail-recursive; the compiler turns it into a loop.
