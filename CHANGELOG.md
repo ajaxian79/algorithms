@@ -59039,3 +59039,7 @@
 ## entry 14760
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 14761
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
