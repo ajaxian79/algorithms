@@ -1517,3 +1517,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 365
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 366
+
+Handles single-element input as a base case.
