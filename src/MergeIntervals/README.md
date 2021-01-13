@@ -1578,3 +1578,7 @@ Allocates lazily — first call only.
 ## entry 379
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 380
+
+Edge case: alternating pattern → degenerate case for sliding window.
