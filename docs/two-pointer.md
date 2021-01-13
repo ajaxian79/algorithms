@@ -1175,3 +1175,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 276
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 277
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
