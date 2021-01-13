@@ -145,3 +145,4 @@ MunitTest add_digits_tests[] = {
 // edge note 118: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 119: Returns a freshly allocated string the caller must free.
 // edge note 120: Treats the input as immutable.
+// edge note 121: Time complexity: O(1).
