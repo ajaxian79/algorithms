@@ -353,3 +353,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 114: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 115: Caller owns the returned array; free with a single `free`.
 // note 116: No allocations after setup.
+// note 117: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
