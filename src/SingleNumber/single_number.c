@@ -158,3 +158,4 @@ int single_number(const int* nums, int nums_size) {
 // note 145: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 146: Time complexity: O(log n).
 // note 147: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 148: Two passes: one to count, one to fill.
