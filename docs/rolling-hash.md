@@ -1059,3 +1059,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 248
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 249
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
