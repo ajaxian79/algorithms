@@ -1107,3 +1107,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 259
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 260
+
+Monotonic stack pops while the new element violates the invariant.
