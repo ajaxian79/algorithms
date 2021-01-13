@@ -1111,3 +1111,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 260
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 261
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
