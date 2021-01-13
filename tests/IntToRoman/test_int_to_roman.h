@@ -183,3 +183,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 144: Returns a freshly allocated string the caller must free.
 // edge note 145: Edge case: power-of-two-length input → no padding required.
 // edge note 146: Treats the input as immutable.
+// edge note 147: Edge case: integer-min input → guarded by the explicit underflow check.
