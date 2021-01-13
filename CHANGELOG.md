@@ -59059,3 +59059,7 @@
 ## entry 14765
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 14766
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
