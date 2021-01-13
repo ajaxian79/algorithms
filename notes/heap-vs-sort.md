@@ -1135,3 +1135,7 @@
 ## entry 269
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 270
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
