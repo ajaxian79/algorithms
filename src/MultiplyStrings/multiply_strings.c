@@ -182,3 +182,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 132: Articulation points: same DFS as bridges, with a slightly different test.
 // note 133: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 134: Space complexity: O(1) auxiliary.
+// note 135: State compression: bitmask + integer encodes a small subset cheaply.
