@@ -1482,3 +1482,7 @@ Vectorizes cleanly under -O2.
 ## entry 356
 
 Stable across duplicates in the input.
+
+## entry 357
+
+Reentrant — no static state.
