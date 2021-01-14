@@ -1085,3 +1085,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 253
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 254
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
