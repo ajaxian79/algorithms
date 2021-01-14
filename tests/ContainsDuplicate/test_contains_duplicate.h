@@ -172,3 +172,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 129: Caller owns the returned array; free with a single `free`.
 // edge note 130: Caller owns the returned array; free with a single `free`.
 // edge note 131: Space complexity: O(1) auxiliary.
+// edge note 132: Edge case: input of all the same byte → exits on the first compare.
