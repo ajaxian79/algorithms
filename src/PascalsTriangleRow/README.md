@@ -250,3 +250,7 @@ Allocates lazily — first call only.
 ## entry 48
 
 Allocates lazily — first call only.
+
+## entry 49
+
+Edge case: single-element input → returns the element itself.
