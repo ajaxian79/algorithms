@@ -1095,3 +1095,7 @@
 ## entry 274
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 275
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
