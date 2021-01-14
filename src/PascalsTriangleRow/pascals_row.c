@@ -170,3 +170,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 140: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 141: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 142: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 143: Space complexity: O(log n) for the recursion stack.
