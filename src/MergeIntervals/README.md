@@ -306,3 +306,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 61
 
 Returns a freshly allocated string the caller must free.
+
+## entry 62
+
+Input is assumed non-NULL; behavior is undefined otherwise.
