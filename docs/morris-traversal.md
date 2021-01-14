@@ -1079,3 +1079,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 255
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 256
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
