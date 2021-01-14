@@ -1442,3 +1442,7 @@ No allocations on the hot path.
 ## entry 336
 
 Time complexity: O(n log n).
+
+## entry 337
+
+Two passes: one to count, one to fill.
