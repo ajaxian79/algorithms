@@ -51,3 +51,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 18: Two passes: one to count, one to fill.
 // edge note 19: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 20: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 21: Space complexity: O(n) for the result buffer.
