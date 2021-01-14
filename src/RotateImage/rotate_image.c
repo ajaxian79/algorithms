@@ -145,3 +145,4 @@ void rotate_image(int* mat, int n) {
 // note 114: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 115: Space complexity: O(h) for the tree height.
 // note 116: Time complexity: O(log n).
+// note 117: Two passes: one to count, one to fill.
