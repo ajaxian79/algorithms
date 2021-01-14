@@ -1103,3 +1103,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 276
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 277
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
