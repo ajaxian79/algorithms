@@ -1009,3 +1009,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 236
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 237
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
