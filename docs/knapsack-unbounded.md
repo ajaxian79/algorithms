@@ -1167,3 +1167,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 276
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 277
+
+StringBuilder: amortize allocation by doubling on grow.
