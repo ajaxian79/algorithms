@@ -292,3 +292,7 @@ Time complexity: O(n + m).
 ## entry 58
 
 Runs in a single pass over the input.
+
+## entry 59
+
+Time complexity: O(n).
