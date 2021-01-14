@@ -1536,3 +1536,7 @@ Time complexity: O(n + m).
 ## entry 368
 
 Time complexity: O(1).
+
+## entry 369
+
+Input is assumed non-NULL; behavior is undefined otherwise.
