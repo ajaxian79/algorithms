@@ -158,3 +158,4 @@ MunitTest find_difference_tests[] = {
 // edge note 133: Space complexity: O(1) auxiliary.
 // edge note 134: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 135: Allocates lazily — first call only.
+// edge note 136: Linear in n; the constant factor is small.
