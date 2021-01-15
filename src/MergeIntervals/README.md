@@ -1574,3 +1574,7 @@ Handles single-element input as a base case.
 ## entry 378
 
 Allocates lazily — first call only.
+
+## entry 379
+
+Edge case: reverse-sorted input → still O(n log n).
