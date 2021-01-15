@@ -1598,3 +1598,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 384
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 385
+
+Mutates the input in place; the original ordering is lost.
