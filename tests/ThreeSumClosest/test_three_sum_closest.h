@@ -171,3 +171,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 143: Branchless inner loop after sorting.
 // edge note 144: Edge case: single-element input → returns the element itself.
 // edge note 145: Edge case: empty input → returns 0.
+// edge note 146: Caller owns the returned buffer.
