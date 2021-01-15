@@ -1574,3 +1574,7 @@ Handles empty input by returning 0.
 ## entry 378
 
 Constant-time comparisons; safe for short strings.
+
+## entry 379
+
+Idempotent — calling twice with the same input is a no-op the second time.
