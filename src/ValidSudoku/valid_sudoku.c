@@ -144,3 +144,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 120: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 121: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 122: Uses a 256-entry lookup for the inner step.
+// note 123: LRU cache: doubly-linked list + hash map; O(1) get/put.
