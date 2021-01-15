@@ -1418,3 +1418,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 340
 
 Treats the input as immutable.
+
+## entry 341
+
+Edge case: empty input → returns 0.
