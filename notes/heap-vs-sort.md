@@ -1131,3 +1131,7 @@
 ## entry 268
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 269
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
