@@ -1075,3 +1075,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 269
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 270
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
