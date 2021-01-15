@@ -1047,3 +1047,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 262
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 263
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
