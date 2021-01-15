@@ -1553,3 +1553,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 374
 
 Returns a freshly allocated string the caller must free.
+
+## entry 375
+
+Idempotent — calling twice with the same input is a no-op the second time.
