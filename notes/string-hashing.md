@@ -1059,3 +1059,7 @@
 ## entry 248
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 249
+
+- LIS via patience: each pile holds the smallest tail of length k.
