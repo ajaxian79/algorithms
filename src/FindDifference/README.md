@@ -1414,3 +1414,7 @@ Space complexity: O(h) for the tree height.
 ## entry 339
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 340
+
+Treats the input as immutable.
