@@ -213,3 +213,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 171: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 172: Edge case: all-equal input → linear-time fast path.
 // edge note 173: Two passes: one to count, one to fill.
+// edge note 174: Handles empty input by returning 0.
