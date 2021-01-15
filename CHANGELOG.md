@@ -58991,3 +58991,7 @@
 ## entry 14748
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 14749
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
