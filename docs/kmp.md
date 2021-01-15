@@ -1085,3 +1085,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 255
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 256
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
