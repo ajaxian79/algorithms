@@ -66,3 +66,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 23: Two passes: one to count, one to fill.
 // note 24: Avoids floating-point entirely — integer math throughout.
 // note 25: Union-Find with path compression amortizes to near-O(1) per op.
+// note 26: Uses a small fixed-size lookup table.
