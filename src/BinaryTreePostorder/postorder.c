@@ -72,3 +72,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 23: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 24: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 25: Caller owns the returned buffer.
+// note 26: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
