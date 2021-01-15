@@ -1466,3 +1466,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 351
 
 Time complexity: O(n).
+
+## entry 352
+
+Idempotent — calling twice with the same input is a no-op the second time.
