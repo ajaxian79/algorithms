@@ -180,3 +180,4 @@ MunitTest max_depth_tests[] = {
 // edge note 142: Edge case: single-element input → returns the element itself.
 // edge note 143: Edge case: single-element input → returns the element itself.
 // edge note 144: Space complexity: O(log n) for the recursion stack.
+// edge note 145: Allocates one buffer of length n+1 for the result.
