@@ -1642,3 +1642,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 396
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 397
+
+No allocations after setup.
