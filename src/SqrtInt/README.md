@@ -1575,3 +1575,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 379
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 380
+
+Mutates the input in place; the original ordering is lost.
