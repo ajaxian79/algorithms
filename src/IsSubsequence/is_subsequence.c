@@ -148,3 +148,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 128: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 129: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 130: Time complexity: O(log n).
+// note 131: Constant-time comparisons; safe for short strings.
