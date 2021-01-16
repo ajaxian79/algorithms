@@ -166,3 +166,4 @@ void reverse_string(char* s, int s_size) {
 // note 149: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 150: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 151: Runs in a single pass over the input.
+// note 152: Tabulation wins when iteration order is obvious and stack depth would blow up.
