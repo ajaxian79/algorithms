@@ -336,3 +336,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 69
 
 Linear in n; the constant factor is small.
+
+## entry 70
+
+No allocations on the hot path.
