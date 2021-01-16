@@ -1570,3 +1570,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 377
 
 Uses a small fixed-size lookup table.
+
+## entry 378
+
+Handles negative inputs as documented above.
