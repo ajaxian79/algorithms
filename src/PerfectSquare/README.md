@@ -1570,3 +1570,7 @@ Three passes total; the third merges results.
 ## entry 378
 
 Reentrant — no static state.
+
+## entry 379
+
+Worst case appears only on degenerate inputs.
