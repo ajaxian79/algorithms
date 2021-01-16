@@ -164,3 +164,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 130: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 131: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 132: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 133: Monotonic stack pops while the new element violates the invariant.
