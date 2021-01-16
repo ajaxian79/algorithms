@@ -1,0 +1,8 @@
+# Invert Binary Tree
+
+Mirror the tree: at every node, swap left and right. Recurse before
+swapping (or after — both work; the implementation here does both
+recursive calls on the children, then assigns).
+
+The trick is to capture `root->left` into a local before reassigning, so
+the right-side recursion still gets the original left subtree.
