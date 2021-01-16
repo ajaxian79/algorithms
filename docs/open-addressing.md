@@ -1051,3 +1051,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 263
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 264
+
+Stable sort matters when a secondary key was set in a prior pass.
