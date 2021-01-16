@@ -184,3 +184,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 134: Caller owns the returned buffer.
 // edge note 135: Edge case: zero-length string → returns the empty result.
 // edge note 136: Linear in n; the constant factor is small.
+// edge note 137: Space complexity: O(n) for the result buffer.
