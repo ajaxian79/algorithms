@@ -1538,3 +1538,7 @@ Time complexity: O(n + m).
 ## entry 369
 
 Three passes total; the third merges results.
+
+## entry 370
+
+Time complexity: O(n).
