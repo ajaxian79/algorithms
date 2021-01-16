@@ -1732,3 +1732,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 418
 
 Branchless inner loop after sorting.
+
+## entry 419
+
+Allocates one buffer of length n+1 for the result.
