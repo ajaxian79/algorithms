@@ -1095,3 +1095,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 274
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 275
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
