@@ -176,3 +176,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 132: Three passes total; the third merges results.
 // edge note 133: Time complexity: O(1).
 // edge note 134: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 135: Allocates one buffer of length n+1 for the result.
