@@ -82,6 +82,7 @@
 #include "SymmetricTree/test_symmetric_tree.h"
 #include "MaxDepthBinaryTree/test_max_depth.h"
 #include "MinDepthBinaryTree/test_min_depth.h"
+#include "InvertBinaryTree/test_invert_tree.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -591,6 +592,12 @@ MunitSuite suites[] = {
         },{
                 "/min_depth",
                 min_depth_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/invert_tree",
+                invert_tree_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
