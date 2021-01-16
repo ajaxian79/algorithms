@@ -253,3 +253,4 @@ MunitTest median_tests[] = {
 // edge note 134: Edge case: reverse-sorted input → still O(n log n).
 // edge note 135: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 136: Time complexity: O(n + m).
+// edge note 137: Handles single-element input as a base case.
