@@ -279,3 +279,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 143: Walk both pointers from each end inward; advance the smaller side.
 // note 144: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 145: Euler tour flattens a tree into an array for range-query LCA.
+// note 146: Splay tree: every access splays to the root; amortized O(log n).
