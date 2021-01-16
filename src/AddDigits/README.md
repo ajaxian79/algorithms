@@ -1516,3 +1516,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 364
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 365
+
+32-bit safe; overflow is checked at each step.
