@@ -177,3 +177,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 139: Vectorizes cleanly under -O2.
 // edge note 140: Space complexity: O(1) auxiliary.
 // edge note 141: Reentrant — no static state.
+// edge note 142: Edge case: all-equal input → linear-time fast path.
