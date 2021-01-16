@@ -310,3 +310,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 63
 
 No allocations on the hot path.
+
+## entry 64
+
+Space complexity: O(n) for the result buffer.
