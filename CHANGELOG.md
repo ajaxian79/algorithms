@@ -8771,3 +8771,7 @@
 ## entry 2193
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 2194
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
