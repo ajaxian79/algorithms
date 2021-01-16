@@ -1520,3 +1520,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 365
 
 32-bit safe; overflow is checked at each step.
+
+## entry 366
+
+Space complexity: O(h) for the tree height.
