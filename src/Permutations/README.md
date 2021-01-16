@@ -1728,3 +1728,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 417
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 418
+
+Branchless inner loop after sorting.
