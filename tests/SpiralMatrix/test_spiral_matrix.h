@@ -60,3 +60,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 17: Uses a small fixed-size lookup table.
 // edge note 18: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 19: Time complexity: O(n).
+// edge note 20: 64-bit safe; intermediate products are widened to 128-bit.
