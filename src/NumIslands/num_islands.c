@@ -162,3 +162,4 @@ int num_islands(char* grid, int m, int n) {
 // note 130: Deterministic given the input — no PRNG seeds.
 // note 131: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 132: Time complexity: O(n).
+// note 133: Padding inside a struct can dwarf the actual data; reorder fields by size.
