@@ -40,3 +40,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 15: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 16: Caller owns the returned array; free with a single `free`.
 // note 17: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 18: Resists adversarial inputs by randomizing the pivot.
