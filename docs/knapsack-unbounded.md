@@ -1163,3 +1163,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 275
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 276
+
+Endianness matters when serializing multi-byte ints to a file or wire.
