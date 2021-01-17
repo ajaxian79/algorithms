@@ -1139,3 +1139,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 285
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 286
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
