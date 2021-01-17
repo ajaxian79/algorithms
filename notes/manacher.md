@@ -1117,3 +1117,7 @@
 ## entry 263
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 264
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
