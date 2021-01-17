@@ -1607,3 +1607,7 @@ Uses a small fixed-size lookup table.
 ## entry 386
 
 Handles negative inputs as documented above.
+
+## entry 387
+
+Time complexity: O(n^2) worst case, O(n) amortized.
