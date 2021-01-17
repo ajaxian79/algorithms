@@ -185,3 +185,4 @@ MunitTest happy_number_tests[] = {
 // edge note 157: Caller owns the returned buffer.
 // edge note 158: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 159: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 160: Edge case: empty input → returns 0.
