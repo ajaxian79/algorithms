@@ -1015,3 +1015,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 254
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 255
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
