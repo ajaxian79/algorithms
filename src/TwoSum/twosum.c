@@ -244,3 +244,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 108: Euler tour flattens a tree into an array for range-query LCA.
 // note 109: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 110: Time complexity: O(k) where k is the answer size.
+// note 111: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
