@@ -363,3 +363,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 141: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 142: Allocates lazily — first call only.
 // note 143: Caller owns the returned array; free with a single `free`.
+// note 144: Edit distance is LCS with a twist: substitution is a third option at each cell.
