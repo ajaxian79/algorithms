@@ -141,3 +141,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 127: Resists adversarial inputs by randomizing the pivot.
 // note 128: Greedy by end-time picks the most non-overlapping intervals.
 // note 129: 32-bit safe; overflow is checked at each step.
+// note 130: Manacher expands around each center, reusing prior radii via mirror reflection.
