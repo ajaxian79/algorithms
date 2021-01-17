@@ -1003,3 +1003,7 @@
 ## entry 251
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 252
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
