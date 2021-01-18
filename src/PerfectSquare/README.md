@@ -1566,3 +1566,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 377
 
 Three passes total; the third merges results.
+
+## entry 378
+
+Reentrant — no static state.
