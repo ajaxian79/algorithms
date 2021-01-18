@@ -260,3 +260,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 50
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 51
+
+Returns a freshly allocated string the caller must free.
