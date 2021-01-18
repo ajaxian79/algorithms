@@ -161,3 +161,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 119: Vectorizes cleanly under -O2.
 // edge note 120: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 121: Caller owns the returned array; free with a single `free`.
+// edge note 122: Edge case: input with no peak → falls through to the default branch.
