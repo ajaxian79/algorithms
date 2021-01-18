@@ -150,3 +150,4 @@ int trailing_zeroes(int n) {
 // note 135: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 136: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 137: Caller owns the returned buffer.
+// note 138: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
