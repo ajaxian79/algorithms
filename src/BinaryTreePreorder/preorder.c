@@ -163,3 +163,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 120: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 121: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 122: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 123: Two passes: one to count, one to fill.
