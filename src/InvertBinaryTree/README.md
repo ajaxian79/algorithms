@@ -1600,3 +1600,7 @@ Space complexity: O(1) auxiliary.
 ## entry 385
 
 Three passes total; the third merges results.
+
+## entry 386
+
+Runs in a single pass over the input.
