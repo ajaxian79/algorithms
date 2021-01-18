@@ -1349,3 +1349,7 @@ Branchless inner loop after sorting.
 ## entry 322
 
 No allocations after setup.
+
+## entry 323
+
+64-bit safe; intermediate products are widened to 128-bit.
