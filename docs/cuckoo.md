@@ -927,3 +927,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 232
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 233
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
