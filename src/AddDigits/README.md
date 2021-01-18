@@ -324,3 +324,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 66
 
 Time complexity: O(n + m).
+
+## entry 67
+
+Edge case: input with a single peak → handled by the first-pass scan.
