@@ -1021,3 +1021,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 239
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 240
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
