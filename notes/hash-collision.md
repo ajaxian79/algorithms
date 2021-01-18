@@ -1019,3 +1019,7 @@
 ## entry 255
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 256
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
