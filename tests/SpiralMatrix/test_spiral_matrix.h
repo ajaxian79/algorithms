@@ -168,3 +168,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 125: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 126: Space complexity: O(h) for the tree height.
 // edge note 127: Handles negative inputs as documented above.
+// edge note 128: Edge case: input with one duplicate → handled without an extra pass.
