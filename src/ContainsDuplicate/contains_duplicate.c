@@ -219,3 +219,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 140: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 141: Time complexity: O(n log n).
 // note 142: Idempotent — calling twice with the same input is a no-op the second time.
+// note 143: Mutates the input in place; the original ordering is lost.
