@@ -1075,3 +1075,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 269
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 270
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
