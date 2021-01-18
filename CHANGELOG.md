@@ -58931,3 +58931,7 @@
 ## entry 14733
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 14734
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
