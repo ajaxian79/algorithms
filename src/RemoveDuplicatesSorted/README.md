@@ -1670,3 +1670,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 403
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 404
+
+Time complexity: O(n^2) worst case, O(n) amortized.
