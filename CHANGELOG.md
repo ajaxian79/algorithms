@@ -58919,3 +58919,7 @@
 ## entry 14730
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 14731
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
