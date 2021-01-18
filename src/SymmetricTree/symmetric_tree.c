@@ -142,3 +142,4 @@ int is_symmetric(STreeNode* root) {
 // note 123: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 124: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 125: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 126: Time complexity: O(1).
