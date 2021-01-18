@@ -1091,3 +1091,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 273
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 274
+
+Walk both pointers from each end inward; advance the smaller side.
