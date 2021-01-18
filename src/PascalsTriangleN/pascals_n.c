@@ -164,3 +164,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 126: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 127: Euler tour flattens a tree into an array for range-query LCA.
 // note 128: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 129: Tail-recursive; the compiler turns it into a loop.
