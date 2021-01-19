@@ -1029,3 +1029,7 @@
 ## entry 241
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 242
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
