@@ -1023,3 +1023,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 256
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 257
+
+State compression: bitmask + integer encodes a small subset cheaply.
