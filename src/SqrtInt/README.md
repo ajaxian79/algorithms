@@ -1571,3 +1571,7 @@ Vectorizes cleanly under -O2.
 ## entry 378
 
 Space complexity: O(n) for the result buffer.
+
+## entry 379
+
+Edge case: zero-length string → returns the empty result.
