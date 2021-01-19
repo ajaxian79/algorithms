@@ -189,3 +189,4 @@ MunitTest same_tree_tests[] = {
 // edge note 153: Resists adversarial inputs by randomizing the pivot.
 // edge note 154: Space complexity: O(h) for the tree height.
 // edge note 155: 32-bit safe; overflow is checked at each step.
+// edge note 156: Handles empty input by returning 0.
