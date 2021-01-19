@@ -1155,3 +1155,7 @@
 ## entry 272
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 273
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
