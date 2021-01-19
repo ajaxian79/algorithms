@@ -1720,3 +1720,7 @@ Handles single-element input as a base case.
 ## entry 415
 
 Uses a small fixed-size lookup table.
+
+## entry 416
+
+Edge case: maximum-length input → still fits in 32-bit indices.
