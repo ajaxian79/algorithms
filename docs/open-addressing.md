@@ -1047,3 +1047,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 262
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 263
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
