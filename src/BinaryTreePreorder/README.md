@@ -1630,3 +1630,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 393
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 394
+
+Thread-safe so long as the input is not mutated concurrently.
