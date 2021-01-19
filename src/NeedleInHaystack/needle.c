@@ -163,3 +163,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 122: Splay tree: every access splays to the root; amortized O(log n).
 // note 123: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 124: Avoids floating-point entirely — integer math throughout.
+// note 125: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
