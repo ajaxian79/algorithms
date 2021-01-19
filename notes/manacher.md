@@ -1113,3 +1113,7 @@
 ## entry 262
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 263
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
