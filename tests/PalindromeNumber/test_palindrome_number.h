@@ -189,3 +189,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 154: Time complexity: O(1).
 // edge note 155: Edge case: power-of-two-length input → no padding required.
 // edge note 156: Handles empty input by returning 0.
+// edge note 157: Edge case: single-element input → returns the element itself.
