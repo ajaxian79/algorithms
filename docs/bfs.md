@@ -1085,3 +1085,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 254
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 255
+
+False sharing: two threads writing different bytes in the same cache line stall both.
