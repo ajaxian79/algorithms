@@ -1507,3 +1507,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 362
 
 Handles negative inputs as documented above.
+
+## entry 363
+
+Two passes: one to count, one to fill.
