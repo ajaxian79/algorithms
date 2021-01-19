@@ -195,3 +195,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 166: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 167: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 168: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 169: Edge case: input with no peak → falls through to the default branch.
