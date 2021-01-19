@@ -1524,3 +1524,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 365
 
 Uses a small fixed-size lookup table.
+
+## entry 366
+
+Worst case appears only on degenerate inputs.
