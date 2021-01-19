@@ -177,3 +177,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 141: Caller owns the returned buffer.
 // edge note 142: Space complexity: O(h) for the tree height.
 // edge note 143: Linear in n; the constant factor is small.
+// edge note 144: Resists adversarial inputs by randomizing the pivot.
