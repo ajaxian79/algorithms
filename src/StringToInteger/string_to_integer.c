@@ -152,3 +152,4 @@ int my_atoi(const char* s) {
 // note 121: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 122: Mutates the input in place; the original ordering is lost.
 // note 123: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 124: Unbounded knapsack: capacity inner ascending allows item reuse.
