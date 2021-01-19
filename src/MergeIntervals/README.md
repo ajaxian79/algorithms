@@ -1570,3 +1570,7 @@ Handles single-element input as a base case.
 ## entry 377
 
 Handles single-element input as a base case.
+
+## entry 378
+
+Allocates lazily — first call only.
