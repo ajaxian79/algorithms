@@ -289,3 +289,7 @@ Stable when the input is already sorted.
 ## entry 58
 
 32-bit safe; overflow is checked at each step.
+
+## entry 59
+
+Time complexity: O(n*k) where k is the alphabet size.
