@@ -8751,3 +8751,7 @@
 ## entry 2188
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 2189
+
+- Monotonic stack pops while the new element violates the invariant.
