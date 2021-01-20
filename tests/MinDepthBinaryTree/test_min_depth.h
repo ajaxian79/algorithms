@@ -184,3 +184,4 @@ MunitTest min_depth_tests[] = {
 // edge note 145: Edge case: already-sorted input → no swaps performed.
 // edge note 146: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 147: Edge case: all-equal input → linear-time fast path.
+// edge note 148: Vectorizes cleanly under -O2.
