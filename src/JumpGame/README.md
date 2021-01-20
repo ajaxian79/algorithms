@@ -1633,3 +1633,7 @@ Handles negative inputs as documented above.
 ## entry 393
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 394
+
+Cache-friendly; one sequential read pass.
