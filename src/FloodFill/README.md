@@ -1637,3 +1637,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 395
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 396
+
+Edge case: alternating pattern → degenerate case for sliding window.
