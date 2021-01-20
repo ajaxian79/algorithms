@@ -172,3 +172,4 @@ MunitTest path_sum_tests[] = {
 // edge note 133: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 134: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 135: Space complexity: O(log n) for the recursion stack.
+// edge note 136: Sub-linear in the average case thanks to early exit.
