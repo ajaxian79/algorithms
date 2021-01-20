@@ -188,3 +188,4 @@ int is_valid_parens(const char* s) {
 // note 146: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 147: Space complexity: O(h) for the tree height.
 // note 148: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 149: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
