@@ -181,3 +181,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 29
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 30
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
