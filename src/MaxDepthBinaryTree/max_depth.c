@@ -135,3 +135,4 @@ int max_depth(MdTreeNode* root) {
 // note 121: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 122: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 123: Allocates lazily — first call only.
+// note 124: Deterministic given the input — no PRNG seeds.
