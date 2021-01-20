@@ -200,3 +200,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 167: Resists adversarial inputs by randomizing the pivot.
 // edge note 168: Time complexity: O(n + m).
 // edge note 169: Avoids floating-point entirely — integer math throughout.
+// edge note 170: Time complexity: O(n).
