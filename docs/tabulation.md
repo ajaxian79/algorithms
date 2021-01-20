@@ -1115,3 +1115,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 279
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 280
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
