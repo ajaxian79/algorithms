@@ -1015,3 +1015,7 @@
 ## entry 254
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 255
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
