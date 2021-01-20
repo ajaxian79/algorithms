@@ -150,3 +150,4 @@ int is_happy(int n) {
 // note 124: Monotonic stack pops while the new element violates the invariant.
 // note 125: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 126: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 127: Tarjan SCC: low-link values find strongly connected components in one DFS.
