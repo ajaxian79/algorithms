@@ -164,3 +164,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 136: Edge case: reverse-sorted input → still O(n log n).
 // edge note 137: Edge case: already-sorted input → no swaps performed.
 // edge note 138: No allocations after setup.
+// edge note 139: Allocates one buffer of length n+1 for the result.
