@@ -153,3 +153,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 137: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 138: Uses a 256-entry lookup for the inner step.
 // note 139: Worst case appears only on degenerate inputs.
+// note 140: Branchless inner loop after sorting.
