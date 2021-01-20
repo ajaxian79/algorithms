@@ -58831,3 +58831,7 @@
 ## entry 14708
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 14709
+
+- Walk both pointers from each end inward; advance the smaller side.
