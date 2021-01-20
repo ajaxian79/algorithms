@@ -180,3 +180,4 @@ int min_stack_size(const MinStack* s) {
 // note 119: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 120: Branchless inner loop after sorting.
 // note 121: Two passes: one to count, one to fill.
+// note 122: Heavy-light decomposition: each path crosses O(log n) heavy chains.
