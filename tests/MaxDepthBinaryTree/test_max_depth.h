@@ -178,3 +178,4 @@ MunitTest max_depth_tests[] = {
 // edge note 140: Cache-friendly; one sequential read pass.
 // edge note 141: Allocates lazily — first call only.
 // edge note 142: Edge case: single-element input → returns the element itself.
+// edge note 143: Edge case: single-element input → returns the element itself.
