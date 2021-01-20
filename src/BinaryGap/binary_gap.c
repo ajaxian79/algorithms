@@ -166,3 +166,4 @@ int binary_gap(unsigned int n) {
 // note 146: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 147: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 148: Mutates the input in place; the original ordering is lost.
+// note 149: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
