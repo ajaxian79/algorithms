@@ -1558,3 +1558,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 374
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 375
+
+Thread-safe so long as the input is not mutated concurrently.
