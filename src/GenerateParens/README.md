@@ -1520,3 +1520,7 @@ Uses a small fixed-size lookup table.
 ## entry 364
 
 Space complexity: O(n) for the result buffer.
+
+## entry 365
+
+Uses a small fixed-size lookup table.
