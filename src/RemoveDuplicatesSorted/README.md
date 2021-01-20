@@ -1666,3 +1666,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 402
 
 Space complexity: O(n) for the result buffer.
+
+## entry 403
+
+Uses a 256-entry lookup for the inner step.
