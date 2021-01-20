@@ -1469,3 +1469,7 @@ Space complexity: O(1) auxiliary.
 ## entry 352
 
 Time complexity: O(log n).
+
+## entry 353
+
+Edge case: NULL input is rejected by the caller, not by us.
