@@ -1101,3 +1101,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 259
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 260
+
+Interval DP: solve all `[l, r]` ranges from short to long.
