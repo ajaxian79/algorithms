@@ -1011,3 +1011,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 253
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 254
+
+Merge intervals: sort by start; extend the running interval while overlapping.
