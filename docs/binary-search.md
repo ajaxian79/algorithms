@@ -1197,3 +1197,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 283
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 284
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
