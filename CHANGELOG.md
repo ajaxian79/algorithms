@@ -58807,3 +58807,7 @@
 ## entry 14702
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 14703
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
