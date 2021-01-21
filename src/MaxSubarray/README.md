@@ -262,3 +262,7 @@ Time complexity: O(n log n).
 ## entry 51
 
 Two passes: one to count, one to fill.
+
+## entry 52
+
+Space complexity: O(n) for the result buffer.
