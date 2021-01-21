@@ -1197,3 +1197,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 282
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 283
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
