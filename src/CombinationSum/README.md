@@ -343,3 +343,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 71
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 72
+
+Idempotent — calling twice with the same input is a no-op the second time.
