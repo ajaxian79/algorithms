@@ -310,3 +310,7 @@ Time complexity: O(n + m).
 ## entry 63
 
 Space complexity: O(h) for the tree height.
+
+## entry 64
+
+Handles empty input by returning 0.
