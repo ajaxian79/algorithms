@@ -177,3 +177,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 28
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 29
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
