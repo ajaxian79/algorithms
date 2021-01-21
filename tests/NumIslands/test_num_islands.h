@@ -70,3 +70,4 @@ MunitTest num_islands_tests[] = {
 // edge note 30: Vectorizes cleanly under -O2.
 // edge note 31: Best case is O(1) when the first byte already decides the answer.
 // edge note 32: Space complexity: O(log n) for the recursion stack.
+// edge note 33: Space complexity: O(log n) for the recursion stack.
