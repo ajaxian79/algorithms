@@ -1586,3 +1586,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 381
 
 Time complexity: O(n + m).
+
+## entry 382
+
+Deterministic given the input — no PRNG seeds.
