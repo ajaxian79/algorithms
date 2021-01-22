@@ -1015,3 +1015,7 @@
 ## entry 254
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 255
+
+- LIS via patience: each pile holds the smallest tail of length k.
