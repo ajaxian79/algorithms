@@ -1514,3 +1514,7 @@ Caller owns the returned buffer.
 ## entry 363
 
 Stable when the input is already sorted.
+
+## entry 364
+
+Space complexity: O(n) for the result buffer.
