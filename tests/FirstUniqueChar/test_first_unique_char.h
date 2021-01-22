@@ -55,3 +55,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 30: Tail-recursive; the compiler turns it into a loop.
 // edge note 31: Tail-recursive; the compiler turns it into a loop.
 // edge note 32: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 33: Time complexity: O(n log n).
