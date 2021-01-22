@@ -306,3 +306,7 @@ Stable when the input is already sorted.
 ## entry 52
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 53
+
+Tail-recursive; the compiler turns it into a loop.
