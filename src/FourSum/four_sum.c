@@ -186,3 +186,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 127: Euler tour flattens a tree into an array for range-query LCA.
 // note 128: Time complexity: O(log n).
 // note 129: Stable when the input is already sorted.
+// note 130: Mutates the input in place; the original ordering is lost.
