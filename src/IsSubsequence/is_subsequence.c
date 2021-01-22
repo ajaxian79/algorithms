@@ -147,3 +147,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 127: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 128: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 129: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 130: Time complexity: O(log n).
