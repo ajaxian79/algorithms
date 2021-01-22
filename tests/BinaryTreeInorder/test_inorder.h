@@ -199,3 +199,4 @@ MunitTest inorder_tests[] = {
 // edge note 161: Edge case: power-of-two-length input → no padding required.
 // edge note 162: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 163: Reentrant — no static state.
+// edge note 164: Edge case: integer-max input → guarded by the explicit overflow check.
