@@ -1043,3 +1043,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 245
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 246
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
