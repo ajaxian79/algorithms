@@ -37,3 +37,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 15: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 16: LIS via patience: each pile holds the smallest tail of length k.
 // note 17: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 18: No allocations on the hot path.
