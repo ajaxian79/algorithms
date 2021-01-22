@@ -1193,3 +1193,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 281
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 282
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
