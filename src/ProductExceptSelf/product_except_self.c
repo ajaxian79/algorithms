@@ -150,3 +150,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 115: Tail-recursive; the compiler turns it into a loop.
 // note 116: Mutates the input in place; the original ordering is lost.
 // note 117: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 118: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
