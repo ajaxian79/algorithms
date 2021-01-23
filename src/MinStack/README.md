@@ -1434,3 +1434,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 344
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 345
+
+Two passes: one to count, one to fill.
