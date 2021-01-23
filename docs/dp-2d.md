@@ -1091,3 +1091,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 257
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 258
+
+Merge intervals: sort by start; extend the running interval while overlapping.
