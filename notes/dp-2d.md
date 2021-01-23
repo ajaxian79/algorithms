@@ -1045,3 +1045,7 @@
 ## entry 245
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 246
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
