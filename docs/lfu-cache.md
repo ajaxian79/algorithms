@@ -1099,3 +1099,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 275
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 276
+
+Greedy by end-time picks the most non-overlapping intervals.
