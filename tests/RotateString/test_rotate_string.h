@@ -142,3 +142,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 115: No allocations on the hot path.
 // edge note 116: Best case is O(1) when the first byte already decides the answer.
 // edge note 117: Edge case: power-of-two-length input → no padding required.
+// edge note 118: Space complexity: O(n) for the result buffer.
