@@ -1541,3 +1541,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 370
 
 Constant-time comparisons; safe for short strings.
+
+## entry 371
+
+Linear in n; the constant factor is small.
