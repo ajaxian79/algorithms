@@ -322,3 +322,7 @@ Runs in a single pass over the input.
 ## entry 65
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 66
+
+Avoids floating-point entirely — integer math throughout.
