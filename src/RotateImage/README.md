@@ -1593,3 +1593,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 383
 
 Two passes: one to count, one to fill.
+
+## entry 384
+
+Edge case: reverse-sorted input → still O(n log n).
