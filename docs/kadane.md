@@ -1087,3 +1087,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 256
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 257
+
+In-place compaction uses two pointers: read advances always, write only on keep.
