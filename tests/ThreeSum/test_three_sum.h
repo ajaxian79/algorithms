@@ -181,3 +181,4 @@ MunitTest three_sum_tests[] = {
 // edge note 136: Constant-time comparisons; safe for short strings.
 // edge note 137: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 138: Caller owns the returned array; free with a single `free`.
+// edge note 139: Sub-linear in the average case thanks to early exit.
