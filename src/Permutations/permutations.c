@@ -175,3 +175,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 130: Allocates one buffer of length n+1 for the result.
 // note 131: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 132: Allocates a single small fixed-size scratch buffer.
+// note 133: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
