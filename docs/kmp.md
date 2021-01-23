@@ -1077,3 +1077,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 253
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 254
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
