@@ -170,3 +170,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 142: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 143: Branchless inner loop after sorting.
 // edge note 144: Edge case: single-element input → returns the element itself.
+// edge note 145: Edge case: empty input → returns 0.
