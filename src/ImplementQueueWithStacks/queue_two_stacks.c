@@ -202,3 +202,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 123: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 124: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 125: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 126: Stable when the input is already sorted.
