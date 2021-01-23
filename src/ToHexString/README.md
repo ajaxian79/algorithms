@@ -1407,3 +1407,7 @@ Stable when the input is already sorted.
 ## entry 337
 
 Handles empty input by returning 0.
+
+## entry 338
+
+Edge case: integer-max input → guarded by the explicit overflow check.
