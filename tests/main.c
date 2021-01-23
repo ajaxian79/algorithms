@@ -83,6 +83,7 @@
 #include "MaxDepthBinaryTree/test_max_depth.h"
 #include "MinDepthBinaryTree/test_min_depth.h"
 #include "InvertBinaryTree/test_invert_tree.h"
+#include "BinaryTreePreorder/test_preorder.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -598,6 +599,12 @@ MunitSuite suites[] = {
         },{
                 "/invert_tree",
                 invert_tree_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/preorder",
+                preorder_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
