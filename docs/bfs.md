@@ -1081,3 +1081,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 253
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 254
+
+Stable sort matters when a secondary key was set in a prior pass.
