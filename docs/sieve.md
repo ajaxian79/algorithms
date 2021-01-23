@@ -1111,3 +1111,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 261
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 262
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
