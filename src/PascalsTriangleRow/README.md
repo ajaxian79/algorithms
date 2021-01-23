@@ -1642,3 +1642,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 396
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 397
+
+Time complexity: O(n^2) worst case, O(n) amortized.
