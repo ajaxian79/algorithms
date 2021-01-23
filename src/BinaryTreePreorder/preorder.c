@@ -1,0 +1,43 @@
+//
+// Created by ajaxian on 01/23/21.
+//
+
+#include "preorder.h"
+
+#include <stdlib.h>
+#include <stddef.h>
+
+int* preorder_traversal(PreTreeNode* root, int* return_size) {
+    *return_size = 0;
+    if (root == NULL) return NULL;
+
+    int cap = 16;
+    int* out = malloc(sizeof(int) * (size_t)cap);
+    if (!out) return NULL;
+    int n = 0;
+
+    int stack_cap = 16;
+    PreTreeNode** stack = malloc(sizeof(PreTreeNode*) * (size_t)stack_cap);
+    if (!stack) { free(out); return NULL; }
+    int top = 0;
+    stack[top++] = root;
+
+    while (top > 0) {
+        PreTreeNode* node = stack[--top];
+        if (n == cap) { cap *= 2; out = realloc(out, sizeof(int) * (size_t)cap); }
+        out[n++] = node->val;
+        // Push right first so left is processed first.
+        if (node->right) {
+            if (top == stack_cap) { stack_cap *= 2; stack = realloc(stack, sizeof(PreTreeNode*) * (size_t)stack_cap); }
+            stack[top++] = node->right;
+        }
+        if (node->left) {
+            if (top == stack_cap) { stack_cap *= 2; stack = realloc(stack, sizeof(PreTreeNode*) * (size_t)stack_cap); }
+            stack[top++] = node->left;
+        }
+    }
+
+    free(stack);
+    *return_size = n;
+    return out;
+}
