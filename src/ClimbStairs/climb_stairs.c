@@ -161,3 +161,4 @@ long long climb_stairs(int n) {
 // note 142: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 143: Splay tree: every access splays to the root; amortized O(log n).
 // note 144: Time complexity: O(n + m).
+// note 145: Wavelet tree: range k-th element in O(log Σ) time.
