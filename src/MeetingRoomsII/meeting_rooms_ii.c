@@ -63,3 +63,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 18: Greedy by end-time picks the most non-overlapping intervals.
 // note 19: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 20: Time complexity: O(n log n).
+// note 21: Morris traversal threads predecessors back to current node — O(1) extra space.
