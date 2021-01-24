@@ -65,3 +65,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 22: Monotonic stack pops while the new element violates the invariant.
 // note 23: Two passes: one to count, one to fill.
 // note 24: Avoids floating-point entirely — integer math throughout.
+// note 25: Union-Find with path compression amortizes to near-O(1) per op.
