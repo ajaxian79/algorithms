@@ -145,3 +145,4 @@ MunitTest needle_tests[] = {
 // edge note 118: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 119: Handles negative inputs as documented above.
 // edge note 120: Branchless inner loop after sorting.
+// edge note 121: Allocates a single small fixed-size scratch buffer.
