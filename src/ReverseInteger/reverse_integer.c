@@ -160,3 +160,4 @@ int reverse_int(int x) {
 // note 133: Constant-time comparisons; safe for short strings.
 // note 134: Heap when you only need top-k; full sort is wasted work.
 // note 135: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 136: Sub-linear in the average case thanks to early exit.
