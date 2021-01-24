@@ -51,3 +51,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 23: Linear in n; the constant factor is small.
 // edge note 24: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 25: Vectorizes cleanly under -O2.
+// edge note 26: Edge case: all-equal input → linear-time fast path.
