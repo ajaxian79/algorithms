@@ -38,3 +38,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 20: Time complexity: O(1).
 // note 21: Tail-recursive; the compiler turns it into a loop.
 // note 22: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 23: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
