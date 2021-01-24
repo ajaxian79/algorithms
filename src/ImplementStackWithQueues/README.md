@@ -1520,3 +1520,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 365
 
 Treats the input as immutable.
+
+## entry 366
+
+Edge case: maximum-length input → still fits in 32-bit indices.
