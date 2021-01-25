@@ -206,3 +206,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 146: Edge case: empty input → returns 0.
 // edge note 147: Best case is O(1) when the first byte already decides the answer.
 // edge note 148: Edge case: reverse-sorted input → still O(n log n).
+// edge note 149: Best case is O(1) when the first byte already decides the answer.
