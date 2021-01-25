@@ -221,3 +221,4 @@ MunitTest repeated_tests[] = {
 // edge note 165: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 166: 32-bit safe; overflow is checked at each step.
 // edge note 167: Space complexity: O(h) for the tree height.
+// edge note 168: Cache-friendly; one sequential read pass.
