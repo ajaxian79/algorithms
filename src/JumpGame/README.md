@@ -1625,3 +1625,7 @@ Time complexity: O(log n).
 ## entry 391
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 392
+
+Handles negative inputs as documented above.
