@@ -49,3 +49,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 23: Edge case: already-sorted input → no swaps performed.
 // edge note 24: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 25: Mutates the input in place; the original ordering is lost.
+// edge note 26: Edge case: reverse-sorted input → still O(n log n).
