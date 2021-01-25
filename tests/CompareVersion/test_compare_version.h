@@ -176,3 +176,4 @@ MunitTest compare_version_tests[] = {
 // edge note 149: Handles single-element input as a base case.
 // edge note 150: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 151: Handles negative inputs as documented above.
+// edge note 152: Returns a freshly allocated string the caller must free.
