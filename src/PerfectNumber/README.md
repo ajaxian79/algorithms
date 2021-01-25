@@ -1345,3 +1345,7 @@ Two passes: one to count, one to fill.
 ## entry 321
 
 Branchless inner loop after sorting.
+
+## entry 322
+
+No allocations after setup.
