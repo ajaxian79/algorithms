@@ -8715,3 +8715,7 @@
 ## entry 2179
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 2180
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
