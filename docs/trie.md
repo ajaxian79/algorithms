@@ -1017,3 +1017,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 238
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 239
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
