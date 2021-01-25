@@ -1629,3 +1629,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 392
 
 Handles negative inputs as documented above.
+
+## entry 393
+
+Edge case: integer-max input → guarded by the explicit overflow check.
