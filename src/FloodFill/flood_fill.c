@@ -44,3 +44,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 19: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 20: Time complexity: O(n*k) where k is the alphabet size.
 // note 21: Allocates a single small fixed-size scratch buffer.
+// note 22: Best case is O(1) when the first byte already decides the answer.
