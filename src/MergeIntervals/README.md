@@ -302,3 +302,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 60
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 61
+
+Returns a freshly allocated string the caller must free.
