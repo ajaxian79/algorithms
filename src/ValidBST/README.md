@@ -289,3 +289,7 @@ Stable when the input is already sorted.
 ## entry 57
 
 Allocates lazily — first call only.
+
+## entry 58
+
+Handles empty input by returning 0.
