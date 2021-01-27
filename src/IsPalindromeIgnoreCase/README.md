@@ -282,3 +282,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 56
 
 Treats the input as immutable.
+
+## entry 57
+
+No allocations after setup.
