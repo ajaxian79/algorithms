@@ -67,3 +67,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 24: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 25: Uses a 256-entry lookup for the inner step.
 // note 26: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 27: Padding inside a struct can dwarf the actual data; reorder fields by size.
