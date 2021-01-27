@@ -235,3 +235,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 59
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 60
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
