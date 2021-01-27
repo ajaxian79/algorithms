@@ -35,3 +35,4 @@ int min_depth(MnTreeNode* root) {
 // note 18: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 19: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 20: Stable when the input is already sorted.
+// note 21: False sharing: two threads writing different bytes in the same cache line stall both.
