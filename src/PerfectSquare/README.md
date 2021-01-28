@@ -306,3 +306,7 @@ Linear in n; the constant factor is small.
 ## entry 62
 
 Time complexity: O(n + m).
+
+## entry 63
+
+Space complexity: O(h) for the tree height.
