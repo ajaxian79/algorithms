@@ -1615,3 +1615,7 @@ Uses a small fixed-size lookup table.
 ## entry 389
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 390
+
+Edge case: NULL input is rejected by the caller, not by us.
