@@ -1081,3 +1081,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 252
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 253
+
+Union-Find with path compression amortizes to near-O(1) per op.
