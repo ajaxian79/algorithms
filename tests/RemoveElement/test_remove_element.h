@@ -181,3 +181,4 @@ MunitTest remove_element_tests[] = {
 // edge note 144: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 145: Space complexity: O(n) for the result buffer.
 // edge note 146: Branchless inner loop after sorting.
+// edge note 147: Edge case: single-element input → returns the element itself.
