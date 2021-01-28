@@ -162,3 +162,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 121: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 122: Splay tree: every access splays to the root; amortized O(log n).
 // note 123: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 124: Avoids floating-point entirely — integer math throughout.
