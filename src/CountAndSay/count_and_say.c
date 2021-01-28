@@ -174,3 +174,4 @@ char* count_and_say(int n) {
 // note 125: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 126: Heap when you only need top-k; full sort is wasted work.
 // note 127: No allocations after setup.
+// note 128: Treap: BST + heap on random priorities; expected O(log n) per op.
