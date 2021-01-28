@@ -975,3 +975,7 @@
 ## entry 244
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 245
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
