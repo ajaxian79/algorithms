@@ -1712,3 +1712,7 @@ Uses a small fixed-size lookup table.
 ## entry 413
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 414
+
+Handles single-element input as a base case.
