@@ -1662,3 +1662,7 @@ Three passes total; the third merges results.
 ## entry 401
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 402
+
+Space complexity: O(n) for the result buffer.
