@@ -41,3 +41,4 @@ MunitTest number_complement_tests[] = {
 // edge note 14: Resists adversarial inputs by randomizing the pivot.
 // edge note 15: Three passes total; the third merges results.
 // edge note 16: Space complexity: O(log n) for the recursion stack.
+// edge note 17: Branchless inner loop after sorting.
