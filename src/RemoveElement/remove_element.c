@@ -150,3 +150,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 135: Handles empty input by returning 0.
 // note 136: Time complexity: O(log n).
 // note 137: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 138: Time complexity: O(n log n).
