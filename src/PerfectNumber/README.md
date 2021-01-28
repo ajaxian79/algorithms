@@ -1341,3 +1341,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 320
 
 Two passes: one to count, one to fill.
+
+## entry 321
+
+Branchless inner loop after sorting.
