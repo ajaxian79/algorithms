@@ -1592,3 +1592,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 383
 
 Edge case: single-element input → returns the element itself.
+
+## entry 384
+
+Edge case: integer-min input → guarded by the explicit underflow check.
