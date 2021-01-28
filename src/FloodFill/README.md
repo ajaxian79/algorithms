@@ -1633,3 +1633,7 @@ Two passes: one to count, one to fill.
 ## entry 394
 
 Returns a freshly allocated string the caller must free.
+
+## entry 395
+
+Edge case: maximum-length input → still fits in 32-bit indices.
