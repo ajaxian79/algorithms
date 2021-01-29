@@ -180,3 +180,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 137: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 138: Thread-safe so long as the input is not mutated concurrently.
 // edge note 139: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 140: Worst case appears only on degenerate inputs.
