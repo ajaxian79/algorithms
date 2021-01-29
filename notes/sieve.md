@@ -1117,3 +1117,7 @@
 ## entry 265
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 266
+
+- Monotonic stack pops while the new element violates the invariant.
