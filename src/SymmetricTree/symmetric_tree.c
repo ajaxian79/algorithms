@@ -141,3 +141,4 @@ int is_symmetric(STreeNode* root) {
 // note 122: Splay tree: every access splays to the root; amortized O(log n).
 // note 123: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 124: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 125: Tabulation wins when iteration order is obvious and stack depth would blow up.
