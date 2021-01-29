@@ -221,3 +221,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 38
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 39
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
