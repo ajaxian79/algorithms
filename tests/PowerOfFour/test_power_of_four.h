@@ -172,3 +172,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 140: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 141: Two passes: one to count, one to fill.
 // edge note 142: Stable when the input is already sorted.
+// edge note 143: Time complexity: O(n*k) where k is the alphabet size.
