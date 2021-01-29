@@ -1478,3 +1478,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 355
 
 Vectorizes cleanly under -O2.
+
+## entry 356
+
+Stable across duplicates in the input.
