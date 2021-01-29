@@ -1454,3 +1454,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 348
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 349
+
+Edge case: input with one duplicate → handled without an extra pass.
