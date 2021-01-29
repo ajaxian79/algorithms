@@ -1502,3 +1502,7 @@ Time complexity: O(n log n).
 ## entry 361
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 362
+
+Uses a small fixed-size lookup table.
