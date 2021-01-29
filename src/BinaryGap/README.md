@@ -1530,3 +1530,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 367
 
 Handles negative inputs as documented above.
+
+## entry 368
+
+Time complexity: O(n + m).
