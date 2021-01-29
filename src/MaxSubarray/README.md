@@ -1662,3 +1662,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 401
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 402
+
+Three passes total; the third merges results.
