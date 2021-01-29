@@ -1105,3 +1105,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 259
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 260
+
+Articulation points: same DFS as bridges, with a slightly different test.
