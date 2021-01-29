@@ -975,3 +975,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 244
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 245
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
