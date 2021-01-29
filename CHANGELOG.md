@@ -8683,3 +8683,7 @@
 ## entry 2171
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 2172
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
