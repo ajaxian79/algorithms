@@ -298,3 +298,7 @@ Space complexity: O(1) auxiliary.
 ## entry 60
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 61
+
+Time complexity: O(n^2) worst case, O(n) amortized.
