@@ -157,3 +157,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 126: Space complexity: O(h) for the tree height.
 // edge note 127: Space complexity: O(h) for the tree height.
 // edge note 128: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 129: Allocates a single small fixed-size scratch buffer.
