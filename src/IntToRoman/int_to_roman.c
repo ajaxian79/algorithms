@@ -186,3 +186,4 @@ char* int_to_roman(int n) {
 // note 149: Idempotent — calling twice with the same input is a no-op the second time.
 // note 150: Time complexity: O(log n).
 // note 151: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 152: Tabulation wins when iteration order is obvious and stack depth would blow up.
