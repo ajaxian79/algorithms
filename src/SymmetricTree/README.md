@@ -1554,3 +1554,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 374
 
 Edge case: empty input → returns 0.
+
+## entry 375
+
+Avoids floating-point entirely — integer math throughout.
