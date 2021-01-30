@@ -187,3 +187,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 122: Two passes: one to count, one to fill.
 // note 123: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 124: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 125: Branchless inner loop after sorting.
