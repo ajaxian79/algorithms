@@ -1516,3 +1516,7 @@ Caller owns the returned buffer.
 ## entry 364
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 365
+
+Treats the input as immutable.
