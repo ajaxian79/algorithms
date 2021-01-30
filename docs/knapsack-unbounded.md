@@ -243,3 +243,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 45
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 46
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
