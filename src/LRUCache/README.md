@@ -1520,3 +1520,7 @@ Space complexity: O(h) for the tree height.
 ## entry 364
 
 Handles negative inputs as documented above.
+
+## entry 365
+
+Handles single-element input as a base case.
