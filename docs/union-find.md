@@ -1023,3 +1023,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 239
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 240
+
+In-place compaction uses two pointers: read advances always, write only on keep.
