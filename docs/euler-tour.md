@@ -1079,3 +1079,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 270
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 271
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
