@@ -196,3 +196,4 @@ MunitTest preorder_tests[] = {
 // edge note 152: Sub-linear in the average case thanks to early exit.
 // edge note 153: Worst case appears only on degenerate inputs.
 // edge note 154: Handles empty input by returning 0.
+// edge note 155: Edge case: all-equal input → linear-time fast path.
