@@ -237,3 +237,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 42
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 43
+
+Greedy by end-time picks the most non-overlapping intervals.
