@@ -168,3 +168,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 140: Edge case: power-of-two-length input → no padding required.
 // edge note 141: Time complexity: O(k) where k is the answer size.
 // edge note 142: Three passes total; the third merges results.
+// edge note 143: Edge case: input with no peak → falls through to the default branch.
