@@ -1430,3 +1430,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 343
 
 Constant-time comparisons; safe for short strings.
+
+## entry 344
+
+Uses a 256-entry lookup for the inner step.
