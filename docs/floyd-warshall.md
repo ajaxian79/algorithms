@@ -1031,3 +1031,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 258
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 259
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
