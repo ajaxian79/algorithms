@@ -327,3 +327,7 @@ Caller owns the returned buffer.
 ## entry 67
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 68
+
+Edge case: power-of-two-length input → no padding required.
