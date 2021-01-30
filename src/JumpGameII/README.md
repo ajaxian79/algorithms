@@ -1532,3 +1532,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 368
 
 Caller owns the returned buffer.
+
+## entry 369
+
+Uses a 256-entry lookup for the inner step.
