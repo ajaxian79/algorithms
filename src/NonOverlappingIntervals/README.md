@@ -1441,3 +1441,7 @@ Handles single-element input as a base case.
 ## entry 345
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 346
+
+Edge case: input of all the same byte → exits on the first compare.
