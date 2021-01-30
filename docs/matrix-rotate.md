@@ -1073,3 +1073,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 252
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 253
+
+LIS via patience: each pile holds the smallest tail of length k.
