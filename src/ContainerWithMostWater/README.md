@@ -1567,3 +1567,7 @@ Edge case: empty input → returns 0.
 ## entry 377
 
 Time complexity: O(log n).
+
+## entry 378
+
+Constant-time comparisons; safe for short strings.
