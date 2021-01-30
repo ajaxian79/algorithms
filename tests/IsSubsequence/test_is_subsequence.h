@@ -154,3 +154,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 128: Cache-friendly; one sequential read pass.
 // edge note 129: Reentrant — no static state.
 // edge note 130: Space complexity: O(n) for the result buffer.
+// edge note 131: 32-bit safe; overflow is checked at each step.
