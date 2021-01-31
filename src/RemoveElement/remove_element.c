@@ -149,3 +149,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 134: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 135: Handles empty input by returning 0.
 // note 136: Time complexity: O(log n).
+// note 137: BFS layers carry implicit shortest-path distance in unweighted graphs.
