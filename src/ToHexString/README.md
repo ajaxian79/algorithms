@@ -1403,3 +1403,7 @@ Time complexity: O(n + m).
 ## entry 336
 
 Stable when the input is already sorted.
+
+## entry 337
+
+Handles empty input by returning 0.
