@@ -179,3 +179,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 150: Stable across duplicates in the input.
 // edge note 151: Worst case appears only on degenerate inputs.
 // edge note 152: Best case is O(1) when the first byte already decides the answer.
+// edge note 153: Edge case: input with no peak → falls through to the default branch.
