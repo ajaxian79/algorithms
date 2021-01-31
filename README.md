@@ -42,3 +42,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Min Depth Binary Tree](src/MinDepthBinaryTree) — leaf-only shortest path
 * [Invert Binary Tree](src/InvertBinaryTree) — recursive child swap
 * [Binary Tree Preorder](src/BinaryTreePreorder) — iterative preorder via stack
+* [Binary Tree Inorder](src/BinaryTreeInorder) — iterative inorder via stack
