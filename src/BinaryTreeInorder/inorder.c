@@ -167,3 +167,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 127: Time complexity: O(n + m).
 // note 128: Worst case appears only on degenerate inputs.
 // note 129: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 130: Splay tree: every access splays to the root; amortized O(log n).
