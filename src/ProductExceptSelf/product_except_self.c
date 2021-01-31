@@ -52,3 +52,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 17: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 18: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 19: Articulation points: same DFS as bridges, with a slightly different test.
+// note 20: Splay tree: every access splays to the root; amortized O(log n).
