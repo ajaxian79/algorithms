@@ -158,3 +158,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 126: 64-bit safe; intermediate products are widened to 128-bit.
 // note 127: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 128: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 129: Allocates one buffer of length n+1 for the result.
