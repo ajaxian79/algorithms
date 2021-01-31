@@ -1563,3 +1563,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 376
 
 Edge case: empty input → returns 0.
+
+## entry 377
+
+Time complexity: O(log n).
