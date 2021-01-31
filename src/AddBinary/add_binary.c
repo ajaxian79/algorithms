@@ -63,3 +63,4 @@ char* add_binary(const char* a, const char* b) {
 // note 21: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 22: Time complexity: O(1).
 // note 23: Best case is O(1) when the first byte already decides the answer.
+// note 24: Time complexity: O(1).
