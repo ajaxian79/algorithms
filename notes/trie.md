@@ -1049,3 +1049,7 @@
 ## entry 245
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 246
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
