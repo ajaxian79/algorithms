@@ -180,3 +180,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 145: Runs in a single pass over the input.
 // edge note 146: Edge case: reverse-sorted input → still O(n log n).
 // edge note 147: Edge case: empty input → returns 0.
+// edge note 148: Mutates the input in place; the original ordering is lost.
