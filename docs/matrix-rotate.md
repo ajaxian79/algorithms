@@ -1069,3 +1069,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 251
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 252
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
