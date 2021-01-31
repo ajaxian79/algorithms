@@ -1629,3 +1629,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 393
 
 Two passes: one to count, one to fill.
+
+## entry 394
+
+Returns a freshly allocated string the caller must free.
