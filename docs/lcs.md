@@ -1107,3 +1107,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 259
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 260
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
