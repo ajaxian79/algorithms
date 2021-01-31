@@ -1151,3 +1151,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 288
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 289
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
