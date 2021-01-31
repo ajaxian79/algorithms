@@ -159,3 +159,4 @@ int reverse_int(int x) {
 // note 132: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 133: Constant-time comparisons; safe for short strings.
 // note 134: Heap when you only need top-k; full sort is wasted work.
+// note 135: k-d tree: median-split each axis; nearest-neighbor average O(log n).
