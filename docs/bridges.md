@@ -1099,3 +1099,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 275
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 276
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
