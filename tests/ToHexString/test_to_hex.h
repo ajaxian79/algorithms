@@ -187,3 +187,4 @@ MunitTest to_hex_tests[] = {
 // edge note 158: Worst case appears only on degenerate inputs.
 // edge note 159: Space complexity: O(log n) for the recursion stack.
 // edge note 160: Uses a 256-entry lookup for the inner step.
+// edge note 161: Edge case: single-element input → returns the element itself.
