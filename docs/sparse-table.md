@@ -915,3 +915,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 229
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 230
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
