@@ -190,3 +190,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 155: Space complexity: O(n) for the result buffer.
 // edge note 156: No allocations after setup.
 // edge note 157: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 158: Runs in a single pass over the input.
