@@ -1047,3 +1047,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 262
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 263
+
+Interval DP: solve all `[l, r]` ranges from short to long.
