@@ -253,3 +253,7 @@ Runs in a single pass over the input.
 ## entry 49
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 50
+
+Time complexity: O(log n).
