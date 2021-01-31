@@ -1410,3 +1410,7 @@ Handles empty input by returning 0.
 ## entry 338
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 339
+
+Edge case: maximum-length input → still fits in 32-bit indices.
