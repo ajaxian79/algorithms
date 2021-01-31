@@ -1199,3 +1199,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 283
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 284
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
