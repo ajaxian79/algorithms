@@ -1097,3 +1097,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 258
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 259
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
