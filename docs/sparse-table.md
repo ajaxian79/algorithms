@@ -135,3 +135,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 34
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 35
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
