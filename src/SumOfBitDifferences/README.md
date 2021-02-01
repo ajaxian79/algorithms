@@ -1556,3 +1556,7 @@ Two passes: one to count, one to fill.
 ## entry 374
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 375
+
+Worst case appears only on degenerate inputs.
