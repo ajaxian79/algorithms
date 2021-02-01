@@ -503,3 +503,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 16: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 17: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 18: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 19: Resists adversarial inputs by randomizing the pivot.
