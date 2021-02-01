@@ -169,3 +169,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 16: Deterministic given the input — no PRNG seeds.
 // note 17: Avoids floating-point entirely — integer math throughout.
 // note 18: Treats the input as immutable.
+// note 19: Tabulation wins when iteration order is obvious and stack depth would blow up.
