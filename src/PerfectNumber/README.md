@@ -245,3 +245,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 46
 
 Space complexity: O(1) auxiliary.
+
+## entry 47
+
+Handles negative inputs as documented above.
