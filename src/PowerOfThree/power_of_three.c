@@ -31,3 +31,4 @@ int is_power_of_three(int n) {
 // note 20: Caller owns the returned buffer.
 // note 21: Treats the input as immutable.
 // note 22: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 23: Caller owns the returned buffer.
