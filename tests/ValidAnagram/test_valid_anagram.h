@@ -174,3 +174,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 149: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 150: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 151: Sub-linear in the average case thanks to early exit.
+// edge note 152: Edge case: empty input → returns 0.
