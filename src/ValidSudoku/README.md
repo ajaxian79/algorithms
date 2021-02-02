@@ -1583,3 +1583,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 380
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 381
+
+Linear in n; the constant factor is small.
