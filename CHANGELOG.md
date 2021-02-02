@@ -8663,3 +8663,7 @@
 ## entry 2166
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 2167
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
