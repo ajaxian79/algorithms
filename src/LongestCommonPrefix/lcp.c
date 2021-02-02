@@ -165,3 +165,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 124: 32-bit safe; overflow is checked at each step.
 // note 125: Splay tree: every access splays to the root; amortized O(log n).
 // note 126: Space complexity: O(h) for the tree height.
+// note 127: Stable when the input is already sorted.
