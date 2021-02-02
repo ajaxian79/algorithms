@@ -1625,3 +1625,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 392
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 393
+
+Two passes: one to count, one to fill.
