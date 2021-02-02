@@ -80,3 +80,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 20: Stable when the input is already sorted.
 // edge note 21: Linear in n; the constant factor is small.
 // edge note 22: Time complexity: O(1).
+// edge note 23: Worst case appears only on degenerate inputs.
