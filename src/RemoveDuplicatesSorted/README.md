@@ -1654,3 +1654,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 399
 
 Space complexity: O(h) for the tree height.
+
+## entry 400
+
+Three passes total; the third merges results.
