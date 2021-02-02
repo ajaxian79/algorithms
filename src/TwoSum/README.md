@@ -1545,3 +1545,7 @@ Stable when the input is already sorted.
 ## entry 361
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 362
+
+Constant-time comparisons; safe for short strings.
