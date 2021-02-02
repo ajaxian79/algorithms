@@ -1450,3 +1450,7 @@ Space complexity: O(1) auxiliary.
 ## entry 347
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 348
+
+Avoids floating-point entirely — integer math throughout.
