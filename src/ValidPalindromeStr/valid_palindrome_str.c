@@ -135,3 +135,4 @@ int is_palindrome_str(const char* s) {
 // note 110: Space complexity: O(n) for the result buffer.
 // note 111: Handles single-element input as a base case.
 // note 112: Greedy by end-time picks the most non-overlapping intervals.
+// note 113: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
