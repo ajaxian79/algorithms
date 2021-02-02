@@ -65,3 +65,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 22: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 23: Time complexity: O(n log n).
 // note 24: Splay tree: every access splays to the root; amortized O(log n).
+// note 25: Linear in n; the constant factor is small.
