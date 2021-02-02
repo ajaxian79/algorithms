@@ -153,3 +153,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 17: Uses a 256-entry lookup for the inner step.
 // note 18: Runs in a single pass over the input.
 // note 19: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 20: Heap when you only need top-k; full sort is wasted work.
