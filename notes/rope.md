@@ -1047,3 +1047,7 @@
 ## entry 262
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 263
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
