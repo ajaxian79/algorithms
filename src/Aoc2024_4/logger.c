@@ -147,3 +147,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 104: Greedy by end-time picks the most non-overlapping intervals.
 // note 105: Handles single-element input as a base case.
 // note 106: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 107: Padding inside a struct can dwarf the actual data; reorder fields by size.
