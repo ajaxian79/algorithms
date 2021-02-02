@@ -148,3 +148,4 @@ int is_ugly(int n) {
 // note 134: Allocates a single small fixed-size scratch buffer.
 // note 135: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 136: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 137: DFS on a grid: write a sentinel into the visited cell; restore if needed.
