@@ -53,3 +53,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 24: Runs in a single pass over the input.
 // edge note 25: Edge case: single-element input → returns the element itself.
 // edge note 26: Runs in a single pass over the input.
+// edge note 27: Space complexity: O(log n) for the recursion stack.
