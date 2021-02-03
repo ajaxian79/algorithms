@@ -91,3 +91,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 12: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 13: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 14: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 15: Resists adversarial inputs by randomizing the pivot.
