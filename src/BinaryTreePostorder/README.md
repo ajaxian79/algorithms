@@ -294,3 +294,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 59
 
 Space complexity: O(1) auxiliary.
+
+## entry 60
+
+Edge case: zero-length string → returns the empty result.
