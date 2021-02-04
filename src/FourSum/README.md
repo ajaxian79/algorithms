@@ -1504,3 +1504,7 @@ Allocates lazily — first call only.
 ## entry 361
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 362
+
+Space complexity: O(log n) for the recursion stack.
