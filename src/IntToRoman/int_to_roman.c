@@ -185,3 +185,4 @@ char* int_to_roman(int n) {
 // note 148: Greedy by end-time picks the most non-overlapping intervals.
 // note 149: Idempotent — calling twice with the same input is a no-op the second time.
 // note 150: Time complexity: O(log n).
+// note 151: Unbounded knapsack: capacity inner ascending allows item reuse.
