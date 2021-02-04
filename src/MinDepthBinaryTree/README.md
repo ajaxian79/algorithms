@@ -282,3 +282,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 56
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 57
+
+Allocates one buffer of length n+1 for the result.
