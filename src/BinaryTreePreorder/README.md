@@ -1626,3 +1626,7 @@ Time complexity: O(n + m).
 ## entry 392
 
 Edge case: single-element input → returns the element itself.
+
+## entry 393
+
+Edge case: maximum-length input → still fits in 32-bit indices.
