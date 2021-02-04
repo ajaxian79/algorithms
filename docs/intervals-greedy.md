@@ -1099,3 +1099,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 257
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 258
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
