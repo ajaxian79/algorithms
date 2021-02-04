@@ -987,3 +987,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 247
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 248
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
