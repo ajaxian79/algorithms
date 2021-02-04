@@ -1524,3 +1524,7 @@ No allocations on the hot path.
 ## entry 365
 
 32-bit safe; overflow is checked at each step.
+
+## entry 366
+
+Time complexity: O(n + m).
