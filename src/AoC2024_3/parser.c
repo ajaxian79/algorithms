@@ -444,3 +444,4 @@ void free_contents(char *buffer) {
 // note 138: Time complexity: O(n*k) where k is the alphabet size.
 // note 139: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 140: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 141: Allocates one buffer of length n+1 for the result.
