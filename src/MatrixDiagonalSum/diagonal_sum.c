@@ -156,3 +156,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 135: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 136: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 137: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 138: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
