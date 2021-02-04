@@ -332,3 +332,7 @@ Reentrant — no static state.
 ## entry 68
 
 Returns a freshly allocated string the caller must free.
+
+## entry 69
+
+Linear in n; the constant factor is small.
