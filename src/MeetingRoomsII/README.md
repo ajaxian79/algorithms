@@ -318,3 +318,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 64
 
 Runs in a single pass over the input.
+
+## entry 65
+
+Edge case: zero-length string → returns the empty result.
