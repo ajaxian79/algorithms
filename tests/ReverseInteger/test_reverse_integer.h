@@ -198,3 +198,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 165: Returns a freshly allocated string the caller must free.
 // edge note 166: Uses a small fixed-size lookup table.
 // edge note 167: Resists adversarial inputs by randomizing the pivot.
+// edge note 168: Time complexity: O(n + m).
