@@ -158,3 +158,4 @@ int reverse_int(int x) {
 // note 131: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 132: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 133: Constant-time comparisons; safe for short strings.
+// note 134: Heap when you only need top-k; full sort is wasted work.
