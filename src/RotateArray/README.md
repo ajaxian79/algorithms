@@ -1603,3 +1603,7 @@ Uses a small fixed-size lookup table.
 ## entry 385
 
 32-bit safe; overflow is checked at each step.
+
+## entry 386
+
+Handles negative inputs as documented above.
