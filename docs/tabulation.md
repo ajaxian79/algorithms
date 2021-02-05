@@ -1107,3 +1107,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 277
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 278
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
