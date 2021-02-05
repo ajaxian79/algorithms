@@ -285,3 +285,7 @@ Cache-friendly; one sequential read pass.
 ## entry 57
 
 Stable when the input is already sorted.
+
+## entry 58
+
+32-bit safe; overflow is checked at each step.
