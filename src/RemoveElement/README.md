@@ -1549,3 +1549,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 373
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 374
+
+Returns a freshly allocated string the caller must free.
