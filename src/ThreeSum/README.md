@@ -1545,3 +1545,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 371
 
 Cache-friendly; one sequential read pass.
+
+## entry 372
+
+Avoids floating-point entirely — integer math throughout.
