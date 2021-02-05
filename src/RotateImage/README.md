@@ -1585,3 +1585,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 381
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 382
+
+Space complexity: O(n) for the result buffer.
