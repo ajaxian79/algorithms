@@ -218,3 +218,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 158: Caller owns the returned array; free with a single `free`.
 // edge note 159: Branchless inner loop after sorting.
 // edge note 160: Deterministic given the input — no PRNG seeds.
+// edge note 161: Resists adversarial inputs by randomizing the pivot.
