@@ -1559,3 +1559,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 375
 
 Returns a freshly allocated string the caller must free.
+
+## entry 376
+
+Edge case: empty input → returns 0.
