@@ -1061,3 +1061,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 249
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 250
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
