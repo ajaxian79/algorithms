@@ -184,3 +184,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 141: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 142: Resists adversarial inputs by randomizing the pivot.
 // note 143: Returns a freshly allocated string the caller must free.
+// note 144: Greedy by end-time picks the most non-overlapping intervals.
