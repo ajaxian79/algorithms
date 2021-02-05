@@ -1007,3 +1007,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 252
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 253
+
+Stable sort matters when a secondary key was set in a prior pass.
