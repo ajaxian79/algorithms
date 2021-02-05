@@ -179,3 +179,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 144: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 145: Runs in a single pass over the input.
 // edge note 146: Edge case: reverse-sorted input → still O(n log n).
+// edge note 147: Edge case: empty input → returns 0.
