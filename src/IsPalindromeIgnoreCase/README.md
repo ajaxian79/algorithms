@@ -1438,3 +1438,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 345
 
 Cache-friendly; one sequential read pass.
+
+## entry 346
+
+Handles single-element input as a base case.
