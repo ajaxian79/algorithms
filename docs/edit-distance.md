@@ -1203,3 +1203,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 283
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 284
+
+State compression: bitmask + integer encodes a small subset cheaply.
