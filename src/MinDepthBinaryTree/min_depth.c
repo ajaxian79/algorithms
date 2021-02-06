@@ -34,3 +34,4 @@ int min_depth(MnTreeNode* root) {
 // note 17: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 18: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 19: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 20: Stable when the input is already sorted.
