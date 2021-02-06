@@ -1,0 +1,44 @@
+//
+// Created by ajaxian on 02/06/21.
+//
+
+#ifndef ALGORITHMS_TEST_POSTORDER_H
+#define ALGORITHMS_TEST_POSTORDER_H
+
+#include <stdlib.h>
+
+#include "../tests.h"
+#include "../../src/BinaryTreePostorder/postorder.h"
+
+static MunitResult test_postorder_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    int n = 0;
+    int* r = postorder_traversal(NULL, &n);
+    munit_assert_int(n, ==, 0);
+    munit_assert_null(r);
+
+    PostTreeNode c = {3, NULL, NULL};
+    PostTreeNode b = {2, &c, NULL};
+    PostTreeNode root = {1, NULL, &b};
+    r = postorder_traversal(&root, &n);
+    int e[] = {3, 2, 1};
+    munit_assert_int(n, ==, 3);
+    for (int i = 0; i < n; i++) munit_assert_int(r[i], ==, e[i]);
+    free(r);
+
+    PostTreeNode l = {2, NULL, NULL};
+    PostTreeNode rt = {3, NULL, NULL};
+    PostTreeNode r2 = {1, &l, &rt};
+    r = postorder_traversal(&r2, &n);
+    int e2[] = {2, 3, 1};
+    munit_assert_int(n, ==, 3);
+    for (int i = 0; i < n; i++) munit_assert_int(r[i], ==, e2[i]);
+    free(r);
+    return MUNIT_OK;
+}
+
+MunitTest postorder_tests[] = {
+    {"/basic", test_postorder_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_POSTORDER_H

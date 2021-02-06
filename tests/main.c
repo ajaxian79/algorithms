@@ -85,6 +85,7 @@
 #include "InvertBinaryTree/test_invert_tree.h"
 #include "BinaryTreePreorder/test_preorder.h"
 #include "BinaryTreeInorder/test_inorder.h"
+#include "BinaryTreePostorder/test_postorder.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -612,6 +613,12 @@ MunitSuite suites[] = {
         },{
                 "/inorder",
                 inorder_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/postorder",
+                postorder_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
