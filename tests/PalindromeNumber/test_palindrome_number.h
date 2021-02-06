@@ -55,3 +55,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 20: Uses a small fixed-size lookup table.
 // edge note 21: Three passes total; the third merges results.
 // edge note 22: Three passes total; the third merges results.
+// edge note 23: Edge case: empty input → returns 0.
