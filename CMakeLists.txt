@@ -91,6 +91,7 @@ add_executable(min_depth src/MinDepthBinaryTree/main.c src/MinDepthBinaryTree/mi
 add_executable(invert_tree src/InvertBinaryTree/main.c src/InvertBinaryTree/invert_tree.c)
 add_executable(preorder src/BinaryTreePreorder/main.c src/BinaryTreePreorder/preorder.c)
 add_executable(inorder src/BinaryTreeInorder/main.c src/BinaryTreeInorder/inorder.c)
+add_executable(postorder src/BinaryTreePostorder/main.c src/BinaryTreePostorder/postorder.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -267,4 +268,5 @@ target_link_libraries(min_depth PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mi
 target_link_libraries(invert_tree PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(preorder PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(inorder PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(postorder PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)

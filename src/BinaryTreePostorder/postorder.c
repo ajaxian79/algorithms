@@ -1,0 +1,49 @@
+//
+// Created by ajaxian on 02/06/21.
+//
+
+#include "postorder.h"
+
+#include <stdlib.h>
+#include <stddef.h>
+
+int* postorder_traversal(PostTreeNode* root, int* return_size) {
+    *return_size = 0;
+    if (root == NULL) return NULL;
+
+    // Trick: do a "rev-preorder" (root, right, left) into a buffer, then
+    // reverse the buffer to get postorder (left, right, root).
+    int cap = 16;
+    int* out = malloc(sizeof(int) * (size_t)cap);
+    if (!out) return NULL;
+    int n = 0;
+
+    int stack_cap = 16;
+    PostTreeNode** stack = malloc(sizeof(PostTreeNode*) * (size_t)stack_cap);
+    if (!stack) { free(out); return NULL; }
+    int top = 0;
+    stack[top++] = root;
+
+    while (top > 0) {
+        PostTreeNode* node = stack[--top];
+        if (n == cap) { cap *= 2; out = realloc(out, sizeof(int) * (size_t)cap); }
+        out[n++] = node->val;
+        if (node->left) {
+            if (top == stack_cap) { stack_cap *= 2; stack = realloc(stack, sizeof(PostTreeNode*) * (size_t)stack_cap); }
+            stack[top++] = node->left;
+        }
+        if (node->right) {
+            if (top == stack_cap) { stack_cap *= 2; stack = realloc(stack, sizeof(PostTreeNode*) * (size_t)stack_cap); }
+            stack[top++] = node->right;
+        }
+    }
+    free(stack);
+
+    // Reverse out in place.
+    for (int lo = 0, hi = n - 1; lo < hi; lo++, hi--) {
+        int t = out[lo]; out[lo] = out[hi]; out[hi] = t;
+    }
+
+    *return_size = n;
+    return out;
+}
