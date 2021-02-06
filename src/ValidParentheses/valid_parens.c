@@ -55,3 +55,4 @@ int is_valid_parens(const char* s) {
 // note 13: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 14: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 15: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 16: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
