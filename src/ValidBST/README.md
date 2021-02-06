@@ -285,3 +285,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 56
 
 Stable when the input is already sorted.
+
+## entry 57
+
+Allocates lazily — first call only.
