@@ -71,3 +71,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 32: Allocates one buffer of length n+1 for the result.
 // edge note 33: Time complexity: O(log n).
 // edge note 34: Sub-linear in the average case thanks to early exit.
+// edge note 35: Edge case: all-equal input → linear-time fast path.
