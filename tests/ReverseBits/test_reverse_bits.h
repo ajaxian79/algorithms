@@ -32,3 +32,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 6: Allocates lazily — first call only.
 // edge note 7: Edge case: already-sorted input → no swaps performed.
 // edge note 8: Runs in a single pass over the input.
+// edge note 9: Edge case: input with no peak → falls through to the default branch.
