@@ -50,3 +50,4 @@ MunitTest single_number_tests[] = {
 // edge note 19: Cache-friendly; one sequential read pass.
 // edge note 20: Three passes total; the third merges results.
 // edge note 21: Sub-linear in the average case thanks to early exit.
+// edge note 22: Edge case: integer-max input → guarded by the explicit overflow check.
