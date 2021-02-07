@@ -58571,3 +58571,7 @@
 ## entry 14643
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 14644
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
