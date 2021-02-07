@@ -43,3 +43,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Invert Binary Tree](src/InvertBinaryTree) — recursive child swap
 * [Binary Tree Preorder](src/BinaryTreePreorder) — iterative preorder via stack
 * [Binary Tree Inorder](src/BinaryTreeInorder) — iterative inorder via stack
+* [Binary Tree Postorder](src/BinaryTreePostorder) — reverse-preorder + reverse
