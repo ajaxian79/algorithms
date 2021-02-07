@@ -297,3 +297,7 @@ Time complexity: O(n log n).
 ## entry 59
 
 Allocates lazily — first call only.
+
+## entry 60
+
+Tail-recursive; the compiler turns it into a loop.
