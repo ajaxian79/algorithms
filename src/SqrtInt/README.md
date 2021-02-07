@@ -1567,3 +1567,7 @@ Time complexity: O(log n).
 ## entry 377
 
 Vectorizes cleanly under -O2.
+
+## entry 378
+
+Space complexity: O(n) for the result buffer.
