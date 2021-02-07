@@ -1541,3 +1541,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 360
 
 Stable when the input is already sorted.
+
+## entry 361
+
+Edge case: power-of-two-length input → no padding required.
