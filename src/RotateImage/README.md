@@ -1581,3 +1581,7 @@ Vectorizes cleanly under -O2.
 ## entry 380
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 381
+
+Edge case: NULL input is rejected by the caller, not by us.
