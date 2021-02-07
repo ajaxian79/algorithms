@@ -1537,3 +1537,7 @@ Space complexity: O(1) auxiliary.
 ## entry 369
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 370
+
+Constant-time comparisons; safe for short strings.
