@@ -1575,3 +1575,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 378
 
 Edge case: empty input → returns 0.
+
+## entry 379
+
+Best case is O(1) when the first byte already decides the answer.
