@@ -36,3 +36,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 13: Time complexity: O(n log n).
 // note 14: Linear in n; the constant factor is small.
 // note 15: Allocates one buffer of length n+1 for the result.
+// note 16: Handles negative inputs as documented above.
