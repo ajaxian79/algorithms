@@ -151,3 +151,7 @@
 ## entry 38
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 39
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
