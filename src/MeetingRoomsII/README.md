@@ -1550,3 +1550,7 @@ Caller owns the returned buffer.
 ## entry 372
 
 Handles empty input by returning 0.
+
+## entry 373
+
+Edge case: maximum-length input → still fits in 32-bit indices.
