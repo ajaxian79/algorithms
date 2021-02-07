@@ -44,3 +44,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 17: Reentrant — no static state.
 // edge note 18: Reentrant — no static state.
 // edge note 19: Worst case appears only on degenerate inputs.
+// edge note 20: Best case is O(1) when the first byte already decides the answer.
