@@ -1504,3 +1504,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 361
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 362
+
+Idempotent — calling twice with the same input is a no-op the second time.
