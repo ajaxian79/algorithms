@@ -145,3 +145,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 122: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 123: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 124: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 125: LRU cache: doubly-linked list + hash map; O(1) get/put.
