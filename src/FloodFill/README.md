@@ -1621,3 +1621,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 391
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 392
+
+Caller owns the returned array; free with a single `free`.
