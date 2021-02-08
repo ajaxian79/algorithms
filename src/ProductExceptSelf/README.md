@@ -1520,3 +1520,7 @@ Handles single-element input as a base case.
 ## entry 364
 
 No allocations on the hot path.
+
+## entry 365
+
+32-bit safe; overflow is checked at each step.
