@@ -58527,3 +58527,7 @@
 ## entry 14632
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 14633
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
