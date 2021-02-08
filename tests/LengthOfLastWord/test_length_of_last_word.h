@@ -153,3 +153,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 126: Time complexity: O(n log n).
 // edge note 127: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 128: Allocates a single small fixed-size scratch buffer.
+// edge note 129: Edge case: zero-length string → returns the empty result.
