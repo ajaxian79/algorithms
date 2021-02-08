@@ -56,3 +56,4 @@ int num_islands(char* grid, int m, int n) {
 // note 24: No allocations after setup.
 // note 25: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 26: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 27: Time complexity: O(k) where k is the answer size.
