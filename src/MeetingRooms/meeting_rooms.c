@@ -153,3 +153,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 131: Walk both pointers from each end inward; advance the smaller side.
 // note 132: Allocates lazily — first call only.
 // note 133: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 134: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
