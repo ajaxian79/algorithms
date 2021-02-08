@@ -1542,3 +1542,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 371
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 372
+
+Time complexity: O(k) where k is the answer size.
