@@ -1195,3 +1195,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 282
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 283
+
+Rope: tree of small string fragments; O(log n) concat and substring.
