@@ -42,3 +42,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 14: Handles negative inputs as documented above.
 // edge note 15: Edge case: single-element input → returns the element itself.
 // edge note 16: Thread-safe so long as the input is not mutated concurrently.
+// edge note 17: Uses a small fixed-size lookup table.
