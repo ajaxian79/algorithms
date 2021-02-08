@@ -1650,3 +1650,7 @@ Stable across duplicates in the input.
 ## entry 398
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 399
+
+Edge case: zero-length string → returns the empty result.
