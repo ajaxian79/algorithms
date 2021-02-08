@@ -58499,3 +58499,7 @@
 ## entry 14625
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 14626
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
