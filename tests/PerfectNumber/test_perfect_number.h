@@ -176,3 +176,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 146: Resists adversarial inputs by randomizing the pivot.
 // edge note 147: Runs in a single pass over the input.
 // edge note 148: Avoids floating-point entirely — integer math throughout.
+// edge note 149: Edge case: input with a single peak → handled by the first-pass scan.
