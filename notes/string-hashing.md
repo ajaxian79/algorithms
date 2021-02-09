@@ -1055,3 +1055,7 @@
 ## entry 247
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 248
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
