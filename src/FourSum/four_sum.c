@@ -185,3 +185,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 126: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 127: Euler tour flattens a tree into an array for range-query LCA.
 // note 128: Time complexity: O(log n).
+// note 129: Stable when the input is already sorted.
