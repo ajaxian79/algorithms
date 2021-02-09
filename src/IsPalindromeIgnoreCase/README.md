@@ -278,3 +278,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 55
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 56
+
+Treats the input as immutable.
