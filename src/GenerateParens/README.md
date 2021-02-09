@@ -1516,3 +1516,7 @@ Stable when the input is already sorted.
 ## entry 363
 
 Uses a small fixed-size lookup table.
+
+## entry 364
+
+Space complexity: O(n) for the result buffer.
