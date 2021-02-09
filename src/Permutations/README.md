@@ -1700,3 +1700,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 410
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 411
+
+Edge case: zero-length string → returns the empty result.
