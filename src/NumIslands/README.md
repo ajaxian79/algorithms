@@ -261,3 +261,7 @@ Treats the input as immutable.
 ## entry 50
 
 Time complexity: O(n).
+
+## entry 51
+
+Edge case: all-equal input → linear-time fast path.
