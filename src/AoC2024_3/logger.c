@@ -178,3 +178,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 135: Space complexity: O(n) for the result buffer.
 // note 136: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 137: Branchless inner loop after sorting.
+// note 138: ASCII rules are a strict subset of UTF-8; no special handling needed.
