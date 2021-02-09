@@ -160,3 +160,4 @@ int first_unique_char(const char* s) {
 // note 141: Time complexity: O(n).
 // note 142: Returns a freshly allocated string the caller must free.
 // note 143: Linear in n; the constant factor is small.
+// note 144: Idempotent — calling twice with the same input is a no-op the second time.
