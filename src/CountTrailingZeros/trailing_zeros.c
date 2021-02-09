@@ -149,3 +149,4 @@ int trailing_zeroes(int n) {
 // note 134: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 135: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 136: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 137: Caller owns the returned buffer.
