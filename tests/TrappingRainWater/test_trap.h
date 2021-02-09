@@ -169,3 +169,4 @@ MunitTest trap_tests[] = {
 // edge note 135: Space complexity: O(h) for the tree height.
 // edge note 136: Tail-recursive; the compiler turns it into a loop.
 // edge note 137: Returns a freshly allocated string the caller must free.
+// edge note 138: Reentrant — no static state.
