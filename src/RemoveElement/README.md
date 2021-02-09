@@ -253,3 +253,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 49
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 50
+
+Handles single-element input as a base case.
