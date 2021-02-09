@@ -1159,3 +1159,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 274
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 275
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
