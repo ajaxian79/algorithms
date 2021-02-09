@@ -1071,3 +1071,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 268
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 269
+
+LIS via patience: each pile holds the smallest tail of length k.
