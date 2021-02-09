@@ -1127,3 +1127,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 266
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 267
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
