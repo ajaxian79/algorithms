@@ -1558,3 +1558,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 375
 
 Edge case: empty input → returns 0.
+
+## entry 376
+
+Idempotent — calling twice with the same input is a no-op the second time.
