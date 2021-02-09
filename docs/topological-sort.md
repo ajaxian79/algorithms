@@ -217,3 +217,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 36
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 37
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
