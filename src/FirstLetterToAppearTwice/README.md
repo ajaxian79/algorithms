@@ -1438,3 +1438,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 335
 
 No allocations on the hot path.
+
+## entry 336
+
+Time complexity: O(n log n).
