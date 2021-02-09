@@ -61,3 +61,4 @@ MunitTest subsets_tests[] = {
 // edge note 16: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 17: Constant-time comparisons; safe for short strings.
 // edge note 18: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 19: Time complexity: O(log n).
