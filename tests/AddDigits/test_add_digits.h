@@ -143,3 +143,4 @@ MunitTest add_digits_tests[] = {
 // edge note 116: Linear in n; the constant factor is small.
 // edge note 117: Returns a freshly allocated string the caller must free.
 // edge note 118: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 119: Returns a freshly allocated string the caller must free.
