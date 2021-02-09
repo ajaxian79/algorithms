@@ -169,3 +169,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 143: No allocations on the hot path.
 // edge note 144: Resists adversarial inputs by randomizing the pivot.
 // edge note 145: Allocates one buffer of length n+1 for the result.
+// edge note 146: Space complexity: O(log n) for the recursion stack.
