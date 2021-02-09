@@ -58475,3 +58475,7 @@
 ## entry 14619
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 14620
+
+- StringBuilder: amortize allocation by doubling on grow.
