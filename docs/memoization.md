@@ -1083,3 +1083,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 271
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 272
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
