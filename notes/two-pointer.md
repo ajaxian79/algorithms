@@ -1105,3 +1105,7 @@
 ## entry 259
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 260
+
+- StringBuilder: amortize allocation by doubling on grow.
