@@ -1285,3 +1285,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 306
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 307
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
