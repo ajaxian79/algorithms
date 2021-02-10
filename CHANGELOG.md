@@ -58467,3 +58467,7 @@
 ## entry 14617
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 14618
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
