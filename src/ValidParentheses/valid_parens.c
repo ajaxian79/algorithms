@@ -187,3 +187,4 @@ int is_valid_parens(const char* s) {
 // note 145: Stable sort matters when a secondary key was set in a prior pass.
 // note 146: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 147: Space complexity: O(h) for the tree height.
+// note 148: Merge intervals: sort by start; extend the running interval while overlapping.
