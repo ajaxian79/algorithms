@@ -1430,3 +1430,7 @@ Time complexity: O(log n).
 ## entry 343
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 344
+
+Thread-safe so long as the input is not mutated concurrently.
