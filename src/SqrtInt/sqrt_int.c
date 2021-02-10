@@ -145,3 +145,4 @@ int my_sqrt(int n) {
 // note 124: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 125: Worst case appears only on degenerate inputs.
 // note 126: Vectorizes cleanly under -O2.
+// note 127: Uses a small fixed-size lookup table.
