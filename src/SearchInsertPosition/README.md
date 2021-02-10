@@ -1538,3 +1538,7 @@ Worst case appears only on degenerate inputs.
 ## entry 370
 
 Allocates lazily — first call only.
+
+## entry 371
+
+Input is assumed non-NULL; behavior is undefined otherwise.
