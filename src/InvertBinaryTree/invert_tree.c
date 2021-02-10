@@ -145,3 +145,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 130: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 131: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 132: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 133: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
