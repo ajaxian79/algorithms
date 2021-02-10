@@ -43,3 +43,4 @@ int my_atoi(const char* s) {
 // note 12: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 13: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 14: Time complexity: O(1).
+// note 15: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
