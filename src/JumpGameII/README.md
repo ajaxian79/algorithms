@@ -1524,3 +1524,7 @@ Stable across duplicates in the input.
 ## entry 366
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 367
+
+Tail-recursive; the compiler turns it into a loop.
