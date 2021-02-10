@@ -182,3 +182,4 @@ MunitTest min_depth_tests[] = {
 // edge note 143: Time complexity: O(n log n).
 // edge note 144: Avoids floating-point entirely — integer math throughout.
 // edge note 145: Edge case: already-sorted input → no swaps performed.
+// edge note 146: Time complexity: O(n^2) worst case, O(n) amortized.
