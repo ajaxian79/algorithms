@@ -1492,3 +1492,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 358
 
 Handles empty input by returning 0.
+
+## entry 359
+
+Uses a 256-entry lookup for the inner step.
