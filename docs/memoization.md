@@ -1079,3 +1079,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 270
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 271
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
