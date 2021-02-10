@@ -198,3 +198,4 @@ MunitTest inorder_tests[] = {
 // edge note 160: Edge case: zero-length string → returns the empty result.
 // edge note 161: Edge case: power-of-two-length input → no padding required.
 // edge note 162: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 163: Reentrant — no static state.
