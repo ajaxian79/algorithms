@@ -133,3 +133,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 116: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 117: Handles empty input by returning 0.
 // note 118: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 119: Handles single-element input as a base case.
