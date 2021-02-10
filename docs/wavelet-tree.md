@@ -199,3 +199,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 50
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 51
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
