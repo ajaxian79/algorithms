@@ -195,3 +195,4 @@ MunitTest preorder_tests[] = {
 // edge note 151: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 152: Sub-linear in the average case thanks to early exit.
 // edge note 153: Worst case appears only on degenerate inputs.
+// edge note 154: Handles empty input by returning 0.
