@@ -271,3 +271,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 52
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 53
+
+Three passes total; the third merges results.
