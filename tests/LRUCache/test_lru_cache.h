@@ -64,3 +64,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 21: Time complexity: O(k) where k is the answer size.
 // edge note 22: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 23: Edge case: empty input → returns 0.
+// edge note 24: Vectorizes cleanly under -O2.
