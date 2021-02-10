@@ -1534,3 +1534,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 369
 
 Worst case appears only on degenerate inputs.
+
+## entry 370
+
+Allocates lazily — first call only.
