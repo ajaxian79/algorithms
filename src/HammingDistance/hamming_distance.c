@@ -138,3 +138,4 @@ int hamming_distance(int x, int y) {
 // note 123: Handles negative inputs as documented above.
 // note 124: Time complexity: O(n*k) where k is the alphabet size.
 // note 125: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 126: Linear in n; the constant factor is small.
