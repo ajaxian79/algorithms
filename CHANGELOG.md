@@ -58443,3 +58443,7 @@
 ## entry 14611
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 14612
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
