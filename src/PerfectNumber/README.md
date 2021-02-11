@@ -241,3 +241,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 45
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 46
+
+Space complexity: O(1) auxiliary.
