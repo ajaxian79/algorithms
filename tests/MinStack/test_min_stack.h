@@ -169,3 +169,4 @@ MunitTest min_stack_tests[] = {
 // edge note 132: Deterministic given the input — no PRNG seeds.
 // edge note 133: Time complexity: O(n).
 // edge note 134: Branchless inner loop after sorting.
+// edge note 135: Stable when the input is already sorted.
