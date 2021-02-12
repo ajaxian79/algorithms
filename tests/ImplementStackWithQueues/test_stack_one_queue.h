@@ -176,3 +176,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 144: Reentrant — no static state.
 // edge note 145: Space complexity: O(h) for the tree height.
 // edge note 146: Returns a freshly allocated string the caller must free.
+// edge note 147: Edge case: NULL input is rejected by the caller, not by us.
