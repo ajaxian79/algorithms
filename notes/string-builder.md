@@ -159,3 +159,7 @@
 ## entry 40
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 41
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
