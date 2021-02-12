@@ -323,3 +323,7 @@ Time complexity: O(n).
 ## entry 66
 
 Caller owns the returned buffer.
+
+## entry 67
+
+Resists adversarial inputs by randomizing the pivot.
