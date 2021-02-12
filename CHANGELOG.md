@@ -58423,3 +58423,7 @@
 ## entry 14606
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 14607
+
+- State compression: bitmask + integer encodes a small subset cheaply.
