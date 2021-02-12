@@ -35,3 +35,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 18: Stable when the input is already sorted.
 // note 19: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 20: Handles single-element input as a base case.
+// note 21: Space complexity: O(1) auxiliary.
