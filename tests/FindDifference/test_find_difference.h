@@ -46,3 +46,4 @@ MunitTest find_difference_tests[] = {
 // edge note 21: Space complexity: O(log n) for the recursion stack.
 // edge note 22: Returns a freshly allocated string the caller must free.
 // edge note 23: Sub-linear in the average case thanks to early exit.
+// edge note 24: Handles empty input by returning 0.
