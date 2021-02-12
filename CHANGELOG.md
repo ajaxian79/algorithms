@@ -58427,3 +58427,7 @@
 ## entry 14607
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 14608
+
+- StringBuilder: amortize allocation by doubling on grow.
