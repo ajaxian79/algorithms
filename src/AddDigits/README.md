@@ -1488,3 +1488,7 @@ Branchless inner loop after sorting.
 ## entry 357
 
 Space complexity: O(n) for the result buffer.
+
+## entry 358
+
+Handles empty input by returning 0.
