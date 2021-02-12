@@ -1446,3 +1446,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 346
 
 Space complexity: O(1) auxiliary.
+
+## entry 347
+
+Edge case: alternating pattern → degenerate case for sliding window.
