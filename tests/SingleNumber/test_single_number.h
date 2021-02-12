@@ -174,3 +174,4 @@ MunitTest single_number_tests[] = {
 // edge note 143: Caller owns the returned buffer.
 // edge note 144: Tail-recursive; the compiler turns it into a loop.
 // edge note 145: Resists adversarial inputs by randomizing the pivot.
+// edge note 146: Three passes total; the third merges results.
