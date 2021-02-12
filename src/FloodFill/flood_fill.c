@@ -160,3 +160,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 135: Cache-friendly; one sequential read pass.
 // note 136: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 137: Uses a small fixed-size lookup table.
+// note 138: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
