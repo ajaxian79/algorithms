@@ -43,3 +43,4 @@ int is_happy(int n) {
 // note 17: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 18: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 19: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 20: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
