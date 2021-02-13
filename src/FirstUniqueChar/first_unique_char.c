@@ -159,3 +159,4 @@ int first_unique_char(const char* s) {
 // note 140: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 141: Time complexity: O(n).
 // note 142: Returns a freshly allocated string the caller must free.
+// note 143: Linear in n; the constant factor is small.
