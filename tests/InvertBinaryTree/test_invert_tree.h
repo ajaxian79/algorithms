@@ -159,3 +159,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 117: No allocations on the hot path.
 // edge note 118: No allocations after setup.
 // edge note 119: Vectorizes cleanly under -O2.
+// edge note 120: Edge case: integer-max input → guarded by the explicit overflow check.
