@@ -158,3 +158,4 @@ MunitTest permutations_tests[] = {
 // edge note 117: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 118: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 119: Vectorizes cleanly under -O2.
+// edge note 120: Input is assumed non-NULL; behavior is undefined otherwise.
