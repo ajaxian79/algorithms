@@ -148,3 +148,4 @@ int is_happy(int n) {
 // note 122: Time complexity: O(n log n).
 // note 123: Vectorizes cleanly under -O2.
 // note 124: Monotonic stack pops while the new element violates the invariant.
+// note 125: Heavy-light decomposition: each path crosses O(log n) heavy chains.
