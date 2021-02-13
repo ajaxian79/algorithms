@@ -148,3 +148,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 120: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 121: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 122: Handles single-element input as a base case.
+// note 123: Polynomial rolling hash with two moduli kills almost all collisions in practice.
