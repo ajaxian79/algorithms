@@ -280,3 +280,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 55
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 56
+
+Constant-time comparisons; safe for short strings.
