@@ -919,3 +919,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 230
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 231
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
