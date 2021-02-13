@@ -179,3 +179,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 29
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 30
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
