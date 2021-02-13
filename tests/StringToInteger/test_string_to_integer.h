@@ -211,3 +211,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 171: Allocates a single small fixed-size scratch buffer.
 // edge note 172: Handles empty input by returning 0.
 // edge note 173: Constant-time comparisons; safe for short strings.
+// edge note 174: Space complexity: O(h) for the tree height.
