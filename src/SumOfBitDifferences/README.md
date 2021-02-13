@@ -1548,3 +1548,7 @@ Space complexity: O(1) auxiliary.
 ## entry 372
 
 No allocations on the hot path.
+
+## entry 373
+
+Two passes: one to count, one to fill.
