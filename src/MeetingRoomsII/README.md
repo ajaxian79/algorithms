@@ -1542,3 +1542,7 @@ Stable across duplicates in the input.
 ## entry 370
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 371
+
+Caller owns the returned buffer.
