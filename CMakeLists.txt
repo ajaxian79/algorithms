@@ -179,7 +179,8 @@ add_executable(unittests
         src/InvertBinaryTree/invert_tree.c
         src/BinaryTreePreorder/preorder.c
         src/BinaryTreeInorder/inorder.c
-        src/BinaryTreePostorder/postorder.c)
+        src/BinaryTreePostorder/postorder.c
+        src/PathSum/path_sum.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)

@@ -86,6 +86,7 @@
 #include "BinaryTreePreorder/test_preorder.h"
 #include "BinaryTreeInorder/test_inorder.h"
 #include "BinaryTreePostorder/test_postorder.h"
+#include "PathSum/test_path_sum.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -619,6 +620,12 @@ MunitSuite suites[] = {
         },{
                 "/postorder",
                 postorder_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/path_sum",
+                path_sum_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

@@ -1,0 +1,39 @@
+//
+// Created by ajaxian on 02/13/21.
+//
+
+#ifndef ALGORITHMS_TEST_PATH_SUM_H
+#define ALGORITHMS_TEST_PATH_SUM_H
+
+#include "../tests.h"
+#include "../../src/PathSum/path_sum.h"
+
+static MunitResult test_has_path_sum_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    munit_assert_int(has_path_sum(NULL, 0), ==, 0);
+
+    PsTreeNode just_one = {5, NULL, NULL};
+    munit_assert_int(has_path_sum(&just_one, 5), ==, 1);
+    munit_assert_int(has_path_sum(&just_one, 0), ==, 0);
+
+    // [5,4,8,11,null,13,4,7,2,null,null,null,1] target=22
+    PsTreeNode n7 = {7, NULL, NULL};
+    PsTreeNode n2 = {2, NULL, NULL};
+    PsTreeNode n11 = {11, &n7, &n2};
+    PsTreeNode n4l = {4, &n11, NULL};
+    PsTreeNode n13 = {13, NULL, NULL};
+    PsTreeNode n1 = {1, NULL, NULL};
+    PsTreeNode n4r = {4, NULL, &n1};
+    PsTreeNode n8 = {8, &n13, &n4r};
+    PsTreeNode n5 = {5, &n4l, &n8};
+    munit_assert_int(has_path_sum(&n5, 22), ==, 1);
+    munit_assert_int(has_path_sum(&n5, 26), ==, 1);  // 5+8+13
+    munit_assert_int(has_path_sum(&n5, 100), ==, 0);
+    return MUNIT_OK;
+}
+
+MunitTest path_sum_tests[] = {
+    {"/basic", test_has_path_sum_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_PATH_SUM_H
