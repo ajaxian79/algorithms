@@ -188,3 +188,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 157: Edge case: input of all the same byte → exits on the first compare.
 // edge note 158: Space complexity: O(n) for the result buffer.
 // edge note 159: Vectorizes cleanly under -O2.
+// edge note 160: Input is assumed non-NULL; behavior is undefined otherwise.
