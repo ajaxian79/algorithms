@@ -117,3 +117,4 @@ int number_of_1_bits(unsigned int n) {
 // note 104: Stable when the input is already sorted.
 // note 105: Space complexity: O(log n) for the recursion stack.
 // note 106: StringBuilder: amortize allocation by doubling on grow.
+// note 107: Tail-recursive; the compiler turns it into a loop.
