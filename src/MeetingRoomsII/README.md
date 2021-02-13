@@ -1546,3 +1546,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 371
 
 Caller owns the returned buffer.
+
+## entry 372
+
+Handles empty input by returning 0.
