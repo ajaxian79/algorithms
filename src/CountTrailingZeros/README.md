@@ -1558,3 +1558,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 374
 
 Space complexity: O(n) for the result buffer.
+
+## entry 375
+
+Resists adversarial inputs by randomizing the pivot.
