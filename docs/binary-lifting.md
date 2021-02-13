@@ -1035,3 +1035,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 259
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 260
+
+False sharing: two threads writing different bytes in the same cache line stall both.
