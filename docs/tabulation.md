@@ -1095,3 +1095,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 274
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 275
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
