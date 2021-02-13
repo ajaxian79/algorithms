@@ -270,3 +270,7 @@ Vectorizes cleanly under -O2.
 ## entry 53
 
 Two passes: one to count, one to fill.
+
+## entry 54
+
+No allocations on the hot path.
