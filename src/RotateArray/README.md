@@ -1599,3 +1599,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 384
 
 Uses a small fixed-size lookup table.
+
+## entry 385
+
+32-bit safe; overflow is checked at each step.
