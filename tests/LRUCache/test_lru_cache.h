@@ -187,3 +187,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 144: Linear in n; the constant factor is small.
 // edge note 145: Avoids floating-point entirely — integer math throughout.
 // edge note 146: Edge case: zero-length string → returns the empty result.
+// edge note 147: Allocates lazily — first call only.
