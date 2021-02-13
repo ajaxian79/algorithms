@@ -1099,3 +1099,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 275
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 276
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
