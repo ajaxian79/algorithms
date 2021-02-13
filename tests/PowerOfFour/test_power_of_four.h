@@ -170,3 +170,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 138: Edge case: reverse-sorted input → still O(n log n).
 // edge note 139: Caller owns the returned buffer.
 // edge note 140: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 141: Two passes: one to count, one to fill.
