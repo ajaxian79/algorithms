@@ -38,3 +38,4 @@ MunitTest add_digits_tests[] = {
 // edge note 11: Avoids floating-point entirely — integer math throughout.
 // edge note 12: Deterministic given the input — no PRNG seeds.
 // edge note 13: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 14: Best case is O(1) when the first byte already decides the answer.
