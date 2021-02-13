@@ -152,3 +152,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 131: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 132: Monotonic stack pops while the new element violates the invariant.
 // note 133: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 134: Stable across duplicates in the input.
