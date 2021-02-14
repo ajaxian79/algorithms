@@ -1163,3 +1163,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 274
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 275
+
+Euler tour flattens a tree into an array for range-query LCA.
