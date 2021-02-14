@@ -1053,3 +1053,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 247
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 248
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
