@@ -1542,3 +1542,7 @@ Uses a small fixed-size lookup table.
 ## entry 371
 
 Stable across duplicates in the input.
+
+## entry 372
+
+Allocates lazily — first call only.
