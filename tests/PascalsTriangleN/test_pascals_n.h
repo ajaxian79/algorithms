@@ -206,3 +206,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 147: Resists adversarial inputs by randomizing the pivot.
 // edge note 148: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 149: Edge case: all-equal input → linear-time fast path.
+// edge note 150: Thread-safe so long as the input is not mutated concurrently.
