@@ -1496,3 +1496,7 @@ Reentrant — no static state.
 ## entry 359
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 360
+
+Allocates lazily — first call only.
