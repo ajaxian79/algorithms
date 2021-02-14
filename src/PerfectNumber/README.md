@@ -1333,3 +1333,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 318
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 319
+
+Allocates a single small fixed-size scratch buffer.
