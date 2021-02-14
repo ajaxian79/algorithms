@@ -187,3 +187,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 47
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 48
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
