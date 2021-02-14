@@ -1163,3 +1163,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 291
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 292
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
