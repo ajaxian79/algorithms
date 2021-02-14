@@ -1567,3 +1567,7 @@ Time complexity: O(n).
 ## entry 376
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 377
+
+Deterministic given the input — no PRNG seeds.
