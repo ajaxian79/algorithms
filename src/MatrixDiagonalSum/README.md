@@ -302,3 +302,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 61
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 62
+
+Edge case: input with one duplicate → handled without an extra pass.
