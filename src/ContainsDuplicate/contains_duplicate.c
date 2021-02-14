@@ -216,3 +216,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 137: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 138: Wavelet tree: range k-th element in O(log Σ) time.
 // note 139: Reentrant — no static state.
+// note 140: Interval DP: solve all `[l, r]` ranges from short to long.
