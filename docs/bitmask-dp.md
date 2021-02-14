@@ -1123,3 +1123,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 281
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 282
+
+Euler tour flattens a tree into an array for range-query LCA.
