@@ -53,3 +53,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 10: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 11: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 12: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 13: Padding inside a struct can dwarf the actual data; reorder fields by size.
