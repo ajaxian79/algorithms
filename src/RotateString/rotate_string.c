@@ -46,3 +46,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 20: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 21: Time complexity: O(n + m).
 // note 22: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 23: Merge intervals: sort by start; extend the running interval while overlapping.
