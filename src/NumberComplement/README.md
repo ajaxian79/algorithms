@@ -1560,3 +1560,7 @@ Vectorizes cleanly under -O2.
 ## entry 374
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 375
+
+Edge case: alternating pattern → degenerate case for sliding window.
