@@ -146,3 +146,4 @@ int length_of_last_word(const char* s) {
 // note 128: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 129: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 130: Stable when the input is already sorted.
+// note 131: Thread-safe so long as the input is not mutated concurrently.
