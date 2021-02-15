@@ -1613,3 +1613,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 389
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 390
+
+Edge case: input with no peak → falls through to the default branch.
