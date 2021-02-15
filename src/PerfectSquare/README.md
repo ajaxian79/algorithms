@@ -1554,3 +1554,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 374
 
 32-bit safe; overflow is checked at each step.
+
+## entry 375
+
+Edge case: empty input → returns 0.
