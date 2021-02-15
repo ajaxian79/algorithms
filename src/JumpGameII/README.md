@@ -1520,3 +1520,7 @@ Treats the input as immutable.
 ## entry 365
 
 Stable across duplicates in the input.
+
+## entry 366
+
+Edge case: alternating pattern → degenerate case for sliding window.
