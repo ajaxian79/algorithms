@@ -1329,3 +1329,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 317
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 318
+
+Edge case: already-sorted input → no swaps performed.
