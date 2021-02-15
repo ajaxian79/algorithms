@@ -58323,3 +58323,7 @@
 ## entry 14581
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 14582
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
