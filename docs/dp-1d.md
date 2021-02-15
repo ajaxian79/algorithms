@@ -1091,3 +1091,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 256
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 257
+
+Stable sort matters when a secondary key was set in a prior pass.
