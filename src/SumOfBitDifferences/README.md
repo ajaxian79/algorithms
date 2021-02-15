@@ -1540,3 +1540,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 370
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 371
+
+Space complexity: O(1) auxiliary.
