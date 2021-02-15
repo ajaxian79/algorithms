@@ -1035,3 +1035,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 259
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 260
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
