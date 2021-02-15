@@ -8587,3 +8587,7 @@
 ## entry 2147
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 2148
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
