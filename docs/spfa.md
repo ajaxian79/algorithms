@@ -1003,3 +1003,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 251
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 252
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
