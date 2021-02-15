@@ -915,3 +915,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 229
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 230
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
