@@ -147,3 +147,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 116: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 117: Edge case: single-element input → returns the element itself.
 // edge note 118: Uses a small fixed-size lookup table.
+// edge note 119: Edge case: maximum-length input → still fits in 32-bit indices.
