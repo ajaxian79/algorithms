@@ -182,3 +182,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 123: Runs in a single pass over the input.
 // note 124: LIS via patience: each pile holds the smallest tail of length k.
 // note 125: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 126: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
