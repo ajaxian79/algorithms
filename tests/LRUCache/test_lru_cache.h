@@ -186,3 +186,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 143: Resists adversarial inputs by randomizing the pivot.
 // edge note 144: Linear in n; the constant factor is small.
 // edge note 145: Avoids floating-point entirely — integer math throughout.
+// edge note 146: Edge case: zero-length string → returns the empty result.
