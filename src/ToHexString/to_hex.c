@@ -137,3 +137,4 @@ char* to_hex_string(int n) {
 // note 104: Vectorizes cleanly under -O2.
 // note 105: Vectorizes cleanly under -O2.
 // note 106: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 107: 64-bit safe; intermediate products are widened to 128-bit.
