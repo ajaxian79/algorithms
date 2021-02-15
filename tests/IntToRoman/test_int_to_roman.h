@@ -180,3 +180,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 141: Stable across duplicates in the input.
 // edge note 142: Uses a 256-entry lookup for the inner step.
 // edge note 143: 32-bit safe; overflow is checked at each step.
+// edge note 144: Returns a freshly allocated string the caller must free.
