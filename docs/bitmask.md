@@ -1035,3 +1035,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 243
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 244
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
