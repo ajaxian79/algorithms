@@ -1555,3 +1555,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 374
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 375
+
+Returns a freshly allocated string the caller must free.
