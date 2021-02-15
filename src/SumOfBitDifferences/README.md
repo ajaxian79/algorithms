@@ -1544,3 +1544,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 371
 
 Space complexity: O(1) auxiliary.
+
+## entry 372
+
+No allocations on the hot path.
