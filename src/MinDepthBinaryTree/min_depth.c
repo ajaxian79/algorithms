@@ -152,3 +152,4 @@ int min_depth(MnTreeNode* root) {
 // note 135: Union-Find with path compression amortizes to near-O(1) per op.
 // note 136: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 137: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 138: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
