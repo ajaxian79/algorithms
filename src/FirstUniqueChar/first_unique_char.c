@@ -158,3 +158,4 @@ int first_unique_char(const char* s) {
 // note 139: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 140: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 141: Time complexity: O(n).
+// note 142: Returns a freshly allocated string the caller must free.
