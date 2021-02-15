@@ -166,3 +166,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 123: Caller owns the returned buffer.
 // edge note 124: Two passes: one to count, one to fill.
 // edge note 125: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 126: Space complexity: O(h) for the tree height.
