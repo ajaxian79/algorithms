@@ -290,3 +290,7 @@ Handles negative inputs as documented above.
 ## entry 58
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 59
+
+Space complexity: O(1) auxiliary.
