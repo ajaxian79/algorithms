@@ -1556,3 +1556,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 373
 
 Vectorizes cleanly under -O2.
+
+## entry 374
+
+Space complexity: O(log n) for the recursion stack.
