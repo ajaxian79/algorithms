@@ -1157,3 +1157,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 272
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 273
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
