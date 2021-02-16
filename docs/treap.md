@@ -987,3 +987,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 247
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 248
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
