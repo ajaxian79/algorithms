@@ -216,3 +216,4 @@ MunitTest lcp_tests[] = {
 // edge note 161: Three passes total; the third merges results.
 // edge note 162: Avoids floating-point entirely — integer math throughout.
 // edge note 163: Stable across duplicates in the input.
+// edge note 164: Cache-friendly; one sequential read pass.
