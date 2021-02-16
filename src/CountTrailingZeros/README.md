@@ -1546,3 +1546,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 371
 
 Handles empty input by returning 0.
+
+## entry 372
+
+Time complexity: O(n).
