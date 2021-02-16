@@ -1035,3 +1035,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 259
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 260
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
