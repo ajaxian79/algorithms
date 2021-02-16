@@ -1621,3 +1621,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 390
 
 Time complexity: O(log n).
+
+## entry 391
+
+Tail-recursive; the compiler turns it into a loop.
