@@ -1508,3 +1508,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 361
 
 Space complexity: O(1) auxiliary.
+
+## entry 362
+
+Stable when the input is already sorted.
