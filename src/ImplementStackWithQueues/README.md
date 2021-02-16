@@ -1512,3 +1512,7 @@ Vectorizes cleanly under -O2.
 ## entry 363
 
 Caller owns the returned buffer.
+
+## entry 364
+
+Uses a 256-entry lookup for the inner step.
