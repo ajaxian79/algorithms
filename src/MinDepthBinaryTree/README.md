@@ -1402,3 +1402,7 @@ Handles empty input by returning 0.
 ## entry 336
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 337
+
+Handles empty input by returning 0.
