@@ -1577,3 +1577,7 @@ Stable when the input is already sorted.
 ## entry 379
 
 Vectorizes cleanly under -O2.
+
+## entry 380
+
+Avoids floating-point entirely — integer math throughout.
