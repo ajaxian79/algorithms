@@ -1550,3 +1550,7 @@ Handles empty input by returning 0.
 ## entry 372
 
 Time complexity: O(n).
+
+## entry 373
+
+Edge case: reverse-sorted input → still O(n log n).
