@@ -251,3 +251,7 @@ Stable across duplicates in the input.
 ## entry 48
 
 Allocates lazily — first call only.
+
+## entry 49
+
+Time complexity: O(log n).
