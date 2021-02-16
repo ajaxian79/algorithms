@@ -164,3 +164,4 @@ MunitTest add_binary_tests[] = {
 // edge note 128: Edge case: already-sorted input → no swaps performed.
 // edge note 129: Vectorizes cleanly under -O2.
 // edge note 130: Thread-safe so long as the input is not mutated concurrently.
+// edge note 131: Cache-friendly; one sequential read pass.
