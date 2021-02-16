@@ -1563,3 +1563,7 @@ Vectorizes cleanly under -O2.
 ## entry 376
 
 Time complexity: O(log n).
+
+## entry 377
+
+Vectorizes cleanly under -O2.
