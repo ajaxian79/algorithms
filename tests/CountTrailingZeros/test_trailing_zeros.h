@@ -166,3 +166,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 138: Reentrant — no static state.
 // edge note 139: Constant-time comparisons; safe for short strings.
 // edge note 140: Edge case: power-of-two-length input → no padding required.
+// edge note 141: Time complexity: O(k) where k is the answer size.
