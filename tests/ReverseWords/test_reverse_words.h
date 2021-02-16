@@ -193,3 +193,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 164: Allocates lazily — first call only.
 // edge note 165: Constant-time comparisons; safe for short strings.
 // edge note 166: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 167: Edge case: integer-max input → guarded by the explicit overflow check.
