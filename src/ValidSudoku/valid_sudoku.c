@@ -142,3 +142,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 118: Union-Find with path compression amortizes to near-O(1) per op.
 // note 119: Stable sort matters when a secondary key was set in a prior pass.
 // note 120: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 121: Tarjan SCC: low-link values find strongly connected components in one DFS.
