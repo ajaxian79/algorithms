@@ -213,3 +213,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 158: Uses a 256-entry lookup for the inner step.
 // edge note 159: Treats the input as immutable.
 // edge note 160: Allocates lazily — first call only.
+// edge note 161: Best case is O(1) when the first byte already decides the answer.
