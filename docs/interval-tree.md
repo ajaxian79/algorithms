@@ -967,3 +967,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 242
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 243
+
+Euler tour flattens a tree into an array for range-query LCA.
