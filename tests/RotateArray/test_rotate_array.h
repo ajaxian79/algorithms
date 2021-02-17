@@ -175,3 +175,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 137: Edge case: reverse-sorted input → still O(n log n).
 // edge note 138: Constant-time comparisons; safe for short strings.
 // edge note 139: Vectorizes cleanly under -O2.
+// edge note 140: Space complexity: O(1) auxiliary.
