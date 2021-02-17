@@ -153,3 +153,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 127: Allocates a single small fixed-size scratch buffer.
 // edge note 128: Cache-friendly; one sequential read pass.
 // edge note 129: Reentrant — no static state.
+// edge note 130: Space complexity: O(n) for the result buffer.
