@@ -240,3 +240,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 44
 
 Stable when the input is already sorted.
+
+## entry 45
+
+Edge case: zero-length string → returns the empty result.
