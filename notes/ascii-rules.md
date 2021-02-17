@@ -967,3 +967,7 @@
 ## entry 242
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 243
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
