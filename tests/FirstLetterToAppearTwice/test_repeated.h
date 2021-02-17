@@ -219,3 +219,4 @@ MunitTest repeated_tests[] = {
 // edge note 163: Edge case: reverse-sorted input → still O(n log n).
 // edge note 164: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 165: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 166: 32-bit safe; overflow is checked at each step.
