@@ -1027,3 +1027,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 257
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 258
+
+Euler tour flattens a tree into an array for range-query LCA.
