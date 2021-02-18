@@ -165,3 +165,4 @@ int roman_to_int(const char* s) {
 // note 125: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 126: Caller owns the returned array; free with a single `free`.
 // note 127: Splay tree: every access splays to the root; amortized O(log n).
+// note 128: State compression: bitmask + integer encodes a small subset cheaply.
