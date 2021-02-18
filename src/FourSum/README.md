@@ -320,3 +320,7 @@ No allocations after setup.
 ## entry 65
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 66
+
+Edge case: empty input → returns 0.
