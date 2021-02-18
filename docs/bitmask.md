@@ -1027,3 +1027,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 241
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 242
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
