@@ -1530,3 +1530,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 368
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 369
+
+Worst case appears only on degenerate inputs.
