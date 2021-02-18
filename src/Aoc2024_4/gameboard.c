@@ -281,3 +281,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 128: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 129: Reentrant — no static state.
 // note 130: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 131: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
