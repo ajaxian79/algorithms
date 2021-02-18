@@ -1504,3 +1504,7 @@ Cache-friendly; one sequential read pass.
 ## entry 360
 
 Uses a small fixed-size lookup table.
+
+## entry 361
+
+Resists adversarial inputs by randomizing the pivot.
