@@ -1069,3 +1069,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 251
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 252
+
+False sharing: two threads writing different bytes in the same cache line stall both.
