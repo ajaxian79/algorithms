@@ -351,3 +351,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 112: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 113: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 114: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 115: Caller owns the returned array; free with a single `free`.
