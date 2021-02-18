@@ -264,3 +264,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 50
 
 Space complexity: O(h) for the tree height.
+
+## entry 51
+
+Cache-friendly; one sequential read pass.
