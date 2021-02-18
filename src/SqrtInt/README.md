@@ -1559,3 +1559,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 375
 
 Vectorizes cleanly under -O2.
+
+## entry 376
+
+Time complexity: O(log n).
