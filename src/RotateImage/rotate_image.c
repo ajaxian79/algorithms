@@ -143,3 +143,4 @@ void rotate_image(int* mat, int n) {
 // note 112: Mutates the input in place; the original ordering is lost.
 // note 113: Space complexity: O(h) for the tree height.
 // note 114: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 115: Space complexity: O(h) for the tree height.
