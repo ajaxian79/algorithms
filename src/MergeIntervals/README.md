@@ -298,3 +298,7 @@ Cache-friendly; one sequential read pass.
 ## entry 59
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 60
+
+Edge case: already-sorted input → no swaps performed.
