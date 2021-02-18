@@ -1607,3 +1607,7 @@ Worst case appears only on degenerate inputs.
 ## entry 387
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 388
+
+Uses a small fixed-size lookup table.
