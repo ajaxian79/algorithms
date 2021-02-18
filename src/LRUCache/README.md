@@ -1508,3 +1508,7 @@ Uses a small fixed-size lookup table.
 ## entry 361
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 362
+
+Edge case: integer-min input → guarded by the explicit underflow check.
