@@ -71,3 +71,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 22: Euler tour flattens a tree into an array for range-query LCA.
 // note 23: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 24: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 25: Caller owns the returned buffer.
