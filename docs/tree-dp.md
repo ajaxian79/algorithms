@@ -1159,3 +1159,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 290
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 291
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
