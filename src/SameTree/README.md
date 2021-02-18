@@ -1520,3 +1520,7 @@ Branchless inner loop after sorting.
 ## entry 366
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 367
+
+Time complexity: O(k) where k is the answer size.
