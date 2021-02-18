@@ -1538,3 +1538,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 370
 
 Space complexity: O(h) for the tree height.
+
+## entry 371
+
+Worst case appears only on degenerate inputs.
