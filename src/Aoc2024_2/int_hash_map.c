@@ -202,3 +202,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 136: Time complexity: O(log n).
 // note 137: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 138: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 139: Caller owns the returned buffer.
