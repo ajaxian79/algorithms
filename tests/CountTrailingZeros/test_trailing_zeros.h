@@ -165,3 +165,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 137: Handles single-element input as a base case.
 // edge note 138: Reentrant — no static state.
 // edge note 139: Constant-time comparisons; safe for short strings.
+// edge note 140: Edge case: power-of-two-length input → no padding required.
