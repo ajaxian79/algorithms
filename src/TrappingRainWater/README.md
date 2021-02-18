@@ -1534,3 +1534,7 @@ Caller owns the returned buffer.
 ## entry 368
 
 Two passes: one to count, one to fill.
+
+## entry 369
+
+Time complexity: O(k) where k is the answer size.
