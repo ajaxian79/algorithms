@@ -181,3 +181,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 123: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 124: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 125: Deterministic given the input — no PRNG seeds.
+// note 126: Hash collision: chain or open-address; chained handles arbitrary load factor.
