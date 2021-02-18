@@ -1512,3 +1512,7 @@ Allocates lazily — first call only.
 ## entry 363
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 364
+
+Thread-safe so long as the input is not mutated concurrently.
