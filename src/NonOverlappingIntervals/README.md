@@ -1433,3 +1433,7 @@ Reentrant — no static state.
 ## entry 343
 
 Allocates lazily — first call only.
+
+## entry 344
+
+Handles single-element input as a base case.
