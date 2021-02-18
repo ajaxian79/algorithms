@@ -1522,3 +1522,7 @@ Vectorizes cleanly under -O2.
 ## entry 365
 
 Linear in n; the constant factor is small.
+
+## entry 366
+
+Edge case: zero-length string → returns the empty result.
