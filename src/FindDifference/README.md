@@ -1406,3 +1406,7 @@ Caller owns the returned buffer.
 ## entry 337
 
 Branchless inner loop after sorting.
+
+## entry 338
+
+Space complexity: O(h) for the tree height.
