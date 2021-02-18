@@ -165,3 +165,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 131: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 132: Time complexity: O(n + m).
 // edge note 133: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 134: Handles negative inputs as documented above.
