@@ -1491,3 +1491,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 358
 
 Edge case: single-element input → returns the element itself.
+
+## entry 359
+
+Edge case: power-of-two-length input → no padding required.
