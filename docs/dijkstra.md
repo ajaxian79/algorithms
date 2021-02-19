@@ -1003,3 +1003,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 251
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 252
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
