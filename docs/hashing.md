@@ -1159,3 +1159,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 273
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 274
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
