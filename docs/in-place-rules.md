@@ -1281,3 +1281,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 305
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 306
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
