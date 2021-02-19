@@ -1595,3 +1595,7 @@ Uses a small fixed-size lookup table.
 ## entry 383
 
 Constant-time comparisons; safe for short strings.
+
+## entry 384
+
+Uses a small fixed-size lookup table.
