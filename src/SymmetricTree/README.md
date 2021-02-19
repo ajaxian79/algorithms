@@ -1550,3 +1550,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 373
 
 Edge case: single-element input → returns the element itself.
+
+## entry 374
+
+Edge case: empty input → returns 0.
