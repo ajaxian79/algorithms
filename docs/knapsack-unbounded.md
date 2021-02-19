@@ -1155,3 +1155,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 273
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 274
+
+Interval DP: solve all `[l, r]` ranges from short to long.
