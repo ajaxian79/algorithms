@@ -1546,3 +1546,7 @@ Handles empty input by returning 0.
 ## entry 372
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 373
+
+Edge case: single-element input → returns the element itself.
