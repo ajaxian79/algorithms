@@ -58227,3 +58227,7 @@
 ## entry 14557
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 14558
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
