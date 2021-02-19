@@ -1039,3 +1039,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 242
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 243
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
