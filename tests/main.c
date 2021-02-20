@@ -87,6 +87,7 @@
 #include "BinaryTreeInorder/test_inorder.h"
 #include "BinaryTreePostorder/test_postorder.h"
 #include "PathSum/test_path_sum.h"
+#include "SameTree/test_same_tree.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -626,6 +627,12 @@ MunitSuite suites[] = {
         },{
                 "/path_sum",
                 path_sum_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/same_tree",
+                same_tree_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
