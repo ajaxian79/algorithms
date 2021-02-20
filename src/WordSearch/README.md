@@ -294,3 +294,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 59
 
 No allocations on the hot path.
+
+## entry 60
+
+Constant-time comparisons; safe for short strings.
