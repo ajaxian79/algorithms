@@ -983,3 +983,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 246
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 247
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
