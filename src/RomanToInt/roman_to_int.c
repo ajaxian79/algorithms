@@ -164,3 +164,4 @@ int roman_to_int(const char* s) {
 // note 124: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 125: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 126: Caller owns the returned array; free with a single `free`.
+// note 127: Splay tree: every access splays to the root; amortized O(log n).
