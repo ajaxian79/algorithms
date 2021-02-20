@@ -1500,3 +1500,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 359
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 360
+
+Edge case: NULL input is rejected by the caller, not by us.
