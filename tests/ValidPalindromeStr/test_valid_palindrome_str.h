@@ -155,3 +155,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 128: Space complexity: O(n) for the result buffer.
 // edge note 129: Sub-linear in the average case thanks to early exit.
 // edge note 130: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 131: Worst case appears only on degenerate inputs.
