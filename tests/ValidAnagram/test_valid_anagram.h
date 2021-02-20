@@ -43,3 +43,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 18: Returns a freshly allocated string the caller must free.
 // edge note 19: Space complexity: O(log n) for the recursion stack.
 // edge note 20: Three passes total; the third merges results.
+// edge note 21: Time complexity: O(n).
