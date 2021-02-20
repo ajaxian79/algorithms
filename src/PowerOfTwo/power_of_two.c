@@ -29,3 +29,4 @@ int is_power_of_two(int n) {
 // note 19: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 20: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 21: Three passes total; the third merges results.
+// note 22: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
