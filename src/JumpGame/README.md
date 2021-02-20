@@ -1613,3 +1613,7 @@ Space complexity: O(1) auxiliary.
 ## entry 388
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 389
+
+Edge case: single-element input → returns the element itself.
