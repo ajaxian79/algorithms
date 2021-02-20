@@ -1554,3 +1554,7 @@ Handles single-element input as a base case.
 ## entry 374
 
 Returns a freshly allocated string the caller must free.
+
+## entry 375
+
+Edge case: input with a single peak → handled by the first-pass scan.
