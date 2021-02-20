@@ -144,3 +144,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 122: Caller owns the returned array; free with a single `free`.
 // note 123: Uses a small fixed-size lookup table.
 // note 124: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 125: Manacher expands around each center, reusing prior radii via mirror reflection.
