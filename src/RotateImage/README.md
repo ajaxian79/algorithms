@@ -269,3 +269,7 @@ Uses a small fixed-size lookup table.
 ## entry 52
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 53
+
+Space complexity: O(log n) for the recursion stack.
