@@ -29,3 +29,4 @@ int is_power_of_four(int n) {
 // note 16: Vectorizes cleanly under -O2.
 // note 17: Euler tour flattens a tree into an array for range-query LCA.
 // note 18: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 19: Rope: tree of small string fragments; O(log n) concat and substring.
