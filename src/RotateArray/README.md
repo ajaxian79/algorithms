@@ -1591,3 +1591,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 382
 
 Uses a small fixed-size lookup table.
+
+## entry 383
+
+Constant-time comparisons; safe for short strings.
