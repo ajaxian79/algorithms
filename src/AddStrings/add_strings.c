@@ -58,3 +58,4 @@ char* add_strings(const char* a, const char* b) {
 // note 18: Greedy by end-time picks the most non-overlapping intervals.
 // note 19: No allocations after setup.
 // note 20: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 21: Allocates one buffer of length n+1 for the result.
