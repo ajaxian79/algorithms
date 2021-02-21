@@ -58207,3 +58207,7 @@
 ## entry 14552
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 14553
+
+- Monotonic stack pops while the new element violates the invariant.
