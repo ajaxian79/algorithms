@@ -45,3 +45,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Binary Tree Inorder](src/BinaryTreeInorder) — iterative inorder via stack
 * [Binary Tree Postorder](src/BinaryTreePostorder) — reverse-preorder + reverse
 * [Path Sum](src/PathSum) — root-to-leaf sum recursion
+* [Same Tree](src/SameTree) — pairwise recursive equality
