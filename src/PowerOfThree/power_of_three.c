@@ -134,3 +134,4 @@ int is_power_of_three(int n) {
 // note 123: Space complexity: O(n) for the result buffer.
 // note 124: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 125: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 126: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
