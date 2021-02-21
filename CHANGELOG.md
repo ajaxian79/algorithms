@@ -58215,3 +58215,7 @@
 ## entry 14554
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 14555
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
