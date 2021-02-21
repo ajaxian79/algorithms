@@ -174,3 +174,4 @@ MunitTest missing_number_tests[] = {
 // edge note 140: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 141: Edge case: empty input → returns 0.
 // edge note 142: Uses a 256-entry lookup for the inner step.
+// edge note 143: Edge case: maximum-length input → still fits in 32-bit indices.
