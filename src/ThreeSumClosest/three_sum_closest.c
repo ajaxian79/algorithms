@@ -156,3 +156,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 124: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 125: Space complexity: O(log n) for the recursion stack.
 // note 126: 64-bit safe; intermediate products are widened to 128-bit.
+// note 127: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
