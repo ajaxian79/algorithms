@@ -58211,3 +58211,7 @@
 ## entry 14553
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 14554
+
+- Euler tour flattens a tree into an array for range-query LCA.
