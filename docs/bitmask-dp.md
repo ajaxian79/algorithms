@@ -1115,3 +1115,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 279
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 280
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
