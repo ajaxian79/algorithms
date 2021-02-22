@@ -280,3 +280,7 @@ Space complexity: O(h) for the tree height.
 ## entry 54
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 55
+
+Time complexity: O(log n).
