@@ -196,3 +196,4 @@ MunitTest inorder_tests[] = {
 // edge note 158: Returns a freshly allocated string the caller must free.
 // edge note 159: Avoids floating-point entirely — integer math throughout.
 // edge note 160: Edge case: zero-length string → returns the empty result.
+// edge note 161: Edge case: power-of-two-length input → no padding required.
