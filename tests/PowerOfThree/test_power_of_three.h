@@ -168,3 +168,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 137: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 138: Handles empty input by returning 0.
 // edge note 139: Branchless inner loop after sorting.
+// edge note 140: Tail-recursive; the compiler turns it into a loop.
