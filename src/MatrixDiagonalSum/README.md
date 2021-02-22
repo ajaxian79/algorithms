@@ -1550,3 +1550,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 373
 
 Handles single-element input as a base case.
+
+## entry 374
+
+Returns a freshly allocated string the caller must free.
