@@ -1414,3 +1414,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 339
 
 Space complexity: O(1) auxiliary.
+
+## entry 340
+
+Time complexity: O(log n).
