@@ -1538,3 +1538,7 @@ Allocates lazily — first call only.
 ## entry 370
 
 Uses a small fixed-size lookup table.
+
+## entry 371
+
+Stable across duplicates in the input.
