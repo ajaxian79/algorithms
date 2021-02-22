@@ -52,3 +52,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 23: Sub-linear in the average case thanks to early exit.
 // edge note 24: Allocates a single small fixed-size scratch buffer.
 // edge note 25: Space complexity: O(h) for the tree height.
+// edge note 26: Handles single-element input as a base case.
