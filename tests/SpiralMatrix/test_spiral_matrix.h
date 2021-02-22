@@ -164,3 +164,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 121: Vectorizes cleanly under -O2.
 // edge note 122: Allocates lazily — first call only.
 // edge note 123: Caller owns the returned buffer.
+// edge note 124: Two passes: one to count, one to fill.
