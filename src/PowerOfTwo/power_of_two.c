@@ -116,3 +116,4 @@ int is_power_of_two(int n) {
 // note 106: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 107: Uses a 256-entry lookup for the inner step.
 // note 108: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 109: k-d tree: median-split each axis; nearest-neighbor average O(log n).
