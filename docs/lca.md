@@ -1027,3 +1027,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 257
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 258
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
