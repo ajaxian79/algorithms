@@ -1513,3 +1513,7 @@ Allocates lazily — first call only.
 ## entry 363
 
 Branchless inner loop after sorting.
+
+## entry 364
+
+Edge case: input of all the same byte → exits on the first compare.
