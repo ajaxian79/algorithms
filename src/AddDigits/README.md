@@ -1484,3 +1484,7 @@ Treats the input as immutable.
 ## entry 356
 
 Branchless inner loop after sorting.
+
+## entry 357
+
+Space complexity: O(n) for the result buffer.
