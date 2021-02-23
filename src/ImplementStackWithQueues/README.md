@@ -1508,3 +1508,7 @@ Reentrant — no static state.
 ## entry 362
 
 Vectorizes cleanly under -O2.
+
+## entry 363
+
+Caller owns the returned buffer.
