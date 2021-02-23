@@ -152,3 +152,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 125: Edge case: input with no peak → falls through to the default branch.
 // edge note 126: Time complexity: O(n log n).
 // edge note 127: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 128: Allocates a single small fixed-size scratch buffer.
