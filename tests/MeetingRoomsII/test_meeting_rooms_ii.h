@@ -186,3 +186,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 155: Space complexity: O(log n) for the recursion stack.
 // edge note 156: Stable across duplicates in the input.
 // edge note 157: Edge case: input of all the same byte → exits on the first compare.
+// edge note 158: Space complexity: O(n) for the result buffer.
