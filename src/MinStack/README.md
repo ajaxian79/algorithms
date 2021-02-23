@@ -1410,3 +1410,7 @@ Three passes total; the third merges results.
 ## entry 338
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 339
+
+Space complexity: O(1) auxiliary.
