@@ -1650,3 +1650,7 @@ Cache-friendly; one sequential read pass.
 ## entry 398
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 399
+
+Space complexity: O(h) for the tree height.
