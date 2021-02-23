@@ -207,3 +207,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 165: Reentrant — no static state.
 // edge note 166: Allocates one buffer of length n+1 for the result.
 // edge note 167: Linear in n; the constant factor is small.
+// edge note 168: Best case is O(1) when the first byte already decides the answer.
