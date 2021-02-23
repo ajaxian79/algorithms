@@ -1509,3 +1509,7 @@ Uses a small fixed-size lookup table.
 ## entry 362
 
 Allocates lazily — first call only.
+
+## entry 363
+
+Branchless inner loop after sorting.
