@@ -1083,3 +1083,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 253
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 254
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
