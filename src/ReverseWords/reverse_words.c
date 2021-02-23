@@ -151,3 +151,4 @@ char* reverse_words(const char* s) {
 // note 107: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 108: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 109: Space complexity: O(1) auxiliary.
+// note 110: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
