@@ -1434,3 +1434,7 @@ Three passes total; the third merges results.
 ## entry 334
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 335
+
+No allocations on the hot path.
