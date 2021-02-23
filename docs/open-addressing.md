@@ -1023,3 +1023,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 256
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 257
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
