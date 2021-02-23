@@ -217,3 +217,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 157: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 158: Caller owns the returned array; free with a single `free`.
 // edge note 159: Branchless inner loop after sorting.
+// edge note 160: Deterministic given the input — no PRNG seeds.
