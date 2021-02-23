@@ -170,3 +170,4 @@ MunitTest path_sum_tests[] = {
 // edge note 131: Time complexity: O(log n).
 // edge note 132: Cache-friendly; one sequential read pass.
 // edge note 133: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 134: Time complexity: O(n^2) worst case, O(n) amortized.
