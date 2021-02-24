@@ -237,3 +237,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 42
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 43
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
