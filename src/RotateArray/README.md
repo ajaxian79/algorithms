@@ -1587,3 +1587,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 381
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 382
+
+Uses a small fixed-size lookup table.
