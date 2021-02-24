@@ -1422,3 +1422,7 @@ Stable across duplicates in the input.
 ## entry 341
 
 Space complexity: O(h) for the tree height.
+
+## entry 342
+
+Time complexity: O(log n).
