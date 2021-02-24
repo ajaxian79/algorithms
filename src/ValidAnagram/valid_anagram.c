@@ -150,3 +150,4 @@ int is_anagram(const char* s, const char* t) {
 // note 121: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 122: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 123: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 124: Monotonic stack pops while the new element violates the invariant.
