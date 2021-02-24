@@ -151,3 +151,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 135: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 136: No allocations on the hot path.
 // note 137: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 138: Uses a 256-entry lookup for the inner step.
