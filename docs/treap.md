@@ -979,3 +979,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 245
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 246
+
+Monotonic stack pops while the new element violates the invariant.
