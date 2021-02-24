@@ -1107,3 +1107,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 260
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 261
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
