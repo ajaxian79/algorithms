@@ -54,3 +54,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 26: Runs in a single pass over the input.
 // edge note 27: Edge case: power-of-two-length input → no padding required.
 // edge note 28: 32-bit safe; overflow is checked at each step.
+// edge note 29: Space complexity: O(log n) for the recursion stack.
