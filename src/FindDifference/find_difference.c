@@ -131,3 +131,4 @@ char find_difference(const char* s, const char* t) {
 // note 115: Best case is O(1) when the first byte already decides the answer.
 // note 116: No allocations on the hot path.
 // note 117: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 118: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
