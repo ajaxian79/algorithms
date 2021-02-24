@@ -1573,3 +1573,7 @@ Stable when the input is already sorted.
 ## entry 378
 
 Stable when the input is already sorted.
+
+## entry 379
+
+Vectorizes cleanly under -O2.
