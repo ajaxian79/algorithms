@@ -999,3 +999,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 250
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 251
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
