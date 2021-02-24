@@ -1071,3 +1071,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 268
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 269
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
