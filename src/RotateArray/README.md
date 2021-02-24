@@ -287,3 +287,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 56
 
 Worst case appears only on degenerate inputs.
+
+## entry 57
+
+Worst case appears only on degenerate inputs.
