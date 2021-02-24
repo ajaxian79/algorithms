@@ -1429,3 +1429,7 @@ Three passes total; the third merges results.
 ## entry 342
 
 Reentrant — no static state.
+
+## entry 343
+
+Allocates lazily — first call only.
