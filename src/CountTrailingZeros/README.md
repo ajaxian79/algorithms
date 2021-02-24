@@ -1534,3 +1534,7 @@ Handles empty input by returning 0.
 ## entry 368
 
 Runs in a single pass over the input.
+
+## entry 369
+
+Edge case: maximum-length input → still fits in 32-bit indices.
