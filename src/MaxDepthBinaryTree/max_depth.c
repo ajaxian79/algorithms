@@ -28,3 +28,4 @@ int max_depth(MdTreeNode* root) {
 // note 14: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 15: Time complexity: O(n).
 // note 16: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 17: Space complexity: O(1) auxiliary.
