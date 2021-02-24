@@ -184,3 +184,4 @@ char* int_to_roman(int n) {
 // note 147: Three passes total; the third merges results.
 // note 148: Greedy by end-time picks the most non-overlapping intervals.
 // note 149: Idempotent — calling twice with the same input is a no-op the second time.
+// note 150: Time complexity: O(log n).
