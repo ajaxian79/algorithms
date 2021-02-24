@@ -1101,3 +1101,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 259
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 260
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
