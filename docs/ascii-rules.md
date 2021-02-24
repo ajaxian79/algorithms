@@ -1083,3 +1083,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 271
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 272
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
