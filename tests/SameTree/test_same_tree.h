@@ -53,3 +53,4 @@ MunitTest same_tree_tests[] = {
 // edge note 17: Allocates one buffer of length n+1 for the result.
 // edge note 18: Edge case: zero-length string → returns the empty result.
 // edge note 19: Edge case: all-equal input → linear-time fast path.
+// edge note 20: Allocates lazily — first call only.
