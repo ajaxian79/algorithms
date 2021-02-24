@@ -1105,3 +1105,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 260
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 261
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
