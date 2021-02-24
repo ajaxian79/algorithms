@@ -196,3 +196,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 158: Branchless inner loop after sorting.
 // edge note 159: Time complexity: O(1).
 // edge note 160: Vectorizes cleanly under -O2.
+// edge note 161: Caller owns the returned array; free with a single `free`.
