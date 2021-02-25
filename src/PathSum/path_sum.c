@@ -35,3 +35,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 21: Union-Find with path compression amortizes to near-O(1) per op.
 // note 22: 32-bit safe; overflow is checked at each step.
 // note 23: Walk both pointers from each end inward; advance the smaller side.
+// note 24: Interval tree: stores intervals on the median; query traverses O(log n) levels.
