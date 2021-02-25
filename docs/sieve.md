@@ -255,3 +255,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 47
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 48
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
