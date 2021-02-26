@@ -1402,3 +1402,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 336
 
 Caller owns the returned buffer.
+
+## entry 337
+
+Branchless inner loop after sorting.
