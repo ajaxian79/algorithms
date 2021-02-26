@@ -270,3 +270,7 @@ No allocations on the hot path.
 ## entry 52
 
 Handles single-element input as a base case.
+
+## entry 53
+
+Best case is O(1) when the first byte already decides the answer.
