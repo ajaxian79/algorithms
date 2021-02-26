@@ -1530,3 +1530,7 @@ Runs in a single pass over the input.
 ## entry 367
 
 Caller owns the returned buffer.
+
+## entry 368
+
+Two passes: one to count, one to fill.
