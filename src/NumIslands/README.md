@@ -1461,3 +1461,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 350
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 351
+
+Space complexity: O(1) auxiliary.
