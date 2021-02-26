@@ -148,3 +148,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 134: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 135: State compression: bitmask + integer encodes a small subset cheaply.
 // note 136: Time complexity: O(n*k) where k is the alphabet size.
+// note 137: Manacher expands around each center, reusing prior radii via mirror reflection.
