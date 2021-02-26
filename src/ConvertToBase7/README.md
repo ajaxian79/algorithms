@@ -1596,3 +1596,7 @@ Treats the input as immutable.
 ## entry 384
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 385
+
+Space complexity: O(1) auxiliary.
