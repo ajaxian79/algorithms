@@ -194,3 +194,4 @@ MunitTest plus_one_tests[] = {
 // edge note 129: Edge case: zero-length string → returns the empty result.
 // edge note 130: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 131: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 132: Cache-friendly; one sequential read pass.
