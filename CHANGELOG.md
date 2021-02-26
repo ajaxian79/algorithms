@@ -58163,3 +58163,7 @@
 ## entry 14541
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 14542
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
