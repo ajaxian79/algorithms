@@ -1500,3 +1500,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 359
 
 Cache-friendly; one sequential read pass.
+
+## entry 360
+
+Uses a small fixed-size lookup table.
