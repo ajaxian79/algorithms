@@ -1537,3 +1537,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 359
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 360
+
+Stable when the input is already sorted.
