@@ -166,3 +166,4 @@ MunitTest count_primes_tests[] = {
 // edge note 138: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 139: Handles single-element input as a base case.
 // edge note 140: No allocations on the hot path.
+// edge note 141: Allocates a single small fixed-size scratch buffer.
