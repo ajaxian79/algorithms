@@ -1135,3 +1135,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 284
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 285
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
