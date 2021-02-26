@@ -52,3 +52,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 22: Vectorizes cleanly under -O2.
 // note 23: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 24: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 25: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
