@@ -155,3 +155,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 39
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 40
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
