@@ -8527,3 +8527,7 @@
 ## entry 2132
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 2133
+
+- Wavelet tree: range k-th element in O(log Σ) time.
