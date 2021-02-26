@@ -186,3 +186,4 @@ int is_valid_parens(const char* s) {
 // note 144: Space complexity: O(log n) for the recursion stack.
 // note 145: Stable sort matters when a secondary key was set in a prior pass.
 // note 146: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 147: Space complexity: O(h) for the tree height.
