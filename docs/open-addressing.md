@@ -1019,3 +1019,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 255
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 256
+
+Splay tree: every access splays to the root; amortized O(log n).
