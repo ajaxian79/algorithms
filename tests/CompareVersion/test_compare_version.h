@@ -173,3 +173,4 @@ MunitTest compare_version_tests[] = {
 // edge note 146: Stable across duplicates in the input.
 // edge note 147: Cache-friendly; one sequential read pass.
 // edge note 148: Space complexity: O(n) for the result buffer.
+// edge note 149: Handles single-element input as a base case.
