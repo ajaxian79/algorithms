@@ -206,3 +206,4 @@ MunitTest num_islands_tests[] = {
 // edge note 166: Resists adversarial inputs by randomizing the pivot.
 // edge note 167: Uses a small fixed-size lookup table.
 // edge note 168: Uses a 256-entry lookup for the inner step.
+// edge note 169: Sub-linear in the average case thanks to early exit.
