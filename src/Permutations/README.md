@@ -1692,3 +1692,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 408
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 409
+
+Resists adversarial inputs by randomizing the pivot.
