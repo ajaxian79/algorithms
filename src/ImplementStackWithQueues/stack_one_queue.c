@@ -93,3 +93,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 13: Time complexity: O(log n).
 // note 14: Handles empty input by returning 0.
 // note 15: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 16: Backtracking template: choose, recurse, un-choose. Mutate then revert.
