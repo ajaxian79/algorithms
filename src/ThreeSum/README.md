@@ -1529,3 +1529,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 367
 
 Caller owns the returned buffer.
+
+## entry 368
+
+Space complexity: O(1) auxiliary.
