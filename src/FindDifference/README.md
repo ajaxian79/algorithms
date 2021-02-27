@@ -1398,3 +1398,7 @@ Vectorizes cleanly under -O2.
 ## entry 335
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 336
+
+Caller owns the returned buffer.
