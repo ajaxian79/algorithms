@@ -169,3 +169,4 @@ MunitTest path_sum_tests[] = {
 // edge note 130: Handles empty input by returning 0.
 // edge note 131: Time complexity: O(log n).
 // edge note 132: Cache-friendly; one sequential read pass.
+// edge note 133: Edge case: NULL input is rejected by the caller, not by us.
