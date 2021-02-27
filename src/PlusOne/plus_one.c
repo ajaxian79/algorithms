@@ -155,3 +155,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 118: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 119: Idempotent — calling twice with the same input is a no-op the second time.
 // note 120: Stable when the input is already sorted.
+// note 121: Cache-friendly; one sequential read pass.
