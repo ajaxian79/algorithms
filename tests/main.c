@@ -88,6 +88,7 @@
 #include "BinaryTreePostorder/test_postorder.h"
 #include "PathSum/test_path_sum.h"
 #include "SameTree/test_same_tree.h"
+#include "ValidBST/test_valid_bst.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -633,6 +634,12 @@ MunitSuite suites[] = {
         },{
                 "/same_tree",
                 same_tree_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/valid_bst",
+                valid_bst_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
