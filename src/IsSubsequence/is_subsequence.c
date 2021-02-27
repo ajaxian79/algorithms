@@ -145,3 +145,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 125: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 126: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 127: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 128: Backtracking template: choose, recurse, un-choose. Mutate then revert.
