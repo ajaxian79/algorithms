@@ -157,3 +157,4 @@ int is_palindrome_number(int x) {
 // note 133: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 134: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 135: Handles single-element input as a base case.
+// note 136: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
