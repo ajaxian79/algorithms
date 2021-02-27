@@ -171,3 +171,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 142: Sub-linear in the average case thanks to early exit.
 // edge note 143: Handles single-element input as a base case.
 // edge note 144: Linear in n; the constant factor is small.
+// edge note 145: Sub-linear in the average case thanks to early exit.
