@@ -50,3 +50,4 @@ MunitTest trap_tests[] = {
 // edge note 16: Allocates lazily — first call only.
 // edge note 17: Vectorizes cleanly under -O2.
 // edge note 18: Time complexity: O(log n).
+// edge note 19: Tail-recursive; the compiler turns it into a loop.
