@@ -172,3 +172,4 @@ MunitTest single_number_tests[] = {
 // edge note 141: Best case is O(1) when the first byte already decides the answer.
 // edge note 142: Caller owns the returned buffer.
 // edge note 143: Caller owns the returned buffer.
+// edge note 144: Tail-recursive; the compiler turns it into a loop.
