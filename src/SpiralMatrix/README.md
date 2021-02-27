@@ -1506,3 +1506,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 361
 
 32-bit safe; overflow is checked at each step.
+
+## entry 362
+
+Caller owns the returned buffer.
