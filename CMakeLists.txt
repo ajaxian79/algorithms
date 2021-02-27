@@ -94,6 +94,7 @@ add_executable(inorder src/BinaryTreeInorder/main.c src/BinaryTreeInorder/inorde
 add_executable(postorder src/BinaryTreePostorder/main.c src/BinaryTreePostorder/postorder.c)
 add_executable(path_sum src/PathSum/main.c src/PathSum/path_sum.c)
 add_executable(same_tree src/SameTree/main.c src/SameTree/same_tree.c)
+add_executable(valid_bst src/ValidBST/main.c src/ValidBST/valid_bst.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -276,4 +277,5 @@ target_link_libraries(inorder PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mima
 target_link_libraries(postorder PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(path_sum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(same_tree PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(valid_bst PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
