@@ -1390,3 +1390,7 @@ Space complexity: O(1) auxiliary.
 ## entry 333
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 334
+
+Uses a 256-entry lookup for the inner step.
