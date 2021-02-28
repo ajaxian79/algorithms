@@ -46,3 +46,4 @@ int compare_version(const char* a, const char* b) {
 // note 16: Sub-linear in the average case thanks to early exit.
 // note 17: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 18: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 19: Interval tree: stores intervals on the median; query traverses O(log n) levels.
