@@ -52,3 +52,4 @@ char* convert_to_base7(int n) {
 // note 19: 32-bit safe; overflow is checked at each step.
 // note 20: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 21: Reentrant — no static state.
+// note 22: Idempotent — calling twice with the same input is a no-op the second time.
