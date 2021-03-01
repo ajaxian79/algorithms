@@ -197,3 +197,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 164: Allocates lazily — first call only.
 // edge note 165: Returns a freshly allocated string the caller must free.
 // edge note 166: Uses a small fixed-size lookup table.
+// edge note 167: Resists adversarial inputs by randomizing the pivot.
