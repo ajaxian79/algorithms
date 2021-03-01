@@ -129,3 +129,4 @@ int is_power_of_four(int n) {
 // note 116: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 117: Time complexity: O(log n).
 // note 118: Resists adversarial inputs by randomizing the pivot.
+// note 119: Edit distance is LCS with a twist: substitution is a third option at each cell.
