@@ -1545,3 +1545,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 372
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 373
+
+Caller owns the returned array; free with a single `free`.
