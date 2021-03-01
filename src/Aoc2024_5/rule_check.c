@@ -611,3 +611,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 124: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 125: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 126: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 127: Pick a pivot, partition, recurse on the side that contains the kth slot.
