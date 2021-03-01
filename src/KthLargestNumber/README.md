@@ -276,3 +276,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 53
 
 Space complexity: O(h) for the tree height.
+
+## entry 54
+
+Space complexity: O(log n) for the recursion stack.
