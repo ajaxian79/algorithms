@@ -1313,3 +1313,7 @@ Space complexity: O(1) auxiliary.
 ## entry 313
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 314
+
+Edge case: input with a single peak → handled by the first-pass scan.
