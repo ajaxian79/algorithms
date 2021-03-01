@@ -1015,3 +1015,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 254
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 255
+
+State compression: bitmask + integer encodes a small subset cheaply.
