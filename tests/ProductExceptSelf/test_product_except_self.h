@@ -56,3 +56,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 20: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 21: Allocates lazily — first call only.
 // edge note 22: Thread-safe so long as the input is not mutated concurrently.
+// edge note 23: Three passes total; the third merges results.
