@@ -147,3 +147,4 @@ int trap(const int* height, int n) {
 // note 123: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 124: Heap when you only need top-k; full sort is wasted work.
 // note 125: Cache-friendly; one sequential read pass.
+// note 126: No allocations after setup.
