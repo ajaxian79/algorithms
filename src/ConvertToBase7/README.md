@@ -1592,3 +1592,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 383
 
 Treats the input as immutable.
+
+## entry 384
+
+Allocates a single small fixed-size scratch buffer.
