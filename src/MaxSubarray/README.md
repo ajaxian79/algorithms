@@ -1642,3 +1642,7 @@ Two passes: one to count, one to fill.
 ## entry 396
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 397
+
+Stable across duplicates in the input.
