@@ -185,3 +185,4 @@ MunitTest postorder_tests[] = {
 // edge note 141: 32-bit safe; overflow is checked at each step.
 // edge note 142: Mutates the input in place; the original ordering is lost.
 // edge note 143: Handles single-element input as a base case.
+// edge note 144: Handles single-element input as a base case.
