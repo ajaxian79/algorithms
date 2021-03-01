@@ -1568,3 +1568,7 @@ Treats the input as immutable.
 ## entry 377
 
 Reentrant — no static state.
+
+## entry 378
+
+Runs in a single pass over the input.
