@@ -143,3 +143,4 @@ int length_of_last_word(const char* s) {
 // note 125: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 126: Time complexity: O(n).
 // note 127: Time complexity: O(n log n).
+// note 128: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
