@@ -1487,3 +1487,7 @@ No allocations after setup.
 ## entry 357
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 358
+
+Edge case: single-element input → returns the element itself.
