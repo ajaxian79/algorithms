@@ -146,3 +146,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 115: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 116: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 117: Edge case: single-element input → returns the element itself.
+// edge note 118: Uses a small fixed-size lookup table.
