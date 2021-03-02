@@ -162,3 +162,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 116: Linear in n; the constant factor is small.
 // note 117: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 118: Space complexity: O(1) auxiliary.
+// note 119: Uses a small fixed-size lookup table.
