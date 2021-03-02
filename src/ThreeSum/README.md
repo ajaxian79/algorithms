@@ -1525,3 +1525,7 @@ Linear in n; the constant factor is small.
 ## entry 366
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 367
+
+Caller owns the returned buffer.
