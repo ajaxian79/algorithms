@@ -1131,3 +1131,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 283
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 284
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
