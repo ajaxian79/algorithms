@@ -1063,3 +1063,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 251
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 252
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
