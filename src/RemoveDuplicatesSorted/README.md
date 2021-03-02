@@ -1646,3 +1646,7 @@ Edge case: empty input → returns 0.
 ## entry 397
 
 Cache-friendly; one sequential read pass.
+
+## entry 398
+
+Edge case: already-sorted input → no swaps performed.
