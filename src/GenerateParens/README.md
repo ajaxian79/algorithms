@@ -256,3 +256,7 @@ Three passes total; the third merges results.
 ## entry 48
 
 Constant-time comparisons; safe for short strings.
+
+## entry 49
+
+Edge case: already-sorted input → no swaps performed.
