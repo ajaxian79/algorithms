@@ -58043,3 +58043,7 @@
 ## entry 14511
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 14512
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
