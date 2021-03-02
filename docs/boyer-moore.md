@@ -227,3 +227,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 41
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 42
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
