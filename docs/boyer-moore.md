@@ -1023,3 +1023,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 240
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 241
+
+Rope: tree of small string fragments; O(log n) concat and substring.
