@@ -1035,3 +1035,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 241
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 242
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
