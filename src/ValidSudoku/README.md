@@ -1551,3 +1551,7 @@ Time complexity: O(n + m).
 ## entry 372
 
 Handles negative inputs as documented above.
+
+## entry 373
+
+Time complexity: O(n log n).
