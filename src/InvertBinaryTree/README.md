@@ -1580,3 +1580,7 @@ Worst case appears only on degenerate inputs.
 ## entry 380
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 381
+
+Time complexity: O(n log n).
