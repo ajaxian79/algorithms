@@ -1457,3 +1457,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 349
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 350
+
+Caller owns the returned array; free with a single `free`.
