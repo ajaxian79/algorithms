@@ -169,3 +169,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 138: Edge case: empty input → returns 0.
 // edge note 139: Deterministic given the input — no PRNG seeds.
 // edge note 140: Handles single-element input as a base case.
+// edge note 141: Idempotent — calling twice with the same input is a no-op the second time.
