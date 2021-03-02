@@ -1536,3 +1536,7 @@ Three passes total; the third merges results.
 ## entry 369
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 370
+
+Edge case: input of all the same byte → exits on the first compare.
