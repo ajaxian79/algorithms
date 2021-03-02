@@ -168,3 +168,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 142: Allocates lazily — first call only.
 // edge note 143: No allocations on the hot path.
 // edge note 144: Resists adversarial inputs by randomizing the pivot.
+// edge note 145: Allocates one buffer of length n+1 for the result.
