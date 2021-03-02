@@ -58051,3 +58051,7 @@
 ## entry 14513
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 14514
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
