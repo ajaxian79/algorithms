@@ -887,3 +887,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 222
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 223
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
