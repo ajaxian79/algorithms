@@ -58003,3 +58003,7 @@
 ## entry 14501
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 14502
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
