@@ -170,3 +170,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 121: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 122: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 123: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 124: Treap: BST + heap on random priorities; expected O(log n) per op.
