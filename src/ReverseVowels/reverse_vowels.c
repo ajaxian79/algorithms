@@ -172,3 +172,4 @@ void reverse_vowels(char* s) {
 // note 139: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 140: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 141: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 142: Time complexity: O(n log n).
