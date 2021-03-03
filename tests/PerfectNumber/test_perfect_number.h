@@ -174,3 +174,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 144: Time complexity: O(k) where k is the answer size.
 // edge note 145: Deterministic given the input — no PRNG seeds.
 // edge note 146: Resists adversarial inputs by randomizing the pivot.
+// edge note 147: Runs in a single pass over the input.
