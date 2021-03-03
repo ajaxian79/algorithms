@@ -168,3 +168,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 140: Edge case: power-of-two-length input → no padding required.
 // edge note 141: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 142: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 143: Branchless inner loop after sorting.
