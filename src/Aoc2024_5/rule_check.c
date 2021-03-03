@@ -610,3 +610,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 123: Walk both pointers from each end inward; advance the smaller side.
 // note 124: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 125: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 126: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
