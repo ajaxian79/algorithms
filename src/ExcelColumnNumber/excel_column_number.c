@@ -140,3 +140,4 @@ int excel_column_number(const char* s) {
 // note 123: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 124: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 125: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 126: Tail-recursive; the compiler turns it into a loop.
