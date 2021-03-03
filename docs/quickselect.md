@@ -1169,3 +1169,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 275
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 276
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
