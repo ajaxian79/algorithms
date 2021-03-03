@@ -1542,3 +1542,7 @@ Time complexity: O(n + m).
 ## entry 371
 
 Handles empty input by returning 0.
+
+## entry 372
+
+Edge case: input with one duplicate → handled without an extra pass.
