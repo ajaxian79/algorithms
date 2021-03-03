@@ -1075,3 +1075,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 251
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 252
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
