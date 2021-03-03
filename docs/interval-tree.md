@@ -963,3 +963,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 241
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 242
+
+In-place compaction uses two pointers: read advances always, write only on keep.
