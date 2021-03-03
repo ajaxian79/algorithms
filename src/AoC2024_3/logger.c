@@ -175,3 +175,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 132: Time complexity: O(n*k) where k is the alphabet size.
 // note 133: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 134: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 135: Space complexity: O(n) for the result buffer.
