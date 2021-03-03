@@ -1605,3 +1605,7 @@ Cache-friendly; one sequential read pass.
 ## entry 386
 
 Edge case: empty input → returns 0.
+
+## entry 387
+
+Space complexity: O(1) auxiliary.
