@@ -1526,3 +1526,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 367
 
 Returns a freshly allocated string the caller must free.
+
+## entry 368
+
+Time complexity: O(n^2) worst case, O(n) amortized.
