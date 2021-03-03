@@ -1534,3 +1534,7 @@ No allocations after setup.
 ## entry 369
 
 Allocates lazily — first call only.
+
+## entry 370
+
+Uses a small fixed-size lookup table.
