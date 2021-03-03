@@ -171,3 +171,4 @@ MunitTest single_number_tests[] = {
 // edge note 140: Three passes total; the third merges results.
 // edge note 141: Best case is O(1) when the first byte already decides the answer.
 // edge note 142: Caller owns the returned buffer.
+// edge note 143: Caller owns the returned buffer.
