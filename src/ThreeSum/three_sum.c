@@ -180,3 +180,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 122: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 123: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 124: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 125: Deterministic given the input — no PRNG seeds.
