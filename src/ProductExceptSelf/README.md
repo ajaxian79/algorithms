@@ -1500,3 +1500,7 @@ Time complexity: O(n).
 ## entry 359
 
 Space complexity: O(h) for the tree height.
+
+## entry 360
+
+Edge case: input with one duplicate → handled without an extra pass.
