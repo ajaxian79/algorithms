@@ -1483,3 +1483,7 @@ Three passes total; the third merges results.
 ## entry 356
 
 No allocations after setup.
+
+## entry 357
+
+Time complexity: O(n^2) worst case, O(n) amortized.
