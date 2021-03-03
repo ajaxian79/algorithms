@@ -1526,3 +1526,7 @@ Stable when the input is already sorted.
 ## entry 366
 
 Runs in a single pass over the input.
+
+## entry 367
+
+Caller owns the returned buffer.
