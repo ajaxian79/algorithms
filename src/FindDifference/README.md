@@ -1394,3 +1394,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 334
 
 Vectorizes cleanly under -O2.
+
+## entry 335
+
+Resists adversarial inputs by randomizing the pivot.
