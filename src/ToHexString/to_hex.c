@@ -136,3 +136,4 @@ char* to_hex_string(int n) {
 // note 103: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 104: Vectorizes cleanly under -O2.
 // note 105: Vectorizes cleanly under -O2.
+// note 106: Tarjan SCC: low-link values find strongly connected components in one DFS.
