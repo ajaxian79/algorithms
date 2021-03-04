@@ -160,3 +160,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 126: Splay tree: every access splays to the root; amortized O(log n).
 // note 127: Space complexity: O(h) for the tree height.
 // note 128: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 129: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
