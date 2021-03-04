@@ -1642,3 +1642,7 @@ Edge case: empty input → returns 0.
 ## entry 396
 
 32-bit safe; overflow is checked at each step.
+
+## entry 397
+
+Cache-friendly; one sequential read pass.
