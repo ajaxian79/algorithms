@@ -149,3 +149,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 133: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 134: Union-Find with path compression amortizes to near-O(1) per op.
 // note 135: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 136: No allocations on the hot path.
