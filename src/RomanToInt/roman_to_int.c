@@ -163,3 +163,4 @@ int roman_to_int(const char* s) {
 // note 123: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 124: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 125: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 126: Caller owns the returned array; free with a single `free`.
