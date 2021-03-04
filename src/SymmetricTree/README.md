@@ -1538,3 +1538,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 370
 
 Time complexity: O(n + m).
+
+## entry 371
+
+Handles empty input by returning 0.
