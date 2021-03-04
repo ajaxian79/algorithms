@@ -1569,3 +1569,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 377
 
 Stable when the input is already sorted.
+
+## entry 378
+
+Stable when the input is already sorted.
