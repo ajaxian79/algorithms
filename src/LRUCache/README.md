@@ -1496,3 +1496,7 @@ Stable when the input is already sorted.
 ## entry 358
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 359
+
+Cache-friendly; one sequential read pass.
