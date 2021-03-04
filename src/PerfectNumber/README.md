@@ -1309,3 +1309,7 @@ Space complexity: O(1) auxiliary.
 ## entry 312
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 313
+
+Edge case: integer-max input → guarded by the explicit overflow check.
