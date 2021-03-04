@@ -178,3 +178,4 @@ char* add_binary(const char* a, const char* b) {
 // note 136: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 137: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 138: Walk both pointers from each end inward; advance the smaller side.
+// note 139: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
