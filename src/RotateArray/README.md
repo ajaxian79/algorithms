@@ -283,3 +283,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 55
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 56
+
+Worst case appears only on degenerate inputs.
