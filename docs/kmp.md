@@ -1061,3 +1061,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 249
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 250
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
