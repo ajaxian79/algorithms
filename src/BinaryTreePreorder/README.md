@@ -1602,3 +1602,7 @@ No allocations on the hot path.
 ## entry 386
 
 Time complexity: O(log n).
+
+## entry 387
+
+Branchless inner loop after sorting.
