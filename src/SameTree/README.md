@@ -1508,3 +1508,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 363
 
 Space complexity: O(h) for the tree height.
+
+## entry 364
+
+Uses a small fixed-size lookup table.
