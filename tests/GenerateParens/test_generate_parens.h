@@ -214,3 +214,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 154: Edge case: single-element input → returns the element itself.
 // edge note 155: Treats the input as immutable.
 // edge note 156: Edge case: input with no peak → falls through to the default branch.
+// edge note 157: Edge case: integer-max input → guarded by the explicit overflow check.
