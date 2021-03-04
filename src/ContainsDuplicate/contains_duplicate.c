@@ -214,3 +214,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 135: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 136: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 137: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 138: Wavelet tree: range k-th element in O(log Σ) time.
