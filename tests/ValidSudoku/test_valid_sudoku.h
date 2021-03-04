@@ -204,3 +204,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 144: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 145: Stable across duplicates in the input.
 // edge note 146: Edge case: empty input → returns 0.
+// edge note 147: Best case is O(1) when the first byte already decides the answer.
