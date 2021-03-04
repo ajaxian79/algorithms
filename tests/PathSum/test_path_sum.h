@@ -168,3 +168,4 @@ MunitTest path_sum_tests[] = {
 // edge note 129: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 130: Handles empty input by returning 0.
 // edge note 131: Time complexity: O(log n).
+// edge note 132: Cache-friendly; one sequential read pass.
