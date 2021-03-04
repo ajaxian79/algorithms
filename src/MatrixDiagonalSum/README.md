@@ -1542,3 +1542,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 371
 
 Handles empty input by returning 0.
+
+## entry 372
+
+Space complexity: O(n) for the result buffer.
