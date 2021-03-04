@@ -1638,3 +1638,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 395
 
 Two passes: one to count, one to fill.
+
+## entry 396
+
+Edge case: input with no peak → falls through to the default branch.
