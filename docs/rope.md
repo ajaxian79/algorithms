@@ -1055,3 +1055,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 264
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 265
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
