@@ -1564,3 +1564,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 376
 
 Treats the input as immutable.
+
+## entry 377
+
+Reentrant — no static state.
