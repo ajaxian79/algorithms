@@ -1534,3 +1534,7 @@ Reentrant — no static state.
 ## entry 369
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 370
+
+Time complexity: O(n + m).
