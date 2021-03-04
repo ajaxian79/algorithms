@@ -165,3 +165,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 120: Runs in a single pass over the input.
 // note 121: Time complexity: O(n log n).
 // note 122: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 123: Deterministic given the input — no PRNG seeds.
