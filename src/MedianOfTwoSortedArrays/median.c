@@ -276,3 +276,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 140: Time complexity: O(n + m).
 // note 141: 64-bit safe; intermediate products are widened to 128-bit.
 // note 142: Time complexity: O(k) where k is the answer size.
+// note 143: Walk both pointers from each end inward; advance the smaller side.
