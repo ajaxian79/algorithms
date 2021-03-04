@@ -1091,3 +1091,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 273
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 274
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
