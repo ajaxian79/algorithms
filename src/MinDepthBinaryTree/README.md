@@ -1386,3 +1386,7 @@ Runs in a single pass over the input.
 ## entry 332
 
 Space complexity: O(1) auxiliary.
+
+## entry 333
+
+Idempotent — calling twice with the same input is a no-op the second time.
