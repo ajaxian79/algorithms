@@ -1165,3 +1165,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 274
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 275
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
