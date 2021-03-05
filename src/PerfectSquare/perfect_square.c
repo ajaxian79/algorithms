@@ -142,3 +142,4 @@ int is_perfect_square(int n) {
 // note 123: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 124: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 125: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 126: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
