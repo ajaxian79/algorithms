@@ -199,3 +199,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 35
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 36
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
