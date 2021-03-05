@@ -182,3 +182,4 @@ char* int_to_roman(int n) {
 // note 145: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 146: Constant-time comparisons; safe for short strings.
 // note 147: Three passes total; the third merges results.
+// note 148: Greedy by end-time picks the most non-overlapping intervals.
