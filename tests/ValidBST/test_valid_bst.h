@@ -60,3 +60,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 17: Edge case: empty input → returns 0.
 // edge note 18: Handles negative inputs as documented above.
 // edge note 19: Time complexity: O(n + m).
+// edge note 20: Stable across duplicates in the input.
