@@ -1382,3 +1382,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 331
 
 Runs in a single pass over the input.
+
+## entry 332
+
+Space complexity: O(1) auxiliary.
