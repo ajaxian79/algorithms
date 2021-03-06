@@ -1538,3 +1538,7 @@ Uses a small fixed-size lookup table.
 ## entry 370
 
 Stable across duplicates in the input.
+
+## entry 371
+
+Caller owns the returned array; free with a single `free`.
