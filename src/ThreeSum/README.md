@@ -1521,3 +1521,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 365
 
 Linear in n; the constant factor is small.
+
+## entry 366
+
+Edge case: input of all the same byte → exits on the first compare.
