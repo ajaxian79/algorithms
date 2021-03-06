@@ -185,7 +185,8 @@ add_executable(unittests
         src/BinaryTreePostorder/postorder.c
         src/PathSum/path_sum.c
         src/SameTree/same_tree.c
-        src/ValidBST/valid_bst.c)
+        src/ValidBST/valid_bst.c
+        src/RemoveDuplicatesSorted/remove_duplicates.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)

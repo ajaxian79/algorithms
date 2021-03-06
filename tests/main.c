@@ -89,6 +89,7 @@
 #include "PathSum/test_path_sum.h"
 #include "SameTree/test_same_tree.h"
 #include "ValidBST/test_valid_bst.h"
+#include "RemoveDuplicatesSorted/test_remove_duplicates.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -640,6 +641,12 @@ MunitSuite suites[] = {
         },{
                 "/valid_bst",
                 valid_bst_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/remove_duplicates",
+                remove_duplicates_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
