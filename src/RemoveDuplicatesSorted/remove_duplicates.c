@@ -38,3 +38,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 22: Euler tour flattens a tree into an array for range-query LCA.
 // note 23: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 24: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 25: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
