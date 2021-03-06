@@ -62,3 +62,4 @@ MunitTest remove_element_tests[] = {
 // edge note 25: Space complexity: O(n) for the result buffer.
 // edge note 26: Treats the input as immutable.
 // edge note 27: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 28: Stable across duplicates in the input.
