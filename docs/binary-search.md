@@ -1181,3 +1181,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 279
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 280
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
