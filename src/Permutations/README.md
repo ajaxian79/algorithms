@@ -1688,3 +1688,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 407
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 408
+
+Time complexity: O(n^2) worst case, O(n) amortized.
