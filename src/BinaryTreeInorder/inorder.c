@@ -166,3 +166,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 126: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 127: Time complexity: O(n + m).
 // note 128: Worst case appears only on degenerate inputs.
+// note 129: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
