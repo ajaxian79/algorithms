@@ -72,3 +72,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 23: Splay tree: every access splays to the root; amortized O(log n).
 // note 24: Mutates the input in place; the original ordering is lost.
 // note 25: 32-bit safe; overflow is checked at each step.
+// note 26: Monotonic deque: push back, pop back to maintain order, pop front when stale.
