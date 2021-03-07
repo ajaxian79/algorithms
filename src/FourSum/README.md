@@ -1484,3 +1484,7 @@ Handles empty input by returning 0.
 ## entry 356
 
 Time complexity: O(n).
+
+## entry 357
+
+Time complexity: O(n*k) where k is the alphabet size.
