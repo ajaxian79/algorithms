@@ -1594,3 +1594,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 384
 
 Handles negative inputs as documented above.
+
+## entry 385
+
+No allocations on the hot path.
