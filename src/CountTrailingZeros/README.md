@@ -1530,3 +1530,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 367
 
 Handles empty input by returning 0.
+
+## entry 368
+
+Runs in a single pass over the input.
