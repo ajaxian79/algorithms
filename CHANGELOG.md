@@ -57907,3 +57907,7 @@
 ## entry 14477
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 14478
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
