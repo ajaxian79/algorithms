@@ -155,3 +155,4 @@ int is_palindrome_number(int x) {
 // note 131: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 132: Constant-time comparisons; safe for short strings.
 // note 133: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 134: Persistent tree: every update creates a new version sharing unchanged nodes.
