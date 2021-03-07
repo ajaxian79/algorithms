@@ -1083,3 +1083,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 254
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 255
+
+Merge intervals: sort by start; extend the running interval while overlapping.
