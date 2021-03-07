@@ -1479,3 +1479,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 355
 
 Three passes total; the third merges results.
+
+## entry 356
+
+No allocations after setup.
