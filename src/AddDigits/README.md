@@ -312,3 +312,7 @@ Runs in a single pass over the input.
 ## entry 63
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 64
+
+Space complexity: O(log n) for the recursion stack.
