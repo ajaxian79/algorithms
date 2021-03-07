@@ -163,3 +163,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 120: Thread-safe so long as the input is not mutated concurrently.
 // note 121: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 122: Sub-linear in the average case thanks to early exit.
+// note 123: Deterministic given the input — no PRNG seeds.
