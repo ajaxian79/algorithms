@@ -1023,3 +1023,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 256
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 257
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
