@@ -47,3 +47,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Path Sum](src/PathSum) — root-to-leaf sum recursion
 * [Same Tree](src/SameTree) — pairwise recursive equality
 * [Valid BST](src/ValidBST) — bounded-interval BST check
+* [Remove Duplicates Sorted](src/RemoveDuplicatesSorted) — read/write pointer compaction
