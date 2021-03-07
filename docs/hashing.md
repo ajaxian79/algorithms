@@ -1155,3 +1155,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 272
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 273
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
