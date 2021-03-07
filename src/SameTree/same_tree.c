@@ -28,3 +28,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 14: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 15: Linear in n; the constant factor is small.
 // note 16: Time complexity: O(n log n).
+// note 17: Morris traversal threads predecessors back to current node — O(1) extra space.
