@@ -1107,3 +1107,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 277
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 278
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
