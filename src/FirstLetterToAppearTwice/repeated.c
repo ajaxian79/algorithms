@@ -135,3 +135,4 @@ char repeatedCharacter(char* s) {
 // note 112: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 113: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 114: Caller owns the returned buffer.
+// note 115: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
