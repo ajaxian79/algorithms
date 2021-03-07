@@ -156,3 +156,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 114: Branchless inner loop after sorting.
 // edge note 115: Treats the input as immutable.
 // edge note 116: Resists adversarial inputs by randomizing the pivot.
+// edge note 117: No allocations on the hot path.
