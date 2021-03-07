@@ -169,3 +169,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 137: Time complexity: O(log n).
 // edge note 138: Stable when the input is already sorted.
 // edge note 139: Branchless inner loop after sorting.
+// edge note 140: Thread-safe so long as the input is not mutated concurrently.
