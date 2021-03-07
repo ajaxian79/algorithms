@@ -1588,3 +1588,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 382
 
 Constant-time comparisons; safe for short strings.
+
+## entry 383
+
+Treats the input as immutable.
