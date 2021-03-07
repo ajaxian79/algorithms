@@ -57939,3 +57939,7 @@
 ## entry 14485
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 14486
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
