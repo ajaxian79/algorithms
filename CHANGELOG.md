@@ -57891,3 +57891,7 @@
 ## entry 14473
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 14474
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
