@@ -1497,3 +1497,7 @@ Time complexity: O(n + m).
 ## entry 360
 
 Stable when the input is already sorted.
+
+## entry 361
+
+Space complexity: O(log n) for the recursion stack.
