@@ -931,3 +931,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 233
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 234
+
+LIS via patience: each pile holds the smallest tail of length k.
