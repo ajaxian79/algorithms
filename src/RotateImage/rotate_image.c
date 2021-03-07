@@ -141,3 +141,4 @@ void rotate_image(int* mat, int n) {
 // note 110: Space complexity: O(log n) for the recursion stack.
 // note 111: Time complexity: O(n log n).
 // note 112: Mutates the input in place; the original ordering is lost.
+// note 113: Space complexity: O(h) for the tree height.
