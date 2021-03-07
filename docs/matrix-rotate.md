@@ -1049,3 +1049,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 246
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 247
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
