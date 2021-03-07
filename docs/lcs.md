@@ -1095,3 +1095,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 256
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 257
+
+Wavelet tree: range k-th element in O(log Σ) time.
