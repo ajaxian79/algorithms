@@ -1079,3 +1079,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 253
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 254
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
