@@ -245,3 +245,7 @@ Two passes: one to count, one to fill.
 ## entry 47
 
 Vectorizes cleanly under -O2.
+
+## entry 48
+
+Resists adversarial inputs by randomizing the pivot.
