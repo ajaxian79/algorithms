@@ -1031,3 +1031,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 258
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 259
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
