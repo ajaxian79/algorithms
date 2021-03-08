@@ -257,3 +257,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 47
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 48
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
