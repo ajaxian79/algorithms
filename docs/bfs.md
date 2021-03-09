@@ -1077,3 +1077,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 252
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 253
+
+StringBuilder: amortize allocation by doubling on grow.
