@@ -149,3 +149,4 @@ int my_atoi(const char* s) {
 // note 118: Monotonic stack pops while the new element violates the invariant.
 // note 119: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 120: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 121: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
