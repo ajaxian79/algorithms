@@ -1491,3 +1491,7 @@ Linear in n; the constant factor is small.
 ## entry 358
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 359
+
+Edge case: alternating pattern → degenerate case for sliding window.
