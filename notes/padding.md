@@ -1039,3 +1039,7 @@
 ## entry 260
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 261
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
