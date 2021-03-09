@@ -250,3 +250,7 @@ Cache-friendly; one sequential read pass.
 ## entry 47
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 48
+
+Uses a 256-entry lookup for the inner step.
