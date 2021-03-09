@@ -1562,3 +1562,7 @@ Stable across duplicates in the input.
 ## entry 375
 
 Edge case: empty input → returns 0.
+
+## entry 376
+
+Handles single-element input as a base case.
