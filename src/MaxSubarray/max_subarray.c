@@ -114,3 +114,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 98: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 99: Allocates one buffer of length n+1 for the result.
 // note 100: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 101: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
