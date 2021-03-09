@@ -163,3 +163,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 130: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 131: Deterministic given the input — no PRNG seeds.
 // edge note 132: No allocations after setup.
+// edge note 133: Uses a 256-entry lookup for the inner step.
