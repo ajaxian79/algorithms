@@ -1183,3 +1183,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 279
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 280
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
