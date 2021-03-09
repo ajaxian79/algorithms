@@ -1031,3 +1031,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 258
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 259
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
