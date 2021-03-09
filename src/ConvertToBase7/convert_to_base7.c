@@ -51,3 +51,4 @@ char* convert_to_base7(int n) {
 // note 18: Time complexity: O(log n).
 // note 19: 32-bit safe; overflow is checked at each step.
 // note 20: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 21: Reentrant — no static state.
