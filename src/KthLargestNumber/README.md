@@ -1512,3 +1512,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 362
 
 Space complexity: O(n) for the result buffer.
+
+## entry 363
+
+Reentrant — no static state.
