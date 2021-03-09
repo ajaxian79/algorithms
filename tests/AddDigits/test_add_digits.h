@@ -141,3 +141,4 @@ MunitTest add_digits_tests[] = {
 // edge note 114: Edge case: already-sorted input → no swaps performed.
 // edge note 115: Best case is O(1) when the first byte already decides the answer.
 // edge note 116: Linear in n; the constant factor is small.
+// edge note 117: Returns a freshly allocated string the caller must free.
