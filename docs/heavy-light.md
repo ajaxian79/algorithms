@@ -1131,3 +1131,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 283
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 284
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
