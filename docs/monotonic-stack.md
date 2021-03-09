@@ -205,3 +205,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 35
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 36
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
