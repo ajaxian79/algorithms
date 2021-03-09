@@ -255,3 +255,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 47
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 48
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
