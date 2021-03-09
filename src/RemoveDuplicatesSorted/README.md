@@ -1638,3 +1638,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 395
 
 Edge case: empty input → returns 0.
+
+## entry 396
+
+32-bit safe; overflow is checked at each step.
