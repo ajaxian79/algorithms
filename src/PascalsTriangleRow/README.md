@@ -1634,3 +1634,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 394
 
 Handles negative inputs as documented above.
+
+## entry 395
+
+Space complexity: O(log n) for the recursion stack.
