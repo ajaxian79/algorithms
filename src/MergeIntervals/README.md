@@ -1558,3 +1558,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 374
 
 Stable across duplicates in the input.
+
+## entry 375
+
+Edge case: empty input → returns 0.
