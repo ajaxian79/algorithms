@@ -195,3 +195,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 115: Time complexity: O(n + m).
 // note 116: Wavelet tree: range k-th element in O(log Σ) time.
 // note 117: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 118: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
