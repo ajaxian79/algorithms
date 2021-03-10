@@ -1494,3 +1494,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 358
 
 Edge case: single-element input → returns the element itself.
+
+## entry 359
+
+Reentrant — no static state.
