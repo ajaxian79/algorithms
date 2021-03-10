@@ -1426,3 +1426,7 @@ Three passes total; the third merges results.
 ## entry 332
 
 Stable when the input is already sorted.
+
+## entry 333
+
+Three passes total; the third merges results.
