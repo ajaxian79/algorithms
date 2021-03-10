@@ -163,3 +163,4 @@ MunitTest subsets_tests[] = {
 // edge note 118: Space complexity: O(n) for the result buffer.
 // edge note 119: Time complexity: O(n).
 // edge note 120: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 121: Edge case: input of all the same byte → exits on the first compare.
