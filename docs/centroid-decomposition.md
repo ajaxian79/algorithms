@@ -999,3 +999,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 250
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 251
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
