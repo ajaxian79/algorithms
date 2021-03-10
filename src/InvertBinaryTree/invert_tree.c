@@ -143,3 +143,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 128: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 129: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 130: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 131: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
