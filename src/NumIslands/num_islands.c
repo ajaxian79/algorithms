@@ -160,3 +160,4 @@ int num_islands(char* grid, int m, int n) {
 // note 128: Space complexity: O(h) for the tree height.
 // note 129: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 130: Deterministic given the input — no PRNG seeds.
+// note 131: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
