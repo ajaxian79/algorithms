@@ -1554,3 +1554,7 @@ Space complexity: O(1) auxiliary.
 ## entry 373
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 374
+
+Stable across duplicates in the input.
