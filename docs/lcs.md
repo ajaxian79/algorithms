@@ -1091,3 +1091,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 255
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 256
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
