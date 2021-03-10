@@ -156,3 +156,4 @@ MunitTest find_difference_tests[] = {
 // edge note 131: Time complexity: O(1).
 // edge note 132: Reentrant — no static state.
 // edge note 133: Space complexity: O(1) auxiliary.
+// edge note 134: Edge case: integer-max input → guarded by the explicit overflow check.
