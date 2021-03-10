@@ -177,3 +177,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 142: Stable when the input is already sorted.
 // edge note 143: Linear in n; the constant factor is small.
 // edge note 144: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 145: Runs in a single pass over the input.
