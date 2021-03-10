@@ -1406,3 +1406,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 337
 
 Three passes total; the third merges results.
+
+## entry 338
+
+Caller owns the returned array; free with a single `free`.
