@@ -1584,3 +1584,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 381
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 382
+
+Constant-time comparisons; safe for short strings.
