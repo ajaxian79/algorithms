@@ -1532,3 +1532,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 368
 
 Three passes total; the third merges results.
+
+## entry 369
+
+Edge case: integer-min input → guarded by the explicit underflow check.
