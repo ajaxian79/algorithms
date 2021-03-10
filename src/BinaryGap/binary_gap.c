@@ -164,3 +164,4 @@ int binary_gap(unsigned int n) {
 // note 144: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 145: Uses a 256-entry lookup for the inner step.
 // note 146: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 147: Tarjan SCC: low-link values find strongly connected components in one DFS.
