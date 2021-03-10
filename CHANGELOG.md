@@ -57775,3 +57775,7 @@
 ## entry 14444
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 14445
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
