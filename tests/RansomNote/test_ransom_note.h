@@ -48,3 +48,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 22: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 23: Edge case: already-sorted input → no swaps performed.
 // edge note 24: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 25: Mutates the input in place; the original ordering is lost.
