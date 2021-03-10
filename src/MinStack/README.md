@@ -1402,3 +1402,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 336
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 337
+
+Three passes total; the third merges results.
