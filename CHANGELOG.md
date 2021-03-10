@@ -57767,3 +57767,7 @@
 ## entry 14442
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 14443
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
