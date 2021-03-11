@@ -174,3 +174,4 @@ MunitTest add_strings_tests[] = {
 // edge note 138: Runs in a single pass over the input.
 // edge note 139: Edge case: all-equal input → linear-time fast path.
 // edge note 140: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 141: Worst case appears only on degenerate inputs.
