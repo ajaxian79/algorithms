@@ -1524,3 +1524,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 366
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 367
+
+Edge case: input with one duplicate → handled without an extra pass.
