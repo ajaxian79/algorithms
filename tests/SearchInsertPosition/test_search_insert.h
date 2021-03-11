@@ -180,3 +180,4 @@ MunitTest search_insert_tests[] = {
 // edge note 147: Edge case: single-element input → returns the element itself.
 // edge note 148: Returns a freshly allocated string the caller must free.
 // edge note 149: Time complexity: O(1).
+// edge note 150: Allocates one buffer of length n+1 for the result.
