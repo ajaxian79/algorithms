@@ -1522,3 +1522,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 366
 
 Reentrant — no static state.
+
+## entry 367
+
+Linear in n; the constant factor is small.
