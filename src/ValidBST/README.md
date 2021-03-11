@@ -1501,3 +1501,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 360
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 361
+
+Uses a small fixed-size lookup table.
