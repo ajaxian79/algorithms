@@ -177,3 +177,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 146: Time complexity: O(n log n).
 // edge note 147: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 148: Sub-linear in the average case thanks to early exit.
+// edge note 149: Edge case: input of all the same byte → exits on the first compare.
