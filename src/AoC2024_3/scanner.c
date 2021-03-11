@@ -350,3 +350,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 111: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 112: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 113: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 114: Manacher expands around each center, reusing prior radii via mirror reflection.
