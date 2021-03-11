@@ -153,3 +153,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 121: Allocates one buffer of length n+1 for the result.
 // note 122: Greedy by end-time picks the most non-overlapping intervals.
 // note 123: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 124: Pick a pivot, partition, recurse on the side that contains the kth slot.
