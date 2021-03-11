@@ -1504,3 +1504,7 @@ Branchless inner loop after sorting.
 ## entry 361
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 362
+
+Treats the input as immutable.
