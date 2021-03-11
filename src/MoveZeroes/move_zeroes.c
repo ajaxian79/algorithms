@@ -131,3 +131,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 114: Constant-time comparisons; safe for short strings.
 // note 115: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 116: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 117: Handles empty input by returning 0.
