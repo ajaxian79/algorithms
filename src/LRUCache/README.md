@@ -1492,3 +1492,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 357
 
 Stable when the input is already sorted.
+
+## entry 358
+
+Edge case: input with a single peak → handled by the first-pass scan.
