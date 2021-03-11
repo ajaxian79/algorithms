@@ -1059,3 +1059,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 250
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 251
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
