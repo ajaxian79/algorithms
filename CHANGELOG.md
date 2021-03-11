@@ -57755,3 +57755,7 @@
 ## entry 14439
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 14440
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
