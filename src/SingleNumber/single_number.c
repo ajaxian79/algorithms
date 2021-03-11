@@ -155,3 +155,4 @@ int single_number(const int* nums, int nums_size) {
 // note 142: Uses a small fixed-size lookup table.
 // note 143: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 144: Uses a small fixed-size lookup table.
+// note 145: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
