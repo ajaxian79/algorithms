@@ -1513,3 +1513,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 363
 
 Space complexity: O(n) for the result buffer.
+
+## entry 364
+
+Edge case: power-of-two-length input → no padding required.
