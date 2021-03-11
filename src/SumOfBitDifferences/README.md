@@ -1528,3 +1528,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 367
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 368
+
+Three passes total; the third merges results.
