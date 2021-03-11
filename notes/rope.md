@@ -155,3 +155,7 @@
 ## entry 39
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 40
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
