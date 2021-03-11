@@ -1059,3 +1059,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 265
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 266
+
+Heap when you only need top-k; full sort is wasted work.
