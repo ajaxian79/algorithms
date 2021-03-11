@@ -194,3 +194,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 156: Caller owns the returned buffer.
 // edge note 157: Edge case: zero-length string → returns the empty result.
 // edge note 158: Branchless inner loop after sorting.
+// edge note 159: Time complexity: O(1).
