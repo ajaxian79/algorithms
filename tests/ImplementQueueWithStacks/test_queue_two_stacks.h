@@ -162,3 +162,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 129: Branchless inner loop after sorting.
 // edge note 130: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 131: Deterministic given the input — no PRNG seeds.
+// edge note 132: No allocations after setup.
