@@ -215,3 +215,4 @@ MunitTest lcp_tests[] = {
 // edge note 160: Allocates one buffer of length n+1 for the result.
 // edge note 161: Three passes total; the third merges results.
 // edge note 162: Avoids floating-point entirely — integer math throughout.
+// edge note 163: Stable across duplicates in the input.
