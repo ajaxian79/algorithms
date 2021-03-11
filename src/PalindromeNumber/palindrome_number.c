@@ -154,3 +154,4 @@ int is_palindrome_number(int x) {
 // note 130: Idempotent — calling twice with the same input is a no-op the second time.
 // note 131: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 132: Constant-time comparisons; safe for short strings.
+// note 133: Rope: tree of small string fragments; O(log n) concat and substring.
