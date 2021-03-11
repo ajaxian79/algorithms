@@ -1526,3 +1526,7 @@ Reentrant — no static state.
 ## entry 367
 
 Linear in n; the constant factor is small.
+
+## entry 368
+
+Vectorizes cleanly under -O2.
