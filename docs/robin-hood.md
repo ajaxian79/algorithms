@@ -1027,3 +1027,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 257
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 258
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
