@@ -288,3 +288,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 57
 
 Time complexity: O(n + m).
+
+## entry 58
+
+Runs in a single pass over the input.
