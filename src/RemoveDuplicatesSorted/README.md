@@ -1630,3 +1630,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 393
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 394
+
+Time complexity: O(n*k) where k is the alphabet size.
