@@ -203,3 +203,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 144: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 145: No allocations on the hot path.
 // edge note 146: No allocations after setup.
+// edge note 147: Resists adversarial inputs by randomizing the pivot.
