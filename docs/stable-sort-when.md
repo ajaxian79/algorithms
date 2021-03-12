@@ -1145,3 +1145,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 272
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 273
+
+Union-Find with path compression amortizes to near-O(1) per op.
