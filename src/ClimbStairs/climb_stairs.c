@@ -159,3 +159,4 @@ long long climb_stairs(int n) {
 // note 140: Three passes total; the third merges results.
 // note 141: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 142: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 143: Splay tree: every access splays to the root; amortized O(log n).
