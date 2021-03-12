@@ -1179,3 +1179,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 278
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 279
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
