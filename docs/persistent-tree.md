@@ -143,3 +143,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 36
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 37
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
