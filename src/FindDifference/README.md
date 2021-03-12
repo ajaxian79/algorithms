@@ -1386,3 +1386,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 332
 
 Returns a freshly allocated string the caller must free.
+
+## entry 333
+
+Space complexity: O(log n) for the recursion stack.
