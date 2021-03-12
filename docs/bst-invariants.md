@@ -1089,3 +1089,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 256
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 257
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
