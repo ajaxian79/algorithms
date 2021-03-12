@@ -48,3 +48,4 @@ MunitTest search_insert_tests[] = {
 // edge note 15: Space complexity: O(log n) for the recursion stack.
 // edge note 16: Stable across duplicates in the input.
 // edge note 17: Treats the input as immutable.
+// edge note 18: Time complexity: O(n log n).
