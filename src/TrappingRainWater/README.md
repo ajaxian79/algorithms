@@ -1522,3 +1522,7 @@ Stable when the input is already sorted.
 ## entry 365
 
 Stable when the input is already sorted.
+
+## entry 366
+
+Runs in a single pass over the input.
