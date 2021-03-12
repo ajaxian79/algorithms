@@ -268,3 +268,7 @@ Uses a small fixed-size lookup table.
 ## entry 52
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 53
+
+Constant-time comparisons; safe for short strings.
