@@ -1520,3 +1520,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 365
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 366
+
+Uses a 256-entry lookup for the inner step.
