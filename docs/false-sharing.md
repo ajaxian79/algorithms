@@ -1027,3 +1027,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 257
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 258
+
+Interval DP: solve all `[l, r]` ranges from short to long.
