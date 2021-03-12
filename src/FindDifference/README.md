@@ -1390,3 +1390,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 333
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 334
+
+Vectorizes cleanly under -O2.
