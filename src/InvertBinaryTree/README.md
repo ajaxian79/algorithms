@@ -1576,3 +1576,7 @@ Time complexity: O(n).
 ## entry 379
 
 Worst case appears only on degenerate inputs.
+
+## entry 380
+
+Input is assumed non-NULL; behavior is undefined otherwise.
