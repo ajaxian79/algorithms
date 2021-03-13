@@ -1,0 +1,37 @@
+//
+// Created by ajaxian on 03/13/21.
+//
+
+#ifndef ALGORITHMS_TEST_REMOVE_ELEMENT_H
+#define ALGORITHMS_TEST_REMOVE_ELEMENT_H
+
+#include "../tests.h"
+#include "../../src/RemoveElement/remove_element.h"
+
+static MunitResult test_remove_element_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    int a[] = {3, 2, 2, 3};
+    int n = remove_element(a, 4, 3);
+    munit_assert_int(n, ==, 2);
+    munit_assert_int(a[0], ==, 2);
+    munit_assert_int(a[1], ==, 2);
+
+    int b[] = {0, 1, 2, 2, 3, 0, 4, 2};
+    n = remove_element(b, 8, 2);
+    munit_assert_int(n, ==, 5);
+    int e[] = {0, 1, 3, 0, 4};
+    for (int i = 0; i < n; i++) munit_assert_int(b[i], ==, e[i]);
+
+    int c[] = {1};
+    munit_assert_int(remove_element(c, 1, 1), ==, 0);
+    munit_assert_int(remove_element(c, 1, 2), ==, 1);
+
+    munit_assert_int(remove_element(NULL, 0, 5), ==, 0);
+    return MUNIT_OK;
+}
+
+MunitTest remove_element_tests[] = {
+    {"/basic", test_remove_element_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_REMOVE_ELEMENT_H
