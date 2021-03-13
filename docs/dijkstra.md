@@ -155,3 +155,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 39
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 40
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
