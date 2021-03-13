@@ -8435,3 +8435,7 @@
 ## entry 2109
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 2110
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
