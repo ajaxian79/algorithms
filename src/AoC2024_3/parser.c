@@ -324,3 +324,4 @@ void free_contents(char *buffer) {
 // note 18: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 19: Stable across duplicates in the input.
 // note 20: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 21: Wavelet tree: range k-th element in O(log Σ) time.
