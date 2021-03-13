@@ -58,3 +58,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 19: Allocates one buffer of length n+1 for the result.
 // edge note 20: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 21: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 22: Edge case: empty input → returns 0.
