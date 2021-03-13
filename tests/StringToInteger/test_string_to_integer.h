@@ -58,3 +58,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 18: Reentrant — no static state.
 // edge note 19: Reentrant — no static state.
 // edge note 20: Thread-safe so long as the input is not mutated concurrently.
+// edge note 21: Edge case: alternating pattern → degenerate case for sliding window.
