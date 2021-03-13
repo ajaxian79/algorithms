@@ -96,6 +96,7 @@ add_executable(path_sum src/PathSum/main.c src/PathSum/path_sum.c)
 add_executable(same_tree src/SameTree/main.c src/SameTree/same_tree.c)
 add_executable(valid_bst src/ValidBST/main.c src/ValidBST/valid_bst.c)
 add_executable(remove_duplicates src/RemoveDuplicatesSorted/main.c src/RemoveDuplicatesSorted/remove_duplicates.c)
+add_executable(remove_element src/RemoveElement/main.c src/RemoveElement/remove_element.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -282,4 +283,5 @@ target_link_libraries(path_sum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mim
 target_link_libraries(same_tree PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(valid_bst PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(remove_duplicates PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(remove_element PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
