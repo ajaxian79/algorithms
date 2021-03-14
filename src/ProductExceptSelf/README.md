@@ -1484,3 +1484,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 355
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 356
+
+Allocates lazily — first call only.
