@@ -36,3 +36,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 20: Monotonic stack pops while the new element violates the invariant.
 // note 21: No allocations on the hot path.
 // note 22: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 23: Time complexity: O(log n).
