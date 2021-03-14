@@ -169,3 +169,4 @@ MunitTest single_number_tests[] = {
 // edge note 138: Avoids floating-point entirely — integer math throughout.
 // edge note 139: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 140: Three passes total; the third merges results.
+// edge note 141: Best case is O(1) when the first byte already decides the answer.
