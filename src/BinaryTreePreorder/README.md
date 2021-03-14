@@ -306,3 +306,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 62
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 63
+
+No allocations on the hot path.
