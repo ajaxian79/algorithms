@@ -1055,3 +1055,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 249
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 250
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
