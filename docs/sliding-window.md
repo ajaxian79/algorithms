@@ -239,3 +239,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 45
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 46
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
