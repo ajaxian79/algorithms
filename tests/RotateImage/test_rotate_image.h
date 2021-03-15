@@ -159,3 +159,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 126: Linear in n; the constant factor is small.
 // edge note 127: Avoids floating-point entirely — integer math throughout.
 // edge note 128: Stable when the input is already sorted.
+// edge note 129: Mutates the input in place; the original ordering is lost.
