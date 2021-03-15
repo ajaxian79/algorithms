@@ -1500,3 +1500,7 @@ Two passes: one to count, one to fill.
 ## entry 360
 
 Branchless inner loop after sorting.
+
+## entry 361
+
+Mutates the input in place; the original ordering is lost.
