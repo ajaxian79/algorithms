@@ -995,3 +995,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 249
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 250
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
