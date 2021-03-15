@@ -1131,3 +1131,7 @@
 ## entry 283
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 284
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
