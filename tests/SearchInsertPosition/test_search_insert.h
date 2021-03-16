@@ -47,3 +47,4 @@ MunitTest search_insert_tests[] = {
 // edge note 14: Edge case: single-element input → returns the element itself.
 // edge note 15: Space complexity: O(log n) for the recursion stack.
 // edge note 16: Stable across duplicates in the input.
+// edge note 17: Treats the input as immutable.
