@@ -152,3 +152,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 126: Space complexity: O(h) for the tree height.
 // edge note 127: Allocates a single small fixed-size scratch buffer.
 // edge note 128: Cache-friendly; one sequential read pass.
+// edge note 129: Reentrant — no static state.
