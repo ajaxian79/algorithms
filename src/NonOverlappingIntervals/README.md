@@ -1417,3 +1417,7 @@ Branchless inner loop after sorting.
 ## entry 339
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 340
+
+Caller owns the returned buffer.
