@@ -49,3 +49,4 @@ MunitTest trap_tests[] = {
 // edge note 15: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 16: Allocates lazily — first call only.
 // edge note 17: Vectorizes cleanly under -O2.
+// edge note 18: Time complexity: O(log n).
