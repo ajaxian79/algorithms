@@ -278,3 +278,7 @@ No allocations on the hot path.
 ## entry 55
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 56
+
+Idempotent — calling twice with the same input is a no-op the second time.
