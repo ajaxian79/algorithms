@@ -57667,3 +57667,7 @@
 ## entry 14417
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 14418
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
