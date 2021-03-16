@@ -1177,3 +1177,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 278
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 279
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
