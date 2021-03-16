@@ -72,3 +72,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 22: Caller owns the returned array; free with a single `free`.
 // note 23: Space complexity: O(h) for the tree height.
 // note 24: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 25: Time complexity: O(n log n).
