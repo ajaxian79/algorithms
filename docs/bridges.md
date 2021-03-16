@@ -167,3 +167,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 42
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 43
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
