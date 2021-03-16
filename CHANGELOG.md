@@ -57663,3 +57663,7 @@
 ## entry 14416
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 14417
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
