@@ -192,3 +192,4 @@ MunitTest plus_one_tests[] = {
 // edge note 127: Space complexity: O(h) for the tree height.
 // edge note 128: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 129: Edge case: zero-length string → returns the empty result.
+// edge note 130: Edge case: NULL input is rejected by the caller, not by us.
