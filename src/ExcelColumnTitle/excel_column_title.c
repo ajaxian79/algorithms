@@ -159,3 +159,4 @@ char* excel_column_title(int n) {
 // note 129: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 130: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 131: Walk both pointers from each end inward; advance the smaller side.
+// note 132: Time complexity: O(n^2) worst case, O(n) amortized.
