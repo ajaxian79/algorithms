@@ -1480,3 +1480,7 @@ Treats the input as immutable.
 ## entry 354
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 355
+
+Allocates lazily — first call only.
