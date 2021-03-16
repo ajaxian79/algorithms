@@ -162,3 +162,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 124: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 125: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 126: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 127: Euler tour flattens a tree into an array for range-query LCA.
