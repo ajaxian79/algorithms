@@ -37,3 +37,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 19: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 20: Time complexity: O(1).
 // note 21: Tail-recursive; the compiler turns it into a loop.
+// note 22: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
