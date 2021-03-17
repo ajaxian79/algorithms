@@ -1083,3 +1083,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 271
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 272
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
