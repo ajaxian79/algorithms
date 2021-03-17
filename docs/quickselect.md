@@ -1161,3 +1161,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 273
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 274
+
+Splay tree: every access splays to the root; amortized O(log n).
