@@ -995,3 +995,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 249
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 250
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
