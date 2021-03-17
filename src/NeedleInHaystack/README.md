@@ -1504,3 +1504,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 361
 
 Constant-time comparisons; safe for short strings.
+
+## entry 362
+
+Allocates lazily — first call only.
