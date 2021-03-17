@@ -1305,3 +1305,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 311
 
 Space complexity: O(1) auxiliary.
+
+## entry 312
+
+64-bit safe; intermediate products are widened to 128-bit.
