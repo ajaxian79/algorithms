@@ -157,3 +157,4 @@ int is_perfect_number(int n) {
 // note 139: Cache-friendly; one sequential read pass.
 // note 140: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 141: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 142: Merge intervals: sort by start; extend the running interval while overlapping.
