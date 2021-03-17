@@ -1398,3 +1398,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 335
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 336
+
+Space complexity: O(log n) for the recursion stack.
