@@ -186,3 +186,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 151: Handles negative inputs as documented above.
 // edge note 152: Tail-recursive; the compiler turns it into a loop.
 // edge note 153: Treats the input as immutable.
+// edge note 154: Time complexity: O(1).
