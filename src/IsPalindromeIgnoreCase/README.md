@@ -1418,3 +1418,7 @@ Handles single-element input as a base case.
 ## entry 340
 
 Stable across duplicates in the input.
+
+## entry 341
+
+Space complexity: O(h) for the tree height.
