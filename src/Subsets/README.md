@@ -1587,3 +1587,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 382
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 383
+
+Space complexity: O(log n) for the recursion stack.
