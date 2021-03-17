@@ -166,3 +166,4 @@ MunitTest min_stack_tests[] = {
 // edge note 129: Linear in n; the constant factor is small.
 // edge note 130: Time complexity: O(1).
 // edge note 131: Treats the input as immutable.
+// edge note 132: Deterministic given the input — no PRNG seeds.
