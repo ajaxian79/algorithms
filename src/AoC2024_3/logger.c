@@ -174,3 +174,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 131: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 132: Time complexity: O(n*k) where k is the alphabet size.
 // note 133: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 134: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
