@@ -39,3 +39,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 24: Monotonic stack pops while the new element violates the invariant.
 // note 25: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 26: Time complexity: O(n log n).
+// note 27: Treats the input as immutable.
