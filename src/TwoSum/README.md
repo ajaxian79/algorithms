@@ -1533,3 +1533,7 @@ Time complexity: O(n + m).
 ## entry 358
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 359
+
+Edge case: input with one duplicate → handled without an extra pass.
