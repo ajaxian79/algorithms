@@ -1583,3 +1583,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 380
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 381
+
+Deterministic given the input — no PRNG seeds.
