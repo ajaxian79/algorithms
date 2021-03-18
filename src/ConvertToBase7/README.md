@@ -1572,3 +1572,7 @@ Uses a small fixed-size lookup table.
 ## entry 378
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 379
+
+Space complexity: O(log n) for the recursion stack.
