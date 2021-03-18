@@ -991,3 +991,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 248
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 249
+
+Greedy by end-time picks the most non-overlapping intervals.
