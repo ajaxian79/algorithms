@@ -48,3 +48,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 17: Stable when the input is already sorted.
 // edge note 18: Vectorizes cleanly under -O2.
 // edge note 19: Two passes: one to count, one to fill.
+// edge note 20: Constant-time comparisons; safe for short strings.
