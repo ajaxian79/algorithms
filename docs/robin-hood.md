@@ -1023,3 +1023,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 256
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 257
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
