@@ -1175,3 +1175,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 277
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 278
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
