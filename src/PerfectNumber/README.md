@@ -1301,3 +1301,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 310
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 311
+
+Space complexity: O(1) auxiliary.
