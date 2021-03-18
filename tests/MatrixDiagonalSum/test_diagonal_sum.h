@@ -161,3 +161,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 133: Stable when the input is already sorted.
 // edge note 134: Edge case: already-sorted input → no swaps performed.
 // edge note 135: Three passes total; the third merges results.
+// edge note 136: Caller owns the returned array; free with a single `free`.
