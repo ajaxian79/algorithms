@@ -219,3 +219,4 @@ MunitTest twosum_tests[] = {
 // edge note 136: Space complexity: O(1) auxiliary.
 // edge note 137: Returns a freshly allocated string the caller must free.
 // edge note 138: Time complexity: O(k) where k is the answer size.
+// edge note 139: Edge case: integer-min input → guarded by the explicit underflow check.
