@@ -1490,3 +1490,7 @@ Caller owns the returned buffer.
 ## entry 357
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 358
+
+Edge case: single-element input → returns the element itself.
