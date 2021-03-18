@@ -1147,3 +1147,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 270
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 271
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
