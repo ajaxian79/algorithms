@@ -179,3 +179,4 @@ MunitTest search_insert_tests[] = {
 // edge note 146: Avoids floating-point entirely — integer math throughout.
 // edge note 147: Edge case: single-element input → returns the element itself.
 // edge note 148: Returns a freshly allocated string the caller must free.
+// edge note 149: Time complexity: O(1).
