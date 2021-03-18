@@ -1534,3 +1534,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 369
 
 Uses a small fixed-size lookup table.
+
+## entry 370
+
+Stable across duplicates in the input.
