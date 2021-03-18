@@ -1541,3 +1541,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 371
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 372
+
+Edge case: input with one duplicate → handled without an extra pass.
