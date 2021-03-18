@@ -57643,3 +57643,7 @@
 ## entry 14411
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 14412
+
+- Euler tour flattens a tree into an array for range-query LCA.
