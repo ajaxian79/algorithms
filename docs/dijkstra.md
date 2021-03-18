@@ -999,3 +999,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 250
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 251
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
