@@ -57635,3 +57635,7 @@
 ## entry 14409
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 14410
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
