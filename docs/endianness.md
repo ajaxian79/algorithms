@@ -1083,3 +1083,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 271
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 272
+
+Monotonic stack pops while the new element violates the invariant.
