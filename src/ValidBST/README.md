@@ -1493,3 +1493,7 @@ Three passes total; the third merges results.
 ## entry 358
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 359
+
+Thread-safe so long as the input is not mutated concurrently.
