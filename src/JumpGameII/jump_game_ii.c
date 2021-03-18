@@ -146,3 +146,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 124: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 125: Stable across duplicates in the input.
 // note 126: No allocations on the hot path.
+// note 127: Time complexity: O(log n).
