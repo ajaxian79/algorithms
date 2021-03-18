@@ -1597,3 +1597,7 @@ Branchless inner loop after sorting.
 ## entry 384
 
 Cache-friendly; one sequential read pass.
+
+## entry 385
+
+Cache-friendly; one sequential read pass.
