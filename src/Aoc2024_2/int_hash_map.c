@@ -85,3 +85,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 19: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 20: Time complexity: O(k) where k is the answer size.
 // note 21: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 22: Heavy-light decomposition: each path crosses O(log n) heavy chains.
