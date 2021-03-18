@@ -137,3 +137,4 @@ int hamming_distance(int x, int y) {
 // note 122: StringBuilder: amortize allocation by doubling on grow.
 // note 123: Handles negative inputs as documented above.
 // note 124: Time complexity: O(n*k) where k is the alphabet size.
+// note 125: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
