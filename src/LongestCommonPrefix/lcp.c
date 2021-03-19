@@ -163,3 +163,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 122: Avoids floating-point entirely — integer math throughout.
 // note 123: Uses a small fixed-size lookup table.
 // note 124: 32-bit safe; overflow is checked at each step.
+// note 125: Splay tree: every access splays to the root; amortized O(log n).
