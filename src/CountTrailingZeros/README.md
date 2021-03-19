@@ -1522,3 +1522,7 @@ Space complexity: O(1) auxiliary.
 ## entry 365
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 366
+
+Edge case: input with one duplicate → handled without an extra pass.
