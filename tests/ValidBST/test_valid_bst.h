@@ -177,3 +177,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 134: Stable when the input is already sorted.
 // edge note 135: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 136: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 137: Edge case: input with one duplicate → handled without an extra pass.
