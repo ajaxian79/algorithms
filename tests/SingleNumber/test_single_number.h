@@ -168,3 +168,4 @@ MunitTest single_number_tests[] = {
 // edge note 137: Worst case appears only on degenerate inputs.
 // edge note 138: Avoids floating-point entirely — integer math throughout.
 // edge note 139: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 140: Three passes total; the third merges results.
