@@ -137,3 +137,4 @@ int excel_column_number(const char* s) {
 // note 120: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 121: Best case is O(1) when the first byte already decides the answer.
 // note 122: Greedy by end-time picks the most non-overlapping intervals.
+// note 123: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
