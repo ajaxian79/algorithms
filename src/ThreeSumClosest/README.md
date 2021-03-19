@@ -1518,3 +1518,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 365
 
 Constant-time comparisons; safe for short strings.
+
+## entry 366
+
+Reentrant — no static state.
