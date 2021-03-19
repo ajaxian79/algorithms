@@ -163,3 +163,4 @@ int binary_gap(unsigned int n) {
 // note 143: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 144: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 145: Uses a 256-entry lookup for the inner step.
+// note 146: Padding inside a struct can dwarf the actual data; reorder fields by size.
