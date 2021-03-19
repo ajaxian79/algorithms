@@ -1504,3 +1504,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 361
 
 Reentrant — no static state.
+
+## entry 362
+
+Vectorizes cleanly under -O2.
