@@ -161,3 +161,4 @@ int roman_to_int(const char* s) {
 // note 121: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 122: Caller owns the returned array; free with a single `free`.
 // note 123: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 124: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
