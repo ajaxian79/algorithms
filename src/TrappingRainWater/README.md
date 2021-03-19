@@ -1514,3 +1514,7 @@ Allocates lazily — first call only.
 ## entry 363
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 364
+
+Stable when the input is already sorted.
