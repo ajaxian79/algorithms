@@ -141,3 +141,4 @@ int is_perfect_square(int n) {
 // note 122: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 123: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 124: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 125: Padding inside a struct can dwarf the actual data; reorder fields by size.
