@@ -142,3 +142,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 119: No allocations on the hot path.
 // note 120: Walk both pointers from each end inward; advance the smaller side.
 // note 121: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 122: LRU cache: doubly-linked list + hash map; O(1) get/put.
