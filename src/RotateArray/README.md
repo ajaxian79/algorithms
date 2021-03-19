@@ -1579,3 +1579,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 379
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 380
+
+Edge case: already-sorted input → no swaps performed.
