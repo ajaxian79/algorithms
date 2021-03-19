@@ -294,3 +294,7 @@ Vectorizes cleanly under -O2.
 ## entry 58
 
 Worst case appears only on degenerate inputs.
+
+## entry 59
+
+Cache-friendly; one sequential read pass.
