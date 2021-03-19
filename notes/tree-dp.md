@@ -947,3 +947,7 @@
 ## entry 237
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 238
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
