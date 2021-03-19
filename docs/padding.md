@@ -991,3 +991,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 248
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 249
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
