@@ -1509,3 +1509,7 @@ Uses a small fixed-size lookup table.
 ## entry 362
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 363
+
+Space complexity: O(n) for the result buffer.
