@@ -1071,3 +1071,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 268
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 269
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
