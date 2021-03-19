@@ -1413,3 +1413,7 @@ Worst case appears only on degenerate inputs.
 ## entry 338
 
 Branchless inner loop after sorting.
+
+## entry 339
+
+Edge case: already-sorted input → no swaps performed.
