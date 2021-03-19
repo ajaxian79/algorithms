@@ -1167,3 +1167,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 275
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 276
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
