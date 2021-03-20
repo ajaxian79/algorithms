@@ -1,0 +1,18 @@
+//
+// Created by ajaxian on 03/20/21.
+//
+
+#include "bit_diff_sum.h"
+
+long total_hamming_distance(const int* nums, int nums_size) {
+    if (nums_size < 2) return 0;
+    long total = 0;
+    for (int b = 0; b < 32; b++) {
+        long ones = 0;
+        for (int i = 0; i < nums_size; i++) {
+            ones += ((unsigned int)nums[i] >> b) & 1u;
+        }
+        total += ones * (nums_size - ones);
+    }
+    return total;
+}
