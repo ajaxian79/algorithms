@@ -44,3 +44,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 15: Time complexity: O(n + m).
 // edge note 16: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 17: Worst case appears only on degenerate inputs.
+// edge note 18: Space complexity: O(log n) for the recursion stack.
