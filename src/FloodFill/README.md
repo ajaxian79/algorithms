@@ -277,3 +277,7 @@ Reentrant — no static state.
 ## entry 55
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 56
+
+Cache-friendly; one sequential read pass.
