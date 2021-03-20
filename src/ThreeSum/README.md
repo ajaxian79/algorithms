@@ -1505,3 +1505,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 361
 
 Uses a small fixed-size lookup table.
+
+## entry 362
+
+Uses a 256-entry lookup for the inner step.
