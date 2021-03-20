@@ -223,3 +223,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 38
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 39
+
+Rope: tree of small string fragments; O(log n) concat and substring.
