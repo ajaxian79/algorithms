@@ -1,0 +1,8 @@
+# Sum of Bit Differences
+
+Total hamming distance summed over every unordered pair of values. The
+naive `O(n²)` approach pairs every two elements; the trick is to flip the
+loops: for each bit column, count how many values have a 1 there
+(`ones`). Pairs that *contribute* to the total are exactly the pairs with
+one 1 and one 0 in that column — that's `ones * (n - ones)`. Sum across
+32 columns and you're done in `O(32 n)`.
