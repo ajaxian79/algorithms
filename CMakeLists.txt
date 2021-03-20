@@ -189,7 +189,8 @@ add_executable(unittests
         src/SameTree/same_tree.c
         src/ValidBST/valid_bst.c
         src/RemoveDuplicatesSorted/remove_duplicates.c
-        src/RemoveElement/remove_element.c)
+        src/RemoveElement/remove_element.c
+        src/SumOfBitDifferences/bit_diff_sum.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)

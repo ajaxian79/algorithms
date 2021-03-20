@@ -91,6 +91,7 @@
 #include "ValidBST/test_valid_bst.h"
 #include "RemoveDuplicatesSorted/test_remove_duplicates.h"
 #include "RemoveElement/test_remove_element.h"
+#include "SumOfBitDifferences/test_bit_diff_sum.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -654,6 +655,12 @@ MunitSuite suites[] = {
         },{
                 "/remove_element",
                 remove_element_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/bit_diff_sum",
+                bit_diff_sum_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

@@ -1,0 +1,31 @@
+//
+// Created by ajaxian on 03/20/21.
+//
+
+#ifndef ALGORITHMS_TEST_BIT_DIFF_SUM_H
+#define ALGORITHMS_TEST_BIT_DIFF_SUM_H
+
+#include "../tests.h"
+#include "../../src/SumOfBitDifferences/bit_diff_sum.h"
+
+static MunitResult test_bit_diff_sum_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    int a[] = {4, 14, 2};  // pairs: (4,14)=2, (4,2)=2, (14,2)=2 -> 6
+    munit_assert_long(total_hamming_distance(a, 3), ==, 6);
+
+    int b[] = {4, 14, 4, 2};
+    munit_assert_long(total_hamming_distance(b, 4), ==, 10);
+
+    int c[] = {0};
+    munit_assert_long(total_hamming_distance(c, 1), ==, 0);
+
+    int d[] = {7, 7, 7};  // identical -> 0
+    munit_assert_long(total_hamming_distance(d, 3), ==, 0);
+    return MUNIT_OK;
+}
+
+MunitTest bit_diff_sum_tests[] = {
+    {"/basic", test_bit_diff_sum_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_BIT_DIFF_SUM_H
