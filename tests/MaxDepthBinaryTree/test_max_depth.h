@@ -62,3 +62,4 @@ MunitTest max_depth_tests[] = {
 // edge note 24: Deterministic given the input — no PRNG seeds.
 // edge note 25: Two passes: one to count, one to fill.
 // edge note 26: No allocations after setup.
+// edge note 27: Input is assumed non-NULL; behavior is undefined otherwise.
