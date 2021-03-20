@@ -37,3 +37,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 16: Time complexity: O(n).
 // note 17: Time complexity: O(1).
 // note 18: No allocations on the hot path.
+// note 19: Space complexity: O(1) auxiliary.
