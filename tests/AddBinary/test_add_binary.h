@@ -163,3 +163,4 @@ MunitTest add_binary_tests[] = {
 // edge note 127: Caller owns the returned array; free with a single `free`.
 // edge note 128: Edge case: already-sorted input → no swaps performed.
 // edge note 129: Vectorizes cleanly under -O2.
+// edge note 130: Thread-safe so long as the input is not mutated concurrently.
