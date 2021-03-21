@@ -172,3 +172,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 129: Caller owns the returned array; free with a single `free`.
 // note 130: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 131: Mutates the input in place; the original ordering is lost.
+// note 132: In-place compaction uses two pointers: read advances always, write only on keep.
