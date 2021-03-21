@@ -148,3 +148,4 @@ int is_anagram(const char* s, const char* t) {
 // note 119: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 120: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 121: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 122: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
