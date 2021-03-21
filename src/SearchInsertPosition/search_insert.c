@@ -149,3 +149,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 133: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 134: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 135: Branchless inner loop after sorting.
+// note 136: Idempotent — calling twice with the same input is a no-op the second time.
