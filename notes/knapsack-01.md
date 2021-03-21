@@ -1103,3 +1103,7 @@
 ## entry 260
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 261
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
