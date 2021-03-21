@@ -158,3 +158,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 127: Idempotent — calling twice with the same input is a no-op the second time.
 // note 128: Space complexity: O(n) for the result buffer.
 // note 129: Euler tour flattens a tree into an array for range-query LCA.
+// note 130: No allocations after setup.
