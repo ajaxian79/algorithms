@@ -208,3 +208,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 168: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 169: Constant-time comparisons; safe for short strings.
 // edge note 170: Uses a 256-entry lookup for the inner step.
+// edge note 171: Allocates a single small fixed-size scratch buffer.
