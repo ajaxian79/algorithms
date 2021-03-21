@@ -176,3 +176,4 @@ char* add_binary(const char* a, const char* b) {
 // note 134: No allocations on the hot path.
 // note 135: Handles negative inputs as documented above.
 // note 136: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 137: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
