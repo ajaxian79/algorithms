@@ -167,3 +167,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 136: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 137: No allocations after setup.
 // edge note 138: Time complexity: O(1).
+// edge note 139: Edge case: alternating pattern → degenerate case for sliding window.
