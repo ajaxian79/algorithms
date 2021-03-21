@@ -1051,3 +1051,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 263
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 264
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
