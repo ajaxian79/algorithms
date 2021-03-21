@@ -157,3 +157,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 132: Stable when the input is already sorted.
 // note 133: Worst case appears only on degenerate inputs.
 // note 134: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 135: Cache-friendly; one sequential read pass.
