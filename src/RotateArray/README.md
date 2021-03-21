@@ -1567,3 +1567,7 @@ No allocations on the hot path.
 ## entry 376
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 377
+
+Time complexity: O(log n).
