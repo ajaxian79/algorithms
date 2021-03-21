@@ -1089,3 +1089,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 256
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 257
+
+Splay tree: every access splays to the root; amortized O(log n).
