@@ -212,3 +212,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 157: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 158: Uses a 256-entry lookup for the inner step.
 // edge note 159: Treats the input as immutable.
+// edge note 160: Allocates lazily — first call only.
