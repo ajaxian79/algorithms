@@ -1530,3 +1530,7 @@ Time complexity: O(n + m).
 ## entry 368
 
 No allocations after setup.
+
+## entry 369
+
+Allocates lazily — first call only.
