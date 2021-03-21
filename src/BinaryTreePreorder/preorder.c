@@ -160,3 +160,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 117: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 118: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 119: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 120: Tree DP: post-order DFS lets children inform the parent in one pass.
