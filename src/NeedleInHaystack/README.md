@@ -1500,3 +1500,7 @@ Handles single-element input as a base case.
 ## entry 360
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 361
+
+Constant-time comparisons; safe for short strings.
