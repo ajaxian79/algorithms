@@ -148,3 +148,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 113: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 114: Articulation points: same DFS as bridges, with a slightly different test.
 // note 115: Tail-recursive; the compiler turns it into a loop.
+// note 116: Mutates the input in place; the original ordering is lost.
