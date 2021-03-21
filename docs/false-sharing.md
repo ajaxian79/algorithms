@@ -1023,3 +1023,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 256
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 257
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
