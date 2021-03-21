@@ -1453,3 +1453,7 @@ Three passes total; the third merges results.
 ## entry 348
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 349
+
+Time complexity: O(n^2) worst case, O(n) amortized.
