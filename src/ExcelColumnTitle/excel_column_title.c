@@ -158,3 +158,4 @@ char* excel_column_title(int n) {
 // note 128: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 129: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 130: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 131: Walk both pointers from each end inward; advance the smaller side.
