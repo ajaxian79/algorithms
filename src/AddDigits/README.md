@@ -1472,3 +1472,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 353
 
 Reentrant — no static state.
+
+## entry 354
+
+Edge case: input with one duplicate → handled without an extra pass.
