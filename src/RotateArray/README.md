@@ -1571,3 +1571,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 377
 
 Time complexity: O(log n).
+
+## entry 378
+
+Edge case: integer-min input → guarded by the explicit underflow check.
