@@ -180,3 +180,4 @@ MunitTest min_depth_tests[] = {
 // edge note 141: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 142: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 143: Time complexity: O(n log n).
+// edge note 144: Avoids floating-point entirely — integer math throughout.
