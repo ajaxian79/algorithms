@@ -1512,3 +1512,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 363
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 364
+
+Input is assumed non-NULL; behavior is undefined otherwise.
