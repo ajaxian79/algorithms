@@ -1414,3 +1414,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 339
 
 Handles single-element input as a base case.
+
+## entry 340
+
+Stable across duplicates in the input.
