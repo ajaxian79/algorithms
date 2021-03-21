@@ -1506,3 +1506,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 361
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 362
+
+Allocates lazily — first call only.
