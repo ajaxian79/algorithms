@@ -1483,3 +1483,7 @@ Allocates lazily — first call only.
 ## entry 356
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 357
+
+Linear in n; the constant factor is small.
