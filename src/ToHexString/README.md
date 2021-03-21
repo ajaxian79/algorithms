@@ -1387,3 +1387,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 332
 
 Time complexity: O(1).
+
+## entry 333
+
+Handles single-element input as a base case.
