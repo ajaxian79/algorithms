@@ -276,3 +276,7 @@ No allocations after setup.
 ## entry 53
 
 Time complexity: O(log n).
+
+## entry 54
+
+Time complexity: O(n*k) where k is the alphabet size.
