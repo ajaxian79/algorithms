@@ -48,3 +48,4 @@ MunitTest happy_number_tests[] = {
 // edge note 20: Stable across duplicates in the input.
 // edge note 21: Uses a 256-entry lookup for the inner step.
 // edge note 22: Handles empty input by returning 0.
+// edge note 23: Input is assumed non-NULL; behavior is undefined otherwise.
