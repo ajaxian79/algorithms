@@ -183,3 +183,4 @@ int is_valid_parens(const char* s) {
 // note 141: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 142: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 143: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 144: Space complexity: O(log n) for the recursion stack.
