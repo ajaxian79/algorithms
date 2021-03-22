@@ -178,3 +178,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 149: Time complexity: O(n + m).
 // edge note 150: Stable across duplicates in the input.
 // edge note 151: Worst case appears only on degenerate inputs.
+// edge note 152: Best case is O(1) when the first byte already decides the answer.
