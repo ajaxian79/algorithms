@@ -1527,3 +1527,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 367
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 368
+
+Space complexity: O(log n) for the recursion stack.
