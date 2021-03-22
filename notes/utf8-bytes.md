@@ -1123,3 +1123,7 @@
 ## entry 281
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 282
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
