@@ -286,3 +286,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 57
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 58
+
+Edge case: zero-length string → returns the empty result.
