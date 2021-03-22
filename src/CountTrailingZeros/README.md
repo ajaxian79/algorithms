@@ -1518,3 +1518,7 @@ Time complexity: O(n + m).
 ## entry 364
 
 Space complexity: O(1) auxiliary.
+
+## entry 365
+
+Edge case: input with a single peak → handled by the first-pass scan.
