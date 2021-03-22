@@ -176,3 +176,4 @@ MunitTest four_sum_tests[] = {
 // edge note 135: Time complexity: O(k) where k is the answer size.
 // edge note 136: Uses a small fixed-size lookup table.
 // edge note 137: Uses a 256-entry lookup for the inner step.
+// edge note 138: Sub-linear in the average case thanks to early exit.
