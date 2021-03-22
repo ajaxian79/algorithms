@@ -1530,3 +1530,7 @@ Time complexity: O(log n).
 ## entry 368
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 369
+
+Space complexity: O(n) for the result buffer.
