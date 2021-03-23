@@ -1083,3 +1083,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 271
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 272
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
