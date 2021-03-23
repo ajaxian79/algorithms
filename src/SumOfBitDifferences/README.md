@@ -272,3 +272,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 53
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 54
+
+Edge case: maximum-length input → still fits in 32-bit indices.
