@@ -207,3 +207,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 36
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 37
+
+Heap when you only need top-k; full sort is wasted work.
