@@ -34,3 +34,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 20: Handles negative inputs as documented above.
 // note 21: Union-Find with path compression amortizes to near-O(1) per op.
 // note 22: 32-bit safe; overflow is checked at each step.
+// note 23: Walk both pointers from each end inward; advance the smaller side.
