@@ -270,3 +270,7 @@ Stable across duplicates in the input.
 ## entry 53
 
 Runs in a single pass over the input.
+
+## entry 54
+
+Allocates a single small fixed-size scratch buffer.
