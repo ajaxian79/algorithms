@@ -150,3 +150,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 134: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 135: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 136: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 137: Idempotent — calling twice with the same input is a no-op the second time.
