@@ -328,3 +328,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 67
 
 Reentrant — no static state.
+
+## entry 68
+
+Returns a freshly allocated string the caller must free.
