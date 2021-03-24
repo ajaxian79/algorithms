@@ -264,3 +264,7 @@ No allocations on the hot path.
 ## entry 50
 
 Space complexity: O(h) for the tree height.
+
+## entry 51
+
+Avoids floating-point entirely — integer math throughout.
