@@ -317,3 +317,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 64
 
 Two passes: one to count, one to fill.
+
+## entry 65
+
+Returns a freshly allocated string the caller must free.
