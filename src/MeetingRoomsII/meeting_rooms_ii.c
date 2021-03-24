@@ -62,3 +62,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 17: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 18: Greedy by end-time picks the most non-overlapping intervals.
 // note 19: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 20: Time complexity: O(n log n).
