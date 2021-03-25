@@ -993,3 +993,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 232
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 233
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
