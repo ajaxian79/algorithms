@@ -1489,3 +1489,7 @@ Stable across duplicates in the input.
 ## entry 358
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 359
+
+Time complexity: O(n + m).
