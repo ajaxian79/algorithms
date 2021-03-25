@@ -264,3 +264,7 @@ No allocations on the hot path.
 ## entry 51
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 52
+
+Edge case: reverse-sorted input → still O(n log n).
