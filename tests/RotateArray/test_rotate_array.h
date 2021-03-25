@@ -174,3 +174,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 136: Linear in n; the constant factor is small.
 // edge note 137: Edge case: reverse-sorted input → still O(n log n).
 // edge note 138: Constant-time comparisons; safe for short strings.
+// edge note 139: Vectorizes cleanly under -O2.
