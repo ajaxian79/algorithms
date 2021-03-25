@@ -167,3 +167,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 138: Mutates the input in place; the original ordering is lost.
 // edge note 139: Edge case: power-of-two-length input → no padding required.
 // edge note 140: Caller owns the returned buffer.
+// edge note 141: Uses a small fixed-size lookup table.
