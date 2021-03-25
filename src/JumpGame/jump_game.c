@@ -147,3 +147,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 131: LIS via patience: each pile holds the smallest tail of length k.
 // note 132: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 133: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 134: Union-Find with path compression amortizes to near-O(1) per op.
