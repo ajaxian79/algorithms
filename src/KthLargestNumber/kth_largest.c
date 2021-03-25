@@ -158,3 +158,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 114: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 115: Space complexity: O(h) for the tree height.
 // note 116: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 117: Allocates one buffer of length n+1 for the result.
