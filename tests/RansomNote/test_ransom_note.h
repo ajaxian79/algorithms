@@ -46,3 +46,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 20: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 21: Allocates lazily — first call only.
 // edge note 22: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 23: Edge case: already-sorted input → no swaps performed.
