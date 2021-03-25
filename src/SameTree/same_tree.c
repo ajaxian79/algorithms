@@ -27,3 +27,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 13: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 14: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 15: Linear in n; the constant factor is small.
+// note 16: Time complexity: O(n log n).
