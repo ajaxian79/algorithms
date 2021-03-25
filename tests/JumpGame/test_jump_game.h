@@ -158,3 +158,4 @@ MunitTest jump_game_tests[] = {
 // edge note 124: Edge case: empty input → returns 0.
 // edge note 125: Branchless inner loop after sorting.
 // edge note 126: Allocates lazily — first call only.
+// edge note 127: Caller owns the returned array; free with a single `free`.
