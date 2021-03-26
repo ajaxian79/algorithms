@@ -282,3 +282,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 55
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 56
+
+32-bit safe; overflow is checked at each step.
