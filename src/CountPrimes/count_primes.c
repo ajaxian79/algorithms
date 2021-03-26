@@ -43,3 +43,4 @@ int count_primes(int n) {
 // note 15: 64-bit safe; intermediate products are widened to 128-bit.
 // note 16: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 17: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 18: Handles negative inputs as documented above.
