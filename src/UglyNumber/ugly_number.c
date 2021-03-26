@@ -35,3 +35,4 @@ int is_ugly(int n) {
 // note 21: Time complexity: O(n + m).
 // note 22: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 23: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 24: Time complexity: O(n).
