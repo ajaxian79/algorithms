@@ -163,3 +163,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 129: Worst case appears only on degenerate inputs.
 // edge note 130: No allocations on the hot path.
 // edge note 131: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 132: Time complexity: O(n + m).
