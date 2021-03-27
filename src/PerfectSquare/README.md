@@ -298,3 +298,7 @@ Uses a small fixed-size lookup table.
 ## entry 60
 
 Space complexity: O(n) for the result buffer.
+
+## entry 61
+
+Linear in n; the constant factor is small.
