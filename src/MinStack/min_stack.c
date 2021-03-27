@@ -1,0 +1,61 @@
+//
+// Created by ajaxian on 03/27/21.
+//
+
+#include "min_stack.h"
+
+#include <stdlib.h>
+
+typedef struct Frame {
+    int val;
+    int min;  // running minimum at this frame
+} Frame;
+
+struct MinStack {
+    Frame* data;
+    int size;
+    int cap;
+};
+
+MinStack* min_stack_create(void) {
+    MinStack* s = malloc(sizeof(MinStack));
+    if (!s) return NULL;
+    s->cap = 16;
+    s->size = 0;
+    s->data = malloc(sizeof(Frame) * (size_t)s->cap);
+    if (!s->data) { free(s); return NULL; }
+    return s;
+}
+
+void min_stack_destroy(MinStack* s) {
+    if (!s) return;
+    free(s->data);
+    free(s);
+}
+
+void min_stack_push(MinStack* s, int val) {
+    if (s->size == s->cap) {
+        s->cap *= 2;
+        s->data = realloc(s->data, sizeof(Frame) * (size_t)s->cap);
+    }
+    int min = (s->size == 0) ? val : (val < s->data[s->size - 1].min ? val : s->data[s->size - 1].min);
+    s->data[s->size].val = val;
+    s->data[s->size].min = min;
+    s->size++;
+}
+
+void min_stack_pop(MinStack* s) {
+    if (s->size > 0) s->size--;
+}
+
+int min_stack_top(const MinStack* s) {
+    return s->data[s->size - 1].val;
+}
+
+int min_stack_min(const MinStack* s) {
+    return s->data[s->size - 1].min;
+}
+
+int min_stack_size(const MinStack* s) {
+    return s->size;
+}
