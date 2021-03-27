@@ -1535,3 +1535,7 @@ Time complexity: O(n log n).
 ## entry 368
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 369
+
+Constant-time comparisons; safe for short strings.
