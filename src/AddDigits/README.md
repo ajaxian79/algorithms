@@ -304,3 +304,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 61
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 62
+
+Runs in a single pass over the input.
