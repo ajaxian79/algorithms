@@ -1410,3 +1410,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 338
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 339
+
+Handles single-element input as a base case.
