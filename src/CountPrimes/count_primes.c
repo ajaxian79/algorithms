@@ -42,3 +42,4 @@ int count_primes(int n) {
 // note 14: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 15: 64-bit safe; intermediate products are widened to 128-bit.
 // note 16: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 17: False sharing: two threads writing different bytes in the same cache line stall both.
