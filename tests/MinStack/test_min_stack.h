@@ -1,0 +1,37 @@
+//
+// Created by ajaxian on 03/27/21.
+//
+
+#ifndef ALGORITHMS_TEST_MIN_STACK_H
+#define ALGORITHMS_TEST_MIN_STACK_H
+
+#include "../tests.h"
+#include "../../src/MinStack/min_stack.h"
+
+static MunitResult test_min_stack_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    MinStack* s = min_stack_create();
+    min_stack_push(s, -2);
+    min_stack_push(s, 0);
+    min_stack_push(s, -3);
+    munit_assert_int(min_stack_min(s), ==, -3);
+    munit_assert_int(min_stack_size(s), ==, 3);
+    min_stack_pop(s);
+    munit_assert_int(min_stack_top(s), ==, 0);
+    munit_assert_int(min_stack_min(s), ==, -2);
+
+    // Verify min "remembers" through pop.
+    min_stack_push(s, 5);
+    min_stack_push(s, 1);
+    munit_assert_int(min_stack_min(s), ==, -2);
+    min_stack_pop(s);
+    munit_assert_int(min_stack_min(s), ==, -2);
+    min_stack_destroy(s);
+    return MUNIT_OK;
+}
+
+MunitTest min_stack_tests[] = {
+    {"/basic", test_min_stack_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_MIN_STACK_H

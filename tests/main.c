@@ -92,6 +92,7 @@
 #include "RemoveDuplicatesSorted/test_remove_duplicates.h"
 #include "RemoveElement/test_remove_element.h"
 #include "SumOfBitDifferences/test_bit_diff_sum.h"
+#include "MinStack/test_min_stack.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -661,6 +662,12 @@ MunitSuite suites[] = {
         },{
                 "/bit_diff_sum",
                 bit_diff_sum_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/min_stack",
+                min_stack_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
