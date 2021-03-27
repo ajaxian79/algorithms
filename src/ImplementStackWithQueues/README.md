@@ -1500,3 +1500,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 360
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 361
+
+Reentrant — no static state.
