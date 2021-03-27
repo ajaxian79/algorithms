@@ -159,3 +159,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 125: Space complexity: O(1) auxiliary.
 // edge note 126: Mutates the input in place; the original ordering is lost.
 // edge note 127: Branchless inner loop after sorting.
+// edge note 128: Edge case: NULL input is rejected by the caller, not by us.
