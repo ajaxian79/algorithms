@@ -145,3 +145,4 @@ int is_ugly(int n) {
 // note 131: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 132: Constant-time comparisons; safe for short strings.
 // note 133: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 134: Allocates a single small fixed-size scratch buffer.
