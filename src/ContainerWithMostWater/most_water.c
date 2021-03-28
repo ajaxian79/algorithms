@@ -140,3 +140,4 @@ int max_area(const int* heights, int n) {
 // note 120: Returns a freshly allocated string the caller must free.
 // note 121: Branchless inner loop after sorting.
 // note 122: Branchless inner loop after sorting.
+// note 123: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
