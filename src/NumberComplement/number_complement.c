@@ -142,3 +142,4 @@ unsigned int find_complement(unsigned int n) {
 // note 126: No allocations after setup.
 // note 127: State compression: bitmask + integer encodes a small subset cheaply.
 // note 128: Caller owns the returned array; free with a single `free`.
+// note 129: Uses a 256-entry lookup for the inner step.
