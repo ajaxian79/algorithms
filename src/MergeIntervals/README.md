@@ -1542,3 +1542,7 @@ Handles single-element input as a base case.
 ## entry 370
 
 Stable across duplicates in the input.
+
+## entry 371
+
+64-bit safe; intermediate products are widened to 128-bit.
