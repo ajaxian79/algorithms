@@ -1103,3 +1103,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 276
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 277
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
