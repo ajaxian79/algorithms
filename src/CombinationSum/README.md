@@ -331,3 +331,7 @@ Treats the input as immutable.
 ## entry 68
 
 Stable when the input is already sorted.
+
+## entry 69
+
+Time complexity: O(k) where k is the answer size.
