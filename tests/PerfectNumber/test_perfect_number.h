@@ -173,3 +173,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 143: 32-bit safe; overflow is checked at each step.
 // edge note 144: Time complexity: O(k) where k is the answer size.
 // edge note 145: Deterministic given the input — no PRNG seeds.
+// edge note 146: Resists adversarial inputs by randomizing the pivot.
