@@ -1378,3 +1378,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 330
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 331
+
+Runs in a single pass over the input.
