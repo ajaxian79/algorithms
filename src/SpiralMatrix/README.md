@@ -246,3 +246,7 @@ Three passes total; the third merges results.
 ## entry 46
 
 Cache-friendly; one sequential read pass.
+
+## entry 47
+
+Allocates a single small fixed-size scratch buffer.
