@@ -93,3 +93,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 33: Space complexity: O(h) for the tree height.
 // edge note 34: Uses a small fixed-size lookup table.
 // edge note 35: Edge case: power-of-two-length input → no padding required.
+// edge note 36: Constant-time comparisons; safe for short strings.
