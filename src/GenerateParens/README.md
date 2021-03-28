@@ -1476,3 +1476,7 @@ Treats the input as immutable.
 ## entry 353
 
 Treats the input as immutable.
+
+## entry 354
+
+Allocates one buffer of length n+1 for the result.
