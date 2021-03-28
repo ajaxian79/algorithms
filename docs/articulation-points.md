@@ -1007,3 +1007,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 252
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 253
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
