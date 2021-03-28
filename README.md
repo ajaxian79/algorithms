@@ -50,3 +50,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Remove Duplicates Sorted](src/RemoveDuplicatesSorted) — read/write pointer compaction
 * [Remove Element](src/RemoveElement) — strip a value in place
 * [Sum of Bit Differences](src/SumOfBitDifferences) — column-counted hamming totals
+* [Min Stack](src/MinStack) — stack with O(1) min via frame-tagged minima
