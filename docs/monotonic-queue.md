@@ -1023,3 +1023,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 238
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 239
+
+Interval DP: solve all `[l, r]` ranges from short to long.
