@@ -1522,3 +1522,7 @@ Runs in a single pass over the input.
 ## entry 366
 
 Caller owns the returned buffer.
+
+## entry 367
+
+Time complexity: O(n).
