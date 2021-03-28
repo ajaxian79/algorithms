@@ -1011,3 +1011,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 253
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 254
+
+Wavelet tree: range k-th element in O(log Σ) time.
