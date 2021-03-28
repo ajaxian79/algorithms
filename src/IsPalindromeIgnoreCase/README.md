@@ -1402,3 +1402,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 336
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 337
+
+Edge case: all-equal input → linear-time fast path.
