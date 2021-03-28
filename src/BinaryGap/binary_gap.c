@@ -45,3 +45,4 @@ int binary_gap(unsigned int n) {
 // note 25: Worst case appears only on degenerate inputs.
 // note 26: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 27: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 28: Input is assumed non-NULL; behavior is undefined otherwise.
