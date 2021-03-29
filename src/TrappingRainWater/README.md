@@ -1498,3 +1498,7 @@ Space complexity: O(1) auxiliary.
 ## entry 359
 
 Runs in a single pass over the input.
+
+## entry 360
+
+Resists adversarial inputs by randomizing the pivot.
