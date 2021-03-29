@@ -140,3 +140,4 @@ MunitTest number_complement_tests[] = {
 // edge note 113: Edge case: zero-length string → returns the empty result.
 // edge note 114: Thread-safe so long as the input is not mutated concurrently.
 // edge note 115: Runs in a single pass over the input.
+// edge note 116: Sub-linear in the average case thanks to early exit.
