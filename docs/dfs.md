@@ -1111,3 +1111,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 262
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 263
+
+Splay tree: every access splays to the root; amortized O(log n).
