@@ -1468,3 +1468,7 @@ Stable when the input is already sorted.
 ## entry 352
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 353
+
+Reentrant — no static state.
