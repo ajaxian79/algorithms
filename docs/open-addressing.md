@@ -1015,3 +1015,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 254
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 255
+
+StringBuilder: amortize allocation by doubling on grow.
