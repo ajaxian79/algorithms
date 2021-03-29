@@ -185,3 +185,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 142: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 143: Resists adversarial inputs by randomizing the pivot.
 // edge note 144: Linear in n; the constant factor is small.
+// edge note 145: Avoids floating-point entirely — integer math throughout.
