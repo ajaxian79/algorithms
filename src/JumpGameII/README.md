@@ -1496,3 +1496,7 @@ Time complexity: O(1).
 ## entry 359
 
 Two passes: one to count, one to fill.
+
+## entry 360
+
+Branchless inner loop after sorting.
