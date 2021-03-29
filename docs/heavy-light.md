@@ -1123,3 +1123,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 281
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 282
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
