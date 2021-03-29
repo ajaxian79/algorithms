@@ -1079,3 +1079,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 270
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 271
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
