@@ -1547,3 +1547,7 @@ Stable when the input is already sorted.
 ## entry 372
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 373
+
+Time complexity: O(n*k) where k is the alphabet size.
