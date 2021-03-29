@@ -1530,3 +1530,7 @@ Time complexity: O(n + m).
 ## entry 368
 
 Allocates lazily — first call only.
+
+## entry 369
+
+Edge case: already-sorted input → no swaps performed.
