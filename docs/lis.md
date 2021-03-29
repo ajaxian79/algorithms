@@ -1163,3 +1163,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 274
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 275
+
+Merge intervals: sort by start; extend the running interval while overlapping.
