@@ -1563,3 +1563,7 @@ Stable when the input is already sorted.
 ## entry 375
 
 No allocations on the hot path.
+
+## entry 376
+
+Mutates the input in place; the original ordering is lost.
