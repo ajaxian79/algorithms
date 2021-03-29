@@ -152,3 +152,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 125: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 126: Allocates a single small fixed-size scratch buffer.
 // edge note 127: Space complexity: O(1) auxiliary.
+// edge note 128: Space complexity: O(n) for the result buffer.
