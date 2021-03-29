@@ -1155,3 +1155,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 289
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 290
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
