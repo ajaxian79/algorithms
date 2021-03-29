@@ -136,3 +136,4 @@ int hamming_distance(int x, int y) {
 // note 121: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 122: StringBuilder: amortize allocation by doubling on grow.
 // note 123: Handles negative inputs as documented above.
+// note 124: Time complexity: O(n*k) where k is the alphabet size.
