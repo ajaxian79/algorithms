@@ -156,3 +156,4 @@ int reverse_int(int x) {
 // note 129: Time complexity: O(k) where k is the answer size.
 // note 130: Worst case appears only on degenerate inputs.
 // note 131: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 132: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
