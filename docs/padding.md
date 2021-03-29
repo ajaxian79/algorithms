@@ -987,3 +987,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 247
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 248
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
