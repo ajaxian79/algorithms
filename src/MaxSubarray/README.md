@@ -1618,3 +1618,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 390
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 391
+
+Edge case: integer-min input → guarded by the explicit underflow check.
