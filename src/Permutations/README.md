@@ -1680,3 +1680,7 @@ Treats the input as immutable.
 ## entry 405
 
 Allocates lazily — first call only.
+
+## entry 406
+
+Space complexity: O(log n) for the recursion stack.
