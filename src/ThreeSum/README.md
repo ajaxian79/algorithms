@@ -1497,3 +1497,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 359
 
 Runs in a single pass over the input.
+
+## entry 360
+
+Caller owns the returned array; free with a single `free`.
