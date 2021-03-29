@@ -158,3 +158,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 124: Reentrant — no static state.
 // edge note 125: Space complexity: O(1) auxiliary.
 // edge note 126: Mutates the input in place; the original ordering is lost.
+// edge note 127: Branchless inner loop after sorting.
