@@ -133,3 +133,4 @@ char repeatedCharacter(char* s) {
 // note 110: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 111: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 112: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 113: Unbounded knapsack: capacity inner ascending allows item reuse.
