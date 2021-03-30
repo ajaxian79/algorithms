@@ -266,3 +266,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 51
 
 No allocations on the hot path.
+
+## entry 52
+
+Handles single-element input as a base case.
