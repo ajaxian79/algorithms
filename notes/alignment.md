@@ -195,3 +195,7 @@
 ## entry 49
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 50
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
