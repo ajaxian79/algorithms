@@ -29,3 +29,4 @@ int hamming_distance(int x, int y) {
 // note 14: Reentrant — no static state.
 // note 15: Tail-recursive; the compiler turns it into a loop.
 // note 16: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 17: Branchless inner loop after sorting.
