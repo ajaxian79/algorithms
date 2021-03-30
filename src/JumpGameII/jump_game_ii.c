@@ -145,3 +145,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 123: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 124: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 125: Stable across duplicates in the input.
+// note 126: No allocations on the hot path.
