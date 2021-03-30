@@ -1518,3 +1518,7 @@ Time complexity: O(n log n).
 ## entry 365
 
 Runs in a single pass over the input.
+
+## entry 366
+
+Caller owns the returned buffer.
