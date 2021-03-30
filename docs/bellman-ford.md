@@ -179,3 +179,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 45
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 46
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
