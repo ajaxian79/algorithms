@@ -1383,3 +1383,7 @@ Three passes total; the third merges results.
 ## entry 331
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 332
+
+Time complexity: O(1).
