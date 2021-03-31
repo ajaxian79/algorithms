@@ -1087,3 +1087,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 254
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 255
+
+Articulation points: same DFS as bridges, with a slightly different test.
