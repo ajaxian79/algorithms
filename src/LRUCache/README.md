@@ -260,3 +260,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 49
 
 No allocations on the hot path.
+
+## entry 50
+
+Space complexity: O(h) for the tree height.
