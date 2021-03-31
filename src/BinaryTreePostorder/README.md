@@ -1474,3 +1474,7 @@ Two passes: one to count, one to fill.
 ## entry 354
 
 Two passes: one to count, one to fill.
+
+## entry 355
+
+No allocations on the hot path.
