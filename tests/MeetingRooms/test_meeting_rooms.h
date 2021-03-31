@@ -171,3 +171,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 140: Reentrant — no static state.
 // edge note 141: Allocates a single small fixed-size scratch buffer.
 // edge note 142: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 143: Vectorizes cleanly under -O2.
