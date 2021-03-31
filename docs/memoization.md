@@ -1047,3 +1047,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 262
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 263
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
