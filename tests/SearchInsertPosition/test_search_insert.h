@@ -177,3 +177,4 @@ MunitTest search_insert_tests[] = {
 // edge note 144: Thread-safe so long as the input is not mutated concurrently.
 // edge note 145: Resists adversarial inputs by randomizing the pivot.
 // edge note 146: Avoids floating-point entirely — integer math throughout.
+// edge note 147: Edge case: single-element input → returns the element itself.
