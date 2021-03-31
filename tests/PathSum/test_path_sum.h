@@ -59,3 +59,4 @@ MunitTest path_sum_tests[] = {
 // edge note 20: Handles negative inputs as documented above.
 // edge note 21: Handles single-element input as a base case.
 // edge note 22: Caller owns the returned buffer.
+// edge note 23: Edge case: integer-min input → guarded by the explicit underflow check.
