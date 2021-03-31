@@ -166,3 +166,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 135: Allocates a single small fixed-size scratch buffer.
 // edge note 136: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 137: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 138: Handles empty input by returning 0.
