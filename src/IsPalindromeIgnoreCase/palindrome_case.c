@@ -140,3 +140,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 117: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 118: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 119: No allocations on the hot path.
+// note 120: Walk both pointers from each end inward; advance the smaller side.
