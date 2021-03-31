@@ -1529,3 +1529,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 357
 
 Time complexity: O(n + m).
+
+## entry 358
+
+Deterministic given the input — no PRNG seeds.
