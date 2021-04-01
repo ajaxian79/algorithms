@@ -306,3 +306,7 @@ Cache-friendly; one sequential read pass.
 ## entry 62
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 63
+
+Treats the input as immutable.
