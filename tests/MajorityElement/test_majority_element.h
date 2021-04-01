@@ -168,3 +168,4 @@ MunitTest majority_element_tests[] = {
 // edge note 137: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 138: Space complexity: O(n) for the result buffer.
 // edge note 139: Allocates one buffer of length n+1 for the result.
+// edge note 140: Idempotent — calling twice with the same input is a no-op the second time.
