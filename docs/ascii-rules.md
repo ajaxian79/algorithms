@@ -1063,3 +1063,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 266
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 267
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
