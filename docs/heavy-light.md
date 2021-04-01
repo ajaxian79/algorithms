@@ -1119,3 +1119,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 280
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 281
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
