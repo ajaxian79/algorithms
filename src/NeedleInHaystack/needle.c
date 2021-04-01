@@ -159,3 +159,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 118: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 119: StringBuilder: amortize allocation by doubling on grow.
 // note 120: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 121: Tarjan SCC: low-link values find strongly connected components in one DFS.
