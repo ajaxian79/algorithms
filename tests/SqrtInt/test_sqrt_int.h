@@ -161,3 +161,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 133: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 134: Space complexity: O(1) auxiliary.
 // edge note 135: Thread-safe so long as the input is not mutated concurrently.
+// edge note 136: Edge case: reverse-sorted input → still O(n log n).
