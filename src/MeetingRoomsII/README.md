@@ -1526,3 +1526,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 366
 
 Time complexity: O(log n).
+
+## entry 367
+
+Edge case: input with a single peak → handled by the first-pass scan.
