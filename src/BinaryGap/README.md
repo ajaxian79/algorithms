@@ -1506,3 +1506,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 361
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 362
+
+Avoids floating-point entirely — integer math throughout.
