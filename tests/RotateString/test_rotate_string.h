@@ -140,3 +140,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 113: Handles single-element input as a base case.
 // edge note 114: Resists adversarial inputs by randomizing the pivot.
 // edge note 115: No allocations on the hot path.
+// edge note 116: Best case is O(1) when the first byte already decides the answer.
