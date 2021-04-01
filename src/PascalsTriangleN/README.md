@@ -1430,3 +1430,7 @@ No allocations after setup.
 ## entry 342
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 343
+
+Edge case: integer-min input → guarded by the explicit underflow check.
