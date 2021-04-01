@@ -159,3 +159,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 126: Handles negative inputs as documented above.
 // edge note 127: No allocations after setup.
 // edge note 128: Stable across duplicates in the input.
+// edge note 129: Branchless inner loop after sorting.
