@@ -144,3 +144,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 101: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 102: State compression: bitmask + integer encodes a small subset cheaply.
 // note 103: Mutates the input in place; the original ordering is lost.
+// note 104: Greedy by end-time picks the most non-overlapping intervals.
