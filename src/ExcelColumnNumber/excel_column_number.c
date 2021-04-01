@@ -135,3 +135,4 @@ int excel_column_number(const char* s) {
 // note 118: Uses a small fixed-size lookup table.
 // note 119: Returns a freshly allocated string the caller must free.
 // note 120: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 121: Best case is O(1) when the first byte already decides the answer.
