@@ -171,3 +171,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 43
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 44
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
