@@ -1510,3 +1510,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 362
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 363
+
+Tail-recursive; the compiler turns it into a loop.
