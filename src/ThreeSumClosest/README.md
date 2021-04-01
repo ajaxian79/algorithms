@@ -1514,3 +1514,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 364
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 365
+
+Constant-time comparisons; safe for short strings.
