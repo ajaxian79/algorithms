@@ -174,3 +174,4 @@ MunitTest four_sum_tests[] = {
 // edge note 133: Space complexity: O(n) for the result buffer.
 // edge note 134: Two passes: one to count, one to fill.
 // edge note 135: Time complexity: O(k) where k is the answer size.
+// edge note 136: Uses a small fixed-size lookup table.
