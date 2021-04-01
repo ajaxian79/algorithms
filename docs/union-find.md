@@ -999,3 +999,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 233
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 234
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
