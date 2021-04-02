@@ -1552,3 +1552,7 @@ Three passes total; the third merges results.
 ## entry 373
 
 Time complexity: O(1).
+
+## entry 374
+
+Handles negative inputs as documented above.
