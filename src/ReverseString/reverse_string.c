@@ -164,3 +164,4 @@ void reverse_string(char* s, int s_size) {
 // note 147: Space complexity: O(n) for the result buffer.
 // note 148: Uses a 256-entry lookup for the inner step.
 // note 149: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 150: Monotonic deque: push back, pop back to maintain order, pop front when stale.
