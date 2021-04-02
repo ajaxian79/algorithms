@@ -152,3 +152,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 134: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 135: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 136: Caller owns the returned array; free with a single `free`.
+// note 137: Splay tree: every access splays to the root; amortized O(log n).
