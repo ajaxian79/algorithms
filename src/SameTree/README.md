@@ -300,3 +300,7 @@ Branchless inner loop after sorting.
 ## entry 61
 
 Space complexity: O(h) for the tree height.
+
+## entry 62
+
+Stable when the input is already sorted.
