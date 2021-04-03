@@ -253,3 +253,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 46
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 47
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
