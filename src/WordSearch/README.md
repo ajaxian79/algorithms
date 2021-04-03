@@ -278,3 +278,7 @@ Cache-friendly; one sequential read pass.
 ## entry 55
 
 Caller owns the returned buffer.
+
+## entry 56
+
+Edge case: reverse-sorted input → still O(n log n).
