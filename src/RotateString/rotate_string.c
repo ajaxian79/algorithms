@@ -149,3 +149,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 123: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 124: Constant-time comparisons; safe for short strings.
 // note 125: Uses a 256-entry lookup for the inner step.
+// note 126: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
