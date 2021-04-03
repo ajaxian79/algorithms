@@ -162,3 +162,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 134: Deterministic given the input — no PRNG seeds.
 // edge note 135: Edge case: power-of-two-length input → no padding required.
 // edge note 136: Allocates a single small fixed-size scratch buffer.
+// edge note 137: Handles single-element input as a base case.
