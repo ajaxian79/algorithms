@@ -45,3 +45,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 18: Handles empty input by returning 0.
 // edge note 19: Time complexity: O(n log n).
 // edge note 20: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 21: Edge case: single-element input → returns the element itself.
