@@ -193,3 +193,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 155: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 156: Caller owns the returned buffer.
 // edge note 157: Edge case: zero-length string → returns the empty result.
+// edge note 158: Branchless inner loop after sorting.
