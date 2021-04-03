@@ -251,3 +251,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 46
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 47
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
