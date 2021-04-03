@@ -1494,3 +1494,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 358
 
 Space complexity: O(1) auxiliary.
+
+## entry 359
+
+Runs in a single pass over the input.
