@@ -1,0 +1,33 @@
+//
+// Created by ajaxian on 04/03/21.
+//
+
+#ifndef ALGORITHMS_TEST_QUEUE_TWO_STACKS_H
+#define ALGORITHMS_TEST_QUEUE_TWO_STACKS_H
+
+#include "../tests.h"
+#include "../../src/ImplementQueueWithStacks/queue_two_stacks.h"
+
+static MunitResult test_queue_two_stacks_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    StackQueue* q = stack_queue_create();
+    munit_assert_int(stack_queue_empty(q), ==, 1);
+    stack_queue_push(q, 1);
+    stack_queue_push(q, 2);
+    munit_assert_int(stack_queue_peek(q), ==, 1);
+    munit_assert_int(stack_queue_pop(q), ==, 1);
+    munit_assert_int(stack_queue_empty(q), ==, 0);
+    stack_queue_push(q, 3);
+    munit_assert_int(stack_queue_peek(q), ==, 2);
+    munit_assert_int(stack_queue_pop(q), ==, 2);
+    munit_assert_int(stack_queue_pop(q), ==, 3);
+    munit_assert_int(stack_queue_empty(q), ==, 1);
+    stack_queue_destroy(q);
+    return MUNIT_OK;
+}
+
+MunitTest queue_two_stacks_tests[] = {
+    {"/basic", test_queue_two_stacks_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_QUEUE_TWO_STACKS_H

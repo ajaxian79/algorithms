@@ -93,6 +93,7 @@
 #include "RemoveElement/test_remove_element.h"
 #include "SumOfBitDifferences/test_bit_diff_sum.h"
 #include "MinStack/test_min_stack.h"
+#include "ImplementQueueWithStacks/test_queue_two_stacks.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -668,6 +669,12 @@ MunitSuite suites[] = {
         },{
                 "/min_stack",
                 min_stack_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/queue_two_stacks",
+                queue_two_stacks_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
