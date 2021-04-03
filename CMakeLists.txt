@@ -99,6 +99,7 @@ add_executable(remove_duplicates src/RemoveDuplicatesSorted/main.c src/RemoveDup
 add_executable(remove_element src/RemoveElement/main.c src/RemoveElement/remove_element.c)
 add_executable(bit_diff_sum src/SumOfBitDifferences/main.c src/SumOfBitDifferences/bit_diff_sum.c)
 add_executable(min_stack src/MinStack/main.c src/MinStack/min_stack.c)
+add_executable(queue_two_stacks src/ImplementQueueWithStacks/main.c src/ImplementQueueWithStacks/queue_two_stacks.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -291,4 +292,5 @@ target_link_libraries(remove_duplicates PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-st
 target_link_libraries(remove_element PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(bit_diff_sum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(min_stack PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(queue_two_stacks PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)

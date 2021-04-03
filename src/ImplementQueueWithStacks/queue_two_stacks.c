@@ -1,0 +1,79 @@
+//
+// Created by ajaxian on 04/03/21.
+//
+
+#include "queue_two_stacks.h"
+
+#include <stdlib.h>
+
+typedef struct {
+    int* data;
+    int size;
+    int cap;
+} IntStack;
+
+static void stack_init(IntStack* s) {
+    s->cap = 8;
+    s->size = 0;
+    s->data = malloc(sizeof(int) * (size_t)s->cap);
+}
+
+static void stack_push(IntStack* s, int v) {
+    if (s->size == s->cap) {
+        s->cap *= 2;
+        s->data = realloc(s->data, sizeof(int) * (size_t)s->cap);
+    }
+    s->data[s->size++] = v;
+}
+
+static int stack_pop(IntStack* s) {
+    return s->data[--s->size];
+}
+
+struct StackQueue {
+    IntStack in;
+    IntStack out;
+};
+
+StackQueue* stack_queue_create(void) {
+    StackQueue* q = malloc(sizeof(StackQueue));
+    if (!q) return NULL;
+    stack_init(&q->in);
+    stack_init(&q->out);
+    return q;
+}
+
+void stack_queue_destroy(StackQueue* q) {
+    if (!q) return;
+    free(q->in.data);
+    free(q->out.data);
+    free(q);
+}
+
+void stack_queue_push(StackQueue* q, int val) {
+    stack_push(&q->in, val);
+}
+
+static void shuffle(StackQueue* q) {
+    if (q->out.size == 0) {
+        while (q->in.size > 0) {
+            stack_push(&q->out, stack_pop(&q->in));
+        }
+    }
+}
+
+int stack_queue_pop(StackQueue* q) {
+    shuffle(q);
+    if (q->out.size == 0) return 0;
+    return stack_pop(&q->out);
+}
+
+int stack_queue_peek(StackQueue* q) {
+    shuffle(q);
+    if (q->out.size == 0) return 0;
+    return q->out.data[q->out.size - 1];
+}
+
+int stack_queue_empty(const StackQueue* q) {
+    return (q->in.size == 0 && q->out.size == 0) ? 1 : 0;
+}
