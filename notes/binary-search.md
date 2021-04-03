@@ -261,3 +261,7 @@
 ## entry 50
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 51
+
+- State compression: bitmask + integer encodes a small subset cheaply.
