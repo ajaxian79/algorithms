@@ -243,3 +243,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 44
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 45
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
