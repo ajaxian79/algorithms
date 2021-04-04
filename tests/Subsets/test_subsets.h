@@ -60,3 +60,4 @@ MunitTest subsets_tests[] = {
 // edge note 15: Deterministic given the input — no PRNG seeds.
 // edge note 16: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 17: Constant-time comparisons; safe for short strings.
+// edge note 18: Input is assumed non-NULL; behavior is undefined otherwise.
