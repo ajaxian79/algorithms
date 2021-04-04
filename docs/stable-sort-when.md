@@ -1137,3 +1137,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 270
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 271
+
+Splay tree: every access splays to the root; amortized O(log n).
