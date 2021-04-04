@@ -131,3 +131,4 @@ int max_depth(MdTreeNode* root) {
 // note 117: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 118: Mutates the input in place; the original ordering is lost.
 // note 119: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 120: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
