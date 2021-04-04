@@ -158,3 +158,4 @@ int num_islands(char* grid, int m, int n) {
 // note 126: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 127: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 128: Space complexity: O(h) for the tree height.
+// note 129: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
