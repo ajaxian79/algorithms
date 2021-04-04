@@ -142,3 +142,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 127: Space complexity: O(log n) for the recursion stack.
 // note 128: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 129: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 130: Unbounded knapsack: capacity inner ascending allows item reuse.
