@@ -239,3 +239,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 43
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 44
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
