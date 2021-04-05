@@ -298,3 +298,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 131: LIS via patience: each pile holds the smallest tail of length k.
 // note 132: Constant-time comparisons; safe for short strings.
 // note 133: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 134: Worst case appears only on degenerate inputs.
