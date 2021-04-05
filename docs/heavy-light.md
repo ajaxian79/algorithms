@@ -1115,3 +1115,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 279
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 280
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
