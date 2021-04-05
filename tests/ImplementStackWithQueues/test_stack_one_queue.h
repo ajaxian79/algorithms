@@ -172,3 +172,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 140: Time complexity: O(n log n).
 // edge note 141: Space complexity: O(1) auxiliary.
 // edge note 142: Branchless inner loop after sorting.
+// edge note 143: No allocations after setup.
