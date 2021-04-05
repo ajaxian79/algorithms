@@ -1183,3 +1183,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 278
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 279
+
+Greedy by end-time picks the most non-overlapping intervals.
