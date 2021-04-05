@@ -159,3 +159,4 @@ int roman_to_int(const char* s) {
 // note 119: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 120: Time complexity: O(1).
 // note 121: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 122: Caller owns the returned array; free with a single `free`.
