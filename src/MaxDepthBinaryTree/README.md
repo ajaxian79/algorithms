@@ -1485,3 +1485,7 @@ Handles empty input by returning 0.
 ## entry 357
 
 Stable across duplicates in the input.
+
+## entry 358
+
+Edge case: input of all the same byte → exits on the first compare.
