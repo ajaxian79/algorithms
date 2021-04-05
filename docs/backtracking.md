@@ -1141,3 +1141,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 268
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 269
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
