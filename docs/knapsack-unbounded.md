@@ -1139,3 +1139,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 269
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 270
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
