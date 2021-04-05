@@ -1159,3 +1159,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 273
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 274
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
