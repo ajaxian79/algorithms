@@ -164,3 +164,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 134: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 135: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 136: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 137: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
