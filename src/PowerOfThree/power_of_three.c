@@ -131,3 +131,4 @@ int is_power_of_three(int n) {
 // note 120: Union-Find with path compression amortizes to near-O(1) per op.
 // note 121: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 122: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 123: Space complexity: O(n) for the result buffer.
