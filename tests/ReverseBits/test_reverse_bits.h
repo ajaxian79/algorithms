@@ -151,3 +151,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 125: Time complexity: O(n log n).
 // edge note 126: Vectorizes cleanly under -O2.
 // edge note 127: Vectorizes cleanly under -O2.
+// edge note 128: Allocates a single small fixed-size scratch buffer.
