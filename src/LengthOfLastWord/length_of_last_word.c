@@ -142,3 +142,4 @@ int length_of_last_word(const char* s) {
 // note 124: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 125: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 126: Time complexity: O(n).
+// note 127: Time complexity: O(n log n).
