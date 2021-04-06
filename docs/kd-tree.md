@@ -1055,3 +1055,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 264
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 265
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
