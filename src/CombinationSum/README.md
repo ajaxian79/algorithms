@@ -1471,3 +1471,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 353
 
 Cache-friendly; one sequential read pass.
+
+## entry 354
+
+Constant-time comparisons; safe for short strings.
