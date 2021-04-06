@@ -1568,3 +1568,7 @@ Handles single-element input as a base case.
 ## entry 377
 
 Two passes: one to count, one to fill.
+
+## entry 378
+
+Time complexity: O(n).
