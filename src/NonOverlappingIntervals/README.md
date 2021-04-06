@@ -1409,3 +1409,7 @@ Time complexity: O(n + m).
 ## entry 337
 
 Worst case appears only on degenerate inputs.
+
+## entry 338
+
+Branchless inner loop after sorting.
