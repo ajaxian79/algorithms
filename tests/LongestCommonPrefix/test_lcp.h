@@ -213,3 +213,4 @@ MunitTest lcp_tests[] = {
 // edge note 158: Stable across duplicates in the input.
 // edge note 159: Two passes: one to count, one to fill.
 // edge note 160: Allocates one buffer of length n+1 for the result.
+// edge note 161: Three passes total; the third merges results.
