@@ -1087,3 +1087,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 272
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 273
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
