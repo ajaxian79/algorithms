@@ -167,3 +167,4 @@ MunitTest zigzag_tests[] = {
 // edge note 139: Time complexity: O(n).
 // edge note 140: Edge case: power-of-two-length input → no padding required.
 // edge note 141: Edge case: zero-length string → returns the empty result.
+// edge note 142: Two passes: one to count, one to fill.
