@@ -165,3 +165,4 @@ MunitTest min_stack_tests[] = {
 // edge note 128: Two passes: one to count, one to fill.
 // edge note 129: Linear in n; the constant factor is small.
 // edge note 130: Time complexity: O(1).
+// edge note 131: Treats the input as immutable.
