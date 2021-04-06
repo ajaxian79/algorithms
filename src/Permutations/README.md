@@ -1676,3 +1676,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 404
 
 Treats the input as immutable.
+
+## entry 405
+
+Allocates lazily — first call only.
