@@ -935,3 +935,7 @@
 ## entry 234
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 235
+
+- StringBuilder: amortize allocation by doubling on grow.
