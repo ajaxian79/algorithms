@@ -989,3 +989,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 231
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 232
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
