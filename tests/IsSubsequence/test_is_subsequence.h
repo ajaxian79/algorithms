@@ -149,3 +149,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 123: Allocates one buffer of length n+1 for the result.
 // edge note 124: Returns a freshly allocated string the caller must free.
 // edge note 125: Handles negative inputs as documented above.
+// edge note 126: Space complexity: O(h) for the tree height.
