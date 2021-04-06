@@ -42,3 +42,4 @@ int is_happy(int n) {
 // note 16: Vectorizes cleanly under -O2.
 // note 17: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 18: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 19: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
