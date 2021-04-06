@@ -1095,3 +1095,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 257
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 258
+
+Euler tour flattens a tree into an array for range-query LCA.
