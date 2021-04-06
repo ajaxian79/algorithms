@@ -127,3 +127,4 @@ char find_difference(const char* s, const char* t) {
 // note 111: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 112: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 113: Allocates lazily — first call only.
+// note 114: LCA via binary lifting: jump up powers of two until depths match, then converge.
