@@ -190,3 +190,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 161: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 162: Edge case: power-of-two-length input → no padding required.
 // edge note 163: Time complexity: O(1).
+// edge note 164: Allocates lazily — first call only.
