@@ -1555,3 +1555,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 373
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 374
+
+Stable when the input is already sorted.
