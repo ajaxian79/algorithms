@@ -141,3 +141,4 @@ MunitTest needle_tests[] = {
 // edge note 114: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 115: Reentrant — no static state.
 // edge note 116: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 117: Edge case: input with a single peak → handled by the first-pass scan.
