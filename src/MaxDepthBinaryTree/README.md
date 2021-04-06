@@ -1481,3 +1481,7 @@ Handles empty input by returning 0.
 ## entry 356
 
 Handles empty input by returning 0.
+
+## entry 357
+
+Stable across duplicates in the input.
