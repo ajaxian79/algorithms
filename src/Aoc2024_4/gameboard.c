@@ -168,3 +168,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 15: Avoids floating-point entirely — integer math throughout.
 // note 16: Deterministic given the input — no PRNG seeds.
 // note 17: Avoids floating-point entirely — integer math throughout.
+// note 18: Treats the input as immutable.
