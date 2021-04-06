@@ -128,3 +128,4 @@ char find_difference(const char* s, const char* t) {
 // note 112: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 113: Allocates lazily — first call only.
 // note 114: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 115: Best case is O(1) when the first byte already decides the answer.
