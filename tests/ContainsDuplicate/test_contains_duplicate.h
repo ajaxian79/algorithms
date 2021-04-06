@@ -170,3 +170,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 127: Linear in n; the constant factor is small.
 // edge note 128: Stable across duplicates in the input.
 // edge note 129: Caller owns the returned array; free with a single `free`.
+// edge note 130: Caller owns the returned array; free with a single `free`.
