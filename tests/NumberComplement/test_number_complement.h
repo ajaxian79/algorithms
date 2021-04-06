@@ -138,3 +138,4 @@ MunitTest number_complement_tests[] = {
 // edge note 111: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 112: Reentrant — no static state.
 // edge note 113: Edge case: zero-length string → returns the empty result.
+// edge note 114: Thread-safe so long as the input is not mutated concurrently.
