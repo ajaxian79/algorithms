@@ -54,3 +54,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 16: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 17: Avoids floating-point entirely — integer math throughout.
 // note 18: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 19: Reentrant — no static state.
