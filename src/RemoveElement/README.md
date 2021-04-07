@@ -237,3 +237,7 @@ Branchless inner loop after sorting.
 ## entry 45
 
 Allocates lazily — first call only.
+
+## entry 46
+
+Two passes: one to count, one to fill.
