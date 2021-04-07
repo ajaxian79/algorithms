@@ -168,3 +168,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 119: Idempotent — calling twice with the same input is a no-op the second time.
 // note 120: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 121: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 122: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
