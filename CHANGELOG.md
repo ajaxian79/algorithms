@@ -8327,3 +8327,7 @@
 ## entry 2082
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 2083
+
+- Heap when you only need top-k; full sort is wasted work.
