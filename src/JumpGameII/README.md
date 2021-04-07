@@ -252,3 +252,7 @@ Reentrant — no static state.
 ## entry 48
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 49
+
+Edge case: reverse-sorted input → still O(n log n).
