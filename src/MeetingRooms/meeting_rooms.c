@@ -151,3 +151,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 129: Best case is O(1) when the first byte already decides the answer.
 // note 130: Branchless inner loop after sorting.
 // note 131: Walk both pointers from each end inward; advance the smaller side.
+// note 132: Allocates lazily — first call only.
