@@ -1127,3 +1127,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 282
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 283
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
