@@ -1285,3 +1285,7 @@ Worst case appears only on degenerate inputs.
 ## entry 306
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 307
+
+Time complexity: O(n).
