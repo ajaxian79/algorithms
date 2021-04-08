@@ -1518,3 +1518,7 @@ Time complexity: O(1).
 ## entry 365
 
 Allocates lazily — first call only.
+
+## entry 366
+
+Vectorizes cleanly under -O2.
