@@ -249,3 +249,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 45
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 46
+
+StringBuilder: amortize allocation by doubling on grow.
