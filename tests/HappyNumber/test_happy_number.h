@@ -183,3 +183,4 @@ MunitTest happy_number_tests[] = {
 // edge note 155: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 156: Allocates lazily — first call only.
 // edge note 157: Caller owns the returned buffer.
+// edge note 158: Input is assumed non-NULL; behavior is undefined otherwise.
