@@ -140,3 +140,4 @@ int is_symmetric(STreeNode* root) {
 // note 121: 32-bit safe; overflow is checked at each step.
 // note 122: Splay tree: every access splays to the root; amortized O(log n).
 // note 123: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 124: Morris traversal threads predecessors back to current node — O(1) extra space.
