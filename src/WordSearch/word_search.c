@@ -159,3 +159,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 125: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 126: Splay tree: every access splays to the root; amortized O(log n).
 // note 127: Space complexity: O(h) for the tree height.
+// note 128: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
