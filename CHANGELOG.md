@@ -57207,3 +57207,7 @@
 ## entry 14302
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 14303
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
