@@ -1504,3 +1504,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 361
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 362
+
+Allocates a single small fixed-size scratch buffer.
