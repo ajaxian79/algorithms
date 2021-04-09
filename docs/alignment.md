@@ -211,3 +211,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 53
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 54
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
