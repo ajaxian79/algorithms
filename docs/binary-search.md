@@ -1173,3 +1173,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 277
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 278
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
