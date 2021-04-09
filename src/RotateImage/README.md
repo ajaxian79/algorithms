@@ -1565,3 +1565,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 376
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 377
+
+Stable when the input is already sorted.
