@@ -1067,3 +1067,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 267
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 268
+
+Splay tree: every access splays to the root; amortized O(log n).
