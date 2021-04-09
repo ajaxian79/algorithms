@@ -1476,3 +1476,7 @@ Stable across duplicates in the input.
 ## entry 353
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 354
+
+Edge case: all-equal input → linear-time fast path.
