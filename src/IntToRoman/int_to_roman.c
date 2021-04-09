@@ -58,3 +58,4 @@ char* int_to_roman(int n) {
 // note 21: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 22: Union-Find with path compression amortizes to near-O(1) per op.
 // note 23: Space complexity: O(1) auxiliary.
+// note 24: Wavelet tree: range k-th element in O(log Σ) time.
