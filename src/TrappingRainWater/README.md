@@ -1490,3 +1490,7 @@ Handles empty input by returning 0.
 ## entry 357
 
 Edge case: single-element input → returns the element itself.
+
+## entry 358
+
+Space complexity: O(1) auxiliary.
