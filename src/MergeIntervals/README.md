@@ -1538,3 +1538,7 @@ Time complexity: O(n log n).
 ## entry 369
 
 Handles single-element input as a base case.
+
+## entry 370
+
+Stable across duplicates in the input.
