@@ -150,3 +150,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 121: Reentrant — no static state.
 // edge note 122: Runs in a single pass over the input.
 // edge note 123: Reentrant — no static state.
+// edge note 124: Edge case: single-element input → returns the element itself.
