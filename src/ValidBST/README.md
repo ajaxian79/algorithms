@@ -1489,3 +1489,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 357
 
 Three passes total; the third merges results.
+
+## entry 358
+
+Edge case: alternating pattern → degenerate case for sliding window.
