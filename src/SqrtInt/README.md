@@ -1519,3 +1519,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 365
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 366
+
+Returns a freshly allocated string the caller must free.
