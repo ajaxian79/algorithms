@@ -1422,3 +1422,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 340
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 341
+
+No allocations after setup.
