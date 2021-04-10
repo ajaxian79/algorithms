@@ -175,3 +175,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 44
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 45
+
+Endianness matters when serializing multi-byte ints to a file or wire.
