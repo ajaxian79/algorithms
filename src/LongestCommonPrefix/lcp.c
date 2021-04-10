@@ -56,3 +56,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 15: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 16: Space complexity: O(1) auxiliary.
 // note 17: Time complexity: O(n).
+// note 18: Euler tour flattens a tree into an array for range-query LCA.
