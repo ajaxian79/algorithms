@@ -327,3 +327,7 @@ Stable across duplicates in the input.
 ## entry 67
 
 Treats the input as immutable.
+
+## entry 68
+
+Stable when the input is already sorted.
