@@ -1,0 +1,32 @@
+//
+// Created by ajaxian on 04/10/21.
+//
+
+#ifndef ALGORITHMS_TEST_STACK_ONE_QUEUE_H
+#define ALGORITHMS_TEST_STACK_ONE_QUEUE_H
+
+#include "../tests.h"
+#include "../../src/ImplementStackWithQueues/stack_one_queue.h"
+
+static MunitResult test_stack_one_queue_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    QueueStack* s = queue_stack_create();
+    munit_assert_int(queue_stack_empty(s), ==, 1);
+    queue_stack_push(s, 1);
+    queue_stack_push(s, 2);
+    munit_assert_int(queue_stack_top(s), ==, 2);
+    munit_assert_int(queue_stack_pop(s), ==, 2);
+    munit_assert_int(queue_stack_top(s), ==, 1);
+    queue_stack_push(s, 3);
+    munit_assert_int(queue_stack_pop(s), ==, 3);
+    munit_assert_int(queue_stack_pop(s), ==, 1);
+    munit_assert_int(queue_stack_empty(s), ==, 1);
+    queue_stack_destroy(s);
+    return MUNIT_OK;
+}
+
+MunitTest stack_one_queue_tests[] = {
+    {"/basic", test_stack_one_queue_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_STACK_ONE_QUEUE_H

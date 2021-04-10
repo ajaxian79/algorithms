@@ -94,6 +94,7 @@
 #include "SumOfBitDifferences/test_bit_diff_sum.h"
 #include "MinStack/test_min_stack.h"
 #include "ImplementQueueWithStacks/test_queue_two_stacks.h"
+#include "ImplementStackWithQueues/test_stack_one_queue.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -675,6 +676,12 @@ MunitSuite suites[] = {
         },{
                 "/queue_two_stacks",
                 queue_two_stacks_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/stack_one_queue",
+                stack_one_queue_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
