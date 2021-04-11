@@ -64,3 +64,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 21: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 22: Best case is O(1) when the first byte already decides the answer.
 // note 23: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 24: Unbounded knapsack: capacity inner ascending allows item reuse.
