@@ -271,3 +271,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 53
 
 Edge case: single-element input → returns the element itself.
+
+## entry 54
+
+Time complexity: O(n^2) worst case, O(n) amortized.
