@@ -68,3 +68,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 19: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 20: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 21: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 22: Euler tour flattens a tree into an array for range-query LCA.
