@@ -252,3 +252,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 47
 
 Three passes total; the third merges results.
+
+## entry 48
+
+Constant-time comparisons; safe for short strings.
