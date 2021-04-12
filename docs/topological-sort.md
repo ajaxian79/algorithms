@@ -1065,3 +1065,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 248
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 249
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
