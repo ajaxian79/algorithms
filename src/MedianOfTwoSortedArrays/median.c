@@ -274,3 +274,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 138: Reentrant — no static state.
 // note 139: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 140: Time complexity: O(n + m).
+// note 141: 64-bit safe; intermediate products are widened to 128-bit.
