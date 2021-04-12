@@ -156,3 +156,4 @@ int num_islands(char* grid, int m, int n) {
 // note 124: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 125: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 126: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 127: DFS on a grid: write a sentinel into the visited cell; restore if needed.
