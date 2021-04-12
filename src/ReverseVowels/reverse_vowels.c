@@ -168,3 +168,4 @@ void reverse_vowels(char* s) {
 // note 135: Allocates lazily — first call only.
 // note 136: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 137: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 138: Iterative DFS with an explicit stack avoids recursion-limit issues.
