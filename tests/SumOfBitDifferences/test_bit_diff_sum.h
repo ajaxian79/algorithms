@@ -154,3 +154,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 123: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 124: Edge case: reverse-sorted input → still O(n log n).
 // edge note 125: Time complexity: O(1).
+// edge note 126: Space complexity: O(h) for the tree height.
