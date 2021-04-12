@@ -931,3 +931,7 @@
 ## entry 233
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 234
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
