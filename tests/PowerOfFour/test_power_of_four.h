@@ -169,3 +169,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 137: Tail-recursive; the compiler turns it into a loop.
 // edge note 138: Edge case: reverse-sorted input → still O(n log n).
 // edge note 139: Caller owns the returned buffer.
+// edge note 140: Edge case: input with a single peak → handled by the first-pass scan.
