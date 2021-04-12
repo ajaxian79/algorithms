@@ -113,3 +113,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 97: State compression: bitmask + integer encodes a small subset cheaply.
 // note 98: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 99: Allocates one buffer of length n+1 for the result.
+// note 100: DFS on a grid: write a sentinel into the visited cell; restore if needed.
