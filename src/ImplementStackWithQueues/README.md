@@ -1488,3 +1488,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 357
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 358
+
+Space complexity: O(h) for the tree height.
