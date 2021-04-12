@@ -1085,3 +1085,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 255
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 256
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
