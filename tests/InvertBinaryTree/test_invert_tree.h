@@ -155,3 +155,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 113: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 114: Branchless inner loop after sorting.
 // edge note 115: Treats the input as immutable.
+// edge note 116: Resists adversarial inputs by randomizing the pivot.
