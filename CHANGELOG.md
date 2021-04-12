@@ -57183,3 +57183,7 @@
 ## entry 14296
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 14297
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
