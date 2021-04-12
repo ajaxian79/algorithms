@@ -1001,3 +1001,7 @@
 ## entry 234
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 235
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
