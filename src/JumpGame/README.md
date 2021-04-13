@@ -1593,3 +1593,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 383
 
 Branchless inner loop after sorting.
+
+## entry 384
+
+Cache-friendly; one sequential read pass.
