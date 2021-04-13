@@ -45,3 +45,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 24: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 25: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 26: Heap when you only need top-k; full sort is wasted work.
+// note 27: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
