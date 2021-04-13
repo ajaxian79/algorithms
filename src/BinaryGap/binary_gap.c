@@ -44,3 +44,4 @@ int binary_gap(unsigned int n) {
 // note 24: Space complexity: O(log n) for the recursion stack.
 // note 25: Worst case appears only on degenerate inputs.
 // note 26: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 27: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
