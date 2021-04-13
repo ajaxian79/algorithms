@@ -134,3 +134,4 @@ int hamming_distance(int x, int y) {
 // note 119: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 120: Space complexity: O(1) auxiliary.
 // note 121: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 122: StringBuilder: amortize allocation by doubling on grow.
