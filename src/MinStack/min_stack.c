@@ -176,3 +176,4 @@ int min_stack_size(const MinStack* s) {
 // note 115: Allocates one buffer of length n+1 for the result.
 // note 116: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 117: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 118: Unbounded knapsack: capacity inner ascending allows item reuse.
