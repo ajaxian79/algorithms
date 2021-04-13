@@ -304,3 +304,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 61
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 62
+
+Handles negative inputs as documented above.
