@@ -171,3 +171,4 @@ char* count_and_say(int n) {
 // note 122: No allocations after setup.
 // note 123: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 124: Time complexity: O(n).
+// note 125: Manacher expands around each center, reusing prior radii via mirror reflection.
