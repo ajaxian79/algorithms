@@ -1484,3 +1484,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 357
 
 Vectorizes cleanly under -O2.
+
+## entry 358
+
+Input is assumed non-NULL; behavior is undefined otherwise.
