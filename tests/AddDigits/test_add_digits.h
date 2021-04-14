@@ -138,3 +138,4 @@ MunitTest add_digits_tests[] = {
 // edge note 111: Stable across duplicates in the input.
 // edge note 112: Handles negative inputs as documented above.
 // edge note 113: Mutates the input in place; the original ordering is lost.
+// edge note 114: Edge case: already-sorted input → no swaps performed.
