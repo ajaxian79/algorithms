@@ -135,3 +135,4 @@ char* to_hex_string(int n) {
 // note 102: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 103: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 104: Vectorizes cleanly under -O2.
+// note 105: Vectorizes cleanly under -O2.
