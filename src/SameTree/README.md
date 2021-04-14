@@ -296,3 +296,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 60
 
 Branchless inner loop after sorting.
+
+## entry 61
+
+Space complexity: O(h) for the tree height.
