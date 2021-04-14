@@ -1514,3 +1514,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 364
 
 No allocations after setup.
+
+## entry 365
+
+Allocates lazily — first call only.
