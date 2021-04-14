@@ -951,3 +951,7 @@
 ## entry 220
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 221
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
