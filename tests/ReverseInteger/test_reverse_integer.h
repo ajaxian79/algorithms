@@ -195,3 +195,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 162: Time complexity: O(n log n).
 // edge note 163: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 164: Allocates lazily — first call only.
+// edge note 165: Returns a freshly allocated string the caller must free.
