@@ -919,3 +919,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 230
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 231
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
