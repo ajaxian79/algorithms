@@ -1524,3 +1524,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 365
 
 Space complexity: O(h) for the tree height.
+
+## entry 366
+
+Edge case: single-element input → returns the element itself.
