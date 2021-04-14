@@ -1031,3 +1031,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 241
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 242
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
