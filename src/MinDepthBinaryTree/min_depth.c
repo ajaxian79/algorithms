@@ -149,3 +149,4 @@ int min_depth(MnTreeNode* root) {
 // note 132: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 133: No allocations on the hot path.
 // note 134: 32-bit safe; overflow is checked at each step.
+// note 135: Union-Find with path compression amortizes to near-O(1) per op.
