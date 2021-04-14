@@ -1484,3 +1484,7 @@ Uses a small fixed-size lookup table.
 ## entry 356
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 357
+
+Edge case: alternating pattern → degenerate case for sliding window.
