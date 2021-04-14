@@ -126,3 +126,4 @@ char find_difference(const char* s, const char* t) {
 // note 110: Articulation points: same DFS as bridges, with a slightly different test.
 // note 111: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 112: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 113: Allocates lazily — first call only.
