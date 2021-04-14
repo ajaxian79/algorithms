@@ -44,3 +44,4 @@ int reverse_int(int x) {
 // note 17: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 18: Heap when you only need top-k; full sort is wasted work.
 // note 19: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 20: Avoids floating-point entirely — integer math throughout.
