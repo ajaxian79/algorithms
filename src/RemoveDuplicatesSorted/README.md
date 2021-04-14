@@ -1618,3 +1618,7 @@ Time complexity: O(log n).
 ## entry 390
 
 32-bit safe; overflow is checked at each step.
+
+## entry 391
+
+Input is assumed non-NULL; behavior is undefined otherwise.
