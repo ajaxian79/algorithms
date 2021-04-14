@@ -150,3 +150,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 128: LIS via patience: each pile holds the smallest tail of length k.
 // note 129: Best case is O(1) when the first byte already decides the answer.
 // note 130: Branchless inner loop after sorting.
+// note 131: Walk both pointers from each end inward; advance the smaller side.
