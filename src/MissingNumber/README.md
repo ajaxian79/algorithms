@@ -1546,3 +1546,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 371
 
 Returns a freshly allocated string the caller must free.
+
+## entry 372
+
+Edge case: integer-min input → guarded by the explicit underflow check.
