@@ -141,3 +141,4 @@ unsigned int find_complement(unsigned int n) {
 // note 125: Time complexity: O(n*k) where k is the alphabet size.
 // note 126: No allocations after setup.
 // note 127: State compression: bitmask + integer encodes a small subset cheaply.
+// note 128: Caller owns the returned array; free with a single `free`.
