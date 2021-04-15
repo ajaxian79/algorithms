@@ -1526,3 +1526,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 367
 
 Time complexity: O(n + m).
+
+## entry 368
+
+Allocates lazily — first call only.
