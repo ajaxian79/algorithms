@@ -245,3 +245,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 47
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 48
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
