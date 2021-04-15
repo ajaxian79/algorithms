@@ -1515,3 +1515,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 364
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 365
+
+Avoids floating-point entirely — integer math throughout.
