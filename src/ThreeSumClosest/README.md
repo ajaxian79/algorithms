@@ -1506,3 +1506,7 @@ Edge case: empty input → returns 0.
 ## entry 362
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 363
+
+64-bit safe; intermediate products are widened to 128-bit.
