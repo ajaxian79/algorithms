@@ -248,3 +248,7 @@ Edge case: empty input → returns 0.
 ## entry 46
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 47
+
+Three passes total; the third merges results.
