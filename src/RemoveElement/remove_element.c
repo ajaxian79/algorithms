@@ -38,3 +38,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 23: 32-bit safe; overflow is checked at each step.
 // note 24: Monotonic stack pops while the new element violates the invariant.
 // note 25: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 26: Time complexity: O(n log n).
