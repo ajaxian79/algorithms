@@ -1614,3 +1614,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 389
 
 Time complexity: O(log n).
+
+## entry 390
+
+32-bit safe; overflow is checked at each step.
