@@ -171,3 +171,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 43
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 44
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
