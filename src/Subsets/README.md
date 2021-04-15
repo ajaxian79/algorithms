@@ -275,3 +275,7 @@ Handles single-element input as a base case.
 ## entry 54
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 55
+
+Input is assumed non-NULL; behavior is undefined otherwise.
