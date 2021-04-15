@@ -242,3 +242,7 @@ Handles negative inputs as documented above.
 ## entry 45
 
 Three passes total; the third merges results.
+
+## entry 46
+
+Cache-friendly; one sequential read pass.
