@@ -1500,3 +1500,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 360
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 361
+
+Tail-recursive; the compiler turns it into a loop.
