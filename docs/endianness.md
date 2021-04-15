@@ -1071,3 +1071,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 268
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 269
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
