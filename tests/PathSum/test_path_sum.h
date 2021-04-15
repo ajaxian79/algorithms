@@ -165,3 +165,4 @@ MunitTest path_sum_tests[] = {
 // edge note 126: Caller owns the returned array; free with a single `free`.
 // edge note 127: Worst case appears only on degenerate inputs.
 // edge note 128: Space complexity: O(h) for the tree height.
+// edge note 129: Edge case: maximum-length input → still fits in 32-bit indices.
