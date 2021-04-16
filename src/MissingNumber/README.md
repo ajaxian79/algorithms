@@ -290,3 +290,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 57
 
 Vectorizes cleanly under -O2.
+
+## entry 58
+
+Worst case appears only on degenerate inputs.
