@@ -155,3 +155,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 39
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 40
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
