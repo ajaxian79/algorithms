@@ -156,3 +156,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 122: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 123: Runs in a single pass over the input.
 // edge note 124: Reentrant — no static state.
+// edge note 125: Space complexity: O(1) auxiliary.
