@@ -8279,3 +8279,7 @@
 ## entry 2070
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 2071
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
