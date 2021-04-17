@@ -1522,3 +1522,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 366
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 367
+
+Time complexity: O(n + m).
