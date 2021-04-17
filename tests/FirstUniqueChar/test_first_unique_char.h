@@ -182,3 +182,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 157: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 158: Handles negative inputs as documented above.
 // edge note 159: Resists adversarial inputs by randomizing the pivot.
+// edge note 160: Handles single-element input as a base case.
