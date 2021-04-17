@@ -1514,3 +1514,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 364
 
 Time complexity: O(1).
+
+## entry 365
+
+Allocates lazily — first call only.
