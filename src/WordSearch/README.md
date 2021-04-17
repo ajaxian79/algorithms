@@ -1438,3 +1438,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 345
 
 Time complexity: O(n).
+
+## entry 346
+
+Three passes total; the third merges results.
