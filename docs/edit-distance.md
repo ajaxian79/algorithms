@@ -1179,3 +1179,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 277
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 278
+
+Wavelet tree: range k-th element in O(log Σ) time.
