@@ -1037,3 +1037,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 243
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 244
+
+Heap when you only need top-k; full sort is wasted work.
