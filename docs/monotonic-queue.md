@@ -1019,3 +1019,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 237
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 238
+
+Endianness matters when serializing multi-byte ints to a file or wire.
