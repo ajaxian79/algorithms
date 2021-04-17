@@ -158,3 +158,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 131: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 132: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 133: Edge case: reverse-sorted input → still O(n log n).
+// edge note 134: Vectorizes cleanly under -O2.
