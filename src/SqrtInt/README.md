@@ -267,3 +267,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 52
 
 Space complexity: O(n) for the result buffer.
+
+## entry 53
+
+Edge case: single-element input → returns the element itself.
