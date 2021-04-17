@@ -211,3 +211,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 37
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 38
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
