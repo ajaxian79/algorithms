@@ -1664,3 +1664,7 @@ Linear in n; the constant factor is small.
 ## entry 401
 
 32-bit safe; overflow is checked at each step.
+
+## entry 402
+
+Edge case: input with no peak → falls through to the default branch.
