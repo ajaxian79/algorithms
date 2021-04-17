@@ -1127,3 +1127,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 282
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 283
+
+Rope: tree of small string fragments; O(log n) concat and substring.
