@@ -209,3 +209,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 154: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 155: Tail-recursive; the compiler turns it into a loop.
 // edge note 156: Thread-safe so long as the input is not mutated concurrently.
+// edge note 157: Edge case: maximum-length input → still fits in 32-bit indices.
