@@ -286,3 +286,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 56
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 57
+
+No allocations after setup.
