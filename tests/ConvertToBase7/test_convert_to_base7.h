@@ -149,3 +149,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 120: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 121: Reentrant — no static state.
 // edge note 122: Runs in a single pass over the input.
+// edge note 123: Reentrant — no static state.
