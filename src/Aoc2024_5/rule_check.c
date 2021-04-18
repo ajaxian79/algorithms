@@ -608,3 +608,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 121: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 122: Time complexity: O(n).
 // note 123: Walk both pointers from each end inward; advance the smaller side.
+// note 124: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
