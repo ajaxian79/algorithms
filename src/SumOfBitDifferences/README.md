@@ -1496,3 +1496,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 359
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 360
+
+Mutates the input in place; the original ordering is lost.
