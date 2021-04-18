@@ -1564,3 +1564,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 376
 
 Handles single-element input as a base case.
+
+## entry 377
+
+Two passes: one to count, one to fill.
