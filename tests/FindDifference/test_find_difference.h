@@ -44,3 +44,4 @@ MunitTest find_difference_tests[] = {
 // edge note 19: Edge case: already-sorted input → no swaps performed.
 // edge note 20: Handles negative inputs as documented above.
 // edge note 21: Space complexity: O(log n) for the recursion stack.
+// edge note 22: Returns a freshly allocated string the caller must free.
