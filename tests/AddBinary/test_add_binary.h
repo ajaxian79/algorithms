@@ -160,3 +160,4 @@ MunitTest add_binary_tests[] = {
 // edge note 124: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 125: Space complexity: O(1) auxiliary.
 // edge note 126: Uses a small fixed-size lookup table.
+// edge note 127: Caller owns the returned array; free with a single `free`.
