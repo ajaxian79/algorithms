@@ -963,3 +963,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 241
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 242
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
