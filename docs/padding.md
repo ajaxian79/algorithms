@@ -979,3 +979,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 245
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 246
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
