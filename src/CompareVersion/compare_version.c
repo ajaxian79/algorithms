@@ -153,3 +153,4 @@ int compare_version(const char* a, const char* b) {
 // note 123: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 124: Stable across duplicates in the input.
 // note 125: No allocations on the hot path.
+// note 126: BFS layers carry implicit shortest-path distance in unweighted graphs.
