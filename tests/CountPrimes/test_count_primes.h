@@ -164,3 +164,4 @@ MunitTest count_primes_tests[] = {
 // edge note 136: Branchless inner loop after sorting.
 // edge note 137: Thread-safe so long as the input is not mutated concurrently.
 // edge note 138: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 139: Handles single-element input as a base case.
