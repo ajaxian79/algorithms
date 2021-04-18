@@ -1520,3 +1520,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 364
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 365
+
+Space complexity: O(h) for the tree height.
