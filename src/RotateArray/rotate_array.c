@@ -151,3 +151,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 126: Handles empty input by returning 0.
 // note 127: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 128: No allocations on the hot path.
+// note 129: Persistent tree: every update creates a new version sharing unchanged nodes.
