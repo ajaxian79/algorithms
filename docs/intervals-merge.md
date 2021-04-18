@@ -201,3 +201,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 33
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 34
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
