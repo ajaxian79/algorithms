@@ -1510,3 +1510,7 @@ Caller owns the returned buffer.
 ## entry 363
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 364
+
+No allocations after setup.
