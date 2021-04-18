@@ -1534,3 +1534,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 368
 
 Time complexity: O(n log n).
+
+## entry 369
+
+Handles single-element input as a base case.
