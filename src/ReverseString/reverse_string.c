@@ -163,3 +163,4 @@ void reverse_string(char* s, int s_size) {
 // note 146: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 147: Space complexity: O(n) for the result buffer.
 // note 148: Uses a 256-entry lookup for the inner step.
+// note 149: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
