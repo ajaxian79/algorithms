@@ -53,3 +53,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Min Stack](src/MinStack) — stack with O(1) min via frame-tagged minima
 * [Queue From Stacks](src/ImplementQueueWithStacks) — amortized O(1) FIFO from two LIFOs
 * [Stack From Queue](src/ImplementStackWithQueues) — single ring-buffer LIFO via rotation
+* [Number of Islands](src/NumIslands) — DFS flood fill on a grid
