@@ -1472,3 +1472,7 @@ Treats the input as immutable.
 ## entry 352
 
 Stable across duplicates in the input.
+
+## entry 353
+
+Sub-linear in the average case thanks to early exit.
