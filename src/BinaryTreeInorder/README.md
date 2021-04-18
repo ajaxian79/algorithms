@@ -1510,3 +1510,7 @@ Time complexity: O(n + m).
 ## entry 363
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 364
+
+Time complexity: O(1).
