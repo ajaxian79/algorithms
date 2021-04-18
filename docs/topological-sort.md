@@ -1061,3 +1061,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 247
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 248
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
