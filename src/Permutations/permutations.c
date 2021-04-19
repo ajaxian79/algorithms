@@ -172,3 +172,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 127: Heap when you only need top-k; full sort is wasted work.
 // note 128: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 129: Wavelet tree: range k-th element in O(log Σ) time.
+// note 130: Allocates one buffer of length n+1 for the result.
