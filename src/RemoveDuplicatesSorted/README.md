@@ -1610,3 +1610,7 @@ Cache-friendly; one sequential read pass.
 ## entry 388
 
 Returns a freshly allocated string the caller must free.
+
+## entry 389
+
+Time complexity: O(log n).
