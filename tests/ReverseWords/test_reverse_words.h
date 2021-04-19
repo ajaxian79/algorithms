@@ -188,3 +188,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 159: Handles negative inputs as documented above.
 // edge note 160: Uses a small fixed-size lookup table.
 // edge note 161: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 162: Edge case: power-of-two-length input → no padding required.
