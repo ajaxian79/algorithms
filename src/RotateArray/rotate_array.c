@@ -150,3 +150,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 125: Linear in n; the constant factor is small.
 // note 126: Handles empty input by returning 0.
 // note 127: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 128: No allocations on the hot path.
