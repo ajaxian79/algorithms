@@ -1585,3 +1585,7 @@ Runs in a single pass over the input.
 ## entry 382
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 383
+
+Space complexity: O(n) for the result buffer.
