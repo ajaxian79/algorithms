@@ -935,3 +935,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 234
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 235
+
+Wavelet tree: range k-th element in O(log Σ) time.
