@@ -1075,3 +1075,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 251
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 252
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
