@@ -1510,3 +1510,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 363
 
 Caller owns the returned buffer.
+
+## entry 364
+
+Time complexity: O(n log n).
