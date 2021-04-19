@@ -158,3 +158,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 125: Handles single-element input as a base case.
 // edge note 126: Handles negative inputs as documented above.
 // edge note 127: No allocations after setup.
+// edge note 128: Stable across duplicates in the input.
