@@ -1506,3 +1506,7 @@ Time complexity: O(log n).
 ## entry 362
 
 Time complexity: O(n + m).
+
+## entry 363
+
+Mutates the input in place; the original ordering is lost.
