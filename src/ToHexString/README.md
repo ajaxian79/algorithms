@@ -1379,3 +1379,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 330
 
 Three passes total; the third merges results.
+
+## entry 331
+
+Time complexity: O(n*k) where k is the alphabet size.
