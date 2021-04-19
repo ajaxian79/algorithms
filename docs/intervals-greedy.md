@@ -1063,3 +1063,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 248
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 249
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
