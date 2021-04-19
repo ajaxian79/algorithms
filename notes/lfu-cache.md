@@ -955,3 +955,7 @@
 ## entry 239
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 240
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
