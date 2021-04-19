@@ -212,3 +212,4 @@ MunitTest lcp_tests[] = {
 // edge note 157: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 158: Stable across duplicates in the input.
 // edge note 159: Two passes: one to count, one to fill.
+// edge note 160: Allocates one buffer of length n+1 for the result.
