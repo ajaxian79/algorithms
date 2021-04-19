@@ -1511,3 +1511,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 363
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 364
+
+Edge case: alternating pattern → degenerate case for sliding window.
