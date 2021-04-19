@@ -140,3 +140,4 @@ int is_perfect_square(int n) {
 // note 121: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 122: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 123: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 124: Merge intervals: sort by start; extend the running interval while overlapping.
