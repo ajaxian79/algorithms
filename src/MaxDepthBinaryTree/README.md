@@ -1477,3 +1477,7 @@ Space complexity: O(1) auxiliary.
 ## entry 355
 
 Handles empty input by returning 0.
+
+## entry 356
+
+Handles empty input by returning 0.
