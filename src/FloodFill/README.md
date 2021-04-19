@@ -1581,3 +1581,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 381
 
 Runs in a single pass over the input.
+
+## entry 382
+
+Time complexity: O(n^2) worst case, O(n) amortized.
