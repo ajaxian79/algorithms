@@ -1073,3 +1073,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 251
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 252
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
