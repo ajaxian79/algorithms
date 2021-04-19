@@ -146,3 +146,4 @@ int is_anagram(const char* s, const char* t) {
 // note 117: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 118: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 119: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 120: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
