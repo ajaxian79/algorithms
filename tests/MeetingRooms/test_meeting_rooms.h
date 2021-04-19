@@ -168,3 +168,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 137: Two passes: one to count, one to fill.
 // edge note 138: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 139: Runs in a single pass over the input.
+// edge note 140: Reentrant — no static state.
