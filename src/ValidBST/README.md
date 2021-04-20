@@ -1477,3 +1477,7 @@ Reentrant — no static state.
 ## entry 354
 
 Space complexity: O(1) auxiliary.
+
+## entry 355
+
+32-bit safe; overflow is checked at each step.
