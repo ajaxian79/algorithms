@@ -1115,3 +1115,7 @@
 ## entry 279
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 280
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
