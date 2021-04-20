@@ -1488,3 +1488,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 357
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 358
+
+Time complexity: O(1).
