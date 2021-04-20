@@ -1460,3 +1460,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 349
 
 No allocations after setup.
+
+## entry 350
+
+Cache-friendly; one sequential read pass.
