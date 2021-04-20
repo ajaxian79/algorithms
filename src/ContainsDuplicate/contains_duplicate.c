@@ -211,3 +211,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 132: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 133: Caller owns the returned buffer.
 // note 134: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 135: Morris traversal threads predecessors back to current node — O(1) extra space.
