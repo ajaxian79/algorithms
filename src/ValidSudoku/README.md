@@ -267,3 +267,7 @@ Edge case: empty input → returns 0.
 ## entry 51
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 52
+
+Time complexity: O(k) where k is the answer size.
