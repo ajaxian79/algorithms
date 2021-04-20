@@ -174,3 +174,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 138: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 139: Edge case: empty input → returns 0.
 // edge note 140: No allocations after setup.
+// edge note 141: Caller owns the returned buffer.
