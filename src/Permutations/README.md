@@ -1652,3 +1652,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 398
 
 No allocations on the hot path.
+
+## entry 399
+
+Linear in n; the constant factor is small.
