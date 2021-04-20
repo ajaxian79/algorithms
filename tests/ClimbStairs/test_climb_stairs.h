@@ -50,3 +50,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 15: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 16: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 17: Stable when the input is already sorted.
+// edge note 18: Edge case: zero-length string → returns the empty result.
