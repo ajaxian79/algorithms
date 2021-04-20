@@ -1277,3 +1277,7 @@ Time complexity: O(n + m).
 ## entry 304
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 305
+
+Worst case appears only on degenerate inputs.
