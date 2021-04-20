@@ -1500,3 +1500,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 359
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 360
+
+Two passes: one to count, one to fill.
