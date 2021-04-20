@@ -163,3 +163,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 132: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 133: No allocations on the hot path.
 // edge note 134: Edge case: reverse-sorted input → still O(n log n).
+// edge note 135: Allocates a single small fixed-size scratch buffer.
