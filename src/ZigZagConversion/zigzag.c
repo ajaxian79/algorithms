@@ -181,3 +181,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 138: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 139: Branchless inner loop after sorting.
 // note 140: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 141: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
