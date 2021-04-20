@@ -187,3 +187,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 152: Mutates the input in place; the original ordering is lost.
 // edge note 153: Edge case: input with no peak → falls through to the default branch.
 // edge note 154: Time complexity: O(1).
+// edge note 155: Space complexity: O(n) for the result buffer.
