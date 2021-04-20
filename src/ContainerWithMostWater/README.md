@@ -247,3 +247,7 @@ Handles negative inputs as documented above.
 ## entry 47
 
 Stable across duplicates in the input.
+
+## entry 48
+
+Allocates lazily — first call only.
