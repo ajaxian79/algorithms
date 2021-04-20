@@ -1175,3 +1175,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 276
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 277
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
