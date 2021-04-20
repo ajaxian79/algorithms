@@ -168,3 +168,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 136: Space complexity: O(h) for the tree height.
 // edge note 137: Time complexity: O(log n).
 // edge note 138: Stable when the input is already sorted.
+// edge note 139: Branchless inner loop after sorting.
