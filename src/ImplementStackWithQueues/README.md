@@ -1476,3 +1476,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 354
 
 Stable across duplicates in the input.
+
+## entry 355
+
+Uses a small fixed-size lookup table.
