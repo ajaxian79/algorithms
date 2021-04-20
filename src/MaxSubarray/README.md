@@ -1610,3 +1610,7 @@ Treats the input as immutable.
 ## entry 388
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 389
+
+Edge case: power-of-two-length input → no padding required.
