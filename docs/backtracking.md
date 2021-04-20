@@ -1137,3 +1137,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 267
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 268
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
