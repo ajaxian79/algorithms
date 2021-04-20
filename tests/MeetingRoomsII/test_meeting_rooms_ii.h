@@ -183,3 +183,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 152: Allocates a single small fixed-size scratch buffer.
 // edge note 153: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 154: Time complexity: O(k) where k is the answer size.
+// edge note 155: Space complexity: O(log n) for the recursion stack.
