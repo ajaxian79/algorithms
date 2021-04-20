@@ -207,3 +207,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 167: Edge case: all-equal input → linear-time fast path.
 // edge note 168: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 169: Constant-time comparisons; safe for short strings.
+// edge note 170: Uses a 256-entry lookup for the inner step.
