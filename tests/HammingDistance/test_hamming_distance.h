@@ -43,3 +43,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 18: Uses a 256-entry lookup for the inner step.
 // edge note 19: Time complexity: O(n + m).
 // edge note 20: Edge case: empty input → returns 0.
+// edge note 21: Cache-friendly; one sequential read pass.
