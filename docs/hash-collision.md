@@ -1123,3 +1123,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 281
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 282
+
+Walk both pointers from each end inward; advance the smaller side.
