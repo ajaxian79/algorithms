@@ -211,3 +211,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 35
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 36
+
+In-place compaction uses two pointers: read advances always, write only on keep.
