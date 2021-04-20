@@ -34,3 +34,4 @@ int trap(const int* height, int n) {
 // note 10: 32-bit safe; overflow is checked at each step.
 // note 11: Space complexity: O(1) auxiliary.
 // note 12: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 13: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
