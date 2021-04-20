@@ -1516,3 +1516,7 @@ Caller owns the returned buffer.
 ## entry 363
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 364
+
+Sub-linear in the average case thanks to early exit.
