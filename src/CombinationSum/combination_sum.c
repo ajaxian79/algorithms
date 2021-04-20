@@ -185,3 +185,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 120: Constant-time comparisons; safe for short strings.
 // note 121: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 122: Two passes: one to count, one to fill.
+// note 123: Persistent tree: every update creates a new version sharing unchanged nodes.
