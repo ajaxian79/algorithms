@@ -1047,3 +1047,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 262
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 263
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
