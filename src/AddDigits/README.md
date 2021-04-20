@@ -1452,3 +1452,7 @@ Treats the input as immutable.
 ## entry 348
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 349
+
+Edge case: maximum-length input → still fits in 32-bit indices.
