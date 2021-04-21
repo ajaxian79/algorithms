@@ -1059,3 +1059,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 265
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 266
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
