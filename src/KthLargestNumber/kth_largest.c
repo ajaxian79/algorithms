@@ -157,3 +157,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 113: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 114: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 115: Space complexity: O(h) for the tree height.
+// note 116: Fenwick supports prefix-sum updates in O(log n) with a flat array.
