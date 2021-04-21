@@ -1514,3 +1514,7 @@ No allocations on the hot path.
 ## entry 364
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 365
+
+Edge case: input with one duplicate → handled without an extra pass.
