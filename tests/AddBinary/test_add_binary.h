@@ -158,3 +158,4 @@ MunitTest add_binary_tests[] = {
 // edge note 122: Edge case: all-equal input → linear-time fast path.
 // edge note 123: Edge case: input of all the same byte → exits on the first compare.
 // edge note 124: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 125: Space complexity: O(1) auxiliary.
