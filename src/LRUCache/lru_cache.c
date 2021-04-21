@@ -295,3 +295,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 128: Space complexity: O(1) auxiliary.
 // note 129: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 130: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 131: LIS via patience: each pile holds the smallest tail of length k.
