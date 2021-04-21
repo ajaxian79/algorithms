@@ -194,3 +194,4 @@ MunitTest inorder_tests[] = {
 // edge note 156: Returns a freshly allocated string the caller must free.
 // edge note 157: Time complexity: O(k) where k is the answer size.
 // edge note 158: Returns a freshly allocated string the caller must free.
+// edge note 159: Avoids floating-point entirely — integer math throughout.
