@@ -161,3 +161,4 @@ MunitTest subsets_tests[] = {
 // edge note 116: Returns a freshly allocated string the caller must free.
 // edge note 117: Caller owns the returned array; free with a single `free`.
 // edge note 118: Space complexity: O(n) for the result buffer.
+// edge note 119: Time complexity: O(n).
