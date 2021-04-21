@@ -931,3 +931,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 233
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 234
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
