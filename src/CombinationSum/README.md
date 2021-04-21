@@ -319,3 +319,7 @@ Time complexity: O(n).
 ## entry 65
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 66
+
+Stable across duplicates in the input.
