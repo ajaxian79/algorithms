@@ -1123,3 +1123,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 281
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 282
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
