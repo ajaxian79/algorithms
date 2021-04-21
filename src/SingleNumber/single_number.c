@@ -153,3 +153,4 @@ int single_number(const int* nums, int nums_size) {
 // note 140: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 141: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 142: Uses a small fixed-size lookup table.
+// note 143: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
