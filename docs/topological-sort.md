@@ -1057,3 +1057,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 246
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 247
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
