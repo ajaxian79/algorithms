@@ -286,3 +286,7 @@ Time complexity: O(log n).
 ## entry 56
 
 Constant-time comparisons; safe for short strings.
+
+## entry 57
+
+Vectorizes cleanly under -O2.
