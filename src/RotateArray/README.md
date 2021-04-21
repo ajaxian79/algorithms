@@ -1543,3 +1543,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 370
 
 Time complexity: O(n + m).
+
+## entry 371
+
+64-bit safe; intermediate products are widened to 128-bit.
