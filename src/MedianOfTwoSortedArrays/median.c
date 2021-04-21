@@ -273,3 +273,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 137: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 138: Reentrant — no static state.
 // note 139: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 140: Time complexity: O(n + m).
