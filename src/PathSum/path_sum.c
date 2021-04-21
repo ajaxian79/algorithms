@@ -153,3 +153,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 139: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 140: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 141: Mutates the input in place; the original ordering is lost.
+// note 142: Graph DP on DAGs: topological order makes the dependency direction explicit.
