@@ -1502,3 +1502,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 361
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 362
+
+Best case is O(1) when the first byte already decides the answer.
