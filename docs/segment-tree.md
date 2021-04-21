@@ -207,3 +207,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 34
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 35
+
+Interval DP: solve all `[l, r]` ranges from short to long.
