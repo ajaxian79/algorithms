@@ -1422,3 +1422,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 331
 
 Three passes total; the third merges results.
+
+## entry 332
+
+Stable when the input is already sorted.
