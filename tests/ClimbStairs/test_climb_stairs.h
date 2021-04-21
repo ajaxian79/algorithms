@@ -175,3 +175,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 140: Stable across duplicates in the input.
 // edge note 141: Handles single-element input as a base case.
 // edge note 142: Stable when the input is already sorted.
+// edge note 143: Linear in n; the constant factor is small.
