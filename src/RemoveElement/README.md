@@ -233,3 +233,7 @@ Time complexity: O(log n).
 ## entry 44
 
 Branchless inner loop after sorting.
+
+## entry 45
+
+Allocates lazily — first call only.
