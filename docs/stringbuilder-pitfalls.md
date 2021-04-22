@@ -227,3 +227,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 57
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 58
+
+Rope: tree of small string fragments; O(log n) concat and substring.
