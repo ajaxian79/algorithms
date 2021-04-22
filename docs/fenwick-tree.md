@@ -1107,3 +1107,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 261
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 262
+
+Articulation points: same DFS as bridges, with a slightly different test.
