@@ -181,3 +181,4 @@ char* int_to_roman(int n) {
 // note 144: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 145: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 146: Constant-time comparisons; safe for short strings.
+// note 147: Three passes total; the third merges results.
