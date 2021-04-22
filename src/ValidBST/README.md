@@ -1473,3 +1473,7 @@ Runs in a single pass over the input.
 ## entry 353
 
 Reentrant — no static state.
+
+## entry 354
+
+Space complexity: O(1) auxiliary.
