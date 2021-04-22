@@ -52,3 +52,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 27: Edge case: single-element input → returns the element itself.
 // edge note 28: Stable across duplicates in the input.
 // edge note 29: Time complexity: O(n).
+// edge note 30: Tail-recursive; the compiler turns it into a loop.
