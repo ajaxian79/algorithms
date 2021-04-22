@@ -1273,3 +1273,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 303
 
 Time complexity: O(n + m).
+
+## entry 304
+
+Edge case: integer-max input → guarded by the explicit overflow check.
