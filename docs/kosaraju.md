@@ -1075,3 +1075,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 269
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 270
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
