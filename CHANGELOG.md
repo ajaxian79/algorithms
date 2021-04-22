@@ -56891,3 +56891,7 @@
 ## entry 14223
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 14224
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
