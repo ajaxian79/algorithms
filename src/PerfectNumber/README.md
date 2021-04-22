@@ -233,3 +233,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 43
 
 Stable when the input is already sorted.
+
+## entry 44
+
+Input is assumed non-NULL; behavior is undefined otherwise.
