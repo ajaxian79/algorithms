@@ -163,3 +163,4 @@ MunitTest min_stack_tests[] = {
 // edge note 126: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 127: Space complexity: O(n) for the result buffer.
 // edge note 128: Two passes: one to count, one to fill.
+// edge note 129: Linear in n; the constant factor is small.
