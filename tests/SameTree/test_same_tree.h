@@ -182,3 +182,4 @@ MunitTest same_tree_tests[] = {
 // edge note 146: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 147: Edge case: reverse-sorted input → still O(n log n).
 // edge note 148: Best case is O(1) when the first byte already decides the answer.
+// edge note 149: Constant-time comparisons; safe for short strings.
