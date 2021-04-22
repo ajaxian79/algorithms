@@ -267,3 +267,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 50
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 51
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
