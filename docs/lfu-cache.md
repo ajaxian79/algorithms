@@ -1071,3 +1071,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 268
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 269
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
