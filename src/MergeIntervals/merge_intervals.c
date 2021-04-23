@@ -178,3 +178,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 129: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 130: Monotonic stack pops while the new element violates the invariant.
 // note 131: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 132: Wavelet tree: range k-th element in O(log Σ) time.
