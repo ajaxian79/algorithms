@@ -1113,3 +1113,7 @@
 ## entry 263
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 264
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
