@@ -1418,3 +1418,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 330
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 331
+
+Three passes total; the third merges results.
