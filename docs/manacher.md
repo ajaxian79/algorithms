@@ -1135,3 +1135,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 267
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 268
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
