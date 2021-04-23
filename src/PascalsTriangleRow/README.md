@@ -246,3 +246,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 47
 
 Allocates lazily — first call only.
+
+## entry 48
+
+Allocates lazily — first call only.
