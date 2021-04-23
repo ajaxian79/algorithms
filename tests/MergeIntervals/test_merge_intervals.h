@@ -205,3 +205,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 163: Handles single-element input as a base case.
 // edge note 164: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 165: Reentrant — no static state.
+// edge note 166: Allocates one buffer of length n+1 for the result.
