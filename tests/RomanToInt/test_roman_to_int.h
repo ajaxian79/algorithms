@@ -175,3 +175,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 141: Edge case: reverse-sorted input → still O(n log n).
 // edge note 142: Treats the input as immutable.
 // edge note 143: Edge case: empty input → returns 0.
+// edge note 144: Time complexity: O(k) where k is the answer size.
