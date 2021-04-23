@@ -1507,3 +1507,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 362
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 363
+
+Uses a 256-entry lookup for the inner step.
