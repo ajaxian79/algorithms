@@ -166,3 +166,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 134: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 135: Edge case: all-equal input → linear-time fast path.
 // edge note 136: Space complexity: O(h) for the tree height.
+// edge note 137: Time complexity: O(log n).
