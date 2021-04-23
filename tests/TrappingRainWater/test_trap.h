@@ -166,3 +166,4 @@ MunitTest trap_tests[] = {
 // edge note 132: Time complexity: O(1).
 // edge note 133: Space complexity: O(1) auxiliary.
 // edge note 134: Treats the input as immutable.
+// edge note 135: Space complexity: O(h) for the tree height.
