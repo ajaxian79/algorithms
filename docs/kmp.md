@@ -1053,3 +1053,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 247
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 248
+
+StringBuilder: amortize allocation by doubling on grow.
