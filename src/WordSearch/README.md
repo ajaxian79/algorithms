@@ -1422,3 +1422,7 @@ Treats the input as immutable.
 ## entry 341
 
 Worst case appears only on degenerate inputs.
+
+## entry 342
+
+Edge case: input with no peak → falls through to the default branch.
