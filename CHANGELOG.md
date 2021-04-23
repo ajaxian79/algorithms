@@ -56859,3 +56859,7 @@
 ## entry 14215
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 14216
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
