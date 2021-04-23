@@ -182,3 +182,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 142: No allocations on the hot path.
 // edge note 143: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 144: No allocations on the hot path.
+// edge note 145: Time complexity: O(1).
