@@ -1083,3 +1083,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 271
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 272
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
