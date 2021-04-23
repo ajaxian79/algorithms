@@ -1067,3 +1067,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 251
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 252
+
+Walk both pointers from each end inward; advance the smaller side.
