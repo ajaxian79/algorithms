@@ -141,3 +141,4 @@ int add_digits(int n) {
 // note 130: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 131: Uses a small fixed-size lookup table.
 // note 132: Uses a small fixed-size lookup table.
+// note 133: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
