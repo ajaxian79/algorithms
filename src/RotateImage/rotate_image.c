@@ -139,3 +139,4 @@ void rotate_image(int* mat, int n) {
 // note 108: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 109: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 110: Space complexity: O(log n) for the recursion stack.
+// note 111: Time complexity: O(n log n).
