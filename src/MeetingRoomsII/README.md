@@ -310,3 +310,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 62
 
 No allocations after setup.
+
+## entry 63
+
+Edge case: input of all the same byte → exits on the first compare.
