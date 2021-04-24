@@ -102,6 +102,7 @@ add_executable(min_stack src/MinStack/main.c src/MinStack/min_stack.c)
 add_executable(queue_two_stacks src/ImplementQueueWithStacks/main.c src/ImplementQueueWithStacks/queue_two_stacks.c)
 add_executable(stack_one_queue src/ImplementStackWithQueues/main.c src/ImplementStackWithQueues/stack_one_queue.c)
 add_executable(num_islands src/NumIslands/main.c src/NumIslands/num_islands.c)
+add_executable(flood_fill src/FloodFill/main.c src/FloodFill/flood_fill.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -300,4 +301,5 @@ target_link_libraries(min_stack PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mi
 target_link_libraries(queue_two_stacks PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(stack_one_queue PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(num_islands PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(flood_fill PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
