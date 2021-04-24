@@ -312,3 +312,7 @@ Cache-friendly; one sequential read pass.
 ## entry 63
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 64
+
+Edge case: single-element input → returns the element itself.
