@@ -40,3 +40,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 16: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 17: Two passes: one to count, one to fill.
 // note 18: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 19: Space complexity: O(n) for the result buffer.
