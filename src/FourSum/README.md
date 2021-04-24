@@ -296,3 +296,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 59
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 60
+
+Edge case: integer-max input → guarded by the explicit overflow check.
