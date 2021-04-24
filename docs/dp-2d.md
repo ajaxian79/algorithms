@@ -203,3 +203,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 35
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 36
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
