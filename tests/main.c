@@ -96,6 +96,7 @@
 #include "ImplementQueueWithStacks/test_queue_two_stacks.h"
 #include "ImplementStackWithQueues/test_stack_one_queue.h"
 #include "NumIslands/test_num_islands.h"
+#include "FloodFill/test_flood_fill.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -689,6 +690,12 @@ MunitSuite suites[] = {
         },{
                 "/num_islands",
                 num_islands_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/flood_fill",
+                flood_fill_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

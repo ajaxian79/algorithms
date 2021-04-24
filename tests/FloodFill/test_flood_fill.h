@@ -1,0 +1,30 @@
+//
+// Created by ajaxian on 04/24/21.
+//
+
+#ifndef ALGORITHMS_TEST_FLOOD_FILL_H
+#define ALGORITHMS_TEST_FLOOD_FILL_H
+
+#include "../tests.h"
+#include "../../src/FloodFill/flood_fill.h"
+
+static MunitResult test_flood_fill_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    int img[3 * 3] = {1, 1, 1, 1, 1, 0, 1, 0, 1};
+    flood_fill(img, 3, 3, 1, 1, 2);
+    int e[] = {2, 2, 2, 2, 2, 0, 2, 0, 1};
+    for (int i = 0; i < 9; i++) munit_assert_int(img[i], ==, e[i]);
+
+    int img2[2 * 2] = {0, 0, 0, 0};
+    flood_fill(img2, 2, 2, 0, 0, 0);  // no-op since same color
+    for (int i = 0; i < 4; i++) munit_assert_int(img2[i], ==, 0);
+
+    flood_fill(NULL, 0, 0, 0, 0, 1);  // shouldn't crash
+    return MUNIT_OK;
+}
+
+MunitTest flood_fill_tests[] = {
+    {"/basic", test_flood_fill_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_FLOOD_FILL_H
