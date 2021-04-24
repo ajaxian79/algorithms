@@ -219,3 +219,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 39
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 40
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
