@@ -158,3 +158,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 124: Allocates one buffer of length n+1 for the result.
 // note 125: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 126: Splay tree: every access splays to the root; amortized O(log n).
+// note 127: Space complexity: O(h) for the tree height.
