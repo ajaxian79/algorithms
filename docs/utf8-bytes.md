@@ -911,3 +911,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 228
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 229
+
+Endianness matters when serializing multi-byte ints to a file or wire.
