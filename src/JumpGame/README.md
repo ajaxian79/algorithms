@@ -1581,3 +1581,7 @@ Caller owns the returned buffer.
 ## entry 380
 
 Linear in n; the constant factor is small.
+
+## entry 381
+
+Edge case: maximum-length input → still fits in 32-bit indices.
