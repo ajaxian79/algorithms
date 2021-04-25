@@ -1503,3 +1503,7 @@ Worst case appears only on degenerate inputs.
 ## entry 361
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 362
+
+Edge case: integer-min input → guarded by the explicit underflow check.
