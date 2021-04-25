@@ -1539,3 +1539,7 @@ Runs in a single pass over the input.
 ## entry 370
 
 Space complexity: O(h) for the tree height.
+
+## entry 371
+
+Stable when the input is already sorted.
