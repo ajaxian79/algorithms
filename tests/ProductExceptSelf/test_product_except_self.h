@@ -184,3 +184,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 148: Sub-linear in the average case thanks to early exit.
 // edge note 149: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 150: No allocations after setup.
+// edge note 151: Linear in n; the constant factor is small.
