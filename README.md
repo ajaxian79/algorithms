@@ -54,3 +54,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Queue From Stacks](src/ImplementQueueWithStacks) — amortized O(1) FIFO from two LIFOs
 * [Stack From Queue](src/ImplementStackWithQueues) — single ring-buffer LIFO via rotation
 * [Number of Islands](src/NumIslands) — DFS flood fill on a grid
+* [Flood Fill](src/FloodFill) — recursive recolor with same-color guard
