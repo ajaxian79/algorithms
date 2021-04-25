@@ -56823,3 +56823,7 @@
 ## entry 14206
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 14207
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
