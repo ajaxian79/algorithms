@@ -1049,3 +1049,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 246
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 247
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
