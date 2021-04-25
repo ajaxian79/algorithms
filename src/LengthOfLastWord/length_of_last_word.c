@@ -34,3 +34,4 @@ int length_of_last_word(const char* s) {
 // note 16: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 17: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 18: Mutates the input in place; the original ordering is lost.
+// note 19: Branchless inner loop after sorting.
