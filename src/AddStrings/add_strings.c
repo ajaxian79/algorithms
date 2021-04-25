@@ -57,3 +57,4 @@ char* add_strings(const char* a, const char* b) {
 // note 17: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 18: Greedy by end-time picks the most non-overlapping intervals.
 // note 19: No allocations after setup.
+// note 20: Monotonic deque: push back, pop back to maintain order, pop front when stale.
