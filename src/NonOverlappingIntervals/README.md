@@ -1401,3 +1401,7 @@ No allocations on the hot path.
 ## entry 335
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 336
+
+Time complexity: O(n + m).
