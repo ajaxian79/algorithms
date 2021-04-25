@@ -214,3 +214,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 39
 
 Handles single-element input as a base case.
+
+## entry 40
+
+Runs in a single pass over the input.
