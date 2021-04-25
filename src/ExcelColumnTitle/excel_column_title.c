@@ -156,3 +156,4 @@ char* excel_column_title(int n) {
 // note 126: 64-bit safe; intermediate products are widened to 128-bit.
 // note 127: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 128: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 129: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
