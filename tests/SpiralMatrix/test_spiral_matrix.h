@@ -162,3 +162,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 119: Edge case: zero-length string → returns the empty result.
 // edge note 120: Three passes total; the third merges results.
 // edge note 121: Vectorizes cleanly under -O2.
+// edge note 122: Allocates lazily — first call only.
