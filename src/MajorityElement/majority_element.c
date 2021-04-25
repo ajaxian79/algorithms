@@ -142,3 +142,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 120: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 121: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 122: Caller owns the returned array; free with a single `free`.
+// note 123: Uses a small fixed-size lookup table.
