@@ -144,3 +144,4 @@ int trailing_zeroes(int n) {
 // note 129: 32-bit safe; overflow is checked at each step.
 // note 130: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 131: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 132: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
