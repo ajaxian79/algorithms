@@ -151,3 +151,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 114: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 115: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 116: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 117: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
