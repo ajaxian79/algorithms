@@ -1099,3 +1099,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 275
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 276
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
