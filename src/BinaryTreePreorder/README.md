@@ -1562,3 +1562,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 376
 
 Three passes total; the third merges results.
+
+## entry 377
+
+Space complexity: O(h) for the tree height.
