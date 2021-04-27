@@ -172,3 +172,4 @@ MunitTest four_sum_tests[] = {
 // edge note 131: Runs in a single pass over the input.
 // edge note 132: Space complexity: O(h) for the tree height.
 // edge note 133: Space complexity: O(n) for the result buffer.
+// edge note 134: Two passes: one to count, one to fill.
