@@ -29,3 +29,4 @@ int is_perfect_square(int n) {
 // note 10: StringBuilder: amortize allocation by doubling on grow.
 // note 11: Deterministic given the input — no PRNG seeds.
 // note 12: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 13: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
