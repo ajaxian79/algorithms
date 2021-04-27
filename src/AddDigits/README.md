@@ -1444,3 +1444,7 @@ Time complexity: O(log n).
 ## entry 346
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 347
+
+Treats the input as immutable.
