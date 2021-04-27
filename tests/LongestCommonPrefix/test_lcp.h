@@ -81,3 +81,4 @@ MunitTest lcp_tests[] = {
 // edge note 26: Allocates a single small fixed-size scratch buffer.
 // edge note 27: Returns a freshly allocated string the caller must free.
 // edge note 28: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 29: 32-bit safe; overflow is checked at each step.
