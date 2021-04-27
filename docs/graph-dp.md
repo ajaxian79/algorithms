@@ -999,3 +999,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 250
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 251
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
