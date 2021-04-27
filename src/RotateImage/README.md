@@ -1561,3 +1561,7 @@ Handles single-element input as a base case.
 ## entry 375
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 376
+
+Mutates the input in place; the original ordering is lost.
