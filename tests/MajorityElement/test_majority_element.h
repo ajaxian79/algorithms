@@ -166,3 +166,4 @@ MunitTest majority_element_tests[] = {
 // edge note 135: Runs in a single pass over the input.
 // edge note 136: Caller owns the returned buffer.
 // edge note 137: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 138: Space complexity: O(n) for the result buffer.
