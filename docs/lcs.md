@@ -1067,3 +1067,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 249
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 250
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
