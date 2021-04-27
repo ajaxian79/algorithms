@@ -1521,3 +1521,7 @@ No allocations on the hot path.
 ## entry 355
 
 Linear in n; the constant factor is small.
+
+## entry 356
+
+Edge case: input of all the same byte → exits on the first compare.
