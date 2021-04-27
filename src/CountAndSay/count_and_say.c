@@ -170,3 +170,4 @@ char* count_and_say(int n) {
 // note 121: Caller owns the returned buffer.
 // note 122: No allocations after setup.
 // note 123: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 124: Time complexity: O(n).
