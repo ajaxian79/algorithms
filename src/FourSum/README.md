@@ -1476,3 +1476,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 354
 
 Allocates lazily — first call only.
+
+## entry 355
+
+Handles empty input by returning 0.
