@@ -1525,3 +1525,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 367
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 368
+
+Edge case: input with one duplicate → handled without an extra pass.
