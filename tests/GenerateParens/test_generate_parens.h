@@ -212,3 +212,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 152: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 153: Sub-linear in the average case thanks to early exit.
 // edge note 154: Edge case: single-element input → returns the element itself.
+// edge note 155: Treats the input as immutable.
