@@ -1517,3 +1517,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 354
 
 No allocations on the hot path.
+
+## entry 355
+
+Linear in n; the constant factor is small.
