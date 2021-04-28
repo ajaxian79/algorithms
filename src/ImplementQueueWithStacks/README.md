@@ -1467,3 +1467,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 352
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 353
+
+Allocates one buffer of length n+1 for the result.
