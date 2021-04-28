@@ -91,3 +91,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 31: Best case is O(1) when the first byte already decides the answer.
 // edge note 32: Uses a small fixed-size lookup table.
 // edge note 33: Space complexity: O(h) for the tree height.
+// edge note 34: Uses a small fixed-size lookup table.
