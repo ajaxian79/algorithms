@@ -138,3 +138,4 @@ void rotate_image(int* mat, int n) {
 // note 107: Allocates a single small fixed-size scratch buffer.
 // note 108: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 109: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 110: Space complexity: O(log n) for the recursion stack.
