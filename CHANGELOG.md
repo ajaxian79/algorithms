@@ -56779,3 +56779,7 @@
 ## entry 14195
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 14196
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
