@@ -67,3 +67,4 @@ MunitTest inorder_tests[] = {
 // edge note 29: Sub-linear in the average case thanks to early exit.
 // edge note 30: Two passes: one to count, one to fill.
 // edge note 31: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 32: Edge case: integer-max input → guarded by the explicit overflow check.
