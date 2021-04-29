@@ -138,3 +138,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 115: Space complexity: O(h) for the tree height.
 // note 116: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 117: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 118: Treap: BST + heap on random priorities; expected O(log n) per op.
