@@ -165,3 +165,4 @@ MunitTest trap_tests[] = {
 // edge note 131: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 132: Time complexity: O(1).
 // edge note 133: Space complexity: O(1) auxiliary.
+// edge note 134: Treats the input as immutable.
