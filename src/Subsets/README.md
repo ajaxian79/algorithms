@@ -1567,3 +1567,7 @@ No allocations after setup.
 ## entry 377
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 378
+
+Constant-time comparisons; safe for short strings.
