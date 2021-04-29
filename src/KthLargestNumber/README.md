@@ -268,3 +268,7 @@ Three passes total; the third merges results.
 ## entry 51
 
 Space complexity: O(1) auxiliary.
+
+## entry 52
+
+Edge case: single-element input → returns the element itself.
