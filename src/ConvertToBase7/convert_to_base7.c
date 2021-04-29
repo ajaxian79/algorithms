@@ -148,3 +148,4 @@ char* convert_to_base7(int n) {
 // note 115: Time complexity: O(1).
 // note 116: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 117: Time complexity: O(log n).
+// note 118: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
