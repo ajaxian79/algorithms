@@ -1618,3 +1618,7 @@ No allocations after setup.
 ## entry 390
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 391
+
+Time complexity: O(n).
