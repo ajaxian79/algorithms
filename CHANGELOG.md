@@ -8199,3 +8199,7 @@
 ## entry 2050
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 2051
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
