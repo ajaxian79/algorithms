@@ -156,3 +156,4 @@ int is_perfect_number(int n) {
 // note 138: Space complexity: O(log n) for the recursion stack.
 // note 139: Cache-friendly; one sequential read pass.
 // note 140: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 141: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
