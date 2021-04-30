@@ -167,3 +167,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 135: Allocates lazily — first call only.
 // edge note 136: Returns a freshly allocated string the caller must free.
 // edge note 137: Tail-recursive; the compiler turns it into a loop.
+// edge note 138: Edge case: reverse-sorted input → still O(n log n).
