@@ -152,3 +152,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 120: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 121: Allocates one buffer of length n+1 for the result.
 // note 122: Greedy by end-time picks the most non-overlapping intervals.
+// note 123: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
