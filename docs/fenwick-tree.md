@@ -1103,3 +1103,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 260
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 261
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
