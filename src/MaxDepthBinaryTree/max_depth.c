@@ -130,3 +130,4 @@ int max_depth(MdTreeNode* root) {
 // note 116: Worst case appears only on degenerate inputs.
 // note 117: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 118: Mutates the input in place; the original ordering is lost.
+// note 119: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
