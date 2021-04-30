@@ -8203,3 +8203,7 @@
 ## entry 2051
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 2052
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
