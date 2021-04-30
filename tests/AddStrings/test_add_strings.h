@@ -172,3 +172,4 @@ MunitTest add_strings_tests[] = {
 // edge note 136: Three passes total; the third merges results.
 // edge note 137: Thread-safe so long as the input is not mutated concurrently.
 // edge note 138: Runs in a single pass over the input.
+// edge note 139: Edge case: all-equal input → linear-time fast path.
