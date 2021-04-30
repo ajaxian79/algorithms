@@ -995,3 +995,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 249
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 250
+
+Interval DP: solve all `[l, r]` ranges from short to long.
