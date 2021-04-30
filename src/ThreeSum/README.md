@@ -1481,3 +1481,7 @@ Worst case appears only on degenerate inputs.
 ## entry 355
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 356
+
+Edge case: input of all the same byte → exits on the first compare.
