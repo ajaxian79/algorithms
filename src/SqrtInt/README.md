@@ -1499,3 +1499,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 360
 
 Worst case appears only on degenerate inputs.
+
+## entry 361
+
+Edge case: integer-max input → guarded by the explicit overflow check.
