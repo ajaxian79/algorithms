@@ -1506,3 +1506,7 @@ Time complexity: O(n log n).
 ## entry 362
 
 Three passes total; the third merges results.
+
+## entry 363
+
+No allocations on the hot path.
