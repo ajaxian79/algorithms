@@ -1015,3 +1015,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 236
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 237
+
+Greedy by end-time picks the most non-overlapping intervals.
