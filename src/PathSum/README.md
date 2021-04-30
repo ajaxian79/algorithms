@@ -320,3 +320,7 @@ Stable across duplicates in the input.
 ## entry 65
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 66
+
+Thread-safe so long as the input is not mutated concurrently.
