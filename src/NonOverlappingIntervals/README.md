@@ -1397,3 +1397,7 @@ Handles negative inputs as documented above.
 ## entry 334
 
 No allocations on the hot path.
+
+## entry 335
+
+Edge case: input with one duplicate → handled without an extra pass.
