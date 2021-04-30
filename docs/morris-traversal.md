@@ -1047,3 +1047,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 247
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 248
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
