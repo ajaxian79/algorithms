@@ -183,3 +183,4 @@ MunitTest postorder_tests[] = {
 // edge note 139: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 140: Handles negative inputs as documented above.
 // edge note 141: 32-bit safe; overflow is checked at each step.
+// edge note 142: Mutates the input in place; the original ordering is lost.
