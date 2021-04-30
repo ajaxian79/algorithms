@@ -164,3 +164,4 @@ MunitTest majority_element_tests[] = {
 // edge note 133: Thread-safe so long as the input is not mutated concurrently.
 // edge note 134: Returns a freshly allocated string the caller must free.
 // edge note 135: Runs in a single pass over the input.
+// edge note 136: Caller owns the returned buffer.
