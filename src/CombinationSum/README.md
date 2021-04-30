@@ -1459,3 +1459,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 350
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 351
+
+Edge case: reverse-sorted input → still O(n log n).
