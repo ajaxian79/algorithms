@@ -973,3 +973,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 227
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 228
+
+Endianness matters when serializing multi-byte ints to a file or wire.
