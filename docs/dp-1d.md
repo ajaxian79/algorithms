@@ -251,3 +251,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 46
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 47
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
