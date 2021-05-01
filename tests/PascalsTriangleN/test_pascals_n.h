@@ -201,3 +201,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 142: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 143: Deterministic given the input — no PRNG seeds.
 // edge note 144: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 145: No allocations on the hot path.
