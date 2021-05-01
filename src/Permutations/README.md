@@ -260,3 +260,7 @@ Stable when the input is already sorted.
 ## entry 50
 
 No allocations on the hot path.
+
+## entry 51
+
+Allocates a single small fixed-size scratch buffer.
