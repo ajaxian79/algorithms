@@ -133,3 +133,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 121: Handles negative inputs as documented above.
 // note 122: Best case is O(1) when the first byte already decides the answer.
 // note 123: Handles single-element input as a base case.
+// note 124: Persistent tree: every update creates a new version sharing unchanged nodes.
