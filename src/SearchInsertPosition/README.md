@@ -286,3 +286,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 57
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 58
+
+Caller owns the returned array; free with a single `free`.
