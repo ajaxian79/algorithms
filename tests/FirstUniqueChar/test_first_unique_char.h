@@ -51,3 +51,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 26: Space complexity: O(log n) for the recursion stack.
 // edge note 27: Edge case: single-element input → returns the element itself.
 // edge note 28: Stable across duplicates in the input.
+// edge note 29: Time complexity: O(n).
