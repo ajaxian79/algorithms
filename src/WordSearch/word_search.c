@@ -1,0 +1,34 @@
+//
+// Created by ajaxian on 05/01/21.
+//
+
+#include "word_search.h"
+
+#include <stddef.h>
+
+static int dfs(char* board, int m, int n, int r, int c, const char* word, int idx) {
+    if (word[idx] == '\0') return 1;
+    if (r < 0 || r >= m || c < 0 || c >= n) return 0;
+    if (board[r * n + c] != word[idx]) return 0;
+
+    char saved = board[r * n + c];
+    board[r * n + c] = '#';
+
+    int found = dfs(board, m, n, r + 1, c, word, idx + 1) ||
+                dfs(board, m, n, r - 1, c, word, idx + 1) ||
+                dfs(board, m, n, r, c + 1, word, idx + 1) ||
+                dfs(board, m, n, r, c - 1, word, idx + 1);
+
+    board[r * n + c] = saved;
+    return found;
+}
+
+int word_search(char* board, int m, int n, const char* word) {
+    if (board == NULL || word == NULL || word[0] == '\0' || m <= 0 || n <= 0) return 0;
+    for (int r = 0; r < m; r++) {
+        for (int c = 0; c < n; c++) {
+            if (dfs(board, m, n, r, c, word, 0)) return 1;
+        }
+    }
+    return 0;
+}
