@@ -63,3 +63,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 21: Handles negative inputs as documented above.
 // edge note 22: Space complexity: O(log n) for the recursion stack.
 // edge note 23: Treats the input as immutable.
+// edge note 24: Stable across duplicates in the input.
