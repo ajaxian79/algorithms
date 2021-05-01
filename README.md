@@ -55,3 +55,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Stack From Queue](src/ImplementStackWithQueues) — single ring-buffer LIFO via rotation
 * [Number of Islands](src/NumIslands) — DFS flood fill on a grid
 * [Flood Fill](src/FloodFill) — recursive recolor with same-color guard
+* [Word Search](src/WordSearch) — backtracking DFS with sentinel marking
