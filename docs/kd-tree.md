@@ -1043,3 +1043,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 261
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 262
+
+Interval DP: solve all `[l, r]` ranges from short to long.
