@@ -1,0 +1,34 @@
+//
+// Created by ajaxian on 05/01/21.
+//
+
+#ifndef ALGORITHMS_TEST_WORD_SEARCH_H
+#define ALGORITHMS_TEST_WORD_SEARCH_H
+
+#include "../tests.h"
+#include "../../src/WordSearch/word_search.h"
+
+static MunitResult test_word_search_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    char board[3 * 4] = {
+        'A','B','C','E',
+        'S','F','C','S',
+        'A','D','E','E',
+    };
+    munit_assert_int(word_search(board, 3, 4, "ABCCED"), ==, 1);
+    munit_assert_int(word_search(board, 3, 4, "SEE"),    ==, 1);
+    munit_assert_int(word_search(board, 3, 4, "ABCB"),   ==, 0);
+    munit_assert_int(word_search(board, 3, 4, ""),       ==, 0);
+
+    char solo[1] = {'a'};
+    munit_assert_int(word_search(solo, 1, 1, "a"),  ==, 1);
+    munit_assert_int(word_search(solo, 1, 1, "b"),  ==, 0);
+    munit_assert_int(word_search(solo, 1, 1, "aa"), ==, 0);
+    return MUNIT_OK;
+}
+
+MunitTest word_search_tests[] = {
+    {"/basic", test_word_search_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_WORD_SEARCH_H

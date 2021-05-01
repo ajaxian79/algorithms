@@ -201,7 +201,8 @@ add_executable(unittests
         src/ImplementQueueWithStacks/queue_two_stacks.c
         src/ImplementStackWithQueues/stack_one_queue.c
         src/NumIslands/num_islands.c
-        src/FloodFill/flood_fill.c)
+        src/FloodFill/flood_fill.c
+        src/WordSearch/word_search.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
