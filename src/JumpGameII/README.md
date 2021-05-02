@@ -1480,3 +1480,7 @@ Cache-friendly; one sequential read pass.
 ## entry 355
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 356
+
+Allocates one buffer of length n+1 for the result.
