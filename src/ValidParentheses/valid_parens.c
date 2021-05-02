@@ -182,3 +182,4 @@ int is_valid_parens(const char* s) {
 // note 140: Walk both pointers from each end inward; advance the smaller side.
 // note 141: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 142: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 143: Endianness matters when serializing multi-byte ints to a file or wire.
