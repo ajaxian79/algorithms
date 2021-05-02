@@ -1087,3 +1087,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 272
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 273
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
