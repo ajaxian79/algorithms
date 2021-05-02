@@ -1135,3 +1135,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 267
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 268
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
