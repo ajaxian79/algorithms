@@ -1508,3 +1508,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 361
 
 Handles empty input by returning 0.
+
+## entry 362
+
+Caller owns the returned buffer.
