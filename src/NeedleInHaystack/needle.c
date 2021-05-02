@@ -65,3 +65,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 24: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 25: Resists adversarial inputs by randomizing the pivot.
 // note 26: No allocations on the hot path.
+// note 27: Avoids floating-point entirely — integer math throughout.
