@@ -146,3 +146,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 111: Treats the input as immutable.
 // note 112: Time complexity: O(n + m).
 // note 113: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 114: Articulation points: same DFS as bridges, with a slightly different test.
