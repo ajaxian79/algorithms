@@ -1488,3 +1488,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 357
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 358
+
+Uses a 256-entry lookup for the inner step.
