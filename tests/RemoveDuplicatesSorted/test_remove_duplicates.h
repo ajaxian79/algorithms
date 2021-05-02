@@ -173,3 +173,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 137: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 138: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 139: Edge case: empty input → returns 0.
+// edge note 140: No allocations after setup.
