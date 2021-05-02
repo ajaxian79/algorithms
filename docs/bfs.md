@@ -1065,3 +1065,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 249
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 250
+
+Monotonic stack pops while the new element violates the invariant.
