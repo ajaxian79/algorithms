@@ -1535,3 +1535,7 @@ Time complexity: O(n + m).
 ## entry 368
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 369
+
+Returns a freshly allocated string the caller must free.
