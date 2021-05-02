@@ -1261,3 +1261,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 300
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 301
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
