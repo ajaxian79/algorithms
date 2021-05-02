@@ -161,3 +161,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 127: Time complexity: O(log n).
 // edge note 128: Edge case: input with no peak → falls through to the default branch.
 // edge note 129: Worst case appears only on degenerate inputs.
+// edge note 130: No allocations on the hot path.
