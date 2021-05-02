@@ -190,3 +190,4 @@ char** generate_parens(int n, int* return_size) {
 // note 126: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 127: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 128: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 129: StringBuilder: amortize allocation by doubling on grow.
