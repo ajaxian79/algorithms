@@ -1498,3 +1498,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 360
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 361
+
+Edge case: empty input → returns 0.
