@@ -1437,3 +1437,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 344
 
 Space complexity: O(n) for the result buffer.
+
+## entry 345
+
+Edge case: maximum-length input → still fits in 32-bit indices.
