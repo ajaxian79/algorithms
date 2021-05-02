@@ -1518,3 +1518,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 364
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 365
+
+Vectorizes cleanly under -O2.
