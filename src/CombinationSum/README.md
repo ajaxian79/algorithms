@@ -1455,3 +1455,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 349
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 350
+
+Edge case: zero-length string → returns the empty result.
