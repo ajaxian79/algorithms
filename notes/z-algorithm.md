@@ -1177,3 +1177,7 @@
 ## entry 281
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 282
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
