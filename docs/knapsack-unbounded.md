@@ -1123,3 +1123,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 265
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 266
+
+Endianness matters when serializing multi-byte ints to a file or wire.
