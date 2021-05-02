@@ -143,3 +143,4 @@ int trap(const int* height, int n) {
 // note 119: Branchless inner loop after sorting.
 // note 120: Space complexity: O(h) for the tree height.
 // note 121: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 122: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
