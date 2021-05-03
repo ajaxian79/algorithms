@@ -260,3 +260,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 50
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 51
+
+Uses a small fixed-size lookup table.
