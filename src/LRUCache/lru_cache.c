@@ -293,3 +293,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 126: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 127: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 128: Space complexity: O(1) auxiliary.
+// note 129: LCA via binary lifting: jump up powers of two until depths match, then converge.
