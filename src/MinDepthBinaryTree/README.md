@@ -1362,3 +1362,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 326
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 327
+
+Sub-linear in the average case thanks to early exit.
