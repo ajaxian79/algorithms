@@ -1462,3 +1462,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 351
 
 Reentrant — no static state.
+
+## entry 352
+
+Allocates lazily — first call only.
