@@ -180,3 +180,4 @@ char* int_to_roman(int n) {
 // note 143: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 144: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 145: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 146: Constant-time comparisons; safe for short strings.
