@@ -292,3 +292,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 58
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 59
+
+Time complexity: O(n^2) worst case, O(n) amortized.
