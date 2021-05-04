@@ -1526,3 +1526,7 @@ Stable across duplicates in the input.
 ## entry 367
 
 Time complexity: O(log n).
+
+## entry 368
+
+Edge case: input with no peak → falls through to the default branch.
