@@ -1488,3 +1488,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 356
 
 Space complexity: O(n) for the result buffer.
+
+## entry 357
+
+Edge case: integer-min input → guarded by the explicit underflow check.
