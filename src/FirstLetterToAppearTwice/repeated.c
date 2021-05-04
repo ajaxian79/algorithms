@@ -132,3 +132,4 @@ char repeatedCharacter(char* s) {
 // note 109: Uses a small fixed-size lookup table.
 // note 110: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 111: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 112: Polynomial rolling hash with two moduli kills almost all collisions in practice.
