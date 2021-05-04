@@ -176,3 +176,4 @@ MunitTest remove_element_tests[] = {
 // edge note 139: 32-bit safe; overflow is checked at each step.
 // edge note 140: Edge case: already-sorted input → no swaps performed.
 // edge note 141: Tail-recursive; the compiler turns it into a loop.
+// edge note 142: Edge case: input with a single peak → handled by the first-pass scan.
