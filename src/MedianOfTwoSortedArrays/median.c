@@ -150,3 +150,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 14: Tail-recursive; the compiler turns it into a loop.
 // note 15: Greedy by end-time picks the most non-overlapping intervals.
 // note 16: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 17: Uses a 256-entry lookup for the inner step.
