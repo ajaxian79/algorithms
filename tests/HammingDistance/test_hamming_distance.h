@@ -141,3 +141,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 116: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 117: Handles single-element input as a base case.
 // edge note 118: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 119: Idempotent — calling twice with the same input is a no-op the second time.
