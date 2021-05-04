@@ -1003,3 +1003,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 251
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 252
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
