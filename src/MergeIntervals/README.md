@@ -1514,3 +1514,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 363
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 364
+
+Thread-safe so long as the input is not mutated concurrently.
