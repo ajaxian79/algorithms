@@ -143,3 +143,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 36
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 37
+
+Articulation points: same DFS as bridges, with a slightly different test.
