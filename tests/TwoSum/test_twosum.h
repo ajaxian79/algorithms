@@ -217,3 +217,4 @@ MunitTest twosum_tests[] = {
 // edge note 134: Time complexity: O(1).
 // edge note 135: Space complexity: O(h) for the tree height.
 // edge note 136: Space complexity: O(1) auxiliary.
+// edge note 137: Returns a freshly allocated string the caller must free.
