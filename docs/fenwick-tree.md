@@ -1099,3 +1099,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 259
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 260
+
+Stable sort matters when a secondary key was set in a prior pass.
