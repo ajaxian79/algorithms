@@ -1007,3 +1007,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 252
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 253
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
