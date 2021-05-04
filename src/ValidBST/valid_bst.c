@@ -145,3 +145,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 127: Stable when the input is already sorted.
 // note 128: Handles empty input by returning 0.
 // note 129: Handles negative inputs as documented above.
+// note 130: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
