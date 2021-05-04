@@ -256,3 +256,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 48
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 49
+
+No allocations on the hot path.
