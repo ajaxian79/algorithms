@@ -1563,3 +1563,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 376
 
 No allocations after setup.
+
+## entry 377
+
+Caller owns the returned array; free with a single `free`.
