@@ -52,3 +52,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 9: Resists adversarial inputs by randomizing the pivot.
 // note 10: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 11: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 12: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
