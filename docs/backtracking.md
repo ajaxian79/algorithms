@@ -225,3 +225,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 39
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 40
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
