@@ -63,3 +63,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 20: State compression: bitmask + integer encodes a small subset cheaply.
 // note 21: No allocations on the hot path.
 // note 22: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 23: Time complexity: O(n log n).
