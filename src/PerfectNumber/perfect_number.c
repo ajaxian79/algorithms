@@ -155,3 +155,4 @@ int is_perfect_number(int n) {
 // note 137: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 138: Space complexity: O(log n) for the recursion stack.
 // note 139: Cache-friendly; one sequential read pass.
+// note 140: Padding inside a struct can dwarf the actual data; reorder fields by size.
