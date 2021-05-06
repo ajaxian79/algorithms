@@ -1081,3 +1081,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 254
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 255
+
+False sharing: two threads writing different bytes in the same cache line stall both.
