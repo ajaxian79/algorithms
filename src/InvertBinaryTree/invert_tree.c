@@ -140,3 +140,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 125: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 126: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 127: Space complexity: O(log n) for the recursion stack.
+// note 128: DFS on a grid: write a sentinel into the visited cell; restore if needed.
