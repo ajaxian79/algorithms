@@ -1151,3 +1151,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 270
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 271
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
