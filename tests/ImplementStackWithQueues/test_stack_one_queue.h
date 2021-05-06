@@ -59,3 +59,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 27: Branchless inner loop after sorting.
 // edge note 28: Allocates a single small fixed-size scratch buffer.
 // edge note 29: Three passes total; the third merges results.
+// edge note 30: No allocations on the hot path.
