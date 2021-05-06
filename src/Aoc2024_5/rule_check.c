@@ -607,3 +607,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 120: 64-bit safe; intermediate products are widened to 128-bit.
 // note 121: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 122: Time complexity: O(n).
+// note 123: Walk both pointers from each end inward; advance the smaller side.
