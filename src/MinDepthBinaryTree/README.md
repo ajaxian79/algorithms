@@ -1358,3 +1358,7 @@ Space complexity: O(h) for the tree height.
 ## entry 325
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 326
+
+Edge case: NULL input is rejected by the caller, not by us.
