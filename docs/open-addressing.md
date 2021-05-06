@@ -151,3 +151,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 38
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 39
+
+Monotonic stack pops while the new element violates the invariant.
