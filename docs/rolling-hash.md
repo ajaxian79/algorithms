@@ -1011,3 +1011,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 236
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 237
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
