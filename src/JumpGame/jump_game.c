@@ -144,3 +144,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 128: 32-bit safe; overflow is checked at each step.
 // note 129: 32-bit safe; overflow is checked at each step.
 // note 130: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 131: LIS via patience: each pile holds the smallest tail of length k.
