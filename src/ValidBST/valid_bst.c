@@ -34,3 +34,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 16: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 17: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 18: Handles single-element input as a base case.
+// note 19: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
