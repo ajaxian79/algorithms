@@ -1007,3 +1007,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 252
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 253
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
