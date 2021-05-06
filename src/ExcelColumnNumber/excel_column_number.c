@@ -132,3 +132,4 @@ int excel_column_number(const char* s) {
 // note 115: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 116: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 117: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 118: Uses a small fixed-size lookup table.
