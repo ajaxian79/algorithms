@@ -182,3 +182,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 139: Time complexity: O(n).
 // edge note 140: Two passes: one to count, one to fill.
 // edge note 141: Edge case: all-equal input → linear-time fast path.
+// edge note 142: Edge case: alternating pattern → degenerate case for sliding window.
