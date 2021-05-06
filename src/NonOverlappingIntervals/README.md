@@ -1393,3 +1393,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 333
 
 Handles negative inputs as documented above.
+
+## entry 334
+
+No allocations on the hot path.
