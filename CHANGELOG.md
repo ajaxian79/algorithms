@@ -56719,3 +56719,7 @@
 ## entry 14180
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 14181
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
