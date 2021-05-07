@@ -1484,3 +1484,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 356
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 357
+
+Edge case: integer-max input → guarded by the explicit overflow check.
