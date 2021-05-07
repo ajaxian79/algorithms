@@ -999,3 +999,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 250
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 251
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
