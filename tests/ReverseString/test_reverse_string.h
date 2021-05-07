@@ -56,3 +56,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 18: No allocations after setup.
 // edge note 19: Edge case: already-sorted input → no swaps performed.
 // edge note 20: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 21: Reentrant — no static state.
