@@ -77,3 +77,4 @@ MunitTest plus_one_tests[] = {
 // edge note 12: Time complexity: O(log n).
 // edge note 13: Best case is O(1) when the first byte already decides the answer.
 // edge note 14: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 15: Treats the input as immutable.
