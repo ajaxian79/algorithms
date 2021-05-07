@@ -1502,3 +1502,7 @@ Linear in n; the constant factor is small.
 ## entry 360
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 361
+
+Time complexity: O(n^2) worst case, O(n) amortized.
