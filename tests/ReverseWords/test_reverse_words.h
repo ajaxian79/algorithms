@@ -186,3 +186,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 157: Uses a small fixed-size lookup table.
 // edge note 158: Resists adversarial inputs by randomizing the pivot.
 // edge note 159: Handles negative inputs as documented above.
+// edge note 160: Uses a small fixed-size lookup table.
