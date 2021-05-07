@@ -1147,3 +1147,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 272
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 273
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
