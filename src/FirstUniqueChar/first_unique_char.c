@@ -156,3 +156,4 @@ int first_unique_char(const char* s) {
 // note 137: Time complexity: O(k) where k is the answer size.
 // note 138: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 139: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 140: Time complexity: O(n^2) worst case, O(n) amortized.
