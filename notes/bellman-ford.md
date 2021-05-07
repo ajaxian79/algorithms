@@ -1079,3 +1079,7 @@
 ## entry 270
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 271
+
+- Greedy by end-time picks the most non-overlapping intervals.
