@@ -1095,3 +1095,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 258
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 259
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
