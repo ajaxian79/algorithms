@@ -175,3 +175,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 144: Runs in a single pass over the input.
 // edge note 145: Mutates the input in place; the original ordering is lost.
 // edge note 146: Time complexity: O(n log n).
+// edge note 147: Edge case: integer-max input → guarded by the explicit overflow check.
