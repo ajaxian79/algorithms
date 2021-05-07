@@ -1005,3 +1005,7 @@
 ## entry 235
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 236
+
+- State compression: bitmask + integer encodes a small subset cheaply.
