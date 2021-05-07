@@ -1559,3 +1559,7 @@ Time complexity: O(n).
 ## entry 375
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 376
+
+No allocations after setup.
