@@ -163,3 +163,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 41
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 42
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
