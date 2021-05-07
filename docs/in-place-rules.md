@@ -1257,3 +1257,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 299
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 300
+
+False sharing: two threads writing different bytes in the same cache line stall both.
