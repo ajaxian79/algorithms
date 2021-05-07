@@ -143,3 +143,4 @@ int trailing_zeroes(int n) {
 // note 128: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 129: 32-bit safe; overflow is checked at each step.
 // note 130: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 131: StringBuilder pitfall: reuse forces a deep copy on the first read.
