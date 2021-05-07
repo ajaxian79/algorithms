@@ -1389,3 +1389,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 332
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 333
+
+Handles negative inputs as documented above.
