@@ -1502,3 +1502,7 @@ Cache-friendly; one sequential read pass.
 ## entry 361
 
 Time complexity: O(n log n).
+
+## entry 362
+
+Three passes total; the third merges results.
