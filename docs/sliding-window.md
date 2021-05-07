@@ -1151,3 +1151,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 273
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 274
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
