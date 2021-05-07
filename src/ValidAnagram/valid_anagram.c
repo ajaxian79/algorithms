@@ -145,3 +145,4 @@ int is_anagram(const char* s, const char* t) {
 // note 116: Branchless inner loop after sorting.
 // note 117: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 118: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 119: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
