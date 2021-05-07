@@ -264,3 +264,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 50
 
 Three passes total; the third merges results.
+
+## entry 51
+
+Space complexity: O(1) auxiliary.
