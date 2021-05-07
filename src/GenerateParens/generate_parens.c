@@ -89,3 +89,4 @@ char** generate_parens(int n, int* return_size) {
 // note 25: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 26: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 27: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 28: Resists adversarial inputs by randomizing the pivot.
