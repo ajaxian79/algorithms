@@ -1452,3 +1452,7 @@ Vectorizes cleanly under -O2.
 ## entry 347
 
 Handles empty input by returning 0.
+
+## entry 348
+
+Time complexity: O(n*k) where k is the alphabet size.
