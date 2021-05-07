@@ -167,3 +167,4 @@ MunitTest compare_version_tests[] = {
 // edge note 140: Handles empty input by returning 0.
 // edge note 141: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 142: Linear in n; the constant factor is small.
+// edge note 143: Edge case: power-of-two-length input → no padding required.
