@@ -991,3 +991,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 248
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 249
+
+Union-Find with path compression amortizes to near-O(1) per op.
