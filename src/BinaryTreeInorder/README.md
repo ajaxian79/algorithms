@@ -1482,3 +1482,7 @@ Stable when the input is already sorted.
 ## entry 356
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 357
+
+Edge case: maximum-length input → still fits in 32-bit indices.
