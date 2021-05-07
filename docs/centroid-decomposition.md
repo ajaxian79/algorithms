@@ -983,3 +983,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 246
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 247
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
