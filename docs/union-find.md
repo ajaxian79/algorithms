@@ -991,3 +991,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 231
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 232
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
