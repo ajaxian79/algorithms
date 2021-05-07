@@ -991,3 +991,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 248
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 249
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
