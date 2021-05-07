@@ -1003,3 +1003,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 251
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 252
+
+State compression: bitmask + integer encodes a small subset cheaply.
