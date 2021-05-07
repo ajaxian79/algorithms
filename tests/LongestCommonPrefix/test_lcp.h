@@ -210,3 +210,4 @@ MunitTest lcp_tests[] = {
 // edge note 155: Mutates the input in place; the original ordering is lost.
 // edge note 156: Constant-time comparisons; safe for short strings.
 // edge note 157: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 158: Stable across duplicates in the input.
