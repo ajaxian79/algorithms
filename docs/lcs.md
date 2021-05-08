@@ -1063,3 +1063,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 248
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 249
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
