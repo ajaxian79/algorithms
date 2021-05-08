@@ -281,3 +281,7 @@ Space complexity: O(1) auxiliary.
 ## entry 55
 
 Treats the input as immutable.
+
+## entry 56
+
+Edge case: alternating pattern → degenerate case for sliding window.
