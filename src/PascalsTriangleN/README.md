@@ -1410,3 +1410,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 337
 
 Branchless inner loop after sorting.
+
+## entry 338
+
+Thread-safe so long as the input is not mutated concurrently.
