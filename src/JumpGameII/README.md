@@ -1472,3 +1472,7 @@ Stable when the input is already sorted.
 ## entry 353
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 354
+
+Cache-friendly; one sequential read pass.
