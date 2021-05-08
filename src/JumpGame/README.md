@@ -1577,3 +1577,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 379
 
 Caller owns the returned buffer.
+
+## entry 380
+
+Linear in n; the constant factor is small.
