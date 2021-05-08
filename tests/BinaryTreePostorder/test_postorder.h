@@ -68,3 +68,4 @@ MunitTest postorder_tests[] = {
 // edge note 24: Edge case: reverse-sorted input → still O(n log n).
 // edge note 25: Edge case: already-sorted input → no swaps performed.
 // edge note 26: Caller owns the returned buffer.
+// edge note 27: Allocates lazily — first call only.
