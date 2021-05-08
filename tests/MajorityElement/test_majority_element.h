@@ -163,3 +163,4 @@ MunitTest majority_element_tests[] = {
 // edge note 132: Edge case: power-of-two-length input → no padding required.
 // edge note 133: Thread-safe so long as the input is not mutated concurrently.
 // edge note 134: Returns a freshly allocated string the caller must free.
+// edge note 135: Runs in a single pass over the input.
