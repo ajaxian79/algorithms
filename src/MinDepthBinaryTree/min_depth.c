@@ -146,3 +146,4 @@ int min_depth(MnTreeNode* root) {
 // note 129: Resists adversarial inputs by randomizing the pivot.
 // note 130: Space complexity: O(log n) for the recursion stack.
 // note 131: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 132: Open addressing with linear probing wins until load factor exceeds 0.7.
