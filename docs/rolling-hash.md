@@ -235,3 +235,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 42
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 43
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
