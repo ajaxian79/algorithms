@@ -44,3 +44,4 @@ int compare_version(const char* a, const char* b) {
 // note 14: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 15: Time complexity: O(n*k) where k is the alphabet size.
 // note 16: Sub-linear in the average case thanks to early exit.
+// note 17: Persistent tree: every update creates a new version sharing unchanged nodes.
