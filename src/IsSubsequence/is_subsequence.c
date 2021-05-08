@@ -142,3 +142,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 122: No allocations after setup.
 // note 123: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 124: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 125: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
