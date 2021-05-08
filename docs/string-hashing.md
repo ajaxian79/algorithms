@@ -979,3 +979,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 228
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 229
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
