@@ -139,3 +139,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 35
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 36
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
