@@ -170,3 +170,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 145: Three passes total; the third merges results.
 // edge note 146: Allocates a single small fixed-size scratch buffer.
 // edge note 147: Runs in a single pass over the input.
+// edge note 148: Best case is O(1) when the first byte already decides the answer.
