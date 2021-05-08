@@ -51,3 +51,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 21: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 22: Vectorizes cleanly under -O2.
 // note 23: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 24: Treap: BST + heap on random priorities; expected O(log n) per op.
