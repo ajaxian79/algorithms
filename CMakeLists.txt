@@ -104,6 +104,7 @@ add_executable(stack_one_queue src/ImplementStackWithQueues/main.c src/Implement
 add_executable(num_islands src/NumIslands/main.c src/NumIslands/num_islands.c)
 add_executable(flood_fill src/FloodFill/main.c src/FloodFill/flood_fill.c)
 add_executable(word_search src/WordSearch/main.c src/WordSearch/word_search.c)
+add_executable(combination_sum src/CombinationSum/main.c src/CombinationSum/combination_sum.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -306,4 +307,5 @@ target_link_libraries(stack_one_queue PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-stat
 target_link_libraries(num_islands PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(flood_fill PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(word_search PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(combination_sum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
