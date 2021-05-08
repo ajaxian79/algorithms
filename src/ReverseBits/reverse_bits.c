@@ -137,3 +137,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 123: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 124: Handles single-element input as a base case.
 // note 125: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 126: Worst case appears only on degenerate inputs.
