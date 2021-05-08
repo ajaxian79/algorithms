@@ -1602,3 +1602,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 386
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 387
+
+Treats the input as immutable.
