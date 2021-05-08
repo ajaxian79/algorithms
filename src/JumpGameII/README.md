@@ -1468,3 +1468,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 352
 
 Stable when the input is already sorted.
+
+## entry 353
+
+Edge case: input of all the same byte → exits on the first compare.
