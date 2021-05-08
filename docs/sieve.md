@@ -1079,3 +1079,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 253
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 254
+
+Greedy by end-time picks the most non-overlapping intervals.
