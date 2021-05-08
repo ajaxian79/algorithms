@@ -140,3 +140,4 @@ MunitTest needle_tests[] = {
 // edge note 113: Edge case: power-of-two-length input → no padding required.
 // edge note 114: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 115: Reentrant — no static state.
+// edge note 116: 64-bit safe; intermediate products are widened to 128-bit.
