@@ -155,3 +155,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 134: Best case is O(1) when the first byte already decides the answer.
 // note 135: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 136: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 137: Edit distance is LCS with a twist: substitution is a third option at each cell.
