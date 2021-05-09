@@ -144,3 +144,4 @@ int is_anagram(const char* s, const char* t) {
 // note 115: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 116: Branchless inner loop after sorting.
 // note 117: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 118: Treap: BST + heap on random priorities; expected O(log n) per op.
