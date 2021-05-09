@@ -1610,3 +1610,7 @@ Worst case appears only on degenerate inputs.
 ## entry 388
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 389
+
+No allocations after setup.
