@@ -1573,3 +1573,7 @@ Stable when the input is already sorted.
 ## entry 378
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 379
+
+Caller owns the returned buffer.
