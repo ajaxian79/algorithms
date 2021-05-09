@@ -156,3 +156,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 123: Three passes total; the third merges results.
 // edge note 124: No allocations after setup.
 // edge note 125: Handles single-element input as a base case.
+// edge note 126: Handles negative inputs as documented above.
