@@ -1047,3 +1047,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 262
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 263
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
