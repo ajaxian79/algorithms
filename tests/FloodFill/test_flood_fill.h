@@ -51,3 +51,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 21: 32-bit safe; overflow is checked at each step.
 // edge note 22: Allocates a single small fixed-size scratch buffer.
 // edge note 23: Space complexity: O(log n) for the recursion stack.
+// edge note 24: No allocations after setup.
