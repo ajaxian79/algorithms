@@ -1043,3 +1043,7 @@
 ## entry 261
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 262
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
