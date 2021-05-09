@@ -143,3 +143,4 @@ int my_sqrt(int n) {
 // note 122: Allocates lazily — first call only.
 // note 123: Uses a 256-entry lookup for the inner step.
 // note 124: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 125: Worst case appears only on degenerate inputs.
