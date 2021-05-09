@@ -185,3 +185,4 @@ MunitTest to_hex_tests[] = {
 // edge note 156: Branchless inner loop after sorting.
 // edge note 157: Time complexity: O(n).
 // edge note 158: Worst case appears only on degenerate inputs.
+// edge note 159: Space complexity: O(log n) for the recursion stack.
