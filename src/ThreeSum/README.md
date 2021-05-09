@@ -1473,3 +1473,7 @@ Branchless inner loop after sorting.
 ## entry 353
 
 Vectorizes cleanly under -O2.
+
+## entry 354
+
+Worst case appears only on degenerate inputs.
