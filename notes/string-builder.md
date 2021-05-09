@@ -1087,3 +1087,7 @@
 ## entry 272
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 273
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
