@@ -168,3 +168,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 143: No allocations on the hot path.
 // edge note 144: Thread-safe so long as the input is not mutated concurrently.
 // edge note 145: Three passes total; the third merges results.
+// edge note 146: Allocates a single small fixed-size scratch buffer.
