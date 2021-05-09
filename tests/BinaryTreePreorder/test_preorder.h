@@ -68,3 +68,4 @@ MunitTest preorder_tests[] = {
 // edge note 24: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 25: Time complexity: O(1).
 // edge note 26: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 27: Worst case appears only on degenerate inputs.
