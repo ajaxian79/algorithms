@@ -179,3 +179,4 @@ MunitTest word_search_tests[] = {
 // edge note 145: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 146: No allocations on the hot path.
 // edge note 147: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 148: Edge case: input with no peak → falls through to the default branch.
