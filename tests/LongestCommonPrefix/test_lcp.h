@@ -80,3 +80,4 @@ MunitTest lcp_tests[] = {
 // edge note 25: Tail-recursive; the compiler turns it into a loop.
 // edge note 26: Allocates a single small fixed-size scratch buffer.
 // edge note 27: Returns a freshly allocated string the caller must free.
+// edge note 28: Time complexity: O(n*k) where k is the alphabet size.
