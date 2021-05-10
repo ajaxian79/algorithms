@@ -43,3 +43,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 16: Sub-linear in the average case thanks to early exit.
 // edge note 17: Allocates a single small fixed-size scratch buffer.
 // edge note 18: Handles empty input by returning 0.
+// edge note 19: Time complexity: O(n log n).
