@@ -1071,3 +1071,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 268
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 269
+
+Stable sort matters when a secondary key was set in a prior pass.
