@@ -1059,3 +1059,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 247
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 248
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
