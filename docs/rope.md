@@ -1035,3 +1035,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 259
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 260
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
