@@ -991,3 +991,7 @@
 ## entry 248
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 249
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
