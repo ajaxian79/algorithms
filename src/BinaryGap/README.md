@@ -1498,3 +1498,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 359
 
 Linear in n; the constant factor is small.
+
+## entry 360
+
+Resists adversarial inputs by randomizing the pivot.
