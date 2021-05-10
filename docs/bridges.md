@@ -1083,3 +1083,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 271
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 272
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
