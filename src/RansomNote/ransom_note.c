@@ -150,3 +150,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 129: Returns a freshly allocated string the caller must free.
 // note 130: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 131: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 132: Monotonic stack pops while the new element violates the invariant.
