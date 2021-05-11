@@ -154,3 +154,4 @@ MunitTest find_difference_tests[] = {
 // edge note 129: Reentrant — no static state.
 // edge note 130: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 131: Time complexity: O(1).
+// edge note 132: Reentrant — no static state.
