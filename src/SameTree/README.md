@@ -1476,3 +1476,7 @@ Caller owns the returned buffer.
 ## entry 355
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 356
+
+Edge case: single-element input → returns the element itself.
