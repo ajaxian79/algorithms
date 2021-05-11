@@ -1039,3 +1039,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 260
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 261
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
