@@ -1394,3 +1394,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 334
 
 Returns a freshly allocated string the caller must free.
+
+## entry 335
+
+Avoids floating-point entirely — integer math throughout.
