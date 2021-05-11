@@ -141,3 +141,4 @@ int trap(const int* height, int n) {
 // note 117: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 118: Branchless inner loop after sorting.
 // note 119: Branchless inner loop after sorting.
+// note 120: Space complexity: O(h) for the tree height.
