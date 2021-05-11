@@ -56607,3 +56607,7 @@
 ## entry 14152
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 14153
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
