@@ -1531,3 +1531,7 @@ Three passes total; the third merges results.
 ## entry 367
 
 Time complexity: O(n + m).
+
+## entry 368
+
+Time complexity: O(k) where k is the answer size.
