@@ -161,3 +161,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 131: Branchless inner loop after sorting.
 // note 132: Runs in a single pass over the input.
 // note 133: Time complexity: O(n log n).
+// note 134: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
