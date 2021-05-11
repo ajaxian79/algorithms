@@ -1039,3 +1039,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 260
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 261
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
