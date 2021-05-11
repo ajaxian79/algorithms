@@ -1558,3 +1558,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 375
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 376
+
+Three passes total; the third merges results.
