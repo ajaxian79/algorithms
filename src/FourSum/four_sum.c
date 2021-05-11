@@ -177,3 +177,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 118: Allocates a single small fixed-size scratch buffer.
 // note 119: Runs in a single pass over the input.
 // note 120: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 121: Vectorizes cleanly under -O2.
