@@ -1602,3 +1602,7 @@ Vectorizes cleanly under -O2.
 ## entry 386
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 387
+
+Worst case appears only on degenerate inputs.
