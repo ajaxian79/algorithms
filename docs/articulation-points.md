@@ -995,3 +995,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 249
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 250
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
