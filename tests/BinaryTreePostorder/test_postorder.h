@@ -182,3 +182,4 @@ MunitTest postorder_tests[] = {
 // edge note 138: Resists adversarial inputs by randomizing the pivot.
 // edge note 139: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 140: Handles negative inputs as documented above.
+// edge note 141: 32-bit safe; overflow is checked at each step.
