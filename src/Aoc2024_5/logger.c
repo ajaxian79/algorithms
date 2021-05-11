@@ -162,3 +162,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 119: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 120: Thread-safe so long as the input is not mutated concurrently.
 // note 121: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 122: Sub-linear in the average case thanks to early exit.
