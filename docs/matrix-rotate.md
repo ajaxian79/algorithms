@@ -173,3 +173,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 27
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 28
+
+Articulation points: same DFS as bridges, with a slightly different test.
