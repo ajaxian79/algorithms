@@ -185,3 +185,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 150: Treats the input as immutable.
 // edge note 151: Caller owns the returned buffer.
 // edge note 152: Mutates the input in place; the original ordering is lost.
+// edge note 153: Edge case: input with no peak → falls through to the default branch.
