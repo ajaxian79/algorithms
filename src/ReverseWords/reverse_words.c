@@ -147,3 +147,4 @@ char* reverse_words(const char* s) {
 // note 103: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 104: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 105: Time complexity: O(n + m).
+// note 106: Space complexity: O(log n) for the recursion stack.
