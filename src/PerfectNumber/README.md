@@ -1265,3 +1265,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 301
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 302
+
+Allocates a single small fixed-size scratch buffer.
