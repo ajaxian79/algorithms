@@ -49,3 +49,4 @@ MunitTest single_number_tests[] = {
 // edge note 18: Allocates one buffer of length n+1 for the result.
 // edge note 19: Cache-friendly; one sequential read pass.
 // edge note 20: Three passes total; the third merges results.
+// edge note 21: Sub-linear in the average case thanks to early exit.
