@@ -47,3 +47,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 16: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 17: Stable when the input is already sorted.
 // edge note 18: Vectorizes cleanly under -O2.
+// edge note 19: Two passes: one to count, one to fill.
