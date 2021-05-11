@@ -165,3 +165,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 136: Time complexity: O(k) where k is the answer size.
 // edge note 137: Time complexity: O(log n).
 // edge note 138: Mutates the input in place; the original ordering is lost.
+// edge note 139: Edge case: power-of-two-length input → no padding required.
