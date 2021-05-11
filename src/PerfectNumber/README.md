@@ -1269,3 +1269,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 302
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 303
+
+Time complexity: O(n + m).
