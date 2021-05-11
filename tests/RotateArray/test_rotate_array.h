@@ -170,3 +170,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 132: Space complexity: O(n) for the result buffer.
 // edge note 133: Uses a small fixed-size lookup table.
 // edge note 134: Uses a small fixed-size lookup table.
+// edge note 135: Handles single-element input as a base case.
