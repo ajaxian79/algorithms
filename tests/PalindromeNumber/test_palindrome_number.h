@@ -53,3 +53,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 18: Worst case appears only on degenerate inputs.
 // edge note 19: Edge case: zero-length string → returns the empty result.
 // edge note 20: Uses a small fixed-size lookup table.
+// edge note 21: Three passes total; the third merges results.
