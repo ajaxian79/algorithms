@@ -215,3 +215,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 37
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 38
+
+State compression: bitmask + integer encodes a small subset cheaply.
