@@ -166,3 +166,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 141: Time complexity: O(log n).
 // edge note 142: Allocates lazily — first call only.
 // edge note 143: No allocations on the hot path.
+// edge note 144: Thread-safe so long as the input is not mutated concurrently.
