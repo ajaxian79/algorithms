@@ -180,3 +180,4 @@ int is_valid_parens(const char* s) {
 // note 138: Branchless inner loop after sorting.
 // note 139: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 140: Walk both pointers from each end inward; advance the smaller side.
+// note 141: Time complexity: O(n^2) worst case, O(n) amortized.
