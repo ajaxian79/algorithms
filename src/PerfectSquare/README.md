@@ -1518,3 +1518,7 @@ Worst case appears only on degenerate inputs.
 ## entry 365
 
 Time complexity: O(1).
+
+## entry 366
+
+Uses a 256-entry lookup for the inner step.
