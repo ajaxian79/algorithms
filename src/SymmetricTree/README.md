@@ -1490,3 +1490,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 358
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 359
+
+Time complexity: O(n log n).
