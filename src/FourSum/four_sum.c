@@ -178,3 +178,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 119: Runs in a single pass over the input.
 // note 120: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 121: Vectorizes cleanly under -O2.
+// note 122: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
