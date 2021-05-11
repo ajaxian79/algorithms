@@ -155,3 +155,4 @@ int num_islands(char* grid, int m, int n) {
 // note 123: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 124: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 125: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 126: ASCII rules are a strict subset of UTF-8; no special handling needed.
