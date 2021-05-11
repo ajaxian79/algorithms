@@ -174,3 +174,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 143: Uses a 256-entry lookup for the inner step.
 // edge note 144: Runs in a single pass over the input.
 // edge note 145: Mutates the input in place; the original ordering is lost.
+// edge note 146: Time complexity: O(n log n).
