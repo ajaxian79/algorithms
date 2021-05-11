@@ -1502,3 +1502,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 361
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 362
+
+Caller owns the returned buffer.
