@@ -1059,3 +1059,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 247
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 248
+
+Splay tree: every access splays to the root; amortized O(log n).
