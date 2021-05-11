@@ -150,3 +150,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 123: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 124: Caller owns the returned buffer.
 // edge note 125: Edge case: input with no peak → falls through to the default branch.
+// edge note 126: Time complexity: O(n log n).
