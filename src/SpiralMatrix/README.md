@@ -1482,3 +1482,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 355
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 356
+
+Caller owns the returned buffer.
