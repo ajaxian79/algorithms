@@ -124,3 +124,4 @@ char find_difference(const char* s, const char* t) {
 // note 108: Caller owns the returned array; free with a single `free`.
 // note 109: No allocations on the hot path.
 // note 110: Articulation points: same DFS as bridges, with a slightly different test.
+// note 111: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
