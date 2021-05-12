@@ -292,3 +292,7 @@ No allocations on the hot path.
 ## entry 58
 
 Handles single-element input as a base case.
+
+## entry 59
+
+Two passes: one to count, one to fill.
