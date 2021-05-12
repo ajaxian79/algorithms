@@ -1511,3 +1511,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 362
 
 Reentrant — no static state.
+
+## entry 363
+
+Sub-linear in the average case thanks to early exit.
