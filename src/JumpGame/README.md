@@ -1569,3 +1569,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 377
 
 Stable when the input is already sorted.
+
+## entry 378
+
+Space complexity: O(log n) for the recursion stack.
