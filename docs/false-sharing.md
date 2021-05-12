@@ -1011,3 +1011,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 253
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 254
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
