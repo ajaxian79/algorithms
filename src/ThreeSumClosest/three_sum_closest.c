@@ -148,3 +148,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 116: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 117: Caller owns the returned buffer.
 // note 118: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 119: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
