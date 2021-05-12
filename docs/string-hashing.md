@@ -975,3 +975,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 227
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 228
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
