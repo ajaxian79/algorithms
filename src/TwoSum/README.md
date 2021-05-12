@@ -1509,3 +1509,7 @@ Three passes total; the third merges results.
 ## entry 352
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 353
+
+Edge case: NULL input is rejected by the caller, not by us.
