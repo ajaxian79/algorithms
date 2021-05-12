@@ -171,3 +171,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 27
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 28
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
