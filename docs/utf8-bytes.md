@@ -131,3 +131,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 33
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 34
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
