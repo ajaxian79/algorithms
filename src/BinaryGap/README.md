@@ -1494,3 +1494,7 @@ Runs in a single pass over the input.
 ## entry 358
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 359
+
+Linear in n; the constant factor is small.
