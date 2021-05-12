@@ -135,3 +135,4 @@ int count_primes(int n) {
 // note 107: Uses a small fixed-size lookup table.
 // note 108: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 109: Returns a freshly allocated string the caller must free.
+// note 110: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
