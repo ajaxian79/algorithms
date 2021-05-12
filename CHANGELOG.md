@@ -8147,3 +8147,7 @@
 ## entry 2037
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 2038
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
