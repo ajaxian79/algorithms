@@ -237,3 +237,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 45
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 46
+
+Articulation points: same DFS as bridges, with a slightly different test.
