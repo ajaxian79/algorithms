@@ -1390,3 +1390,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 333
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 334
+
+Returns a freshly allocated string the caller must free.
