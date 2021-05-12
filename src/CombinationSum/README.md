@@ -315,3 +315,7 @@ Two passes: one to count, one to fill.
 ## entry 64
 
 Time complexity: O(n).
+
+## entry 65
+
+Edge case: all-equal input → linear-time fast path.
