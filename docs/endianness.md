@@ -1055,3 +1055,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 264
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 265
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
