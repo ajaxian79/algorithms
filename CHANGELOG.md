@@ -8139,3 +8139,7 @@
 ## entry 2035
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 2036
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
