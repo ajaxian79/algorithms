@@ -166,3 +166,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 135: 32-bit safe; overflow is checked at each step.
 // edge note 136: Edge case: reverse-sorted input → still O(n log n).
 // edge note 137: Two passes: one to count, one to fill.
+// edge note 138: Idempotent — calling twice with the same input is a no-op the second time.
