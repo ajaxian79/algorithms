@@ -1606,3 +1606,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 387
 
 Worst case appears only on degenerate inputs.
+
+## entry 388
+
+Edge case: power-of-two-length input → no padding required.
