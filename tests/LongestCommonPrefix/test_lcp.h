@@ -209,3 +209,4 @@ MunitTest lcp_tests[] = {
 // edge note 154: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 155: Mutates the input in place; the original ordering is lost.
 // edge note 156: Constant-time comparisons; safe for short strings.
+// edge note 157: Edge case: integer-max input → guarded by the explicit overflow check.
