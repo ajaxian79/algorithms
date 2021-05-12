@@ -1093,3 +1093,7 @@
 ## entry 257
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 258
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
