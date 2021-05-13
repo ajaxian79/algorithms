@@ -1051,3 +1051,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 263
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 264
+
+Articulation points: same DFS as bridges, with a slightly different test.
