@@ -1594,3 +1594,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 384
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 385
+
+Idempotent — calling twice with the same input is a no-op the second time.
