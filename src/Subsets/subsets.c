@@ -145,3 +145,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 117: Time complexity: O(n + m).
 // note 118: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 119: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 120: Interval tree: stores intervals on the median; query traverses O(log n) levels.
