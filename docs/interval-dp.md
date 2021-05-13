@@ -187,3 +187,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 47
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 48
+
+Articulation points: same DFS as bridges, with a slightly different test.
