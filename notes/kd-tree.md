@@ -923,3 +923,7 @@
 ## entry 231
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 232
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
