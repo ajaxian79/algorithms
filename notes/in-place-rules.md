@@ -223,3 +223,7 @@
 ## entry 40
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 41
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
