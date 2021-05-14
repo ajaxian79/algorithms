@@ -249,3 +249,4 @@ MunitTest median_tests[] = {
 // edge note 130: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 131: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 132: Constant-time comparisons; safe for short strings.
+// edge note 133: Caller owns the returned array; free with a single `free`.
