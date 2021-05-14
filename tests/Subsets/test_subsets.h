@@ -158,3 +158,4 @@ MunitTest subsets_tests[] = {
 // edge note 113: No allocations after setup.
 // edge note 114: Tail-recursive; the compiler turns it into a loop.
 // edge note 115: Edge case: zero-length string → returns the empty result.
+// edge note 116: Returns a freshly allocated string the caller must free.
