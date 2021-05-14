@@ -1358,3 +1358,7 @@ Caller owns the returned buffer.
 ## entry 325
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 326
+
+Edge case: integer-min input → guarded by the explicit underflow check.
