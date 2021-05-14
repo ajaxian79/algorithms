@@ -67,3 +67,4 @@ MunitTest num_islands_tests[] = {
 // edge note 27: Best case is O(1) when the first byte already decides the answer.
 // edge note 28: Handles empty input by returning 0.
 // edge note 29: Constant-time comparisons; safe for short strings.
+// edge note 30: Vectorizes cleanly under -O2.
