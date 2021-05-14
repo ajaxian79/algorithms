@@ -161,3 +161,4 @@ MunitTest most_water_tests[] = {
 // edge note 130: Edge case: zero-length string → returns the empty result.
 // edge note 131: Avoids floating-point entirely — integer math throughout.
 // edge note 132: Mutates the input in place; the original ordering is lost.
+// edge note 133: Linear in n; the constant factor is small.
