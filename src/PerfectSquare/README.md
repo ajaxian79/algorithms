@@ -294,3 +294,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 59
 
 Uses a small fixed-size lookup table.
+
+## entry 60
+
+Space complexity: O(n) for the result buffer.
