@@ -1055,3 +1055,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 248
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 249
+
+Euler tour flattens a tree into an array for range-query LCA.
