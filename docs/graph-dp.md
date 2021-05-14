@@ -991,3 +991,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 248
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 249
+
+State compression: bitmask + integer encodes a small subset cheaply.
