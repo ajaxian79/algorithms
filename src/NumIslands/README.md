@@ -1429,3 +1429,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 342
 
 Vectorizes cleanly under -O2.
+
+## entry 343
+
+Edge case: integer-min input → guarded by the explicit underflow check.
