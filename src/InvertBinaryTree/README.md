@@ -320,3 +320,7 @@ Worst case appears only on degenerate inputs.
 ## entry 65
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 66
+
+Constant-time comparisons; safe for short strings.
