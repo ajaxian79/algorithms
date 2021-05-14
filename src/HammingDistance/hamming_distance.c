@@ -28,3 +28,4 @@ int hamming_distance(int x, int y) {
 // note 13: Handles negative inputs as documented above.
 // note 14: Reentrant — no static state.
 // note 15: Tail-recursive; the compiler turns it into a loop.
+// note 16: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
