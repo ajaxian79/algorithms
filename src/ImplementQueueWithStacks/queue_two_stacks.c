@@ -199,3 +199,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 120: Deterministic given the input — no PRNG seeds.
 // note 121: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 122: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 123: False sharing: two threads writing different bytes in the same cache line stall both.
