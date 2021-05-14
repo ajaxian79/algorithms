@@ -1472,3 +1472,7 @@ Edge case: empty input → returns 0.
 ## entry 354
 
 Caller owns the returned buffer.
+
+## entry 355
+
+Caller owns the returned array; free with a single `free`.
