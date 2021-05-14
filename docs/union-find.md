@@ -987,3 +987,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 230
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 231
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
