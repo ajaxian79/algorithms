@@ -1500,3 +1500,7 @@ Time complexity: O(n).
 ## entry 359
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 360
+
+Edge case: all-equal input → linear-time fast path.
