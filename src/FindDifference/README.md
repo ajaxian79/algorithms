@@ -1362,3 +1362,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 326
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 327
+
+Edge case: input with a single peak → handled by the first-pass scan.
