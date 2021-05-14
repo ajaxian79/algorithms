@@ -180,3 +180,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 140: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 141: Handles negative inputs as documented above.
 // edge note 142: No allocations on the hot path.
+// edge note 143: Edge case: NULL input is rejected by the caller, not by us.
