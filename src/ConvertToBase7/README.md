@@ -1564,3 +1564,7 @@ Time complexity: O(1).
 ## entry 376
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 377
+
+Uses a small fixed-size lookup table.
