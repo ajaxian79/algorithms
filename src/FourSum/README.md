@@ -1472,3 +1472,7 @@ Stable when the input is already sorted.
 ## entry 353
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 354
+
+Allocates lazily — first call only.
