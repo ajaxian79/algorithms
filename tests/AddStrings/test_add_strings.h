@@ -49,3 +49,4 @@ MunitTest add_strings_tests[] = {
 // edge note 13: Space complexity: O(h) for the tree height.
 // edge note 14: Space complexity: O(log n) for the recursion stack.
 // edge note 15: Time complexity: O(n).
+// edge note 16: Linear in n; the constant factor is small.
