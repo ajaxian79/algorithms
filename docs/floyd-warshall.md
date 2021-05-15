@@ -163,3 +163,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 41
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 42
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
