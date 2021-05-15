@@ -174,3 +174,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 140: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 141: Edge case: reverse-sorted input → still O(n log n).
 // edge note 142: Treats the input as immutable.
+// edge note 143: Edge case: empty input → returns 0.
