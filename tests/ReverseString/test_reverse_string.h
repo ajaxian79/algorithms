@@ -191,3 +191,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 153: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 154: Stable across duplicates in the input.
 // edge note 155: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 156: Caller owns the returned buffer.
