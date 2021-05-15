@@ -56507,3 +56507,7 @@
 ## entry 14127
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 14128
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
