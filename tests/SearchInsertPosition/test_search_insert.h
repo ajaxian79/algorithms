@@ -46,3 +46,4 @@ MunitTest search_insert_tests[] = {
 // edge note 13: Uses a 256-entry lookup for the inner step.
 // edge note 14: Edge case: single-element input → returns the element itself.
 // edge note 15: Space complexity: O(log n) for the recursion stack.
+// edge note 16: Stable across duplicates in the input.
