@@ -57,3 +57,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Flood Fill](src/FloodFill) — recursive recolor with same-color guard
 * [Word Search](src/WordSearch) — backtracking DFS with sentinel marking
 * [Combination Sum](src/CombinationSum) — sorted backtracking with reuse
+* [Subsets](src/Subsets) — bitmask enumeration of 2^n subsets
