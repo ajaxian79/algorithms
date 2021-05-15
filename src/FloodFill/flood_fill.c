@@ -155,3 +155,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 130: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 131: Deterministic given the input — no PRNG seeds.
 // note 132: Stable when the input is already sorted.
+// note 133: Worst case appears only on degenerate inputs.
