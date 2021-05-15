@@ -49,3 +49,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 20: Caller owns the returned array; free with a single `free`.
 // edge note 21: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 22: Edge case: empty input → returns 0.
+// edge note 23: No allocations on the hot path.
