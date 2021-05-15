@@ -99,6 +99,7 @@
 #include "FloodFill/test_flood_fill.h"
 #include "WordSearch/test_word_search.h"
 #include "CombinationSum/test_combination_sum.h"
+#include "Subsets/test_subsets.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -710,6 +711,12 @@ MunitSuite suites[] = {
         },{
                 "/combination_sum",
                 combination_sum_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/subsets",
+                subsets_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

@@ -1,0 +1,45 @@
+//
+// Created by ajaxian on 05/15/21.
+//
+
+#ifndef ALGORITHMS_TEST_SUBSETS_H
+#define ALGORITHMS_TEST_SUBSETS_H
+
+#include <stdlib.h>
+
+#include "../tests.h"
+#include "../../src/Subsets/subsets.h"
+
+static void sub_free(int** s, int* sizes, int n) {
+    for (int i = 0; i < n; i++) free(s[i]);
+    free(s);
+    free(sizes);
+}
+
+static MunitResult test_subsets_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    int a[] = {1, 2, 3};
+    int n = 0;
+    int* sizes = NULL;
+    int** s = subsets(a, 3, &n, &sizes);
+    munit_assert_int(n, ==, 8);
+    sub_free(s, sizes, n);
+
+    int b[] = {0};
+    s = subsets(b, 1, &n, &sizes);
+    munit_assert_int(n, ==, 2);
+    sub_free(s, sizes, n);
+
+    int c[1] = {0};
+    s = subsets(c, 0, &n, &sizes);
+    munit_assert_int(n, ==, 1);  // just the empty set
+    munit_assert_int(sizes[0], ==, 0);
+    sub_free(s, sizes, n);
+    return MUNIT_OK;
+}
+
+MunitTest subsets_tests[] = {
+    {"/basic", test_subsets_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_SUBSETS_H

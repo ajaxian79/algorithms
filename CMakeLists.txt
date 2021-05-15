@@ -205,7 +205,8 @@ add_executable(unittests
         src/NumIslands/num_islands.c
         src/FloodFill/flood_fill.c
         src/WordSearch/word_search.c
-        src/CombinationSum/combination_sum.c)
+        src/CombinationSum/combination_sum.c
+        src/Subsets/subsets.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
