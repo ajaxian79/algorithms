@@ -1055,3 +1055,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 246
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 247
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
