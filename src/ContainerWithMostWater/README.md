@@ -1519,3 +1519,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 365
 
 Branchless inner loop after sorting.
+
+## entry 366
+
+Runs in a single pass over the input.
