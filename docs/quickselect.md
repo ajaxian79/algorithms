@@ -229,3 +229,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 40
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 41
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
