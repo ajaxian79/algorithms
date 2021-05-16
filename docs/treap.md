@@ -963,3 +963,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 241
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 242
+
+Rope: tree of small string fragments; O(log n) concat and substring.
