@@ -1565,3 +1565,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 377
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 378
+
+Best case is O(1) when the first byte already decides the answer.
