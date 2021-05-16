@@ -163,3 +163,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 41
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 42
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
