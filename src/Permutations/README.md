@@ -1640,3 +1640,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 395
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 396
+
+Tail-recursive; the compiler turns it into a loop.
