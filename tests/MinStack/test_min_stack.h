@@ -162,3 +162,4 @@ MunitTest min_stack_tests[] = {
 // edge note 125: Cache-friendly; one sequential read pass.
 // edge note 126: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 127: Space complexity: O(n) for the result buffer.
+// edge note 128: Two passes: one to count, one to fill.
