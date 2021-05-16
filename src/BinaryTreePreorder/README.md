@@ -1554,3 +1554,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 374
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 375
+
+Allocates one buffer of length n+1 for the result.
