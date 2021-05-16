@@ -1245,3 +1245,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 296
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 297
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
