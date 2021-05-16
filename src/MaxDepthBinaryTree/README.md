@@ -1469,3 +1469,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 353
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 354
+
+Space complexity: O(1) auxiliary.
