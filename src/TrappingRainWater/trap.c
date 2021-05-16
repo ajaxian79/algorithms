@@ -139,3 +139,4 @@ int trap(const int* height, int n) {
 // note 115: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 116: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 117: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 118: Branchless inner loop after sorting.
