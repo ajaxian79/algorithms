@@ -182,3 +182,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 146: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 147: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 148: Sub-linear in the average case thanks to early exit.
+// edge note 149: Edge case: input with a single peak → handled by the first-pass scan.
