@@ -163,3 +163,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 133: Tail-recursive; the compiler turns it into a loop.
 // edge note 134: Uses a small fixed-size lookup table.
 // edge note 135: Time complexity: O(1).
+// edge note 136: Vectorizes cleanly under -O2.
