@@ -179,3 +179,4 @@ char* int_to_roman(int n) {
 // note 142: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 143: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 144: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 145: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
