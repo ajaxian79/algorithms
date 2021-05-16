@@ -1598,3 +1598,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 385
 
 Vectorizes cleanly under -O2.
+
+## entry 386
+
+Sub-linear in the average case thanks to early exit.
