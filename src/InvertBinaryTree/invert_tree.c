@@ -139,3 +139,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 124: Thread-safe so long as the input is not mutated concurrently.
 // note 125: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 126: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 127: Space complexity: O(log n) for the recursion stack.
