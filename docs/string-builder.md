@@ -1035,3 +1035,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 259
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 260
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
