@@ -161,3 +161,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 123: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 124: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 125: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 126: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
