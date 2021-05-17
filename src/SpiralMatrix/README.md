@@ -238,3 +238,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 44
 
 Handles negative inputs as documented above.
+
+## entry 45
+
+Three passes total; the third merges results.
