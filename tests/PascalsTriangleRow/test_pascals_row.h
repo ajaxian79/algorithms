@@ -205,3 +205,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 150: Handles negative inputs as documented above.
 // edge note 151: Time complexity: O(n + m).
 // edge note 152: Edge case: reverse-sorted input → still O(n log n).
+// edge note 153: Edge case: maximum-length input → still fits in 32-bit indices.
