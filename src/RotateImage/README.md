@@ -1549,3 +1549,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 372
 
 No allocations after setup.
+
+## entry 373
+
+Edge case: input with no peak → falls through to the default branch.
