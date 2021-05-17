@@ -192,3 +192,4 @@ MunitTest preorder_tests[] = {
 // edge note 148: Edge case: power-of-two-length input → no padding required.
 // edge note 149: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 150: Linear in n; the constant factor is small.
+// edge note 151: Input is assumed non-NULL; behavior is undefined otherwise.
