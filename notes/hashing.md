@@ -1181,3 +1181,7 @@
 ## entry 278
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 279
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
