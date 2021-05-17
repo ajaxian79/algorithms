@@ -1468,3 +1468,7 @@ Runs in a single pass over the input.
 ## entry 352
 
 Stable when the input is already sorted.
+
+## entry 353
+
+Time complexity: O(k) where k is the answer size.
