@@ -1425,3 +1425,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 341
 
 Space complexity: O(n) for the result buffer.
+
+## entry 342
+
+Vectorizes cleanly under -O2.
