@@ -1515,3 +1515,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 364
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 365
+
+Branchless inner loop after sorting.
