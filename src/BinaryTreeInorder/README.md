@@ -286,3 +286,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 57
 
 No allocations after setup.
+
+## entry 58
+
+Edge case: input with one duplicate → handled without an extra pass.
