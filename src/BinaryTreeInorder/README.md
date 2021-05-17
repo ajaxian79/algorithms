@@ -1478,3 +1478,7 @@ Stable when the input is already sorted.
 ## entry 355
 
 32-bit safe; overflow is checked at each step.
+
+## entry 356
+
+Caller owns the returned array; free with a single `free`.
