@@ -190,3 +190,4 @@ MunitTest plus_one_tests[] = {
 // edge note 125: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 126: Branchless inner loop after sorting.
 // edge note 127: Space complexity: O(h) for the tree height.
+// edge note 128: Edge case: maximum-length input → still fits in 32-bit indices.
