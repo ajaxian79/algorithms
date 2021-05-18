@@ -1073,3 +1073,7 @@
 ## entry 253
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 254
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
