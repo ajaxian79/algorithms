@@ -1498,3 +1498,7 @@ Caller owns the returned buffer.
 ## entry 360
 
 Cache-friendly; one sequential read pass.
+
+## entry 361
+
+Time complexity: O(n log n).
