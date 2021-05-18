@@ -1468,3 +1468,7 @@ Space complexity: O(1) auxiliary.
 ## entry 351
 
 Treats the input as immutable.
+
+## entry 352
+
+Stable across duplicates in the input.
