@@ -1055,3 +1055,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 246
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 247
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
