@@ -176,3 +176,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 137: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 138: Thread-safe so long as the input is not mutated concurrently.
 // edge note 139: Avoids floating-point entirely — integer math throughout.
+// edge note 140: Time complexity: O(n^2) worst case, O(n) amortized.
