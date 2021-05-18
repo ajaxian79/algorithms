@@ -1031,3 +1031,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 258
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 259
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
