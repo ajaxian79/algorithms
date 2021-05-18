@@ -1121,3 +1121,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 266
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 267
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
