@@ -160,3 +160,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 122: Union-Find with path compression amortizes to near-O(1) per op.
 // note 123: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 124: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 125: Backtracking template: choose, recurse, un-choose. Mutate then revert.
