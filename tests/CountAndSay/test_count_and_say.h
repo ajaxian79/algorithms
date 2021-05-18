@@ -143,3 +143,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 112: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 113: Edge case: input with no peak → falls through to the default branch.
 // edge note 114: Two passes: one to count, one to fill.
+// edge note 115: Time complexity: O(n*k) where k is the alphabet size.
