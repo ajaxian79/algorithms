@@ -1495,3 +1495,7 @@ Time complexity: O(n + m).
 ## entry 359
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 360
+
+Worst case appears only on degenerate inputs.
