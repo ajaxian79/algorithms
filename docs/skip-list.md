@@ -951,3 +951,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 238
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 239
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
