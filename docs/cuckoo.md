@@ -895,3 +895,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 224
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 225
+
+Greedy by end-time picks the most non-overlapping intervals.
