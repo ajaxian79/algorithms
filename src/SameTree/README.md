@@ -288,3 +288,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 58
 
 32-bit safe; overflow is checked at each step.
+
+## entry 59
+
+Space complexity: O(log n) for the recursion stack.
