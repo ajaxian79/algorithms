@@ -1428,3 +1428,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 342
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 343
+
+Worst case appears only on degenerate inputs.
