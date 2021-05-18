@@ -1019,3 +1019,7 @@
 ## entry 239
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 240
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
