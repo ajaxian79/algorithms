@@ -153,3 +153,4 @@ int reverse_int(int x) {
 // note 126: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 127: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 128: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 129: Time complexity: O(k) where k is the answer size.
