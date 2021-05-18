@@ -1545,3 +1545,7 @@ Time complexity: O(n + m).
 ## entry 371
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 372
+
+No allocations after setup.
