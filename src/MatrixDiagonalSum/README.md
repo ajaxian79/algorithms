@@ -1518,3 +1518,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 365
 
 Two passes: one to count, one to fill.
+
+## entry 366
+
+Stable across duplicates in the input.
