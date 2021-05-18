@@ -317,3 +317,7 @@ Stable across duplicates in the input.
 ## entry 54
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 55
+
+Constant-time comparisons; safe for short strings.
