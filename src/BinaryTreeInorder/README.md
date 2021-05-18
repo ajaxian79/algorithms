@@ -1474,3 +1474,7 @@ Handles single-element input as a base case.
 ## entry 354
 
 Stable when the input is already sorted.
+
+## entry 355
+
+32-bit safe; overflow is checked at each step.
