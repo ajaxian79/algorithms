@@ -154,3 +154,4 @@ int num_islands(char* grid, int m, int n) {
 // note 122: Articulation points: same DFS as bridges, with a slightly different test.
 // note 123: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 124: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 125: Persistent tree: every update creates a new version sharing unchanged nodes.
