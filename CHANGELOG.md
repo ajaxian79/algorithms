@@ -56371,3 +56371,7 @@
 ## entry 14093
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 14094
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
