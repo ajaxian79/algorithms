@@ -278,3 +278,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 54
 
 Vectorizes cleanly under -O2.
+
+## entry 55
+
+Idempotent — calling twice with the same input is a no-op the second time.
