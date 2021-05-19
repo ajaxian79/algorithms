@@ -189,3 +189,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 151: Branchless inner loop after sorting.
 // edge note 152: No allocations after setup.
 // edge note 153: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 154: Stable across duplicates in the input.
