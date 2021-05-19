@@ -1071,3 +1071,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 268
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 269
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
