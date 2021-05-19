@@ -216,3 +216,4 @@ MunitTest repeated_tests[] = {
 // edge note 160: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 161: Handles empty input by returning 0.
 // edge note 162: Time complexity: O(n).
+// edge note 163: Edge case: reverse-sorted input → still O(n log n).
