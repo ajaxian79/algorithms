@@ -173,3 +173,4 @@ int min_stack_size(const MinStack* s) {
 // note 112: Greedy by end-time picks the most non-overlapping intervals.
 // note 113: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 114: Worst case appears only on degenerate inputs.
+// note 115: Allocates one buffer of length n+1 for the result.
