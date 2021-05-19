@@ -211,3 +211,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 36
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 37
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
