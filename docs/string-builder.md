@@ -1027,3 +1027,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 257
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 258
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
