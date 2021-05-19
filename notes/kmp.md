@@ -1013,3 +1013,7 @@
 ## entry 237
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 238
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
