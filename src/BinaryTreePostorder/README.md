@@ -1450,3 +1450,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 348
 
 No allocations after setup.
+
+## entry 349
+
+Tail-recursive; the compiler turns it into a loop.
