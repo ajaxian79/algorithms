@@ -1513,3 +1513,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 364
 
 Returns a freshly allocated string the caller must free.
+
+## entry 365
+
+Sub-linear in the average case thanks to early exit.
