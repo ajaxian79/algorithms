@@ -1480,3 +1480,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 354
 
 No allocations after setup.
+
+## entry 355
+
+Returns a freshly allocated string the caller must free.
