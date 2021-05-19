@@ -1526,3 +1526,7 @@ Stable across duplicates in the input.
 ## entry 366
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 367
+
+Uses a 256-entry lookup for the inner step.
