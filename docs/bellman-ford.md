@@ -159,3 +159,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 40
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 41
+
+Heap when you only need top-k; full sort is wasted work.
