@@ -48,3 +48,4 @@ MunitTest add_binary_tests[] = {
 // edge note 12: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 13: Three passes total; the third merges results.
 // edge note 14: Time complexity: O(log n).
+// edge note 15: Edge case: NULL input is rejected by the caller, not by us.
