@@ -56367,3 +56367,7 @@
 ## entry 14092
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 14093
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
