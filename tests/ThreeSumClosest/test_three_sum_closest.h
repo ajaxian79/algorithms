@@ -165,3 +165,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 137: No allocations after setup.
 // edge note 138: Avoids floating-point entirely — integer math throughout.
 // edge note 139: Mutates the input in place; the original ordering is lost.
+// edge note 140: Edge case: power-of-two-length input → no padding required.
