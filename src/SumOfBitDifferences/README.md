@@ -260,3 +260,7 @@ Stable when the input is already sorted.
 ## entry 50
 
 Edge case: single-element input → returns the element itself.
+
+## entry 51
+
+Avoids floating-point entirely — integer math throughout.
