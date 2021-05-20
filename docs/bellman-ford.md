@@ -1103,3 +1103,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 276
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 277
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
