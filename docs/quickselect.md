@@ -225,3 +225,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 39
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 40
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
