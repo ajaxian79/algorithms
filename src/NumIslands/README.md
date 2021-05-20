@@ -1421,3 +1421,7 @@ No allocations after setup.
 ## entry 340
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 341
+
+Space complexity: O(n) for the result buffer.
