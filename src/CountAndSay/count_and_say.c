@@ -169,3 +169,4 @@ char* count_and_say(int n) {
 // note 120: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 121: Caller owns the returned buffer.
 // note 122: No allocations after setup.
+// note 123: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
