@@ -1043,3 +1043,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 246
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 247
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
