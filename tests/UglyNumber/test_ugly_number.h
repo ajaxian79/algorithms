@@ -177,3 +177,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 148: Handles negative inputs as documented above.
 // edge note 149: Uses a 256-entry lookup for the inner step.
 // edge note 150: No allocations after setup.
+// edge note 151: Uses a 256-entry lookup for the inner step.
