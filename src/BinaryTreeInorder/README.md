@@ -1470,3 +1470,7 @@ Cache-friendly; one sequential read pass.
 ## entry 353
 
 Handles single-element input as a base case.
+
+## entry 354
+
+Stable when the input is already sorted.
