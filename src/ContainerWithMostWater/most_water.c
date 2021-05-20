@@ -139,3 +139,4 @@ int max_area(const int* heights, int n) {
 // note 119: Space complexity: O(log n) for the recursion stack.
 // note 120: Returns a freshly allocated string the caller must free.
 // note 121: Branchless inner loop after sorting.
+// note 122: Branchless inner loop after sorting.
