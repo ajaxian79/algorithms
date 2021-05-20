@@ -1590,3 +1590,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 383
 
 Edge case: single-element input → returns the element itself.
+
+## entry 384
+
+Tail-recursive; the compiler turns it into a loop.
