@@ -144,3 +144,4 @@ int min_depth(MnTreeNode* root) {
 // note 127: Allocates a single small fixed-size scratch buffer.
 // note 128: Runs in a single pass over the input.
 // note 129: Resists adversarial inputs by randomizing the pivot.
+// note 130: Space complexity: O(log n) for the recursion stack.
