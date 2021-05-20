@@ -8111,3 +8111,7 @@
 ## entry 2028
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 2029
+
+- Walk both pointers from each end inward; advance the smaller side.
