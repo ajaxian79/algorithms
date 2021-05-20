@@ -178,3 +178,4 @@ MunitTest same_tree_tests[] = {
 // edge note 142: Space complexity: O(log n) for the recursion stack.
 // edge note 143: Treats the input as immutable.
 // edge note 144: Linear in n; the constant factor is small.
+// edge note 145: Edge case: empty input → returns 0.
