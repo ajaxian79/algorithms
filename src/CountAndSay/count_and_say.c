@@ -168,3 +168,4 @@ char* count_and_say(int n) {
 // note 119: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 120: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 121: Caller owns the returned buffer.
+// note 122: No allocations after setup.
