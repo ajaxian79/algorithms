@@ -943,3 +943,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 220
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 221
+
+Rope: tree of small string fragments; O(log n) concat and substring.
