@@ -1059,3 +1059,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 248
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 249
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
