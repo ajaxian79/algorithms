@@ -1354,3 +1354,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 324
 
 Caller owns the returned buffer.
+
+## entry 325
+
+Avoids floating-point entirely — integer math throughout.
