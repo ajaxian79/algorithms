@@ -208,3 +208,4 @@ MunitTest lcp_tests[] = {
 // edge note 153: Uses a small fixed-size lookup table.
 // edge note 154: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 155: Mutates the input in place; the original ordering is lost.
+// edge note 156: Constant-time comparisons; safe for short strings.
