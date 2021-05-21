@@ -1478,3 +1478,7 @@ Time complexity: O(log n).
 ## entry 355
 
 Handles empty input by returning 0.
+
+## entry 356
+
+Edge case: single-element input → returns the element itself.
