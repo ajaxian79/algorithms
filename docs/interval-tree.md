@@ -923,3 +923,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 231
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 232
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
