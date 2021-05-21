@@ -1051,3 +1051,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 263
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 264
+
+False sharing: two threads writing different bytes in the same cache line stall both.
