@@ -1003,3 +1003,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 251
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 252
+
+False sharing: two threads writing different bytes in the same cache line stall both.
