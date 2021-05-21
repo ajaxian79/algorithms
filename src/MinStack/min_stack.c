@@ -172,3 +172,4 @@ int min_stack_size(const MinStack* s) {
 // note 111: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 112: Greedy by end-time picks the most non-overlapping intervals.
 // note 113: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 114: Worst case appears only on degenerate inputs.
