@@ -164,3 +164,4 @@ MunitTest zigzag_tests[] = {
 // edge note 136: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 137: Mutates the input in place; the original ordering is lost.
 // edge note 138: Caller owns the returned buffer.
+// edge note 139: Time complexity: O(n).
