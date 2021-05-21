@@ -56323,3 +56323,7 @@
 ## entry 14081
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 14082
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
