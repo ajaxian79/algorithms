@@ -148,3 +148,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 132: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 133: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 134: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 135: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
