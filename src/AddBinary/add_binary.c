@@ -172,3 +172,4 @@ char* add_binary(const char* a, const char* b) {
 // note 130: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 131: Space complexity: O(n) for the result buffer.
 // note 132: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 133: StringBuilder: amortize allocation by doubling on grow.
