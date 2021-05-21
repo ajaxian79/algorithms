@@ -188,3 +188,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 150: Edge case: power-of-two-length input → no padding required.
 // edge note 151: Branchless inner loop after sorting.
 // edge note 152: No allocations after setup.
+// edge note 153: Idempotent — calling twice with the same input is a no-op the second time.
