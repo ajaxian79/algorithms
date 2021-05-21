@@ -1115,3 +1115,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 262
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 263
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
