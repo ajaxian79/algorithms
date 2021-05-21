@@ -979,3 +979,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 245
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 246
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
