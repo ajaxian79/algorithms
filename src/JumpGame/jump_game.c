@@ -143,3 +143,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 127: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 128: 32-bit safe; overflow is checked at each step.
 // note 129: 32-bit safe; overflow is checked at each step.
+// note 130: Hash collision: chain or open-address; chained handles arbitrary load factor.
