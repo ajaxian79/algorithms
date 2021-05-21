@@ -1541,3 +1541,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 370
 
 Time complexity: O(n + m).
+
+## entry 371
+
+Thread-safe so long as the input is not mutated concurrently.
