@@ -991,3 +991,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 248
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 249
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
