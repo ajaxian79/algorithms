@@ -995,3 +995,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 232
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 233
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
