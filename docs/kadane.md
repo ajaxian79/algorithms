@@ -207,3 +207,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 36
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 37
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
