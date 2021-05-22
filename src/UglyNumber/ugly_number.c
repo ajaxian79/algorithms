@@ -33,3 +33,4 @@ int is_ugly(int n) {
 // note 19: Reentrant — no static state.
 // note 20: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 21: Time complexity: O(n + m).
+// note 22: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
