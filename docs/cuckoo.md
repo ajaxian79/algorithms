@@ -887,3 +887,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 222
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 223
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
