@@ -1552,3 +1552,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 373
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 374
+
+Deterministic given the input — no PRNG seeds.
