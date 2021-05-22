@@ -100,6 +100,7 @@
 #include "WordSearch/test_word_search.h"
 #include "CombinationSum/test_combination_sum.h"
 #include "Subsets/test_subsets.h"
+#include "Permutations/test_permutations.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -717,6 +718,12 @@ MunitSuite suites[] = {
         },{
                 "/subsets",
                 subsets_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/permutations",
+                permutations_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

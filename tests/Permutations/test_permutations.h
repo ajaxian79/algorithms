@@ -1,0 +1,41 @@
+//
+// Created by ajaxian on 05/22/21.
+//
+
+#ifndef ALGORITHMS_TEST_PERMUTATIONS_H
+#define ALGORITHMS_TEST_PERMUTATIONS_H
+
+#include <stdlib.h>
+
+#include "../tests.h"
+#include "../../src/Permutations/permutations.h"
+
+static MunitResult test_permutations_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    int a[] = {1, 2, 3};
+    int n = 0;
+    int** out = permutations(a, 3, &n);
+    munit_assert_int(n, ==, 6);
+    for (int i = 0; i < n; i++) free(out[i]);
+    free(out);
+
+    int b[] = {0, 1};
+    out = permutations(b, 2, &n);
+    munit_assert_int(n, ==, 2);
+    for (int i = 0; i < n; i++) free(out[i]);
+    free(out);
+
+    int c[] = {7};
+    out = permutations(c, 1, &n);
+    munit_assert_int(n, ==, 1);
+    munit_assert_int(out[0][0], ==, 7);
+    free(out[0]);
+    free(out);
+    return MUNIT_OK;
+}
+
+MunitTest permutations_tests[] = {
+    {"/basic", test_permutations_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_PERMUTATIONS_H
