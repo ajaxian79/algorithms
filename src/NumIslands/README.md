@@ -1417,3 +1417,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 339
 
 No allocations after setup.
+
+## entry 340
+
+Resists adversarial inputs by randomizing the pivot.
