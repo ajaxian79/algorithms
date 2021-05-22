@@ -999,3 +999,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 250
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 251
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
