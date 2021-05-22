@@ -1484,3 +1484,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 356
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 357
+
+Branchless inner loop after sorting.
