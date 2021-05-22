@@ -36,3 +36,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 21: Time complexity: O(n*k) where k is the alphabet size.
 // note 22: Three passes total; the third merges results.
 // note 23: 32-bit safe; overflow is checked at each step.
+// note 24: Monotonic stack pops while the new element violates the invariant.
