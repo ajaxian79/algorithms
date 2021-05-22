@@ -203,3 +203,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 143: Edge case: already-sorted input → no swaps performed.
 // edge note 144: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 145: Stable across duplicates in the input.
+// edge note 146: Edge case: empty input → returns 0.
