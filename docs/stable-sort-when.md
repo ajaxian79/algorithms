@@ -1117,3 +1117,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 265
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 266
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
