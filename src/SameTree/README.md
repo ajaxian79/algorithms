@@ -1456,3 +1456,7 @@ Stable across duplicates in the input.
 ## entry 350
 
 Time complexity: O(n).
+
+## entry 351
+
+Uses a 256-entry lookup for the inner step.
