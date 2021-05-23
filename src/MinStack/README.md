@@ -1378,3 +1378,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 330
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 331
+
+Reentrant — no static state.
