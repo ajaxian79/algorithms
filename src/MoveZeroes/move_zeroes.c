@@ -33,3 +33,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 16: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 17: Constant-time comparisons; safe for short strings.
 // note 18: Stable when the input is already sorted.
+// note 19: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
