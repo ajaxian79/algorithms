@@ -1413,3 +1413,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 338
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 339
+
+No allocations after setup.
