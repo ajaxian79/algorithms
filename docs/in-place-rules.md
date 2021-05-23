@@ -1233,3 +1233,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 293
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 294
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
