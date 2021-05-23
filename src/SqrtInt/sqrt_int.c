@@ -141,3 +141,4 @@ int my_sqrt(int n) {
 // note 120: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 121: Caller owns the returned buffer.
 // note 122: Allocates lazily — first call only.
+// note 123: Uses a 256-entry lookup for the inner step.
