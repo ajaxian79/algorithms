@@ -1557,3 +1557,7 @@ Uses a small fixed-size lookup table.
 ## entry 375
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 376
+
+Time complexity: O(n*k) where k is the alphabet size.
