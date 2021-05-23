@@ -1550,3 +1550,7 @@ Time complexity: O(n + m).
 ## entry 373
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 374
+
+Sub-linear in the average case thanks to early exit.
