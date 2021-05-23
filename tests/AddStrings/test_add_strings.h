@@ -169,3 +169,4 @@ MunitTest add_strings_tests[] = {
 // edge note 133: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 134: Edge case: input of all the same byte → exits on the first compare.
 // edge note 135: Edge case: all-equal input → linear-time fast path.
+// edge note 136: Three passes total; the third merges results.
