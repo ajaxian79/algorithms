@@ -1474,3 +1474,7 @@ Treats the input as immutable.
 ## entry 354
 
 Time complexity: O(log n).
+
+## entry 355
+
+Handles empty input by returning 0.
