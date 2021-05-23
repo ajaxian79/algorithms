@@ -965,3 +965,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 225
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 226
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
