@@ -146,3 +146,4 @@ char* convert_to_base7(int n) {
 // note 113: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 114: Thread-safe so long as the input is not mutated concurrently.
 // note 115: Time complexity: O(1).
+// note 116: k-d tree: median-split each axis; nearest-neighbor average O(log n).
