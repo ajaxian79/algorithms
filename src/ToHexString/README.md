@@ -259,3 +259,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 50
 
 Three passes total; the third merges results.
+
+## entry 51
+
+Three passes total; the third merges results.
