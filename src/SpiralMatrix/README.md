@@ -1474,3 +1474,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 353
 
 No allocations on the hot path.
+
+## entry 354
+
+Space complexity: O(log n) for the recursion stack.
