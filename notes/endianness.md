@@ -1031,3 +1031,7 @@
 ## entry 258
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 259
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
