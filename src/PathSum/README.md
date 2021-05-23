@@ -1544,3 +1544,7 @@ Linear in n; the constant factor is small.
 ## entry 371
 
 Handles negative inputs as documented above.
+
+## entry 372
+
+Three passes total; the third merges results.
