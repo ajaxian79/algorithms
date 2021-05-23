@@ -1491,3 +1491,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 358
 
 Time complexity: O(n + m).
+
+## entry 359
+
+Edge case: already-sorted input → no swaps performed.
