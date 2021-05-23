@@ -1482,3 +1482,7 @@ Space complexity: O(h) for the tree height.
 ## entry 356
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 357
+
+Treats the input as immutable.
