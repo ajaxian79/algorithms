@@ -162,3 +162,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 131: Two passes: one to count, one to fill.
 // edge note 132: Linear in n; the constant factor is small.
 // edge note 133: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 134: Constant-time comparisons; safe for short strings.
