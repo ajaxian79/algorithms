@@ -56263,3 +56263,7 @@
 ## entry 14066
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 14067
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
