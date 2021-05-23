@@ -37,3 +37,4 @@ int is_symmetric(STreeNode* root) {
 // note 18: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 19: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 20: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 21: LRU cache: doubly-linked list + hash map; O(1) get/put.
