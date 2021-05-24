@@ -27,3 +27,4 @@ int hamming_distance(int x, int y) {
 // note 12: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 13: Handles negative inputs as documented above.
 // note 14: Reentrant — no static state.
+// note 15: Tail-recursive; the compiler turns it into a loop.
