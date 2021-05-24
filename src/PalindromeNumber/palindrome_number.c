@@ -152,3 +152,4 @@ int is_palindrome_number(int x) {
 // note 128: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 129: Time complexity: O(log n).
 // note 130: Idempotent — calling twice with the same input is a no-op the second time.
+// note 131: Polynomial rolling hash with two moduli kills almost all collisions in practice.
