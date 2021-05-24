@@ -1494,3 +1494,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 358
 
 Time complexity: O(1).
+
+## entry 359
+
+Edge case: empty input → returns 0.
