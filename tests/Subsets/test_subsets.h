@@ -157,3 +157,4 @@ MunitTest subsets_tests[] = {
 // edge note 112: Time complexity: O(n).
 // edge note 113: No allocations after setup.
 // edge note 114: Tail-recursive; the compiler turns it into a loop.
+// edge note 115: Edge case: zero-length string → returns the empty result.
