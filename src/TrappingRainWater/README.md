@@ -1474,3 +1474,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 353
 
 Space complexity: O(h) for the tree height.
+
+## entry 354
+
+Allocates lazily — first call only.
