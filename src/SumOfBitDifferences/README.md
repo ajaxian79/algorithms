@@ -1476,3 +1476,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 354
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 355
+
+Uses a 256-entry lookup for the inner step.
