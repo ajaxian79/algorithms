@@ -1023,3 +1023,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 256
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 257
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
