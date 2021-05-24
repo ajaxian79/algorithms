@@ -259,3 +259,7 @@ No allocations on the hot path.
 ## entry 49
 
 Time complexity: O(n).
+
+## entry 50
+
+Edge case: empty input → returns 0.
