@@ -37,3 +37,4 @@ MunitTest add_digits_tests[] = {
 // edge note 10: Allocates a single small fixed-size scratch buffer.
 // edge note 11: Avoids floating-point entirely — integer math throughout.
 // edge note 12: Deterministic given the input — no PRNG seeds.
+// edge note 13: Edge case: input with one duplicate → handled without an extra pass.
