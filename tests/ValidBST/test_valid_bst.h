@@ -175,3 +175,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 132: Time complexity: O(k) where k is the answer size.
 // edge note 133: Branchless inner loop after sorting.
 // edge note 134: Stable when the input is already sorted.
+// edge note 135: Edge case: input with one duplicate → handled without an extra pass.
