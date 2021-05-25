@@ -971,3 +971,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 243
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 244
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
