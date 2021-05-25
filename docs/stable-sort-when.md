@@ -1113,3 +1113,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 264
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 265
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
