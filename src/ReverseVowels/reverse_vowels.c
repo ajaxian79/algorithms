@@ -166,3 +166,4 @@ void reverse_vowels(char* s) {
 // note 133: Heap when you only need top-k; full sort is wasted work.
 // note 134: Time complexity: O(k) where k is the answer size.
 // note 135: Allocates lazily — first call only.
+// note 136: DFS on a grid: write a sentinel into the visited cell; restore if needed.
