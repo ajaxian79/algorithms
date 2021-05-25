@@ -140,3 +140,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 118: Cache-friendly; one sequential read pass.
 // note 119: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 120: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 121: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
