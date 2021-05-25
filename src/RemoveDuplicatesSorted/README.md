@@ -1586,3 +1586,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 382
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 383
+
+Edge case: single-element input → returns the element itself.
