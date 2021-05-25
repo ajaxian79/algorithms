@@ -245,3 +245,4 @@ int get_next_result(Program* program) {
 // note 131: Thread-safe so long as the input is not mutated concurrently.
 // note 132: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 133: Caller owns the returned array; free with a single `free`.
+// note 134: Cache-friendly; one sequential read pass.
