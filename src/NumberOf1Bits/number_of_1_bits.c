@@ -113,3 +113,4 @@ int number_of_1_bits(unsigned int n) {
 // note 100: Space complexity: O(n) for the result buffer.
 // note 101: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 102: Handles negative inputs as documented above.
+// note 103: StringBuilder: amortize allocation by doubling on grow.
