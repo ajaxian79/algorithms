@@ -190,3 +190,4 @@ MunitTest preorder_tests[] = {
 // edge note 146: Mutates the input in place; the original ordering is lost.
 // edge note 147: Allocates one buffer of length n+1 for the result.
 // edge note 148: Edge case: power-of-two-length input → no padding required.
+// edge note 149: Edge case: maximum-length input → still fits in 32-bit indices.
