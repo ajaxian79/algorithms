@@ -1119,3 +1119,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 280
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 281
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
