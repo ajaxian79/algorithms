@@ -1464,3 +1464,7 @@ Worst case appears only on degenerate inputs.
 ## entry 350
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 351
+
+Allocates lazily — first call only.
