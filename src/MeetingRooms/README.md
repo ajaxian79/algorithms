@@ -1494,3 +1494,7 @@ Worst case appears only on degenerate inputs.
 ## entry 359
 
 Caller owns the returned buffer.
+
+## entry 360
+
+Cache-friendly; one sequential read pass.
