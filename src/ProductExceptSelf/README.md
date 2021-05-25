@@ -1448,3 +1448,7 @@ Time complexity: O(1).
 ## entry 346
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 347
+
+Uses a small fixed-size lookup table.
