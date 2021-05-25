@@ -1460,3 +1460,7 @@ Time complexity: O(1).
 ## entry 349
 
 Worst case appears only on degenerate inputs.
+
+## entry 350
+
+Time complexity: O(n*k) where k is the alphabet size.
