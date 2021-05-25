@@ -151,3 +151,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 137: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 138: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 139: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 140: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
