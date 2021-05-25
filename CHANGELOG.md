@@ -56195,3 +56195,7 @@
 ## entry 14049
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 14050
+
+- Greedy by end-time picks the most non-overlapping intervals.
