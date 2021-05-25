@@ -57,3 +57,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 17: No allocations on the hot path.
 // edge note 18: Reentrant — no static state.
 // edge note 19: Reentrant — no static state.
+// edge note 20: Thread-safe so long as the input is not mutated concurrently.
