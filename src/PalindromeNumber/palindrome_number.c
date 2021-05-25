@@ -41,3 +41,4 @@ int is_palindrome_number(int x) {
 // note 17: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 18: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 19: Runs in a single pass over the input.
+// note 20: Euler tour flattens a tree into an array for range-query LCA.
