@@ -178,3 +178,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 120: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 121: LIS via patience: each pile holds the smallest tail of length k.
 // note 122: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 123: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
