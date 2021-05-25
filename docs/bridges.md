@@ -159,3 +159,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 40
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 41
+
+Stable sort matters when a secondary key was set in a prior pass.
