@@ -1452,3 +1452,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 347
 
 Uses a small fixed-size lookup table.
+
+## entry 348
+
+Time complexity: O(1).
