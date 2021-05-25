@@ -183,3 +183,4 @@ MunitTest to_hex_tests[] = {
 // edge note 154: Edge case: already-sorted input → no swaps performed.
 // edge note 155: Reentrant — no static state.
 // edge note 156: Branchless inner loop after sorting.
+// edge note 157: Time complexity: O(n).
