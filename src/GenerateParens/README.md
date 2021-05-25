@@ -1436,3 +1436,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 343
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 344
+
+Vectorizes cleanly under -O2.
