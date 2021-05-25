@@ -1582,3 +1582,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 381
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 382
+
+Space complexity: O(log n) for the recursion stack.
