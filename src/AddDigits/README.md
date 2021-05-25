@@ -288,3 +288,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 57
 
 No allocations on the hot path.
+
+## entry 58
+
+Handles single-element input as a base case.
