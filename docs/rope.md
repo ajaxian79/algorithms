@@ -1031,3 +1031,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 258
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 259
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
