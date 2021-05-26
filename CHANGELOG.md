@@ -8063,3 +8063,7 @@
 ## entry 2016
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 2017
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
