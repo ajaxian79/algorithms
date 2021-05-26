@@ -67,3 +67,4 @@ MunitTest preorder_tests[] = {
 // edge note 23: Sub-linear in the average case thanks to early exit.
 // edge note 24: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 25: Time complexity: O(1).
+// edge note 26: Edge case: NULL input is rejected by the caller, not by us.
