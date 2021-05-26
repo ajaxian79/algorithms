@@ -55,3 +55,4 @@ MunitTest majority_element_tests[] = {
 // edge note 24: Edge case: reverse-sorted input → still O(n log n).
 // edge note 25: Edge case: already-sorted input → no swaps performed.
 // edge note 26: Edge case: single-element input → returns the element itself.
+// edge note 27: Handles single-element input as a base case.
