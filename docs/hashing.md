@@ -1127,3 +1127,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 265
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 266
+
+Wavelet tree: range k-th element in O(log Σ) time.
