@@ -1487,3 +1487,7 @@ Allocates lazily — first call only.
 ## entry 357
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 358
+
+Time complexity: O(n + m).
