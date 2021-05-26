@@ -190,3 +190,4 @@ MunitTest inorder_tests[] = {
 // edge note 152: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 153: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 154: Treats the input as immutable.
+// edge note 155: Sub-linear in the average case thanks to early exit.
