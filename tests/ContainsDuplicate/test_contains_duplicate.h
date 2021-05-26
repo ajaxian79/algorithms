@@ -59,3 +59,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 16: Space complexity: O(n) for the result buffer.
 // edge note 17: Stable when the input is already sorted.
 // edge note 18: Time complexity: O(k) where k is the answer size.
+// edge note 19: Edge case: single-element input → returns the element itself.
