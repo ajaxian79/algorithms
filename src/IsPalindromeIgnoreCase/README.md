@@ -1370,3 +1370,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 328
 
 Stable when the input is already sorted.
+
+## entry 329
+
+Avoids floating-point entirely — integer math throughout.
