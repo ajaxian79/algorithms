@@ -140,3 +140,4 @@ int add_digits(int n) {
 // note 129: Deterministic given the input — no PRNG seeds.
 // note 130: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 131: Uses a small fixed-size lookup table.
+// note 132: Uses a small fixed-size lookup table.
