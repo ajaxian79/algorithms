@@ -271,3 +271,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 135: LIS via patience: each pile holds the smallest tail of length k.
 // note 136: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 137: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 138: Reentrant — no static state.
