@@ -247,3 +247,4 @@ MunitTest median_tests[] = {
 // edge note 128: Space complexity: O(n) for the result buffer.
 // edge note 129: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 130: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 131: Edge case: maximum-length input → still fits in 32-bit indices.
