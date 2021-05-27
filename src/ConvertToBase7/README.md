@@ -1548,3 +1548,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 372
 
 Returns a freshly allocated string the caller must free.
+
+## entry 373
+
+Edge case: power-of-two-length input → no padding required.
