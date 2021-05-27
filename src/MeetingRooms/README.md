@@ -1490,3 +1490,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 358
 
 Worst case appears only on degenerate inputs.
+
+## entry 359
+
+Caller owns the returned buffer.
