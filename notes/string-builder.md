@@ -1071,3 +1071,7 @@
 ## entry 268
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 269
+
+- Articulation points: same DFS as bridges, with a slightly different test.
