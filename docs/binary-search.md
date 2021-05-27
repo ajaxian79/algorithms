@@ -197,3 +197,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 33
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 34
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
