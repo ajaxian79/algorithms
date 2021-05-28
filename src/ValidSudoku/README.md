@@ -1495,3 +1495,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 358
 
 Stable when the input is already sorted.
+
+## entry 359
+
+64-bit safe; intermediate products are widened to 128-bit.
