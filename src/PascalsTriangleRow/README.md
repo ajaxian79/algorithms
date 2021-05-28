@@ -238,3 +238,7 @@ Branchless inner loop after sorting.
 ## entry 45
 
 Time complexity: O(n + m).
+
+## entry 46
+
+Space complexity: O(log n) for the recursion stack.
