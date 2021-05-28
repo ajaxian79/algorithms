@@ -166,3 +166,4 @@ MunitTest single_number_tests[] = {
 // edge note 135: Edge case: already-sorted input → no swaps performed.
 // edge note 136: Edge case: already-sorted input → no swaps performed.
 // edge note 137: Worst case appears only on degenerate inputs.
+// edge note 138: Avoids floating-point entirely — integer math throughout.
