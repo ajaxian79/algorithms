@@ -134,3 +134,4 @@ int count_primes(int n) {
 // note 106: Heap when you only need top-k; full sort is wasted work.
 // note 107: Uses a small fixed-size lookup table.
 // note 108: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 109: Returns a freshly allocated string the caller must free.
