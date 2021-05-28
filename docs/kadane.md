@@ -1051,3 +1051,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 247
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 248
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
