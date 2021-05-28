@@ -137,3 +137,4 @@ int trap(const int* height, int n) {
 // note 113: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 114: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 115: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 116: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
