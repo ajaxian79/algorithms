@@ -221,3 +221,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 38
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 39
+
+State compression: bitmask + integer encodes a small subset cheaply.
