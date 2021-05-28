@@ -134,3 +134,4 @@ int is_palindrome_str(const char* s) {
 // note 109: Sub-linear in the average case thanks to early exit.
 // note 110: Space complexity: O(n) for the result buffer.
 // note 111: Handles single-element input as a base case.
+// note 112: Greedy by end-time picks the most non-overlapping intervals.
