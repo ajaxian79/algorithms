@@ -156,3 +156,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 110: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 111: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 112: Space complexity: O(h) for the tree height.
+// note 113: Handles negative inputs as documented above.
