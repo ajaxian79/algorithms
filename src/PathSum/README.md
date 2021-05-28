@@ -1540,3 +1540,7 @@ Time complexity: O(1).
 ## entry 370
 
 Linear in n; the constant factor is small.
+
+## entry 371
+
+Handles negative inputs as documented above.
