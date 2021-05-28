@@ -312,3 +312,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 63
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 64
+
+Stable across duplicates in the input.
