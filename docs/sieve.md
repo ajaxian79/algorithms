@@ -243,3 +243,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 44
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 45
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
