@@ -1,0 +1,167 @@
+//
+// Created by ajaxian on 05/29/21.
+//
+
+#include "lru_cache.h"
+
+#include <stdlib.h>
+#include <string.h>
+
+typedef struct Node {
+    int key;
+    int value;
+    struct Node* prev;
+    struct Node* next;
+} Node;
+
+typedef struct Bucket {
+    int   key;
+    Node* node;
+    int   used;
+    struct Bucket* next;
+} Bucket;
+
+struct LRUCache {
+    int capacity;
+    int size;
+    Node* head;  // dummy
+    Node* tail;  // dummy
+    int   table_cap;
+    Bucket* table;
+};
+
+static unsigned int splat(int x) {
+    unsigned int v = (unsigned int)x;
+    v ^= v >> 16; v *= 0x7feb352dU;
+    v ^= v >> 15; v *= 0x846ca68bU;
+    v ^= v >> 16;
+    return v;
+}
+
+static Node* table_lookup(LRUCache* c, int key) {
+    unsigned int idx = splat(key) & (unsigned int)(c->table_cap - 1);
+    Bucket* b = &c->table[idx];
+    if (!b->used) return NULL;
+    if (b->key == key) return b->node;
+    for (Bucket* curr = b->next; curr; curr = curr->next) {
+        if (curr->key == key) return curr->node;
+    }
+    return NULL;
+}
+
+static void table_set(LRUCache* c, int key, Node* node) {
+    unsigned int idx = splat(key) & (unsigned int)(c->table_cap - 1);
+    Bucket* b = &c->table[idx];
+    if (!b->used) { b->used = 1; b->key = key; b->node = node; b->next = NULL; return; }
+    if (b->key == key) { b->node = node; return; }
+    for (Bucket* curr = b->next; curr; curr = curr->next) {
+        if (curr->key == key) { curr->node = node; return; }
+    }
+    Bucket* fresh = malloc(sizeof(Bucket));
+    fresh->used = 1; fresh->key = key; fresh->node = node;
+    fresh->next = b->next;
+    b->next = fresh;
+}
+
+static void table_erase(LRUCache* c, int key) {
+    unsigned int idx = splat(key) & (unsigned int)(c->table_cap - 1);
+    Bucket* b = &c->table[idx];
+    if (!b->used) return;
+    if (b->key == key) {
+        if (b->next) {
+            Bucket* nx = b->next;
+            b->key = nx->key;
+            b->node = nx->node;
+            b->next = nx->next;
+            free(nx);
+        } else {
+            b->used = 0;
+        }
+        return;
+    }
+    Bucket* prev = b;
+    for (Bucket* curr = b->next; curr; prev = curr, curr = curr->next) {
+        if (curr->key == key) {
+            prev->next = curr->next;
+            free(curr);
+            return;
+        }
+    }
+}
+
+static void list_remove(Node* node) {
+    node->prev->next = node->next;
+    node->next->prev = node->prev;
+}
+
+static void list_push_front(LRUCache* c, Node* node) {
+    node->next = c->head->next;
+    node->prev = c->head;
+    c->head->next->prev = node;
+    c->head->next = node;
+}
+
+LRUCache* lru_create(int capacity) {
+    if (capacity <= 0) return NULL;
+    LRUCache* c = malloc(sizeof(LRUCache));
+    c->capacity = capacity;
+    c->size = 0;
+    c->head = malloc(sizeof(Node));
+    c->tail = malloc(sizeof(Node));
+    c->head->next = c->tail; c->head->prev = NULL;
+    c->tail->prev = c->head; c->tail->next = NULL;
+
+    int cap = 16;
+    while (cap < capacity * 2) cap <<= 1;
+    c->table_cap = cap;
+    c->table = calloc((size_t)cap, sizeof(Bucket));
+    return c;
+}
+
+void lru_destroy(LRUCache* c) {
+    if (!c) return;
+    Node* n = c->head->next;
+    while (n != c->tail) {
+        Node* next = n->next;
+        free(n);
+        n = next;
+    }
+    free(c->head); free(c->tail);
+    for (int i = 0; i < c->table_cap; i++) {
+        Bucket* b = c->table[i].next;
+        while (b) { Bucket* nx = b->next; free(b); b = nx; }
+    }
+    free(c->table);
+    free(c);
+}
+
+int lru_get(LRUCache* c, int key) {
+    Node* node = table_lookup(c, key);
+    if (!node) return -1;
+    list_remove(node);
+    list_push_front(c, node);
+    return node->value;
+}
+
+void lru_put(LRUCache* c, int key, int value) {
+    Node* existing = table_lookup(c, key);
+    if (existing) {
+        existing->value = value;
+        list_remove(existing);
+        list_push_front(c, existing);
+        return;
+    }
+    if (c->size == c->capacity) {
+        Node* oldest = c->tail->prev;
+        list_remove(oldest);
+        table_erase(c, oldest->key);
+        free(oldest);
+        c->size--;
+    }
+    Node* fresh = malloc(sizeof(Node));
+    fresh->key = key;
+    fresh->value = value;
+    list_push_front(c, fresh);
+    table_set(c, key, fresh);
+    c->size++;
+}
