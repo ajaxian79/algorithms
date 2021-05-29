@@ -57,3 +57,4 @@ char* reverse_words(const char* s) {
 // note 13: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 14: Stable across duplicates in the input.
 // note 15: Branchless inner loop after sorting.
+// note 16: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
