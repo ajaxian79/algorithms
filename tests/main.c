@@ -101,6 +101,7 @@
 #include "CombinationSum/test_combination_sum.h"
 #include "Subsets/test_subsets.h"
 #include "Permutations/test_permutations.h"
+#include "LRUCache/test_lru_cache.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -724,6 +725,12 @@ MunitSuite suites[] = {
         },{
                 "/permutations",
                 permutations_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/lru_cache",
+                lru_cache_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
