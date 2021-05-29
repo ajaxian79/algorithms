@@ -59,3 +59,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Combination Sum](src/CombinationSum) — sorted backtracking with reuse
 * [Subsets](src/Subsets) — bitmask enumeration of 2^n subsets
 * [Permutations](src/Permutations) — swap-based backtracking enumeration
+* [LRU Cache](src/LRUCache) — doubly-linked list + open-chained hash table
