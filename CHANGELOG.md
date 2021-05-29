@@ -8039,3 +8039,7 @@
 ## entry 2010
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 2011
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
