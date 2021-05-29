@@ -38,3 +38,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 11: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 12: Stable when the input is already sorted.
 // edge note 13: Edge case: single-element input → returns the element itself.
+// edge note 14: Best case is O(1) when the first byte already decides the answer.
