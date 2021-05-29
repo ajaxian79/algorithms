@@ -1,0 +1,12 @@
+# LRU Cache
+
+Constant-time `get` and `put` for a fixed-capacity key/value cache that
+evicts the least-recently-used entry on overflow. Two structures:
+
+* A doubly-linked list ordered by recency (head = most recent, tail =
+  oldest).
+* A hash table mapping key → list node, for O(1) lookup.
+
+`get` finds the node, splices it out, and re-inserts it at the head.
+`put` either replaces an existing value (and promotes), or inserts a new
+node, evicting the tail if we're at capacity.
