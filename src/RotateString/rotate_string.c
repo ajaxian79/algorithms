@@ -45,3 +45,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 19: Caller owns the returned array; free with a single `free`.
 // note 20: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 21: Time complexity: O(n + m).
+// note 22: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
