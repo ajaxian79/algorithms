@@ -163,3 +163,7 @@
 ## entry 41
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 42
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
