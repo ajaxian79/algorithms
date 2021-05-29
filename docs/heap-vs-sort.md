@@ -203,3 +203,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 34
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 35
+
+LIS via patience: each pile holds the smallest tail of length k.
