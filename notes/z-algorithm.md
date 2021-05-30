@@ -1169,3 +1169,7 @@
 ## entry 279
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 280
+
+- Heap when you only need top-k; full sort is wasted work.
