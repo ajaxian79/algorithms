@@ -1491,3 +1491,7 @@ Space complexity: O(1) auxiliary.
 ## entry 357
 
 Returns a freshly allocated string the caller must free.
+
+## entry 358
+
+Stable when the input is already sorted.
