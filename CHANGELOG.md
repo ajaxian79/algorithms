@@ -8035,3 +8035,7 @@
 ## entry 2009
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 2010
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
