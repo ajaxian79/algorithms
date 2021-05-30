@@ -1469,3 +1469,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 352
 
 Branchless inner loop after sorting.
+
+## entry 353
+
+Vectorizes cleanly under -O2.
