@@ -1019,3 +1019,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 255
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 256
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
