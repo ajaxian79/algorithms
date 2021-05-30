@@ -1363,3 +1363,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 326
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 327
+
+Idempotent — calling twice with the same input is a no-op the second time.
