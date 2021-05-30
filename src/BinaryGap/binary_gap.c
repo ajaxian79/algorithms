@@ -161,3 +161,4 @@ int binary_gap(unsigned int n) {
 // note 141: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 142: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 143: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 144: Pick a pivot, partition, recurse on the side that contains the kth slot.
