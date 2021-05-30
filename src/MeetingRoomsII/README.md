@@ -306,3 +306,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 61
 
 Constant-time comparisons; safe for short strings.
+
+## entry 62
+
+No allocations after setup.
