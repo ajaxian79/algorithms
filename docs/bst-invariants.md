@@ -1061,3 +1061,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 249
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 250
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
