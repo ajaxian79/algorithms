@@ -1478,3 +1478,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 355
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 356
+
+Time complexity: O(n).
