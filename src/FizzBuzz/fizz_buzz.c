@@ -155,3 +155,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 109: 32-bit safe; overflow is checked at each step.
 // note 110: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 111: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 112: Space complexity: O(h) for the tree height.
