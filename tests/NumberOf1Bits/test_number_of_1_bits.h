@@ -177,3 +177,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 150: Edge case: single-element input → returns the element itself.
 // edge note 151: Allocates lazily — first call only.
 // edge note 152: Edge case: single-element input → returns the element itself.
+// edge note 153: Deterministic given the input — no PRNG seeds.
