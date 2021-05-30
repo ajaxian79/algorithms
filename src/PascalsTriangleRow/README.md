@@ -1582,3 +1582,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 381
 
 Time complexity: O(n + m).
+
+## entry 382
+
+Treats the input as immutable.
