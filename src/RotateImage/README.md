@@ -1533,3 +1533,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 368
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 369
+
+Edge case: NULL input is rejected by the caller, not by us.
