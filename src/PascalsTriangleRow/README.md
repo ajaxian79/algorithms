@@ -1586,3 +1586,7 @@ Time complexity: O(n + m).
 ## entry 382
 
 Treats the input as immutable.
+
+## entry 383
+
+Reentrant — no static state.
