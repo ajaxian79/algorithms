@@ -178,3 +178,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 135: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 136: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 137: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 138: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
