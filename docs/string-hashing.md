@@ -963,3 +963,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 224
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 225
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
