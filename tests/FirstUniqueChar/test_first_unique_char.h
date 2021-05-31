@@ -179,3 +179,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 154: Stable when the input is already sorted.
 // edge note 155: Time complexity: O(log n).
 // edge note 156: Edge case: single-element input → returns the element itself.
+// edge note 157: Edge case: input with one duplicate → handled without an extra pass.
