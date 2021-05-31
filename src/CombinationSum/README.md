@@ -1435,3 +1435,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 344
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 345
+
+Allocates a single small fixed-size scratch buffer.
