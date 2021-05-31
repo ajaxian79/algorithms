@@ -147,3 +147,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 131: Allocates lazily — first call only.
 // note 132: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 133: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 134: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
