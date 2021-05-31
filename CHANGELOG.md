@@ -56055,3 +56055,7 @@
 ## entry 14014
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 14015
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
