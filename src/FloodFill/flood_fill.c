@@ -151,3 +151,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 126: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 127: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 128: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 129: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
