@@ -1525,3 +1525,7 @@ Time complexity: O(n log n).
 ## entry 366
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 367
+
+Edge case: integer-min input → guarded by the explicit underflow check.
