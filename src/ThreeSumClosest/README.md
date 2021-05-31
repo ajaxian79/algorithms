@@ -1474,3 +1474,7 @@ Two passes: one to count, one to fill.
 ## entry 354
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 355
+
+Resists adversarial inputs by randomizing the pivot.
