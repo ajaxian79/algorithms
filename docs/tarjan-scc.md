@@ -1043,3 +1043,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 261
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 262
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
