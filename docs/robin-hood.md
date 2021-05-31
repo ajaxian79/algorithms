@@ -995,3 +995,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 249
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 250
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
