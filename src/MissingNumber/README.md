@@ -1522,3 +1522,7 @@ Uses a small fixed-size lookup table.
 ## entry 365
 
 Stable across duplicates in the input.
+
+## entry 366
+
+Allocates one buffer of length n+1 for the result.
