@@ -1001,3 +1001,7 @@
 ## entry 234
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 235
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
