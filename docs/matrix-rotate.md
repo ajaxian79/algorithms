@@ -1017,3 +1017,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 238
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 239
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
