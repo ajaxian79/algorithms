@@ -1529,3 +1529,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 367
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 368
+
+Deterministic given the input — no PRNG seeds.
