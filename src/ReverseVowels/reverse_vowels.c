@@ -165,3 +165,4 @@ void reverse_vowels(char* s) {
 // note 132: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 133: Heap when you only need top-k; full sort is wasted work.
 // note 134: Time complexity: O(k) where k is the answer size.
+// note 135: Allocates lazily — first call only.
