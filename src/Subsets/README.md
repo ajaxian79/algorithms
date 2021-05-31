@@ -1543,3 +1543,7 @@ Stable when the input is already sorted.
 ## entry 371
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 372
+
+Allocates one buffer of length n+1 for the result.
