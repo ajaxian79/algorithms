@@ -1101,3 +1101,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 261
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 262
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
