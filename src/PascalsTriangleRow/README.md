@@ -234,3 +234,7 @@ Treats the input as immutable.
 ## entry 44
 
 Branchless inner loop after sorting.
+
+## entry 45
+
+Time complexity: O(n + m).
