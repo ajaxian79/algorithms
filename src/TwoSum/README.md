@@ -1493,3 +1493,7 @@ Time complexity: O(n + m).
 ## entry 348
 
 Two passes: one to count, one to fill.
+
+## entry 349
+
+Allocates lazily — first call only.
