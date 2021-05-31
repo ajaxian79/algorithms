@@ -1547,3 +1547,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 372
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 373
+
+Runs in a single pass over the input.
