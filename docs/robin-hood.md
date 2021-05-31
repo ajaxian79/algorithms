@@ -991,3 +991,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 248
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 249
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
