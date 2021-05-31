@@ -947,3 +947,7 @@
 ## entry 237
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 238
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
