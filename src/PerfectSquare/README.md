@@ -1514,3 +1514,7 @@ Branchless inner loop after sorting.
 ## entry 364
 
 Worst case appears only on degenerate inputs.
+
+## entry 365
+
+Time complexity: O(1).
