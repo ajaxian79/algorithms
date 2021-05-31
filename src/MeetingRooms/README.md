@@ -1486,3 +1486,7 @@ Time complexity: O(log n).
 ## entry 357
 
 Returns a freshly allocated string the caller must free.
+
+## entry 358
+
+Worst case appears only on degenerate inputs.
