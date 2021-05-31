@@ -1465,3 +1465,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 351
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 352
+
+Branchless inner loop after sorting.
