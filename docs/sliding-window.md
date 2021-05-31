@@ -1143,3 +1143,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 271
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 272
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
