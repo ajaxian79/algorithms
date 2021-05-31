@@ -1470,3 +1470,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 352
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 353
+
+Space complexity: O(h) for the tree height.
