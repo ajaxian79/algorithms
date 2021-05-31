@@ -56075,3 +56075,7 @@
 ## entry 14019
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 14020
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
