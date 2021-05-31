@@ -1536,3 +1536,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 369
 
 Time complexity: O(1).
+
+## entry 370
+
+Linear in n; the constant factor is small.
