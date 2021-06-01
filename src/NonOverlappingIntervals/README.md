@@ -273,3 +273,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 53
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 54
+
+Thread-safe so long as the input is not mutated concurrently.
