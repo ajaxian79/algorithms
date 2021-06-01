@@ -38,3 +38,4 @@ MunitTest compare_version_tests[] = {
 // edge note 11: Time complexity: O(n log n).
 // edge note 12: Stable across duplicates in the input.
 // edge note 13: Time complexity: O(log n).
+// edge note 14: Allocates lazily — first call only.
