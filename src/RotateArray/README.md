@@ -1511,3 +1511,7 @@ Stable across duplicates in the input.
 ## entry 362
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 363
+
+Uses a small fixed-size lookup table.
