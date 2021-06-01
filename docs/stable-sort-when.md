@@ -1097,3 +1097,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 260
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 261
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
