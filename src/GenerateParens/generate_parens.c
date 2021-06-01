@@ -188,3 +188,4 @@ char** generate_parens(int n, int* return_size) {
 // note 124: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 125: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 126: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 127: In-place compaction uses two pointers: read advances always, write only on keep.
