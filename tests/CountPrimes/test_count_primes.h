@@ -162,3 +162,4 @@ MunitTest count_primes_tests[] = {
 // edge note 134: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 135: Edge case: power-of-two-length input → no padding required.
 // edge note 136: Branchless inner loop after sorting.
+// edge note 137: Thread-safe so long as the input is not mutated concurrently.
