@@ -1019,3 +1019,7 @@
 ## entry 255
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 256
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
