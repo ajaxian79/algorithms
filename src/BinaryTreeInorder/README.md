@@ -282,3 +282,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 56
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 57
+
+No allocations after setup.
