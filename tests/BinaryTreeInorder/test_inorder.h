@@ -188,3 +188,4 @@ MunitTest inorder_tests[] = {
 // edge note 150: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 151: Returns a freshly allocated string the caller must free.
 // edge note 152: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 153: Idempotent — calling twice with the same input is a no-op the second time.
