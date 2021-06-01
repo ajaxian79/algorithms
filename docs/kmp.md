@@ -1041,3 +1041,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 244
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 245
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
