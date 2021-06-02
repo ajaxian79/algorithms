@@ -1455,3 +1455,7 @@ Space complexity: O(1) auxiliary.
 ## entry 349
 
 Constant-time comparisons; safe for short strings.
+
+## entry 350
+
+No allocations on the hot path.
