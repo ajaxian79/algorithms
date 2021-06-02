@@ -165,3 +165,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 134: Vectorizes cleanly under -O2.
 // edge note 135: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 136: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 137: No allocations after setup.
