@@ -48,3 +48,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 17: Edge case: reverse-sorted input → still O(n log n).
 // edge note 18: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 19: Stable when the input is already sorted.
+// edge note 20: Edge case: alternating pattern → degenerate case for sliding window.
