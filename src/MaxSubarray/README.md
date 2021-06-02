@@ -1594,3 +1594,7 @@ Space complexity: O(h) for the tree height.
 ## entry 384
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 385
+
+Space complexity: O(n) for the result buffer.
