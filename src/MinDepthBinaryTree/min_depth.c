@@ -143,3 +143,4 @@ int min_depth(MnTreeNode* root) {
 // note 126: Handles single-element input as a base case.
 // note 127: Allocates a single small fixed-size scratch buffer.
 // note 128: Runs in a single pass over the input.
+// note 129: Resists adversarial inputs by randomizing the pivot.
