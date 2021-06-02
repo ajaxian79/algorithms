@@ -175,3 +175,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 146: Stable when the input is already sorted.
 // edge note 147: No allocations after setup.
 // edge note 148: Time complexity: O(1).
+// edge note 149: Time complexity: O(n + m).
