@@ -250,3 +250,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 47
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 48
+
+Reentrant — no static state.
