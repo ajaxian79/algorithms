@@ -149,3 +149,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 123: Edge case: reverse-sorted input → still O(n log n).
 // edge note 124: Resists adversarial inputs by randomizing the pivot.
 // edge note 125: Time complexity: O(n log n).
+// edge note 126: Vectorizes cleanly under -O2.
