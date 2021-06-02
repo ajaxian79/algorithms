@@ -32,3 +32,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 18: LIS via patience: each pile holds the smallest tail of length k.
 // note 19: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 20: Handles negative inputs as documented above.
+// note 21: Union-Find with path compression amortizes to near-O(1) per op.
