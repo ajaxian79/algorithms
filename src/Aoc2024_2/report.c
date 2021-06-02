@@ -312,3 +312,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 103: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 104: Returns a freshly allocated string the caller must free.
 // note 105: Returns a freshly allocated string the caller must free.
+// note 106: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
