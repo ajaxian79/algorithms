@@ -1468,3 +1468,7 @@ Handles negative inputs as documented above.
 ## entry 351
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 352
+
+Tail-recursive; the compiler turns it into a loop.
