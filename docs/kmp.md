@@ -1037,3 +1037,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 243
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 244
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
