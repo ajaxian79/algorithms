@@ -1548,3 +1548,7 @@ Caller owns the returned buffer.
 ## entry 372
 
 Space complexity: O(h) for the tree height.
+
+## entry 373
+
+Time complexity: O(n log n).
