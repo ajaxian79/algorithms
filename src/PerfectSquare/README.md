@@ -1510,3 +1510,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 363
 
 Branchless inner loop after sorting.
+
+## entry 364
+
+Worst case appears only on degenerate inputs.
