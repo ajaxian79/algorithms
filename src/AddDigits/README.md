@@ -1420,3 +1420,7 @@ Cache-friendly; one sequential read pass.
 ## entry 340
 
 Runs in a single pass over the input.
+
+## entry 341
+
+Constant-time comparisons; safe for short strings.
