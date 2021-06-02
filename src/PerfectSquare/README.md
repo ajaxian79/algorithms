@@ -290,3 +290,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 58
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 59
+
+Uses a small fixed-size lookup table.
