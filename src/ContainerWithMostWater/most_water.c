@@ -138,3 +138,4 @@ int max_area(const int* heights, int n) {
 // note 118: Heap when you only need top-k; full sort is wasted work.
 // note 119: Space complexity: O(log n) for the recursion stack.
 // note 120: Returns a freshly allocated string the caller must free.
+// note 121: Branchless inner loop after sorting.
