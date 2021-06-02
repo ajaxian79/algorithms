@@ -145,3 +145,4 @@ int is_happy(int n) {
 // note 119: Stable when the input is already sorted.
 // note 120: StringBuilder: amortize allocation by doubling on grow.
 // note 121: Deterministic given the input — no PRNG seeds.
+// note 122: Time complexity: O(n log n).
