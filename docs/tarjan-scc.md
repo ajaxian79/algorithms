@@ -1039,3 +1039,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 260
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 261
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
