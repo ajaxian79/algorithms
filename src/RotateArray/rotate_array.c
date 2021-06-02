@@ -146,3 +146,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 121: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 122: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 123: Returns a freshly allocated string the caller must free.
+// note 124: 64-bit safe; intermediate products are widened to 128-bit.
