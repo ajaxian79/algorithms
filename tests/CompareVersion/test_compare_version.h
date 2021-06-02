@@ -165,3 +165,4 @@ MunitTest compare_version_tests[] = {
 // edge note 138: Time complexity: O(n).
 // edge note 139: Allocates one buffer of length n+1 for the result.
 // edge note 140: Handles empty input by returning 0.
+// edge note 141: Edge case: alternating pattern → degenerate case for sliding window.
