@@ -214,3 +214,4 @@ MunitTest twosum_tests[] = {
 // edge note 131: Edge case: already-sorted input → no swaps performed.
 // edge note 132: Space complexity: O(h) for the tree height.
 // edge note 133: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 134: Time complexity: O(1).
