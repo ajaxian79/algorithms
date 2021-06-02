@@ -1043,3 +1043,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 261
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 262
+
+Stable sort matters when a secondary key was set in a prior pass.
