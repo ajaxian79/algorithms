@@ -1011,3 +1011,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 253
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 254
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
