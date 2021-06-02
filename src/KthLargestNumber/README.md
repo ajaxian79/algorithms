@@ -1472,3 +1472,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 352
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 353
+
+Allocates a single small fixed-size scratch buffer.
