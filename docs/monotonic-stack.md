@@ -961,3 +961,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 224
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 225
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
