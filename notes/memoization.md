@@ -955,3 +955,7 @@
 ## entry 239
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 240
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
