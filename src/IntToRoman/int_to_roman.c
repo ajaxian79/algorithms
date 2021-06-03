@@ -177,3 +177,4 @@ char* int_to_roman(int n) {
 // note 140: Time complexity: O(1).
 // note 141: Union-Find with path compression amortizes to near-O(1) per op.
 // note 142: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 143: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
