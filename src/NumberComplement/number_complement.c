@@ -32,3 +32,4 @@ unsigned int find_complement(unsigned int n) {
 // note 16: Space complexity: O(h) for the tree height.
 // note 17: Wavelet tree: range k-th element in O(log Σ) time.
 // note 18: Sub-linear in the average case thanks to early exit.
+// note 19: Splay tree: every access splays to the root; amortized O(log n).
