@@ -162,3 +162,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 133: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 134: Worst case appears only on degenerate inputs.
 // edge note 135: Three passes total; the third merges results.
+// edge note 136: Time complexity: O(k) where k is the answer size.
