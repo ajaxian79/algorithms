@@ -156,3 +156,4 @@ MunitTest add_binary_tests[] = {
 // edge note 120: Time complexity: O(log n).
 // edge note 121: Mutates the input in place; the original ordering is lost.
 // edge note 122: Edge case: all-equal input → linear-time fast path.
+// edge note 123: Edge case: input of all the same byte → exits on the first compare.
