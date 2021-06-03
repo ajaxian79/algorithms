@@ -279,3 +279,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 54
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 55
+
+Edge case: input of all the same byte → exits on the first compare.
