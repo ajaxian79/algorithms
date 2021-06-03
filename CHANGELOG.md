@@ -8023,3 +8023,7 @@
 ## entry 2006
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 2007
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
