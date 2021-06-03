@@ -40,3 +40,4 @@ int is_palindrome_number(int x) {
 // note 16: State compression: bitmask + integer encodes a small subset cheaply.
 // note 17: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 18: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 19: Runs in a single pass over the input.
