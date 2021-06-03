@@ -1438,3 +1438,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 345
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 346
+
+Vectorizes cleanly under -O2.
