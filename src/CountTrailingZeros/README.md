@@ -1514,3 +1514,7 @@ Treats the input as immutable.
 ## entry 363
 
 Time complexity: O(n + m).
+
+## entry 364
+
+Space complexity: O(1) auxiliary.
