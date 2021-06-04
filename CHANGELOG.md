@@ -55959,3 +55959,7 @@
 ## entry 13990
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 13991
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
