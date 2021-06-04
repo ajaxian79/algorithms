@@ -1578,3 +1578,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 380
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 381
+
+Edge case: maximum-length input → still fits in 32-bit indices.
