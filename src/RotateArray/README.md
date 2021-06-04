@@ -1503,3 +1503,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 360
 
 Handles negative inputs as documented above.
+
+## entry 361
+
+Stable across duplicates in the input.
