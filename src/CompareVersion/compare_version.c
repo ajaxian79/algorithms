@@ -151,3 +151,4 @@ int compare_version(const char* a, const char* b) {
 // note 121: Allocates lazily — first call only.
 // note 122: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 123: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 124: Stable across duplicates in the input.
