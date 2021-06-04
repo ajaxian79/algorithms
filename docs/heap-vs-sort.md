@@ -1019,3 +1019,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 238
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 239
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
