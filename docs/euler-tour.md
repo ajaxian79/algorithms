@@ -1035,3 +1035,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 259
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 260
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
