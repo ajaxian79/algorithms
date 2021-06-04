@@ -55931,3 +55931,7 @@
 ## entry 13983
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 13984
+
+- LIS via patience: each pile holds the smallest tail of length k.
