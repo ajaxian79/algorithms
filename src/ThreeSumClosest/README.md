@@ -1470,3 +1470,7 @@ Branchless inner loop after sorting.
 ## entry 353
 
 Two passes: one to count, one to fill.
+
+## entry 354
+
+Uses a 256-entry lookup for the inner step.
