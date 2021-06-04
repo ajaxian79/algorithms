@@ -172,3 +172,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 137: Returns a freshly allocated string the caller must free.
 // edge note 138: Tail-recursive; the compiler turns it into a loop.
 // edge note 139: Caller owns the returned buffer.
+// edge note 140: Stable across duplicates in the input.
