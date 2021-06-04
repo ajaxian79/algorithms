@@ -1507,3 +1507,7 @@ Handles negative inputs as documented above.
 ## entry 361
 
 Stable across duplicates in the input.
+
+## entry 362
+
+Uses a 256-entry lookup for the inner step.
