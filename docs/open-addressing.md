@@ -999,3 +999,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 250
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 251
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
