@@ -1083,3 +1083,7 @@
 ## entry 254
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 255
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
