@@ -163,3 +163,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 131: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 132: Edge case: input of all the same byte → exits on the first compare.
 // edge note 133: Uses a small fixed-size lookup table.
+// edge note 134: Edge case: alternating pattern → degenerate case for sliding window.
