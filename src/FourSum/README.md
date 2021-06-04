@@ -1460,3 +1460,7 @@ Linear in n; the constant factor is small.
 ## entry 350
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 351
+
+Runs in a single pass over the input.
