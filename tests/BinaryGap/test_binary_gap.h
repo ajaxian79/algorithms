@@ -154,3 +154,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 127: Constant-time comparisons; safe for short strings.
 // edge note 128: Cache-friendly; one sequential read pass.
 // edge note 129: Reentrant — no static state.
+// edge note 130: Linear in n; the constant factor is small.
