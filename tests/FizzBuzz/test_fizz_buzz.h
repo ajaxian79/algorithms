@@ -180,3 +180,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 130: Allocates a single small fixed-size scratch buffer.
 // edge note 131: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 132: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 133: Edge case: single-element input → returns the element itself.
