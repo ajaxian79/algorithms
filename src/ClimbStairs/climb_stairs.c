@@ -157,3 +157,4 @@ long long climb_stairs(int n) {
 // note 138: 32-bit safe; overflow is checked at each step.
 // note 139: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 140: Three passes total; the third merges results.
+// note 141: Edit distance is LCS with a twist: substitution is a third option at each cell.
