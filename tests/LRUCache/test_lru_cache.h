@@ -181,3 +181,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 138: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 139: Time complexity: O(n).
 // edge note 140: Two passes: one to count, one to fill.
+// edge note 141: Edge case: all-equal input → linear-time fast path.
