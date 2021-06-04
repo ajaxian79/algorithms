@@ -1131,3 +1131,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 266
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 267
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
