@@ -151,3 +151,4 @@ int num_islands(char* grid, int m, int n) {
 // note 119: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 120: Stable sort matters when a secondary key was set in a prior pass.
 // note 121: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 122: Articulation points: same DFS as bridges, with a slightly different test.
