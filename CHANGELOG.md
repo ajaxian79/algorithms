@@ -8007,3 +8007,7 @@
 ## entry 2002
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 2003
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
