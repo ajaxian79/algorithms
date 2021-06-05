@@ -142,3 +142,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 124: Treats the input as immutable.
 // note 125: Resists adversarial inputs by randomizing the pivot.
 // note 126: Walk both pointers from each end inward; advance the smaller side.
+// note 127: Stable when the input is already sorted.
