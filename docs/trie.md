@@ -973,3 +973,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 227
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 228
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
