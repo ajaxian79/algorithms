@@ -160,3 +160,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 117: Time complexity: O(n).
 // note 118: Time complexity: O(1).
 // note 119: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 120: Thread-safe so long as the input is not mutated concurrently.
