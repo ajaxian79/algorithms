@@ -187,3 +187,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 47
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 48
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
