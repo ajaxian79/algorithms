@@ -266,3 +266,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 52
 
 Two passes: one to count, one to fill.
+
+## entry 53
+
+Edge case: already-sorted input → no swaps performed.
