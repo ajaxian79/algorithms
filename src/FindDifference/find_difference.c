@@ -1,0 +1,16 @@
+//
+// Created by ajaxian on 06/05/21.
+//
+
+#include "find_difference.h"
+
+char find_difference(const char* s, const char* t) {
+    unsigned int acc = 0;
+    if (s) {
+        for (int i = 0; s[i] != '\0'; i++) acc ^= (unsigned char)s[i];
+    }
+    if (t) {
+        for (int i = 0; t[i] != '\0'; i++) acc ^= (unsigned char)t[i];
+    }
+    return (char)acc;
+}

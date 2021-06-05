@@ -108,6 +108,7 @@ add_executable(combination_sum src/CombinationSum/main.c src/CombinationSum/comb
 add_executable(subsets src/Subsets/main.c src/Subsets/subsets.c)
 add_executable(permutations src/Permutations/main.c src/Permutations/permutations.c)
 add_executable(lru_cache src/LRUCache/main.c src/LRUCache/lru_cache.c)
+add_executable(find_difference src/FindDifference/main.c src/FindDifference/find_difference.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -318,4 +319,5 @@ target_link_libraries(combination_sum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-stat
 target_link_libraries(subsets PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(permutations PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(lru_cache PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(find_difference PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
