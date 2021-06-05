@@ -991,3 +991,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 231
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 232
+
+Endianness matters when serializing multi-byte ints to a file or wire.
