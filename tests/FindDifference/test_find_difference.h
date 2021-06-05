@@ -1,0 +1,25 @@
+//
+// Created by ajaxian on 06/05/21.
+//
+
+#ifndef ALGORITHMS_TEST_FIND_DIFFERENCE_H
+#define ALGORITHMS_TEST_FIND_DIFFERENCE_H
+
+#include "../tests.h"
+#include "../../src/FindDifference/find_difference.h"
+
+static MunitResult test_find_difference_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    munit_assert_char(find_difference("abcd", "abcde"), ==, 'e');
+    munit_assert_char(find_difference("", "y"),         ==, 'y');
+    munit_assert_char(find_difference("a", "aa"),       ==, 'a');
+    munit_assert_char(find_difference("ae", "aea"),     ==, 'a');
+    munit_assert_char(find_difference("xyz", "yzxa"),   ==, 'a');
+    return MUNIT_OK;
+}
+
+MunitTest find_difference_tests[] = {
+    {"/basic", test_find_difference_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_FIND_DIFFERENCE_H

@@ -211,7 +211,8 @@ add_executable(unittests
         src/CombinationSum/combination_sum.c
         src/Subsets/subsets.c
         src/Permutations/permutations.c
-        src/LRUCache/lru_cache.c)
+        src/LRUCache/lru_cache.c
+        src/FindDifference/find_difference.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
