@@ -1532,3 +1532,7 @@ Handles single-element input as a base case.
 ## entry 368
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 369
+
+Time complexity: O(1).
