@@ -987,3 +987,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 231
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 232
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
