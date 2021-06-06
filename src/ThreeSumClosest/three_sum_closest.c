@@ -147,3 +147,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 115: Branchless inner loop after sorting.
 // note 116: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 117: Caller owns the returned buffer.
+// note 118: Graph DP on DAGs: topological order makes the dependency direction explicit.
