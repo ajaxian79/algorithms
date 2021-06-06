@@ -1039,3 +1039,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 260
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 261
+
+LIS via patience: each pile holds the smallest tail of length k.
