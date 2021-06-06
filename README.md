@@ -60,3 +60,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Subsets](src/Subsets) — bitmask enumeration of 2^n subsets
 * [Permutations](src/Permutations) — swap-based backtracking enumeration
 * [LRU Cache](src/LRUCache) — doubly-linked list + open-chained hash table
+* [Find the Difference](src/FindDifference) — XOR over both strings
