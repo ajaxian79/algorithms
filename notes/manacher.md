@@ -1073,3 +1073,7 @@
 ## entry 252
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 253
+
+- Walk both pointers from each end inward; advance the smaller side.
