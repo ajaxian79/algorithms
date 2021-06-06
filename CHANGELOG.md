@@ -55903,3 +55903,7 @@
 ## entry 13976
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 13977
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
