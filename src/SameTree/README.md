@@ -1448,3 +1448,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 348
 
 32-bit safe; overflow is checked at each step.
+
+## entry 349
+
+Stable across duplicates in the input.
