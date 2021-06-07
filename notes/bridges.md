@@ -891,3 +891,7 @@
 ## entry 223
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 224
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
