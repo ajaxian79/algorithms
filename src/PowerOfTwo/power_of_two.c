@@ -114,3 +114,4 @@ int is_power_of_two(int n) {
 // note 104: State compression: bitmask + integer encodes a small subset cheaply.
 // note 105: Time complexity: O(n + m).
 // note 106: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 107: Uses a 256-entry lookup for the inner step.
