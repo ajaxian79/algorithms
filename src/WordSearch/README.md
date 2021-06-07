@@ -1406,3 +1406,7 @@ Stable when the input is already sorted.
 ## entry 337
 
 Time complexity: O(1).
+
+## entry 338
+
+Tail-recursive; the compiler turns it into a loop.
