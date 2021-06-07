@@ -146,3 +146,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 131: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 132: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 133: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 134: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
