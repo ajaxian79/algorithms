@@ -282,3 +282,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 56
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 57
+
+Edge case: maximum-length input → still fits in 32-bit indices.
