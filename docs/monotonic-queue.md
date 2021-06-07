@@ -219,3 +219,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 37
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 38
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
