@@ -1115,3 +1115,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 279
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 280
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
