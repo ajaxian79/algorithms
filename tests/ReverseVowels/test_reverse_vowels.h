@@ -171,3 +171,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 132: 32-bit safe; overflow is checked at each step.
 // edge note 133: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 134: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 135: Time complexity: O(n*k) where k is the alphabet size.
