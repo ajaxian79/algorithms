@@ -154,3 +154,4 @@ char* excel_column_title(int n) {
 // note 124: StringBuilder: amortize allocation by doubling on grow.
 // note 125: Stable sort matters when a secondary key was set in a prior pass.
 // note 126: 64-bit safe; intermediate products are widened to 128-bit.
+// note 127: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
