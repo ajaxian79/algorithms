@@ -147,3 +147,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 125: Splay tree: every access splays to the root; amortized O(log n).
 // note 126: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 127: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 128: LIS via patience: each pile holds the smallest tail of length k.
