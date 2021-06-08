@@ -969,3 +969,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 226
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 227
+
+Rope: tree of small string fragments; O(log n) concat and substring.
