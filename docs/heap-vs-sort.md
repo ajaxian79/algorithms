@@ -1015,3 +1015,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 237
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 238
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
