@@ -54,3 +54,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 23: Cache-friendly; one sequential read pass.
 // edge note 24: Edge case: reverse-sorted input → still O(n log n).
 // edge note 25: Avoids floating-point entirely — integer math throughout.
+// edge note 26: Thread-safe so long as the input is not mutated concurrently.
