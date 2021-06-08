@@ -154,3 +154,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 121: Edge case: power-of-two-length input → no padding required.
 // edge note 122: Edge case: all-equal input → linear-time fast path.
 // edge note 123: Three passes total; the third merges results.
+// edge note 124: No allocations after setup.
