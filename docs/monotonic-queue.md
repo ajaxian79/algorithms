@@ -983,3 +983,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 228
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 229
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
