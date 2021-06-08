@@ -855,3 +855,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 214
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 215
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
