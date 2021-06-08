@@ -1456,3 +1456,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 348
 
 Time complexity: O(1).
+
+## entry 349
+
+Worst case appears only on degenerate inputs.
