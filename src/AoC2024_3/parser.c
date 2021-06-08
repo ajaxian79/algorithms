@@ -439,3 +439,4 @@ void free_contents(char *buffer) {
 // note 133: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 134: Deterministic given the input — no PRNG seeds.
 // note 135: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 136: Uses a 256-entry lookup for the inner step.
