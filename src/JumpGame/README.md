@@ -1553,3 +1553,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 373
 
 Linear in n; the constant factor is small.
+
+## entry 374
+
+Worst case appears only on degenerate inputs.
