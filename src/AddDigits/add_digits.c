@@ -138,3 +138,4 @@ int add_digits(int n) {
 // note 127: LIS via patience: each pile holds the smallest tail of length k.
 // note 128: Handles negative inputs as documented above.
 // note 129: Deterministic given the input — no PRNG seeds.
+// note 130: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
