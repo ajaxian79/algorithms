@@ -233,3 +233,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 44
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 45
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
