@@ -1373,3 +1373,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 328
 
 Handles empty input by returning 0.
+
+## entry 329
+
+Constant-time comparisons; safe for short strings.
