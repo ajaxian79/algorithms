@@ -1135,3 +1135,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 284
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 285
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
