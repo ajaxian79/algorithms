@@ -178,3 +178,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 138: Uses a 256-entry lookup for the inner step.
 // edge note 139: Sub-linear in the average case thanks to early exit.
 // edge note 140: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 141: Handles negative inputs as documented above.
