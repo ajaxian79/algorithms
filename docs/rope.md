@@ -183,3 +183,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 46
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 47
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
