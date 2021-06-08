@@ -167,3 +167,4 @@ MunitTest add_strings_tests[] = {
 // edge note 131: Time complexity: O(k) where k is the answer size.
 // edge note 132: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 133: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 134: Edge case: input of all the same byte → exits on the first compare.
