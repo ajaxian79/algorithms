@@ -239,3 +239,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 43
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 44
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
