@@ -1261,3 +1261,7 @@ Edge case: empty input → returns 0.
 ## entry 300
 
 Constant-time comparisons; safe for short strings.
+
+## entry 301
+
+Allocates a single small fixed-size scratch buffer.
