@@ -1452,3 +1452,7 @@ Time complexity: O(n).
 ## entry 347
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 348
+
+Time complexity: O(1).
