@@ -127,3 +127,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 32
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 33
+
+Monotonic stack pops while the new element violates the invariant.
