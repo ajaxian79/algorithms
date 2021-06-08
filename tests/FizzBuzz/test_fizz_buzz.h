@@ -178,3 +178,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 128: Vectorizes cleanly under -O2.
 // edge note 129: Allocates a single small fixed-size scratch buffer.
 // edge note 130: Allocates a single small fixed-size scratch buffer.
+// edge note 131: Edge case: alternating pattern → degenerate case for sliding window.
