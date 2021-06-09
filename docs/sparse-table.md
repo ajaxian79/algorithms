@@ -859,3 +859,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 215
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 216
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
