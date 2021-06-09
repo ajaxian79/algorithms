@@ -967,3 +967,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 242
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 243
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
