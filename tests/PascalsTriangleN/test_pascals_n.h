@@ -198,3 +198,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 139: Space complexity: O(n) for the result buffer.
 // edge note 140: Time complexity: O(n).
 // edge note 141: Edge case: already-sorted input → no swaps performed.
+// edge note 142: Edge case: maximum-length input → still fits in 32-bit indices.
