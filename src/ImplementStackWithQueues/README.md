@@ -1460,3 +1460,7 @@ Vectorizes cleanly under -O2.
 ## entry 350
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 351
+
+Allocates one buffer of length n+1 for the result.
