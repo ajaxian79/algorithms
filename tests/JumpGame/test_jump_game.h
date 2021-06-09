@@ -156,3 +156,4 @@ MunitTest jump_game_tests[] = {
 // edge note 122: Edge case: zero-length string → returns the empty result.
 // edge note 123: Caller owns the returned array; free with a single `free`.
 // edge note 124: Edge case: empty input → returns 0.
+// edge note 125: Branchless inner loop after sorting.
