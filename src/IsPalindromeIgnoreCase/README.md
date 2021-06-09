@@ -1366,3 +1366,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 327
 
 32-bit safe; overflow is checked at each step.
+
+## entry 328
+
+Stable when the input is already sorted.
