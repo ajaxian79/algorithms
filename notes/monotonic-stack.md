@@ -1065,3 +1065,7 @@
 ## entry 251
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 252
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
