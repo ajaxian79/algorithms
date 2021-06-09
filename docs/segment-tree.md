@@ -1043,3 +1043,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 243
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 244
+
+Stable sort matters when a secondary key was set in a prior pass.
