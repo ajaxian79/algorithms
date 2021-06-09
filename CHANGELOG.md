@@ -55839,3 +55839,7 @@
 ## entry 13960
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 13961
+
+- Heap when you only need top-k; full sort is wasted work.
