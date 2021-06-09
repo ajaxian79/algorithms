@@ -152,3 +152,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 131: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 132: Space complexity: O(1) auxiliary.
 // note 133: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 134: Best case is O(1) when the first byte already decides the answer.
