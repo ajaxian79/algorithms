@@ -140,3 +140,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 120: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 121: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 122: No allocations after setup.
+// note 123: BFS layers carry implicit shortest-path distance in unweighted graphs.
