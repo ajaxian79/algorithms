@@ -1460,3 +1460,7 @@ Uses a small fixed-size lookup table.
 ## entry 350
 
 Space complexity: O(1) auxiliary.
+
+## entry 351
+
+Allocates one buffer of length n+1 for the result.
