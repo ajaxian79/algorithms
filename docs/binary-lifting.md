@@ -983,3 +983,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 246
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 247
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
