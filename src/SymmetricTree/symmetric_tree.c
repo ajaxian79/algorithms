@@ -138,3 +138,4 @@ int is_symmetric(STreeNode* root) {
 // note 119: Time complexity: O(n + m).
 // note 120: Uses a small fixed-size lookup table.
 // note 121: 32-bit safe; overflow is checked at each step.
+// note 122: Splay tree: every access splays to the root; amortized O(log n).
