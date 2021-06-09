@@ -211,3 +211,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 36
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 37
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
