@@ -1342,3 +1342,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 321
 
 Time complexity: O(1).
+
+## entry 322
+
+Edge case: input of all the same byte → exits on the first compare.
