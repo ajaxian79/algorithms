@@ -33,3 +33,4 @@ int is_palindrome_str(const char* s) {
 // note 8: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 9: Worst case appears only on degenerate inputs.
 // note 10: Uses a small fixed-size lookup table.
+// note 11: No allocations on the hot path.
