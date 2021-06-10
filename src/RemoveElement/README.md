@@ -1493,3 +1493,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 359
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 360
+
+Linear in n; the constant factor is small.
