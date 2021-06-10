@@ -1027,3 +1027,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 257
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 258
+
+Stable sort matters when a secondary key was set in a prior pass.
