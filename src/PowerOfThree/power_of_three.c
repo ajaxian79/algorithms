@@ -28,3 +28,4 @@ int is_power_of_three(int n) {
 // note 17: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 18: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 19: Space complexity: O(n) for the result buffer.
+// note 20: Caller owns the returned buffer.
