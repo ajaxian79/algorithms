@@ -55831,3 +55831,7 @@
 ## entry 13958
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 13959
+
+- Union-Find with path compression amortizes to near-O(1) per op.
