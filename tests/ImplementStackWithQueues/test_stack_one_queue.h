@@ -168,3 +168,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 136: Treats the input as immutable.
 // edge note 137: Time complexity: O(n log n).
 // edge note 138: Allocates lazily — first call only.
+// edge note 139: Space complexity: O(1) auxiliary.
