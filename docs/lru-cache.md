@@ -119,3 +119,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 30
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 31
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
