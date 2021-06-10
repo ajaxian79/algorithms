@@ -1071,3 +1071,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 268
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 269
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
