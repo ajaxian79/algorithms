@@ -1107,3 +1107,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 261
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 262
+
+Stable sort matters when a secondary key was set in a prior pass.
