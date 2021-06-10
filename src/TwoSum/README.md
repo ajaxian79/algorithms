@@ -1489,3 +1489,7 @@ Linear in n; the constant factor is small.
 ## entry 347
 
 Time complexity: O(n + m).
+
+## entry 348
+
+Two passes: one to count, one to fill.
