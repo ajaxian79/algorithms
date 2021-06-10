@@ -1536,3 +1536,7 @@ Stable when the input is already sorted.
 ## entry 369
 
 Allocates lazily — first call only.
+
+## entry 370
+
+Two passes: one to count, one to fill.
