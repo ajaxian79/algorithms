@@ -286,3 +286,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 57
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 58
+
+Tail-recursive; the compiler turns it into a loop.
