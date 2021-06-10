@@ -1540,3 +1540,7 @@ Allocates lazily — first call only.
 ## entry 370
 
 Two passes: one to count, one to fill.
+
+## entry 371
+
+Caller owns the returned buffer.
