@@ -1456,3 +1456,7 @@ Worst case appears only on degenerate inputs.
 ## entry 349
 
 Uses a small fixed-size lookup table.
+
+## entry 350
+
+Space complexity: O(1) auxiliary.
