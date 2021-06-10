@@ -179,3 +179,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 45
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 46
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
