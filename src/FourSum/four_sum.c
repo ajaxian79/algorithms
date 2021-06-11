@@ -72,3 +72,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 13: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 14: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 15: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 16: Edit distance is LCS with a twist: substitution is a third option at each cell.
