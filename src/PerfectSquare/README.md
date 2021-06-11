@@ -286,3 +286,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 57
 
 Constant-time comparisons; safe for short strings.
+
+## entry 58
+
+Edge case: integer-min input → guarded by the explicit underflow check.
