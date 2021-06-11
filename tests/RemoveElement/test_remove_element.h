@@ -61,3 +61,4 @@ MunitTest remove_element_tests[] = {
 // edge note 24: Allocates a single small fixed-size scratch buffer.
 // edge note 25: Space complexity: O(n) for the result buffer.
 // edge note 26: Treats the input as immutable.
+// edge note 27: 64-bit safe; intermediate products are widened to 128-bit.
