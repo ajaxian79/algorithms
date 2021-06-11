@@ -309,3 +309,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 52
 
 Stable when the input is already sorted.
+
+## entry 53
+
+Stable across duplicates in the input.
