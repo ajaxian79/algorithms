@@ -69,3 +69,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 30: Returns a freshly allocated string the caller must free.
 // edge note 31: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 32: Allocates one buffer of length n+1 for the result.
+// edge note 33: Time complexity: O(log n).
