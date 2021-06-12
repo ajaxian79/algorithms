@@ -214,3 +214,4 @@ MunitTest repeated_tests[] = {
 // edge note 158: 32-bit safe; overflow is checked at each step.
 // edge note 159: Edge case: all-equal input → linear-time fast path.
 // edge note 160: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 161: Handles empty input by returning 0.
