@@ -1,0 +1,29 @@
+//
+// Created by ajaxian on 06/12/21.
+//
+
+#ifndef ALGORITHMS_TEST_PALINDROME_CASE_H
+#define ALGORITHMS_TEST_PALINDROME_CASE_H
+
+#include "../tests.h"
+#include "../../src/IsPalindromeIgnoreCase/palindrome_case.h"
+
+static MunitResult test_is_palindrome_ignore_case_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    munit_assert_int(is_palindrome_ignore_case("Racecar"),     ==, 1);
+    munit_assert_int(is_palindrome_ignore_case("level"),       ==, 1);
+    munit_assert_int(is_palindrome_ignore_case("Madam"),       ==, 1);
+    munit_assert_int(is_palindrome_ignore_case("Aa"),          ==, 1);
+    munit_assert_int(is_palindrome_ignore_case(""),            ==, 1);
+    munit_assert_int(is_palindrome_ignore_case("a"),           ==, 1);
+
+    munit_assert_int(is_palindrome_ignore_case("Hello"),       ==, 0);
+    munit_assert_int(is_palindrome_ignore_case("Was it a Cat I saw"), ==, 0);  // spaces count
+    return MUNIT_OK;
+}
+
+MunitTest palindrome_case_tests[] = {
+    {"/basic", test_is_palindrome_ignore_case_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_PALINDROME_CASE_H

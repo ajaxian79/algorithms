@@ -103,6 +103,7 @@
 #include "Permutations/test_permutations.h"
 #include "LRUCache/test_lru_cache.h"
 #include "FindDifference/test_find_difference.h"
+#include "IsPalindromeIgnoreCase/test_palindrome_case.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -738,6 +739,12 @@ MunitSuite suites[] = {
         },{
                 "/find_difference",
                 find_difference_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/palindrome_case",
+                palindrome_case_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
