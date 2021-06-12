@@ -1478,3 +1478,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 355
 
 Space complexity: O(h) for the tree height.
+
+## entry 356
+
+Edge case: already-sorted input → no swaps performed.
