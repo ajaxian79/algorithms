@@ -1035,3 +1035,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 259
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 260
+
+Articulation points: same DFS as bridges, with a slightly different test.
