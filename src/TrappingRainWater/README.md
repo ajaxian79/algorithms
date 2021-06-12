@@ -1454,3 +1454,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 348
 
 Space complexity: O(n) for the result buffer.
+
+## entry 349
+
+Returns a freshly allocated string the caller must free.
