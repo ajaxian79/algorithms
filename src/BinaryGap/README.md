@@ -274,3 +274,7 @@ Handles single-element input as a base case.
 ## entry 53
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 54
+
+Vectorizes cleanly under -O2.
