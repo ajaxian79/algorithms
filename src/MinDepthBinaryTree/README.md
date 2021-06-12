@@ -274,3 +274,7 @@ Handles empty input by returning 0.
 ## entry 54
 
 No allocations on the hot path.
+
+## entry 55
+
+Deterministic given the input — no PRNG seeds.
