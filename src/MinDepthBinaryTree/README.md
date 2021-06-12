@@ -1342,3 +1342,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 321
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 322
+
+Two passes: one to count, one to fill.
