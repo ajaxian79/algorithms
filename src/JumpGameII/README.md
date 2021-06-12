@@ -1452,3 +1452,7 @@ Linear in n; the constant factor is small.
 ## entry 348
 
 Worst case appears only on degenerate inputs.
+
+## entry 349
+
+Uses a small fixed-size lookup table.
