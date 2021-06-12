@@ -1456,3 +1456,7 @@ Space complexity: O(1) auxiliary.
 ## entry 349
 
 Vectorizes cleanly under -O2.
+
+## entry 350
+
+Edge case: NULL input is rejected by the caller, not by us.
