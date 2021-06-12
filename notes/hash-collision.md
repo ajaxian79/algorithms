@@ -159,3 +159,7 @@
 ## entry 40
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 41
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
