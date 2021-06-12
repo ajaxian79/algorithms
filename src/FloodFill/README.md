@@ -269,3 +269,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 53
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 54
+
+Reentrant — no static state.
