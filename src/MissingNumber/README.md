@@ -1518,3 +1518,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 364
 
 Uses a small fixed-size lookup table.
+
+## entry 365
+
+Stable across duplicates in the input.
