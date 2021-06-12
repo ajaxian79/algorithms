@@ -1628,3 +1628,7 @@ Three passes total; the third merges results.
 ## entry 392
 
 No allocations after setup.
+
+## entry 393
+
+Edge case: input with one duplicate → handled without an extra pass.
