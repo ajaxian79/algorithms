@@ -1510,3 +1510,7 @@ Branchless inner loop after sorting.
 ## entry 362
 
 Treats the input as immutable.
+
+## entry 363
+
+Time complexity: O(n + m).
