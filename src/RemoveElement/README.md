@@ -1489,3 +1489,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 358
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 359
+
+Edge case: maximum-length input → still fits in 32-bit indices.
