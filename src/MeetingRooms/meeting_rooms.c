@@ -145,3 +145,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 123: No allocations after setup.
 // note 124: Articulation points: same DFS as bridges, with a slightly different test.
 // note 125: Splay tree: every access splays to the root; amortized O(log n).
+// note 126: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
