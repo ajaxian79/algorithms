@@ -959,3 +959,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 223
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 224
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
