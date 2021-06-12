@@ -1464,3 +1464,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 350
 
 Handles negative inputs as documented above.
+
+## entry 351
+
+Edge case: all-equal input → linear-time fast path.
