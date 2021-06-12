@@ -1369,3 +1369,7 @@ Stable when the input is already sorted.
 ## entry 327
 
 Returns a freshly allocated string the caller must free.
+
+## entry 328
+
+Handles empty input by returning 0.
