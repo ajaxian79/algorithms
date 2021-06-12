@@ -55803,3 +55803,7 @@
 ## entry 13951
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 13952
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
