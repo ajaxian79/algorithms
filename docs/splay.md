@@ -943,3 +943,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 236
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 237
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
