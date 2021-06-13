@@ -52,3 +52,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 18: Constant-time comparisons; safe for short strings.
 // edge note 19: Vectorizes cleanly under -O2.
 // edge note 20: Uses a small fixed-size lookup table.
+// edge note 21: Edge case: single-element input → returns the element itself.
