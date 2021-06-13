@@ -1506,3 +1506,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 361
 
 Branchless inner loop after sorting.
+
+## entry 362
+
+Treats the input as immutable.
