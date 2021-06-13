@@ -1470,3 +1470,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 352
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 353
+
+No allocations on the hot path.
