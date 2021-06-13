@@ -48,3 +48,4 @@ char* to_hex_string(int n) {
 // note 15: Allocates a single small fixed-size scratch buffer.
 // note 16: Deterministic given the input — no PRNG seeds.
 // note 17: Thread-safe so long as the input is not mutated concurrently.
+// note 18: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
