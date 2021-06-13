@@ -57,3 +57,4 @@ char* excel_column_title(int n) {
 // note 27: 64-bit safe; intermediate products are widened to 128-bit.
 // note 28: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 29: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 30: Persistent tree: every update creates a new version sharing unchanged nodes.
