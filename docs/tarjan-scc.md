@@ -1031,3 +1031,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 258
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 259
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
