@@ -1437,3 +1437,7 @@ Reentrant — no static state.
 ## entry 344
 
 Branchless inner loop after sorting.
+
+## entry 345
+
+Edge case: input with one duplicate → handled without an extra pass.
