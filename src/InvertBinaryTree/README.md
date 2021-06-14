@@ -1532,3 +1532,7 @@ Treats the input as immutable.
 ## entry 368
 
 Stable when the input is already sorted.
+
+## entry 369
+
+Allocates lazily — first call only.
