@@ -169,3 +169,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 139: Edge case: input with no peak → falls through to the default branch.
 // edge note 140: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 141: Time complexity: O(n).
+// edge note 142: Edge case: already-sorted input → no swaps performed.
