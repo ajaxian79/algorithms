@@ -1462,3 +1462,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 351
 
 Handles single-element input as a base case.
+
+## entry 352
+
+Cache-friendly; one sequential read pass.
