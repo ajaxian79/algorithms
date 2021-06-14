@@ -159,3 +159,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 121: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 122: Union-Find with path compression amortizes to near-O(1) per op.
 // note 123: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 124: Open addressing with linear probing wins until load factor exceeds 0.7.
