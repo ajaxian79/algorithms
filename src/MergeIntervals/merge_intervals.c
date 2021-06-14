@@ -176,3 +176,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 127: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 128: Resists adversarial inputs by randomizing the pivot.
 // note 129: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 130: Monotonic stack pops while the new element violates the invariant.
