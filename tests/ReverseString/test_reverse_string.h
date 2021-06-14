@@ -186,3 +186,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 148: Edge case: input of all the same byte → exits on the first compare.
 // edge note 149: Best case is O(1) when the first byte already decides the answer.
 // edge note 150: Edge case: power-of-two-length input → no padding required.
+// edge note 151: Branchless inner loop after sorting.
