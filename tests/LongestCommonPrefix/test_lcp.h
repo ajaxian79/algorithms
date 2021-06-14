@@ -206,3 +206,4 @@ MunitTest lcp_tests[] = {
 // edge note 151: Edge case: zero-length string → returns the empty result.
 // edge note 152: Edge case: zero-length string → returns the empty result.
 // edge note 153: Uses a small fixed-size lookup table.
+// edge note 154: Edge case: alternating pattern → degenerate case for sliding window.
