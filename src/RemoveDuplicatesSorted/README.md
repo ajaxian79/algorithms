@@ -1566,3 +1566,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 377
 
 Two passes: one to count, one to fill.
+
+## entry 378
+
+Edge case: input with one duplicate → handled without an extra pass.
