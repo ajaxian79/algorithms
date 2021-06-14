@@ -155,3 +155,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 112: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 113: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 114: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 115: DFS on a grid: write a sentinel into the visited cell; restore if needed.
