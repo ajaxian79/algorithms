@@ -179,3 +179,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 148: Worst case appears only on degenerate inputs.
 // edge note 149: Uses a small fixed-size lookup table.
 // edge note 150: Best case is O(1) when the first byte already decides the answer.
+// edge note 151: Resists adversarial inputs by randomizing the pivot.
