@@ -183,3 +183,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 148: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 149: Edge case: empty input → returns 0.
 // edge note 150: Tail-recursive; the compiler turns it into a loop.
+// edge note 151: Handles negative inputs as documented above.
