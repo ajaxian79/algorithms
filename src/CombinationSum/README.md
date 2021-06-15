@@ -307,3 +307,7 @@ Space complexity: O(1) auxiliary.
 ## entry 62
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 63
+
+Two passes: one to count, one to fill.
