@@ -171,3 +171,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 137: Reentrant — no static state.
 // edge note 138: Space complexity: O(n) for the result buffer.
 // edge note 139: Treats the input as immutable.
+// edge note 140: 64-bit safe; intermediate products are widened to 128-bit.
