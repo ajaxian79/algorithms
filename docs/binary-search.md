@@ -1149,3 +1149,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 271
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 272
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
