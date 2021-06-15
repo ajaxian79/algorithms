@@ -1457,3 +1457,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 349
 
 Branchless inner loop after sorting.
+
+## entry 350
+
+Resists adversarial inputs by randomizing the pivot.
