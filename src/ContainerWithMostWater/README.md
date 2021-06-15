@@ -1511,3 +1511,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 363
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 364
+
+Resists adversarial inputs by randomizing the pivot.
