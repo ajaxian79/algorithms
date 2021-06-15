@@ -264,3 +264,7 @@ Time complexity: O(n + m).
 ## entry 50
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 51
+
+64-bit safe; intermediate products are widened to 128-bit.
