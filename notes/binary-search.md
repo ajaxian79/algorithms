@@ -1173,3 +1173,7 @@
 ## entry 278
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 279
+
+- Heap when you only need top-k; full sort is wasted work.
