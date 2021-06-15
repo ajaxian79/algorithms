@@ -153,3 +153,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 122: Union-Find with path compression amortizes to near-O(1) per op.
 // note 123: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 124: 64-bit safe; intermediate products are widened to 128-bit.
+// note 125: k-d tree: median-split each axis; nearest-neighbor average O(log n).
