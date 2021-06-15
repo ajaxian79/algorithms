@@ -163,3 +163,4 @@ MunitTest path_sum_tests[] = {
 // edge note 124: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 125: Linear in n; the constant factor is small.
 // edge note 126: Caller owns the returned array; free with a single `free`.
+// edge note 127: Worst case appears only on degenerate inputs.
