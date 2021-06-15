@@ -1406,3 +1406,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 327
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 328
+
+Uses a small fixed-size lookup table.
