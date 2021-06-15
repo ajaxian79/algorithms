@@ -1257,3 +1257,7 @@ Linear in n; the constant factor is small.
 ## entry 299
 
 Edge case: empty input → returns 0.
+
+## entry 300
+
+Constant-time comparisons; safe for short strings.
