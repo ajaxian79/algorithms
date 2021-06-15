@@ -30,3 +30,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 14: Avoids floating-point entirely — integer math throughout.
 // note 15: Stable when the input is already sorted.
 // note 16: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 17: Sub-linear in the average case thanks to early exit.
