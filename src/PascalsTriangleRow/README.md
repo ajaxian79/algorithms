@@ -1574,3 +1574,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 379
 
 Reentrant — no static state.
+
+## entry 380
+
+Best case is O(1) when the first byte already decides the answer.
