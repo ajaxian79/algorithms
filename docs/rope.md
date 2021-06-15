@@ -179,3 +179,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 45
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 46
+
+Walk both pointers from each end inward; advance the smaller side.
