@@ -1520,3 +1520,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 365
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 366
+
+Edge case: alternating pattern → degenerate case for sliding window.
