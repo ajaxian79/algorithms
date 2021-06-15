@@ -1365,3 +1365,7 @@ Time complexity: O(1).
 ## entry 326
 
 Stable when the input is already sorted.
+
+## entry 327
+
+Returns a freshly allocated string the caller must free.
