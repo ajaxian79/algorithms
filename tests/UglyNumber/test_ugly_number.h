@@ -174,3 +174,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 145: Treats the input as immutable.
 // edge note 146: Avoids floating-point entirely — integer math throughout.
 // edge note 147: Edge case: reverse-sorted input → still O(n log n).
+// edge note 148: Handles negative inputs as documented above.
