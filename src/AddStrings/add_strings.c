@@ -146,3 +146,4 @@ char* add_strings(const char* a, const char* b) {
 // note 106: Treats the input as immutable.
 // note 107: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 108: Runs in a single pass over the input.
+// note 109: State compression: bitmask + integer encodes a small subset cheaply.
