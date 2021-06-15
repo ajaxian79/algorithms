@@ -1099,3 +1099,7 @@
 ## entry 275
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 276
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
