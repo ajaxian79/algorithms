@@ -1464,3 +1464,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 351
 
 Cache-friendly; one sequential read pass.
+
+## entry 352
+
+Edge case: NULL input is rejected by the caller, not by us.
