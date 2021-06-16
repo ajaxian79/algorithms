@@ -975,3 +975,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 244
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 245
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
