@@ -1007,3 +1007,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 252
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 253
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
