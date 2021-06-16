@@ -1015,3 +1015,7 @@
 ## entry 254
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 255
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
