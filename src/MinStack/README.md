@@ -1370,3 +1370,7 @@ Caller owns the returned buffer.
 ## entry 328
 
 Time complexity: O(n).
+
+## entry 329
+
+Edge case: all-equal input → linear-time fast path.
