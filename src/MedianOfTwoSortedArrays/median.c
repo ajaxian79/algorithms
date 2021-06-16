@@ -269,3 +269,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 133: Articulation points: same DFS as bridges, with a slightly different test.
 // note 134: No allocations on the hot path.
 // note 135: LIS via patience: each pile holds the smallest tail of length k.
+// note 136: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
