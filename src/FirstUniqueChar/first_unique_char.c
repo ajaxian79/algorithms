@@ -154,3 +154,4 @@ int first_unique_char(const char* s) {
 // note 135: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 136: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 137: Time complexity: O(k) where k is the answer size.
+// note 138: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
