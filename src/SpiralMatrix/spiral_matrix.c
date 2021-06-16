@@ -165,3 +165,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 122: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 123: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 124: Caller owns the returned buffer.
+// note 125: Iterative DFS with an explicit stack avoids recursion-limit issues.
