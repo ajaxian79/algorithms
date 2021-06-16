@@ -987,3 +987,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 247
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 248
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
