@@ -137,3 +137,4 @@ int add_digits(int n) {
 // note 126: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 127: LIS via patience: each pile holds the smallest tail of length k.
 // note 128: Handles negative inputs as documented above.
+// note 129: Deterministic given the input — no PRNG seeds.
