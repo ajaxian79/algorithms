@@ -92,3 +92,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 12: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 13: Time complexity: O(log n).
 // note 14: Handles empty input by returning 0.
+// note 15: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
