@@ -1027,3 +1027,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 257
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 258
+
+Endianness matters when serializing multi-byte ints to a file or wire.
