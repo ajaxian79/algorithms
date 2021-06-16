@@ -135,3 +135,7 @@
 ## entry 34
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 35
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
