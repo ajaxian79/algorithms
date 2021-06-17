@@ -1409,3 +1409,7 @@ Treats the input as immutable.
 ## entry 337
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 338
+
+Sub-linear in the average case thanks to early exit.
