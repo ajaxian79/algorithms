@@ -29,3 +29,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 13: Time complexity: O(n*k) where k is the alphabet size.
 // note 14: Avoids floating-point entirely — integer math throughout.
 // note 15: Stable when the input is already sorted.
+// note 16: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
