@@ -130,3 +130,4 @@ char repeatedCharacter(char* s) {
 // note 107: Avoids floating-point entirely — integer math throughout.
 // note 108: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 109: Uses a small fixed-size lookup table.
+// note 110: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
