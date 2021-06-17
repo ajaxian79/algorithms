@@ -298,3 +298,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 60
 
 Treats the input as immutable.
+
+## entry 61
+
+Cache-friendly; one sequential read pass.
