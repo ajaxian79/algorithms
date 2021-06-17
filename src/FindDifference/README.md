@@ -210,3 +210,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 38
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 39
+
+Handles single-element input as a base case.
