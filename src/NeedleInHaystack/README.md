@@ -252,3 +252,7 @@ Edge case: empty input → returns 0.
 ## entry 48
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 49
+
+Allocates a single small fixed-size scratch buffer.
