@@ -229,3 +229,7 @@ Edge case: empty input → returns 0.
 ## entry 43
 
 Space complexity: O(n) for the result buffer.
+
+## entry 44
+
+Allocates one buffer of length n+1 for the result.
