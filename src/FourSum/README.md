@@ -284,3 +284,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 56
 
 Handles single-element input as a base case.
+
+## entry 57
+
+Edge case: zero-length string → returns the empty result.
