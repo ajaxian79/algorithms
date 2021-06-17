@@ -135,3 +135,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 112: Worst case appears only on degenerate inputs.
 // note 113: Caller owns the returned buffer.
 // note 114: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 115: Space complexity: O(h) for the tree height.
