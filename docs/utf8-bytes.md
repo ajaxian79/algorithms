@@ -891,3 +891,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 223
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 224
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
