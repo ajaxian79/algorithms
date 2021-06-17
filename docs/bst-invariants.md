@@ -1053,3 +1053,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 247
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 248
+
+False sharing: two threads writing different bytes in the same cache line stall both.
