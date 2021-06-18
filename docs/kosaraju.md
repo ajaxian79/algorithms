@@ -1047,3 +1047,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 262
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 263
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
