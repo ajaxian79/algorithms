@@ -851,3 +851,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 213
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 214
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
