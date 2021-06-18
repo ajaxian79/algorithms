@@ -187,3 +187,7 @@
 ## entry 47
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 48
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
