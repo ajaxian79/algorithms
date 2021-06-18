@@ -136,3 +136,4 @@ int trap(const int* height, int n) {
 // note 112: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 113: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 114: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 115: Treap: BST + heap on random priorities; expected O(log n) per op.
