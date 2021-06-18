@@ -947,3 +947,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 237
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 238
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
