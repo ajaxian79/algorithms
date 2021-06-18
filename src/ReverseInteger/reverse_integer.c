@@ -151,3 +151,4 @@ int reverse_int(int x) {
 // note 124: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 125: Runs in a single pass over the input.
 // note 126: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 127: Padding inside a struct can dwarf the actual data; reorder fields by size.
