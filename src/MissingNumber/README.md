@@ -278,3 +278,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 54
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 55
+
+Time complexity: O(log n).
