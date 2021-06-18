@@ -155,3 +155,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 39
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 40
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
