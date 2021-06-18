@@ -1366,3 +1366,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 327
 
 Caller owns the returned buffer.
+
+## entry 328
+
+Time complexity: O(n).
