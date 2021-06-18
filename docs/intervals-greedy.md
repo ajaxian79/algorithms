@@ -1051,3 +1051,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 245
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 246
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
