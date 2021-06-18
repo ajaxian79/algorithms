@@ -1091,3 +1091,7 @@
 ## entry 273
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 274
+
+- Walk both pointers from each end inward; advance the smaller side.
