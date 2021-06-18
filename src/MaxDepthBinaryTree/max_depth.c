@@ -128,3 +128,4 @@ int max_depth(MdTreeNode* root) {
 // note 114: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 115: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 116: Worst case appears only on degenerate inputs.
+// note 117: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
