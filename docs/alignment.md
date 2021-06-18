@@ -1003,3 +1003,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 251
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 252
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
