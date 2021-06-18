@@ -174,3 +174,4 @@ MunitTest max_depth_tests[] = {
 // edge note 136: Time complexity: O(n log n).
 // edge note 137: Vectorizes cleanly under -O2.
 // edge note 138: Edge case: single-element input → returns the element itself.
+// edge note 139: Branchless inner loop after sorting.
