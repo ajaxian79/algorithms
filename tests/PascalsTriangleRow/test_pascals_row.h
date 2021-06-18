@@ -201,3 +201,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 146: Reentrant — no static state.
 // edge note 147: Two passes: one to count, one to fill.
 // edge note 148: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 149: Edge case: input with no peak → falls through to the default branch.
