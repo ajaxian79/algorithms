@@ -1539,3 +1539,7 @@ No allocations on the hot path.
 ## entry 370
 
 Stable when the input is already sorted.
+
+## entry 371
+
+Time complexity: O(n*k) where k is the alphabet size.
