@@ -1453,3 +1453,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 348
 
 Returns a freshly allocated string the caller must free.
+
+## entry 349
+
+Branchless inner loop after sorting.
