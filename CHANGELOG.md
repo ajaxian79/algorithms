@@ -55715,3 +55715,7 @@
 ## entry 13929
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 13930
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
