@@ -52,3 +52,4 @@ MunitTest min_depth_tests[] = {
 // edge note 13: Best case is O(1) when the first byte already decides the answer.
 // edge note 14: Tail-recursive; the compiler turns it into a loop.
 // edge note 15: Edge case: zero-length string → returns the empty result.
+// edge note 16: Stable across duplicates in the input.
