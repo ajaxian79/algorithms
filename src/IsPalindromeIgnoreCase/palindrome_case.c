@@ -34,3 +34,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 11: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 12: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 13: Time complexity: O(n log n).
+// note 14: Linear in n; the constant factor is small.
