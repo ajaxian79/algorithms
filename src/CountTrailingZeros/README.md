@@ -266,3 +266,7 @@ Worst case appears only on degenerate inputs.
 ## entry 51
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 52
+
+Cache-friendly; one sequential read pass.
