@@ -1490,3 +1490,7 @@ Uses a small fixed-size lookup table.
 ## entry 358
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 359
+
+Runs in a single pass over the input.
