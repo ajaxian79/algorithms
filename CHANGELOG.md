@@ -7967,3 +7967,7 @@
 ## entry 1992
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 1993
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
