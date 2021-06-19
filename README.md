@@ -62,3 +62,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [LRU Cache](src/LRUCache) — doubly-linked list + open-chained hash table
 * [Find the Difference](src/FindDifference) — XOR over both strings
 * [Is Palindrome (Ignore Case)](src/IsPalindromeIgnoreCase) — case-folded two-pointer
+* [Perfect Number](src/PerfectNumber) — sum of proper divisors via sqrt sweep
