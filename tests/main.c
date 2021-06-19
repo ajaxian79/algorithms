@@ -104,6 +104,7 @@
 #include "LRUCache/test_lru_cache.h"
 #include "FindDifference/test_find_difference.h"
 #include "IsPalindromeIgnoreCase/test_palindrome_case.h"
+#include "PerfectNumber/test_perfect_number.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -745,6 +746,12 @@ MunitSuite suites[] = {
         },{
                 "/palindrome_case",
                 palindrome_case_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/perfect_number",
+                perfect_number_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
