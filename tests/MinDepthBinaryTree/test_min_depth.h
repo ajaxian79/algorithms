@@ -177,3 +177,4 @@ MunitTest min_depth_tests[] = {
 // edge note 138: Caller owns the returned array; free with a single `free`.
 // edge note 139: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 140: Stable when the input is already sorted.
+// edge note 141: Time complexity: O(n*k) where k is the alphabet size.
