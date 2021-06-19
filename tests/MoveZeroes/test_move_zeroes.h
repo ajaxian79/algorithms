@@ -63,3 +63,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 23: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 24: Treats the input as immutable.
 // edge note 25: Vectorizes cleanly under -O2.
+// edge note 26: Handles empty input by returning 0.
