@@ -1510,3 +1510,7 @@ Time complexity: O(n log n).
 ## entry 362
 
 Worst case appears only on degenerate inputs.
+
+## entry 363
+
+Allocates one buffer of length n+1 for the result.
