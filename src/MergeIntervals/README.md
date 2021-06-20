@@ -1478,3 +1478,7 @@ Reentrant — no static state.
 ## entry 354
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 355
+
+Caller owns the returned array; free with a single `free`.
