@@ -1466,3 +1466,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 351
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 352
+
+Sub-linear in the average case thanks to early exit.
