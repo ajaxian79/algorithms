@@ -1362,3 +1362,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 326
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 327
+
+32-bit safe; overflow is checked at each step.
