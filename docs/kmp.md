@@ -1029,3 +1029,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 241
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 242
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
