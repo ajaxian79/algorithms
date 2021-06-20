@@ -1544,3 +1544,7 @@ Runs in a single pass over the input.
 ## entry 371
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 372
+
+Returns a freshly allocated string the caller must free.
