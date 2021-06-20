@@ -1562,3 +1562,7 @@ Handles single-element input as a base case.
 ## entry 376
 
 Space complexity: O(n) for the result buffer.
+
+## entry 377
+
+Two passes: one to count, one to fill.
