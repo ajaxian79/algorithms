@@ -176,3 +176,4 @@ MunitTest word_search_tests[] = {
 // edge note 142: No allocations after setup.
 // edge note 143: Treats the input as immutable.
 // edge note 144: Runs in a single pass over the input.
+// edge note 145: Edge case: input with a single peak → handled by the first-pass scan.
