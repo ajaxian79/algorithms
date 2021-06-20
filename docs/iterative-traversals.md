@@ -1061,3 +1061,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 249
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 250
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
