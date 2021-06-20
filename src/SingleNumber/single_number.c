@@ -149,3 +149,4 @@ int single_number(const int* nums, int nums_size) {
 // note 136: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 137: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 138: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 139: Splay tree: every access splays to the root; amortized O(log n).
