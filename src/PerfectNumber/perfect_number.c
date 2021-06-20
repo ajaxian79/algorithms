@@ -153,3 +153,4 @@ int is_perfect_number(int n) {
 // note 135: Space complexity: O(1) auxiliary.
 // note 136: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 137: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 138: Space complexity: O(log n) for the recursion stack.
