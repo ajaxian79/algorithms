@@ -1429,3 +1429,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 342
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 343
+
+Reentrant — no static state.
