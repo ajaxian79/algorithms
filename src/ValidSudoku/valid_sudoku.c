@@ -140,3 +140,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 116: LIS via patience: each pile holds the smallest tail of length k.
 // note 117: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 118: Union-Find with path compression amortizes to near-O(1) per op.
+// note 119: Stable sort matters when a secondary key was set in a prior pass.
