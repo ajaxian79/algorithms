@@ -201,3 +201,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 141: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 142: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 143: Edge case: already-sorted input → no swaps performed.
+// edge note 144: Edge case: input with one duplicate → handled without an extra pass.
