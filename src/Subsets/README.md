@@ -1535,3 +1535,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 369
 
 No allocations on the hot path.
+
+## entry 370
+
+Stable when the input is already sorted.
