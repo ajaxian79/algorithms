@@ -955,3 +955,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 222
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 223
+
+Monotonic stack pops while the new element violates the invariant.
