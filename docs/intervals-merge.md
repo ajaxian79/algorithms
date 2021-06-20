@@ -1069,3 +1069,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 250
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 251
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
