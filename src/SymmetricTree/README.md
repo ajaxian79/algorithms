@@ -294,3 +294,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 59
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 60
+
+Treats the input as immutable.
