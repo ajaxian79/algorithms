@@ -139,3 +139,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 117: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 118: Cache-friendly; one sequential read pass.
 // note 119: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 120: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
