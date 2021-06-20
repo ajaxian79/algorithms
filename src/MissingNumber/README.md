@@ -1514,3 +1514,7 @@ Worst case appears only on degenerate inputs.
 ## entry 363
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 364
+
+Uses a small fixed-size lookup table.
