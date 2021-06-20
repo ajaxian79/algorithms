@@ -943,3 +943,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 236
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 237
+
+Greedy by end-time picks the most non-overlapping intervals.
