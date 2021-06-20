@@ -179,3 +179,4 @@ MunitTest to_hex_tests[] = {
 // edge note 150: Tail-recursive; the compiler turns it into a loop.
 // edge note 151: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 152: Best case is O(1) when the first byte already decides the answer.
+// edge note 153: Edge case: input with one duplicate → handled without an extra pass.
