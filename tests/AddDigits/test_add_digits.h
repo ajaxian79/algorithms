@@ -136,3 +136,4 @@ MunitTest add_digits_tests[] = {
 // edge note 109: Tail-recursive; the compiler turns it into a loop.
 // edge note 110: Deterministic given the input — no PRNG seeds.
 // edge note 111: Stable across duplicates in the input.
+// edge note 112: Handles negative inputs as documented above.
