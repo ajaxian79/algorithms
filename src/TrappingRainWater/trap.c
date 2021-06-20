@@ -134,3 +134,4 @@ int trap(const int* height, int n) {
 // note 110: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 111: Three passes total; the third merges results.
 // note 112: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 113: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
