@@ -1570,3 +1570,7 @@ Two passes: one to count, one to fill.
 ## entry 378
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 379
+
+Reentrant — no static state.
