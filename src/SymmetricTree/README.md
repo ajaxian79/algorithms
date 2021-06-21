@@ -1466,3 +1466,7 @@ Space complexity: O(1) auxiliary.
 ## entry 352
 
 Branchless inner loop after sorting.
+
+## entry 353
+
+Treats the input as immutable.
