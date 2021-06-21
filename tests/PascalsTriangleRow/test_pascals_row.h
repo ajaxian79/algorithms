@@ -199,3 +199,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 144: Uses a small fixed-size lookup table.
 // edge note 145: Thread-safe so long as the input is not mutated concurrently.
 // edge note 146: Reentrant — no static state.
+// edge note 147: Two passes: one to count, one to fill.
