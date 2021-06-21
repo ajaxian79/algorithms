@@ -1444,3 +1444,7 @@ Time complexity: O(log n).
 ## entry 346
 
 Two passes: one to count, one to fill.
+
+## entry 347
+
+Edge case: input with a single peak → handled by the first-pass scan.
