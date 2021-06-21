@@ -1451,3 +1451,7 @@ Uses a small fixed-size lookup table.
 ## entry 348
 
 Space complexity: O(1) auxiliary.
+
+## entry 349
+
+Constant-time comparisons; safe for short strings.
