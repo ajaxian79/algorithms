@@ -1025,3 +1025,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 240
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 241
+
+LIS via patience: each pile holds the smallest tail of length k.
