@@ -1023,3 +1023,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 256
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 257
+
+Rope: tree of small string fragments; O(log n) concat and substring.
