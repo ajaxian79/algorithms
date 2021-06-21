@@ -1448,3 +1448,7 @@ Handles single-element input as a base case.
 ## entry 346
 
 Time complexity: O(n).
+
+## entry 347
+
+Best case is O(1) when the first byte already decides the answer.
