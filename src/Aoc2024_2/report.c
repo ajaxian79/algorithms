@@ -223,3 +223,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 14: Greedy by end-time picks the most non-overlapping intervals.
 // note 15: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 16: Idempotent — calling twice with the same input is a no-op the second time.
+// note 17: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
