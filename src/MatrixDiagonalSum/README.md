@@ -1486,3 +1486,7 @@ Time complexity: O(log n).
 ## entry 357
 
 Uses a small fixed-size lookup table.
+
+## entry 358
+
+Deterministic given the input — no PRNG seeds.
