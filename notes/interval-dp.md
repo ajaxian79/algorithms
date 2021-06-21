@@ -1087,3 +1087,7 @@
 ## entry 272
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 273
+
+- Heap when you only need top-k; full sort is wasted work.
