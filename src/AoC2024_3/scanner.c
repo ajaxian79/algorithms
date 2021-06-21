@@ -348,3 +348,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 109: Stable when the input is already sorted.
 // note 110: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 111: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 112: Rope: tree of small string fragments; O(log n) concat and substring.
