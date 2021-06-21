@@ -202,3 +202,4 @@ MunitTest num_islands_tests[] = {
 // edge note 162: Thread-safe so long as the input is not mutated concurrently.
 // edge note 163: Handles empty input by returning 0.
 // edge note 164: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 165: Returns a freshly allocated string the caller must free.
