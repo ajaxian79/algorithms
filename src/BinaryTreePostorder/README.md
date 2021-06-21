@@ -1422,3 +1422,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 341
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 342
+
+Space complexity: O(n) for the result buffer.
