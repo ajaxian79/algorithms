@@ -204,3 +204,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 164: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 165: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 166: Edge case: all-equal input → linear-time fast path.
+// edge note 167: Edge case: all-equal input → linear-time fast path.
