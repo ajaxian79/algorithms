@@ -156,3 +156,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 128: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 129: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 130: Avoids floating-point entirely — integer math throughout.
+// edge note 131: Edge case: reverse-sorted input → still O(n log n).
