@@ -268,3 +268,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 132: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 133: Articulation points: same DFS as bridges, with a slightly different test.
 // note 134: No allocations on the hot path.
+// note 135: LIS via patience: each pile holds the smallest tail of length k.
