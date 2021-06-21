@@ -161,3 +161,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 129: Deterministic given the input — no PRNG seeds.
 // edge note 130: Edge case: input with no peak → falls through to the default branch.
 // edge note 131: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 132: Edge case: input of all the same byte → exits on the first compare.
