@@ -1426,3 +1426,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 342
 
 Space complexity: O(n) for the result buffer.
+
+## entry 343
+
+Treats the input as immutable.
