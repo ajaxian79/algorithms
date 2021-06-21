@@ -176,3 +176,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 118: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 119: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 120: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 121: LIS via patience: each pile holds the smallest tail of length k.
