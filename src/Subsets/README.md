@@ -1531,3 +1531,7 @@ Caller owns the returned buffer.
 ## entry 368
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 369
+
+No allocations on the hot path.
