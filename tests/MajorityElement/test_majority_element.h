@@ -161,3 +161,4 @@ MunitTest majority_element_tests[] = {
 // edge note 130: Edge case: single-element input → returns the element itself.
 // edge note 131: No allocations on the hot path.
 // edge note 132: Edge case: power-of-two-length input → no padding required.
+// edge note 133: Thread-safe so long as the input is not mutated concurrently.
