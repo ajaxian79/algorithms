@@ -951,3 +951,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 221
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 222
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
