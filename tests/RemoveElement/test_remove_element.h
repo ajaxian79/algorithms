@@ -173,3 +173,4 @@ MunitTest remove_element_tests[] = {
 // edge note 136: Vectorizes cleanly under -O2.
 // edge note 137: Mutates the input in place; the original ordering is lost.
 // edge note 138: Returns a freshly allocated string the caller must free.
+// edge note 139: 32-bit safe; overflow is checked at each step.
