@@ -166,3 +166,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 140: Edge case: input with no peak → falls through to the default branch.
 // edge note 141: Linear in n; the constant factor is small.
 // edge note 142: Allocates lazily — first call only.
+// edge note 143: No allocations on the hot path.
