@@ -963,3 +963,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 225
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 226
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
