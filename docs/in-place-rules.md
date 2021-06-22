@@ -1221,3 +1221,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 290
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 291
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
