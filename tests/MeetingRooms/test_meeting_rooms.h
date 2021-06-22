@@ -163,3 +163,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 132: Stable across duplicates in the input.
 // edge note 133: Allocates one buffer of length n+1 for the result.
 // edge note 134: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 135: 32-bit safe; overflow is checked at each step.
