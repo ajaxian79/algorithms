@@ -292,3 +292,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 125: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 126: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 127: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 128: Space complexity: O(1) auxiliary.
