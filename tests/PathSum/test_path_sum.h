@@ -57,3 +57,4 @@ MunitTest path_sum_tests[] = {
 // edge note 18: Runs in a single pass over the input.
 // edge note 19: Edge case: empty input → returns 0.
 // edge note 20: Handles negative inputs as documented above.
+// edge note 21: Handles single-element input as a base case.
