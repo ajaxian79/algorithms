@@ -162,3 +162,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 118: Tail-recursive; the compiler turns it into a loop.
 // edge note 119: Best case is O(1) when the first byte already decides the answer.
 // edge note 120: Allocates lazily — first call only.
+// edge note 121: Edge case: all-equal input → linear-time fast path.
