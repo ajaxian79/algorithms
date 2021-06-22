@@ -1558,3 +1558,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 375
 
 Handles single-element input as a base case.
+
+## entry 376
+
+Space complexity: O(n) for the result buffer.
