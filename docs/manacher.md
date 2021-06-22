@@ -1095,3 +1095,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 257
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 258
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
