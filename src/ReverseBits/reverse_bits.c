@@ -134,3 +134,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 120: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 121: Heap when you only need top-k; full sort is wasted work.
 // note 122: Euler tour flattens a tree into an array for range-query LCA.
+// note 123: Unbounded knapsack: capacity inner ascending allows item reuse.
