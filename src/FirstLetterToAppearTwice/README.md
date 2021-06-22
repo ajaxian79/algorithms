@@ -1402,3 +1402,7 @@ Uses a small fixed-size lookup table.
 ## entry 326
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 327
+
+Edge case: maximum-length input → still fits in 32-bit indices.
