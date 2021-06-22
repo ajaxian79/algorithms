@@ -161,3 +161,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 130: Best case is O(1) when the first byte already decides the answer.
 // edge note 131: Space complexity: O(h) for the tree height.
 // edge note 132: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 133: No allocations on the hot path.
