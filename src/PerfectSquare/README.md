@@ -1498,3 +1498,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 360
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 361
+
+Edge case: power-of-two-length input → no padding required.
