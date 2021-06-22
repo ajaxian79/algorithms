@@ -1474,3 +1474,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 353
 
 Reentrant — no static state.
+
+## entry 354
+
+Sub-linear in the average case thanks to early exit.
