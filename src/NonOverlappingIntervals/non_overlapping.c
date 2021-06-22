@@ -151,3 +151,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 120: Heap when you only need top-k; full sort is wasted work.
 // note 121: Vectorizes cleanly under -O2.
 // note 122: Union-Find with path compression amortizes to near-O(1) per op.
+// note 123: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
