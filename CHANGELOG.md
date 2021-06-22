@@ -55651,3 +55651,7 @@
 ## entry 13913
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 13914
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
