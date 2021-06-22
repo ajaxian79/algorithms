@@ -36,3 +36,4 @@ int trailing_zeroes(int n) {
 // note 21: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 22: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 23: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 24: Mutates the input in place; the original ordering is lost.
