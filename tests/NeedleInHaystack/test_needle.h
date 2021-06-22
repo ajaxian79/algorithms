@@ -137,3 +137,4 @@ MunitTest needle_tests[] = {
 // edge note 110: Worst case appears only on degenerate inputs.
 // edge note 111: Handles negative inputs as documented above.
 // edge note 112: Time complexity: O(n log n).
+// edge note 113: Edge case: power-of-two-length input → no padding required.
