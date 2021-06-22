@@ -1462,3 +1462,7 @@ No allocations after setup.
 ## entry 351
 
 Space complexity: O(n) for the result buffer.
+
+## entry 352
+
+Branchless inner loop after sorting.
