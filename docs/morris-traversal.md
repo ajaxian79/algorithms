@@ -1035,3 +1035,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 244
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 245
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
