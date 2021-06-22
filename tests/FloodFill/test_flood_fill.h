@@ -160,3 +160,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 130: Thread-safe so long as the input is not mutated concurrently.
 // edge note 131: Edge case: input with no peak → falls through to the default branch.
 // edge note 132: Handles single-element input as a base case.
+// edge note 133: Tail-recursive; the compiler turns it into a loop.
