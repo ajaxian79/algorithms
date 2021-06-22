@@ -1447,3 +1447,7 @@ Two passes: one to count, one to fill.
 ## entry 347
 
 Uses a small fixed-size lookup table.
+
+## entry 348
+
+Space complexity: O(1) auxiliary.
