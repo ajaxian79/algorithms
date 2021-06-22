@@ -174,3 +174,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 145: Edge case: input with no peak → falls through to the default branch.
 // edge note 146: Stable when the input is already sorted.
 // edge note 147: No allocations after setup.
+// edge note 148: Time complexity: O(1).
