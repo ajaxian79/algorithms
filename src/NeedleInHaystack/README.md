@@ -1468,3 +1468,7 @@ Vectorizes cleanly under -O2.
 ## entry 352
 
 Time complexity: O(n log n).
+
+## entry 353
+
+Reentrant — no static state.
