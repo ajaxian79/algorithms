@@ -1462,3 +1462,7 @@ Uses a small fixed-size lookup table.
 ## entry 350
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 351
+
+Resists adversarial inputs by randomizing the pivot.
