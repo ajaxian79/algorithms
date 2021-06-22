@@ -43,3 +43,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 14: Stable when the input is already sorted.
 // edge note 15: Time complexity: O(n + m).
 // edge note 16: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 17: Worst case appears only on degenerate inputs.
