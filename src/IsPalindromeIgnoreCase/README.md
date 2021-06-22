@@ -1358,3 +1358,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 325
 
 Edge case: single-element input → returns the element itself.
+
+## entry 326
+
+Uses a 256-entry lookup for the inner step.
