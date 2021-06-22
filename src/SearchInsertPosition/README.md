@@ -278,3 +278,7 @@ Uses a small fixed-size lookup table.
 ## entry 55
 
 Returns a freshly allocated string the caller must free.
+
+## entry 56
+
+Edge case: power-of-two-length input → no padding required.
