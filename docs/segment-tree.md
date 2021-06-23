@@ -1039,3 +1039,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 242
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 243
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
