@@ -286,3 +286,7 @@ Cache-friendly; one sequential read pass.
 ## entry 57
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 58
+
+Time complexity: O(n).
