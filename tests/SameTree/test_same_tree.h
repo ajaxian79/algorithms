@@ -176,3 +176,4 @@ MunitTest same_tree_tests[] = {
 // edge note 140: Space complexity: O(log n) for the recursion stack.
 // edge note 141: Uses a small fixed-size lookup table.
 // edge note 142: Space complexity: O(log n) for the recursion stack.
+// edge note 143: Treats the input as immutable.
