@@ -158,3 +158,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 117: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 118: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 119: StringBuilder: amortize allocation by doubling on grow.
+// note 120: DFS on a grid: write a sentinel into the visited cell; restore if needed.
