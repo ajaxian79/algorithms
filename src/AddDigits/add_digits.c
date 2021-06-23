@@ -135,3 +135,4 @@ int add_digits(int n) {
 // note 124: Stable across duplicates in the input.
 // note 125: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 126: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 127: LIS via patience: each pile holds the smallest tail of length k.
