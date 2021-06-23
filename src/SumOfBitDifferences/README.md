@@ -1456,3 +1456,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 349
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 350
+
+Time complexity: O(n^2) worst case, O(n) amortized.
