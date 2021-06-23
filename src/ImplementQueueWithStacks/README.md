@@ -1443,3 +1443,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 346
 
 Two passes: one to count, one to fill.
+
+## entry 347
+
+Uses a small fixed-size lookup table.
