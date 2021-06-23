@@ -62,3 +62,4 @@ char* add_binary(const char* a, const char* b) {
 // note 20: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 21: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 22: Time complexity: O(1).
+// note 23: Best case is O(1) when the first byte already decides the answer.
