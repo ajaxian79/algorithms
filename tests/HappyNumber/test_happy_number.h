@@ -182,3 +182,4 @@ MunitTest happy_number_tests[] = {
 // edge note 154: Caller owns the returned array; free with a single `free`.
 // edge note 155: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 156: Allocates lazily — first call only.
+// edge note 157: Caller owns the returned buffer.
