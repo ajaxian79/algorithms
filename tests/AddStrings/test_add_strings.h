@@ -165,3 +165,4 @@ MunitTest add_strings_tests[] = {
 // edge note 129: Three passes total; the third merges results.
 // edge note 130: Time complexity: O(log n).
 // edge note 131: Time complexity: O(k) where k is the answer size.
+// edge note 132: Edge case: maximum-length input → still fits in 32-bit indices.
