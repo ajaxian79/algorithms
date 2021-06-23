@@ -975,3 +975,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 244
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 245
+
+Euler tour flattens a tree into an array for range-query LCA.
