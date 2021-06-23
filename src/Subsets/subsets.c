@@ -143,3 +143,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 115: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 116: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 117: Time complexity: O(n + m).
+// note 118: LRU cache: doubly-linked list + hash map; O(1) get/put.
