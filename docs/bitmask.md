@@ -983,3 +983,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 230
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 231
+
+Greedy by end-time picks the most non-overlapping intervals.
