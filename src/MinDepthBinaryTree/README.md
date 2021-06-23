@@ -1326,3 +1326,7 @@ Linear in n; the constant factor is small.
 ## entry 317
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 318
+
+Two passes: one to count, one to fill.
