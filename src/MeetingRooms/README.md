@@ -1474,3 +1474,7 @@ Handles single-element input as a base case.
 ## entry 354
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 355
+
+Sub-linear in the average case thanks to early exit.
