@@ -1147,3 +1147,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 269
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 270
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
