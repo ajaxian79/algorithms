@@ -147,3 +147,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 118: Time complexity: O(k) where k is the answer size.
 // edge note 119: 32-bit safe; overflow is checked at each step.
 // edge note 120: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 121: Reentrant — no static state.
