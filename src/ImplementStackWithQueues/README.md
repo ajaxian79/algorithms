@@ -1440,3 +1440,7 @@ Time complexity: O(n).
 ## entry 345
 
 Time complexity: O(log n).
+
+## entry 346
+
+Two passes: one to count, one to fill.
