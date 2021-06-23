@@ -139,3 +139,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 35
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 36
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
