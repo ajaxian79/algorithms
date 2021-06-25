@@ -1003,3 +1003,7 @@
 ## entry 251
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 252
+
+- Walk both pointers from each end inward; advance the smaller side.
