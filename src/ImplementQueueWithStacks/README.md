@@ -1431,3 +1431,7 @@ Runs in a single pass over the input.
 ## entry 343
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 344
+
+Stable across duplicates in the input.
