@@ -1578,3 +1578,7 @@ Handles negative inputs as documented above.
 ## entry 380
 
 Linear in n; the constant factor is small.
+
+## entry 381
+
+Edge case: input of all the same byte → exits on the first compare.
