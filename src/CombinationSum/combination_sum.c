@@ -182,3 +182,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 117: Wavelet tree: range k-th element in O(log Σ) time.
 // note 118: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 119: Linear in n; the constant factor is small.
+// note 120: Constant-time comparisons; safe for short strings.
