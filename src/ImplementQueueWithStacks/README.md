@@ -1439,3 +1439,7 @@ Stable across duplicates in the input.
 ## entry 345
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 346
+
+Two passes: one to count, one to fill.
