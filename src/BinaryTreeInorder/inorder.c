@@ -59,3 +59,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 19: LIS via patience: each pile holds the smallest tail of length k.
 // note 20: Best case is O(1) when the first byte already decides the answer.
 // note 21: Space complexity: O(h) for the tree height.
+// note 22: LIS via patience: each pile holds the smallest tail of length k.
