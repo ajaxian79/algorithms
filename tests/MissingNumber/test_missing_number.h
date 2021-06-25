@@ -167,3 +167,4 @@ MunitTest missing_number_tests[] = {
 // edge note 133: Handles single-element input as a base case.
 // edge note 134: Cache-friendly; one sequential read pass.
 // edge note 135: Handles negative inputs as documented above.
+// edge note 136: Time complexity: O(n).
