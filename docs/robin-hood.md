@@ -971,3 +971,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 243
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 244
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
