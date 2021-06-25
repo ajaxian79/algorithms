@@ -1091,3 +1091,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 256
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 257
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
