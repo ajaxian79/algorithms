@@ -955,3 +955,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 239
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 240
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
