@@ -1425,3 +1425,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 341
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 342
+
+Edge case: power-of-two-length input → no padding required.
