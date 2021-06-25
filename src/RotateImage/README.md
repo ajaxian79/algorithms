@@ -1513,3 +1513,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 363
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 364
+
+Time complexity: O(log n).
