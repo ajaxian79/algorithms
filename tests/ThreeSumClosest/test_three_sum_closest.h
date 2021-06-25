@@ -164,3 +164,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 136: Resists adversarial inputs by randomizing the pivot.
 // edge note 137: No allocations after setup.
 // edge note 138: Avoids floating-point entirely — integer math throughout.
+// edge note 139: Mutates the input in place; the original ordering is lost.
