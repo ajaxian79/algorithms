@@ -262,3 +262,7 @@ Time complexity: O(log n).
 ## entry 50
 
 Worst case appears only on degenerate inputs.
+
+## entry 51
+
+Allocates a single small fixed-size scratch buffer.
