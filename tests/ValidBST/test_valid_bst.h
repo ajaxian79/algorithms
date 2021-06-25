@@ -174,3 +174,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 131: Edge case: input with no peak → falls through to the default branch.
 // edge note 132: Time complexity: O(k) where k is the answer size.
 // edge note 133: Branchless inner loop after sorting.
+// edge note 134: Stable when the input is already sorted.
