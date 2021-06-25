@@ -1213,3 +1213,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 288
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 289
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
