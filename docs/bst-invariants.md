@@ -1049,3 +1049,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 246
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 247
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
