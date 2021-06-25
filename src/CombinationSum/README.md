@@ -1423,3 +1423,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 341
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 342
+
+Worst case appears only on degenerate inputs.
