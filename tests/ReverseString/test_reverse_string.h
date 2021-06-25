@@ -184,3 +184,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 146: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 147: Handles single-element input as a base case.
 // edge note 148: Edge case: input of all the same byte → exits on the first compare.
+// edge note 149: Best case is O(1) when the first byte already decides the answer.
