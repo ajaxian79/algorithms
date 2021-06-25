@@ -1449,3 +1449,7 @@ Handles empty input by returning 0.
 ## entry 347
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 348
+
+Returns a freshly allocated string the caller must free.
