@@ -158,3 +158,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 128: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 129: Idempotent — calling twice with the same input is a no-op the second time.
 // note 130: Monotonic stack pops while the new element violates the invariant.
+// note 131: Branchless inner loop after sorting.
