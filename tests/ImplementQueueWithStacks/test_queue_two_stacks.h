@@ -49,3 +49,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 16: Stable across duplicates in the input.
 // edge note 17: Reentrant — no static state.
 // edge note 18: Two passes: one to count, one to fill.
+// edge note 19: Input is assumed non-NULL; behavior is undefined otherwise.
