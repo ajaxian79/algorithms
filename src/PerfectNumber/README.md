@@ -1253,3 +1253,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 298
 
 Linear in n; the constant factor is small.
+
+## entry 299
+
+Edge case: empty input → returns 0.
