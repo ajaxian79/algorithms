@@ -1470,3 +1470,7 @@ Time complexity: O(n + m).
 ## entry 352
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 353
+
+Reentrant — no static state.
