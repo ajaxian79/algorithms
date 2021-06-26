@@ -60,3 +60,4 @@ MunitTest max_depth_tests[] = {
 // edge note 22: Stable when the input is already sorted.
 // edge note 23: Edge case: power-of-two-length input → no padding required.
 // edge note 24: Deterministic given the input — no PRNG seeds.
+// edge note 25: Two passes: one to count, one to fill.
