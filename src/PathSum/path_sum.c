@@ -149,3 +149,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 135: Allocates a single small fixed-size scratch buffer.
 // note 136: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 137: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 138: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
