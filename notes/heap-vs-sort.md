@@ -1071,3 +1071,7 @@
 ## entry 253
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 254
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
