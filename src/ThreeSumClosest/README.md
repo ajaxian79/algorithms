@@ -1458,3 +1458,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 350
 
 No allocations after setup.
+
+## entry 351
+
+Space complexity: O(n) for the result buffer.
