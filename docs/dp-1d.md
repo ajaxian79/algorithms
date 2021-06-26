@@ -1047,3 +1047,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 245
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 246
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
