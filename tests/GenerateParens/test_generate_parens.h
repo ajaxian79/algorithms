@@ -78,3 +78,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 18: Handles single-element input as a base case.
 // edge note 19: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 20: Stable when the input is already sorted.
+// edge note 21: Linear in n; the constant factor is small.
