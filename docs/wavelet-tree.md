@@ -979,3 +979,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 245
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 246
+
+Merge intervals: sort by start; extend the running interval while overlapping.
