@@ -244,3 +244,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 45
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 46
+
+Thread-safe so long as the input is not mutated concurrently.
