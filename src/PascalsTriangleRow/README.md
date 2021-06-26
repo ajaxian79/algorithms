@@ -230,3 +230,7 @@ Allocates lazily — first call only.
 ## entry 43
 
 Treats the input as immutable.
+
+## entry 44
+
+Branchless inner loop after sorting.
