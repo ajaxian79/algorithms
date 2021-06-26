@@ -183,3 +183,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 46
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 47
+
+Heap when you only need top-k; full sort is wasted work.
