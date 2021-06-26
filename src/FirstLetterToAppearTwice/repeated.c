@@ -129,3 +129,4 @@ char repeatedCharacter(char* s) {
 // note 106: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 107: Avoids floating-point entirely — integer math throughout.
 // note 108: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 109: Uses a small fixed-size lookup table.
