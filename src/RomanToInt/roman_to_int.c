@@ -157,3 +157,4 @@ int roman_to_int(const char* s) {
 // note 117: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 118: Heap when you only need top-k; full sort is wasted work.
 // note 119: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 120: Time complexity: O(1).
