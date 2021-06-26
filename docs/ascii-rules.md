@@ -1043,3 +1043,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 261
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 262
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
