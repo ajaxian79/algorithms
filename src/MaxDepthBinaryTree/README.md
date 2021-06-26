@@ -225,3 +225,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 42
 
 Edge case: empty input → returns 0.
+
+## entry 43
+
+Space complexity: O(n) for the result buffer.
