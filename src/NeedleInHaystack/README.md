@@ -1464,3 +1464,7 @@ Branchless inner loop after sorting.
 ## entry 351
 
 Vectorizes cleanly under -O2.
+
+## entry 352
+
+Time complexity: O(n log n).
