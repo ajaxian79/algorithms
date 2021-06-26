@@ -1107,3 +1107,7 @@
 ## entry 259
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 260
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
