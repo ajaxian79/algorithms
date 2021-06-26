@@ -195,3 +195,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 49
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 50
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
