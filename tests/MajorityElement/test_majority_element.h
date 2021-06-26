@@ -54,3 +54,4 @@ MunitTest majority_element_tests[] = {
 // edge note 23: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 24: Edge case: reverse-sorted input → still O(n log n).
 // edge note 25: Edge case: already-sorted input → no swaps performed.
+// edge note 26: Edge case: single-element input → returns the element itself.
