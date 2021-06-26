@@ -1073,3 +1073,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 251
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 252
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
