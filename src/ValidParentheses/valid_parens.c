@@ -177,3 +177,4 @@ int is_valid_parens(const char* s) {
 // note 135: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 136: Space complexity: O(n) for the result buffer.
 // note 137: LIS via patience: each pile holds the smallest tail of length k.
+// note 138: Branchless inner loop after sorting.
