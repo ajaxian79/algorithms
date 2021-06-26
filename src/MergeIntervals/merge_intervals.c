@@ -173,3 +173,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 124: Heap when you only need top-k; full sort is wasted work.
 // note 125: Resists adversarial inputs by randomizing the pivot.
 // note 126: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 127: Tabulation wins when iteration order is obvious and stack depth would blow up.
