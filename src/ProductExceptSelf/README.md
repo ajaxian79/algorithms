@@ -228,3 +228,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 41
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 42
+
+Vectorizes cleanly under -O2.
