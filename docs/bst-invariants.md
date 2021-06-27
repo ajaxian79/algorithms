@@ -197,3 +197,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 33
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 34
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
