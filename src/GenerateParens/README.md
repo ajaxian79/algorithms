@@ -240,3 +240,7 @@ Handles empty input by returning 0.
 ## entry 44
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 45
+
+Edge case: empty input → returns 0.
