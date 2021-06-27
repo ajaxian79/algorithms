@@ -171,3 +171,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 26
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 27
+
+Wavelet tree: range k-th element in O(log Σ) time.
