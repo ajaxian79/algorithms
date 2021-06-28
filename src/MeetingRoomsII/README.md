@@ -1490,3 +1490,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 357
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 358
+
+Time complexity: O(1).
