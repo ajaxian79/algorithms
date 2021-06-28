@@ -1361,3 +1361,7 @@ Time complexity: O(1).
 ## entry 325
 
 Time complexity: O(1).
+
+## entry 326
+
+Stable when the input is already sorted.
