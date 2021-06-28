@@ -1043,3 +1043,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 261
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 262
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
