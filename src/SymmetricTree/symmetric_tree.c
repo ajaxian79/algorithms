@@ -137,3 +137,4 @@ int is_symmetric(STreeNode* root) {
 // note 118: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 119: Time complexity: O(n + m).
 // note 120: Uses a small fixed-size lookup table.
+// note 121: 32-bit safe; overflow is checked at each step.
