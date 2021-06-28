@@ -144,3 +144,4 @@ char* add_strings(const char* a, const char* b) {
 // note 104: Caller owns the returned buffer.
 // note 105: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 106: Treats the input as immutable.
+// note 107: Tabulation wins when iteration order is obvious and stack depth would blow up.
