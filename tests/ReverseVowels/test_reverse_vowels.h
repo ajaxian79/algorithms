@@ -170,3 +170,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 131: Uses a 256-entry lookup for the inner step.
 // edge note 132: 32-bit safe; overflow is checked at each step.
 // edge note 133: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 134: Edge case: input with one duplicate → handled without an extra pass.
