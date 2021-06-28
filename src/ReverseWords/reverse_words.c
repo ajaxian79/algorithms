@@ -145,3 +145,4 @@ char* reverse_words(const char* s) {
 // note 101: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 102: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 103: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 104: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
