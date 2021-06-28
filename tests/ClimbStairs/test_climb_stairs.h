@@ -170,3 +170,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 135: Stable across duplicates in the input.
 // edge note 136: Uses a 256-entry lookup for the inner step.
 // edge note 137: Returns a freshly allocated string the caller must free.
+// edge note 138: Tail-recursive; the compiler turns it into a loop.
