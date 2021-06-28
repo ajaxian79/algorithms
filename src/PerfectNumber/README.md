@@ -1241,3 +1241,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 295
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 296
+
+Idempotent — calling twice with the same input is a no-op the second time.
