@@ -148,3 +148,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 121: Edge case: zero-length string → returns the empty result.
 // edge note 122: Edge case: zero-length string → returns the empty result.
 // edge note 123: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 124: Caller owns the returned buffer.
