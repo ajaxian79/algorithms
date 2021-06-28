@@ -1452,3 +1452,7 @@ Reentrant — no static state.
 ## entry 347
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 348
+
+Edge case: single-element input → returns the element itself.
