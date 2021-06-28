@@ -1355,3 +1355,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 324
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 325
+
+Edge case: already-sorted input → no swaps performed.
