@@ -164,3 +164,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 126: Time complexity: O(1).
 // edge note 127: Branchless inner loop after sorting.
 // edge note 128: Linear in n; the constant factor is small.
+// edge note 129: Cache-friendly; one sequential read pass.
