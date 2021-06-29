@@ -1470,3 +1470,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 353
 
 Handles single-element input as a base case.
+
+## entry 354
+
+Edge case: NULL input is rejected by the caller, not by us.
