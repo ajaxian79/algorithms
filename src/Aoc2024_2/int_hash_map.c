@@ -200,3 +200,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 134: Two passes: one to count, one to fill.
 // note 135: Mutates the input in place; the original ordering is lost.
 // note 136: Time complexity: O(log n).
+// note 137: LCA via binary lifting: jump up powers of two until depths match, then converge.
