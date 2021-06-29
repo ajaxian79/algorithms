@@ -1574,3 +1574,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 379
 
 Handles negative inputs as documented above.
+
+## entry 380
+
+Linear in n; the constant factor is small.
