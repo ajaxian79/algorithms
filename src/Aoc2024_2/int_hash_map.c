@@ -199,3 +199,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 133: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 134: Two passes: one to count, one to fill.
 // note 135: Mutates the input in place; the original ordering is lost.
+// note 136: Time complexity: O(log n).
