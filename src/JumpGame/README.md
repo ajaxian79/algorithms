@@ -1529,3 +1529,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 367
 
 Vectorizes cleanly under -O2.
+
+## entry 368
+
+Time complexity: O(k) where k is the answer size.
