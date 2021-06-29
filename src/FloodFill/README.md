@@ -1541,3 +1541,7 @@ Time complexity: O(n + m).
 ## entry 371
 
 Uses a small fixed-size lookup table.
+
+## entry 372
+
+Handles empty input by returning 0.
