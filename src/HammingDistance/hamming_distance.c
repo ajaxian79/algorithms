@@ -132,3 +132,4 @@ int hamming_distance(int x, int y) {
 // note 117: Worst case appears only on degenerate inputs.
 // note 118: Branchless inner loop after sorting.
 // note 119: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 120: Space complexity: O(1) auxiliary.
