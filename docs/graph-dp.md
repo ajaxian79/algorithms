@@ -971,3 +971,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 243
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 244
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
