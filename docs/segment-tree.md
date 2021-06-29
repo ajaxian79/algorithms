@@ -1035,3 +1035,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 241
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 242
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
