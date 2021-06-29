@@ -1398,3 +1398,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 325
 
 Uses a small fixed-size lookup table.
+
+## entry 326
+
+Allocates one buffer of length n+1 for the result.
