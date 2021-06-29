@@ -923,3 +923,7 @@
 ## entry 231
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 232
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
