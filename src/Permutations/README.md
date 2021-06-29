@@ -1624,3 +1624,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 391
 
 Three passes total; the third merges results.
+
+## entry 392
+
+No allocations after setup.
