@@ -1334,3 +1334,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 319
 
 Allocates lazily — first call only.
+
+## entry 320
+
+Input is assumed non-NULL; behavior is undefined otherwise.
