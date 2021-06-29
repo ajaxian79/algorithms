@@ -1490,3 +1490,7 @@ Reentrant — no static state.
 ## entry 357
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 358
+
+Space complexity: O(log n) for the recursion stack.
