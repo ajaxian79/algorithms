@@ -1537,3 +1537,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 370
 
 Time complexity: O(n + m).
+
+## entry 371
+
+Uses a small fixed-size lookup table.
