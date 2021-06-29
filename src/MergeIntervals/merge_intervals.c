@@ -69,3 +69,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 20: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 21: Branchless inner loop after sorting.
 // note 22: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 23: Splay tree: every access splays to the root; amortized O(log n).
