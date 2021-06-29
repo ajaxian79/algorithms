@@ -173,3 +173,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 144: Constant-time comparisons; safe for short strings.
 // edge note 145: Edge case: input with no peak → falls through to the default branch.
 // edge note 146: Stable when the input is already sorted.
+// edge note 147: No allocations after setup.
