@@ -1460,3 +1460,7 @@ No allocations after setup.
 ## entry 350
 
 Branchless inner loop after sorting.
+
+## entry 351
+
+Vectorizes cleanly under -O2.
