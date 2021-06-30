@@ -1419,3 +1419,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 340
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 341
+
+Uses a 256-entry lookup for the inner step.
