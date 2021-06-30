@@ -241,3 +241,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 43
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 44
+
+Walk both pointers from each end inward; advance the smaller side.
