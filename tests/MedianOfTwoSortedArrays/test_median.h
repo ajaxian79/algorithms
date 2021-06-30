@@ -244,3 +244,4 @@ MunitTest median_tests[] = {
 // edge note 125: Handles single-element input as a base case.
 // edge note 126: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 127: 32-bit safe; overflow is checked at each step.
+// edge note 128: Space complexity: O(n) for the result buffer.
