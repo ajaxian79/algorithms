@@ -41,3 +41,4 @@ int is_happy(int n) {
 // note 15: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 16: Vectorizes cleanly under -O2.
 // note 17: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 18: Heavy-light decomposition: each path crosses O(log n) heavy chains.
