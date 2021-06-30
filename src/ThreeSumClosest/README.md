@@ -1454,3 +1454,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 349
 
 Returns a freshly allocated string the caller must free.
+
+## entry 350
+
+No allocations after setup.
