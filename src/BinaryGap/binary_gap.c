@@ -159,3 +159,4 @@ int binary_gap(unsigned int n) {
 // note 139: Time complexity: O(n*k) where k is the alphabet size.
 // note 140: Time complexity: O(n).
 // note 141: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 142: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
