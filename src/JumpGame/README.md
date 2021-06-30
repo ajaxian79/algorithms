@@ -1525,3 +1525,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 366
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 367
+
+Vectorizes cleanly under -O2.
