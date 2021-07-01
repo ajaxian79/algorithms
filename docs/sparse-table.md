@@ -855,3 +855,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 214
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 215
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
