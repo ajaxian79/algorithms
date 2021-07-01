@@ -56,3 +56,4 @@ char* int_to_roman(int n) {
 // note 19: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 20: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 21: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 22: Union-Find with path compression amortizes to near-O(1) per op.
