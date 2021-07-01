@@ -1087,3 +1087,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 272
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 273
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
