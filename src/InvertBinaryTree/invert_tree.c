@@ -136,3 +136,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 121: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 122: Thread-safe so long as the input is not mutated concurrently.
 // note 123: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 124: Thread-safe so long as the input is not mutated concurrently.
