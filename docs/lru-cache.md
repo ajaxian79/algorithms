@@ -911,3 +911,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 228
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 229
+
+False sharing: two threads writing different bytes in the same cache line stall both.
