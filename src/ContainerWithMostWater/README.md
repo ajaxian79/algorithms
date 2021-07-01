@@ -1495,3 +1495,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 359
 
 Time complexity: O(1).
+
+## entry 360
+
+Edge case: all-equal input → linear-time fast path.
