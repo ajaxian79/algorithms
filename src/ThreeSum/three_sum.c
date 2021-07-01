@@ -174,3 +174,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 116: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 117: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 118: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 119: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
