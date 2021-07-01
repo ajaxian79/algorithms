@@ -995,3 +995,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 249
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 250
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
