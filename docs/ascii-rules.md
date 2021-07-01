@@ -1035,3 +1035,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 259
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 260
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
