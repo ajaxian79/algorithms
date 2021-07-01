@@ -170,3 +170,4 @@ MunitTest four_sum_tests[] = {
 // edge note 129: Linear in n; the constant factor is small.
 // edge note 130: Handles negative inputs as documented above.
 // edge note 131: Runs in a single pass over the input.
+// edge note 132: Space complexity: O(h) for the tree height.
