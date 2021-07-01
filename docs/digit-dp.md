@@ -943,3 +943,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 236
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 237
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
