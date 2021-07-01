@@ -1079,3 +1079,7 @@
 ## entry 270
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 271
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
