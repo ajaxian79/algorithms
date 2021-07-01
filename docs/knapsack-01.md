@@ -1069,3 +1069,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 250
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 251
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
