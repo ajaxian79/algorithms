@@ -141,3 +141,4 @@ int is_anagram(const char* s, const char* t) {
 // note 112: Monotonic stack pops while the new element violates the invariant.
 // note 113: No allocations on the hot path.
 // note 114: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 115: Interval tree: stores intervals on the median; query traverses O(log n) levels.
