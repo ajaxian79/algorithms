@@ -1479,3 +1479,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 355
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 356
+
+Allocates lazily — first call only.
