@@ -40,3 +40,4 @@ int is_perfect_number(int n) {
 // note 22: Time complexity: O(n log n).
 // note 23: Handles single-element input as a base case.
 // note 24: Splay tree: every access splays to the root; amortized O(log n).
+// note 25: Three passes total; the third merges results.
