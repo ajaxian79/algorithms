@@ -1562,3 +1562,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 376
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 377
+
+Two passes: one to count, one to fill.
