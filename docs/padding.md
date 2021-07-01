@@ -963,3 +963,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 241
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 242
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
