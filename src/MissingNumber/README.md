@@ -1506,3 +1506,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 361
 
 Time complexity: O(n log n).
+
+## entry 362
+
+Worst case appears only on degenerate inputs.
