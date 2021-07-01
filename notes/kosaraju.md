@@ -1091,3 +1091,7 @@
 ## entry 273
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 274
+
+- State compression: bitmask + integer encodes a small subset cheaply.
