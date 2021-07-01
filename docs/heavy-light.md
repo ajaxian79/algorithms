@@ -135,3 +135,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 34
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 35
+
+Splay tree: every access splays to the root; amortized O(log n).
