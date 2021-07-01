@@ -1404,3 +1404,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 336
 
 Branchless inner loop after sorting.
+
+## entry 337
+
+Edge case: input with no peak → falls through to the default branch.
