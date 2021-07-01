@@ -162,3 +162,4 @@ MunitTest zigzag_tests[] = {
 // edge note 134: No allocations on the hot path.
 // edge note 135: Edge case: power-of-two-length input → no padding required.
 // edge note 136: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 137: Mutates the input in place; the original ordering is lost.
