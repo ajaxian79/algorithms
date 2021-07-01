@@ -1051,3 +1051,7 @@
 ## entry 246
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 247
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
