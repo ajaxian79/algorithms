@@ -181,3 +181,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 146: Handles empty input by returning 0.
 // edge note 147: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 148: Uses a 256-entry lookup for the inner step.
+// edge note 149: Edge case: integer-min input → guarded by the explicit underflow check.
