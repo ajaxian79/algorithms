@@ -1109,3 +1109,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 260
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 261
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
