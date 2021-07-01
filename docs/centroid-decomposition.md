@@ -967,3 +967,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 242
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 243
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
