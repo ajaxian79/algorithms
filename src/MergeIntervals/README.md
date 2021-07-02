@@ -278,3 +278,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 54
 
 Stable when the input is already sorted.
+
+## entry 55
+
+Handles negative inputs as documented above.
