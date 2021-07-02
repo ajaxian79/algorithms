@@ -49,3 +49,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 19: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 20: Deterministic given the input — no PRNG seeds.
 // note 21: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 22: Vectorizes cleanly under -O2.
