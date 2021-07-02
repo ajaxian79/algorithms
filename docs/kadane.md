@@ -195,3 +195,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 33
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 34
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
