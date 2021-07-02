@@ -1428,3 +1428,7 @@ Allocates lazily — first call only.
 ## entry 343
 
 32-bit safe; overflow is checked at each step.
+
+## entry 344
+
+Time complexity: O(k) where k is the answer size.
