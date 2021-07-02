@@ -1477,3 +1477,7 @@ Runs in a single pass over the input.
 ## entry 344
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 345
+
+Tail-recursive; the compiler turns it into a loop.
