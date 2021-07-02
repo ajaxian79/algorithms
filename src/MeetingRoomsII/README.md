@@ -1482,3 +1482,7 @@ Time complexity: O(log n).
 ## entry 355
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 356
+
+Edge case: all-equal input → linear-time fast path.
