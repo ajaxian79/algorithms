@@ -1354,3 +1354,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 324
 
 Space complexity: O(n) for the result buffer.
+
+## entry 325
+
+Edge case: single-element input → returns the element itself.
