@@ -7923,3 +7923,7 @@
 ## entry 1981
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 1982
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
