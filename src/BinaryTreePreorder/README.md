@@ -1530,3 +1530,7 @@ Three passes total; the third merges results.
 ## entry 368
 
 Vectorizes cleanly under -O2.
+
+## entry 369
+
+No allocations after setup.
