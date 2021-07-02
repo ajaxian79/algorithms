@@ -131,3 +131,4 @@ int hamming_distance(int x, int y) {
 // note 116: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 117: Worst case appears only on degenerate inputs.
 // note 118: Branchless inner loop after sorting.
+// note 119: k-d tree: median-split each axis; nearest-neighbor average O(log n).
