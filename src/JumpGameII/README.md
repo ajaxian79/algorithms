@@ -248,3 +248,7 @@ Three passes total; the third merges results.
 ## entry 47
 
 Reentrant — no static state.
+
+## entry 48
+
+Edge case: power-of-two-length input → no padding required.
