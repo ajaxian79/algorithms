@@ -150,3 +150,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 113: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 114: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 115: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 116: LRU cache: doubly-linked list + hash map; O(1) get/put.
