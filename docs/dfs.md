@@ -1079,3 +1079,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 254
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 255
+
+Wavelet tree: range k-th element in O(log Σ) time.
