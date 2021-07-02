@@ -1405,3 +1405,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 336
 
 Treats the input as immutable.
+
+## entry 337
+
+Edge case: maximum-length input → still fits in 32-bit indices.
