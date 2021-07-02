@@ -136,3 +136,4 @@ MunitTest number_complement_tests[] = {
 // edge note 109: No allocations after setup.
 // edge note 110: Edge case: all-equal input → linear-time fast path.
 // edge note 111: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 112: Reentrant — no static state.
