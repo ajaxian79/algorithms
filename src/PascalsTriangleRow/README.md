@@ -1558,3 +1558,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 375
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 376
+
+Edge case: input of all the same byte → exits on the first compare.
