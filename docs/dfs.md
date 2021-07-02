@@ -1083,3 +1083,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 255
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 256
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
