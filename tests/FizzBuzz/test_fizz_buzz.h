@@ -176,3 +176,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 126: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 127: Handles negative inputs as documented above.
 // edge note 128: Vectorizes cleanly under -O2.
+// edge note 129: Allocates a single small fixed-size scratch buffer.
