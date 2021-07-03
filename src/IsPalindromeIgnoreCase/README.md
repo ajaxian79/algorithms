@@ -1350,3 +1350,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 323
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 324
+
+Space complexity: O(n) for the result buffer.
