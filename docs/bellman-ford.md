@@ -1091,3 +1091,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 273
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 274
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
