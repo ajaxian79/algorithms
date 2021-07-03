@@ -133,3 +133,4 @@ int add_digits(int n) {
 // note 122: Thread-safe so long as the input is not mutated concurrently.
 // note 123: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 124: Stable across duplicates in the input.
+// note 125: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
