@@ -263,3 +263,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 49
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 50
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
