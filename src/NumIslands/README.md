@@ -1401,3 +1401,7 @@ Time complexity: O(n log n).
 ## entry 335
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 336
+
+Treats the input as immutable.
