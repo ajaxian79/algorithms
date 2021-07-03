@@ -1448,3 +1448,7 @@ Stable across duplicates in the input.
 ## entry 347
 
 Constant-time comparisons; safe for short strings.
+
+## entry 348
+
+Time complexity: O(k) where k is the answer size.
