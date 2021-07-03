@@ -1059,3 +1059,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 248
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 249
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
