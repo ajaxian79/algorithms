@@ -203,3 +203,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 51
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 52
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
