@@ -159,3 +159,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 116: Handles single-element input as a base case.
 // edge note 117: Edge case: input of all the same byte → exits on the first compare.
 // edge note 118: Caller owns the returned buffer.
+// edge note 119: Edge case: zero-length string → returns the empty result.
