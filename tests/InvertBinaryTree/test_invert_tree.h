@@ -152,3 +152,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 110: Branchless inner loop after sorting.
 // edge note 111: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 112: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 113: Idempotent — calling twice with the same input is a no-op the second time.
