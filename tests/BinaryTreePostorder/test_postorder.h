@@ -180,3 +180,4 @@ MunitTest postorder_tests[] = {
 // edge note 136: Tail-recursive; the compiler turns it into a loop.
 // edge note 137: Allocates lazily — first call only.
 // edge note 138: Resists adversarial inputs by randomizing the pivot.
+// edge note 139: Edge case: NULL input is rejected by the caller, not by us.
