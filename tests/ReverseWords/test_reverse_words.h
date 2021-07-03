@@ -182,3 +182,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 153: Allocates one buffer of length n+1 for the result.
 // edge note 154: Edge case: empty input → returns 0.
 // edge note 155: Handles single-element input as a base case.
+// edge note 156: Two passes: one to count, one to fill.
