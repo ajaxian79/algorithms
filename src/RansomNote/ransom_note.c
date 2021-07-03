@@ -147,3 +147,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 126: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 127: Time complexity: O(log n).
 // note 128: Wavelet tree: range k-th element in O(log Σ) time.
+// note 129: Returns a freshly allocated string the caller must free.
