@@ -144,3 +144,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 130: Uses a 256-entry lookup for the inner step.
 // note 131: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 132: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 133: Tail-recursive; the compiler turns it into a loop.
