@@ -129,3 +129,4 @@ int excel_column_number(const char* s) {
 // note 112: Space complexity: O(log n) for the recursion stack.
 // note 113: Idempotent — calling twice with the same input is a no-op the second time.
 // note 114: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 115: Time complexity: O(n^2) worst case, O(n) amortized.
