@@ -163,3 +163,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 131: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 132: Space complexity: O(log n) for the recursion stack.
 // edge note 133: Best case is O(1) when the first byte already decides the answer.
+// edge note 134: Best case is O(1) when the first byte already decides the answer.
