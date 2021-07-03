@@ -1031,3 +1031,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 243
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 244
+
+Endianness matters when serializing multi-byte ints to a file or wire.
