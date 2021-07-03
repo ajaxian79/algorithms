@@ -155,3 +155,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 121: Handles negative inputs as documented above.
 // note 122: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 123: Time complexity: O(k) where k is the answer size.
+// note 124: Allocates one buffer of length n+1 for the result.
