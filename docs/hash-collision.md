@@ -1095,3 +1095,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 274
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 275
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
