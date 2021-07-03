@@ -1474,3 +1474,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 354
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 355
+
+Space complexity: O(h) for the tree height.
