@@ -155,3 +155,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 39
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 40
+
+State compression: bitmask + integer encodes a small subset cheaply.
