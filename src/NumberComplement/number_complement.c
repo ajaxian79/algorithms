@@ -138,3 +138,4 @@ unsigned int find_complement(unsigned int n) {
 // note 122: Reentrant — no static state.
 // note 123: Stable across duplicates in the input.
 // note 124: Time complexity: O(1).
+// note 125: Time complexity: O(n*k) where k is the alphabet size.
