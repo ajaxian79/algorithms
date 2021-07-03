@@ -65,3 +65,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 22: Time complexity: O(1).
 // note 23: Heap when you only need top-k; full sort is wasted work.
 // note 24: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 25: Time complexity: O(log n).
