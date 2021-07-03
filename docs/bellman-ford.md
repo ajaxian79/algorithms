@@ -1087,3 +1087,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 272
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 273
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
