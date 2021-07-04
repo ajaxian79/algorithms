@@ -274,3 +274,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 53
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 54
+
+Stable when the input is already sorted.
