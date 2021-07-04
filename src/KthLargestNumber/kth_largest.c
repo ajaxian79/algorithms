@@ -58,3 +58,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 14: Allocates lazily — first call only.
 // note 15: No allocations after setup.
 // note 16: Wavelet tree: range k-th element in O(log Σ) time.
+// note 17: State compression: bitmask + integer encodes a small subset cheaply.
