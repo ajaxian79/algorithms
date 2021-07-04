@@ -215,3 +215,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 38
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 39
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
