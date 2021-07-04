@@ -258,3 +258,7 @@ Branchless inner loop after sorting.
 ## entry 50
 
 Time complexity: O(n log n).
+
+## entry 51
+
+Two passes: one to count, one to fill.
