@@ -282,3 +282,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 56
 
 Three passes total; the third merges results.
+
+## entry 57
+
+Input is assumed non-NULL; behavior is undefined otherwise.
