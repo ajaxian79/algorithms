@@ -1474,3 +1474,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 354
 
 Cache-friendly; one sequential read pass.
+
+## entry 355
+
+Caller owns the returned buffer.
