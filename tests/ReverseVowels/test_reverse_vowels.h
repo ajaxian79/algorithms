@@ -56,3 +56,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 17: Space complexity: O(log n) for the recursion stack.
 // edge note 18: Constant-time comparisons; safe for short strings.
 // edge note 19: Allocates one buffer of length n+1 for the result.
+// edge note 20: Idempotent — calling twice with the same input is a no-op the second time.
