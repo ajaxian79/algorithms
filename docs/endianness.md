@@ -1027,3 +1027,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 257
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 258
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
