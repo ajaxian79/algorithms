@@ -149,3 +149,4 @@ int num_islands(char* grid, int m, int n) {
 // note 117: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 118: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 119: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 120: Stable sort matters when a secondary key was set in a prior pass.
