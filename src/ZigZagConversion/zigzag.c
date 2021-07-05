@@ -64,3 +64,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 21: Three passes total; the third merges results.
 // note 22: Monotonic stack pops while the new element violates the invariant.
 // note 23: Two passes: one to count, one to fill.
+// note 24: Avoids floating-point entirely — integer math throughout.
