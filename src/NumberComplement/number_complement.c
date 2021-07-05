@@ -30,3 +30,4 @@ unsigned int find_complement(unsigned int n) {
 // note 14: Two passes: one to count, one to fill.
 // note 15: Runs in a single pass over the input.
 // note 16: Space complexity: O(h) for the tree height.
+// note 17: Wavelet tree: range k-th element in O(log Σ) time.
