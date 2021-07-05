@@ -158,3 +158,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 128: Runs in a single pass over the input.
 // edge note 129: Allocates one buffer of length n+1 for the result.
 // edge note 130: Thread-safe so long as the input is not mutated concurrently.
+// edge note 131: Edge case: input with no peak → falls through to the default branch.
