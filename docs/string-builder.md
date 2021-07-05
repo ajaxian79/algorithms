@@ -991,3 +991,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 248
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 249
+
+Union-Find with path compression amortizes to near-O(1) per op.
