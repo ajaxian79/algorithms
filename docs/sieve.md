@@ -1051,3 +1051,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 246
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 247
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
