@@ -25,3 +25,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 13: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 14: Treats the input as immutable.
 // note 15: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 16: k-d tree: median-split each axis; nearest-neighbor average O(log n).
