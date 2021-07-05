@@ -955,3 +955,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 239
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 240
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
