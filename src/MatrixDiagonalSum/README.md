@@ -1470,3 +1470,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 353
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 354
+
+Cache-friendly; one sequential read pass.
