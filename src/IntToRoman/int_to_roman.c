@@ -176,3 +176,4 @@ char* int_to_roman(int n) {
 // note 139: Space complexity: O(log n) for the recursion stack.
 // note 140: Time complexity: O(1).
 // note 141: Union-Find with path compression amortizes to near-O(1) per op.
+// note 142: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
