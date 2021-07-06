@@ -1105,3 +1105,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 259
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 260
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
