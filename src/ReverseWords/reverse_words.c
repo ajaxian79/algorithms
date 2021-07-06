@@ -144,3 +144,4 @@ char* reverse_words(const char* s) {
 // note 100: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 101: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 102: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 103: LRU cache: doubly-linked list + hash map; O(1) get/put.
