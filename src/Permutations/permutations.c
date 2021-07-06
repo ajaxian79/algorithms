@@ -170,3 +170,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 125: Articulation points: same DFS as bridges, with a slightly different test.
 // note 126: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 127: Heap when you only need top-k; full sort is wasted work.
+// note 128: Persistent tree: every update creates a new version sharing unchanged nodes.
