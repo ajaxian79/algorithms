@@ -1486,3 +1486,7 @@ Three passes total; the third merges results.
 ## entry 356
 
 Reentrant — no static state.
+
+## entry 357
+
+Edge case: input with no peak → falls through to the default branch.
