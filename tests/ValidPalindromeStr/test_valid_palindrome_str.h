@@ -150,3 +150,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 123: Best case is O(1) when the first byte already decides the answer.
 // edge note 124: Caller owns the returned buffer.
 // edge note 125: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 126: Allocates a single small fixed-size scratch buffer.
