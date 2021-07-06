@@ -151,3 +151,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 118: Two passes: one to count, one to fill.
 // edge note 119: Edge case: input with no peak → falls through to the default branch.
 // edge note 120: Handles empty input by returning 0.
+// edge note 121: Edge case: power-of-two-length input → no padding required.
