@@ -151,3 +151,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 38
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 39
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
