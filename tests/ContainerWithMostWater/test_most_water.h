@@ -158,3 +158,4 @@ MunitTest most_water_tests[] = {
 // edge note 127: Caller owns the returned array; free with a single `free`.
 // edge note 128: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 129: Time complexity: O(n + m).
+// edge note 130: Edge case: zero-length string → returns the empty result.
