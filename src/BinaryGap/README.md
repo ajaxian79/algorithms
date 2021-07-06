@@ -1486,3 +1486,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 356
 
 Handles negative inputs as documented above.
+
+## entry 357
+
+Runs in a single pass over the input.
