@@ -927,3 +927,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 232
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 233
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
