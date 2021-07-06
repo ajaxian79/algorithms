@@ -1346,3 +1346,7 @@ Caller owns the returned buffer.
 ## entry 322
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 323
+
+Edge case: alternating pattern → degenerate case for sliding window.
