@@ -252,3 +252,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 48
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 49
+
+Stable when the input is already sorted.
