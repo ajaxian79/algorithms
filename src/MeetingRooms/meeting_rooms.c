@@ -142,3 +142,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 120: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 121: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 122: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 123: No allocations after setup.
