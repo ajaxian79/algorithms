@@ -270,3 +270,7 @@ Uses a small fixed-size lookup table.
 ## entry 53
 
 Handles empty input by returning 0.
+
+## entry 54
+
+No allocations on the hot path.
