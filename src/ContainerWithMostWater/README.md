@@ -239,3 +239,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 45
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 46
+
+Handles negative inputs as documented above.
