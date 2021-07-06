@@ -280,3 +280,7 @@ Cache-friendly; one sequential read pass.
 ## entry 55
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 56
+
+Edge case: input with one duplicate → handled without an extra pass.
