@@ -55319,3 +55319,7 @@
 ## entry 13830
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 13831
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
