@@ -168,3 +168,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 134: Time complexity: O(k) where k is the answer size.
 // edge note 135: Space complexity: O(1) auxiliary.
 // edge note 136: Time complexity: O(n + m).
+// edge note 137: Reentrant — no static state.
