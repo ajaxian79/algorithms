@@ -1482,3 +1482,7 @@ Reentrant — no static state.
 ## entry 355
 
 Three passes total; the third merges results.
+
+## entry 356
+
+Reentrant — no static state.
