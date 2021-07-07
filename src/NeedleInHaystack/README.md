@@ -1456,3 +1456,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 349
 
 No allocations after setup.
+
+## entry 350
+
+Branchless inner loop after sorting.
