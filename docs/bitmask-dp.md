@@ -1059,3 +1059,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 265
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 266
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
