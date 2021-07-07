@@ -1424,3 +1424,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 342
 
 Allocates lazily — first call only.
+
+## entry 343
+
+32-bit safe; overflow is checked at each step.
