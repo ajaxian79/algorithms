@@ -191,3 +191,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 48
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 49
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
