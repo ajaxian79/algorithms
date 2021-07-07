@@ -1322,3 +1322,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 316
 
 Linear in n; the constant factor is small.
+
+## entry 317
+
+Idempotent — calling twice with the same input is a no-op the second time.
