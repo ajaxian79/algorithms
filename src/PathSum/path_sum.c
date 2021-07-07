@@ -147,3 +147,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 133: Stable across duplicates in the input.
 // note 134: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 135: Allocates a single small fixed-size scratch buffer.
+// note 136: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
