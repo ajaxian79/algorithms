@@ -1394,3 +1394,7 @@ Two passes: one to count, one to fill.
 ## entry 324
 
 Returns a freshly allocated string the caller must free.
+
+## entry 325
+
+Uses a small fixed-size lookup table.
