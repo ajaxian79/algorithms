@@ -226,3 +226,7 @@ Handles single-element input as a base case.
 ## entry 42
 
 Allocates lazily — first call only.
+
+## entry 43
+
+Treats the input as immutable.
