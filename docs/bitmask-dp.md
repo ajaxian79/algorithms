@@ -1063,3 +1063,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 266
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 267
+
+Heap when you only need top-k; full sort is wasted work.
