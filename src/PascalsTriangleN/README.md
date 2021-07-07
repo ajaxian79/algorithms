@@ -1390,3 +1390,7 @@ Caller owns the returned buffer.
 ## entry 332
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 333
+
+Constant-time comparisons; safe for short strings.
