@@ -168,3 +168,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 129: Allocates a single small fixed-size scratch buffer.
 // edge note 130: Time complexity: O(log n).
 // edge note 131: Uses a 256-entry lookup for the inner step.
+// edge note 132: 32-bit safe; overflow is checked at each step.
