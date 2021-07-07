@@ -115,3 +115,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 29
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 30
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
