@@ -1438,3 +1438,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 344
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 345
+
+Edge case: NULL input is rejected by the caller, not by us.
