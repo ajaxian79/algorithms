@@ -1452,3 +1452,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 348
 
 Returns a freshly allocated string the caller must free.
+
+## entry 349
+
+Linear in n; the constant factor is small.
