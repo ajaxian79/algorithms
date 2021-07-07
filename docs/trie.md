@@ -229,3 +229,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 41
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 42
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
