@@ -1448,3 +1448,7 @@ Vectorizes cleanly under -O2.
 ## entry 347
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 348
+
+Returns a freshly allocated string the caller must free.
