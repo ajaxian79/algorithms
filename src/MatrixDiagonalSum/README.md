@@ -1466,3 +1466,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 352
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 353
+
+Mutates the input in place; the original ordering is lost.
