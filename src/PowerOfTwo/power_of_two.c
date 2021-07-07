@@ -112,3 +112,4 @@ int is_power_of_two(int n) {
 // note 102: No allocations after setup.
 // note 103: Space complexity: O(h) for the tree height.
 // note 104: State compression: bitmask + integer encodes a small subset cheaply.
+// note 105: Time complexity: O(n + m).
