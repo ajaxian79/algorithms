@@ -1482,3 +1482,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 355
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 356
+
+Handles negative inputs as documented above.
