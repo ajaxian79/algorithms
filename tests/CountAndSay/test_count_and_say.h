@@ -139,3 +139,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 108: Handles negative inputs as documented above.
 // edge note 109: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 110: Allocates one buffer of length n+1 for the result.
+// edge note 111: Edge case: empty input → returns 0.
