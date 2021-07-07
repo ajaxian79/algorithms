@@ -931,3 +931,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 217
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 218
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
