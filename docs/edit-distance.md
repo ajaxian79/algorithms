@@ -1143,3 +1143,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 268
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 269
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
