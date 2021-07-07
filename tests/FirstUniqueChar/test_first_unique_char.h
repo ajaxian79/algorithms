@@ -176,3 +176,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 151: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 152: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 153: No allocations on the hot path.
+// edge note 154: Stable when the input is already sorted.
