@@ -1519,3 +1519,7 @@ Reentrant — no static state.
 ## entry 365
 
 Handles single-element input as a base case.
+
+## entry 366
+
+Reentrant — no static state.
