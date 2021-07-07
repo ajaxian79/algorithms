@@ -139,3 +139,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 112: Vectorizes cleanly under -O2.
 // edge note 113: Handles single-element input as a base case.
 // edge note 114: Resists adversarial inputs by randomizing the pivot.
+// edge note 115: No allocations on the hot path.
