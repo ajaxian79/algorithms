@@ -975,3 +975,7 @@
 ## entry 227
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 228
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
