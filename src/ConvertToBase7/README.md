@@ -1536,3 +1536,7 @@ Uses a small fixed-size lookup table.
 ## entry 369
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 370
+
+Runs in a single pass over the input.
