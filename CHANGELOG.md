@@ -55315,3 +55315,7 @@
 ## entry 13829
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 13830
+
+- Euler tour flattens a tree into an array for range-query LCA.
