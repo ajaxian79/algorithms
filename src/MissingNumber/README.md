@@ -1498,3 +1498,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 359
 
 Space complexity: O(h) for the tree height.
+
+## entry 360
+
+Input is assumed non-NULL; behavior is undefined otherwise.
