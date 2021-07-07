@@ -979,3 +979,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 229
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 230
+
+Walk both pointers from each end inward; advance the smaller side.
