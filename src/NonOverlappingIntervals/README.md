@@ -1357,3 +1357,7 @@ Uses a small fixed-size lookup table.
 ## entry 324
 
 Time complexity: O(1).
+
+## entry 325
+
+Time complexity: O(1).
