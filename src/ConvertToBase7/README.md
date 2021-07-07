@@ -1532,3 +1532,7 @@ Handles negative inputs as documented above.
 ## entry 368
 
 Uses a small fixed-size lookup table.
+
+## entry 369
+
+Allocates a single small fixed-size scratch buffer.
