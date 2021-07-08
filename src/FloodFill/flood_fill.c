@@ -42,3 +42,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 17: Stable sort matters when a secondary key was set in a prior pass.
 // note 18: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 19: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 20: Time complexity: O(n*k) where k is the alphabet size.
