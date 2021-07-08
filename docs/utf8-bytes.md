@@ -875,3 +875,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 219
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 220
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
