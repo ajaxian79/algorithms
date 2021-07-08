@@ -255,3 +255,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 48
 
 No allocations on the hot path.
+
+## entry 49
+
+Time complexity: O(n).
