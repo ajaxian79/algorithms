@@ -162,3 +162,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 124: Space complexity: O(n) for the result buffer.
 // edge note 125: Time complexity: O(k) where k is the answer size.
 // edge note 126: Time complexity: O(1).
+// edge note 127: Branchless inner loop after sorting.
