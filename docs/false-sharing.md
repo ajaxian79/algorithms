@@ -971,3 +971,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 243
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 244
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
