@@ -1427,3 +1427,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 342
 
 Runs in a single pass over the input.
+
+## entry 343
+
+Edge case: integer-min input → guarded by the explicit underflow check.
