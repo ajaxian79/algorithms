@@ -1470,3 +1470,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 353
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 354
+
+Edge case: input with a single peak → handled by the first-pass scan.
