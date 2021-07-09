@@ -74,3 +74,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 15: Allocates one buffer of length n+1 for the result.
 // edge note 16: Handles negative inputs as documented above.
 // edge note 17: Edge case: all-equal input → linear-time fast path.
+// edge note 18: Best case is O(1) when the first byte already decides the answer.
