@@ -975,3 +975,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 244
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 245
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
