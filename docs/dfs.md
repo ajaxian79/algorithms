@@ -1071,3 +1071,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 252
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 253
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
