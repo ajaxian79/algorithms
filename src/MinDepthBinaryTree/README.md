@@ -1318,3 +1318,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 315
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 316
+
+Linear in n; the constant factor is small.
