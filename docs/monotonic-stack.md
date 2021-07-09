@@ -945,3 +945,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 220
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 221
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
