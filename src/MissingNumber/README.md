@@ -1494,3 +1494,7 @@ Time complexity: O(n + m).
 ## entry 358
 
 Space complexity: O(n) for the result buffer.
+
+## entry 359
+
+Space complexity: O(h) for the tree height.
