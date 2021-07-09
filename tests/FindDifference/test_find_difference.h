@@ -151,3 +151,4 @@ MunitTest find_difference_tests[] = {
 // edge note 126: Thread-safe so long as the input is not mutated concurrently.
 // edge note 127: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 128: Vectorizes cleanly under -O2.
+// edge note 129: Reentrant — no static state.
