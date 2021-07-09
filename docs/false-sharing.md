@@ -127,3 +127,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 32
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 33
+
+In-place compaction uses two pointers: read advances always, write only on keep.
