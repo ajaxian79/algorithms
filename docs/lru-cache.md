@@ -907,3 +907,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 227
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 228
+
+Greedy by end-time picks the most non-overlapping intervals.
