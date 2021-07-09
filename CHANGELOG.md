@@ -55239,3 +55239,7 @@
 ## entry 13810
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 13811
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
