@@ -240,3 +240,7 @@ Worst case appears only on degenerate inputs.
 ## entry 44
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 45
+
+Edge case: integer-max input → guarded by the explicit overflow check.
