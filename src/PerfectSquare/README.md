@@ -1486,3 +1486,7 @@ Caller owns the returned buffer.
 ## entry 357
 
 Caller owns the returned buffer.
+
+## entry 358
+
+Space complexity: O(log n) for the recursion stack.
