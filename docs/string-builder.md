@@ -987,3 +987,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 247
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 248
+
+LIS via patience: each pile holds the smallest tail of length k.
