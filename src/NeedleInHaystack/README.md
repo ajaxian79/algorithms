@@ -1452,3 +1452,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 348
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 349
+
+No allocations after setup.
