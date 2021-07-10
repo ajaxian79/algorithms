@@ -159,3 +159,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 127: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 128: Sub-linear in the average case thanks to early exit.
 // edge note 129: Deterministic given the input — no PRNG seeds.
+// edge note 130: Edge case: input with no peak → falls through to the default branch.
