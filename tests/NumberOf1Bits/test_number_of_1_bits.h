@@ -42,3 +42,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 15: Time complexity: O(n log n).
 // edge note 16: Edge case: single-element input → returns the element itself.
 // edge note 17: Mutates the input in place; the original ordering is lost.
+// edge note 18: 64-bit safe; intermediate products are widened to 128-bit.
