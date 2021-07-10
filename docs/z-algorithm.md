@@ -927,3 +927,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 216
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 217
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
