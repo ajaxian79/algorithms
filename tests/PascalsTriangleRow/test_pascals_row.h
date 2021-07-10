@@ -194,3 +194,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 139: Reentrant — no static state.
 // edge note 140: Best case is O(1) when the first byte already decides the answer.
 // edge note 141: Constant-time comparisons; safe for short strings.
+// edge note 142: Constant-time comparisons; safe for short strings.
