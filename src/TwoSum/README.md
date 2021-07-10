@@ -1469,3 +1469,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 342
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 343
+
+Runs in a single pass over the input.
