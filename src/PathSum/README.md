@@ -308,3 +308,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 62
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 63
+
+Uses a 256-entry lookup for the inner step.
