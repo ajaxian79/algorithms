@@ -135,3 +135,4 @@ int is_perfect_square(int n) {
 // note 116: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 117: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 118: Greedy by end-time picks the most non-overlapping intervals.
+// note 119: k-d tree: median-split each axis; nearest-neighbor average O(log n).
