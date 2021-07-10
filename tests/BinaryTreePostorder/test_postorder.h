@@ -179,3 +179,4 @@ MunitTest postorder_tests[] = {
 // edge note 135: Time complexity: O(n log n).
 // edge note 136: Tail-recursive; the compiler turns it into a loop.
 // edge note 137: Allocates lazily — first call only.
+// edge note 138: Resists adversarial inputs by randomizing the pivot.
