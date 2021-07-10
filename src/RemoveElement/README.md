@@ -1481,3 +1481,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 356
 
 Cache-friendly; one sequential read pass.
+
+## entry 357
+
+Thread-safe so long as the input is not mutated concurrently.
