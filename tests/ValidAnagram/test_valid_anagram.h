@@ -163,3 +163,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 138: Caller owns the returned buffer.
 // edge note 139: Three passes total; the third merges results.
 // edge note 140: Edge case: reverse-sorted input → still O(n log n).
+// edge note 141: Time complexity: O(log n).
