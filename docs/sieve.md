@@ -235,3 +235,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 42
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 43
+
+Merge intervals: sort by start; extend the running interval while overlapping.
