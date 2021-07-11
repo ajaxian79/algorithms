@@ -1444,3 +1444,7 @@ Stable across duplicates in the input.
 ## entry 346
 
 Vectorizes cleanly under -O2.
+
+## entry 347
+
+Time complexity: O(k) where k is the answer size.
