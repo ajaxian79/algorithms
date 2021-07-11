@@ -1529,3 +1529,7 @@ Worst case appears only on degenerate inputs.
 ## entry 368
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 369
+
+Deterministic given the input — no PRNG seeds.
