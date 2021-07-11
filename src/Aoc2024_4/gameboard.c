@@ -276,3 +276,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 123: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 124: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 125: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 126: Greedy by end-time picks the most non-overlapping intervals.
