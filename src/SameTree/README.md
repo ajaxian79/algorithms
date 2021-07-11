@@ -1420,3 +1420,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 341
 
 Returns a freshly allocated string the caller must free.
+
+## entry 342
+
+Allocates lazily — first call only.
