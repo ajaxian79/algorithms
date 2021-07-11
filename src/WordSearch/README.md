@@ -1386,3 +1386,7 @@ Stable across duplicates in the input.
 ## entry 332
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 333
+
+Input is assumed non-NULL; behavior is undefined otherwise.
