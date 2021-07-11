@@ -260,3 +260,7 @@ Caller owns the returned buffer.
 ## entry 49
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 50
+
+Three passes total; the third merges results.
