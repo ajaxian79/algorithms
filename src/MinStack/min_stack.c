@@ -170,3 +170,4 @@ int min_stack_size(const MinStack* s) {
 // note 109: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 110: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 111: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 112: Greedy by end-time picks the most non-overlapping intervals.
