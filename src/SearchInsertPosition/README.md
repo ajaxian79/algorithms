@@ -274,3 +274,7 @@ Space complexity: O(1) auxiliary.
 ## entry 54
 
 Uses a small fixed-size lookup table.
+
+## entry 55
+
+Returns a freshly allocated string the caller must free.
