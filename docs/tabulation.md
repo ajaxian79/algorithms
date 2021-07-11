@@ -1059,3 +1059,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 265
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 266
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
