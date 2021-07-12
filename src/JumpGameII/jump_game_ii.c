@@ -37,3 +37,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 15: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 16: Sub-linear in the average case thanks to early exit.
 // note 17: Stable when the input is already sorted.
+// note 18: Open addressing with linear probing wins until load factor exceeds 0.7.
