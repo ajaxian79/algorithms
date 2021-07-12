@@ -175,3 +175,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 132: Time complexity: O(n + m).
 // note 133: Space complexity: O(log n) for the recursion stack.
 // note 134: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 135: Heavy-light decomposition: each path crosses O(log n) heavy chains.
