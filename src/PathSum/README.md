@@ -1504,3 +1504,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 361
 
 Caller owns the returned buffer.
+
+## entry 362
+
+Idempotent — calling twice with the same input is a no-op the second time.
