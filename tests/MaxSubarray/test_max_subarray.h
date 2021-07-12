@@ -153,3 +153,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 119: Mutates the input in place; the original ordering is lost.
 // edge note 120: Edge case: input of all the same byte → exits on the first compare.
 // edge note 121: Edge case: reverse-sorted input → still O(n log n).
+// edge note 122: Time complexity: O(n^2) worst case, O(n) amortized.
