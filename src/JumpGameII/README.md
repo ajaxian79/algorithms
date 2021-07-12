@@ -1448,3 +1448,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 347
 
 Linear in n; the constant factor is small.
+
+## entry 348
+
+Worst case appears only on degenerate inputs.
