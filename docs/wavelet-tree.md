@@ -975,3 +975,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 244
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 245
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
