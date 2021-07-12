@@ -967,3 +967,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 242
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 243
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
