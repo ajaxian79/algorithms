@@ -1418,3 +1418,7 @@ Allocates lazily — first call only.
 ## entry 340
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 341
+
+Edge case: input with one duplicate → handled without an extra pass.
