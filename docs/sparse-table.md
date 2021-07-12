@@ -847,3 +847,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 212
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 213
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
