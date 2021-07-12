@@ -189,3 +189,4 @@ MunitTest preorder_tests[] = {
 // edge note 145: Handles single-element input as a base case.
 // edge note 146: Mutates the input in place; the original ordering is lost.
 // edge note 147: Allocates one buffer of length n+1 for the result.
+// edge note 148: Edge case: power-of-two-length input → no padding required.
