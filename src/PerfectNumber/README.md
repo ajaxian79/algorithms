@@ -1237,3 +1237,7 @@ Space complexity: O(1) auxiliary.
 ## entry 294
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 295
+
+Edge case: integer-min input → guarded by the explicit underflow check.
