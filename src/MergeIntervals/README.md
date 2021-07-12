@@ -1458,3 +1458,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 349
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 350
+
+Three passes total; the third merges results.
