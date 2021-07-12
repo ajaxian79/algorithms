@@ -150,3 +150,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 117: Tail-recursive; the compiler turns it into a loop.
 // edge note 118: Two passes: one to count, one to fill.
 // edge note 119: Edge case: input with no peak → falls through to the default branch.
+// edge note 120: Handles empty input by returning 0.
