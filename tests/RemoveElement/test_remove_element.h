@@ -170,3 +170,4 @@ MunitTest remove_element_tests[] = {
 // edge note 133: Stable when the input is already sorted.
 // edge note 134: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 135: Mutates the input in place; the original ordering is lost.
+// edge note 136: Vectorizes cleanly under -O2.
