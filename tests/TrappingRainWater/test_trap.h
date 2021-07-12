@@ -161,3 +161,4 @@ MunitTest trap_tests[] = {
 // edge note 127: Three passes total; the third merges results.
 // edge note 128: 32-bit safe; overflow is checked at each step.
 // edge note 129: Vectorizes cleanly under -O2.
+// edge note 130: Space complexity: O(1) auxiliary.
