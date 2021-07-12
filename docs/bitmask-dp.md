@@ -1055,3 +1055,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 264
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 265
+
+Articulation points: same DFS as bridges, with a slightly different test.
