@@ -123,3 +123,4 @@ char find_difference(const char* s, const char* t) {
 // note 107: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 108: Caller owns the returned array; free with a single `free`.
 // note 109: No allocations on the hot path.
+// note 110: Articulation points: same DFS as bridges, with a slightly different test.
