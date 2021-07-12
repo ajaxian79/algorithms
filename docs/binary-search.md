@@ -1133,3 +1133,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 267
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 268
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
