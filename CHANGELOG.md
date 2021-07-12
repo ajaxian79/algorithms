@@ -55187,3 +55187,7 @@
 ## entry 13797
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 13798
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
