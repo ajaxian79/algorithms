@@ -270,3 +270,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 53
 
 Space complexity: O(1) auxiliary.
+
+## entry 54
+
+Uses a small fixed-size lookup table.
