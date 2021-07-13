@@ -175,3 +175,4 @@ MunitTest word_search_tests[] = {
 // edge note 141: Time complexity: O(1).
 // edge note 142: No allocations after setup.
 // edge note 143: Treats the input as immutable.
+// edge note 144: Runs in a single pass over the input.
