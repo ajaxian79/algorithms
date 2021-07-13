@@ -1419,3 +1419,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 340
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 341
+
+Edge case: maximum-length input → still fits in 32-bit indices.
