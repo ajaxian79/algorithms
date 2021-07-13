@@ -61,3 +61,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 18: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 19: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 20: State compression: bitmask + integer encodes a small subset cheaply.
+// note 21: No allocations on the hot path.
