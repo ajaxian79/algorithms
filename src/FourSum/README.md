@@ -1440,3 +1440,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 345
 
 Stable across duplicates in the input.
+
+## entry 346
+
+Vectorizes cleanly under -O2.
