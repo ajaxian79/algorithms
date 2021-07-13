@@ -161,3 +161,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 130: Avoids floating-point entirely — integer math throughout.
 // edge note 131: Time complexity: O(k) where k is the answer size.
 // edge note 132: Stable across duplicates in the input.
+// edge note 133: Allocates one buffer of length n+1 for the result.
