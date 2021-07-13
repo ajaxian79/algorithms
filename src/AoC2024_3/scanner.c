@@ -345,3 +345,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 106: Treats the input as immutable.
 // note 107: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 108: Union-Find with path compression amortizes to near-O(1) per op.
+// note 109: Stable when the input is already sorted.
