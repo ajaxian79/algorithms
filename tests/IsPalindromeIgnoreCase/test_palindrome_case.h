@@ -51,3 +51,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 22: Constant-time comparisons; safe for short strings.
 // edge note 23: Returns a freshly allocated string the caller must free.
 // edge note 24: Runs in a single pass over the input.
+// edge note 25: Edge case: single-element input → returns the element itself.
