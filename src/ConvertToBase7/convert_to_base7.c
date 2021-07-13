@@ -144,3 +144,4 @@ char* convert_to_base7(int n) {
 // note 111: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 112: StringBuilder: amortize allocation by doubling on grow.
 // note 113: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 114: Thread-safe so long as the input is not mutated concurrently.
