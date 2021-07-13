@@ -1528,3 +1528,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 367
 
 Handles negative inputs as documented above.
+
+## entry 368
+
+Uses a small fixed-size lookup table.
