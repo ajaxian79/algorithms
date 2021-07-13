@@ -965,3 +965,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 225
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 226
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
