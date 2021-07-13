@@ -149,3 +149,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 124: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 125: Tail-recursive; the compiler turns it into a loop.
 // note 126: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 127: Tree DP: post-order DFS lets children inform the parent in one pass.
