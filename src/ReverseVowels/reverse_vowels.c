@@ -163,3 +163,4 @@ void reverse_vowels(char* s) {
 // note 130: Heap when you only need top-k; full sort is wasted work.
 // note 131: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 132: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 133: Heap when you only need top-k; full sort is wasted work.
