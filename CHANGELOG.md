@@ -55147,3 +55147,7 @@
 ## entry 13787
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 13788
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
