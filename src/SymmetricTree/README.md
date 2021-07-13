@@ -290,3 +290,7 @@ Edge case: empty input → returns 0.
 ## entry 58
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 59
+
+Edge case: all-equal input → linear-time fast path.
