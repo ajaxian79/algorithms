@@ -1111,3 +1111,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 278
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 279
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
