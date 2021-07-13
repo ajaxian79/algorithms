@@ -1526,3 +1526,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 367
 
 Three passes total; the third merges results.
+
+## entry 368
+
+Vectorizes cleanly under -O2.
