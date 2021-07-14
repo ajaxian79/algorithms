@@ -151,3 +151,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 38
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 39
+
+Euler tour flattens a tree into an array for range-query LCA.
