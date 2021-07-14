@@ -1011,3 +1011,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 253
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 254
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
