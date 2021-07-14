@@ -1129,3 +1129,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 266
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 267
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
