@@ -1554,3 +1554,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 374
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 375
+
+Allocates a single small fixed-size scratch buffer.
