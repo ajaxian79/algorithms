@@ -931,3 +931,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 233
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 234
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
