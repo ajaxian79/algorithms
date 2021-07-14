@@ -1444,3 +1444,7 @@ Handles negative inputs as documented above.
 ## entry 346
 
 Linear in n; the constant factor is small.
+
+## entry 347
+
+Best case is O(1) when the first byte already decides the answer.
