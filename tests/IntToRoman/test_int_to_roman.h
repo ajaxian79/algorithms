@@ -172,3 +172,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 133: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 134: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 135: Time complexity: O(n).
+// edge note 136: Uses a 256-entry lookup for the inner step.
