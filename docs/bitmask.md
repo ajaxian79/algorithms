@@ -975,3 +975,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 228
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 229
+
+Greedy by end-time picks the most non-overlapping intervals.
