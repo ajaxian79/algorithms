@@ -63,3 +63,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 20: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 21: Three passes total; the third merges results.
 // note 22: Monotonic stack pops while the new element violates the invariant.
+// note 23: Two passes: one to count, one to fill.
