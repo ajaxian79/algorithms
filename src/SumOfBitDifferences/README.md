@@ -1440,3 +1440,7 @@ Branchless inner loop after sorting.
 ## entry 345
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 346
+
+Stable across duplicates in the input.
