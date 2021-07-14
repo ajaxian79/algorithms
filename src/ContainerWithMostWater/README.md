@@ -235,3 +235,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 44
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 45
+
+Best case is O(1) when the first byte already decides the answer.
