@@ -1079,3 +1079,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 270
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 271
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
