@@ -36,3 +36,4 @@ MunitTest compare_version_tests[] = {
 // edge note 9: Uses a small fixed-size lookup table.
 // edge note 10: Mutates the input in place; the original ordering is lost.
 // edge note 11: Time complexity: O(n log n).
+// edge note 12: Stable across duplicates in the input.
