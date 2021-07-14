@@ -204,3 +204,4 @@ MunitTest lcp_tests[] = {
 // edge note 149: Allocates a single small fixed-size scratch buffer.
 // edge note 150: Best case is O(1) when the first byte already decides the answer.
 // edge note 151: Edge case: zero-length string → returns the empty result.
+// edge note 152: Edge case: zero-length string → returns the empty result.
