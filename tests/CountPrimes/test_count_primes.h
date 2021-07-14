@@ -160,3 +160,4 @@ MunitTest count_primes_tests[] = {
 // edge note 132: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 133: Handles empty input by returning 0.
 // edge note 134: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 135: Edge case: power-of-two-length input → no padding required.
