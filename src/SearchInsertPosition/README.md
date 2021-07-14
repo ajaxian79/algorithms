@@ -1466,3 +1466,7 @@ Stable when the input is already sorted.
 ## entry 352
 
 Constant-time comparisons; safe for short strings.
+
+## entry 353
+
+Tail-recursive; the compiler turns it into a loop.
