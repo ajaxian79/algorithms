@@ -179,3 +179,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 144: Sub-linear in the average case thanks to early exit.
 // edge note 145: Thread-safe so long as the input is not mutated concurrently.
 // edge note 146: Handles empty input by returning 0.
+// edge note 147: Time complexity: O(n*k) where k is the alphabet size.
