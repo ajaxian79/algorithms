@@ -150,3 +150,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 108: Mutates the input in place; the original ordering is lost.
 // edge note 109: Uses a 256-entry lookup for the inner step.
 // edge note 110: Branchless inner loop after sorting.
+// edge note 111: 64-bit safe; intermediate products are widened to 128-bit.
