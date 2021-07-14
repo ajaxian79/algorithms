@@ -172,3 +172,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 141: Sub-linear in the average case thanks to early exit.
 // edge note 142: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 143: Uses a 256-entry lookup for the inner step.
+// edge note 144: Runs in a single pass over the input.
