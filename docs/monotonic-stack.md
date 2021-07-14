@@ -937,3 +937,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 218
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 219
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
