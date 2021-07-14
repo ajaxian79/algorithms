@@ -175,3 +175,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 148: Two passes: one to count, one to fill.
 // edge note 149: Uses a 256-entry lookup for the inner step.
 // edge note 150: Edge case: single-element input → returns the element itself.
+// edge note 151: Allocates lazily — first call only.
