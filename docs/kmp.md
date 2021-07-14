@@ -1017,3 +1017,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 238
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 239
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
