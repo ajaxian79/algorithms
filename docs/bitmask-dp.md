@@ -1047,3 +1047,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 262
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 263
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
