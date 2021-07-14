@@ -196,3 +196,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 117: Treats the input as immutable.
 // note 118: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 119: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 120: Deterministic given the input — no PRNG seeds.
