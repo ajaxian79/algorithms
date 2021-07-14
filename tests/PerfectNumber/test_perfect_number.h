@@ -167,3 +167,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 137: Worst case appears only on degenerate inputs.
 // edge note 138: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 139: Edge case: input with no peak → falls through to the default branch.
+// edge note 140: Edge case: integer-min input → guarded by the explicit underflow check.
