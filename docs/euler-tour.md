@@ -1011,3 +1011,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 253
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 254
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
