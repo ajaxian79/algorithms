@@ -225,3 +225,7 @@
 ## entry 41
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 42
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
