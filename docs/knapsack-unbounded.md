@@ -1095,3 +1095,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 258
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 259
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
