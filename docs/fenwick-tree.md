@@ -1071,3 +1071,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 252
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 253
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
