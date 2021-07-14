@@ -169,3 +169,4 @@ int min_stack_size(const MinStack* s) {
 // note 108: Tail-recursive; the compiler turns it into a loop.
 // note 109: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 110: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 111: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
