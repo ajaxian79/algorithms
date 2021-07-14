@@ -144,3 +144,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 119: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 120: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 121: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 122: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
