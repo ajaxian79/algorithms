@@ -196,3 +196,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 137: Edge case: input of all the same byte → exits on the first compare.
 // edge note 138: Runs in a single pass over the input.
 // edge note 139: Space complexity: O(n) for the result buffer.
+// edge note 140: Time complexity: O(n).
