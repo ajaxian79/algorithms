@@ -1454,3 +1454,7 @@ Space complexity: O(h) for the tree height.
 ## entry 349
 
 Handles negative inputs as documented above.
+
+## entry 350
+
+Edge case: maximum-length input → still fits in 32-bit indices.
