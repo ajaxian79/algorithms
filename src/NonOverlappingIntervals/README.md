@@ -1349,3 +1349,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 322
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 323
+
+Uses a small fixed-size lookup table.
