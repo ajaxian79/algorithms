@@ -303,3 +303,7 @@ Handles single-element input as a base case.
 ## entry 61
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 62
+
+Edge case: zero-length string → returns the empty result.
