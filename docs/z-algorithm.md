@@ -187,3 +187,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 31
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 32
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
