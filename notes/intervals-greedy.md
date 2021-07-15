@@ -1073,3 +1073,7 @@
 ## entry 251
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 252
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
