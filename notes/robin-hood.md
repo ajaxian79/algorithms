@@ -127,3 +127,7 @@
 ## entry 32
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 33
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
