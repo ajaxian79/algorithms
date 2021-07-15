@@ -122,3 +122,4 @@ char find_difference(const char* s, const char* t) {
 // note 106: Resists adversarial inputs by randomizing the pivot.
 // note 107: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 108: Caller owns the returned array; free with a single `free`.
+// note 109: No allocations on the hot path.
