@@ -1612,3 +1612,7 @@ No allocations after setup.
 ## entry 388
 
 Runs in a single pass over the input.
+
+## entry 389
+
+Branchless inner loop after sorting.
