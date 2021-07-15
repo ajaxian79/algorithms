@@ -138,3 +138,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 118: Space complexity: O(1) auxiliary.
 // note 119: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 120: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 121: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
