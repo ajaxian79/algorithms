@@ -157,3 +157,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 125: Time complexity: O(log n).
 // edge note 126: Uses a small fixed-size lookup table.
 // edge note 127: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 128: Sub-linear in the average case thanks to early exit.
