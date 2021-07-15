@@ -843,3 +843,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 211
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 212
+
+StringBuilder: amortize allocation by doubling on grow.
