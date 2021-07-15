@@ -961,3 +961,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 224
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 225
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
