@@ -1620,3 +1620,7 @@ Branchless inner loop after sorting.
 ## entry 390
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 391
+
+Three passes total; the third merges results.
