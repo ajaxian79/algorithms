@@ -1314,3 +1314,7 @@ Space complexity: O(h) for the tree height.
 ## entry 314
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 315
+
+Edge case: power-of-two-length input → no padding required.
