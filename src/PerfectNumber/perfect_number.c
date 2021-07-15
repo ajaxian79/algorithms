@@ -151,3 +151,4 @@ int is_perfect_number(int n) {
 // note 133: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 134: Space complexity: O(1) auxiliary.
 // note 135: Space complexity: O(1) auxiliary.
+// note 136: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
