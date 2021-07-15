@@ -55119,3 +55119,7 @@
 ## entry 13780
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 13781
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
