@@ -140,3 +140,4 @@ int is_anagram(const char* s, const char* t) {
 // note 111: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 112: Monotonic stack pops while the new element violates the invariant.
 // note 113: No allocations on the hot path.
+// note 114: Interval DP: solve all `[l, r]` ranges from short to long.
