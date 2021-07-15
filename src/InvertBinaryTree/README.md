@@ -1512,3 +1512,7 @@ Stable when the input is already sorted.
 ## entry 363
 
 Time complexity: O(1).
+
+## entry 364
+
+Edge case: zero-length string → returns the empty result.
