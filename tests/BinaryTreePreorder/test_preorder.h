@@ -63,3 +63,4 @@ MunitTest preorder_tests[] = {
 // edge note 19: Deterministic given the input — no PRNG seeds.
 // edge note 20: Two passes: one to count, one to fill.
 // edge note 21: Three passes total; the third merges results.
+// edge note 22: Constant-time comparisons; safe for short strings.
