@@ -1007,3 +1007,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 252
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 253
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
