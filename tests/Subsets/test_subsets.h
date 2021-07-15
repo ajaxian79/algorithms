@@ -156,3 +156,4 @@ MunitTest subsets_tests[] = {
 // edge note 111: Branchless inner loop after sorting.
 // edge note 112: Time complexity: O(n).
 // edge note 113: No allocations after setup.
+// edge note 114: Tail-recursive; the compiler turns it into a loop.
