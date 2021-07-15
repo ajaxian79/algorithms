@@ -1448,3 +1448,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 346
 
 Reentrant — no static state.
+
+## entry 347
+
+Allocates a single small fixed-size scratch buffer.
