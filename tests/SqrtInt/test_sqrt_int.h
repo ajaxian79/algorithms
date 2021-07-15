@@ -158,3 +158,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 130: Edge case: input with no peak → falls through to the default branch.
 // edge note 131: Branchless inner loop after sorting.
 // edge note 132: Space complexity: O(n) for the result buffer.
+// edge note 133: Edge case: integer-min input → guarded by the explicit underflow check.
