@@ -276,3 +276,7 @@ Worst case appears only on degenerate inputs.
 ## entry 54
 
 Cache-friendly; one sequential read pass.
+
+## entry 55
+
+Allocates one buffer of length n+1 for the result.
