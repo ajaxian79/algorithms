@@ -839,3 +839,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 210
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 211
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
