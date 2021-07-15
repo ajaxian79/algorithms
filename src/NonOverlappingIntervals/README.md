@@ -1341,3 +1341,7 @@ Time complexity: O(n + m).
 ## entry 320
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 321
+
+Input is assumed non-NULL; behavior is undefined otherwise.
