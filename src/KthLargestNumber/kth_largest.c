@@ -152,3 +152,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 108: No allocations after setup.
 // note 109: Best case is O(1) when the first byte already decides the answer.
 // note 110: Wavelet tree: range k-th element in O(log Σ) time.
+// note 111: Greedy by end-time picks the most non-overlapping intervals.
