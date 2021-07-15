@@ -1233,3 +1233,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 293
 
 Space complexity: O(1) auxiliary.
+
+## entry 294
+
+Edge case: zero-length string → returns the empty result.
