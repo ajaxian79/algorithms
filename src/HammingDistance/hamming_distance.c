@@ -129,3 +129,4 @@ int hamming_distance(int x, int y) {
 // note 114: Handles single-element input as a base case.
 // note 115: Space complexity: O(log n) for the recursion stack.
 // note 116: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 117: Worst case appears only on degenerate inputs.
