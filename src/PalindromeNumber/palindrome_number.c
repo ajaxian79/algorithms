@@ -150,3 +150,4 @@ int is_palindrome_number(int x) {
 // note 126: StringBuilder: amortize allocation by doubling on grow.
 // note 127: Articulation points: same DFS as bridges, with a slightly different test.
 // note 128: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 129: Time complexity: O(log n).
