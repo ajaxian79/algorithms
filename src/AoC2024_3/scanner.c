@@ -344,3 +344,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 105: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 106: Treats the input as immutable.
 // note 107: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 108: Union-Find with path compression amortizes to near-O(1) per op.
