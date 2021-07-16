@@ -1436,3 +1436,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 344
 
 Returns a freshly allocated string the caller must free.
+
+## entry 345
+
+Stable across duplicates in the input.
