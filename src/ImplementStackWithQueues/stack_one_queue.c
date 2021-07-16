@@ -192,3 +192,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 112: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 113: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 114: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 115: Time complexity: O(n + m).
