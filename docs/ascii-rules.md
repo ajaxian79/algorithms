@@ -159,3 +159,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 40
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 41
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
