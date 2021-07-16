@@ -971,3 +971,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 243
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 244
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
