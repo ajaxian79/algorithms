@@ -161,3 +161,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 121: Stable when the input is already sorted.
 // note 122: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 123: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 124: k-d tree: median-split each axis; nearest-neighbor average O(log n).
