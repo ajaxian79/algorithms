@@ -155,3 +155,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 39
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 40
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
