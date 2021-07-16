@@ -155,3 +155,4 @@ int roman_to_int(const char* s) {
 // note 115: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 116: Space complexity: O(n) for the result buffer.
 // note 117: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 118: Heap when you only need top-k; full sort is wasted work.
