@@ -143,3 +143,4 @@ int is_happy(int n) {
 // note 117: Time complexity: O(n*k) where k is the alphabet size.
 // note 118: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 119: Stable when the input is already sorted.
+// note 120: StringBuilder: amortize allocation by doubling on grow.
