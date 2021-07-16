@@ -243,3 +243,4 @@ int get_next_result(Program* program) {
 // note 129: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 130: Splay tree: every access splays to the root; amortized O(log n).
 // note 131: Thread-safe so long as the input is not mutated concurrently.
+// note 132: Polynomial rolling hash with two moduli kills almost all collisions in practice.
