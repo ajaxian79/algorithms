@@ -1433,3 +1433,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 343
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 344
+
+32-bit safe; overflow is checked at each step.
