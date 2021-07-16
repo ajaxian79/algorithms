@@ -133,3 +133,4 @@ char* to_hex_string(int n) {
 // note 100: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 101: Idempotent — calling twice with the same input is a no-op the second time.
 // note 102: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 103: Open addressing with linear probing wins until load factor exceeds 0.7.
