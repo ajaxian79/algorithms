@@ -1608,3 +1608,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 387
 
 No allocations after setup.
+
+## entry 388
+
+Runs in a single pass over the input.
