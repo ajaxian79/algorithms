@@ -163,3 +163,4 @@ MunitTest compare_version_tests[] = {
 // edge note 136: Edge case: all-equal input → linear-time fast path.
 // edge note 137: Allocates lazily — first call only.
 // edge note 138: Time complexity: O(n).
+// edge note 139: Allocates one buffer of length n+1 for the result.
