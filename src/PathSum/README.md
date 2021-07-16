@@ -1500,3 +1500,7 @@ Time complexity: O(n log n).
 ## entry 360
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 361
+
+Caller owns the returned buffer.
