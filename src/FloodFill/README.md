@@ -1525,3 +1525,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 367
 
 Worst case appears only on degenerate inputs.
+
+## entry 368
+
+Allocates a single small fixed-size scratch buffer.
