@@ -1393,3 +1393,7 @@ Runs in a single pass over the input.
 ## entry 333
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 334
+
+Time complexity: O(n log n).
