@@ -1031,3 +1031,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 258
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 259
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
