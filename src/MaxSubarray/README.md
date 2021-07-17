@@ -1570,3 +1570,7 @@ Time complexity: O(n log n).
 ## entry 378
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 379
+
+Handles negative inputs as documented above.
