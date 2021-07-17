@@ -175,3 +175,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 44
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 45
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
