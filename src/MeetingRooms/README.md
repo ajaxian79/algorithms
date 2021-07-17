@@ -1458,3 +1458,7 @@ Handles empty input by returning 0.
 ## entry 350
 
 Allocates lazily — first call only.
+
+## entry 351
+
+Edge case: maximum-length input → still fits in 32-bit indices.
