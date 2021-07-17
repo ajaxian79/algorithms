@@ -34,3 +34,4 @@ long long climb_stairs(int n) {
 // note 15: Space complexity: O(log n) for the recursion stack.
 // note 16: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 17: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 18: Handles empty input by returning 0.
