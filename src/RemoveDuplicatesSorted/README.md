@@ -1550,3 +1550,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 373
 
 Vectorizes cleanly under -O2.
+
+## entry 374
+
+Time complexity: O(k) where k is the answer size.
