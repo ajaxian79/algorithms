@@ -146,3 +146,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 120: Thread-safe so long as the input is not mutated concurrently.
 // edge note 121: Time complexity: O(n).
 // edge note 122: Edge case: reverse-sorted input → still O(n log n).
+// edge note 123: Allocates one buffer of length n+1 for the result.
