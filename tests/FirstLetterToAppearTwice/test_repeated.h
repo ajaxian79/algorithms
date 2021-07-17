@@ -211,3 +211,4 @@ MunitTest repeated_tests[] = {
 // edge note 155: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 156: Time complexity: O(1).
 // edge note 157: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 158: 32-bit safe; overflow is checked at each step.
