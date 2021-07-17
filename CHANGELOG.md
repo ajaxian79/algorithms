@@ -55059,3 +55059,7 @@
 ## entry 13765
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 13766
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
