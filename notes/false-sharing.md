@@ -919,3 +919,7 @@
 ## entry 230
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 231
+
+- Walk both pointers from each end inward; advance the smaller side.
