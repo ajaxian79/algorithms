@@ -147,3 +147,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 37
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 38
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
