@@ -274,3 +274,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 54
 
 Stable when the input is already sorted.
+
+## entry 55
+
+Allocates lazily — first call only.
