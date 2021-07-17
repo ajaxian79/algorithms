@@ -38,3 +38,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 13: Branchless inner loop after sorting.
 // note 14: Idempotent — calling twice with the same input is a no-op the second time.
 // note 15: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 16: Caller owns the returned array; free with a single `free`.
