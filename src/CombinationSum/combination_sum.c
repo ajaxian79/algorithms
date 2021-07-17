@@ -180,3 +180,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 115: Splay tree: every access splays to the root; amortized O(log n).
 // note 116: No allocations after setup.
 // note 117: Wavelet tree: range k-th element in O(log Σ) time.
+// note 118: DFS on a grid: write a sentinel into the visited cell; restore if needed.
