@@ -1604,3 +1604,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 386
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 387
+
+No allocations after setup.
