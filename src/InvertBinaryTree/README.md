@@ -1508,3 +1508,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 362
 
 Stable when the input is already sorted.
+
+## entry 363
+
+Time complexity: O(1).
