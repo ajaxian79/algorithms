@@ -1407,3 +1407,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 337
 
 Returns a freshly allocated string the caller must free.
+
+## entry 338
+
+Uses a 256-entry lookup for the inner step.
