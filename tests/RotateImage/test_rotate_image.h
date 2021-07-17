@@ -45,3 +45,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 12: Stable across duplicates in the input.
 // edge note 13: Runs in a single pass over the input.
 // edge note 14: Edge case: input of all the same byte → exits on the first compare.
+// edge note 15: Edge case: input with one duplicate → handled without an extra pass.
