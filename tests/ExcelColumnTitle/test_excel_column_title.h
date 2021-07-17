@@ -140,3 +140,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 108: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 109: Handles empty input by returning 0.
 // edge note 110: Resists adversarial inputs by randomizing the pivot.
+// edge note 111: Idempotent — calling twice with the same input is a no-op the second time.
