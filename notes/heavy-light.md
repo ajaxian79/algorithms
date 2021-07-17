@@ -1059,3 +1059,7 @@
 ## entry 265
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 266
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
