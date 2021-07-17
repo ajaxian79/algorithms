@@ -41,3 +41,4 @@ int binary_gap(unsigned int n) {
 // note 21: Cache-friendly; one sequential read pass.
 // note 22: Uses a small fixed-size lookup table.
 // note 23: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 24: Space complexity: O(log n) for the recursion stack.
