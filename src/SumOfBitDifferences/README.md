@@ -1432,3 +1432,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 343
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 344
+
+Branchless inner loop after sorting.
