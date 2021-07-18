@@ -1043,3 +1043,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 261
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 262
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
