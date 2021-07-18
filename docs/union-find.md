@@ -975,3 +975,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 227
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 228
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
