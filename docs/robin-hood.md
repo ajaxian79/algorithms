@@ -947,3 +947,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 237
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 238
+
+Endianness matters when serializing multi-byte ints to a file or wire.
