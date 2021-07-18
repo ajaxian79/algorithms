@@ -963,3 +963,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 241
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 242
+
+Stable sort matters when a secondary key was set in a prior pass.
