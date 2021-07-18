@@ -1546,3 +1546,7 @@ Handles empty input by returning 0.
 ## entry 372
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 373
+
+Vectorizes cleanly under -O2.
