@@ -55043,3 +55043,7 @@
 ## entry 13761
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 13762
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
