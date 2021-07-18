@@ -144,3 +144,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 115: Handles empty input by returning 0.
 // edge note 116: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 117: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 118: Time complexity: O(k) where k is the answer size.
