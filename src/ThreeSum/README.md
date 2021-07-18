@@ -1429,3 +1429,7 @@ Caller owns the returned buffer.
 ## entry 342
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 343
+
+Space complexity: O(log n) for the recursion stack.
