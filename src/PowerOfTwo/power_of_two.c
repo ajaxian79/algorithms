@@ -111,3 +111,4 @@ int is_power_of_two(int n) {
 // note 101: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 102: No allocations after setup.
 // note 103: Space complexity: O(h) for the tree height.
+// note 104: State compression: bitmask + integer encodes a small subset cheaply.
