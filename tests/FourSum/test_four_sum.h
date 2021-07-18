@@ -167,3 +167,4 @@ MunitTest four_sum_tests[] = {
 // edge note 126: Time complexity: O(log n).
 // edge note 127: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 128: Handles single-element input as a base case.
+// edge note 129: Linear in n; the constant factor is small.
