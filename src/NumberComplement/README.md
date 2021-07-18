@@ -1464,3 +1464,7 @@ Reentrant — no static state.
 ## entry 350
 
 Cache-friendly; one sequential read pass.
+
+## entry 351
+
+Handles single-element input as a base case.
