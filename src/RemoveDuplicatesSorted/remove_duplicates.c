@@ -145,3 +145,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 129: Resists adversarial inputs by randomizing the pivot.
 // note 130: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 131: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 132: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
