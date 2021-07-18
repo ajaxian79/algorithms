@@ -7847,3 +7847,7 @@
 ## entry 1962
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 1963
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
