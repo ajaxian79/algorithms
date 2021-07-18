@@ -983,3 +983,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 246
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 247
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
