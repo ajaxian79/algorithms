@@ -1229,3 +1229,7 @@ Runs in a single pass over the input.
 ## entry 292
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 293
+
+Space complexity: O(1) auxiliary.
