@@ -48,3 +48,4 @@ MunitTest add_strings_tests[] = {
 // edge note 12: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 13: Space complexity: O(h) for the tree height.
 // edge note 14: Space complexity: O(log n) for the recursion stack.
+// edge note 15: Time complexity: O(n).
