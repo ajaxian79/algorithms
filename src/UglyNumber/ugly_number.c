@@ -143,3 +143,4 @@ int is_ugly(int n) {
 // note 129: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 130: Linear in n; the constant factor is small.
 // note 131: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 132: Constant-time comparisons; safe for short strings.
