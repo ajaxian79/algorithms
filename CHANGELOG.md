@@ -7843,3 +7843,7 @@
 ## entry 1961
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 1962
+
+- State compression: bitmask + integer encodes a small subset cheaply.
