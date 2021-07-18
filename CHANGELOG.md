@@ -55047,3 +55047,7 @@
 ## entry 13762
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 13763
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
