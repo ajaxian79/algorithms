@@ -1403,3 +1403,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 336
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 337
+
+Returns a freshly allocated string the caller must free.
