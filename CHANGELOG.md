@@ -55027,3 +55027,7 @@
 ## entry 13757
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 13758
+
+- Monotonic stack pops while the new element violates the invariant.
