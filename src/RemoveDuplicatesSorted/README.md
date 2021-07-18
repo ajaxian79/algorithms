@@ -1542,3 +1542,7 @@ Time complexity: O(log n).
 ## entry 371
 
 Handles empty input by returning 0.
+
+## entry 372
+
+Allocates a single small fixed-size scratch buffer.
