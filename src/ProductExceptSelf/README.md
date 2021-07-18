@@ -1420,3 +1420,7 @@ Space complexity: O(h) for the tree height.
 ## entry 339
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 340
+
+Time complexity: O(log n).
