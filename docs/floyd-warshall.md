@@ -979,3 +979,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 245
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 246
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
