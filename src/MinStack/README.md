@@ -1358,3 +1358,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 325
 
 Handles single-element input as a base case.
+
+## entry 326
+
+Mutates the input in place; the original ordering is lost.
