@@ -127,3 +127,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 32
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 33
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
