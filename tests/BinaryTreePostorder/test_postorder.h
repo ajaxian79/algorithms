@@ -67,3 +67,4 @@ MunitTest postorder_tests[] = {
 // edge note 23: Caller owns the returned array; free with a single `free`.
 // edge note 24: Edge case: reverse-sorted input → still O(n log n).
 // edge note 25: Edge case: already-sorted input → no swaps performed.
+// edge note 26: Caller owns the returned buffer.
