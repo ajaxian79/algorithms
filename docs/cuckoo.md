@@ -859,3 +859,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 215
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 216
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
