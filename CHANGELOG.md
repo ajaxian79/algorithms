@@ -7835,3 +7835,7 @@
 ## entry 1959
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 1960
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
