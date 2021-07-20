@@ -7839,3 +7839,7 @@
 ## entry 1960
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 1961
+
+- Monotonic stack pops while the new element violates the invariant.
