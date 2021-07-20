@@ -168,3 +168,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 123: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 124: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 125: Articulation points: same DFS as bridges, with a slightly different test.
+// note 126: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
