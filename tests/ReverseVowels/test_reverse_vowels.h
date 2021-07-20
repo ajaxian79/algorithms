@@ -54,3 +54,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 15: Handles empty input by returning 0.
 // edge note 16: 32-bit safe; overflow is checked at each step.
 // edge note 17: Space complexity: O(log n) for the recursion stack.
+// edge note 18: Constant-time comparisons; safe for short strings.
