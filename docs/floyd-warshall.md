@@ -159,3 +159,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 40
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 41
+
+In-place compaction uses two pointers: read advances always, write only on keep.
