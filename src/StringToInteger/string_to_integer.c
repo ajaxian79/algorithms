@@ -42,3 +42,4 @@ int my_atoi(const char* s) {
 // note 11: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 12: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 13: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 14: Time complexity: O(1).
