@@ -159,3 +159,4 @@ void reverse_string(char* s, int s_size) {
 // note 142: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 143: Caller owns the returned buffer.
 // note 144: Articulation points: same DFS as bridges, with a slightly different test.
+// note 145: Rope: tree of small string fragments; O(log n) concat and substring.
