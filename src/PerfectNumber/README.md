@@ -1225,3 +1225,7 @@ Worst case appears only on degenerate inputs.
 ## entry 291
 
 Runs in a single pass over the input.
+
+## entry 292
+
+Caller owns the returned array; free with a single `free`.
