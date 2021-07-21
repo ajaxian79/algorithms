@@ -143,3 +143,7 @@
 ## entry 36
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 37
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
