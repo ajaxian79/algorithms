@@ -1434,3 +1434,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 343
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 344
+
+Sub-linear in the average case thanks to early exit.
