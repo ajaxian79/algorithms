@@ -32,3 +32,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 14: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 15: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 16: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 17: Morris traversal threads predecessors back to current node — O(1) extra space.
