@@ -167,3 +167,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 42
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 43
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
