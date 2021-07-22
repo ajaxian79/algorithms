@@ -217,3 +217,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 38
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 39
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
