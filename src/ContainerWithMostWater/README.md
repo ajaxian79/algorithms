@@ -1487,3 +1487,7 @@ Caller owns the returned buffer.
 ## entry 357
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 358
+
+Mutates the input in place; the original ordering is lost.
