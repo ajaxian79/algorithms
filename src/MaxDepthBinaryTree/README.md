@@ -1433,3 +1433,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 344
 
 No allocations after setup.
+
+## entry 345
+
+Space complexity: O(h) for the tree height.
