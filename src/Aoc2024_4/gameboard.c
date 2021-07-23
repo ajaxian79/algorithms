@@ -275,3 +275,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 122: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 123: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 124: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 125: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
