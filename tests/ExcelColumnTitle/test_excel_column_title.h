@@ -138,3 +138,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 106: Two passes: one to count, one to fill.
 // edge note 107: Caller owns the returned buffer.
 // edge note 108: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 109: Handles empty input by returning 0.
