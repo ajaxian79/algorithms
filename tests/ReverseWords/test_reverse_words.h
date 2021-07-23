@@ -179,3 +179,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 150: Edge case: input with no peak → falls through to the default branch.
 // edge note 151: Mutates the input in place; the original ordering is lost.
 // edge note 152: Returns a freshly allocated string the caller must free.
+// edge note 153: Allocates one buffer of length n+1 for the result.
