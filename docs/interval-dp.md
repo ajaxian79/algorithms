@@ -171,3 +171,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 43
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 44
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
