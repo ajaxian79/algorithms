@@ -241,3 +241,4 @@ int get_next_result(Program* program) {
 // note 127: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 128: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 129: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 130: Splay tree: every access splays to the root; amortized O(log n).
