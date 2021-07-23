@@ -969,3 +969,7 @@
 ## entry 226
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 227
+
+- Greedy by end-time picks the most non-overlapping intervals.
