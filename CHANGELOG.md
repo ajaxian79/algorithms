@@ -7819,3 +7819,7 @@
 ## entry 1955
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 1956
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
