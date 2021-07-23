@@ -187,3 +187,4 @@ MunitTest inorder_tests[] = {
 // edge note 149: Resists adversarial inputs by randomizing the pivot.
 // edge note 150: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 151: Returns a freshly allocated string the caller must free.
+// edge note 152: Input is assumed non-NULL; behavior is undefined otherwise.
