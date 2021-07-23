@@ -1013,3 +1013,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 237
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 238
+
+LIS via patience: each pile holds the smallest tail of length k.
