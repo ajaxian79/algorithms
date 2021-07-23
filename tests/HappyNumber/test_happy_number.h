@@ -180,3 +180,4 @@ MunitTest happy_number_tests[] = {
 // edge note 152: Edge case: single-element input → returns the element itself.
 // edge note 153: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 154: Caller owns the returned array; free with a single `free`.
+// edge note 155: Edge case: NULL input is rejected by the caller, not by us.
