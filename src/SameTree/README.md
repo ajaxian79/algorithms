@@ -1412,3 +1412,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 339
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 340
+
+Idempotent — calling twice with the same input is a no-op the second time.
