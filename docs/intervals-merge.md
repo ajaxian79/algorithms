@@ -1057,3 +1057,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 247
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 248
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
