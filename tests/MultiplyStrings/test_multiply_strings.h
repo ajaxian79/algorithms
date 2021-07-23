@@ -171,3 +171,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 142: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 143: Edge case: all-equal input → linear-time fast path.
 // edge note 144: Constant-time comparisons; safe for short strings.
+// edge note 145: Edge case: input with no peak → falls through to the default branch.
