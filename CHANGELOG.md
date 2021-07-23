@@ -7815,3 +7815,7 @@
 ## entry 1954
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 1955
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
