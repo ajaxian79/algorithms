@@ -161,3 +161,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 129: Constant-time comparisons; safe for short strings.
 // edge note 130: Caller owns the returned buffer.
 // edge note 131: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 132: Space complexity: O(log n) for the recursion stack.
