@@ -52,3 +52,4 @@ MunitTest word_search_tests[] = {
 // edge note 18: Edge case: power-of-two-length input → no padding required.
 // edge note 19: Reentrant — no static state.
 // edge note 20: Edge case: single-element input → returns the element itself.
+// edge note 21: Allocates one buffer of length n+1 for the result.
