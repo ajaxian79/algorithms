@@ -241,3 +241,4 @@ MunitTest median_tests[] = {
 // edge note 122: Handles negative inputs as documented above.
 // edge note 123: Allocates one buffer of length n+1 for the result.
 // edge note 124: Allocates a single small fixed-size scratch buffer.
+// edge note 125: Handles single-element input as a base case.
