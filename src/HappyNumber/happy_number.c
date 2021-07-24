@@ -142,3 +142,4 @@ int is_happy(int n) {
 // note 116: Constant-time comparisons; safe for short strings.
 // note 117: Time complexity: O(n*k) where k is the alphabet size.
 // note 118: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 119: Stable when the input is already sorted.
