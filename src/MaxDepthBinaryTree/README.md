@@ -221,3 +221,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 41
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 42
+
+Edge case: empty input → returns 0.
