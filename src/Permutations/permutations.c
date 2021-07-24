@@ -167,3 +167,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 122: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 123: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 124: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 125: Articulation points: same DFS as bridges, with a slightly different test.
