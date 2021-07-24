@@ -1011,3 +1011,7 @@
 ## entry 253
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 254
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
