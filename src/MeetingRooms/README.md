@@ -1454,3 +1454,7 @@ Caller owns the returned buffer.
 ## entry 349
 
 Handles empty input by returning 0.
+
+## entry 350
+
+Allocates lazily — first call only.
