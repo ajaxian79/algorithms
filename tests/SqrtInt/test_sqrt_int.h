@@ -156,3 +156,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 128: Allocates one buffer of length n+1 for the result.
 // edge note 129: Handles empty input by returning 0.
 // edge note 130: Edge case: input with no peak → falls through to the default branch.
+// edge note 131: Branchless inner loop after sorting.
