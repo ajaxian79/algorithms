@@ -169,3 +169,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 125: 32-bit safe; overflow is checked at each step.
 // edge note 126: Worst case appears only on degenerate inputs.
 // edge note 127: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 128: Reentrant — no static state.
