@@ -177,3 +177,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 142: Allocates a single small fixed-size scratch buffer.
 // edge note 143: Constant-time comparisons; safe for short strings.
 // edge note 144: Sub-linear in the average case thanks to early exit.
+// edge note 145: Thread-safe so long as the input is not mutated concurrently.
