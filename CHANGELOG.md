@@ -54943,3 +54943,7 @@
 ## entry 13736
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 13737
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
