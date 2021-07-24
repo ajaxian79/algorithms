@@ -259,3 +259,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 48
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 49
+
+State compression: bitmask + integer encodes a small subset cheaply.
