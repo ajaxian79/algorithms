@@ -1382,3 +1382,7 @@ Three passes total; the third merges results.
 ## entry 330
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 331
+
+Caller owns the returned buffer.
