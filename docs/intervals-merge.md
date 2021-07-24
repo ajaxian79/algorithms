@@ -1053,3 +1053,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 246
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 247
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
