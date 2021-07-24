@@ -154,3 +154,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 121: Edge case: single-element input → returns the element itself.
 // edge note 122: Time complexity: O(n log n).
 // edge note 123: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 124: Handles negative inputs as documented above.
