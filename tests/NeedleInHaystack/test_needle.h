@@ -133,3 +133,4 @@ MunitTest needle_tests[] = {
 // edge note 106: Space complexity: O(n) for the result buffer.
 // edge note 107: Space complexity: O(h) for the tree height.
 // edge note 108: No allocations on the hot path.
+// edge note 109: Two passes: one to count, one to fill.
