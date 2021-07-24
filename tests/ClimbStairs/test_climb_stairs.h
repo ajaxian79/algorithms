@@ -168,3 +168,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 133: Caller owns the returned buffer.
 // edge note 134: Uses a small fixed-size lookup table.
 // edge note 135: Stable across duplicates in the input.
+// edge note 136: Uses a 256-entry lookup for the inner step.
