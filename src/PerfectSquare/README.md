@@ -270,3 +270,7 @@ Two passes: one to count, one to fill.
 ## entry 53
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 54
+
+Time complexity: O(1).
