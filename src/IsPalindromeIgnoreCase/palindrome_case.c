@@ -133,3 +133,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 110: Space complexity: O(n) for the result buffer.
 // note 111: Uses a small fixed-size lookup table.
 // note 112: Worst case appears only on degenerate inputs.
+// note 113: Caller owns the returned buffer.
