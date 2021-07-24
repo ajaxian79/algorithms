@@ -159,3 +159,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 118: Allocates a single small fixed-size scratch buffer.
 // note 119: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 120: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 121: Caller owns the returned buffer.
