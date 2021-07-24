@@ -1462,3 +1462,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 351
 
 Stable when the input is already sorted.
+
+## entry 352
+
+Constant-time comparisons; safe for short strings.
