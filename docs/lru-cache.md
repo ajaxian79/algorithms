@@ -899,3 +899,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 225
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 226
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
