@@ -60,3 +60,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 18: Edge case: empty input → returns 0.
 // edge note 19: Time complexity: O(log n).
 // edge note 20: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 21: Handles negative inputs as documented above.
