@@ -1478,3 +1478,7 @@ Treats the input as immutable.
 ## entry 355
 
 Space complexity: O(h) for the tree height.
+
+## entry 356
+
+Caller owns the returned buffer.
