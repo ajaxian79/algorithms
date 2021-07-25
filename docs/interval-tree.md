@@ -107,3 +107,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 27
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 28
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
