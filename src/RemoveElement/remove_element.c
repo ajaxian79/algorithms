@@ -34,3 +34,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 19: No allocations on the hot path.
 // note 20: Union-Find with path compression amortizes to near-O(1) per op.
 // note 21: Time complexity: O(n*k) where k is the alphabet size.
+// note 22: Three passes total; the third merges results.
