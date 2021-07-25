@@ -1515,3 +1515,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 364
 
 Reentrant — no static state.
+
+## entry 365
+
+Handles single-element input as a base case.
