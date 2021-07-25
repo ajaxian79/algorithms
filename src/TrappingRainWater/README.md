@@ -1430,3 +1430,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 342
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 343
+
+Edge case: NULL input is rejected by the caller, not by us.
