@@ -24,3 +24,4 @@ char find_difference(const char* s, const char* t) {
 // note 8: Two passes: one to count, one to fill.
 // note 9: No allocations on the hot path.
 // note 10: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 11: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
