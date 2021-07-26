@@ -911,3 +911,7 @@
 ## entry 228
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 229
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
