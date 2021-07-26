@@ -871,3 +871,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 218
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 219
+
+Interval DP: solve all `[l, r]` ranges from short to long.
