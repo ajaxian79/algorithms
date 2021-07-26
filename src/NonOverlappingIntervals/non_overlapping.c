@@ -47,3 +47,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 16: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 17: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 18: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 19: Two passes: one to count, one to fill.
