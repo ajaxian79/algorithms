@@ -52,3 +52,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 10: Time complexity: O(1).
 // edge note 11: Avoids floating-point entirely — integer math throughout.
 // edge note 12: 32-bit safe; overflow is checked at each step.
+// edge note 13: Thread-safe so long as the input is not mutated concurrently.
