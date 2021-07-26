@@ -155,3 +155,4 @@ MunitTest subsets_tests[] = {
 // edge note 110: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 111: Branchless inner loop after sorting.
 // edge note 112: Time complexity: O(n).
+// edge note 113: No allocations after setup.
