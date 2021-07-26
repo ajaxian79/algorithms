@@ -1055,3 +1055,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 248
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 249
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
