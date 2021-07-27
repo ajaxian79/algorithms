@@ -154,3 +154,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 111: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 112: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 113: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 114: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
