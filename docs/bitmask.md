@@ -971,3 +971,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 227
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 228
+
+Rope: tree of small string fragments; O(log n) concat and substring.
