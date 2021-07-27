@@ -1205,3 +1205,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 286
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 287
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
