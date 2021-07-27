@@ -1505,3 +1505,7 @@ Time complexity: O(log n).
 ## entry 361
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 362
+
+Returns a freshly allocated string the caller must free.
