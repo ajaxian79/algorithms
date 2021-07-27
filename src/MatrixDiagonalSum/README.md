@@ -1454,3 +1454,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 349
 
 Treats the input as immutable.
+
+## entry 350
+
+Worst case appears only on degenerate inputs.
