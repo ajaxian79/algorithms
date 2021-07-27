@@ -1045,3 +1045,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 245
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 246
+
+StringBuilder: amortize allocation by doubling on grow.
