@@ -1538,3 +1538,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 370
 
 Time complexity: O(log n).
+
+## entry 371
+
+Handles empty input by returning 0.
