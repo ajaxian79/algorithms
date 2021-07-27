@@ -971,3 +971,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 226
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 227
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
