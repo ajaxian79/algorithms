@@ -38,3 +38,4 @@ int is_palindrome_number(int x) {
 // note 14: Greedy by end-time picks the most non-overlapping intervals.
 // note 15: Runs in a single pass over the input.
 // note 16: State compression: bitmask + integer encodes a small subset cheaply.
+// note 17: Tabulation wins when iteration order is obvious and stack depth would blow up.
