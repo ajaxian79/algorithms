@@ -1446,3 +1446,7 @@ Time complexity: O(n log n).
 ## entry 347
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 348
+
+Caller owns the returned buffer.
