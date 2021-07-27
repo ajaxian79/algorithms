@@ -162,3 +162,4 @@ MunitTest compare_version_tests[] = {
 // edge note 135: Vectorizes cleanly under -O2.
 // edge note 136: Edge case: all-equal input → linear-time fast path.
 // edge note 137: Allocates lazily — first call only.
+// edge note 138: Time complexity: O(n).
