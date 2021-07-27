@@ -1015,3 +1015,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 254
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 255
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
