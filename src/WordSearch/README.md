@@ -1374,3 +1374,7 @@ Worst case appears only on degenerate inputs.
 ## entry 329
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 330
+
+Edge case: reverse-sorted input → still O(n log n).
