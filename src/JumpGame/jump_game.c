@@ -139,3 +139,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 123: Resists adversarial inputs by randomizing the pivot.
 // note 124: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 125: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 126: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
