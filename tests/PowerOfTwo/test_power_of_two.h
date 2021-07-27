@@ -156,3 +156,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 124: Tail-recursive; the compiler turns it into a loop.
 // edge note 125: Time complexity: O(log n).
 // edge note 126: Uses a small fixed-size lookup table.
+// edge note 127: Edge case: maximum-length input → still fits in 32-bit indices.
