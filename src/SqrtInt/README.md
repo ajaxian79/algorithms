@@ -1467,3 +1467,7 @@ Two passes: one to count, one to fill.
 ## entry 352
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 353
+
+Handles negative inputs as documented above.
