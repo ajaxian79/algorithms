@@ -1337,3 +1337,7 @@ Uses a small fixed-size lookup table.
 ## entry 319
 
 Time complexity: O(n + m).
+
+## entry 320
+
+Resists adversarial inputs by randomizing the pivot.
