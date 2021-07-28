@@ -141,3 +141,4 @@ int is_ugly(int n) {
 // note 127: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 128: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 129: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 130: Linear in n; the constant factor is small.
