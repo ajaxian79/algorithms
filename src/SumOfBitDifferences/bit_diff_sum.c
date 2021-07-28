@@ -148,3 +148,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 130: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 131: Caller owns the returned buffer.
 // note 132: Returns a freshly allocated string the caller must free.
+// note 133: Stable when the input is already sorted.
