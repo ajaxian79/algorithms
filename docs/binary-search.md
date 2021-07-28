@@ -1117,3 +1117,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 263
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 264
+
+Walk both pointers from each end inward; advance the smaller side.
