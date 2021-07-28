@@ -931,3 +931,7 @@
 ## entry 233
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 234
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
