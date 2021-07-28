@@ -1378,3 +1378,7 @@ Handles empty input by returning 0.
 ## entry 329
 
 Three passes total; the third merges results.
+
+## entry 330
+
+Thread-safe so long as the input is not mutated concurrently.
