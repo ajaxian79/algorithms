@@ -1425,3 +1425,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 341
 
 Caller owns the returned buffer.
+
+## entry 342
+
+Tail-recursive; the compiler turns it into a loop.
