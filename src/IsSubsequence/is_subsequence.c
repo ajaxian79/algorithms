@@ -137,3 +137,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 117: Two passes: one to count, one to fill.
 // note 118: Space complexity: O(1) auxiliary.
 // note 119: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 120: Monotonic deque: push back, pop back to maintain order, pop front when stale.
