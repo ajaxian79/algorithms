@@ -137,3 +137,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 115: Handles negative inputs as documented above.
 // note 116: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 117: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 118: Cache-friendly; one sequential read pass.
