@@ -1335,3 +1335,7 @@ Stable across duplicates in the input.
 ## entry 319
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 320
+
+Handles single-element input as a base case.
