@@ -54891,3 +54891,7 @@
 ## entry 13723
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 13724
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
