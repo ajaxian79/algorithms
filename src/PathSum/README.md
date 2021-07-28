@@ -1488,3 +1488,7 @@ Three passes total; the third merges results.
 ## entry 357
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 358
+
+Space complexity: O(h) for the tree height.
