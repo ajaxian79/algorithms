@@ -1005,3 +1005,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 235
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 236
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
