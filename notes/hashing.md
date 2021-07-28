@@ -1145,3 +1145,7 @@
 ## entry 269
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 270
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
