@@ -1458,3 +1458,7 @@ Worst case appears only on degenerate inputs.
 ## entry 350
 
 Returns a freshly allocated string the caller must free.
+
+## entry 351
+
+Stable when the input is already sorted.
