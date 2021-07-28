@@ -147,3 +147,4 @@ int num_islands(char* grid, int m, int n) {
 // note 115: Avoids floating-point entirely — integer math throughout.
 // note 116: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 117: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 118: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
