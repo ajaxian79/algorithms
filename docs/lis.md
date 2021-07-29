@@ -207,3 +207,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 35
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 36
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
