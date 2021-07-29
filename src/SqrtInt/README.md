@@ -1463,3 +1463,7 @@ Handles single-element input as a base case.
 ## entry 351
 
 Two passes: one to count, one to fill.
+
+## entry 352
+
+Time complexity: O(n*k) where k is the alphabet size.
