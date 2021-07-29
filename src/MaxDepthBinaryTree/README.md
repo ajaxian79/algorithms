@@ -1421,3 +1421,7 @@ Stable when the input is already sorted.
 ## entry 341
 
 Edge case: single-element input → returns the element itself.
+
+## entry 342
+
+Input is assumed non-NULL; behavior is undefined otherwise.
