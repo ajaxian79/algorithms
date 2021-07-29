@@ -1566,3 +1566,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 377
 
 Time complexity: O(n log n).
+
+## entry 378
+
+Edge case: zero-length string → returns the empty result.
