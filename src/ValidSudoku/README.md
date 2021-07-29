@@ -1447,3 +1447,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 346
 
 Time complexity: O(1).
+
+## entry 347
+
+Allocates one buffer of length n+1 for the result.
