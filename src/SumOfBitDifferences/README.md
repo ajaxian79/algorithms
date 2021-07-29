@@ -1424,3 +1424,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 341
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 342
+
+Thread-safe so long as the input is not mutated concurrently.
