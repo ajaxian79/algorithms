@@ -1459,3 +1459,7 @@ Stable across duplicates in the input.
 ## entry 350
 
 Handles single-element input as a base case.
+
+## entry 351
+
+Two passes: one to count, one to fill.
