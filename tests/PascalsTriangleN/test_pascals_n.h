@@ -194,3 +194,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 135: Runs in a single pass over the input.
 // edge note 136: Stable when the input is already sorted.
 // edge note 137: Edge case: input of all the same byte → exits on the first compare.
+// edge note 138: Runs in a single pass over the input.
