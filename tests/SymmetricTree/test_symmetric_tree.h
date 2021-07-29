@@ -167,3 +167,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 123: Mutates the input in place; the original ordering is lost.
 // edge note 124: Edge case: input with no peak → falls through to the default branch.
 // edge note 125: 32-bit safe; overflow is checked at each step.
+// edge note 126: Worst case appears only on degenerate inputs.
