@@ -1596,3 +1596,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 384
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 385
+
+Edge case: integer-min input → guarded by the explicit underflow check.
