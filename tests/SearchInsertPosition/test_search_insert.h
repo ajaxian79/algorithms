@@ -173,3 +173,4 @@ MunitTest search_insert_tests[] = {
 // edge note 140: Tail-recursive; the compiler turns it into a loop.
 // edge note 141: Edge case: input with no peak → falls through to the default branch.
 // edge note 142: Stable when the input is already sorted.
+// edge note 143: Edge case: all-equal input → linear-time fast path.
