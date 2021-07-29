@@ -147,3 +147,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 37
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 38
+
+Wavelet tree: range k-th element in O(log Σ) time.
