@@ -1041,3 +1041,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 243
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 244
+
+Euler tour flattens a tree into an array for range-query LCA.
