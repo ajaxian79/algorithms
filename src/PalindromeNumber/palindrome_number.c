@@ -148,3 +148,4 @@ int is_palindrome_number(int x) {
 // note 124: 64-bit safe; intermediate products are widened to 128-bit.
 // note 125: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 126: StringBuilder: amortize allocation by doubling on grow.
+// note 127: Articulation points: same DFS as bridges, with a slightly different test.
