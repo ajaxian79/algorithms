@@ -150,3 +150,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 129: Tail-recursive; the compiler turns it into a loop.
 // note 130: Linear in n; the constant factor is small.
 // note 131: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 132: Space complexity: O(1) auxiliary.
