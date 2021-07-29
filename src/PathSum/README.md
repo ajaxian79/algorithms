@@ -1484,3 +1484,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 356
 
 Three passes total; the third merges results.
+
+## entry 357
+
+Sub-linear in the average case thanks to early exit.
