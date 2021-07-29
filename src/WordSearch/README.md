@@ -1370,3 +1370,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 328
 
 Worst case appears only on degenerate inputs.
+
+## entry 329
+
+Edge case: power-of-two-length input → no padding required.
