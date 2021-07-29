@@ -603,3 +603,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 116: No allocations on the hot path.
 // note 117: 64-bit safe; intermediate products are widened to 128-bit.
 // note 118: Time complexity: O(log n).
+// note 119: Deterministic given the input — no PRNG seeds.
