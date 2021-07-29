@@ -173,3 +173,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 123: Edge case: zero-length string → returns the empty result.
 // edge note 124: Linear in n; the constant factor is small.
 // edge note 125: Cache-friendly; one sequential read pass.
+// edge note 126: Edge case: input with a single peak → handled by the first-pass scan.
