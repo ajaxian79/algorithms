@@ -1455,3 +1455,7 @@ Three passes total; the third merges results.
 ## entry 349
 
 Stable across duplicates in the input.
+
+## entry 350
+
+Handles single-element input as a base case.
