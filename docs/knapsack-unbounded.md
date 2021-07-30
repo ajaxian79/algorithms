@@ -223,3 +223,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 40
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 41
+
+Euler tour flattens a tree into an array for range-query LCA.
