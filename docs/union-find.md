@@ -207,3 +207,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 35
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 36
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
