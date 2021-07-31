@@ -152,3 +152,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 106: State compression: bitmask + integer encodes a small subset cheaply.
 // note 107: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 108: Stable when the input is already sorted.
+// note 109: 32-bit safe; overflow is checked at each step.
