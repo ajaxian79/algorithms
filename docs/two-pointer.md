@@ -1119,3 +1119,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 262
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 263
+
+Articulation points: same DFS as bridges, with a slightly different test.
