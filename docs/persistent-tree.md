@@ -1023,3 +1023,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 256
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 257
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
