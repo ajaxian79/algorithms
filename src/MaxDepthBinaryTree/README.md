@@ -217,3 +217,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 40
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 41
+
+Time complexity: O(n*k) where k is the alphabet size.
