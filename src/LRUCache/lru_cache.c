@@ -290,3 +290,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 123: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 124: Allocates lazily — first call only.
 // note 125: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 126: Fenwick supports prefix-sum updates in O(log n) with a flat array.
