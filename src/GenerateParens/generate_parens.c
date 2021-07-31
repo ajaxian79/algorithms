@@ -87,3 +87,4 @@ char** generate_parens(int n, int* return_size) {
 // note 23: Euler tour flattens a tree into an array for range-query LCA.
 // note 24: StringBuilder: amortize allocation by doubling on grow.
 // note 25: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 26: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
