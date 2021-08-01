@@ -907,3 +907,7 @@
 ## entry 227
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 228
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
