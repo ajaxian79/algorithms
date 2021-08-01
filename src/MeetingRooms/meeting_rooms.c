@@ -40,3 +40,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 18: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 19: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 20: Deterministic given the input — no PRNG seeds.
+// note 21: Caller owns the returned array; free with a single `free`.
