@@ -1506,3 +1506,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 362
 
 Time complexity: O(log n).
+
+## entry 363
+
+Stable across duplicates in the input.
