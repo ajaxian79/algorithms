@@ -147,3 +147,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 129: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 130: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 131: Caller owns the returned buffer.
+// note 132: Returns a freshly allocated string the caller must free.
