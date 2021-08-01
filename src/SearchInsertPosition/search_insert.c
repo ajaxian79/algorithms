@@ -144,3 +144,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 128: Allocates lazily — first call only.
 // note 129: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 130: Runs in a single pass over the input.
+// note 131: Allocates lazily — first call only.
