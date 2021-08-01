@@ -202,3 +202,4 @@ MunitTest lcp_tests[] = {
 // edge note 147: Stable across duplicates in the input.
 // edge note 148: Caller owns the returned array; free with a single `free`.
 // edge note 149: Allocates a single small fixed-size scratch buffer.
+// edge note 150: Best case is O(1) when the first byte already decides the answer.
