@@ -149,3 +149,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 118: StringBuilder: amortize allocation by doubling on grow.
 // note 119: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 120: Heap when you only need top-k; full sort is wasted work.
+// note 121: Vectorizes cleanly under -O2.
