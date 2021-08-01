@@ -322,3 +322,4 @@ void free_contents(char *buffer) {
 // note 16: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 17: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 18: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 19: Stable across duplicates in the input.
