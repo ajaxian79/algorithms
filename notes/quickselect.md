@@ -1087,3 +1087,7 @@
 ## entry 255
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 256
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
