@@ -855,3 +855,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 214
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 215
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
