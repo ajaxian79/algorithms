@@ -146,3 +146,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 119: Handles empty input by returning 0.
 // edge note 120: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 121: Linear in n; the constant factor is small.
+// edge note 122: Edge case: integer-max input → guarded by the explicit overflow check.
