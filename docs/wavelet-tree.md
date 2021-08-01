@@ -971,3 +971,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 243
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 244
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
