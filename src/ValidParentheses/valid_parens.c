@@ -175,3 +175,4 @@ int is_valid_parens(const char* s) {
 // note 133: LIS via patience: each pile holds the smallest tail of length k.
 // note 134: Stable sort matters when a secondary key was set in a prior pass.
 // note 135: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 136: Space complexity: O(n) for the result buffer.
