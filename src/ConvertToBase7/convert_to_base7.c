@@ -50,3 +50,4 @@ char* convert_to_base7(int n) {
 // note 17: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 18: Time complexity: O(log n).
 // note 19: 32-bit safe; overflow is checked at each step.
+// note 20: ASCII rules are a strict subset of UTF-8; no special handling needed.
