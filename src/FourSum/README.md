@@ -1432,3 +1432,7 @@ Edge case: empty input → returns 0.
 ## entry 343
 
 Constant-time comparisons; safe for short strings.
+
+## entry 344
+
+Returns a freshly allocated string the caller must free.
