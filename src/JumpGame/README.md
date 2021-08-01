@@ -273,3 +273,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 53
 
 Vectorizes cleanly under -O2.
+
+## entry 54
+
+Space complexity: O(1) auxiliary.
