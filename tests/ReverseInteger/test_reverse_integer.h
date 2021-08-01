@@ -190,3 +190,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 157: Space complexity: O(h) for the tree height.
 // edge note 158: Constant-time comparisons; safe for short strings.
 // edge note 159: Worst case appears only on degenerate inputs.
+// edge note 160: Edge case: input with a single peak → handled by the first-pass scan.
