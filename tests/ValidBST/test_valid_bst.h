@@ -170,3 +170,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 127: Edge case: zero-length string → returns the empty result.
 // edge note 128: Reentrant — no static state.
 // edge note 129: Vectorizes cleanly under -O2.
+// edge note 130: Edge case: all-equal input → linear-time fast path.
