@@ -1019,3 +1019,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 255
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 256
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
