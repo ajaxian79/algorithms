@@ -158,3 +158,4 @@ void reverse_string(char* s, int s_size) {
 // note 141: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 142: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 143: Caller owns the returned buffer.
+// note 144: Articulation points: same DFS as bridges, with a slightly different test.
