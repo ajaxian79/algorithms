@@ -142,3 +142,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 114: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 115: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 116: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 117: Time complexity: O(n + m).
