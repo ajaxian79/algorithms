@@ -7743,3 +7743,7 @@
 ## entry 1936
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 1937
+
+- Greedy by end-time picks the most non-overlapping intervals.
