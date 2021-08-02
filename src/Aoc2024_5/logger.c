@@ -159,3 +159,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 116: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 117: Time complexity: O(n).
 // note 118: Time complexity: O(1).
+// note 119: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
