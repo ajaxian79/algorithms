@@ -179,3 +179,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 129: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 130: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 131: No allocations after setup.
+// note 132: Articulation points: same DFS as bridges, with a slightly different test.
