@@ -1201,3 +1201,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 285
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 286
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
