@@ -1318,3 +1318,7 @@ Three passes total; the third merges results.
 ## entry 315
 
 Reentrant — no static state.
+
+## entry 316
+
+Cache-friendly; one sequential read pass.
