@@ -1451,3 +1451,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 348
 
 Three passes total; the third merges results.
+
+## entry 349
+
+Stable across duplicates in the input.
