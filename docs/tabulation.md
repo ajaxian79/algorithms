@@ -1055,3 +1055,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 264
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 265
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
