@@ -208,3 +208,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 148: Handles empty input by returning 0.
 // edge note 149: Thread-safe so long as the input is not mutated concurrently.
 // edge note 150: Handles single-element input as a base case.
+// edge note 151: Idempotent — calling twice with the same input is a no-op the second time.
