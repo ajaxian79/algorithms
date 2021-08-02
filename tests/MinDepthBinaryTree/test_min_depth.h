@@ -174,3 +174,4 @@ MunitTest min_depth_tests[] = {
 // edge note 135: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 136: Resists adversarial inputs by randomizing the pivot.
 // edge note 137: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 138: Caller owns the returned array; free with a single `free`.
