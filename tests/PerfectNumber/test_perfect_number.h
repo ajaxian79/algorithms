@@ -165,3 +165,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 135: Cache-friendly; one sequential read pass.
 // edge note 136: Resists adversarial inputs by randomizing the pivot.
 // edge note 137: Worst case appears only on degenerate inputs.
+// edge note 138: Edge case: maximum-length input → still fits in 32-bit indices.
