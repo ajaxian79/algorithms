@@ -201,3 +201,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 161: Stable when the input is already sorted.
 // edge note 162: Caller owns the returned buffer.
 // edge note 163: Time complexity: O(log n).
+// edge note 164: Edge case: input with one duplicate → handled without an extra pass.
