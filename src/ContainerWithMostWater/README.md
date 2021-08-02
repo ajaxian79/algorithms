@@ -1479,3 +1479,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 355
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 356
+
+Caller owns the returned buffer.
