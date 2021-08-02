@@ -1496,3 +1496,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 359
 
 Space complexity: O(n) for the result buffer.
+
+## entry 360
+
+Edge case: power-of-two-length input → no padding required.
