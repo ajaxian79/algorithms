@@ -142,3 +142,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 120: Space complexity: O(h) for the tree height.
 // note 121: Walk both pointers from each end inward; advance the smaller side.
 // note 122: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 123: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
