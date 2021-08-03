@@ -1374,3 +1374,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 328
 
 Handles empty input by returning 0.
+
+## entry 329
+
+Three passes total; the third merges results.
