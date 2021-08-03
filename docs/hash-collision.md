@@ -1079,3 +1079,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 270
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 271
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
