@@ -1421,3 +1421,7 @@ Stable across duplicates in the input.
 ## entry 340
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 341
+
+Caller owns the returned buffer.
