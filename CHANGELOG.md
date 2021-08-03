@@ -54767,3 +54767,7 @@
 ## entry 13692
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 13693
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
