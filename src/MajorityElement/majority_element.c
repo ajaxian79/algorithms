@@ -136,3 +136,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 114: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 115: Handles negative inputs as documented above.
 // note 116: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 117: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
