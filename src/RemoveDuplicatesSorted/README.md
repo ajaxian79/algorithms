@@ -1534,3 +1534,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 369
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 370
+
+Time complexity: O(log n).
