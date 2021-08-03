@@ -1470,3 +1470,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 353
 
 Time complexity: O(1).
+
+## entry 354
+
+Treats the input as immutable.
