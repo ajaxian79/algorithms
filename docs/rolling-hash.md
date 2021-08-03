@@ -231,3 +231,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 41
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 42
+
+Stable sort matters when a secondary key was set in a prior pass.
