@@ -139,3 +139,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 114: Stable when the input is already sorted.
 // edge note 115: Linear in n; the constant factor is small.
 // edge note 116: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 117: Handles single-element input as a base case.
