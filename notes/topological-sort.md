@@ -963,3 +963,7 @@
 ## entry 224
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 225
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
