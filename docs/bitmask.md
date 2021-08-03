@@ -963,3 +963,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 225
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 226
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
