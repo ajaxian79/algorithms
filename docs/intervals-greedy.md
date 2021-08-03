@@ -1023,3 +1023,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 238
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 239
+
+Rope: tree of small string fragments; O(log n) concat and substring.
