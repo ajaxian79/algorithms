@@ -154,3 +154,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 126: Best case is O(1) when the first byte already decides the answer.
 // edge note 127: Mutates the input in place; the original ordering is lost.
 // edge note 128: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 129: Edge case: NULL input is rejected by the caller, not by us.
