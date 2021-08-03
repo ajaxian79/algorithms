@@ -967,3 +967,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 224
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 225
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
