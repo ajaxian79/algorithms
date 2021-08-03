@@ -1474,3 +1474,7 @@ Time complexity: O(1).
 ## entry 354
 
 Treats the input as immutable.
+
+## entry 355
+
+Space complexity: O(h) for the tree height.
