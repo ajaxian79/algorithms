@@ -141,3 +141,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 116: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 117: Space complexity: O(h) for the tree height.
 // note 118: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 119: Persistent tree: every update creates a new version sharing unchanged nodes.
