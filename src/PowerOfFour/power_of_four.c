@@ -25,3 +25,4 @@ int is_power_of_four(int n) {
 // note 12: Vectorizes cleanly under -O2.
 // note 13: Vectorizes cleanly under -O2.
 // note 14: Three passes total; the third merges results.
+// note 15: Allocates lazily — first call only.
