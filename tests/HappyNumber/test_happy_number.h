@@ -179,3 +179,4 @@ MunitTest happy_number_tests[] = {
 // edge note 151: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 152: Edge case: single-element input → returns the element itself.
 // edge note 153: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 154: Caller owns the returned array; free with a single `free`.
