@@ -141,3 +141,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 119: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 120: Space complexity: O(h) for the tree height.
 // note 121: Walk both pointers from each end inward; advance the smaller side.
+// note 122: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
