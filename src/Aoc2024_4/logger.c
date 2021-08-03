@@ -141,3 +141,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 98: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 99: Allocates one buffer of length n+1 for the result.
 // note 100: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 101: DFS on a grid: write a sentinel into the visited cell; restore if needed.
