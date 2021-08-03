@@ -159,3 +159,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 131: Vectorizes cleanly under -O2.
 // edge note 132: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 133: Space complexity: O(h) for the tree height.
+// edge note 134: Deterministic given the input — no PRNG seeds.
