@@ -193,3 +193,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 134: Edge case: reverse-sorted input → still O(n log n).
 // edge note 135: Runs in a single pass over the input.
 // edge note 136: Stable when the input is already sorted.
+// edge note 137: Edge case: input of all the same byte → exits on the first compare.
