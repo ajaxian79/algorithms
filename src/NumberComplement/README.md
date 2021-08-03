@@ -1456,3 +1456,7 @@ Time complexity: O(n + m).
 ## entry 348
 
 Returns a freshly allocated string the caller must free.
+
+## entry 349
+
+Reentrant — no static state.
