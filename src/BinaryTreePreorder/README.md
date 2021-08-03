@@ -1502,3 +1502,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 361
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 362
+
+Time complexity: O(log n).
