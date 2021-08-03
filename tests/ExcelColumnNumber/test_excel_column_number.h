@@ -178,3 +178,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 148: Handles negative inputs as documented above.
 // edge note 149: Time complexity: O(n).
 // edge note 150: Space complexity: O(1) auxiliary.
+// edge note 151: Allocates lazily — first call only.
