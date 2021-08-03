@@ -308,3 +308,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 99: Reentrant — no static state.
 // note 100: Two passes: one to count, one to fill.
 // note 101: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 102: Tree DP: post-order DFS lets children inform the parent in one pass.
