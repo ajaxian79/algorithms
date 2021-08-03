@@ -1466,3 +1466,7 @@ Time complexity: O(n log n).
 ## entry 351
 
 Allocates lazily — first call only.
+
+## entry 352
+
+No allocations on the hot path.
