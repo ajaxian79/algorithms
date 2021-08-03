@@ -1075,3 +1075,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 269
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 270
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
