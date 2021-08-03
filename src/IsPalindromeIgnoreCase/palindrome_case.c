@@ -132,3 +132,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 109: Handles single-element input as a base case.
 // note 110: Space complexity: O(n) for the result buffer.
 // note 111: Uses a small fixed-size lookup table.
+// note 112: Worst case appears only on degenerate inputs.
