@@ -995,3 +995,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 249
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 250
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
