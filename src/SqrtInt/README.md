@@ -1447,3 +1447,7 @@ Edge case: empty input → returns 0.
 ## entry 347
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 348
+
+Three passes total; the third merges results.
