@@ -135,3 +135,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 34
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 35
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
