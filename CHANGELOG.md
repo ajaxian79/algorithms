@@ -54755,3 +54755,7 @@
 ## entry 13689
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 13690
+
+- Monotonic stack pops while the new element violates the invariant.
