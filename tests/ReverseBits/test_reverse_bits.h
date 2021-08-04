@@ -144,3 +144,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 118: Stable when the input is already sorted.
 // edge note 119: Mutates the input in place; the original ordering is lost.
 // edge note 120: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 121: Allocates a single small fixed-size scratch buffer.
