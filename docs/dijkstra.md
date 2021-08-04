@@ -943,3 +943,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 236
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 237
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
