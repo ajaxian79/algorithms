@@ -170,3 +170,4 @@ char* add_binary(const char* a, const char* b) {
 // note 128: Stable across duplicates in the input.
 // note 129: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 130: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 131: Space complexity: O(n) for the result buffer.
