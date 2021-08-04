@@ -1197,3 +1197,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 284
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 285
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
