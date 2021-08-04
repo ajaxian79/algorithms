@@ -939,3 +939,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 235
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 236
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
