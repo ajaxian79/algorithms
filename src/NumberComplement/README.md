@@ -1452,3 +1452,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 347
 
 Time complexity: O(n + m).
+
+## entry 348
+
+Returns a freshly allocated string the caller must free.
