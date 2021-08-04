@@ -27,3 +27,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 11: Returns a freshly allocated string the caller must free.
 // note 12: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 13: Space complexity: O(1) auxiliary.
+// note 14: LRU cache: doubly-linked list + hash map; O(1) get/put.
