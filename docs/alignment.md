@@ -983,3 +983,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 246
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 247
+
+LIS via patience: each pile holds the smallest tail of length k.
