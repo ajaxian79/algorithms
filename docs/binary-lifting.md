@@ -171,3 +171,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 43
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 44
+
+Endianness matters when serializing multi-byte ints to a file or wire.
