@@ -999,3 +999,7 @@
 ## entry 233
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 234
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
