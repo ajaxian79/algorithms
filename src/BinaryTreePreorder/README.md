@@ -282,3 +282,7 @@ Two passes: one to count, one to fill.
 ## entry 56
 
 Cache-friendly; one sequential read pass.
+
+## entry 57
+
+Allocates one buffer of length n+1 for the result.
