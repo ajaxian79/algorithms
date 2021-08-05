@@ -1472,3 +1472,7 @@ Reentrant — no static state.
 ## entry 353
 
 Edge case: empty input → returns 0.
+
+## entry 354
+
+Edge case: alternating pattern → degenerate case for sliding window.
