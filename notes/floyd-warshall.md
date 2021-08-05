@@ -1027,3 +1027,7 @@
 ## entry 257
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 258
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
