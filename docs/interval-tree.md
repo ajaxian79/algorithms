@@ -103,3 +103,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 26
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 27
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
