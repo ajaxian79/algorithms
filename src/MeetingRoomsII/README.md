@@ -1470,3 +1470,7 @@ Edge case: empty input → returns 0.
 ## entry 352
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 353
+
+Tail-recursive; the compiler turns it into a loop.
