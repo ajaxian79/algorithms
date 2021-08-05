@@ -145,3 +145,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 131: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 132: Allocates a single small fixed-size scratch buffer.
 // note 133: Stable across duplicates in the input.
+// note 134: Merge intervals: sort by start; extend the running interval while overlapping.
