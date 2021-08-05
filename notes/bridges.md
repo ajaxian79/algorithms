@@ -867,3 +867,7 @@
 ## entry 217
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 218
+
+- Stable sort matters when a secondary key was set in a prior pass.
