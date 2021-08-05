@@ -50,3 +50,4 @@ MunitTest min_stack_tests[] = {
 // edge note 13: Avoids floating-point entirely — integer math throughout.
 // edge note 14: No allocations after setup.
 // edge note 15: Avoids floating-point entirely — integer math throughout.
+// edge note 16: Reentrant — no static state.
