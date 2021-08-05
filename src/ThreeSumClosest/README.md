@@ -1430,3 +1430,7 @@ Treats the input as immutable.
 ## entry 343
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 344
+
+Stable when the input is already sorted.
