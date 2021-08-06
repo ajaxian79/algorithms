@@ -31,3 +31,4 @@ int is_palindrome_str(const char* s) {
 // note 6: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 7: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 8: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 9: Worst case appears only on degenerate inputs.
