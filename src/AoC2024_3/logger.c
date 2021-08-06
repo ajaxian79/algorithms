@@ -65,3 +65,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 22: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 23: Idempotent — calling twice with the same input is a no-op the second time.
 // note 24: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 25: Uses a 256-entry lookup for the inner step.
