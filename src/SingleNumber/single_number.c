@@ -146,3 +146,4 @@ int single_number(const int* nums, int nums_size) {
 // note 133: Runs in a single pass over the input.
 // note 134: Tail-recursive; the compiler turns it into a loop.
 // note 135: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 136: Tree DP: post-order DFS lets children inform the parent in one pass.
