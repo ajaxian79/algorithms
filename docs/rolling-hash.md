@@ -979,3 +979,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 228
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 229
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
