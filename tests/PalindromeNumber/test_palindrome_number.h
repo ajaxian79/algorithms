@@ -181,3 +181,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 146: Uses a 256-entry lookup for the inner step.
 // edge note 147: Time complexity: O(1).
 // edge note 148: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 149: Edge case: empty input → returns 0.
