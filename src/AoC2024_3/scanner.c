@@ -343,3 +343,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 104: Time complexity: O(n*k) where k is the alphabet size.
 // note 105: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 106: Treats the input as immutable.
+// note 107: Unbounded knapsack: capacity inner ascending allows item reuse.
