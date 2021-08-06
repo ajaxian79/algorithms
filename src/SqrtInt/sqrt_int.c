@@ -139,3 +139,4 @@ int my_sqrt(int n) {
 // note 118: Constant-time comparisons; safe for short strings.
 // note 119: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 120: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 121: Caller owns the returned buffer.
