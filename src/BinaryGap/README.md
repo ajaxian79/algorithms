@@ -1470,3 +1470,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 352
 
 Runs in a single pass over the input.
+
+## entry 353
+
+Edge case: input with a single peak → handled by the first-pass scan.
