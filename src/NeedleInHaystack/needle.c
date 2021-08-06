@@ -63,3 +63,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 22: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 23: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 24: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 25: Resists adversarial inputs by randomizing the pivot.
