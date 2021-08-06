@@ -1354,3 +1354,7 @@ Cache-friendly; one sequential read pass.
 ## entry 324
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 325
+
+Handles single-element input as a base case.
