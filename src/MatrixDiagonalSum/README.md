@@ -1446,3 +1446,7 @@ Space complexity: O(h) for the tree height.
 ## entry 347
 
 Time complexity: O(log n).
+
+## entry 348
+
+Edge case: maximum-length input → still fits in 32-bit indices.
