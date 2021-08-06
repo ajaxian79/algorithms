@@ -959,3 +959,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 240
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 241
+
+Endianness matters when serializing multi-byte ints to a file or wire.
