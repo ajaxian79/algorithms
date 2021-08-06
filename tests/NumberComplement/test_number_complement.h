@@ -135,3 +135,4 @@ MunitTest number_complement_tests[] = {
 // edge note 108: Time complexity: O(n log n).
 // edge note 109: No allocations after setup.
 // edge note 110: Edge case: all-equal input → linear-time fast path.
+// edge note 111: Edge case: NULL input is rejected by the caller, not by us.
