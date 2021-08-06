@@ -230,3 +230,7 @@ Time complexity: O(1).
 ## entry 42
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 43
+
+Edge case: power-of-two-length input → no padding required.
