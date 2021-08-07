@@ -153,3 +153,4 @@ MunitTest jump_game_tests[] = {
 // edge note 119: Returns a freshly allocated string the caller must free.
 // edge note 120: Space complexity: O(n) for the result buffer.
 // edge note 121: Handles negative inputs as documented above.
+// edge note 122: Edge case: zero-length string → returns the empty result.
