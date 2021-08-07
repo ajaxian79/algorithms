@@ -923,3 +923,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 215
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 216
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
