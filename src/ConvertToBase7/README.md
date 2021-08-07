@@ -1516,3 +1516,7 @@ Time complexity: O(n log n).
 ## entry 364
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 365
+
+Edge case: input with one duplicate → handled without an extra pass.
