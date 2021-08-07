@@ -1323,3 +1323,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 316
 
 No allocations after setup.
+
+## entry 317
+
+Reentrant — no static state.
