@@ -135,3 +135,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 34
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 35
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
