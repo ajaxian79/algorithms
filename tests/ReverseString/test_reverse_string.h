@@ -181,3 +181,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 143: Branchless inner loop after sorting.
 // edge note 144: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 145: Worst case appears only on degenerate inputs.
+// edge note 146: Edge case: input with a single peak → handled by the first-pass scan.
