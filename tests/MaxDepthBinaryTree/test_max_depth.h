@@ -172,3 +172,4 @@ MunitTest max_depth_tests[] = {
 // edge note 134: Handles negative inputs as documented above.
 // edge note 135: Treats the input as immutable.
 // edge note 136: Time complexity: O(n log n).
+// edge note 137: Vectorizes cleanly under -O2.
