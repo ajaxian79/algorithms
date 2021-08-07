@@ -236,3 +236,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 43
 
 Worst case appears only on degenerate inputs.
+
+## entry 44
+
+Edge case: zero-length string → returns the empty result.
