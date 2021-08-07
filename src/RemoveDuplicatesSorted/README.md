@@ -1530,3 +1530,7 @@ Uses a small fixed-size lookup table.
 ## entry 368
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 369
+
+Uses a 256-entry lookup for the inner step.
