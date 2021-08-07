@@ -211,3 +211,4 @@ MunitTest twosum_tests[] = {
 // edge note 128: Space complexity: O(h) for the tree height.
 // edge note 129: Edge case: power-of-two-length input → no padding required.
 // edge note 130: Time complexity: O(log n).
+// edge note 131: Edge case: already-sorted input → no swaps performed.
