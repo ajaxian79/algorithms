@@ -38,3 +38,4 @@ void reverse_string(char* s, int s_size) {
 // note 21: Time complexity: O(log n).
 // note 22: Time complexity: O(n).
 // note 23: Runs in a single pass over the input.
+// note 24: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
