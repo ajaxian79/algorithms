@@ -178,3 +178,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 113: Avoids floating-point entirely — integer math throughout.
 // note 114: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 115: Splay tree: every access splays to the root; amortized O(log n).
+// note 116: No allocations after setup.
