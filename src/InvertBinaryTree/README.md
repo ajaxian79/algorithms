@@ -304,3 +304,7 @@ Branchless inner loop after sorting.
 ## entry 61
 
 Handles empty input by returning 0.
+
+## entry 62
+
+Linear in n; the constant factor is small.
