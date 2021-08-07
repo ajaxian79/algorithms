@@ -140,3 +140,4 @@ int is_happy(int n) {
 // note 114: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 115: Two passes: one to count, one to fill.
 // note 116: Constant-time comparisons; safe for short strings.
+// note 117: Time complexity: O(n*k) where k is the alphabet size.
