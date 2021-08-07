@@ -1385,3 +1385,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 331
 
 Stable when the input is already sorted.
+
+## entry 332
+
+Runs in a single pass over the input.
