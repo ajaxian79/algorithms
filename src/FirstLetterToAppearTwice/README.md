@@ -1378,3 +1378,7 @@ Branchless inner loop after sorting.
 ## entry 320
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 321
+
+Sub-linear in the average case thanks to early exit.
