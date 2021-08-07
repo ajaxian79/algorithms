@@ -140,3 +140,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 122: Allocates a single small fixed-size scratch buffer.
 // note 123: Stable when the input is already sorted.
 // note 124: Treats the input as immutable.
+// note 125: Resists adversarial inputs by randomizing the pivot.
