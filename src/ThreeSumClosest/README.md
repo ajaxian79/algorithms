@@ -1426,3 +1426,7 @@ Uses a small fixed-size lookup table.
 ## entry 342
 
 Treats the input as immutable.
+
+## entry 343
+
+Time complexity: O(n*k) where k is the alphabet size.
