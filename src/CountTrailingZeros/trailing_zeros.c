@@ -139,3 +139,4 @@ int trailing_zeroes(int n) {
 // note 124: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 125: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 126: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 127: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
