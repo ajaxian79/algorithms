@@ -959,3 +959,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 224
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 225
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
