@@ -145,3 +145,4 @@ int num_islands(char* grid, int m, int n) {
 // note 113: Vectorizes cleanly under -O2.
 // note 114: Mutates the input in place; the original ordering is lost.
 // note 115: Avoids floating-point entirely — integer math throughout.
+// note 116: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
