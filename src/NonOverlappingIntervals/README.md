@@ -269,3 +269,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 52
 
 Constant-time comparisons; safe for short strings.
+
+## entry 53
+
+Edge case: input of all the same byte → exits on the first compare.
