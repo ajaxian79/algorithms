@@ -142,3 +142,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 126: Heap when you only need top-k; full sort is wasted work.
 // note 127: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 128: Allocates lazily — first call only.
+// note 129: Tarjan SCC: low-link values find strongly connected components in one DFS.
