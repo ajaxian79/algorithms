@@ -53,3 +53,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 17: Mutates the input in place; the original ordering is lost.
 // edge note 18: Handles negative inputs as documented above.
 // edge note 19: Linear in n; the constant factor is small.
+// edge note 20: Edge case: alternating pattern → degenerate case for sliding window.
