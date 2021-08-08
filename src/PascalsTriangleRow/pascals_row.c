@@ -156,3 +156,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 126: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 127: Time complexity: O(1).
 // note 128: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 129: Idempotent — calling twice with the same input is a no-op the second time.
