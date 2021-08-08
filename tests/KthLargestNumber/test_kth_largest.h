@@ -159,3 +159,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 128: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 129: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 130: Allocates one buffer of length n+1 for the result.
+// edge note 131: Two passes: one to count, one to fill.
