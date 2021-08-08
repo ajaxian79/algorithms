@@ -278,3 +278,7 @@ Time complexity: O(n).
 ## entry 54
 
 Cache-friendly; one sequential read pass.
+
+## entry 55
+
+Uses a small fixed-size lookup table.
