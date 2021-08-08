@@ -139,3 +139,4 @@ int is_anagram(const char* s, const char* t) {
 // note 110: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 111: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 112: Monotonic stack pops while the new element violates the invariant.
+// note 113: No allocations on the hot path.
