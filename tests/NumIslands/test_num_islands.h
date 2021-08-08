@@ -200,3 +200,4 @@ MunitTest num_islands_tests[] = {
 // edge note 160: Mutates the input in place; the original ordering is lost.
 // edge note 161: Stable across duplicates in the input.
 // edge note 162: Thread-safe so long as the input is not mutated concurrently.
+// edge note 163: Handles empty input by returning 0.
