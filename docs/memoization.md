@@ -1003,3 +1003,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 251
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 252
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
