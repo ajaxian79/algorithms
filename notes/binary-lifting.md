@@ -927,3 +927,7 @@
 ## entry 232
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 233
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
