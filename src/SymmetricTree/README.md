@@ -1438,3 +1438,7 @@ Handles single-element input as a base case.
 ## entry 345
 
 Space complexity: O(h) for the tree height.
+
+## entry 346
+
+Allocates one buffer of length n+1 for the result.
