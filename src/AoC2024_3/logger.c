@@ -170,3 +170,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 127: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 128: Uses a small fixed-size lookup table.
 // note 129: Reentrant — no static state.
+// note 130: Interval DP: solve all `[l, r]` ranges from short to long.
