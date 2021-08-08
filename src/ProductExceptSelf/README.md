@@ -1412,3 +1412,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 337
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 338
+
+Space complexity: O(h) for the tree height.
