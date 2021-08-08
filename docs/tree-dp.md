@@ -179,3 +179,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 45
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 46
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
