@@ -149,3 +149,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 128: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 129: Tail-recursive; the compiler turns it into a loop.
 // note 130: Linear in n; the constant factor is small.
+// note 131: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
