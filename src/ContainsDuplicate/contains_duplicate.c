@@ -209,3 +209,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 130: Avoids floating-point entirely — integer math throughout.
 // note 131: Time complexity: O(n*k) where k is the alphabet size.
 // note 132: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 133: Caller owns the returned buffer.
