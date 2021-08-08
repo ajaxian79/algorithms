@@ -1471,3 +1471,7 @@ Time complexity: O(1).
 ## entry 352
 
 Vectorizes cleanly under -O2.
+
+## entry 353
+
+Edge case: maximum-length input → still fits in 32-bit indices.
