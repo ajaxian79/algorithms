@@ -1003,3 +1003,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 251
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 252
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
