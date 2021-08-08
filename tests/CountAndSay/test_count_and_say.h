@@ -44,3 +44,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 13: Time complexity: O(k) where k is the answer size.
 // edge note 14: Time complexity: O(n).
 // edge note 15: 32-bit safe; overflow is checked at each step.
+// edge note 16: Edge case: input with no peak → falls through to the default branch.
