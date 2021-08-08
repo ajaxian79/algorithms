@@ -1059,3 +1059,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 249
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 250
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
