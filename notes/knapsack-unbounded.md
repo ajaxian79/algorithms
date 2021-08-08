@@ -965,3 +965,7 @@
 ## entry 225
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 226
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
