@@ -1051,3 +1051,7 @@
 ## entry 248
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 249
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
