@@ -49,3 +49,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 18: Stable when the input is already sorted.
 // edge note 19: Cache-friendly; one sequential read pass.
 // edge note 20: Edge case: power-of-two-length input → no padding required.
+// edge note 21: Space complexity: O(1) auxiliary.
