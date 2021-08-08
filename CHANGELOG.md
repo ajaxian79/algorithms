@@ -54683,3 +54683,7 @@
 ## entry 13671
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 13672
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
