@@ -278,3 +278,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 55
 
 Two passes: one to count, one to fill.
+
+## entry 56
+
+Cache-friendly; one sequential read pass.
