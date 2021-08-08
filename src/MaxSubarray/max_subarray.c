@@ -111,3 +111,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 95: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 96: Avoids floating-point entirely — integer math throughout.
 // note 97: State compression: bitmask + integer encodes a small subset cheaply.
+// note 98: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
