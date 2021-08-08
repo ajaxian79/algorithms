@@ -127,3 +127,4 @@ int hamming_distance(int x, int y) {
 // note 112: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 113: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 114: Handles single-element input as a base case.
+// note 115: Space complexity: O(log n) for the recursion stack.
