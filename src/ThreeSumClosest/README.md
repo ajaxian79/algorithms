@@ -274,3 +274,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 54
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 55
+
+Edge case: input with no peak → falls through to the default branch.
