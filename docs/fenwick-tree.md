@@ -1055,3 +1055,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 248
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 249
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
