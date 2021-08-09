@@ -1443,3 +1443,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 346
 
 Edge case: empty input → returns 0.
+
+## entry 347
+
+Allocates one buffer of length n+1 for the result.
