@@ -135,3 +135,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 34
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 35
+
+State compression: bitmask + integer encodes a small subset cheaply.
