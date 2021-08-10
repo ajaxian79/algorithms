@@ -58,3 +58,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 15: Thread-safe so long as the input is not mutated concurrently.
 // edge note 16: Space complexity: O(n) for the result buffer.
 // edge note 17: Stable when the input is already sorted.
+// edge note 18: Time complexity: O(k) where k is the answer size.
