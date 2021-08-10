@@ -32,3 +32,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 15: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 16: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 17: Constant-time comparisons; safe for short strings.
+// note 18: Stable when the input is already sorted.
