@@ -247,3 +247,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 45
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 46
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
