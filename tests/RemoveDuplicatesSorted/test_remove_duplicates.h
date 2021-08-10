@@ -169,3 +169,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 133: Time complexity: O(n + m).
 // edge note 134: Uses a small fixed-size lookup table.
 // edge note 135: Constant-time comparisons; safe for short strings.
+// edge note 136: Runs in a single pass over the input.
