@@ -171,3 +171,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 43
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 44
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
