@@ -1366,3 +1366,7 @@ Stable across duplicates in the input.
 ## entry 327
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 328
+
+Worst case appears only on degenerate inputs.
