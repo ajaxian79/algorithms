@@ -155,3 +155,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 114: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 115: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 116: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 117: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
