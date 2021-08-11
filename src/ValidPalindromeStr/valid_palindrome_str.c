@@ -132,3 +132,4 @@ int is_palindrome_str(const char* s) {
 // note 107: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 108: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 109: Sub-linear in the average case thanks to early exit.
+// note 110: Space complexity: O(n) for the result buffer.
