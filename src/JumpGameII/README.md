@@ -1444,3 +1444,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 346
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 347
+
+Linear in n; the constant factor is small.
