@@ -156,3 +156,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 118: Uses a small fixed-size lookup table.
 // note 119: Stable when the input is already sorted.
 // note 120: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 121: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
