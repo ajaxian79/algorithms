@@ -281,3 +281,7 @@ Handles single-element input as a base case.
 ## entry 55
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 56
+
+Stable when the input is already sorted.
