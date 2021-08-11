@@ -1395,3 +1395,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 334
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 335
+
+Time complexity: O(k) where k is the answer size.
