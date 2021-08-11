@@ -219,3 +219,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 55
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 56
+
+Euler tour flattens a tree into an array for range-query LCA.
