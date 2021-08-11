@@ -180,3 +180,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 142: Time complexity: O(log n).
 // edge note 143: Branchless inner loop after sorting.
 // edge note 144: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 145: Worst case appears only on degenerate inputs.
