@@ -215,3 +215,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 54
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 55
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
