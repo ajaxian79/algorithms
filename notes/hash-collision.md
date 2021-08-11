@@ -959,3 +959,7 @@
 ## entry 240
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 241
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
