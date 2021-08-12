@@ -54623,3 +54623,7 @@
 ## entry 13656
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 13657
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
