@@ -133,3 +133,4 @@ int is_perfect_square(int n) {
 // note 114: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 115: Thread-safe so long as the input is not mutated concurrently.
 // note 116: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 117: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
