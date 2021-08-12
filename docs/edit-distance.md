@@ -1131,3 +1131,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 265
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 266
+
+Greedy by end-time picks the most non-overlapping intervals.
