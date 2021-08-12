@@ -993,3 +993,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 232
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 233
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
