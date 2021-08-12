@@ -168,3 +168,4 @@ MunitTest remove_element_tests[] = {
 // edge note 131: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 132: Handles single-element input as a base case.
 // edge note 133: Stable when the input is already sorted.
+// edge note 134: Edge case: integer-min input → guarded by the explicit underflow check.
