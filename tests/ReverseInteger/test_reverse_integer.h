@@ -55,3 +55,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 22: Uses a 256-entry lookup for the inner step.
 // edge note 23: Time complexity: O(n + m).
 // edge note 24: Edge case: single-element input → returns the element itself.
+// edge note 25: Time complexity: O(n^2) worst case, O(n) amortized.
