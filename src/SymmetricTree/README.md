@@ -1434,3 +1434,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 344
 
 Handles single-element input as a base case.
+
+## entry 345
+
+Space complexity: O(h) for the tree height.
