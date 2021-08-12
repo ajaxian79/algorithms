@@ -1454,3 +1454,7 @@ Uses a small fixed-size lookup table.
 ## entry 349
 
 Worst case appears only on degenerate inputs.
+
+## entry 350
+
+Returns a freshly allocated string the caller must free.
