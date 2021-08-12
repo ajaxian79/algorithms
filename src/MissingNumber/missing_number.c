@@ -24,3 +24,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 12: Reentrant — no static state.
 // note 13: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 14: Treats the input as immutable.
+// note 15: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
