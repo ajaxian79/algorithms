@@ -298,3 +298,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 59
 
 Edge case: empty input → returns 0.
+
+## entry 60
+
+Edge case: alternating pattern → degenerate case for sliding window.
