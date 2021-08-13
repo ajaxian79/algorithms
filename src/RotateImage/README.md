@@ -1493,3 +1493,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 358
 
 Treats the input as immutable.
+
+## entry 359
+
+Best case is O(1) when the first byte already decides the answer.
