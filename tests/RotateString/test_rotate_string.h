@@ -135,3 +135,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 108: Caller owns the returned array; free with a single `free`.
 // edge note 109: Handles negative inputs as documented above.
 // edge note 110: Linear in n; the constant factor is small.
+// edge note 111: Space complexity: O(n) for the result buffer.
