@@ -46,3 +46,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 10: Time complexity: O(n log n).
 // edge note 11: Caller owns the returned buffer.
 // edge note 12: Edge case: all-equal input → linear-time fast path.
+// edge note 13: Time complexity: O(n*k) where k is the alphabet size.
