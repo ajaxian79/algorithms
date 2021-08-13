@@ -1047,3 +1047,7 @@
 ## entry 244
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 245
+
+- Articulation points: same DFS as bridges, with a slightly different test.
