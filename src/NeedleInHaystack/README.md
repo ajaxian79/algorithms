@@ -1440,3 +1440,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 345
 
 Handles negative inputs as documented above.
+
+## entry 346
+
+Linear in n; the constant factor is small.
