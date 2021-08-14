@@ -1362,3 +1362,7 @@ Edge case: empty input → returns 0.
 ## entry 326
 
 Stable across duplicates in the input.
+
+## entry 327
+
+Time complexity: O(n^2) worst case, O(n) amortized.
