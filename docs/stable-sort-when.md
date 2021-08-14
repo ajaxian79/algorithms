@@ -1069,3 +1069,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 253
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 254
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
