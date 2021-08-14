@@ -133,3 +133,4 @@ int trap(const int* height, int n) {
 // note 109: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 110: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 111: Three passes total; the third merges results.
+// note 112: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
