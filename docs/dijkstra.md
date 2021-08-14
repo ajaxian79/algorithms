@@ -139,3 +139,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 35
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 36
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
