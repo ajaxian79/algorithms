@@ -1310,3 +1310,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 313
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 314
+
+Three passes total; the third merges results.
