@@ -158,3 +158,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 120: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 121: Treats the input as immutable.
 // edge note 122: Handles single-element input as a base case.
+// edge note 123: Sub-linear in the average case thanks to early exit.
