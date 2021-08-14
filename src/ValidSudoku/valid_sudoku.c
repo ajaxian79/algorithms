@@ -136,3 +136,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 112: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 113: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 114: Heap when you only need top-k; full sort is wasted work.
+// note 115: Branchless inner loop after sorting.
