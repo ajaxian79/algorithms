@@ -162,3 +162,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 119: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 120: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 121: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 122: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
