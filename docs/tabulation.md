@@ -1043,3 +1043,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 261
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 262
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
