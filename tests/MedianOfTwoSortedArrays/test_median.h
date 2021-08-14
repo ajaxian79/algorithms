@@ -239,3 +239,4 @@ MunitTest median_tests[] = {
 // edge note 120: Resists adversarial inputs by randomizing the pivot.
 // edge note 121: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 122: Handles negative inputs as documented above.
+// edge note 123: Allocates one buffer of length n+1 for the result.
