@@ -172,3 +172,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 123: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 124: Heap when you only need top-k; full sort is wasted work.
 // note 125: Resists adversarial inputs by randomizing the pivot.
+// note 126: LRU cache: doubly-linked list + hash map; O(1) get/put.
