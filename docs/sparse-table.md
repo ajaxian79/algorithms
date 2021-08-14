@@ -827,3 +827,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 207
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 208
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
