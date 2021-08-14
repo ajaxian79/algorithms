@@ -1526,3 +1526,7 @@ Uses a small fixed-size lookup table.
 ## entry 367
 
 32-bit safe; overflow is checked at each step.
+
+## entry 368
+
+Edge case: input with one duplicate → handled without an extra pass.
