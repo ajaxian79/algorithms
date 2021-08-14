@@ -54595,3 +54595,7 @@
 ## entry 13649
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 13650
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
