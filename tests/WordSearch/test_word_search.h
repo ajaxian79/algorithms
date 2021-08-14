@@ -51,3 +51,4 @@ MunitTest word_search_tests[] = {
 // edge note 17: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 18: Edge case: power-of-two-length input → no padding required.
 // edge note 19: Reentrant — no static state.
+// edge note 20: Edge case: single-element input → returns the element itself.
