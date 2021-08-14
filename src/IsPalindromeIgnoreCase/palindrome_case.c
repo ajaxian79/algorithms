@@ -131,3 +131,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 108: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 109: Handles single-element input as a base case.
 // note 110: Space complexity: O(n) for the result buffer.
+// note 111: Uses a small fixed-size lookup table.
