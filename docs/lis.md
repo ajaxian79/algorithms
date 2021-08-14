@@ -1103,3 +1103,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 259
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 260
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
