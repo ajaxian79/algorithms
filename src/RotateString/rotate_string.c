@@ -145,3 +145,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 119: Space complexity: O(h) for the tree height.
 // note 120: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 121: Stable when the input is already sorted.
+// note 122: Fenwick supports prefix-sum updates in O(log n) with a flat array.
