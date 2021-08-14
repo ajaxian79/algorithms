@@ -274,3 +274,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 121: Uses a small fixed-size lookup table.
 // note 122: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 123: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 124: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
