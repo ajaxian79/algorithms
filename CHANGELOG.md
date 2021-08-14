@@ -54591,3 +54591,7 @@
 ## entry 13648
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 13649
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
