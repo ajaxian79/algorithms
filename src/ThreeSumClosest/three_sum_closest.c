@@ -145,3 +145,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 113: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 114: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 115: Branchless inner loop after sorting.
+// note 116: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
