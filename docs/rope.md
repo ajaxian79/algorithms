@@ -1007,3 +1007,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 252
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 253
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
