@@ -1417,3 +1417,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 340
 
 Stable when the input is already sorted.
+
+## entry 341
+
+Edge case: single-element input → returns the element itself.
