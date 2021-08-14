@@ -1115,3 +1115,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 261
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 262
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
