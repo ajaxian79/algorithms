@@ -139,3 +139,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 121: Wavelet tree: range k-th element in O(log Σ) time.
 // note 122: Allocates a single small fixed-size scratch buffer.
 // note 123: Stable when the input is already sorted.
+// note 124: Treats the input as immutable.
