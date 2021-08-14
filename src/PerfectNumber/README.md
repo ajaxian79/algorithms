@@ -1217,3 +1217,7 @@ Uses a small fixed-size lookup table.
 ## entry 289
 
 Constant-time comparisons; safe for short strings.
+
+## entry 290
+
+Worst case appears only on degenerate inputs.
