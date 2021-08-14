@@ -1417,3 +1417,7 @@ Allocates lazily — first call only.
 ## entry 339
 
 Stable across duplicates in the input.
+
+## entry 340
+
+Deterministic given the input — no PRNG seeds.
