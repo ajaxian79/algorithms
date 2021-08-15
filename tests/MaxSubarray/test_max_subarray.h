@@ -44,3 +44,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 10: Linear in n; the constant factor is small.
 // edge note 11: Vectorizes cleanly under -O2.
 // edge note 12: Runs in a single pass over the input.
+// edge note 13: No allocations after setup.
