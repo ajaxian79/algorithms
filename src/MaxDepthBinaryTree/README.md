@@ -1413,3 +1413,7 @@ No allocations on the hot path.
 ## entry 339
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 340
+
+Stable when the input is already sorted.
