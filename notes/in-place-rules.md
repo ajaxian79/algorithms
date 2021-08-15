@@ -207,3 +207,7 @@
 ## entry 36
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 37
+
+- Walk both pointers from each end inward; advance the smaller side.
