@@ -1019,3 +1019,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 237
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 238
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
