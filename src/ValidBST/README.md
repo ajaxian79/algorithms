@@ -1409,3 +1409,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 337
 
 No allocations on the hot path.
+
+## entry 338
+
+Time complexity: O(1).
