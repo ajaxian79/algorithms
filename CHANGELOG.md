@@ -7687,3 +7687,7 @@
 ## entry 1922
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 1923
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
