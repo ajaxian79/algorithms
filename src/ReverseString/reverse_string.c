@@ -156,3 +156,4 @@ void reverse_string(char* s, int s_size) {
 // note 139: Vectorizes cleanly under -O2.
 // note 140: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 141: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 142: Graph DP on DAGs: topological order makes the dependency direction explicit.
