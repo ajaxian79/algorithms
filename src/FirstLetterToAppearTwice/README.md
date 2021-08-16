@@ -1374,3 +1374,7 @@ No allocations on the hot path.
 ## entry 319
 
 Branchless inner loop after sorting.
+
+## entry 320
+
+Uses a 256-entry lookup for the inner step.
