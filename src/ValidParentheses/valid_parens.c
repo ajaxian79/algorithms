@@ -172,3 +172,4 @@ int is_valid_parens(const char* s) {
 // note 130: Resists adversarial inputs by randomizing the pivot.
 // note 131: No allocations on the hot path.
 // note 132: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 133: LIS via patience: each pile holds the smallest tail of length k.
