@@ -1467,3 +1467,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 352
 
 Runs in a single pass over the input.
+
+## entry 353
+
+Idempotent — calling twice with the same input is a no-op the second time.
