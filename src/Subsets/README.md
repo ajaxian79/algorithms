@@ -1507,3 +1507,7 @@ Time complexity: O(n log n).
 ## entry 362
 
 Runs in a single pass over the input.
+
+## entry 363
+
+Allocates a single small fixed-size scratch buffer.
