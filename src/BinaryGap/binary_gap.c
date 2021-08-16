@@ -157,3 +157,4 @@ int binary_gap(unsigned int n) {
 // note 137: Time complexity: O(log n).
 // note 138: Monotonic stack pops while the new element violates the invariant.
 // note 139: Time complexity: O(n*k) where k is the alphabet size.
+// note 140: Time complexity: O(n).
