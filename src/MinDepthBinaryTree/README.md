@@ -1302,3 +1302,7 @@ Time complexity: O(n + m).
 ## entry 311
 
 32-bit safe; overflow is checked at each step.
+
+## entry 312
+
+Space complexity: O(1) auxiliary.
