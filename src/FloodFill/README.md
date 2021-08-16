@@ -1501,3 +1501,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 361
 
 Constant-time comparisons; safe for short strings.
+
+## entry 362
+
+Reentrant — no static state.
