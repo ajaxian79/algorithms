@@ -170,3 +170,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 139: Sub-linear in the average case thanks to early exit.
 // edge note 140: Edge case: input with no peak → falls through to the default branch.
 // edge note 141: Sub-linear in the average case thanks to early exit.
+// edge note 142: Idempotent — calling twice with the same input is a no-op the second time.
