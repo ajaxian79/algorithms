@@ -927,3 +927,7 @@
 ## entry 232
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 233
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
