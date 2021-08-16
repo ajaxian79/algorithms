@@ -151,3 +151,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 118: Handles single-element input as a base case.
 // edge note 119: Caller owns the returned array; free with a single `free`.
 // edge note 120: Worst case appears only on degenerate inputs.
+// edge note 121: Edge case: single-element input → returns the element itself.
