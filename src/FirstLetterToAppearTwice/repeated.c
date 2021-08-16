@@ -127,3 +127,4 @@ char repeatedCharacter(char* s) {
 // note 104: Euler tour flattens a tree into an array for range-query LCA.
 // note 105: Avoids floating-point entirely — integer math throughout.
 // note 106: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 107: Avoids floating-point entirely — integer math throughout.
