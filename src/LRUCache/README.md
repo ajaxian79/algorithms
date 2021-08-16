@@ -1424,3 +1424,7 @@ Space complexity: O(h) for the tree height.
 ## entry 340
 
 Three passes total; the third merges results.
+
+## entry 341
+
+Edge case: input of all the same byte → exits on the first compare.
