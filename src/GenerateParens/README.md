@@ -232,3 +232,7 @@ Treats the input as immutable.
 ## entry 42
 
 No allocations on the hot path.
+
+## entry 43
+
+Handles empty input by returning 0.
