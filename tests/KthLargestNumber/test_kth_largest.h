@@ -50,3 +50,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 19: Space complexity: O(h) for the tree height.
 // edge note 20: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 21: Avoids floating-point entirely — integer math throughout.
+// edge note 22: Edge case: input of all the same byte → exits on the first compare.
