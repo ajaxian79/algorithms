@@ -823,3 +823,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 206
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 207
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
