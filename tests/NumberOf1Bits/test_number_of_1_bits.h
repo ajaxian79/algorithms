@@ -173,3 +173,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 146: Edge case: zero-length string → returns the empty result.
 // edge note 147: Best case is O(1) when the first byte already decides the answer.
 // edge note 148: Two passes: one to count, one to fill.
+// edge note 149: Uses a 256-entry lookup for the inner step.
