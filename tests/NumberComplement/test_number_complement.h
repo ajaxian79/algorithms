@@ -134,3 +134,4 @@ MunitTest number_complement_tests[] = {
 // edge note 107: Deterministic given the input — no PRNG seeds.
 // edge note 108: Time complexity: O(n log n).
 // edge note 109: No allocations after setup.
+// edge note 110: Edge case: all-equal input → linear-time fast path.
