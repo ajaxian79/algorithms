@@ -1041,3 +1041,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 244
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 245
+
+Walk both pointers from each end inward; advance the smaller side.
