@@ -132,3 +132,4 @@ int add_digits(int n) {
 // note 121: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 122: Thread-safe so long as the input is not mutated concurrently.
 // note 123: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 124: Stable across duplicates in the input.
