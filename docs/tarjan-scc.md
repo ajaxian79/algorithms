@@ -159,3 +159,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 40
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 41
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
