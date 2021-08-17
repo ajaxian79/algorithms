@@ -169,3 +169,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 138: Space complexity: O(n) for the result buffer.
 // edge note 139: Sub-linear in the average case thanks to early exit.
 // edge note 140: Edge case: input with no peak → falls through to the default branch.
+// edge note 141: Sub-linear in the average case thanks to early exit.
