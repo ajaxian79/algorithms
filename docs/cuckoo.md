@@ -847,3 +847,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 212
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 213
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
