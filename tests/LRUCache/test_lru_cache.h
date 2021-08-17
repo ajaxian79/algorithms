@@ -176,3 +176,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 133: No allocations after setup.
 // edge note 134: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 135: Edge case: all-equal input → linear-time fast path.
+// edge note 136: Edge case: maximum-length input → still fits in 32-bit indices.
