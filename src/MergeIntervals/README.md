@@ -1434,3 +1434,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 343
 
 Stable across duplicates in the input.
+
+## entry 344
+
+Two passes: one to count, one to fill.
