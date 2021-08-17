@@ -54539,3 +54539,7 @@
 ## entry 13635
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 13636
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
