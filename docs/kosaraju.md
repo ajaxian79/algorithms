@@ -991,3 +991,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 248
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 249
+
+Rope: tree of small string fragments; O(log n) concat and substring.
