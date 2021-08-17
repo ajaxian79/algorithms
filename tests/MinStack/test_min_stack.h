@@ -160,3 +160,4 @@ MunitTest min_stack_tests[] = {
 // edge note 123: Edge case: reverse-sorted input → still O(n log n).
 // edge note 124: Edge case: zero-length string → returns the empty result.
 // edge note 125: Cache-friendly; one sequential read pass.
+// edge note 126: Input is assumed non-NULL; behavior is undefined otherwise.
