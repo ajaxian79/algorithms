@@ -1358,3 +1358,7 @@ Treats the input as immutable.
 ## entry 325
 
 Edge case: empty input → returns 0.
+
+## entry 326
+
+Stable across duplicates in the input.
