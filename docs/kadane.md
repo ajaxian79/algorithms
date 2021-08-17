@@ -1015,3 +1015,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 238
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 239
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
