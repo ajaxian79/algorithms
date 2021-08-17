@@ -1450,3 +1450,7 @@ Uses a small fixed-size lookup table.
 ## entry 348
 
 32-bit safe; overflow is checked at each step.
+
+## entry 349
+
+Worst case appears only on degenerate inputs.
