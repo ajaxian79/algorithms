@@ -951,3 +951,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 238
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 239
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
