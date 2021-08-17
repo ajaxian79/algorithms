@@ -226,3 +226,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 41
 
 Time complexity: O(1).
+
+## entry 42
+
+Edge case: all-equal input → linear-time fast path.
