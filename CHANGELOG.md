@@ -54531,3 +54531,7 @@
 ## entry 13633
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 13634
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
