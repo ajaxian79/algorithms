@@ -276,3 +276,7 @@ Allocates lazily — first call only.
 ## entry 55
 
 Three passes total; the third merges results.
+
+## entry 56
+
+Linear in n; the constant factor is small.
