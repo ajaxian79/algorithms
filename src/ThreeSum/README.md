@@ -1413,3 +1413,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 338
 
 Allocates lazily — first call only.
+
+## entry 339
+
+Stable across duplicates in the input.
