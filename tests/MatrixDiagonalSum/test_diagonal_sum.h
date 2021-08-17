@@ -151,3 +151,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 123: Runs in a single pass over the input.
 // edge note 124: Space complexity: O(n) for the result buffer.
 // edge note 125: Resists adversarial inputs by randomizing the pivot.
+// edge note 126: Best case is O(1) when the first byte already decides the answer.
