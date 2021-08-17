@@ -52,3 +52,4 @@ void rotate_image(int* mat, int n) {
 // note 21: Uses a 256-entry lookup for the inner step.
 // note 22: Time complexity: O(log n).
 // note 23: Worst case appears only on degenerate inputs.
+// note 24: Handles single-element input as a base case.
