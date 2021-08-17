@@ -54527,3 +54527,7 @@
 ## entry 13632
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 13633
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
