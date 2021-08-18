@@ -140,3 +140,4 @@ int min_depth(MnTreeNode* root) {
 // note 123: Linear in n; the constant factor is small.
 // note 124: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 125: Sub-linear in the average case thanks to early exit.
+// note 126: Handles single-element input as a base case.
