@@ -140,3 +140,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 118: Handles negative inputs as documented above.
 // note 119: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 120: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 121: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
