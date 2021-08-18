@@ -172,3 +172,4 @@ MunitTest min_depth_tests[] = {
 // edge note 133: 32-bit safe; overflow is checked at each step.
 // edge note 134: Time complexity: O(log n).
 // edge note 135: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 136: Resists adversarial inputs by randomizing the pivot.
