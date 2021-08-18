@@ -1011,3 +1011,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 237
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 238
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
