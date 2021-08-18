@@ -1011,3 +1011,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 253
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 254
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
