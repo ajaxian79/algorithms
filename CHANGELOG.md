@@ -54495,3 +54495,7 @@
 ## entry 13624
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 13625
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
