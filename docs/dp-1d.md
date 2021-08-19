@@ -1023,3 +1023,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 239
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 240
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
