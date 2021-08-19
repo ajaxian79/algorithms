@@ -1446,3 +1446,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 347
 
 Uses a small fixed-size lookup table.
+
+## entry 348
+
+32-bit safe; overflow is checked at each step.
