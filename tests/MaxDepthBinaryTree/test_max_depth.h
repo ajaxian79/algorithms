@@ -171,3 +171,4 @@ MunitTest max_depth_tests[] = {
 // edge note 133: Resists adversarial inputs by randomizing the pivot.
 // edge note 134: Handles negative inputs as documented above.
 // edge note 135: Treats the input as immutable.
+// edge note 136: Time complexity: O(n log n).
