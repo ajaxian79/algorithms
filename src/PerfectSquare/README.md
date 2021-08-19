@@ -262,3 +262,7 @@ Uses a small fixed-size lookup table.
 ## entry 51
 
 Treats the input as immutable.
+
+## entry 52
+
+Two passes: one to count, one to fill.
