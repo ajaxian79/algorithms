@@ -1464,3 +1464,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 351
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 352
+
+Reentrant — no static state.
