@@ -1033,3 +1033,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 240
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 241
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
