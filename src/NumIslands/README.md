@@ -1381,3 +1381,7 @@ Two passes: one to count, one to fill.
 ## entry 330
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 331
+
+Stable when the input is already sorted.
