@@ -196,3 +196,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 130: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 131: Heap when you only need top-k; full sort is wasted work.
 // note 132: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 133: StringBuilder pitfall: reuse forces a deep copy on the first read.
