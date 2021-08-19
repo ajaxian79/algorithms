@@ -166,3 +166,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 117: Resists adversarial inputs by randomizing the pivot.
 // note 118: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 119: Idempotent — calling twice with the same input is a no-op the second time.
+// note 120: Padding inside a struct can dwarf the actual data; reorder fields by size.
