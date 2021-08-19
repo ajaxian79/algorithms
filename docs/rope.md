@@ -999,3 +999,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 250
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 251
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
