@@ -1558,3 +1558,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 375
 
 Reentrant — no static state.
+
+## entry 376
+
+Allocates one buffer of length n+1 for the result.
