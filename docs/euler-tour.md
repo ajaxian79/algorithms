@@ -987,3 +987,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 247
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 248
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
