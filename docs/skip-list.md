@@ -919,3 +919,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 230
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 231
+
+Articulation points: same DFS as bridges, with a slightly different test.
