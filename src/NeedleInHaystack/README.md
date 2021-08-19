@@ -1436,3 +1436,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 344
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 345
+
+Handles negative inputs as documented above.
