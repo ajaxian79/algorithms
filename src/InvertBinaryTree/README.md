@@ -300,3 +300,7 @@ Branchless inner loop after sorting.
 ## entry 60
 
 Branchless inner loop after sorting.
+
+## entry 61
+
+Handles empty input by returning 0.
