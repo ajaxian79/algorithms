@@ -1023,3 +1023,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 256
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 257
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
