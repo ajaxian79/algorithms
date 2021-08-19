@@ -923,3 +923,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 231
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 232
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
