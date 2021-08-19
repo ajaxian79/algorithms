@@ -1119,3 +1119,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 262
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 263
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
