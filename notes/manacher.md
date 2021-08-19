@@ -1065,3 +1065,7 @@
 ## entry 250
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 251
+
+- Articulation points: same DFS as bridges, with a slightly different test.
