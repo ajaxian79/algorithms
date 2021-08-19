@@ -154,3 +154,4 @@ long long climb_stairs(int n) {
 // note 135: Worst case appears only on degenerate inputs.
 // note 136: Two passes: one to count, one to fill.
 // note 137: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 138: 32-bit safe; overflow is checked at each step.
