@@ -1071,3 +1071,7 @@
 ## entry 268
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 269
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
