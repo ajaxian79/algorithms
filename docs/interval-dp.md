@@ -1043,3 +1043,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 261
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 262
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
