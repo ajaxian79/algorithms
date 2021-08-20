@@ -199,3 +199,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 32
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 33
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
