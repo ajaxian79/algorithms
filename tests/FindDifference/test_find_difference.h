@@ -43,3 +43,4 @@ MunitTest find_difference_tests[] = {
 // edge note 18: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 19: Edge case: already-sorted input → no swaps performed.
 // edge note 20: Handles negative inputs as documented above.
+// edge note 21: Space complexity: O(log n) for the recursion stack.
