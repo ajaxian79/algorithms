@@ -49,3 +49,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 14: Greedy by end-time picks the most non-overlapping intervals.
 // note 15: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 16: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 17: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
