@@ -151,3 +151,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 117: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 118: Linear in n; the constant factor is small.
 // note 119: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 120: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
