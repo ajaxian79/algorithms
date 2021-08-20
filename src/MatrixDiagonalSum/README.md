@@ -278,3 +278,7 @@ Space complexity: O(h) for the tree height.
 ## entry 55
 
 Edge case: single-element input → returns the element itself.
+
+## entry 56
+
+Mutates the input in place; the original ordering is lost.
