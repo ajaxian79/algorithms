@@ -139,3 +139,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 35
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 36
+
+Union-Find with path compression amortizes to near-O(1) per op.
