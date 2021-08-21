@@ -249,3 +249,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 47
 
 Time complexity: O(n).
+
+## entry 48
+
+Reentrant — no static state.
