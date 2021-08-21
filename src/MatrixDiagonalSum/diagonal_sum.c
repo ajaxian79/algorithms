@@ -148,3 +148,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 127: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 128: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 129: Tail-recursive; the compiler turns it into a loop.
+// note 130: Linear in n; the constant factor is small.
