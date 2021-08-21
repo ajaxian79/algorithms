@@ -257,3 +257,7 @@ Time complexity: O(n + m).
 ## entry 49
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 50
+
+Runs in a single pass over the input.
