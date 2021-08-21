@@ -259,3 +259,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 50
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 51
+
+Allocates a single small fixed-size scratch buffer.
