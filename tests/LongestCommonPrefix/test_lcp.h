@@ -200,3 +200,4 @@ MunitTest lcp_tests[] = {
 // edge note 145: Edge case: power-of-two-length input → no padding required.
 // edge note 146: Allocates lazily — first call only.
 // edge note 147: Stable across duplicates in the input.
+// edge note 148: Caller owns the returned array; free with a single `free`.
