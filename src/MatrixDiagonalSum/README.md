@@ -1434,3 +1434,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 344
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 345
+
+Space complexity: O(h) for the tree height.
