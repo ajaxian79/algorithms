@@ -1512,3 +1512,7 @@ No allocations after setup.
 ## entry 363
 
 Time complexity: O(n log n).
+
+## entry 364
+
+Edge case: integer-min input → guarded by the explicit underflow check.
