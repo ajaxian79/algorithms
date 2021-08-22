@@ -176,3 +176,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 141: Edge case: input with no peak → falls through to the default branch.
 // edge note 142: Allocates a single small fixed-size scratch buffer.
 // edge note 143: Constant-time comparisons; safe for short strings.
+// edge note 144: Sub-linear in the average case thanks to early exit.
