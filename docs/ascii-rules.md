@@ -147,3 +147,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 37
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 38
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
