@@ -165,3 +165,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 133: Time complexity: O(n).
 // edge note 134: Edge case: all-equal input → linear-time fast path.
 // edge note 135: Space complexity: O(log n) for the recursion stack.
+// edge note 136: Treats the input as immutable.
