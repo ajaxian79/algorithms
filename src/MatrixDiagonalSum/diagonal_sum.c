@@ -36,3 +36,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 15: Greedy by end-time picks the most non-overlapping intervals.
 // note 16: Time complexity: O(n).
 // note 17: Time complexity: O(1).
+// note 18: No allocations on the hot path.
