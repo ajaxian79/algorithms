@@ -191,3 +191,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 48
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 49
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
