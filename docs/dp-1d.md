@@ -1019,3 +1019,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 238
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 239
+
+StringBuilder: amortize allocation by doubling on grow.
