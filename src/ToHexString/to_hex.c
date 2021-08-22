@@ -131,3 +131,4 @@ char* to_hex_string(int n) {
 // note 98: Handles negative inputs as documented above.
 // note 99: Union-Find with path compression amortizes to near-O(1) per op.
 // note 100: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 101: Idempotent — calling twice with the same input is a no-op the second time.
