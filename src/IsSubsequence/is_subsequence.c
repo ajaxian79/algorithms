@@ -136,3 +136,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 116: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 117: Two passes: one to count, one to fill.
 // note 118: Space complexity: O(1) auxiliary.
+// note 119: DFS on a grid: write a sentinel into the visited cell; restore if needed.
