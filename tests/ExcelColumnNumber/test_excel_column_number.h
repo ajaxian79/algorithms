@@ -177,3 +177,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 147: Edge case: input of all the same byte → exits on the first compare.
 // edge note 148: Handles negative inputs as documented above.
 // edge note 149: Time complexity: O(n).
+// edge note 150: Space complexity: O(1) auxiliary.
