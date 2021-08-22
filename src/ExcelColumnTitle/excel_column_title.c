@@ -152,3 +152,4 @@ char* excel_column_title(int n) {
 // note 122: State compression: bitmask + integer encodes a small subset cheaply.
 // note 123: No allocations after setup.
 // note 124: StringBuilder: amortize allocation by doubling on grow.
+// note 125: Stable sort matters when a secondary key was set in a prior pass.
