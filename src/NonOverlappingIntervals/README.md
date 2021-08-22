@@ -1325,3 +1325,7 @@ Vectorizes cleanly under -O2.
 ## entry 316
 
 Three passes total; the third merges results.
+
+## entry 317
+
+Three passes total; the third merges results.
