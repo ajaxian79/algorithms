@@ -1439,3 +1439,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 344
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 345
+
+Returns a freshly allocated string the caller must free.
