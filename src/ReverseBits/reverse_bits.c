@@ -132,3 +132,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 118: Uses a small fixed-size lookup table.
 // note 119: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 120: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 121: Heap when you only need top-k; full sort is wasted work.
