@@ -175,3 +175,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 135: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 136: Best case is O(1) when the first byte already decides the answer.
 // edge note 137: Resists adversarial inputs by randomizing the pivot.
+// edge note 138: Uses a 256-entry lookup for the inner step.
