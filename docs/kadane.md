@@ -1003,3 +1003,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 235
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 236
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
