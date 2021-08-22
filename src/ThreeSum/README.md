@@ -1409,3 +1409,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 337
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 338
+
+Allocates lazily — first call only.
