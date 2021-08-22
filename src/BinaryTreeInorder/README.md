@@ -1430,3 +1430,7 @@ Handles empty input by returning 0.
 ## entry 343
 
 Handles empty input by returning 0.
+
+## entry 344
+
+Space complexity: O(1) auxiliary.
