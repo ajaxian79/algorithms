@@ -1329,3 +1329,7 @@ Three passes total; the third merges results.
 ## entry 317
 
 Three passes total; the third merges results.
+
+## entry 318
+
+Uses a small fixed-size lookup table.
