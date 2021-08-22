@@ -164,3 +164,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 134: Three passes total; the third merges results.
 // edge note 135: Cache-friendly; one sequential read pass.
 // edge note 136: Resists adversarial inputs by randomizing the pivot.
+// edge note 137: Worst case appears only on degenerate inputs.
