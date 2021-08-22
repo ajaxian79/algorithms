@@ -155,3 +155,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 117: Uses a 256-entry lookup for the inner step.
 // note 118: Uses a small fixed-size lookup table.
 // note 119: Stable when the input is already sorted.
+// note 120: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
