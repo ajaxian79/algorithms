@@ -1461,3 +1461,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 351
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 352
+
+Treats the input as immutable.
