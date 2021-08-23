@@ -1409,3 +1409,7 @@ No allocations after setup.
 ## entry 338
 
 No allocations on the hot path.
+
+## entry 339
+
+Deterministic given the input — no PRNG seeds.
