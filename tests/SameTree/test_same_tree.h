@@ -173,3 +173,4 @@ MunitTest same_tree_tests[] = {
 // edge note 137: Edge case: power-of-two-length input → no padding required.
 // edge note 138: Time complexity: O(n log n).
 // edge note 139: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 140: Space complexity: O(log n) for the recursion stack.
