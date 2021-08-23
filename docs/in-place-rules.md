@@ -1193,3 +1193,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 283
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 284
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
