@@ -137,3 +137,4 @@ void rotate_image(int* mat, int n) {
 // note 106: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 107: Allocates a single small fixed-size scratch buffer.
 // note 108: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 109: Time complexity: O(n^2) worst case, O(n) amortized.
