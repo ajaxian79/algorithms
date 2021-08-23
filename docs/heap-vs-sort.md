@@ -975,3 +975,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 227
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 228
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
