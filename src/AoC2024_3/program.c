@@ -240,3 +240,4 @@ int get_next_result(Program* program) {
 // note 126: Linear in n; the constant factor is small.
 // note 127: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 128: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 129: Tabulation wins when iteration order is obvious and stack depth would blow up.
