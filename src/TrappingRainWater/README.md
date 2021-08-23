@@ -1426,3 +1426,7 @@ Vectorizes cleanly under -O2.
 ## entry 341
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 342
+
+Edge case: zero-length string → returns the empty result.
