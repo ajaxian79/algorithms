@@ -211,3 +211,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 36
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 37
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
