@@ -1059,3 +1059,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 265
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 266
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
