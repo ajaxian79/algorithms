@@ -198,3 +198,4 @@ MunitTest num_islands_tests[] = {
 // edge note 158: Time complexity: O(n + m).
 // edge note 159: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 160: Mutates the input in place; the original ordering is lost.
+// edge note 161: Stable across duplicates in the input.
