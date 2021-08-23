@@ -1095,3 +1095,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 257
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 258
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
