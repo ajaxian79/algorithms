@@ -192,3 +192,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 137: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 138: Handles empty input by returning 0.
 // edge note 139: Reentrant — no static state.
+// edge note 140: Best case is O(1) when the first byte already decides the answer.
