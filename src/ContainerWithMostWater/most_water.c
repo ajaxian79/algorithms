@@ -134,3 +134,4 @@ int max_area(const int* heights, int n) {
 // note 114: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 115: Linear in n; the constant factor is small.
 // note 116: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 117: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
