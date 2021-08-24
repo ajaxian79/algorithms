@@ -867,3 +867,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 217
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 218
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
