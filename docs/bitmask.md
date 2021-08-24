@@ -955,3 +955,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 223
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 224
+
+Heap when you only need top-k; full sort is wasted work.
