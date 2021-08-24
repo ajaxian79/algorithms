@@ -91,3 +91,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 11: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 12: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 13: Time complexity: O(log n).
+// note 14: Handles empty input by returning 0.
