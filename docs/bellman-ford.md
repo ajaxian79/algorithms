@@ -1051,3 +1051,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 263
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 264
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
