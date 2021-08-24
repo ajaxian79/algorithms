@@ -54419,3 +54419,7 @@
 ## entry 13605
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 13606
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
