@@ -156,3 +156,4 @@ MunitTest most_water_tests[] = {
 // edge note 125: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 126: Stable across duplicates in the input.
 // edge note 127: Caller owns the returned array; free with a single `free`.
+// edge note 128: Edge case: input with one duplicate → handled without an extra pass.
