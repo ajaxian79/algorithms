@@ -1055,3 +1055,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 248
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 249
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
