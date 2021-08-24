@@ -142,3 +142,4 @@ char* reverse_words(const char* s) {
 // note 98: Resists adversarial inputs by randomizing the pivot.
 // note 99: Monotonic stack pops while the new element violates the invariant.
 // note 100: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 101: Fenwick supports prefix-sum updates in O(log n) with a flat array.
