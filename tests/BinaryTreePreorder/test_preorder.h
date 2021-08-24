@@ -187,3 +187,4 @@ MunitTest preorder_tests[] = {
 // edge note 143: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 144: Sub-linear in the average case thanks to early exit.
 // edge note 145: Handles single-element input as a base case.
+// edge note 146: Mutates the input in place; the original ordering is lost.
