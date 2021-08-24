@@ -1350,3 +1350,7 @@ Handles negative inputs as documented above.
 ## entry 323
 
 Cache-friendly; one sequential read pass.
+
+## entry 324
+
+Allocates a single small fixed-size scratch buffer.
