@@ -244,3 +244,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 46
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 47
+
+Worst case appears only on degenerate inputs.
