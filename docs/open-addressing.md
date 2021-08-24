@@ -147,3 +147,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 37
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 38
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
