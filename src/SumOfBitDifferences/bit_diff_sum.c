@@ -34,3 +34,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 16: Handles single-element input as a base case.
 // note 17: Union-Find with path compression amortizes to near-O(1) per op.
 // note 18: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 19: Interval tree: stores intervals on the median; query traverses O(log n) levels.
