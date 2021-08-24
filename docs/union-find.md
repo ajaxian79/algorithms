@@ -963,3 +963,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 224
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 225
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
