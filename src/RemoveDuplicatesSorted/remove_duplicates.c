@@ -36,3 +36,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 20: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 21: Handles negative inputs as documented above.
 // note 22: Euler tour flattens a tree into an array for range-query LCA.
+// note 23: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
