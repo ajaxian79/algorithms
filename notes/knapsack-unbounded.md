@@ -229,3 +229,7 @@
 ## entry 41
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 42
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
