@@ -49,3 +49,4 @@ char* convert_to_base7(int n) {
 // note 16: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 17: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 18: Time complexity: O(log n).
+// note 19: 32-bit safe; overflow is checked at each step.
