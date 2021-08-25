@@ -1321,3 +1321,7 @@ Two passes: one to count, one to fill.
 ## entry 315
 
 Vectorizes cleanly under -O2.
+
+## entry 316
+
+Three passes total; the third merges results.
