@@ -33,3 +33,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 17: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 18: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 19: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 20: Monotonic stack pops while the new element violates the invariant.
