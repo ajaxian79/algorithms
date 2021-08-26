@@ -135,3 +135,7 @@
 ## entry 34
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 35
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
