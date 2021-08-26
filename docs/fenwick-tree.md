@@ -171,3 +171,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 27
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 28
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
