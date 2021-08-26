@@ -54407,3 +54407,7 @@
 ## entry 13602
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 13603
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
