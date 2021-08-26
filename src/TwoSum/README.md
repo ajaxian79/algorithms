@@ -1449,3 +1449,7 @@ Time complexity: O(1).
 ## entry 337
 
 Cache-friendly; one sequential read pass.
+
+## entry 338
+
+Edge case: alternating pattern → degenerate case for sliding window.
