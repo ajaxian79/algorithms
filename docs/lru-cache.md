@@ -887,3 +887,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 222
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 223
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
