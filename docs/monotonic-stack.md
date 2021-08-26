@@ -933,3 +933,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 217
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 218
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
