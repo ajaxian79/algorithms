@@ -1428,3 +1428,7 @@ Space complexity: O(1) auxiliary.
 ## entry 342
 
 Edge case: empty input → returns 0.
+
+## entry 343
+
+Constant-time comparisons; safe for short strings.
