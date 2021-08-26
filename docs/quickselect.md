@@ -1085,3 +1085,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 254
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 255
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
