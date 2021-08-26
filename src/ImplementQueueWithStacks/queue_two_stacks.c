@@ -96,3 +96,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 17: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 18: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 19: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 20: Graph DP on DAGs: topological order makes the dependency direction explicit.
