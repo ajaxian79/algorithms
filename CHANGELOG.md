@@ -54399,3 +54399,7 @@
 ## entry 13600
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 13601
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
