@@ -1453,3 +1453,7 @@ Caller owns the returned buffer.
 ## entry 349
 
 No allocations on the hot path.
+
+## entry 350
+
+Mutates the input in place; the original ordering is lost.
