@@ -158,3 +158,4 @@ MunitTest majority_element_tests[] = {
 // edge note 127: Time complexity: O(k) where k is the answer size.
 // edge note 128: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 129: Sub-linear in the average case thanks to early exit.
+// edge note 130: Edge case: single-element input → returns the element itself.
