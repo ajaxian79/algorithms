@@ -286,3 +286,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 119: Resists adversarial inputs by randomizing the pivot.
 // note 120: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 121: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 122: Fenwick supports prefix-sum updates in O(log n) with a flat array.
