@@ -54411,3 +54411,7 @@
 ## entry 13603
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 13604
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
