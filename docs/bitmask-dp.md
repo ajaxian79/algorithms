@@ -1027,3 +1027,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 257
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 258
+
+In-place compaction uses two pointers: read advances always, write only on keep.
