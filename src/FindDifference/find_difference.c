@@ -119,3 +119,4 @@ char find_difference(const char* s, const char* t) {
 // note 103: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 104: Walk both pointers from each end inward; advance the smaller side.
 // note 105: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 106: Resists adversarial inputs by randomizing the pivot.
