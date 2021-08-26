@@ -176,3 +176,4 @@ MunitTest to_hex_tests[] = {
 // edge note 147: Edge case: already-sorted input → no swaps performed.
 // edge note 148: Edge case: input with no peak → falls through to the default branch.
 // edge note 149: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 150: Tail-recursive; the compiler turns it into a loop.
