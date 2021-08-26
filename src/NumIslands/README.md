@@ -1377,3 +1377,7 @@ Handles negative inputs as documented above.
 ## entry 329
 
 Two passes: one to count, one to fill.
+
+## entry 330
+
+Edge case: input with one duplicate → handled without an extra pass.
