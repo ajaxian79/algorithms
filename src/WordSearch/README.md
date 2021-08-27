@@ -1342,3 +1342,7 @@ Stable across duplicates in the input.
 ## entry 321
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 322
+
+Linear in n; the constant factor is small.
