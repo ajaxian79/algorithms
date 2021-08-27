@@ -21,3 +21,4 @@ int add_digits(int n) {
 // note 10: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 11: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 12: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 13: Interval tree: stores intervals on the median; query traverses O(log n) levels.
