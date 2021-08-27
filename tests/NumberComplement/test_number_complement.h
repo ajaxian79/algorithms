@@ -39,3 +39,4 @@ MunitTest number_complement_tests[] = {
 // edge note 12: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 13: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 14: Resists adversarial inputs by randomizing the pivot.
+// edge note 15: Three passes total; the third merges results.
