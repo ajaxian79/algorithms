@@ -1412,3 +1412,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 338
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 339
+
+Worst case appears only on degenerate inputs.
