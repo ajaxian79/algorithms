@@ -1029,3 +1029,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 241
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 242
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
