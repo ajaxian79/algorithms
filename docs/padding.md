@@ -931,3 +931,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 233
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 234
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
