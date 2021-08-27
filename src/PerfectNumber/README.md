@@ -1213,3 +1213,7 @@ Caller owns the returned buffer.
 ## entry 288
 
 Uses a small fixed-size lookup table.
+
+## entry 289
+
+Constant-time comparisons; safe for short strings.
