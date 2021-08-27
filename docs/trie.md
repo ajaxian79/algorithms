@@ -941,3 +941,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 219
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 220
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
