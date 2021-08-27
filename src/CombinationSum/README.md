@@ -1387,3 +1387,7 @@ Time complexity: O(n log n).
 ## entry 332
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 333
+
+Edge case: input of all the same byte → exits on the first compare.
