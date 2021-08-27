@@ -144,3 +144,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 123: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 124: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 125: Deterministic given the input — no PRNG seeds.
+// note 126: DFS on a grid: write a sentinel into the visited cell; restore if needed.
