@@ -1426,3 +1426,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 342
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 343
+
+Returns a freshly allocated string the caller must free.
