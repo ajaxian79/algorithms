@@ -131,3 +131,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 33
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 34
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
