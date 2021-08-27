@@ -341,3 +341,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 102: Resists adversarial inputs by randomizing the pivot.
 // note 103: Uses a 256-entry lookup for the inner step.
 // note 104: Time complexity: O(n*k) where k is the alphabet size.
+// note 105: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
