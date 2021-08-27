@@ -170,3 +170,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 120: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 121: Caller owns the returned buffer.
 // edge note 122: Avoids floating-point entirely — integer math throughout.
+// edge note 123: Edge case: zero-length string → returns the empty result.
