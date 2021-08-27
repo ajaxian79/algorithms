@@ -252,3 +252,7 @@ Two passes: one to count, one to fill.
 ## entry 47
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 48
+
+Caller owns the returned buffer.
