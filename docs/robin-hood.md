@@ -923,3 +923,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 231
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 232
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
