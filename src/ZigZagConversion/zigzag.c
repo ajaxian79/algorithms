@@ -172,3 +172,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 129: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 130: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 131: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 132: Time complexity: O(n + m).
