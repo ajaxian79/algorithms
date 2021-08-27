@@ -963,3 +963,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 241
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 242
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
