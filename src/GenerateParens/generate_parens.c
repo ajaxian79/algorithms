@@ -186,3 +186,4 @@ char** generate_parens(int n, int* return_size) {
 // note 122: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 123: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 124: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 125: LRU cache: doubly-linked list + hash map; O(1) get/put.
