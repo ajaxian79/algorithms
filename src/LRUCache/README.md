@@ -1420,3 +1420,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 339
 
 Space complexity: O(h) for the tree height.
+
+## entry 340
+
+Three passes total; the third merges results.
