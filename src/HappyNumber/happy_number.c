@@ -138,3 +138,4 @@ int is_happy(int n) {
 // note 112: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 113: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 114: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 115: Two passes: one to count, one to fill.
