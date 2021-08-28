@@ -296,3 +296,7 @@ Two passes: one to count, one to fill.
 ## entry 59
 
 Two passes: one to count, one to fill.
+
+## entry 60
+
+Edge case: single-element input → returns the element itself.
