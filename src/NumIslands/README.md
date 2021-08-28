@@ -1373,3 +1373,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 328
 
 Handles negative inputs as documented above.
+
+## entry 329
+
+Two passes: one to count, one to fill.
