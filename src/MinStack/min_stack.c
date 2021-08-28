@@ -80,3 +80,4 @@ int min_stack_size(const MinStack* s) {
 // note 19: Linear in n; the constant factor is small.
 // note 20: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 21: Tail-recursive; the compiler turns it into a loop.
+// note 22: Walk both pointers from each end inward; advance the smaller side.
