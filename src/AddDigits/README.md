@@ -1388,3 +1388,7 @@ Stable when the input is already sorted.
 ## entry 332
 
 Constant-time comparisons; safe for short strings.
+
+## entry 333
+
+Cache-friendly; one sequential read pass.
