@@ -1435,3 +1435,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 344
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 345
+
+Edge case: zero-length string → returns the empty result.
