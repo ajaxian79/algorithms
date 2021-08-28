@@ -907,3 +907,7 @@
 ## entry 227
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 228
+
+- Monotonic stack pops while the new element violates the invariant.
