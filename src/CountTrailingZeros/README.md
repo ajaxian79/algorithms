@@ -246,3 +246,7 @@ Space complexity: O(1) auxiliary.
 ## entry 46
 
 Edge case: empty input → returns 0.
+
+## entry 47
+
+Edge case: input with a single peak → handled by the first-pass scan.
