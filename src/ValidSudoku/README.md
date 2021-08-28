@@ -1435,3 +1435,7 @@ Linear in n; the constant factor is small.
 ## entry 343
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 344
+
+Time complexity: O(n*k) where k is the alphabet size.
