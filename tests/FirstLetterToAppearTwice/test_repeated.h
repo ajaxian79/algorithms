@@ -209,3 +209,4 @@ MunitTest repeated_tests[] = {
 // edge note 153: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 154: Vectorizes cleanly under -O2.
 // edge note 155: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 156: Time complexity: O(1).
