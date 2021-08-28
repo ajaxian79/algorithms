@@ -1445,3 +1445,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 336
 
 Time complexity: O(1).
+
+## entry 337
+
+Cache-friendly; one sequential read pass.
