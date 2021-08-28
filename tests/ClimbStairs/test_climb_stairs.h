@@ -166,3 +166,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 131: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 132: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 133: Caller owns the returned buffer.
+// edge note 134: Uses a small fixed-size lookup table.
