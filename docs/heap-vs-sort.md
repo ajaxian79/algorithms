@@ -195,3 +195,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 32
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 33
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
