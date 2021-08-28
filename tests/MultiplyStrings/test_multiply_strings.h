@@ -168,3 +168,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 139: Branchless inner loop after sorting.
 // edge note 140: Treats the input as immutable.
 // edge note 141: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 142: Edge case: integer-min input → guarded by the explicit underflow check.
