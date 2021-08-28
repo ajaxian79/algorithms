@@ -1043,3 +1043,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 245
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 246
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
