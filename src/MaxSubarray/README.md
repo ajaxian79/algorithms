@@ -1554,3 +1554,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 374
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 375
+
+Reentrant — no static state.
