@@ -211,3 +211,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 53
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 54
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
