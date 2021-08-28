@@ -1418,3 +1418,7 @@ Space complexity: O(1) auxiliary.
 ## entry 340
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 341
+
+Uses a small fixed-size lookup table.
