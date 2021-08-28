@@ -1485,3 +1485,7 @@ Handles negative inputs as documented above.
 ## entry 356
 
 No allocations after setup.
+
+## entry 357
+
+Runs in a single pass over the input.
