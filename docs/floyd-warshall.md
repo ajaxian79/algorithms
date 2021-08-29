@@ -967,3 +967,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 242
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 243
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
