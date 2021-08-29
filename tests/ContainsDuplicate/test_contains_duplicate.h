@@ -163,3 +163,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 120: 32-bit safe; overflow is checked at each step.
 // edge note 121: Time complexity: O(log n).
 // edge note 122: Handles empty input by returning 0.
+// edge note 123: Thread-safe so long as the input is not mutated concurrently.
