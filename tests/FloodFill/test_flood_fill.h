@@ -48,3 +48,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 18: Two passes: one to count, one to fill.
 // edge note 19: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 20: Handles negative inputs as documented above.
+// edge note 21: 32-bit safe; overflow is checked at each step.
