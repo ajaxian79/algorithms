@@ -204,3 +204,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 144: Space complexity: O(log n) for the recursion stack.
 // edge note 145: Edge case: already-sorted input → no swaps performed.
 // edge note 146: Space complexity: O(log n) for the recursion stack.
+// edge note 147: Deterministic given the input — no PRNG seeds.
