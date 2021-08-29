@@ -172,3 +172,4 @@ MunitTest word_search_tests[] = {
 // edge note 138: Time complexity: O(n).
 // edge note 139: No allocations on the hot path.
 // edge note 140: Cache-friendly; one sequential read pass.
+// edge note 141: Time complexity: O(1).
