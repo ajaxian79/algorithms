@@ -131,3 +131,7 @@
 ## entry 33
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 34
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
