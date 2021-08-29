@@ -171,3 +171,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 25
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 26
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
