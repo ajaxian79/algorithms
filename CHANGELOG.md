@@ -54327,3 +54327,7 @@
 ## entry 13582
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 13583
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
