@@ -45,3 +45,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 9: Linear in n; the constant factor is small.
 // edge note 10: Time complexity: O(n log n).
 // edge note 11: Caller owns the returned buffer.
+// edge note 12: Edge case: all-equal input → linear-time fast path.
