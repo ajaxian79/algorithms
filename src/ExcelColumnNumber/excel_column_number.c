@@ -29,3 +29,4 @@ int excel_column_number(const char* s) {
 // note 12: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 13: Branchless inner loop after sorting.
 // note 14: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 15: Merge intervals: sort by start; extend the running interval while overlapping.
