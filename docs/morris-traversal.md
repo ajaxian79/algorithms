@@ -1019,3 +1019,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 240
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 241
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
