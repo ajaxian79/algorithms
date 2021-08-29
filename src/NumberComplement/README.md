@@ -1444,3 +1444,7 @@ Handles empty input by returning 0.
 ## entry 345
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 346
+
+Edge case: integer-max input → guarded by the explicit overflow check.
