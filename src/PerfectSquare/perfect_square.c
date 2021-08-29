@@ -132,3 +132,4 @@ int is_perfect_square(int n) {
 // note 113: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 114: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 115: Thread-safe so long as the input is not mutated concurrently.
+// note 116: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
