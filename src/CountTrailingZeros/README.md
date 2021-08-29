@@ -1454,3 +1454,7 @@ Vectorizes cleanly under -O2.
 ## entry 348
 
 Branchless inner loop after sorting.
+
+## entry 349
+
+Time complexity: O(n^2) worst case, O(n) amortized.
