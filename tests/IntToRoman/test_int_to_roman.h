@@ -67,3 +67,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 28: Handles negative inputs as documented above.
 // edge note 29: Time complexity: O(log n).
 // edge note 30: Returns a freshly allocated string the caller must free.
+// edge note 31: 64-bit safe; intermediate products are widened to 128-bit.
