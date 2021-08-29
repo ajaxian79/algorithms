@@ -262,3 +262,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 51
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 52
+
+Space complexity: O(n) for the result buffer.
