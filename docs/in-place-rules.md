@@ -1189,3 +1189,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 282
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 283
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
