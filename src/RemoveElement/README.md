@@ -1449,3 +1449,7 @@ Time complexity: O(n + m).
 ## entry 348
 
 Caller owns the returned buffer.
+
+## entry 349
+
+No allocations on the hot path.
