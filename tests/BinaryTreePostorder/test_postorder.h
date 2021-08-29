@@ -66,3 +66,4 @@ MunitTest postorder_tests[] = {
 // edge note 22: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 23: Caller owns the returned array; free with a single `free`.
 // edge note 24: Edge case: reverse-sorted input → still O(n log n).
+// edge note 25: Edge case: already-sorted input → no swaps performed.
