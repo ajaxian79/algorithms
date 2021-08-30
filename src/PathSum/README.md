@@ -1460,3 +1460,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 350
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 351
+
+Thread-safe so long as the input is not mutated concurrently.
