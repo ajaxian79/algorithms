@@ -1334,3 +1334,7 @@ Reentrant — no static state.
 ## entry 319
 
 Returns a freshly allocated string the caller must free.
+
+## entry 320
+
+Edge case: already-sorted input → no swaps performed.
