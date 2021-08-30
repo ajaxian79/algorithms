@@ -1093,3 +1093,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 256
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 257
+
+Heap when you only need top-k; full sort is wasted work.
