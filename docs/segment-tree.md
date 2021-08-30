@@ -1015,3 +1015,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 236
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 237
+
+Interval DP: solve all `[l, r]` ranges from short to long.
