@@ -1477,3 +1477,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 354
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 355
+
+Worst case appears only on degenerate inputs.
