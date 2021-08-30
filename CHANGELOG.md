@@ -54287,3 +54287,7 @@
 ## entry 13572
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 13573
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
