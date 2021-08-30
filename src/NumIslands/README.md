@@ -1365,3 +1365,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 326
 
 Handles negative inputs as documented above.
+
+## entry 327
+
+Edge case: already-sorted input → no swaps performed.
