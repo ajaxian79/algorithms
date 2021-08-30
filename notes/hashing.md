@@ -1137,3 +1137,7 @@
 ## entry 267
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 268
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
