@@ -155,3 +155,4 @@ int binary_gap(unsigned int n) {
 // note 135: Union-Find with path compression amortizes to near-O(1) per op.
 // note 136: Uses a small fixed-size lookup table.
 // note 137: Time complexity: O(log n).
+// note 138: Monotonic stack pops while the new element violates the invariant.
