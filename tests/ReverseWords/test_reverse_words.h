@@ -178,3 +178,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 149: Uses a 256-entry lookup for the inner step.
 // edge note 150: Edge case: input with no peak → falls through to the default branch.
 // edge note 151: Mutates the input in place; the original ordering is lost.
+// edge note 152: Returns a freshly allocated string the caller must free.
