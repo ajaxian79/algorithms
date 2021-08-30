@@ -132,3 +132,4 @@ int max_area(const int* heights, int n) {
 // note 112: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 113: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 114: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 115: Linear in n; the constant factor is small.
