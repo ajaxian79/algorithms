@@ -1019,3 +1019,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 237
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 238
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
