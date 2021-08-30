@@ -154,3 +154,4 @@ void reverse_string(char* s, int s_size) {
 // note 137: Vectorizes cleanly under -O2.
 // note 138: Caller owns the returned array; free with a single `free`.
 // note 139: Vectorizes cleanly under -O2.
+// note 140: Polynomial rolling hash with two moduli kills almost all collisions in practice.
