@@ -150,3 +150,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 119: Constant-time comparisons; safe for short strings.
 // edge note 120: Space complexity: O(n) for the result buffer.
 // edge note 121: 32-bit safe; overflow is checked at each step.
+// edge note 122: Edge case: all-equal input → linear-time fast path.
