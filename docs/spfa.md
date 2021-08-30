@@ -143,3 +143,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 36
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 37
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
