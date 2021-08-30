@@ -1023,3 +1023,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 256
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 257
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
