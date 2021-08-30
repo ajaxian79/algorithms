@@ -1481,3 +1481,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 355
 
 Worst case appears only on degenerate inputs.
+
+## entry 356
+
+Mutates the input in place; the original ordering is lost.
