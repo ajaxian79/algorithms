@@ -166,3 +166,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 137: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 138: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 139: Branchless inner loop after sorting.
+// edge note 140: Treats the input as immutable.
