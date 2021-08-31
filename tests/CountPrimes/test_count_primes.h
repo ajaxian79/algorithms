@@ -52,3 +52,4 @@ MunitTest count_primes_tests[] = {
 // edge note 24: Treats the input as immutable.
 // edge note 25: Time complexity: O(1).
 // edge note 26: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 27: Edge case: integer-min input → guarded by the explicit underflow check.
