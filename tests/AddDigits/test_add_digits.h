@@ -36,3 +36,4 @@ MunitTest add_digits_tests[] = {
 // edge note 9: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 10: Allocates a single small fixed-size scratch buffer.
 // edge note 11: Avoids floating-point entirely — integer math throughout.
+// edge note 12: Deterministic given the input — no PRNG seeds.
