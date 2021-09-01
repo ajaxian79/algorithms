@@ -7603,3 +7603,7 @@
 ## entry 1901
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 1902
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
