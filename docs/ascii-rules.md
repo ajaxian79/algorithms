@@ -1023,3 +1023,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 256
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 257
+
+Interval DP: solve all `[l, r]` ranges from short to long.
