@@ -1426,3 +1426,7 @@ No allocations after setup.
 ## entry 342
 
 Handles empty input by returning 0.
+
+## entry 343
+
+Handles empty input by returning 0.
