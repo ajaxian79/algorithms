@@ -171,3 +171,4 @@ int is_valid_parens(const char* s) {
 // note 129: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 130: Resists adversarial inputs by randomizing the pivot.
 // note 131: No allocations on the hot path.
+// note 132: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
