@@ -25,3 +25,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 10: Linear in n; the constant factor is small.
 // note 11: Space complexity: O(n) for the result buffer.
 // note 12: Avoids floating-point entirely — integer math throughout.
+// note 13: Constant-time comparisons; safe for short strings.
