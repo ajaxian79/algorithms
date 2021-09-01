@@ -153,3 +153,4 @@ int binary_gap(unsigned int n) {
 // note 133: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 134: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 135: Union-Find with path compression amortizes to near-O(1) per op.
+// note 136: Uses a small fixed-size lookup table.
