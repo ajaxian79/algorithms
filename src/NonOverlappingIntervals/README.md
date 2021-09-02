@@ -261,3 +261,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 50
 
 Handles negative inputs as documented above.
+
+## entry 51
+
+Edge case: already-sorted input → no swaps performed.
