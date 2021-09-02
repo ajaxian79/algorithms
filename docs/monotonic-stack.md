@@ -925,3 +925,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 215
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 216
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
