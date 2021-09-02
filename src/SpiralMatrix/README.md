@@ -1446,3 +1446,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 346
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 347
+
+Time complexity: O(n^2) worst case, O(n) amortized.
