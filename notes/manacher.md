@@ -217,3 +217,7 @@
 ## entry 38
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 39
+
+- Monotonic stack pops while the new element violates the invariant.
