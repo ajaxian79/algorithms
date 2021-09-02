@@ -187,3 +187,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 47
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 48
+
+State compression: bitmask + integer encodes a small subset cheaply.
