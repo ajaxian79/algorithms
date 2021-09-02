@@ -929,3 +929,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 216
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 217
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
