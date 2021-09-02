@@ -995,3 +995,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 249
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 250
+
+Interval DP: solve all `[l, r]` ranges from short to long.
