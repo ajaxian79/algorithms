@@ -1015,3 +1015,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 239
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 240
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
