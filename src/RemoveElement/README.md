@@ -1445,3 +1445,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 347
 
 Time complexity: O(n + m).
+
+## entry 348
+
+Caller owns the returned buffer.
