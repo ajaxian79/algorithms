@@ -173,3 +173,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 133: Time complexity: O(n).
 // edge note 134: Stable across duplicates in the input.
 // edge note 135: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 136: Best case is O(1) when the first byte already decides the answer.
