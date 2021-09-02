@@ -148,3 +148,4 @@ int is_perfect_number(int n) {
 // note 130: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 131: Tail-recursive; the compiler turns it into a loop.
 // note 132: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 133: Edit distance is LCS with a twist: substitution is a third option at each cell.
