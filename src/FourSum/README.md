@@ -1420,3 +1420,7 @@ Branchless inner loop after sorting.
 ## entry 340
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 341
+
+Space complexity: O(1) auxiliary.
