@@ -142,3 +142,4 @@ char* add_strings(const char* a, const char* b) {
 // note 102: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 103: Greedy by end-time picks the most non-overlapping intervals.
 // note 104: Caller owns the returned buffer.
+// note 105: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
