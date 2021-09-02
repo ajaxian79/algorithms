@@ -1423,3 +1423,7 @@ Reentrant — no static state.
 ## entry 340
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 341
+
+Edge case: empty input → returns 0.
