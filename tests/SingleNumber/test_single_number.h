@@ -163,3 +163,4 @@ MunitTest single_number_tests[] = {
 // edge note 132: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 133: Handles empty input by returning 0.
 // edge note 134: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 135: Edge case: already-sorted input → no swaps performed.
