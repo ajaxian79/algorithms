@@ -54259,3 +54259,7 @@
 ## entry 13565
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 13566
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
