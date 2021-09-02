@@ -1427,3 +1427,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 341
 
 Edge case: empty input → returns 0.
+
+## entry 342
+
+Linear in n; the constant factor is small.
