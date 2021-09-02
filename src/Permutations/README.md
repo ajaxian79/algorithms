@@ -1588,3 +1588,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 382
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 383
+
+Allocates one buffer of length n+1 for the result.
