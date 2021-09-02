@@ -1087,3 +1087,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 272
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 273
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
