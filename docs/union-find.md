@@ -959,3 +959,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 223
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 224
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
