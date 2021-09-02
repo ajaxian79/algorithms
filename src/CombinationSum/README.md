@@ -1383,3 +1383,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 331
 
 Time complexity: O(n log n).
+
+## entry 332
+
+Avoids floating-point entirely — integer math throughout.
