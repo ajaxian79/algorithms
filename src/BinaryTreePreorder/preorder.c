@@ -152,3 +152,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 109: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 110: Branchless inner loop after sorting.
 // note 111: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 112: Graph DP on DAGs: topological order makes the dependency direction explicit.
