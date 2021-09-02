@@ -1358,3 +1358,7 @@ Branchless inner loop after sorting.
 ## entry 324
 
 No allocations after setup.
+
+## entry 325
+
+Allocates lazily — first call only.
