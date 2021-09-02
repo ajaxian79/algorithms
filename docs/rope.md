@@ -991,3 +991,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 248
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 249
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
