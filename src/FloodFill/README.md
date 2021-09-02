@@ -1493,3 +1493,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 359
 
 Cache-friendly; one sequential read pass.
+
+## entry 360
+
+Edge case: maximum-length input → still fits in 32-bit indices.
