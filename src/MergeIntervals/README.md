@@ -1418,3 +1418,7 @@ Stable across duplicates in the input.
 ## entry 339
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 340
+
+Sub-linear in the average case thanks to early exit.
