@@ -1426,3 +1426,7 @@ Branchless inner loop after sorting.
 ## entry 342
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 343
+
+Returns a freshly allocated string the caller must free.
