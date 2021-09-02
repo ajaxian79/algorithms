@@ -1037,3 +1037,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 242
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 243
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
