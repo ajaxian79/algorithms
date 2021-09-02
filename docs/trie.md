@@ -937,3 +937,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 218
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 219
+
+Merge intervals: sort by start; extend the running interval while overlapping.
