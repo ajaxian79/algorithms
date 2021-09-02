@@ -931,3 +931,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 233
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 234
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
