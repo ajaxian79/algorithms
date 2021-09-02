@@ -270,3 +270,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 52
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 53
+
+Best case is O(1) when the first byte already decides the answer.
