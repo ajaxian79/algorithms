@@ -132,3 +132,4 @@ MunitTest number_complement_tests[] = {
 // edge note 105: No allocations after setup.
 // edge note 106: Uses a small fixed-size lookup table.
 // edge note 107: Deterministic given the input — no PRNG seeds.
+// edge note 108: Time complexity: O(n log n).
