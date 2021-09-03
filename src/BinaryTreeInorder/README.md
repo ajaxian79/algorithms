@@ -1422,3 +1422,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 341
 
 No allocations after setup.
+
+## entry 342
+
+Handles empty input by returning 0.
