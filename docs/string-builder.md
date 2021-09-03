@@ -971,3 +971,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 243
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 244
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
