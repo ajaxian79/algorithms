@@ -1450,3 +1450,7 @@ Time complexity: O(log n).
 ## entry 347
 
 Vectorizes cleanly under -O2.
+
+## entry 348
+
+Branchless inner loop after sorting.
