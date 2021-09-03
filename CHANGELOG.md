@@ -54199,3 +54199,7 @@
 ## entry 13550
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 13551
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
