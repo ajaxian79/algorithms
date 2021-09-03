@@ -173,3 +173,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 142: Resists adversarial inputs by randomizing the pivot.
 // edge note 143: Vectorizes cleanly under -O2.
 // edge note 144: Constant-time comparisons; safe for short strings.
+// edge note 145: Time complexity: O(k) where k is the answer size.
