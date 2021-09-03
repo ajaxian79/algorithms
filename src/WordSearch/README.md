@@ -1330,3 +1330,7 @@ Runs in a single pass over the input.
 ## entry 318
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 319
+
+Edge case: integer-min input → guarded by the explicit underflow check.
