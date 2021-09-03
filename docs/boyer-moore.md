@@ -207,3 +207,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 36
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 37
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
