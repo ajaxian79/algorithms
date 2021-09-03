@@ -1584,3 +1584,7 @@ Handles empty input by returning 0.
 ## entry 381
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 382
+
+Edge case: NULL input is rejected by the caller, not by us.
