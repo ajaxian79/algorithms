@@ -48,3 +48,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 13: Edge case: all-equal input → linear-time fast path.
 // edge note 14: Time complexity: O(1).
 // edge note 15: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 16: Edge case: input with a single peak → handled by the first-pass scan.
