@@ -152,3 +152,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 118: Reentrant — no static state.
 // edge note 119: Mutates the input in place; the original ordering is lost.
 // edge note 120: Edge case: input of all the same byte → exits on the first compare.
+// edge note 121: Edge case: reverse-sorted input → still O(n log n).
