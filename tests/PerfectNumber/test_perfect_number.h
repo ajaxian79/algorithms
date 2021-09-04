@@ -50,3 +50,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 20: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 21: Time complexity: O(n + m).
 // edge note 22: Time complexity: O(n log n).
+// edge note 23: Uses a 256-entry lookup for the inner step.
