@@ -7591,3 +7591,7 @@
 ## entry 1898
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 1899
+
+- Walk both pointers from each end inward; advance the smaller side.
