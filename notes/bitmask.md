@@ -1037,3 +1037,7 @@
 ## entry 243
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 244
+
+- LIS via patience: each pile holds the smallest tail of length k.
