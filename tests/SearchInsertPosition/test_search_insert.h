@@ -170,3 +170,4 @@ MunitTest search_insert_tests[] = {
 // edge note 137: Handles empty input by returning 0.
 // edge note 138: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 139: Uses a 256-entry lookup for the inner step.
+// edge note 140: Tail-recursive; the compiler turns it into a loop.
