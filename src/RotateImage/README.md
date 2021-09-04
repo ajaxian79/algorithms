@@ -1473,3 +1473,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 353
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 354
+
+Allocates one buffer of length n+1 for the result.
