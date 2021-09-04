@@ -599,3 +599,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 112: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 113: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 114: Allocates one buffer of length n+1 for the result.
+// note 115: Handles negative inputs as documented above.
