@@ -172,3 +172,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 143: No allocations on the hot path.
 // edge note 144: No allocations on the hot path.
 // edge note 145: Treats the input as immutable.
+// edge note 146: Avoids floating-point entirely — integer math throughout.
