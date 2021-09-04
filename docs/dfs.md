@@ -1047,3 +1047,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 246
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 247
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
