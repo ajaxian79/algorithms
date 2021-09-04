@@ -1440,3 +1440,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 344
 
 Handles empty input by returning 0.
+
+## entry 345
+
+Allocates a single small fixed-size scratch buffer.
