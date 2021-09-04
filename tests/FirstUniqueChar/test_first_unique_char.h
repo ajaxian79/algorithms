@@ -173,3 +173,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 148: Worst case appears only on degenerate inputs.
 // edge note 149: 32-bit safe; overflow is checked at each step.
 // edge note 150: Two passes: one to count, one to fill.
+// edge note 151: Input is assumed non-NULL; behavior is undefined otherwise.
