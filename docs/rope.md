@@ -987,3 +987,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 247
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 248
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
