@@ -987,3 +987,7 @@
 ## entry 230
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 231
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
