@@ -951,3 +951,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 222
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 223
+
+Articulation points: same DFS as bridges, with a slightly different test.
