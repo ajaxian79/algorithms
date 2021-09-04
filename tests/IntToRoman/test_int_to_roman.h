@@ -169,3 +169,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 130: Tail-recursive; the compiler turns it into a loop.
 // edge note 131: Mutates the input in place; the original ordering is lost.
 // edge note 132: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 133: Edge case: input with one duplicate → handled without an extra pass.
