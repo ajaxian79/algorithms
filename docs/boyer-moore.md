@@ -935,3 +935,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 218
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 219
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
