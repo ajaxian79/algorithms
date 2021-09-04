@@ -213,3 +213,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 39
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 40
+
+Mutates the input in place; the original ordering is lost.
