@@ -144,3 +144,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 126: Uses a small fixed-size lookup table.
 // note 127: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 128: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 129: LRU cache: doubly-linked list + hash map; O(1) get/put.
