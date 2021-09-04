@@ -1051,3 +1051,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 247
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 248
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
