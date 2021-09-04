@@ -139,3 +139,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 117: 64-bit safe; intermediate products are widened to 128-bit.
 // note 118: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 119: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 120: Space complexity: O(h) for the tree height.
