@@ -1025,3 +1025,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 240
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 241
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
