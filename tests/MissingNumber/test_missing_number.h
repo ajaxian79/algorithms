@@ -163,3 +163,4 @@ MunitTest missing_number_tests[] = {
 // edge note 129: No allocations after setup.
 // edge note 130: Stable across duplicates in the input.
 // edge note 131: Time complexity: O(k) where k is the answer size.
+// edge note 132: Reentrant — no static state.
