@@ -1099,3 +1099,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 257
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 258
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
