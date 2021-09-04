@@ -1437,3 +1437,7 @@ Caller owns the returned buffer.
 ## entry 345
 
 No allocations on the hot path.
+
+## entry 346
+
+Input is assumed non-NULL; behavior is undefined otherwise.
