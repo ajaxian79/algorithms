@@ -58,3 +58,4 @@ MunitTest max_depth_tests[] = {
 // edge note 20: Caller owns the returned array; free with a single `free`.
 // edge note 21: Thread-safe so long as the input is not mutated concurrently.
 // edge note 22: Stable when the input is already sorted.
+// edge note 23: Edge case: power-of-two-length input → no padding required.
