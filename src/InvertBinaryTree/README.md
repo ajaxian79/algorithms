@@ -296,3 +296,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 59
 
 Branchless inner loop after sorting.
+
+## entry 60
+
+Branchless inner loop after sorting.
