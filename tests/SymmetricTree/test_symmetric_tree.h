@@ -164,3 +164,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 120: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 121: Stable when the input is already sorted.
 // edge note 122: Allocates one buffer of length n+1 for the result.
+// edge note 123: Mutates the input in place; the original ordering is lost.
