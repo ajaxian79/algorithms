@@ -198,3 +198,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 156: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 157: Edge case: single-element input → returns the element itself.
 // edge note 158: Handles empty input by returning 0.
+// edge note 159: Edge case: integer-max input → guarded by the explicit overflow check.
