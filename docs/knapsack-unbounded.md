@@ -1075,3 +1075,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 253
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 254
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
