@@ -1043,3 +1043,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 245
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 246
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
