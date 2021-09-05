@@ -1437,3 +1437,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 334
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 335
+
+Returns a freshly allocated string the caller must free.
