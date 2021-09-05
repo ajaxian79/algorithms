@@ -1419,3 +1419,7 @@ Uses a small fixed-size lookup table.
 ## entry 339
 
 Reentrant — no static state.
+
+## entry 340
+
+Allocates a single small fixed-size scratch buffer.
