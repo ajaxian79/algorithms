@@ -995,3 +995,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 249
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 250
+
+LIS via patience: each pile holds the smallest tail of length k.
