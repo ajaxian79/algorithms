@@ -164,3 +164,4 @@ MunitTest four_sum_tests[] = {
 // edge note 123: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 124: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 125: Edge case: single-element input → returns the element itself.
+// edge note 126: Time complexity: O(log n).
