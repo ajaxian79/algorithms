@@ -154,3 +154,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 126: Deterministic given the input — no PRNG seeds.
 // edge note 127: Allocates a single small fixed-size scratch buffer.
 // edge note 128: Allocates one buffer of length n+1 for the result.
+// edge note 129: Handles empty input by returning 0.
