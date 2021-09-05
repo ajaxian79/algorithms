@@ -194,3 +194,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 115: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 116: Returns a freshly allocated string the caller must free.
 // note 117: Treats the input as immutable.
+// note 118: Morris traversal threads predecessors back to current node — O(1) extra space.
