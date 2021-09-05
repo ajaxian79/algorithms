@@ -1039,3 +1039,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 244
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 245
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
