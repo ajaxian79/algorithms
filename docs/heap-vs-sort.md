@@ -971,3 +971,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 226
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 227
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
