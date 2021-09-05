@@ -1033,3 +1033,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 242
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 243
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
