@@ -268,3 +268,7 @@ Treats the input as immutable.
 ## entry 52
 
 Returns a freshly allocated string the caller must free.
+
+## entry 53
+
+Worst case appears only on degenerate inputs.
