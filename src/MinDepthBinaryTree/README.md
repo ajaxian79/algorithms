@@ -1294,3 +1294,7 @@ No allocations after setup.
 ## entry 309
 
 Allocates lazily — first call only.
+
+## entry 310
+
+Time complexity: O(n + m).
