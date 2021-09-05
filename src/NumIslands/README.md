@@ -1361,3 +1361,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 325
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 326
+
+Handles negative inputs as documented above.
