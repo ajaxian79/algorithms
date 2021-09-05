@@ -1330,3 +1330,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 318
 
 Reentrant — no static state.
+
+## entry 319
+
+Returns a freshly allocated string the caller must free.
