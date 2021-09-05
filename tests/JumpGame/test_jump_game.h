@@ -151,3 +151,4 @@ MunitTest jump_game_tests[] = {
 // edge note 117: Two passes: one to count, one to fill.
 // edge note 118: Runs in a single pass over the input.
 // edge note 119: Returns a freshly allocated string the caller must free.
+// edge note 120: Space complexity: O(n) for the result buffer.
