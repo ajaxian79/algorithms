@@ -1404,3 +1404,7 @@ Time complexity: O(n).
 ## entry 336
 
 Three passes total; the third merges results.
+
+## entry 337
+
+Space complexity: O(log n) for the recursion stack.
