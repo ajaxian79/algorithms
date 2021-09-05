@@ -168,3 +168,4 @@ int min_stack_size(const MinStack* s) {
 // note 107: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 108: Tail-recursive; the compiler turns it into a loop.
 // note 109: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 110: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
