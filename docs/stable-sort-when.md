@@ -1057,3 +1057,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 250
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 251
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
