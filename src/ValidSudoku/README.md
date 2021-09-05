@@ -1415,3 +1415,7 @@ Stable across duplicates in the input.
 ## entry 338
 
 Uses a small fixed-size lookup table.
+
+## entry 339
+
+Reentrant — no static state.
