@@ -1003,3 +1003,7 @@
 ## entry 235
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 236
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
