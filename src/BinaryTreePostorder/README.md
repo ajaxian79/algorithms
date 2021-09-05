@@ -1410,3 +1410,7 @@ Worst case appears only on degenerate inputs.
 ## entry 338
 
 Time complexity: O(n log n).
+
+## entry 339
+
+Allocates lazily — first call only.
