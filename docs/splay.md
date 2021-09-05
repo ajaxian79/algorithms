@@ -907,3 +907,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 227
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 228
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
