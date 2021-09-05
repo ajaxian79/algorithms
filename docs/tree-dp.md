@@ -1083,3 +1083,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 271
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 272
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
