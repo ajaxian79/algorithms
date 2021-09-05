@@ -257,3 +257,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 49
 
 32-bit safe; overflow is checked at each step.
+
+## entry 50
+
+Handles negative inputs as documented above.
