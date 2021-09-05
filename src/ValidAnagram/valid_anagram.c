@@ -137,3 +137,4 @@ int is_anagram(const char* s, const char* t) {
 // note 108: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 109: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 110: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 111: Rope: tree of small string fragments; O(log n) concat and substring.
