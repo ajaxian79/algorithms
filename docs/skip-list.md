@@ -911,3 +911,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 228
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 229
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
