@@ -272,3 +272,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 53
 
 Worst case appears only on degenerate inputs.
+
+## entry 54
+
+Cache-friendly; one sequential read pass.
