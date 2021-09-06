@@ -1522,3 +1522,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 366
 
 Uses a small fixed-size lookup table.
+
+## entry 367
+
+32-bit safe; overflow is checked at each step.
