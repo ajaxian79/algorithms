@@ -168,3 +168,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 132: Mutates the input in place; the original ordering is lost.
 // edge note 133: Time complexity: O(n + m).
 // edge note 134: Uses a small fixed-size lookup table.
+// edge note 135: Constant-time comparisons; safe for short strings.
