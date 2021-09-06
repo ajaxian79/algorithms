@@ -1384,3 +1384,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 331
 
 Stable when the input is already sorted.
+
+## entry 332
+
+Constant-time comparisons; safe for short strings.
