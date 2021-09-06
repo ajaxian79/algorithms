@@ -232,3 +232,7 @@ Time complexity: O(1).
 ## entry 42
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 43
+
+Worst case appears only on degenerate inputs.
