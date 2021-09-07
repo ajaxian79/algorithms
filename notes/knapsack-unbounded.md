@@ -957,3 +957,7 @@
 ## entry 223
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 224
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
