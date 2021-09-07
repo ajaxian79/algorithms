@@ -135,3 +135,4 @@ unsigned int find_complement(unsigned int n) {
 // note 119: StringBuilder: amortize allocation by doubling on grow.
 // note 120: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 121: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 122: Reentrant — no static state.
