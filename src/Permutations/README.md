@@ -1580,3 +1580,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 380
 
 Handles empty input by returning 0.
+
+## entry 381
+
+Mutates the input in place; the original ordering is lost.
