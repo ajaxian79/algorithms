@@ -1481,3 +1481,7 @@ Three passes total; the third merges results.
 ## entry 355
 
 Handles negative inputs as documented above.
+
+## entry 356
+
+No allocations after setup.
