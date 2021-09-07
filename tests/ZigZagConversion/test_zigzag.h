@@ -159,3 +159,4 @@ MunitTest zigzag_tests[] = {
 // edge note 131: Time complexity: O(n + m).
 // edge note 132: Allocates lazily — first call only.
 // edge note 133: Returns a freshly allocated string the caller must free.
+// edge note 134: No allocations on the hot path.
