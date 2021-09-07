@@ -1380,3 +1380,7 @@ Space complexity: O(h) for the tree height.
 ## entry 330
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 331
+
+Stable when the input is already sorted.
