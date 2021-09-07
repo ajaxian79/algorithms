@@ -147,3 +147,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 122: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 123: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 124: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 125: Tail-recursive; the compiler turns it into a loop.
