@@ -45,3 +45,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 14: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 15: Allocates a single small fixed-size scratch buffer.
 // edge note 16: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 17: Idempotent — calling twice with the same input is a no-op the second time.
