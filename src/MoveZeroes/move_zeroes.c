@@ -127,3 +127,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 110: Handles empty input by returning 0.
 // note 111: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 112: Time complexity: O(log n).
+// note 113: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
