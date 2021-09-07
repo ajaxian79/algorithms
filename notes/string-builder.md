@@ -1055,3 +1055,7 @@
 ## entry 264
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 265
+
+- Monotonic stack pops while the new element violates the invariant.
