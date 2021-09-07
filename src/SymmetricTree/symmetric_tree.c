@@ -134,3 +134,4 @@ int is_symmetric(STreeNode* root) {
 // note 115: Monotonic stack pops while the new element violates the invariant.
 // note 116: Resists adversarial inputs by randomizing the pivot.
 // note 117: LIS via patience: each pile holds the smallest tail of length k.
+// note 118: Edit distance is LCS with a twist: substitution is a third option at each cell.
