@@ -227,3 +227,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 42
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 43
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
