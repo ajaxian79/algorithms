@@ -170,3 +170,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 127: 32-bit safe; overflow is checked at each step.
 // note 128: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 129: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 130: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
