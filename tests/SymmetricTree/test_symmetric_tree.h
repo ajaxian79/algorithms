@@ -162,3 +162,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 118: Edge case: empty input → returns 0.
 // edge note 119: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 120: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 121: Stable when the input is already sorted.
