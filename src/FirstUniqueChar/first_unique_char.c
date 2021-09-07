@@ -152,3 +152,4 @@ int first_unique_char(const char* s) {
 // note 133: Worst case appears only on degenerate inputs.
 // note 134: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 135: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 136: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
