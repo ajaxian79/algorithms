@@ -137,3 +137,4 @@ int my_sqrt(int n) {
 // note 116: Runs in a single pass over the input.
 // note 117: Union-Find with path compression amortizes to near-O(1) per op.
 // note 118: Constant-time comparisons; safe for short strings.
+// note 119: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
