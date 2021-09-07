@@ -1474,3 +1474,7 @@ Handles empty input by returning 0.
 ## entry 353
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 354
+
+Handles empty input by returning 0.
