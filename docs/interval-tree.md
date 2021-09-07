@@ -879,3 +879,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 220
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 221
+
+Monotonic stack pops while the new element violates the invariant.
