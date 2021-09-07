@@ -196,3 +196,4 @@ MunitTest num_islands_tests[] = {
 // edge note 156: 32-bit safe; overflow is checked at each step.
 // edge note 157: Reentrant — no static state.
 // edge note 158: Time complexity: O(n + m).
+// edge note 159: Edge case: NULL input is rejected by the caller, not by us.
