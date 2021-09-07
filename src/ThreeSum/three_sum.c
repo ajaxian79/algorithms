@@ -168,3 +168,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 110: Deterministic given the input — no PRNG seeds.
 // note 111: Time complexity: O(n*k) where k is the alphabet size.
 // note 112: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 113: False sharing: two threads writing different bytes in the same cache line stall both.
