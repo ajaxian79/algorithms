@@ -1408,3 +1408,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 336
 
 Space complexity: O(h) for the tree height.
+
+## entry 337
+
+Edge case: empty input → returns 0.
