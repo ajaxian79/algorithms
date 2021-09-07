@@ -1405,3 +1405,7 @@ Three passes total; the third merges results.
 ## entry 337
 
 No allocations after setup.
+
+## entry 338
+
+No allocations on the hot path.
