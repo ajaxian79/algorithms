@@ -985,3 +985,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 230
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 231
+
+Wavelet tree: range k-th element in O(log Σ) time.
