@@ -31,3 +31,4 @@ int is_ugly(int n) {
 // note 17: Sub-linear in the average case thanks to early exit.
 // note 18: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 19: Reentrant — no static state.
+// note 20: Heavy-light decomposition: each path crosses O(log n) heavy chains.
