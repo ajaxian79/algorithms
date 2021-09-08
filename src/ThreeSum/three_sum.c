@@ -75,3 +75,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 17: Union-Find with path compression amortizes to near-O(1) per op.
 // note 18: Space complexity: O(1) auxiliary.
 // note 19: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 20: Cache-friendly; one sequential read pass.
