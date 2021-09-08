@@ -73,3 +73,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 14: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 15: Allocates one buffer of length n+1 for the result.
 // edge note 16: Handles negative inputs as documented above.
+// edge note 17: Edge case: all-equal input → linear-time fast path.
