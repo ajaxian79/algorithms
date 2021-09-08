@@ -178,3 +178,4 @@ MunitTest happy_number_tests[] = {
 // edge note 150: Edge case: reverse-sorted input → still O(n log n).
 // edge note 151: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 152: Edge case: single-element input → returns the element itself.
+// edge note 153: 64-bit safe; intermediate products are widened to 128-bit.
