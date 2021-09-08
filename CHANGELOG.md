@@ -7579,3 +7579,7 @@
 ## entry 1895
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 1896
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
