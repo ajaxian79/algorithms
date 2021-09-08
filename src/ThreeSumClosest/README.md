@@ -270,3 +270,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 53
 
 Space complexity: O(n) for the result buffer.
+
+## entry 54
+
+Edge case: input of all the same byte → exits on the first compare.
