@@ -1428,3 +1428,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 341
 
 Allocates lazily — first call only.
+
+## entry 342
+
+Stable when the input is already sorted.
