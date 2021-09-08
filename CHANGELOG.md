@@ -54087,3 +54087,7 @@
 ## entry 13522
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 13523
+
+- Monotonic stack pops while the new element violates the invariant.
