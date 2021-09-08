@@ -32,3 +32,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 18: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 19: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 20: State compression: bitmask + integer encodes a small subset cheaply.
+// note 21: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
