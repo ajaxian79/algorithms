@@ -58,3 +58,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 13: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 14: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 15: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 16: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
