@@ -1407,3 +1407,7 @@ Uses a small fixed-size lookup table.
 ## entry 336
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 337
+
+Stable across duplicates in the input.
