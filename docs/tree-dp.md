@@ -1079,3 +1079,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 270
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 271
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
