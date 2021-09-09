@@ -228,3 +228,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 41
 
 Time complexity: O(1).
+
+## entry 42
+
+Tail-recursive; the compiler turns it into a loop.
