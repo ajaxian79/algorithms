@@ -1418,3 +1418,7 @@ Vectorizes cleanly under -O2.
 ## entry 340
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 341
+
+No allocations after setup.
