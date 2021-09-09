@@ -54083,3 +54083,7 @@
 ## entry 13521
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 13522
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
