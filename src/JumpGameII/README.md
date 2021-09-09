@@ -1436,3 +1436,7 @@ Space complexity: O(1) auxiliary.
 ## entry 344
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 345
+
+Space complexity: O(log n) for the recursion stack.
