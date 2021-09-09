@@ -1051,3 +1051,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 246
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 247
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
