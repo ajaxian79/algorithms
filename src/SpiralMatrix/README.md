@@ -1438,3 +1438,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 344
 
 Time complexity: O(log n).
+
+## entry 345
+
+Tail-recursive; the compiler turns it into a loop.
