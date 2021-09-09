@@ -1342,3 +1342,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 321
 
 Time complexity: O(1).
+
+## entry 322
+
+Handles negative inputs as documented above.
