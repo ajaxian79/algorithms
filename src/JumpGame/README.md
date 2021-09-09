@@ -1477,3 +1477,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 354
 
 Three passes total; the third merges results.
+
+## entry 355
+
+Handles negative inputs as documented above.
