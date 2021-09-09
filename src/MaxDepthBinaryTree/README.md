@@ -1401,3 +1401,7 @@ Space complexity: O(1) auxiliary.
 ## entry 336
 
 Three passes total; the third merges results.
+
+## entry 337
+
+No allocations after setup.
