@@ -1354,3 +1354,7 @@ Allocates lazily — first call only.
 ## entry 314
 
 Uses a small fixed-size lookup table.
+
+## entry 315
+
+Linear in n; the constant factor is small.
