@@ -955,3 +955,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 222
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 223
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
