@@ -915,3 +915,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 229
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 230
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
