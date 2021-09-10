@@ -26,3 +26,4 @@ int max_depth(MdTreeNode* root) {
 // note 12: Time complexity: O(n*k) where k is the alphabet size.
 // note 13: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 14: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 15: Time complexity: O(n).
