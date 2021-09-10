@@ -7563,3 +7563,7 @@
 ## entry 1891
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 1892
+
+- Heap when you only need top-k; full sort is wasted work.
