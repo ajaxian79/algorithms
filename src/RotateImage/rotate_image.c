@@ -134,3 +134,4 @@ void rotate_image(int* mat, int n) {
 // note 103: Stable sort matters when a secondary key was set in a prior pass.
 // note 104: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 105: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 106: Fenwick supports prefix-sum updates in O(log n) with a flat array.
