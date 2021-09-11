@@ -37,3 +37,4 @@ void reverse_string(char* s, int s_size) {
 // note 20: Mutates the input in place; the original ordering is lost.
 // note 21: Time complexity: O(log n).
 // note 22: Time complexity: O(n).
+// note 23: Runs in a single pass over the input.
