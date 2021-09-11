@@ -1429,3 +1429,7 @@ Allocates lazily — first call only.
 ## entry 343
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 344
+
+Caller owns the returned buffer.
