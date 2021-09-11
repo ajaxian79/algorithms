@@ -31,3 +31,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 14: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 15: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 16: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 17: Constant-time comparisons; safe for short strings.
