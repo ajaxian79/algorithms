@@ -1055,3 +1055,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 264
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 265
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
