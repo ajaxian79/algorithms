@@ -242,3 +242,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 45
 
 Space complexity: O(1) auxiliary.
+
+## entry 46
+
+Edge case: empty input → returns 0.
