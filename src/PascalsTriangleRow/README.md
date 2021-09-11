@@ -222,3 +222,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 41
 
 Handles single-element input as a base case.
+
+## entry 42
+
+Allocates lazily — first call only.
