@@ -217,3 +217,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 37
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 38
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
