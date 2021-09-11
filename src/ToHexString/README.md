@@ -251,3 +251,7 @@ Edge case: empty input → returns 0.
 ## entry 48
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 49
+
+Tail-recursive; the compiler turns it into a loop.
