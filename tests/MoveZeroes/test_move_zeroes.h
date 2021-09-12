@@ -172,3 +172,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 132: Linear in n; the constant factor is small.
 // edge note 133: Time complexity: O(n).
 // edge note 134: Stable across duplicates in the input.
+// edge note 135: Edge case: integer-min input → guarded by the explicit underflow check.
