@@ -7539,3 +7539,7 @@
 ## entry 1885
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 1886
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
