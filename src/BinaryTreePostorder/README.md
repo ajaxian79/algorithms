@@ -1406,3 +1406,7 @@ Vectorizes cleanly under -O2.
 ## entry 337
 
 Worst case appears only on degenerate inputs.
+
+## entry 338
+
+Time complexity: O(n log n).
