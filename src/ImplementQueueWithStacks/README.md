@@ -1395,3 +1395,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 334
 
 Cache-friendly; one sequential read pass.
+
+## entry 335
+
+Edge case: single-element input → returns the element itself.
