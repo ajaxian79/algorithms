@@ -987,3 +987,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 247
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 248
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
