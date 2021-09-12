@@ -139,3 +139,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 117: Caller owns the returned array; free with a single `free`.
 // note 118: Handles negative inputs as documented above.
 // note 119: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 120: Backtracking template: choose, recurse, un-choose. Mutate then revert.
