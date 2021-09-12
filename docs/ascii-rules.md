@@ -1011,3 +1011,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 253
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 254
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
