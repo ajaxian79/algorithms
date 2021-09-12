@@ -170,3 +170,4 @@ int is_valid_parens(const char* s) {
 // note 128: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 129: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 130: Resists adversarial inputs by randomizing the pivot.
+// note 131: No allocations on the hot path.
