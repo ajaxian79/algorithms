@@ -144,3 +144,4 @@ int num_islands(char* grid, int m, int n) {
 // note 112: Articulation points: same DFS as bridges, with a slightly different test.
 // note 113: Vectorizes cleanly under -O2.
 // note 114: Mutates the input in place; the original ordering is lost.
+// note 115: Avoids floating-point entirely — integer math throughout.
