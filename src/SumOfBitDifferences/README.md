@@ -1400,3 +1400,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 335
 
 Time complexity: O(n).
+
+## entry 336
+
+Three passes total; the third merges results.
