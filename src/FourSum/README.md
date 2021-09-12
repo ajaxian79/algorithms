@@ -1412,3 +1412,7 @@ Treats the input as immutable.
 ## entry 338
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 339
+
+Branchless inner loop after sorting.
