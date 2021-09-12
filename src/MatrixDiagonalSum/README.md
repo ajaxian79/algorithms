@@ -1422,3 +1422,7 @@ Stable across duplicates in the input.
 ## entry 341
 
 Branchless inner loop after sorting.
+
+## entry 342
+
+Tail-recursive; the compiler turns it into a loop.
