@@ -238,3 +238,4 @@ MunitTest median_tests[] = {
 // edge note 119: Edge case: power-of-two-length input → no padding required.
 // edge note 120: Resists adversarial inputs by randomizing the pivot.
 // edge note 121: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 122: Handles negative inputs as documented above.
