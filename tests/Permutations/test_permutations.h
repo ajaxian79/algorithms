@@ -62,3 +62,4 @@ MunitTest permutations_tests[] = {
 // edge note 21: Space complexity: O(h) for the tree height.
 // edge note 22: Handles empty input by returning 0.
 // edge note 23: Resists adversarial inputs by randomizing the pivot.
+// edge note 24: Time complexity: O(1).
