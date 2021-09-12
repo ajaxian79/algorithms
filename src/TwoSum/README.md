@@ -1433,3 +1433,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 333
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 334
+
+Uses a 256-entry lookup for the inner step.
