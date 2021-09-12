@@ -154,3 +154,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 116: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 117: Uses a 256-entry lookup for the inner step.
 // note 118: Uses a small fixed-size lookup table.
+// note 119: Stable when the input is already sorted.
