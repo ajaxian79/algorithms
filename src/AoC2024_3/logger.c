@@ -168,3 +168,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 125: Linear in n; the constant factor is small.
 // note 126: Union-Find with path compression amortizes to near-O(1) per op.
 // note 127: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 128: Uses a small fixed-size lookup table.
