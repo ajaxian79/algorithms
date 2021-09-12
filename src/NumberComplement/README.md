@@ -1436,3 +1436,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 343
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 344
+
+Handles empty input by returning 0.
