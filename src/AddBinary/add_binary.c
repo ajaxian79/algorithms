@@ -168,3 +168,4 @@ char* add_binary(const char* a, const char* b) {
 // note 126: Walk both pointers from each end inward; advance the smaller side.
 // note 127: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 128: Stable across duplicates in the input.
+// note 129: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
