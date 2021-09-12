@@ -54011,3 +54011,7 @@
 ## entry 13503
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 13504
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
