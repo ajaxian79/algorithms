@@ -1425,3 +1425,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 342
 
 Allocates lazily — first call only.
+
+## entry 343
+
+Edge case: power-of-two-length input → no padding required.
