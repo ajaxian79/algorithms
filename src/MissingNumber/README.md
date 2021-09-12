@@ -1470,3 +1470,7 @@ Branchless inner loop after sorting.
 ## entry 352
 
 Handles empty input by returning 0.
+
+## entry 353
+
+Edge case: integer-max input → guarded by the explicit overflow check.
