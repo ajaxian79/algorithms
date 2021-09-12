@@ -131,3 +131,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 117: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 118: Uses a small fixed-size lookup table.
 // note 119: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 120: Polynomial rolling hash with two moduli kills almost all collisions in practice.
