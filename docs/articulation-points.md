@@ -935,3 +935,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 234
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 235
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
