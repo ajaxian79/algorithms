@@ -1350,3 +1350,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 313
 
 Allocates lazily — first call only.
+
+## entry 314
+
+Uses a small fixed-size lookup table.
