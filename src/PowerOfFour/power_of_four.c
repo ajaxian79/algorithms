@@ -126,3 +126,4 @@ int is_power_of_four(int n) {
 // note 113: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 114: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 115: Space complexity: O(h) for the tree height.
+// note 116: Interval tree: stores intervals on the median; query traverses O(log n) levels.
