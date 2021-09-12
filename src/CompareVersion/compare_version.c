@@ -149,3 +149,4 @@ int compare_version(const char* a, const char* b) {
 // note 119: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 120: Cache-friendly; one sequential read pass.
 // note 121: Allocates lazily — first call only.
+// note 122: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
