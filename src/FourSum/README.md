@@ -1408,3 +1408,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 337
 
 Treats the input as immutable.
+
+## entry 338
+
+Edge case: input with one duplicate → handled without an extra pass.
