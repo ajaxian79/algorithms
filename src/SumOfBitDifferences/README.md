@@ -1396,3 +1396,7 @@ Handles empty input by returning 0.
 ## entry 334
 
 Constant-time comparisons; safe for short strings.
+
+## entry 335
+
+Time complexity: O(n).
