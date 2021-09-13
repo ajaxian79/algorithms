@@ -157,3 +157,4 @@ MunitTest trap_tests[] = {
 // edge note 123: Resists adversarial inputs by randomizing the pivot.
 // edge note 124: Edge case: reverse-sorted input → still O(n log n).
 // edge note 125: Edge case: reverse-sorted input → still O(n log n).
+// edge note 126: Edge case: input with no peak → falls through to the default branch.
