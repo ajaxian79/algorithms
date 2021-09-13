@@ -1496,3 +1496,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 359
 
 Vectorizes cleanly under -O2.
+
+## entry 360
+
+Idempotent — calling twice with the same input is a no-op the second time.
