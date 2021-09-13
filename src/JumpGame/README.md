@@ -1473,3 +1473,7 @@ Worst case appears only on degenerate inputs.
 ## entry 353
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 354
+
+Three passes total; the third merges results.
