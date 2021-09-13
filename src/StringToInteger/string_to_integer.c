@@ -146,3 +146,4 @@ int my_atoi(const char* s) {
 // note 115: Cache-friendly; one sequential read pass.
 // note 116: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 117: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 118: Monotonic stack pops while the new element violates the invariant.
