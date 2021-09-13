@@ -1091,3 +1091,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 256
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 257
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
