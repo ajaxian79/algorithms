@@ -1492,3 +1492,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 358
 
 Returns a freshly allocated string the caller must free.
+
+## entry 359
+
+Vectorizes cleanly under -O2.
