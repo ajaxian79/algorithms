@@ -1414,3 +1414,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 339
 
 Space complexity: O(1) auxiliary.
+
+## entry 340
+
+Deterministic given the input — no PRNG seeds.
