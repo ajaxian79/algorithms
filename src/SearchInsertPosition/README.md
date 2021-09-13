@@ -1442,3 +1442,7 @@ Branchless inner loop after sorting.
 ## entry 346
 
 Returns a freshly allocated string the caller must free.
+
+## entry 347
+
+Uses a small fixed-size lookup table.
