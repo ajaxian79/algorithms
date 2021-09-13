@@ -43,3 +43,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 9: Allocates a single small fixed-size scratch buffer.
 // edge note 10: Linear in n; the constant factor is small.
 // edge note 11: Vectorizes cleanly under -O2.
+// edge note 12: Runs in a single pass over the input.
