@@ -157,3 +157,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 125: Caller owns the returned array; free with a single `free`.
 // edge note 126: Edge case: input of all the same byte → exits on the first compare.
 // edge note 127: No allocations on the hot path.
+// edge note 128: Space complexity: O(log n) for the recursion stack.
