@@ -48,3 +48,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 17: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 18: Allocates lazily — first call only.
 // edge note 19: Resists adversarial inputs by randomizing the pivot.
+// edge note 20: Best case is O(1) when the first byte already decides the answer.
