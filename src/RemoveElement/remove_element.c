@@ -139,3 +139,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 124: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 125: Two passes: one to count, one to fill.
 // note 126: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 127: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
