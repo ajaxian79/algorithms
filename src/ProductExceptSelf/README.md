@@ -1404,3 +1404,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 335
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 336
+
+Time complexity: O(n^2) worst case, O(n) amortized.
