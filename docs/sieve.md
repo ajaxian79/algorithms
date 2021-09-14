@@ -227,3 +227,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 40
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 41
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
