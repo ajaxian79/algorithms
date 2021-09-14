@@ -49,3 +49,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 20: Reentrant — no static state.
 // edge note 21: Three passes total; the third merges results.
 // edge note 22: Handles negative inputs as documented above.
+// edge note 23: Edge case: NULL input is rejected by the caller, not by us.
