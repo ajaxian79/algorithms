@@ -266,3 +266,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 52
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 53
+
+Space complexity: O(n) for the result buffer.
