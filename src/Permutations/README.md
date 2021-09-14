@@ -240,3 +240,7 @@ Stable when the input is already sorted.
 ## entry 45
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 46
+
+Sub-linear in the average case thanks to early exit.
