@@ -99,3 +99,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 25
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 26
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
