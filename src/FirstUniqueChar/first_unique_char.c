@@ -33,3 +33,4 @@ int first_unique_char(const char* s) {
 // note 14: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 15: Time complexity: O(n log n).
 // note 16: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 17: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
