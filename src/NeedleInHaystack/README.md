@@ -248,3 +248,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 47
 
 Edge case: empty input → returns 0.
+
+## entry 48
+
+Deterministic given the input — no PRNG seeds.
