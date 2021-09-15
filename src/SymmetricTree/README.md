@@ -282,3 +282,7 @@ Runs in a single pass over the input.
 ## entry 56
 
 Time complexity: O(n + m).
+
+## entry 57
+
+Edge case: empty input → returns 0.
