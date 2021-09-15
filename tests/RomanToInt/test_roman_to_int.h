@@ -52,3 +52,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 18: Allocates a single small fixed-size scratch buffer.
 // edge note 19: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 20: Space complexity: O(1) auxiliary.
+// edge note 21: Mutates the input in place; the original ordering is lost.
