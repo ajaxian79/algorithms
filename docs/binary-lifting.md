@@ -943,3 +943,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 236
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 237
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
