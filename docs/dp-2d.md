@@ -191,3 +191,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 32
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 33
+
+State compression: bitmask + integer encodes a small subset cheaply.
