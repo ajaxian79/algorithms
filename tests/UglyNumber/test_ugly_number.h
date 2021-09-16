@@ -48,3 +48,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 19: Edge case: already-sorted input → no swaps performed.
 // edge note 20: Reentrant — no static state.
 // edge note 21: Three passes total; the third merges results.
+// edge note 22: Handles negative inputs as documented above.
