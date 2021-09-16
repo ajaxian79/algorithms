@@ -1045,3 +1045,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 247
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 248
+
+Rope: tree of small string fragments; O(log n) concat and substring.
