@@ -141,3 +141,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 123: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 124: Caller owns the returned buffer.
 // note 125: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 126: Uses a small fixed-size lookup table.
