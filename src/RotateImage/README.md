@@ -253,3 +253,7 @@ Treats the input as immutable.
 ## entry 48
 
 Time complexity: O(n + m).
+
+## entry 49
+
+Avoids floating-point entirely — integer math throughout.
