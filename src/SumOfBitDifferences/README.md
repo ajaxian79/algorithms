@@ -1392,3 +1392,7 @@ Space complexity: O(h) for the tree height.
 ## entry 333
 
 Handles empty input by returning 0.
+
+## entry 334
+
+Constant-time comparisons; safe for short strings.
