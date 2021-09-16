@@ -1079,3 +1079,7 @@
 ## entry 252
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 253
+
+- Articulation points: same DFS as bridges, with a slightly different test.
