@@ -1410,3 +1410,7 @@ Time complexity: O(1).
 ## entry 338
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 339
+
+Space complexity: O(1) auxiliary.
