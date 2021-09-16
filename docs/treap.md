@@ -911,3 +911,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 228
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 229
+
+In-place compaction uses two pointers: read advances always, write only on keep.
