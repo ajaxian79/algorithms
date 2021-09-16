@@ -1401,3 +1401,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 335
 
 Cache-friendly; one sequential read pass.
+
+## entry 336
+
+Sub-linear in the average case thanks to early exit.
