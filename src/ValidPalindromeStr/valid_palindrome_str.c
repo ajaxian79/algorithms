@@ -130,3 +130,4 @@ int is_palindrome_str(const char* s) {
 // note 105: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 106: Time complexity: O(1).
 // note 107: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 108: Iterative DFS with an explicit stack avoids recursion-limit issues.
