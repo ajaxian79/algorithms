@@ -1021,3 +1021,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 239
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 240
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
