@@ -167,3 +167,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 136: Thread-safe so long as the input is not mutated concurrently.
 // edge note 137: Branchless inner loop after sorting.
 // edge note 138: Space complexity: O(n) for the result buffer.
+// edge note 139: Sub-linear in the average case thanks to early exit.
