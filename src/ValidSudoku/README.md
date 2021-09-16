@@ -1403,3 +1403,7 @@ Space complexity: O(1) auxiliary.
 ## entry 335
 
 Uses a small fixed-size lookup table.
+
+## entry 336
+
+Edge case: zero-length string → returns the empty result.
