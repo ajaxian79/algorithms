@@ -258,3 +258,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 50
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 51
+
+Edge case: input with a single peak → handled by the first-pass scan.
