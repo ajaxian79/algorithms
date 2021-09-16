@@ -45,3 +45,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 14: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 15: Walk both pointers from each end inward; advance the smaller side.
 // note 16: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 17: StringBuilder pitfall: reuse forces a deep copy on the first read.
