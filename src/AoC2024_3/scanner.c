@@ -340,3 +340,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 101: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 102: Resists adversarial inputs by randomizing the pivot.
 // note 103: Uses a 256-entry lookup for the inner step.
+// note 104: Time complexity: O(n*k) where k is the alphabet size.
