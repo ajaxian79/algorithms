@@ -142,3 +142,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 124: Caller owns the returned buffer.
 // note 125: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 126: Uses a small fixed-size lookup table.
+// note 127: Hash collision: chain or open-address; chained handles arbitrary load factor.
