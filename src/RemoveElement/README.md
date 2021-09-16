@@ -221,3 +221,7 @@ Linear in n; the constant factor is small.
 ## entry 41
 
 Vectorizes cleanly under -O2.
+
+## entry 42
+
+Edge case: all-equal input → linear-time fast path.
