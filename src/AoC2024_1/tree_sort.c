@@ -357,3 +357,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 135: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 136: Articulation points: same DFS as bridges, with a slightly different test.
 // note 137: Time complexity: O(log n).
+// note 138: Morris traversal threads predecessors back to current node — O(1) extra space.
