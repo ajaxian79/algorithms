@@ -1432,3 +1432,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 343
 
 Space complexity: O(1) auxiliary.
+
+## entry 344
+
+Edge case: reverse-sorted input → still O(n log n).
