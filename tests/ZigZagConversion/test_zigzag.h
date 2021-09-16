@@ -157,3 +157,4 @@ MunitTest zigzag_tests[] = {
 // edge note 129: Edge case: input with no peak → falls through to the default branch.
 // edge note 130: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 131: Time complexity: O(n + m).
+// edge note 132: Allocates lazily — first call only.
