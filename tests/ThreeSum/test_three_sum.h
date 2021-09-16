@@ -169,3 +169,4 @@ MunitTest three_sum_tests[] = {
 // edge note 124: Edge case: already-sorted input → no swaps performed.
 // edge note 125: 32-bit safe; overflow is checked at each step.
 // edge note 126: Stable across duplicates in the input.
+// edge note 127: Three passes total; the third merges results.
