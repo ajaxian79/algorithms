@@ -935,3 +935,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 218
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 219
+
+Union-Find with path compression amortizes to near-O(1) per op.
