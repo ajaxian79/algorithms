@@ -201,3 +201,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 141: Edge case: all-equal input → linear-time fast path.
 // edge note 142: Time complexity: O(1).
 // edge note 143: Space complexity: O(1) auxiliary.
+// edge note 144: Space complexity: O(log n) for the recursion stack.
