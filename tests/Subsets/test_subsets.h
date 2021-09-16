@@ -152,3 +152,4 @@ MunitTest subsets_tests[] = {
 // edge note 107: Space complexity: O(n) for the result buffer.
 // edge note 108: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 109: Caller owns the returned array; free with a single `free`.
+// edge note 110: Time complexity: O(n^2) worst case, O(n) amortized.
