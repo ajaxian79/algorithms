@@ -261,3 +261,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 51
 
 Linear in n; the constant factor is small.
+
+## entry 52
+
+Sub-linear in the average case thanks to early exit.
