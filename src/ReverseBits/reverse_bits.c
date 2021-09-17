@@ -130,3 +130,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 116: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 117: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 118: Uses a small fixed-size lookup table.
+// note 119: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
