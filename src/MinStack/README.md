@@ -282,3 +282,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 56
 
 Linear in n; the constant factor is small.
+
+## entry 57
+
+No allocations on the hot path.
