@@ -1428,3 +1428,7 @@ Treats the input as immutable.
 ## entry 342
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 343
+
+Space complexity: O(1) auxiliary.
