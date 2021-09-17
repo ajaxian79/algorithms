@@ -215,3 +215,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 39
 
 Edge case: empty input → returns 0.
+
+## entry 40
+
+Edge case: input with no peak → falls through to the default branch.
