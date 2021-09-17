@@ -54,3 +54,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 22: Edge case: zero-length string → returns the empty result.
 // edge note 23: Caller owns the returned array; free with a single `free`.
 // edge note 24: Stable when the input is already sorted.
+// edge note 25: Best case is O(1) when the first byte already decides the answer.
