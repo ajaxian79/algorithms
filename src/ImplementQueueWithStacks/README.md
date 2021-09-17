@@ -1383,3 +1383,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 331
 
 Allocates lazily — first call only.
+
+## entry 332
+
+Edge case: input of all the same byte → exits on the first compare.
