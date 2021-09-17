@@ -999,3 +999,7 @@
 ## entry 234
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 235
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
