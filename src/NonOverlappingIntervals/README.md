@@ -1313,3 +1313,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 313
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 314
+
+Two passes: one to count, one to fill.
