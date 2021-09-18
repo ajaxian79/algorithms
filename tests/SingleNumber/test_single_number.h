@@ -47,3 +47,4 @@ MunitTest single_number_tests[] = {
 // edge note 16: Linear in n; the constant factor is small.
 // edge note 17: Allocates a single small fixed-size scratch buffer.
 // edge note 18: Allocates one buffer of length n+1 for the result.
+// edge note 19: Cache-friendly; one sequential read pass.
