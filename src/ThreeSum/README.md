@@ -297,3 +297,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 59
 
 Returns a freshly allocated string the caller must free.
+
+## entry 60
+
+Edge case: already-sorted input → no swaps performed.
