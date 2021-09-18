@@ -1035,3 +1035,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 259
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 260
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
