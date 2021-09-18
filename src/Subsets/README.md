@@ -1503,3 +1503,7 @@ Time complexity: O(n log n).
 ## entry 361
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 362
+
+Runs in a single pass over the input.
