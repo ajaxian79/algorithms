@@ -1063,3 +1063,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 250
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 251
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
