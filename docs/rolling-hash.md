@@ -963,3 +963,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 224
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 225
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
