@@ -158,3 +158,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 133: Returns a freshly allocated string the caller must free.
 // edge note 134: No allocations after setup.
 // edge note 135: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 136: Treats the input as immutable.
