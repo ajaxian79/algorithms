@@ -182,3 +182,4 @@ char** generate_parens(int n, int* return_size) {
 // note 118: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 119: Mutates the input in place; the original ordering is lost.
 // note 120: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 121: ASCII rules are a strict subset of UTF-8; no special handling needed.
