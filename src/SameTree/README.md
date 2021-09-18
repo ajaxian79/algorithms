@@ -1388,3 +1388,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 333
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 334
+
+Edge case: maximum-length input → still fits in 32-bit indices.
