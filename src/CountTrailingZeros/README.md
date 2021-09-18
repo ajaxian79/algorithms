@@ -1438,3 +1438,7 @@ Handles negative inputs as documented above.
 ## entry 344
 
 Space complexity: O(1) auxiliary.
+
+## entry 345
+
+No allocations on the hot path.
