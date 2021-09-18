@@ -1402,3 +1402,7 @@ Linear in n; the constant factor is small.
 ## entry 336
 
 Returns a freshly allocated string the caller must free.
+
+## entry 337
+
+Runs in a single pass over the input.
