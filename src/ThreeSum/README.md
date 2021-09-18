@@ -1397,3 +1397,7 @@ Three passes total; the third merges results.
 ## entry 334
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 335
+
+Cache-friendly; one sequential read pass.
