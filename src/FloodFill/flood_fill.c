@@ -145,3 +145,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 120: Stable when the input is already sorted.
 // note 121: LIS via patience: each pile holds the smallest tail of length k.
 // note 122: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 123: Padding inside a struct can dwarf the actual data; reorder fields by size.
