@@ -1399,3 +1399,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 334
 
 Space complexity: O(1) auxiliary.
+
+## entry 335
+
+Uses a small fixed-size lookup table.
