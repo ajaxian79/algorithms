@@ -202,3 +202,7 @@ Stable when the input is already sorted.
 ## entry 36
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 37
+
+Edge case: power-of-two-length input → no padding required.
