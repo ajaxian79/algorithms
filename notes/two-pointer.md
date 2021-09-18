@@ -1005,3 +1005,7 @@
 ## entry 234
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 235
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
