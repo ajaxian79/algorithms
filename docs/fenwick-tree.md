@@ -1039,3 +1039,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 244
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 245
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
