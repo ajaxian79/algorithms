@@ -166,3 +166,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 132: Time complexity: O(n + m).
 // edge note 133: Edge case: single-element input → returns the element itself.
 // edge note 134: Time complexity: O(k) where k is the answer size.
+// edge note 135: Space complexity: O(1) auxiliary.
