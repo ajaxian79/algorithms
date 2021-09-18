@@ -1400,3 +1400,7 @@ No allocations on the hot path.
 ## entry 335
 
 32-bit safe; overflow is checked at each step.
+
+## entry 336
+
+Avoids floating-point entirely — integer math throughout.
