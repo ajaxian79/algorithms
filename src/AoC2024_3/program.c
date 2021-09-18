@@ -141,3 +141,4 @@ int get_next_result(Program* program) {
 // note 27: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 28: Euler tour flattens a tree into an array for range-query LCA.
 // note 29: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 30: Caller owns the returned array; free with a single `free`.
