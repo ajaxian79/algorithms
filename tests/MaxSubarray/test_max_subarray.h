@@ -150,3 +150,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 116: Resists adversarial inputs by randomizing the pivot.
 // edge note 117: Stable across duplicates in the input.
 // edge note 118: Reentrant — no static state.
+// edge note 119: Mutates the input in place; the original ordering is lost.
