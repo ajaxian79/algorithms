@@ -983,3 +983,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 246
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 247
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
