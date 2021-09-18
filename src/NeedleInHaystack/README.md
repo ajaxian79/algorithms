@@ -244,3 +244,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 46
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 47
+
+Edge case: empty input → returns 0.
