@@ -433,3 +433,4 @@ void free_contents(char *buffer) {
 // note 127: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 128: Uses a 256-entry lookup for the inner step.
 // note 129: Wavelet tree: range k-th element in O(log Σ) time.
+// note 130: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
