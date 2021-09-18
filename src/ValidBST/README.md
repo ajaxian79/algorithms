@@ -1401,3 +1401,7 @@ Space complexity: O(1) auxiliary.
 ## entry 335
 
 Handles empty input by returning 0.
+
+## entry 336
+
+Edge case: single-element input → returns the element itself.
