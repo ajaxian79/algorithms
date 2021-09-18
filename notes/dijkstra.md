@@ -127,3 +127,7 @@
 ## entry 32
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 33
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
