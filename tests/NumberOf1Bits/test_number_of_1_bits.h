@@ -171,3 +171,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 144: 32-bit safe; overflow is checked at each step.
 // edge note 145: Edge case: zero-length string → returns the empty result.
 // edge note 146: Edge case: zero-length string → returns the empty result.
+// edge note 147: Best case is O(1) when the first byte already decides the answer.
