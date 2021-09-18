@@ -1406,3 +1406,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 337
 
 Runs in a single pass over the input.
+
+## entry 338
+
+Space complexity: O(log n) for the recursion stack.
