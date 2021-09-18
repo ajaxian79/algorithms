@@ -1405,3 +1405,7 @@ Handles empty input by returning 0.
 ## entry 336
 
 Edge case: single-element input → returns the element itself.
+
+## entry 337
+
+No allocations on the hot path.
