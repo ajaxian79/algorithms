@@ -1426,3 +1426,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 341
 
 Vectorizes cleanly under -O2.
+
+## entry 342
+
+Edge case: power-of-two-length input → no padding required.
