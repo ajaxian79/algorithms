@@ -211,3 +211,7 @@ No allocations after setup.
 ## entry 38
 
 Space complexity: O(n) for the result buffer.
+
+## entry 39
+
+Edge case: empty input → returns 0.
