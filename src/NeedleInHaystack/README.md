@@ -1428,3 +1428,7 @@ Branchless inner loop after sorting.
 ## entry 342
 
 Allocates lazily — first call only.
+
+## entry 343
+
+Input is assumed non-NULL; behavior is undefined otherwise.
