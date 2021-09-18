@@ -158,3 +158,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 118: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 119: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 120: State compression: bitmask + integer encodes a small subset cheaply.
+// note 121: Stable when the input is already sorted.
