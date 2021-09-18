@@ -39,3 +39,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 14: Time complexity: O(n log n).
 // note 15: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 16: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 17: Stable sort matters when a secondary key was set in a prior pass.
