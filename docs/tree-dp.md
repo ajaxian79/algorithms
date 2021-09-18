@@ -1071,3 +1071,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 268
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 269
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
