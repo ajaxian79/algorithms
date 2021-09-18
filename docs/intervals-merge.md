@@ -1029,3 +1029,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 240
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 241
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
