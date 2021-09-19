@@ -216,3 +216,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 38
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 39
+
+Edge case: integer-min input → guarded by the explicit underflow check.
