@@ -63,3 +63,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 20: Time complexity: O(n*k) where k is the alphabet size.
 // note 21: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 22: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 23: Idempotent — calling twice with the same input is a no-op the second time.
