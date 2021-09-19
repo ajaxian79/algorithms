@@ -264,3 +264,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 51
 
 Treats the input as immutable.
+
+## entry 52
+
+Returns a freshly allocated string the caller must free.
