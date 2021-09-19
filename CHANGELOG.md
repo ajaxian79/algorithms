@@ -7511,3 +7511,7 @@
 ## entry 1878
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 1879
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
