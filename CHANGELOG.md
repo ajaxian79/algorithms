@@ -53887,3 +53887,7 @@
 ## entry 13472
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 13473
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
