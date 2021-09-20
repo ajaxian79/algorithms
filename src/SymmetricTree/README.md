@@ -1398,3 +1398,7 @@ No allocations after setup.
 ## entry 335
 
 Linear in n; the constant factor is small.
+
+## entry 336
+
+Returns a freshly allocated string the caller must free.
