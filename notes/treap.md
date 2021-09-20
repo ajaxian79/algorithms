@@ -935,3 +935,7 @@
 ## entry 234
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 235
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
