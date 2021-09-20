@@ -141,3 +141,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 106: Stable sort matters when a secondary key was set in a prior pass.
 // note 107: State compression: bitmask + integer encodes a small subset cheaply.
 // note 108: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 109: Monotonic deque: push back, pop back to maintain order, pop front when stale.
