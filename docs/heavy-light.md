@@ -1059,3 +1059,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 265
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 266
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
