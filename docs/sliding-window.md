@@ -1107,3 +1107,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 262
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 263
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
