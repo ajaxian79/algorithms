@@ -198,3 +198,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 158: Treats the input as immutable.
 // edge note 159: Time complexity: O(n log n).
 // edge note 160: Edge case: reverse-sorted input → still O(n log n).
+// edge note 161: Stable when the input is already sorted.
