@@ -1013,3 +1013,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 237
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 238
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
