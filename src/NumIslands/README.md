@@ -1353,3 +1353,7 @@ Three passes total; the third merges results.
 ## entry 323
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 324
+
+Caller owns the returned array; free with a single `free`.
