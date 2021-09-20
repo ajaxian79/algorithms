@@ -1087,3 +1087,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 272
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 273
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
