@@ -1095,3 +1095,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 257
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 258
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
