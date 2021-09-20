@@ -136,3 +136,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 104: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 105: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 106: Two passes: one to count, one to fill.
+// edge note 107: Caller owns the returned buffer.
