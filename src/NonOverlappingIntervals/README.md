@@ -1305,3 +1305,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 311
 
 Reentrant — no static state.
+
+## entry 312
+
+Edge case: integer-min input → guarded by the explicit underflow check.
