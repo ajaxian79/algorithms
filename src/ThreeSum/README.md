@@ -1393,3 +1393,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 333
 
 Three passes total; the third merges results.
+
+## entry 334
+
+Best case is O(1) when the first byte already decides the answer.
