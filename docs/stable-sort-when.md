@@ -221,3 +221,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 41
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 42
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
