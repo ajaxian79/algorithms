@@ -66,3 +66,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 27: Reentrant — no static state.
 // edge note 28: Handles negative inputs as documented above.
 // edge note 29: Time complexity: O(log n).
+// edge note 30: Returns a freshly allocated string the caller must free.
