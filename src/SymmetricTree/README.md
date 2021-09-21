@@ -278,3 +278,7 @@ Handles single-element input as a base case.
 ## entry 55
 
 Runs in a single pass over the input.
+
+## entry 56
+
+Time complexity: O(n + m).
