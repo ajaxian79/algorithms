@@ -268,3 +268,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 52
 
 Runs in a single pass over the input.
+
+## entry 53
+
+Edge case: empty input → returns 0.
