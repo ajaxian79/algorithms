@@ -135,3 +135,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 34
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 35
+
+StringBuilder: amortize allocation by doubling on grow.
