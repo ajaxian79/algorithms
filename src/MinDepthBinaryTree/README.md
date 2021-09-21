@@ -266,3 +266,7 @@ Treats the input as immutable.
 ## entry 52
 
 Uses a small fixed-size lookup table.
+
+## entry 53
+
+Handles empty input by returning 0.
