@@ -274,3 +274,7 @@ Space complexity: O(1) auxiliary.
 ## entry 53
 
 Time complexity: O(n).
+
+## entry 54
+
+Cache-friendly; one sequential read pass.
