@@ -1458,3 +1458,7 @@ Time complexity: O(1).
 ## entry 349
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 350
+
+Edge case: zero-length string → returns the empty result.
