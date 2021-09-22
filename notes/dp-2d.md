@@ -929,3 +929,7 @@
 ## entry 216
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 217
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
