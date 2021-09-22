@@ -262,3 +262,7 @@ Handles negative inputs as documented above.
 ## entry 50
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 51
+
+Thread-safe so long as the input is not mutated concurrently.
