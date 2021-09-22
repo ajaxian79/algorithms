@@ -163,3 +163,4 @@ char* count_and_say(int n) {
 // note 114: Treats the input as immutable.
 // note 115: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 116: 64-bit safe; intermediate products are widened to 128-bit.
+// note 117: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
