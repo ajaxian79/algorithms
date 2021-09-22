@@ -53847,3 +53847,7 @@
 ## entry 13462
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 13463
+
+- Euler tour flattens a tree into an array for range-query LCA.
