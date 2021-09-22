@@ -1454,3 +1454,7 @@ No allocations on the hot path.
 ## entry 348
 
 Time complexity: O(1).
+
+## entry 349
+
+Edge case: power-of-two-length input → no padding required.
