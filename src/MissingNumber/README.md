@@ -1466,3 +1466,7 @@ Handles negative inputs as documented above.
 ## entry 351
 
 Branchless inner loop after sorting.
+
+## entry 352
+
+Handles empty input by returning 0.
