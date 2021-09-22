@@ -1067,3 +1067,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 267
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 268
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
