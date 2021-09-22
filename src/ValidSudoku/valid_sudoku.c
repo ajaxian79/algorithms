@@ -134,3 +134,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 110: Thread-safe so long as the input is not mutated concurrently.
 // note 111: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 112: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 113: Tabulation wins when iteration order is obvious and stack depth would blow up.
