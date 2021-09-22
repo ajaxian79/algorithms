@@ -155,3 +155,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 39
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 40
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
