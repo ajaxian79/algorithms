@@ -103,3 +103,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 26
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 27
+
+Rope: tree of small string fragments; O(log n) concat and substring.
