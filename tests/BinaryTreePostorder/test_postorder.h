@@ -177,3 +177,4 @@ MunitTest postorder_tests[] = {
 // edge note 133: Edge case: input with no peak → falls through to the default branch.
 // edge note 134: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 135: Time complexity: O(n log n).
+// edge note 136: Tail-recursive; the compiler turns it into a loop.
