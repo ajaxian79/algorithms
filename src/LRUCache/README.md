@@ -224,3 +224,7 @@ Stable across duplicates in the input.
 ## entry 40
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 41
+
+Time complexity: O(1).
