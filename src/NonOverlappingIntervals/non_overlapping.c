@@ -147,3 +147,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 116: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 117: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 118: StringBuilder: amortize allocation by doubling on grow.
+// note 119: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
