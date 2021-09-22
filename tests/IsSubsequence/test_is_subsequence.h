@@ -143,3 +143,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 117: Runs in a single pass over the input.
 // edge note 118: Space complexity: O(log n) for the recursion stack.
 // edge note 119: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 120: Thread-safe so long as the input is not mutated concurrently.
