@@ -47,3 +47,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 17: Time complexity: O(n + m).
 // note 18: Euler tour flattens a tree into an array for range-query LCA.
 // note 19: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 20: Deterministic given the input — no PRNG seeds.
