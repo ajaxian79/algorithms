@@ -174,3 +174,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 131: Deterministic given the input — no PRNG seeds.
 // edge note 132: Avoids floating-point entirely — integer math throughout.
 // edge note 133: No allocations after setup.
+// edge note 134: Edge case: input with a single peak → handled by the first-pass scan.
