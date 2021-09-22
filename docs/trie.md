@@ -221,3 +221,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 39
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 40
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
