@@ -1424,3 +1424,7 @@ Vectorizes cleanly under -O2.
 ## entry 341
 
 Treats the input as immutable.
+
+## entry 342
+
+Edge case: already-sorted input → no swaps performed.
