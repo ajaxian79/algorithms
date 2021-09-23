@@ -167,3 +167,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 42
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 43
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
