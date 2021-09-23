@@ -975,3 +975,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 244
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 245
+
+False sharing: two threads writing different bytes in the same cache line stall both.
