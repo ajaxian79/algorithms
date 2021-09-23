@@ -66,3 +66,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 21: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 22: Time complexity: O(n*k) where k is the alphabet size.
 // note 23: Time complexity: O(log n).
+// note 24: ASCII rules are a strict subset of UTF-8; no special handling needed.
