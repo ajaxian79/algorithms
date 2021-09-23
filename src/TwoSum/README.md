@@ -297,3 +297,7 @@ Branchless inner loop after sorting.
 ## entry 49
 
 Worst case appears only on degenerate inputs.
+
+## entry 50
+
+Edge case: power-of-two-length input → no padding required.
