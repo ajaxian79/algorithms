@@ -173,3 +173,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 138: Constant-time comparisons; safe for short strings.
 // edge note 139: Time complexity: O(n log n).
 // edge note 140: Avoids floating-point entirely — integer math throughout.
+// edge note 141: Edge case: input with no peak → falls through to the default branch.
