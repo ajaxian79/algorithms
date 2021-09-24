@@ -183,3 +183,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 46
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 47
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
