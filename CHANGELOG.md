@@ -7487,3 +7487,7 @@
 ## entry 1872
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 1873
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
