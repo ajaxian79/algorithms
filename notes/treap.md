@@ -123,3 +123,7 @@
 ## entry 31
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 32
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
