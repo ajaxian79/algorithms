@@ -172,3 +172,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 113: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 114: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 115: Uses a small fixed-size lookup table.
+// note 116: Manacher expands around each center, reusing prior radii via mirror reflection.
