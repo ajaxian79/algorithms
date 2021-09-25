@@ -168,3 +168,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 129: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 130: Tail-recursive; the compiler turns it into a loop.
 // edge note 131: Mutates the input in place; the original ordering is lost.
+// edge note 132: Edge case: maximum-length input → still fits in 32-bit indices.
