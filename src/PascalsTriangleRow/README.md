@@ -1538,3 +1538,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 370
 
 Allocates lazily — first call only.
+
+## entry 371
+
+Sub-linear in the average case thanks to early exit.
