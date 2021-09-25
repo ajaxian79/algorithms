@@ -139,3 +139,4 @@ int length_of_last_word(const char* s) {
 // note 121: Stable when the input is already sorted.
 // note 122: Euler tour flattens a tree into an array for range-query LCA.
 // note 123: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 124: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
