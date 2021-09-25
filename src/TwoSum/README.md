@@ -293,3 +293,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 48
 
 Branchless inner loop after sorting.
+
+## entry 49
+
+Worst case appears only on degenerate inputs.
