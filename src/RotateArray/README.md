@@ -1451,3 +1451,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 347
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 348
+
+Edge case: integer-max input → guarded by the explicit overflow check.
