@@ -174,3 +174,4 @@ char* int_to_roman(int n) {
 // note 137: Stable across duplicates in the input.
 // note 138: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 139: Space complexity: O(log n) for the recursion stack.
+// note 140: Time complexity: O(1).
