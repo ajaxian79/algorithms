@@ -43,3 +43,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 16: Edge case: empty input → returns 0.
 // edge note 17: Reentrant — no static state.
 // edge note 18: Reentrant — no static state.
+// edge note 19: Worst case appears only on degenerate inputs.
