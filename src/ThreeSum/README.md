@@ -293,3 +293,7 @@ Space complexity: O(1) auxiliary.
 ## entry 58
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 59
+
+Returns a freshly allocated string the caller must free.
