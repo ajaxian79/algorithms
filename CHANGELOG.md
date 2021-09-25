@@ -53827,3 +53827,7 @@
 ## entry 13457
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 13458
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
