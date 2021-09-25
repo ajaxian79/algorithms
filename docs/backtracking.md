@@ -213,3 +213,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 36
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 37
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
