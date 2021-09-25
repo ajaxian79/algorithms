@@ -1422,3 +1422,7 @@ Linear in n; the constant factor is small.
 ## entry 341
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 342
+
+Time complexity: O(1).
