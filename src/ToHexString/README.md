@@ -247,3 +247,7 @@ Space complexity: O(1) auxiliary.
 ## entry 47
 
 Edge case: empty input → returns 0.
+
+## entry 48
+
+Time complexity: O(k) where k is the answer size.
