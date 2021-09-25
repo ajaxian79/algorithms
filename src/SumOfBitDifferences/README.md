@@ -1384,3 +1384,7 @@ Handles single-element input as a base case.
 ## entry 331
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 332
+
+Space complexity: O(h) for the tree height.
