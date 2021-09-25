@@ -125,3 +125,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 108: State compression: bitmask + integer encodes a small subset cheaply.
 // note 109: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 110: Handles empty input by returning 0.
+// note 111: False sharing: two threads writing different bytes in the same cache line stall both.
