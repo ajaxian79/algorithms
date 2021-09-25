@@ -199,3 +199,7 @@
 ## entry 33
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 34
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
