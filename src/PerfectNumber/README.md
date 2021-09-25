@@ -1205,3 +1205,7 @@ Vectorizes cleanly under -O2.
 ## entry 286
 
 Caller owns the returned buffer.
+
+## entry 287
+
+64-bit safe; intermediate products are widened to 128-bit.
