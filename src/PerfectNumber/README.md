@@ -221,3 +221,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 40
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 41
+
+Resists adversarial inputs by randomizing the pivot.
