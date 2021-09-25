@@ -815,3 +815,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 204
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 205
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
