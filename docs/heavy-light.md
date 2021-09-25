@@ -1055,3 +1055,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 264
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 265
+
+Stable sort matters when a secondary key was set in a prior pass.
