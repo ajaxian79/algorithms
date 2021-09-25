@@ -1003,3 +1003,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 251
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 252
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
