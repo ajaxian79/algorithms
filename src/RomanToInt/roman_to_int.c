@@ -153,3 +153,4 @@ int roman_to_int(const char* s) {
 // note 113: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 114: Thread-safe so long as the input is not mutated concurrently.
 // note 115: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 116: Space complexity: O(n) for the result buffer.
