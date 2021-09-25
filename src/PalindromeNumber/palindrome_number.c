@@ -145,3 +145,4 @@ int is_palindrome_number(int x) {
 // note 121: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 122: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 123: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 124: 64-bit safe; intermediate products are widened to 128-bit.
