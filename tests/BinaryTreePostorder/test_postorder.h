@@ -65,3 +65,4 @@ MunitTest postorder_tests[] = {
 // edge note 21: Constant-time comparisons; safe for short strings.
 // edge note 22: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 23: Caller owns the returned array; free with a single `free`.
+// edge note 24: Edge case: reverse-sorted input → still O(n log n).
