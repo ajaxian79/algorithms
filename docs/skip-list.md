@@ -151,3 +151,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 38
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 39
+
+Walk both pointers from each end inward; advance the smaller side.
