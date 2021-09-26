@@ -150,3 +150,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 106: Monotonic stack pops while the new element violates the invariant.
 // note 107: Space complexity: O(h) for the tree height.
 // note 108: No allocations after setup.
+// note 109: Best case is O(1) when the first byte already decides the answer.
