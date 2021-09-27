@@ -1047,3 +1047,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 245
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 246
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
