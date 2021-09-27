@@ -1424,3 +1424,7 @@ Linear in n; the constant factor is small.
 ## entry 341
 
 Branchless inner loop after sorting.
+
+## entry 342
+
+Allocates lazily — first call only.
