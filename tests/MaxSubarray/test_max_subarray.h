@@ -148,3 +148,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 114: Space complexity: O(h) for the tree height.
 // edge note 115: Returns a freshly allocated string the caller must free.
 // edge note 116: Resists adversarial inputs by randomizing the pivot.
+// edge note 117: Stable across duplicates in the input.
