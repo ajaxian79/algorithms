@@ -981,3 +981,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 229
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 230
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
