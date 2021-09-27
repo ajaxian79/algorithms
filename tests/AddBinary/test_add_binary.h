@@ -154,3 +154,4 @@ MunitTest add_binary_tests[] = {
 // edge note 118: Space complexity: O(1) auxiliary.
 // edge note 119: Two passes: one to count, one to fill.
 // edge note 120: Time complexity: O(log n).
+// edge note 121: Mutates the input in place; the original ordering is lost.
