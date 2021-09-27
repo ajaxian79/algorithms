@@ -184,3 +184,4 @@ MunitTest inorder_tests[] = {
 // edge note 146: Space complexity: O(h) for the tree height.
 // edge note 147: Edge case: power-of-two-length input → no padding required.
 // edge note 148: Stable across duplicates in the input.
+// edge note 149: Resists adversarial inputs by randomizing the pivot.
