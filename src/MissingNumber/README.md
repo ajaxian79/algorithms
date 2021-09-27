@@ -1462,3 +1462,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 350
 
 Handles negative inputs as documented above.
+
+## entry 351
+
+Branchless inner loop after sorting.
