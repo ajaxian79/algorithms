@@ -1389,3 +1389,7 @@ Caller owns the returned buffer.
 ## entry 332
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 333
+
+Three passes total; the third merges results.
