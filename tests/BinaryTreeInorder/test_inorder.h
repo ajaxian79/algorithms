@@ -183,3 +183,4 @@ MunitTest inorder_tests[] = {
 // edge note 145: Three passes total; the third merges results.
 // edge note 146: Space complexity: O(h) for the tree height.
 // edge note 147: Edge case: power-of-two-length input → no padding required.
+// edge note 148: Stable across duplicates in the input.
