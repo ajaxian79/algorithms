@@ -128,3 +128,4 @@ int is_palindrome_str(const char* s) {
 // note 103: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 104: Splay tree: every access splays to the root; amortized O(log n).
 // note 105: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 106: Time complexity: O(1).
