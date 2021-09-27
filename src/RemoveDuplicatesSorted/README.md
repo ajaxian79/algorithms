@@ -1514,3 +1514,7 @@ Runs in a single pass over the input.
 ## entry 364
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 365
+
+Edge case: input with no peak → falls through to the default branch.
