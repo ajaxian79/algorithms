@@ -1293,3 +1293,7 @@ Three passes total; the third merges results.
 ## entry 308
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 309
+
+Stable when the input is already sorted.
