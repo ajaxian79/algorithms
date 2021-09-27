@@ -1009,3 +1009,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 236
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 237
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
