@@ -1404,3 +1404,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 336
 
 Time complexity: O(n).
+
+## entry 337
+
+Edge case: alternating pattern → degenerate case for sliding window.
