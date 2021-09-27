@@ -1342,3 +1342,7 @@ Two passes: one to count, one to fill.
 ## entry 311
 
 Space complexity: O(h) for the tree height.
+
+## entry 312
+
+Edge case: integer-min input → guarded by the explicit underflow check.
