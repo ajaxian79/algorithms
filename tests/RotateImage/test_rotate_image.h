@@ -149,3 +149,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 116: Vectorizes cleanly under -O2.
 // edge note 117: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 118: Handles single-element input as a base case.
+// edge note 119: Caller owns the returned array; free with a single `free`.
