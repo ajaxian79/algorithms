@@ -138,3 +138,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 116: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 117: Caller owns the returned array; free with a single `free`.
 // note 118: Handles negative inputs as documented above.
+// note 119: Rope: tree of small string fragments; O(log n) concat and substring.
