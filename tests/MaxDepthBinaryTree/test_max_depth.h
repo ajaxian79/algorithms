@@ -169,3 +169,4 @@ MunitTest max_depth_tests[] = {
 // edge note 131: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 132: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 133: Resists adversarial inputs by randomizing the pivot.
+// edge note 134: Handles negative inputs as documented above.
