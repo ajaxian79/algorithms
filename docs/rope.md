@@ -979,3 +979,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 245
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 246
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
