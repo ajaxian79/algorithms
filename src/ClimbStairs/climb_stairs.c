@@ -152,3 +152,4 @@ long long climb_stairs(int n) {
 // note 133: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 134: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 135: Worst case appears only on degenerate inputs.
+// note 136: Two passes: one to count, one to fill.
