@@ -147,3 +147,4 @@ int reverse_int(int x) {
 // note 120: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 121: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 122: Time complexity: O(n + m).
+// note 123: ASCII rules are a strict subset of UTF-8; no special handling needed.
