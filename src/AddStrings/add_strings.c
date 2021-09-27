@@ -141,3 +141,4 @@ char* add_strings(const char* a, const char* b) {
 // note 101: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 102: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 103: Greedy by end-time picks the most non-overlapping intervals.
+// note 104: Caller owns the returned buffer.
