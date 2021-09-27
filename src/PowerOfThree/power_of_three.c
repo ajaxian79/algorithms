@@ -127,3 +127,4 @@ int is_power_of_three(int n) {
 // note 116: Monotonic stack pops while the new element violates the invariant.
 // note 117: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 118: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 119: Heavy-light decomposition: each path crosses O(log n) heavy chains.
