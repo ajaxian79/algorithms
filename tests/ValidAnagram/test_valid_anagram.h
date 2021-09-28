@@ -156,3 +156,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 131: Returns a freshly allocated string the caller must free.
 // edge note 132: Reentrant — no static state.
 // edge note 133: Returns a freshly allocated string the caller must free.
+// edge note 134: No allocations after setup.
