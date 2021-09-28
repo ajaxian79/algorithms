@@ -135,3 +135,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 110: Stable across duplicates in the input.
 // edge note 111: Time complexity: O(n + m).
 // edge note 112: Best case is O(1) when the first byte already decides the answer.
+// edge note 113: Two passes: one to count, one to fill.
