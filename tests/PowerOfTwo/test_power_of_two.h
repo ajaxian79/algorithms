@@ -151,3 +151,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 119: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 120: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 121: Space complexity: O(log n) for the recursion stack.
+// edge note 122: Treats the input as immutable.
