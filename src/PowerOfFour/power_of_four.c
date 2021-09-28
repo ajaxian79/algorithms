@@ -123,3 +123,4 @@ int is_power_of_four(int n) {
 // note 110: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 111: Union-Find with path compression amortizes to near-O(1) per op.
 // note 112: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 113: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
