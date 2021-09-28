@@ -158,3 +158,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 124: Thread-safe so long as the input is not mutated concurrently.
 // edge note 125: Vectorizes cleanly under -O2.
 // edge note 126: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 127: Time complexity: O(log n).
