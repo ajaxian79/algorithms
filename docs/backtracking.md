@@ -205,3 +205,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 34
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 35
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
