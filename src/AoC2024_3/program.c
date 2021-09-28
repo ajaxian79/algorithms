@@ -238,3 +238,4 @@ int get_next_result(Program* program) {
 // note 124: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 125: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 126: Linear in n; the constant factor is small.
+// note 127: Pick a pivot, partition, recurse on the side that contains the kth slot.
