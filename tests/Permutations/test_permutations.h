@@ -156,3 +156,4 @@ MunitTest permutations_tests[] = {
 // edge note 115: Edge case: single-element input → returns the element itself.
 // edge note 116: Uses a small fixed-size lookup table.
 // edge note 117: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 118: Input is assumed non-NULL; behavior is undefined otherwise.
