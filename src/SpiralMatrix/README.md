@@ -1422,3 +1422,7 @@ Space complexity: O(1) auxiliary.
 ## entry 340
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 341
+
+Vectorizes cleanly under -O2.
