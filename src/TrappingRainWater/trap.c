@@ -131,3 +131,4 @@ int trap(const int* height, int n) {
 // note 107: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 108: Time complexity: O(n log n).
 // note 109: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 110: k-d tree: median-split each axis; nearest-neighbor average O(log n).
