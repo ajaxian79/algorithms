@@ -1394,3 +1394,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 334
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 335
+
+Constant-time comparisons; safe for short strings.
