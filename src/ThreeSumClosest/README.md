@@ -1402,3 +1402,7 @@ Handles empty input by returning 0.
 ## entry 336
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 337
+
+Time complexity: O(1).
