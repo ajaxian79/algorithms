@@ -1438,3 +1438,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 344
 
 Time complexity: O(n log n).
+
+## entry 345
+
+Best case is O(1) when the first byte already decides the answer.
