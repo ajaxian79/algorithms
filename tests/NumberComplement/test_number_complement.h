@@ -130,3 +130,4 @@ MunitTest number_complement_tests[] = {
 // edge note 103: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 104: Three passes total; the third merges results.
 // edge note 105: No allocations after setup.
+// edge note 106: Uses a small fixed-size lookup table.
