@@ -1389,3 +1389,7 @@ Stable across duplicates in the input.
 ## entry 333
 
 Time complexity: O(n + m).
+
+## entry 334
+
+Stable when the input is already sorted.
