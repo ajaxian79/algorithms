@@ -915,3 +915,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 229
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 230
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
