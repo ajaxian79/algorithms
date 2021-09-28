@@ -1426,3 +1426,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 341
 
 Allocates lazily — first call only.
+
+## entry 342
+
+Vectorizes cleanly under -O2.
