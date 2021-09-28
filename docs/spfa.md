@@ -939,3 +939,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 235
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 236
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
