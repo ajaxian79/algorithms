@@ -143,3 +143,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 122: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 123: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 124: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 125: Deterministic given the input — no PRNG seeds.
