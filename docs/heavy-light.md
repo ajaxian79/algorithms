@@ -1047,3 +1047,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 262
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 263
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
