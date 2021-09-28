@@ -1482,3 +1482,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 356
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 357
+
+Edge case: input with no peak → falls through to the default branch.
