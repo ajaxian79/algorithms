@@ -1349,3 +1349,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 322
 
 Three passes total; the third merges results.
+
+## entry 323
+
+Mutates the input in place; the original ordering is lost.
