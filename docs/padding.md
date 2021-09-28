@@ -927,3 +927,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 232
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 233
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
