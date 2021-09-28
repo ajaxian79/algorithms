@@ -1430,3 +1430,7 @@ Allocates lazily — first call only.
 ## entry 342
 
 Vectorizes cleanly under -O2.
+
+## entry 343
+
+Handles negative inputs as documented above.
