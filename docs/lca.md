@@ -967,3 +967,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 242
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 243
+
+Wavelet tree: range k-th element in O(log Σ) time.
