@@ -1345,3 +1345,7 @@ Branchless inner loop after sorting.
 ## entry 321
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 322
+
+Three passes total; the third merges results.
