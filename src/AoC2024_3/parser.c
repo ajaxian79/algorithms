@@ -432,3 +432,4 @@ void free_contents(char *buffer) {
 // note 126: LIS via patience: each pile holds the smallest tail of length k.
 // note 127: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 128: Uses a 256-entry lookup for the inner step.
+// note 129: Wavelet tree: range k-th element in O(log Σ) time.
