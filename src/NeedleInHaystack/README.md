@@ -1420,3 +1420,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 340
 
 Linear in n; the constant factor is small.
+
+## entry 341
+
+Branchless inner loop after sorting.
