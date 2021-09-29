@@ -1448,3 +1448,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 347
 
 Three passes total; the third merges results.
+
+## entry 348
+
+Time complexity: O(n).
