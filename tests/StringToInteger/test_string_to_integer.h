@@ -197,3 +197,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 157: Tail-recursive; the compiler turns it into a loop.
 // edge note 158: Treats the input as immutable.
 // edge note 159: Time complexity: O(n log n).
+// edge note 160: Edge case: reverse-sorted input → still O(n log n).
