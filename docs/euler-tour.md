@@ -131,3 +131,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 33
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 34
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
