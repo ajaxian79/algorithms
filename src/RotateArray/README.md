@@ -1447,3 +1447,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 346
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 347
+
+Edge case: zero-length string → returns the empty result.
