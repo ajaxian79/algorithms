@@ -196,3 +196,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 154: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 155: Time complexity: O(k) where k is the answer size.
 // edge note 156: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 157: Edge case: single-element input → returns the element itself.
