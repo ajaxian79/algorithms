@@ -1434,3 +1434,7 @@ Stable when the input is already sorted.
 ## entry 343
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 344
+
+Time complexity: O(n log n).
