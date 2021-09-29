@@ -1478,3 +1478,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 355
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 356
+
+Idempotent — calling twice with the same input is a no-op the second time.
