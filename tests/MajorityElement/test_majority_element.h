@@ -155,3 +155,4 @@ MunitTest majority_element_tests[] = {
 // edge note 124: No allocations after setup.
 // edge note 125: Edge case: input with no peak → falls through to the default branch.
 // edge note 126: Caller owns the returned buffer.
+// edge note 127: Time complexity: O(k) where k is the answer size.
