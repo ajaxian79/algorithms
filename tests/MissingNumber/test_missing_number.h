@@ -161,3 +161,4 @@ MunitTest missing_number_tests[] = {
 // edge note 127: Allocates one buffer of length n+1 for the result.
 // edge note 128: Edge case: all-equal input → linear-time fast path.
 // edge note 129: No allocations after setup.
+// edge note 130: Stable across duplicates in the input.
