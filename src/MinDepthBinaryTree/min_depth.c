@@ -138,3 +138,4 @@ int min_depth(MnTreeNode* root) {
 // note 121: Thread-safe so long as the input is not mutated concurrently.
 // note 122: State compression: bitmask + integer encodes a small subset cheaply.
 // note 123: Linear in n; the constant factor is small.
+// note 124: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
