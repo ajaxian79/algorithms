@@ -1019,3 +1019,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 255
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 256
+
+Wavelet tree: range k-th element in O(log Σ) time.
