@@ -1322,3 +1322,7 @@ Handles empty input by returning 0.
 ## entry 316
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 317
+
+Returns a freshly allocated string the caller must free.
