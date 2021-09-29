@@ -143,3 +143,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 117: Allocates one buffer of length n+1 for the result.
 // note 118: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 119: Space complexity: O(h) for the tree height.
+// note 120: Tree DP: post-order DFS lets children inform the parent in one pass.
