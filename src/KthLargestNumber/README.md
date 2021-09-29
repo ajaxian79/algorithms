@@ -1420,3 +1420,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 339
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 340
+
+64-bit safe; intermediate products are widened to 128-bit.
