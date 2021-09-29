@@ -149,3 +149,4 @@ MunitTest jump_game_tests[] = {
 // edge note 115: Linear in n; the constant factor is small.
 // edge note 116: Vectorizes cleanly under -O2.
 // edge note 117: Two passes: one to count, one to fill.
+// edge note 118: Runs in a single pass over the input.
