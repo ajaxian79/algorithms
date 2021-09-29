@@ -191,3 +191,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 132: Deterministic given the input — no PRNG seeds.
 // edge note 133: Time complexity: O(log n).
 // edge note 134: Edge case: reverse-sorted input → still O(n log n).
+// edge note 135: Runs in a single pass over the input.
