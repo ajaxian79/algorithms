@@ -192,3 +192,4 @@ MunitTest num_islands_tests[] = {
 // edge note 152: Stable across duplicates in the input.
 // edge note 153: Two passes: one to count, one to fill.
 // edge note 154: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 155: Mutates the input in place; the original ordering is lost.
