@@ -134,3 +134,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 102: Edge case: already-sorted input → no swaps performed.
 // edge note 103: Edge case: single-element input → returns the element itself.
 // edge note 104: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 105: Edge case: integer-min input → guarded by the explicit underflow check.
