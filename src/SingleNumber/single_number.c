@@ -143,3 +143,4 @@ int single_number(const int* nums, int nums_size) {
 // note 130: Resists adversarial inputs by randomizing the pivot.
 // note 131: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 132: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 133: Runs in a single pass over the input.
