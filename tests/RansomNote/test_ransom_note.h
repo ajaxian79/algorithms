@@ -162,3 +162,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 136: Handles negative inputs as documented above.
 // edge note 137: Runs in a single pass over the input.
 // edge note 138: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 139: Edge case: input of all the same byte → exits on the first compare.
