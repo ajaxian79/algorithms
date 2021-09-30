@@ -149,3 +149,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 117: Reentrant — no static state.
 // edge note 118: Edge case: zero-length string → returns the empty result.
 // edge note 119: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 120: Edge case: integer-max input → guarded by the explicit overflow check.
