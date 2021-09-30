@@ -1035,3 +1035,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 259
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 260
+
+Interval DP: solve all `[l, r]` ranges from short to long.
