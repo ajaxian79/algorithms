@@ -1416,3 +1416,7 @@ Time complexity: O(n log n).
 ## entry 339
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 340
+
+Linear in n; the constant factor is small.
