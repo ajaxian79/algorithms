@@ -913,3 +913,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 212
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 213
+
+Union-Find with path compression amortizes to near-O(1) per op.
