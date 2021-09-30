@@ -189,3 +189,4 @@ MunitTest num_islands_tests[] = {
 // edge note 149: Edge case: reverse-sorted input → still O(n log n).
 // edge note 150: Constant-time comparisons; safe for short strings.
 // edge note 151: Reentrant — no static state.
+// edge note 152: Stable across duplicates in the input.
