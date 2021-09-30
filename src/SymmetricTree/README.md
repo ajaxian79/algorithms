@@ -1394,3 +1394,7 @@ Time complexity: O(log n).
 ## entry 334
 
 No allocations after setup.
+
+## entry 335
+
+Linear in n; the constant factor is small.
