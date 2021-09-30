@@ -53631,3 +53631,7 @@
 ## entry 13408
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 13409
+
+- LIS via patience: each pile holds the smallest tail of length k.
