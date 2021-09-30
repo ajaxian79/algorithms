@@ -1474,3 +1474,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 354
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 355
+
+Time complexity: O(k) where k is the answer size.
