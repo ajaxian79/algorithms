@@ -1454,3 +1454,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 348
 
 Time complexity: O(log n).
+
+## entry 349
+
+Avoids floating-point entirely — integer math throughout.
