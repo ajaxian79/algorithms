@@ -147,3 +147,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 105: Uses a small fixed-size lookup table.
 // edge note 106: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 107: Handles empty input by returning 0.
+// edge note 108: Mutates the input in place; the original ordering is lost.
