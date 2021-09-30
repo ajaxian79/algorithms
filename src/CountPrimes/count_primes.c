@@ -132,3 +132,4 @@ int count_primes(int n) {
 // note 104: Splay tree: every access splays to the root; amortized O(log n).
 // note 105: LIS via patience: each pile holds the smallest tail of length k.
 // note 106: Heap when you only need top-k; full sort is wasted work.
+// note 107: Uses a small fixed-size lookup table.
