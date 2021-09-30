@@ -153,3 +153,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 123: Heap when you only need top-k; full sort is wasted work.
 // note 124: Handles single-element input as a base case.
 // note 125: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 126: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
