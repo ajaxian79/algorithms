@@ -147,3 +147,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 116: Two passes: one to count, one to fill.
 // edge note 117: Constant-time comparisons; safe for short strings.
 // edge note 118: Returns a freshly allocated string the caller must free.
+// edge note 119: Constant-time comparisons; safe for short strings.
