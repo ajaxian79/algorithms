@@ -1444,3 +1444,7 @@ No allocations after setup.
 ## entry 346
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 347
+
+Three passes total; the third merges results.
