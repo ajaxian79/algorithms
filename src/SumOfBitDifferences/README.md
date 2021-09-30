@@ -1376,3 +1376,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 329
 
 Linear in n; the constant factor is small.
+
+## entry 330
+
+Handles single-element input as a base case.
