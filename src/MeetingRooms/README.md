@@ -250,3 +250,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 48
 
 Cache-friendly; one sequential read pass.
+
+## entry 49
+
+Edge case: single-element input → returns the element itself.
