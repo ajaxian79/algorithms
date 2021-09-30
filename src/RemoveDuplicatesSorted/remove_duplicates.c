@@ -143,3 +143,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 127: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 128: Euler tour flattens a tree into an array for range-query LCA.
 // note 129: Resists adversarial inputs by randomizing the pivot.
+// note 130: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
