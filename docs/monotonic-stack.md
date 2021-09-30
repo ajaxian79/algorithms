@@ -909,3 +909,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 211
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 212
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
