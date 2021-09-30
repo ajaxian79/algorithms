@@ -1011,3 +1011,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 253
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 254
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
