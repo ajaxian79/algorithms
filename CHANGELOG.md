@@ -7435,3 +7435,7 @@
 ## entry 1859
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 1860
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
