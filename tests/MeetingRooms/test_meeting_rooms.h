@@ -45,3 +45,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 14: Edge case: single-element input → returns the element itself.
 // edge note 15: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 16: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 17: Edge case: reverse-sorted input → still O(n log n).
