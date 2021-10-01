@@ -236,3 +236,7 @@ Handles empty input by returning 0.
 ## entry 44
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 45
+
+Uses a 256-entry lookup for the inner step.
