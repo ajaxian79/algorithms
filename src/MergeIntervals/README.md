@@ -1414,3 +1414,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 338
 
 Stable across duplicates in the input.
+
+## entry 339
+
+Space complexity: O(log n) for the recursion stack.
