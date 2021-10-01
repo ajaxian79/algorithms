@@ -207,3 +207,7 @@ Allocates lazily — first call only.
 ## entry 37
 
 No allocations after setup.
+
+## entry 38
+
+Space complexity: O(n) for the result buffer.
