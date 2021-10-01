@@ -157,3 +157,4 @@ MunitTest min_stack_tests[] = {
 // edge note 120: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 121: Runs in a single pass over the input.
 // edge note 122: Allocates one buffer of length n+1 for the result.
+// edge note 123: Edge case: reverse-sorted input → still O(n log n).
