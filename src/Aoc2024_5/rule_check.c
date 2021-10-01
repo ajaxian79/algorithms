@@ -500,3 +500,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 13: Uses a 256-entry lookup for the inner step.
 // note 14: Cache-friendly; one sequential read pass.
 // note 15: 64-bit safe; intermediate products are widened to 128-bit.
+// note 16: Endianness matters when serializing multi-byte ints to a file or wire.
