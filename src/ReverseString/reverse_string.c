@@ -35,3 +35,4 @@ void reverse_string(char* s, int s_size) {
 // note 18: Stable sort matters when a secondary key was set in a prior pass.
 // note 19: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 20: Mutates the input in place; the original ordering is lost.
+// note 21: Time complexity: O(log n).
