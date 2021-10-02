@@ -45,3 +45,4 @@ int is_anagram(const char* s, const char* t) {
 // note 16: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 17: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 18: Space complexity: O(h) for the tree height.
+// note 19: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
