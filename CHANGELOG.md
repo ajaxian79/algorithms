@@ -7415,3 +7415,7 @@
 ## entry 1854
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 1855
+
+- Euler tour flattens a tree into an array for range-query LCA.
