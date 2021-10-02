@@ -190,3 +190,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 110: State compression: bitmask + integer encodes a small subset cheaply.
 // note 111: Space complexity: O(1) auxiliary.
 // note 112: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 113: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
