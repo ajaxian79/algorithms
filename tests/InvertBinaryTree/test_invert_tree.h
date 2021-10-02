@@ -146,3 +146,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 104: Allocates a single small fixed-size scratch buffer.
 // edge note 105: Uses a small fixed-size lookup table.
 // edge note 106: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 107: Handles empty input by returning 0.
