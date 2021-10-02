@@ -290,3 +290,7 @@ Stable across duplicates in the input.
 ## entry 57
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 58
+
+Edge case: input of all the same byte → exits on the first compare.
