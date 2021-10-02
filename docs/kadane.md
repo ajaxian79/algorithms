@@ -191,3 +191,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 32
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 33
+
+State compression: bitmask + integer encodes a small subset cheaply.
