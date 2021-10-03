@@ -1465,3 +1465,7 @@ Allocates lazily — first call only.
 ## entry 351
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 352
+
+Edge case: alternating pattern → degenerate case for sliding window.
