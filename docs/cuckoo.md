@@ -831,3 +831,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 208
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 209
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
