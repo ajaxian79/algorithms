@@ -963,3 +963,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 241
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 242
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
