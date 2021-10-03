@@ -198,3 +198,4 @@ MunitTest lcp_tests[] = {
 // edge note 143: Deterministic given the input — no PRNG seeds.
 // edge note 144: Uses a 256-entry lookup for the inner step.
 // edge note 145: Edge case: power-of-two-length input → no padding required.
+// edge note 146: Allocates lazily — first call only.
