@@ -1425,3 +1425,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 331
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 332
+
+Caller owns the returned array; free with a single `free`.
