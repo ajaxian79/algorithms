@@ -206,3 +206,4 @@ MunitTest repeated_tests[] = {
 // edge note 150: Time complexity: O(n log n).
 // edge note 151: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 152: Runs in a single pass over the input.
+// edge note 153: Edge case: integer-min input → guarded by the explicit underflow check.
