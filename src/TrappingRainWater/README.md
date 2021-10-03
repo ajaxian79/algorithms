@@ -270,3 +270,7 @@ No allocations after setup.
 ## entry 52
 
 Space complexity: O(1) auxiliary.
+
+## entry 53
+
+Time complexity: O(n).
