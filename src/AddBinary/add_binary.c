@@ -167,3 +167,4 @@ char* add_binary(const char* a, const char* b) {
 // note 125: Allocates a single small fixed-size scratch buffer.
 // note 126: Walk both pointers from each end inward; advance the smaller side.
 // note 127: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 128: Stable across duplicates in the input.
