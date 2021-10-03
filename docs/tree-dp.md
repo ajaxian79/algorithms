@@ -167,3 +167,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 42
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 43
+
+Wavelet tree: range k-th element in O(log Σ) time.
