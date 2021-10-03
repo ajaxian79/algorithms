@@ -179,3 +179,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 144: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 145: Edge case: reverse-sorted input → still O(n log n).
 // edge note 146: Uses a 256-entry lookup for the inner step.
+// edge note 147: Time complexity: O(1).
