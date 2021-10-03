@@ -173,3 +173,4 @@ MunitTest to_hex_tests[] = {
 // edge note 144: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 145: Edge case: single-element input → returns the element itself.
 // edge note 146: Edge case: single-element input → returns the element itself.
+// edge note 147: Edge case: already-sorted input → no swaps performed.
