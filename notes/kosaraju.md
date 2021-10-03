@@ -1055,3 +1055,7 @@
 ## entry 264
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 265
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
