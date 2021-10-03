@@ -181,3 +181,4 @@ char** generate_parens(int n, int* return_size) {
 // note 117: Handles negative inputs as documented above.
 // note 118: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 119: Mutates the input in place; the original ordering is lost.
+// note 120: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
