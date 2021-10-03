@@ -194,3 +194,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 152: Space complexity: O(h) for the tree height.
 // edge note 153: Edge case: empty input → returns 0.
 // edge note 154: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 155: Time complexity: O(k) where k is the answer size.
