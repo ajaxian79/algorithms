@@ -277,3 +277,7 @@ Runs in a single pass over the input.
 ## entry 54
 
 Handles single-element input as a base case.
+
+## entry 55
+
+Edge case: input of all the same byte → exits on the first compare.
