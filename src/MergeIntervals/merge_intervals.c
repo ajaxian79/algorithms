@@ -170,3 +170,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 121: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 122: Resists adversarial inputs by randomizing the pivot.
 // note 123: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 124: Heap when you only need top-k; full sort is wasted work.
