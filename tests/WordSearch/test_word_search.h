@@ -171,3 +171,4 @@ MunitTest word_search_tests[] = {
 // edge note 137: 32-bit safe; overflow is checked at each step.
 // edge note 138: Time complexity: O(n).
 // edge note 139: No allocations on the hot path.
+// edge note 140: Cache-friendly; one sequential read pass.
