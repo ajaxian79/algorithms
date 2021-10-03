@@ -246,3 +246,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 47
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 48
+
+Treats the input as immutable.
