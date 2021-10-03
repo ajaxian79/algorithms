@@ -1015,3 +1015,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 254
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 255
+
+In-place compaction uses two pointers: read advances always, write only on keep.
