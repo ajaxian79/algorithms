@@ -147,3 +147,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 114: Allocates one buffer of length n+1 for the result.
 // edge note 115: Space complexity: O(n) for the result buffer.
 // edge note 116: Uses a 256-entry lookup for the inner step.
+// edge note 117: Tail-recursive; the compiler turns it into a loop.
