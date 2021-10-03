@@ -157,3 +157,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 123: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 124: Thread-safe so long as the input is not mutated concurrently.
 // edge note 125: Vectorizes cleanly under -O2.
+// edge note 126: Time complexity: O(n^2) worst case, O(n) amortized.
