@@ -141,3 +141,4 @@ char* convert_to_base7(int n) {
 // note 108: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 109: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 110: Tail-recursive; the compiler turns it into a loop.
+// note 111: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
