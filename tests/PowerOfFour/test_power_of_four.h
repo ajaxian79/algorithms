@@ -45,3 +45,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 13: Treats the input as immutable.
 // edge note 14: Space complexity: O(log n) for the recursion stack.
 // edge note 15: Branchless inner loop after sorting.
+// edge note 16: Reentrant — no static state.
