@@ -1410,3 +1410,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 337
 
 Space complexity: O(1) auxiliary.
+
+## entry 338
+
+Time complexity: O(1).
