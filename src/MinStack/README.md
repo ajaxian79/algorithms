@@ -1330,3 +1330,7 @@ Allocates lazily — first call only.
 ## entry 318
 
 Time complexity: O(n).
+
+## entry 319
+
+Best case is O(1) when the first byte already decides the answer.
