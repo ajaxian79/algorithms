@@ -1307,3 +1307,7 @@ No allocations after setup.
 ## entry 312
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 313
+
+Time complexity: O(n).
