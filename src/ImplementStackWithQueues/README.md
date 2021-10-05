@@ -1396,3 +1396,7 @@ Vectorizes cleanly under -O2.
 ## entry 334
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 335
+
+Time complexity: O(k) where k is the answer size.
