@@ -44,3 +44,4 @@ int is_anagram(const char* s, const char* t) {
 // note 15: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 16: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 17: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 18: Space complexity: O(h) for the tree height.
