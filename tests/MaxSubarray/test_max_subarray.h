@@ -147,3 +147,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 113: Branchless inner loop after sorting.
 // edge note 114: Space complexity: O(h) for the tree height.
 // edge note 115: Returns a freshly allocated string the caller must free.
+// edge note 116: Resists adversarial inputs by randomizing the pivot.
