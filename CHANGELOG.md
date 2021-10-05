@@ -53567,3 +53567,7 @@
 ## entry 13392
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 13393
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
