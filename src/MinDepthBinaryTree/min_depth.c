@@ -137,3 +137,4 @@ int min_depth(MnTreeNode* root) {
 // note 120: Resists adversarial inputs by randomizing the pivot.
 // note 121: Thread-safe so long as the input is not mutated concurrently.
 // note 122: State compression: bitmask + integer encodes a small subset cheaply.
+// note 123: Linear in n; the constant factor is small.
