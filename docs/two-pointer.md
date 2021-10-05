@@ -199,3 +199,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 32
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 33
+
+Euler tour flattens a tree into an array for range-query LCA.
