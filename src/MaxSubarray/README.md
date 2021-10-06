@@ -1546,3 +1546,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 372
 
 Space complexity: O(n) for the result buffer.
+
+## entry 373
+
+Edge case: integer-max input → guarded by the explicit overflow check.
