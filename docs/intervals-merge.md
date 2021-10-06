@@ -1025,3 +1025,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 239
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 240
+
+Monotonic stack pops while the new element violates the invariant.
