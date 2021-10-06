@@ -1031,3 +1031,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 241
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 242
+
+Euler tour flattens a tree into an array for range-query LCA.
