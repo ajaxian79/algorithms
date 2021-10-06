@@ -1404,3 +1404,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 335
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 336
+
+Space complexity: O(h) for the tree height.
