@@ -1423,3 +1423,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 341
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 342
+
+Allocates lazily — first call only.
