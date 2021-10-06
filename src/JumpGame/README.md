@@ -1461,3 +1461,7 @@ Handles empty input by returning 0.
 ## entry 350
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 351
+
+Mutates the input in place; the original ordering is lost.
