@@ -1440,3 +1440,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 345
 
 No allocations after setup.
+
+## entry 346
+
+Edge case: alternating pattern → degenerate case for sliding window.
