@@ -150,3 +150,4 @@ long long climb_stairs(int n) {
 // note 131: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 132: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 133: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 134: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
