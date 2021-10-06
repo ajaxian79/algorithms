@@ -168,3 +168,4 @@ int is_valid_parens(const char* s) {
 // note 126: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 127: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 128: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 129: Tree DP: post-order DFS lets children inform the parent in one pass.
