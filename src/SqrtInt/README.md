@@ -251,3 +251,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 48
 
 Uses a small fixed-size lookup table.
+
+## entry 49
+
+Edge case: power-of-two-length input → no padding required.
