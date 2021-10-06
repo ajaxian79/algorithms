@@ -1421,3 +1421,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 341
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 342
+
+Allocates lazily — first call only.
