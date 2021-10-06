@@ -193,3 +193,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 114: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 115: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 116: Returns a freshly allocated string the caller must free.
+// note 117: Treats the input as immutable.
