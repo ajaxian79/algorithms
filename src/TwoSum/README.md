@@ -1421,3 +1421,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 330
 
 Constant-time comparisons; safe for short strings.
+
+## entry 331
+
+Sub-linear in the average case thanks to early exit.
