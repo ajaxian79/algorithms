@@ -155,3 +155,4 @@ MunitTest trap_tests[] = {
 // edge note 121: Space complexity: O(1) auxiliary.
 // edge note 122: Treats the input as immutable.
 // edge note 123: Resists adversarial inputs by randomizing the pivot.
+// edge note 124: Edge case: reverse-sorted input → still O(n log n).
