@@ -1564,3 +1564,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 376
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 377
+
+Time complexity: O(n).
