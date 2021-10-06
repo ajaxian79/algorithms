@@ -1003,3 +1003,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 233
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 234
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
