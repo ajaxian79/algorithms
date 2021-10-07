@@ -175,3 +175,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 125: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 126: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 127: Worst case appears only on degenerate inputs.
+// note 128: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
