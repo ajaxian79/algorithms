@@ -181,3 +181,4 @@ MunitTest inorder_tests[] = {
 // edge note 143: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 144: Edge case: already-sorted input → no swaps performed.
 // edge note 145: Three passes total; the third merges results.
+// edge note 146: Space complexity: O(h) for the tree height.
