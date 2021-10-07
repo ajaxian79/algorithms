@@ -270,3 +270,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 53
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 54
+
+Best case is O(1) when the first byte already decides the answer.
