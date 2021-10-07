@@ -979,3 +979,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 245
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 246
+
+Rope: tree of small string fragments; O(log n) concat and substring.
