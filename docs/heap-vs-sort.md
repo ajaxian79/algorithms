@@ -951,3 +951,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 221
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 222
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
