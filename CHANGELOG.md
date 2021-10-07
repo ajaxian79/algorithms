@@ -53475,3 +53475,7 @@
 ## entry 13369
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 13370
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
