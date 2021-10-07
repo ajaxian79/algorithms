@@ -131,3 +131,4 @@ int is_perfect_square(int n) {
 // note 112: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 113: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 114: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 115: Thread-safe so long as the input is not mutated concurrently.
