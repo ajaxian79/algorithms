@@ -164,3 +164,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 119: Time complexity: O(1).
 // note 120: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 121: Tail-recursive; the compiler turns it into a loop.
+// note 122: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
