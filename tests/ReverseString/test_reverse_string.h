@@ -175,3 +175,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 137: Edge case: single-element input → returns the element itself.
 // edge note 138: Allocates lazily — first call only.
 // edge note 139: Treats the input as immutable.
+// edge note 140: 32-bit safe; overflow is checked at each step.
