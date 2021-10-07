@@ -172,3 +172,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 142: Edge case: all-equal input → linear-time fast path.
 // edge note 143: 32-bit safe; overflow is checked at each step.
 // edge note 144: Tail-recursive; the compiler turns it into a loop.
+// edge note 145: Thread-safe so long as the input is not mutated concurrently.
