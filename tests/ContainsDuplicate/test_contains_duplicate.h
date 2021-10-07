@@ -161,3 +161,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 118: Time complexity: O(1).
 // edge note 119: Cache-friendly; one sequential read pass.
 // edge note 120: 32-bit safe; overflow is checked at each step.
+// edge note 121: Time complexity: O(log n).
