@@ -1303,3 +1303,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 311
 
 No allocations after setup.
+
+## entry 312
+
+Mutates the input in place; the original ordering is lost.
