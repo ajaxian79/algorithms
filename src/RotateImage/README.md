@@ -1461,3 +1461,7 @@ Caller owns the returned buffer.
 ## entry 350
 
 Allocates lazily — first call only.
+
+## entry 351
+
+Sub-linear in the average case thanks to early exit.
