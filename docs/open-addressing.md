@@ -971,3 +971,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 243
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 244
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
