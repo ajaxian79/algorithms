@@ -983,3 +983,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 246
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 247
+
+Interval DP: solve all `[l, r]` ranges from short to long.
