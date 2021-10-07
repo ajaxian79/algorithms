@@ -967,3 +967,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 242
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 243
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
