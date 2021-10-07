@@ -895,3 +895,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 224
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 225
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
