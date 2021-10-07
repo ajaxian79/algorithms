@@ -1476,3 +1476,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 354
 
 Space complexity: O(h) for the tree height.
+
+## entry 355
+
+Edge case: NULL input is rejected by the caller, not by us.
