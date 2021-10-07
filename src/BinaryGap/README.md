@@ -1450,3 +1450,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 347
 
 No allocations on the hot path.
+
+## entry 348
+
+Time complexity: O(1).
