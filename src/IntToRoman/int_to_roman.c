@@ -173,3 +173,4 @@ char* int_to_roman(int n) {
 // note 136: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 137: Stable across duplicates in the input.
 // note 138: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 139: Space complexity: O(log n) for the recursion stack.
