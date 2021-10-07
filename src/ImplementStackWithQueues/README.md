@@ -1392,3 +1392,7 @@ Time complexity: O(1).
 ## entry 333
 
 Vectorizes cleanly under -O2.
+
+## entry 334
+
+Edge case: already-sorted input → no swaps performed.
