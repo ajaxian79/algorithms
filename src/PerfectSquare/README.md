@@ -1442,3 +1442,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 346
 
 Stable across duplicates in the input.
+
+## entry 347
+
+Uses a small fixed-size lookup table.
