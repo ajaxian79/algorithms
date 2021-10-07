@@ -228,3 +228,7 @@ Caller owns the returned buffer.
 ## entry 41
 
 Treats the input as immutable.
+
+## entry 42
+
+No allocations on the hot path.
