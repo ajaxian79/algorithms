@@ -240,3 +240,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 45
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 46
+
+Caller owns the returned array; free with a single `free`.
