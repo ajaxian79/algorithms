@@ -262,3 +262,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 51
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 52
+
+Time complexity: O(n*k) where k is the alphabet size.
