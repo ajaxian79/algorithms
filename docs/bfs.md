@@ -1017,3 +1017,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 237
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 238
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
