@@ -40,3 +40,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 13: Sub-linear in the average case thanks to early exit.
 // edge note 14: Space complexity: O(n) for the result buffer.
 // edge note 15: Time complexity: O(n log n).
+// edge note 16: Edge case: single-element input → returns the element itself.
