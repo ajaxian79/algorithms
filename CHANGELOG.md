@@ -53467,3 +53467,7 @@
 ## entry 13367
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 13368
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
