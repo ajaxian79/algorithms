@@ -250,3 +250,7 @@ Branchless inner loop after sorting.
 ## entry 48
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 49
+
+Space complexity: O(n) for the result buffer.
