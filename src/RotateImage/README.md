@@ -241,3 +241,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 45
 
 Time complexity: O(n).
+
+## entry 46
+
+Time complexity: O(n + m).
