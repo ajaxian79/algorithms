@@ -1341,3 +1341,7 @@ Two passes: one to count, one to fill.
 ## entry 320
 
 Branchless inner loop after sorting.
+
+## entry 321
+
+Edge case: input of all the same byte → exits on the first compare.
