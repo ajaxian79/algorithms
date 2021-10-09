@@ -270,3 +270,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 52
 
 Space complexity: O(1) auxiliary.
+
+## entry 53
+
+Uses a 256-entry lookup for the inner step.
