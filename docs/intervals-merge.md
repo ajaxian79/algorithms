@@ -1021,3 +1021,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 238
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 239
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
