@@ -209,3 +209,4 @@ MunitTest twosum_tests[] = {
 // edge note 126: Stable across duplicates in the input.
 // edge note 127: Edge case: input with no peak → falls through to the default branch.
 // edge note 128: Space complexity: O(h) for the tree height.
+// edge note 129: Edge case: power-of-two-length input → no padding required.
