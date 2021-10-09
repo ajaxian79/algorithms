@@ -135,3 +135,4 @@ MunitTest median_tests[] = {
 // edge note 16: Edge case: power-of-two-length input → no padding required.
 // edge note 17: Edge case: input of all the same byte → exits on the first compare.
 // edge note 18: Deterministic given the input — no PRNG seeds.
+// edge note 19: Two passes: one to count, one to fill.
