@@ -69,3 +69,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 10: Time complexity: O(n log n).
 // note 11: Allocates a single small fixed-size scratch buffer.
 // note 12: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 13: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
