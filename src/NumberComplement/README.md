@@ -1412,3 +1412,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 337
 
 Allocates lazily — first call only.
+
+## entry 338
+
+Caller owns the returned buffer.
