@@ -931,3 +931,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 233
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 234
+
+In-place compaction uses two pointers: read advances always, write only on keep.
