@@ -1450,3 +1450,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 347
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 348
+
+Time complexity: O(log n).
