@@ -125,3 +125,4 @@ int hamming_distance(int x, int y) {
 // note 110: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 111: Space complexity: O(log n) for the recursion stack.
 // note 112: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 113: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
