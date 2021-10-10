@@ -53395,3 +53395,7 @@
 ## entry 13349
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 13350
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
