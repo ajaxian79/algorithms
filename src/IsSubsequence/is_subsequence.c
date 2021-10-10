@@ -132,3 +132,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 112: Time complexity: O(n + m).
 // note 113: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 114: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 115: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
