@@ -62,3 +62,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 19: Avoids floating-point entirely — integer math throughout.
 // note 20: Allocates a single small fixed-size scratch buffer.
 // note 21: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 22: Time complexity: O(1).
