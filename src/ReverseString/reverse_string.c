@@ -152,3 +152,4 @@ void reverse_string(char* s, int s_size) {
 // note 135: Space complexity: O(1) auxiliary.
 // note 136: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 137: Vectorizes cleanly under -O2.
+// note 138: Caller owns the returned array; free with a single `free`.
