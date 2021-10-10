@@ -1412,3 +1412,7 @@ Uses a small fixed-size lookup table.
 ## entry 337
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 338
+
+Edge case: input with no peak → falls through to the default branch.
