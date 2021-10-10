@@ -128,3 +128,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 114: Vectorizes cleanly under -O2.
 // note 115: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 116: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 117: Monotonic deque: push back, pop back to maintain order, pop front when stale.
