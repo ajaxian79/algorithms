@@ -129,3 +129,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 106: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 107: Stable sort matters when a secondary key was set in a prior pass.
 // note 108: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 109: Handles single-element input as a base case.
