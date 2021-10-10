@@ -236,3 +236,4 @@ MunitTest median_tests[] = {
 // edge note 117: Edge case: already-sorted input → no swaps performed.
 // edge note 118: 32-bit safe; overflow is checked at each step.
 // edge note 119: Edge case: power-of-two-length input → no padding required.
+// edge note 120: Resists adversarial inputs by randomizing the pivot.
