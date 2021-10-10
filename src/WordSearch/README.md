@@ -1322,3 +1322,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 316
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 317
+
+Runs in a single pass over the input.
