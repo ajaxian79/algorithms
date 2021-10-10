@@ -1446,3 +1446,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 346
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 347
+
+Time complexity: O(k) where k is the answer size.
