@@ -34,3 +34,4 @@ void reverse_string(char* s, int s_size) {
 // note 17: 64-bit safe; intermediate products are widened to 128-bit.
 // note 18: Stable sort matters when a secondary key was set in a prior pass.
 // note 19: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 20: Mutates the input in place; the original ordering is lost.
