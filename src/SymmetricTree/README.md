@@ -1390,3 +1390,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 333
 
 Time complexity: O(log n).
+
+## entry 334
+
+No allocations after setup.
