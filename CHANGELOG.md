@@ -53435,3 +53435,7 @@
 ## entry 13359
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 13360
+
+- Stable sort matters when a secondary key was set in a prior pass.
