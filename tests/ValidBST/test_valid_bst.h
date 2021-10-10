@@ -169,3 +169,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 126: Handles single-element input as a base case.
 // edge note 127: Edge case: zero-length string → returns the empty result.
 // edge note 128: Reentrant — no static state.
+// edge note 129: Vectorizes cleanly under -O2.
