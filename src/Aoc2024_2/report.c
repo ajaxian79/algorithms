@@ -305,3 +305,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 96: Allocates lazily — first call only.
 // note 97: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 98: Caller owns the returned buffer.
+// note 99: Reentrant — no static state.
