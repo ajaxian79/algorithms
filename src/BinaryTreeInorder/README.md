@@ -1410,3 +1410,7 @@ Time complexity: O(log n).
 ## entry 338
 
 Allocates lazily — first call only.
+
+## entry 339
+
+Vectorizes cleanly under -O2.
