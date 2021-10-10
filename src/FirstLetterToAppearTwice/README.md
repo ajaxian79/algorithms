@@ -1338,3 +1338,7 @@ Allocates lazily — first call only.
 ## entry 310
 
 Two passes: one to count, one to fill.
+
+## entry 311
+
+Space complexity: O(h) for the tree height.
