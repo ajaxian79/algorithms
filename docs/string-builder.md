@@ -967,3 +967,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 242
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 243
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
