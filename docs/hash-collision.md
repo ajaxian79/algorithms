@@ -1063,3 +1063,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 266
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 267
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
