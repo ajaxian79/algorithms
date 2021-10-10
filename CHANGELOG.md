@@ -53399,3 +53399,7 @@
 ## entry 13350
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 13351
+
+- Greedy by end-time picks the most non-overlapping intervals.
