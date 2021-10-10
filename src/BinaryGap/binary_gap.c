@@ -149,3 +149,4 @@ int binary_gap(unsigned int n) {
 // note 129: Time complexity: O(n).
 // note 130: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 131: Stable across duplicates in the input.
+// note 132: Time complexity: O(n + m).
