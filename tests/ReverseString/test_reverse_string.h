@@ -174,3 +174,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 136: Edge case: already-sorted input → no swaps performed.
 // edge note 137: Edge case: single-element input → returns the element itself.
 // edge note 138: Allocates lazily — first call only.
+// edge note 139: Treats the input as immutable.
