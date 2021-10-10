@@ -1404,3 +1404,7 @@ Allocates lazily — first call only.
 ## entry 335
 
 Space complexity: O(1) auxiliary.
+
+## entry 336
+
+Caller owns the returned array; free with a single `free`.
