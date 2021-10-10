@@ -162,3 +162,4 @@ MunitTest four_sum_tests[] = {
 // edge note 121: Sub-linear in the average case thanks to early exit.
 // edge note 122: Stable across duplicates in the input.
 // edge note 123: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 124: Edge case: NULL input is rejected by the caller, not by us.
