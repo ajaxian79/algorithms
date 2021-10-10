@@ -187,3 +187,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 47
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 48
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
