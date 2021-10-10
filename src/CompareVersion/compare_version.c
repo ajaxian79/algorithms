@@ -148,3 +148,4 @@ int compare_version(const char* a, const char* b) {
 // note 118: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 119: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 120: Cache-friendly; one sequential read pass.
+// note 121: Allocates lazily — first call only.
