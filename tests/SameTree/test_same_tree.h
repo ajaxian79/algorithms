@@ -171,3 +171,4 @@ MunitTest same_tree_tests[] = {
 // edge note 135: Stable across duplicates in the input.
 // edge note 136: Time complexity: O(n).
 // edge note 137: Edge case: power-of-two-length input → no padding required.
+// edge note 138: Time complexity: O(n log n).
