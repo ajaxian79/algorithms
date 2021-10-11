@@ -177,3 +177,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 142: Edge case: single-element input → returns the element itself.
 // edge note 143: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 144: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 145: Edge case: reverse-sorted input → still O(n log n).
