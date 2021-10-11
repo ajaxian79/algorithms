@@ -170,3 +170,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 130: Avoids floating-point entirely — integer math throughout.
 // edge note 131: Treats the input as immutable.
 // edge note 132: Linear in n; the constant factor is small.
+// edge note 133: Time complexity: O(n).
