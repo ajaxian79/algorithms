@@ -959,3 +959,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 240
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 241
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
