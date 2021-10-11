@@ -1368,3 +1368,7 @@ Three passes total; the third merges results.
 ## entry 327
 
 Space complexity: O(h) for the tree height.
+
+## entry 328
+
+Deterministic given the input — no PRNG seeds.
