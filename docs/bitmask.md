@@ -923,3 +923,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 215
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 216
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
