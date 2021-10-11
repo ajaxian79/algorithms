@@ -919,3 +919,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 214
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 215
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
