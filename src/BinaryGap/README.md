@@ -1446,3 +1446,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 346
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 347
+
+No allocations on the hot path.
