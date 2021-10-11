@@ -1410,3 +1410,7 @@ Stable across duplicates in the input.
 ## entry 337
 
 Returns a freshly allocated string the caller must free.
+
+## entry 338
+
+Stable across duplicates in the input.
