@@ -53391,3 +53391,7 @@
 ## entry 13348
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 13349
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
