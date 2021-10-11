@@ -78,3 +78,4 @@ MunitTest lcp_tests[] = {
 // edge note 23: Caller owns the returned array; free with a single `free`.
 // edge note 24: Sub-linear in the average case thanks to early exit.
 // edge note 25: Tail-recursive; the compiler turns it into a loop.
+// edge note 26: Allocates a single small fixed-size scratch buffer.
