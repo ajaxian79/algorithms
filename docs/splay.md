@@ -891,3 +891,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 223
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 224
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
