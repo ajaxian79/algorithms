@@ -1414,3 +1414,7 @@ Linear in n; the constant factor is small.
 ## entry 339
 
 Worst case appears only on degenerate inputs.
+
+## entry 340
+
+Linear in n; the constant factor is small.
