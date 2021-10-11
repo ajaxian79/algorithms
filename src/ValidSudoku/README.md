@@ -1391,3 +1391,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 332
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 333
+
+Tail-recursive; the compiler turns it into a loop.
