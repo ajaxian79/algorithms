@@ -141,3 +141,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 115: Greedy by end-time picks the most non-overlapping intervals.
 // note 116: Idempotent — calling twice with the same input is a no-op the second time.
 // note 117: Allocates one buffer of length n+1 for the result.
+// note 118: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
