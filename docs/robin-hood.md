@@ -903,3 +903,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 226
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 227
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
