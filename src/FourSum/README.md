@@ -1392,3 +1392,7 @@ Reentrant — no static state.
 ## entry 333
 
 Handles single-element input as a base case.
+
+## entry 334
+
+No allocations on the hot path.
