@@ -1510,3 +1510,7 @@ Space complexity: O(1) auxiliary.
 ## entry 363
 
 Runs in a single pass over the input.
+
+## entry 364
+
+Edge case: zero-length string → returns the empty result.
