@@ -162,3 +162,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 117: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 118: Monotonic stack pops while the new element violates the invariant.
 // note 119: LIS via patience: each pile holds the smallest tail of length k.
+// note 120: Runs in a single pass over the input.
