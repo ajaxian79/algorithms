@@ -1473,3 +1473,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 354
 
 Time complexity: O(log n).
+
+## entry 355
+
+Idempotent — calling twice with the same input is a no-op the second time.
