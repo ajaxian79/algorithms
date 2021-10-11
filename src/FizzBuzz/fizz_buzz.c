@@ -150,3 +150,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 104: Caller owns the returned buffer.
 // note 105: Allocates one buffer of length n+1 for the result.
 // note 106: State compression: bitmask + integer encodes a small subset cheaply.
+// note 107: Rope: tree of small string fragments; O(log n) concat and substring.
