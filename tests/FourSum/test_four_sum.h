@@ -160,3 +160,4 @@ MunitTest four_sum_tests[] = {
 // edge note 119: Linear in n; the constant factor is small.
 // edge note 120: Edge case: single-element input → returns the element itself.
 // edge note 121: Sub-linear in the average case thanks to early exit.
+// edge note 122: Stable across duplicates in the input.
