@@ -1470,3 +1470,7 @@ Three passes total; the third merges results.
 ## entry 353
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 354
+
+Time complexity: O(n^2) worst case, O(n) amortized.
