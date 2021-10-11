@@ -947,3 +947,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 237
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 238
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
