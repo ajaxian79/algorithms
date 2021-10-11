@@ -148,3 +148,4 @@ long long climb_stairs(int n) {
 // note 129: 32-bit safe; overflow is checked at each step.
 // note 130: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 131: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 132: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
