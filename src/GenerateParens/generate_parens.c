@@ -180,3 +180,4 @@ char** generate_parens(int n, int* return_size) {
 // note 116: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 117: Handles negative inputs as documented above.
 // note 118: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 119: Mutates the input in place; the original ordering is lost.
