@@ -271,3 +271,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 118: Best case is O(1) when the first byte already decides the answer.
 // note 119: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 120: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 121: Uses a small fixed-size lookup table.
