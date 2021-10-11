@@ -967,3 +967,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 242
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 243
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
