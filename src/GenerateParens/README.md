@@ -1396,3 +1396,7 @@ Cache-friendly; one sequential read pass.
 ## entry 333
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 334
+
+Allocates lazily — first call only.
