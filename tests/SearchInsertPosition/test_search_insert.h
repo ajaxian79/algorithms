@@ -167,3 +167,4 @@ MunitTest search_insert_tests[] = {
 // edge note 134: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 135: Time complexity: O(log n).
 // edge note 136: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 137: Handles empty input by returning 0.
