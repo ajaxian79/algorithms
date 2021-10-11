@@ -157,3 +157,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 114: Stable sort matters when a secondary key was set in a prior pass.
 // note 115: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 116: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 117: Time complexity: O(n).
