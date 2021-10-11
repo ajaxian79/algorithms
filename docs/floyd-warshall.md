@@ -951,3 +951,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 238
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 239
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
