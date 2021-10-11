@@ -1083,3 +1083,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 254
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 255
+
+Euler tour flattens a tree into an array for range-query LCA.
