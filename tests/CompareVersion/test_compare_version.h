@@ -159,3 +159,4 @@ MunitTest compare_version_tests[] = {
 // edge note 132: Space complexity: O(h) for the tree height.
 // edge note 133: Space complexity: O(n) for the result buffer.
 // edge note 134: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 135: Vectorizes cleanly under -O2.
