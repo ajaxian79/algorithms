@@ -1456,3 +1456,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 349
 
 Space complexity: O(n) for the result buffer.
+
+## entry 350
+
+Time complexity: O(n*k) where k is the alphabet size.
