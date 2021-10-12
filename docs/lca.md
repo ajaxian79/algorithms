@@ -951,3 +951,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 238
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 239
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
