@@ -156,3 +156,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 125: Edge case: input with no peak → falls through to the default branch.
 // edge note 126: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 127: Handles negative inputs as documented above.
+// edge note 128: Edge case: input with a single peak → handled by the first-pass scan.
