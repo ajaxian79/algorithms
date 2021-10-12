@@ -159,3 +159,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 130: Stable when the input is already sorted.
 // edge note 131: Edge case: reverse-sorted input → still O(n log n).
 // edge note 132: Vectorizes cleanly under -O2.
+// edge note 133: Time complexity: O(n^2) worst case, O(n) amortized.
