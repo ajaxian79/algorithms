@@ -134,3 +134,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 109: Worst case appears only on degenerate inputs.
 // edge note 110: Stable across duplicates in the input.
 // edge note 111: Time complexity: O(n + m).
+// edge note 112: Best case is O(1) when the first byte already decides the answer.
