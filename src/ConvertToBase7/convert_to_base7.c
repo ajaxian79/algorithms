@@ -139,3 +139,4 @@ char* convert_to_base7(int n) {
 // note 106: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 107: Greedy by end-time picks the most non-overlapping intervals.
 // note 108: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 109: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
