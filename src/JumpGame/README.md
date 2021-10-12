@@ -1457,3 +1457,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 349
 
 Handles empty input by returning 0.
+
+## entry 350
+
+Edge case: input with one duplicate → handled without an extra pass.
