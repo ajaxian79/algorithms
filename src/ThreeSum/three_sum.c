@@ -167,3 +167,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 109: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 110: Deterministic given the input — no PRNG seeds.
 // note 111: Time complexity: O(n*k) where k is the alphabet size.
+// note 112: Unbounded knapsack: capacity inner ascending allows item reuse.
