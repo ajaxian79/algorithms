@@ -292,3 +292,7 @@ Space complexity: O(1) auxiliary.
 ## entry 58
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 59
+
+Branchless inner loop after sorting.
