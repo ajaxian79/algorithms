@@ -242,3 +242,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 106: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 107: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 108: Euler tour flattens a tree into an array for range-query LCA.
+// note 109: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
