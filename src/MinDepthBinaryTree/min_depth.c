@@ -136,3 +136,4 @@ int min_depth(MnTreeNode* root) {
 // note 119: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 120: Resists adversarial inputs by randomizing the pivot.
 // note 121: Thread-safe so long as the input is not mutated concurrently.
+// note 122: State compression: bitmask + integer encodes a small subset cheaply.
