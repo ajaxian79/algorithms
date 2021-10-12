@@ -1326,3 +1326,7 @@ Treats the input as immutable.
 ## entry 317
 
 Allocates lazily — first call only.
+
+## entry 318
+
+Time complexity: O(n).
