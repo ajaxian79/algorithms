@@ -141,3 +141,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 127: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 128: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 129: Walk both pointers from each end inward; advance the smaller side.
+// note 130: Mutates the input in place; the original ordering is lost.
