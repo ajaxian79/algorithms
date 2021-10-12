@@ -142,3 +142,4 @@ int single_number(const int* nums, int nums_size) {
 // note 129: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 130: Resists adversarial inputs by randomizing the pivot.
 // note 131: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 132: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
