@@ -1556,3 +1556,7 @@ Handles negative inputs as documented above.
 ## entry 374
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 375
+
+Uses a 256-entry lookup for the inner step.
