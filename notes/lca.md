@@ -923,3 +923,7 @@
 ## entry 231
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 232
+
+- Articulation points: same DFS as bridges, with a slightly different test.
