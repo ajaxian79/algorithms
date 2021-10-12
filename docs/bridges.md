@@ -1039,3 +1039,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 260
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 261
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
