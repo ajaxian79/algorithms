@@ -127,3 +127,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 113: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 114: Vectorizes cleanly under -O2.
 // note 115: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 116: Edit distance is LCS with a twist: substitution is a third option at each cell.
