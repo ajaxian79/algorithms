@@ -903,3 +903,7 @@
 ## entry 226
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 227
+
+- Monotonic stack pops while the new element violates the invariant.
