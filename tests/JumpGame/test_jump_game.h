@@ -148,3 +148,4 @@ MunitTest jump_game_tests[] = {
 // edge note 114: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 115: Linear in n; the constant factor is small.
 // edge note 116: Vectorizes cleanly under -O2.
+// edge note 117: Two passes: one to count, one to fill.
