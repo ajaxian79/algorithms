@@ -1414,3 +1414,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 338
 
 Stable across duplicates in the input.
+
+## entry 339
+
+Space complexity: O(1) auxiliary.
