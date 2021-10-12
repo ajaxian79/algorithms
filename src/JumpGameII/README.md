@@ -1408,3 +1408,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 337
 
 Allocates lazily — first call only.
+
+## entry 338
+
+Allocates lazily — first call only.
