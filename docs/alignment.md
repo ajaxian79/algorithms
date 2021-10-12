@@ -959,3 +959,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 240
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 241
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
