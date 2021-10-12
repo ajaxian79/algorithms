@@ -851,3 +851,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 213
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 214
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
