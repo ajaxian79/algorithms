@@ -1392,3 +1392,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 332
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 333
+
+Time complexity: O(n*k) where k is the alphabet size.
