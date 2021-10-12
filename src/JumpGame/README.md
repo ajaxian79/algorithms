@@ -1453,3 +1453,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 348
 
 Constant-time comparisons; safe for short strings.
+
+## entry 349
+
+Handles empty input by returning 0.
