@@ -947,3 +947,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 237
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 238
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
