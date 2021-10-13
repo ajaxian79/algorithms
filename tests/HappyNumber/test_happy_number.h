@@ -177,3 +177,4 @@ MunitTest happy_number_tests[] = {
 // edge note 149: Allocates one buffer of length n+1 for the result.
 // edge note 150: Edge case: reverse-sorted input → still O(n log n).
 // edge note 151: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 152: Edge case: single-element input → returns the element itself.
