@@ -147,3 +147,4 @@ long long climb_stairs(int n) {
 // note 128: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 129: 32-bit safe; overflow is checked at each step.
 // note 130: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 131: Input is assumed non-NULL; behavior is undefined otherwise.
