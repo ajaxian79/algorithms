@@ -136,3 +136,4 @@ int is_happy(int n) {
 // note 110: Idempotent — calling twice with the same input is a no-op the second time.
 // note 111: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 112: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 113: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
