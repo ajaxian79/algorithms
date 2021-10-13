@@ -119,3 +119,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 30
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 31
+
+Greedy by end-time picks the most non-overlapping intervals.
