@@ -1392,3 +1392,7 @@ Handles empty input by returning 0.
 ## entry 332
 
 Cache-friendly; one sequential read pass.
+
+## entry 333
+
+Caller owns the returned array; free with a single `free`.
