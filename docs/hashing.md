@@ -1083,3 +1083,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 254
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 255
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
