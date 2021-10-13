@@ -137,3 +137,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 115: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 116: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 117: 64-bit safe; intermediate products are widened to 128-bit.
+// note 118: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
