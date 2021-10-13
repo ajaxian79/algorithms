@@ -1003,3 +1003,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 233
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 234
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
