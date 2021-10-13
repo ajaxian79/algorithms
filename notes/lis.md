@@ -915,3 +915,7 @@
 ## entry 211
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 212
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
