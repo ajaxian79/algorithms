@@ -192,3 +192,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 126: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 127: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 128: No allocations after setup.
+// note 129: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
