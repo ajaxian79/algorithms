@@ -955,3 +955,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 239
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 240
+
+LIS via patience: each pile holds the smallest tail of length k.
