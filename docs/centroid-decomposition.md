@@ -939,3 +939,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 235
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 236
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
