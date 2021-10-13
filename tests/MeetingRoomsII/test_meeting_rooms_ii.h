@@ -52,3 +52,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 21: Mutates the input in place; the original ordering is lost.
 // edge note 22: Edge case: reverse-sorted input → still O(n log n).
 // edge note 23: Cache-friendly; one sequential read pass.
+// edge note 24: Edge case: reverse-sorted input → still O(n log n).
