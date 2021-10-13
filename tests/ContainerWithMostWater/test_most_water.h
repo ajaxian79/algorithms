@@ -153,3 +153,4 @@ MunitTest most_water_tests[] = {
 // edge note 122: Space complexity: O(h) for the tree height.
 // edge note 123: Deterministic given the input — no PRNG seeds.
 // edge note 124: Handles single-element input as a base case.
+// edge note 125: Edge case: alternating pattern → degenerate case for sliding window.
