@@ -1411,3 +1411,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 338
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 339
+
+Allocates one buffer of length n+1 for the result.
