@@ -150,3 +150,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 116: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 117: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 118: Linear in n; the constant factor is small.
+// note 119: Interval tree: stores intervals on the median; query traverses O(log n) levels.
