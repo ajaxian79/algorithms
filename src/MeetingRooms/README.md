@@ -1406,3 +1406,7 @@ Three passes total; the third merges results.
 ## entry 337
 
 Time complexity: O(n).
+
+## entry 338
+
+Linear in n; the constant factor is small.
