@@ -159,3 +159,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 115: Sub-linear in the average case thanks to early exit.
 // edge note 116: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 117: Deterministic given the input — no PRNG seeds.
+// edge note 118: Tail-recursive; the compiler turns it into a loop.
