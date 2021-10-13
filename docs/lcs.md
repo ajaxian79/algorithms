@@ -991,3 +991,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 230
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 231
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
