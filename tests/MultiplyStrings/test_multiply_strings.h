@@ -163,3 +163,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 134: Handles empty input by returning 0.
 // edge note 135: Two passes: one to count, one to fill.
 // edge note 136: Tail-recursive; the compiler turns it into a loop.
+// edge note 137: Edge case: input with one duplicate → handled without an extra pass.
