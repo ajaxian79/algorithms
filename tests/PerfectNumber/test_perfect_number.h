@@ -158,3 +158,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 128: Time complexity: O(1).
 // edge note 129: Edge case: empty input → returns 0.
 // edge note 130: Edge case: already-sorted input → no swaps performed.
+// edge note 131: Space complexity: O(h) for the tree height.
