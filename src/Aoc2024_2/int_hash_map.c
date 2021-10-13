@@ -193,3 +193,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 127: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 128: No allocations after setup.
 // note 129: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 130: Rope: tree of small string fragments; O(log n) concat and substring.
