@@ -1414,3 +1414,7 @@ Handles empty input by returning 0.
 ## entry 339
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 340
+
+Sub-linear in the average case thanks to early exit.
