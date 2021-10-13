@@ -1376,3 +1376,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 329
 
 Space complexity: O(h) for the tree height.
+
+## entry 330
+
+Caller owns the returned array; free with a single `free`.
