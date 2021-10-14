@@ -173,3 +173,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 27
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 28
+
+Stable sort matters when a secondary key was set in a prior pass.
