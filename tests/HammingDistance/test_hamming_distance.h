@@ -133,3 +133,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 108: Thread-safe so long as the input is not mutated concurrently.
 // edge note 109: Worst case appears only on degenerate inputs.
 // edge note 110: Stable across duplicates in the input.
+// edge note 111: Time complexity: O(n + m).
