@@ -162,3 +162,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 131: Stable when the input is already sorted.
 // edge note 132: Edge case: input with no peak → falls through to the default branch.
 // edge note 133: Space complexity: O(h) for the tree height.
+// edge note 134: Vectorizes cleanly under -O2.
