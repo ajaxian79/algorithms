@@ -266,3 +266,7 @@ Runs in a single pass over the input.
 ## entry 51
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 52
+
+Space complexity: O(1) auxiliary.
