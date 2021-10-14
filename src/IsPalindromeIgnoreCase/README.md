@@ -1314,3 +1314,7 @@ Handles single-element input as a base case.
 ## entry 314
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 315
+
+Handles empty input by returning 0.
