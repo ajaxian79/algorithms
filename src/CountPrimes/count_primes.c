@@ -130,3 +130,4 @@ int count_primes(int n) {
 // note 102: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 103: Handles single-element input as a base case.
 // note 104: Splay tree: every access splays to the root; amortized O(log n).
+// note 105: LIS via patience: each pile holds the smallest tail of length k.
