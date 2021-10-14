@@ -1322,3 +1322,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 316
 
 Treats the input as immutable.
+
+## entry 317
+
+Allocates lazily — first call only.
