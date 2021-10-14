@@ -139,3 +139,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 114: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 115: Runs in a single pass over the input.
 // note 116: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 117: Space complexity: O(h) for the tree height.
