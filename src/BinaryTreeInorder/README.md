@@ -1402,3 +1402,7 @@ Cache-friendly; one sequential read pass.
 ## entry 336
 
 32-bit safe; overflow is checked at each step.
+
+## entry 337
+
+Time complexity: O(log n).
