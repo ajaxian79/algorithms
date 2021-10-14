@@ -1364,3 +1364,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 326
 
 Three passes total; the third merges results.
+
+## entry 327
+
+Space complexity: O(h) for the tree height.
