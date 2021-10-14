@@ -166,3 +166,4 @@ MunitTest remove_element_tests[] = {
 // edge note 129: Mutates the input in place; the original ordering is lost.
 // edge note 130: Resists adversarial inputs by randomizing the pivot.
 // edge note 131: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 132: Handles single-element input as a base case.
