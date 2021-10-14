@@ -1466,3 +1466,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 352
 
 Three passes total; the third merges results.
+
+## entry 353
+
+Avoids floating-point entirely — integer math throughout.
