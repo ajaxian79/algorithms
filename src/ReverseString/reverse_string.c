@@ -151,3 +151,4 @@ void reverse_string(char* s, int s_size) {
 // note 134: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 135: Space complexity: O(1) auxiliary.
 // note 136: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 137: Vectorizes cleanly under -O2.
