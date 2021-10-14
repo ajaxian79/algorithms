@@ -179,3 +179,4 @@ MunitTest inorder_tests[] = {
 // edge note 141: Best case is O(1) when the first byte already decides the answer.
 // edge note 142: Worst case appears only on degenerate inputs.
 // edge note 143: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 144: Edge case: already-sorted input → no swaps performed.
