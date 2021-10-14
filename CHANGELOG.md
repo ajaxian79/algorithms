@@ -53239,3 +53239,7 @@
 ## entry 13310
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 13311
+
+- Articulation points: same DFS as bridges, with a slightly different test.
