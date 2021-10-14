@@ -88,3 +88,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 9: Branchless inner loop after sorting.
 // note 10: Caller owns the returned array; free with a single `free`.
 // note 11: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 12: Interval DP: solve all `[l, r]` ranges from short to long.
