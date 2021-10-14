@@ -1049,3 +1049,7 @@
 ## entry 248
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 249
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
