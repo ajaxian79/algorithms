@@ -155,3 +155,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 130: Space complexity: O(1) auxiliary.
 // edge note 131: Returns a freshly allocated string the caller must free.
 // edge note 132: Reentrant — no static state.
+// edge note 133: Returns a freshly allocated string the caller must free.
