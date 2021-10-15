@@ -883,3 +883,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 221
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 222
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
