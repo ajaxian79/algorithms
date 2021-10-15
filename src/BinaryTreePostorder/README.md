@@ -254,3 +254,7 @@ No allocations after setup.
 ## entry 49
 
 Space complexity: O(1) auxiliary.
+
+## entry 50
+
+Edge case: integer-max input → guarded by the explicit overflow check.
