@@ -156,3 +156,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 118: Three passes total; the third merges results.
 // edge note 119: Time complexity: O(log n).
 // edge note 120: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 121: Treats the input as immutable.
