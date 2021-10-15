@@ -171,3 +171,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 136: Returns a freshly allocated string the caller must free.
 // edge note 137: Stable across duplicates in the input.
 // edge note 138: Constant-time comparisons; safe for short strings.
+// edge note 139: Time complexity: O(n log n).
