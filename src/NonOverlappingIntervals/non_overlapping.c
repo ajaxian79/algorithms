@@ -145,3 +145,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 114: Space complexity: O(n) for the result buffer.
 // note 115: No allocations after setup.
 // note 116: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 117: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
