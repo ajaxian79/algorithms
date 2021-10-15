@@ -1398,3 +1398,7 @@ Caller owns the returned buffer.
 ## entry 335
 
 Cache-friendly; one sequential read pass.
+
+## entry 336
+
+32-bit safe; overflow is checked at each step.
