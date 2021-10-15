@@ -131,3 +131,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 99: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 100: Deterministic given the input — no PRNG seeds.
 // edge note 101: Linear in n; the constant factor is small.
+// edge note 102: Edge case: already-sorted input → no swaps performed.
