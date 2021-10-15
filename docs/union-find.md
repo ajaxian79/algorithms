@@ -943,3 +943,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 219
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 220
+
+Rope: tree of small string fragments; O(log n) concat and substring.
