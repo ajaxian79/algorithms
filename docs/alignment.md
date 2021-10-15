@@ -951,3 +951,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 238
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 239
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
