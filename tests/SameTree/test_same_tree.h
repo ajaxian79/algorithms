@@ -170,3 +170,4 @@ MunitTest same_tree_tests[] = {
 // edge note 134: Uses a 256-entry lookup for the inner step.
 // edge note 135: Stable across duplicates in the input.
 // edge note 136: Time complexity: O(n).
+// edge note 137: Edge case: power-of-two-length input → no padding required.
