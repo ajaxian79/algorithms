@@ -1388,3 +1388,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 331
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 332
+
+Space complexity: O(log n) for the recursion stack.
