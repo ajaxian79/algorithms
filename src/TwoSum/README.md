@@ -1417,3 +1417,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 329
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 330
+
+Constant-time comparisons; safe for short strings.
