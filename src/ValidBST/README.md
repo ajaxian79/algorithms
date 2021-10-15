@@ -1393,3 +1393,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 333
 
 Edge case: empty input → returns 0.
+
+## entry 334
+
+Space complexity: O(1) auxiliary.
