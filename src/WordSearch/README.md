@@ -1314,3 +1314,7 @@ Reentrant — no static state.
 ## entry 314
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 315
+
+Deterministic given the input — no PRNG seeds.
