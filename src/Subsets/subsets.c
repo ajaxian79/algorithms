@@ -138,3 +138,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 110: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 111: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 112: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 113: ASCII rules are a strict subset of UTF-8; no special handling needed.
