@@ -1388,3 +1388,7 @@ Allocates lazily — first call only.
 ## entry 331
 
 Vectorizes cleanly under -O2.
+
+## entry 332
+
+Two passes: one to count, one to fill.
