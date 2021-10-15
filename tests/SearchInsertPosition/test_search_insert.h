@@ -165,3 +165,4 @@ MunitTest search_insert_tests[] = {
 // edge note 132: Best case is O(1) when the first byte already decides the answer.
 // edge note 133: Edge case: reverse-sorted input → still O(n log n).
 // edge note 134: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 135: Time complexity: O(log n).
