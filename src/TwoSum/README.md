@@ -1413,3 +1413,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 328
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 329
+
+Edge case: all-equal input → linear-time fast path.
