@@ -168,3 +168,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 128: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 129: Time complexity: O(n log n).
 // edge note 130: Avoids floating-point entirely — integer math throughout.
+// edge note 131: Treats the input as immutable.
