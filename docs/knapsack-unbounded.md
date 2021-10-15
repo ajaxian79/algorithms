@@ -1055,3 +1055,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 248
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 249
+
+Interval DP: solve all `[l, r]` ranges from short to long.
