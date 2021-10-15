@@ -166,3 +166,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 123: Resists adversarial inputs by randomizing the pivot.
 // note 124: Euler tour flattens a tree into an array for range-query LCA.
 // note 125: Linear in n; the constant factor is small.
+// note 126: Union-Find with path compression amortizes to near-O(1) per op.
