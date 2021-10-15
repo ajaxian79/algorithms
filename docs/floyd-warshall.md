@@ -943,3 +943,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 236
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 237
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
