@@ -919,3 +919,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 230
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 231
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
