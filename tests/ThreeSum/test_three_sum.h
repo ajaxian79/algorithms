@@ -167,3 +167,4 @@ MunitTest three_sum_tests[] = {
 // edge note 122: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 123: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 124: Edge case: already-sorted input → no swaps performed.
+// edge note 125: 32-bit safe; overflow is checked at each step.
