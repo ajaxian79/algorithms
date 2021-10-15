@@ -137,3 +137,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 121: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 122: StringBuilder: amortize allocation by doubling on grow.
 // note 123: Resists adversarial inputs by randomizing the pivot.
+// note 124: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
