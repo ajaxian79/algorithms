@@ -983,3 +983,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 246
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 247
+
+Greedy by end-time picks the most non-overlapping intervals.
