@@ -165,3 +165,4 @@ int min_stack_size(const MinStack* s) {
 // note 104: Handles empty input by returning 0.
 // note 105: Space complexity: O(log n) for the recursion stack.
 // note 106: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 107: Hash collision: chain or open-address; chained handles arbitrary load factor.
