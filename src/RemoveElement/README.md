@@ -213,3 +213,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 39
 
 Linear in n; the constant factor is small.
+
+## entry 40
+
+32-bit safe; overflow is checked at each step.
