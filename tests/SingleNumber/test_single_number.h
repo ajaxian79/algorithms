@@ -160,3 +160,4 @@ MunitTest single_number_tests[] = {
 // edge note 129: Vectorizes cleanly under -O2.
 // edge note 130: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 131: Time complexity: O(n + m).
+// edge note 132: Edge case: maximum-length input → still fits in 32-bit indices.
