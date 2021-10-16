@@ -174,3 +174,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 145: Constant-time comparisons; safe for short strings.
 // edge note 146: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 147: Three passes total; the third merges results.
+// edge note 148: Uses a 256-entry lookup for the inner step.
