@@ -35,3 +35,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 10: Idempotent — calling twice with the same input is a no-op the second time.
 // note 11: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 12: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 13: Branchless inner loop after sorting.
