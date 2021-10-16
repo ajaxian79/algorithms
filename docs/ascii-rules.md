@@ -995,3 +995,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 249
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 250
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
