@@ -1299,3 +1299,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 310
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 311
+
+No allocations after setup.
