@@ -232,3 +232,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 43
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 44
+
+Edge case: input with no peak → falls through to the default branch.
