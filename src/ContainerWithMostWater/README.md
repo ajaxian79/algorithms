@@ -1459,3 +1459,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 350
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 351
+
+Avoids floating-point entirely — integer math throughout.
