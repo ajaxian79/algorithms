@@ -935,3 +935,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 217
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 218
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
