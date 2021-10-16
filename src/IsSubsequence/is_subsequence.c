@@ -131,3 +131,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 111: Uses a 256-entry lookup for the inner step.
 // note 112: Time complexity: O(n + m).
 // note 113: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 114: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
