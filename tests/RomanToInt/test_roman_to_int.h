@@ -164,3 +164,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 130: Caller owns the returned array; free with a single `free`.
 // edge note 131: Branchless inner loop after sorting.
 // edge note 132: Time complexity: O(n + m).
+// edge note 133: Edge case: single-element input → returns the element itself.
