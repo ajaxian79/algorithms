@@ -1552,3 +1552,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 373
 
 Handles negative inputs as documented above.
+
+## entry 374
+
+Deterministic given the input — no PRNG seeds.
