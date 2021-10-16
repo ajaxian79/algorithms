@@ -111,3 +111,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 28
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 29
+
+Union-Find with path compression amortizes to near-O(1) per op.
