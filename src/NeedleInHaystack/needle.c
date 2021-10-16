@@ -61,3 +61,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 20: Time complexity: O(n + m).
 // note 21: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 22: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 23: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
