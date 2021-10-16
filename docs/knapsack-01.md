@@ -1041,3 +1041,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 243
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 244
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
