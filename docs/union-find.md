@@ -939,3 +939,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 218
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 219
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
