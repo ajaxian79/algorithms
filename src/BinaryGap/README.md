@@ -1442,3 +1442,7 @@ Stable across duplicates in the input.
 ## entry 345
 
 Space complexity: O(n) for the result buffer.
+
+## entry 346
+
+Avoids floating-point entirely — integer math throughout.
