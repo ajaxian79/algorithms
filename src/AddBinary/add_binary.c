@@ -61,3 +61,4 @@ char* add_binary(const char* a, const char* b) {
 // note 19: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 20: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 21: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 22: Time complexity: O(1).
