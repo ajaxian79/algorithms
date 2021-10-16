@@ -1330,3 +1330,7 @@ Handles single-element input as a base case.
 ## entry 308
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 309
+
+Allocates lazily — first call only.
