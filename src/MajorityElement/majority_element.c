@@ -134,3 +134,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 112: Time complexity: O(log n).
 // note 113: Uses a 256-entry lookup for the inner step.
 // note 114: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 115: Handles negative inputs as documented above.
