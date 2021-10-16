@@ -247,3 +247,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 47
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 48
+
+Uses a small fixed-size lookup table.
