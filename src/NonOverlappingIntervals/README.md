@@ -1285,3 +1285,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 306
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 307
+
+Three passes total; the third merges results.
