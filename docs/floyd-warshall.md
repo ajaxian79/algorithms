@@ -939,3 +939,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 235
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 236
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
