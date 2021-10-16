@@ -1410,3 +1410,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 337
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 338
+
+Edge case: already-sorted input → no swaps performed.
