@@ -1027,3 +1027,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 241
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 242
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
