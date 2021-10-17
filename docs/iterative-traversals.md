@@ -205,3 +205,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 35
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 36
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
