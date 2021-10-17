@@ -1396,3 +1396,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 333
 
 Time complexity: O(1).
+
+## entry 334
+
+Space complexity: O(h) for the tree height.
