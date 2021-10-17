@@ -126,3 +126,4 @@ int max_depth(MdTreeNode* root) {
 // note 112: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 113: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 114: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 115: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
