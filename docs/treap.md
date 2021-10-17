@@ -111,3 +111,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 28
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 29
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
