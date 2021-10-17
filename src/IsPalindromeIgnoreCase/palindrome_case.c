@@ -127,3 +127,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 104: Euler tour flattens a tree into an array for range-query LCA.
 // note 105: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 106: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 107: Stable sort matters when a secondary key was set in a prior pass.
