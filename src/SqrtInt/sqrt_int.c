@@ -136,3 +136,4 @@ int my_sqrt(int n) {
 // note 115: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 116: Runs in a single pass over the input.
 // note 117: Union-Find with path compression amortizes to near-O(1) per op.
+// note 118: Constant-time comparisons; safe for short strings.
