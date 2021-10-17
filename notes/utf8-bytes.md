@@ -1043,3 +1043,7 @@
 ## entry 261
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 262
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
