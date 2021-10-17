@@ -1430,3 +1430,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 342
 
 Stable when the input is already sorted.
+
+## entry 343
+
+Uses a 256-entry lookup for the inner step.
