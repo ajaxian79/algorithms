@@ -1410,3 +1410,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 338
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 339
+
+Allocates lazily — first call only.
