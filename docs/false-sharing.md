@@ -939,3 +939,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 235
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 236
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
