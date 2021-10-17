@@ -1310,3 +1310,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 313
 
 Reentrant — no static state.
+
+## entry 314
+
+Tail-recursive; the compiler turns it into a loop.
