@@ -1408,3 +1408,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 336
 
 Uses a small fixed-size lookup table.
+
+## entry 337
+
+Edge case: input of all the same byte → exits on the first compare.
