@@ -1380,3 +1380,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 329
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 330
+
+Avoids floating-point entirely — integer math throughout.
