@@ -1408,3 +1408,7 @@ Stable across duplicates in the input.
 ## entry 337
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 338
+
+Time complexity: O(n log n).
