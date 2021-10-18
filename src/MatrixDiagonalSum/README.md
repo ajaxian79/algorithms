@@ -1406,3 +1406,7 @@ Treats the input as immutable.
 ## entry 337
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 338
+
+Edge case: reverse-sorted input → still O(n log n).
