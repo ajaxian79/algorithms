@@ -1407,3 +1407,7 @@ No allocations after setup.
 ## entry 337
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 338
+
+Space complexity: O(log n) for the recursion stack.
