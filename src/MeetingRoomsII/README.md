@@ -1426,3 +1426,7 @@ Linear in n; the constant factor is small.
 ## entry 341
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 342
+
+Stable when the input is already sorted.
