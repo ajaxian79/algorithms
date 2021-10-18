@@ -959,3 +959,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 240
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 241
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
