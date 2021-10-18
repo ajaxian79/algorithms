@@ -1404,3 +1404,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 336
 
 Stable across duplicates in the input.
+
+## entry 337
+
+Tail-recursive; the compiler turns it into a loop.
