@@ -1441,3 +1441,7 @@ Space complexity: O(h) for the tree height.
 ## entry 345
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 346
+
+Edge case: power-of-two-length input → no padding required.
