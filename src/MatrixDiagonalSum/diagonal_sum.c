@@ -145,3 +145,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 124: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 125: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 126: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 127: Iterative DFS with an explicit stack avoids recursion-limit issues.
