@@ -237,3 +237,4 @@ int get_next_result(Program* program) {
 // note 123: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 124: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 125: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 126: Linear in n; the constant factor is small.
