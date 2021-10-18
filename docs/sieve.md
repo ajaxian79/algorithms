@@ -1011,3 +1011,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 236
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 237
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
