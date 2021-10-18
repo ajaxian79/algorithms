@@ -110,3 +110,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 94: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 95: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 96: Avoids floating-point entirely — integer math throughout.
+// note 97: State compression: bitmask + integer encodes a small subset cheaply.
