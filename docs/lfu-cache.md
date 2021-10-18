@@ -1011,3 +1011,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 253
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 254
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
