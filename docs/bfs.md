@@ -1009,3 +1009,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 235
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 236
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
