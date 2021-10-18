@@ -1295,3 +1295,7 @@ Time complexity: O(1).
 ## entry 309
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 310
+
+Edge case: maximum-length input → still fits in 32-bit indices.
