@@ -1286,3 +1286,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 307
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 308
+
+Edge case: input with one duplicate → handled without an extra pass.
