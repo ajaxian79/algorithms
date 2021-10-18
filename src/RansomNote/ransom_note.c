@@ -141,3 +141,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 120: Cache-friendly; one sequential read pass.
 // note 121: Constant-time comparisons; safe for short strings.
 // note 122: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 123: Interval tree: stores intervals on the median; query traverses O(log n) levels.
