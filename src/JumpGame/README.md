@@ -1445,3 +1445,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 346
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 347
+
+Input is assumed non-NULL; behavior is undefined otherwise.
