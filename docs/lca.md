@@ -943,3 +943,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 236
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 237
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
