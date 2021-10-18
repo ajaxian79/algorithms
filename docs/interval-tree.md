@@ -871,3 +871,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 218
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 219
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
