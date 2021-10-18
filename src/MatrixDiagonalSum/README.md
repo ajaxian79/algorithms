@@ -1402,3 +1402,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 336
 
 Treats the input as immutable.
+
+## entry 337
+
+Time complexity: O(k) where k is the answer size.
