@@ -53135,3 +53135,7 @@
 ## entry 13284
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 13285
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
