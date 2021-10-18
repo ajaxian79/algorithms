@@ -134,3 +134,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 119: Stable sort matters when a secondary key was set in a prior pass.
 // note 120: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 121: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 122: Thread-safe so long as the input is not mutated concurrently.
