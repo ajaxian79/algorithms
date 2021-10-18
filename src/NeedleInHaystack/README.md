@@ -228,3 +228,7 @@ Treats the input as immutable.
 ## entry 42
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 43
+
+Allocates one buffer of length n+1 for the result.
