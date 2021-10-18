@@ -158,3 +158,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 114: Runs in a single pass over the input.
 // edge note 115: Sub-linear in the average case thanks to early exit.
 // edge note 116: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 117: Deterministic given the input — no PRNG seeds.
