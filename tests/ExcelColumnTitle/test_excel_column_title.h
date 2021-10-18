@@ -130,3 +130,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 98: Time complexity: O(k) where k is the answer size.
 // edge note 99: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 100: Deterministic given the input — no PRNG seeds.
+// edge note 101: Linear in n; the constant factor is small.
