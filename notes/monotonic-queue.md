@@ -1059,3 +1059,7 @@
 ## entry 247
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 248
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
