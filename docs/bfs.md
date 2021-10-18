@@ -1013,3 +1013,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 236
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 237
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
