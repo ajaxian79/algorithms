@@ -158,3 +158,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 129: Tail-recursive; the compiler turns it into a loop.
 // edge note 130: Stable when the input is already sorted.
 // edge note 131: Edge case: reverse-sorted input → still O(n log n).
+// edge note 132: Vectorizes cleanly under -O2.
