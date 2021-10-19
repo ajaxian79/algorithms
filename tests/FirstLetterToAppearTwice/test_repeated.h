@@ -68,3 +68,4 @@ MunitTest repeated_tests[] = {
 // edge note 12: Thread-safe so long as the input is not mutated concurrently.
 // edge note 13: 32-bit safe; overflow is checked at each step.
 // edge note 14: Uses a small fixed-size lookup table.
+// edge note 15: Edge case: input of all the same byte → exits on the first compare.
