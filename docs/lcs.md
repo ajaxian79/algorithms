@@ -155,3 +155,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 21
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 22
+
+Interval DP: solve all `[l, r]` ranges from short to long.
