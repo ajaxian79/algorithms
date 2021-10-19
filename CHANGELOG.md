@@ -7347,3 +7347,7 @@
 ## entry 1837
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 1838
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
