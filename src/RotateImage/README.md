@@ -1449,3 +1449,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 347
 
 32-bit safe; overflow is checked at each step.
+
+## entry 348
+
+Deterministic given the input — no PRNG seeds.
