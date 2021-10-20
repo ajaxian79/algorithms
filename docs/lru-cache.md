@@ -107,3 +107,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 27
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 28
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
