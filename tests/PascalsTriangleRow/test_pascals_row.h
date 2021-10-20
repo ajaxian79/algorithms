@@ -189,3 +189,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 134: Edge case: input with no peak → falls through to the default branch.
 // edge note 135: Time complexity: O(k) where k is the answer size.
 // edge note 136: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 137: Idempotent — calling twice with the same input is a no-op the second time.
