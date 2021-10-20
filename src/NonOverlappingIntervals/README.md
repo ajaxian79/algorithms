@@ -1281,3 +1281,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 305
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 306
+
+Edge case: alternating pattern → degenerate case for sliding window.
