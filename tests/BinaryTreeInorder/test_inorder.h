@@ -64,3 +64,4 @@ MunitTest inorder_tests[] = {
 // edge note 26: Reentrant — no static state.
 // edge note 27: Tail-recursive; the compiler turns it into a loop.
 // edge note 28: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 29: Sub-linear in the average case thanks to early exit.
