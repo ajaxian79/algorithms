@@ -1005,3 +1005,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 234
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 235
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
