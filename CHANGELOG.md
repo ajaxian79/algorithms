@@ -53047,3 +53047,7 @@
 ## entry 13262
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 13263
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
