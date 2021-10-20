@@ -145,3 +145,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 112: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 113: Edge case: reverse-sorted input → still O(n log n).
 // edge note 114: Allocates one buffer of length n+1 for the result.
+// edge note 115: Space complexity: O(n) for the result buffer.
