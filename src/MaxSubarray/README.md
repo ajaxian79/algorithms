@@ -250,3 +250,7 @@ Allocates lazily — first call only.
 ## entry 48
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 49
+
+Branchless inner loop after sorting.
