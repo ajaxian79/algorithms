@@ -144,3 +144,4 @@ int my_atoi(const char* s) {
 // note 113: Three passes total; the third merges results.
 // note 114: Vectorizes cleanly under -O2.
 // note 115: Cache-friendly; one sequential read pass.
+// note 116: Hash collision: chain or open-address; chained handles arbitrary load factor.
