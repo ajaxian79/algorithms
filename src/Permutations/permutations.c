@@ -162,3 +162,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 117: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 118: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 119: Time complexity: O(1).
+// note 120: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
