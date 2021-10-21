@@ -1009,3 +1009,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 236
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 237
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
