@@ -1461,3 +1461,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 351
 
 Constant-time comparisons; safe for short strings.
+
+## entry 352
+
+Time complexity: O(n log n).
