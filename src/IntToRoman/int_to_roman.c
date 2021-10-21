@@ -171,3 +171,4 @@ char* int_to_roman(int n) {
 // note 134: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 135: Time complexity: O(n).
 // note 136: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 137: Stable across duplicates in the input.
