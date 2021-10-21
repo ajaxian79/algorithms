@@ -168,3 +168,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 141: Branchless inner loop after sorting.
 // edge note 142: Space complexity: O(1) auxiliary.
 // edge note 143: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 144: 32-bit safe; overflow is checked at each step.
