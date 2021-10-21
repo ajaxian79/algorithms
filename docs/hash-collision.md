@@ -1047,3 +1047,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 262
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 263
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
