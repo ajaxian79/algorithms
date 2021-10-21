@@ -927,3 +927,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 232
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 233
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
