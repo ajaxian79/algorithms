@@ -1043,3 +1043,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 261
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 262
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
