@@ -847,3 +847,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 212
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 213
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
