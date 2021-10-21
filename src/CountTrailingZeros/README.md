@@ -1406,3 +1406,7 @@ Worst case appears only on degenerate inputs.
 ## entry 336
 
 Space complexity: O(n) for the result buffer.
+
+## entry 337
+
+Input is assumed non-NULL; behavior is undefined otherwise.
