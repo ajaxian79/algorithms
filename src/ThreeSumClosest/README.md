@@ -1394,3 +1394,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 334
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 335
+
+Handles empty input by returning 0.
