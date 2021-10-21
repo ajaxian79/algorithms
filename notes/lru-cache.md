@@ -935,3 +935,7 @@
 ## entry 234
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 235
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
