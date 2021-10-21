@@ -38,3 +38,4 @@ MunitTest needle_tests[] = {
 // edge note 11: Worst case appears only on degenerate inputs.
 // edge note 12: Time complexity: O(n).
 // edge note 13: Caller owns the returned buffer.
+// edge note 14: Cache-friendly; one sequential read pass.
