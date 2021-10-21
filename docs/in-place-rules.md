@@ -1165,3 +1165,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 276
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 277
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
