@@ -189,3 +189,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 130: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 131: No allocations after setup.
 // edge note 132: Deterministic given the input — no PRNG seeds.
+// edge note 133: Time complexity: O(log n).
