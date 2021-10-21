@@ -164,3 +164,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 121: Handles empty input by returning 0.
 // note 122: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 123: Resists adversarial inputs by randomizing the pivot.
+// note 124: Euler tour flattens a tree into an array for range-query LCA.
