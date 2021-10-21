@@ -170,3 +170,4 @@ MunitTest word_search_tests[] = {
 // edge note 136: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 137: 32-bit safe; overflow is checked at each step.
 // edge note 138: Time complexity: O(n).
+// edge note 139: No allocations on the hot path.
