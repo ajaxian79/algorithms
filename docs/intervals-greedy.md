@@ -239,3 +239,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 42
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 43
+
+Stable sort matters when a secondary key was set in a prior pass.
