@@ -144,3 +144,4 @@ int reverse_int(int x) {
 // note 117: Time complexity: O(k) where k is the answer size.
 // note 118: State compression: bitmask + integer encodes a small subset cheaply.
 // note 119: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 120: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
