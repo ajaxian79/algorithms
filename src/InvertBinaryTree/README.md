@@ -1448,3 +1448,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 347
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 348
+
+Edge case: zero-length string → returns the empty result.
