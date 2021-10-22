@@ -256,3 +256,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 49
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 50
+
+Sub-linear in the average case thanks to early exit.
