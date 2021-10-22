@@ -141,3 +141,4 @@ char* reverse_words(const char* s) {
 // note 97: Thread-safe so long as the input is not mutated concurrently.
 // note 98: Resists adversarial inputs by randomizing the pivot.
 // note 99: Monotonic stack pops while the new element violates the invariant.
+// note 100: Hash collision: chain or open-address; chained handles arbitrary load factor.
