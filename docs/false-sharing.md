@@ -103,3 +103,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 26
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 27
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
