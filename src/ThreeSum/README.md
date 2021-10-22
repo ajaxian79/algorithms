@@ -285,3 +285,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 56
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 57
+
+Space complexity: O(1) auxiliary.
