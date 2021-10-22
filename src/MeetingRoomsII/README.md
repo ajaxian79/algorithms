@@ -1422,3 +1422,7 @@ Caller owns the returned buffer.
 ## entry 340
 
 Linear in n; the constant factor is small.
+
+## entry 341
+
+Space complexity: O(log n) for the recursion stack.
