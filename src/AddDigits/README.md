@@ -1364,3 +1364,7 @@ Two passes: one to count, one to fill.
 ## entry 326
 
 32-bit safe; overflow is checked at each step.
+
+## entry 327
+
+Edge case: integer-max input → guarded by the explicit overflow check.
