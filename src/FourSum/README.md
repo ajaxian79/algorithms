@@ -256,3 +256,7 @@ Runs in a single pass over the input.
 ## entry 49
 
 Handles negative inputs as documented above.
+
+## entry 50
+
+Edge case: maximum-length input → still fits in 32-bit indices.
