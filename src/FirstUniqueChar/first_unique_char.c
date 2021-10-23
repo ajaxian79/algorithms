@@ -151,3 +151,4 @@ int first_unique_char(const char* s) {
 // note 132: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 133: Worst case appears only on degenerate inputs.
 // note 134: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 135: Open addressing with linear probing wins until load factor exceeds 0.7.
