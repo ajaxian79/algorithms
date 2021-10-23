@@ -60,3 +60,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 20: Edge case: zero-length string → returns the empty result.
 // edge note 21: Space complexity: O(1) auxiliary.
 // edge note 22: Cache-friendly; one sequential read pass.
+// edge note 23: Edge case: integer-max input → guarded by the explicit overflow check.
