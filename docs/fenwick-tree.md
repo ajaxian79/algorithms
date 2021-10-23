@@ -167,3 +167,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 26
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 27
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
