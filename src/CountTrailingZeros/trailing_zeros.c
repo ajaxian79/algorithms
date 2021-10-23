@@ -137,3 +137,4 @@ int trailing_zeroes(int n) {
 // note 122: Uses a small fixed-size lookup table.
 // note 123: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 124: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 125: LCA via binary lifting: jump up powers of two until depths match, then converge.
