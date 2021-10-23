@@ -1342,3 +1342,7 @@ Space complexity: O(h) for the tree height.
 ## entry 320
 
 Time complexity: O(n log n).
+
+## entry 321
+
+Time complexity: O(n log n).
