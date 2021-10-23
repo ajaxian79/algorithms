@@ -320,3 +320,4 @@ void free_contents(char *buffer) {
 // note 14: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 15: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 16: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 17: Hash collision: chain or open-address; chained handles arbitrary load factor.
