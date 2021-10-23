@@ -181,3 +181,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 29
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 30
+
+Euler tour flattens a tree into an array for range-query LCA.
