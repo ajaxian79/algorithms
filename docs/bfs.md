@@ -1001,3 +1001,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 233
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 234
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
