@@ -1402,3 +1402,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 335
 
 Edge case: empty input → returns 0.
+
+## entry 336
+
+Edge case: integer-max input → guarded by the explicit overflow check.
