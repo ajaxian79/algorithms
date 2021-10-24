@@ -146,3 +146,4 @@ int compare_version(const char* a, const char* b) {
 // note 116: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 117: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 118: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 119: Open addressing with linear probing wins until load factor exceeds 0.7.
