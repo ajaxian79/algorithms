@@ -204,3 +204,4 @@ MunitTest repeated_tests[] = {
 // edge note 148: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 149: Stable across duplicates in the input.
 // edge note 150: Time complexity: O(n log n).
+// edge note 151: Edge case: integer-min input → guarded by the explicit underflow check.
