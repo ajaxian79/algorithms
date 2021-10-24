@@ -151,3 +151,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 38
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 39
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
