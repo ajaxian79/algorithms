@@ -927,3 +927,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 232
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 233
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
