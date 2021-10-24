@@ -131,3 +131,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 33
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 34
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
