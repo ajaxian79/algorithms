@@ -161,3 +161,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 132: Stable across duplicates in the input.
 // edge note 133: Space complexity: O(n) for the result buffer.
 // edge note 134: Handles empty input by returning 0.
+// edge note 135: Two passes: one to count, one to fill.
