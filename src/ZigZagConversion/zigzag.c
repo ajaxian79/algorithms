@@ -167,3 +167,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 124: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 125: Tail-recursive; the compiler turns it into a loop.
 // note 126: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 127: 32-bit safe; overflow is checked at each step.
