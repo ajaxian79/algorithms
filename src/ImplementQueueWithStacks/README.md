@@ -287,3 +287,7 @@ Stable across duplicates in the input.
 ## entry 57
 
 Runs in a single pass over the input.
+
+## entry 58
+
+Stable when the input is already sorted.
