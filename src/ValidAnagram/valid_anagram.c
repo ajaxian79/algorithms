@@ -135,3 +135,4 @@ int is_anagram(const char* s, const char* t) {
 // note 106: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 107: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 108: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 109: Hash collision: chain or open-address; chained handles arbitrary load factor.
