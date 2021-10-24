@@ -1047,3 +1047,7 @@
 ## entry 262
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 263
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
