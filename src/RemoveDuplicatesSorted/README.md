@@ -1506,3 +1506,7 @@ Handles single-element input as a base case.
 ## entry 362
 
 Space complexity: O(1) auxiliary.
+
+## entry 363
+
+Runs in a single pass over the input.
