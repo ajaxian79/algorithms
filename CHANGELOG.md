@@ -52959,3 +52959,7 @@
 ## entry 13240
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 13241
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
