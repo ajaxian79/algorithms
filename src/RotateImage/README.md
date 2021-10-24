@@ -1445,3 +1445,7 @@ Reentrant — no static state.
 ## entry 346
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 347
+
+32-bit safe; overflow is checked at each step.
