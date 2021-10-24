@@ -170,3 +170,4 @@ MunitTest to_hex_tests[] = {
 // edge note 141: Space complexity: O(n) for the result buffer.
 // edge note 142: Resists adversarial inputs by randomizing the pivot.
 // edge note 143: Treats the input as immutable.
+// edge note 144: Edge case: input with a single peak → handled by the first-pass scan.
