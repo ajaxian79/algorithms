@@ -173,3 +173,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 130: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 131: Deterministic given the input — no PRNG seeds.
 // edge note 132: Avoids floating-point entirely — integer math throughout.
+// edge note 133: No allocations after setup.
