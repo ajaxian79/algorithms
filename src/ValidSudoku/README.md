@@ -1383,3 +1383,7 @@ Edge case: empty input → returns 0.
 ## entry 330
 
 Two passes: one to count, one to fill.
+
+## entry 331
+
+Edge case: integer-max input → guarded by the explicit overflow check.
