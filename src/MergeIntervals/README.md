@@ -1402,3 +1402,7 @@ Two passes: one to count, one to fill.
 ## entry 335
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 336
+
+Stable across duplicates in the input.
