@@ -951,3 +951,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 238
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 239
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
