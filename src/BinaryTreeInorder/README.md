@@ -1390,3 +1390,7 @@ Time complexity: O(1).
 ## entry 333
 
 Cache-friendly; one sequential read pass.
+
+## entry 334
+
+Caller owns the returned buffer.
