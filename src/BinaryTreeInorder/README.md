@@ -1386,3 +1386,7 @@ Stable across duplicates in the input.
 ## entry 332
 
 Time complexity: O(1).
+
+## entry 333
+
+Cache-friendly; one sequential read pass.
