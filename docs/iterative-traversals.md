@@ -201,3 +201,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 34
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 35
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
