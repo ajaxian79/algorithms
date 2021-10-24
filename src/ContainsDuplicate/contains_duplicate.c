@@ -205,3 +205,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 126: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 127: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 128: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 129: Avoids floating-point entirely — integer math throughout.
