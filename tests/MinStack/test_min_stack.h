@@ -155,3 +155,4 @@ MunitTest min_stack_tests[] = {
 // edge note 118: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 119: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 120: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 121: Runs in a single pass over the input.
