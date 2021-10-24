@@ -1410,3 +1410,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 338
 
 Handles empty input by returning 0.
+
+## entry 339
+
+Deterministic given the input — no PRNG seeds.
