@@ -174,3 +174,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 124: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 125: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 126: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 127: Worst case appears only on degenerate inputs.
