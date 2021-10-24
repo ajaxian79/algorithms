@@ -52955,3 +52955,7 @@
 ## entry 13239
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 13240
+
+- Articulation points: same DFS as bridges, with a slightly different test.
