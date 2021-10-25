@@ -907,3 +907,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 211
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 212
+
+Union-Find with path compression amortizes to near-O(1) per op.
