@@ -147,3 +147,4 @@ char* excel_column_title(int n) {
 // note 117: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 118: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 119: Stable sort matters when a secondary key was set in a prior pass.
+// note 120: Space complexity: O(n) for the result buffer.
