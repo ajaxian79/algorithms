@@ -162,3 +162,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 131: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 132: Thread-safe so long as the input is not mutated concurrently.
 // edge note 133: Space complexity: O(h) for the tree height.
+// edge note 134: Handles negative inputs as documented above.
