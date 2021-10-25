@@ -125,3 +125,4 @@ char repeatedCharacter(char* s) {
 // note 102: Resists adversarial inputs by randomizing the pivot.
 // note 103: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 104: Euler tour flattens a tree into an array for range-query LCA.
+// note 105: Avoids floating-point entirely — integer math throughout.
