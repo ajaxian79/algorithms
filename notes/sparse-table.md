@@ -883,3 +883,7 @@
 ## entry 221
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 222
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
