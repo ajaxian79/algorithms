@@ -931,3 +931,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 233
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 234
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
