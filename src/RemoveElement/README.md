@@ -1409,3 +1409,7 @@ Stable when the input is already sorted.
 ## entry 338
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 339
+
+Handles negative inputs as documented above.
