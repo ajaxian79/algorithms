@@ -52927,3 +52927,7 @@
 ## entry 13232
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 13233
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
