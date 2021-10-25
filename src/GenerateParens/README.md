@@ -1388,3 +1388,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 331
 
 Handles empty input by returning 0.
+
+## entry 332
+
+Cache-friendly; one sequential read pass.
