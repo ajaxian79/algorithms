@@ -997,3 +997,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 232
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 233
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
