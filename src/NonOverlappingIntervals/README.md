@@ -1277,3 +1277,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 304
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 305
+
+Allocates a single small fixed-size scratch buffer.
