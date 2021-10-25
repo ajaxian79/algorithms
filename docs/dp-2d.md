@@ -1027,3 +1027,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 241
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 242
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
