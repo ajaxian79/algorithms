@@ -1379,3 +1379,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 329
 
 Edge case: empty input → returns 0.
+
+## entry 330
+
+Two passes: one to count, one to fill.
