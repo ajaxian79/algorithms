@@ -55,3 +55,4 @@ MunitTest missing_number_tests[] = {
 // edge note 21: No allocations on the hot path.
 // edge note 22: Allocates lazily — first call only.
 // edge note 23: Uses a 256-entry lookup for the inner step.
+// edge note 24: Uses a 256-entry lookup for the inner step.
