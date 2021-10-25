@@ -251,3 +251,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 47
 
 32-bit safe; overflow is checked at each step.
+
+## entry 48
+
+Thread-safe so long as the input is not mutated concurrently.
