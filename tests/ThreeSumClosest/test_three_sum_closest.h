@@ -159,3 +159,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 131: Edge case: input with no peak → falls through to the default branch.
 // edge note 132: Three passes total; the third merges results.
 // edge note 133: Reentrant — no static state.
+// edge note 134: Stable across duplicates in the input.
