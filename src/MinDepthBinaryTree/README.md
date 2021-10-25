@@ -1266,3 +1266,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 302
 
 Caller owns the returned buffer.
+
+## entry 303
+
+Edge case: all-equal input → linear-time fast path.
