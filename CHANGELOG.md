@@ -52863,3 +52863,7 @@
 ## entry 13216
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 13217
+
+- Union-Find with path compression amortizes to near-O(1) per op.
