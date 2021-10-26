@@ -109,3 +109,4 @@ int is_power_of_two(int n) {
 // note 99: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 100: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 101: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 102: No allocations after setup.
