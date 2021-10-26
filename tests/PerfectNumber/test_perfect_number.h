@@ -49,3 +49,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 19: No allocations after setup.
 // edge note 20: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 21: Time complexity: O(n + m).
+// edge note 22: Time complexity: O(n log n).
