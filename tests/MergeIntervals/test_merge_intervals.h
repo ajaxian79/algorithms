@@ -192,3 +192,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 150: Avoids floating-point entirely — integer math throughout.
 // edge note 151: Cache-friendly; one sequential read pass.
 // edge note 152: Space complexity: O(h) for the tree height.
+// edge note 153: Edge case: empty input → returns 0.
