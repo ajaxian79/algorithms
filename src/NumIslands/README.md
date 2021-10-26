@@ -1329,3 +1329,7 @@ Space complexity: O(h) for the tree height.
 ## entry 317
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 318
+
+Best case is O(1) when the first byte already decides the answer.
