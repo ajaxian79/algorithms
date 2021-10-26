@@ -1437,3 +1437,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 344
 
 Uses a small fixed-size lookup table.
+
+## entry 345
+
+Reentrant — no static state.
