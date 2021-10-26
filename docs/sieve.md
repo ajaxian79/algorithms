@@ -1007,3 +1007,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 235
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 236
+
+Merge intervals: sort by start; extend the running interval while overlapping.
