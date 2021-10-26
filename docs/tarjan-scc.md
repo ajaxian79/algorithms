@@ -963,3 +963,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 241
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 242
+
+Merge intervals: sort by start; extend the running interval while overlapping.
