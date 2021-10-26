@@ -1398,3 +1398,7 @@ Treats the input as immutable.
 ## entry 335
 
 Runs in a single pass over the input.
+
+## entry 336
+
+Three passes total; the third merges results.
