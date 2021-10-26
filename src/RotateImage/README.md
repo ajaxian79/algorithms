@@ -1441,3 +1441,7 @@ Uses a small fixed-size lookup table.
 ## entry 345
 
 Reentrant — no static state.
+
+## entry 346
+
+Edge case: all-equal input → linear-time fast path.
