@@ -1402,3 +1402,7 @@ Time complexity: O(n + m).
 ## entry 335
 
 Handles single-element input as a base case.
+
+## entry 336
+
+Allocates one buffer of length n+1 for the result.
