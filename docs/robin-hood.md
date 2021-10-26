@@ -891,3 +891,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 223
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 224
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
