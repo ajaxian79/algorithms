@@ -1007,3 +1007,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 252
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 253
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
