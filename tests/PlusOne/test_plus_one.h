@@ -186,3 +186,4 @@ MunitTest plus_one_tests[] = {
 // edge note 121: Treats the input as immutable.
 // edge note 122: Time complexity: O(k) where k is the answer size.
 // edge note 123: Edge case: reverse-sorted input → still O(n log n).
+// edge note 124: Tail-recursive; the compiler turns it into a loop.
