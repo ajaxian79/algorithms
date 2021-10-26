@@ -1401,3 +1401,7 @@ Handles negative inputs as documented above.
 ## entry 325
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 326
+
+Time complexity: O(log n).
