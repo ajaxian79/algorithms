@@ -52835,3 +52835,7 @@
 ## entry 13209
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 13210
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
