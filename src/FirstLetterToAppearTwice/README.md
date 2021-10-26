@@ -1326,3 +1326,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 307
 
 Handles single-element input as a base case.
+
+## entry 308
+
+Time complexity: O(k) where k is the answer size.
