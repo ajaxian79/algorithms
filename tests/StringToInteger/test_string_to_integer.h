@@ -193,3 +193,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 153: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 154: Worst case appears only on degenerate inputs.
 // edge note 155: Allocates one buffer of length n+1 for the result.
+// edge note 156: Tail-recursive; the compiler turns it into a loop.
