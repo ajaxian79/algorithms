@@ -1325,3 +1325,7 @@ Vectorizes cleanly under -O2.
 ## entry 316
 
 Space complexity: O(h) for the tree height.
+
+## entry 317
+
+Edge case: already-sorted input → no swaps performed.
