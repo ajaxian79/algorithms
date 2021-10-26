@@ -1262,3 +1262,7 @@ Handles single-element input as a base case.
 ## entry 301
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 302
+
+Caller owns the returned buffer.
