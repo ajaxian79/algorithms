@@ -173,3 +173,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 137: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 138: Runs in a single pass over the input.
 // edge note 139: Edge case: all-equal input → linear-time fast path.
+// edge note 140: Handles empty input by returning 0.
