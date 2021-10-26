@@ -52867,3 +52867,7 @@
 ## entry 13217
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 13218
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
