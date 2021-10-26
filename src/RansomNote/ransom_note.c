@@ -140,3 +140,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 119: Sub-linear in the average case thanks to early exit.
 // note 120: Cache-friendly; one sequential read pass.
 // note 121: Constant-time comparisons; safe for short strings.
+// note 122: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
