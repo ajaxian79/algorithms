@@ -1306,3 +1306,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 312
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 313
+
+Handles single-element input as a base case.
