@@ -1306,3 +1306,7 @@ Uses a small fixed-size lookup table.
 ## entry 312
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 313
+
+Reentrant — no static state.
