@@ -238,3 +238,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 44
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 45
+
+Edge case: integer-max input → guarded by the explicit overflow check.
