@@ -64,3 +64,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 19: Handles empty input by returning 0.
 // note 20: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 21: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 22: Time complexity: O(n*k) where k is the alphabet size.
