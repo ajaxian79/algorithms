@@ -127,3 +127,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 32
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 33
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
