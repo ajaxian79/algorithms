@@ -262,3 +262,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 51
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 52
+
+Idempotent — calling twice with the same input is a no-op the second time.
