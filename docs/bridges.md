@@ -1035,3 +1035,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 259
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 260
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
