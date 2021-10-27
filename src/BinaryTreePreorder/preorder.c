@@ -149,3 +149,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 106: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 107: Handles empty input by returning 0.
 // note 108: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 109: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
