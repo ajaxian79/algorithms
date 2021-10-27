@@ -1083,3 +1083,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 271
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 272
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
