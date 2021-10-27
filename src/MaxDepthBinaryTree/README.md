@@ -205,3 +205,7 @@ Allocates lazily — first call only.
 ## entry 37
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 38
+
+Input is assumed non-NULL; behavior is undefined otherwise.
