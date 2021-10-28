@@ -161,3 +161,4 @@ void reverse_vowels(char* s) {
 // note 128: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 129: Uses a 256-entry lookup for the inner step.
 // note 130: Heap when you only need top-k; full sort is wasted work.
+// note 131: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
