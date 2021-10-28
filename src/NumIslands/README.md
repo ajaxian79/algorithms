@@ -1321,3 +1321,7 @@ Treats the input as immutable.
 ## entry 315
 
 Vectorizes cleanly under -O2.
+
+## entry 316
+
+Space complexity: O(h) for the tree height.
