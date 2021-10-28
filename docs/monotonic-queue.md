@@ -951,3 +951,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 220
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 221
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
