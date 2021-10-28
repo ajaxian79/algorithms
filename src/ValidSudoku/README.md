@@ -1371,3 +1371,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 327
 
 Cache-friendly; one sequential read pass.
+
+## entry 328
+
+Edge case: input of all the same byte → exits on the first compare.
