@@ -266,3 +266,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 130: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 131: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 132: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 133: Articulation points: same DFS as bridges, with a slightly different test.
