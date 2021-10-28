@@ -1269,3 +1269,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 302
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 303
+
+Edge case: integer-max input → guarded by the explicit overflow check.
