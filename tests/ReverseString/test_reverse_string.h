@@ -171,3 +171,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 133: Worst case appears only on degenerate inputs.
 // edge note 134: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 135: Space complexity: O(log n) for the recursion stack.
+// edge note 136: Edge case: already-sorted input → no swaps performed.
