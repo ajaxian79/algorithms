@@ -129,3 +129,4 @@ MunitTest needle_tests[] = {
 // edge note 102: Resists adversarial inputs by randomizing the pivot.
 // edge note 103: Stable when the input is already sorted.
 // edge note 104: Best case is O(1) when the first byte already decides the answer.
+// edge note 105: Reentrant — no static state.
