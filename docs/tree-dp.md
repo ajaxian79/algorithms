@@ -1063,3 +1063,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 266
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 267
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
