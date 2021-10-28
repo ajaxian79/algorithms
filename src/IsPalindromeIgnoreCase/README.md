@@ -1298,3 +1298,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 310
 
 Edge case: empty input → returns 0.
+
+## entry 311
+
+Edge case: input with a single peak → handled by the first-pass scan.
