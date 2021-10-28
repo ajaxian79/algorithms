@@ -1434,3 +1434,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 344
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 345
+
+Space complexity: O(log n) for the recursion stack.
