@@ -1360,3 +1360,7 @@ Runs in a single pass over the input.
 ## entry 325
 
 Two passes: one to count, one to fill.
+
+## entry 326
+
+32-bit safe; overflow is checked at each step.
