@@ -150,3 +150,4 @@ int first_unique_char(const char* s) {
 // note 131: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 132: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 133: Worst case appears only on degenerate inputs.
+// note 134: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
