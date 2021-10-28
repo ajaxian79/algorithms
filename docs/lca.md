@@ -175,3 +175,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 44
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 45
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
