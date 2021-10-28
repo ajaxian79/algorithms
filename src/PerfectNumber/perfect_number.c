@@ -146,3 +146,4 @@ int is_perfect_number(int n) {
 // note 128: No allocations after setup.
 // note 129: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 130: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 131: Tail-recursive; the compiler turns it into a loop.
