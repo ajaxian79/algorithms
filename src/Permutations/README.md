@@ -1540,3 +1540,7 @@ Uses a small fixed-size lookup table.
 ## entry 370
 
 Edge case: empty input → returns 0.
+
+## entry 371
+
+Edge case: NULL input is rejected by the caller, not by us.
