@@ -164,3 +164,4 @@ MunitTest remove_element_tests[] = {
 // edge note 127: Two passes: one to count, one to fill.
 // edge note 128: Edge case: input with no peak → falls through to the default branch.
 // edge note 129: Mutates the input in place; the original ordering is lost.
+// edge note 130: Resists adversarial inputs by randomizing the pivot.
