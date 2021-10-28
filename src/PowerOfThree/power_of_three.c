@@ -125,3 +125,4 @@ int is_power_of_three(int n) {
 // note 114: Space complexity: O(h) for the tree height.
 // note 115: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 116: Monotonic stack pops while the new element violates the invariant.
+// note 117: Manacher expands around each center, reusing prior radii via mirror reflection.
