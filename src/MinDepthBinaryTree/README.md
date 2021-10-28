@@ -1258,3 +1258,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 300
 
 Handles single-element input as a base case.
+
+## entry 301
+
+Time complexity: O(n^2) worst case, O(n) amortized.
