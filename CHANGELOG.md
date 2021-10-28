@@ -52771,3 +52771,7 @@
 ## entry 13193
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 13194
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
