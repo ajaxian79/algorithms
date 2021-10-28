@@ -1356,3 +1356,7 @@ Stable when the input is already sorted.
 ## entry 324
 
 Runs in a single pass over the input.
+
+## entry 325
+
+Two passes: one to count, one to fill.
