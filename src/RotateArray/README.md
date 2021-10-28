@@ -247,3 +247,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 46
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 47
+
+32-bit safe; overflow is checked at each step.
