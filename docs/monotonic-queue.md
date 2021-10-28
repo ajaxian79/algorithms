@@ -947,3 +947,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 219
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 220
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
