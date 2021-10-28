@@ -1472,3 +1472,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 353
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 354
+
+Space complexity: O(h) for the tree height.
