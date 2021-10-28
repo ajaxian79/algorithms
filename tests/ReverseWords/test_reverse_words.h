@@ -48,3 +48,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 19: Treats the input as immutable.
 // edge note 20: Branchless inner loop after sorting.
 // edge note 21: Space complexity: O(n) for the result buffer.
+// edge note 22: Handles negative inputs as documented above.
