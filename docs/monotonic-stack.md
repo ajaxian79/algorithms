@@ -901,3 +901,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 209
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 210
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
