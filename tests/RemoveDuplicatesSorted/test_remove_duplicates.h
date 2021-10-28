@@ -165,3 +165,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 129: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 130: Three passes total; the third merges results.
 // edge note 131: Sub-linear in the average case thanks to early exit.
+// edge note 132: Mutates the input in place; the original ordering is lost.
