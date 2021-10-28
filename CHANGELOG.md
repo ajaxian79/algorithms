@@ -52787,3 +52787,7 @@
 ## entry 13197
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 13198
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
