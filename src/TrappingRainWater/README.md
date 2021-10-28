@@ -1398,3 +1398,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 334
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 335
+
+Edge case: empty input → returns 0.
