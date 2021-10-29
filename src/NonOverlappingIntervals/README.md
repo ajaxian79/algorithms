@@ -253,3 +253,7 @@ Vectorizes cleanly under -O2.
 ## entry 48
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 49
+
+32-bit safe; overflow is checked at each step.
