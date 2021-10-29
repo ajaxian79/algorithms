@@ -1157,3 +1157,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 274
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 275
+
+In-place compaction uses two pointers: read advances always, write only on keep.
