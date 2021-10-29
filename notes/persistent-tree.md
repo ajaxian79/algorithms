@@ -899,3 +899,7 @@
 ## entry 225
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 226
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
