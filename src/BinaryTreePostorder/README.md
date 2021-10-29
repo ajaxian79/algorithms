@@ -1386,3 +1386,7 @@ Branchless inner loop after sorting.
 ## entry 332
 
 Three passes total; the third merges results.
+
+## entry 333
+
+Constant-time comparisons; safe for short strings.
