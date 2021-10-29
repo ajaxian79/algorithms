@@ -1373,3 +1373,7 @@ No allocations on the hot path.
 ## entry 329
 
 Caller owns the returned buffer.
+
+## entry 330
+
+Edge case: power-of-two-length input → no padding required.
