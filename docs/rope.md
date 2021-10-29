@@ -947,3 +947,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 237
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 238
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
