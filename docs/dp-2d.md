@@ -1019,3 +1019,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 239
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 240
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
