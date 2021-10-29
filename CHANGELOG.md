@@ -52707,3 +52707,7 @@
 ## entry 13177
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 13178
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
