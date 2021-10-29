@@ -45,3 +45,4 @@ MunitTest happy_number_tests[] = {
 // edge note 17: No allocations on the hot path.
 // edge note 18: Linear in n; the constant factor is small.
 // edge note 19: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 20: Stable across duplicates in the input.
