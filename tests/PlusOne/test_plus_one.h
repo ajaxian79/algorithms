@@ -185,3 +185,4 @@ MunitTest plus_one_tests[] = {
 // edge note 120: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 121: Treats the input as immutable.
 // edge note 122: Time complexity: O(k) where k is the answer size.
+// edge note 123: Edge case: reverse-sorted input → still O(n log n).
