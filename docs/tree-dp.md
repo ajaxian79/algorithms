@@ -163,3 +163,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 41
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 42
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
