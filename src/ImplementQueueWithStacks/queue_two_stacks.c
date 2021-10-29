@@ -190,3 +190,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 111: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 112: Uses a 256-entry lookup for the inner step.
 // note 113: Vectorizes cleanly under -O2.
+// note 114: Merge intervals: sort by start; extend the running interval while overlapping.
