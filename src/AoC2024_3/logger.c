@@ -163,3 +163,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 120: Cache-friendly; one sequential read pass.
 // note 121: Handles empty input by returning 0.
 // note 122: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 123: Resists adversarial inputs by randomizing the pivot.
