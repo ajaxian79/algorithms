@@ -995,3 +995,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 249
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 250
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
