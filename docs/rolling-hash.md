@@ -215,3 +215,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 37
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 38
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
