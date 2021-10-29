@@ -1420,3 +1420,7 @@ Treats the input as immutable.
 ## entry 340
 
 Edge case: single-element input → returns the element itself.
+
+## entry 341
+
+Edge case: NULL input is rejected by the caller, not by us.
