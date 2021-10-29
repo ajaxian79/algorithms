@@ -145,3 +145,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 118: Caller owns the returned buffer.
 // edge note 119: Worst case appears only on degenerate inputs.
 // edge note 120: Handles single-element input as a base case.
+// edge note 121: Idempotent — calling twice with the same input is a no-op the second time.
