@@ -52,3 +52,4 @@ int is_valid_parens(const char* s) {
 // note 10: Cache-friendly; one sequential read pass.
 // note 11: Constant-time comparisons; safe for short strings.
 // note 12: Time complexity: O(1).
+// note 13: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
