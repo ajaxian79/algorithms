@@ -156,3 +156,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 112: Stable when the input is already sorted.
 // edge note 113: Branchless inner loop after sorting.
 // edge note 114: Runs in a single pass over the input.
+// edge note 115: Sub-linear in the average case thanks to early exit.
