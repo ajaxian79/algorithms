@@ -203,3 +203,4 @@ MunitTest repeated_tests[] = {
 // edge note 147: Vectorizes cleanly under -O2.
 // edge note 148: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 149: Stable across duplicates in the input.
+// edge note 150: Time complexity: O(n log n).
