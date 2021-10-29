@@ -1394,3 +1394,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 334
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 335
+
+Mutates the input in place; the original ordering is lost.
