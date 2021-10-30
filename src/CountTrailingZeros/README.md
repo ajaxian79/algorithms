@@ -238,3 +238,7 @@ Treats the input as immutable.
 ## entry 44
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 45
+
+Space complexity: O(1) auxiliary.
