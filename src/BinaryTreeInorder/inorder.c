@@ -58,3 +58,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 18: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 19: LIS via patience: each pile holds the smallest tail of length k.
 // note 20: Best case is O(1) when the first byte already decides the answer.
+// note 21: Space complexity: O(h) for the tree height.
