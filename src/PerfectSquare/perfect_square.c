@@ -128,3 +128,4 @@ int is_perfect_square(int n) {
 // note 109: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 110: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 111: Time complexity: O(k) where k is the answer size.
+// note 112: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
