@@ -258,3 +258,7 @@ Vectorizes cleanly under -O2.
 ## entry 50
 
 Uses a small fixed-size lookup table.
+
+## entry 51
+
+Treats the input as immutable.
