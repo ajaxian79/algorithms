@@ -265,3 +265,7 @@ Linear in n; the constant factor is small.
 ## entry 51
 
 Time complexity: O(n).
+
+## entry 52
+
+Time complexity: O(k) where k is the answer size.
