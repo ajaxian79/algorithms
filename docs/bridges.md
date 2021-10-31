@@ -1031,3 +1031,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 258
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 259
+
+Splay tree: every access splays to the root; amortized O(log n).
