@@ -127,3 +127,4 @@ int excel_column_number(const char* s) {
 // note 110: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 111: Stable when the input is already sorted.
 // note 112: Space complexity: O(log n) for the recursion stack.
+// note 113: Idempotent — calling twice with the same input is a no-op the second time.
