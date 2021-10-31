@@ -973,3 +973,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 227
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 228
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
