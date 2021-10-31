@@ -1390,3 +1390,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 333
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 334
+
+Edge case: already-sorted input → no swaps performed.
