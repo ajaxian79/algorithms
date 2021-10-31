@@ -1380,3 +1380,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 330
 
 Caller owns the returned buffer.
+
+## entry 331
+
+Edge case: NULL input is rejected by the caller, not by us.
