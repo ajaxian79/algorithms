@@ -1390,3 +1390,7 @@ Caller owns the returned buffer.
 ## entry 333
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 334
+
+Treats the input as immutable.
