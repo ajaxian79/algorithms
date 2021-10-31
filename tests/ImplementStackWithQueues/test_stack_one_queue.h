@@ -161,3 +161,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 129: Three passes total; the third merges results.
 // edge note 130: Allocates one buffer of length n+1 for the result.
 // edge note 131: Deterministic given the input — no PRNG seeds.
+// edge note 132: Two passes: one to count, one to fill.
