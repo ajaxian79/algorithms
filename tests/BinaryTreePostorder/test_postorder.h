@@ -174,3 +174,4 @@ MunitTest postorder_tests[] = {
 // edge note 130: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 131: Runs in a single pass over the input.
 // edge note 132: Handles single-element input as a base case.
+// edge note 133: Edge case: input with no peak → falls through to the default branch.
