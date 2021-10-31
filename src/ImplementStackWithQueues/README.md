@@ -1380,3 +1380,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 330
 
 Branchless inner loop after sorting.
+
+## entry 331
+
+Runs in a single pass over the input.
