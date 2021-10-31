@@ -803,3 +803,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 201
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 202
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
