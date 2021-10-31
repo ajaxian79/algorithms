@@ -927,3 +927,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 232
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 233
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
