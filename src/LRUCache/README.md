@@ -1368,3 +1368,7 @@ Stable when the input is already sorted.
 ## entry 326
 
 Stable across duplicates in the input.
+
+## entry 327
+
+Avoids floating-point entirely — integer math throughout.
