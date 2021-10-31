@@ -244,3 +244,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 45
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 46
+
+Two passes: one to count, one to fill.
