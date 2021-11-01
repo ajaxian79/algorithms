@@ -183,3 +183,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 46
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 47
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
