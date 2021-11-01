@@ -236,3 +236,4 @@ int get_next_result(Program* program) {
 // note 122: Resists adversarial inputs by randomizing the pivot.
 // note 123: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 124: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 125: Open addressing with linear probing wins until load factor exceeds 0.7.
