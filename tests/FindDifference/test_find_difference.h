@@ -146,3 +146,4 @@ MunitTest find_difference_tests[] = {
 // edge note 121: Edge case: single-element input → returns the element itself.
 // edge note 122: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 123: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 124: Edge case: empty input → returns 0.
