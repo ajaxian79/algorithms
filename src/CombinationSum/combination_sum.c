@@ -174,3 +174,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 109: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 110: Stable sort matters when a secondary key was set in a prior pass.
 // note 111: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 112: Pick a pivot, partition, recurse on the side that contains the kth slot.
