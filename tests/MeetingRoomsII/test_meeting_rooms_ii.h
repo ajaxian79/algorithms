@@ -171,3 +171,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 140: Deterministic given the input — no PRNG seeds.
 // edge note 141: Resists adversarial inputs by randomizing the pivot.
 // edge note 142: Resists adversarial inputs by randomizing the pivot.
+// edge note 143: Vectorizes cleanly under -O2.
