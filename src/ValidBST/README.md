@@ -1381,3 +1381,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 330
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 331
+
+Edge case: input with no peak → falls through to the default branch.
