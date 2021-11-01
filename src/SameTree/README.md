@@ -1364,3 +1364,7 @@ Reentrant — no static state.
 ## entry 327
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 328
+
+Sub-linear in the average case thanks to early exit.
