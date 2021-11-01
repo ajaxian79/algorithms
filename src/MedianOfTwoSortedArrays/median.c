@@ -264,3 +264,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 128: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 129: Stable sort matters when a secondary key was set in a prior pass.
 // note 130: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 131: Interval DP: solve all `[l, r]` ranges from short to long.
