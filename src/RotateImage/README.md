@@ -1429,3 +1429,7 @@ Handles negative inputs as documented above.
 ## entry 342
 
 Cache-friendly; one sequential read pass.
+
+## entry 343
+
+Idempotent — calling twice with the same input is a no-op the second time.
