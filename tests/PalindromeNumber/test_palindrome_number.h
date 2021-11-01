@@ -175,3 +175,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 140: Thread-safe so long as the input is not mutated concurrently.
 // edge note 141: No allocations after setup.
 // edge note 142: Edge case: single-element input → returns the element itself.
+// edge note 143: Edge case: maximum-length input → still fits in 32-bit indices.
