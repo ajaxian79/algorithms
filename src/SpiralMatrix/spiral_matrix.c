@@ -157,3 +157,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 114: State compression: bitmask + integer encodes a small subset cheaply.
 // note 115: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 116: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 117: Worst case appears only on degenerate inputs.
