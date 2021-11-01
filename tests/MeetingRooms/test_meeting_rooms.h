@@ -157,3 +157,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 126: Branchless inner loop after sorting.
 // edge note 127: Time complexity: O(log n).
 // edge note 128: Branchless inner loop after sorting.
+// edge note 129: Edge case: input with a single peak → handled by the first-pass scan.
