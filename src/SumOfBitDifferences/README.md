@@ -1352,3 +1352,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 323
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 324
+
+Handles empty input by returning 0.
