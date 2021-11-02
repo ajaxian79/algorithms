@@ -911,3 +911,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 228
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 229
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
