@@ -1390,3 +1390,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 332
 
 Vectorizes cleanly under -O2.
+
+## entry 333
+
+Time complexity: O(k) where k is the answer size.
