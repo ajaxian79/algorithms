@@ -915,3 +915,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 229
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 230
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
