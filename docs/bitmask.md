@@ -915,3 +915,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 213
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 214
+
+Walk both pointers from each end inward; advance the smaller side.
