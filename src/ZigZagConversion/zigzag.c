@@ -165,3 +165,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 122: Cache-friendly; one sequential read pass.
 // note 123: Space complexity: O(log n) for the recursion stack.
 // note 124: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 125: Tail-recursive; the compiler turns it into a loop.
