@@ -270,3 +270,7 @@ Time complexity: O(n log n).
 ## entry 53
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 54
+
+Space complexity: O(h) for the tree height.
