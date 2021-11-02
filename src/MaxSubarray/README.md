@@ -1526,3 +1526,7 @@ Handles single-element input as a base case.
 ## entry 367
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 368
+
+Space complexity: O(1) auxiliary.
