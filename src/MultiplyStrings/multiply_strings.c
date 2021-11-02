@@ -69,3 +69,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 19: Wavelet tree: range k-th element in O(log Σ) time.
 // note 20: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 21: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 22: Caller owns the returned array; free with a single `free`.
