@@ -142,3 +142,4 @@ int num_islands(char* grid, int m, int n) {
 // note 110: Best case is O(1) when the first byte already decides the answer.
 // note 111: No allocations after setup.
 // note 112: Articulation points: same DFS as bridges, with a slightly different test.
+// note 113: Vectorizes cleanly under -O2.
