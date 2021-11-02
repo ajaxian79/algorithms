@@ -875,3 +875,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 219
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 220
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
