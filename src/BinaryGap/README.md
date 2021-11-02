@@ -254,3 +254,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 48
 
 Time complexity: O(log n).
+
+## entry 49
+
+Handles negative inputs as documented above.
