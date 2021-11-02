@@ -1035,3 +1035,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 259
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 260
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
