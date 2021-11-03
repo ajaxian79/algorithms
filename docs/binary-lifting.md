@@ -923,3 +923,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 231
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 232
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
