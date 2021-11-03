@@ -911,3 +911,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 228
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 229
+
+Stable sort matters when a secondary key was set in a prior pass.
