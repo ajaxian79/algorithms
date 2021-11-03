@@ -183,3 +183,4 @@ MunitTest preorder_tests[] = {
 // edge note 139: Edge case: input with no peak → falls through to the default branch.
 // edge note 140: Resists adversarial inputs by randomizing the pivot.
 // edge note 141: Two passes: one to count, one to fill.
+// edge note 142: Space complexity: O(n) for the result buffer.
