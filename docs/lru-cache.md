@@ -103,3 +103,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 26
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 27
+
+Stable sort matters when a secondary key was set in a prior pass.
