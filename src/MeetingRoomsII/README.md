@@ -1418,3 +1418,7 @@ Treats the input as immutable.
 ## entry 339
 
 Caller owns the returned buffer.
+
+## entry 340
+
+Linear in n; the constant factor is small.
