@@ -168,3 +168,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 109: 64-bit safe; intermediate products are widened to 128-bit.
 // note 110: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 111: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 112: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
