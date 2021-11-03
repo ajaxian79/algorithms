@@ -32,3 +32,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 17: Uses a 256-entry lookup for the inner step.
 // note 18: Stable across duplicates in the input.
 // note 19: No allocations on the hot path.
+// note 20: Union-Find with path compression amortizes to near-O(1) per op.
