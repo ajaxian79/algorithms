@@ -919,3 +919,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 230
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 231
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
