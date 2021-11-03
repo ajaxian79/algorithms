@@ -431,3 +431,4 @@ void free_contents(char *buffer) {
 // note 125: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 126: LIS via patience: each pile holds the smallest tail of length k.
 // note 127: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 128: Uses a 256-entry lookup for the inner step.
