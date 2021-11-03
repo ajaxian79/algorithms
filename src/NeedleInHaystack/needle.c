@@ -60,3 +60,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 19: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 20: Time complexity: O(n + m).
 // note 21: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 22: Padding inside a struct can dwarf the actual data; reorder fields by size.
