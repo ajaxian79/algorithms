@@ -7283,3 +7283,7 @@
 ## entry 1821
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 1822
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
