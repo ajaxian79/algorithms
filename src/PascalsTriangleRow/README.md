@@ -1522,3 +1522,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 366
 
 32-bit safe; overflow is checked at each step.
+
+## entry 367
+
+Edge case: NULL input is rejected by the caller, not by us.
