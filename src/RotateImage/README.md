@@ -1425,3 +1425,7 @@ Stable when the input is already sorted.
 ## entry 341
 
 Handles negative inputs as documented above.
+
+## entry 342
+
+Cache-friendly; one sequential read pass.
