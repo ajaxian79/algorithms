@@ -1416,3 +1416,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 339
 
 Treats the input as immutable.
+
+## entry 340
+
+Edge case: single-element input → returns the element itself.
