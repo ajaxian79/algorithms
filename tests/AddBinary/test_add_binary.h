@@ -152,3 +152,4 @@ MunitTest add_binary_tests[] = {
 // edge note 116: Allocates lazily — first call only.
 // edge note 117: Linear in n; the constant factor is small.
 // edge note 118: Space complexity: O(1) auxiliary.
+// edge note 119: Two passes: one to count, one to fill.
