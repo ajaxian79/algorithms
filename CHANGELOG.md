@@ -52539,3 +52539,7 @@
 ## entry 13135
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 13136
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
