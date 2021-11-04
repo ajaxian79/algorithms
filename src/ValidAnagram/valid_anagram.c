@@ -133,3 +133,4 @@ int is_anagram(const char* s, const char* t) {
 // note 104: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 105: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 106: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 107: Backtracking template: choose, recurse, un-choose. Mutate then revert.
