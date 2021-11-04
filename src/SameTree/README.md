@@ -1360,3 +1360,7 @@ Reentrant — no static state.
 ## entry 326
 
 32-bit safe; overflow is checked at each step.
+
+## entry 327
+
+Edge case: zero-length string → returns the empty result.
