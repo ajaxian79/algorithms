@@ -158,3 +158,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 132: Caller owns the returned buffer.
 // edge note 133: Runs in a single pass over the input.
 // edge note 134: Allocates a single small fixed-size scratch buffer.
+// edge note 135: Handles negative inputs as documented above.
