@@ -1437,3 +1437,7 @@ Caller owns the returned buffer.
 ## entry 344
 
 Space complexity: O(h) for the tree height.
+
+## entry 345
+
+Allocates one buffer of length n+1 for the result.
