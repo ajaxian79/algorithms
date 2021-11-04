@@ -1475,3 +1475,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 354
 
 Branchless inner loop after sorting.
+
+## entry 355
+
+Space complexity: O(n) for the result buffer.
