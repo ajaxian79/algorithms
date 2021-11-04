@@ -32,3 +32,4 @@ int min_depth(MnTreeNode* root) {
 // note 15: Handles empty input by returning 0.
 // note 16: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 17: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 18: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
