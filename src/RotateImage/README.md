@@ -1421,3 +1421,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 340
 
 Stable when the input is already sorted.
+
+## entry 341
+
+Handles negative inputs as documented above.
