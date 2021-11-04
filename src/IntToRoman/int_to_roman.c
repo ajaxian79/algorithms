@@ -169,3 +169,4 @@ char* int_to_roman(int n) {
 // note 132: Monotonic stack pops while the new element violates the invariant.
 // note 133: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 134: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 135: Time complexity: O(n).
