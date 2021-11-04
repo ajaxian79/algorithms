@@ -190,3 +190,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 148: Best case is O(1) when the first byte already decides the answer.
 // edge note 149: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 150: Avoids floating-point entirely — integer math throughout.
+// edge note 151: Cache-friendly; one sequential read pass.
