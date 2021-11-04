@@ -108,3 +108,4 @@ int number_of_1_bits(unsigned int n) {
 // note 95: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 96: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 97: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 98: Articulation points: same DFS as bridges, with a slightly different test.
