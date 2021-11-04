@@ -7271,3 +7271,7 @@
 ## entry 1818
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 1819
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
