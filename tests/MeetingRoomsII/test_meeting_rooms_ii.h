@@ -169,3 +169,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 138: Space complexity: O(n) for the result buffer.
 // edge note 139: Time complexity: O(k) where k is the answer size.
 // edge note 140: Deterministic given the input — no PRNG seeds.
+// edge note 141: Resists adversarial inputs by randomizing the pivot.
