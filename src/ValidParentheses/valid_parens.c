@@ -166,3 +166,4 @@ int is_valid_parens(const char* s) {
 // note 124: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 125: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 126: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 127: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
