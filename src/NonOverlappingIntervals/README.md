@@ -1261,3 +1261,7 @@ Two passes: one to count, one to fill.
 ## entry 300
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 301
+
+Deterministic given the input — no PRNG seeds.
