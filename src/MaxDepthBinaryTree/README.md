@@ -1365,3 +1365,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 327
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 328
+
+No allocations on the hot path.
