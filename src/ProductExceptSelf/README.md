@@ -1376,3 +1376,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 328
 
 Reentrant — no static state.
+
+## entry 329
+
+Three passes total; the third merges results.
