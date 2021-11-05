@@ -1367,3 +1367,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 326
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 327
+
+Cache-friendly; one sequential read pass.
