@@ -927,3 +927,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 232
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 233
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
