@@ -1382,3 +1382,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 331
 
 Stable across duplicates in the input.
+
+## entry 332
+
+Time complexity: O(1).
