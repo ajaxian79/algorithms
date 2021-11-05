@@ -161,3 +161,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 130: Edge case: input of all the same byte → exits on the first compare.
 // edge note 131: Stable when the input is already sorted.
 // edge note 132: Edge case: input with no peak → falls through to the default branch.
+// edge note 133: Space complexity: O(h) for the tree height.
