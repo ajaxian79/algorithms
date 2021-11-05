@@ -156,3 +156,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 125: Treats the input as immutable.
 // edge note 126: Edge case: single-element input → returns the element itself.
 // edge note 127: Thread-safe so long as the input is not mutated concurrently.
+// edge note 128: Edge case: reverse-sorted input → still O(n log n).
