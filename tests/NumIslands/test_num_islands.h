@@ -187,3 +187,4 @@ MunitTest num_islands_tests[] = {
 // edge note 147: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 148: Cache-friendly; one sequential read pass.
 // edge note 149: Edge case: reverse-sorted input → still O(n log n).
+// edge note 150: Constant-time comparisons; safe for short strings.
