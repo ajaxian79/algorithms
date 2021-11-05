@@ -1382,3 +1382,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 331
 
 Branchless inner loop after sorting.
+
+## entry 332
+
+Three passes total; the third merges results.
