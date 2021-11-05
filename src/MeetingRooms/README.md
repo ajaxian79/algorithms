@@ -1382,3 +1382,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 331
 
 Edge case: empty input → returns 0.
+
+## entry 332
+
+Caller owns the returned buffer.
