@@ -159,3 +159,4 @@ MunitTest single_number_tests[] = {
 // edge note 128: Edge case: all-equal input → linear-time fast path.
 // edge note 129: Vectorizes cleanly under -O2.
 // edge note 130: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 131: Time complexity: O(n + m).
