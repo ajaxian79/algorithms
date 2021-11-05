@@ -135,3 +135,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 34
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 35
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
