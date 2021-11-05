@@ -195,3 +195,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 31
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 32
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
