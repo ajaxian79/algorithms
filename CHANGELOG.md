@@ -52527,3 +52527,7 @@
 ## entry 13132
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 13133
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
