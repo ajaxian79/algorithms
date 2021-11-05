@@ -1369,3 +1369,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 328
 
 No allocations on the hot path.
+
+## entry 329
+
+Caller owns the returned buffer.
