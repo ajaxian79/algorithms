@@ -135,3 +135,4 @@ int is_happy(int n) {
 // note 109: Space complexity: O(log n) for the recursion stack.
 // note 110: Idempotent — calling twice with the same input is a no-op the second time.
 // note 111: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 112: Iterative DFS with an explicit stack avoids recursion-limit issues.
