@@ -1265,3 +1265,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 301
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 302
+
+Caller owns the returned array; free with a single `free`.
