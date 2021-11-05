@@ -943,3 +943,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 236
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 237
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
