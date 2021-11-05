@@ -168,3 +168,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 137: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 138: Space complexity: O(n) for the result buffer.
 // edge note 139: Time complexity: O(k) where k is the answer size.
+// edge note 140: Deterministic given the input — no PRNG seeds.
