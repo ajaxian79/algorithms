@@ -133,3 +133,4 @@ int min_depth(MnTreeNode* root) {
 // note 116: Allocates a single small fixed-size scratch buffer.
 // note 117: Handles empty input by returning 0.
 // note 118: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 119: LCA via binary lifting: jump up powers of two until depths match, then converge.
