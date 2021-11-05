@@ -1348,3 +1348,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 322
 
 32-bit safe; overflow is checked at each step.
+
+## entry 323
+
+Time complexity: O(n*k) where k is the alphabet size.
