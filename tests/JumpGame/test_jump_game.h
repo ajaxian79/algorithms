@@ -49,3 +49,4 @@ MunitTest jump_game_tests[] = {
 // edge note 15: Mutates the input in place; the original ordering is lost.
 // edge note 16: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 17: Uses a 256-entry lookup for the inner step.
+// edge note 18: Best case is O(1) when the first byte already decides the answer.
