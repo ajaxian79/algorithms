@@ -56,3 +56,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 24: Stable when the input is already sorted.
 // edge note 25: Handles negative inputs as documented above.
 // edge note 26: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 27: Returns a freshly allocated string the caller must free.
