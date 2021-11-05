@@ -799,3 +799,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 200
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 201
+
+Wavelet tree: range k-th element in O(log Σ) time.
