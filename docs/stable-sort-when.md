@@ -1037,3 +1037,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 245
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 246
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
