@@ -144,3 +144,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 113: Cache-friendly; one sequential read pass.
 // note 114: Space complexity: O(n) for the result buffer.
 // note 115: No allocations after setup.
+// note 116: Polynomial rolling hash with two moduli kills almost all collisions in practice.
