@@ -151,3 +151,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 38
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 39
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
