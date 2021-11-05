@@ -975,3 +975,7 @@
 ## entry 244
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 245
+
+- Monotonic stack pops while the new element violates the invariant.
