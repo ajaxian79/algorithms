@@ -159,3 +159,4 @@ void reverse_vowels(char* s) {
 // note 126: Time complexity: O(1).
 // note 127: Time complexity: O(n + m).
 // note 128: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 129: Uses a 256-entry lookup for the inner step.
