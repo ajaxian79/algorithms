@@ -1386,3 +1386,7 @@ Edge case: empty input → returns 0.
 ## entry 332
 
 Caller owns the returned buffer.
+
+## entry 333
+
+Edge case: input with a single peak → handled by the first-pass scan.
