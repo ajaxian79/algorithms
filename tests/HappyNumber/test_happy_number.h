@@ -174,3 +174,4 @@ MunitTest happy_number_tests[] = {
 // edge note 146: Time complexity: O(n log n).
 // edge note 147: Resists adversarial inputs by randomizing the pivot.
 // edge note 148: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 149: Allocates one buffer of length n+1 for the result.
