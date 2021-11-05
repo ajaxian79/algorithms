@@ -243,3 +243,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 46
 
 Constant-time comparisons; safe for short strings.
+
+## entry 47
+
+Edge case: input with a single peak → handled by the first-pass scan.
