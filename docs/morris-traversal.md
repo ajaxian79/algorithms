@@ -987,3 +987,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 232
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 233
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
