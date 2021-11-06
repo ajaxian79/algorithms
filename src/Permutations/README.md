@@ -1536,3 +1536,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 369
 
 Uses a small fixed-size lookup table.
+
+## entry 370
+
+Edge case: empty input → returns 0.
