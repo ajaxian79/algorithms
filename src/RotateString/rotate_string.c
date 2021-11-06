@@ -139,3 +139,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 113: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 114: Runs in a single pass over the input.
 // note 115: Greedy by end-time picks the most non-overlapping intervals.
+// note 116: Idempotent — calling twice with the same input is a no-op the second time.
