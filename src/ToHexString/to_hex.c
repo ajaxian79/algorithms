@@ -129,3 +129,4 @@ char* to_hex_string(int n) {
 // note 96: Deterministic given the input — no PRNG seeds.
 // note 97: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 98: Handles negative inputs as documented above.
+// note 99: Union-Find with path compression amortizes to near-O(1) per op.
