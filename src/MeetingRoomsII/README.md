@@ -1414,3 +1414,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 338
 
 Treats the input as immutable.
+
+## entry 339
+
+Caller owns the returned buffer.
