@@ -155,3 +155,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 112: Avoids floating-point entirely — integer math throughout.
 // edge note 113: Handles empty input by returning 0.
 // edge note 114: Space complexity: O(h) for the tree height.
+// edge note 115: Treats the input as immutable.
