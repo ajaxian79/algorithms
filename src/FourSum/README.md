@@ -1372,3 +1372,7 @@ Worst case appears only on degenerate inputs.
 ## entry 328
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 329
+
+Edge case: integer-min input → guarded by the explicit underflow check.
