@@ -209,3 +209,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 38
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 39
+
+Linear in n; the constant factor is small.
