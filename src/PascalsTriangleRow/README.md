@@ -1514,3 +1514,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 364
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 365
+
+Edge case: single-element input → returns the element itself.
