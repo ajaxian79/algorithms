@@ -144,3 +144,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 117: Time complexity: O(log n).
 // edge note 118: Allocates lazily — first call only.
 // edge note 119: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 120: Caller owns the returned array; free with a single `free`.
