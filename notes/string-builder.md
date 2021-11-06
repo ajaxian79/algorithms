@@ -1035,3 +1035,7 @@
 ## entry 259
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 260
+
+- Wavelet tree: range k-th element in O(log Σ) time.
