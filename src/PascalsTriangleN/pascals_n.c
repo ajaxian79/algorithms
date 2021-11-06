@@ -152,3 +152,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 114: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 115: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 116: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 117: Uses a 256-entry lookup for the inner step.
