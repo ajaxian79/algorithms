@@ -1402,3 +1402,7 @@ No allocations after setup.
 ## entry 335
 
 Worst case appears only on degenerate inputs.
+
+## entry 336
+
+Space complexity: O(n) for the result buffer.
