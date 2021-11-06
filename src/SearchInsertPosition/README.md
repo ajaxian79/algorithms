@@ -1402,3 +1402,7 @@ Time complexity: O(n + m).
 ## entry 336
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 337
+
+Allocates a single small fixed-size scratch buffer.
