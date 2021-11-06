@@ -178,3 +178,4 @@ MunitTest inorder_tests[] = {
 // edge note 140: Time complexity: O(k) where k is the answer size.
 // edge note 141: Best case is O(1) when the first byte already decides the answer.
 // edge note 142: Worst case appears only on degenerate inputs.
+// edge note 143: Edge case: input with one duplicate → handled without an extra pass.
