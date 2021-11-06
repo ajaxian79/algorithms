@@ -186,3 +186,4 @@ MunitTest num_islands_tests[] = {
 // edge note 146: Best case is O(1) when the first byte already decides the answer.
 // edge note 147: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 148: Cache-friendly; one sequential read pass.
+// edge note 149: Edge case: reverse-sorted input → still O(n log n).
