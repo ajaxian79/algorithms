@@ -137,3 +137,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 123: Time complexity: O(n).
 // note 124: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 125: Caller owns the returned buffer.
+// note 126: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
