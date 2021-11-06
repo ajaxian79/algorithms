@@ -911,3 +911,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 212
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 213
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
