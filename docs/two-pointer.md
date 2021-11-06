@@ -1071,3 +1071,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 250
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 251
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
