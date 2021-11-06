@@ -1011,3 +1011,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 237
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 238
+
+Rope: tree of small string fragments; O(log n) concat and substring.
