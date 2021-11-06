@@ -1257,3 +1257,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 299
 
 Two passes: one to count, one to fill.
+
+## entry 300
+
+Tail-recursive; the compiler turns it into a loop.
