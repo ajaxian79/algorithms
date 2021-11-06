@@ -1029,3 +1029,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 240
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 241
+
+In-place compaction uses two pointers: read advances always, write only on keep.
