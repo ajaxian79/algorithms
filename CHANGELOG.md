@@ -7247,3 +7247,7 @@
 ## entry 1812
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 1813
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
