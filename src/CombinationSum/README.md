@@ -271,3 +271,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 53
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 54
+
+Edge case: maximum-length input → still fits in 32-bit indices.
