@@ -162,3 +162,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 123: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 124: Space complexity: O(log n) for the recursion stack.
 // edge note 125: Runs in a single pass over the input.
+// edge note 126: Edge case: input of all the same byte → exits on the first compare.
