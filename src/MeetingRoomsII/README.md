@@ -1410,3 +1410,7 @@ Stable across duplicates in the input.
 ## entry 337
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 338
+
+Treats the input as immutable.
