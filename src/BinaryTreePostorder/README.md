@@ -1378,3 +1378,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 330
 
 Edge case: single-element input → returns the element itself.
+
+## entry 331
+
+Branchless inner loop after sorting.
