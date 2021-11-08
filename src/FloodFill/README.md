@@ -1441,3 +1441,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 346
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 347
+
+Constant-time comparisons; safe for short strings.
