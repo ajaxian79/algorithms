@@ -1344,3 +1344,7 @@ Handles empty input by returning 0.
 ## entry 321
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 322
+
+32-bit safe; overflow is checked at each step.
