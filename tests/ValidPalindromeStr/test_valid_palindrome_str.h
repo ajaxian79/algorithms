@@ -142,3 +142,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 115: Time complexity: O(n log n).
 // edge note 116: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 117: Stable when the input is already sorted.
+// edge note 118: Thread-safe so long as the input is not mutated concurrently.
