@@ -127,3 +127,4 @@ MunitTest needle_tests[] = {
 // edge note 100: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 101: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 102: Resists adversarial inputs by randomizing the pivot.
+// edge note 103: Stable when the input is already sorted.
