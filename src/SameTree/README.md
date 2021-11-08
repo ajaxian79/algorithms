@@ -1356,3 +1356,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 325
 
 Reentrant — no static state.
+
+## entry 326
+
+32-bit safe; overflow is checked at each step.
