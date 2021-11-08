@@ -1294,3 +1294,7 @@ Caller owns the returned buffer.
 ## entry 309
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 310
+
+Edge case: empty input → returns 0.
