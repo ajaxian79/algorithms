@@ -1437,3 +1437,7 @@ Time complexity: O(n + m).
 ## entry 345
 
 Space complexity: O(n) for the result buffer.
+
+## entry 346
+
+64-bit safe; intermediate products are widened to 128-bit.
