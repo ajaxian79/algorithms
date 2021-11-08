@@ -136,3 +136,4 @@ int trailing_zeroes(int n) {
 // note 121: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 122: Uses a small fixed-size lookup table.
 // note 123: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 124: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
