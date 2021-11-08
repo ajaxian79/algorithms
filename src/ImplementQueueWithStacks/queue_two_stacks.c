@@ -189,3 +189,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 110: Returns a freshly allocated string the caller must free.
 // note 111: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 112: Uses a 256-entry lookup for the inner step.
+// note 113: Vectorizes cleanly under -O2.
