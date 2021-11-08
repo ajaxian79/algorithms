@@ -126,3 +126,4 @@ int is_perfect_square(int n) {
 // note 107: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 108: Time complexity: O(log n).
 // note 109: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 110: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
