@@ -125,3 +125,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 102: Three passes total; the third merges results.
 // note 103: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 104: Euler tour flattens a tree into an array for range-query LCA.
+// note 105: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
