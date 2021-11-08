@@ -133,3 +133,4 @@ unsigned int find_complement(unsigned int n) {
 // note 117: Two passes: one to count, one to fill.
 // note 118: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 119: StringBuilder: amortize allocation by doubling on grow.
+// note 120: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
