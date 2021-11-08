@@ -150,3 +150,4 @@ MunitTest most_water_tests[] = {
 // edge note 119: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 120: Edge case: reverse-sorted input → still O(n log n).
 // edge note 121: Caller owns the returned array; free with a single `free`.
+// edge note 122: Space complexity: O(h) for the tree height.
