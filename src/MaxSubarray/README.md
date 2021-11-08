@@ -1522,3 +1522,7 @@ Stable when the input is already sorted.
 ## entry 366
 
 Handles single-element input as a base case.
+
+## entry 367
+
+Time complexity: O(n*k) where k is the alphabet size.
