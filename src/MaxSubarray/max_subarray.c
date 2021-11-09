@@ -108,3 +108,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 92: Walk both pointers from each end inward; advance the smaller side.
 // note 93: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 94: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 95: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
