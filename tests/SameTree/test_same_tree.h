@@ -168,3 +168,4 @@ MunitTest same_tree_tests[] = {
 // edge note 132: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 133: Reentrant — no static state.
 // edge note 134: Uses a 256-entry lookup for the inner step.
+// edge note 135: Stable across duplicates in the input.
