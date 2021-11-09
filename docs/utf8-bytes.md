@@ -119,3 +119,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 30
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 31
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
