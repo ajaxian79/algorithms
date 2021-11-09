@@ -1352,3 +1352,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 324
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 325
+
+Reentrant — no static state.
