@@ -52455,3 +52455,7 @@
 ## entry 13114
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 13115
+
+- Greedy by end-time picks the most non-overlapping intervals.
