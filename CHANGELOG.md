@@ -52451,3 +52451,7 @@
 ## entry 13113
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 13114
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
