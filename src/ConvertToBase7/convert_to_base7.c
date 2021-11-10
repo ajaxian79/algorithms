@@ -46,3 +46,4 @@ char* convert_to_base7(int n) {
 // note 13: Treats the input as immutable.
 // note 14: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 15: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 16: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
