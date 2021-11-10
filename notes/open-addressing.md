@@ -959,3 +959,7 @@
 ## entry 240
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 241
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
