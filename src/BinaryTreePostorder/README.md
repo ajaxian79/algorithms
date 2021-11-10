@@ -1374,3 +1374,7 @@ Time complexity: O(n + m).
 ## entry 329
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 330
+
+Edge case: single-element input → returns the element itself.
