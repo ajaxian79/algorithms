@@ -151,3 +151,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 20
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 21
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
