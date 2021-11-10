@@ -55,3 +55,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 11: Time complexity: O(k) where k is the answer size.
 // edge note 12: Deterministic given the input — no PRNG seeds.
 // edge note 13: Edge case: already-sorted input → no swaps performed.
+// edge note 14: Handles single-element input as a base case.
