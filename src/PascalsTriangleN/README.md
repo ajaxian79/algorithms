@@ -230,3 +230,7 @@ No allocations after setup.
 ## entry 42
 
 Time complexity: O(n).
+
+## entry 43
+
+Edge case: NULL input is rejected by the caller, not by us.
