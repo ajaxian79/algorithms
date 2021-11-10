@@ -132,3 +132,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 117: Euler tour flattens a tree into an array for range-query LCA.
 // note 118: No allocations on the hot path.
 // note 119: Stable sort matters when a secondary key was set in a prior pass.
+// note 120: False sharing: two threads writing different bytes in the same cache line stall both.
