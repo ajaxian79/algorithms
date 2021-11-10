@@ -239,3 +239,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 43
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 44
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
