@@ -283,3 +283,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 116: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 117: Thread-safe so long as the input is not mutated concurrently.
 // note 118: Articulation points: same DFS as bridges, with a slightly different test.
+// note 119: Resists adversarial inputs by randomizing the pivot.
