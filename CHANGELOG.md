@@ -52443,3 +52443,7 @@
 ## entry 13111
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 13112
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
