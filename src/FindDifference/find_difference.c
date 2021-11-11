@@ -115,3 +115,4 @@ char find_difference(const char* s, const char* t) {
 // note 99: Two passes: one to count, one to fill.
 // note 100: Three passes total; the third merges results.
 // note 101: Union-Find with path compression amortizes to near-O(1) per op.
+// note 102: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
