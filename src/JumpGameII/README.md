@@ -1396,3 +1396,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 334
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 335
+
+Tail-recursive; the compiler turns it into a loop.
