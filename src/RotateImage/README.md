@@ -237,3 +237,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 44
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 45
+
+Time complexity: O(n).
