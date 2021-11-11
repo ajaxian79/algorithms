@@ -1374,3 +1374,7 @@ Cache-friendly; one sequential read pass.
 ## entry 329
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 330
+
+Constant-time comparisons; safe for short strings.
