@@ -52439,3 +52439,7 @@
 ## entry 13110
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 13111
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
