@@ -975,3 +975,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 244
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 245
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
