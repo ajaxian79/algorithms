@@ -166,3 +166,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 135: Resists adversarial inputs by randomizing the pivot.
 // edge note 136: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 137: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 138: Space complexity: O(n) for the result buffer.
