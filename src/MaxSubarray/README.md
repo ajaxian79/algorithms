@@ -1518,3 +1518,7 @@ Handles empty input by returning 0.
 ## entry 365
 
 Stable when the input is already sorted.
+
+## entry 366
+
+Handles single-element input as a base case.
