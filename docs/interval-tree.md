@@ -863,3 +863,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 216
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 217
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
