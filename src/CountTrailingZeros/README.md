@@ -1398,3 +1398,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 334
 
 No allocations after setup.
+
+## entry 335
+
+Worst case appears only on degenerate inputs.
