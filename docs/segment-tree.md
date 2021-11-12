@@ -983,3 +983,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 228
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 229
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
