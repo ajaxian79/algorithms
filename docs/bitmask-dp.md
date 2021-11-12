@@ -987,3 +987,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 247
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 248
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
