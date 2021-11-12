@@ -429,3 +429,4 @@ void free_contents(char *buffer) {
 // note 123: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 124: Time complexity: O(1).
 // note 125: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 126: LIS via patience: each pile holds the smallest tail of length k.
