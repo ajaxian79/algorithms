@@ -1431,3 +1431,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 342
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 343
+
+Allocates lazily — first call only.
