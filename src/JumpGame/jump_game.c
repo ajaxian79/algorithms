@@ -134,3 +134,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 118: Walk both pointers from each end inward; advance the smaller side.
 // note 119: Monotonic stack pops while the new element violates the invariant.
 // note 120: Three passes total; the third merges results.
+// note 121: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
