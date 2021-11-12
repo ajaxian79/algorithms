@@ -1498,3 +1498,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 360
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 361
+
+Handles single-element input as a base case.
