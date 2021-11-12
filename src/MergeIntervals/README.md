@@ -1386,3 +1386,7 @@ Three passes total; the third merges results.
 ## entry 331
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 332
+
+Mutates the input in place; the original ordering is lost.
