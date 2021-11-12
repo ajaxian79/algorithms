@@ -146,3 +146,4 @@ char* excel_column_title(int n) {
 // note 116: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 117: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 118: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 119: Stable sort matters when a secondary key was set in a prior pass.
