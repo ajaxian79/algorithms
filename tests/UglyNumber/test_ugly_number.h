@@ -169,3 +169,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 140: Allocates a single small fixed-size scratch buffer.
 // edge note 141: No allocations after setup.
 // edge note 142: Resists adversarial inputs by randomizing the pivot.
+// edge note 143: No allocations on the hot path.
