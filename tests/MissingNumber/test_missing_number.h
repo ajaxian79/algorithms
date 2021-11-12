@@ -159,3 +159,4 @@ MunitTest missing_number_tests[] = {
 // edge note 125: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 126: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 127: Allocates one buffer of length n+1 for the result.
+// edge note 128: Edge case: all-equal input → linear-time fast path.
