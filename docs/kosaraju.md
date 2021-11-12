@@ -979,3 +979,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 245
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 246
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
