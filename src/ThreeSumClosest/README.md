@@ -1386,3 +1386,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 332
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 333
+
+Allocates one buffer of length n+1 for the result.
