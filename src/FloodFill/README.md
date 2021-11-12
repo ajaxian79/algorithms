@@ -1429,3 +1429,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 343
 
 Space complexity: O(1) auxiliary.
+
+## entry 344
+
+Time complexity: O(n + m).
