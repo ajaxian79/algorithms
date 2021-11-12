@@ -1290,3 +1290,7 @@ Time complexity: O(n).
 ## entry 308
 
 Caller owns the returned buffer.
+
+## entry 309
+
+Uses a 256-entry lookup for the inner step.
