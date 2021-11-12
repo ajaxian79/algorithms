@@ -1344,3 +1344,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 321
 
 Time complexity: O(n log n).
+
+## entry 322
+
+Uses a 256-entry lookup for the inner step.
