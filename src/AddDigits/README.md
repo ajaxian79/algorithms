@@ -1348,3 +1348,7 @@ Time complexity: O(n log n).
 ## entry 322
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 323
+
+Stable when the input is already sorted.
