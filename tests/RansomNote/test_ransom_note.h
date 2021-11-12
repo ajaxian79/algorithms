@@ -156,3 +156,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 130: Stable across duplicates in the input.
 // edge note 131: Caller owns the returned array; free with a single `free`.
 // edge note 132: Caller owns the returned buffer.
+// edge note 133: Runs in a single pass over the input.
