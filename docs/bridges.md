@@ -1027,3 +1027,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 257
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 258
+
+Walk both pointers from each end inward; advance the smaller side.
