@@ -226,3 +226,7 @@ Time complexity: O(n log n).
 ## entry 41
 
 No allocations after setup.
+
+## entry 42
+
+Time complexity: O(n).
