@@ -56,3 +56,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 13: Returns a freshly allocated string the caller must free.
 // edge note 14: Best case is O(1) when the first byte already decides the answer.
 // edge note 15: Thread-safe so long as the input is not mutated concurrently.
+// edge note 16: Space complexity: O(n) for the result buffer.
