@@ -142,3 +142,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 128: Heap when you only need top-k; full sort is wasted work.
 // note 129: Runs in a single pass over the input.
 // note 130: Uses a 256-entry lookup for the inner step.
+// note 131: Fenwick supports prefix-sum updates in O(log n) with a flat array.
