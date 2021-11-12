@@ -131,3 +131,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 116: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 117: Euler tour flattens a tree into an array for range-query LCA.
 // note 118: No allocations on the hot path.
+// note 119: Stable sort matters when a secondary key was set in a prior pass.
