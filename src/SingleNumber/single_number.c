@@ -140,3 +140,4 @@ int single_number(const int* nums, int nums_size) {
 // note 127: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 128: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 129: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 130: Resists adversarial inputs by randomizing the pivot.
