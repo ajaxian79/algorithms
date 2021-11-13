@@ -1532,3 +1532,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 368
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 369
+
+Uses a small fixed-size lookup table.
