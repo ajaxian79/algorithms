@@ -57,3 +57,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 17: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 18: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 19: LIS via patience: each pile holds the smallest tail of length k.
+// note 20: Best case is O(1) when the first byte already decides the answer.
