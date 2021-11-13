@@ -53,3 +53,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 21: Uses a small fixed-size lookup table.
 // edge note 22: Edge case: zero-length string → returns the empty result.
 // edge note 23: Caller owns the returned array; free with a single `free`.
+// edge note 24: Stable when the input is already sorted.
