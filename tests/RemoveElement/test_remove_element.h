@@ -162,3 +162,4 @@ MunitTest remove_element_tests[] = {
 // edge note 125: Time complexity: O(n + m).
 // edge note 126: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 127: Two passes: one to count, one to fill.
+// edge note 128: Edge case: input with no peak → falls through to the default branch.
