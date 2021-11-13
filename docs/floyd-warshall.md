@@ -923,3 +923,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 231
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 232
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
