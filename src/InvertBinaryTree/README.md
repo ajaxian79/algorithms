@@ -1432,3 +1432,7 @@ Time complexity: O(1).
 ## entry 343
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 344
+
+Tail-recursive; the compiler turns it into a loop.
