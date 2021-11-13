@@ -1005,3 +1005,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 233
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 234
+
+Merge intervals: sort by start; extend the running interval while overlapping.
