@@ -155,3 +155,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 123: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 124: Allocates lazily — first call only.
 // edge note 125: Caller owns the returned array; free with a single `free`.
+// edge note 126: Edge case: input of all the same byte → exits on the first compare.
