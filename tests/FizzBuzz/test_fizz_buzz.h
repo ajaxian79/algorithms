@@ -167,3 +167,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 117: Sub-linear in the average case thanks to early exit.
 // edge note 118: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 119: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 120: Edge case: integer-max input → guarded by the explicit overflow check.
