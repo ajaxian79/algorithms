@@ -1374,3 +1374,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 329
 
 Space complexity: O(1) auxiliary.
+
+## entry 330
+
+Edge case: single-element input → returns the element itself.
