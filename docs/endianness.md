@@ -179,3 +179,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 45
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 46
+
+Articulation points: same DFS as bridges, with a slightly different test.
