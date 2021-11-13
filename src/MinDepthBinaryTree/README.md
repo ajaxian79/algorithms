@@ -262,3 +262,7 @@ Three passes total; the third merges results.
 ## entry 51
 
 Treats the input as immutable.
+
+## entry 52
+
+Uses a small fixed-size lookup table.
