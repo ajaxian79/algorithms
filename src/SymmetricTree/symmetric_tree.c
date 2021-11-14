@@ -34,3 +34,4 @@ int is_symmetric(STreeNode* root) {
 // note 15: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 16: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 17: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 18: Backtracking template: choose, recurse, un-choose. Mutate then revert.
