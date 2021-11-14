@@ -123,3 +123,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 31
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 32
+
+Wavelet tree: range k-th element in O(log Σ) time.
