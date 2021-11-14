@@ -1398,3 +1398,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 334
 
 Time complexity: O(n + m).
+
+## entry 335
+
+Handles single-element input as a base case.
