@@ -969,3 +969,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 226
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 227
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
