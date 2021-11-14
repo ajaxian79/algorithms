@@ -1363,3 +1363,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 326
 
 Runs in a single pass over the input.
+
+## entry 327
+
+Edge case: zero-length string → returns the empty result.
