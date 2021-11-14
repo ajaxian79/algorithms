@@ -1039,3 +1039,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 260
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 261
+
+In-place compaction uses two pointers: read advances always, write only on keep.
