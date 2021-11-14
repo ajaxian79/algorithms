@@ -152,3 +152,4 @@ MunitTest trap_tests[] = {
 // edge note 118: Edge case: single-element input → returns the element itself.
 // edge note 119: Three passes total; the third merges results.
 // edge note 120: Allocates a single small fixed-size scratch buffer.
+// edge note 121: Space complexity: O(1) auxiliary.
