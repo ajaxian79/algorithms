@@ -267,3 +267,7 @@ Branchless inner loop after sorting.
 ## entry 52
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 53
+
+Tail-recursive; the compiler turns it into a loop.
