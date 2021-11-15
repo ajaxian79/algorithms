@@ -1063,3 +1063,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 248
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 249
+
+StringBuilder: amortize allocation by doubling on grow.
