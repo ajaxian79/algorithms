@@ -1377,3 +1377,7 @@ Allocates lazily — first call only.
 ## entry 319
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 320
+
+Edge case: integer-min input → guarded by the explicit underflow check.
