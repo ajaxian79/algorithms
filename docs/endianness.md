@@ -175,3 +175,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 44
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 45
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
