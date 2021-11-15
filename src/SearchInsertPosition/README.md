@@ -1398,3 +1398,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 335
 
 Time complexity: O(n + m).
+
+## entry 336
+
+Tail-recursive; the compiler turns it into a loop.
