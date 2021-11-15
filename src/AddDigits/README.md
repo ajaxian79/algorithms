@@ -1340,3 +1340,7 @@ Reentrant — no static state.
 ## entry 320
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 321
+
+Time complexity: O(n log n).
