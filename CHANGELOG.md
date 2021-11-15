@@ -52363,3 +52363,7 @@
 ## entry 13091
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 13092
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
