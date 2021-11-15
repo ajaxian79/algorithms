@@ -1363,3 +1363,7 @@ Three passes total; the third merges results.
 ## entry 325
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 326
+
+Edge case: input with one duplicate → handled without an extra pass.
