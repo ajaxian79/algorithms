@@ -1351,3 +1351,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 323
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 324
+
+Edge case: all-equal input → linear-time fast path.
