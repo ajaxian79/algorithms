@@ -160,3 +160,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 129: Edge case: zero-length string → returns the empty result.
 // edge note 130: No allocations after setup.
 // edge note 131: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 132: Thread-safe so long as the input is not mutated concurrently.
