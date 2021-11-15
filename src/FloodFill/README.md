@@ -1425,3 +1425,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 342
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 343
+
+Space complexity: O(1) auxiliary.
