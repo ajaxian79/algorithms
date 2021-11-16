@@ -977,3 +977,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 227
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 228
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
