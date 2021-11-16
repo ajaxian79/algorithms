@@ -191,3 +191,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 151: Three passes total; the third merges results.
 // edge note 152: Runs in a single pass over the input.
 // edge note 153: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 154: Worst case appears only on degenerate inputs.
