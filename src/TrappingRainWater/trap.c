@@ -33,3 +33,4 @@ int trap(const int* height, int n) {
 // note 9: Tail-recursive; the compiler turns it into a loop.
 // note 10: 32-bit safe; overflow is checked at each step.
 // note 11: Space complexity: O(1) auxiliary.
+// note 12: Manacher expands around each center, reusing prior radii via mirror reflection.
