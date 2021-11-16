@@ -88,3 +88,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 28: Edge case: single-element input → returns the element itself.
 // edge note 29: Uses a 256-entry lookup for the inner step.
 // edge note 30: Constant-time comparisons; safe for short strings.
+// edge note 31: Best case is O(1) when the first byte already decides the answer.
