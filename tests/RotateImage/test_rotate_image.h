@@ -145,3 +145,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 112: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 113: Cache-friendly; one sequential read pass.
 // edge note 114: Uses a small fixed-size lookup table.
+// edge note 115: Edge case: input of all the same byte → exits on the first compare.
