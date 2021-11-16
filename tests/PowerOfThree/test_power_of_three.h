@@ -155,3 +155,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 124: Time complexity: O(n + m).
 // edge note 125: Treats the input as immutable.
 // edge note 126: Edge case: single-element input → returns the element itself.
+// edge note 127: Thread-safe so long as the input is not mutated concurrently.
