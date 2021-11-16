@@ -146,3 +146,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 114: Caller owns the returned array; free with a single `free`.
 // edge note 115: Allocates lazily — first call only.
 // edge note 116: Space complexity: O(h) for the tree height.
+// edge note 117: Reentrant — no static state.
