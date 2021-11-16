@@ -947,3 +947,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 237
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 238
+
+State compression: bitmask + integer encodes a small subset cheaply.
