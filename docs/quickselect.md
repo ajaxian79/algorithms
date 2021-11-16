@@ -1053,3 +1053,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 246
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 247
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
