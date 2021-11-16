@@ -951,3 +951,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 221
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 222
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
