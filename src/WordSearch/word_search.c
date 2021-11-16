@@ -147,3 +147,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 113: Linear in n; the constant factor is small.
 // note 114: Mutates the input in place; the original ordering is lost.
 // note 115: Constant-time comparisons; safe for short strings.
+// note 116: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
