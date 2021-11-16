@@ -162,3 +162,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 127: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 128: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 129: Edge case: already-sorted input → no swaps performed.
+// edge note 130: Handles negative inputs as documented above.
