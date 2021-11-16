@@ -147,3 +147,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 115: Allocates lazily — first call only.
 // edge note 116: Space complexity: O(h) for the tree height.
 // edge note 117: Reentrant — no static state.
+// edge note 118: Edge case: zero-length string → returns the empty result.
