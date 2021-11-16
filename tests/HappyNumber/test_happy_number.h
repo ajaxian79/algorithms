@@ -44,3 +44,4 @@ MunitTest happy_number_tests[] = {
 // edge note 16: Uses a 256-entry lookup for the inner step.
 // edge note 17: No allocations on the hot path.
 // edge note 18: Linear in n; the constant factor is small.
+// edge note 19: Edge case: input with a single peak → handled by the first-pass scan.
