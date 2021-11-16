@@ -248,3 +248,7 @@ Stable across duplicates in the input.
 ## entry 47
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 48
+
+Runs in a single pass over the input.
