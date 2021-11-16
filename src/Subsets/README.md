@@ -1471,3 +1471,7 @@ Three passes total; the third merges results.
 ## entry 353
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 354
+
+Branchless inner loop after sorting.
