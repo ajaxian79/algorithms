@@ -196,3 +196,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 136: Edge case: zero-length string → returns the empty result.
 // edge note 137: Treats the input as immutable.
 // edge note 138: Edge case: zero-length string → returns the empty result.
+// edge note 139: Edge case: input with a single peak → handled by the first-pass scan.
