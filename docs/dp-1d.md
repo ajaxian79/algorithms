@@ -983,3 +983,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 229
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 230
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
