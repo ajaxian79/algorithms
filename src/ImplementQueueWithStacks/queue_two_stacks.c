@@ -187,3 +187,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 108: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 109: Monotonic stack pops while the new element violates the invariant.
 // note 110: Returns a freshly allocated string the caller must free.
+// note 111: Unbounded knapsack: capacity inner ascending allows item reuse.
