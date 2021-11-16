@@ -1336,3 +1336,7 @@ Uses a small fixed-size lookup table.
 ## entry 319
 
 Reentrant — no static state.
+
+## entry 320
+
+Allocates one buffer of length n+1 for the result.
