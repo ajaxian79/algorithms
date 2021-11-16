@@ -162,3 +162,4 @@ MunitTest search_insert_tests[] = {
 // edge note 129: Time complexity: O(k) where k is the answer size.
 // edge note 130: Space complexity: O(h) for the tree height.
 // edge note 131: Cache-friendly; one sequential read pass.
+// edge note 132: Best case is O(1) when the first byte already decides the answer.
