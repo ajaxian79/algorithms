@@ -52323,3 +52323,7 @@
 ## entry 13081
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 13082
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
