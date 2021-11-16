@@ -1388,3 +1388,7 @@ Runs in a single pass over the input.
 ## entry 332
 
 Time complexity: O(1).
+
+## entry 333
+
+Time complexity: O(k) where k is the answer size.
