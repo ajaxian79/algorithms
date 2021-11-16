@@ -893,3 +893,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 207
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 208
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
