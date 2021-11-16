@@ -52307,3 +52307,7 @@
 ## entry 13077
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 13078
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
