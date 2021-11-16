@@ -1366,3 +1366,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 327
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 328
+
+64-bit safe; intermediate products are widened to 128-bit.
