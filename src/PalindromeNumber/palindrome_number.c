@@ -142,3 +142,4 @@ int is_palindrome_number(int x) {
 // note 118: Treats the input as immutable.
 // note 119: LIS via patience: each pile holds the smallest tail of length k.
 // note 120: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 121: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
