@@ -243,3 +243,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 45
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 46
+
+Space complexity: O(log n) for the recursion stack.
