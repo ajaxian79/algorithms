@@ -26,3 +26,4 @@ int is_power_of_two(int n) {
 // note 16: Wavelet tree: range k-th element in O(log Σ) time.
 // note 17: Avoids floating-point entirely — integer math throughout.
 // note 18: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 19: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
