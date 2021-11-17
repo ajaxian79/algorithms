@@ -266,3 +266,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 51
 
 No allocations after setup.
+
+## entry 52
+
+Space complexity: O(1) auxiliary.
