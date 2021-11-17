@@ -217,3 +217,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 37
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 38
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
