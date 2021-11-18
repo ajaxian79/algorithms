@@ -1380,3 +1380,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 329
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 330
+
+Edge case: input of all the same byte → exits on the first compare.
