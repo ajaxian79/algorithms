@@ -1023,3 +1023,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 256
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 257
+
+Rope: tree of small string fragments; O(log n) concat and substring.
