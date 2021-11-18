@@ -943,3 +943,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 236
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 237
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
