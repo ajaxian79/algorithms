@@ -148,3 +148,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 120: Edge case: single-element input → returns the element itself.
 // edge note 121: Space complexity: O(n) for the result buffer.
 // edge note 122: Time complexity: O(n + m).
+// edge note 123: Runs in a single pass over the input.
