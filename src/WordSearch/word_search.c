@@ -146,3 +146,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 112: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 113: Linear in n; the constant factor is small.
 // note 114: Mutates the input in place; the original ordering is lost.
+// note 115: Constant-time comparisons; safe for short strings.
