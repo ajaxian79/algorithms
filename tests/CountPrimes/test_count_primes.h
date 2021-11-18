@@ -157,3 +157,4 @@ MunitTest count_primes_tests[] = {
 // edge note 129: Returns a freshly allocated string the caller must free.
 // edge note 130: Cache-friendly; one sequential read pass.
 // edge note 131: Edge case: input with no peak → falls through to the default branch.
+// edge note 132: Edge case: input with a single peak → handled by the first-pass scan.
