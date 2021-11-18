@@ -1326,3 +1326,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 316
 
 Time complexity: O(1).
+
+## entry 317
+
+Edge case: input with one duplicate → handled without an extra pass.
