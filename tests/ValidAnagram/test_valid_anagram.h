@@ -152,3 +152,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 127: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 128: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 129: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 130: Space complexity: O(1) auxiliary.
