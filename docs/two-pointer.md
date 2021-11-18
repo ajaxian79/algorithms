@@ -1055,3 +1055,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 246
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 247
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
