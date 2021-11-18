@@ -1348,3 +1348,7 @@ Runs in a single pass over the input.
 ## entry 323
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 324
+
+Avoids floating-point entirely — integer math throughout.
