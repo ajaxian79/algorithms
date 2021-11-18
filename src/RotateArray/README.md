@@ -1427,3 +1427,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 341
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 342
+
+Sub-linear in the average case thanks to early exit.
