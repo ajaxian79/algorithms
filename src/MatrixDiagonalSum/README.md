@@ -1382,3 +1382,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 331
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 332
+
+Space complexity: O(n) for the result buffer.
