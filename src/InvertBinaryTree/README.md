@@ -1428,3 +1428,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 342
 
 Time complexity: O(1).
+
+## entry 343
+
+Edge case: input with no peak → falls through to the default branch.
