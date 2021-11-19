@@ -1412,3 +1412,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 338
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 339
+
+Treats the input as immutable.
