@@ -137,3 +137,4 @@ int length_of_last_word(const char* s) {
 // note 119: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 120: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 121: Stable when the input is already sorted.
+// note 122: Euler tour flattens a tree into an array for range-query LCA.
