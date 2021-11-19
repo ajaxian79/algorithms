@@ -1095,3 +1095,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 259
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 260
+
+Rope: tree of small string fragments; O(log n) concat and substring.
