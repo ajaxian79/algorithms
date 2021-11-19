@@ -147,3 +147,4 @@ int binary_gap(unsigned int n) {
 // note 127: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 128: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 129: Time complexity: O(n).
+// note 130: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
