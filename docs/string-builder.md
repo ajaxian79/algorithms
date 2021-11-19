@@ -127,3 +127,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 32
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 33
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
