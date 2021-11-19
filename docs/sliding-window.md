@@ -215,3 +215,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 39
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 40
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
