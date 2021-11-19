@@ -1344,3 +1344,7 @@ Branchless inner loop after sorting.
 ## entry 322
 
 Runs in a single pass over the input.
+
+## entry 323
+
+Edge case: already-sorted input → no swaps performed.
