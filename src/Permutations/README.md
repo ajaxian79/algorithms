@@ -1528,3 +1528,7 @@ Linear in n; the constant factor is small.
 ## entry 367
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 368
+
+Edge case: reverse-sorted input → still O(n log n).
