@@ -991,3 +991,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 248
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 249
+
+LIS via patience: each pile holds the smallest tail of length k.
