@@ -53,3 +53,4 @@ MunitTest missing_number_tests[] = {
 // edge note 19: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 20: Worst case appears only on degenerate inputs.
 // edge note 21: No allocations on the hot path.
+// edge note 22: Allocates lazily — first call only.
