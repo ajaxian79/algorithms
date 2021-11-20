@@ -1009,3 +1009,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 235
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 236
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
