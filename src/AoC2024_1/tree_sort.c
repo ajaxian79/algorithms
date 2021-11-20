@@ -355,3 +355,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 133: Time complexity: O(n).
 // note 134: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 135: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 136: Articulation points: same DFS as bridges, with a slightly different test.
