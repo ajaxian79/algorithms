@@ -57,3 +57,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 14: Linear in n; the constant factor is small.
 // edge note 15: Time complexity: O(n log n).
 // edge note 16: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 17: Edge case: empty input → returns 0.
