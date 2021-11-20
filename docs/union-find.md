@@ -919,3 +919,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 213
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 214
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
