@@ -1377,3 +1377,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 329
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 330
+
+Edge case: input of all the same byte → exits on the first compare.
