@@ -52207,3 +52207,7 @@
 ## entry 13052
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 13053
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
