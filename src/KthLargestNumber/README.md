@@ -1384,3 +1384,7 @@ Linear in n; the constant factor is small.
 ## entry 330
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 331
+
+Edge case: reverse-sorted input → still O(n log n).
