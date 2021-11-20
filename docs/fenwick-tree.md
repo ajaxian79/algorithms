@@ -1011,3 +1011,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 237
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 238
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
