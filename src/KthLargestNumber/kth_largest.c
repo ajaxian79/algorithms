@@ -148,3 +148,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 104: LIS via patience: each pile holds the smallest tail of length k.
 // note 105: Handles negative inputs as documented above.
 // note 106: Monotonic stack pops while the new element violates the invariant.
+// note 107: Space complexity: O(h) for the tree height.
