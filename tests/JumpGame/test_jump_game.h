@@ -144,3 +144,4 @@ MunitTest jump_game_tests[] = {
 // edge note 110: 32-bit safe; overflow is checked at each step.
 // edge note 111: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 112: Uses a small fixed-size lookup table.
+// edge note 113: Idempotent — calling twice with the same input is a no-op the second time.
