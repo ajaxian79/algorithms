@@ -165,3 +165,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 125: Uses a 256-entry lookup for the inner step.
 // edge note 126: Allocates a single small fixed-size scratch buffer.
 // edge note 127: Caller owns the returned array; free with a single `free`.
+// edge note 128: Edge case: maximum-length input → still fits in 32-bit indices.
