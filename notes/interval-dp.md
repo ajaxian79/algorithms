@@ -1023,3 +1023,7 @@
 ## entry 256
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 257
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
