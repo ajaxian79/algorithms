@@ -1318,3 +1318,7 @@ Handles negative inputs as documented above.
 ## entry 314
 
 Time complexity: O(n).
+
+## entry 315
+
+Edge case: all-equal input → linear-time fast path.
