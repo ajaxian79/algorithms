@@ -7163,3 +7163,7 @@
 ## entry 1791
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 1792
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
