@@ -1380,3 +1380,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 329
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 330
+
+Best case is O(1) when the first byte already decides the answer.
