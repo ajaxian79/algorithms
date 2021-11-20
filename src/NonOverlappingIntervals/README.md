@@ -249,3 +249,7 @@ Time complexity: O(log n).
 ## entry 47
 
 Vectorizes cleanly under -O2.
+
+## entry 48
+
+Edge case: integer-max input → guarded by the explicit overflow check.
