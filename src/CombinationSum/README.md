@@ -1355,3 +1355,7 @@ Three passes total; the third merges results.
 ## entry 324
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 325
+
+Edge case: reverse-sorted input → still O(n log n).
