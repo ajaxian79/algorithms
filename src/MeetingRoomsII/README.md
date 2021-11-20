@@ -1406,3 +1406,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 336
 
 Stable across duplicates in the input.
+
+## entry 337
+
+Edge case: input with a single peak → handled by the first-pass scan.
