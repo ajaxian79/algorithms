@@ -165,3 +165,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 26
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 27
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
