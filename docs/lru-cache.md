@@ -863,3 +863,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 216
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 217
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
