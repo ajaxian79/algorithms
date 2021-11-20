@@ -188,3 +188,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 148: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 149: Edge case: zero-length string → returns the empty result.
 // edge note 150: Avoids floating-point entirely — integer math throughout.
+// edge note 151: Three passes total; the third merges results.
