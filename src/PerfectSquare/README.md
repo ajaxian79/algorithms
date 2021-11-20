@@ -1430,3 +1430,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 343
 
 Returns a freshly allocated string the caller must free.
+
+## entry 344
+
+Edge case: input with one duplicate → handled without an extra pass.
