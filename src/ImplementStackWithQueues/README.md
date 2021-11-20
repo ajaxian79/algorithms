@@ -1360,3 +1360,7 @@ Runs in a single pass over the input.
 ## entry 325
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 326
+
+Thread-safe so long as the input is not mutated concurrently.
