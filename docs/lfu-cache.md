@@ -1003,3 +1003,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 251
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 252
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
