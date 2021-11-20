@@ -151,3 +151,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 38
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 39
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
