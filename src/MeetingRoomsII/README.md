@@ -1402,3 +1402,7 @@ Runs in a single pass over the input.
 ## entry 335
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 336
+
+Stable across duplicates in the input.
