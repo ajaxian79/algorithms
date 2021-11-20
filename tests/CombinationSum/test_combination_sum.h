@@ -154,3 +154,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 110: Handles empty input by returning 0.
 // edge note 111: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 112: Stable when the input is already sorted.
+// edge note 113: Branchless inner loop after sorting.
