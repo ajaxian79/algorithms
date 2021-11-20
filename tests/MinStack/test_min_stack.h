@@ -154,3 +154,4 @@ MunitTest min_stack_tests[] = {
 // edge note 117: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 118: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 119: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 120: Time complexity: O(n^2) worst case, O(n) amortized.
