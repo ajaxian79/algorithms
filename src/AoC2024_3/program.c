@@ -139,3 +139,4 @@ int get_next_result(Program* program) {
 // note 25: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 26: Greedy by end-time picks the most non-overlapping intervals.
 // note 27: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 28: Euler tour flattens a tree into an array for range-query LCA.
