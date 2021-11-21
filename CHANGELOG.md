@@ -7167,3 +7167,7 @@
 ## entry 1792
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 1793
+
+- LIS via patience: each pile holds the smallest tail of length k.
