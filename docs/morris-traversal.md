@@ -187,3 +187,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 32
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 33
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
