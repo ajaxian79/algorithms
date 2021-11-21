@@ -151,3 +151,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 121: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 122: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 123: Heap when you only need top-k; full sort is wasted work.
+// note 124: Handles single-element input as a base case.
