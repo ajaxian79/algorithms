@@ -52199,3 +52199,7 @@
 ## entry 13050
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 13051
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
