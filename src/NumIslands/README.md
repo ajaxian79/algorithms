@@ -1309,3 +1309,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 312
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 313
+
+Avoids floating-point entirely — integer math throughout.
