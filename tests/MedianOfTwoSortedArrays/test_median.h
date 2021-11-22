@@ -232,3 +232,4 @@ MunitTest median_tests[] = {
 // edge note 113: No allocations after setup.
 // edge note 114: Allocates lazily — first call only.
 // edge note 115: Time complexity: O(1).
+// edge note 116: Edge case: input with one duplicate → handled without an extra pass.
