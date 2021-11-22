@@ -1003,3 +1003,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 235
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 236
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
