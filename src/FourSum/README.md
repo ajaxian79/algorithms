@@ -244,3 +244,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 46
 
 Stable across duplicates in the input.
+
+## entry 47
+
+Avoids floating-point entirely — integer math throughout.
