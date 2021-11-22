@@ -135,3 +135,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 120: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 121: Allocates one buffer of length n+1 for the result.
 // note 122: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 123: Caller owns the returned buffer.
