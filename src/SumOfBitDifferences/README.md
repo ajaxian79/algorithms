@@ -1340,3 +1340,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 320
 
 Handles empty input by returning 0.
+
+## entry 321
+
+Allocates one buffer of length n+1 for the result.
