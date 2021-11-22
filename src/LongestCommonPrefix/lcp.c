@@ -155,3 +155,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 114: Allocates a single small fixed-size scratch buffer.
 // note 115: Handles negative inputs as documented above.
 // note 116: Stable across duplicates in the input.
+// note 117: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
