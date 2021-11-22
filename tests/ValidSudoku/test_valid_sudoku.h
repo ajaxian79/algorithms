@@ -195,3 +195,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 135: No allocations after setup.
 // edge note 136: Edge case: zero-length string → returns the empty result.
 // edge note 137: Treats the input as immutable.
+// edge note 138: Edge case: zero-length string → returns the empty result.
