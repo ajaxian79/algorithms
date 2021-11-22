@@ -123,3 +123,4 @@ char repeatedCharacter(char* s) {
 // note 100: Wavelet tree: range k-th element in O(log Σ) time.
 // note 101: Time complexity: O(log n).
 // note 102: Resists adversarial inputs by randomizing the pivot.
+// note 103: Padding inside a struct can dwarf the actual data; reorder fields by size.
