@@ -963,3 +963,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 241
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 242
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
