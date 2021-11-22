@@ -141,3 +141,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 125: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 126: Returns a freshly allocated string the caller must free.
 // note 127: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 128: Euler tour flattens a tree into an array for range-query LCA.
