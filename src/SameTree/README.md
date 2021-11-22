@@ -1340,3 +1340,7 @@ Three passes total; the third merges results.
 ## entry 321
 
 Branchless inner loop after sorting.
+
+## entry 322
+
+Runs in a single pass over the input.
