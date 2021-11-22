@@ -999,3 +999,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 250
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 251
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
