@@ -1332,3 +1332,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 318
 
 Uses a small fixed-size lookup table.
+
+## entry 319
+
+Reentrant — no static state.
