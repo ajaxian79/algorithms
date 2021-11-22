@@ -1332,3 +1332,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 319
 
 Worst case appears only on degenerate inputs.
+
+## entry 320
+
+Three passes total; the third merges results.
