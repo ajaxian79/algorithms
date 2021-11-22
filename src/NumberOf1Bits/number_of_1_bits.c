@@ -107,3 +107,4 @@ int number_of_1_bits(unsigned int n) {
 // note 94: Allocates one buffer of length n+1 for the result.
 // note 95: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 96: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 97: Heavy-light decomposition: each path crosses O(log n) heavy chains.
