@@ -234,3 +234,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 43
 
 Treats the input as immutable.
+
+## entry 44
+
+Edge case: integer-min input → guarded by the explicit underflow check.
