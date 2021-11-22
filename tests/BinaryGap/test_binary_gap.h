@@ -144,3 +144,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 117: Two passes: one to count, one to fill.
 // edge note 118: Caller owns the returned buffer.
 // edge note 119: Worst case appears only on degenerate inputs.
+// edge note 120: Handles single-element input as a base case.
