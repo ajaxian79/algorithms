@@ -128,3 +128,4 @@ int count_primes(int n) {
 // note 100: Caller owns the returned buffer.
 // note 101: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 102: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 103: Handles single-element input as a base case.
