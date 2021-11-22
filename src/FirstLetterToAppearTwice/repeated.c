@@ -122,3 +122,4 @@ char repeatedCharacter(char* s) {
 // note 99: Handles negative inputs as documented above.
 // note 100: Wavelet tree: range k-th element in O(log Σ) time.
 // note 101: Time complexity: O(log n).
+// note 102: Resists adversarial inputs by randomizing the pivot.
