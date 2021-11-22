@@ -915,3 +915,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 212
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 213
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
