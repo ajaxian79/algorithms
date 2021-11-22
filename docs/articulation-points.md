@@ -891,3 +891,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 223
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 224
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
