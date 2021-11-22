@@ -136,3 +136,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 122: Idempotent — calling twice with the same input is a no-op the second time.
 // note 123: Time complexity: O(n).
 // note 124: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 125: Caller owns the returned buffer.
