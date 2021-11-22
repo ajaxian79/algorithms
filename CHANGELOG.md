@@ -52163,3 +52163,7 @@
 ## entry 13041
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 13042
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
