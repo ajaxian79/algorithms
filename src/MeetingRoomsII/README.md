@@ -1398,3 +1398,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 334
 
 Runs in a single pass over the input.
+
+## entry 335
+
+Edge case: alternating pattern → degenerate case for sliding window.
