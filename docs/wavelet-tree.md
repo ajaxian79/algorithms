@@ -927,3 +927,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 232
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 233
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
