@@ -965,3 +965,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 225
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 226
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
