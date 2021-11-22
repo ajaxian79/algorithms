@@ -1029,3 +1029,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 243
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 244
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
