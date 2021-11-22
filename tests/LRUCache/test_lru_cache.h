@@ -170,3 +170,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 127: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 128: Space complexity: O(n) for the result buffer.
 // edge note 129: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 130: Edge case: integer-max input → guarded by the explicit overflow check.
