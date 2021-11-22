@@ -1031,3 +1031,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 258
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 259
+
+Wavelet tree: range k-th element in O(log Σ) time.
