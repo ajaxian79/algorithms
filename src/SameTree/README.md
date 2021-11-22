@@ -1336,3 +1336,7 @@ Worst case appears only on degenerate inputs.
 ## entry 320
 
 Three passes total; the third merges results.
+
+## entry 321
+
+Branchless inner loop after sorting.
