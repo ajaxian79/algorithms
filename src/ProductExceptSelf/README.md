@@ -1368,3 +1368,7 @@ Stable when the input is already sorted.
 ## entry 326
 
 Handles single-element input as a base case.
+
+## entry 327
+
+Deterministic given the input — no PRNG seeds.
