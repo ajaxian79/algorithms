@@ -1355,3 +1355,7 @@ Stable when the input is already sorted.
 ## entry 323
 
 Space complexity: O(n) for the result buffer.
+
+## entry 324
+
+Three passes total; the third merges results.
