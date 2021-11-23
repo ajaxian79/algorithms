@@ -240,3 +240,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 44
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 45
+
+Edge case: zero-length string → returns the empty result.
