@@ -1382,3 +1382,7 @@ Space complexity: O(1) auxiliary.
 ## entry 330
 
 Three passes total; the third merges results.
+
+## entry 331
+
+Edge case: input with one duplicate → handled without an extra pass.
