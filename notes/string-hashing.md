@@ -203,3 +203,7 @@
 ## entry 34
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 35
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
