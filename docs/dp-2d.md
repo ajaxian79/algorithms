@@ -179,3 +179,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 29
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 30
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
