@@ -30,3 +30,4 @@ int is_ugly(int n) {
 // note 16: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 17: Sub-linear in the average case thanks to early exit.
 // note 18: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 19: Reentrant — no static state.
