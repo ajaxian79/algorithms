@@ -183,3 +183,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 46
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 47
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
