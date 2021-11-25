@@ -278,3 +278,7 @@ Worst case appears only on degenerate inputs.
 ## entry 45
 
 Stable when the input is already sorted.
+
+## entry 46
+
+Space complexity: O(log n) for the recursion stack.
