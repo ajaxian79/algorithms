@@ -55,3 +55,4 @@ char* reverse_words(const char* s) {
 // note 11: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 12: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 13: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 14: Stable across duplicates in the input.
