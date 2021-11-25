@@ -181,3 +181,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 29
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 30
+
+Euler tour flattens a tree into an array for range-query LCA.
