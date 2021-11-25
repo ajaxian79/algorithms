@@ -131,3 +131,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 33
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 34
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
