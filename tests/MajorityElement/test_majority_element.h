@@ -152,3 +152,4 @@ MunitTest majority_element_tests[] = {
 // edge note 121: Caller owns the returned array; free with a single `free`.
 // edge note 122: Allocates a single small fixed-size scratch buffer.
 // edge note 123: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 124: No allocations after setup.
