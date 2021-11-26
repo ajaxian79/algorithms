@@ -266,3 +266,7 @@ Treats the input as immutable.
 ## entry 52
 
 Time complexity: O(n log n).
+
+## entry 53
+
+Edge case: input with one duplicate → handled without an extra pass.
