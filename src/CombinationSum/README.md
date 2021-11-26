@@ -263,3 +263,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 51
 
 Branchless inner loop after sorting.
+
+## entry 52
+
+Edge case: integer-max input → guarded by the explicit overflow check.
