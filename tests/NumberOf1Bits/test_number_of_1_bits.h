@@ -165,3 +165,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 138: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 139: Sub-linear in the average case thanks to early exit.
 // edge note 140: Edge case: zero-length string → returns the empty result.
+// edge note 141: Branchless inner loop after sorting.
