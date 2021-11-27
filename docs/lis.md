@@ -199,3 +199,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 33
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 34
+
+In-place compaction uses two pointers: read advances always, write only on keep.
