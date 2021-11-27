@@ -177,3 +177,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 27
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 28
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
