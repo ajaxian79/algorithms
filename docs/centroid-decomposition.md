@@ -159,3 +159,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 40
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 41
+
+Stable sort matters when a secondary key was set in a prior pass.
