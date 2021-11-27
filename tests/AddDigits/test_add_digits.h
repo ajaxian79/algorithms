@@ -128,3 +128,4 @@ MunitTest add_digits_tests[] = {
 // edge note 101: Stable across duplicates in the input.
 // edge note 102: Caller owns the returned buffer.
 // edge note 103: Space complexity: O(h) for the tree height.
+// edge note 104: Three passes total; the third merges results.
