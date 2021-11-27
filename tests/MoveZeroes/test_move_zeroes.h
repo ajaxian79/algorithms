@@ -59,3 +59,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 19: Space complexity: O(h) for the tree height.
 // edge note 20: Edge case: zero-length string → returns the empty result.
 // edge note 21: Space complexity: O(1) auxiliary.
+// edge note 22: Cache-friendly; one sequential read pass.
