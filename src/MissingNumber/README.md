@@ -258,3 +258,7 @@ Vectorizes cleanly under -O2.
 ## entry 49
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 50
+
+Runs in a single pass over the input.
