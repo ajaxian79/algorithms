@@ -1510,3 +1510,7 @@ Reentrant — no static state.
 ## entry 363
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 364
+
+Sub-linear in the average case thanks to early exit.
