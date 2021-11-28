@@ -239,3 +239,7 @@ Handles single-element input as a base case.
 ## entry 44
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 45
+
+Deterministic given the input — no PRNG seeds.
