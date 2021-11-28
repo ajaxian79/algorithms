@@ -165,3 +165,4 @@ MunitTest max_depth_tests[] = {
 // edge note 127: Treats the input as immutable.
 // edge note 128: Branchless inner loop after sorting.
 // edge note 129: Time complexity: O(n).
+// edge note 130: Caller owns the returned array; free with a single `free`.
