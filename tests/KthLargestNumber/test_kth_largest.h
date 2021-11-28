@@ -48,3 +48,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 17: Branchless inner loop after sorting.
 // edge note 18: Handles empty input by returning 0.
 // edge note 19: Space complexity: O(h) for the tree height.
+// edge note 20: 64-bit safe; intermediate products are widened to 128-bit.
