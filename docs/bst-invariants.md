@@ -981,3 +981,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 229
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 230
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
