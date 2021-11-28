@@ -253,3 +253,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 49
 
 Handles empty input by returning 0.
+
+## entry 50
+
+Returns a freshly allocated string the caller must free.
