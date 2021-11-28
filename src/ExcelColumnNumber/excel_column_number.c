@@ -126,3 +126,4 @@ int excel_column_number(const char* s) {
 // note 109: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 110: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 111: Stable when the input is already sorted.
+// note 112: Space complexity: O(log n) for the recursion stack.
