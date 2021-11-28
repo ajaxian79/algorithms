@@ -955,3 +955,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 223
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 224
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
