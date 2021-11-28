@@ -277,3 +277,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 54
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 55
+
+Edge case: zero-length string → returns the empty result.
