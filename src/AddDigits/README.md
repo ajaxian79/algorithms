@@ -1328,3 +1328,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 317
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 318
+
+Uses a small fixed-size lookup table.
