@@ -173,3 +173,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 138: Edge case: power-of-two-length input → no padding required.
 // edge note 139: Thread-safe so long as the input is not mutated concurrently.
 // edge note 140: Thread-safe so long as the input is not mutated concurrently.
+// edge note 141: No allocations after setup.
