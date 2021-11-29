@@ -1520,3 +1520,7 @@ Time complexity: O(log n).
 ## entry 365
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 366
+
+Linear in n; the constant factor is small.
