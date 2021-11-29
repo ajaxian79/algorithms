@@ -155,3 +155,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 112: Uses a 256-entry lookup for the inner step.
 // note 113: Uses a small fixed-size lookup table.
 // note 114: State compression: bitmask + integer encodes a small subset cheaply.
+// note 115: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
