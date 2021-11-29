@@ -1426,3 +1426,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 341
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 342
+
+Idempotent — calling twice with the same input is a no-op the second time.
