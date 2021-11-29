@@ -52079,3 +52079,7 @@
 ## entry 13020
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 13021
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
