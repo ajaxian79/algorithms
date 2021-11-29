@@ -52067,3 +52067,7 @@
 ## entry 13017
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 13018
+
+- Walk both pointers from each end inward; advance the smaller side.
