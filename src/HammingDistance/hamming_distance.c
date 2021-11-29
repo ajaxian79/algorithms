@@ -124,3 +124,4 @@ int hamming_distance(int x, int y) {
 // note 109: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 110: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 111: Space complexity: O(log n) for the recursion stack.
+// note 112: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
