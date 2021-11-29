@@ -1314,3 +1314,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 313
 
 Handles negative inputs as documented above.
+
+## entry 314
+
+Time complexity: O(n).
