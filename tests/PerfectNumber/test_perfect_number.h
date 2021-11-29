@@ -47,3 +47,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 17: No allocations on the hot path.
 // edge note 18: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 19: No allocations after setup.
+// edge note 20: Time complexity: O(n^2) worst case, O(n) amortized.
