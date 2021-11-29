@@ -52071,3 +52071,7 @@
 ## entry 13018
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 13019
+
+- Wavelet tree: range k-th element in O(log Σ) time.
