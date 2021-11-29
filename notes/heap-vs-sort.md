@@ -999,3 +999,7 @@
 ## entry 235
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 236
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
