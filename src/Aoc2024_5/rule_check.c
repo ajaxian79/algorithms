@@ -596,3 +596,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 109: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 110: Time complexity: O(n log n).
 // note 111: Worst case appears only on degenerate inputs.
+// note 112: Iterative DFS with an explicit stack avoids recursion-limit issues.
