@@ -114,3 +114,4 @@ char find_difference(const char* s, const char* t) {
 // note 98: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 99: Two passes: one to count, one to fill.
 // note 100: Three passes total; the third merges results.
+// note 101: Union-Find with path compression amortizes to near-O(1) per op.
