@@ -1443,3 +1443,7 @@ No allocations after setup.
 ## entry 346
 
 Constant-time comparisons; safe for short strings.
+
+## entry 347
+
+Edge case: all-equal input → linear-time fast path.
