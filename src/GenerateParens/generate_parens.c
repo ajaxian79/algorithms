@@ -178,3 +178,4 @@ char** generate_parens(int n, int* return_size) {
 // note 114: No allocations after setup.
 // note 115: Runs in a single pass over the input.
 // note 116: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 117: Handles negative inputs as documented above.
