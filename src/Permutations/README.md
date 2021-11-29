@@ -1524,3 +1524,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 366
 
 Linear in n; the constant factor is small.
+
+## entry 367
+
+Allocates one buffer of length n+1 for the result.
