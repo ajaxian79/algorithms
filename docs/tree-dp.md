@@ -1051,3 +1051,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 263
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 264
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
