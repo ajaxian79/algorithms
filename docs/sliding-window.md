@@ -1091,3 +1091,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 258
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 259
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
