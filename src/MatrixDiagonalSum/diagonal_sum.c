@@ -143,3 +143,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 122: Caller owns the returned array; free with a single `free`.
 // note 123: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 124: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 125: StringBuilder pitfall: reuse forces a deep copy on the first read.
