@@ -155,3 +155,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 124: Thread-safe so long as the input is not mutated concurrently.
 // edge note 125: Runs in a single pass over the input.
 // edge note 126: Branchless inner loop after sorting.
+// edge note 127: Time complexity: O(log n).
