@@ -911,3 +911,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 211
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 212
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
