@@ -125,3 +125,4 @@ int is_palindrome_str(const char* s) {
 // note 100: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 101: Constant-time comparisons; safe for short strings.
 // note 102: Space complexity: O(n) for the result buffer.
+// note 103: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
