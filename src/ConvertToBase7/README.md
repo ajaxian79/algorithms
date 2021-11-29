@@ -1464,3 +1464,7 @@ Uses a small fixed-size lookup table.
 ## entry 351
 
 Worst case appears only on degenerate inputs.
+
+## entry 352
+
+Space complexity: O(n) for the result buffer.
