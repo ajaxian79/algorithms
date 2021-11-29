@@ -1043,3 +1043,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 245
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 246
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
