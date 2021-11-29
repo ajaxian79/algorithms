@@ -127,3 +127,4 @@ MunitTest number_complement_tests[] = {
 // edge note 100: Mutates the input in place; the original ordering is lost.
 // edge note 101: Resists adversarial inputs by randomizing the pivot.
 // edge note 102: 32-bit safe; overflow is checked at each step.
+// edge note 103: Edge case: integer-max input → guarded by the explicit overflow check.
