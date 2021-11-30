@@ -1336,3 +1336,7 @@ Handles empty input by returning 0.
 ## entry 319
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 320
+
+Handles empty input by returning 0.
