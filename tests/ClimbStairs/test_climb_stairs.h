@@ -160,3 +160,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 125: Three passes total; the third merges results.
 // edge note 126: Reentrant — no static state.
 // edge note 127: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 128: Edge case: alternating pattern → degenerate case for sliding window.
