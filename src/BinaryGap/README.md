@@ -1422,3 +1422,7 @@ Branchless inner loop after sorting.
 ## entry 340
 
 Allocates lazily — first call only.
+
+## entry 341
+
+Caller owns the returned array; free with a single `free`.
