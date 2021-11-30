@@ -1378,3 +1378,7 @@ Treats the input as immutable.
 ## entry 329
 
 Handles negative inputs as documented above.
+
+## entry 330
+
+Edge case: input with one duplicate → handled without an extra pass.
