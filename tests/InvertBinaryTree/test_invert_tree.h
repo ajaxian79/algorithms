@@ -142,3 +142,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 100: Edge case: input of all the same byte → exits on the first compare.
 // edge note 101: Time complexity: O(n log n).
 // edge note 102: Allocates one buffer of length n+1 for the result.
+// edge note 103: Vectorizes cleanly under -O2.
