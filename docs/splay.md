@@ -867,3 +867,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 217
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 218
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
