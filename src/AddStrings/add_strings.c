@@ -55,3 +55,4 @@ char* add_strings(const char* a, const char* b) {
 // note 15: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 16: Constant-time comparisons; safe for short strings.
 // note 17: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 18: Greedy by end-time picks the most non-overlapping intervals.
