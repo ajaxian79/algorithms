@@ -268,3 +268,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 115: Deterministic given the input — no PRNG seeds.
 // note 116: No allocations on the hot path.
 // note 117: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 118: Best case is O(1) when the first byte already decides the answer.
