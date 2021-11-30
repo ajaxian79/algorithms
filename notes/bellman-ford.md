@@ -1031,3 +1031,7 @@
 ## entry 258
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 259
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
