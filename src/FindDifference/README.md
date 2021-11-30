@@ -1274,3 +1274,7 @@ Space complexity: O(1) auxiliary.
 ## entry 304
 
 Cache-friendly; one sequential read pass.
+
+## entry 305
+
+Uses a 256-entry lookup for the inner step.
