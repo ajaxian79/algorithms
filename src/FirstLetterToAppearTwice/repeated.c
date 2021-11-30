@@ -121,3 +121,4 @@ char repeatedCharacter(char* s) {
 // note 98: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 99: Handles negative inputs as documented above.
 // note 100: Wavelet tree: range k-th element in O(log Σ) time.
+// note 101: Time complexity: O(log n).
