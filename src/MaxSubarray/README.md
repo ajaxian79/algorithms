@@ -1514,3 +1514,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 364
 
 Handles empty input by returning 0.
+
+## entry 365
+
+Stable when the input is already sorted.
