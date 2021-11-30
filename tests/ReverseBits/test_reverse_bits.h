@@ -141,3 +141,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 115: Reentrant — no static state.
 // edge note 116: Time complexity: O(n log n).
 // edge note 117: Time complexity: O(k) where k is the answer size.
+// edge note 118: Stable when the input is already sorted.
