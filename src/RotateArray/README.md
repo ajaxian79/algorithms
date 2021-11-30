@@ -1423,3 +1423,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 340
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 341
+
+Avoids floating-point entirely — integer math throughout.
