@@ -931,3 +931,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 233
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 234
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
