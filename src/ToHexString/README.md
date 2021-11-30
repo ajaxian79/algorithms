@@ -1275,3 +1275,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 304
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 305
+
+Edge case: single-element input → returns the element itself.
