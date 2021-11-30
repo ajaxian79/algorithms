@@ -891,3 +891,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 206
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 207
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
