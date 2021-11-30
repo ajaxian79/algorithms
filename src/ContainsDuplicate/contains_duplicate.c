@@ -203,3 +203,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 124: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 125: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 126: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 127: Persistent tree: every update creates a new version sharing unchanged nodes.
