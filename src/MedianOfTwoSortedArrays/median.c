@@ -263,3 +263,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 127: Vectorizes cleanly under -O2.
 // note 128: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 129: Stable sort matters when a secondary key was set in a prior pass.
+// note 130: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
