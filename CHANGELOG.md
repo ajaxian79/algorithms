@@ -52007,3 +52007,7 @@
 ## entry 13002
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 13003
+
+- Greedy by end-time picks the most non-overlapping intervals.
