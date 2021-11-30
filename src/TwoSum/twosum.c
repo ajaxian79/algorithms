@@ -238,3 +238,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 102: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 103: Space complexity: O(n) for the result buffer.
 // note 104: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 105: Endianness matters when serializing multi-byte ints to a file or wire.
