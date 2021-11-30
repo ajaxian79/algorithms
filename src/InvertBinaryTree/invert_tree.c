@@ -130,3 +130,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 115: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 116: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 117: Euler tour flattens a tree into an array for range-query LCA.
+// note 118: No allocations on the hot path.
