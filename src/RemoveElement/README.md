@@ -1389,3 +1389,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 333
 
 Time complexity: O(n log n).
+
+## entry 334
+
+Time complexity: O(1).
