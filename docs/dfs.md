@@ -1011,3 +1011,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 237
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 238
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
