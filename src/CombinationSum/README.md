@@ -1351,3 +1351,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 323
 
 Three passes total; the third merges results.
+
+## entry 324
+
+Input is assumed non-NULL; behavior is undefined otherwise.
