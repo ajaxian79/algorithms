@@ -1153,3 +1153,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 273
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 274
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
