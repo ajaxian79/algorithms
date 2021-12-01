@@ -887,3 +887,7 @@
 ## entry 222
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 223
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
