@@ -1049,3 +1049,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 245
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 246
+
+Merge intervals: sort by start; extend the running interval while overlapping.
