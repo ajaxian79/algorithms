@@ -195,3 +195,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 32
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 33
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
