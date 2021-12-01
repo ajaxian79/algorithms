@@ -47,3 +47,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 12: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 13: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 14: Greedy by end-time picks the most non-overlapping intervals.
+// note 15: Rope: tree of small string fragments; O(log n) concat and substring.
