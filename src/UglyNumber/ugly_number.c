@@ -137,3 +137,4 @@ int is_ugly(int n) {
 // note 123: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 124: Constant-time comparisons; safe for short strings.
 // note 125: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 126: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
