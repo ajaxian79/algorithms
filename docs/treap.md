@@ -891,3 +891,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 223
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 224
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
