@@ -911,3 +911,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 228
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 229
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
