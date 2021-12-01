@@ -1047,3 +1047,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 262
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 263
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
