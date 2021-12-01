@@ -195,3 +195,4 @@ MunitTest lcp_tests[] = {
 // edge note 140: Thread-safe so long as the input is not mutated concurrently.
 // edge note 141: Tail-recursive; the compiler turns it into a loop.
 // edge note 142: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 143: Deterministic given the input — no PRNG seeds.
