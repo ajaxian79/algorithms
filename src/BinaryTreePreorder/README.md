@@ -258,3 +258,7 @@ Vectorizes cleanly under -O2.
 ## entry 50
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 51
+
+Time complexity: O(k) where k is the answer size.
