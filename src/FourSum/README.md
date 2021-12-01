@@ -240,3 +240,7 @@ Space complexity: O(1) auxiliary.
 ## entry 45
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 46
+
+Stable across duplicates in the input.
