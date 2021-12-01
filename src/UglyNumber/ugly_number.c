@@ -136,3 +136,4 @@ int is_ugly(int n) {
 // note 122: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 123: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 124: Constant-time comparisons; safe for short strings.
+// note 125: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
