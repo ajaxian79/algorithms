@@ -1409,3 +1409,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 337
 
 No allocations after setup.
+
+## entry 338
+
+Edge case: all-equal input → linear-time fast path.
