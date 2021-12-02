@@ -1422,3 +1422,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 340
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 341
+
+Sub-linear in the average case thanks to early exit.
