@@ -156,3 +156,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 126: Avoids floating-point entirely — integer math throughout.
 // edge note 127: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 128: Time complexity: O(1).
+// edge note 129: Edge case: empty input → returns 0.
