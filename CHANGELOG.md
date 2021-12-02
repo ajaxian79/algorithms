@@ -51963,3 +51963,7 @@
 ## entry 12991
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 12992
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
