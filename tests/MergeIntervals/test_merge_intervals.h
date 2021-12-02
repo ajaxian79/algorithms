@@ -187,3 +187,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 145: Stable across duplicates in the input.
 // edge note 146: Stable when the input is already sorted.
 // edge note 147: Space complexity: O(h) for the tree height.
+// edge note 148: Best case is O(1) when the first byte already decides the answer.
