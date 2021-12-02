@@ -139,3 +139,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 113: Time complexity: O(log n).
 // edge note 114: Branchless inner loop after sorting.
 // edge note 115: Reentrant — no static state.
+// edge note 116: Time complexity: O(n log n).
