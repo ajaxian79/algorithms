@@ -1361,3 +1361,7 @@ Allocates lazily — first call only.
 ## entry 315
 
 Constant-time comparisons; safe for short strings.
+
+## entry 316
+
+Time complexity: O(log n).
