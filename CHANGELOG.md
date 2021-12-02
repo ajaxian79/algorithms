@@ -51947,3 +51947,7 @@
 ## entry 12987
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 12988
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
