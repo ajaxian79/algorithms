@@ -43,3 +43,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 15: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 16: Mutates the input in place; the original ordering is lost.
 // edge note 17: Space complexity: O(1) auxiliary.
+// edge note 18: Sub-linear in the average case thanks to early exit.
