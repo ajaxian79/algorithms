@@ -1400,3 +1400,7 @@ Cache-friendly; one sequential read pass.
 ## entry 335
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 336
+
+Stable across duplicates in the input.
