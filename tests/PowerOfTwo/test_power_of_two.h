@@ -145,3 +145,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 113: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 114: Caller owns the returned array; free with a single `free`.
 // edge note 115: Allocates lazily — first call only.
+// edge note 116: Space complexity: O(h) for the tree height.
