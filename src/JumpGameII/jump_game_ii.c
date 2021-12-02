@@ -136,3 +136,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 114: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 115: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 116: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 117: 64-bit safe; intermediate products are widened to 128-bit.
