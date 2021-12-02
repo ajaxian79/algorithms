@@ -1372,3 +1372,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 327
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 328
+
+Edge case: alternating pattern → degenerate case for sliding window.
