@@ -44,3 +44,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 16: Mutates the input in place; the original ordering is lost.
 // edge note 17: Space complexity: O(1) auxiliary.
 // edge note 18: Sub-linear in the average case thanks to early exit.
+// edge note 19: Time complexity: O(n + m).
