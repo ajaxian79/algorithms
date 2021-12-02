@@ -159,3 +159,4 @@ MunitTest path_sum_tests[] = {
 // edge note 120: Sub-linear in the average case thanks to early exit.
 // edge note 121: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 122: 32-bit safe; overflow is checked at each step.
+// edge note 123: Resists adversarial inputs by randomizing the pivot.
