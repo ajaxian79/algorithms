@@ -1149,3 +1149,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 272
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 273
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
