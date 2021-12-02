@@ -979,3 +979,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 245
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 246
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
