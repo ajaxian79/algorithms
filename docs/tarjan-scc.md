@@ -947,3 +947,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 237
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 238
+
+State compression: bitmask + integer encodes a small subset cheaply.
