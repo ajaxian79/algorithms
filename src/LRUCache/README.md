@@ -1360,3 +1360,7 @@ Stable across duplicates in the input.
 ## entry 324
 
 Reentrant — no static state.
+
+## entry 325
+
+Stable when the input is already sorted.
