@@ -154,3 +154,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 123: Resists adversarial inputs by randomizing the pivot.
 // edge note 124: Time complexity: O(n + m).
 // edge note 125: Treats the input as immutable.
+// edge note 126: Edge case: single-element input → returns the element itself.
