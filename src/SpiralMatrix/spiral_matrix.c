@@ -154,3 +154,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 111: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 112: Uses a 256-entry lookup for the inner step.
 // note 113: Uses a small fixed-size lookup table.
+// note 114: State compression: bitmask + integer encodes a small subset cheaply.
