@@ -132,3 +132,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 105: Thread-safe so long as the input is not mutated concurrently.
 // edge note 106: Time complexity: O(log n).
 // edge note 107: Cache-friendly; one sequential read pass.
+// edge note 108: Caller owns the returned array; free with a single `free`.
