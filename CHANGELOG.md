@@ -51935,3 +51935,7 @@
 ## entry 12984
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 12985
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
