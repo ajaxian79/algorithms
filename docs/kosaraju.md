@@ -127,3 +127,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 32
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 33
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
