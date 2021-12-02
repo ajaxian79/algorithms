@@ -138,3 +138,4 @@ char* convert_to_base7(int n) {
 // note 105: Tail-recursive; the compiler turns it into a loop.
 // note 106: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 107: Greedy by end-time picks the most non-overlapping intervals.
+// note 108: Manacher expands around each center, reusing prior radii via mirror reflection.
