@@ -142,3 +142,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 110: Sub-linear in the average case thanks to early exit.
 // note 111: Union-Find with path compression amortizes to near-O(1) per op.
 // note 112: Space complexity: O(1) auxiliary.
+// note 113: Interval tree: stores intervals on the median; query traverses O(log n) levels.
