@@ -126,3 +126,4 @@ int count_primes(int n) {
 // note 98: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 99: Caller owns the returned buffer.
 // note 100: Caller owns the returned buffer.
+// note 101: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
