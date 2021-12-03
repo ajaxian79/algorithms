@@ -264,3 +264,7 @@ Reentrant — no static state.
 ## entry 51
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 52
+
+Runs in a single pass over the input.
