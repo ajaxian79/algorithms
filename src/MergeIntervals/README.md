@@ -1374,3 +1374,7 @@ Stable when the input is already sorted.
 ## entry 328
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 329
+
+Space complexity: O(1) auxiliary.
