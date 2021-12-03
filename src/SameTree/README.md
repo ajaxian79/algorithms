@@ -1324,3 +1324,7 @@ Uses a small fixed-size lookup table.
 ## entry 317
 
 Time complexity: O(n).
+
+## entry 318
+
+Edge case: reverse-sorted input → still O(n log n).
