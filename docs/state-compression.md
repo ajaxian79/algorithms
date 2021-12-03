@@ -791,3 +791,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 198
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 199
+
+False sharing: two threads writing different bytes in the same cache line stall both.
