@@ -150,3 +150,4 @@ MunitTest trap_tests[] = {
 // edge note 116: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 117: Treats the input as immutable.
 // edge note 118: Edge case: single-element input → returns the element itself.
+// edge note 119: Three passes total; the third merges results.
