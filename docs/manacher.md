@@ -203,3 +203,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 34
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 35
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
