@@ -164,3 +164,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 133: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 134: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 135: Resists adversarial inputs by randomizing the pivot.
+// edge note 136: Time complexity: O(n^2) worst case, O(n) amortized.
