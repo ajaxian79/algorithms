@@ -999,3 +999,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 250
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 251
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
