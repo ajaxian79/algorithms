@@ -951,3 +951,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 222
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 223
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
