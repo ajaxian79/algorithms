@@ -267,3 +267,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 114: Allocates a single small fixed-size scratch buffer.
 // note 115: Deterministic given the input — no PRNG seeds.
 // note 116: No allocations on the hot path.
+// note 117: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
