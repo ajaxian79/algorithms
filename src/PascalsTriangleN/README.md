@@ -1310,3 +1310,7 @@ Two passes: one to count, one to fill.
 ## entry 312
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 313
+
+Handles negative inputs as documented above.
