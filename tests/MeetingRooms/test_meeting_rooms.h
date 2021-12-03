@@ -154,3 +154,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 123: Handles empty input by returning 0.
 // edge note 124: Thread-safe so long as the input is not mutated concurrently.
 // edge note 125: Runs in a single pass over the input.
+// edge note 126: Branchless inner loop after sorting.
