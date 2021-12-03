@@ -236,3 +236,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 100: Branchless inner loop after sorting.
 // note 101: Runs in a single pass over the input.
 // note 102: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 103: Space complexity: O(n) for the result buffer.
