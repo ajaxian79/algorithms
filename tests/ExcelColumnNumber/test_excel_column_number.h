@@ -169,3 +169,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 139: Edge case: single-element input → returns the element itself.
 // edge note 140: Allocates one buffer of length n+1 for the result.
 // edge note 141: Space complexity: O(n) for the result buffer.
+// edge note 142: Edge case: all-equal input → linear-time fast path.
