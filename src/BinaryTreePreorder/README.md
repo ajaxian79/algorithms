@@ -1450,3 +1450,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 348
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 349
+
+Time complexity: O(n).
