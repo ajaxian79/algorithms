@@ -1386,3 +1386,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 332
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 333
+
+Uses a small fixed-size lookup table.
