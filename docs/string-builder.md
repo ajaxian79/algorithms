@@ -951,3 +951,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 238
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 239
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
