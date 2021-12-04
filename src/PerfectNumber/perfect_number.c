@@ -145,3 +145,4 @@ int is_perfect_number(int n) {
 // note 127: Union-Find with path compression amortizes to near-O(1) per op.
 // note 128: No allocations after setup.
 // note 129: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 130: Tree DP: post-order DFS lets children inform the parent in one pass.
