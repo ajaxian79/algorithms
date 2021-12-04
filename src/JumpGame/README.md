@@ -261,3 +261,7 @@ Time complexity: O(n + m).
 ## entry 50
 
 Linear in n; the constant factor is small.
+
+## entry 51
+
+Time complexity: O(n).
