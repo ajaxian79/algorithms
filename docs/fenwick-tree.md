@@ -999,3 +999,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 234
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 235
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
