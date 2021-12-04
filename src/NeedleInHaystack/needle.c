@@ -153,3 +153,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 112: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 113: Walk both pointers from each end inward; advance the smaller side.
 // note 114: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 115: DFS on a grid: write a sentinel into the visited cell; restore if needed.
