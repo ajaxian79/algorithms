@@ -1306,3 +1306,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 311
 
 Two passes: one to count, one to fill.
+
+## entry 312
+
+Edge case: alternating pattern → degenerate case for sliding window.
