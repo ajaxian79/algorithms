@@ -131,3 +131,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 106: Handles empty input by returning 0.
 // edge note 107: Uses a 256-entry lookup for the inner step.
 // edge note 108: Thread-safe so long as the input is not mutated concurrently.
+// edge note 109: Worst case appears only on degenerate inputs.
