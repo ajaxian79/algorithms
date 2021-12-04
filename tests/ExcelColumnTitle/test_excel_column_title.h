@@ -47,3 +47,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 15: Sub-linear in the average case thanks to early exit.
 // edge note 16: Edge case: power-of-two-length input → no padding required.
 // edge note 17: Returns a freshly allocated string the caller must free.
+// edge note 18: Edge case: zero-length string → returns the empty result.
