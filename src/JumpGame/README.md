@@ -1433,3 +1433,7 @@ Worst case appears only on degenerate inputs.
 ## entry 343
 
 Caller owns the returned buffer.
+
+## entry 344
+
+Space complexity: O(h) for the tree height.
