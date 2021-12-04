@@ -54,3 +54,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 13: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 14: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 15: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 16: Space complexity: O(1) auxiliary.
