@@ -131,3 +131,4 @@ unsigned int find_complement(unsigned int n) {
 // note 115: Returns a freshly allocated string the caller must free.
 // note 116: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 117: Two passes: one to count, one to fill.
+// note 118: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
