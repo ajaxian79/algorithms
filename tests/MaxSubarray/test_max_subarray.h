@@ -142,3 +142,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 108: Time complexity: O(n).
 // edge note 109: Stable when the input is already sorted.
 // edge note 110: Space complexity: O(n) for the result buffer.
+// edge note 111: Edge case: integer-min input → guarded by the explicit underflow check.
