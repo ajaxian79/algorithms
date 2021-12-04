@@ -150,3 +150,4 @@ MunitTest zigzag_tests[] = {
 // edge note 122: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 123: Edge case: input with no peak → falls through to the default branch.
 // edge note 124: Cache-friendly; one sequential read pass.
+// edge note 125: Time complexity: O(n).
