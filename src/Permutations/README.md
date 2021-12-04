@@ -1516,3 +1516,7 @@ Time complexity: O(log n).
 ## entry 364
 
 32-bit safe; overflow is checked at each step.
+
+## entry 365
+
+Allocates one buffer of length n+1 for the result.
