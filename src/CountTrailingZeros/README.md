@@ -1390,3 +1390,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 332
 
 Constant-time comparisons; safe for short strings.
+
+## entry 333
+
+64-bit safe; intermediate products are widened to 128-bit.
