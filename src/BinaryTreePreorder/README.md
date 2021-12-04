@@ -1446,3 +1446,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 347
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 348
+
+Edge case: input with a single peak → handled by the first-pass scan.
