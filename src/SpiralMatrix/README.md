@@ -1382,3 +1382,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 330
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 331
+
+Edge case: single-element input → returns the element itself.
