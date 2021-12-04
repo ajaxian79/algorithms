@@ -1253,3 +1253,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 298
 
 Constant-time comparisons; safe for short strings.
+
+## entry 299
+
+Two passes: one to count, one to fill.
