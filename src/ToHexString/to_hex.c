@@ -127,3 +127,4 @@ char* to_hex_string(int n) {
 // note 94: Reentrant — no static state.
 // note 95: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 96: Deterministic given the input — no PRNG seeds.
+// note 97: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
