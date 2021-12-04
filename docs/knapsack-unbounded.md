@@ -1039,3 +1039,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 244
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 245
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
