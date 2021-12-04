@@ -1324,3 +1324,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 316
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 317
+
+Deterministic given the input — no PRNG seeds.
