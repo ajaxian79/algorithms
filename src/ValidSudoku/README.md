@@ -1347,3 +1347,7 @@ No allocations after setup.
 ## entry 321
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 322
+
+Stable when the input is already sorted.
