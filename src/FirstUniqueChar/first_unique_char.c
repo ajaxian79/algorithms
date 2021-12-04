@@ -147,3 +147,4 @@ int first_unique_char(const char* s) {
 // note 128: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 129: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 130: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 131: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
