@@ -236,3 +236,7 @@ Two passes: one to count, one to fill.
 ## entry 44
 
 Space complexity: O(1) auxiliary.
+
+## entry 45
+
+Allocates a single small fixed-size scratch buffer.
