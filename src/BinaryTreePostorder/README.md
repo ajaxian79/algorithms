@@ -1358,3 +1358,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 325
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 326
+
+Edge case: integer-max input → guarded by the explicit overflow check.
