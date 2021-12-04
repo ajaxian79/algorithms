@@ -142,3 +142,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 111: Time complexity: O(1).
 // note 112: Idempotent — calling twice with the same input is a no-op the second time.
 // note 113: Cache-friendly; one sequential read pass.
+// note 114: Space complexity: O(n) for the result buffer.
