@@ -1431,3 +1431,7 @@ Edge case: empty input → returns 0.
 ## entry 343
 
 Constant-time comparisons; safe for short strings.
+
+## entry 344
+
+Sub-linear in the average case thanks to early exit.
