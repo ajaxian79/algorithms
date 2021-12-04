@@ -1419,3 +1419,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 339
 
 Space complexity: O(n) for the result buffer.
+
+## entry 340
+
+Edge case: reverse-sorted input → still O(n log n).
