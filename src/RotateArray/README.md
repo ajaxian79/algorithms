@@ -1415,3 +1415,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 338
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 339
+
+Space complexity: O(n) for the result buffer.
