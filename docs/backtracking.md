@@ -1073,3 +1073,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 251
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 252
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
