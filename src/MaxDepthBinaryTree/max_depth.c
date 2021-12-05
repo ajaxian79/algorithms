@@ -125,3 +125,4 @@ int max_depth(MdTreeNode* root) {
 // note 111: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 112: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 113: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 114: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
