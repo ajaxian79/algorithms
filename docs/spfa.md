@@ -139,3 +139,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 35
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 36
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
