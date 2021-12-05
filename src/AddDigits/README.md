@@ -1320,3 +1320,7 @@ Allocates lazily — first call only.
 ## entry 315
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 316
+
+Edge case: zero-length string → returns the empty result.
