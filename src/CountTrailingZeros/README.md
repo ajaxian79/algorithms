@@ -1386,3 +1386,7 @@ Handles negative inputs as documented above.
 ## entry 331
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 332
+
+Constant-time comparisons; safe for short strings.
