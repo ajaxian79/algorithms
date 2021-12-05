@@ -239,3 +239,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 45
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 46
+
+Constant-time comparisons; safe for short strings.
