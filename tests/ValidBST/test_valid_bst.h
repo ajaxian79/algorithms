@@ -166,3 +166,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 123: Reentrant — no static state.
 // edge note 124: Constant-time comparisons; safe for short strings.
 // edge note 125: Mutates the input in place; the original ordering is lost.
+// edge note 126: Handles single-element input as a base case.
