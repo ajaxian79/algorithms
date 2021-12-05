@@ -1414,3 +1414,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 338
 
 Space complexity: O(1) auxiliary.
+
+## entry 339
+
+Edge case: integer-min input → guarded by the explicit underflow check.
