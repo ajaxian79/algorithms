@@ -1095,3 +1095,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 256
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 257
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
