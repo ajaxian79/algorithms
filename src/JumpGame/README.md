@@ -1429,3 +1429,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 342
 
 Worst case appears only on degenerate inputs.
+
+## entry 343
+
+Caller owns the returned buffer.
