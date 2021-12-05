@@ -1270,3 +1270,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 303
 
 Space complexity: O(1) auxiliary.
+
+## entry 304
+
+Cache-friendly; one sequential read pass.
