@@ -158,3 +158,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 127: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 128: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 129: Edge case: zero-length string → returns the empty result.
+// edge note 130: No allocations after setup.
