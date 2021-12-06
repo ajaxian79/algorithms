@@ -1426,3 +1426,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 342
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 343
+
+Returns a freshly allocated string the caller must free.
