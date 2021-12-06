@@ -159,3 +159,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 124: Branchless inner loop after sorting.
 // edge note 125: Three passes total; the third merges results.
 // edge note 126: Reentrant — no static state.
+// edge note 127: Time complexity: O(n^2) worst case, O(n) amortized.
