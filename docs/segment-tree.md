@@ -975,3 +975,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 226
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 227
+
+Interval DP: solve all `[l, r]` ranges from short to long.
