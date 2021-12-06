@@ -106,3 +106,4 @@ int is_power_of_two(int n) {
 // note 96: Articulation points: same DFS as bridges, with a slightly different test.
 // note 97: LIS via patience: each pile holds the smallest tail of length k.
 // note 98: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 99: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
