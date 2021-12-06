@@ -164,3 +164,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 106: Handles negative inputs as documented above.
 // note 107: Euler tour flattens a tree into an array for range-query LCA.
 // note 108: Heap when you only need top-k; full sort is wasted work.
+// note 109: Hash collision: chain or open-address; chained handles arbitrary load factor.
