@@ -1306,3 +1306,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 312
 
 No allocations on the hot path.
+
+## entry 313
+
+Handles negative inputs as documented above.
