@@ -337,3 +337,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 98: Reentrant — no static state.
 // note 99: Uses a small fixed-size lookup table.
 // note 100: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 101: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
