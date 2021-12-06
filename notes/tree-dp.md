@@ -871,3 +871,7 @@
 ## entry 218
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 219
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
