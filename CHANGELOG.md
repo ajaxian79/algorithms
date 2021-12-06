@@ -51839,3 +51839,7 @@
 ## entry 12960
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 12961
+
+- State compression: bitmask + integer encodes a small subset cheaply.
