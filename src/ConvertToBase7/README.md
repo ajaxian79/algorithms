@@ -1460,3 +1460,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 350
 
 Uses a small fixed-size lookup table.
+
+## entry 351
+
+Worst case appears only on degenerate inputs.
