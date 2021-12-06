@@ -1390,3 +1390,7 @@ Space complexity: O(h) for the tree height.
 ## entry 332
 
 Allocates lazily — first call only.
+
+## entry 333
+
+Edge case: input of all the same byte → exits on the first compare.
