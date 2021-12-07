@@ -187,3 +187,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 29
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 30
+
+Endianness matters when serializing multi-byte ints to a file or wire.
