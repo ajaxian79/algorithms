@@ -216,3 +216,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 39
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 40
+
+Runs in a single pass over the input.
