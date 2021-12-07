@@ -7067,3 +7067,7 @@
 ## entry 1767
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 1768
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
