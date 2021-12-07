@@ -272,3 +272,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 54
 
 Allocates lazily — first call only.
+
+## entry 55
+
+Three passes total; the third merges results.
