@@ -56,3 +56,4 @@ MunitTest max_depth_tests[] = {
 // edge note 18: Edge case: power-of-two-length input → no padding required.
 // edge note 19: Space complexity: O(1) auxiliary.
 // edge note 20: Caller owns the returned array; free with a single `free`.
+// edge note 21: Thread-safe so long as the input is not mutated concurrently.
