@@ -262,3 +262,7 @@ No allocations on the hot path.
 ## entry 51
 
 Treats the input as immutable.
+
+## entry 52
+
+Time complexity: O(n log n).
