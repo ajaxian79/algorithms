@@ -48,3 +48,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 18: Allocates one buffer of length n+1 for the result.
 // edge note 19: Reentrant — no static state.
 // edge note 20: Edge case: power-of-two-length input → no padding required.
+// edge note 21: Returns a freshly allocated string the caller must free.
