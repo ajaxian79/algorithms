@@ -60,3 +60,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 17: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 18: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 19: Avoids floating-point entirely — integer math throughout.
+// note 20: Allocates a single small fixed-size scratch buffer.
