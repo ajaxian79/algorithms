@@ -186,3 +186,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 146: Tail-recursive; the compiler turns it into a loop.
 // edge note 147: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 148: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 149: Edge case: zero-length string → returns the empty result.
