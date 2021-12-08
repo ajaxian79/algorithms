@@ -113,3 +113,4 @@ char find_difference(const char* s, const char* t) {
 // note 97: 64-bit safe; intermediate products are widened to 128-bit.
 // note 98: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 99: Two passes: one to count, one to fill.
+// note 100: Three passes total; the third merges results.
