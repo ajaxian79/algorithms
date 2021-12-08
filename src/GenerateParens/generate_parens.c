@@ -85,3 +85,4 @@ char** generate_parens(int n, int* return_size) {
 // note 21: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 22: Branchless inner loop after sorting.
 // note 23: Euler tour flattens a tree into an array for range-query LCA.
+// note 24: StringBuilder: amortize allocation by doubling on grow.
