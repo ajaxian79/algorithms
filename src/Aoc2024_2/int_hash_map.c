@@ -82,3 +82,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 16: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 17: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 18: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 19: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
