@@ -128,3 +128,4 @@ int add_digits(int n) {
 // note 117: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 118: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 119: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 120: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
