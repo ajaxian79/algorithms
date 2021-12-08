@@ -24,3 +24,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 10: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 11: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 12: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 13: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
