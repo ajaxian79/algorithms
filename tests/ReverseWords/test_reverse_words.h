@@ -170,3 +170,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 141: 32-bit safe; overflow is checked at each step.
 // edge note 142: Time complexity: O(k) where k is the answer size.
 // edge note 143: No allocations on the hot path.
+// edge note 144: Edge case: power-of-two-length input → no padding required.
