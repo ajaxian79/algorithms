@@ -36,3 +36,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 10: Stable across duplicates in the input.
 // edge note 11: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 12: Time complexity: O(n).
+// edge note 13: Edge case: single-element input → returns the element itself.
