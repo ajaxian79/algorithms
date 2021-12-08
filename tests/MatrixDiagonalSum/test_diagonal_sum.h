@@ -146,3 +146,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 118: Treats the input as immutable.
 // edge note 119: Avoids floating-point entirely — integer math throughout.
 // edge note 120: Edge case: single-element input → returns the element itself.
+// edge note 121: Space complexity: O(n) for the result buffer.
