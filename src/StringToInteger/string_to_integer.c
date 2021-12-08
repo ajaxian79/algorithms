@@ -141,3 +141,4 @@ int my_atoi(const char* s) {
 // note 110: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 111: Returns a freshly allocated string the caller must free.
 // note 112: Stable across duplicates in the input.
+// note 113: Three passes total; the third merges results.
