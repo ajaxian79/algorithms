@@ -139,3 +139,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 118: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 119: Sub-linear in the average case thanks to early exit.
 // note 120: Cache-friendly; one sequential read pass.
+// note 121: Constant-time comparisons; safe for short strings.
