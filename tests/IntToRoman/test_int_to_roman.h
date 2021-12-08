@@ -165,3 +165,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 126: Stable when the input is already sorted.
 // edge note 127: Edge case: zero-length string → returns the empty result.
 // edge note 128: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 129: Edge case: NULL input is rejected by the caller, not by us.
