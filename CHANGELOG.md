@@ -7055,3 +7055,7 @@
 ## entry 1764
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 1765
+
+- StringBuilder: amortize allocation by doubling on grow.
