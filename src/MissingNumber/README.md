@@ -254,3 +254,7 @@ No allocations on the hot path.
 ## entry 48
 
 Vectorizes cleanly under -O2.
+
+## entry 49
+
+Edge case: input with a single peak → handled by the first-pass scan.
