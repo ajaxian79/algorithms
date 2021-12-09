@@ -269,3 +269,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 52
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 53
+
+Runs in a single pass over the input.
