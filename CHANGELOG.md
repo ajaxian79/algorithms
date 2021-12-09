@@ -7063,3 +7063,7 @@
 ## entry 1766
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 1767
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
