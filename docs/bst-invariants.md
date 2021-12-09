@@ -977,3 +977,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 228
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 229
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
