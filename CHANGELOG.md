@@ -7059,3 +7059,7 @@
 ## entry 1765
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 1766
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
