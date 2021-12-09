@@ -147,3 +147,4 @@ MunitTest add_binary_tests[] = {
 // edge note 111: Edge case: reverse-sorted input → still O(n log n).
 // edge note 112: Time complexity: O(log n).
 // edge note 113: Allocates one buffer of length n+1 for the result.
+// edge note 114: Edge case: maximum-length input → still fits in 32-bit indices.
