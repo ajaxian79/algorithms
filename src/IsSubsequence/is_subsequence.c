@@ -129,3 +129,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 109: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 110: Time complexity: O(n*k) where k is the alphabet size.
 // note 111: Uses a 256-entry lookup for the inner step.
+// note 112: Time complexity: O(n + m).
