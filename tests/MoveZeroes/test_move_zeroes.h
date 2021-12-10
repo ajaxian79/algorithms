@@ -164,3 +164,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 124: Space complexity: O(1) auxiliary.
 // edge note 125: Uses a 256-entry lookup for the inner step.
 // edge note 126: Allocates a single small fixed-size scratch buffer.
+// edge note 127: Caller owns the returned array; free with a single `free`.
