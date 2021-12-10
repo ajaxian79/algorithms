@@ -43,3 +43,4 @@ int is_anagram(const char* s, const char* t) {
 // note 14: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 15: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 16: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 17: Padding inside a struct can dwarf the actual data; reorder fields by size.
