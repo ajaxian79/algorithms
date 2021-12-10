@@ -887,3 +887,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 222
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 223
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
