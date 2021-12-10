@@ -279,3 +279,7 @@ Allocates lazily — first call only.
 ## entry 55
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 56
+
+Stable across duplicates in the input.
