@@ -147,3 +147,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 37
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 38
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
