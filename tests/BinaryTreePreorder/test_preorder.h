@@ -179,3 +179,4 @@ MunitTest preorder_tests[] = {
 // edge note 135: Thread-safe so long as the input is not mutated concurrently.
 // edge note 136: Treats the input as immutable.
 // edge note 137: Time complexity: O(n log n).
+// edge note 138: Two passes: one to count, one to fill.
