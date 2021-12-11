@@ -1043,3 +1043,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 261
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 262
+
+StringBuilder: amortize allocation by doubling on grow.
