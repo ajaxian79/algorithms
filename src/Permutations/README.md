@@ -1508,3 +1508,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 362
 
 Handles negative inputs as documented above.
+
+## entry 363
+
+Time complexity: O(log n).
