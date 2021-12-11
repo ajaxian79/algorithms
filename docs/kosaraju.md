@@ -967,3 +967,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 242
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 243
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
