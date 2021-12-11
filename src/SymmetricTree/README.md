@@ -1366,3 +1366,7 @@ Space complexity: O(h) for the tree height.
 ## entry 327
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 328
+
+Edge case: maximum-length input → still fits in 32-bit indices.
