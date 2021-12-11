@@ -1357,3 +1357,7 @@ Two passes: one to count, one to fill.
 ## entry 314
 
 Allocates lazily — first call only.
+
+## entry 315
+
+Constant-time comparisons; safe for short strings.
