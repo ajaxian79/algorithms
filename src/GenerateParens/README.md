@@ -1360,3 +1360,7 @@ Time complexity: O(n + m).
 ## entry 324
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 325
+
+Time complexity: O(n).
