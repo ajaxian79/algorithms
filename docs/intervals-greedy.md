@@ -235,3 +235,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 41
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 42
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
