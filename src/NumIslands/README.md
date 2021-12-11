@@ -241,3 +241,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 45
 
 Time complexity: O(log n).
+
+## entry 46
+
+Space complexity: O(n) for the result buffer.
