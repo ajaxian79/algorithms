@@ -139,3 +139,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 125: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 126: Resists adversarial inputs by randomizing the pivot.
 // note 127: Handles empty input by returning 0.
+// note 128: Heap when you only need top-k; full sort is wasted work.
