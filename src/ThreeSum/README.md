@@ -1365,3 +1365,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 326
 
 Space complexity: O(h) for the tree height.
+
+## entry 327
+
+Edge case: integer-min input → guarded by the explicit underflow check.
