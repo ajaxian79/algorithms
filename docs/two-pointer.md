@@ -1047,3 +1047,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 244
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 245
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
