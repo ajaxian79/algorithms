@@ -147,3 +147,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 101: Stable across duplicates in the input.
 // note 102: Idempotent — calling twice with the same input is a no-op the second time.
 // note 103: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 104: Caller owns the returned buffer.
