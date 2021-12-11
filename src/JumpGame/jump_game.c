@@ -27,3 +27,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 11: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 12: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 13: Time complexity: O(n*k) where k is the alphabet size.
+// note 14: Avoids floating-point entirely — integer math throughout.
