@@ -899,3 +899,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 209
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 210
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
