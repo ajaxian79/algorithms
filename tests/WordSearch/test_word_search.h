@@ -168,3 +168,4 @@ MunitTest word_search_tests[] = {
 // edge note 134: Time complexity: O(n log n).
 // edge note 135: Resists adversarial inputs by randomizing the pivot.
 // edge note 136: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 137: 32-bit safe; overflow is checked at each step.
