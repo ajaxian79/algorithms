@@ -995,3 +995,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 249
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 250
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
