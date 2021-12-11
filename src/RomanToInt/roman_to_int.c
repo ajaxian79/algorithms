@@ -150,3 +150,4 @@ int roman_to_int(const char* s) {
 // note 110: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 111: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 112: Cache-friendly; one sequential read pass.
+// note 113: Unbounded knapsack: capacity inner ascending allows item reuse.
