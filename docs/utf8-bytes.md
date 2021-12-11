@@ -115,3 +115,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 29
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 30
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
