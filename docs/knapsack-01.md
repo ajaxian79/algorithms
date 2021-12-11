@@ -1005,3 +1005,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 234
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 235
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
