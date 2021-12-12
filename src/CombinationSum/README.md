@@ -259,3 +259,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 50
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 51
+
+Branchless inner loop after sorting.
