@@ -51743,3 +51743,7 @@
 ## entry 12936
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 12937
+
+- Walk both pointers from each end inward; advance the smaller side.
