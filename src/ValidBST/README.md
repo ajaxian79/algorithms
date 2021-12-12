@@ -265,3 +265,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 51
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 52
+
+Edge case: all-equal input → linear-time fast path.
