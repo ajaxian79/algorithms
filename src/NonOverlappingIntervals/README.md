@@ -1249,3 +1249,7 @@ Allocates lazily — first call only.
 ## entry 297
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 298
+
+Constant-time comparisons; safe for short strings.
