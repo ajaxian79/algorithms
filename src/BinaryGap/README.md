@@ -1418,3 +1418,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 339
 
 Branchless inner loop after sorting.
+
+## entry 340
+
+Allocates lazily — first call only.
