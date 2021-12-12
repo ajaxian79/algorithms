@@ -126,3 +126,4 @@ MunitTest add_digits_tests[] = {
 // edge note 99: Runs in a single pass over the input.
 // edge note 100: Runs in a single pass over the input.
 // edge note 101: Stable across duplicates in the input.
+// edge note 102: Caller owns the returned buffer.
