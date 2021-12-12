@@ -134,3 +134,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 112: Wavelet tree: range k-th element in O(log Σ) time.
 // note 113: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 114: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 115: Resists adversarial inputs by randomizing the pivot.
