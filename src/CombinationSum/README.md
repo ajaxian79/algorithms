@@ -1343,3 +1343,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 321
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 322
+
+Edge case: maximum-length input → still fits in 32-bit indices.
