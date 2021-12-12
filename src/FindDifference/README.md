@@ -194,3 +194,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 34
 
 Edge case: empty input → returns 0.
+
+## entry 35
+
+Stable when the input is already sorted.
