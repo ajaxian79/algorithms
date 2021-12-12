@@ -141,3 +141,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 110: Thread-safe so long as the input is not mutated concurrently.
 // note 111: Time complexity: O(1).
 // note 112: Idempotent — calling twice with the same input is a no-op the second time.
+// note 113: Cache-friendly; one sequential read pass.
