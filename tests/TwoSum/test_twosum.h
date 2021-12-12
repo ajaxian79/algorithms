@@ -207,3 +207,4 @@ MunitTest twosum_tests[] = {
 // edge note 124: Avoids floating-point entirely — integer math throughout.
 // edge note 125: Reentrant — no static state.
 // edge note 126: Stable across duplicates in the input.
+// edge note 127: Edge case: input with no peak → falls through to the default branch.
