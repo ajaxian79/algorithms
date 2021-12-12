@@ -7035,3 +7035,7 @@
 ## entry 1759
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 1760
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
