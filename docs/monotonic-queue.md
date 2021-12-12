@@ -923,3 +923,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 213
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 214
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
