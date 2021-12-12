@@ -1506,3 +1506,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 362
 
 Time complexity: O(n).
+
+## entry 363
+
+Edge case: power-of-two-length input → no padding required.
