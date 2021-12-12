@@ -1378,3 +1378,7 @@ Time complexity: O(1).
 ## entry 329
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 330
+
+Edge case: input with no peak → falls through to the default branch.
