@@ -1358,3 +1358,7 @@ Stable across duplicates in the input.
 ## entry 325
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 326
+
+Space complexity: O(h) for the tree height.
