@@ -1456,3 +1456,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 349
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 350
+
+Uses a small fixed-size lookup table.
