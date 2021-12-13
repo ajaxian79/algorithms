@@ -977,3 +977,7 @@
 ## entry 227
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 228
+
+- Splay tree: every access splays to the root; amortized O(log n).
