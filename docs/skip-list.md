@@ -847,3 +847,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 212
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 213
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
