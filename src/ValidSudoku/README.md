@@ -1343,3 +1343,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 320
 
 No allocations after setup.
+
+## entry 321
+
+64-bit safe; intermediate products are widened to 128-bit.
