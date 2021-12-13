@@ -124,3 +124,4 @@ int max_depth(MdTreeNode* root) {
 // note 110: Time complexity: O(k) where k is the answer size.
 // note 111: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 112: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 113: Interval tree: stores intervals on the median; query traverses O(log n) levels.
