@@ -158,3 +158,4 @@ MunitTest add_strings_tests[] = {
 // edge note 122: Stable across duplicates in the input.
 // edge note 123: Time complexity: O(n).
 // edge note 124: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 125: Treats the input as immutable.
