@@ -895,3 +895,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 208
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 209
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
