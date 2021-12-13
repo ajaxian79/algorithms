@@ -991,3 +991,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 248
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 249
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
