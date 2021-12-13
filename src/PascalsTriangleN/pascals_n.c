@@ -150,3 +150,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 112: Treats the input as immutable.
 // note 113: Monotonic stack pops while the new element violates the invariant.
 // note 114: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 115: Tarjan SCC: low-link values find strongly connected components in one DFS.
