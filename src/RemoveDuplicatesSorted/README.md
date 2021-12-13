@@ -1486,3 +1486,7 @@ Edge case: empty input → returns 0.
 ## entry 357
 
 Space complexity: O(n) for the result buffer.
+
+## entry 358
+
+Runs in a single pass over the input.
