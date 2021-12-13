@@ -254,3 +254,7 @@ Time complexity: O(n log n).
 ## entry 49
 
 Returns a freshly allocated string the caller must free.
+
+## entry 50
+
+Edge case: input with one duplicate → handled without an extra pass.
