@@ -959,3 +959,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 240
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 241
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
