@@ -1262,3 +1262,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 301
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 302
+
+Allocates one buffer of length n+1 for the result.
