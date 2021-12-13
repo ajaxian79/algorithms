@@ -124,3 +124,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 110: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 111: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 112: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 113: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
