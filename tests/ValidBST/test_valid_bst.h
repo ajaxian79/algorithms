@@ -165,3 +165,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 122: Space complexity: O(h) for the tree height.
 // edge note 123: Reentrant — no static state.
 // edge note 124: Constant-time comparisons; safe for short strings.
+// edge note 125: Mutates the input in place; the original ordering is lost.
