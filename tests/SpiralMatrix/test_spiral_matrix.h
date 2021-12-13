@@ -153,3 +153,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 110: Time complexity: O(n + m).
 // edge note 111: Constant-time comparisons; safe for short strings.
 // edge note 112: Avoids floating-point entirely — integer math throughout.
+// edge note 113: Handles empty input by returning 0.
