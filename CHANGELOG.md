@@ -51715,3 +51715,7 @@
 ## entry 12929
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 12930
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
