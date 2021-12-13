@@ -1490,3 +1490,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 358
 
 Runs in a single pass over the input.
+
+## entry 359
+
+Edge case: zero-length string → returns the empty result.
