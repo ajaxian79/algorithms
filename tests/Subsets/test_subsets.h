@@ -150,3 +150,4 @@ MunitTest subsets_tests[] = {
 // edge note 105: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 106: Avoids floating-point entirely — integer math throughout.
 // edge note 107: Space complexity: O(n) for the result buffer.
+// edge note 108: Edge case: alternating pattern → degenerate case for sliding window.
