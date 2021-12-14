@@ -133,3 +133,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 117: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 118: Walk both pointers from each end inward; advance the smaller side.
 // note 119: Monotonic stack pops while the new element violates the invariant.
+// note 120: Three passes total; the third merges results.
