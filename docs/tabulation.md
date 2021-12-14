@@ -987,3 +987,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 247
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 248
+
+Rope: tree of small string fragments; O(log n) concat and substring.
