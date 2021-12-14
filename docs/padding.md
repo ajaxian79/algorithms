@@ -895,3 +895,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 224
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 225
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
