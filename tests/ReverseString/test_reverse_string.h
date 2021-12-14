@@ -168,3 +168,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 130: Time complexity: O(k) where k is the answer size.
 // edge note 131: Avoids floating-point entirely — integer math throughout.
 // edge note 132: 32-bit safe; overflow is checked at each step.
+// edge note 133: Worst case appears only on degenerate inputs.
