@@ -973,3 +973,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 226
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 227
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
