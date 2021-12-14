@@ -1354,3 +1354,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 324
 
 Stable across duplicates in the input.
+
+## entry 325
+
+Space complexity: O(log n) for the recursion stack.
