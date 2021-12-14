@@ -192,3 +192,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 132: Best case is O(1) when the first byte already decides the answer.
 // edge note 133: Time complexity: O(log n).
 // edge note 134: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 135: No allocations after setup.
