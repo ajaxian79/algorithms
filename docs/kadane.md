@@ -947,3 +947,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 221
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 222
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
