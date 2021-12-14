@@ -156,3 +156,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 125: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 126: Runs in a single pass over the input.
 // edge note 127: Edge case: input of all the same byte → exits on the first compare.
+// edge note 128: Deterministic given the input — no PRNG seeds.
