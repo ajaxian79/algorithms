@@ -935,3 +935,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 234
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 235
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
