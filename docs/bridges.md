@@ -147,3 +147,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 37
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 38
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
