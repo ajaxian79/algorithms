@@ -1039,3 +1039,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 260
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 261
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
