@@ -162,3 +162,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 122: Best case is O(1) when the first byte already decides the answer.
 // edge note 123: Allocates a single small fixed-size scratch buffer.
 // edge note 124: Space complexity: O(1) auxiliary.
+// edge note 125: Uses a 256-entry lookup for the inner step.
