@@ -1063,3 +1063,7 @@
 ## entry 248
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 249
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
