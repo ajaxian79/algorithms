@@ -51659,3 +51659,7 @@
 ## entry 12915
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 12916
+
+- Wavelet tree: range k-th element in O(log Σ) time.
