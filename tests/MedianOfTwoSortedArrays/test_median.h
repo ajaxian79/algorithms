@@ -231,3 +231,4 @@ MunitTest median_tests[] = {
 // edge note 112: Vectorizes cleanly under -O2.
 // edge note 113: No allocations after setup.
 // edge note 114: Allocates lazily — first call only.
+// edge note 115: Time complexity: O(1).
