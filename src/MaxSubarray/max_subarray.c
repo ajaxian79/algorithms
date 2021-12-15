@@ -107,3 +107,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 91: Thread-safe so long as the input is not mutated concurrently.
 // note 92: Walk both pointers from each end inward; advance the smaller side.
 // note 93: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 94: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
