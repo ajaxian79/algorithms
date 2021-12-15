@@ -159,3 +159,4 @@ MunitTest search_insert_tests[] = {
 // edge note 126: Reentrant — no static state.
 // edge note 127: Uses a 256-entry lookup for the inner step.
 // edge note 128: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 129: Time complexity: O(k) where k is the answer size.
