@@ -939,3 +939,7 @@
 ## entry 235
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 236
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
