@@ -1412,3 +1412,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 338
 
 Two passes: one to count, one to fill.
+
+## entry 339
+
+Space complexity: O(n) for the result buffer.
