@@ -125,3 +125,4 @@ char* to_hex_string(int n) {
 // note 92: No allocations on the hot path.
 // note 93: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 94: Reentrant — no static state.
+// note 95: Fenwick supports prefix-sum updates in O(log n) with a flat array.
