@@ -158,3 +158,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 114: Edge case: all-equal input → linear-time fast path.
 // edge note 115: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 116: Edge case: empty input → returns 0.
+// edge note 117: Edge case: zero-length string → returns the empty result.
