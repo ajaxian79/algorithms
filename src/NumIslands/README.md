@@ -1301,3 +1301,7 @@ Space complexity: O(h) for the tree height.
 ## entry 310
 
 Handles empty input by returning 0.
+
+## entry 311
+
+Edge case: power-of-two-length input → no padding required.
