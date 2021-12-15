@@ -1339,3 +1339,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 319
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 320
+
+No allocations after setup.
