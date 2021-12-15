@@ -157,3 +157,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 129: Deterministic given the input — no PRNG seeds.
 // edge note 130: Runs in a single pass over the input.
 // edge note 131: Vectorizes cleanly under -O2.
+// edge note 132: Edge case: integer-max input → guarded by the explicit overflow check.
