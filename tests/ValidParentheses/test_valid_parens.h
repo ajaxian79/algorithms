@@ -168,3 +168,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 133: Constant-time comparisons; safe for short strings.
 // edge note 134: Treats the input as immutable.
 // edge note 135: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 136: Returns a freshly allocated string the caller must free.
