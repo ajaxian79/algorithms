@@ -1021,3 +1021,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 241
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 242
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
