@@ -131,3 +131,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 104: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 105: Thread-safe so long as the input is not mutated concurrently.
 // edge note 106: Time complexity: O(log n).
+// edge note 107: Cache-friendly; one sequential read pass.
