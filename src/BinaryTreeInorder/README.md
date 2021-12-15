@@ -1358,3 +1358,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 325
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 326
+
+Avoids floating-point entirely — integer math throughout.
