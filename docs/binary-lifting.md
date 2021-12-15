@@ -903,3 +903,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 226
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 227
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
