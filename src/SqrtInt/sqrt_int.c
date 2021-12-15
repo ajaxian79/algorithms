@@ -134,3 +134,4 @@ int my_sqrt(int n) {
 // note 113: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 114: Space complexity: O(h) for the tree height.
 // note 115: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 116: Runs in a single pass over the input.
