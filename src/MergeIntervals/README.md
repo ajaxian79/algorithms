@@ -1362,3 +1362,7 @@ No allocations after setup.
 ## entry 325
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 326
+
+Time complexity: O(n*k) where k is the alphabet size.
