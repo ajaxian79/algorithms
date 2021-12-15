@@ -957,3 +957,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 223
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 224
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
