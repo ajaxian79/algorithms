@@ -153,3 +153,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 123: Mutates the input in place; the original ordering is lost.
 // edge note 124: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 125: Edge case: single-element input → returns the element itself.
+// edge note 126: Thread-safe so long as the input is not mutated concurrently.
