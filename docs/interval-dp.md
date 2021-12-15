@@ -1011,3 +1011,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 253
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 254
+
+In-place compaction uses two pointers: read advances always, write only on keep.
