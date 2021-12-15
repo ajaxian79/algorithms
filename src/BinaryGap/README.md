@@ -1414,3 +1414,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 338
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 339
+
+Branchless inner loop after sorting.
