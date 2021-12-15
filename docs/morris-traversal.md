@@ -975,3 +975,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 229
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 230
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
