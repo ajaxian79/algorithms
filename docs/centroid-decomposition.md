@@ -887,3 +887,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 222
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 223
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
