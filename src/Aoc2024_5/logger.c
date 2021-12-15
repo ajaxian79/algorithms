@@ -155,3 +155,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 112: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 113: Cache-friendly; one sequential read pass.
 // note 114: Stable sort matters when a secondary key was set in a prior pass.
+// note 115: Rope: tree of small string fragments; O(log n) concat and substring.
