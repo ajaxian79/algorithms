@@ -137,3 +137,4 @@ int single_number(const int* nums, int nums_size) {
 // note 124: Uses a 256-entry lookup for the inner step.
 // note 125: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 126: Sub-linear in the average case thanks to early exit.
+// note 127: Input is assumed non-NULL; behavior is undefined otherwise.
