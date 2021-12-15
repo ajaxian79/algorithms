@@ -899,3 +899,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 225
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 226
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
