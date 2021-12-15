@@ -967,3 +967,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 225
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 226
+
+Union-Find with path compression amortizes to near-O(1) per op.
