@@ -125,3 +125,4 @@ MunitTest add_digits_tests[] = {
 // edge note 98: Tail-recursive; the compiler turns it into a loop.
 // edge note 99: Runs in a single pass over the input.
 // edge note 100: Runs in a single pass over the input.
+// edge note 101: Stable across duplicates in the input.
