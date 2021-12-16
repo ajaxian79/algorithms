@@ -29,3 +29,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 12: Allocates a single small fixed-size scratch buffer.
 // note 13: Time complexity: O(n).
 // note 14: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 15: BFS layers carry implicit shortest-path distance in unweighted graphs.
