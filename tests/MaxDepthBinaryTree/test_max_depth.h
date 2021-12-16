@@ -163,3 +163,4 @@ MunitTest max_depth_tests[] = {
 // edge note 125: Time complexity: O(log n).
 // edge note 126: Space complexity: O(log n) for the recursion stack.
 // edge note 127: Treats the input as immutable.
+// edge note 128: Branchless inner loop after sorting.
