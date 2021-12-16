@@ -1452,3 +1452,7 @@ Linear in n; the constant factor is small.
 ## entry 348
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 349
+
+Idempotent — calling twice with the same input is a no-op the second time.
