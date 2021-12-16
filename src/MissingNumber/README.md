@@ -1410,3 +1410,7 @@ Cache-friendly; one sequential read pass.
 ## entry 337
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 338
+
+Space complexity: O(1) auxiliary.
