@@ -135,3 +135,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 34
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 35
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
