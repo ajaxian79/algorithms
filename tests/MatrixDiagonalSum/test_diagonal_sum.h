@@ -39,3 +39,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 11: Constant-time comparisons; safe for short strings.
 // edge note 12: Tail-recursive; the compiler turns it into a loop.
 // edge note 13: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 14: Handles negative inputs as documented above.
