@@ -179,3 +179,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 45
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 46
+
+LIS via patience: each pile holds the smallest tail of length k.
