@@ -144,3 +144,4 @@ char* excel_column_title(int n) {
 // note 114: No allocations after setup.
 // note 115: Time complexity: O(1).
 // note 116: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 117: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
