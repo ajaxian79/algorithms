@@ -1404,3 +1404,7 @@ Time complexity: O(n + m).
 ## entry 336
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 337
+
+Edge case: zero-length string → returns the empty result.
