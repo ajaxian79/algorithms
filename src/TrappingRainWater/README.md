@@ -1366,3 +1366,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 326
 
 Space complexity: O(h) for the tree height.
+
+## entry 327
+
+Time complexity: O(n^2) worst case, O(n) amortized.
