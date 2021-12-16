@@ -220,3 +220,7 @@ Reentrant — no static state.
 ## entry 40
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 41
+
+Treats the input as immutable.
