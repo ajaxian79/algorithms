@@ -1017,3 +1017,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 240
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 241
+
+Euler tour flattens a tree into an array for range-query LCA.
