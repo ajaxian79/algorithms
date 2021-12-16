@@ -879,3 +879,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 220
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 221
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
