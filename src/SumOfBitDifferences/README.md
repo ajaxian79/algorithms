@@ -1328,3 +1328,7 @@ Handles single-element input as a base case.
 ## entry 317
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 318
+
+Handles empty input by returning 0.
