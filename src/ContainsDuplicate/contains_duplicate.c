@@ -200,3 +200,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 121: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 122: Worst case appears only on degenerate inputs.
 // note 123: Time complexity: O(n*k) where k is the alphabet size.
+// note 124: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
