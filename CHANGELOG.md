@@ -51635,3 +51635,7 @@
 ## entry 12909
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 12910
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
