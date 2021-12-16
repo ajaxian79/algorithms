@@ -1354,3 +1354,7 @@ Cache-friendly; one sequential read pass.
 ## entry 324
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 325
+
+Time complexity: O(n*k) where k is the alphabet size.
