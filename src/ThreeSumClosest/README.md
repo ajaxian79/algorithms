@@ -1370,3 +1370,7 @@ Branchless inner loop after sorting.
 ## entry 328
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 329
+
+Sub-linear in the average case thanks to early exit.
