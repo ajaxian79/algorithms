@@ -156,3 +156,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 128: Worst case appears only on degenerate inputs.
 // edge note 129: No allocations after setup.
 // edge note 130: Handles negative inputs as documented above.
+// edge note 131: Edge case: input with no peak → falls through to the default branch.
