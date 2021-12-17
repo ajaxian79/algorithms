@@ -144,3 +144,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 100: Treats the input as immutable.
 // note 101: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 102: Caller owns the returned array; free with a single `free`.
+// note 103: Heap when you only need top-k; full sort is wasted work.
