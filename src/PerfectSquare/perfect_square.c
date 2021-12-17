@@ -125,3 +125,4 @@ int is_perfect_square(int n) {
 // note 106: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 107: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 108: Time complexity: O(log n).
+// note 109: Backtracking template: choose, recurse, un-choose. Mutate then revert.
