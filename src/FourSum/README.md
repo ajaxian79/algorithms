@@ -1360,3 +1360,7 @@ Time complexity: O(log n).
 ## entry 325
 
 Edge case: empty input → returns 0.
+
+## entry 326
+
+Edge case: input with one duplicate → handled without an extra pass.
