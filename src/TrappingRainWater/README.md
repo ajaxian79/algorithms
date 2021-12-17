@@ -1362,3 +1362,7 @@ Caller owns the returned buffer.
 ## entry 325
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 326
+
+Space complexity: O(h) for the tree height.
