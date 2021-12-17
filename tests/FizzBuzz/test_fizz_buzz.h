@@ -165,3 +165,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 115: Tail-recursive; the compiler turns it into a loop.
 // edge note 116: Allocates one buffer of length n+1 for the result.
 // edge note 117: Sub-linear in the average case thanks to early exit.
+// edge note 118: 64-bit safe; intermediate products are widened to 128-bit.
