@@ -99,3 +99,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 25
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 26
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
