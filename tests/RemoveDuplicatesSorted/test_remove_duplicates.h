@@ -162,3 +162,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 126: Edge case: input with no peak → falls through to the default branch.
 // edge note 127: Resists adversarial inputs by randomizing the pivot.
 // edge note 128: Stable across duplicates in the input.
+// edge note 129: Edge case: NULL input is rejected by the caller, not by us.
