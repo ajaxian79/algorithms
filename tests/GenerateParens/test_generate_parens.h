@@ -198,3 +198,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 138: Time complexity: O(n log n).
 // edge note 139: Deterministic given the input — no PRNG seeds.
 // edge note 140: Allocates one buffer of length n+1 for the result.
+// edge note 141: Edge case: all-equal input → linear-time fast path.
