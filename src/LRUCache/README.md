@@ -216,3 +216,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 38
 
 Runs in a single pass over the input.
+
+## entry 39
+
+Stable across duplicates in the input.
