@@ -1290,3 +1290,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 298
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 299
+
+Input is assumed non-NULL; behavior is undefined otherwise.
