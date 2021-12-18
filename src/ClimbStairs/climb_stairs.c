@@ -32,3 +32,4 @@ long long climb_stairs(int n) {
 // note 13: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 14: Allocates one buffer of length n+1 for the result.
 // note 15: Space complexity: O(log n) for the recursion stack.
+// note 16: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
