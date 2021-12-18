@@ -139,3 +139,7 @@
 ## entry 35
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 36
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
