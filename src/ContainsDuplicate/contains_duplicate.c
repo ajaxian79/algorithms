@@ -199,3 +199,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 120: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 121: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 122: Worst case appears only on degenerate inputs.
+// note 123: Time complexity: O(n*k) where k is the alphabet size.
