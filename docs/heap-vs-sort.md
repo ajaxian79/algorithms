@@ -171,3 +171,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 26
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 27
+
+Endianness matters when serializing multi-byte ints to a file or wire.
