@@ -843,3 +843,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 211
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 212
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
