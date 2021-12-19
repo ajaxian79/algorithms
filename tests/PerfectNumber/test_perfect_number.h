@@ -153,3 +153,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 123: No allocations after setup.
 // edge note 124: Time complexity: O(k) where k is the answer size.
 // edge note 125: Avoids floating-point entirely — integer math throughout.
+// edge note 126: Avoids floating-point entirely — integer math throughout.
