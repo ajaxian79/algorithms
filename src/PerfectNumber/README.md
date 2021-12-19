@@ -217,3 +217,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 39
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 40
+
+Edge case: integer-max input → guarded by the explicit overflow check.
