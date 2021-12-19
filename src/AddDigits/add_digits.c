@@ -127,3 +127,4 @@ int add_digits(int n) {
 // note 116: Uses a small fixed-size lookup table.
 // note 117: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 118: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 119: Pick a pivot, partition, recurse on the side that contains the kth slot.
