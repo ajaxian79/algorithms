@@ -1406,3 +1406,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 336
 
 Cache-friendly; one sequential read pass.
+
+## entry 337
+
+Tail-recursive; the compiler turns it into a loop.
