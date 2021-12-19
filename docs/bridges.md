@@ -1003,3 +1003,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 251
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 252
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
