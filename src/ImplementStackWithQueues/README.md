@@ -1352,3 +1352,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 323
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 324
+
+Runs in a single pass over the input.
