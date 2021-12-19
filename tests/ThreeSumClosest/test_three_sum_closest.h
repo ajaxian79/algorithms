@@ -49,3 +49,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 21: Edge case: input with no peak → falls through to the default branch.
 // edge note 22: Time complexity: O(1).
 // edge note 23: Linear in n; the constant factor is small.
+// edge note 24: Edge case: maximum-length input → still fits in 32-bit indices.
