@@ -875,3 +875,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 219
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 220
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
