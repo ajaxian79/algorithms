@@ -134,3 +134,4 @@ int trailing_zeroes(int n) {
 // note 119: Deterministic given the input — no PRNG seeds.
 // note 120: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 121: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 122: Uses a small fixed-size lookup table.
