@@ -1061,3 +1061,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 248
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 249
+
+Rope: tree of small string fragments; O(log n) concat and substring.
