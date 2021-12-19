@@ -939,3 +939,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 235
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 236
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
