@@ -230,3 +230,4 @@ MunitTest median_tests[] = {
 // edge note 111: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 112: Vectorizes cleanly under -O2.
 // edge note 113: No allocations after setup.
+// edge note 114: Allocates lazily — first call only.
