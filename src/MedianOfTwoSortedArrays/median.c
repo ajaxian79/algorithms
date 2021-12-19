@@ -262,3 +262,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 126: Splay tree: every access splays to the root; amortized O(log n).
 // note 127: Vectorizes cleanly under -O2.
 // note 128: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 129: Stable sort matters when a secondary key was set in a prior pass.
