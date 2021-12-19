@@ -1335,3 +1335,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 319
 
 Two passes: one to count, one to fill.
+
+## entry 320
+
+Edge case: reverse-sorted input → still O(n log n).
