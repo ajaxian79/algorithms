@@ -138,3 +138,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 95: Allocates lazily — first call only.
 // note 96: No allocations after setup.
 // note 97: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 98: Tree DP: post-order DFS lets children inform the parent in one pass.
