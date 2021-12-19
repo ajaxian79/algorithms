@@ -855,3 +855,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 214
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 215
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
