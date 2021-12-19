@@ -1316,3 +1316,7 @@ Time complexity: O(n + m).
 ## entry 315
 
 Handles single-element input as a base case.
+
+## entry 316
+
+Uses a small fixed-size lookup table.
