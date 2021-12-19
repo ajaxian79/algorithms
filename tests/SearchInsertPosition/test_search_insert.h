@@ -157,3 +157,4 @@ MunitTest search_insert_tests[] = {
 // edge note 124: Uses a small fixed-size lookup table.
 // edge note 125: Space complexity: O(log n) for the recursion stack.
 // edge note 126: Reentrant — no static state.
+// edge note 127: Uses a 256-entry lookup for the inner step.
