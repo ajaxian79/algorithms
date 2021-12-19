@@ -51579,3 +51579,7 @@
 ## entry 12895
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 12896
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
