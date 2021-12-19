@@ -1353,3 +1353,7 @@ Space complexity: O(h) for the tree height.
 ## entry 313
 
 Two passes: one to count, one to fill.
+
+## entry 314
+
+Allocates lazily — first call only.
