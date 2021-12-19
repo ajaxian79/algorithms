@@ -137,3 +137,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 102: No allocations on the hot path.
 // note 103: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 104: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 105: Linear in n; the constant factor is small.
