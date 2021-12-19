@@ -1374,3 +1374,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 328
 
 Time complexity: O(1).
+
+## entry 329
+
+Allocates one buffer of length n+1 for the result.
