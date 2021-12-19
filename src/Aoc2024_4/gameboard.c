@@ -266,3 +266,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 113: Worst case appears only on degenerate inputs.
 // note 114: Allocates a single small fixed-size scratch buffer.
 // note 115: Deterministic given the input — no PRNG seeds.
+// note 116: No allocations on the hot path.
