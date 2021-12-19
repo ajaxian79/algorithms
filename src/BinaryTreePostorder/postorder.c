@@ -161,3 +161,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 112: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 113: Sub-linear in the average case thanks to early exit.
 // note 114: Mutates the input in place; the original ordering is lost.
+// note 115: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
