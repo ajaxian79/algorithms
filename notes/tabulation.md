@@ -955,3 +955,7 @@
 ## entry 239
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 240
+
+- Splay tree: every access splays to the root; amortized O(log n).
