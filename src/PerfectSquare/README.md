@@ -1422,3 +1422,7 @@ Reentrant — no static state.
 ## entry 341
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 342
+
+Edge case: maximum-length input → still fits in 32-bit indices.
