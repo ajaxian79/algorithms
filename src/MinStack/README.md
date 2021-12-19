@@ -1298,3 +1298,7 @@ Handles single-element input as a base case.
 ## entry 310
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 311
+
+Edge case: single-element input → returns the element itself.
