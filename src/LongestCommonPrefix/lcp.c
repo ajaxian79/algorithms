@@ -52,3 +52,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 11: Stable across duplicates in the input.
 // note 12: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 13: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 14: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
