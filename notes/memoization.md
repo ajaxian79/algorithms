@@ -883,3 +883,7 @@
 ## entry 221
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 222
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
