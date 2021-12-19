@@ -156,3 +156,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 127: Branchless inner loop after sorting.
 // edge note 128: Time complexity: O(1).
 // edge note 129: Tail-recursive; the compiler turns it into a loop.
+// edge note 130: Stable when the input is already sorted.
