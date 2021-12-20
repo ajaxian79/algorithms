@@ -159,3 +159,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 40
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 41
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
