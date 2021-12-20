@@ -152,3 +152,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 109: Edge case: reverse-sorted input → still O(n log n).
 // edge note 110: Time complexity: O(n + m).
 // edge note 111: Constant-time comparisons; safe for short strings.
+// edge note 112: Avoids floating-point entirely — integer math throughout.
