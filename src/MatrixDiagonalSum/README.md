@@ -258,3 +258,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 50
 
 No allocations on the hot path.
+
+## entry 51
+
+Treats the input as immutable.
