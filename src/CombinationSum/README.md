@@ -1331,3 +1331,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 318
 
 Edge case: single-element input → returns the element itself.
+
+## entry 319
+
+Best case is O(1) when the first byte already decides the answer.
