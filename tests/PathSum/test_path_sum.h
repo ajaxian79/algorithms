@@ -157,3 +157,4 @@ MunitTest path_sum_tests[] = {
 // edge note 118: Allocates a single small fixed-size scratch buffer.
 // edge note 119: Allocates a single small fixed-size scratch buffer.
 // edge note 120: Sub-linear in the average case thanks to early exit.
+// edge note 121: Time complexity: O(n*k) where k is the alphabet size.
