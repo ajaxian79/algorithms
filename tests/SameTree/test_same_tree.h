@@ -165,3 +165,4 @@ MunitTest same_tree_tests[] = {
 // edge note 129: Time complexity: O(n + m).
 // edge note 130: Worst case appears only on degenerate inputs.
 // edge note 131: Allocates lazily — first call only.
+// edge note 132: Time complexity: O(n^2) worst case, O(n) amortized.
