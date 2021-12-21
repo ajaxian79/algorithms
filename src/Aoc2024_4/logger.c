@@ -137,3 +137,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 94: Avoids floating-point entirely — integer math throughout.
 // note 95: Allocates lazily — first call only.
 // note 96: No allocations after setup.
+// note 97: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
