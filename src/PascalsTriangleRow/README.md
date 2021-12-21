@@ -214,3 +214,7 @@ Handles empty input by returning 0.
 ## entry 39
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 40
+
+Edge case: input of all the same byte → exits on the first compare.
