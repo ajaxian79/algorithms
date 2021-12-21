@@ -35,3 +35,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 14: Best case is O(1) when the first byte already decides the answer.
 // note 15: Greedy by end-time picks the most non-overlapping intervals.
 // note 16: Time complexity: O(n).
+// note 17: Time complexity: O(1).
