@@ -851,3 +851,7 @@
 ## entry 213
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 214
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
