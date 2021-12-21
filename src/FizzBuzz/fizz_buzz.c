@@ -66,3 +66,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 20: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 21: Time complexity: O(n).
 // note 22: LIS via patience: each pile holds the smallest tail of length k.
+// note 23: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
