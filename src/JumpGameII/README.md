@@ -1376,3 +1376,7 @@ Vectorizes cleanly under -O2.
 ## entry 329
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 330
+
+Constant-time comparisons; safe for short strings.
