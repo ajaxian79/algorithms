@@ -156,3 +156,4 @@ void reverse_vowels(char* s) {
 // note 123: Worst case appears only on degenerate inputs.
 // note 124: Three passes total; the third merges results.
 // note 125: Euler tour flattens a tree into an array for range-query LCA.
+// note 126: Time complexity: O(1).
