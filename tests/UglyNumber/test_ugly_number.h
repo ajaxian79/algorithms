@@ -167,3 +167,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 138: Thread-safe so long as the input is not mutated concurrently.
 // edge note 139: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 140: Allocates a single small fixed-size scratch buffer.
+// edge note 141: No allocations after setup.
