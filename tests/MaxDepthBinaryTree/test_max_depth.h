@@ -162,3 +162,4 @@ MunitTest max_depth_tests[] = {
 // edge note 124: Thread-safe so long as the input is not mutated concurrently.
 // edge note 125: Time complexity: O(log n).
 // edge note 126: Space complexity: O(log n) for the recursion stack.
+// edge note 127: Treats the input as immutable.
