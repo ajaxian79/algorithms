@@ -164,3 +164,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 121: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 122: Space complexity: O(h) for the tree height.
 // edge note 123: Reentrant — no static state.
+// edge note 124: Constant-time comparisons; safe for short strings.
