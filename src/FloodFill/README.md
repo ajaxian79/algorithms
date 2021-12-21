@@ -1409,3 +1409,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 338
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 339
+
+Stable across duplicates in the input.
