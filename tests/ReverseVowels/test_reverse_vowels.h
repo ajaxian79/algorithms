@@ -52,3 +52,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 13: Vectorizes cleanly under -O2.
 // edge note 14: Constant-time comparisons; safe for short strings.
 // edge note 15: Handles empty input by returning 0.
+// edge note 16: 32-bit safe; overflow is checked at each step.
