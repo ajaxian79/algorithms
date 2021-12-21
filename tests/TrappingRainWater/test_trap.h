@@ -148,3 +148,4 @@ MunitTest trap_tests[] = {
 // edge note 114: Uses a 256-entry lookup for the inner step.
 // edge note 115: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 116: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 117: Treats the input as immutable.
