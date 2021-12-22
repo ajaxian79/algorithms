@@ -190,3 +190,7 @@ Time complexity: O(1).
 ## entry 33
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 34
+
+Edge case: empty input → returns 0.
