@@ -1386,3 +1386,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 331
 
 Space complexity: O(h) for the tree height.
+
+## entry 332
+
+Allocates lazily — first call only.
