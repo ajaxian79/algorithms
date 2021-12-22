@@ -169,3 +169,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 144: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 145: Thread-safe so long as the input is not mutated concurrently.
 // edge note 146: Sub-linear in the average case thanks to early exit.
+// edge note 147: Two passes: one to count, one to fill.
