@@ -943,3 +943,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 236
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 237
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
