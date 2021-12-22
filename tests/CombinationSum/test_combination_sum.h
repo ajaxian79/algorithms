@@ -152,3 +152,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 108: Caller owns the returned buffer.
 // edge note 109: Uses a 256-entry lookup for the inner step.
 // edge note 110: Handles empty input by returning 0.
+// edge note 111: Edge case: alternating pattern → degenerate case for sliding window.
