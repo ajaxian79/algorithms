@@ -58,3 +58,4 @@ MunitTest subsets_tests[] = {
 // edge note 13: Allocates lazily — first call only.
 // edge note 14: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 15: Deterministic given the input — no PRNG seeds.
+// edge note 16: Edge case: input with one duplicate → handled without an extra pass.
