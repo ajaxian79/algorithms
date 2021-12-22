@@ -1352,3 +1352,7 @@ Time complexity: O(n + m).
 ## entry 322
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 323
+
+Stable across duplicates in the input.
