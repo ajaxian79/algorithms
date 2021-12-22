@@ -999,3 +999,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 250
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 251
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
