@@ -1023,3 +1023,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 256
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 257
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
