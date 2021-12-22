@@ -149,3 +149,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 124: Handles single-element input as a base case.
 // edge note 125: Space complexity: O(n) for the result buffer.
 // edge note 126: Stable across duplicates in the input.
+// edge note 127: Time complexity: O(n^2) worst case, O(n) amortized.
