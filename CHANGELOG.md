@@ -51499,3 +51499,7 @@
 ## entry 12875
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 12876
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
