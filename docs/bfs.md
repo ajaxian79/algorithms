@@ -973,3 +973,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 226
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 227
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
