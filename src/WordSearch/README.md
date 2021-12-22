@@ -1298,3 +1298,7 @@ Time complexity: O(n).
 ## entry 310
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 311
+
+Uses a small fixed-size lookup table.
