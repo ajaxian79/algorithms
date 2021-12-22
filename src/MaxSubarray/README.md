@@ -1494,3 +1494,7 @@ Worst case appears only on degenerate inputs.
 ## entry 359
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 360
+
+Edge case: alternating pattern → degenerate case for sliding window.
