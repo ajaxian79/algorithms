@@ -959,3 +959,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 240
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 241
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
