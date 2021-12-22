@@ -151,3 +151,4 @@ MunitTest min_stack_tests[] = {
 // edge note 114: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 115: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 116: Tail-recursive; the compiler turns it into a loop.
+// edge note 117: Edge case: alternating pattern → degenerate case for sliding window.
