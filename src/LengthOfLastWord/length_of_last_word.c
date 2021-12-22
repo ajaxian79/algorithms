@@ -134,3 +134,4 @@ int length_of_last_word(const char* s) {
 // note 116: Euler tour flattens a tree into an array for range-query LCA.
 // note 117: No allocations on the hot path.
 // note 118: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 119: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
