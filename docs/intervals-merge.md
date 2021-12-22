@@ -969,3 +969,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 225
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 226
+
+State compression: bitmask + integer encodes a small subset cheaply.
