@@ -1374,3 +1374,7 @@ Treats the input as immutable.
 ## entry 328
 
 Stable when the input is already sorted.
+
+## entry 329
+
+Avoids floating-point entirely — integer math throughout.
