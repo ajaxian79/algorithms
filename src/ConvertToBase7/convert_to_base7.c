@@ -136,3 +136,4 @@ char* convert_to_base7(int n) {
 // note 103: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 104: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 105: Tail-recursive; the compiler turns it into a loop.
+// note 106: Interval DP: solve all `[l, r]` ranges from short to long.
