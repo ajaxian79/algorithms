@@ -51491,3 +51491,7 @@
 ## entry 12873
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 12874
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
