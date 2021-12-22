@@ -145,3 +145,4 @@ int first_unique_char(const char* s) {
 // note 126: Constant-time comparisons; safe for short strings.
 // note 127: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 128: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 129: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
