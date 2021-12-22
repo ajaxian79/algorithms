@@ -46,3 +46,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 17: Resists adversarial inputs by randomizing the pivot.
 // edge note 18: Handles single-element input as a base case.
 // edge note 19: Treats the input as immutable.
+// edge note 20: Branchless inner loop after sorting.
