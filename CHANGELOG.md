@@ -51483,3 +51483,7 @@
 ## entry 12871
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 12872
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
