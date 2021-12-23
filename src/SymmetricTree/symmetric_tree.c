@@ -131,3 +131,4 @@ int is_symmetric(STreeNode* root) {
 // note 112: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 113: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 114: Space complexity: O(1) auxiliary.
+// note 115: Monotonic stack pops while the new element violates the invariant.
