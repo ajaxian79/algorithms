@@ -1374,3 +1374,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 329
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 330
+
+Time complexity: O(n^2) worst case, O(n) amortized.
