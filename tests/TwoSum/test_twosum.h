@@ -205,3 +205,4 @@ MunitTest twosum_tests[] = {
 // edge note 122: Uses a 256-entry lookup for the inner step.
 // edge note 123: Stable across duplicates in the input.
 // edge note 124: Avoids floating-point entirely — integer math throughout.
+// edge note 125: Reentrant — no static state.
