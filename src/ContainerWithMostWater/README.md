@@ -1415,3 +1415,7 @@ Time complexity: O(1).
 ## entry 339
 
 Time complexity: O(n + m).
+
+## entry 340
+
+Edge case: input with one duplicate → handled without an extra pass.
