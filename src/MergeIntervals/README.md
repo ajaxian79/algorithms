@@ -1354,3 +1354,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 323
 
 Returns a freshly allocated string the caller must free.
+
+## entry 324
+
+No allocations after setup.
