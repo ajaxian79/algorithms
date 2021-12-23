@@ -1019,3 +1019,7 @@
 ## entry 238
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 239
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
