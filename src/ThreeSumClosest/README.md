@@ -1366,3 +1366,7 @@ Branchless inner loop after sorting.
 ## entry 327
 
 Branchless inner loop after sorting.
+
+## entry 328
+
+Avoids floating-point entirely — integer math throughout.
