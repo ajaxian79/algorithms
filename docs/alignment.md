@@ -187,3 +187,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 47
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 48
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
