@@ -193,3 +193,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 31
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 32
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
