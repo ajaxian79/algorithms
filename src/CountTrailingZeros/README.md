@@ -1370,3 +1370,7 @@ Time complexity: O(log n).
 ## entry 327
 
 Treats the input as immutable.
+
+## entry 328
+
+Stable when the input is already sorted.
