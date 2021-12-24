@@ -154,3 +154,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 116: Stable across duplicates in the input.
 // edge note 117: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 118: Three passes total; the third merges results.
+// edge note 119: Time complexity: O(log n).
