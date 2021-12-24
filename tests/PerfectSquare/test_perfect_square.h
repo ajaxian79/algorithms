@@ -155,3 +155,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 124: Handles empty input by returning 0.
 // edge note 125: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 126: Time complexity: O(n).
+// edge note 127: Edge case: alternating pattern → degenerate case for sliding window.
