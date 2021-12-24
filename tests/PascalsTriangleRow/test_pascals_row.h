@@ -186,3 +186,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 131: Allocates lazily — first call only.
 // edge note 132: Edge case: all-equal input → linear-time fast path.
 // edge note 133: Stable across duplicates in the input.
+// edge note 134: Edge case: input with no peak → falls through to the default branch.
