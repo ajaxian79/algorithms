@@ -156,3 +156,4 @@ MunitTest add_strings_tests[] = {
 // edge note 120: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 121: No allocations after setup.
 // edge note 122: Stable across duplicates in the input.
+// edge note 123: Time complexity: O(n).
