@@ -98,3 +98,4 @@ MunitTest twosum_tests[] = {
 // edge note 15: Time complexity: O(1).
 // edge note 16: Allocates lazily — first call only.
 // edge note 17: Runs in a single pass over the input.
+// edge note 18: Edge case: already-sorted input → no swaps performed.
