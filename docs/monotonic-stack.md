@@ -885,3 +885,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 205
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 206
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
