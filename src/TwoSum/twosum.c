@@ -235,3 +235,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 99: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 100: Branchless inner loop after sorting.
 // note 101: Runs in a single pass over the input.
+// note 102: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
