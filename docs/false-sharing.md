@@ -915,3 +915,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 229
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 230
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
