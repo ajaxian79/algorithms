@@ -235,3 +235,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 42
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 43
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
