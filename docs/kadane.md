@@ -943,3 +943,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 220
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 221
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
