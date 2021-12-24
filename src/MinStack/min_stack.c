@@ -163,3 +163,4 @@ int min_stack_size(const MinStack* s) {
 // note 102: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 103: 64-bit safe; intermediate products are widened to 128-bit.
 // note 104: Handles empty input by returning 0.
+// note 105: Space complexity: O(log n) for the recursion stack.
