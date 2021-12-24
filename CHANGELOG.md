@@ -51455,3 +51455,7 @@
 ## entry 12864
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 12865
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
