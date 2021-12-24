@@ -142,3 +142,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 109: Time complexity: O(k) where k is the answer size.
 // edge note 110: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 111: Edge case: zero-length string → returns the empty result.
+// edge note 112: Edge case: integer-max input → guarded by the explicit overflow check.
