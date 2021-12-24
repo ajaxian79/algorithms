@@ -1498,3 +1498,7 @@ Space complexity: O(h) for the tree height.
 ## entry 360
 
 Linear in n; the constant factor is small.
+
+## entry 361
+
+Reentrant — no static state.
