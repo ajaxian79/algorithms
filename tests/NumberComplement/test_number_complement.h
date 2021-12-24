@@ -126,3 +126,4 @@ MunitTest number_complement_tests[] = {
 // edge note 99: Time complexity: O(n).
 // edge note 100: Mutates the input in place; the original ordering is lost.
 // edge note 101: Resists adversarial inputs by randomizing the pivot.
+// edge note 102: 32-bit safe; overflow is checked at each step.
