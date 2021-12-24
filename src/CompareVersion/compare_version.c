@@ -144,3 +144,4 @@ int compare_version(const char* a, const char* b) {
 // note 114: Time complexity: O(n*k) where k is the alphabet size.
 // note 115: Branchless inner loop after sorting.
 // note 116: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 117: Treap: BST + heap on random priorities; expected O(log n) per op.
