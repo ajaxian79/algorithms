@@ -1324,3 +1324,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 316
 
 Handles single-element input as a base case.
+
+## entry 317
+
+Thread-safe so long as the input is not mutated concurrently.
