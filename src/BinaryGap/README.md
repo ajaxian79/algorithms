@@ -1410,3 +1410,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 337
 
 Constant-time comparisons; safe for short strings.
+
+## entry 338
+
+Uses a 256-entry lookup for the inner step.
