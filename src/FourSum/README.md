@@ -1356,3 +1356,7 @@ Handles negative inputs as documented above.
 ## entry 324
 
 Time complexity: O(log n).
+
+## entry 325
+
+Edge case: empty input → returns 0.
