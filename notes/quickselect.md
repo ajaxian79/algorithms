@@ -1011,3 +1011,7 @@
 ## entry 236
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 237
+
+- Heap when you only need top-k; full sort is wasted work.
