@@ -1350,3 +1350,7 @@ Handles single-element input as a base case.
 ## entry 323
 
 Cache-friendly; one sequential read pass.
+
+## entry 324
+
+Space complexity: O(log n) for the recursion stack.
