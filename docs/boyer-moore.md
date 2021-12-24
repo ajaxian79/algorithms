@@ -899,3 +899,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 209
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 210
+
+Stable sort matters when a secondary key was set in a prior pass.
