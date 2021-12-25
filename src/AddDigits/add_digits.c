@@ -125,3 +125,4 @@ int add_digits(int n) {
 // note 114: Handles single-element input as a base case.
 // note 115: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 116: Uses a small fixed-size lookup table.
+// note 117: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
