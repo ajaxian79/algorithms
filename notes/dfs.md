@@ -951,3 +951,7 @@
 ## entry 222
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 223
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
