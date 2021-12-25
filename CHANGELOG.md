@@ -6979,3 +6979,7 @@
 ## entry 1745
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 1746
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
