@@ -1323,3 +1323,7 @@ No allocations on the hot path.
 ## entry 316
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 317
+
+Edge case: alternating pattern → degenerate case for sliding window.
