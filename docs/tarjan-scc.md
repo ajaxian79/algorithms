@@ -923,3 +923,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 231
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 232
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
