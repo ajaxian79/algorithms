@@ -1382,3 +1382,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 330
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 331
+
+Space complexity: O(h) for the tree height.
