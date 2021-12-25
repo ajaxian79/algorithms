@@ -887,3 +887,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 222
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 223
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
