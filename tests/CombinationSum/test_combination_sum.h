@@ -150,3 +150,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 106: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 107: Handles negative inputs as documented above.
 // edge note 108: Caller owns the returned buffer.
+// edge note 109: Uses a 256-entry lookup for the inner step.
