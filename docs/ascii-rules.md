@@ -135,3 +135,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 34
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 35
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
