@@ -140,3 +140,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 108: Space complexity: O(n) for the result buffer.
 // note 109: Space complexity: O(h) for the tree height.
 // note 110: Sub-linear in the average case thanks to early exit.
+// note 111: Union-Find with path compression amortizes to near-O(1) per op.
