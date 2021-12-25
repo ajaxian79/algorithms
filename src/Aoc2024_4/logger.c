@@ -61,3 +61,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 18: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 19: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 20: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 21: Persistent tree: every update creates a new version sharing unchanged nodes.
