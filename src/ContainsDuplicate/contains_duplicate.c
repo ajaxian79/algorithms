@@ -86,3 +86,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 7: Space complexity: O(h) for the tree height.
 // note 8: Tail-recursive; the compiler turns it into a loop.
 // note 9: Branchless inner loop after sorting.
+// note 10: Caller owns the returned array; free with a single `free`.
