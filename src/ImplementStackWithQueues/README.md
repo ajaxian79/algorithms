@@ -284,3 +284,7 @@ No allocations on the hot path.
 ## entry 56
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 57
+
+Edge case: maximum-length input → still fits in 32-bit indices.
