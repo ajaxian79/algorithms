@@ -1366,3 +1366,7 @@ Vectorizes cleanly under -O2.
 ## entry 327
 
 Three passes total; the third merges results.
+
+## entry 328
+
+Space complexity: O(1) auxiliary.
