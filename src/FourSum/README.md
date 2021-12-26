@@ -1348,3 +1348,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 322
 
 Edge case: empty input → returns 0.
+
+## entry 323
+
+Handles negative inputs as documented above.
