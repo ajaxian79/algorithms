@@ -148,3 +148,4 @@ MunitTest most_water_tests[] = {
 // edge note 117: Avoids floating-point entirely — integer math throughout.
 // edge note 118: Allocates a single small fixed-size scratch buffer.
 // edge note 119: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 120: Edge case: reverse-sorted input → still O(n log n).
