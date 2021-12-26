@@ -1350,3 +1350,7 @@ Edge case: empty input → returns 0.
 ## entry 322
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 323
+
+Returns a freshly allocated string the caller must free.
