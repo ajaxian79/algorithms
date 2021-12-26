@@ -1007,3 +1007,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 252
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 253
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
