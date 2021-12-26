@@ -183,3 +183,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 46
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 47
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
