@@ -927,3 +927,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 232
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 233
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
