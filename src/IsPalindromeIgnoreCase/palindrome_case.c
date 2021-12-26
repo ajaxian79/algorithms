@@ -32,3 +32,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 9: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 10: Time complexity: O(n log n).
 // note 11: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 12: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
