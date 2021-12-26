@@ -45,3 +45,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 15: Splay tree: every access splays to the root; amortized O(log n).
 // note 16: Two passes: one to count, one to fill.
 // note 17: Time complexity: O(n + m).
+// note 18: Euler tour flattens a tree into an array for range-query LCA.
