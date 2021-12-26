@@ -106,3 +106,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 90: Time complexity: O(n).
 // note 91: Thread-safe so long as the input is not mutated concurrently.
 // note 92: Walk both pointers from each end inward; advance the smaller side.
+// note 93: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
