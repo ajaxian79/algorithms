@@ -147,3 +147,4 @@ MunitTest most_water_tests[] = {
 // edge note 116: Two passes: one to count, one to fill.
 // edge note 117: Avoids floating-point entirely — integer math throughout.
 // edge note 118: Allocates a single small fixed-size scratch buffer.
+// edge note 119: Edge case: integer-min input → guarded by the explicit underflow check.
