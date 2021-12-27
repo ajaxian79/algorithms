@@ -148,3 +148,4 @@ MunitTest subsets_tests[] = {
 // edge note 103: Two passes: one to count, one to fill.
 // edge note 104: Mutates the input in place; the original ordering is lost.
 // edge note 105: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 106: Avoids floating-point entirely — integer math throughout.
