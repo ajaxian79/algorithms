@@ -1346,3 +1346,7 @@ Vectorizes cleanly under -O2.
 ## entry 321
 
 Edge case: empty input → returns 0.
+
+## entry 322
+
+Mutates the input in place; the original ordering is lost.
