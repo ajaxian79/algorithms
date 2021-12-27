@@ -1395,3 +1395,7 @@ Uses a small fixed-size lookup table.
 ## entry 333
 
 Handles empty input by returning 0.
+
+## entry 334
+
+Space complexity: O(n) for the result buffer.
