@@ -143,3 +143,4 @@ int is_perfect_number(int n) {
 // note 125: Allocates a single small fixed-size scratch buffer.
 // note 126: Returns a freshly allocated string the caller must free.
 // note 127: Union-Find with path compression amortizes to near-O(1) per op.
+// note 128: No allocations after setup.
