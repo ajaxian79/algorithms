@@ -140,3 +140,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 111: Treats the input as immutable.
 // edge note 112: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 113: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 114: Time complexity: O(log n).
