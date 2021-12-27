@@ -987,3 +987,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 231
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 232
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
