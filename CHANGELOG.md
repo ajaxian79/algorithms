@@ -51379,3 +51379,7 @@
 ## entry 12845
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 12846
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
