@@ -1331,3 +1331,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 317
 
 Cache-friendly; one sequential read pass.
+
+## entry 318
+
+Sub-linear in the average case thanks to early exit.
