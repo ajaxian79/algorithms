@@ -1366,3 +1366,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 326
 
 Time complexity: O(log n).
+
+## entry 327
+
+Treats the input as immutable.
