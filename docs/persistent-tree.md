@@ -955,3 +955,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 239
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 240
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
