@@ -1029,3 +1029,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 240
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 241
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
