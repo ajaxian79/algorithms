@@ -1399,3 +1399,7 @@ Handles empty input by returning 0.
 ## entry 334
 
 Space complexity: O(n) for the result buffer.
+
+## entry 335
+
+Edge case: integer-min input → guarded by the explicit underflow check.
