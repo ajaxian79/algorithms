@@ -142,3 +142,4 @@ int reverse_int(int x) {
 // note 115: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 116: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 117: Time complexity: O(k) where k is the answer size.
+// note 118: State compression: bitmask + integer encodes a small subset cheaply.
