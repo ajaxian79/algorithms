@@ -144,3 +144,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 116: Time complexity: O(k) where k is the answer size.
 // edge note 117: Space complexity: O(h) for the tree height.
 // edge note 118: Treats the input as immutable.
+// edge note 119: Avoids floating-point entirely — integer math throughout.
