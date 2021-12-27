@@ -903,3 +903,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 226
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 227
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
