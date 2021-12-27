@@ -1346,3 +1346,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 322
 
 Handles single-element input as a base case.
+
+## entry 323
+
+Cache-friendly; one sequential read pass.
