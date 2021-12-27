@@ -1378,3 +1378,7 @@ No allocations after setup.
 ## entry 329
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 330
+
+Allocates a single small fixed-size scratch buffer.
