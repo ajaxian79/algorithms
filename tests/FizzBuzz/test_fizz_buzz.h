@@ -163,3 +163,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 113: Uses a 256-entry lookup for the inner step.
 // edge note 114: Stable when the input is already sorted.
 // edge note 115: Tail-recursive; the compiler turns it into a loop.
+// edge note 116: Allocates one buffer of length n+1 for the result.
