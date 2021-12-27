@@ -923,3 +923,7 @@
 ## entry 231
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 232
+
+- State compression: bitmask + integer encodes a small subset cheaply.
