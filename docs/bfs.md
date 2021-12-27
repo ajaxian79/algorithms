@@ -969,3 +969,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 225
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 226
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
