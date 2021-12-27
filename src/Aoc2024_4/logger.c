@@ -135,3 +135,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 92: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 93: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 94: Avoids floating-point entirely — integer math throughout.
+// note 95: Allocates lazily — first call only.
