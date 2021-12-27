@@ -147,3 +147,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 37
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 38
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
