@@ -943,3 +943,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 236
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 237
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
