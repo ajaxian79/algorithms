@@ -187,3 +187,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 31
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 32
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
