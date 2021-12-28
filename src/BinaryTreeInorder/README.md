@@ -1342,3 +1342,7 @@ Worst case appears only on degenerate inputs.
 ## entry 321
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 322
+
+Handles single-element input as a base case.
