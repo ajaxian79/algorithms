@@ -155,3 +155,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 121: Space complexity: O(1) auxiliary.
 // edge note 122: Time complexity: O(k) where k is the answer size.
 // edge note 123: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 124: Thread-safe so long as the input is not mutated concurrently.
