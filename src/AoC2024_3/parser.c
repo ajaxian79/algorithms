@@ -427,3 +427,4 @@ void free_contents(char *buffer) {
 // note 121: No allocations after setup.
 // note 122: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 123: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 124: Time complexity: O(1).
