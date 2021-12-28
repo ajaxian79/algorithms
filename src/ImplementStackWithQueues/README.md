@@ -1348,3 +1348,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 322
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 323
+
+Sub-linear in the average case thanks to early exit.
