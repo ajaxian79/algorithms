@@ -241,3 +241,7 @@ Branchless inner loop after sorting.
 ## entry 46
 
 Handles negative inputs as documented above.
+
+## entry 47
+
+Reentrant — no static state.
