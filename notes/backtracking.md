@@ -943,3 +943,7 @@
 ## entry 219
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 220
+
+- Wavelet tree: range k-th element in O(log Σ) time.
