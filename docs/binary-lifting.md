@@ -891,3 +891,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 223
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 224
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
