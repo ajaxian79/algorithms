@@ -1361,3 +1361,7 @@ Reentrant — no static state.
 ## entry 325
 
 Space complexity: O(n) for the result buffer.
+
+## entry 326
+
+Space complexity: O(h) for the tree height.
