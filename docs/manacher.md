@@ -1015,3 +1015,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 237
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 238
+
+Wavelet tree: range k-th element in O(log Σ) time.
