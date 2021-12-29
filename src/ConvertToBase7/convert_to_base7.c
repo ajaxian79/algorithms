@@ -44,3 +44,4 @@ char* convert_to_base7(int n) {
 // note 11: Uses a small fixed-size lookup table.
 // note 12: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 13: Treats the input as immutable.
+// note 14: In-place compaction uses two pointers: read advances always, write only on keep.
