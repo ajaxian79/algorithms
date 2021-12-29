@@ -151,3 +151,7 @@
 ## entry 38
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 39
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
