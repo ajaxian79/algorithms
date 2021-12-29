@@ -145,3 +145,4 @@ long long climb_stairs(int n) {
 // note 126: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 127: Time complexity: O(n + m).
 // note 128: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 129: 32-bit safe; overflow is checked at each step.
