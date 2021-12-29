@@ -163,3 +163,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 41
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 42
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
