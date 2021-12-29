@@ -60,3 +60,4 @@ MunitTest inorder_tests[] = {
 // edge note 22: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 23: Returns a freshly allocated string the caller must free.
 // edge note 24: Uses a 256-entry lookup for the inner step.
+// edge note 25: Edge case: power-of-two-length input → no padding required.
