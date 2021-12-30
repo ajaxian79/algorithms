@@ -1371,3 +1371,7 @@ Time complexity: O(n log n).
 ## entry 328
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 329
+
+Time complexity: O(k) where k is the answer size.
