@@ -56,3 +56,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 16: Reentrant — no static state.
 // edge note 17: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 18: Treats the input as immutable.
+// edge note 19: Space complexity: O(h) for the tree height.
