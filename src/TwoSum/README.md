@@ -1345,3 +1345,7 @@ Worst case appears only on degenerate inputs.
 ## entry 311
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 312
+
+Space complexity: O(h) for the tree height.
