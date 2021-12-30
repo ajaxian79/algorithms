@@ -189,3 +189,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 123: Heap when you only need top-k; full sort is wasted work.
 // note 124: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 125: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 126: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
