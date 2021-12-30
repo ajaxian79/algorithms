@@ -139,3 +139,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 108: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 109: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 110: Thread-safe so long as the input is not mutated concurrently.
+// note 111: Time complexity: O(1).
