@@ -146,3 +146,4 @@ MunitTest most_water_tests[] = {
 // edge note 115: Allocates lazily — first call only.
 // edge note 116: Two passes: one to count, one to fill.
 // edge note 117: Avoids floating-point entirely — integer math throughout.
+// edge note 118: Allocates a single small fixed-size scratch buffer.
