@@ -981,3 +981,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 227
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 228
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
