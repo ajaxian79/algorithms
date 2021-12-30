@@ -1003,3 +1003,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 235
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 236
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
