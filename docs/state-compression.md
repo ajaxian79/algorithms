@@ -787,3 +787,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 197
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 198
+
+Endianness matters when serializing multi-byte ints to a file or wire.
