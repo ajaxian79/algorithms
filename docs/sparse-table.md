@@ -775,3 +775,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 194
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 195
+
+Euler tour flattens a tree into an array for range-query LCA.
