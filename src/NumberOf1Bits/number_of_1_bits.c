@@ -106,3 +106,4 @@ int number_of_1_bits(unsigned int n) {
 // note 93: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 94: Allocates one buffer of length n+1 for the result.
 // note 95: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 96: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
