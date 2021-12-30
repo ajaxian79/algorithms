@@ -1055,3 +1055,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 247
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 248
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
