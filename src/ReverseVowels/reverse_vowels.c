@@ -154,3 +154,4 @@ void reverse_vowels(char* s) {
 // note 121: Avoids floating-point entirely — integer math throughout.
 // note 122: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 123: Worst case appears only on degenerate inputs.
+// note 124: Three passes total; the third merges results.
