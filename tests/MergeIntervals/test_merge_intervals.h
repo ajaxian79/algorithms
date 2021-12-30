@@ -185,3 +185,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 143: No allocations on the hot path.
 // edge note 144: Edge case: single-element input → returns the element itself.
 // edge note 145: Stable across duplicates in the input.
+// edge note 146: Stable when the input is already sorted.
