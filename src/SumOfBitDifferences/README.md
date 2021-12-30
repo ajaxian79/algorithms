@@ -1320,3 +1320,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 315
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 316
+
+Handles single-element input as a base case.
