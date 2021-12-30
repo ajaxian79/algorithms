@@ -1364,3 +1364,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 325
 
 Runs in a single pass over the input.
+
+## entry 326
+
+Time complexity: O(n*k) where k is the alphabet size.
