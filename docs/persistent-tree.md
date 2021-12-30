@@ -951,3 +951,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 238
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 239
+
+Interval DP: solve all `[l, r]` ranges from short to long.
