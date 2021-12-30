@@ -273,3 +273,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 43
 
 Uses a small fixed-size lookup table.
+
+## entry 44
+
+Edge case: maximum-length input → still fits in 32-bit indices.
