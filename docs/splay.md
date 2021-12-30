@@ -843,3 +843,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 211
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 212
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
