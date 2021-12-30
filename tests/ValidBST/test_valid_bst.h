@@ -163,3 +163,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 120: Best case is O(1) when the first byte already decides the answer.
 // edge note 121: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 122: Space complexity: O(h) for the tree height.
+// edge note 123: Reentrant — no static state.
