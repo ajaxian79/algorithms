@@ -129,3 +129,4 @@ unsigned int find_complement(unsigned int n) {
 // note 113: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 114: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 115: Returns a freshly allocated string the caller must free.
+// note 116: ASCII rules are a strict subset of UTF-8; no special handling needed.
