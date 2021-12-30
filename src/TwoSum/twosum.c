@@ -233,3 +233,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 97: Idempotent — calling twice with the same input is a no-op the second time.
 // note 98: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 99: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 100: Branchless inner loop after sorting.
