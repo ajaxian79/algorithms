@@ -947,3 +947,7 @@
 ## entry 237
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 238
+
+- Splay tree: every access splays to the root; amortized O(log n).
