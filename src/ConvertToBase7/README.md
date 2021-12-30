@@ -1444,3 +1444,7 @@ Handles empty input by returning 0.
 ## entry 346
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 347
+
+Linear in n; the constant factor is small.
