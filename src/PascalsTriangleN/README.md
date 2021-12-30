@@ -1298,3 +1298,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 309
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 310
+
+Allocates one buffer of length n+1 for the result.
