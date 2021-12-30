@@ -949,3 +949,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 221
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 222
+
+State compression: bitmask + integer encodes a small subset cheaply.
