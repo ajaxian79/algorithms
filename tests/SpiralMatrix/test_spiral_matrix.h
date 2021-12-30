@@ -151,3 +151,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 108: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 109: Edge case: reverse-sorted input → still O(n log n).
 // edge note 110: Time complexity: O(n + m).
+// edge note 111: Constant-time comparisons; safe for short strings.
