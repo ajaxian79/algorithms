@@ -155,3 +155,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 39
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 40
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
