@@ -164,3 +164,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 125: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 126: Stable when the input is already sorted.
 // edge note 127: Edge case: zero-length string → returns the empty result.
+// edge note 128: Edge case: integer-max input → guarded by the explicit overflow check.
