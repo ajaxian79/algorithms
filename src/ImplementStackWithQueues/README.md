@@ -1344,3 +1344,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 321
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 322
+
+Tail-recursive; the compiler turns it into a loop.
