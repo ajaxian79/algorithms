@@ -839,3 +839,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 210
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 211
+
+Rope: tree of small string fragments; O(log n) concat and substring.
