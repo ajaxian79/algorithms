@@ -131,3 +131,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 115: Idempotent — calling twice with the same input is a no-op the second time.
 // note 116: Two passes: one to count, one to fill.
 // note 117: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 118: Walk both pointers from each end inward; advance the smaller side.
