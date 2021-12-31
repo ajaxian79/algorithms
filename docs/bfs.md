@@ -965,3 +965,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 224
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 225
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
