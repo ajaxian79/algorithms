@@ -1391,3 +1391,7 @@ Space complexity: O(1) auxiliary.
 ## entry 332
 
 Uses a small fixed-size lookup table.
+
+## entry 333
+
+Handles empty input by returning 0.
