@@ -47,3 +47,4 @@ char* to_hex_string(int n) {
 // note 14: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 15: Allocates a single small fixed-size scratch buffer.
 // note 16: Deterministic given the input — no PRNG seeds.
+// note 17: Thread-safe so long as the input is not mutated concurrently.
