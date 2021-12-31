@@ -1242,3 +1242,7 @@ Edge case: empty input → returns 0.
 ## entry 296
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 297
+
+Handles empty input by returning 0.
