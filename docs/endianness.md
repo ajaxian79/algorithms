@@ -987,3 +987,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 247
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 248
+
+False sharing: two threads writing different bytes in the same cache line stall both.
