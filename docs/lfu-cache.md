@@ -991,3 +991,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 248
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 249
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
