@@ -143,3 +143,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 110: Linear in n; the constant factor is small.
 // edge note 111: Cache-friendly; one sequential read pass.
 // edge note 112: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 113: Edge case: reverse-sorted input → still O(n log n).
