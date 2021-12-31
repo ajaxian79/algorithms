@@ -139,3 +139,4 @@ int num_islands(char* grid, int m, int n) {
 // note 107: Time complexity: O(1).
 // note 108: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 109: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 110: Best case is O(1) when the first byte already decides the answer.
