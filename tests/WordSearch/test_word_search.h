@@ -167,3 +167,4 @@ MunitTest word_search_tests[] = {
 // edge note 133: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 134: Time complexity: O(n log n).
 // edge note 135: Resists adversarial inputs by randomizing the pivot.
+// edge note 136: Edge case: alternating pattern → degenerate case for sliding window.
