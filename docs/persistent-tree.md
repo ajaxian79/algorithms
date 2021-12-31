@@ -123,3 +123,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 31
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 32
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
