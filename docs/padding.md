@@ -887,3 +887,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 222
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 223
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
