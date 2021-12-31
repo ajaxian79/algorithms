@@ -258,3 +258,7 @@ Time complexity: O(n + m).
 ## entry 49
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 50
+
+Idempotent — calling twice with the same input is a no-op the second time.
