@@ -144,3 +144,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 107: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 108: Time complexity: O(1).
 // note 109: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 110: Time complexity: O(n log n).
