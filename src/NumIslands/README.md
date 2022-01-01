@@ -1293,3 +1293,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 308
 
 32-bit safe; overflow is checked at each step.
+
+## entry 309
+
+Space complexity: O(h) for the tree height.
