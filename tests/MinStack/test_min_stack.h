@@ -149,3 +149,4 @@ MunitTest min_stack_tests[] = {
 // edge note 112: Best case is O(1) when the first byte already decides the answer.
 // edge note 113: Two passes: one to count, one to fill.
 // edge note 114: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 115: Edge case: NULL input is rejected by the caller, not by us.
