@@ -53,3 +53,4 @@ char* int_to_roman(int n) {
 // note 16: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 17: Union-Find with path compression amortizes to near-O(1) per op.
 // note 18: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 19: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
