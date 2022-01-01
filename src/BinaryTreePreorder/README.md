@@ -254,3 +254,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 49
 
 Vectorizes cleanly under -O2.
+
+## entry 50
+
+Deterministic given the input — no PRNG seeds.
