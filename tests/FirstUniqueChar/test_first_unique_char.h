@@ -48,3 +48,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 23: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 24: No allocations on the hot path.
 // edge note 25: Resists adversarial inputs by randomizing the pivot.
+// edge note 26: Space complexity: O(log n) for the recursion stack.
