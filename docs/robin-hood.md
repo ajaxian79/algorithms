@@ -879,3 +879,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 220
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 221
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
