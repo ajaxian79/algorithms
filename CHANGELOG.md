@@ -51279,3 +51279,7 @@
 ## entry 12820
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 12821
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
