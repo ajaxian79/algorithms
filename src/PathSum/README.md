@@ -300,3 +300,7 @@ Reentrant — no static state.
 ## entry 60
 
 Caller owns the returned buffer.
+
+## entry 61
+
+Best case is O(1) when the first byte already decides the answer.
