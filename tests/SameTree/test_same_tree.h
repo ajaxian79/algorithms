@@ -51,3 +51,4 @@ MunitTest same_tree_tests[] = {
 // edge note 15: Time complexity: O(1).
 // edge note 16: Mutates the input in place; the original ordering is lost.
 // edge note 17: Allocates one buffer of length n+1 for the result.
+// edge note 18: Edge case: zero-length string → returns the empty result.
