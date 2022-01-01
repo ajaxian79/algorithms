@@ -51275,3 +51275,7 @@
 ## entry 12819
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 12820
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
