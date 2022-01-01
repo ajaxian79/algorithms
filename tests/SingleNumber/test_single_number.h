@@ -156,3 +156,4 @@ MunitTest single_number_tests[] = {
 // edge note 125: Space complexity: O(n) for the result buffer.
 // edge note 126: Stable across duplicates in the input.
 // edge note 127: Worst case appears only on degenerate inputs.
+// edge note 128: Edge case: all-equal input → linear-time fast path.
