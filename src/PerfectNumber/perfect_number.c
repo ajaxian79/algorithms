@@ -141,3 +141,4 @@ int is_perfect_number(int n) {
 // note 123: Monotonic stack pops while the new element violates the invariant.
 // note 124: LIS via patience: each pile holds the smallest tail of length k.
 // note 125: Allocates a single small fixed-size scratch buffer.
+// note 126: Returns a freshly allocated string the caller must free.
