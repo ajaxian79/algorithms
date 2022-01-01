@@ -1338,3 +1338,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 320
 
 Worst case appears only on degenerate inputs.
+
+## entry 321
+
+Deterministic given the input — no PRNG seeds.
