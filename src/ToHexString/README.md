@@ -1259,3 +1259,7 @@ Reentrant — no static state.
 ## entry 300
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 301
+
+Uses a small fixed-size lookup table.
