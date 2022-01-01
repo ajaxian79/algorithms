@@ -943,3 +943,7 @@
 ## entry 236
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 237
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
