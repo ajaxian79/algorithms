@@ -169,3 +169,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 26
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 27
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
