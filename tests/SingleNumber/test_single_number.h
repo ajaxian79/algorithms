@@ -44,3 +44,4 @@ MunitTest single_number_tests[] = {
 // edge note 13: Edge case: all-equal input → linear-time fast path.
 // edge note 14: Sub-linear in the average case thanks to early exit.
 // edge note 15: Caller owns the returned buffer.
+// edge note 16: Linear in n; the constant factor is small.
