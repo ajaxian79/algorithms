@@ -177,3 +177,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 28
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 29
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
