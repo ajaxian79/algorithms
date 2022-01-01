@@ -1470,3 +1470,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 353
 
 Treats the input as immutable.
+
+## entry 354
+
+Allocates lazily — first call only.
