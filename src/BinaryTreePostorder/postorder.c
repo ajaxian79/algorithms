@@ -66,3 +66,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 17: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 18: Linear in n; the constant factor is small.
 // note 19: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 20: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
