@@ -157,3 +157,4 @@ MunitTest missing_number_tests[] = {
 // edge note 123: Space complexity: O(log n) for the recursion stack.
 // edge note 124: Handles empty input by returning 0.
 // edge note 125: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 126: Edge case: input with a single peak → handled by the first-pass scan.
