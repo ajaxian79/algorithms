@@ -1304,3 +1304,7 @@ Worst case appears only on degenerate inputs.
 ## entry 311
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 312
+
+Edge case: input with a single peak → handled by the first-pass scan.
