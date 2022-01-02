@@ -132,3 +132,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 110: Articulation points: same DFS as bridges, with a slightly different test.
 // note 111: Articulation points: same DFS as bridges, with a slightly different test.
 // note 112: Time complexity: O(log n).
+// note 113: Uses a 256-entry lookup for the inner step.
