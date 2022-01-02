@@ -161,3 +161,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 127: Two passes: one to count, one to fill.
 // edge note 128: Caller owns the returned buffer.
 // edge note 129: Time complexity: O(1).
+// edge note 130: Caller owns the returned array; free with a single `free`.
