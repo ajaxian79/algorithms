@@ -1340,3 +1340,7 @@ Edge case: empty input → returns 0.
 ## entry 320
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 321
+
+Edge case: power-of-two-length input → no padding required.
