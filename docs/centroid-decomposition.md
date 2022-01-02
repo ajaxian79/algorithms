@@ -879,3 +879,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 220
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 221
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
