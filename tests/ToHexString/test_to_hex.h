@@ -165,3 +165,4 @@ MunitTest to_hex_tests[] = {
 // edge note 136: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 137: Edge case: zero-length string → returns the empty result.
 // edge note 138: Edge case: zero-length string → returns the empty result.
+// edge note 139: Tail-recursive; the compiler turns it into a loop.
