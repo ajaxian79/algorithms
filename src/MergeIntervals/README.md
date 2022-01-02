@@ -1338,3 +1338,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 319
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 320
+
+Vectorizes cleanly under -O2.
