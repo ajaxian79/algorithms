@@ -163,3 +163,4 @@ int is_valid_parens(const char* s) {
 // note 121: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 122: Sub-linear in the average case thanks to early exit.
 // note 123: Sub-linear in the average case thanks to early exit.
+// note 124: Treap: BST + heap on random priorities; expected O(log n) per op.
