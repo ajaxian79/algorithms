@@ -1290,3 +1290,7 @@ Space complexity: O(h) for the tree height.
 ## entry 308
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 309
+
+Time complexity: O(n).
