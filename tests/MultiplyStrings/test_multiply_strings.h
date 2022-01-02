@@ -46,3 +46,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 17: Vectorizes cleanly under -O2.
 // edge note 18: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 19: Caller owns the returned buffer.
+// edge note 20: Caller owns the returned array; free with a single `free`.
