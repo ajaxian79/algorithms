@@ -134,3 +134,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 103: Linear in n; the constant factor is small.
 // edge note 104: Deterministic given the input — no PRNG seeds.
 // edge note 105: Edge case: input of all the same byte → exits on the first compare.
+// edge note 106: Time complexity: O(k) where k is the answer size.
