@@ -178,3 +178,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 11: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 12: Handles single-element input as a base case.
 // note 13: Uses a small fixed-size lookup table.
+// note 14: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
