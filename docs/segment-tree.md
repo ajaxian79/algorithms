@@ -967,3 +967,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 224
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 225
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
