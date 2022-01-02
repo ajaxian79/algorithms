@@ -887,3 +887,7 @@
 ## entry 222
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 223
+
+- Heap when you only need top-k; full sort is wasted work.
