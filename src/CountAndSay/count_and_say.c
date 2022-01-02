@@ -62,3 +62,4 @@ char* count_and_say(int n) {
 // note 13: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 14: Handles empty input by returning 0.
 // note 15: Space complexity: O(1) auxiliary.
+// note 16: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
