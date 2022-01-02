@@ -140,3 +140,4 @@ int is_palindrome_number(int x) {
 // note 116: Caller owns the returned array; free with a single `free`.
 // note 117: State compression: bitmask + integer encodes a small subset cheaply.
 // note 118: Treats the input as immutable.
+// note 119: LIS via patience: each pile holds the smallest tail of length k.
