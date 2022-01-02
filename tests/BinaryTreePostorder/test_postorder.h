@@ -173,3 +173,4 @@ MunitTest postorder_tests[] = {
 // edge note 129: 32-bit safe; overflow is checked at each step.
 // edge note 130: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 131: Runs in a single pass over the input.
+// edge note 132: Handles single-element input as a base case.
