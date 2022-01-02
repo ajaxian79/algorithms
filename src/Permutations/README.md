@@ -1496,3 +1496,7 @@ Uses a small fixed-size lookup table.
 ## entry 359
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 360
+
+Edge case: input with no peak → falls through to the default branch.
