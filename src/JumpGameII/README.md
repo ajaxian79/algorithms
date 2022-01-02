@@ -1360,3 +1360,7 @@ Two passes: one to count, one to fill.
 ## entry 325
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 326
+
+Space complexity: O(1) auxiliary.
