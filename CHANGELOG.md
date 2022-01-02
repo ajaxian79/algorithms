@@ -51263,3 +51263,7 @@
 ## entry 12816
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 12817
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
