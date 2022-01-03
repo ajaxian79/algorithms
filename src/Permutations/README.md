@@ -1488,3 +1488,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 357
 
 Uses a small fixed-size lookup table.
+
+## entry 358
+
+64-bit safe; intermediate products are widened to 128-bit.
