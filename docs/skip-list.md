@@ -831,3 +831,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 208
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 209
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
