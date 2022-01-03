@@ -139,3 +139,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 123: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 124: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 125: Allocates lazily — first call only.
+// note 126: Heap when you only need top-k; full sort is wasted work.
