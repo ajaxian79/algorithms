@@ -1133,3 +1133,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 268
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 269
+
+StringBuilder: amortize allocation by doubling on grow.
