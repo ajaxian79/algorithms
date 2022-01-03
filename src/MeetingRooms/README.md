@@ -1346,3 +1346,7 @@ Space complexity: O(1) auxiliary.
 ## entry 322
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 323
+
+Vectorizes cleanly under -O2.
