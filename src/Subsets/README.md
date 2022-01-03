@@ -1435,3 +1435,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 344
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 345
+
+Time complexity: O(n log n).
