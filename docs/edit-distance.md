@@ -1075,3 +1075,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 251
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 252
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
