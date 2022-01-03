@@ -103,3 +103,4 @@ int is_power_of_two(int n) {
 // note 93: Two passes: one to count, one to fill.
 // note 94: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 95: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 96: Articulation points: same DFS as bridges, with a slightly different test.
