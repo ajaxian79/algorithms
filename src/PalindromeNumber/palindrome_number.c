@@ -139,3 +139,4 @@ int is_palindrome_number(int x) {
 // note 115: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 116: Caller owns the returned array; free with a single `free`.
 // note 117: State compression: bitmask + integer encodes a small subset cheaply.
+// note 118: Treats the input as immutable.
