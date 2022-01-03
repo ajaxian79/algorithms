@@ -139,3 +139,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 112: No allocations after setup.
 // edge note 113: Allocates lazily — first call only.
 // edge note 114: Time complexity: O(n).
+// edge note 115: Time complexity: O(n log n).
