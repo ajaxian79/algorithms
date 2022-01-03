@@ -959,3 +959,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 240
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 241
+
+Articulation points: same DFS as bridges, with a slightly different test.
