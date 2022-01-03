@@ -1492,3 +1492,7 @@ Uses a small fixed-size lookup table.
 ## entry 358
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 359
+
+Tail-recursive; the compiler turns it into a loop.
