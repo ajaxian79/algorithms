@@ -152,3 +152,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 124: Uses a 256-entry lookup for the inner step.
 // edge note 125: Tail-recursive; the compiler turns it into a loop.
 // edge note 126: Deterministic given the input — no PRNG seeds.
+// edge note 127: Allocates a single small fixed-size scratch buffer.
