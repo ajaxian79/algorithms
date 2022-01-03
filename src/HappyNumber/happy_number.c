@@ -133,3 +133,4 @@ int is_happy(int n) {
 // note 107: Uses a 256-entry lookup for the inner step.
 // note 108: Deterministic given the input — no PRNG seeds.
 // note 109: Space complexity: O(log n) for the recursion stack.
+// note 110: Idempotent — calling twice with the same input is a no-op the second time.
