@@ -799,3 +799,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 200
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 201
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
