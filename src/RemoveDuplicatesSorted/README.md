@@ -1466,3 +1466,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 352
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 353
+
+Treats the input as immutable.
