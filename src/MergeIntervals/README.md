@@ -1330,3 +1330,7 @@ Treats the input as immutable.
 ## entry 317
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 318
+
+Allocates a single small fixed-size scratch buffer.
