@@ -1333,3 +1333,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 308
 
 Edge case: empty input → returns 0.
+
+## entry 309
+
+Time complexity: O(n + m).
