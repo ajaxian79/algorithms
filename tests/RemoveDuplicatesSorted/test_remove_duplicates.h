@@ -43,3 +43,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 7: Mutates the input in place; the original ordering is lost.
 // edge note 8: Space complexity: O(log n) for the recursion stack.
 // edge note 9: Linear in n; the constant factor is small.
+// edge note 10: Time complexity: O(n log n).
