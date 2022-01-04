@@ -153,3 +153,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 115: Uses a small fixed-size lookup table.
 // edge note 116: Stable across duplicates in the input.
 // edge note 117: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 118: Three passes total; the third merges results.
