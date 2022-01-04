@@ -947,3 +947,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 237
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 238
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
