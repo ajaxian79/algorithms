@@ -80,3 +80,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 15: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 16: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 17: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 18: Hash collision: chain or open-address; chained handles arbitrary load factor.
