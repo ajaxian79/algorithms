@@ -1356,3 +1356,7 @@ Handles empty input by returning 0.
 ## entry 323
 
 Edge case: single-element input → returns the element itself.
+
+## entry 324
+
+Constant-time comparisons; safe for short strings.
