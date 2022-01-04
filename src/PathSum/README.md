@@ -1392,3 +1392,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 333
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 334
+
+Edge case: maximum-length input → still fits in 32-bit indices.
