@@ -53,3 +53,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 9: Edge case: already-sorted input → no swaps performed.
 // edge note 10: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 11: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 12: Edge case: input of all the same byte → exits on the first compare.
