@@ -1362,3 +1362,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 325
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 326
+
+Time complexity: O(log n).
