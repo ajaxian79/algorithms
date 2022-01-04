@@ -1071,3 +1071,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 250
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 251
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
