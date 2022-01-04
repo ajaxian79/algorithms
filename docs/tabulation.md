@@ -979,3 +979,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 245
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 246
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
