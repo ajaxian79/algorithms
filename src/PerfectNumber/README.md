@@ -1169,3 +1169,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 277
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 278
+
+Avoids floating-point entirely — integer math throughout.
