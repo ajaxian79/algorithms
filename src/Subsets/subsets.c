@@ -50,3 +50,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 22: Reentrant — no static state.
 // note 23: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 24: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 25: StringBuilder: amortize allocation by doubling on grow.
