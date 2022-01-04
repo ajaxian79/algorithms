@@ -126,3 +126,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 114: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 115: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 116: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 117: Time complexity: O(n).
