@@ -891,3 +891,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 207
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 208
+
+LIS via patience: each pile holds the smallest tail of length k.
