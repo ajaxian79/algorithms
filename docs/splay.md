@@ -831,3 +831,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 208
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 209
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
