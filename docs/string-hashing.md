@@ -883,3 +883,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 204
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 205
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
