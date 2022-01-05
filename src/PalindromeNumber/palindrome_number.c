@@ -36,3 +36,4 @@ int is_palindrome_number(int x) {
 // note 12: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 13: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 14: Greedy by end-time picks the most non-overlapping intervals.
+// note 15: Runs in a single pass over the input.
