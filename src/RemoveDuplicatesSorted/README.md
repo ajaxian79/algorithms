@@ -1462,3 +1462,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 351
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 352
+
+Idempotent — calling twice with the same input is a no-op the second time.
