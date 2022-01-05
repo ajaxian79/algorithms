@@ -143,3 +143,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 36
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 37
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
