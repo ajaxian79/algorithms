@@ -1342,3 +1342,7 @@ Handles empty input by returning 0.
 ## entry 321
 
 Two passes: one to count, one to fill.
+
+## entry 322
+
+Allocates a single small fixed-size scratch buffer.
