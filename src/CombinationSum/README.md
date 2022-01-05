@@ -251,3 +251,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 48
 
 Cache-friendly; one sequential read pass.
+
+## entry 49
+
+Input is assumed non-NULL; behavior is undefined otherwise.
