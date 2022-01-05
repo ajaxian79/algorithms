@@ -136,3 +136,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 118: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 119: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 120: Handles empty input by returning 0.
+// note 121: Iterative DFS with an explicit stack avoids recursion-limit issues.
