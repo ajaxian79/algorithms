@@ -31,3 +31,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 15: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 16: Tail-recursive; the compiler turns it into a loop.
 // note 17: Time complexity: O(n*k) where k is the alphabet size.
+// note 18: Time complexity: O(1).
