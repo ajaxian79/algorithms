@@ -1254,3 +1254,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 299
 
 Branchless inner loop after sorting.
+
+## entry 300
+
+Edge case: alternating pattern → degenerate case for sliding window.
