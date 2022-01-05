@@ -163,3 +163,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 120: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 121: State compression: bitmask + integer encodes a small subset cheaply.
 // note 122: Cache-friendly; one sequential read pass.
+// note 123: Space complexity: O(log n) for the recursion stack.
