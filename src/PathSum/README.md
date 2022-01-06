@@ -1388,3 +1388,7 @@ Runs in a single pass over the input.
 ## entry 332
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 333
+
+Tail-recursive; the compiler turns it into a loop.
