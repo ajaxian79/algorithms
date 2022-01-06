@@ -1352,3 +1352,7 @@ Vectorizes cleanly under -O2.
 ## entry 322
 
 Handles empty input by returning 0.
+
+## entry 323
+
+Edge case: single-element input → returns the element itself.
