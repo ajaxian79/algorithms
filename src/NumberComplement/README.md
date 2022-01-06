@@ -240,3 +240,7 @@ Handles negative inputs as documented above.
 ## entry 44
 
 Time complexity: O(1).
+
+## entry 45
+
+Thread-safe so long as the input is not mutated concurrently.
