@@ -1011,3 +1011,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 253
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 254
+
+Articulation points: same DFS as bridges, with a slightly different test.
