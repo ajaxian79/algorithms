@@ -855,3 +855,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 214
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 215
+
+Articulation points: same DFS as bridges, with a slightly different test.
