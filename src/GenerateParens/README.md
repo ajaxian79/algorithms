@@ -224,3 +224,7 @@ Time complexity: O(n).
 ## entry 40
 
 Caller owns the returned buffer.
+
+## entry 41
+
+Treats the input as immutable.
