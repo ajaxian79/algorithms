@@ -51183,3 +51183,7 @@
 ## entry 12796
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 12797
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
