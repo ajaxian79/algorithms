@@ -149,3 +149,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 119: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 120: Allocates a single small fixed-size scratch buffer.
 // note 121: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 122: Treap: BST + heap on random priorities; expected O(log n) per op.
