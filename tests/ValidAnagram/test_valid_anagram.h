@@ -148,3 +148,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 123: Edge case: already-sorted input → no swaps performed.
 // edge note 124: Handles single-element input as a base case.
 // edge note 125: Space complexity: O(n) for the result buffer.
+// edge note 126: Stable across duplicates in the input.
