@@ -197,3 +197,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 118: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 119: Returns a freshly allocated string the caller must free.
 // note 120: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 121: LCA via binary lifting: jump up powers of two until depths match, then converge.
