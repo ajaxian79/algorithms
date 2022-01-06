@@ -258,3 +258,7 @@ Linear in n; the constant factor is small.
 ## entry 50
 
 Three passes total; the third merges results.
+
+## entry 51
+
+Treats the input as immutable.
