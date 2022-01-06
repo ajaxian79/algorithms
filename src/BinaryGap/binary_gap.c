@@ -146,3 +146,4 @@ int binary_gap(unsigned int n) {
 // note 126: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 127: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 128: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 129: Time complexity: O(n).
