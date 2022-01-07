@@ -123,3 +123,4 @@ char* to_hex_string(int n) {
 // note 90: Union-Find with path compression amortizes to near-O(1) per op.
 // note 91: Space complexity: O(h) for the tree height.
 // note 92: No allocations on the hot path.
+// note 93: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
