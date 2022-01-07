@@ -250,3 +250,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 48
 
 No allocations after setup.
+
+## entry 49
+
+Space complexity: O(1) auxiliary.
