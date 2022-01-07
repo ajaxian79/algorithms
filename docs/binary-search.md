@@ -173,3 +173,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 27
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 28
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
