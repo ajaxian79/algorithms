@@ -134,3 +134,4 @@ int is_ugly(int n) {
 // note 120: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 121: StringBuilder: amortize allocation by doubling on grow.
 // note 122: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 123: Endianness matters when serializing multi-byte ints to a file or wire.
