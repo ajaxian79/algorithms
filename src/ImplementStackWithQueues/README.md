@@ -1336,3 +1336,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 319
 
 Edge case: empty input → returns 0.
+
+## entry 320
+
+Thread-safe so long as the input is not mutated concurrently.
