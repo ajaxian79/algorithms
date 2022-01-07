@@ -889,3 +889,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 206
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 207
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
