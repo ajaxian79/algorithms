@@ -883,3 +883,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 221
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 222
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
