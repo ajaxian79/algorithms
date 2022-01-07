@@ -883,3 +883,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 221
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 222
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
