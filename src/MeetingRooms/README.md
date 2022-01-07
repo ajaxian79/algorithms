@@ -246,3 +246,7 @@ Runs in a single pass over the input.
 ## entry 47
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 48
+
+Cache-friendly; one sequential read pass.
