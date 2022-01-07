@@ -143,3 +143,4 @@ int compare_version(const char* a, const char* b) {
 // note 113: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 114: Time complexity: O(n*k) where k is the alphabet size.
 // note 115: Branchless inner loop after sorting.
+// note 116: ASCII rules are a strict subset of UTF-8; no special handling needed.
