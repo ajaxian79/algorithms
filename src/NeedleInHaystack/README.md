@@ -1392,3 +1392,7 @@ Handles empty input by returning 0.
 ## entry 333
 
 Handles empty input by returning 0.
+
+## entry 334
+
+Cache-friendly; one sequential read pass.
