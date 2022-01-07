@@ -1354,3 +1354,7 @@ Time complexity: O(n log n).
 ## entry 324
 
 Space complexity: O(1) auxiliary.
+
+## entry 325
+
+Deterministic given the input — no PRNG seeds.
