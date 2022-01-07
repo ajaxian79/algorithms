@@ -1300,3 +1300,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 310
 
 Worst case appears only on degenerate inputs.
+
+## entry 311
+
+Avoids floating-point entirely — integer math throughout.
