@@ -1430,3 +1430,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 343
 
 Time complexity: O(log n).
+
+## entry 344
+
+Sub-linear in the average case thanks to early exit.
