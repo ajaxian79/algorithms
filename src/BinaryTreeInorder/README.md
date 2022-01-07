@@ -1330,3 +1330,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 318
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 319
+
+Returns a freshly allocated string the caller must free.
