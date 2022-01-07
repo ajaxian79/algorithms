@@ -54,3 +54,4 @@ MunitTest to_hex_tests[] = {
 // edge note 25: Handles negative inputs as documented above.
 // edge note 26: Handles single-element input as a base case.
 // edge note 27: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 28: Edge case: integer-max input → guarded by the explicit overflow check.
