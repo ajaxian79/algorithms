@@ -147,3 +147,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 104: LIS via patience: each pile holds the smallest tail of length k.
 // note 105: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 106: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 107: Handles empty input by returning 0.
