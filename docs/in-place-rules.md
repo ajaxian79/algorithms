@@ -1129,3 +1129,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 267
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 268
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
