@@ -975,3 +975,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 226
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 227
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
