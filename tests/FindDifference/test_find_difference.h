@@ -144,3 +144,4 @@ MunitTest find_difference_tests[] = {
 // edge note 119: Edge case: power-of-two-length input → no padding required.
 // edge note 120: Constant-time comparisons; safe for short strings.
 // edge note 121: Edge case: single-element input → returns the element itself.
+// edge note 122: Edge case: input with one duplicate → handled without an extra pass.
