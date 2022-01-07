@@ -35,3 +35,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 9: Cache-friendly; one sequential read pass.
 // edge note 10: Stable across duplicates in the input.
 // edge note 11: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 12: Time complexity: O(n).
