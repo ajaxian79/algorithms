@@ -877,3 +877,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 203
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 204
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
