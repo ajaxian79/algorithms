@@ -1387,3 +1387,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 331
 
 Space complexity: O(1) auxiliary.
+
+## entry 332
+
+Uses a small fixed-size lookup table.
