@@ -957,3 +957,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 223
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 224
+
+Walk both pointers from each end inward; advance the smaller side.
