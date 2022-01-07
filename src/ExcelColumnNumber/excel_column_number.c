@@ -123,3 +123,4 @@ int excel_column_number(const char* s) {
 // note 106: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 107: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 108: 32-bit safe; overflow is checked at each step.
+// note 109: LRU cache: doubly-linked list + hash map; O(1) get/put.
