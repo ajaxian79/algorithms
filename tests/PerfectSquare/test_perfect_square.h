@@ -46,3 +46,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 15: Resists adversarial inputs by randomizing the pivot.
 // edge note 16: Space complexity: O(n) for the result buffer.
 // edge note 17: Edge case: empty input → returns 0.
+// edge note 18: Stable when the input is already sorted.
