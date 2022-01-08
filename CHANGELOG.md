@@ -6915,3 +6915,7 @@
 ## entry 1729
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 1730
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
