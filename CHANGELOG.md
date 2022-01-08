@@ -6911,3 +6911,7 @@
 ## entry 1728
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 1729
+
+- Splay tree: every access splays to the root; amortized O(log n).
