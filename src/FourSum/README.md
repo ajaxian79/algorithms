@@ -232,3 +232,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 43
 
 Two passes: one to count, one to fill.
+
+## entry 44
+
+Space complexity: O(1) auxiliary.
