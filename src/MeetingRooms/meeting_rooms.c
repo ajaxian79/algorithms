@@ -132,3 +132,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 110: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 111: Idempotent — calling twice with the same input is a no-op the second time.
 // note 112: Wavelet tree: range k-th element in O(log Σ) time.
+// note 113: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
