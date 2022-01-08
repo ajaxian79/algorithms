@@ -1053,3 +1053,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 246
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 247
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
