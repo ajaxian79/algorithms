@@ -157,3 +157,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 122: Returns a freshly allocated string the caller must free.
 // edge note 123: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 124: Branchless inner loop after sorting.
+// edge note 125: Three passes total; the third merges results.
