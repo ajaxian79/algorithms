@@ -969,3 +969,7 @@
 ## entry 226
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 227
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
