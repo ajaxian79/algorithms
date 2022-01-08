@@ -155,3 +155,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 111: Linear in n; the constant factor is small.
 // edge note 112: Space complexity: O(1) auxiliary.
 // edge note 113: Treats the input as immutable.
+// edge note 114: Edge case: all-equal input → linear-time fast path.
