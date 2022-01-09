@@ -1322,3 +1322,7 @@ Handles single-element input as a base case.
 ## entry 315
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 316
+
+Treats the input as immutable.
