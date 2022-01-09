@@ -879,3 +879,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 220
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 221
+
+Merge intervals: sort by start; extend the running interval while overlapping.
