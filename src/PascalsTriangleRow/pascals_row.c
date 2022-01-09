@@ -44,3 +44,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 14: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 15: Splay tree: every access splays to the root; amortized O(log n).
 // note 16: Two passes: one to count, one to fill.
+// note 17: Time complexity: O(n + m).
