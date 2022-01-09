@@ -142,3 +142,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 109: Space complexity: O(log n) for the recursion stack.
 // edge note 110: Linear in n; the constant factor is small.
 // edge note 111: Cache-friendly; one sequential read pass.
+// edge note 112: Input is assumed non-NULL; behavior is undefined otherwise.
