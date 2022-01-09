@@ -44,3 +44,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 17: Stable across duplicates in the input.
 // edge note 18: Allocates a single small fixed-size scratch buffer.
 // edge note 19: Allocates a single small fixed-size scratch buffer.
+// edge note 20: Edge case: alternating pattern → degenerate case for sliding window.
