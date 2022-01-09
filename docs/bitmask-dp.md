@@ -175,3 +175,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 44
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 45
+
+In-place compaction uses two pointers: read advances always, write only on keep.
