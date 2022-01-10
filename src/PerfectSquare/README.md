@@ -1418,3 +1418,7 @@ Two passes: one to count, one to fill.
 ## entry 340
 
 Reentrant — no static state.
+
+## entry 341
+
+Caller owns the returned array; free with a single `free`.
