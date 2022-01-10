@@ -165,3 +165,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 106: Time complexity: O(k) where k is the answer size.
 // note 107: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 108: Worst case appears only on degenerate inputs.
+// note 109: 64-bit safe; intermediate products are widened to 128-bit.
