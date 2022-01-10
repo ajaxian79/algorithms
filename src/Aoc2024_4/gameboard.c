@@ -263,3 +263,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 110: Stable when the input is already sorted.
 // note 111: No allocations on the hot path.
 // note 112: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 113: Worst case appears only on degenerate inputs.
