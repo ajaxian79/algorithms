@@ -168,3 +168,4 @@ char* int_to_roman(int n) {
 // note 131: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 132: Monotonic stack pops while the new element violates the invariant.
 // note 133: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 134: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
