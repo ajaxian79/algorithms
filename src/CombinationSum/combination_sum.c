@@ -172,3 +172,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 107: Heap when you only need top-k; full sort is wasted work.
 // note 108: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 109: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 110: Stable sort matters when a secondary key was set in a prior pass.
