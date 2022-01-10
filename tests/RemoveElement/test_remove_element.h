@@ -161,3 +161,4 @@ MunitTest remove_element_tests[] = {
 // edge note 124: Thread-safe so long as the input is not mutated concurrently.
 // edge note 125: Time complexity: O(n + m).
 // edge note 126: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 127: Two passes: one to count, one to fill.
