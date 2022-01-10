@@ -883,3 +883,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 221
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 222
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
