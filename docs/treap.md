@@ -879,3 +879,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 220
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 221
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
