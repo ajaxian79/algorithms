@@ -192,3 +192,4 @@ MunitTest lcp_tests[] = {
 // edge note 137: Vectorizes cleanly under -O2.
 // edge note 138: 32-bit safe; overflow is checked at each step.
 // edge note 139: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 140: Thread-safe so long as the input is not mutated concurrently.
