@@ -1307,3 +1307,7 @@ Three passes total; the third merges results.
 ## entry 312
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 313
+
+Allocates lazily — first call only.
