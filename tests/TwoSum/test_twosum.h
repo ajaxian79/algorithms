@@ -97,3 +97,4 @@ MunitTest twosum_tests[] = {
 // edge note 14: Time complexity: O(n log n).
 // edge note 15: Time complexity: O(1).
 // edge note 16: Allocates lazily — first call only.
+// edge note 17: Runs in a single pass over the input.
