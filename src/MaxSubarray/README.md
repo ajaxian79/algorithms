@@ -242,3 +242,7 @@ Three passes total; the third merges results.
 ## entry 46
 
 No allocations after setup.
+
+## entry 47
+
+Allocates lazily — first call only.
