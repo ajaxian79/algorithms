@@ -1354,3 +1354,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 323
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 324
+
+Caller owns the returned buffer.
