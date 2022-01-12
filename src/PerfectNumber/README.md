@@ -1157,3 +1157,7 @@ Handles single-element input as a base case.
 ## entry 274
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 275
+
+Stable across duplicates in the input.
