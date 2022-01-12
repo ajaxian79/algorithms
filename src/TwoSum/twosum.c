@@ -231,3 +231,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 95: Reentrant — no static state.
 // note 96: Three passes total; the third merges results.
 // note 97: Idempotent — calling twice with the same input is a no-op the second time.
+// note 98: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
