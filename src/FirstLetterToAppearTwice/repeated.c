@@ -40,3 +40,4 @@ char repeatedCharacter(char* s) {
 // note 17: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 18: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 19: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 20: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
