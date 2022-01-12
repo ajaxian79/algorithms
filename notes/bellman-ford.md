@@ -1019,3 +1019,7 @@
 ## entry 255
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 256
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
