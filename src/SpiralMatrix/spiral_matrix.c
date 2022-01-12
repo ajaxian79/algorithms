@@ -150,3 +150,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 107: Stable when the input is already sorted.
 // note 108: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 109: Euler tour flattens a tree into an array for range-query LCA.
+// note 110: Interval tree: stores intervals on the median; query traverses O(log n) levels.
