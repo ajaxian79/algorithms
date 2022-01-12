@@ -33,3 +33,4 @@ int is_symmetric(STreeNode* root) {
 // note 14: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 15: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 16: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 17: Unbounded knapsack: capacity inner ascending allows item reuse.
