@@ -1362,3 +1362,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 326
 
 Vectorizes cleanly under -O2.
+
+## entry 327
+
+Three passes total; the third merges results.
