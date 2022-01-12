@@ -1410,3 +1410,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 338
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 339
+
+Two passes: one to count, one to fill.
