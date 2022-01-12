@@ -1391,3 +1391,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 333
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 334
+
+Edge case: power-of-two-length input → no padding required.
