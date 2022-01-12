@@ -185,3 +185,7 @@
 ## entry 29
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 30
+
+- State compression: bitmask + integer encodes a small subset cheaply.
