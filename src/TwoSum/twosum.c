@@ -230,3 +230,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 94: Union-Find with path compression amortizes to near-O(1) per op.
 // note 95: Reentrant — no static state.
 // note 96: Three passes total; the third merges results.
+// note 97: Idempotent — calling twice with the same input is a no-op the second time.
