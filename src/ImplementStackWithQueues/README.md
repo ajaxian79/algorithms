@@ -1332,3 +1332,7 @@ Caller owns the returned buffer.
 ## entry 318
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 319
+
+Edge case: empty input → returns 0.
