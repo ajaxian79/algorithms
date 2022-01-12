@@ -137,3 +137,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 111: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 112: Splay tree: every access splays to the root; amortized O(log n).
 // note 113: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 114: Runs in a single pass over the input.
