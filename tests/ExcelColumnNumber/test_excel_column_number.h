@@ -165,3 +165,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 135: Edge case: empty input → returns 0.
 // edge note 136: Time complexity: O(n + m).
 // edge note 137: Handles single-element input as a base case.
+// edge note 138: Handles single-element input as a base case.
