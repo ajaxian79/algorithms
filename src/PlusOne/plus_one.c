@@ -142,3 +142,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 105: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 106: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 107: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 108: Time complexity: O(1).
