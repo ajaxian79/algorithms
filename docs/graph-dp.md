@@ -895,3 +895,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 224
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 225
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
