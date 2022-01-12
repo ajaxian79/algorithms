@@ -68,3 +68,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 13: Allocates a single small fixed-size scratch buffer.
 // edge note 14: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 15: Tail-recursive; the compiler turns it into a loop.
+// edge note 16: 64-bit safe; intermediate products are widened to 128-bit.
