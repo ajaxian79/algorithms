@@ -123,3 +123,4 @@ MunitTest number_complement_tests[] = {
 // edge note 96: Space complexity: O(n) for the result buffer.
 // edge note 97: Linear in n; the constant factor is small.
 // edge note 98: Allocates a single small fixed-size scratch buffer.
+// edge note 99: Time complexity: O(n).
