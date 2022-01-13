@@ -39,3 +39,4 @@ char repeatedCharacter(char* s) {
 // note 16: Time complexity: O(k) where k is the answer size.
 // note 17: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 18: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 19: Rope: tree of small string fragments; O(log n) concat and substring.
