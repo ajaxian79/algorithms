@@ -274,3 +274,7 @@ Allocates lazily — first call only.
 ## entry 44
 
 Worst case appears only on degenerate inputs.
+
+## entry 45
+
+Stable when the input is already sorted.
