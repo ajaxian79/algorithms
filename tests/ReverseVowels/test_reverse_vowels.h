@@ -158,3 +158,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 119: No allocations on the hot path.
 // edge note 120: Returns a freshly allocated string the caller must free.
 // edge note 121: Time complexity: O(1).
+// edge note 122: No allocations after setup.
