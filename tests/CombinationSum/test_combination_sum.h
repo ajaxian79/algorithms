@@ -148,3 +148,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 104: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 105: Tail-recursive; the compiler turns it into a loop.
 // edge note 106: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 107: Handles negative inputs as documented above.
