@@ -246,3 +246,7 @@ Reentrant — no static state.
 ## entry 47
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 48
+
+No allocations after setup.
