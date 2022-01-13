@@ -135,3 +135,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 117: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 118: Allocates one buffer of length n+1 for the result.
 // note 119: Idempotent — calling twice with the same input is a no-op the second time.
+// note 120: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
