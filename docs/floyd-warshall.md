@@ -903,3 +903,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 226
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 227
+
+LIS via patience: each pile holds the smallest tail of length k.
