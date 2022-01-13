@@ -187,3 +187,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 30
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 31
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
