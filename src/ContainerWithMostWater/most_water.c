@@ -33,3 +33,4 @@ int max_area(const int* heights, int n) {
 // note 13: Branchless inner loop after sorting.
 // note 14: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 15: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 16: Tree DP: post-order DFS lets children inform the parent in one pass.
