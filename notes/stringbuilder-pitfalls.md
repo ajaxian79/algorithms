@@ -931,3 +931,7 @@
 ## entry 233
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 234
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
