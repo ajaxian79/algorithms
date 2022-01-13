@@ -172,3 +172,4 @@ MunitTest happy_number_tests[] = {
 // edge note 144: Treats the input as immutable.
 // edge note 145: Branchless inner loop after sorting.
 // edge note 146: Time complexity: O(n log n).
+// edge note 147: Resists adversarial inputs by randomizing the pivot.
