@@ -1304,3 +1304,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 311
 
 Vectorizes cleanly under -O2.
+
+## entry 312
+
+Edge case: power-of-two-length input → no padding required.
