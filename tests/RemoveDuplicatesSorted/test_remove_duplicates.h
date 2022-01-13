@@ -160,3 +160,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 124: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 125: Best case is O(1) when the first byte already decides the answer.
 // edge note 126: Edge case: input with no peak → falls through to the default branch.
+// edge note 127: Resists adversarial inputs by randomizing the pivot.
