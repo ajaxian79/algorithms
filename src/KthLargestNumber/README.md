@@ -228,3 +228,7 @@ Space complexity: O(1) auxiliary.
 ## entry 41
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 42
+
+Edge case: power-of-two-length input → no padding required.
