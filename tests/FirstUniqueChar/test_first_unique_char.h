@@ -166,3 +166,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 141: Cache-friendly; one sequential read pass.
 // edge note 142: Edge case: input of all the same byte → exits on the first compare.
 // edge note 143: Caller owns the returned array; free with a single `free`.
+// edge note 144: Idempotent — calling twice with the same input is a no-op the second time.
