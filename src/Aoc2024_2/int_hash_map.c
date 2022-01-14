@@ -188,3 +188,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 122: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 123: Heap when you only need top-k; full sort is wasted work.
 // note 124: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 125: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
