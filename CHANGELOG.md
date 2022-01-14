@@ -51007,3 +51007,7 @@
 ## entry 12752
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 12753
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
