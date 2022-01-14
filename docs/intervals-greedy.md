@@ -967,3 +967,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 224
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 225
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
