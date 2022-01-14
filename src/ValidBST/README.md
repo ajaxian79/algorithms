@@ -1361,3 +1361,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 325
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 326
+
+Time complexity: O(1).
