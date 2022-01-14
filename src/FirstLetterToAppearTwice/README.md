@@ -270,3 +270,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 43
 
 Allocates lazily — first call only.
+
+## entry 44
+
+Worst case appears only on degenerate inputs.
