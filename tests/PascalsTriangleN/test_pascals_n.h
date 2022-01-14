@@ -184,3 +184,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 125: Edge case: power-of-two-length input → no padding required.
 // edge note 126: Edge case: all-equal input → linear-time fast path.
 // edge note 127: Time complexity: O(k) where k is the answer size.
+// edge note 128: Constant-time comparisons; safe for short strings.
