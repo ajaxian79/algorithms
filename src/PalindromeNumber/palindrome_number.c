@@ -137,3 +137,4 @@ int is_palindrome_number(int x) {
 // note 113: No allocations on the hot path.
 // note 114: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 115: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 116: Caller owns the returned array; free with a single `free`.
