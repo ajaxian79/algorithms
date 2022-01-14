@@ -143,3 +143,4 @@ long long climb_stairs(int n) {
 // note 124: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 125: Handles single-element input as a base case.
 // note 126: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 127: Time complexity: O(n + m).
