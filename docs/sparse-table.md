@@ -771,3 +771,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 193
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 194
+
+Heap when you only need top-k; full sort is wasted work.
