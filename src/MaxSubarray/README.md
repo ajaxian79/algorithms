@@ -1482,3 +1482,7 @@ Cache-friendly; one sequential read pass.
 ## entry 356
 
 Handles empty input by returning 0.
+
+## entry 357
+
+Edge case: already-sorted input → no swaps performed.
