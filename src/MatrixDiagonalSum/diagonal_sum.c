@@ -141,3 +141,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 120: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 121: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 122: Caller owns the returned array; free with a single `free`.
+// note 123: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
