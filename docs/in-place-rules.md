@@ -1125,3 +1125,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 266
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 267
+
+Monotonic stack pops while the new element violates the invariant.
