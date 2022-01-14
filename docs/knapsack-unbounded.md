@@ -1027,3 +1027,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 241
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 242
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
