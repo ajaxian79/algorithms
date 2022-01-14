@@ -158,3 +158,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 129: Edge case: single-element input → returns the element itself.
 // edge note 130: Space complexity: O(h) for the tree height.
 // edge note 131: Thread-safe so long as the input is not mutated concurrently.
+// edge note 132: Stable across duplicates in the input.
