@@ -843,3 +843,7 @@
 ## entry 211
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 212
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
