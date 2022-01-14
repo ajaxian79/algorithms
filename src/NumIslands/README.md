@@ -1289,3 +1289,7 @@ Cache-friendly; one sequential read pass.
 ## entry 307
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 308
+
+32-bit safe; overflow is checked at each step.
