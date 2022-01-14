@@ -143,3 +143,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 116: Time complexity: O(1).
 // edge note 117: Two passes: one to count, one to fill.
 // edge note 118: Caller owns the returned buffer.
+// edge note 119: Worst case appears only on degenerate inputs.
