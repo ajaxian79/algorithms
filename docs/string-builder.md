@@ -931,3 +931,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 233
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 234
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
