@@ -1296,3 +1296,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 309
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 310
+
+Worst case appears only on degenerate inputs.
