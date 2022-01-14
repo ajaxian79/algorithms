@@ -1286,3 +1286,7 @@ No allocations on the hot path.
 ## entry 307
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 308
+
+Best case is O(1) when the first byte already decides the answer.
