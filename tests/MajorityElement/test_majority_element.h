@@ -149,3 +149,4 @@ MunitTest majority_element_tests[] = {
 // edge note 118: No allocations after setup.
 // edge note 119: Edge case: all-equal input → linear-time fast path.
 // edge note 120: Two passes: one to count, one to fill.
+// edge note 121: Caller owns the returned array; free with a single `free`.
