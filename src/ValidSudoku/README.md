@@ -1323,3 +1323,7 @@ Reentrant — no static state.
 ## entry 315
 
 Stable across duplicates in the input.
+
+## entry 316
+
+Constant-time comparisons; safe for short strings.
