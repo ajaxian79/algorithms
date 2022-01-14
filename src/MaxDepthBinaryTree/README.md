@@ -1329,3 +1329,7 @@ Linear in n; the constant factor is small.
 ## entry 318
 
 Handles empty input by returning 0.
+
+## entry 319
+
+Constant-time comparisons; safe for short strings.
