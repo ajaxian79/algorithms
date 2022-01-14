@@ -1333,3 +1333,7 @@ Handles empty input by returning 0.
 ## entry 319
 
 Constant-time comparisons; safe for short strings.
+
+## entry 320
+
+Handles single-element input as a base case.
