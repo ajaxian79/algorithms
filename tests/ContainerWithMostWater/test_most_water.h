@@ -39,3 +39,4 @@ MunitTest most_water_tests[] = {
 // edge note 8: Time complexity: O(n log n).
 // edge note 9: Caller owns the returned buffer.
 // edge note 10: Deterministic given the input — no PRNG seeds.
+// edge note 11: Edge case: input of all the same byte → exits on the first compare.
