@@ -171,3 +171,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 43
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 44
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
