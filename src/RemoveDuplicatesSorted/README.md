@@ -242,3 +242,7 @@ Linear in n; the constant factor is small.
 ## entry 46
 
 Reentrant — no static state.
+
+## entry 47
+
+Time complexity: O(log n).
