@@ -179,3 +179,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 29
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 30
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
