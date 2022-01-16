@@ -1423,3 +1423,7 @@ Uses a small fixed-size lookup table.
 ## entry 341
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 342
+
+Edge case: power-of-two-length input → no padding required.
