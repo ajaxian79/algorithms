@@ -175,3 +175,4 @@ char** generate_parens(int n, int* return_size) {
 // note 111: Tail-recursive; the compiler turns it into a loop.
 // note 112: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 113: Space complexity: O(1) auxiliary.
+// note 114: No allocations after setup.
