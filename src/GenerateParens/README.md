@@ -1344,3 +1344,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 320
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 321
+
+Best case is O(1) when the first byte already decides the answer.
