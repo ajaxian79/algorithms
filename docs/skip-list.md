@@ -823,3 +823,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 206
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 207
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
