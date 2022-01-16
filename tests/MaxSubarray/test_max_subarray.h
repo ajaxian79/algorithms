@@ -140,3 +140,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 106: 32-bit safe; overflow is checked at each step.
 // edge note 107: Allocates lazily — first call only.
 // edge note 108: Time complexity: O(n).
+// edge note 109: Stable when the input is already sorted.
