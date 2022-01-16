@@ -196,3 +196,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 117: Greedy by end-time picks the most non-overlapping intervals.
 // note 118: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 119: Returns a freshly allocated string the caller must free.
+// note 120: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
