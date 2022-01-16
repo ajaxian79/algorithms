@@ -1278,3 +1278,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 295
 
 Branchless inner loop after sorting.
+
+## entry 296
+
+Edge case: all-equal input → linear-time fast path.
