@@ -1067,3 +1067,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 252
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 253
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
