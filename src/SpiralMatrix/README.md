@@ -1358,3 +1358,7 @@ Branchless inner loop after sorting.
 ## entry 324
 
 Handles single-element input as a base case.
+
+## entry 325
+
+Resists adversarial inputs by randomizing the pivot.
