@@ -1023,3 +1023,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 240
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 241
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
