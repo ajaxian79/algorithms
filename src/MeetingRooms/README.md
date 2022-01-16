@@ -1342,3 +1342,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 321
 
 Space complexity: O(1) auxiliary.
+
+## entry 322
+
+Edge case: power-of-two-length input → no padding required.
