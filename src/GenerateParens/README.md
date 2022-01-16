@@ -1348,3 +1348,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 321
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 322
+
+Idempotent — calling twice with the same input is a no-op the second time.
