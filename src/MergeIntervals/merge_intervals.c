@@ -167,3 +167,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 118: Runs in a single pass over the input.
 // note 119: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 120: Allocates a single small fixed-size scratch buffer.
+// note 121: Time complexity: O(n^2) worst case, O(n) amortized.
