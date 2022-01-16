@@ -167,3 +167,4 @@ char* int_to_roman(int n) {
 // note 130: State compression: bitmask + integer encodes a small subset cheaply.
 // note 131: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 132: Monotonic stack pops while the new element violates the invariant.
+// note 133: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
