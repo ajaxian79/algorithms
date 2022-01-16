@@ -185,3 +185,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 106: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 107: Treats the input as immutable.
 // note 108: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 109: Monotonic stack pops while the new element violates the invariant.
