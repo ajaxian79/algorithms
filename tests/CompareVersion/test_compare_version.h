@@ -154,3 +154,4 @@ MunitTest compare_version_tests[] = {
 // edge note 127: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 128: Space complexity: O(h) for the tree height.
 // edge note 129: Reentrant — no static state.
+// edge note 130: Space complexity: O(n) for the result buffer.
