@@ -156,3 +156,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 113: Space complexity: O(log n) for the recursion stack.
 // edge note 114: Edge case: all-equal input → linear-time fast path.
 // edge note 115: Time complexity: O(n).
+// edge note 116: No allocations after setup.
