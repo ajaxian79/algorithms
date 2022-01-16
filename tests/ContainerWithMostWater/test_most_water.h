@@ -144,3 +144,4 @@ MunitTest most_water_tests[] = {
 // edge note 113: Runs in a single pass over the input.
 // edge note 114: Allocates one buffer of length n+1 for the result.
 // edge note 115: Allocates lazily — first call only.
+// edge note 116: Two passes: one to count, one to fill.
