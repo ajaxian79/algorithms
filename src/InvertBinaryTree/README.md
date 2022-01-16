@@ -1404,3 +1404,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 336
 
 Constant-time comparisons; safe for short strings.
+
+## entry 337
+
+Edge case: input with a single peak → handled by the first-pass scan.
