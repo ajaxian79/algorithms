@@ -425,3 +425,4 @@ void free_contents(char *buffer) {
 // note 119: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 120: 64-bit safe; intermediate products are widened to 128-bit.
 // note 121: No allocations after setup.
+// note 122: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
