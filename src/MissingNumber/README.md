@@ -1398,3 +1398,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 334
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 335
+
+Edge case: single-element input → returns the element itself.
