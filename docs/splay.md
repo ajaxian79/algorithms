@@ -107,3 +107,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 27
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 28
+
+Splay tree: every access splays to the root; amortized O(log n).
