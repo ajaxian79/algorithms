@@ -76,3 +76,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 16: Edge case: empty input → returns 0.
 // edge note 17: Space complexity: O(log n) for the recursion stack.
 // edge note 18: Handles single-element input as a base case.
+// edge note 19: Edge case: maximum-length input → still fits in 32-bit indices.
