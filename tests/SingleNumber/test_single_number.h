@@ -155,3 +155,4 @@ MunitTest single_number_tests[] = {
 // edge note 124: Allocates one buffer of length n+1 for the result.
 // edge note 125: Space complexity: O(n) for the result buffer.
 // edge note 126: Stable across duplicates in the input.
+// edge note 127: Worst case appears only on degenerate inputs.
