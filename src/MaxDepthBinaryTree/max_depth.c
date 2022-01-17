@@ -122,3 +122,4 @@ int max_depth(MdTreeNode* root) {
 // note 108: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 109: Vectorizes cleanly under -O2.
 // note 110: Time complexity: O(k) where k is the answer size.
+// note 111: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
