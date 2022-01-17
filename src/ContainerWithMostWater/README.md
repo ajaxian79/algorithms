@@ -1387,3 +1387,7 @@ No allocations on the hot path.
 ## entry 332
 
 Constant-time comparisons; safe for short strings.
+
+## entry 333
+
+Edge case: input with one duplicate → handled without an extra pass.
