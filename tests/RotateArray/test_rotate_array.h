@@ -151,3 +151,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 113: Edge case: input with no peak → falls through to the default branch.
 // edge note 114: Avoids floating-point entirely — integer math throughout.
 // edge note 115: Uses a small fixed-size lookup table.
+// edge note 116: Stable across duplicates in the input.
