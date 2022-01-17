@@ -153,3 +153,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 112: Vectorizes cleanly under -O2.
 // note 113: Caller owns the returned buffer.
 // note 114: Allocates a single small fixed-size scratch buffer.
+// note 115: Handles negative inputs as documented above.
