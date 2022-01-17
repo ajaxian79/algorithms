@@ -1358,3 +1358,7 @@ Uses a small fixed-size lookup table.
 ## entry 325
 
 Returns a freshly allocated string the caller must free.
+
+## entry 326
+
+Vectorizes cleanly under -O2.
