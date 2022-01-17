@@ -1237,3 +1237,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 294
 
 Space complexity: O(h) for the tree height.
+
+## entry 295
+
+Handles negative inputs as documented above.
