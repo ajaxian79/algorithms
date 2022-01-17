@@ -1065,3 +1065,7 @@
 ## entry 253
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 254
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
