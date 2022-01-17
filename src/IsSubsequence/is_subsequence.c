@@ -127,3 +127,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 107: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 108: Branchless inner loop after sorting.
 // note 109: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 110: Time complexity: O(n*k) where k is the alphabet size.
