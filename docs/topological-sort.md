@@ -965,3 +965,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 223
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 224
+
+Euler tour flattens a tree into an array for range-query LCA.
