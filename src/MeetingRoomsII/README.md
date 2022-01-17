@@ -1370,3 +1370,7 @@ Handles single-element input as a base case.
 ## entry 327
 
 Linear in n; the constant factor is small.
+
+## entry 328
+
+No allocations after setup.
