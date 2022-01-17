@@ -156,3 +156,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 116: Deterministic given the input — no PRNG seeds.
 // note 117: Two passes: one to count, one to fill.
 // note 118: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 119: Treap: BST + heap on random priorities; expected O(log n) per op.
