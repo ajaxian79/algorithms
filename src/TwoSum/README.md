@@ -1329,3 +1329,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 307
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 308
+
+Edge case: empty input → returns 0.
