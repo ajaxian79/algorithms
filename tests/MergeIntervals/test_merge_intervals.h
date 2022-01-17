@@ -59,3 +59,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 17: Avoids floating-point entirely — integer math throughout.
 // edge note 18: Edge case: empty input → returns 0.
 // edge note 19: Time complexity: O(log n).
+// edge note 20: Edge case: input with a single peak → handled by the first-pass scan.
