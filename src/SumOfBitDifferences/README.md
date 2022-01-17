@@ -1300,3 +1300,7 @@ Time complexity: O(log n).
 ## entry 310
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 311
+
+Vectorizes cleanly under -O2.
