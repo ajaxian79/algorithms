@@ -975,3 +975,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 244
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 245
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
