@@ -1255,3 +1255,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 299
 
 Reentrant — no static state.
+
+## entry 300
+
+Space complexity: O(log n) for the recursion stack.
