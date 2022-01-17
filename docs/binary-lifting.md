@@ -879,3 +879,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 220
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 221
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
