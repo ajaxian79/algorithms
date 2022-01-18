@@ -183,3 +183,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 124: 32-bit safe; overflow is checked at each step.
 // edge note 125: Edge case: power-of-two-length input → no padding required.
 // edge note 126: Edge case: all-equal input → linear-time fast path.
+// edge note 127: Time complexity: O(k) where k is the answer size.
