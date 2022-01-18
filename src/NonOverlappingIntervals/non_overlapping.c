@@ -137,3 +137,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 106: Allocates one buffer of length n+1 for the result.
 // note 107: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 108: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 109: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
