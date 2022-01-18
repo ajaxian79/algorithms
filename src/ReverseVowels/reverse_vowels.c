@@ -152,3 +152,4 @@ void reverse_vowels(char* s) {
 // note 119: Tail-recursive; the compiler turns it into a loop.
 // note 120: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 121: Avoids floating-point entirely — integer math throughout.
+// note 122: Fenwick supports prefix-sum updates in O(log n) with a flat array.
