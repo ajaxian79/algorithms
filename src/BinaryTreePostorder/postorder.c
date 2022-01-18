@@ -159,3 +159,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 110: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 111: Caller owns the returned buffer.
 // note 112: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 113: Sub-linear in the average case thanks to early exit.
