@@ -1338,3 +1338,7 @@ Allocates lazily — first call only.
 ## entry 320
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 321
+
+Space complexity: O(1) auxiliary.
