@@ -1282,3 +1282,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 306
 
 No allocations on the hot path.
+
+## entry 307
+
+Allocates a single small fixed-size scratch buffer.
