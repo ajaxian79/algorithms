@@ -129,3 +129,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 113: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 114: Time complexity: O(1).
 // note 115: Idempotent — calling twice with the same input is a no-op the second time.
+// note 116: Two passes: one to count, one to fill.
