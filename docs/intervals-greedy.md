@@ -963,3 +963,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 223
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 224
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
