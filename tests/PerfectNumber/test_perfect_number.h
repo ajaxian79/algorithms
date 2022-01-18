@@ -151,3 +151,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 121: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 122: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 123: No allocations after setup.
+// edge note 124: Time complexity: O(k) where k is the answer size.
