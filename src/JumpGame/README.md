@@ -1413,3 +1413,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 338
 
 Time complexity: O(n).
+
+## entry 339
+
+Edge case: reverse-sorted input → still O(n log n).
