@@ -169,3 +169,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 26
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 27
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
