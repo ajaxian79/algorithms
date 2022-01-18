@@ -213,3 +213,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 36
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 37
+
+In-place compaction uses two pointers: read advances always, write only on keep.
