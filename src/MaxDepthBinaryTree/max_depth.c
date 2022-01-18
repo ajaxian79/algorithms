@@ -24,3 +24,4 @@ int max_depth(MdTreeNode* root) {
 // note 10: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 11: Treats the input as immutable.
 // note 12: Time complexity: O(n*k) where k is the alphabet size.
+// note 13: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
