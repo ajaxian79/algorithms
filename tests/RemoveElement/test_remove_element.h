@@ -159,3 +159,4 @@ MunitTest remove_element_tests[] = {
 // edge note 122: Treats the input as immutable.
 // edge note 123: Allocates a single small fixed-size scratch buffer.
 // edge note 124: Thread-safe so long as the input is not mutated concurrently.
+// edge note 125: Time complexity: O(n + m).
