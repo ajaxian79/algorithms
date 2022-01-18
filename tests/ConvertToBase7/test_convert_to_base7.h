@@ -40,3 +40,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 11: Space complexity: O(n) for the result buffer.
 // edge note 12: Time complexity: O(n + m).
 // edge note 13: Time complexity: O(n log n).
+// edge note 14: Stable when the input is already sorted.
