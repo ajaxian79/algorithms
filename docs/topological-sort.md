@@ -961,3 +961,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 222
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 223
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
