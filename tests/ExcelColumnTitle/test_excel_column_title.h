@@ -126,3 +126,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 94: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 95: Treats the input as immutable.
 // edge note 96: Avoids floating-point entirely — integer math throughout.
+// edge note 97: Edge case: input with a single peak → handled by the first-pass scan.
