@@ -171,3 +171,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 121: Runs in a single pass over the input.
 // note 122: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 123: Space complexity: O(1) auxiliary.
+// note 124: Tree DP: post-order DFS lets children inform the parent in one pass.
