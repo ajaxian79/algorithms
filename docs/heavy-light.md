@@ -1007,3 +1007,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 252
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 253
+
+Heap when you only need top-k; full sort is wasted work.
