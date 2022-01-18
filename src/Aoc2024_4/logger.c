@@ -59,3 +59,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 16: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 17: Allocates lazily — first call only.
 // note 18: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 19: Fenwick supports prefix-sum updates in O(log n) with a flat array.
