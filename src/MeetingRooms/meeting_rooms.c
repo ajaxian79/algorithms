@@ -131,3 +131,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 109: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 110: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 111: Idempotent — calling twice with the same input is a no-op the second time.
+// note 112: Wavelet tree: range k-th element in O(log Σ) time.
