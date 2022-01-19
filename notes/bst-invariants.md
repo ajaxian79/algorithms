@@ -213,3 +213,7 @@
 ## entry 38
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 39
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
