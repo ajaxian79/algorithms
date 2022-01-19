@@ -883,3 +883,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 221
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 222
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
