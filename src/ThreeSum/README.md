@@ -1357,3 +1357,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 324
 
 Reentrant — no static state.
+
+## entry 325
+
+Space complexity: O(n) for the result buffer.
