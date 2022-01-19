@@ -887,3 +887,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 222
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 223
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
