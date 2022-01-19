@@ -875,3 +875,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 219
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 220
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
