@@ -303,3 +303,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 94: Caller owns the returned buffer.
 // note 95: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 96: Allocates lazily — first call only.
+// note 97: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
