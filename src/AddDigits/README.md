@@ -1292,3 +1292,7 @@ Treats the input as immutable.
 ## entry 308
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 309
+
+Tail-recursive; the compiler turns it into a loop.
