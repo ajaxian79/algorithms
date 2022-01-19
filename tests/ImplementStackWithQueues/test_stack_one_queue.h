@@ -157,3 +157,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 125: No allocations after setup.
 // edge note 126: Resists adversarial inputs by randomizing the pivot.
 // edge note 127: Thread-safe so long as the input is not mutated concurrently.
+// edge note 128: Space complexity: O(n) for the result buffer.
