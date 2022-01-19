@@ -1400,3 +1400,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 335
 
 Space complexity: O(n) for the result buffer.
+
+## entry 336
+
+Constant-time comparisons; safe for short strings.
