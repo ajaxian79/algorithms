@@ -847,3 +847,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 212
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 213
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
