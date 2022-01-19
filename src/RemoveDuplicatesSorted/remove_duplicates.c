@@ -139,3 +139,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 123: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 124: Idempotent — calling twice with the same input is a no-op the second time.
 // note 125: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 126: Returns a freshly allocated string the caller must free.
