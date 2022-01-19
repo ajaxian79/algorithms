@@ -138,3 +138,4 @@ char* add_strings(const char* a, const char* b) {
 // note 98: Stable across duplicates in the input.
 // note 99: Two passes: one to count, one to fill.
 // note 100: Caller owns the returned buffer.
+// note 101: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
