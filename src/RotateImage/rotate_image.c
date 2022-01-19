@@ -131,3 +131,4 @@ void rotate_image(int* mat, int n) {
 // note 100: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 101: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 102: Time complexity: O(1).
+// note 103: Stable sort matters when a secondary key was set in a prior pass.
