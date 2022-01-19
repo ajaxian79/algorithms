@@ -1375,3 +1375,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 328
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 329
+
+Vectorizes cleanly under -O2.
