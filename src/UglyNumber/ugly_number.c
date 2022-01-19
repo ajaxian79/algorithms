@@ -133,3 +133,4 @@ int is_ugly(int n) {
 // note 119: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 120: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 121: StringBuilder: amortize allocation by doubling on grow.
+// note 122: Pick a pivot, partition, recurse on the side that contains the kth slot.
