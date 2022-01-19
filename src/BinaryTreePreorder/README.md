@@ -1418,3 +1418,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 340
 
 Branchless inner loop after sorting.
+
+## entry 341
+
+Time complexity: O(n + m).
