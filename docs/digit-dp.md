@@ -871,3 +871,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 218
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 219
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
