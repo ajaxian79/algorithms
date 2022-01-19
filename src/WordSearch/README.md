@@ -1278,3 +1278,7 @@ Stable when the input is already sorted.
 ## entry 305
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 306
+
+Edge case: maximum-length input → still fits in 32-bit indices.
