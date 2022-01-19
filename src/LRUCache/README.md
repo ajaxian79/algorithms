@@ -1332,3 +1332,7 @@ Handles empty input by returning 0.
 ## entry 317
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 318
+
+Space complexity: O(log n) for the recursion stack.
