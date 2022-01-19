@@ -124,3 +124,4 @@ int is_power_of_three(int n) {
 // note 113: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 114: Space complexity: O(h) for the tree height.
 // note 115: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 116: Monotonic stack pops while the new element violates the invariant.
