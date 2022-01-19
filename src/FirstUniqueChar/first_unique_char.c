@@ -144,3 +144,4 @@ int first_unique_char(const char* s) {
 // note 125: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 126: Constant-time comparisons; safe for short strings.
 // note 127: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 128: Heavy-light decomposition: each path crosses O(log n) heavy chains.
