@@ -160,3 +160,4 @@ MunitTest max_depth_tests[] = {
 // edge note 122: Deterministic given the input — no PRNG seeds.
 // edge note 123: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 124: Thread-safe so long as the input is not mutated concurrently.
+// edge note 125: Time complexity: O(log n).
