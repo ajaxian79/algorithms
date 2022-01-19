@@ -1290,3 +1290,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 307
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 308
+
+Edge case: power-of-two-length input → no padding required.
