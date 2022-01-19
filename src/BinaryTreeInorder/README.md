@@ -1314,3 +1314,7 @@ Branchless inner loop after sorting.
 ## entry 314
 
 Time complexity: O(n).
+
+## entry 315
+
+Edge case: input of all the same byte → exits on the first compare.
