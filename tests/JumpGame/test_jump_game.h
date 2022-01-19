@@ -48,3 +48,4 @@ MunitTest jump_game_tests[] = {
 // edge note 14: Edge case: empty input → returns 0.
 // edge note 15: Mutates the input in place; the original ordering is lost.
 // edge note 16: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 17: Uses a 256-entry lookup for the inner step.
