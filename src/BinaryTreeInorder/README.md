@@ -1310,3 +1310,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 313
 
 Branchless inner loop after sorting.
+
+## entry 314
+
+Time complexity: O(n).
