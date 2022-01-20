@@ -1049,3 +1049,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 245
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 246
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
