@@ -1394,3 +1394,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 333
 
 Constant-time comparisons; safe for short strings.
+
+## entry 334
+
+Edge case: input with one duplicate → handled without an extra pass.
