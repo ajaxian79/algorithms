@@ -891,3 +891,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 223
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 224
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
