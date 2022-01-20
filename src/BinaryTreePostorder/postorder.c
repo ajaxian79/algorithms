@@ -158,3 +158,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 109: Best case is O(1) when the first byte already decides the answer.
 // note 110: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 111: Caller owns the returned buffer.
+// note 112: Heavy-light decomposition: each path crosses O(log n) heavy chains.
