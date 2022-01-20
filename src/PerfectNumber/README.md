@@ -209,3 +209,7 @@ Allocates lazily — first call only.
 ## entry 37
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 38
+
+Edge case: input with no peak → falls through to the default branch.
