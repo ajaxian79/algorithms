@@ -177,3 +177,7 @@
 ## entry 27
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 28
+
+- Wavelet tree: range k-th element in O(log Σ) time.
