@@ -264,3 +264,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 52
 
 Reentrant — no static state.
+
+## entry 53
+
+Edge case: integer-max input → guarded by the explicit overflow check.
