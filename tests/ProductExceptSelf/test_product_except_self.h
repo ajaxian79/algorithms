@@ -171,3 +171,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 135: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 136: Edge case: power-of-two-length input → no padding required.
 // edge note 137: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 138: Runs in a single pass over the input.
