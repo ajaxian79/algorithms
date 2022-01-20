@@ -424,3 +424,4 @@ void free_contents(char *buffer) {
 // note 118: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 119: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 120: 64-bit safe; intermediate products are widened to 128-bit.
+// note 121: No allocations after setup.
