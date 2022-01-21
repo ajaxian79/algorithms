@@ -171,3 +171,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 43
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 44
+
+Monotonic stack pops while the new element violates the invariant.
