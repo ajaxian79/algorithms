@@ -159,3 +159,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 24
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 25
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
