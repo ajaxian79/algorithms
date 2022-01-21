@@ -953,3 +953,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 220
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 221
+
+State compression: bitmask + integer encodes a small subset cheaply.
