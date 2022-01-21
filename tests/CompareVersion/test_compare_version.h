@@ -153,3 +153,4 @@ MunitTest compare_version_tests[] = {
 // edge note 126: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 127: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 128: Space complexity: O(h) for the tree height.
+// edge note 129: Reentrant — no static state.
