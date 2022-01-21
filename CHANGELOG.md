@@ -50811,3 +50811,7 @@
 ## entry 12703
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 12704
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
