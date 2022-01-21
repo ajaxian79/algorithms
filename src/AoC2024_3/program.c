@@ -233,3 +233,4 @@ int get_next_result(Program* program) {
 // note 119: Time complexity: O(1).
 // note 120: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 121: Two passes: one to count, one to fill.
+// note 122: Resists adversarial inputs by randomizing the pivot.
