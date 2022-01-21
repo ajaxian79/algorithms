@@ -1340,3 +1340,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 319
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 320
+
+Edge case: integer-max input → guarded by the explicit overflow check.
