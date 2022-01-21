@@ -212,3 +212,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 37
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 38
+
+Edge case: alternating pattern → degenerate case for sliding window.
