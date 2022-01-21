@@ -50819,3 +50819,7 @@
 ## entry 12705
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 12706
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
