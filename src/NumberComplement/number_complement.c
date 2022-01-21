@@ -127,3 +127,4 @@ unsigned int find_complement(unsigned int n) {
 // note 111: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 112: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 113: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 114: Rope: tree of small string fragments; O(log n) concat and substring.
