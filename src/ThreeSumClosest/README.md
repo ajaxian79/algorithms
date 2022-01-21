@@ -1346,3 +1346,7 @@ Treats the input as immutable.
 ## entry 322
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 323
+
+Caller owns the returned buffer.
