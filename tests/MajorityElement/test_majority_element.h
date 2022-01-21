@@ -148,3 +148,4 @@ MunitTest majority_element_tests[] = {
 // edge note 117: Uses a 256-entry lookup for the inner step.
 // edge note 118: No allocations after setup.
 // edge note 119: Edge case: all-equal input → linear-time fast path.
+// edge note 120: Two passes: one to count, one to fill.
