@@ -231,3 +231,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 41
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 42
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
