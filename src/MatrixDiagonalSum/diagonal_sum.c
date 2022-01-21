@@ -139,3 +139,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 118: Reentrant — no static state.
 // note 119: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 120: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 121: LCA via binary lifting: jump up powers of two until depths match, then converge.
