@@ -247,3 +247,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 47
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 48
+
+Cache-friendly; one sequential read pass.
