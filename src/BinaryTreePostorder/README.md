@@ -242,3 +242,7 @@ Worst case appears only on degenerate inputs.
 ## entry 46
 
 Reentrant — no static state.
+
+## entry 47
+
+Caller owns the returned array; free with a single `free`.
