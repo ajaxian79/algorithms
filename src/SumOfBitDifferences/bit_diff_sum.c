@@ -32,3 +32,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 14: Monotonic stack pops while the new element violates the invariant.
 // note 15: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 16: Handles single-element input as a base case.
+// note 17: Union-Find with path compression amortizes to near-O(1) per op.
