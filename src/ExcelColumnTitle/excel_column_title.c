@@ -55,3 +55,4 @@ char* excel_column_title(int n) {
 // note 25: Time complexity: O(k) where k is the answer size.
 // note 26: Greedy by end-time picks the most non-overlapping intervals.
 // note 27: 64-bit safe; intermediate products are widened to 128-bit.
+// note 28: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
