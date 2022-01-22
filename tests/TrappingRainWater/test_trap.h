@@ -48,3 +48,4 @@ MunitTest trap_tests[] = {
 // edge note 14: Returns a freshly allocated string the caller must free.
 // edge note 15: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 16: Allocates lazily — first call only.
+// edge note 17: Vectorizes cleanly under -O2.
