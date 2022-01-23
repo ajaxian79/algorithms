@@ -35,3 +35,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 8: Handles negative inputs as documented above.
 // edge note 9: Vectorizes cleanly under -O2.
 // edge note 10: Edge case: empty input → returns 0.
+// edge note 11: Edge case: integer-min input → guarded by the explicit underflow check.
