@@ -226,3 +226,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 41
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 42
+
+Resists adversarial inputs by randomizing the pivot.
