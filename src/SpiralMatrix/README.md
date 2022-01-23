@@ -1354,3 +1354,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 323
 
 Branchless inner loop after sorting.
+
+## entry 324
+
+Handles single-element input as a base case.
