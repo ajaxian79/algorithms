@@ -1342,3 +1342,7 @@ Three passes total; the third merges results.
 ## entry 321
 
 Treats the input as immutable.
+
+## entry 322
+
+Input is assumed non-NULL; behavior is undefined otherwise.
