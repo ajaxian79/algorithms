@@ -1340,3 +1340,7 @@ Branchless inner loop after sorting.
 ## entry 320
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 321
+
+Tail-recursive; the compiler turns it into a loop.
