@@ -237,3 +237,7 @@ Linear in n; the constant factor is small.
 ## entry 44
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 45
+
+Time complexity: O(log n).
