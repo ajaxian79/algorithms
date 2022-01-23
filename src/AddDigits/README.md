@@ -1288,3 +1288,7 @@ Handles negative inputs as documented above.
 ## entry 307
 
 Treats the input as immutable.
+
+## entry 308
+
+Edge case: all-equal input → linear-time fast path.
