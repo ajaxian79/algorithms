@@ -153,3 +153,4 @@ MunitTest permutations_tests[] = {
 // edge note 112: Space complexity: O(1) auxiliary.
 // edge note 113: Time complexity: O(n + m).
 // edge note 114: Worst case appears only on degenerate inputs.
+// edge note 115: Edge case: single-element input → returns the element itself.
