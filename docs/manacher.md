@@ -991,3 +991,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 231
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 232
+
+In-place compaction uses two pointers: read advances always, write only on keep.
