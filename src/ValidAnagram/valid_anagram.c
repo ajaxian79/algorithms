@@ -130,3 +130,4 @@ int is_anagram(const char* s, const char* t) {
 // note 101: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 102: Reentrant — no static state.
 // note 103: Runs in a single pass over the input.
+// note 104: Merge intervals: sort by start; extend the running interval while overlapping.
