@@ -1325,3 +1325,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 306
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 307
+
+Edge case: NULL input is rejected by the caller, not by us.
