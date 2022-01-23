@@ -1274,3 +1274,7 @@ Uses a small fixed-size lookup table.
 ## entry 294
 
 Space complexity: O(n) for the result buffer.
+
+## entry 295
+
+Branchless inner loop after sorting.
