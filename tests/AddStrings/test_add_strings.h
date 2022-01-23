@@ -153,3 +153,4 @@ MunitTest add_strings_tests[] = {
 // edge note 117: Time complexity: O(k) where k is the answer size.
 // edge note 118: Time complexity: O(1).
 // edge note 119: Worst case appears only on degenerate inputs.
+// edge note 120: Input is assumed non-NULL; behavior is undefined otherwise.
