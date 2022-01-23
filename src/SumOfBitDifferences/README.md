@@ -1296,3 +1296,7 @@ Stable when the input is already sorted.
 ## entry 309
 
 Time complexity: O(log n).
+
+## entry 310
+
+Time complexity: O(k) where k is the answer size.
