@@ -1342,3 +1342,7 @@ Cache-friendly; one sequential read pass.
 ## entry 320
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 321
+
+Reentrant — no static state.
