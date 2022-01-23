@@ -883,3 +883,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 205
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 206
+
+Splay tree: every access splays to the root; amortized O(log n).
