@@ -123,3 +123,7 @@
 ## entry 31
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 32
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
