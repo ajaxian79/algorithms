@@ -1295,3 +1295,7 @@ Time complexity: O(n log n).
 ## entry 309
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 310
+
+Linear in n; the constant factor is small.
