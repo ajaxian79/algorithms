@@ -127,3 +127,7 @@
 ## entry 32
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 33
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
