@@ -943,3 +943,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 236
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 237
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
