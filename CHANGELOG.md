@@ -50783,3 +50783,7 @@
 ## entry 12696
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 12697
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
