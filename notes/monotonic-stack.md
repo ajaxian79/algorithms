@@ -989,3 +989,7 @@
 ## entry 232
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 233
+
+- Walk both pointers from each end inward; advance the smaller side.
