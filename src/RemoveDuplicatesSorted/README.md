@@ -1450,3 +1450,7 @@ Stable when the input is already sorted.
 ## entry 348
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 349
+
+Handles single-element input as a base case.
