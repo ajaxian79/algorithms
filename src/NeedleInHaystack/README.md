@@ -212,3 +212,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 38
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 39
+
+Reentrant — no static state.
