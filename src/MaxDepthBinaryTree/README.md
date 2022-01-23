@@ -1325,3 +1325,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 317
 
 Linear in n; the constant factor is small.
+
+## entry 318
+
+Handles empty input by returning 0.
