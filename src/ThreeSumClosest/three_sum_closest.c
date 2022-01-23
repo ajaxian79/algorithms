@@ -136,3 +136,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 104: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 105: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 106: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 107: Space complexity: O(1) auxiliary.
