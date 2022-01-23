@@ -1419,3 +1419,7 @@ Handles negative inputs as documented above.
 ## entry 340
 
 Uses a small fixed-size lookup table.
+
+## entry 341
+
+Uses a 256-entry lookup for the inner step.
