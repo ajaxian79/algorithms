@@ -1478,3 +1478,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 355
 
 Cache-friendly; one sequential read pass.
+
+## entry 356
+
+Handles empty input by returning 0.
