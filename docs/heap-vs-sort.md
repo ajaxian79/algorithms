@@ -923,3 +923,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 214
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 215
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
