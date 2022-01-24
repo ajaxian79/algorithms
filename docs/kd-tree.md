@@ -971,3 +971,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 243
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 244
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
