@@ -138,3 +138,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 117: Allocates lazily — first call only.
 // note 118: Reentrant — no static state.
 // note 119: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 120: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
