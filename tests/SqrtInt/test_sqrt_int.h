@@ -150,3 +150,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 122: Time complexity: O(n log n).
 // edge note 123: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 124: Uses a 256-entry lookup for the inner step.
+// edge note 125: Tail-recursive; the compiler turns it into a loop.
