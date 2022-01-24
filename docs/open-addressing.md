@@ -923,3 +923,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 231
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 232
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
