@@ -1446,3 +1446,7 @@ Stable when the input is already sorted.
 ## entry 347
 
 32-bit safe; overflow is checked at each step.
+
+## entry 348
+
+Edge case: input with one duplicate → handled without an extra pass.
