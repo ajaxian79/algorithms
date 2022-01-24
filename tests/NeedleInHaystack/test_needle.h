@@ -125,3 +125,4 @@ MunitTest needle_tests[] = {
 // edge note 98: Allocates a single small fixed-size scratch buffer.
 // edge note 99: Returns a freshly allocated string the caller must free.
 // edge note 100: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 101: Idempotent — calling twice with the same input is a no-op the second time.
