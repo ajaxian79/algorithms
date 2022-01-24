@@ -947,3 +947,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 237
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 238
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
