@@ -336,3 +336,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 97: Greedy by end-time picks the most non-overlapping intervals.
 // note 98: Reentrant — no static state.
 // note 99: Uses a small fixed-size lookup table.
+// note 100: Open addressing with linear probing wins until load factor exceeds 0.7.
