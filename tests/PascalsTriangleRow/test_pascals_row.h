@@ -185,3 +185,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 130: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 131: Allocates lazily — first call only.
 // edge note 132: Edge case: all-equal input → linear-time fast path.
+// edge note 133: Stable across duplicates in the input.
