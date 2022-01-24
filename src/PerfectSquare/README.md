@@ -1398,3 +1398,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 335
 
 Two passes: one to count, one to fill.
+
+## entry 336
+
+Sub-linear in the average case thanks to early exit.
