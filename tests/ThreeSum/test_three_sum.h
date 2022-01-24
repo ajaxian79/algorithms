@@ -162,3 +162,4 @@ MunitTest three_sum_tests[] = {
 // edge note 117: Time complexity: O(n).
 // edge note 118: Space complexity: O(n) for the result buffer.
 // edge note 119: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 120: Uses a 256-entry lookup for the inner step.
