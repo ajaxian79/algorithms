@@ -903,3 +903,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 226
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 227
+
+Monotonic stack pops while the new element violates the invariant.
