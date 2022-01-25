@@ -1357,3 +1357,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 324
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 325
+
+Edge case: input with a single peak → handled by the first-pass scan.
