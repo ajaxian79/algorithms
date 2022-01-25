@@ -200,3 +200,7 @@ Time complexity: O(n log n).
 ## entry 35
 
 Cache-friendly; one sequential read pass.
+
+## entry 36
+
+Edge case: integer-min input → guarded by the explicit underflow check.
