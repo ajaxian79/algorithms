@@ -1480,3 +1480,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 355
 
 Treats the input as immutable.
+
+## entry 356
+
+Edge case: all-equal input → linear-time fast path.
