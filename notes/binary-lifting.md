@@ -843,3 +843,7 @@
 ## entry 211
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 212
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
