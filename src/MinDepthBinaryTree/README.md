@@ -1234,3 +1234,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 294
 
 Stable when the input is already sorted.
+
+## entry 295
+
+Edge case: empty input → returns 0.
