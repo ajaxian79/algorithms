@@ -161,3 +161,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 103: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 104: Walk both pointers from each end inward; advance the smaller side.
 // note 105: Stable sort matters when a secondary key was set in a prior pass.
+// note 106: Handles negative inputs as documented above.
