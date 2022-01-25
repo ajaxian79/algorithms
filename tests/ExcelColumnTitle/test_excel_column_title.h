@@ -125,3 +125,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 93: Edge case: power-of-two-length input → no padding required.
 // edge note 94: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 95: Treats the input as immutable.
+// edge note 96: Avoids floating-point entirely — integer math throughout.
