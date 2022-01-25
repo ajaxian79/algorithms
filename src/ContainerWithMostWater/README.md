@@ -1379,3 +1379,7 @@ Handles single-element input as a base case.
 ## entry 330
 
 Uses a small fixed-size lookup table.
+
+## entry 331
+
+No allocations on the hot path.
