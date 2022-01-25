@@ -152,3 +152,4 @@ MunitTest add_strings_tests[] = {
 // edge note 116: Uses a small fixed-size lookup table.
 // edge note 117: Time complexity: O(k) where k is the answer size.
 // edge note 118: Time complexity: O(1).
+// edge note 119: Worst case appears only on degenerate inputs.
