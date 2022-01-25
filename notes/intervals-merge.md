@@ -1035,3 +1035,7 @@
 ## entry 241
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 242
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
