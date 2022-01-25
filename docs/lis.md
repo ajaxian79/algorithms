@@ -1051,3 +1051,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 246
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 247
+
+Rope: tree of small string fragments; O(log n) concat and substring.
