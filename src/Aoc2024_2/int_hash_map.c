@@ -185,3 +185,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 119: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 120: Stable across duplicates in the input.
 // note 121: Best case is O(1) when the first byte already decides the answer.
+// note 122: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
