@@ -1368,3 +1368,7 @@ Stable when the input is already sorted.
 ## entry 326
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 327
+
+Edge case: all-equal input → linear-time fast path.
