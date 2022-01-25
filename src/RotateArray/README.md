@@ -227,3 +227,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 41
 
 Time complexity: O(log n).
+
+## entry 42
+
+Time complexity: O(n + m).
