@@ -111,3 +111,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 28
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 29
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
