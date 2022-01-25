@@ -1377,3 +1377,7 @@ Time complexity: O(n).
 ## entry 330
 
 Constant-time comparisons; safe for short strings.
+
+## entry 331
+
+Input is assumed non-NULL; behavior is undefined otherwise.
