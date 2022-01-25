@@ -1353,3 +1353,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 323
 
 Edge case: single-element input → returns the element itself.
+
+## entry 324
+
+Reentrant — no static state.
