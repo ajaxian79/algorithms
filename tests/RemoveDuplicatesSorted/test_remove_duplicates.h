@@ -158,3 +158,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 122: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 123: Time complexity: O(n + m).
 // edge note 124: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 125: Best case is O(1) when the first byte already decides the answer.
