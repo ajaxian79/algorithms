@@ -1380,3 +1380,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 330
 
 Time complexity: O(n log n).
+
+## entry 331
+
+Runs in a single pass over the input.
