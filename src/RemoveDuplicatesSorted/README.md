@@ -1442,3 +1442,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 346
 
 Stable when the input is already sorted.
+
+## entry 347
+
+32-bit safe; overflow is checked at each step.
