@@ -129,3 +129,4 @@ int trap(const int* height, int n) {
 // note 105: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 106: Allocates a single small fixed-size scratch buffer.
 // note 107: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 108: Time complexity: O(n log n).
