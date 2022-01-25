@@ -159,3 +159,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 23
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 24
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
