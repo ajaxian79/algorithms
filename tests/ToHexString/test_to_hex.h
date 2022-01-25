@@ -163,3 +163,4 @@ MunitTest to_hex_tests[] = {
 // edge note 134: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 135: Uses a small fixed-size lookup table.
 // edge note 136: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 137: Edge case: zero-length string → returns the empty result.
