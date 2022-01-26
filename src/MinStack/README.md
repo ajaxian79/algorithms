@@ -1274,3 +1274,7 @@ Time complexity: O(1).
 ## entry 304
 
 Stable across duplicates in the input.
+
+## entry 305
+
+Sub-linear in the average case thanks to early exit.
