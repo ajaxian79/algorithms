@@ -224,3 +224,7 @@ Caller owns the returned buffer.
 ## entry 40
 
 Space complexity: O(1) auxiliary.
+
+## entry 41
+
+Edge case: reverse-sorted input → still O(n log n).
