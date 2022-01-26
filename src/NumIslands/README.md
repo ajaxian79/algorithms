@@ -1285,3 +1285,7 @@ Space complexity: O(1) auxiliary.
 ## entry 306
 
 Cache-friendly; one sequential read pass.
+
+## entry 307
+
+Resists adversarial inputs by randomizing the pivot.
