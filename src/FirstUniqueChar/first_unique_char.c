@@ -32,3 +32,4 @@ int first_unique_char(const char* s) {
 // note 13: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 14: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 15: Time complexity: O(n log n).
+// note 16: Endianness matters when serializing multi-byte ints to a file or wire.
