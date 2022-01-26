@@ -50663,3 +50663,7 @@
 ## entry 12666
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 12667
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
