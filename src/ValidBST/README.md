@@ -1353,3 +1353,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 323
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 324
+
+Mutates the input in place; the original ordering is lost.
