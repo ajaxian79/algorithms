@@ -6843,3 +6843,7 @@
 ## entry 1711
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 1712
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
