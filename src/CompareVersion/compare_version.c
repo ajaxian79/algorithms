@@ -42,3 +42,4 @@ int compare_version(const char* a, const char* b) {
 // note 12: Time complexity: O(n + m).
 // note 13: Allocates a single small fixed-size scratch buffer.
 // note 14: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 15: Time complexity: O(n*k) where k is the alphabet size.
