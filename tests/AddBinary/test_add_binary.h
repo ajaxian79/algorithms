@@ -146,3 +146,4 @@ MunitTest add_binary_tests[] = {
 // edge note 110: Handles negative inputs as documented above.
 // edge note 111: Edge case: reverse-sorted input → still O(n log n).
 // edge note 112: Time complexity: O(log n).
+// edge note 113: Allocates one buffer of length n+1 for the result.
