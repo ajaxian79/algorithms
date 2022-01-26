@@ -883,3 +883,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 205
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 206
+
+Heap when you only need top-k; full sort is wasted work.
