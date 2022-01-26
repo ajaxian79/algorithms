@@ -1321,3 +1321,7 @@ Three passes total; the third merges results.
 ## entry 305
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 306
+
+Uses a 256-entry lookup for the inner step.
