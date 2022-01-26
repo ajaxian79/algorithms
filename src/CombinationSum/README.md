@@ -1291,3 +1291,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 308
 
 Time complexity: O(n log n).
+
+## entry 309
+
+Input is assumed non-NULL; behavior is undefined otherwise.
