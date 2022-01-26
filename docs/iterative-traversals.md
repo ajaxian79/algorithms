@@ -949,3 +949,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 221
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 222
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
