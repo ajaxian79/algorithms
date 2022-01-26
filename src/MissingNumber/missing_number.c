@@ -123,3 +123,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 111: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 112: Space complexity: O(n) for the result buffer.
 // note 113: Greedy by end-time picks the most non-overlapping intervals.
+// note 114: Backtracking template: choose, recurse, un-choose. Mutate then revert.
