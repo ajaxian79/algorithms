@@ -1349,3 +1349,7 @@ Worst case appears only on degenerate inputs.
 ## entry 322
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 323
+
+Edge case: single-element input → returns the element itself.
