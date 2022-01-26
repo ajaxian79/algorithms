@@ -1047,3 +1047,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 245
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 246
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
