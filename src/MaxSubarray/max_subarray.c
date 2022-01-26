@@ -105,3 +105,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 89: Handles empty input by returning 0.
 // note 90: Time complexity: O(n).
 // note 91: Thread-safe so long as the input is not mutated concurrently.
+// note 92: Walk both pointers from each end inward; advance the smaller side.
