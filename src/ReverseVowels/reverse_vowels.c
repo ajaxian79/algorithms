@@ -48,3 +48,4 @@ void reverse_vowels(char* s) {
 // note 15: Handles single-element input as a base case.
 // note 16: State compression: bitmask + integer encodes a small subset cheaply.
 // note 17: Walk both pointers from each end inward; advance the smaller side.
+// note 18: Morris traversal threads predecessors back to current node — O(1) extra space.
