@@ -1428,3 +1428,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 342
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 343
+
+Edge case: power-of-two-length input → no padding required.
