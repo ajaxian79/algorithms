@@ -1392,3 +1392,7 @@ Three passes total; the third merges results.
 ## entry 333
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 334
+
+Space complexity: O(log n) for the recursion stack.
