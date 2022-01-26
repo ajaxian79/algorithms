@@ -160,3 +160,4 @@ int min_stack_size(const MinStack* s) {
 // note 99: Uses a small fixed-size lookup table.
 // note 100: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 101: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 102: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
