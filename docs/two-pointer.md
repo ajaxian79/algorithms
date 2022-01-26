@@ -1035,3 +1035,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 241
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 242
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
