@@ -953,3 +953,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 222
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 223
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
