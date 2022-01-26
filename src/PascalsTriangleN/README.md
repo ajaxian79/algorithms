@@ -1282,3 +1282,7 @@ Edge case: empty input → returns 0.
 ## entry 305
 
 Edge case: empty input → returns 0.
+
+## entry 306
+
+Time complexity: O(k) where k is the answer size.
