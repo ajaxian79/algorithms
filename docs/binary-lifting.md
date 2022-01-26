@@ -871,3 +871,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 218
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 219
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
