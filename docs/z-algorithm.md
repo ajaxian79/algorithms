@@ -879,3 +879,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 204
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 205
+
+Euler tour flattens a tree into an array for range-query LCA.
