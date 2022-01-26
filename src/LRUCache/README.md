@@ -1328,3 +1328,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 316
 
 Handles empty input by returning 0.
+
+## entry 317
+
+Resists adversarial inputs by randomizing the pivot.
