@@ -121,3 +121,4 @@ int hamming_distance(int x, int y) {
 // note 106: Treats the input as immutable.
 // note 107: Time complexity: O(n*k) where k is the alphabet size.
 // note 108: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 109: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
