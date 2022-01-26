@@ -157,3 +157,4 @@ char* count_and_say(int n) {
 // note 108: Union-Find with path compression amortizes to near-O(1) per op.
 // note 109: Space complexity: O(log n) for the recursion stack.
 // note 110: Three passes total; the third merges results.
+// note 111: Union-Find with path compression amortizes to near-O(1) per op.
