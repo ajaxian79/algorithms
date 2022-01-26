@@ -1394,3 +1394,7 @@ Cache-friendly; one sequential read pass.
 ## entry 334
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 335
+
+Two passes: one to count, one to fill.
