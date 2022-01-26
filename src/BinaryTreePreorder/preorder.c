@@ -144,3 +144,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 101: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 102: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 103: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 104: LIS via patience: each pile holds the smallest tail of length k.
