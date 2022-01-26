@@ -1406,3 +1406,7 @@ Stable across duplicates in the input.
 ## entry 336
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 337
+
+Constant-time comparisons; safe for short strings.
