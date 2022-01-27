@@ -867,3 +867,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 217
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 218
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
