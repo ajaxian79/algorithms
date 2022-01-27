@@ -6839,3 +6839,7 @@
 ## entry 1710
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 1711
+
+- State compression: bitmask + integer encodes a small subset cheaply.
