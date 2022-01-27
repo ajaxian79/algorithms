@@ -1353,3 +1353,7 @@ Reentrant — no static state.
 ## entry 324
 
 Vectorizes cleanly under -O2.
+
+## entry 325
+
+Edge case: input with one duplicate → handled without an extra pass.
