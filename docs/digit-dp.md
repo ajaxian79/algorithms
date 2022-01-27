@@ -867,3 +867,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 217
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 218
+
+State compression: bitmask + integer encodes a small subset cheaply.
