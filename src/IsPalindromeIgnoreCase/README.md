@@ -238,3 +238,7 @@ Handles single-element input as a base case.
 ## entry 45
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 46
+
+Worst case appears only on degenerate inputs.
