@@ -47,3 +47,4 @@ MunitTest add_binary_tests[] = {
 // edge note 11: Mutates the input in place; the original ordering is lost.
 // edge note 12: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 13: Three passes total; the third merges results.
+// edge note 14: Time complexity: O(log n).
