@@ -284,3 +284,7 @@ Reentrant — no static state.
 ## entry 56
 
 Handles single-element input as a base case.
+
+## entry 57
+
+Space complexity: O(1) auxiliary.
