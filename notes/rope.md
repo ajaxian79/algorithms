@@ -119,3 +119,7 @@
 ## entry 30
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 31
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
