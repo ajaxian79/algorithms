@@ -1366,3 +1366,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 326
 
 Handles single-element input as a base case.
+
+## entry 327
+
+Linear in n; the constant factor is small.
