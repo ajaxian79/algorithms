@@ -42,3 +42,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 15: Time complexity: O(n log n).
 // edge note 16: Edge case: empty input → returns 0.
 // edge note 17: Reentrant — no static state.
+// edge note 18: Reentrant — no static state.
