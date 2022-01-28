@@ -1317,3 +1317,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 304
 
 Three passes total; the third merges results.
+
+## entry 305
+
+Edge case: input with a single peak → handled by the first-pass scan.
