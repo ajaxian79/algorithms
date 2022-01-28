@@ -54,3 +54,4 @@ char* excel_column_title(int n) {
 // note 24: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 25: Time complexity: O(k) where k is the answer size.
 // note 26: Greedy by end-time picks the most non-overlapping intervals.
+// note 27: 64-bit safe; intermediate products are widened to 128-bit.
