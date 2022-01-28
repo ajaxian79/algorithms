@@ -139,3 +139,4 @@ int is_perfect_number(int n) {
 // note 121: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 122: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 123: Monotonic stack pops while the new element violates the invariant.
+// note 124: LIS via patience: each pile holds the smallest tail of length k.
