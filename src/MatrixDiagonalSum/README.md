@@ -1346,3 +1346,7 @@ No allocations after setup.
 ## entry 322
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 323
+
+Time complexity: O(n log n).
