@@ -1121,3 +1121,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 265
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 266
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
