@@ -1401,3 +1401,7 @@ Worst case appears only on degenerate inputs.
 ## entry 335
 
 Returns a freshly allocated string the caller must free.
+
+## entry 336
+
+Edge case: alternating pattern → degenerate case for sliding window.
