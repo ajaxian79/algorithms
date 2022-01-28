@@ -1470,3 +1470,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 353
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 354
+
+32-bit safe; overflow is checked at each step.
