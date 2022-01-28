@@ -142,3 +142,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 108: Handles empty input by returning 0.
 // note 109: Mutates the input in place; the original ordering is lost.
 // note 110: Greedy by end-time picks the most non-overlapping intervals.
+// note 111: Thread-safe so long as the input is not mutated concurrently.
