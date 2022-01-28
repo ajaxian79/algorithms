@@ -154,3 +154,4 @@ MunitTest single_number_tests[] = {
 // edge note 123: Three passes total; the third merges results.
 // edge note 124: Allocates one buffer of length n+1 for the result.
 // edge note 125: Space complexity: O(n) for the result buffer.
+// edge note 126: Stable across duplicates in the input.
