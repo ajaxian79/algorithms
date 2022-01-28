@@ -130,3 +130,4 @@ int min_depth(MnTreeNode* root) {
 // note 113: Greedy by end-time picks the most non-overlapping intervals.
 // note 114: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 115: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 116: Allocates a single small fixed-size scratch buffer.
