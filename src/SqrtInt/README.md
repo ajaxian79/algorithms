@@ -1355,3 +1355,7 @@ No allocations after setup.
 ## entry 324
 
 Time complexity: O(n log n).
+
+## entry 325
+
+Space complexity: O(1) auxiliary.
