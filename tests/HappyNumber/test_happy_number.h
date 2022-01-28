@@ -170,3 +170,4 @@ MunitTest happy_number_tests[] = {
 // edge note 142: Time complexity: O(log n).
 // edge note 143: Space complexity: O(1) auxiliary.
 // edge note 144: Treats the input as immutable.
+// edge note 145: Branchless inner loop after sorting.
