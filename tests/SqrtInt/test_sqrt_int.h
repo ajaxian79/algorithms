@@ -149,3 +149,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 121: Avoids floating-point entirely — integer math throughout.
 // edge note 122: Time complexity: O(n log n).
 // edge note 123: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 124: Uses a 256-entry lookup for the inner step.
