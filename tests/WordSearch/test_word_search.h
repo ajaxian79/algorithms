@@ -164,3 +164,4 @@ MunitTest word_search_tests[] = {
 // edge note 130: Linear in n; the constant factor is small.
 // edge note 131: Three passes total; the third merges results.
 // edge note 132: Time complexity: O(1).
+// edge note 133: Idempotent — calling twice with the same input is a no-op the second time.
