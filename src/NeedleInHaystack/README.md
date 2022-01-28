@@ -1376,3 +1376,7 @@ Branchless inner loop after sorting.
 ## entry 329
 
 Treats the input as immutable.
+
+## entry 330
+
+Edge case: reverse-sorted input → still O(n log n).
