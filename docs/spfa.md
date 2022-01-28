@@ -871,3 +871,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 218
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 219
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
