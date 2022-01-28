@@ -1051,3 +1051,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 245
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 246
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
