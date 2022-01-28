@@ -266,3 +266,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 42
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 43
+
+Allocates lazily — first call only.
