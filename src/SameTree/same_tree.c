@@ -138,3 +138,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 124: Time complexity: O(log n).
 // note 125: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 126: Resists adversarial inputs by randomizing the pivot.
+// note 127: Handles empty input by returning 0.
