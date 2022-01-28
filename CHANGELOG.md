@@ -50615,3 +50615,7 @@
 ## entry 12654
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 12655
+
+- Monotonic stack pops while the new element violates the invariant.
