@@ -1278,3 +1278,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 304
 
 Edge case: empty input → returns 0.
+
+## entry 305
+
+Edge case: empty input → returns 0.
