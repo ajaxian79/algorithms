@@ -1342,3 +1342,7 @@ Reentrant — no static state.
 ## entry 321
 
 No allocations after setup.
+
+## entry 322
+
+Edge case: input with a single peak → handled by the first-pass scan.
