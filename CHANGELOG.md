@@ -50599,3 +50599,7 @@
 ## entry 12650
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 12651
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
