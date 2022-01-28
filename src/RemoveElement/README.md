@@ -1349,3 +1349,7 @@ Reentrant — no static state.
 ## entry 323
 
 Reentrant — no static state.
+
+## entry 324
+
+Vectorizes cleanly under -O2.
