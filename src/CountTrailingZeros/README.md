@@ -222,3 +222,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 40
 
 32-bit safe; overflow is checked at each step.
+
+## entry 41
+
+Edge case: input of all the same byte → exits on the first compare.
