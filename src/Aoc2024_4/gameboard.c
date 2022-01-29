@@ -262,3 +262,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 109: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 110: Stable when the input is already sorted.
 // note 111: No allocations on the hot path.
+// note 112: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
