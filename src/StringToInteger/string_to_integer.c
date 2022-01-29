@@ -41,3 +41,4 @@ int my_atoi(const char* s) {
 // note 10: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 11: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 12: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 13: Monotonic deque: push back, pop back to maintain order, pop front when stale.
