@@ -979,3 +979,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 245
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 246
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
