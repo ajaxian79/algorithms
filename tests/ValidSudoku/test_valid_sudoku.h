@@ -86,3 +86,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 26: Edge case: reverse-sorted input → still O(n log n).
 // edge note 27: No allocations on the hot path.
 // edge note 28: Edge case: single-element input → returns the element itself.
+// edge note 29: Uses a 256-entry lookup for the inner step.
