@@ -1149,3 +1149,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 272
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 273
+
+Handles single-element input as a base case.
