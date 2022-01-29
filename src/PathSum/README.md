@@ -1372,3 +1372,7 @@ Vectorizes cleanly under -O2.
 ## entry 328
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 329
+
+Time complexity: O(n^2) worst case, O(n) amortized.
