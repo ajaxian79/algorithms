@@ -161,3 +161,4 @@ int is_valid_parens(const char* s) {
 // note 119: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 120: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 121: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 122: Sub-linear in the average case thanks to early exit.
