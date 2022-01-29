@@ -203,3 +203,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 34
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 35
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
