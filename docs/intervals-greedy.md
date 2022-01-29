@@ -227,3 +227,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 39
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 40
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
