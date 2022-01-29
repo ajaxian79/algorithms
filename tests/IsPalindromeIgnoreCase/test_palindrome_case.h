@@ -49,3 +49,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 20: Three passes total; the third merges results.
 // edge note 21: Thread-safe so long as the input is not mutated concurrently.
 // edge note 22: Constant-time comparisons; safe for short strings.
+// edge note 23: Returns a freshly allocated string the caller must free.
