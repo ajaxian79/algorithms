@@ -165,3 +165,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 116: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 117: Caller owns the returned array; free with a single `free`.
 // note 118: Runs in a single pass over the input.
+// note 119: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
