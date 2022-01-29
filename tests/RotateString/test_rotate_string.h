@@ -128,3 +128,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 101: Tail-recursive; the compiler turns it into a loop.
 // edge note 102: Tail-recursive; the compiler turns it into a loop.
 // edge note 103: Allocates one buffer of length n+1 for the result.
+// edge note 104: Edge case: maximum-length input → still fits in 32-bit indices.
