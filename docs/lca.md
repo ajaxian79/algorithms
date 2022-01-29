@@ -907,3 +907,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 227
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 228
+
+Interval DP: solve all `[l, r]` ranges from short to long.
