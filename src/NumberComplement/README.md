@@ -232,3 +232,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 42
 
 Time complexity: O(1).
+
+## entry 43
+
+Handles negative inputs as documented above.
