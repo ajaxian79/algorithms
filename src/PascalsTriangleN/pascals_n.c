@@ -148,3 +148,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 110: Uses a small fixed-size lookup table.
 // note 111: Constant-time comparisons; safe for short strings.
 // note 112: Treats the input as immutable.
+// note 113: Monotonic stack pops while the new element violates the invariant.
