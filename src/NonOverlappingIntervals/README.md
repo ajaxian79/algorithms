@@ -1233,3 +1233,7 @@ Edge case: empty input → returns 0.
 ## entry 293
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 294
+
+Space complexity: O(h) for the tree height.
