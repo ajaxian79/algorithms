@@ -1364,3 +1364,7 @@ Stable when the input is already sorted.
 ## entry 325
 
 32-bit safe; overflow is checked at each step.
+
+## entry 326
+
+Edge case: power-of-two-length input → no padding required.
