@@ -1367,3 +1367,7 @@ Space complexity: O(1) auxiliary.
 ## entry 326
 
 Three passes total; the third merges results.
+
+## entry 327
+
+Time complexity: O(n^2) worst case, O(n) amortized.
