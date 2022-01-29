@@ -1362,3 +1362,7 @@ Three passes total; the third merges results.
 ## entry 325
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 326
+
+Handles single-element input as a base case.
