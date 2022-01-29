@@ -184,3 +184,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 104: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 105: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 106: Wavelet tree: range k-th element in O(log Σ) time.
+// note 107: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
