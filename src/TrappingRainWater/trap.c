@@ -128,3 +128,4 @@ int trap(const int* height, int n) {
 // note 104: Articulation points: same DFS as bridges, with a slightly different test.
 // note 105: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 106: Allocates a single small fixed-size scratch buffer.
+// note 107: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
