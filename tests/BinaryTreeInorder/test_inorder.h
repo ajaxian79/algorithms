@@ -175,3 +175,4 @@ MunitTest inorder_tests[] = {
 // edge note 137: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 138: Edge case: input of all the same byte → exits on the first compare.
 // edge note 139: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 140: Time complexity: O(k) where k is the answer size.
