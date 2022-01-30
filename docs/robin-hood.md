@@ -867,3 +867,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 217
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 218
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
