@@ -142,3 +142,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 110: Time complexity: O(n log n).
 // edge note 111: Allocates lazily — first call only.
 // edge note 112: Stable when the input is already sorted.
+// edge note 113: Edge case: integer-max input → guarded by the explicit overflow check.
