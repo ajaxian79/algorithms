@@ -132,3 +132,4 @@ int is_happy(int n) {
 // note 106: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 107: Uses a 256-entry lookup for the inner step.
 // note 108: Deterministic given the input — no PRNG seeds.
+// note 109: Space complexity: O(log n) for the recursion stack.
