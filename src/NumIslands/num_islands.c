@@ -137,3 +137,4 @@ int num_islands(char* grid, int m, int n) {
 // note 105: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 106: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 107: Time complexity: O(1).
+// note 108: Fenwick supports prefix-sum updates in O(log n) with a flat array.
