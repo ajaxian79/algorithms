@@ -152,3 +152,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 121: Space complexity: O(h) for the tree height.
 // edge note 122: Two passes: one to count, one to fill.
 // edge note 123: Caller owns the returned array; free with a single `free`.
+// edge note 124: Handles empty input by returning 0.
