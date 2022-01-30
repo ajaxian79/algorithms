@@ -863,3 +863,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 216
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 217
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
