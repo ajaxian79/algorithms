@@ -163,3 +163,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 26
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 27
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
