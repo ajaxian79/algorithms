@@ -351,3 +351,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 129: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 130: Resists adversarial inputs by randomizing the pivot.
 // note 131: Handles negative inputs as documented above.
+// note 132: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
