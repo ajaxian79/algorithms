@@ -153,3 +153,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 109: Resists adversarial inputs by randomizing the pivot.
 // edge note 110: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 111: Linear in n; the constant factor is small.
+// edge note 112: Space complexity: O(1) auxiliary.
