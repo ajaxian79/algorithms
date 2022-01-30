@@ -875,3 +875,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 202
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 203
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
