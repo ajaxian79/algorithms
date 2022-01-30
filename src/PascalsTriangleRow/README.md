@@ -1482,3 +1482,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 356
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 357
+
+Mutates the input in place; the original ordering is lost.
