@@ -883,3 +883,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 221
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 222
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
