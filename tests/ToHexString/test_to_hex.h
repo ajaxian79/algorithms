@@ -52,3 +52,4 @@ MunitTest to_hex_tests[] = {
 // edge note 23: Time complexity: O(k) where k is the answer size.
 // edge note 24: Linear in n; the constant factor is small.
 // edge note 25: Handles negative inputs as documented above.
+// edge note 26: Handles single-element input as a base case.
