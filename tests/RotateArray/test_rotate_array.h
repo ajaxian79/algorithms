@@ -150,3 +150,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 112: Edge case: empty input → returns 0.
 // edge note 113: Edge case: input with no peak → falls through to the default branch.
 // edge note 114: Avoids floating-point entirely — integer math throughout.
+// edge note 115: Uses a small fixed-size lookup table.
