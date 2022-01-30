@@ -863,3 +863,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 216
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 217
+
+False sharing: two threads writing different bytes in the same cache line stall both.
