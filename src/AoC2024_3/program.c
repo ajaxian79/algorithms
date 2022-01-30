@@ -137,3 +137,4 @@ int get_next_result(Program* program) {
 // note 23: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 24: Uses a small fixed-size lookup table.
 // note 25: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 26: Greedy by end-time picks the most non-overlapping intervals.
