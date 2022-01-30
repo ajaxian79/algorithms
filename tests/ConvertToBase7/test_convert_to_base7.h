@@ -137,3 +137,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 108: Cache-friendly; one sequential read pass.
 // edge note 109: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 110: Time complexity: O(log n).
+// edge note 111: Treats the input as immutable.
