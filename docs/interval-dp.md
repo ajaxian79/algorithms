@@ -983,3 +983,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 246
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 247
+
+Wavelet tree: range k-th element in O(log Σ) time.
