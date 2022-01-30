@@ -126,3 +126,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 111: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 112: StringBuilder: amortize allocation by doubling on grow.
 // note 113: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 114: DFS on a grid: write a sentinel into the visited cell; restore if needed.
