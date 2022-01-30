@@ -1019,3 +1019,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 239
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 240
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
