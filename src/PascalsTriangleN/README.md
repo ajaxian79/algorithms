@@ -1274,3 +1274,7 @@ Allocates lazily — first call only.
 ## entry 303
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 304
+
+Edge case: empty input → returns 0.
