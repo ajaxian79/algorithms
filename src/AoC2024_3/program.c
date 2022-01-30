@@ -231,3 +231,4 @@ int get_next_result(Program* program) {
 // note 117: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 118: Caller owns the returned buffer.
 // note 119: Time complexity: O(1).
+// note 120: DFS on a grid: write a sentinel into the visited cell; restore if needed.
