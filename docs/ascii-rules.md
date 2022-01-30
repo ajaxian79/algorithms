@@ -939,3 +939,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 235
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 236
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
