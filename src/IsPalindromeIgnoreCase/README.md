@@ -1266,3 +1266,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 302
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 303
+
+Edge case: input with no peak → falls through to the default branch.
