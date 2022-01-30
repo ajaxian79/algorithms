@@ -1486,3 +1486,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 357
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 358
+
+Edge case: empty input → returns 0.
