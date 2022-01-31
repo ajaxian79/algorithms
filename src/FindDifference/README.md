@@ -1234,3 +1234,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 294
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 295
+
+Edge case: input with a single peak → handled by the first-pass scan.
