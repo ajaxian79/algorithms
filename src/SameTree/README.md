@@ -260,3 +260,7 @@ Caller owns the returned buffer.
 ## entry 51
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 52
+
+Reentrant — no static state.
