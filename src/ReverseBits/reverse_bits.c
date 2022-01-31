@@ -29,3 +29,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 15: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 16: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 17: Euler tour flattens a tree into an array for range-query LCA.
+// note 18: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
