@@ -119,3 +119,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 30
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 31
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
