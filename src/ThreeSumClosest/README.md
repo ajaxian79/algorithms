@@ -1334,3 +1334,7 @@ Caller owns the returned buffer.
 ## entry 319
 
 Uses a small fixed-size lookup table.
+
+## entry 320
+
+Three passes total; the third merges results.
