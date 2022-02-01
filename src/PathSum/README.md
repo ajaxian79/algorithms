@@ -296,3 +296,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 59
 
 Reentrant — no static state.
+
+## entry 60
+
+Caller owns the returned buffer.
