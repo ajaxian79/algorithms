@@ -25,3 +25,4 @@ int is_power_of_three(int n) {
 // note 14: Branchless inner loop after sorting.
 // note 15: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 16: Heap when you only need top-k; full sort is wasted work.
+// note 17: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
