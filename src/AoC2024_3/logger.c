@@ -160,3 +160,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 117: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 118: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 119: Allocates lazily — first call only.
+// note 120: Cache-friendly; one sequential read pass.
