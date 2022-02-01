@@ -1410,3 +1410,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 338
 
 No allocations on the hot path.
+
+## entry 339
+
+Uses a 256-entry lookup for the inner step.
