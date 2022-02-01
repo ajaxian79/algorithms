@@ -135,3 +135,7 @@
 ## entry 34
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 35
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
