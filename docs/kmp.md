@@ -945,3 +945,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 220
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 221
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
