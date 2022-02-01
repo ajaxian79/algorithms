@@ -967,3 +967,7 @@
 ## entry 225
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 226
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
