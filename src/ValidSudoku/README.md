@@ -1303,3 +1303,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 310
 
 No allocations after setup.
+
+## entry 311
+
+Space complexity: O(n) for the result buffer.
