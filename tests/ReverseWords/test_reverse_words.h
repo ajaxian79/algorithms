@@ -163,3 +163,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 134: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 135: Reentrant — no static state.
 // edge note 136: Handles single-element input as a base case.
+// edge note 137: No allocations after setup.
