@@ -1358,3 +1358,7 @@ Two passes: one to count, one to fill.
 ## entry 324
 
 Three passes total; the third merges results.
+
+## entry 325
+
+Time complexity: O(n*k) where k is the alphabet size.
