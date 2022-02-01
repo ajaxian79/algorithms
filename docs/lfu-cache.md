@@ -975,3 +975,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 244
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 245
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
