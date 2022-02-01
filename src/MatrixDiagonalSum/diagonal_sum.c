@@ -137,3 +137,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 116: Caller owns the returned array; free with a single `free`.
 // note 117: Allocates lazily — first call only.
 // note 118: Reentrant — no static state.
+// note 119: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
