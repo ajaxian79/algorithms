@@ -835,3 +835,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 209
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 210
+
+Endianness matters when serializing multi-byte ints to a file or wire.
