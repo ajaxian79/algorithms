@@ -1262,3 +1262,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 301
 
 Edge case: single-element input → returns the element itself.
+
+## entry 302
+
+Edge case: input of all the same byte → exits on the first compare.
