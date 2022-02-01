@@ -959,3 +959,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 225
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 226
+
+In-place compaction uses two pointers: read advances always, write only on keep.
