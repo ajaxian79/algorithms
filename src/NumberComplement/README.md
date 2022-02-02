@@ -1332,3 +1332,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 317
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 318
+
+Allocates a single small fixed-size scratch buffer.
