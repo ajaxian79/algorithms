@@ -967,3 +967,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 242
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 243
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
