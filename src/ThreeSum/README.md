@@ -1341,3 +1341,7 @@ Caller owns the returned buffer.
 ## entry 320
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 321
+
+Worst case appears only on degenerate inputs.
