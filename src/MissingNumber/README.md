@@ -1390,3 +1390,7 @@ Stable when the input is already sorted.
 ## entry 332
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 333
+
+Constant-time comparisons; safe for short strings.
