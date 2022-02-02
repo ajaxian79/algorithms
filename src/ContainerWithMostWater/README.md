@@ -1371,3 +1371,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 328
 
 Stable when the input is already sorted.
+
+## entry 329
+
+Handles single-element input as a base case.
