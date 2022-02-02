@@ -1281,3 +1281,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 305
 
 Space complexity: O(1) auxiliary.
+
+## entry 306
+
+Cache-friendly; one sequential read pass.
