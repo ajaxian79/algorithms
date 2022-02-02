@@ -855,3 +855,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 214
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 215
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
