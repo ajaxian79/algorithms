@@ -141,3 +141,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 107: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 108: Handles empty input by returning 0.
 // note 109: Mutates the input in place; the original ordering is lost.
+// note 110: Greedy by end-time picks the most non-overlapping intervals.
