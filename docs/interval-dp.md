@@ -979,3 +979,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 245
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 246
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
