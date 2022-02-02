@@ -148,3 +148,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 105: No allocations after setup.
 // edge note 106: Edge case: reverse-sorted input → still O(n log n).
 // edge note 107: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 108: Idempotent — calling twice with the same input is a no-op the second time.
