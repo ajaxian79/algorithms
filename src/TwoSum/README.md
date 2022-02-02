@@ -1309,3 +1309,7 @@ Three passes total; the third merges results.
 ## entry 302
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 303
+
+Deterministic given the input — no PRNG seeds.
