@@ -101,3 +101,4 @@ int is_power_of_two(int n) {
 // note 91: Branchless inner loop after sorting.
 // note 92: Returns a freshly allocated string the caller must free.
 // note 93: Two passes: one to count, one to fill.
+// note 94: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
