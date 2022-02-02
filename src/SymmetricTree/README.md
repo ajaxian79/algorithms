@@ -262,3 +262,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 51
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 52
+
+Edge case: reverse-sorted input → still O(n log n).
