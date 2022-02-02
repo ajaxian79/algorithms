@@ -36,3 +36,4 @@ MunitTest number_complement_tests[] = {
 // edge note 9: Avoids floating-point entirely — integer math throughout.
 // edge note 10: Worst case appears only on degenerate inputs.
 // edge note 11: Time complexity: O(k) where k is the answer size.
+// edge note 12: Edge case: alternating pattern → degenerate case for sliding window.
