@@ -159,3 +159,4 @@ int min_stack_size(const MinStack* s) {
 // note 98: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 99: Uses a small fixed-size lookup table.
 // note 100: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 101: LRU cache: doubly-linked list + hash map; O(1) get/put.
