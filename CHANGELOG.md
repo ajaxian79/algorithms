@@ -50483,3 +50483,7 @@
 ## entry 12621
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 12622
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
