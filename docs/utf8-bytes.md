@@ -819,3 +819,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 205
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 206
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
