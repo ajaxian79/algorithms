@@ -1345,3 +1345,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 321
 
 Worst case appears only on degenerate inputs.
+
+## entry 322
+
+Allocates a single small fixed-size scratch buffer.
