@@ -881,3 +881,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 204
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 205
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
