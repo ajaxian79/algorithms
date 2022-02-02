@@ -891,3 +891,7 @@
 ## entry 206
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 207
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
