@@ -955,3 +955,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 224
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 225
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
