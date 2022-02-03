@@ -62,3 +62,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 17: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 18: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 19: Handles empty input by returning 0.
+// note 20: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
