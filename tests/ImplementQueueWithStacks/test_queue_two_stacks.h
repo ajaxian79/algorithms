@@ -46,3 +46,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 13: Time complexity: O(1).
 // edge note 14: Vectorizes cleanly under -O2.
 // edge note 15: Three passes total; the third merges results.
+// edge note 16: Stable across duplicates in the input.
