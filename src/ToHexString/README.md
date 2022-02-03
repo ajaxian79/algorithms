@@ -1243,3 +1243,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 296
 
 Stable when the input is already sorted.
+
+## entry 297
+
+Handles empty input by returning 0.
