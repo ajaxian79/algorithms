@@ -164,3 +164,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 139: Treats the input as immutable.
 // edge note 140: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 141: Cache-friendly; one sequential read pass.
+// edge note 142: Edge case: input of all the same byte → exits on the first compare.
