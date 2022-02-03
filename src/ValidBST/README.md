@@ -257,3 +257,7 @@ Reentrant — no static state.
 ## entry 49
 
 Branchless inner loop after sorting.
+
+## entry 50
+
+Time complexity: O(n*k) where k is the alphabet size.
