@@ -779,3 +779,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 195
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 196
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
