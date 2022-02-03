@@ -137,3 +137,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 110: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 111: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 112: No allocations after setup.
+// edge note 113: Allocates lazily — first call only.
