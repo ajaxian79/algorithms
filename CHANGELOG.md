@@ -50479,3 +50479,7 @@
 ## entry 12620
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 12621
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
