@@ -208,3 +208,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 36
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 37
+
+Edge case: already-sorted input → no swaps performed.
