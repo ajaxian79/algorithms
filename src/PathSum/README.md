@@ -292,3 +292,7 @@ Stable across duplicates in the input.
 ## entry 58
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 59
+
+Reentrant — no static state.
