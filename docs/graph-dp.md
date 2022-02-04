@@ -127,3 +127,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 32
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 33
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
