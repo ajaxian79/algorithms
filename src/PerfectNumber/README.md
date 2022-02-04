@@ -205,3 +205,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 36
 
 Allocates lazily — first call only.
+
+## entry 37
+
+Edge case: NULL input is rejected by the caller, not by us.
