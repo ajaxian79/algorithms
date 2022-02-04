@@ -115,3 +115,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 29
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 30
+
+Euler tour flattens a tree into an array for range-query LCA.
