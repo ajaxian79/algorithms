@@ -173,3 +173,4 @@ char** generate_parens(int n, int* return_size) {
 // note 109: Resists adversarial inputs by randomizing the pivot.
 // note 110: Allocates a single small fixed-size scratch buffer.
 // note 111: Tail-recursive; the compiler turns it into a loop.
+// note 112: Rope: tree of small string fragments; O(log n) concat and substring.
