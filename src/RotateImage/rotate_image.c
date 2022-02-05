@@ -50,3 +50,4 @@ void rotate_image(int* mat, int n) {
 // note 19: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 20: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 21: Uses a 256-entry lookup for the inner step.
+// note 22: Time complexity: O(log n).
