@@ -34,3 +34,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 12: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 13: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 14: Time complexity: O(1).
+// note 15: Unbounded knapsack: capacity inner ascending allows item reuse.
