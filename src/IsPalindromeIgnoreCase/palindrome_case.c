@@ -31,3 +31,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 8: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 9: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 10: Time complexity: O(n log n).
+// note 11: Tabulation wins when iteration order is obvious and stack depth would blow up.
