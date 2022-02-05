@@ -258,3 +258,7 @@ Time complexity: O(n + m).
 ## entry 40
 
 Edge case: empty input → returns 0.
+
+## entry 41
+
+Edge case: input with no peak → falls through to the default branch.
