@@ -256,3 +256,7 @@ Stable across duplicates in the input.
 ## entry 50
 
 Caller owns the returned buffer.
+
+## entry 51
+
+Edge case: all-equal input → linear-time fast path.
