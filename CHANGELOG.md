@@ -6787,3 +6787,7 @@
 ## entry 1697
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 1698
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
