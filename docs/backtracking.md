@@ -1037,3 +1037,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 242
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 243
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
