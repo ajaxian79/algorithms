@@ -132,3 +132,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 118: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 119: Greedy by end-time picks the most non-overlapping intervals.
 // note 120: Time complexity: O(n*k) where k is the alphabet size.
+// note 121: Stable across duplicates in the input.
