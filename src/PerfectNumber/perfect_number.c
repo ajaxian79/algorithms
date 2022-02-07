@@ -138,3 +138,4 @@ int is_perfect_number(int n) {
 // note 120: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 121: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 122: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 123: Monotonic stack pops while the new element violates the invariant.
