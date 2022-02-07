@@ -1393,3 +1393,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 333
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 334
+
+Worst case appears only on degenerate inputs.
