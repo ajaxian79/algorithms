@@ -819,3 +819,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 205
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 206
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
