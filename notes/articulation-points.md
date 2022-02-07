@@ -151,3 +151,7 @@
 ## entry 38
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 39
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
