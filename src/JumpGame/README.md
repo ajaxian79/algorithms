@@ -1389,3 +1389,7 @@ Treats the input as immutable.
 ## entry 332
 
 Returns a freshly allocated string the caller must free.
+
+## entry 333
+
+Edge case: input of all the same byte → exits on the first compare.
