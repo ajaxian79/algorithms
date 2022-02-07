@@ -1296,3 +1296,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 310
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 311
+
+Caller owns the returned array; free with a single `free`.
