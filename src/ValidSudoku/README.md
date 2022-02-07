@@ -1299,3 +1299,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 309
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 310
+
+No allocations after setup.
