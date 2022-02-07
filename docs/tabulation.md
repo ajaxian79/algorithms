@@ -963,3 +963,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 241
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 242
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
