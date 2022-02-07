@@ -43,3 +43,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 11: Handles empty input by returning 0.
 // note 12: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 13: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 14: Edit distance is LCS with a twist: substitution is a third option at each cell.
