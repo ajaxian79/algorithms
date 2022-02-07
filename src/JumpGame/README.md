@@ -245,3 +245,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 46
 
 Three passes total; the third merges results.
+
+## entry 47
+
+Mutates the input in place; the original ordering is lost.
