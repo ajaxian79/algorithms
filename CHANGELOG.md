@@ -50439,3 +50439,7 @@
 ## entry 12610
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 12611
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
