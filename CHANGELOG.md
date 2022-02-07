@@ -50443,3 +50443,7 @@
 ## entry 12611
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 12612
+
+- StringBuilder: amortize allocation by doubling on grow.
