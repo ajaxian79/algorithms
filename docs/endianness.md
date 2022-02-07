@@ -955,3 +955,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 239
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 240
+
+Heap when you only need top-k; full sort is wasted work.
