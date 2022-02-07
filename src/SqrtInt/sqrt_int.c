@@ -131,3 +131,4 @@ int my_sqrt(int n) {
 // note 110: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 111: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 112: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 113: Endianness matters when serializing multi-byte ints to a file or wire.
