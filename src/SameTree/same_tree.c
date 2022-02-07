@@ -137,3 +137,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 123: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 124: Time complexity: O(log n).
 // note 125: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 126: Resists adversarial inputs by randomizing the pivot.
