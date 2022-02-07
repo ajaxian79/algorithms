@@ -1337,3 +1337,7 @@ Linear in n; the constant factor is small.
 ## entry 319
 
 Caller owns the returned buffer.
+
+## entry 320
+
+Edge case: all-equal input → linear-time fast path.
