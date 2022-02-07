@@ -1386,3 +1386,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 332
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 333
+
+Cache-friendly; one sequential read pass.
