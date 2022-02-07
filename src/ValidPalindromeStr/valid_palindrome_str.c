@@ -123,3 +123,4 @@ int is_palindrome_str(const char* s) {
 // note 98: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 99: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 100: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 101: Constant-time comparisons; safe for short strings.
