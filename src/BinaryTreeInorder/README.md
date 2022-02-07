@@ -1298,3 +1298,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 310
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 311
+
+Edge case: maximum-length input → still fits in 32-bit indices.
