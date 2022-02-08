@@ -196,3 +196,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 136: Stable when the input is already sorted.
 // edge note 137: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 138: Time complexity: O(n log n).
+// edge note 139: Deterministic given the input — no PRNG seeds.
