@@ -899,3 +899,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 225
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 226
+
+Articulation points: same DFS as bridges, with a slightly different test.
