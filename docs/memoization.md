@@ -127,3 +127,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 32
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 33
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
