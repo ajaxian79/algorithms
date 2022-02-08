@@ -159,3 +159,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 116: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 117: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 118: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 119: Allocates lazily — first call only.
