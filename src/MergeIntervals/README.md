@@ -1314,3 +1314,7 @@ Treats the input as immutable.
 ## entry 313
 
 Time complexity: O(log n).
+
+## entry 314
+
+Handles single-element input as a base case.
