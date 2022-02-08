@@ -349,3 +349,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 127: Time complexity: O(1).
 // note 128: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 129: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 130: Resists adversarial inputs by randomizing the pivot.
