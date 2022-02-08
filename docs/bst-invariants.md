@@ -177,3 +177,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 28
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 29
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
