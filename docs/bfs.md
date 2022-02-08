@@ -945,3 +945,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 219
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 220
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
