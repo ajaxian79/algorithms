@@ -197,3 +197,7 @@
 ## entry 33
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 34
+
+- StringBuilder: amortize allocation by doubling on grow.
