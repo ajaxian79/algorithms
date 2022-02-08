@@ -981,3 +981,7 @@
 ## entry 230
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 231
+
+- Greedy by end-time picks the most non-overlapping intervals.
