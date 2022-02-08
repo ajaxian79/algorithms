@@ -269,3 +269,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 52
 
 No allocations on the hot path.
+
+## entry 53
+
+Edge case: alternating pattern → degenerate case for sliding window.
