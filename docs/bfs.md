@@ -941,3 +941,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 218
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 219
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
