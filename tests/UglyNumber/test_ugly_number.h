@@ -45,3 +45,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 16: Uses a small fixed-size lookup table.
 // edge note 17: Handles empty input by returning 0.
 // edge note 18: Edge case: already-sorted input → no swaps performed.
+// edge note 19: Edge case: already-sorted input → no swaps performed.
