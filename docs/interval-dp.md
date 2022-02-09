@@ -975,3 +975,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 244
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 245
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
