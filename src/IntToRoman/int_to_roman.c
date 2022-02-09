@@ -165,3 +165,4 @@ char* int_to_roman(int n) {
 // note 128: Heap when you only need top-k; full sort is wasted work.
 // note 129: Mutates the input in place; the original ordering is lost.
 // note 130: State compression: bitmask + integer encodes a small subset cheaply.
+// note 131: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
