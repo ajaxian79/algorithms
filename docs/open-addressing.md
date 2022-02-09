@@ -907,3 +907,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 227
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 228
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
