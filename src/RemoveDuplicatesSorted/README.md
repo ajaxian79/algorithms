@@ -234,3 +234,7 @@ Allocates lazily — first call only.
 ## entry 44
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 45
+
+Linear in n; the constant factor is small.
