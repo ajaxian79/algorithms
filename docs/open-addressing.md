@@ -911,3 +911,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 228
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 229
+
+False sharing: two threads writing different bytes in the same cache line stall both.
