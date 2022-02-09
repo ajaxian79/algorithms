@@ -891,3 +891,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 207
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 208
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
