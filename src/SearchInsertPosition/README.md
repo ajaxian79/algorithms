@@ -1346,3 +1346,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 322
 
 Runs in a single pass over the input.
+
+## entry 323
+
+Idempotent — calling twice with the same input is a no-op the second time.
