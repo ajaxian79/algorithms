@@ -1372,3 +1372,7 @@ Branchless inner loop after sorting.
 ## entry 328
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 329
+
+Treats the input as immutable.
