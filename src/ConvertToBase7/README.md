@@ -1420,3 +1420,7 @@ Worst case appears only on degenerate inputs.
 ## entry 340
 
 Cache-friendly; one sequential read pass.
+
+## entry 341
+
+Thread-safe so long as the input is not mutated concurrently.
