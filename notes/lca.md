@@ -103,3 +103,7 @@
 ## entry 26
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 27
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
