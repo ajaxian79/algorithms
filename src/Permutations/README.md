@@ -1472,3 +1472,7 @@ Space complexity: O(h) for the tree height.
 ## entry 353
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 354
+
+64-bit safe; intermediate products are widened to 128-bit.
