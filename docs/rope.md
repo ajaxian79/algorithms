@@ -911,3 +911,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 228
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 229
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
