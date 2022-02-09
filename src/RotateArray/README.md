@@ -1355,3 +1355,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 323
 
 No allocations after setup.
+
+## entry 324
+
+Time complexity: O(log n).
