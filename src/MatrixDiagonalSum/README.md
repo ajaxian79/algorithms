@@ -1338,3 +1338,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 320
 
 Reentrant — no static state.
+
+## entry 321
+
+No allocations after setup.
