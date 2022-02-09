@@ -51,3 +51,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 23: Branchless inner loop after sorting.
 // edge note 24: Linear in n; the constant factor is small.
 // edge note 25: Edge case: power-of-two-length input → no padding required.
+// edge note 26: Runs in a single pass over the input.
