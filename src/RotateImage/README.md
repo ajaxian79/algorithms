@@ -1381,3 +1381,7 @@ Branchless inner loop after sorting.
 ## entry 330
 
 Time complexity: O(1).
+
+## entry 331
+
+Best case is O(1) when the first byte already decides the answer.
