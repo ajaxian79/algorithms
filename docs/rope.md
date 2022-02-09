@@ -915,3 +915,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 229
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 230
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
