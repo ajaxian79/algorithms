@@ -839,3 +839,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 210
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 211
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
