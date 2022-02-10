@@ -1363,3 +1363,7 @@ Reentrant — no static state.
 ## entry 326
 
 Handles empty input by returning 0.
+
+## entry 327
+
+Space complexity: O(log n) for the recursion stack.
