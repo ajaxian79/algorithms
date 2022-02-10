@@ -1382,3 +1382,7 @@ No allocations after setup.
 ## entry 331
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 332
+
+Avoids floating-point entirely — integer math throughout.
