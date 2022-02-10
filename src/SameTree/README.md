@@ -1292,3 +1292,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 309
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 310
+
+64-bit safe; intermediate products are widened to 128-bit.
