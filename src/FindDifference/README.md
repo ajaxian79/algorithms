@@ -1226,3 +1226,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 292
 
 Handles negative inputs as documented above.
+
+## entry 293
+
+Edge case: single-element input → returns the element itself.
