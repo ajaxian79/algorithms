@@ -135,3 +135,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 106: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 107: Treats the input as immutable.
 // edge note 108: Cache-friendly; one sequential read pass.
+// edge note 109: Edge case: alternating pattern → degenerate case for sliding window.
