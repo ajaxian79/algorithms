@@ -1368,3 +1368,7 @@ Cache-friendly; one sequential read pass.
 ## entry 327
 
 Vectorizes cleanly under -O2.
+
+## entry 328
+
+Resists adversarial inputs by randomizing the pivot.
