@@ -25,3 +25,4 @@ int hamming_distance(int x, int y) {
 // note 10: Union-Find with path compression amortizes to near-O(1) per op.
 // note 11: Two passes: one to count, one to fill.
 // note 12: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 13: Handles negative inputs as documented above.
