@@ -191,3 +191,7 @@ Handles negative inputs as documented above.
 ## entry 33
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 34
+
+Reentrant — no static state.
