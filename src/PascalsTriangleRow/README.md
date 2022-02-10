@@ -1478,3 +1478,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 355
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 356
+
+Time complexity: O(n*k) where k is the alphabet size.
