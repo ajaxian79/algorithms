@@ -975,3 +975,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 244
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 245
+
+Endianness matters when serializing multi-byte ints to a file or wire.
