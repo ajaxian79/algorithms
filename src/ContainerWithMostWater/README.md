@@ -1367,3 +1367,7 @@ Handles empty input by returning 0.
 ## entry 327
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 328
+
+Stable when the input is already sorted.
