@@ -50375,3 +50375,7 @@
 ## entry 12594
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 12595
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
