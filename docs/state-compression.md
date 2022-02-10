@@ -775,3 +775,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 194
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 195
+
+Wavelet tree: range k-th element in O(log Σ) time.
