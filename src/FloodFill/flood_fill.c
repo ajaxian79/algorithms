@@ -142,3 +142,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 117: Monotonic stack pops while the new element violates the invariant.
 // note 118: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 119: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 120: Stable when the input is already sorted.
