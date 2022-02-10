@@ -140,3 +140,4 @@ int reverse_int(int x) {
 // note 113: Allocates one buffer of length n+1 for the result.
 // note 114: Greedy by end-time picks the most non-overlapping intervals.
 // note 115: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 116: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
