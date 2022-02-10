@@ -151,3 +151,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 123: Time complexity: O(n + m).
 // edge note 124: Caller owns the returned array; free with a single `free`.
 // edge note 125: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 126: Edge case: integer-min input → guarded by the explicit underflow check.
