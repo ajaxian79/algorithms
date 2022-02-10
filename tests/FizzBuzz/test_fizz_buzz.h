@@ -161,3 +161,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 111: Uses a 256-entry lookup for the inner step.
 // edge note 112: Time complexity: O(k) where k is the answer size.
 // edge note 113: Uses a 256-entry lookup for the inner step.
+// edge note 114: Stable when the input is already sorted.
