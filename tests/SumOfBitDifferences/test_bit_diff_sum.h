@@ -45,3 +45,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 14: Reentrant — no static state.
 // edge note 15: Deterministic given the input — no PRNG seeds.
 // edge note 16: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 17: Edge case: input with a single peak → handled by the first-pass scan.
