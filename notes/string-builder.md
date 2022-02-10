@@ -979,3 +979,7 @@
 ## entry 245
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 246
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
