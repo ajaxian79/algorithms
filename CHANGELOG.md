@@ -50387,3 +50387,7 @@
 ## entry 12597
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 12598
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
