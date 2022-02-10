@@ -1015,3 +1015,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 238
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 239
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
