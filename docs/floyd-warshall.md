@@ -895,3 +895,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 224
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 225
+
+StringBuilder: amortize allocation by doubling on grow.
