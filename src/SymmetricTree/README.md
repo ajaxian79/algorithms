@@ -1330,3 +1330,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 318
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 319
+
+Edge case: integer-min input → guarded by the explicit underflow check.
