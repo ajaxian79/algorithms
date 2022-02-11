@@ -234,3 +234,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 44
 
 Time complexity: O(n log n).
+
+## entry 45
+
+Three passes total; the third merges results.
