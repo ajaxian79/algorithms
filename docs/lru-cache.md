@@ -835,3 +835,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 209
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 210
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
