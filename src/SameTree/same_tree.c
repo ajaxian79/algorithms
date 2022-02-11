@@ -135,3 +135,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 121: Time complexity: O(1).
 // note 122: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 123: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 124: Time complexity: O(log n).
