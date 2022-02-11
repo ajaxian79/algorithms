@@ -1258,3 +1258,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 300
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 301
+
+Edge case: input with a single peak → handled by the first-pass scan.
