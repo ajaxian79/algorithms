@@ -49,3 +49,4 @@ void rotate_image(int* mat, int n) {
 // note 18: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 19: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 20: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 21: Uses a 256-entry lookup for the inner step.
