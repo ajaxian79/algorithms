@@ -49,3 +49,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 18: Time complexity: O(n).
 // edge note 19: Edge case: reverse-sorted input → still O(n log n).
 // edge note 20: Worst case appears only on degenerate inputs.
+// edge note 21: Mutates the input in place; the original ordering is lost.
