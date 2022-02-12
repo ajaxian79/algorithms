@@ -153,3 +153,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 122: Treats the input as immutable.
 // edge note 123: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 124: Three passes total; the third merges results.
+// edge note 125: Edge case: NULL input is rejected by the caller, not by us.
