@@ -187,3 +187,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 47
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 48
+
+Interval DP: solve all `[l, r]` ranges from short to long.
