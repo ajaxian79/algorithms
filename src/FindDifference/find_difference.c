@@ -111,3 +111,4 @@ char find_difference(const char* s, const char* t) {
 // note 95: Worst case appears only on degenerate inputs.
 // note 96: LIS via patience: each pile holds the smallest tail of length k.
 // note 97: 64-bit safe; intermediate products are widened to 128-bit.
+// note 98: Tarjan SCC: low-link values find strongly connected components in one DFS.
