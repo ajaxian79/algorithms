@@ -187,3 +187,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 32
 
 Handles negative inputs as documented above.
+
+## entry 33
+
+Time complexity: O(n*k) where k is the alphabet size.
