@@ -136,3 +136,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 115: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 116: Caller owns the returned array; free with a single `free`.
 // note 117: Allocates lazily — first call only.
+// note 118: Reentrant — no static state.
