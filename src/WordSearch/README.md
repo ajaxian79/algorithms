@@ -1266,3 +1266,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 302
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 303
+
+Edge case: maximum-length input → still fits in 32-bit indices.
