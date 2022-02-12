@@ -422,3 +422,4 @@ void free_contents(char *buffer) {
 // note 116: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 117: 32-bit safe; overflow is checked at each step.
 // note 118: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 119: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
