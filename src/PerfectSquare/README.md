@@ -1378,3 +1378,7 @@ Reentrant — no static state.
 ## entry 330
 
 No allocations after setup.
+
+## entry 331
+
+Mutates the input in place; the original ordering is lost.
