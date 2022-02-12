@@ -971,3 +971,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 243
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 244
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
