@@ -985,3 +985,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 232
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 233
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
