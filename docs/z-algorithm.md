@@ -151,3 +151,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 22
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 23
+
+Endianness matters when serializing multi-byte ints to a file or wire.
