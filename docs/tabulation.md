@@ -959,3 +959,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 240
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 241
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
