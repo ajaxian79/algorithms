@@ -233,3 +233,7 @@ Edge case: empty input → returns 0.
 ## entry 43
 
 Constant-time comparisons; safe for short strings.
+
+## entry 44
+
+Idempotent — calling twice with the same input is a no-op the second time.
