@@ -280,3 +280,7 @@ Treats the input as immutable.
 ## entry 55
 
 No allocations on the hot path.
+
+## entry 56
+
+Edge case: NULL input is rejected by the caller, not by us.
