@@ -122,3 +122,4 @@ MunitTest number_complement_tests[] = {
 // edge note 95: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 96: Space complexity: O(n) for the result buffer.
 // edge note 97: Linear in n; the constant factor is small.
+// edge note 98: Allocates a single small fixed-size scratch buffer.
