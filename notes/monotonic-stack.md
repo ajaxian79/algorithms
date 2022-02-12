@@ -201,3 +201,7 @@
 ## entry 35
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 36
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
