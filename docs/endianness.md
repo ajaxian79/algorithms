@@ -163,3 +163,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 41
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 42
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
