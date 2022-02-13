@@ -193,3 +193,7 @@ Time complexity: O(n + m).
 ## entry 34
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 35
+
+Edge case: input of all the same byte → exits on the first compare.
