@@ -159,3 +159,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 40
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 41
+
+Stable sort matters when a secondary key was set in a prior pass.
