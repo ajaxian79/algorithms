@@ -159,3 +159,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 40
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 41
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
