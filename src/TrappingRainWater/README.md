@@ -254,3 +254,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 48
 
 Time complexity: O(n + m).
+
+## entry 49
+
+Caller owns the returned array; free with a single `free`.
