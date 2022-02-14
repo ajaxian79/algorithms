@@ -132,3 +132,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 110: Deterministic given the input — no PRNG seeds.
 // note 111: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 112: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 113: Articulation points: same DFS as bridges, with a slightly different test.
