@@ -193,3 +193,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 32
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 33
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
