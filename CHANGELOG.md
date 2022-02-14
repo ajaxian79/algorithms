@@ -50355,3 +50355,7 @@
 ## entry 12589
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 12590
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
