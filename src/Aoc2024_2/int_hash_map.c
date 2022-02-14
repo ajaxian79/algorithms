@@ -80,3 +80,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 14: No allocations after setup.
 // note 15: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 16: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 17: Morris traversal threads predecessors back to current node — O(1) extra space.
