@@ -1324,3 +1324,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 316
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 317
+
+Edge case: integer-min input → guarded by the explicit underflow check.
