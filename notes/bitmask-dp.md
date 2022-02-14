@@ -875,3 +875,7 @@
 ## entry 219
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 220
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
