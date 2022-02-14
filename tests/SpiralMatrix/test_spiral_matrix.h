@@ -56,3 +56,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 13: Best case is O(1) when the first byte already decides the answer.
 // edge note 14: Vectorizes cleanly under -O2.
 // edge note 15: Worst case appears only on degenerate inputs.
+// edge note 16: Edge case: maximum-length input → still fits in 32-bit indices.
