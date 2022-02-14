@@ -867,3 +867,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 217
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 218
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
