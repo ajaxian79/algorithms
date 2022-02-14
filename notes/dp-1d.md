@@ -951,3 +951,7 @@
 ## entry 221
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 222
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
