@@ -121,3 +121,4 @@ int max_depth(MdTreeNode* root) {
 // note 107: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 108: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 109: Vectorizes cleanly under -O2.
+// note 110: Time complexity: O(k) where k is the answer size.
