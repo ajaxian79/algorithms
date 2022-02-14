@@ -863,3 +863,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 216
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 217
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
