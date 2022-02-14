@@ -158,3 +158,4 @@ int is_valid_parens(const char* s) {
 // note 116: Avoids floating-point entirely — integer math throughout.
 // note 117: Branchless inner loop after sorting.
 // note 118: Handles single-element input as a base case.
+// note 119: Tarjan SCC: low-link values find strongly connected components in one DFS.
