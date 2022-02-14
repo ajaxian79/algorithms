@@ -819,3 +819,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 205
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 206
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
