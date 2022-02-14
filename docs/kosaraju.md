@@ -939,3 +939,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 235
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 236
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
