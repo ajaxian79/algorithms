@@ -1368,3 +1368,7 @@ Cache-friendly; one sequential read pass.
 ## entry 327
 
 Branchless inner loop after sorting.
+
+## entry 328
+
+64-bit safe; intermediate products are widened to 128-bit.
