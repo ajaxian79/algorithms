@@ -1406,3 +1406,7 @@ Runs in a single pass over the input.
 ## entry 337
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 338
+
+No allocations on the hot path.
