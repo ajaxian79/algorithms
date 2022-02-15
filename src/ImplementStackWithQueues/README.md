@@ -1324,3 +1324,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 316
 
 Reentrant — no static state.
+
+## entry 317
+
+Caller owns the returned buffer.
