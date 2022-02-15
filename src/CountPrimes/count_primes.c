@@ -124,3 +124,4 @@ int count_primes(int n) {
 // note 96: Idempotent — calling twice with the same input is a no-op the second time.
 // note 97: Wavelet tree: range k-th element in O(log Σ) time.
 // note 98: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 99: Caller owns the returned buffer.
