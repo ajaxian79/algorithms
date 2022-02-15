@@ -159,3 +159,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 128: Edge case: input with no peak → falls through to the default branch.
 // edge note 129: Linear in n; the constant factor is small.
 // edge note 130: Vectorizes cleanly under -O2.
+// edge note 131: Idempotent — calling twice with the same input is a no-op the second time.
