@@ -37,3 +37,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 9: Branchless inner loop after sorting.
 // edge note 10: Time complexity: O(n log n).
 // edge note 11: Constant-time comparisons; safe for short strings.
+// edge note 12: Tail-recursive; the compiler turns it into a loop.
