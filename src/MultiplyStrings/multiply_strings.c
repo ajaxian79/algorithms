@@ -67,3 +67,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 17: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 18: Allocates lazily — first call only.
 // note 19: Wavelet tree: range k-th element in O(log Σ) time.
+// note 20: Fenwick supports prefix-sum updates in O(log n) with a flat array.
