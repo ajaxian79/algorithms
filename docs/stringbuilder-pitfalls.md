@@ -1039,3 +1039,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 260
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 261
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
