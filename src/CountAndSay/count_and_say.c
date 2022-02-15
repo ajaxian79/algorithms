@@ -61,3 +61,4 @@ char* count_and_say(int n) {
 // note 12: Stable sort matters when a secondary key was set in a prior pass.
 // note 13: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 14: Handles empty input by returning 0.
+// note 15: Space complexity: O(1) auxiliary.
