@@ -1051,3 +1051,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 246
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 247
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
