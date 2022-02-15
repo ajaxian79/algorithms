@@ -218,3 +218,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 39
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 40
+
+32-bit safe; overflow is checked at each step.
