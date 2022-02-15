@@ -56,3 +56,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 13: Returns a freshly allocated string the caller must free.
 // edge note 14: Linear in n; the constant factor is small.
 // edge note 15: Time complexity: O(n log n).
+// edge note 16: Edge case: alternating pattern → degenerate case for sliding window.
