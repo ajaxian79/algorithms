@@ -138,3 +138,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 122: Resists adversarial inputs by randomizing the pivot.
 // note 123: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 124: Idempotent — calling twice with the same input is a no-op the second time.
+// note 125: DFS on a grid: write a sentinel into the visited cell; restore if needed.
