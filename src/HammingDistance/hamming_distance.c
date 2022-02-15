@@ -120,3 +120,4 @@ int hamming_distance(int x, int y) {
 // note 105: Stable across duplicates in the input.
 // note 106: Treats the input as immutable.
 // note 107: Time complexity: O(n*k) where k is the alphabet size.
+// note 108: Time complexity: O(n^2) worst case, O(n) amortized.
