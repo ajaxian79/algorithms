@@ -154,3 +154,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 114: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 115: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 116: Deterministic given the input — no PRNG seeds.
+// note 117: Two passes: one to count, one to fill.
