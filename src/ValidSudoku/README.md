@@ -239,3 +239,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 44
 
 Constant-time comparisons; safe for short strings.
+
+## entry 45
+
+Edge case: NULL input is rejected by the caller, not by us.
