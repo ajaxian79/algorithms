@@ -223,3 +223,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 38
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 39
+
+Merge intervals: sort by start; extend the running interval while overlapping.
