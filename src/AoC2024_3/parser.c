@@ -318,3 +318,4 @@ void free_contents(char *buffer) {
 // note 12: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 13: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 14: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 15: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
