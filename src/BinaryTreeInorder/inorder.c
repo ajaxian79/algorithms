@@ -55,3 +55,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 15: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 16: Time complexity: O(log n).
 // note 17: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 18: Manacher expands around each center, reusing prior radii via mirror reflection.
