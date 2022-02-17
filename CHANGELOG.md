@@ -50327,3 +50327,7 @@
 ## entry 12582
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 12583
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
