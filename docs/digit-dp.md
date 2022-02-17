@@ -851,3 +851,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 213
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 214
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
