@@ -1356,3 +1356,7 @@ Two passes: one to count, one to fill.
 ## entry 323
 
 Cache-friendly; one sequential read pass.
+
+## entry 324
+
+Stable when the input is already sorted.
