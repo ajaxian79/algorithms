@@ -1474,3 +1474,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 354
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 355
+
+Edge case: integer-min input → guarded by the explicit underflow check.
