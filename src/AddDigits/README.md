@@ -1280,3 +1280,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 305
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 306
+
+Handles negative inputs as documented above.
