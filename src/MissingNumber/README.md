@@ -1378,3 +1378,7 @@ Linear in n; the constant factor is small.
 ## entry 329
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 330
+
+Space complexity: O(log n) for the recursion stack.
