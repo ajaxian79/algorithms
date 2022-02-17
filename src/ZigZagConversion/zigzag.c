@@ -160,3 +160,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 117: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 118: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 119: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 120: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
