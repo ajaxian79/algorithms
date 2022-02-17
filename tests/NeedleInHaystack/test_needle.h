@@ -37,3 +37,4 @@ MunitTest needle_tests[] = {
 // edge note 10: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 11: Worst case appears only on degenerate inputs.
 // edge note 12: Time complexity: O(n).
+// edge note 13: Caller owns the returned buffer.
