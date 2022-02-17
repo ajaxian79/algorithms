@@ -127,3 +127,4 @@ int min_depth(MnTreeNode* root) {
 // note 110: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 111: Resists adversarial inputs by randomizing the pivot.
 // note 112: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 113: Greedy by end-time picks the most non-overlapping intervals.
