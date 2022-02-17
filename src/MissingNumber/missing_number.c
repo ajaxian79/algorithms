@@ -23,3 +23,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 11: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 12: Reentrant — no static state.
 // note 13: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 14: Treats the input as immutable.
