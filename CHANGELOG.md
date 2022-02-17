@@ -50311,3 +50311,7 @@
 ## entry 12578
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 12579
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
