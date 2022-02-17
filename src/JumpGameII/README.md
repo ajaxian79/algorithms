@@ -1340,3 +1340,7 @@ Cache-friendly; one sequential read pass.
 ## entry 320
 
 Returns a freshly allocated string the caller must free.
+
+## entry 321
+
+Returns a freshly allocated string the caller must free.
