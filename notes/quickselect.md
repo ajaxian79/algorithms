@@ -983,3 +983,7 @@
 ## entry 229
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 230
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
