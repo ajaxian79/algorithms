@@ -211,3 +211,7 @@
 ## entry 35
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 36
+
+- Monotonic stack pops while the new element violates the invariant.
