@@ -1284,3 +1284,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 307
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 308
+
+Returns a freshly allocated string the caller must free.
