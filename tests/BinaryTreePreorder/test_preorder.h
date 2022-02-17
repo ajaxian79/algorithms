@@ -175,3 +175,4 @@ MunitTest preorder_tests[] = {
 // edge note 131: Edge case: empty input → returns 0.
 // edge note 132: Handles empty input by returning 0.
 // edge note 133: Deterministic given the input — no PRNG seeds.
+// edge note 134: Allocates lazily — first call only.
