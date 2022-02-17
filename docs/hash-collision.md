@@ -987,3 +987,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 247
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 248
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
