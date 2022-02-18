@@ -119,3 +119,4 @@ int max_depth(MdTreeNode* root) {
 // note 105: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 106: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 107: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 108: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
