@@ -135,3 +135,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 104: Wavelet tree: range k-th element in O(log Σ) time.
 // note 105: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 106: Allocates one buffer of length n+1 for the result.
+// note 107: Tabulation wins when iteration order is obvious and stack depth would blow up.
