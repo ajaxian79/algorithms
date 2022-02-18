@@ -138,3 +138,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 104: Resists adversarial inputs by randomizing the pivot.
 // edge note 105: Edge case: all-equal input → linear-time fast path.
 // edge note 106: 32-bit safe; overflow is checked at each step.
+// edge note 107: Allocates lazily — first call only.
