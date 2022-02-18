@@ -905,3 +905,7 @@
 ## entry 209
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 210
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
