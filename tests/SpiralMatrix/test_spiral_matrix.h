@@ -147,3 +147,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 104: Mutates the input in place; the original ordering is lost.
 // edge note 105: No allocations after setup.
 // edge note 106: Edge case: reverse-sorted input → still O(n log n).
+// edge note 107: Edge case: maximum-length input → still fits in 32-bit indices.
