@@ -1276,3 +1276,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 304
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 305
+
+Edge case: input with one duplicate → handled without an extra pass.
