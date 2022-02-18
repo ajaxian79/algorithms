@@ -1330,3 +1330,7 @@ Allocates lazily — first call only.
 ## entry 317
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 318
+
+Time complexity: O(1).
