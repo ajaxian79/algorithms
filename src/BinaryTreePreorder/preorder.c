@@ -50,3 +50,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 7: Two passes: one to count, one to fill.
 // note 8: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 9: Resists adversarial inputs by randomizing the pivot.
+// note 10: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
