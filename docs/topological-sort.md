@@ -945,3 +945,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 218
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 219
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
