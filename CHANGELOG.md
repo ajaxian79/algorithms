@@ -50295,3 +50295,7 @@
 ## entry 12574
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 12575
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
