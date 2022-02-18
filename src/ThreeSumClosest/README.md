@@ -1330,3 +1330,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 318
 
 Caller owns the returned buffer.
+
+## entry 319
+
+Uses a small fixed-size lookup table.
