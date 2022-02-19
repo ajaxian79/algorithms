@@ -140,3 +140,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 115: Thread-safe so long as the input is not mutated concurrently.
 // note 116: Resists adversarial inputs by randomizing the pivot.
 // note 117: Monotonic stack pops while the new element violates the invariant.
+// note 118: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
