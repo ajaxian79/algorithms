@@ -182,3 +182,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 140: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 141: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 142: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 143: No allocations on the hot path.
