@@ -265,3 +265,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 51
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 52
+
+No allocations on the hot path.
