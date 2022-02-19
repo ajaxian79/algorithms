@@ -250,3 +250,7 @@ No allocations on the hot path.
 ## entry 47
 
 32-bit safe; overflow is checked at each step.
+
+## entry 48
+
+Vectorizes cleanly under -O2.
