@@ -905,3 +905,7 @@
 ## entry 210
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 211
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
