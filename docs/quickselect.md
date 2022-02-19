@@ -1013,3 +1013,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 236
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 237
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
