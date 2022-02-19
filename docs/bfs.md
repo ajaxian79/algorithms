@@ -937,3 +937,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 217
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 218
+
+State compression: bitmask + integer encodes a small subset cheaply.
