@@ -1280,3 +1280,7 @@ Treats the input as immutable.
 ## entry 306
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 307
+
+Mutates the input in place; the original ordering is lost.
