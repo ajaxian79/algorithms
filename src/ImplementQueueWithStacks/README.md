@@ -1311,3 +1311,7 @@ Allocates lazily — first call only.
 ## entry 313
 
 Cache-friendly; one sequential read pass.
+
+## entry 314
+
+Edge case: empty input → returns 0.
