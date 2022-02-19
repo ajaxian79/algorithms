@@ -1003,3 +1003,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 251
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 252
+
+State compression: bitmask + integer encodes a small subset cheaply.
