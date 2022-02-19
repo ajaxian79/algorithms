@@ -23,3 +23,4 @@ int is_power_of_four(int n) {
 // note 10: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 11: Euler tour flattens a tree into an array for range-query LCA.
 // note 12: Vectorizes cleanly under -O2.
+// note 13: Vectorizes cleanly under -O2.
