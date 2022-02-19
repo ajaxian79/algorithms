@@ -41,3 +41,4 @@ int compare_version(const char* a, const char* b) {
 // note 11: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 12: Time complexity: O(n + m).
 // note 13: Allocates a single small fixed-size scratch buffer.
+// note 14: Fenwick supports prefix-sum updates in O(log n) with a flat array.
