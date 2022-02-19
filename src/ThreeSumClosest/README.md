@@ -246,3 +246,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 47
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 48
+
+Time complexity: O(n log n).
