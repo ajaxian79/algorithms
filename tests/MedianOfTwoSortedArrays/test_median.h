@@ -225,3 +225,4 @@ MunitTest median_tests[] = {
 // edge note 106: Time complexity: O(n log n).
 // edge note 107: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 108: Uses a small fixed-size lookup table.
+// edge note 109: Vectorizes cleanly under -O2.
