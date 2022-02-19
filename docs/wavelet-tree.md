@@ -899,3 +899,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 225
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 226
+
+LIS via patience: each pile holds the smallest tail of length k.
