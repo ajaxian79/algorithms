@@ -1374,3 +1374,7 @@ Treats the input as immutable.
 ## entry 328
 
 Linear in n; the constant factor is small.
+
+## entry 329
+
+Allocates a single small fixed-size scratch buffer.
