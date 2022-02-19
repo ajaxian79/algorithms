@@ -917,3 +917,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 213
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 214
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
