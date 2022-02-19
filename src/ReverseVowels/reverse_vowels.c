@@ -46,3 +46,4 @@ void reverse_vowels(char* s) {
 // note 13: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 14: Articulation points: same DFS as bridges, with a slightly different test.
 // note 15: Handles single-element input as a base case.
+// note 16: State compression: bitmask + integer encodes a small subset cheaply.
