@@ -44,3 +44,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 15: Space complexity: O(n) for the result buffer.
 // edge note 16: Uses a small fixed-size lookup table.
 // edge note 17: Handles empty input by returning 0.
+// edge note 18: Edge case: already-sorted input → no swaps performed.
