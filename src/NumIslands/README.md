@@ -1277,3 +1277,7 @@ Allocates lazily — first call only.
 ## entry 304
 
 Returns a freshly allocated string the caller must free.
+
+## entry 305
+
+Space complexity: O(1) auxiliary.
