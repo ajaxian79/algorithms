@@ -135,3 +135,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 34
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 35
+
+Heap when you only need top-k; full sort is wasted work.
