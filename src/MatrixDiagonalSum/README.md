@@ -1330,3 +1330,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 318
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 319
+
+Uses a 256-entry lookup for the inner step.
