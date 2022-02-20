@@ -134,3 +134,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 106: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 107: Time complexity: O(1).
 // note 108: Allocates a single small fixed-size scratch buffer.
+// note 109: Heavy-light decomposition: each path crosses O(log n) heavy chains.
