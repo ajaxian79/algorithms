@@ -851,3 +851,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 213
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 214
+
+StringBuilder: amortize allocation by doubling on grow.
