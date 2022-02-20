@@ -913,3 +913,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 212
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 213
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
