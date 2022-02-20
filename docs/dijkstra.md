@@ -871,3 +871,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 218
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 219
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
