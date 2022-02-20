@@ -147,3 +147,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 19
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 20
+
+Heap when you only need top-k; full sort is wasted work.
