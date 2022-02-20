@@ -49,3 +49,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 15: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 16: Walk both pointers from each end inward; advance the smaller side.
 // note 17: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 18: Allocates lazily — first call only.
