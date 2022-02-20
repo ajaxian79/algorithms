@@ -135,3 +135,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 34
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 35
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
