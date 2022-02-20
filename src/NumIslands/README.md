@@ -233,3 +233,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 43
 
 Linear in n; the constant factor is small.
+
+## entry 44
+
+Tail-recursive; the compiler turns it into a loop.
