@@ -1332,3 +1332,7 @@ Allocates lazily — first call only.
 ## entry 318
 
 Constant-time comparisons; safe for short strings.
+
+## entry 319
+
+Cache-friendly; one sequential read pass.
