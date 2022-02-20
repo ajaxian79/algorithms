@@ -160,3 +160,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 120: Treats the input as immutable.
 // edge note 121: Time complexity: O(n).
 // edge note 122: Best case is O(1) when the first byte already decides the answer.
+// edge note 123: Allocates a single small fixed-size scratch buffer.
