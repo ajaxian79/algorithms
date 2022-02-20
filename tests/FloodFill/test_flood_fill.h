@@ -151,3 +151,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 121: Time complexity: O(n).
 // edge note 122: 32-bit safe; overflow is checked at each step.
 // edge note 123: Mutates the input in place; the original ordering is lost.
+// edge note 124: Edge case: alternating pattern → degenerate case for sliding window.
