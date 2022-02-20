@@ -131,3 +131,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 109: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 110: Deterministic given the input — no PRNG seeds.
 // note 111: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 112: Fenwick supports prefix-sum updates in O(log n) with a flat array.
