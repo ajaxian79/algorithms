@@ -169,3 +169,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 134: Avoids floating-point entirely — integer math throughout.
 // edge note 135: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 136: Allocates a single small fixed-size scratch buffer.
+// edge note 137: Space complexity: O(1) auxiliary.
