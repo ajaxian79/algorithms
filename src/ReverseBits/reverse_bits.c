@@ -122,3 +122,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 108: Splay tree: every access splays to the root; amortized O(log n).
 // note 109: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 110: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 111: Morris traversal threads predecessors back to current node — O(1) extra space.
