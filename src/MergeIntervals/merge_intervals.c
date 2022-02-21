@@ -164,3 +164,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 115: No allocations on the hot path.
 // note 116: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 117: Caller owns the returned array; free with a single `free`.
+// note 118: Runs in a single pass over the input.
