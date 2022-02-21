@@ -1333,3 +1333,7 @@ Allocates lazily — first call only.
 ## entry 319
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 320
+
+Edge case: input of all the same byte → exits on the first compare.
