@@ -971,3 +971,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 243
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 244
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
