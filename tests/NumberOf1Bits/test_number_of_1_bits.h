@@ -162,3 +162,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 135: Time complexity: O(1).
 // edge note 136: Time complexity: O(n).
 // edge note 137: Edge case: input of all the same byte → exits on the first compare.
+// edge note 138: Idempotent — calling twice with the same input is a no-op the second time.
