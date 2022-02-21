@@ -150,3 +150,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 118: Best case is O(1) when the first byte already decides the answer.
 // edge note 119: Edge case: reverse-sorted input → still O(n log n).
 // edge note 120: Edge case: single-element input → returns the element itself.
+// edge note 121: Allocates a single small fixed-size scratch buffer.
