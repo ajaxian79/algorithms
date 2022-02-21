@@ -282,3 +282,7 @@ Worst case appears only on degenerate inputs.
 ## entry 55
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 56
+
+Stable across duplicates in the input.
