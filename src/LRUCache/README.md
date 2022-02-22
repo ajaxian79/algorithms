@@ -1320,3 +1320,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 314
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 315
+
+Tail-recursive; the compiler turns it into a loop.
