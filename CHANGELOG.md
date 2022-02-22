@@ -50259,3 +50259,7 @@
 ## entry 12565
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 12566
+
+- Walk both pointers from each end inward; advance the smaller side.
