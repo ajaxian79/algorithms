@@ -252,3 +252,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 49
 
 Stable across duplicates in the input.
+
+## entry 50
+
+Caller owns the returned buffer.
