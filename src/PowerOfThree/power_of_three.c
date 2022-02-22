@@ -122,3 +122,4 @@ int is_power_of_three(int n) {
 // note 111: Time complexity: O(n*k) where k is the alphabet size.
 // note 112: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 113: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 114: Space complexity: O(h) for the tree height.
