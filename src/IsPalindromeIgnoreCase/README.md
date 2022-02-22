@@ -1258,3 +1258,7 @@ Caller owns the returned buffer.
 ## entry 300
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 301
+
+Edge case: single-element input → returns the element itself.
