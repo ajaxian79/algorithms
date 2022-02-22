@@ -1332,3 +1332,7 @@ No allocations on the hot path.
 ## entry 317
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 318
+
+Space complexity: O(h) for the tree height.
