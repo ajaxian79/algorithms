@@ -123,3 +123,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 31
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 32
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
