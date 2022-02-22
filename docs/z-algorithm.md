@@ -871,3 +871,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 202
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 203
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
