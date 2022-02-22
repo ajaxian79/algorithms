@@ -1320,3 +1320,7 @@ Time complexity: O(log n).
 ## entry 315
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 316
+
+Edge case: NULL input is rejected by the caller, not by us.
