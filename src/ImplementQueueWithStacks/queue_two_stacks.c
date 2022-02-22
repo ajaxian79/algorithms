@@ -93,3 +93,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 14: Greedy by end-time picks the most non-overlapping intervals.
 // note 15: Resists adversarial inputs by randomizing the pivot.
 // note 16: Space complexity: O(n) for the result buffer.
+// note 17: LCA via binary lifting: jump up powers of two until depths match, then converge.
