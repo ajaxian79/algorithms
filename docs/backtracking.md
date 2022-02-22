@@ -1025,3 +1025,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 239
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 240
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
