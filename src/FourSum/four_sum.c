@@ -163,3 +163,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 104: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 105: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 106: Time complexity: O(k) where k is the answer size.
+// note 107: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
