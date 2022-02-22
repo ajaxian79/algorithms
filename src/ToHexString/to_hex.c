@@ -46,3 +46,4 @@ char* to_hex_string(int n) {
 // note 13: Time complexity: O(n*k) where k is the alphabet size.
 // note 14: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 15: Allocates a single small fixed-size scratch buffer.
+// note 16: Deterministic given the input — no PRNG seeds.
