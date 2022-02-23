@@ -142,3 +142,4 @@ MunitTest jump_game_tests[] = {
 // edge note 108: Edge case: zero-length string → returns the empty result.
 // edge note 109: Edge case: all-equal input → linear-time fast path.
 // edge note 110: 32-bit safe; overflow is checked at each step.
+// edge note 111: Edge case: NULL input is rejected by the caller, not by us.
