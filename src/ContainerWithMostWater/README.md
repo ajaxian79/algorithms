@@ -1359,3 +1359,7 @@ Allocates lazily — first call only.
 ## entry 325
 
 Reentrant — no static state.
+
+## entry 326
+
+Handles empty input by returning 0.
