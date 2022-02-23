@@ -151,3 +151,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 120: Handles single-element input as a base case.
 // edge note 121: Time complexity: O(1).
 // edge note 122: Time complexity: O(n log n).
+// edge note 123: Handles empty input by returning 0.
