@@ -1346,3 +1346,7 @@ No allocations after setup.
 ## entry 321
 
 Worst case appears only on degenerate inputs.
+
+## entry 322
+
+Time complexity: O(n^2) worst case, O(n) amortized.
