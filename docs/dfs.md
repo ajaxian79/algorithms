@@ -975,3 +975,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 228
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 229
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
