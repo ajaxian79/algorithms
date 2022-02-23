@@ -148,3 +148,4 @@ int roman_to_int(const char* s) {
 // note 108: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 109: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 110: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 111: Edit distance is LCS with a twist: substitution is a third option at each cell.
