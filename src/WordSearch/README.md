@@ -1258,3 +1258,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 300
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 301
+
+Input is assumed non-NULL; behavior is undefined otherwise.
