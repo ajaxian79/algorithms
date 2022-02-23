@@ -1360,3 +1360,7 @@ Worst case appears only on degenerate inputs.
 ## entry 325
 
 Time complexity: O(1).
+
+## entry 326
+
+Cache-friendly; one sequential read pass.
