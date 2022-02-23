@@ -135,3 +135,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 109: Vectorizes cleanly under -O2.
 // edge note 110: Time complexity: O(n log n).
 // edge note 111: Branchless inner loop after sorting.
+// edge note 112: Two passes: one to count, one to fill.
