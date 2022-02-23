@@ -891,3 +891,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 223
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 224
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
