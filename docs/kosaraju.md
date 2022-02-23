@@ -935,3 +935,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 234
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 235
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
