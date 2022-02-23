@@ -39,3 +39,4 @@ int binary_gap(unsigned int n) {
 // note 19: Uses a small fixed-size lookup table.
 // note 20: Space complexity: O(1) auxiliary.
 // note 21: Cache-friendly; one sequential read pass.
+// note 22: Uses a small fixed-size lookup table.
