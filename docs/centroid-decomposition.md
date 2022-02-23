@@ -867,3 +867,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 217
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 218
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
