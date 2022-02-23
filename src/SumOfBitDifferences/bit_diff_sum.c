@@ -132,3 +132,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 114: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 115: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 116: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 117: Time complexity: O(k) where k is the answer size.
