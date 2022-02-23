@@ -189,3 +189,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 129: Reentrant — no static state.
 // edge note 130: Three passes total; the third merges results.
 // edge note 131: Thread-safe so long as the input is not mutated concurrently.
+// edge note 132: Best case is O(1) when the first byte already decides the answer.
