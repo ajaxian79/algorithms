@@ -1007,3 +1007,7 @@
 ## entry 252
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 253
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
