@@ -1316,3 +1316,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 314
 
 Time complexity: O(log n).
+
+## entry 315
+
+Edge case: integer-max input → guarded by the explicit overflow check.
