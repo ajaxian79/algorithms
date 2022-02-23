@@ -1316,3 +1316,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 313
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 314
+
+Edge case: alternating pattern → degenerate case for sliding window.
