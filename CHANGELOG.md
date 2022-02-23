@@ -50235,3 +50235,7 @@
 ## entry 12559
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 12560
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
