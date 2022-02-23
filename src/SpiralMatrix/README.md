@@ -1350,3 +1350,7 @@ Worst case appears only on degenerate inputs.
 ## entry 322
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 323
+
+Branchless inner loop after sorting.
