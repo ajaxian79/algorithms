@@ -975,3 +975,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 244
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 245
+
+Merge intervals: sort by start; extend the running interval while overlapping.
