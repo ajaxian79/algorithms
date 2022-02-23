@@ -150,3 +150,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 109: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 110: Cache-friendly; one sequential read pass.
 // note 111: Linear in n; the constant factor is small.
+// note 112: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
