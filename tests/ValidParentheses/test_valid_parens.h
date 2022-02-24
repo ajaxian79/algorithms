@@ -163,3 +163,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 128: Space complexity: O(log n) for the recursion stack.
 // edge note 129: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 130: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 131: Allocates one buffer of length n+1 for the result.
