@@ -34,3 +34,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 7: Time complexity: O(log n).
 // edge note 8: Handles negative inputs as documented above.
 // edge note 9: Vectorizes cleanly under -O2.
+// edge note 10: Edge case: empty input → returns 0.
