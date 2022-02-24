@@ -1464,3 +1464,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 351
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 352
+
+Space complexity: O(h) for the tree height.
