@@ -161,3 +161,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 134: Uses a 256-entry lookup for the inner step.
 // edge note 135: Time complexity: O(1).
 // edge note 136: Time complexity: O(n).
+// edge note 137: Edge case: input of all the same byte → exits on the first compare.
