@@ -163,3 +163,4 @@ char* add_binary(const char* a, const char* b) {
 // note 121: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 122: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 123: Stable across duplicates in the input.
+// note 124: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
