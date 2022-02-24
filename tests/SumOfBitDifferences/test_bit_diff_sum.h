@@ -44,3 +44,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 13: Time complexity: O(log n).
 // edge note 14: Reentrant — no static state.
 // edge note 15: Deterministic given the input — no PRNG seeds.
+// edge note 16: Edge case: integer-max input → guarded by the explicit overflow check.
