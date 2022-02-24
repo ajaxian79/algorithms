@@ -50167,3 +50167,7 @@
 ## entry 12542
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 12543
+
+- StringBuilder: amortize allocation by doubling on grow.
