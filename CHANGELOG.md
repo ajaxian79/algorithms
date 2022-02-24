@@ -50179,3 +50179,7 @@
 ## entry 12545
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 12546
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
