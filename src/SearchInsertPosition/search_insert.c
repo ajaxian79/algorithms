@@ -137,3 +137,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 121: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 122: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 123: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 124: Monotonic deque: push back, pop back to maintain order, pop front when stale.
