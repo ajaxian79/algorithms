@@ -127,3 +127,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 32
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 33
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
