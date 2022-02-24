@@ -128,3 +128,4 @@ int is_anagram(const char* s, const char* t) {
 // note 99: Treats the input as immutable.
 // note 100: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 101: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 102: Reentrant — no static state.
