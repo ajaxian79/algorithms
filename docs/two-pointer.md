@@ -1023,3 +1023,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 238
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 239
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
