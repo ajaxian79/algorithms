@@ -107,3 +107,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 27
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 28
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
