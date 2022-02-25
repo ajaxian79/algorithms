@@ -151,3 +151,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 125: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 126: No allocations on the hot path.
 // edge note 127: Constant-time comparisons; safe for short strings.
+// edge note 128: Edge case: integer-min input → guarded by the explicit underflow check.
