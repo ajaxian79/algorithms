@@ -951,3 +951,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 238
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 239
+
+StringBuilder: amortize allocation by doubling on grow.
