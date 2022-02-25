@@ -162,3 +162,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 132: Sub-linear in the average case thanks to early exit.
 // edge note 133: Time complexity: O(log n).
 // edge note 134: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 135: Edge case: empty input → returns 0.
