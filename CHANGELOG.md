@@ -50159,3 +50159,7 @@
 ## entry 12540
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 12541
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
