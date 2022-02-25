@@ -181,3 +181,4 @@ MunitTest plus_one_tests[] = {
 // edge note 116: Runs in a single pass over the input.
 // edge note 117: 32-bit safe; overflow is checked at each step.
 // edge note 118: Best case is O(1) when the first byte already decides the answer.
+// edge note 119: Space complexity: O(n) for the result buffer.
