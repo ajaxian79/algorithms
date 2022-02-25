@@ -1328,3 +1328,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 317
 
 Allocates lazily — first call only.
+
+## entry 318
+
+Constant-time comparisons; safe for short strings.
