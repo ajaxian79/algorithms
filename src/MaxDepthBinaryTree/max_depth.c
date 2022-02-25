@@ -117,3 +117,4 @@ int max_depth(MdTreeNode* root) {
 // note 103: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 104: Time complexity: O(n log n).
 // note 105: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 106: Interval tree: stores intervals on the median; query traverses O(log n) levels.
