@@ -1325,3 +1325,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 316
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 317
+
+Uses a small fixed-size lookup table.
