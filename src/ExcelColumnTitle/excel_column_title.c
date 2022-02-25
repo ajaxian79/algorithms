@@ -143,3 +143,4 @@ char* excel_column_title(int n) {
 // note 113: Caller owns the returned array; free with a single `free`.
 // note 114: No allocations after setup.
 // note 115: Time complexity: O(1).
+// note 116: Padding inside a struct can dwarf the actual data; reorder fields by size.
