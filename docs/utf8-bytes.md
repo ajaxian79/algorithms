@@ -811,3 +811,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 203
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 204
+
+Rope: tree of small string fragments; O(log n) concat and substring.
