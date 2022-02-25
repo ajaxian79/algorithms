@@ -1324,3 +1324,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 315
 
 Handles empty input by returning 0.
+
+## entry 316
+
+Three passes total; the third merges results.
