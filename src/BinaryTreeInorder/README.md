@@ -1294,3 +1294,7 @@ Time complexity: O(n).
 ## entry 309
 
 Constant-time comparisons; safe for short strings.
+
+## entry 310
+
+Tail-recursive; the compiler turns it into a loop.
