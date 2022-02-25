@@ -157,3 +157,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 114: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 115: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 116: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 117: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
