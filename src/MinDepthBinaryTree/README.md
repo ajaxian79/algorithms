@@ -1210,3 +1210,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 288
 
 Space complexity: O(1) auxiliary.
+
+## entry 289
+
+Worst case appears only on degenerate inputs.
