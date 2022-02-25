@@ -261,3 +261,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 50
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 51
+
+Edge case: reverse-sorted input → still O(n log n).
