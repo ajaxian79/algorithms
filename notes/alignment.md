@@ -855,3 +855,7 @@
 ## entry 214
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 215
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
