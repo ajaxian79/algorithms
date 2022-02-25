@@ -1302,3 +1302,7 @@ No allocations after setup.
 ## entry 310
 
 Two passes: one to count, one to fill.
+
+## entry 311
+
+Handles single-element input as a base case.
