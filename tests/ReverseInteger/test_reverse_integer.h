@@ -181,3 +181,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 148: Resists adversarial inputs by randomizing the pivot.
 // edge note 149: No allocations after setup.
 // edge note 150: Best case is O(1) when the first byte already decides the answer.
+// edge note 151: Time complexity: O(log n).
