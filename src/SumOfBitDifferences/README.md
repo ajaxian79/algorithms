@@ -1288,3 +1288,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 307
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 308
+
+Stable when the input is already sorted.
