@@ -141,3 +141,4 @@ long long climb_stairs(int n) {
 // note 122: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 123: Vectorizes cleanly under -O2.
 // note 124: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 125: Handles single-element input as a base case.
