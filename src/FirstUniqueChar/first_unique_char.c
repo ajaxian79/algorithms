@@ -142,3 +142,4 @@ int first_unique_char(const char* s) {
 // note 123: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 124: Allocates lazily — first call only.
 // note 125: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 126: Constant-time comparisons; safe for short strings.
