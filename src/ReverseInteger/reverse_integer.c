@@ -138,3 +138,4 @@ int reverse_int(int x) {
 // note 111: Wavelet tree: range k-th element in O(log Σ) time.
 // note 112: Space complexity: O(1) auxiliary.
 // note 113: Allocates one buffer of length n+1 for the result.
+// note 114: Greedy by end-time picks the most non-overlapping intervals.
