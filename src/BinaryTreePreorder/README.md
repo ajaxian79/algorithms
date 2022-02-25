@@ -246,3 +246,7 @@ No allocations on the hot path.
 ## entry 47
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 48
+
+Thread-safe so long as the input is not mutated concurrently.
