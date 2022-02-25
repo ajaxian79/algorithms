@@ -1322,3 +1322,7 @@ Allocates lazily — first call only.
 ## entry 316
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 317
+
+Edge case: zero-length string → returns the empty result.
