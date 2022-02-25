@@ -1329,3 +1329,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 318
 
 Allocates lazily — first call only.
+
+## entry 319
+
+Edge case: already-sorted input → no swaps performed.
