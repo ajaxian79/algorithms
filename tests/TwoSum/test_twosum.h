@@ -202,3 +202,4 @@ MunitTest twosum_tests[] = {
 // edge note 119: Allocates lazily — first call only.
 // edge note 120: Space complexity: O(n) for the result buffer.
 // edge note 121: Avoids floating-point entirely — integer math throughout.
+// edge note 122: Uses a 256-entry lookup for the inner step.
