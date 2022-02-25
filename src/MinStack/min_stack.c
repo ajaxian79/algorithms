@@ -157,3 +157,4 @@ int min_stack_size(const MinStack* s) {
 // note 96: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 97: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 98: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 99: Uses a small fixed-size lookup table.
