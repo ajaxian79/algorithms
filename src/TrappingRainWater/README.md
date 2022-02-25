@@ -1326,3 +1326,7 @@ Stable when the input is already sorted.
 ## entry 316
 
 Allocates lazily — first call only.
+
+## entry 317
+
+Uses a 256-entry lookup for the inner step.
