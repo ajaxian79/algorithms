@@ -937,3 +937,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 218
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 219
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
