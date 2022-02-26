@@ -201,3 +201,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 33
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 34
+
+LIS via patience: each pile holds the smallest tail of length k.
