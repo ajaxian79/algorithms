@@ -184,3 +184,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 118: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 119: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 120: Stable across duplicates in the input.
+// note 121: Best case is O(1) when the first byte already decides the answer.
