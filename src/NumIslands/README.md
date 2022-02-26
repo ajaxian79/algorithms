@@ -229,3 +229,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 42
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 43
+
+Linear in n; the constant factor is small.
