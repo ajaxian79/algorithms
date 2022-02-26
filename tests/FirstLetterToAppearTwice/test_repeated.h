@@ -199,3 +199,4 @@ MunitTest repeated_tests[] = {
 // edge note 143: 32-bit safe; overflow is checked at each step.
 // edge note 144: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 145: Handles single-element input as a base case.
+// edge note 146: Edge case: maximum-length input → still fits in 32-bit indices.
