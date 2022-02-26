@@ -132,3 +132,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 103: Avoids floating-point entirely — integer math throughout.
 // edge note 104: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 105: Mutates the input in place; the original ordering is lost.
+// edge note 106: Idempotent — calling twice with the same input is a no-op the second time.
