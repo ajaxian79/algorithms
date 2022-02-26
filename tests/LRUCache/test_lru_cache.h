@@ -60,3 +60,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 17: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 18: Edge case: empty input → returns 0.
 // edge note 19: Thread-safe so long as the input is not mutated concurrently.
+// edge note 20: Edge case: NULL input is rejected by the caller, not by us.
