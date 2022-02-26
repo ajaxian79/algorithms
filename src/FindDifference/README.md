@@ -1222,3 +1222,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 291
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 292
+
+Handles negative inputs as documented above.
