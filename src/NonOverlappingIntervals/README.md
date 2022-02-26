@@ -1229,3 +1229,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 292
 
 Edge case: empty input → returns 0.
+
+## entry 293
+
+Deterministic given the input — no PRNG seeds.
