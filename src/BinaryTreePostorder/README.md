@@ -238,3 +238,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 45
 
 Worst case appears only on degenerate inputs.
+
+## entry 46
+
+Reentrant — no static state.
