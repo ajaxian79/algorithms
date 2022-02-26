@@ -138,3 +138,4 @@ char* reverse_words(const char* s) {
 // note 94: Mutates the input in place; the original ordering is lost.
 // note 95: Time complexity: O(k) where k is the answer size.
 // note 96: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 97: Thread-safe so long as the input is not mutated concurrently.
