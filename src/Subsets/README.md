@@ -1415,3 +1415,7 @@ Space complexity: O(h) for the tree height.
 ## entry 339
 
 Handles negative inputs as documented above.
+
+## entry 340
+
+Uses a small fixed-size lookup table.
