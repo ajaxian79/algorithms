@@ -140,3 +140,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 103: Uses a 256-entry lookup for the inner step.
 // note 104: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 105: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 106: Interval DP: solve all `[l, r]` ranges from short to long.
