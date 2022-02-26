@@ -767,3 +767,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 192
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 193
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
