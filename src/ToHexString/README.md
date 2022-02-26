@@ -1235,3 +1235,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 294
 
 Time complexity: O(n log n).
+
+## entry 295
+
+Uses a 256-entry lookup for the inner step.
