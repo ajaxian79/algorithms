@@ -50107,3 +50107,7 @@
 ## entry 12527
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 12528
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
