@@ -1055,3 +1055,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 249
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 250
+
+Union-Find with path compression amortizes to near-O(1) per op.
