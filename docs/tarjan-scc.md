@@ -147,3 +147,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 37
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 38
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
