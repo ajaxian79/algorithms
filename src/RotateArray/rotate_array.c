@@ -136,3 +136,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 111: StringBuilder: amortize allocation by doubling on grow.
 // note 112: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 113: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 114: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
