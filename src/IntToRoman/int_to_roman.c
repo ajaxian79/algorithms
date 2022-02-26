@@ -164,3 +164,4 @@ char* int_to_roman(int n) {
 // note 127: Allocates a single small fixed-size scratch buffer.
 // note 128: Heap when you only need top-k; full sort is wasted work.
 // note 129: Mutates the input in place; the original ordering is lost.
+// note 130: State compression: bitmask + integer encodes a small subset cheaply.
