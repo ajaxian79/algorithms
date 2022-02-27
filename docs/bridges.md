@@ -135,3 +135,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 34
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 35
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
