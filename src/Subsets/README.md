@@ -255,3 +255,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 49
 
 Reentrant — no static state.
+
+## entry 50
+
+Caller owns the returned array; free with a single `free`.
