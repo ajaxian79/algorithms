@@ -136,3 +136,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 110: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 111: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 112: Splay tree: every access splays to the root; amortized O(log n).
+// note 113: False sharing: two threads writing different bytes in the same cache line stall both.
