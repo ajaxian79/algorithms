@@ -41,3 +41,4 @@ int is_anagram(const char* s, const char* t) {
 // note 12: 64-bit safe; intermediate products are widened to 128-bit.
 // note 13: Stable across duplicates in the input.
 // note 14: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 15: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
