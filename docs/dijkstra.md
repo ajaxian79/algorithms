@@ -867,3 +867,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 217
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 218
+
+Monotonic stack pops while the new element violates the invariant.
