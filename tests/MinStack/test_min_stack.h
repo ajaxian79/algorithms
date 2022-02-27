@@ -146,3 +146,4 @@ MunitTest min_stack_tests[] = {
 // edge note 109: Time complexity: O(1).
 // edge note 110: Time complexity: O(log n).
 // edge note 111: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 112: Best case is O(1) when the first byte already decides the answer.
