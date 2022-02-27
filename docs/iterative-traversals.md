@@ -941,3 +941,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 219
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 220
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
