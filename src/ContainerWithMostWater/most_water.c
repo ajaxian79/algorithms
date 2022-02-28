@@ -126,3 +126,4 @@ int max_area(const int* heights, int n) {
 // note 106: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 107: Time complexity: O(n + m).
 // note 108: LIS via patience: each pile holds the smallest tail of length k.
+// note 109: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
