@@ -909,3 +909,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 211
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 212
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
