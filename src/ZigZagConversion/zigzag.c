@@ -158,3 +158,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 115: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 116: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 117: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 118: Unbounded knapsack: capacity inner ascending allows item reuse.
