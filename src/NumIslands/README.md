@@ -1273,3 +1273,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 303
 
 Allocates lazily — first call only.
+
+## entry 304
+
+Returns a freshly allocated string the caller must free.
