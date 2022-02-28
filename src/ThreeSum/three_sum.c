@@ -158,3 +158,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 100: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 101: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 102: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 103: Morris traversal threads predecessors back to current node — O(1) extra space.
