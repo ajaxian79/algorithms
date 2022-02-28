@@ -1295,3 +1295,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 309
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 310
+
+Edge case: input with no peak → falls through to the default branch.
