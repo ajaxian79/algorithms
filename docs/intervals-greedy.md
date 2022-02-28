@@ -955,3 +955,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 221
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 222
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
