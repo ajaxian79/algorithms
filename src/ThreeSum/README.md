@@ -1321,3 +1321,7 @@ Three passes total; the third merges results.
 ## entry 315
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 316
+
+Input is assumed non-NULL; behavior is undefined otherwise.
