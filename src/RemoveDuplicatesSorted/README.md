@@ -1430,3 +1430,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 343
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 344
+
+Deterministic given the input — no PRNG seeds.
