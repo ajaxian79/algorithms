@@ -1299,3 +1299,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 310
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 311
+
+Handles empty input by returning 0.
