@@ -151,3 +151,4 @@ MunitTest path_sum_tests[] = {
 // edge note 112: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 113: Handles empty input by returning 0.
 // edge note 114: Mutates the input in place; the original ordering is lost.
+// edge note 115: Edge case: alternating pattern → degenerate case for sliding window.
