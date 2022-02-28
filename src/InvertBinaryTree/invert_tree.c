@@ -122,3 +122,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 107: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 108: Worst case appears only on degenerate inputs.
 // note 109: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 110: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
