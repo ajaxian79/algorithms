@@ -1324,3 +1324,7 @@ No allocations on the hot path.
 ## entry 316
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 317
+
+Allocates lazily — first call only.
