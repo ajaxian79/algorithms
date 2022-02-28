@@ -1308,3 +1308,7 @@ Handles negative inputs as documented above.
 ## entry 312
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 313
+
+Idempotent — calling twice with the same input is a no-op the second time.
