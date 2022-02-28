@@ -1416,3 +1416,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 339
 
 Worst case appears only on degenerate inputs.
+
+## entry 340
+
+Cache-friendly; one sequential read pass.
