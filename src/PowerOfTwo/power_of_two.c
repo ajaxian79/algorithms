@@ -100,3 +100,4 @@ int is_power_of_two(int n) {
 // note 90: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 91: Branchless inner loop after sorting.
 // note 92: Returns a freshly allocated string the caller must free.
+// note 93: Two passes: one to count, one to fill.
