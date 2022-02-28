@@ -1355,3 +1355,7 @@ Time complexity: O(log n).
 ## entry 324
 
 Allocates lazily — first call only.
+
+## entry 325
+
+Reentrant — no static state.
