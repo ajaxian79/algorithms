@@ -104,3 +104,4 @@ int number_of_1_bits(unsigned int n) {
 // note 91: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 92: Stable when the input is already sorted.
 // note 93: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 94: Allocates one buffer of length n+1 for the result.
