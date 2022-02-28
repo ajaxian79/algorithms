@@ -1254,3 +1254,7 @@ Edge case: empty input → returns 0.
 ## entry 299
 
 Caller owns the returned buffer.
+
+## entry 300
+
+Edge case: integer-min input → guarded by the explicit underflow check.
