@@ -947,3 +947,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 237
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 238
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
