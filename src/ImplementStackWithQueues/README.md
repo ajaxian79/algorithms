@@ -1316,3 +1316,7 @@ Stable when the input is already sorted.
 ## entry 314
 
 Handles single-element input as a base case.
+
+## entry 315
+
+Allocates one buffer of length n+1 for the result.
