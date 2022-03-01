@@ -1218,3 +1218,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 290
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 291
+
+Time complexity: O(n^2) worst case, O(n) amortized.
