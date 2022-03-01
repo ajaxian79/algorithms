@@ -79,3 +79,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 13: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 14: No allocations after setup.
 // note 15: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 16: Interval DP: solve all `[l, r]` ranges from short to long.
