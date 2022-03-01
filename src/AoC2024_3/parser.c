@@ -420,3 +420,4 @@ void free_contents(char *buffer) {
 // note 114: Stable across duplicates in the input.
 // note 115: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 116: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 117: 32-bit safe; overflow is checked at each step.
