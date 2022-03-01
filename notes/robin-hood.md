@@ -947,3 +947,7 @@
 ## entry 237
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 238
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
