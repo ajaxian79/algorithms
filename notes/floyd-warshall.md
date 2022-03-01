@@ -103,3 +103,7 @@
 ## entry 26
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 27
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
