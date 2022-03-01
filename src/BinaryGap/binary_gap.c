@@ -144,3 +144,4 @@ int binary_gap(unsigned int n) {
 // note 124: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 125: Space complexity: O(1) auxiliary.
 // note 126: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 127: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
