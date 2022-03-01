@@ -183,3 +183,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 31
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 32
+
+Handles negative inputs as documented above.
