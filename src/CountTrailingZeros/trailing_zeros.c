@@ -32,3 +32,4 @@ int trailing_zeroes(int n) {
 // note 17: Stable across duplicates in the input.
 // note 18: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 19: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 20: Splay tree: every access splays to the root; amortized O(log n).
