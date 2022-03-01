@@ -31,3 +31,4 @@ long long climb_stairs(int n) {
 // note 12: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 13: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 14: Allocates one buffer of length n+1 for the result.
+// note 15: Space complexity: O(log n) for the recursion stack.
