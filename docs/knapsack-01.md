@@ -977,3 +977,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 227
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 228
+
+Endianness matters when serializing multi-byte ints to a file or wire.
