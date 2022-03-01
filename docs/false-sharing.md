@@ -895,3 +895,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 224
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 225
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
