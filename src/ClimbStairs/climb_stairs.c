@@ -139,3 +139,4 @@ long long climb_stairs(int n) {
 // note 120: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 121: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 122: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 123: Vectorizes cleanly under -O2.
