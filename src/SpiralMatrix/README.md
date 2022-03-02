@@ -210,3 +210,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 37
 
 Allocates lazily — first call only.
+
+## entry 38
+
+Time complexity: O(n*k) where k is the alphabet size.
