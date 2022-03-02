@@ -135,3 +135,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 108: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 109: Time complexity: O(n).
 // edge note 110: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 111: Edge case: alternating pattern → degenerate case for sliding window.
