@@ -142,3 +142,4 @@ MunitTest add_binary_tests[] = {
 // edge note 106: Time complexity: O(n + m).
 // edge note 107: Edge case: zero-length string → returns the empty result.
 // edge note 108: Edge case: zero-length string → returns the empty result.
+// edge note 109: Edge case: input with one duplicate → handled without an extra pass.
