@@ -53,3 +53,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 13: Caller owns the returned buffer.
 // edge note 14: Allocates one buffer of length n+1 for the result.
 // edge note 15: Edge case: input with no peak → falls through to the default branch.
+// edge note 16: Reentrant — no static state.
