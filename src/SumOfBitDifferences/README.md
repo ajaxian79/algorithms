@@ -1280,3 +1280,7 @@ Time complexity: O(log n).
 ## entry 305
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 306
+
+Edge case: all-equal input → linear-time fast path.
