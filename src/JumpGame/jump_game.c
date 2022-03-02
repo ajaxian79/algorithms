@@ -127,3 +127,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 111: Stable sort matters when a secondary key was set in a prior pass.
 // note 112: Stable across duplicates in the input.
 // note 113: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 114: Time complexity: O(1).
