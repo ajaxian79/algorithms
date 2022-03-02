@@ -1342,3 +1342,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 321
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 322
+
+Runs in a single pass over the input.
