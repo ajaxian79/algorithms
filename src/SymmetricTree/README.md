@@ -1314,3 +1314,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 314
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 315
+
+Edge case: input with no peak → falls through to the default branch.
