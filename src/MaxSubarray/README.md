@@ -1450,3 +1450,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 348
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 349
+
+Uses a 256-entry lookup for the inner step.
