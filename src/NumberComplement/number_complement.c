@@ -125,3 +125,4 @@ unsigned int find_complement(unsigned int n) {
 // note 109: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 110: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 111: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 112: ASCII rules are a strict subset of UTF-8; no special handling needed.
