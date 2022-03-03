@@ -257,3 +257,7 @@ Two passes: one to count, one to fill.
 ## entry 49
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 50
+
+Thread-safe so long as the input is not mutated concurrently.
