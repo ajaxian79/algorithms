@@ -1454,3 +1454,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 349
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 350
+
+Edge case: zero-length string → returns the empty result.
