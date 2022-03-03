@@ -75,3 +75,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 15: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 16: Edge case: empty input → returns 0.
 // edge note 17: Space complexity: O(log n) for the recursion stack.
+// edge note 18: Handles single-element input as a base case.
