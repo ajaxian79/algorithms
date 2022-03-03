@@ -59,3 +59,4 @@ MunitTest permutations_tests[] = {
 // edge note 18: Best case is O(1) when the first byte already decides the answer.
 // edge note 19: Sub-linear in the average case thanks to early exit.
 // edge note 20: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 21: Space complexity: O(h) for the tree height.
