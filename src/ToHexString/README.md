@@ -243,3 +243,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 46
 
 Space complexity: O(1) auxiliary.
+
+## entry 47
+
+Edge case: empty input → returns 0.
