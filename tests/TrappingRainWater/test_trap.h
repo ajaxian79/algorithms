@@ -46,3 +46,4 @@ MunitTest trap_tests[] = {
 // edge note 12: Edge case: input with no peak → falls through to the default branch.
 // edge note 13: Stable across duplicates in the input.
 // edge note 14: Returns a freshly allocated string the caller must free.
+// edge note 15: Input is assumed non-NULL; behavior is undefined otherwise.
