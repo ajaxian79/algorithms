@@ -335,3 +335,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 96: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 97: Greedy by end-time picks the most non-overlapping intervals.
 // note 98: Reentrant — no static state.
+// note 99: Uses a small fixed-size lookup table.
