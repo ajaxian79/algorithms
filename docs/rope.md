@@ -903,3 +903,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 226
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 227
+
+Rope: tree of small string fragments; O(log n) concat and substring.
