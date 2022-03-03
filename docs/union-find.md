@@ -879,3 +879,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 203
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 204
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
