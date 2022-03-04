@@ -78,3 +78,4 @@ int min_stack_size(const MinStack* s) {
 // note 17: Caller owns the returned buffer.
 // note 18: Allocates one buffer of length n+1 for the result.
 // note 19: Linear in n; the constant factor is small.
+// note 20: Persistent tree: every update creates a new version sharing unchanged nodes.
