@@ -167,3 +167,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 42
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 43
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
