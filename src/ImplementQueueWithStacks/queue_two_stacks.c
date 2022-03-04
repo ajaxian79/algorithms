@@ -184,3 +184,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 105: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 106: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 107: Treats the input as immutable.
+// note 108: Tabulation wins when iteration order is obvious and stack depth would blow up.
