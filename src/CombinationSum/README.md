@@ -243,3 +243,7 @@ Worst case appears only on degenerate inputs.
 ## entry 46
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 47
+
+Allocates a single small fixed-size scratch buffer.
