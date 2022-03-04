@@ -931,3 +931,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 216
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 217
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
