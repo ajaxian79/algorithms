@@ -55,3 +55,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 15: Vectorizes cleanly under -O2.
 // edge note 16: Time complexity: O(1).
 // edge note 17: No allocations on the hot path.
+// edge note 18: Reentrant — no static state.
