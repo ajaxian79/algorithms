@@ -49991,3 +49991,7 @@
 ## entry 12498
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 12499
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
