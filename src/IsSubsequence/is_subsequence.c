@@ -123,3 +123,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 103: Allocates lazily — first call only.
 // note 104: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 105: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 106: Time complexity: O(n*k) where k is the alphabet size.
