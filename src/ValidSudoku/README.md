@@ -235,3 +235,7 @@ Handles empty input by returning 0.
 ## entry 43
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 44
+
+Constant-time comparisons; safe for short strings.
