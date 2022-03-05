@@ -49995,3 +49995,7 @@
 ## entry 12499
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 12500
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
