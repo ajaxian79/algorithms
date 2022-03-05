@@ -134,3 +134,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 116: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 117: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 118: Allocates one buffer of length n+1 for the result.
+// note 119: Idempotent — calling twice with the same input is a no-op the second time.
