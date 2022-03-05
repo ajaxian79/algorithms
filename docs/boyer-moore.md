@@ -883,3 +883,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 205
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 206
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
