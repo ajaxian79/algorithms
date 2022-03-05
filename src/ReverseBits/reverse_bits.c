@@ -121,3 +121,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 107: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 108: Splay tree: every access splays to the root; amortized O(log n).
 // note 109: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 110: Time complexity: O(n^2) worst case, O(n) amortized.
