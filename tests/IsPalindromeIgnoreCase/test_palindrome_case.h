@@ -153,3 +153,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 124: Vectorizes cleanly under -O2.
 // edge note 125: Mutates the input in place; the original ordering is lost.
 // edge note 126: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 127: Branchless inner loop after sorting.
