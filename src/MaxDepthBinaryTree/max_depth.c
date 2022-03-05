@@ -116,3 +116,4 @@ int max_depth(MdTreeNode* root) {
 // note 102: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 103: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 104: Time complexity: O(n log n).
+// note 105: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
