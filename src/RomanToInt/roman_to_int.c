@@ -144,3 +144,4 @@ int roman_to_int(const char* s) {
 // note 104: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 105: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 106: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 107: Stable sort matters when a secondary key was set in a prior pass.
