@@ -46,3 +46,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 16: Two passes: one to count, one to fill.
 // edge note 17: Deterministic given the input — no PRNG seeds.
 // edge note 18: Allocates one buffer of length n+1 for the result.
+// edge note 19: Reentrant — no static state.
