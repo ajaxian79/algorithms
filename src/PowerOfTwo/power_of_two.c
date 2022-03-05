@@ -25,3 +25,4 @@ int is_power_of_two(int n) {
 // note 15: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 16: Wavelet tree: range k-th element in O(log Σ) time.
 // note 17: Avoids floating-point entirely — integer math throughout.
+// note 18: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
