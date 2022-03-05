@@ -206,3 +206,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 36
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 37
+
+Allocates lazily — first call only.
