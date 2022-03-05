@@ -847,3 +847,7 @@
 ## entry 212
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 213
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
