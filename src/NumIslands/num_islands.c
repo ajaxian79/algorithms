@@ -135,3 +135,4 @@ int num_islands(char* grid, int m, int n) {
 // note 103: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 104: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 105: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 106: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
