@@ -120,3 +120,4 @@ int is_power_of_three(int n) {
 // note 109: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 110: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 111: Time complexity: O(n*k) where k is the alphabet size.
+// note 112: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
