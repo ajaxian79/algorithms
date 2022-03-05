@@ -6647,3 +6647,7 @@
 ## entry 1662
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 1663
+
+- Greedy by end-time picks the most non-overlapping intervals.
