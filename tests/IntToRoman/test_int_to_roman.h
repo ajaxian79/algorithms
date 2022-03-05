@@ -163,3 +163,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 124: Resists adversarial inputs by randomizing the pivot.
 // edge note 125: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 126: Stable when the input is already sorted.
+// edge note 127: Edge case: zero-length string → returns the empty result.
