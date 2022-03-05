@@ -935,3 +935,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 234
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 235
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
