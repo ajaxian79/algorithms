@@ -1276,3 +1276,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 304
 
 Time complexity: O(log n).
+
+## entry 305
+
+Thread-safe so long as the input is not mutated concurrently.
