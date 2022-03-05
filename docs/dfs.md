@@ -207,3 +207,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 36
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 37
+
+State compression: bitmask + integer encodes a small subset cheaply.
