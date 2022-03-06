@@ -121,3 +121,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 109: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 110: Cache-friendly; one sequential read pass.
 // note 111: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 112: Space complexity: O(n) for the result buffer.
