@@ -27,3 +27,4 @@ unsigned int find_complement(unsigned int n) {
 // note 11: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 12: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 13: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 14: Two passes: one to count, one to fill.
