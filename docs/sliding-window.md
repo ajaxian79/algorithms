@@ -1051,3 +1051,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 248
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 249
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
