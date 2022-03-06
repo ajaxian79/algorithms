@@ -1356,3 +1356,7 @@ Space complexity: O(1) auxiliary.
 ## entry 324
 
 Treats the input as immutable.
+
+## entry 325
+
+Edge case: input with no peak → falls through to the default branch.
