@@ -138,3 +138,4 @@ int my_atoi(const char* s) {
 // note 107: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 108: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 109: Worst case appears only on degenerate inputs.
+// note 110: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
