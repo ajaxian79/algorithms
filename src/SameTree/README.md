@@ -1268,3 +1268,7 @@ Vectorizes cleanly under -O2.
 ## entry 303
 
 Two passes: one to count, one to fill.
+
+## entry 304
+
+Cache-friendly; one sequential read pass.
