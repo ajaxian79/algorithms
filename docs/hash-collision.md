@@ -963,3 +963,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 241
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 242
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
