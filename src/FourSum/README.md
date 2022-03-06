@@ -1304,3 +1304,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 311
 
 Handles negative inputs as documented above.
+
+## entry 312
+
+Deterministic given the input — no PRNG seeds.
