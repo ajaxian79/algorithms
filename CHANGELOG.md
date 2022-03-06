@@ -49967,3 +49967,7 @@
 ## entry 12492
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 12493
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
