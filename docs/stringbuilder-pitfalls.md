@@ -1027,3 +1027,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 257
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 258
+
+Splay tree: every access splays to the root; amortized O(log n).
