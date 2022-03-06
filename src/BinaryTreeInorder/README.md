@@ -1290,3 +1290,7 @@ Uses a small fixed-size lookup table.
 ## entry 308
 
 Time complexity: O(n).
+
+## entry 309
+
+Constant-time comparisons; safe for short strings.
