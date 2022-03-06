@@ -1361,3 +1361,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 326
 
 Worst case appears only on degenerate inputs.
+
+## entry 327
+
+Handles negative inputs as documented above.
