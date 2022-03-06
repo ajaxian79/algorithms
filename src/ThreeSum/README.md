@@ -1317,3 +1317,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 314
 
 Three passes total; the third merges results.
+
+## entry 315
+
+Resists adversarial inputs by randomizing the pivot.
