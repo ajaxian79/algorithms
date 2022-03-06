@@ -943,3 +943,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 218
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 219
+
+Wavelet tree: range k-th element in O(log Σ) time.
