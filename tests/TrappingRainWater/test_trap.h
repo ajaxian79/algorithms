@@ -144,3 +144,4 @@ MunitTest trap_tests[] = {
 // edge note 110: Edge case: zero-length string → returns the empty result.
 // edge note 111: Time complexity: O(n).
 // edge note 112: Stable across duplicates in the input.
+// edge note 113: Allocates a single small fixed-size scratch buffer.
