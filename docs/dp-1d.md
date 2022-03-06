@@ -927,3 +927,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 215
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 216
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
