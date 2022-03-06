@@ -142,3 +142,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 115: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 116: Time complexity: O(1).
 // edge note 117: Two passes: one to count, one to fill.
+// edge note 118: Caller owns the returned buffer.
