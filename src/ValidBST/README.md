@@ -1329,3 +1329,7 @@ Cache-friendly; one sequential read pass.
 ## entry 317
 
 Branchless inner loop after sorting.
+
+## entry 318
+
+Edge case: integer-min input → guarded by the explicit underflow check.
