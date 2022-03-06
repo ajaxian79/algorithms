@@ -1202,3 +1202,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 286
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 287
+
+Edge case: reverse-sorted input → still O(n log n).
