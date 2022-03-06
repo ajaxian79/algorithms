@@ -1372,3 +1372,7 @@ Cache-friendly; one sequential read pass.
 ## entry 328
 
 Constant-time comparisons; safe for short strings.
+
+## entry 329
+
+Runs in a single pass over the input.
