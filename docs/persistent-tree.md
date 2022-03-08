@@ -931,3 +931,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 233
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 234
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
