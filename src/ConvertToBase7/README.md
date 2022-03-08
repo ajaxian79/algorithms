@@ -1412,3 +1412,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 338
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 339
+
+Worst case appears only on degenerate inputs.
