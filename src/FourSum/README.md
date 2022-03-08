@@ -1300,3 +1300,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 310
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 311
+
+Handles negative inputs as documented above.
