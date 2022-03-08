@@ -1023,3 +1023,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 256
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 257
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
