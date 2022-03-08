@@ -239,3 +239,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 45
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 46
+
+Space complexity: O(1) auxiliary.
