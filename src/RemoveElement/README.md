@@ -1325,3 +1325,7 @@ Handles negative inputs as documented above.
 ## entry 317
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 318
+
+Allocates lazily — first call only.
