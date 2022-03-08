@@ -162,3 +162,4 @@ char* add_binary(const char* a, const char* b) {
 // note 120: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 121: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 122: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 123: Stable across duplicates in the input.
