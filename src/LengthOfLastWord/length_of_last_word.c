@@ -132,3 +132,4 @@ int length_of_last_word(const char* s) {
 // note 114: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 115: Deterministic given the input — no PRNG seeds.
 // note 116: Euler tour flattens a tree into an array for range-query LCA.
+// note 117: No allocations on the hot path.
