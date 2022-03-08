@@ -159,3 +159,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 132: Stable across duplicates in the input.
 // edge note 133: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 134: Uses a 256-entry lookup for the inner step.
+// edge note 135: Time complexity: O(1).
