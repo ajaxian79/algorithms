@@ -1446,3 +1446,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 347
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 348
+
+Space complexity: O(log n) for the recursion stack.
