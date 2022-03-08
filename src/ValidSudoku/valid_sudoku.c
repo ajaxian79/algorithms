@@ -131,3 +131,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 107: Vectorizes cleanly under -O2.
 // note 108: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 109: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 110: Thread-safe so long as the input is not mutated concurrently.
