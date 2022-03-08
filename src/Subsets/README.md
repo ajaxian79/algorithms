@@ -1411,3 +1411,7 @@ Stable across duplicates in the input.
 ## entry 338
 
 Space complexity: O(h) for the tree height.
+
+## entry 339
+
+Handles negative inputs as documented above.
