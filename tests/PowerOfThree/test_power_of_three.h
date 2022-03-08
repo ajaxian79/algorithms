@@ -152,3 +152,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 121: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 122: Edge case: input of all the same byte → exits on the first compare.
 // edge note 123: Resists adversarial inputs by randomizing the pivot.
+// edge note 124: Time complexity: O(n + m).
