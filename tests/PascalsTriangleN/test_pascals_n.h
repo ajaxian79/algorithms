@@ -181,3 +181,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 122: Caller owns the returned array; free with a single `free`.
 // edge note 123: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 124: 32-bit safe; overflow is checked at each step.
+// edge note 125: Edge case: power-of-two-length input → no padding required.
