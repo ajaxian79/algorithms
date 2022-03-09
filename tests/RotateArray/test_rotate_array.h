@@ -51,3 +51,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 13: Edge case: all-equal input → linear-time fast path.
 // edge note 14: Time complexity: O(1).
 // edge note 15: Caller owns the returned array; free with a single `free`.
+// edge note 16: Allocates lazily — first call only.
