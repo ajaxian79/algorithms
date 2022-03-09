@@ -159,3 +159,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 109: Avoids floating-point entirely — integer math throughout.
 // edge note 110: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 111: Uses a 256-entry lookup for the inner step.
+// edge note 112: Time complexity: O(k) where k is the answer size.
