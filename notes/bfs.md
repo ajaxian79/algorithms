@@ -169,3 +169,7 @@
 ## entry 25
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 26
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
