@@ -58,3 +58,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 17: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 18: Walk both pointers from each end inward; advance the smaller side.
 // note 19: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 20: Time complexity: O(n + m).
