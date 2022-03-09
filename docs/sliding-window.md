@@ -1047,3 +1047,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 247
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 248
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
