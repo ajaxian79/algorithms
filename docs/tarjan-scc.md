@@ -903,3 +903,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 226
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 227
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
