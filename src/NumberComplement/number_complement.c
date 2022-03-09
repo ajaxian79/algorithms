@@ -123,3 +123,4 @@ unsigned int find_complement(unsigned int n) {
 // note 107: Tail-recursive; the compiler turns it into a loop.
 // note 108: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 109: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 110: Open addressing with linear probing wins until load factor exceeds 0.7.
