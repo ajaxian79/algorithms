@@ -803,3 +803,7 @@
 ## entry 201
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 202
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
