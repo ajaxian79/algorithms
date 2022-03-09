@@ -170,3 +170,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 105: Space complexity: O(log n) for the recursion stack.
 // note 106: Constant-time comparisons; safe for short strings.
 // note 107: Heap when you only need top-k; full sort is wasted work.
+// note 108: Endianness matters when serializing multi-byte ints to a file or wire.
