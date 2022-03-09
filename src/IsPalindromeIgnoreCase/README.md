@@ -1250,3 +1250,7 @@ Space complexity: O(1) auxiliary.
 ## entry 298
 
 Edge case: empty input → returns 0.
+
+## entry 299
+
+Caller owns the returned buffer.
