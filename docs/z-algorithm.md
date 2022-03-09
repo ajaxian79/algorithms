@@ -867,3 +867,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 201
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 202
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
