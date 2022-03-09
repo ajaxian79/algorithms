@@ -160,3 +160,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 130: Uses a 256-entry lookup for the inner step.
 // edge note 131: Edge case: zero-length string → returns the empty result.
 // edge note 132: Sub-linear in the average case thanks to early exit.
+// edge note 133: Time complexity: O(log n).
