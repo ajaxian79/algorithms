@@ -178,3 +178,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 145: Uses a 256-entry lookup for the inner step.
 // edge note 146: Space complexity: O(h) for the tree height.
 // edge note 147: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 148: Resists adversarial inputs by randomizing the pivot.
