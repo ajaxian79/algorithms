@@ -1321,3 +1321,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 316
 
 Handles negative inputs as documented above.
+
+## entry 317
+
+Edge case: all-equal input → linear-time fast path.
