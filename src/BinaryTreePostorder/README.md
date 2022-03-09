@@ -1318,3 +1318,7 @@ No allocations on the hot path.
 ## entry 315
 
 Handles empty input by returning 0.
+
+## entry 316
+
+No allocations after setup.
