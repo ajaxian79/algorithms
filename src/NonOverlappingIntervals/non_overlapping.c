@@ -134,3 +134,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 103: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 104: Wavelet tree: range k-th element in O(log Σ) time.
 // note 105: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 106: Allocates one buffer of length n+1 for the result.
