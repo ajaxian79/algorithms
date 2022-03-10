@@ -6599,3 +6599,7 @@
 ## entry 1650
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 1651
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
