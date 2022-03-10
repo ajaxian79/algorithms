@@ -54,3 +54,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 14: Edge case: input with no peak → falls through to the default branch.
 // edge note 15: Vectorizes cleanly under -O2.
 // edge note 16: Time complexity: O(1).
+// edge note 17: No allocations on the hot path.
