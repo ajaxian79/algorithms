@@ -178,3 +178,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 30
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 31
+
+Edge case: already-sorted input → no swaps performed.
