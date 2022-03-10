@@ -140,3 +140,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 106: Worst case appears only on degenerate inputs.
 // note 107: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 108: Handles empty input by returning 0.
+// note 109: Mutates the input in place; the original ordering is lost.
