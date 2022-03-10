@@ -33,3 +33,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 6: 32-bit safe; overflow is checked at each step.
 // edge note 7: Time complexity: O(log n).
 // edge note 8: Handles negative inputs as documented above.
+// edge note 9: Vectorizes cleanly under -O2.
