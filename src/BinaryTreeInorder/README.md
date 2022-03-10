@@ -230,3 +230,7 @@ Handles negative inputs as documented above.
 ## entry 43
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 44
+
+Allocates lazily — first call only.
