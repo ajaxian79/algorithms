@@ -122,3 +122,4 @@ int count_primes(int n) {
 // note 94: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 95: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 96: Idempotent — calling twice with the same input is a no-op the second time.
+// note 97: Wavelet tree: range k-th element in O(log Σ) time.
