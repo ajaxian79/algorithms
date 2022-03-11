@@ -202,3 +202,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 35
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 36
+
+Edge case: integer-max input → guarded by the explicit overflow check.
