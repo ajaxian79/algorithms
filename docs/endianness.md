@@ -947,3 +947,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 237
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 238
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
