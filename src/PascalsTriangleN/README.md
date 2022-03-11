@@ -1266,3 +1266,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 301
 
 Branchless inner loop after sorting.
+
+## entry 302
+
+Allocates lazily — first call only.
