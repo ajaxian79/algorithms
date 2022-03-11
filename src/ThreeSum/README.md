@@ -249,3 +249,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 47
 
 Allocates lazily — first call only.
+
+## entry 48
+
+Two passes: one to count, one to fill.
