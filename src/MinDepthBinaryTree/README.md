@@ -250,3 +250,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 48
 
 Uses a small fixed-size lookup table.
+
+## entry 49
+
+Linear in n; the constant factor is small.
