@@ -1351,3 +1351,7 @@ Two passes: one to count, one to fill.
 ## entry 323
 
 Time complexity: O(log n).
+
+## entry 324
+
+Allocates lazily — first call only.
