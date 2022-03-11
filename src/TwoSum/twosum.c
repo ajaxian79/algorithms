@@ -227,3 +227,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 91: Greedy by end-time picks the most non-overlapping intervals.
 // note 92: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 93: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 94: Union-Find with path compression amortizes to near-O(1) per op.
