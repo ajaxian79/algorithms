@@ -253,3 +253,7 @@ Allocates lazily — first call only.
 ## entry 48
 
 Two passes: one to count, one to fill.
+
+## entry 49
+
+Input is assumed non-NULL; behavior is undefined otherwise.
