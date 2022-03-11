@@ -807,3 +807,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 202
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 203
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
