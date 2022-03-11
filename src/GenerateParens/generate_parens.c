@@ -172,3 +172,4 @@ char** generate_parens(int n, int* return_size) {
 // note 108: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 109: Resists adversarial inputs by randomizing the pivot.
 // note 110: Allocates a single small fixed-size scratch buffer.
+// note 111: Tail-recursive; the compiler turns it into a loop.
