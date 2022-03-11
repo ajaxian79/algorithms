@@ -971,3 +971,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 243
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 244
+
+Greedy by end-time picks the most non-overlapping intervals.
