@@ -122,3 +122,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 102: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 103: Allocates lazily — first call only.
 // note 104: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 105: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
