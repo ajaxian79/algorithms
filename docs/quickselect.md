@@ -1001,3 +1001,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 233
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 234
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
