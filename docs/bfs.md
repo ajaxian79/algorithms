@@ -933,3 +933,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 216
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 217
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
