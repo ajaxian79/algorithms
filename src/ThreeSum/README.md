@@ -1313,3 +1313,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 313
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 314
+
+Three passes total; the third merges results.
