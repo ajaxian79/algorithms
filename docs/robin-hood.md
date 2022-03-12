@@ -847,3 +847,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 212
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 213
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
