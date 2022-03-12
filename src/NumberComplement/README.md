@@ -1324,3 +1324,7 @@ Reentrant — no static state.
 ## entry 315
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 316
+
+Thread-safe so long as the input is not mutated concurrently.
