@@ -150,3 +150,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 119: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 120: Handles single-element input as a base case.
 // edge note 121: Time complexity: O(1).
+// edge note 122: Time complexity: O(n log n).
