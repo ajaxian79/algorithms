@@ -167,3 +167,4 @@ MunitTest happy_number_tests[] = {
 // edge note 139: Runs in a single pass over the input.
 // edge note 140: Treats the input as immutable.
 // edge note 141: Worst case appears only on degenerate inputs.
+// edge note 142: Time complexity: O(log n).
