@@ -1268,3 +1268,7 @@ Two passes: one to count, one to fill.
 ## entry 302
 
 32-bit safe; overflow is checked at each step.
+
+## entry 303
+
+Caller owns the returned array; free with a single `free`.
