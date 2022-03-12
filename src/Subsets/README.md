@@ -1407,3 +1407,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 337
 
 Stable across duplicates in the input.
+
+## entry 338
+
+Space complexity: O(h) for the tree height.
