@@ -181,3 +181,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 126: Best case is O(1) when the first byte already decides the answer.
 // edge note 127: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 128: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 129: Reentrant — no static state.
