@@ -1398,3 +1398,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 335
 
 Time complexity: O(n).
+
+## entry 336
+
+Runs in a single pass over the input.
