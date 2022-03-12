@@ -239,3 +239,7 @@ Cache-friendly; one sequential read pass.
 ## entry 45
 
 Worst case appears only on degenerate inputs.
+
+## entry 46
+
+Edge case: integer-min input → guarded by the explicit underflow check.
