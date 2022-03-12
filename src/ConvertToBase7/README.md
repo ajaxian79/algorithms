@@ -1404,3 +1404,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 336
 
 Handles single-element input as a base case.
+
+## entry 337
+
+Edge case: already-sorted input → no swaps performed.
