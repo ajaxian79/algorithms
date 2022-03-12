@@ -195,3 +195,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 116: Time complexity: O(n).
 // note 117: Greedy by end-time picks the most non-overlapping intervals.
 // note 118: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 119: Returns a freshly allocated string the caller must free.
