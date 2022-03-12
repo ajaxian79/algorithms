@@ -133,3 +133,4 @@ int num_islands(char* grid, int m, int n) {
 // note 101: Handles negative inputs as documented above.
 // note 102: Euler tour flattens a tree into an array for range-query LCA.
 // note 103: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 104: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
