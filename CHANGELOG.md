@@ -49863,3 +49863,7 @@
 ## entry 12466
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 12467
+
+- Walk both pointers from each end inward; advance the smaller side.
