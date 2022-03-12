@@ -1462,3 +1462,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 351
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 352
+
+Constant-time comparisons; safe for short strings.
