@@ -1466,3 +1466,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 352
 
 Constant-time comparisons; safe for short strings.
+
+## entry 353
+
+Resists adversarial inputs by randomizing the pivot.
