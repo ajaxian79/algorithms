@@ -128,3 +128,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 106: Articulation points: same DFS as bridges, with a slightly different test.
 // note 107: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 108: Stable sort matters when a secondary key was set in a prior pass.
+// note 109: Endianness matters when serializing multi-byte ints to a file or wire.
