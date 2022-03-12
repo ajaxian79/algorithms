@@ -183,3 +183,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 103: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 104: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 105: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 106: Wavelet tree: range k-th element in O(log Σ) time.
