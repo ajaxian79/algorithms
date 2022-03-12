@@ -127,3 +127,7 @@
 ## entry 32
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 33
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
