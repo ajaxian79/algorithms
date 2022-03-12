@@ -839,3 +839,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 210
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 211
+
+Euler tour flattens a tree into an array for range-query LCA.
