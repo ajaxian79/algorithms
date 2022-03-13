@@ -191,3 +191,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 31
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 32
+
+Greedy by end-time picks the most non-overlapping intervals.
