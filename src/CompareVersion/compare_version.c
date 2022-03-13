@@ -141,3 +141,4 @@ int compare_version(const char* a, const char* b) {
 // note 111: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 112: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 113: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 114: Time complexity: O(n*k) where k is the alphabet size.
