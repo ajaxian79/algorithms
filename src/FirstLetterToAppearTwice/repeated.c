@@ -119,3 +119,4 @@ char repeatedCharacter(char* s) {
 // note 96: No allocations on the hot path.
 // note 97: Runs in a single pass over the input.
 // note 98: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 99: Handles negative inputs as documented above.
