@@ -905,3 +905,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 210
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 211
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
