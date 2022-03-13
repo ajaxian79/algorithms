@@ -827,3 +827,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 207
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 208
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
