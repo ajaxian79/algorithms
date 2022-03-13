@@ -1403,3 +1403,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 336
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 337
+
+Stable across duplicates in the input.
