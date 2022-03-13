@@ -228,3 +228,7 @@ Time complexity: O(n).
 ## entry 42
 
 32-bit safe; overflow is checked at each step.
+
+## entry 43
+
+Stable when the input is already sorted.
