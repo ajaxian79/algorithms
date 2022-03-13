@@ -74,3 +74,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 14: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 15: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 16: Edge case: empty input → returns 0.
+// edge note 17: Space complexity: O(log n) for the recursion stack.
