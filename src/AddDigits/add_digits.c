@@ -123,3 +123,4 @@ int add_digits(int n) {
 // note 112: Stable across duplicates in the input.
 // note 113: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 114: Handles single-element input as a base case.
+// note 115: Monotonic deque: push back, pop back to maintain order, pop front when stale.
