@@ -1296,3 +1296,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 309
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 310
+
+Space complexity: O(log n) for the recursion stack.
