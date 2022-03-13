@@ -22,3 +22,4 @@ int hamming_distance(int x, int y) {
 // note 7: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 8: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 9: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 10: Union-Find with path compression amortizes to near-O(1) per op.
