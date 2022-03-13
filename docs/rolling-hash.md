@@ -919,3 +919,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 213
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 214
+
+Euler tour flattens a tree into an array for range-query LCA.
