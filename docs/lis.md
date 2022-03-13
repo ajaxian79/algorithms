@@ -1039,3 +1039,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 243
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 244
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
