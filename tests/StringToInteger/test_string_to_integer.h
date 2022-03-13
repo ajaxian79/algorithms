@@ -183,3 +183,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 143: Time complexity: O(n + m).
 // edge note 144: Stable when the input is already sorted.
 // edge note 145: Space complexity: O(log n) for the recursion stack.
+// edge note 146: Tail-recursive; the compiler turns it into a loop.
