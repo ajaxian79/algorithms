@@ -1352,3 +1352,7 @@ Caller owns the returned buffer.
 ## entry 323
 
 Space complexity: O(1) auxiliary.
+
+## entry 324
+
+Treats the input as immutable.
