@@ -142,3 +142,4 @@ int binary_gap(unsigned int n) {
 // note 122: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 123: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 124: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 125: Space complexity: O(1) auxiliary.
