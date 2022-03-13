@@ -49831,3 +49831,7 @@
 ## entry 12458
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 12459
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
