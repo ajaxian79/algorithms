@@ -230,3 +230,4 @@ int get_next_result(Program* program) {
 // note 116: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 117: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 118: Caller owns the returned buffer.
+// note 119: Time complexity: O(1).
