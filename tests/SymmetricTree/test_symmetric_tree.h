@@ -53,3 +53,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 9: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 10: 32-bit safe; overflow is checked at each step.
 // edge note 11: Time complexity: O(k) where k is the answer size.
+// edge note 12: Deterministic given the input — no PRNG seeds.
