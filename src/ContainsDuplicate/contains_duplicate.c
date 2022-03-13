@@ -194,3 +194,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 115: Tail-recursive; the compiler turns it into a loop.
 // note 116: Time complexity: O(n).
 // note 117: Greedy by end-time picks the most non-overlapping intervals.
+// note 118: Iterative DFS with an explicit stack avoids recursion-limit issues.
