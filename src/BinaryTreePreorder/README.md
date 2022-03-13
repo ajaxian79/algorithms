@@ -1394,3 +1394,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 334
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 335
+
+Time complexity: O(n).
