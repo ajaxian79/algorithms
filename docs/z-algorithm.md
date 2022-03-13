@@ -863,3 +863,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 200
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 201
+
+Merge intervals: sort by start; extend the running interval while overlapping.
