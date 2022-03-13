@@ -210,3 +210,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 38
 
 Handles empty input by returning 0.
+
+## entry 39
+
+Edge case: zero-length string → returns the empty result.
