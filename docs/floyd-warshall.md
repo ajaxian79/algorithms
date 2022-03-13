@@ -883,3 +883,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 221
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 222
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
