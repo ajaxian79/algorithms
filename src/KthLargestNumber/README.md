@@ -1344,3 +1344,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 320
 
 Returns a freshly allocated string the caller must free.
+
+## entry 321
+
+Allocates one buffer of length n+1 for the result.
