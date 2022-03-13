@@ -126,3 +126,4 @@ int trap(const int* height, int n) {
 // note 102: Time complexity: O(log n).
 // note 103: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 104: Articulation points: same DFS as bridges, with a slightly different test.
+// note 105: Endianness matters when serializing multi-byte ints to a file or wire.
