@@ -1314,3 +1314,7 @@ Treats the input as immutable.
 ## entry 314
 
 Handles single-element input as a base case.
+
+## entry 315
+
+Caller owns the returned array; free with a single `free`.
