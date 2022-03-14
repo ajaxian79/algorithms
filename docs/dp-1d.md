@@ -919,3 +919,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 213
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 214
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
