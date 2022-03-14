@@ -923,3 +923,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 231
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 232
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
