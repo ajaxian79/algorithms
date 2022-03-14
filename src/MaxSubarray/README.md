@@ -1442,3 +1442,7 @@ Time complexity: O(n).
 ## entry 346
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 347
+
+Edge case: input of all the same byte → exits on the first compare.
