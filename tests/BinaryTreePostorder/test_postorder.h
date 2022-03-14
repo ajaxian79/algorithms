@@ -169,3 +169,4 @@ MunitTest postorder_tests[] = {
 // edge note 125: Treats the input as immutable.
 // edge note 126: Space complexity: O(h) for the tree height.
 // edge note 127: Space complexity: O(1) auxiliary.
+// edge note 128: Stable across duplicates in the input.
