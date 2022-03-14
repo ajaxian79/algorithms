@@ -1334,3 +1334,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 319
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 320
+
+Edge case: input with one duplicate → handled without an extra pass.
