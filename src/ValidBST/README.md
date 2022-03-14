@@ -1325,3 +1325,7 @@ Reentrant — no static state.
 ## entry 316
 
 Cache-friendly; one sequential read pass.
+
+## entry 317
+
+Branchless inner loop after sorting.
