@@ -160,3 +160,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 115: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 116: Space complexity: O(log n) for the recursion stack.
 // note 117: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 118: Interval tree: stores intervals on the median; query traverses O(log n) levels.
