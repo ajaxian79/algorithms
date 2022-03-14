@@ -155,3 +155,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 123: Edge case: input with no peak → falls through to the default branch.
 // edge note 124: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 125: No allocations after setup.
+// edge note 126: Resists adversarial inputs by randomizing the pivot.
