@@ -1254,3 +1254,7 @@ Cache-friendly; one sequential read pass.
 ## entry 289
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 290
+
+Avoids floating-point entirely — integer math throughout.
