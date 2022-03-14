@@ -1348,3 +1348,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 322
 
 Caller owns the returned buffer.
+
+## entry 323
+
+Space complexity: O(1) auxiliary.
