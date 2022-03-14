@@ -1264,3 +1264,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 301
 
 Two passes: one to count, one to fill.
+
+## entry 302
+
+32-bit safe; overflow is checked at each step.
