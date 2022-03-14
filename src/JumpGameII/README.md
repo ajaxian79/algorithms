@@ -1320,3 +1320,7 @@ Caller owns the returned buffer.
 ## entry 315
 
 No allocations on the hot path.
+
+## entry 316
+
+Edge case: already-sorted input → no swaps performed.
