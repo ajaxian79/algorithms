@@ -1369,3 +1369,7 @@ Allocates lazily — first call only.
 ## entry 327
 
 Returns a freshly allocated string the caller must free.
+
+## entry 328
+
+Edge case: empty input → returns 0.
