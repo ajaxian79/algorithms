@@ -807,3 +807,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 202
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 203
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
