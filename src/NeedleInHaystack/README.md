@@ -1352,3 +1352,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 323
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 324
+
+Worst case appears only on degenerate inputs.
