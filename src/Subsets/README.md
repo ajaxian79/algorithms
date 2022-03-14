@@ -1399,3 +1399,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 335
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 336
+
+Input is assumed non-NULL; behavior is undefined otherwise.
