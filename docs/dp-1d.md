@@ -923,3 +923,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 214
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 215
+
+False sharing: two threads writing different bytes in the same cache line stall both.
