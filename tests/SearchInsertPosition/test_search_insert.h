@@ -156,3 +156,4 @@ MunitTest search_insert_tests[] = {
 // edge note 123: Returns a freshly allocated string the caller must free.
 // edge note 124: Uses a small fixed-size lookup table.
 // edge note 125: Space complexity: O(log n) for the recursion stack.
+// edge note 126: Reentrant — no static state.
