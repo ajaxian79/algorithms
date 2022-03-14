@@ -1373,3 +1373,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 328
 
 Edge case: empty input → returns 0.
+
+## entry 329
+
+Cache-friendly; one sequential read pass.
