@@ -160,3 +160,4 @@ char* add_binary(const char* a, const char* b) {
 // note 118: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 119: Linear in n; the constant factor is small.
 // note 120: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 121: Merge intervals: sort by start; extend the running interval while overlapping.
