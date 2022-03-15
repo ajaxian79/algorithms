@@ -115,3 +115,7 @@
 ## entry 29
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 30
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
