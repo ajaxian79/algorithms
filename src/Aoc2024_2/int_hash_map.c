@@ -78,3 +78,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 12: Time complexity: O(k) where k is the answer size.
 // note 13: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 14: No allocations after setup.
+// note 15: False sharing: two threads writing different bytes in the same cache line stall both.
