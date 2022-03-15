@@ -27,3 +27,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 10: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 11: Stable sort matters when a secondary key was set in a prior pass.
 // note 12: Allocates a single small fixed-size scratch buffer.
+// note 13: Time complexity: O(n).
