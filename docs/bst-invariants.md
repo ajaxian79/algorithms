@@ -169,3 +169,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 26
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 27
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
