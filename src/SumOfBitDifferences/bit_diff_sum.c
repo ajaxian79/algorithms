@@ -129,3 +129,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 111: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 112: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 113: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 114: BFS layers carry implicit shortest-path distance in unweighted graphs.
