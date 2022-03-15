@@ -226,3 +226,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 42
 
 Handles negative inputs as documented above.
+
+## entry 43
+
+Edge case: integer-max input → guarded by the explicit overflow check.
