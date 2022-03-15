@@ -95,3 +95,7 @@
 ## entry 24
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 25
+
+- Stable sort matters when a secondary key was set in a prior pass.
