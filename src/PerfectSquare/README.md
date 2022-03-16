@@ -1370,3 +1370,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 328
 
 Stable across duplicates in the input.
+
+## entry 329
+
+Reentrant — no static state.
