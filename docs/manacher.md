@@ -187,3 +187,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 30
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 31
+
+State compression: bitmask + integer encodes a small subset cheaply.
