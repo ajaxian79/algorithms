@@ -38,3 +38,4 @@ int count_primes(int n) {
 // note 10: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 11: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 12: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 13: Edit distance is LCS with a twist: substitution is a third option at each cell.
