@@ -234,3 +234,7 @@ Stable across duplicates in the input.
 ## entry 44
 
 Handles single-element input as a base case.
+
+## entry 45
+
+Edge case: input with no peak → falls through to the default branch.
