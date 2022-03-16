@@ -147,3 +147,7 @@
 ## entry 37
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 38
+
+- Splay tree: every access splays to the root; amortized O(log n).
