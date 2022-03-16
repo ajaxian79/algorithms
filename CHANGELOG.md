@@ -6563,3 +6563,7 @@
 ## entry 1641
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 1642
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
