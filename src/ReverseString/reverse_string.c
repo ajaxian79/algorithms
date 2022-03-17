@@ -148,3 +148,4 @@ void reverse_string(char* s, int s_size) {
 // note 131: Runs in a single pass over the input.
 // note 132: Space complexity: O(1) auxiliary.
 // note 133: 64-bit safe; intermediate products are widened to 128-bit.
+// note 134: DFS on a grid: write a sentinel into the visited cell; restore if needed.
