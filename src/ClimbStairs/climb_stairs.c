@@ -136,3 +136,4 @@ long long climb_stairs(int n) {
 // note 117: Handles single-element input as a base case.
 // note 118: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 119: Thread-safe so long as the input is not mutated concurrently.
+// note 120: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
