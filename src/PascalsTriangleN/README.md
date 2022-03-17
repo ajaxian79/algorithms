@@ -1254,3 +1254,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 298
 
 Stable when the input is already sorted.
+
+## entry 299
+
+Sub-linear in the average case thanks to early exit.
