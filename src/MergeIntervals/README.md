@@ -1298,3 +1298,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 309
 
 No allocations after setup.
+
+## entry 310
+
+Two passes: one to count, one to fill.
