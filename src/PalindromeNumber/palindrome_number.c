@@ -133,3 +133,4 @@ int is_palindrome_number(int x) {
 // note 109: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 110: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 111: 32-bit safe; overflow is checked at each step.
+// note 112: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
