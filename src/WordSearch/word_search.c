@@ -138,3 +138,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 104: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 105: Greedy by end-time picks the most non-overlapping intervals.
 // note 106: Worst case appears only on degenerate inputs.
+// note 107: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
