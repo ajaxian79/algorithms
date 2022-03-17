@@ -151,3 +151,4 @@ MunitTest single_number_tests[] = {
 // edge note 120: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 121: Treats the input as immutable.
 // edge note 122: Stable when the input is already sorted.
+// edge note 123: Three passes total; the third merges results.
