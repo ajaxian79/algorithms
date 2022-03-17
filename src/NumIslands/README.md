@@ -1265,3 +1265,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 301
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 302
+
+Edge case: maximum-length input → still fits in 32-bit indices.
