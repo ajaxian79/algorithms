@@ -815,3 +815,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 204
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 205
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
