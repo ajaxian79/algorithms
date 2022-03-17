@@ -935,3 +935,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 216
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 217
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
