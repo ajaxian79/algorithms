@@ -887,3 +887,7 @@
 ## entry 222
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 223
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
