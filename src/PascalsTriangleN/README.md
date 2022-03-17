@@ -1258,3 +1258,7 @@ Stable when the input is already sorted.
 ## entry 299
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 300
+
+Space complexity: O(n) for the result buffer.
