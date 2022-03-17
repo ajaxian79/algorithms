@@ -1279,3 +1279,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 305
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 306
+
+Time complexity: O(n*k) where k is the alphabet size.
