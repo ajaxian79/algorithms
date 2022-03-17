@@ -254,3 +254,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 39
 
 Time complexity: O(n + m).
+
+## entry 40
+
+Edge case: empty input → returns 0.
