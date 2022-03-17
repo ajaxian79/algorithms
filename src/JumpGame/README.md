@@ -241,3 +241,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 45
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 46
+
+Three passes total; the third merges results.
