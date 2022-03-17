@@ -835,3 +835,7 @@
 ## entry 209
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 210
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
