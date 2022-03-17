@@ -126,3 +126,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 104: Splay tree: every access splays to the root; amortized O(log n).
 // note 105: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 106: Articulation points: same DFS as bridges, with a slightly different test.
+// note 107: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
