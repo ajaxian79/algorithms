@@ -819,3 +819,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 205
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 206
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
