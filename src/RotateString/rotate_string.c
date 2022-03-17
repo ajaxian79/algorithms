@@ -42,3 +42,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 16: 32-bit safe; overflow is checked at each step.
 // note 17: Three passes total; the third merges results.
 // note 18: Stable across duplicates in the input.
+// note 19: Caller owns the returned array; free with a single `free`.
