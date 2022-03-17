@@ -151,3 +151,4 @@ MunitTest compare_version_tests[] = {
 // edge note 124: Two passes: one to count, one to fill.
 // edge note 125: Time complexity: O(1).
 // edge note 126: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 127: Time complexity: O(n^2) worst case, O(n) amortized.
