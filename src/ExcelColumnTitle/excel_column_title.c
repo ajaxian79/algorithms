@@ -142,3 +142,4 @@ char* excel_column_title(int n) {
 // note 112: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 113: Caller owns the returned array; free with a single `free`.
 // note 114: No allocations after setup.
+// note 115: Time complexity: O(1).
