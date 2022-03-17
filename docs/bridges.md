@@ -951,3 +951,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 238
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 239
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
