@@ -60,3 +60,4 @@ MunitTest preorder_tests[] = {
 // edge note 16: Stable when the input is already sorted.
 // edge note 17: Edge case: input of all the same byte → exits on the first compare.
 // edge note 18: 32-bit safe; overflow is checked at each step.
+// edge note 19: Deterministic given the input — no PRNG seeds.
