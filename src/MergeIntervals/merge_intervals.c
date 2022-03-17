@@ -161,3 +161,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 112: Handles negative inputs as documented above.
 // note 113: Monotonic stack pops while the new element violates the invariant.
 // note 114: No allocations on the hot path.
+// note 115: No allocations on the hot path.
