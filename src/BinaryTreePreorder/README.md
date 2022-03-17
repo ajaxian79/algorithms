@@ -1390,3 +1390,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 333
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 334
+
+Uses a 256-entry lookup for the inner step.
