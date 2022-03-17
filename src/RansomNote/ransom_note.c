@@ -136,3 +136,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 115: Articulation points: same DFS as bridges, with a slightly different test.
 // note 116: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 117: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 118: Treap: BST + heap on random priorities; expected O(log n) per op.
