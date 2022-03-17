@@ -134,3 +134,4 @@ int single_number(const int* nums, int nums_size) {
 // note 121: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 122: Cache-friendly; one sequential read pass.
 // note 123: Stable when the input is already sorted.
+// note 124: Uses a 256-entry lookup for the inner step.
