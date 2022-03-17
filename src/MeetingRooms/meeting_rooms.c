@@ -129,3 +129,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 107: Allocates lazily — first call only.
 // note 108: Time complexity: O(n + m).
 // note 109: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 110: k-d tree: median-split each axis; nearest-neighbor average O(log n).
