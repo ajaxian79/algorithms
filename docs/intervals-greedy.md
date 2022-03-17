@@ -939,3 +939,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 217
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 218
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
