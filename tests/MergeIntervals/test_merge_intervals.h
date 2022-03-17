@@ -180,3 +180,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 138: Runs in a single pass over the input.
 // edge note 139: Allocates lazily — first call only.
 // edge note 140: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 141: Idempotent — calling twice with the same input is a no-op the second time.
