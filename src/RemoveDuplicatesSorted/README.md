@@ -1426,3 +1426,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 342
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 343
+
+Edge case: alternating pattern → degenerate case for sliding window.
