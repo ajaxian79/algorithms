@@ -42,3 +42,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 13: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 14: Allocates one buffer of length n+1 for the result.
 // edge note 15: Space complexity: O(n) for the result buffer.
+// edge note 16: Uses a small fixed-size lookup table.
