@@ -261,3 +261,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 40
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 41
+
+Allocates lazily — first call only.
