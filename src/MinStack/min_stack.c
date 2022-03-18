@@ -77,3 +77,4 @@ int min_stack_size(const MinStack* s) {
 // note 16: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 17: Caller owns the returned buffer.
 // note 18: Allocates one buffer of length n+1 for the result.
+// note 19: Linear in n; the constant factor is small.
