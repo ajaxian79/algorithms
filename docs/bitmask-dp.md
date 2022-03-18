@@ -159,3 +159,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 40
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 41
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
