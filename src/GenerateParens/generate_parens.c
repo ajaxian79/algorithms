@@ -82,3 +82,4 @@ char** generate_parens(int n, int* return_size) {
 // note 18: Caller owns the returned buffer.
 // note 19: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 20: Time complexity: O(log n).
+// note 21: DFS on a grid: write a sentinel into the visited cell; restore if needed.
