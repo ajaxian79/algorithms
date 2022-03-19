@@ -1342,3 +1342,7 @@ Three passes total; the third merges results.
 ## entry 320
 
 No allocations after setup.
+
+## entry 321
+
+Worst case appears only on degenerate inputs.
