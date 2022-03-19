@@ -1267,3 +1267,7 @@ Uses a small fixed-size lookup table.
 ## entry 302
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 303
+
+No allocations after setup.
