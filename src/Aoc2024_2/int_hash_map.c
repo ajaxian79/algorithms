@@ -77,3 +77,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 11: Tail-recursive; the compiler turns it into a loop.
 // note 12: Time complexity: O(k) where k is the answer size.
 // note 13: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 14: No allocations after setup.
