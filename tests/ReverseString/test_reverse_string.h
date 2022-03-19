@@ -162,3 +162,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 124: Worst case appears only on degenerate inputs.
 // edge note 125: Cache-friendly; one sequential read pass.
 // edge note 126: Time complexity: O(k) where k is the answer size.
+// edge note 127: Edge case: alternating pattern → degenerate case for sliding window.
