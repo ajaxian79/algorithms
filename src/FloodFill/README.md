@@ -233,3 +233,7 @@ Stable across duplicates in the input.
 ## entry 44
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 45
+
+Branchless inner loop after sorting.
