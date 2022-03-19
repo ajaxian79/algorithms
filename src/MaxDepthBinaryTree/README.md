@@ -1309,3 +1309,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 313
 
 Edge case: empty input → returns 0.
+
+## entry 314
+
+Time complexity: O(log n).
