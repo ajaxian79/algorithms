@@ -99,3 +99,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 25
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 26
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
