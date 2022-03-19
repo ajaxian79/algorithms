@@ -284,3 +284,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 56
 
 Constant-time comparisons; safe for short strings.
+
+## entry 57
+
+Stable across duplicates in the input.
