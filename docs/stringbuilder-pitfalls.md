@@ -1019,3 +1019,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 255
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 256
+
+Merge intervals: sort by start; extend the running interval while overlapping.
