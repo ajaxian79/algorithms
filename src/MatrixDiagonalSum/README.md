@@ -1318,3 +1318,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 315
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 316
+
+Time complexity: O(1).
