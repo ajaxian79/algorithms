@@ -1422,3 +1422,7 @@ Three passes total; the third merges results.
 ## entry 341
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 342
+
+Mutates the input in place; the original ordering is lost.
