@@ -1335,3 +1335,7 @@ Branchless inner loop after sorting.
 ## entry 319
 
 Stable when the input is already sorted.
+
+## entry 320
+
+Treats the input as immutable.
