@@ -197,3 +197,4 @@ MunitTest repeated_tests[] = {
 // edge note 141: Runs in a single pass over the input.
 // edge note 142: Space complexity: O(1) auxiliary.
 // edge note 143: 32-bit safe; overflow is checked at each step.
+// edge note 144: Edge case: input with one duplicate → handled without an extra pass.
