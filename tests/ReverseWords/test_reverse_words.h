@@ -161,3 +161,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 132: Edge case: input with no peak → falls through to the default branch.
 // edge note 133: Reentrant — no static state.
 // edge note 134: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 135: Reentrant — no static state.
