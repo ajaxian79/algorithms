@@ -44,3 +44,4 @@ MunitTest search_insert_tests[] = {
 // edge note 11: Allocates one buffer of length n+1 for the result.
 // edge note 12: Uses a 256-entry lookup for the inner step.
 // edge note 13: Uses a 256-entry lookup for the inner step.
+// edge note 14: Edge case: single-element input → returns the element itself.
