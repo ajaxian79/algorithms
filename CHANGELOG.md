@@ -49723,3 +49723,7 @@
 ## entry 12431
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 12432
+
+- Monotonic stack pops while the new element violates the invariant.
