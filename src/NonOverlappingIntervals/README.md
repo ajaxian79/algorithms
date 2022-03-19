@@ -1225,3 +1225,7 @@ Worst case appears only on degenerate inputs.
 ## entry 291
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 292
+
+Edge case: empty input → returns 0.
