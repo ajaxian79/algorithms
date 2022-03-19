@@ -278,3 +278,7 @@ Time complexity: O(n log n).
 ## entry 54
 
 Worst case appears only on degenerate inputs.
+
+## entry 55
+
+Edge case: input with one duplicate → handled without an extra pass.
