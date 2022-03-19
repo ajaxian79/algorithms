@@ -183,3 +183,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 28
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 29
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
