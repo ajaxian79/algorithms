@@ -1314,3 +1314,7 @@ Stable across duplicates in the input.
 ## entry 314
 
 No allocations on the hot path.
+
+## entry 315
+
+Handles empty input by returning 0.
