@@ -1326,3 +1326,7 @@ Linear in n; the constant factor is small.
 ## entry 317
 
 Time complexity: O(n log n).
+
+## entry 318
+
+Time complexity: O(k) where k is the answer size.
