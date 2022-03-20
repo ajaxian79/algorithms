@@ -183,3 +183,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 29
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 30
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
