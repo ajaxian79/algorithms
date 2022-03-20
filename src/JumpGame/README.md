@@ -1365,3 +1365,7 @@ Worst case appears only on degenerate inputs.
 ## entry 326
 
 Allocates lazily — first call only.
+
+## entry 327
+
+Returns a freshly allocated string the caller must free.
