@@ -1210,3 +1210,7 @@ Two passes: one to count, one to fill.
 ## entry 288
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 289
+
+Edge case: already-sorted input → no swaps performed.
