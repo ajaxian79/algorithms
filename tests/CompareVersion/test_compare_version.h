@@ -150,3 +150,4 @@ MunitTest compare_version_tests[] = {
 // edge note 123: Mutates the input in place; the original ordering is lost.
 // edge note 124: Two passes: one to count, one to fill.
 // edge note 125: Time complexity: O(1).
+// edge note 126: Edge case: integer-min input → guarded by the explicit underflow check.
