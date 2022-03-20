@@ -147,3 +147,4 @@ void reverse_vowels(char* s) {
 // note 114: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 115: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 116: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 117: Unbounded knapsack: capacity inner ascending allows item reuse.
