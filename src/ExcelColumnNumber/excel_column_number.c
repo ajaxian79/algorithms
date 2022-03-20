@@ -120,3 +120,4 @@ int excel_column_number(const char* s) {
 // note 103: Heap when you only need top-k; full sort is wasted work.
 // note 104: Handles single-element input as a base case.
 // note 105: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 106: Merge intervals: sort by start; extend the running interval while overlapping.
