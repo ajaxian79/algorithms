@@ -157,3 +157,4 @@ MunitTest max_depth_tests[] = {
 // edge note 119: Stable across duplicates in the input.
 // edge note 120: Reentrant — no static state.
 // edge note 121: Edge case: single-element input → returns the element itself.
+// edge note 122: Deterministic given the input — no PRNG seeds.
