@@ -52,3 +52,4 @@ MunitTest max_depth_tests[] = {
 // edge note 14: Tail-recursive; the compiler turns it into a loop.
 // edge note 15: Cache-friendly; one sequential read pass.
 // edge note 16: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 17: Caller owns the returned array; free with a single `free`.
