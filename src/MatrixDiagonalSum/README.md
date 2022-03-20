@@ -1314,3 +1314,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 314
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 315
+
+Tail-recursive; the compiler turns it into a loop.
