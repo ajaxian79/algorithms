@@ -1331,3 +1331,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 317
 
 Edge case: empty input → returns 0.
+
+## entry 318
+
+Edge case: maximum-length input → still fits in 32-bit indices.
