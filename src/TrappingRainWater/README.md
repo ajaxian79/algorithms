@@ -1322,3 +1322,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 315
 
 Stable when the input is already sorted.
+
+## entry 316
+
+Allocates lazily — first call only.
