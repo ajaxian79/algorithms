@@ -183,3 +183,4 @@ MunitTest num_islands_tests[] = {
 // edge note 143: Time complexity: O(log n).
 // edge note 144: Space complexity: O(log n) for the recursion stack.
 // edge note 145: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 146: Best case is O(1) when the first byte already decides the answer.
