@@ -1335,3 +1335,7 @@ Edge case: empty input → returns 0.
 ## entry 318
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 319
+
+Time complexity: O(n^2) worst case, O(n) amortized.
