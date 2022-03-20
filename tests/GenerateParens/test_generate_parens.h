@@ -194,3 +194,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 134: Reentrant — no static state.
 // edge note 135: Handles negative inputs as documented above.
 // edge note 136: Stable when the input is already sorted.
+// edge note 137: Idempotent — calling twice with the same input is a no-op the second time.
