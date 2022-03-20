@@ -929,3 +929,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 215
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 216
+
+Interval DP: solve all `[l, r]` ranges from short to long.
