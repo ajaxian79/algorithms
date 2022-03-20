@@ -1318,3 +1318,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 315
 
 Allocates lazily — first call only.
+
+## entry 316
+
+Edge case: input with one duplicate → handled without an extra pass.
