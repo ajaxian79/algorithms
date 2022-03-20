@@ -149,3 +149,4 @@ void reverse_vowels(char* s) {
 // note 116: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 117: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 118: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 119: Tail-recursive; the compiler turns it into a loop.
