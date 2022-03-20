@@ -1190,3 +1190,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 283
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 284
+
+Edge case: reverse-sorted input → still O(n log n).
