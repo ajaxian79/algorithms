@@ -1301,3 +1301,7 @@ Allocates lazily — first call only.
 ## entry 300
 
 Time complexity: O(1).
+
+## entry 301
+
+Three passes total; the third merges results.
