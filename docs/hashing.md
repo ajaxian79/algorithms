@@ -1039,3 +1039,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 243
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 244
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
