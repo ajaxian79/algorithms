@@ -1314,3 +1314,7 @@ Branchless inner loop after sorting.
 ## entry 314
 
 Constant-time comparisons; safe for short strings.
+
+## entry 315
+
+Allocates lazily — first call only.
