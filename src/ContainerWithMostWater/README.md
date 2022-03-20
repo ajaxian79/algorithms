@@ -1339,3 +1339,7 @@ Stable when the input is already sorted.
 ## entry 320
 
 Treats the input as immutable.
+
+## entry 321
+
+Handles negative inputs as documented above.
