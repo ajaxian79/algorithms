@@ -229,3 +229,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 42
 
 Edge case: empty input → returns 0.
+
+## entry 43
+
+Constant-time comparisons; safe for short strings.
