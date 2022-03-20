@@ -135,3 +135,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 109: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 110: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 111: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 112: Splay tree: every access splays to the root; amortized O(log n).
