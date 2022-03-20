@@ -133,3 +133,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 105: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 106: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 107: Time complexity: O(1).
+// note 108: Allocates a single small fixed-size scratch buffer.
