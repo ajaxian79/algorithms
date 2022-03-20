@@ -859,3 +859,7 @@
 ## entry 215
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 216
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
