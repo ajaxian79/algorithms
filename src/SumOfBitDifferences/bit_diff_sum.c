@@ -127,3 +127,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 109: Uses a small fixed-size lookup table.
 // note 110: Avoids floating-point entirely — integer math throughout.
 // note 111: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 112: Open addressing with linear probing wins until load factor exceeds 0.7.
