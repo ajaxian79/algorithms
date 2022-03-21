@@ -1306,3 +1306,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 312
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 313
+
+Treats the input as immutable.
