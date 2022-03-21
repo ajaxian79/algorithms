@@ -1297,3 +1297,7 @@ Worst case appears only on degenerate inputs.
 ## entry 299
 
 Allocates lazily — first call only.
+
+## entry 300
+
+Time complexity: O(1).
