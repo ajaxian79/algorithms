@@ -251,3 +251,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 48
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 49
+
+Reentrant — no static state.
