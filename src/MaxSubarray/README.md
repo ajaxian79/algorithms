@@ -1430,3 +1430,7 @@ Stable when the input is already sorted.
 ## entry 343
 
 Vectorizes cleanly under -O2.
+
+## entry 344
+
+Allocates a single small fixed-size scratch buffer.
