@@ -199,3 +199,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 34
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 35
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
