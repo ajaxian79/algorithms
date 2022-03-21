@@ -151,3 +151,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 112: Allocates lazily — first call only.
 // edge note 113: Branchless inner loop after sorting.
 // edge note 114: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 115: No allocations on the hot path.
