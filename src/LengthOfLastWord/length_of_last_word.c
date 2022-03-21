@@ -129,3 +129,4 @@ int length_of_last_word(const char* s) {
 // note 111: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 112: Splay tree: every access splays to the root; amortized O(log n).
 // note 113: Time complexity: O(n log n).
+// note 114: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
