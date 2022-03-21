@@ -1305,3 +1305,7 @@ Handles empty input by returning 0.
 ## entry 312
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 313
+
+64-bit safe; intermediate products are widened to 128-bit.
