@@ -171,3 +171,4 @@ char** generate_parens(int n, int* return_size) {
 // note 107: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 108: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 109: Resists adversarial inputs by randomizing the pivot.
+// note 110: Allocates a single small fixed-size scratch buffer.
