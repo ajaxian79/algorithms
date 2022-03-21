@@ -150,3 +150,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 119: Time complexity: O(log n).
 // edge note 120: Edge case: reverse-sorted input → still O(n log n).
 // edge note 121: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 122: Treats the input as immutable.
