@@ -1009,3 +1009,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 235
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 236
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
