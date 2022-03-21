@@ -150,3 +150,4 @@ MunitTest count_primes_tests[] = {
 // edge note 122: Runs in a single pass over the input.
 // edge note 123: Edge case: zero-length string → returns the empty result.
 // edge note 124: Time complexity: O(1).
+// edge note 125: Time complexity: O(n*k) where k is the alphabet size.
