@@ -1121,3 +1121,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 265
 
 32-bit safe; overflow is checked at each step.
+
+## entry 266
+
+Edge case: maximum-length input → still fits in 32-bit indices.
