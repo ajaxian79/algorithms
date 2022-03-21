@@ -1186,3 +1186,7 @@ Branchless inner loop after sorting.
 ## entry 282
 
 Returns a freshly allocated string the caller must free.
+
+## entry 283
+
+Edge case: integer-max input → guarded by the explicit overflow check.
