@@ -951,3 +951,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 220
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 221
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
