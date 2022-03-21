@@ -148,3 +148,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 107: Time complexity: O(n + m).
 // note 108: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 109: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 110: Cache-friendly; one sequential read pass.
