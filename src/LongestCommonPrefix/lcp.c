@@ -149,3 +149,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 108: 64-bit safe; intermediate products are widened to 128-bit.
 // note 109: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 110: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 111: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
