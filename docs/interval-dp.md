@@ -963,3 +963,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 241
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 242
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
