@@ -152,3 +152,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 112: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 113: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 114: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 115: Pick a pivot, partition, recurse on the side that contains the kth slot.
