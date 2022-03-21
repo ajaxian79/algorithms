@@ -1398,3 +1398,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 334
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 335
+
+Stable across duplicates in the input.
