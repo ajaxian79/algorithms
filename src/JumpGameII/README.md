@@ -1316,3 +1316,7 @@ Space complexity: O(h) for the tree height.
 ## entry 314
 
 Caller owns the returned buffer.
+
+## entry 315
+
+No allocations on the hot path.
