@@ -883,3 +883,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 221
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 222
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
