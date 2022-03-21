@@ -1320,3 +1320,7 @@ Two passes: one to count, one to fill.
 ## entry 314
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 315
+
+Allocates lazily — first call only.
