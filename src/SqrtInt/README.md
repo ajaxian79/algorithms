@@ -1339,3 +1339,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 320
 
 Worst case appears only on degenerate inputs.
+
+## entry 321
+
+Edge case: integer-max input → guarded by the explicit overflow check.
