@@ -159,3 +159,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 114: Runs in a single pass over the input.
 // note 115: Uses a 256-entry lookup for the inner step.
 // note 116: Caller owns the returned buffer.
+// note 117: StringBuilder pitfall: reuse forces a deep copy on the first read.
