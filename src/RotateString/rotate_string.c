@@ -134,3 +134,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 108: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 109: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 110: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 111: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
