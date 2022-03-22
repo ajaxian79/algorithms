@@ -148,3 +148,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 105: Time complexity: O(n log n).
 // note 106: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 107: Stable when the input is already sorted.
+// note 108: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
