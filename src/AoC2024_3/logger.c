@@ -156,3 +156,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 113: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 114: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 115: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 116: StringBuilder pitfall: reuse forces a deep copy on the first read.
