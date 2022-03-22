@@ -49615,3 +49615,7 @@
 ## entry 12404
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 12405
+
+- Monotonic stack pops while the new element violates the invariant.
