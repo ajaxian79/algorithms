@@ -133,3 +133,4 @@ char* convert_to_base7(int n) {
 // note 100: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 101: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 102: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 103: LRU cache: doubly-linked list + hash map; O(1) get/put.
