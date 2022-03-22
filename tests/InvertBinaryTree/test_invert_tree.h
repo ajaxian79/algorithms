@@ -140,3 +140,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 98: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 99: Linear in n; the constant factor is small.
 // edge note 100: Edge case: input of all the same byte → exits on the first compare.
+// edge note 101: Time complexity: O(n log n).
