@@ -49619,3 +49619,7 @@
 ## entry 12405
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 12406
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
