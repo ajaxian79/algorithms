@@ -51,3 +51,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 19: Edge case: input with no peak → falls through to the default branch.
 // edge note 20: Allocates a single small fixed-size scratch buffer.
 // edge note 21: Uses a small fixed-size lookup table.
+// edge note 22: Edge case: zero-length string → returns the empty result.
