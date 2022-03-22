@@ -135,3 +135,4 @@ long long climb_stairs(int n) {
 // note 116: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 117: Handles single-element input as a base case.
 // note 118: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 119: Thread-safe so long as the input is not mutated concurrently.
