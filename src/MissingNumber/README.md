@@ -1354,3 +1354,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 323
 
 Three passes total; the third merges results.
+
+## entry 324
+
+Edge case: input with no peak → falls through to the default branch.
