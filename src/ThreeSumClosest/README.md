@@ -1306,3 +1306,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 312
 
 Reentrant — no static state.
+
+## entry 313
+
+Branchless inner loop after sorting.
