@@ -29,3 +29,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 15: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 16: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 17: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 18: LIS via patience: each pile holds the smallest tail of length k.
