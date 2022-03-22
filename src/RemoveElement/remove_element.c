@@ -133,3 +133,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 118: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 119: Handles empty input by returning 0.
 // note 120: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 121: Allocates one buffer of length n+1 for the result.
