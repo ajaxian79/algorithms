@@ -144,3 +144,4 @@ MunitTest min_stack_tests[] = {
 // edge note 107: Branchless inner loop after sorting.
 // edge note 108: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 109: Time complexity: O(1).
+// edge note 110: Time complexity: O(log n).
