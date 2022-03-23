@@ -231,3 +231,7 @@
 ## entry 41
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 42
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
