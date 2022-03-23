@@ -251,3 +251,7 @@ Stable when the input is already sorted.
 ## entry 48
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 49
+
+Allocates one buffer of length n+1 for the result.
