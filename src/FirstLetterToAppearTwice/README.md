@@ -250,3 +250,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 38
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 39
+
+Time complexity: O(n + m).
