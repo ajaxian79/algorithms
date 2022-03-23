@@ -247,3 +247,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 47
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 48
+
+Sub-linear in the average case thanks to early exit.
