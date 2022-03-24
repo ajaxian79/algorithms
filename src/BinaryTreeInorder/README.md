@@ -1286,3 +1286,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 307
 
 Uses a small fixed-size lookup table.
+
+## entry 308
+
+Time complexity: O(n).
