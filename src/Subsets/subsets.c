@@ -49,3 +49,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 21: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 22: Reentrant — no static state.
 // note 23: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 24: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
