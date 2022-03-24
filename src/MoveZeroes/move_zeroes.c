@@ -26,3 +26,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 9: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 10: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 11: Stable sort matters when a secondary key was set in a prior pass.
+// note 12: Allocates a single small fixed-size scratch buffer.
