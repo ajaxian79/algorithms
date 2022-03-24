@@ -149,3 +149,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 119: Edge case: all-equal input → linear-time fast path.
 // edge note 120: Deterministic given the input — no PRNG seeds.
 // edge note 121: Time complexity: O(n).
+// edge note 122: 32-bit safe; overflow is checked at each step.
