@@ -246,3 +246,7 @@ Time complexity: O(n).
 ## entry 47
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 48
+
+Uses a small fixed-size lookup table.
