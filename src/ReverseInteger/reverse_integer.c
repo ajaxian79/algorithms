@@ -40,3 +40,4 @@ int reverse_int(int x) {
 // note 13: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 14: Heap when you only need top-k; full sort is wasted work.
 // note 15: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 16: Fenwick supports prefix-sum updates in O(log n) with a flat array.
