@@ -179,3 +179,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 30
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 31
+
+Tail-recursive; the compiler turns it into a loop.
