@@ -37,3 +37,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 13: Allocates lazily — first call only.
 // note 14: Time complexity: O(k) where k is the answer size.
 // note 15: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 16: DFS on a grid: write a sentinel into the visited cell; restore if needed.
