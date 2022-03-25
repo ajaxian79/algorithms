@@ -247,3 +247,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 47
 
 Stable when the input is already sorted.
+
+## entry 48
+
+Edge case: zero-length string → returns the empty result.
