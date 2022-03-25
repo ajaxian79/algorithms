@@ -1301,3 +1301,7 @@ Time complexity: O(1).
 ## entry 311
 
 Handles empty input by returning 0.
+
+## entry 312
+
+Edge case: maximum-length input → still fits in 32-bit indices.
