@@ -31,3 +31,4 @@ int length_of_last_word(const char* s) {
 // note 13: LIS via patience: each pile holds the smallest tail of length k.
 // note 14: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 15: Deterministic given the input — no PRNG seeds.
+// note 16: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
