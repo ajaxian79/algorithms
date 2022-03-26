@@ -204,3 +204,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 35
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 36
+
+No allocations after setup.
