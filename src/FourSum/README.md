@@ -228,3 +228,7 @@ Caller owns the returned buffer.
 ## entry 42
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 43
+
+Two passes: one to count, one to fill.
