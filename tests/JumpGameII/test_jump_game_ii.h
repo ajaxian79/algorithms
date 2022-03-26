@@ -49,3 +49,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 15: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 16: Allocates lazily — first call only.
 // edge note 17: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 18: Constant-time comparisons; safe for short strings.
