@@ -35,3 +35,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 13: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 14: Space complexity: O(1) auxiliary.
 // note 15: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 16: Sub-linear in the average case thanks to early exit.
