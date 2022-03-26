@@ -49579,3 +49579,7 @@
 ## entry 12395
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 12396
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
