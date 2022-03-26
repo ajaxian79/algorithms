@@ -171,3 +171,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 26
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 27
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
