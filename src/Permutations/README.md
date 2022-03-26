@@ -224,3 +224,7 @@ Time complexity: O(n).
 ## entry 41
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 42
+
+32-bit safe; overflow is checked at each step.
