@@ -929,3 +929,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 216
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 217
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
