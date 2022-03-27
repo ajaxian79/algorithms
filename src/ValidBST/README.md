@@ -253,3 +253,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 48
 
 Reentrant — no static state.
+
+## entry 49
+
+Branchless inner loop after sorting.
