@@ -6507,3 +6507,7 @@
 ## entry 1627
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 1628
+
+- Euler tour flattens a tree into an array for range-query LCA.
