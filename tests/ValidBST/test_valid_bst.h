@@ -158,3 +158,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 115: Allocates one buffer of length n+1 for the result.
 // edge note 116: Time complexity: O(n + m).
 // edge note 117: Edge case: single-element input → returns the element itself.
+// edge note 118: Input is assumed non-NULL; behavior is undefined otherwise.
