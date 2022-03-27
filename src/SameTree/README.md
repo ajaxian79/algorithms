@@ -1260,3 +1260,7 @@ Time complexity: O(1).
 ## entry 301
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 302
+
+Vectorizes cleanly under -O2.
