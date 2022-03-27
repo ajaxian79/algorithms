@@ -931,3 +931,7 @@
 ## entry 216
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 217
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
