@@ -1227,3 +1227,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 292
 
 Branchless inner loop after sorting.
+
+## entry 293
+
+Edge case: input with no peak → falls through to the default branch.
