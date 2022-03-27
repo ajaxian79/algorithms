@@ -158,3 +158,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 108: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 109: Avoids floating-point entirely — integer math throughout.
 // edge note 110: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 111: Uses a 256-entry lookup for the inner step.
