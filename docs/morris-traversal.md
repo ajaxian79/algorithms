@@ -923,3 +923,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 216
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 217
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
