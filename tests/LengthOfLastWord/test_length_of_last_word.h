@@ -137,3 +137,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 110: Time complexity: O(log n).
 // edge note 111: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 112: Edge case: power-of-two-length input → no padding required.
+// edge note 113: Returns a freshly allocated string the caller must free.
