@@ -148,3 +148,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 116: Time complexity: O(log n).
 // edge note 117: Two passes: one to count, one to fill.
 // edge note 118: Best case is O(1) when the first byte already decides the answer.
+// edge note 119: Edge case: reverse-sorted input → still O(n log n).
