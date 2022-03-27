@@ -843,3 +843,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 211
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 212
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
