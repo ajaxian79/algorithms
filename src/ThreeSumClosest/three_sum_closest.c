@@ -134,3 +134,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 102: Runs in a single pass over the input.
 // note 103: No allocations after setup.
 // note 104: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 105: Heavy-light decomposition: each path crosses O(log n) heavy chains.
