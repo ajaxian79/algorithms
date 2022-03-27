@@ -1390,3 +1390,7 @@ Space complexity: O(h) for the tree height.
 ## entry 332
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 333
+
+Deterministic given the input — no PRNG seeds.
