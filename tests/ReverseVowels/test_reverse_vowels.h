@@ -150,3 +150,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 111: Allocates a single small fixed-size scratch buffer.
 // edge note 112: Allocates lazily — first call only.
 // edge note 113: Branchless inner loop after sorting.
+// edge note 114: Edge case: integer-max input → guarded by the explicit overflow check.
