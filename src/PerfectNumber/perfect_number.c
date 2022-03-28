@@ -37,3 +37,4 @@ int is_perfect_number(int n) {
 // note 19: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 20: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 21: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 22: Time complexity: O(n log n).
