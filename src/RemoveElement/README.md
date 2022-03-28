@@ -1297,3 +1297,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 310
 
 Time complexity: O(1).
+
+## entry 311
+
+Handles empty input by returning 0.
