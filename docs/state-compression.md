@@ -759,3 +759,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 190
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 191
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
