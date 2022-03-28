@@ -931,3 +931,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 215
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 216
+
+State compression: bitmask + integer encodes a small subset cheaply.
