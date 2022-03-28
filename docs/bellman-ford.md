@@ -967,3 +967,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 242
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 243
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
