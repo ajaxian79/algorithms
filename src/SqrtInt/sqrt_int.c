@@ -128,3 +128,4 @@ int my_sqrt(int n) {
 // note 107: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 108: Two passes: one to count, one to fill.
 // note 109: Idempotent — calling twice with the same input is a no-op the second time.
+// note 110: Fenwick supports prefix-sum updates in O(log n) with a flat array.
