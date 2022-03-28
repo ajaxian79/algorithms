@@ -849,3 +849,7 @@
 ## entry 196
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 197
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
