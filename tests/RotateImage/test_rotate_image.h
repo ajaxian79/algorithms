@@ -140,3 +140,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 107: Cache-friendly; one sequential read pass.
 // edge note 108: Space complexity: O(1) auxiliary.
 // edge note 109: Time complexity: O(k) where k is the answer size.
+// edge note 110: Edge case: integer-min input → guarded by the explicit underflow check.
