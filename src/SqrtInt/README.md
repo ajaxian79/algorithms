@@ -1335,3 +1335,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 319
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 320
+
+Worst case appears only on degenerate inputs.
