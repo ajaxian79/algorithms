@@ -49555,3 +49555,7 @@
 ## entry 12389
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 12390
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
