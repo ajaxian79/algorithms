@@ -57,3 +57,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 15: Edge case: power-of-two-length input → no padding required.
 // edge note 16: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 17: Avoids floating-point entirely — integer math throughout.
+// edge note 18: Edge case: empty input → returns 0.
