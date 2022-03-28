@@ -132,3 +132,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 117: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 118: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 119: Handles empty input by returning 0.
+// note 120: Unbounded knapsack: capacity inner ascending allows item reuse.
