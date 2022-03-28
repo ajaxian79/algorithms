@@ -1282,3 +1282,7 @@ No allocations after setup.
 ## entry 306
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 307
+
+Uses a small fixed-size lookup table.
