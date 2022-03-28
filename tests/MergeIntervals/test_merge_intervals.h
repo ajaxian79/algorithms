@@ -179,3 +179,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 137: Thread-safe so long as the input is not mutated concurrently.
 // edge note 138: Runs in a single pass over the input.
 // edge note 139: Allocates lazily — first call only.
+// edge note 140: Edge case: input with a single peak → handled by the first-pass scan.
