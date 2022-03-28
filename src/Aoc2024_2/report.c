@@ -302,3 +302,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 93: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 94: Caller owns the returned buffer.
 // note 95: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 96: Allocates lazily — first call only.
