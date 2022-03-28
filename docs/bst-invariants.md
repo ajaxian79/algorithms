@@ -925,3 +925,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 215
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 216
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
