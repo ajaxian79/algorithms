@@ -1302,3 +1302,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 311
 
 Constant-time comparisons; safe for short strings.
+
+## entry 312
+
+Reentrant — no static state.
