@@ -39,3 +39,4 @@ int is_happy(int n) {
 // note 13: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 14: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 15: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 16: Vectorizes cleanly under -O2.
