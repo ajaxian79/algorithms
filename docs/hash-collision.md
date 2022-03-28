@@ -959,3 +959,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 240
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 241
+
+Stable sort matters when a secondary key was set in a prior pass.
