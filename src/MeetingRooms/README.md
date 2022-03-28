@@ -1302,3 +1302,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 311
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 312
+
+Uses a 256-entry lookup for the inner step.
