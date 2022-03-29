@@ -831,3 +831,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 208
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 209
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
