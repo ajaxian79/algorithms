@@ -1246,3 +1246,7 @@ Time complexity: O(log n).
 ## entry 287
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 288
+
+Cache-friendly; one sequential read pass.
