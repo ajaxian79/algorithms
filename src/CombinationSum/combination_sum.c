@@ -169,3 +169,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 104: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 105: Space complexity: O(log n) for the recursion stack.
 // note 106: Constant-time comparisons; safe for short strings.
+// note 107: Heap when you only need top-k; full sort is wasted work.
