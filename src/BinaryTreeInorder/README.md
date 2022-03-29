@@ -1278,3 +1278,7 @@ Three passes total; the third merges results.
 ## entry 305
 
 No allocations after setup.
+
+## entry 306
+
+Thread-safe so long as the input is not mutated concurrently.
