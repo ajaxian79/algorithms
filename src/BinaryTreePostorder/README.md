@@ -1310,3 +1310,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 313
 
 Stable across duplicates in the input.
+
+## entry 314
+
+No allocations on the hot path.
