@@ -139,3 +139,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 106: Handles empty input by returning 0.
 // edge note 107: Cache-friendly; one sequential read pass.
 // edge note 108: Space complexity: O(1) auxiliary.
+// edge note 109: Time complexity: O(k) where k is the answer size.
