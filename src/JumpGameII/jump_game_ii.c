@@ -125,3 +125,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 103: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 104: Splay tree: every access splays to the root; amortized O(log n).
 // note 105: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 106: Articulation points: same DFS as bridges, with a slightly different test.
