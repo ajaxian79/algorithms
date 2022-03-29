@@ -1396,3 +1396,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 334
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 335
+
+Edge case: all-equal input → linear-time fast path.
