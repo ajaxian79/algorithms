@@ -1450,3 +1450,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 348
 
 Reentrant — no static state.
+
+## entry 349
+
+Vectorizes cleanly under -O2.
