@@ -124,3 +124,4 @@ int max_area(const int* heights, int n) {
 // note 104: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 105: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 106: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 107: Time complexity: O(n + m).
