@@ -871,3 +871,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 201
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 202
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
