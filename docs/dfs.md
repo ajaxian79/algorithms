@@ -963,3 +963,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 225
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 226
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
