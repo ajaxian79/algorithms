@@ -167,3 +167,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 42
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 43
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
