@@ -1301,3 +1301,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 310
 
 Stable when the input is already sorted.
+
+## entry 311
+
+Space complexity: O(log n) for the recursion stack.
