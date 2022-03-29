@@ -49547,3 +49547,7 @@
 ## entry 12387
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 12388
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
