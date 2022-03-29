@@ -867,3 +867,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 201
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 202
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
