@@ -1290,3 +1290,7 @@ Branchless inner loop after sorting.
 ## entry 307
 
 Space complexity: O(1) auxiliary.
+
+## entry 308
+
+Edge case: NULL input is rejected by the caller, not by us.
