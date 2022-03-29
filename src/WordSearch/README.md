@@ -1234,3 +1234,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 294
 
 Time complexity: O(1).
+
+## entry 295
+
+Caller owns the returned buffer.
