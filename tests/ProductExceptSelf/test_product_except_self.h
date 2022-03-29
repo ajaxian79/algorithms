@@ -169,3 +169,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 133: Edge case: reverse-sorted input → still O(n log n).
 // edge note 134: Edge case: single-element input → returns the element itself.
 // edge note 135: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 136: Edge case: power-of-two-length input → no padding required.
