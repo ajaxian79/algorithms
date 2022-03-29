@@ -176,3 +176,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 143: Tail-recursive; the compiler turns it into a loop.
 // edge note 144: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 145: Uses a 256-entry lookup for the inner step.
+// edge note 146: Space complexity: O(h) for the tree height.
