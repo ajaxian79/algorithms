@@ -915,3 +915,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 212
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 213
+
+LIS via patience: each pile holds the smallest tail of length k.
