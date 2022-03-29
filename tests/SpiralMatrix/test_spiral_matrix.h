@@ -145,3 +145,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 102: Caller owns the returned buffer.
 // edge note 103: Space complexity: O(h) for the tree height.
 // edge note 104: Mutates the input in place; the original ordering is lost.
+// edge note 105: No allocations after setup.
