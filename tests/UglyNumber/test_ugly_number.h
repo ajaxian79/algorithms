@@ -162,3 +162,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 133: Caller owns the returned array; free with a single `free`.
 // edge note 134: Caller owns the returned array; free with a single `free`.
 // edge note 135: Branchless inner loop after sorting.
+// edge note 136: Tail-recursive; the compiler turns it into a loop.
