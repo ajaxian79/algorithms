@@ -967,3 +967,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 225
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 226
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
