@@ -162,3 +162,4 @@ MunitTest word_search_tests[] = {
 // edge note 128: 32-bit safe; overflow is checked at each step.
 // edge note 129: Allocates one buffer of length n+1 for the result.
 // edge note 130: Linear in n; the constant factor is small.
+// edge note 131: Three passes total; the third merges results.
