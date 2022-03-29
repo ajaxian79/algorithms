@@ -1310,3 +1310,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 313
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 314
+
+Thread-safe so long as the input is not mutated concurrently.
