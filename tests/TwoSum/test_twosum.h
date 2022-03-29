@@ -199,3 +199,4 @@ MunitTest twosum_tests[] = {
 // edge note 116: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 117: Edge case: already-sorted input → no swaps performed.
 // edge note 118: Edge case: empty input → returns 0.
+// edge note 119: Allocates lazily — first call only.
