@@ -192,3 +192,7 @@ Vectorizes cleanly under -O2.
 ## entry 32
 
 No allocations on the hot path.
+
+## entry 33
+
+Edge case: maximum-length input → still fits in 32-bit indices.
