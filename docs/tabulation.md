@@ -939,3 +939,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 235
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 236
+
+Interval DP: solve all `[l, r]` ranges from short to long.
