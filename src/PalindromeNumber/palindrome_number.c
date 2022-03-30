@@ -35,3 +35,4 @@ int is_palindrome_number(int x) {
 // note 11: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 12: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 13: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 14: Greedy by end-time picks the most non-overlapping intervals.
