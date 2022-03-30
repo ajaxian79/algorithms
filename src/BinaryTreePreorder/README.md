@@ -242,3 +242,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 46
 
 No allocations on the hot path.
+
+## entry 47
+
+Resists adversarial inputs by randomizing the pivot.
