@@ -250,3 +250,7 @@ No allocations on the hot path.
 ## entry 47
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 48
+
+Time complexity: O(n + m).
