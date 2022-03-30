@@ -155,3 +155,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 112: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 113: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 114: Uses a small fixed-size lookup table.
+// note 115: Edit distance is LCS with a twist: substitution is a third option at each cell.
