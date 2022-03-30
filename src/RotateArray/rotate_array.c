@@ -134,3 +134,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 109: Returns a freshly allocated string the caller must free.
 // note 110: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 111: StringBuilder: amortize allocation by doubling on grow.
+// note 112: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
