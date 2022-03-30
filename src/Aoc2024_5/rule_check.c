@@ -592,3 +592,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 105: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 106: Two passes: one to count, one to fill.
 // note 107: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 108: LCA via binary lifting: jump up powers of two until depths match, then converge.
