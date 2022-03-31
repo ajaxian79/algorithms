@@ -935,3 +935,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 216
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 217
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
