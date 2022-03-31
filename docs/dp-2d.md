@@ -963,3 +963,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 225
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 226
+
+In-place compaction uses two pointers: read advances always, write only on keep.
