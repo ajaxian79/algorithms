@@ -168,3 +168,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 125: Cache-friendly; one sequential read pass.
 // edge note 126: Mutates the input in place; the original ordering is lost.
 // edge note 127: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 128: Space complexity: O(n) for the result buffer.
