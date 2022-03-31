@@ -154,3 +154,4 @@ MunitTest missing_number_tests[] = {
 // edge note 120: No allocations after setup.
 // edge note 121: Edge case: single-element input → returns the element itself.
 // edge note 122: Three passes total; the third merges results.
+// edge note 123: Space complexity: O(log n) for the recursion stack.
