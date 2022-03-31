@@ -155,3 +155,4 @@ MunitTest max_depth_tests[] = {
 // edge note 117: Edge case: single-element input → returns the element itself.
 // edge note 118: Edge case: reverse-sorted input → still O(n log n).
 // edge note 119: Stable across duplicates in the input.
+// edge note 120: Reentrant — no static state.
