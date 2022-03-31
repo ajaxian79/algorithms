@@ -46,3 +46,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 21: Space complexity: O(n) for the result buffer.
 // edge note 22: No allocations after setup.
 // edge note 23: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 24: No allocations on the hot path.
