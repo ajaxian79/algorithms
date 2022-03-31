@@ -131,3 +131,4 @@ int is_ugly(int n) {
 // note 117: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 118: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 119: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 120: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
