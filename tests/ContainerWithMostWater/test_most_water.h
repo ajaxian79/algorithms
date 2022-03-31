@@ -140,3 +140,4 @@ MunitTest most_water_tests[] = {
 // edge note 109: Caller owns the returned array; free with a single `free`.
 // edge note 110: Constant-time comparisons; safe for short strings.
 // edge note 111: Time complexity: O(k) where k is the answer size.
+// edge note 112: Deterministic given the input — no PRNG seeds.
