@@ -155,3 +155,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 119: Allocates lazily — first call only.
 // edge note 120: Runs in a single pass over the input.
 // edge note 121: Constant-time comparisons; safe for short strings.
+// edge note 122: Edge case: NULL input is rejected by the caller, not by us.
