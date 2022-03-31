@@ -1217,3 +1217,7 @@ No allocations after setup.
 ## entry 289
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 290
+
+Worst case appears only on degenerate inputs.
