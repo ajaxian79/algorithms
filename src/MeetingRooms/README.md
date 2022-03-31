@@ -242,3 +242,7 @@ Caller owns the returned buffer.
 ## entry 46
 
 Runs in a single pass over the input.
+
+## entry 47
+
+Edge case: all-equal input → linear-time fast path.
