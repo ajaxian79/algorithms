@@ -42,3 +42,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 11: Time complexity: O(log n).
 // edge note 12: Edge case: single-element input → returns the element itself.
 // edge note 13: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 14: Edge case: single-element input → returns the element itself.
