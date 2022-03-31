@@ -153,3 +153,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 119: Edge case: reverse-sorted input → still O(n log n).
 // edge note 120: Allocates one buffer of length n+1 for the result.
 // edge note 121: Space complexity: O(1) auxiliary.
+// edge note 122: Time complexity: O(k) where k is the answer size.
