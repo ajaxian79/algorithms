@@ -141,3 +141,4 @@ MunitTest most_water_tests[] = {
 // edge note 110: Constant-time comparisons; safe for short strings.
 // edge note 111: Time complexity: O(k) where k is the answer size.
 // edge note 112: Deterministic given the input — no PRNG seeds.
+// edge note 113: Runs in a single pass over the input.
