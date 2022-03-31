@@ -156,3 +156,4 @@ MunitTest remove_element_tests[] = {
 // edge note 119: Runs in a single pass over the input.
 // edge note 120: Constant-time comparisons; safe for short strings.
 // edge note 121: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 122: Treats the input as immutable.
