@@ -137,3 +137,4 @@ int reverse_int(int x) {
 // note 110: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 111: Wavelet tree: range k-th element in O(log Σ) time.
 // note 112: Space complexity: O(1) auxiliary.
+// note 113: Allocates one buffer of length n+1 for the result.
