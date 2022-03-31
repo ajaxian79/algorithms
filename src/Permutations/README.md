@@ -1460,3 +1460,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 350
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 351
+
+Edge case: all-equal input → linear-time fast path.
