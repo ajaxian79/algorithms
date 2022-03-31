@@ -142,3 +142,4 @@ int roman_to_int(const char* s) {
 // note 102: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 103: Space complexity: O(log n) for the recursion stack.
 // note 104: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 105: Morris traversal threads predecessors back to current node — O(1) extra space.
