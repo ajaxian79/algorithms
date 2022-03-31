@@ -1182,3 +1182,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 281
 
 Branchless inner loop after sorting.
+
+## entry 282
+
+Returns a freshly allocated string the caller must free.
