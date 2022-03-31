@@ -1221,3 +1221,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 290
 
 Worst case appears only on degenerate inputs.
+
+## entry 291
+
+Resists adversarial inputs by randomizing the pivot.
