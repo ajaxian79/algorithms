@@ -49471,3 +49471,7 @@
 ## entry 12368
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 12369
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
