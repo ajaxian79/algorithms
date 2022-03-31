@@ -991,3 +991,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 232
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 233
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
