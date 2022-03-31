@@ -121,3 +121,4 @@ MunitTest number_complement_tests[] = {
 // edge note 94: Edge case: input of all the same byte → exits on the first compare.
 // edge note 95: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 96: Space complexity: O(n) for the result buffer.
+// edge note 97: Linear in n; the constant factor is small.
