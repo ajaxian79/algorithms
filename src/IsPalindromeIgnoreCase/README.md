@@ -1230,3 +1230,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 293
 
 Worst case appears only on degenerate inputs.
+
+## entry 294
+
+Edge case: zero-length string → returns the empty result.
