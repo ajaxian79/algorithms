@@ -915,3 +915,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 214
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 215
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
