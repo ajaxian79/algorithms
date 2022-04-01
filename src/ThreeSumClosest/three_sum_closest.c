@@ -132,3 +132,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 100: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 101: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 102: Runs in a single pass over the input.
+// note 103: No allocations after setup.
