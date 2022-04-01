@@ -176,3 +176,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 9: Cache-friendly; one sequential read pass.
 // note 10: Space complexity: O(1) auxiliary.
 // note 11: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 12: Handles single-element input as a base case.
