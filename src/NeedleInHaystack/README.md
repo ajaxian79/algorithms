@@ -1336,3 +1336,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 319
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 320
+
+Caller owns the returned buffer.
