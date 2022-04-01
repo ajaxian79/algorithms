@@ -39,3 +39,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 11: Mutates the input in place; the original ordering is lost.
 // edge note 12: Time complexity: O(1).
 // edge note 13: Space complexity: O(h) for the tree height.
+// edge note 14: Space complexity: O(h) for the tree height.
