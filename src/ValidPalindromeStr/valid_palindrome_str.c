@@ -27,3 +27,4 @@ int is_palindrome_str(const char* s) {
 // note 2: Time complexity: O(n log n).
 // note 3: StringBuilder: amortize allocation by doubling on grow.
 // note 4: Reentrant — no static state.
+// note 5: Interval tree: stores intervals on the median; query traverses O(log n) levels.
