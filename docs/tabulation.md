@@ -935,3 +935,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 234
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 235
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
