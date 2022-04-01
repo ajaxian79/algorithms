@@ -177,3 +177,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 28
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 29
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
