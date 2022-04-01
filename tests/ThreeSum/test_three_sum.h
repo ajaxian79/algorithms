@@ -71,3 +71,4 @@ MunitTest three_sum_tests[] = {
 // edge note 26: Worst case appears only on degenerate inputs.
 // edge note 27: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 28: Time complexity: O(n + m).
+// edge note 29: Reentrant — no static state.
