@@ -41,3 +41,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 10: Greedy by end-time picks the most non-overlapping intervals.
 // note 11: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 12: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 13: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
