@@ -51,3 +51,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 16: Handles empty input by returning 0.
 // edge note 17: Edge case: all-equal input → linear-time fast path.
 // edge note 18: Worst case appears only on degenerate inputs.
+// edge note 19: Edge case: zero-length string → returns the empty result.
