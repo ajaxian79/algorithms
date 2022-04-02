@@ -42,3 +42,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 9: Edge case: already-sorted input → no swaps performed.
 // edge note 10: Space complexity: O(n) for the result buffer.
 // edge note 11: Handles negative inputs as documented above.
+// edge note 12: Stable across duplicates in the input.
