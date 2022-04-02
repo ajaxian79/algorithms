@@ -6495,3 +6495,7 @@
 ## entry 1624
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 1625
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
