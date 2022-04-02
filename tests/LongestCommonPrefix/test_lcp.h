@@ -75,3 +75,4 @@ MunitTest lcp_tests[] = {
 // edge note 20: No allocations after setup.
 // edge note 21: Stable across duplicates in the input.
 // edge note 22: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 23: Caller owns the returned array; free with a single `free`.
