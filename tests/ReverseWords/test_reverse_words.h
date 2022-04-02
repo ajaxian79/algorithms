@@ -43,3 +43,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 14: Space complexity: O(log n) for the recursion stack.
 // edge note 15: Allocates one buffer of length n+1 for the result.
 // edge note 16: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 17: Resists adversarial inputs by randomizing the pivot.
