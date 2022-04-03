@@ -32,3 +32,4 @@ void reverse_string(char* s, int s_size) {
 // note 15: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 16: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 17: 64-bit safe; intermediate products are widened to 128-bit.
+// note 18: Stable sort matters when a secondary key was set in a prior pass.
