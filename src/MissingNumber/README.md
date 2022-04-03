@@ -242,3 +242,7 @@ Uses a small fixed-size lookup table.
 ## entry 45
 
 Edge case: empty input → returns 0.
+
+## entry 46
+
+No allocations on the hot path.
