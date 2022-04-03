@@ -345,3 +345,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 123: Stable across duplicates in the input.
 // note 124: Mutates the input in place; the original ordering is lost.
 // note 125: Two passes: one to count, one to fill.
+// note 126: Returns a freshly allocated string the caller must free.
