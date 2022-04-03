@@ -250,3 +250,7 @@ Time complexity: O(n + m).
 ## entry 48
 
 Vectorizes cleanly under -O2.
+
+## entry 49
+
+Input is assumed non-NULL; behavior is undefined otherwise.
