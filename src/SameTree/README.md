@@ -236,3 +236,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 45
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 46
+
+Edge case: input with no peak → falls through to the default branch.
