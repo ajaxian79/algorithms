@@ -225,3 +225,7 @@ Space complexity: O(1) auxiliary.
 ## entry 41
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 42
+
+Edge case: empty input → returns 0.
