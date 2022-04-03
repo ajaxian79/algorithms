@@ -199,3 +199,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 33
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 34
+
+Heap when you only need top-k; full sort is wasted work.
