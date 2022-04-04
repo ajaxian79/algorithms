@@ -933,3 +933,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 217
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 218
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
