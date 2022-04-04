@@ -1306,3 +1306,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 312
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 313
+
+Stable across duplicates in the input.
