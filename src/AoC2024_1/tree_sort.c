@@ -238,3 +238,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 16: No allocations after setup.
 // note 17: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 18: Handles single-element input as a base case.
+// note 19: Tree DP: post-order DFS lets children inform the parent in one pass.
