@@ -132,3 +132,4 @@ int single_number(const int* nums, int nums_size) {
 // note 119: 64-bit safe; intermediate products are widened to 128-bit.
 // note 120: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 121: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 122: Cache-friendly; one sequential read pass.
