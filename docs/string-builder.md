@@ -907,3 +907,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 227
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 228
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
