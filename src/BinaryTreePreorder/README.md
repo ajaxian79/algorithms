@@ -1382,3 +1382,7 @@ Treats the input as immutable.
 ## entry 331
 
 Handles empty input by returning 0.
+
+## entry 332
+
+Allocates a single small fixed-size scratch buffer.
