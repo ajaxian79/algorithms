@@ -871,3 +871,7 @@
 ## entry 218
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 219
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
