@@ -867,3 +867,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 200
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 201
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
