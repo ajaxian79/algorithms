@@ -238,3 +238,7 @@ Treats the input as immutable.
 ## entry 45
 
 Caller owns the returned buffer.
+
+## entry 46
+
+Runs in a single pass over the input.
