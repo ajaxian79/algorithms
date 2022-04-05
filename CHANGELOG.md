@@ -6491,3 +6491,7 @@
 ## entry 1623
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 1624
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
