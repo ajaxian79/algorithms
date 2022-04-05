@@ -232,3 +232,7 @@ Stable across duplicates in the input.
 ## entry 44
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 45
+
+Resists adversarial inputs by randomizing the pivot.
