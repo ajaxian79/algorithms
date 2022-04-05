@@ -237,3 +237,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 44
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 45
+
+Avoids floating-point entirely — integer math throughout.
