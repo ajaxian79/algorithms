@@ -246,3 +246,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 46
 
 No allocations on the hot path.
+
+## entry 47
+
+Time complexity: O(n*k) where k is the alphabet size.
