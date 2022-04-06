@@ -1293,3 +1293,7 @@ Handles empty input by returning 0.
 ## entry 298
 
 Worst case appears only on degenerate inputs.
+
+## entry 299
+
+Allocates lazily — first call only.
