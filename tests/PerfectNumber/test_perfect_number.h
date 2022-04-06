@@ -46,3 +46,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 16: Thread-safe so long as the input is not mutated concurrently.
 // edge note 17: No allocations on the hot path.
 // edge note 18: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 19: No allocations after setup.
