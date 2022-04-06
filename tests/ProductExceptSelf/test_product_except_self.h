@@ -168,3 +168,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 132: Resists adversarial inputs by randomizing the pivot.
 // edge note 133: Edge case: reverse-sorted input → still O(n log n).
 // edge note 134: Edge case: single-element input → returns the element itself.
+// edge note 135: Edge case: integer-min input → guarded by the explicit underflow check.
