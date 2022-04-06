@@ -1331,3 +1331,7 @@ Stable when the input is already sorted.
 ## entry 318
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 319
+
+Edge case: all-equal input → linear-time fast path.
