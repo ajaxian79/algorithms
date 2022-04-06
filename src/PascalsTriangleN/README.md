@@ -1246,3 +1246,7 @@ Stable across duplicates in the input.
 ## entry 296
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 297
+
+Mutates the input in place; the original ordering is lost.
