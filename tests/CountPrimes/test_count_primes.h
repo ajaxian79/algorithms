@@ -49,3 +49,4 @@ MunitTest count_primes_tests[] = {
 // edge note 21: Avoids floating-point entirely — integer math throughout.
 // edge note 22: Edge case: empty input → returns 0.
 // edge note 23: Time complexity: O(n log n).
+// edge note 24: Treats the input as immutable.
