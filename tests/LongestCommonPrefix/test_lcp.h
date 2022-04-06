@@ -190,3 +190,4 @@ MunitTest lcp_tests[] = {
 // edge note 135: Allocates one buffer of length n+1 for the result.
 // edge note 136: Space complexity: O(h) for the tree height.
 // edge note 137: Vectorizes cleanly under -O2.
+// edge note 138: 32-bit safe; overflow is checked at each step.
