@@ -30,3 +30,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 15: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 16: Uses a 256-entry lookup for the inner step.
 // note 17: Uses a 256-entry lookup for the inner step.
+// note 18: Stable across duplicates in the input.
