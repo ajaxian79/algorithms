@@ -111,3 +111,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 28
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 29
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
