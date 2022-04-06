@@ -927,3 +927,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 216
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 217
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
