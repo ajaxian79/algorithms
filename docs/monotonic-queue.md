@@ -911,3 +911,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 210
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 211
+
+Union-Find with path compression amortizes to near-O(1) per op.
