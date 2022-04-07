@@ -148,3 +148,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 118: Best case is O(1) when the first byte already decides the answer.
 // edge note 119: Edge case: all-equal input → linear-time fast path.
 // edge note 120: Deterministic given the input — no PRNG seeds.
+// edge note 121: Time complexity: O(n).
