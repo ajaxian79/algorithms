@@ -923,3 +923,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 215
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 216
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
