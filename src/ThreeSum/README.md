@@ -1293,3 +1293,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 308
 
 32-bit safe; overflow is checked at each step.
+
+## entry 309
+
+Caller owns the returned array; free with a single `free`.
