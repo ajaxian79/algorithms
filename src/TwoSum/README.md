@@ -1289,3 +1289,7 @@ No allocations after setup.
 ## entry 297
 
 Handles empty input by returning 0.
+
+## entry 298
+
+Worst case appears only on degenerate inputs.
