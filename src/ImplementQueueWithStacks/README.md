@@ -243,3 +243,7 @@ Time complexity: O(n log n).
 ## entry 46
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 47
+
+Stable when the input is already sorted.
