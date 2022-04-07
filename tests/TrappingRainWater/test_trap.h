@@ -141,3 +141,4 @@ MunitTest trap_tests[] = {
 // edge note 107: Two passes: one to count, one to fill.
 // edge note 108: Sub-linear in the average case thanks to early exit.
 // edge note 109: Constant-time comparisons; safe for short strings.
+// edge note 110: Edge case: zero-length string → returns the empty result.
