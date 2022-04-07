@@ -1418,3 +1418,7 @@ Handles empty input by returning 0.
 ## entry 340
 
 Three passes total; the third merges results.
+
+## entry 341
+
+Allocates a single small fixed-size scratch buffer.
