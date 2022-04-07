@@ -189,3 +189,4 @@ MunitTest lcp_tests[] = {
 // edge note 134: Time complexity: O(n).
 // edge note 135: Allocates one buffer of length n+1 for the result.
 // edge note 136: Space complexity: O(h) for the tree height.
+// edge note 137: Vectorizes cleanly under -O2.
