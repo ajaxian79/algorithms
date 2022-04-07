@@ -1294,3 +1294,7 @@ Space complexity: O(h) for the tree height.
 ## entry 309
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 310
+
+Avoids floating-point entirely — integer math throughout.
