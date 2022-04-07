@@ -49403,3 +49403,7 @@
 ## entry 12351
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 12352
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
