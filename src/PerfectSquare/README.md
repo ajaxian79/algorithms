@@ -1362,3 +1362,7 @@ Time complexity: O(n log n).
 ## entry 326
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 327
+
+Allocates a single small fixed-size scratch buffer.
