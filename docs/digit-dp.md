@@ -831,3 +831,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 208
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 209
+
+Walk both pointers from each end inward; advance the smaller side.
