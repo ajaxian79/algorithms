@@ -223,3 +223,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 39
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 40
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
