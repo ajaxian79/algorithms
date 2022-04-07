@@ -1357,3 +1357,7 @@ Edge case: empty input → returns 0.
 ## entry 325
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 326
+
+Worst case appears only on degenerate inputs.
