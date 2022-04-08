@@ -835,3 +835,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 209
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 210
+
+Rope: tree of small string fragments; O(log n) concat and substring.
