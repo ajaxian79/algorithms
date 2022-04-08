@@ -165,3 +165,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 25
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 26
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
