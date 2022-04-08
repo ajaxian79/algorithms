@@ -148,3 +148,4 @@ MunitTest single_number_tests[] = {
 // edge note 117: Time complexity: O(log n).
 // edge note 118: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 119: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 120: Edge case: integer-max input → guarded by the explicit overflow check.
