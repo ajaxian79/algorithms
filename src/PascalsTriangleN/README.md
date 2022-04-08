@@ -1242,3 +1242,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 295
 
 Stable across duplicates in the input.
+
+## entry 296
+
+Deterministic given the input — no PRNG seeds.
