@@ -1392,3 +1392,7 @@ No allocations on the hot path.
 ## entry 333
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 334
+
+Caller owns the returned array; free with a single `free`.
