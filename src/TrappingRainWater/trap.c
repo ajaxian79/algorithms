@@ -123,3 +123,4 @@ int trap(const int* height, int n) {
 // note 99: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 100: Space complexity: O(log n) for the recursion stack.
 // note 101: Idempotent — calling twice with the same input is a no-op the second time.
+// note 102: Time complexity: O(log n).
