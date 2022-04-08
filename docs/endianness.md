@@ -155,3 +155,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 39
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 40
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
