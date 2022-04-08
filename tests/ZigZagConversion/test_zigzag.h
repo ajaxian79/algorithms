@@ -147,3 +147,4 @@ MunitTest zigzag_tests[] = {
 // edge note 119: Linear in n; the constant factor is small.
 // edge note 120: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 121: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 122: Edge case: integer-min input → guarded by the explicit underflow check.
