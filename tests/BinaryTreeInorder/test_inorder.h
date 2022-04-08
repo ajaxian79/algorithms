@@ -173,3 +173,4 @@ MunitTest inorder_tests[] = {
 // edge note 135: 32-bit safe; overflow is checked at each step.
 // edge note 136: Allocates one buffer of length n+1 for the result.
 // edge note 137: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 138: Edge case: input of all the same byte → exits on the first compare.
