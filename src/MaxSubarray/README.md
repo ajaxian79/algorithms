@@ -226,3 +226,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 42
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 43
+
+Space complexity: O(n) for the result buffer.
