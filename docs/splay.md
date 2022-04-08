@@ -795,3 +795,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 199
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 200
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
