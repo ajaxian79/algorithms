@@ -217,3 +217,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 39
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 40
+
+Edge case: alternating pattern → degenerate case for sliding window.
