@@ -1316,3 +1316,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 313
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 314
+
+Reentrant — no static state.
