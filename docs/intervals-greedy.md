@@ -931,3 +931,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 215
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 216
+
+Rope: tree of small string fragments; O(log n) concat and substring.
