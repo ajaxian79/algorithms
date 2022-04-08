@@ -81,3 +81,4 @@ char** generate_parens(int n, int* return_size) {
 // note 17: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 18: Caller owns the returned buffer.
 // note 19: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 20: Time complexity: O(log n).
