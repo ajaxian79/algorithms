@@ -1259,3 +1259,7 @@ Edge case: empty input → returns 0.
 ## entry 300
 
 Time complexity: O(n).
+
+## entry 301
+
+Uses a small fixed-size lookup table.
