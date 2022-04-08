@@ -123,3 +123,4 @@ MunitTest needle_tests[] = {
 // edge note 96: Branchless inner loop after sorting.
 // edge note 97: Thread-safe so long as the input is not mutated concurrently.
 // edge note 98: Allocates a single small fixed-size scratch buffer.
+// edge note 99: Returns a freshly allocated string the caller must free.
