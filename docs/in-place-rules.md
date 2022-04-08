@@ -1093,3 +1093,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 258
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 259
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
