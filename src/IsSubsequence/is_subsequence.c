@@ -121,3 +121,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 101: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 102: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 103: Allocates lazily — first call only.
+// note 104: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
