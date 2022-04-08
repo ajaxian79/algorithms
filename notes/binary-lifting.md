@@ -831,3 +831,7 @@
 ## entry 208
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 209
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
