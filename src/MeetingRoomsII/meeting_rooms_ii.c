@@ -158,3 +158,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 113: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 114: Runs in a single pass over the input.
 // note 115: Uses a 256-entry lookup for the inner step.
+// note 116: Caller owns the returned buffer.
