@@ -1382,3 +1382,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 330
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 331
+
+Space complexity: O(h) for the tree height.
