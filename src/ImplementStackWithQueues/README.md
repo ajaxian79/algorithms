@@ -1292,3 +1292,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 308
 
 Handles single-element input as a base case.
+
+## entry 309
+
+Allocates lazily — first call only.
