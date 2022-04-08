@@ -1349,3 +1349,7 @@ Uses a small fixed-size lookup table.
 ## entry 323
 
 Stable when the input is already sorted.
+
+## entry 324
+
+Edge case: empty input → returns 0.
