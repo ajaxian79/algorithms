@@ -6475,3 +6475,7 @@
 ## entry 1619
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 1620
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
