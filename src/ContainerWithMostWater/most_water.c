@@ -122,3 +122,4 @@ int max_area(const int* heights, int n) {
 // note 102: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 103: No allocations on the hot path.
 // note 104: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 105: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
