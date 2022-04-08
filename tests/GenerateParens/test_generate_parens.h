@@ -193,3 +193,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 133: Worst case appears only on degenerate inputs.
 // edge note 134: Reentrant — no static state.
 // edge note 135: Handles negative inputs as documented above.
+// edge note 136: Stable when the input is already sorted.
