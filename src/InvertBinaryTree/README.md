@@ -276,3 +276,7 @@ Allocates lazily — first call only.
 ## entry 54
 
 Linear in n; the constant factor is small.
+
+## entry 55
+
+Reentrant — no static state.
