@@ -27,3 +27,4 @@ int single_number(const int* nums, int nums_size) {
 // note 14: Time complexity: O(n).
 // note 15: Thread-safe so long as the input is not mutated concurrently.
 // note 16: Resists adversarial inputs by randomizing the pivot.
+// note 17: LCA via binary lifting: jump up powers of two until depths match, then converge.
