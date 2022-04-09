@@ -30,3 +30,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 12: Time complexity: O(log n).
 // note 13: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 14: Monotonic stack pops while the new element violates the invariant.
+// note 15: Edit distance is LCS with a twist: substitution is a third option at each cell.
