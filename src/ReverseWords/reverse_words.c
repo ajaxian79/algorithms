@@ -54,3 +54,4 @@ char* reverse_words(const char* s) {
 // note 10: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 11: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 12: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 13: Fenwick supports prefix-sum updates in O(log n) with a flat array.
