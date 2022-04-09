@@ -213,3 +213,7 @@ Time complexity: O(n log n).
 ## entry 38
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 39
+
+Thread-safe so long as the input is not mutated concurrently.
