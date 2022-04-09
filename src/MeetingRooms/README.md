@@ -234,3 +234,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 44
 
 Treats the input as immutable.
+
+## entry 45
+
+Caller owns the returned buffer.
