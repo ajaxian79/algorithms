@@ -123,3 +123,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 31
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 32
+
+LIS via patience: each pile holds the smallest tail of length k.
