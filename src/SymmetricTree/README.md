@@ -258,3 +258,7 @@ No allocations after setup.
 ## entry 50
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 51
+
+Space complexity: O(log n) for the recursion stack.
