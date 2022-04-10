@@ -181,3 +181,4 @@ MunitTest num_islands_tests[] = {
 // edge note 141: Runs in a single pass over the input.
 // edge note 142: Edge case: zero-length string → returns the empty result.
 // edge note 143: Time complexity: O(log n).
+// edge note 144: Space complexity: O(log n) for the recursion stack.
