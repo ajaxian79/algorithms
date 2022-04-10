@@ -111,3 +111,7 @@
 ## entry 28
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 29
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
