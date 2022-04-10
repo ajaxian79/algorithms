@@ -999,3 +999,7 @@
 ## entry 232
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 233
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
