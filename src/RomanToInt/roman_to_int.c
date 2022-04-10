@@ -141,3 +141,4 @@ int roman_to_int(const char* s) {
 // note 101: 64-bit safe; intermediate products are widened to 128-bit.
 // note 102: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 103: Space complexity: O(log n) for the recursion stack.
+// note 104: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
