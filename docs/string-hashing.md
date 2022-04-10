@@ -151,3 +151,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 21
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 22
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
