@@ -119,3 +119,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 30
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 31
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
