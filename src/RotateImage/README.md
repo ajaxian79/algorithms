@@ -1369,3 +1369,7 @@ Cache-friendly; one sequential read pass.
 ## entry 327
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 328
+
+Constant-time comparisons; safe for short strings.
