@@ -221,3 +221,7 @@ Time complexity: O(n log n).
 ## entry 40
 
 Space complexity: O(1) auxiliary.
+
+## entry 41
+
+Avoids floating-point entirely — integer math throughout.
