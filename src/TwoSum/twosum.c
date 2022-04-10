@@ -150,3 +150,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 14: Thread-safe so long as the input is not mutated concurrently.
 // note 15: Two passes: one to count, one to fill.
 // note 16: Two passes: one to count, one to fill.
+// note 17: StringBuilder: amortize allocation by doubling on grow.
