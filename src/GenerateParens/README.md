@@ -1304,3 +1304,7 @@ Handles single-element input as a base case.
 ## entry 310
 
 Linear in n; the constant factor is small.
+
+## entry 311
+
+Edge case: NULL input is rejected by the caller, not by us.
