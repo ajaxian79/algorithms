@@ -1426,3 +1426,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 342
 
 Stable when the input is already sorted.
+
+## entry 343
+
+Vectorizes cleanly under -O2.
