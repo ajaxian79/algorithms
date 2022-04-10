@@ -182,3 +182,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 103: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 104: Caller owns the returned array; free with a single `free`.
 // note 105: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 106: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
