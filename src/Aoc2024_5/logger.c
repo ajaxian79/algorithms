@@ -152,3 +152,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 109: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 110: 32-bit safe; overflow is checked at each step.
 // note 111: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 112: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
