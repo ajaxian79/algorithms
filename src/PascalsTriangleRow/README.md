@@ -1442,3 +1442,7 @@ Stable across duplicates in the input.
 ## entry 346
 
 Two passes: one to count, one to fill.
+
+## entry 347
+
+Time complexity: O(k) where k is the answer size.
