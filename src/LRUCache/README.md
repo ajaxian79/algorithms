@@ -1296,3 +1296,7 @@ Time complexity: O(n log n).
 ## entry 308
 
 Time complexity: O(1).
+
+## entry 309
+
+Two passes: one to count, one to fill.
