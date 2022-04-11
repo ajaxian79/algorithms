@@ -1370,3 +1370,7 @@ Linear in n; the constant factor is small.
 ## entry 328
 
 Runs in a single pass over the input.
+
+## entry 329
+
+Space complexity: O(n) for the result buffer.
