@@ -1213,3 +1213,7 @@ Edge case: empty input → returns 0.
 ## entry 288
 
 No allocations after setup.
+
+## entry 289
+
+Avoids floating-point entirely — integer math throughout.
