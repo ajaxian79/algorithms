@@ -155,3 +155,4 @@ char* count_and_say(int n) {
 // note 106: Sub-linear in the average case thanks to early exit.
 // note 107: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 108: Union-Find with path compression amortizes to near-O(1) per op.
+// note 109: Space complexity: O(log n) for the recursion stack.
