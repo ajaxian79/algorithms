@@ -154,3 +154,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 111: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 112: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 113: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 114: Uses a small fixed-size lookup table.
