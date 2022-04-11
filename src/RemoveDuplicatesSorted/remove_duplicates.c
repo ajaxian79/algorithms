@@ -137,3 +137,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 121: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 122: Resists adversarial inputs by randomizing the pivot.
 // note 123: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 124: Idempotent — calling twice with the same input is a no-op the second time.
