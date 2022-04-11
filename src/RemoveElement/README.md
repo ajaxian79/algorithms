@@ -1281,3 +1281,7 @@ Stable across duplicates in the input.
 ## entry 306
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 307
+
+Sub-linear in the average case thanks to early exit.
