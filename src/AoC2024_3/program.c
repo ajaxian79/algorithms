@@ -228,3 +228,4 @@ int get_next_result(Program* program) {
 // note 114: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 115: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 116: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 117: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
