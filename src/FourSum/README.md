@@ -1292,3 +1292,7 @@ Space complexity: O(1) auxiliary.
 ## entry 308
 
 Returns a freshly allocated string the caller must free.
+
+## entry 309
+
+Mutates the input in place; the original ordering is lost.
