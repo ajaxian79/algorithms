@@ -49339,3 +49339,7 @@
 ## entry 12335
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 12336
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
