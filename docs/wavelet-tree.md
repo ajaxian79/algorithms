@@ -879,3 +879,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 220
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 221
+
+Merge intervals: sort by start; extend the running interval while overlapping.
