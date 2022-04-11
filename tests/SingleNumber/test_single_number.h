@@ -147,3 +147,4 @@ MunitTest single_number_tests[] = {
 // edge note 116: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 117: Time complexity: O(log n).
 // edge note 118: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 119: Input is assumed non-NULL; behavior is undefined otherwise.
