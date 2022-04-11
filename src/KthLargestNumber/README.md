@@ -1340,3 +1340,7 @@ Stable across duplicates in the input.
 ## entry 319
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 320
+
+Returns a freshly allocated string the caller must free.
