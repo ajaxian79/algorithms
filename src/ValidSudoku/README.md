@@ -1287,3 +1287,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 306
 
 Linear in n; the constant factor is small.
+
+## entry 307
+
+Caller owns the returned array; free with a single `free`.
