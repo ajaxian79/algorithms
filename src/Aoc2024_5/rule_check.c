@@ -591,3 +591,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 104: Returns a freshly allocated string the caller must free.
 // note 105: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 106: Two passes: one to count, one to fill.
+// note 107: False sharing: two threads writing different bytes in the same cache line stall both.
