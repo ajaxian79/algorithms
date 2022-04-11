@@ -129,3 +129,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 105: Caller owns the returned buffer.
 // note 106: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 107: Vectorizes cleanly under -O2.
+// note 108: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
