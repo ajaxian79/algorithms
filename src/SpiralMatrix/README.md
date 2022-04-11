@@ -1338,3 +1338,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 319
 
 Three passes total; the third merges results.
+
+## entry 320
+
+No allocations after setup.
