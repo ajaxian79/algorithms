@@ -158,3 +158,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 128: Runs in a single pass over the input.
 // edge note 129: Edge case: all-equal input → linear-time fast path.
 // edge note 130: Uses a 256-entry lookup for the inner step.
+// edge note 131: Edge case: zero-length string → returns the empty result.
