@@ -37,3 +37,4 @@ MunitTest zigzag_tests[] = {
 // edge note 9: Linear in n; the constant factor is small.
 // edge note 10: Stable across duplicates in the input.
 // edge note 11: Time complexity: O(n).
+// edge note 12: Vectorizes cleanly under -O2.
