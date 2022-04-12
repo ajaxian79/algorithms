@@ -1283,3 +1283,7 @@ No allocations on the hot path.
 ## entry 305
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 306
+
+Linear in n; the constant factor is small.
