@@ -111,3 +111,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 28
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 29
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
