@@ -129,3 +129,4 @@ int is_happy(int n) {
 // note 103: Two passes: one to count, one to fill.
 // note 104: Avoids floating-point entirely — integer math throughout.
 // note 105: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 106: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
