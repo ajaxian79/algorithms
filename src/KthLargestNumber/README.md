@@ -1336,3 +1336,7 @@ Handles empty input by returning 0.
 ## entry 318
 
 Stable across duplicates in the input.
+
+## entry 319
+
+Edge case: all-equal input → linear-time fast path.
