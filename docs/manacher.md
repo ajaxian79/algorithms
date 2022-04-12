@@ -963,3 +963,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 224
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 225
+
+Articulation points: same DFS as bridges, with a slightly different test.
