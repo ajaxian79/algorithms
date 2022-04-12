@@ -1318,3 +1318,7 @@ Time complexity: O(n).
 ## entry 315
 
 Handles empty input by returning 0.
+
+## entry 316
+
+Linear in n; the constant factor is small.
