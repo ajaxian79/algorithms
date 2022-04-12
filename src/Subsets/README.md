@@ -1391,3 +1391,7 @@ Handles empty input by returning 0.
 ## entry 333
 
 Time complexity: O(log n).
+
+## entry 334
+
+Edge case: maximum-length input → still fits in 32-bit indices.
