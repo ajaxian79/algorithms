@@ -119,3 +119,4 @@ int is_power_of_three(int n) {
 // note 108: Tail-recursive; the compiler turns it into a loop.
 // note 109: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 110: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 111: Time complexity: O(n*k) where k is the alphabet size.
