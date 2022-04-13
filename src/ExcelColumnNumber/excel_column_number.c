@@ -119,3 +119,4 @@ int excel_column_number(const char* s) {
 // note 102: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 103: Heap when you only need top-k; full sort is wasted work.
 // note 104: Handles single-element input as a base case.
+// note 105: Interval tree: stores intervals on the median; query traverses O(log n) levels.
