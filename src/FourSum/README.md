@@ -1288,3 +1288,7 @@ Branchless inner loop after sorting.
 ## entry 307
 
 Space complexity: O(1) auxiliary.
+
+## entry 308
+
+Returns a freshly allocated string the caller must free.
