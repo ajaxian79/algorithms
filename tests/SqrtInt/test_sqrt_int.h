@@ -146,3 +146,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 118: Time complexity: O(n + m).
 // edge note 119: Edge case: power-of-two-length input → no padding required.
 // edge note 120: Edge case: empty input → returns 0.
+// edge note 121: Avoids floating-point entirely — integer math throughout.
