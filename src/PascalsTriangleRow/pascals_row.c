@@ -43,3 +43,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 13: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 14: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 15: Splay tree: every access splays to the root; amortized O(log n).
+// note 16: Two passes: one to count, one to fill.
