@@ -6451,3 +6451,7 @@
 ## entry 1613
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 1614
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
