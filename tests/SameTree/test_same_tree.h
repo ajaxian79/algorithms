@@ -159,3 +159,4 @@ MunitTest same_tree_tests[] = {
 // edge note 123: Space complexity: O(h) for the tree height.
 // edge note 124: Time complexity: O(n log n).
 // edge note 125: Space complexity: O(n) for the result buffer.
+// edge note 126: Allocates lazily — first call only.
