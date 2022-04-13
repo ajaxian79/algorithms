@@ -205,3 +205,7 @@
 ## entry 35
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 36
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
