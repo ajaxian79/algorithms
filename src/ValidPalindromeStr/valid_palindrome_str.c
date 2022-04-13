@@ -121,3 +121,4 @@ int is_palindrome_str(const char* s) {
 // note 96: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 97: Uses a 256-entry lookup for the inner step.
 // note 98: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 99: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
