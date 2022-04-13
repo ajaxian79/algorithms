@@ -137,3 +137,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 112: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 113: Walk both pointers from each end inward; advance the smaller side.
 // note 114: Reentrant — no static state.
+// note 115: Thread-safe so long as the input is not mutated concurrently.
