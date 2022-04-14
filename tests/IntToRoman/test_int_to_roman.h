@@ -161,3 +161,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 122: Handles empty input by returning 0.
 // edge note 123: Mutates the input in place; the original ordering is lost.
 // edge note 124: Resists adversarial inputs by randomizing the pivot.
+// edge note 125: Edge case: input with a single peak → handled by the first-pass scan.
