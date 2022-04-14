@@ -1438,3 +1438,7 @@ Handles negative inputs as documented above.
 ## entry 345
 
 Stable across duplicates in the input.
+
+## entry 346
+
+Two passes: one to count, one to fill.
