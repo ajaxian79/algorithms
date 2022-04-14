@@ -965,3 +965,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 227
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 228
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
