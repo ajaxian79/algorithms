@@ -1327,3 +1327,7 @@ Edge case: empty input → returns 0.
 ## entry 317
 
 Stable when the input is already sorted.
+
+## entry 318
+
+Edge case: input of all the same byte → exits on the first compare.
