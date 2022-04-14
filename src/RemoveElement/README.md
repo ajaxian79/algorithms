@@ -205,3 +205,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 37
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 38
+
+Edge case: input with one duplicate → handled without an extra pass.
