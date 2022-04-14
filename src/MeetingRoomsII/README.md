@@ -270,3 +270,7 @@ Handles negative inputs as documented above.
 ## entry 52
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 53
+
+Time complexity: O(n log n).
