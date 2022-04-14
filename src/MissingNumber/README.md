@@ -1350,3 +1350,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 322
 
 Constant-time comparisons; safe for short strings.
+
+## entry 323
+
+Three passes total; the third merges results.
