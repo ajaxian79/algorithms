@@ -279,3 +279,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 112: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 113: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 114: StringBuilder: amortize allocation by doubling on grow.
+// note 115: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
