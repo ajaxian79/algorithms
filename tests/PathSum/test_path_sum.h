@@ -149,3 +149,4 @@ MunitTest path_sum_tests[] = {
 // edge note 110: Worst case appears only on degenerate inputs.
 // edge note 111: Edge case: input with no peak → falls through to the default branch.
 // edge note 112: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 113: Handles empty input by returning 0.
