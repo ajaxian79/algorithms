@@ -41,3 +41,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 10: Time complexity: O(log n).
 // edge note 11: 32-bit safe; overflow is checked at each step.
 // edge note 12: No allocations on the hot path.
+// edge note 13: Time complexity: O(k) where k is the answer size.
