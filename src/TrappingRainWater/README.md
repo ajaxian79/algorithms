@@ -1318,3 +1318,7 @@ Handles single-element input as a base case.
 ## entry 314
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 315
+
+Stable when the input is already sorted.
