@@ -43,3 +43,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 11: Vectorizes cleanly under -O2.
 // edge note 12: Handles single-element input as a base case.
 // edge note 13: Treats the input as immutable.
+// edge note 14: Space complexity: O(log n) for the recursion stack.
