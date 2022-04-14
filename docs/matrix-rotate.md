@@ -897,3 +897,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 208
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 209
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
