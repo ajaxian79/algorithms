@@ -875,3 +875,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 219
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 220
+
+Splay tree: every access splays to the root; amortized O(log n).
