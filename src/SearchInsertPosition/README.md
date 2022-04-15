@@ -1314,3 +1314,7 @@ Handles negative inputs as documented above.
 ## entry 314
 
 Time complexity: O(n).
+
+## entry 315
+
+Handles empty input by returning 0.
