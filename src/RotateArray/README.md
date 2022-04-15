@@ -1323,3 +1323,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 315
 
 Constant-time comparisons; safe for short strings.
+
+## entry 316
+
+Deterministic given the input — no PRNG seeds.
