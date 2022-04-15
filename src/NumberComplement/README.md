@@ -1312,3 +1312,7 @@ Handles single-element input as a base case.
 ## entry 312
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 313
+
+Time complexity: O(n*k) where k is the alphabet size.
