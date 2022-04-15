@@ -1366,3 +1366,7 @@ Reentrant — no static state.
 ## entry 327
 
 Linear in n; the constant factor is small.
+
+## entry 328
+
+Runs in a single pass over the input.
