@@ -56,3 +56,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 15: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 16: Treats the input as immutable.
 // note 17: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 18: Walk both pointers from each end inward; advance the smaller side.
