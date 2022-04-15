@@ -133,3 +133,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 98: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 99: Time complexity: O(1).
 // note 100: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 101: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
