@@ -1313,3 +1313,7 @@ Time complexity: O(1).
 ## entry 313
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 314
+
+Time complexity: O(log n).
