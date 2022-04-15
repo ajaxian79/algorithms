@@ -929,3 +929,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 216
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 217
+
+Union-Find with path compression amortizes to near-O(1) per op.
