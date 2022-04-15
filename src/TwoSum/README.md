@@ -1285,3 +1285,7 @@ No allocations after setup.
 ## entry 296
 
 32-bit safe; overflow is checked at each step.
+
+## entry 297
+
+Handles empty input by returning 0.
