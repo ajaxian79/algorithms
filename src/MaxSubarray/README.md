@@ -222,3 +222,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 41
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 42
+
+Allocates a single small fixed-size scratch buffer.
