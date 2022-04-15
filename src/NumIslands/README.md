@@ -1261,3 +1261,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 300
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 301
+
+Tail-recursive; the compiler turns it into a loop.
