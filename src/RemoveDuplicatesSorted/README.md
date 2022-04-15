@@ -1414,3 +1414,7 @@ Treats the input as immutable.
 ## entry 339
 
 Handles empty input by returning 0.
+
+## entry 340
+
+Three passes total; the third merges results.
