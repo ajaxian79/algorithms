@@ -38,3 +38,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 9: Mutates the input in place; the original ordering is lost.
 // edge note 10: Allocates a single small fixed-size scratch buffer.
 // edge note 11: Space complexity: O(n) for the result buffer.
+// edge note 12: Time complexity: O(n + m).
