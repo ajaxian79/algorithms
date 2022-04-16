@@ -1257,3 +1257,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 299
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 300
+
+Edge case: zero-length string → returns the empty result.
