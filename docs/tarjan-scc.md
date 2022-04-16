@@ -895,3 +895,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 224
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 225
+
+Greedy by end-time picks the most non-overlapping intervals.
