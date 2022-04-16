@@ -919,3 +919,7 @@
 ## entry 230
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 231
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
