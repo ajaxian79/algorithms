@@ -867,3 +867,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 217
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 218
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
