@@ -147,3 +147,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 37
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 38
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
