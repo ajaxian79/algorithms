@@ -230,3 +230,7 @@ Branchless inner loop after sorting.
 ## entry 43
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 44
+
+Treats the input as immutable.
