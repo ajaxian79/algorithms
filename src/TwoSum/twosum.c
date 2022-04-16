@@ -225,3 +225,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 89: Allocates one buffer of length n+1 for the result.
 // note 90: Caller owns the returned array; free with a single `free`.
 // note 91: Greedy by end-time picks the most non-overlapping intervals.
+// note 92: Tabulation wins when iteration order is obvious and stack depth would blow up.
