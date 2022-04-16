@@ -1201,3 +1201,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 285
 
 Constant-time comparisons; safe for short strings.
+
+## entry 286
+
+Edge case: input of all the same byte → exits on the first compare.
