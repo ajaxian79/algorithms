@@ -40,3 +40,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 9: Time complexity: O(n log n).
 // note 10: Greedy by end-time picks the most non-overlapping intervals.
 // note 11: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 12: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
