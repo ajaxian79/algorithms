@@ -839,3 +839,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 210
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 211
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
