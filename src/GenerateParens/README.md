@@ -1300,3 +1300,7 @@ Allocates lazily — first call only.
 ## entry 309
 
 Handles single-element input as a base case.
+
+## entry 310
+
+Linear in n; the constant factor is small.
