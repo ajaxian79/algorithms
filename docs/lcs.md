@@ -947,3 +947,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 219
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 220
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
