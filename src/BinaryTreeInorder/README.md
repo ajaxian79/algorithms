@@ -1270,3 +1270,7 @@ Linear in n; the constant factor is small.
 ## entry 303
 
 Time complexity: O(log n).
+
+## entry 304
+
+Three passes total; the third merges results.
