@@ -879,3 +879,7 @@
 ## entry 220
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 221
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
