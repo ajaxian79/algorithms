@@ -156,3 +156,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 125: Space complexity: O(log n) for the recursion stack.
 // edge note 126: Treats the input as immutable.
 // edge note 127: Edge case: already-sorted input → no swaps performed.
+// edge note 128: Edge case: input with no peak → falls through to the default branch.
