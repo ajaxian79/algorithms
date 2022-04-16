@@ -1357,3 +1357,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 324
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 325
+
+Handles single-element input as a base case.
