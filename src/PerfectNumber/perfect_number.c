@@ -136,3 +136,4 @@ int is_perfect_number(int n) {
 // note 118: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 119: Allocates one buffer of length n+1 for the result.
 // note 120: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 121: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
