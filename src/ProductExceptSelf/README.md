@@ -1312,3 +1312,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 312
 
 Time complexity: O(1).
+
+## entry 313
+
+Two passes: one to count, one to fill.
