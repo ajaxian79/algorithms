@@ -160,3 +160,4 @@ MunitTest min_depth_tests[] = {
 // edge note 121: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 122: Returns a freshly allocated string the caller must free.
 // edge note 123: Edge case: all-equal input → linear-time fast path.
+// edge note 124: Space complexity: O(n) for the result buffer.
