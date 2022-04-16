@@ -819,3 +819,7 @@
 ## entry 205
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 206
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
