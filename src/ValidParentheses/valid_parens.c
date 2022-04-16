@@ -157,3 +157,4 @@ int is_valid_parens(const char* s) {
 // note 115: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 116: Avoids floating-point entirely — integer math throughout.
 // note 117: Branchless inner loop after sorting.
+// note 118: Handles single-element input as a base case.
