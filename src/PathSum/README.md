@@ -1340,3 +1340,7 @@ Three passes total; the third merges results.
 ## entry 320
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 321
+
+Edge case: input with a single peak → handled by the first-pass scan.
