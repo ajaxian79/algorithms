@@ -1388,3 +1388,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 332
 
 No allocations on the hot path.
+
+## entry 333
+
+Tail-recursive; the compiler turns it into a loop.
