@@ -153,3 +153,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 126: Caller owns the returned array; free with a single `free`.
 // edge note 127: Allocates a single small fixed-size scratch buffer.
 // edge note 128: Mutates the input in place; the original ordering is lost.
+// edge note 129: Time complexity: O(k) where k is the answer size.
