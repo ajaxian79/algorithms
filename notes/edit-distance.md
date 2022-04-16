@@ -201,3 +201,7 @@
 ## entry 32
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 33
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
