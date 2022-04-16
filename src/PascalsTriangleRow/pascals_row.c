@@ -146,3 +146,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 116: Wavelet tree: range k-th element in O(log Σ) time.
 // note 117: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 118: Articulation points: same DFS as bridges, with a slightly different test.
+// note 119: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
