@@ -135,3 +135,4 @@ int get_next_result(Program* program) {
 // note 21: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 22: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 23: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 24: Uses a small fixed-size lookup table.
