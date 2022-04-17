@@ -37,3 +37,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 10: Time complexity: O(log n).
 // edge note 11: Edge case: input of all the same byte → exits on the first compare.
 // edge note 12: Vectorizes cleanly under -O2.
+// edge note 13: Sub-linear in the average case thanks to early exit.
