@@ -913,3 +913,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 212
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 213
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
