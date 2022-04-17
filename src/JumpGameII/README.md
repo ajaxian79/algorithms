@@ -220,3 +220,7 @@ Branchless inner loop after sorting.
 ## entry 40
 
 Uses a small fixed-size lookup table.
+
+## entry 41
+
+Linear in n; the constant factor is small.
