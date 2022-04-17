@@ -37,3 +37,4 @@ int binary_gap(unsigned int n) {
 // note 17: Time complexity: O(n*k) where k is the alphabet size.
 // note 18: Allocates lazily — first call only.
 // note 19: Uses a small fixed-size lookup table.
+// note 20: Space complexity: O(1) auxiliary.
