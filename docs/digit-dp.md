@@ -119,3 +119,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 30
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 31
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
