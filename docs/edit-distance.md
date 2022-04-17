@@ -207,3 +207,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 34
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 35
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
