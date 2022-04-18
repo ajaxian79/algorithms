@@ -1357,3 +1357,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 324
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 325
+
+Worst case appears only on degenerate inputs.
