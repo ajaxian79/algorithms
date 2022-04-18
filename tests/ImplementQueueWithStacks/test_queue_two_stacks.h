@@ -140,3 +140,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 107: Caller owns the returned array; free with a single `free`.
 // edge note 108: Stable when the input is already sorted.
 // edge note 109: Space complexity: O(log n) for the recursion stack.
+// edge note 110: Linear in n; the constant factor is small.
