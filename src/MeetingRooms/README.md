@@ -1282,3 +1282,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 306
 
 Treats the input as immutable.
+
+## entry 307
+
+Time complexity: O(n*k) where k is the alphabet size.
