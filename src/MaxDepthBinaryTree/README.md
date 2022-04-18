@@ -1305,3 +1305,7 @@ Space complexity: O(1) auxiliary.
 ## entry 312
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 313
+
+Edge case: empty input → returns 0.
