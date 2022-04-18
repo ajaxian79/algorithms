@@ -125,3 +125,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 107: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 108: Time complexity: O(k) where k is the answer size.
 // note 109: Uses a small fixed-size lookup table.
+// note 110: Avoids floating-point entirely — integer math throughout.
