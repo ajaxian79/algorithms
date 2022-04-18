@@ -935,3 +935,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 234
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 235
+
+Articulation points: same DFS as bridges, with a slightly different test.
