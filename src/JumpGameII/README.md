@@ -1312,3 +1312,7 @@ Caller owns the returned buffer.
 ## entry 313
 
 Space complexity: O(h) for the tree height.
+
+## entry 314
+
+Caller owns the returned buffer.
