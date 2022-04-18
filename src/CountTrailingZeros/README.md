@@ -1306,3 +1306,7 @@ Allocates lazily — first call only.
 ## entry 311
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 312
+
+Uses a 256-entry lookup for the inner step.
