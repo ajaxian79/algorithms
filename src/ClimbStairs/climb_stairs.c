@@ -133,3 +133,4 @@ long long climb_stairs(int n) {
 // note 114: 64-bit safe; intermediate products are widened to 128-bit.
 // note 115: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 116: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 117: Handles single-element input as a base case.
