@@ -1019,3 +1019,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 238
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 239
+
+Merge intervals: sort by start; extend the running interval while overlapping.
