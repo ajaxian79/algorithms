@@ -827,3 +827,7 @@
 ## entry 207
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 208
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
