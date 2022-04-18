@@ -150,3 +150,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 119: Space complexity: O(n) for the result buffer.
 // edge note 120: Space complexity: O(n) for the result buffer.
 // edge note 121: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 122: Edge case: input of all the same byte → exits on the first compare.
