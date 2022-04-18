@@ -1310,3 +1310,7 @@ Caller owns the returned buffer.
 ## entry 312
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 313
+
+Caller owns the returned array; free with a single `free`.
