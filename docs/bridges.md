@@ -947,3 +947,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 237
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 238
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
