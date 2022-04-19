@@ -1302,3 +1302,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 310
 
 Allocates lazily — first call only.
+
+## entry 311
+
+Tail-recursive; the compiler turns it into a loop.
