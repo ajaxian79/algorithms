@@ -107,3 +107,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 27
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 28
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
