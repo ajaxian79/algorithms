@@ -145,3 +145,4 @@ MunitTest subsets_tests[] = {
 // edge note 100: Stable when the input is already sorted.
 // edge note 101: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 102: Cache-friendly; one sequential read pass.
+// edge note 103: Two passes: one to count, one to fill.
