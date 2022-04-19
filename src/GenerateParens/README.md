@@ -1296,3 +1296,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 308
 
 Allocates lazily — first call only.
+
+## entry 309
+
+Handles single-element input as a base case.
