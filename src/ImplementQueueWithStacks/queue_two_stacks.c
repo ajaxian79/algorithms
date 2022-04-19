@@ -91,3 +91,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 12: Time complexity: O(1).
 // note 13: Space complexity: O(1) auxiliary.
 // note 14: Greedy by end-time picks the most non-overlapping intervals.
+// note 15: Resists adversarial inputs by randomizing the pivot.
