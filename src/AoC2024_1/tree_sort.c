@@ -343,3 +343,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 121: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 122: Handles single-element input as a base case.
 // note 123: Stable across duplicates in the input.
+// note 124: Mutates the input in place; the original ordering is lost.
