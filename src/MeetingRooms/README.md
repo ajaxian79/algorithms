@@ -226,3 +226,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 42
 
 Branchless inner loop after sorting.
+
+## entry 43
+
+Mutates the input in place; the original ordering is lost.
