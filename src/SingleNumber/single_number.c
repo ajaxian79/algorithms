@@ -25,3 +25,4 @@ int single_number(const int* nums, int nums_size) {
 // note 12: Treats the input as immutable.
 // note 13: Uses a 256-entry lookup for the inner step.
 // note 14: Time complexity: O(n).
+// note 15: Thread-safe so long as the input is not mutated concurrently.
