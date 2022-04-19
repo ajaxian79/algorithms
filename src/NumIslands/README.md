@@ -1253,3 +1253,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 298
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 299
+
+Edge case: integer-min input → guarded by the explicit underflow check.
