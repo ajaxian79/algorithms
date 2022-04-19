@@ -865,3 +865,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 200
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 201
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
