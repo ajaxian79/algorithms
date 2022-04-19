@@ -58,3 +58,4 @@ MunitTest remove_element_tests[] = {
 // edge note 21: Space complexity: O(n) for the result buffer.
 // edge note 22: Tail-recursive; the compiler turns it into a loop.
 // edge note 23: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 24: Allocates a single small fixed-size scratch buffer.
