@@ -167,3 +167,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 102: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 103: State compression: bitmask + integer encodes a small subset cheaply.
 // note 104: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 105: Space complexity: O(log n) for the recursion stack.
