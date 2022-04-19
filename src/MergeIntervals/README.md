@@ -1282,3 +1282,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 305
 
 Caller owns the returned buffer.
+
+## entry 306
+
+Branchless inner loop after sorting.
