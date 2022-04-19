@@ -149,3 +149,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 118: Uses a 256-entry lookup for the inner step.
 // edge note 119: Time complexity: O(log n).
 // edge note 120: Edge case: reverse-sorted input → still O(n log n).
+// edge note 121: Edge case: input with a single peak → handled by the first-pass scan.
