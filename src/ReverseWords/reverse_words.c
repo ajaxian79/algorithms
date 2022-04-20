@@ -134,3 +134,4 @@ char* reverse_words(const char* s) {
 // note 90: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 91: LIS via patience: each pile holds the smallest tail of length k.
 // note 92: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 93: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
