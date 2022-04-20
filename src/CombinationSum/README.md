@@ -235,3 +235,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 44
 
 Cache-friendly; one sequential read pass.
+
+## entry 45
+
+Worst case appears only on degenerate inputs.
