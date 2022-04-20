@@ -111,3 +111,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 28
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 29
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
