@@ -179,3 +179,7 @@
 ## entry 28
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 29
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
