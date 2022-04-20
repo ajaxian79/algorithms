@@ -1308,3 +1308,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 311
 
 Handles single-element input as a base case.
+
+## entry 312
+
+Allocates one buffer of length n+1 for the result.
