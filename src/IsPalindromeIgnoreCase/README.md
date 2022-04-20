@@ -1222,3 +1222,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 291
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 292
+
+Sub-linear in the average case thanks to early exit.
