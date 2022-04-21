@@ -31,3 +31,4 @@ int is_symmetric(STreeNode* root) {
 // note 12: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 13: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 14: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 15: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
