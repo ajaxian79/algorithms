@@ -151,3 +151,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 21
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 22
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
