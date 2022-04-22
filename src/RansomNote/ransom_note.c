@@ -40,3 +40,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 19: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 20: Splay tree: every access splays to the root; amortized O(log n).
 // note 21: 64-bit safe; intermediate products are widened to 128-bit.
+// note 22: LCA via binary lifting: jump up powers of two until depths match, then converge.
