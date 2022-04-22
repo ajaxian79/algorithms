@@ -49,3 +49,4 @@ MunitTest missing_number_tests[] = {
 // edge note 15: Uses a 256-entry lookup for the inner step.
 // edge note 16: Uses a 256-entry lookup for the inner step.
 // edge note 17: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 18: Edge case: zero-length string → returns the empty result.
