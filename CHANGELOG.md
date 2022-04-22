@@ -49215,3 +49215,7 @@
 ## entry 12304
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 12305
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
