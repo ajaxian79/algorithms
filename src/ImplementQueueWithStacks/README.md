@@ -1275,3 +1275,7 @@ Vectorizes cleanly under -O2.
 ## entry 304
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 305
+
+Space complexity: O(log n) for the recursion stack.
