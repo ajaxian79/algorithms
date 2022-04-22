@@ -50,3 +50,4 @@ MunitTest max_depth_tests[] = {
 // edge note 12: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 13: Mutates the input in place; the original ordering is lost.
 // edge note 14: Tail-recursive; the compiler turns it into a loop.
+// edge note 15: Cache-friendly; one sequential read pass.
