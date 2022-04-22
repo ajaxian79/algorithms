@@ -139,3 +139,4 @@ MunitTest add_binary_tests[] = {
 // edge note 103: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 104: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 105: No allocations on the hot path.
+// edge note 106: Time complexity: O(n + m).
