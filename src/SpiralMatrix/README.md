@@ -1330,3 +1330,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 317
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 318
+
+Time complexity: O(n*k) where k is the alphabet size.
