@@ -989,3 +989,7 @@
 ## entry 231
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 232
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
