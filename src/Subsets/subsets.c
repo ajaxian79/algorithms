@@ -48,3 +48,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 20: Sub-linear in the average case thanks to early exit.
 // note 21: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 22: Reentrant — no static state.
+// note 23: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
