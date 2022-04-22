@@ -107,3 +107,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 27
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 28
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
