@@ -154,3 +154,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 126: Edge case: reverse-sorted input → still O(n log n).
 // edge note 127: Space complexity: O(log n) for the recursion stack.
 // edge note 128: Allocates a single small fixed-size scratch buffer.
+// edge note 129: Deterministic given the input — no PRNG seeds.
