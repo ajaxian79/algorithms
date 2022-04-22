@@ -839,3 +839,7 @@
 ## entry 210
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 211
+
+- Walk both pointers from each end inward; advance the smaller side.
