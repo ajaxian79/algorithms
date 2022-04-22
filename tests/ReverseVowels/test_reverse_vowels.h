@@ -149,3 +149,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 110: Tail-recursive; the compiler turns it into a loop.
 // edge note 111: Allocates a single small fixed-size scratch buffer.
 // edge note 112: Allocates lazily — first call only.
+// edge note 113: Branchless inner loop after sorting.
