@@ -1278,3 +1278,7 @@ Uses a small fixed-size lookup table.
 ## entry 304
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 305
+
+Caller owns the returned buffer.
