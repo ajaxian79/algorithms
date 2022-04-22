@@ -1332,3 +1332,7 @@ Stable across duplicates in the input.
 ## entry 318
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 319
+
+Edge case: input with a single peak → handled by the first-pass scan.
