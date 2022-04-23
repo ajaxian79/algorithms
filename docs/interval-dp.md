@@ -947,3 +947,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 237
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 238
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
