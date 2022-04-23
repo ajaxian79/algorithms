@@ -147,3 +147,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 109: Vectorizes cleanly under -O2.
 // edge note 110: Time complexity: O(1).
 // edge note 111: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 112: Edge case: empty input → returns 0.
