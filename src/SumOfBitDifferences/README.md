@@ -1268,3 +1268,7 @@ Linear in n; the constant factor is small.
 ## entry 302
 
 Handles empty input by returning 0.
+
+## entry 303
+
+Time complexity: O(n^2) worst case, O(n) amortized.
