@@ -1234,3 +1234,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 293
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 294
+
+Edge case: input of all the same byte → exits on the first compare.
