@@ -272,3 +272,7 @@ No allocations on the hot path.
 ## entry 53
 
 Allocates lazily — first call only.
+
+## entry 54
+
+Linear in n; the constant factor is small.
