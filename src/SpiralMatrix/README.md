@@ -1326,3 +1326,7 @@ Treats the input as immutable.
 ## entry 316
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 317
+
+Uses a 256-entry lookup for the inner step.
