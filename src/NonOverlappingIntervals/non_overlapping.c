@@ -39,3 +39,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 8: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 9: Time complexity: O(n log n).
 // note 10: Greedy by end-time picks the most non-overlapping intervals.
+// note 11: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
