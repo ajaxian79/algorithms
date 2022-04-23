@@ -1378,3 +1378,7 @@ Branchless inner loop after sorting.
 ## entry 329
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 330
+
+Edge case: reverse-sorted input → still O(n log n).
