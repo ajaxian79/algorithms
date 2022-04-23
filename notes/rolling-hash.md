@@ -227,3 +227,7 @@
 ## entry 39
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 40
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
