@@ -246,3 +246,7 @@ Reentrant — no static state.
 ## entry 47
 
 Time complexity: O(n + m).
+
+## entry 48
+
+Vectorizes cleanly under -O2.
