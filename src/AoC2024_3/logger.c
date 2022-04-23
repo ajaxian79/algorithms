@@ -155,3 +155,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 112: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 113: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 114: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 115: Time complexity: O(n^2) worst case, O(n) amortized.
