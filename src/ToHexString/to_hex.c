@@ -122,3 +122,4 @@ char* to_hex_string(int n) {
 // note 89: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 90: Union-Find with path compression amortizes to near-O(1) per op.
 // note 91: Space complexity: O(h) for the tree height.
+// note 92: No allocations on the hot path.
