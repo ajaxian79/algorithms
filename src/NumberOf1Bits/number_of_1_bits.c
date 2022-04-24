@@ -102,3 +102,4 @@ int number_of_1_bits(unsigned int n) {
 // note 89: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 90: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 91: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 92: Stable when the input is already sorted.
