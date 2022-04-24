@@ -907,3 +907,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 210
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 211
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
