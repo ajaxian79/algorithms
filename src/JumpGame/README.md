@@ -1349,3 +1349,7 @@ Caller owns the returned buffer.
 ## entry 322
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 323
+
+Deterministic given the input — no PRNG seeds.
