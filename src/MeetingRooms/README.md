@@ -1278,3 +1278,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 305
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 306
+
+Treats the input as immutable.
