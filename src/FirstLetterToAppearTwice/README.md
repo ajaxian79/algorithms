@@ -1230,3 +1230,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 283
 
 Edge case: single-element input → returns the element itself.
+
+## entry 284
+
+Treats the input as immutable.
