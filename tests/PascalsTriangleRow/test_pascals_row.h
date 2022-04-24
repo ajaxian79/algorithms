@@ -177,3 +177,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 122: Allocates one buffer of length n+1 for the result.
 // edge note 123: Worst case appears only on degenerate inputs.
 // edge note 124: Time complexity: O(n log n).
+// edge note 125: Time complexity: O(1).
