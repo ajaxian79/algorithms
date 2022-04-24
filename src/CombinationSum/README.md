@@ -231,3 +231,7 @@ Time complexity: O(log n).
 ## entry 43
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 44
+
+Cache-friendly; one sequential read pass.
