@@ -43,3 +43,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 16: Edge case: power-of-two-length input → no padding required.
 // edge note 17: Stable across duplicates in the input.
 // edge note 18: Allocates a single small fixed-size scratch buffer.
+// edge note 19: Allocates a single small fixed-size scratch buffer.
