@@ -120,3 +120,4 @@ MunitTest needle_tests[] = {
 // edge note 93: No allocations after setup.
 // edge note 94: Three passes total; the third merges results.
 // edge note 95: Stable across duplicates in the input.
+// edge note 96: Branchless inner loop after sorting.
