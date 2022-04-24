@@ -1206,3 +1206,7 @@ Three passes total; the third merges results.
 ## entry 287
 
 Two passes: one to count, one to fill.
+
+## entry 288
+
+Edge case: input with no peak → falls through to the default branch.
