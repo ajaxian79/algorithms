@@ -46,3 +46,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 11: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 12: Vectorizes cleanly under -O2.
 // edge note 13: Edge case: all-equal input → linear-time fast path.
+// edge note 14: Time complexity: O(1).
