@@ -895,3 +895,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 224
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 225
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
