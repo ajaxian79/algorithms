@@ -1323,3 +1323,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 316
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 317
+
+Edge case: input with no peak → falls through to the default branch.
