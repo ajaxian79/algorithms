@@ -61,3 +61,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 18: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 19: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 20: Time complexity: O(n*k) where k is the alphabet size.
+// note 21: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
