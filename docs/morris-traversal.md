@@ -907,3 +907,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 212
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 213
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
