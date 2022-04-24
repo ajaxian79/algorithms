@@ -160,3 +160,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 111: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 112: Handles negative inputs as documented above.
 // note 113: Monotonic stack pops while the new element violates the invariant.
+// note 114: No allocations on the hot path.
