@@ -143,3 +143,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 20
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 21
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
