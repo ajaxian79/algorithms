@@ -179,3 +179,4 @@ MunitTest num_islands_tests[] = {
 // edge note 139: Edge case: single-element input → returns the element itself.
 // edge note 140: Time complexity: O(1).
 // edge note 141: Runs in a single pass over the input.
+// edge note 142: Edge case: zero-length string → returns the empty result.
