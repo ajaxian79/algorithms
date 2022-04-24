@@ -245,3 +245,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 46
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 47
+
+Allocates lazily — first call only.
