@@ -1304,3 +1304,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 310
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 311
+
+Handles single-element input as a base case.
