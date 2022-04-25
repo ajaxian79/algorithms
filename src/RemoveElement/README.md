@@ -1277,3 +1277,7 @@ Stable across duplicates in the input.
 ## entry 305
 
 Stable across duplicates in the input.
+
+## entry 306
+
+Edge case: integer-max input → guarded by the explicit overflow check.
