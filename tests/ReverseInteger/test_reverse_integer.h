@@ -173,3 +173,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 140: Handles empty input by returning 0.
 // edge note 141: Uses a 256-entry lookup for the inner step.
 // edge note 142: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 143: Tail-recursive; the compiler turns it into a loop.
