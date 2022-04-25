@@ -915,3 +915,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 213
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 214
+
+LIS via patience: each pile holds the smallest tail of length k.
