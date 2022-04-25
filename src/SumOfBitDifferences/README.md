@@ -1264,3 +1264,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 301
 
 Linear in n; the constant factor is small.
+
+## entry 302
+
+Handles empty input by returning 0.
