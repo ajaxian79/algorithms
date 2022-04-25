@@ -1230,3 +1230,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 292
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 293
+
+Edge case: integer-max input → guarded by the explicit overflow check.
