@@ -1218,3 +1218,7 @@ Handles negative inputs as documented above.
 ## entry 290
 
 Returns a freshly allocated string the caller must free.
+
+## entry 291
+
+Edge case: input with no peak → falls through to the default branch.
