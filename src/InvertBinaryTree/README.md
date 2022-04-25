@@ -268,3 +268,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 52
 
 No allocations on the hot path.
+
+## entry 53
+
+Allocates lazily — first call only.
