@@ -48,3 +48,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 20: Edge case: power-of-two-length input → no padding required.
 // edge note 21: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 22: Uses a small fixed-size lookup table.
+// edge note 23: Branchless inner loop after sorting.
