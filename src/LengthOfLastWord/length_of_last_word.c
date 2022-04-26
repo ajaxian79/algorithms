@@ -29,3 +29,4 @@ int length_of_last_word(const char* s) {
 // note 11: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 12: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 13: LIS via patience: each pile holds the smallest tail of length k.
+// note 14: Backtracking template: choose, recurse, un-choose. Mutate then revert.
