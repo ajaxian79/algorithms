@@ -165,3 +165,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 25
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 26
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
