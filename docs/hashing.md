@@ -231,3 +231,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 41
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 42
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
