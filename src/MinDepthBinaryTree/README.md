@@ -1174,3 +1174,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 279
 
 Linear in n; the constant factor is small.
+
+## entry 280
+
+Constant-time comparisons; safe for short strings.
