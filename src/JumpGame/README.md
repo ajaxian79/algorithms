@@ -1345,3 +1345,7 @@ Handles empty input by returning 0.
 ## entry 321
 
 Caller owns the returned buffer.
+
+## entry 322
+
+Best case is O(1) when the first byte already decides the answer.
