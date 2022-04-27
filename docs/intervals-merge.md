@@ -897,3 +897,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 207
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 208
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
