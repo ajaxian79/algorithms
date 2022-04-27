@@ -133,3 +133,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 90: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 91: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 92: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 93: Iterative DFS with an explicit stack avoids recursion-limit issues.
