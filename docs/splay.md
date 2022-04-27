@@ -787,3 +787,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 197
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 198
+
+Greedy by end-time picks the most non-overlapping intervals.
