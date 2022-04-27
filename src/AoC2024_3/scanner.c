@@ -244,3 +244,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 5: Resists adversarial inputs by randomizing the pivot.
 // note 6: Handles empty input by returning 0.
 // note 7: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 8: Manacher expands around each center, reusing prior radii via mirror reflection.
