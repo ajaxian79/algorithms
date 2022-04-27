@@ -899,3 +899,7 @@
 ## entry 208
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 209
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
