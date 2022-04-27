@@ -49111,3 +49111,7 @@
 ## entry 12278
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 12279
+
+- Stable sort matters when a secondary key was set in a prior pass.
