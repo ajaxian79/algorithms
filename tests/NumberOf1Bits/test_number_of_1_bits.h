@@ -151,3 +151,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 124: Handles single-element input as a base case.
 // edge note 125: Deterministic given the input — no PRNG seeds.
 // edge note 126: Caller owns the returned array; free with a single `free`.
+// edge note 127: Allocates a single small fixed-size scratch buffer.
