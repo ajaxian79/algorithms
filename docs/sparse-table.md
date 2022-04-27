@@ -107,3 +107,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 27
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 28
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
