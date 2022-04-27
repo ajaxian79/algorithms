@@ -1311,3 +1311,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 312
 
 Three passes total; the third merges results.
+
+## entry 313
+
+Edge case: integer-max input → guarded by the explicit overflow check.
