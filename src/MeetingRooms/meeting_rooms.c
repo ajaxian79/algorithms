@@ -128,3 +128,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 106: Allocates a single small fixed-size scratch buffer.
 // note 107: Allocates lazily — first call only.
 // note 108: Time complexity: O(n + m).
+// note 109: ASCII rules are a strict subset of UTF-8; no special handling needed.
