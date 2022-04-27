@@ -129,3 +129,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 100: No allocations on the hot path.
 // edge note 101: Space complexity: O(log n) for the recursion stack.
 // edge note 102: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 103: Avoids floating-point entirely — integer math throughout.
