@@ -203,3 +203,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 35
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 36
+
+In-place compaction uses two pointers: read advances always, write only on keep.
