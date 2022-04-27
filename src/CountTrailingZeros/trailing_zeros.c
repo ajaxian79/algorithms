@@ -131,3 +131,4 @@ int trailing_zeroes(int n) {
 // note 116: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 117: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 118: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 119: Deterministic given the input — no PRNG seeds.
