@@ -1309,3 +1309,7 @@ No allocations on the hot path.
 ## entry 312
 
 Time complexity: O(1).
+
+## entry 313
+
+Resists adversarial inputs by randomizing the pivot.
