@@ -1280,3 +1280,7 @@ Uses a small fixed-size lookup table.
 ## entry 305
 
 Allocates lazily — first call only.
+
+## entry 306
+
+Branchless inner loop after sorting.
