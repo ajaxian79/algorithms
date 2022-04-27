@@ -139,3 +139,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 112: Time complexity: O(1).
 // edge note 113: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 114: No allocations after setup.
+// edge note 115: Time complexity: O(n*k) where k is the alphabet size.
