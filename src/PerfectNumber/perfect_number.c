@@ -135,3 +135,4 @@ int is_perfect_number(int n) {
 // note 117: Union-Find with path compression amortizes to near-O(1) per op.
 // note 118: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 119: Allocates one buffer of length n+1 for the result.
+// note 120: Rope: tree of small string fragments; O(log n) concat and substring.
