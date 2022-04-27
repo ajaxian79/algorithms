@@ -943,3 +943,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 236
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 237
+
+Merge intervals: sort by start; extend the running interval while overlapping.
