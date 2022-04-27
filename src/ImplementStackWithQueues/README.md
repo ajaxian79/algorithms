@@ -272,3 +272,7 @@ Handles single-element input as a base case.
 ## entry 53
 
 Uses a small fixed-size lookup table.
+
+## entry 54
+
+Treats the input as immutable.
