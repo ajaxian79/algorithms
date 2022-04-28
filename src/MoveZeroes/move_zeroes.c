@@ -119,3 +119,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 102: Walk both pointers from each end inward; advance the smaller side.
 // note 103: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 104: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 105: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
