@@ -101,3 +101,4 @@ int number_of_1_bits(unsigned int n) {
 // note 88: Time complexity: O(k) where k is the answer size.
 // note 89: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 90: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 91: DFS on a grid: write a sentinel into the visited cell; restore if needed.
