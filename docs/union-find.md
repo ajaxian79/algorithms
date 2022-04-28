@@ -175,3 +175,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 27
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 28
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
