@@ -955,3 +955,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 222
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 223
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
