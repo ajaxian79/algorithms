@@ -799,3 +799,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 200
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 201
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
