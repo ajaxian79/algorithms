@@ -191,3 +191,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 112: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 113: Sub-linear in the average case thanks to early exit.
 // note 114: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 115: Tail-recursive; the compiler turns it into a loop.
