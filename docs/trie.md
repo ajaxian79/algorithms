@@ -861,3 +861,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 199
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 200
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
