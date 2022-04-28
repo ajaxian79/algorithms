@@ -148,3 +148,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 118: Cache-friendly; one sequential read pass.
 // edge note 119: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 120: Edge case: zero-length string → returns the empty result.
+// edge note 121: Edge case: alternating pattern → degenerate case for sliding window.
