@@ -47,3 +47,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 18: Edge case: input with no peak → falls through to the default branch.
 // edge note 19: Two passes: one to count, one to fill.
 // edge note 20: Three passes total; the third merges results.
+// edge note 21: Thread-safe so long as the input is not mutated concurrently.
