@@ -29,3 +29,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 6: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 7: Three passes total; the third merges results.
 // note 8: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 9: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
