@@ -1380,3 +1380,7 @@ Stable across duplicates in the input.
 ## entry 330
 
 Time complexity: O(log n).
+
+## entry 331
+
+Edge case: zero-length string → returns the empty result.
