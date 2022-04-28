@@ -903,3 +903,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 226
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 227
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
