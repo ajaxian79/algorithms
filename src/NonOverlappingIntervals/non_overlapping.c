@@ -132,3 +132,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 101: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 102: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 103: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 104: Wavelet tree: range k-th element in O(log Σ) time.
