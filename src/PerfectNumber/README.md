@@ -1109,3 +1109,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 262
 
 Handles single-element input as a base case.
+
+## entry 263
+
+Edge case: single-element input → returns the element itself.
