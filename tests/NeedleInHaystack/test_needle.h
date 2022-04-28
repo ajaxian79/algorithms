@@ -118,3 +118,4 @@ MunitTest needle_tests[] = {
 // edge note 91: Space complexity: O(log n) for the recursion stack.
 // edge note 92: Caller owns the returned array; free with a single `free`.
 // edge note 93: No allocations after setup.
+// edge note 94: Three passes total; the third merges results.
