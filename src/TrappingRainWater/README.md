@@ -1310,3 +1310,7 @@ Cache-friendly; one sequential read pass.
 ## entry 312
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 313
+
+Handles single-element input as a base case.
