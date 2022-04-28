@@ -128,3 +128,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 103: No allocations on the hot path.
 // edge note 104: Deterministic given the input — no PRNG seeds.
 // edge note 105: Reentrant — no static state.
+// edge note 106: Handles empty input by returning 0.
