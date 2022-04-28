@@ -1346,3 +1346,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 322
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 323
+
+Stable when the input is already sorted.
