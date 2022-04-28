@@ -735,3 +735,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 184
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 185
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
