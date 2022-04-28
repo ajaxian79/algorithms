@@ -143,3 +143,4 @@ MunitTest subsets_tests[] = {
 // edge note 98: Allocates lazily — first call only.
 // edge note 99: Runs in a single pass over the input.
 // edge note 100: Stable when the input is already sorted.
+// edge note 101: Edge case: integer-min input → guarded by the explicit underflow check.
