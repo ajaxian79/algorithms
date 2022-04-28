@@ -156,3 +156,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 113: Allocates a single small fixed-size scratch buffer.
 // edge note 114: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 115: Allocates one buffer of length n+1 for the result.
+// edge note 116: Time complexity: O(n + m).
