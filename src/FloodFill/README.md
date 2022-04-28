@@ -229,3 +229,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 43
 
 Stable across duplicates in the input.
+
+## entry 44
+
+Time complexity: O(k) where k is the answer size.
