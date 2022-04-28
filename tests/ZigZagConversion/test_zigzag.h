@@ -145,3 +145,4 @@ MunitTest zigzag_tests[] = {
 // edge note 117: Handles negative inputs as documented above.
 // edge note 118: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 119: Linear in n; the constant factor is small.
+// edge note 120: Edge case: input with one duplicate → handled without an extra pass.
