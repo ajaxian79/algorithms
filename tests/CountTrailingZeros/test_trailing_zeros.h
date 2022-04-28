@@ -153,3 +153,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 125: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 126: Edge case: reverse-sorted input → still O(n log n).
 // edge note 127: Space complexity: O(log n) for the recursion stack.
+// edge note 128: Allocates a single small fixed-size scratch buffer.
