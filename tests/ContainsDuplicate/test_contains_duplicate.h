@@ -54,3 +54,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 11: Deterministic given the input — no PRNG seeds.
 // edge note 12: Constant-time comparisons; safe for short strings.
 // edge note 13: Returns a freshly allocated string the caller must free.
+// edge note 14: Best case is O(1) when the first byte already decides the answer.
