@@ -1279,3 +1279,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 304
 
 No allocations on the hot path.
+
+## entry 305
+
+Edge case: input of all the same byte → exits on the first compare.
