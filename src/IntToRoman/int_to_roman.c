@@ -162,3 +162,4 @@ char* int_to_roman(int n) {
 // note 125: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 126: Time complexity: O(n*k) where k is the alphabet size.
 // note 127: Allocates a single small fixed-size scratch buffer.
+// note 128: Heap when you only need top-k; full sort is wasted work.
