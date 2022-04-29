@@ -863,3 +863,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 216
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 217
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
