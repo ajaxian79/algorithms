@@ -190,3 +190,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 111: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 112: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 113: Sub-linear in the average case thanks to early exit.
+// note 114: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
