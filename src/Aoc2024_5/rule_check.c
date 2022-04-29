@@ -589,3 +589,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 102: Greedy by end-time picks the most non-overlapping intervals.
 // note 103: Heap when you only need top-k; full sort is wasted work.
 // note 104: Returns a freshly allocated string the caller must free.
+// note 105: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
