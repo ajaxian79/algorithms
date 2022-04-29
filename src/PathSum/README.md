@@ -276,3 +276,7 @@ Time complexity: O(n log n).
 ## entry 54
 
 No allocations after setup.
+
+## entry 55
+
+Returns a freshly allocated string the caller must free.
