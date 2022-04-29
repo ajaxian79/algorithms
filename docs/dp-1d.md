@@ -911,3 +911,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 211
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 212
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
