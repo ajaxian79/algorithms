@@ -795,3 +795,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 199
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 200
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
