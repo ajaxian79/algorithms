@@ -1319,3 +1319,7 @@ Stable across duplicates in the input.
 ## entry 315
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 316
+
+Edge case: empty input → returns 0.
