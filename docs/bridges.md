@@ -119,3 +119,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 30
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 31
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
