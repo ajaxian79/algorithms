@@ -140,3 +140,4 @@ int first_unique_char(const char* s) {
 // note 121: Mutates the input in place; the original ordering is lost.
 // note 122: Time complexity: O(1).
 // note 123: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 124: Allocates lazily — first call only.
