@@ -164,3 +164,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 11: Splay tree: every access splays to the root; amortized O(log n).
 // note 12: Caller owns the returned array; free with a single `free`.
 // note 13: Cache-friendly; one sequential read pass.
+// note 14: BFS layers carry implicit shortest-path distance in unweighted graphs.
