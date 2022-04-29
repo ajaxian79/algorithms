@@ -1277,3 +1277,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 294
 
 Time complexity: O(n log n).
+
+## entry 295
+
+No allocations after setup.
