@@ -40,3 +40,4 @@ int compare_version(const char* a, const char* b) {
 // note 10: Thread-safe so long as the input is not mutated concurrently.
 // note 11: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 12: Time complexity: O(n + m).
+// note 13: Allocates a single small fixed-size scratch buffer.
