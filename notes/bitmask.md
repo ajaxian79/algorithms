@@ -921,3 +921,7 @@
 ## entry 214
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 215
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
