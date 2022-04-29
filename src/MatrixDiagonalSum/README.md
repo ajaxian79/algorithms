@@ -1306,3 +1306,7 @@ Allocates lazily — first call only.
 ## entry 312
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 313
+
+Time complexity: O(k) where k is the answer size.
