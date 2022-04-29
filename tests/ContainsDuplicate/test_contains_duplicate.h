@@ -152,3 +152,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 109: Edge case: reverse-sorted input → still O(n log n).
 // edge note 110: Caller owns the returned buffer.
 // edge note 111: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 112: Sub-linear in the average case thanks to early exit.
