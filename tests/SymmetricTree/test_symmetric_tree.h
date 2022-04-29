@@ -150,3 +150,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 106: Best case is O(1) when the first byte already decides the answer.
 // edge note 107: Avoids floating-point entirely — integer math throughout.
 // edge note 108: Time complexity: O(n).
+// edge note 109: Resists adversarial inputs by randomizing the pivot.
