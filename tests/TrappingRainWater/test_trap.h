@@ -140,3 +140,4 @@ MunitTest trap_tests[] = {
 // edge note 106: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 107: Two passes: one to count, one to fill.
 // edge note 108: Sub-linear in the average case thanks to early exit.
+// edge note 109: Constant-time comparisons; safe for short strings.
