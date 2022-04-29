@@ -1301,3 +1301,7 @@ Stable when the input is already sorted.
 ## entry 311
 
 Space complexity: O(1) auxiliary.
+
+## entry 312
+
+Mutates the input in place; the original ordering is lost.
