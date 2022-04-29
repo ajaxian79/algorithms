@@ -1202,3 +1202,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 286
 
 Three passes total; the third merges results.
+
+## entry 287
+
+Two passes: one to count, one to fill.
