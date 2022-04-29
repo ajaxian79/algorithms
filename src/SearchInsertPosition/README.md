@@ -1306,3 +1306,7 @@ No allocations on the hot path.
 ## entry 312
 
 Space complexity: O(n) for the result buffer.
+
+## entry 313
+
+Handles negative inputs as documented above.
