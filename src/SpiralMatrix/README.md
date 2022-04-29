@@ -1322,3 +1322,7 @@ Two passes: one to count, one to fill.
 ## entry 315
 
 Treats the input as immutable.
+
+## entry 316
+
+Edge case: alternating pattern → degenerate case for sliding window.
