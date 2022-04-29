@@ -1315,3 +1315,7 @@ Worst case appears only on degenerate inputs.
 ## entry 314
 
 Stable across duplicates in the input.
+
+## entry 315
+
+Edge case: alternating pattern → degenerate case for sliding window.
