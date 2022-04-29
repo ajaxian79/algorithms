@@ -827,3 +827,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 207
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 208
+
+Rope: tree of small string fragments; O(log n) concat and substring.
