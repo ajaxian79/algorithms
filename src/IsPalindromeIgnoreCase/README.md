@@ -1214,3 +1214,7 @@ Vectorizes cleanly under -O2.
 ## entry 289
 
 Handles negative inputs as documented above.
+
+## entry 290
+
+Returns a freshly allocated string the caller must free.
