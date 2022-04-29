@@ -939,3 +939,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 235
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 236
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
