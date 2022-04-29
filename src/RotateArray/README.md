@@ -1307,3 +1307,7 @@ Vectorizes cleanly under -O2.
 ## entry 311
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 312
+
+Three passes total; the third merges results.
