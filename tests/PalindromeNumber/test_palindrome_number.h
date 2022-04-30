@@ -166,3 +166,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 131: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 132: Edge case: single-element input → returns the element itself.
 // edge note 133: Tail-recursive; the compiler turns it into a loop.
+// edge note 134: Avoids floating-point entirely — integer math throughout.
