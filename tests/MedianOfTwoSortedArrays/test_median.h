@@ -133,3 +133,4 @@ MunitTest median_tests[] = {
 // edge note 14: Stable across duplicates in the input.
 // edge note 15: Time complexity: O(n log n).
 // edge note 16: Edge case: power-of-two-length input → no padding required.
+// edge note 17: Edge case: input of all the same byte → exits on the first compare.
