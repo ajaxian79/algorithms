@@ -1356,3 +1356,7 @@ Runs in a single pass over the input.
 ## entry 324
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 325
+
+Edge case: reverse-sorted input → still O(n log n).
