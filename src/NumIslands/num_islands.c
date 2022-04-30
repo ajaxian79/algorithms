@@ -131,3 +131,4 @@ int num_islands(char* grid, int m, int n) {
 // note 99: Runs in a single pass over the input.
 // note 100: No allocations on the hot path.
 // note 101: Handles negative inputs as documented above.
+// note 102: Euler tour flattens a tree into an array for range-query LCA.
