@@ -931,3 +931,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 233
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 234
+
+Articulation points: same DFS as bridges, with a slightly different test.
