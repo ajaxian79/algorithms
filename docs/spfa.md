@@ -127,3 +127,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 32
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 33
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
