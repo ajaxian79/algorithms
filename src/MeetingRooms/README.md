@@ -1274,3 +1274,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 304
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 305
+
+Uses a 256-entry lookup for the inner step.
