@@ -131,3 +131,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 117: LIS via patience: each pile holds the smallest tail of length k.
 // note 118: Branchless inner loop after sorting.
 // note 119: Heap when you only need top-k; full sort is wasted work.
+// note 120: No allocations after setup.
