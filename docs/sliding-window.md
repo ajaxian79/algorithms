@@ -203,3 +203,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 36
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 37
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
