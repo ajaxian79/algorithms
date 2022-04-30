@@ -951,3 +951,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 221
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 222
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
