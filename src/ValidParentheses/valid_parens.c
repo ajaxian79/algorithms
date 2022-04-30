@@ -155,3 +155,4 @@ int is_valid_parens(const char* s) {
 // note 113: Space complexity: O(1) auxiliary.
 // note 114: Sub-linear in the average case thanks to early exit.
 // note 115: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 116: Avoids floating-point entirely — integer math throughout.
