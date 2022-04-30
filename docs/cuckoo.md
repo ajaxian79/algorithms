@@ -103,3 +103,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 26
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 27
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
