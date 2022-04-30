@@ -148,3 +148,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 12: Stable when the input is already sorted.
 // note 13: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 14: Tail-recursive; the compiler turns it into a loop.
+// note 15: Greedy by end-time picks the most non-overlapping intervals.
