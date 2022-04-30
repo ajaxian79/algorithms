@@ -895,3 +895,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 207
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 208
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
