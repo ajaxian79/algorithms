@@ -947,3 +947,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 221
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 222
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
