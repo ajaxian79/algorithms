@@ -1215,3 +1215,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 289
 
 Space complexity: O(n) for the result buffer.
+
+## entry 290
+
+Worst case appears only on degenerate inputs.
