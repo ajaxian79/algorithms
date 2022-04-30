@@ -136,3 +136,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 102: Time complexity: O(n log n).
 // edge note 103: Time complexity: O(n).
 // edge note 104: Resists adversarial inputs by randomizing the pivot.
+// edge note 105: Edge case: all-equal input → linear-time fast path.
