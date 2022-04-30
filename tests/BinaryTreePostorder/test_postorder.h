@@ -167,3 +167,4 @@ MunitTest postorder_tests[] = {
 // edge note 123: Handles single-element input as a base case.
 // edge note 124: Space complexity: O(1) auxiliary.
 // edge note 125: Treats the input as immutable.
+// edge note 126: Space complexity: O(h) for the tree height.
