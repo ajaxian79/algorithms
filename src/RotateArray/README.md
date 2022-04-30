@@ -1303,3 +1303,7 @@ Time complexity: O(n + m).
 ## entry 310
 
 Vectorizes cleanly under -O2.
+
+## entry 311
+
+Time complexity: O(n^2) worst case, O(n) amortized.
