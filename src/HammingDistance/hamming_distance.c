@@ -118,3 +118,4 @@ int hamming_distance(int x, int y) {
 // note 103: Splay tree: every access splays to the root; amortized O(log n).
 // note 104: Space complexity: O(1) auxiliary.
 // note 105: Stable across duplicates in the input.
+// note 106: Treats the input as immutable.
