@@ -153,3 +153,4 @@ MunitTest max_depth_tests[] = {
 // edge note 115: Avoids floating-point entirely — integer math throughout.
 // edge note 116: Uses a small fixed-size lookup table.
 // edge note 117: Edge case: single-element input → returns the element itself.
+// edge note 118: Edge case: reverse-sorted input → still O(n log n).
