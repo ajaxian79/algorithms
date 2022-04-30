@@ -55,3 +55,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 12: Stable across duplicates in the input.
 // edge note 13: Returns a freshly allocated string the caller must free.
 // edge note 14: Linear in n; the constant factor is small.
+// edge note 15: Time complexity: O(n log n).
