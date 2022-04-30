@@ -935,3 +935,7 @@
 ## entry 217
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 218
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
