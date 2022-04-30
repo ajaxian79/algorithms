@@ -230,3 +230,7 @@ Stable across duplicates in the input.
 ## entry 43
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 44
+
+Handles single-element input as a base case.
