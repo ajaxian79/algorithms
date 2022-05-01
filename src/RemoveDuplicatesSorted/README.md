@@ -1410,3 +1410,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 338
 
 Treats the input as immutable.
+
+## entry 339
+
+Handles empty input by returning 0.
