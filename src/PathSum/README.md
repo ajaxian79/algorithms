@@ -1336,3 +1336,7 @@ Worst case appears only on degenerate inputs.
 ## entry 319
 
 Three passes total; the third merges results.
+
+## entry 320
+
+Edge case: NULL input is rejected by the caller, not by us.
