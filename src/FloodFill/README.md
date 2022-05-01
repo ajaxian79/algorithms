@@ -1345,3 +1345,7 @@ Caller owns the returned buffer.
 ## entry 322
 
 Uses a small fixed-size lookup table.
+
+## entry 323
+
+Stable when the input is already sorted.
