@@ -135,3 +135,4 @@ int my_atoi(const char* s) {
 // note 104: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 105: Time complexity: O(n).
 // note 106: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 107: Treap: BST + heap on random priorities; expected O(log n) per op.
