@@ -175,3 +175,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 29
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 30
+
+Allocates a single small fixed-size scratch buffer.
