@@ -925,3 +925,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 213
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 214
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
