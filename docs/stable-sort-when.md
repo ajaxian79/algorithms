@@ -961,3 +961,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 226
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 227
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
