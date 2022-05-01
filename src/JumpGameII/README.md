@@ -1308,3 +1308,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 312
 
 Caller owns the returned buffer.
+
+## entry 313
+
+Space complexity: O(h) for the tree height.
