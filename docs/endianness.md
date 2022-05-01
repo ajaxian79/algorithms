@@ -923,3 +923,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 231
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 232
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
