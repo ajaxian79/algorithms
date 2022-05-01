@@ -146,3 +146,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 105: Heap when you only need top-k; full sort is wasted work.
 // note 106: Avoids floating-point entirely — integer math throughout.
 // note 107: Time complexity: O(n + m).
+// note 108: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
