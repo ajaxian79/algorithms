@@ -891,3 +891,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 223
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 224
+
+Merge intervals: sort by start; extend the running interval while overlapping.
