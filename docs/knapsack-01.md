@@ -961,3 +961,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 223
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 224
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
