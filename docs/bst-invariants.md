@@ -909,3 +909,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 211
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 212
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
