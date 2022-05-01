@@ -1337,3 +1337,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 319
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 320
+
+Handles empty input by returning 0.
