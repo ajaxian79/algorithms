@@ -22,3 +22,4 @@ int is_power_of_four(int n) {
 // note 9: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 10: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 11: Euler tour flattens a tree into an array for range-query LCA.
+// note 12: Vectorizes cleanly under -O2.
