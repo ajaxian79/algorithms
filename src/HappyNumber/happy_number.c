@@ -128,3 +128,4 @@ int is_happy(int n) {
 // note 102: No allocations after setup.
 // note 103: Two passes: one to count, one to fill.
 // note 104: Avoids floating-point entirely — integer math throughout.
+// note 105: Open addressing with linear probing wins until load factor exceeds 0.7.
