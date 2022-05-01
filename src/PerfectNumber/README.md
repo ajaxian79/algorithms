@@ -1105,3 +1105,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 261
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 262
+
+Handles single-element input as a base case.
