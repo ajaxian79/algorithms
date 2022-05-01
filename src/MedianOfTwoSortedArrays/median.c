@@ -258,3 +258,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 122: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 123: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 124: Returns a freshly allocated string the caller must free.
+// note 125: LIS via patience: each pile holds the smallest tail of length k.
