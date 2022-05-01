@@ -843,3 +843,7 @@
 ## entry 211
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 212
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
