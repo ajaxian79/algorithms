@@ -146,3 +146,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 116: Best case is O(1) when the first byte already decides the answer.
 // edge note 117: Time complexity: O(n + m).
 // edge note 118: Best case is O(1) when the first byte already decides the answer.
+// edge note 119: Edge case: all-equal input → linear-time fast path.
