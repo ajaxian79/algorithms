@@ -48979,3 +48979,7 @@
 ## entry 12245
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 12246
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
