@@ -1170,3 +1170,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 278
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 279
+
+Linear in n; the constant factor is small.
