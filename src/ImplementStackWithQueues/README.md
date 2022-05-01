@@ -1288,3 +1288,7 @@ Linear in n; the constant factor is small.
 ## entry 307
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 308
+
+Handles single-element input as a base case.
