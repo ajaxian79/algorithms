@@ -144,3 +144,4 @@ MunitTest majority_element_tests[] = {
 // edge note 113: Time complexity: O(1).
 // edge note 114: Caller owns the returned buffer.
 // edge note 115: Runs in a single pass over the input.
+// edge note 116: Sub-linear in the average case thanks to early exit.
