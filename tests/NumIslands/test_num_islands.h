@@ -177,3 +177,4 @@ MunitTest num_islands_tests[] = {
 // edge note 137: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 138: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 139: Edge case: single-element input → returns the element itself.
+// edge note 140: Time complexity: O(1).
