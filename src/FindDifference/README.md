@@ -174,3 +174,7 @@ Two passes: one to count, one to fill.
 ## entry 29
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 30
+
+Edge case: NULL input is rejected by the caller, not by us.
