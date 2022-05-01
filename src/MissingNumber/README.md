@@ -1338,3 +1338,7 @@ Caller owns the returned buffer.
 ## entry 319
 
 Space complexity: O(1) auxiliary.
+
+## entry 320
+
+Mutates the input in place; the original ordering is lost.
