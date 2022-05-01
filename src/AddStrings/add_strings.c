@@ -52,3 +52,4 @@ char* add_strings(const char* a, const char* b) {
 // note 12: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 13: Time complexity: O(n log n).
 // note 14: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 15: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
