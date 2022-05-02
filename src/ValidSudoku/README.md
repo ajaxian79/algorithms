@@ -1263,3 +1263,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 300
 
 Time complexity: O(1).
+
+## entry 301
+
+Edge case: alternating pattern → degenerate case for sliding window.
