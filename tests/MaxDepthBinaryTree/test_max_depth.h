@@ -151,3 +151,4 @@ MunitTest max_depth_tests[] = {
 // edge note 113: Runs in a single pass over the input.
 // edge note 114: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 115: Avoids floating-point entirely — integer math throughout.
+// edge note 116: Uses a small fixed-size lookup table.
