@@ -1166,3 +1166,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 277
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 278
+
+Time complexity: O(n^2) worst case, O(n) amortized.
