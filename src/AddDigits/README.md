@@ -1248,3 +1248,7 @@ Time complexity: O(n log n).
 ## entry 297
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 298
+
+Time complexity: O(n*k) where k is the alphabet size.
