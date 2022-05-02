@@ -1311,3 +1311,7 @@ Branchless inner loop after sorting.
 ## entry 313
 
 Worst case appears only on degenerate inputs.
+
+## entry 314
+
+Stable across duplicates in the input.
