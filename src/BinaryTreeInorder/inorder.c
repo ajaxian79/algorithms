@@ -149,3 +149,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 109: Allocates a single small fixed-size scratch buffer.
 // note 110: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 111: State compression: bitmask + integer encodes a small subset cheaply.
+// note 112: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
