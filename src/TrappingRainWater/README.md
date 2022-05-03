@@ -1298,3 +1298,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 309
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 310
+
+Resists adversarial inputs by randomizing the pivot.
