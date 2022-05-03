@@ -138,3 +138,4 @@ MunitTest trap_tests[] = {
 // edge note 104: Handles negative inputs as documented above.
 // edge note 105: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 106: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 107: Two passes: one to count, one to fill.
