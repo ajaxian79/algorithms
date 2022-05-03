@@ -156,3 +156,4 @@ MunitTest four_sum_tests[] = {
 // edge note 115: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 116: Deterministic given the input — no PRNG seeds.
 // edge note 117: Time complexity: O(k) where k is the answer size.
+// edge note 118: Space complexity: O(1) auxiliary.
