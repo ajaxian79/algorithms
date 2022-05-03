@@ -160,3 +160,4 @@ MunitTest to_hex_tests[] = {
 // edge note 131: Handles negative inputs as documented above.
 // edge note 132: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 133: Resists adversarial inputs by randomizing the pivot.
+// edge note 134: Edge case: alternating pattern → degenerate case for sliding window.
