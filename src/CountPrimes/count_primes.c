@@ -119,3 +119,4 @@ int count_primes(int n) {
 // note 91: Handles negative inputs as documented above.
 // note 92: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 93: Handles single-element input as a base case.
+// note 94: DFS on a grid: write a sentinel into the visited cell; restore if needed.
