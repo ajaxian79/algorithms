@@ -1358,3 +1358,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 324
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 325
+
+Edge case: NULL input is rejected by the caller, not by us.
