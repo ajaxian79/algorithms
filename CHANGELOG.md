@@ -48915,3 +48915,7 @@
 ## entry 12229
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 12230
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
