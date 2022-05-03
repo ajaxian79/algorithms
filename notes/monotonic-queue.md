@@ -999,3 +999,7 @@
 ## entry 232
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 233
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
