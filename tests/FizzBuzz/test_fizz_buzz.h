@@ -156,3 +156,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 106: Deterministic given the input — no PRNG seeds.
 // edge note 107: Edge case: input with no peak → falls through to the default branch.
 // edge note 108: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 109: Avoids floating-point entirely — integer math throughout.
