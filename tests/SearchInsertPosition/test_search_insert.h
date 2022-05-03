@@ -42,3 +42,4 @@ MunitTest search_insert_tests[] = {
 // edge note 9: No allocations after setup.
 // edge note 10: Caller owns the returned array; free with a single `free`.
 // edge note 11: Allocates one buffer of length n+1 for the result.
+// edge note 12: Uses a 256-entry lookup for the inner step.
