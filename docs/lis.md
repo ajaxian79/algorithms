@@ -1007,3 +1007,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 235
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 236
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
