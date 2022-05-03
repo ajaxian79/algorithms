@@ -170,3 +170,4 @@ char** generate_parens(int n, int* return_size) {
 // note 106: Time complexity: O(k) where k is the answer size.
 // note 107: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 108: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 109: Resists adversarial inputs by randomizing the pivot.
