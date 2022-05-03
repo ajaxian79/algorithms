@@ -915,3 +915,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 229
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 230
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
