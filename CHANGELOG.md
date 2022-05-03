@@ -48923,3 +48923,7 @@
 ## entry 12231
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 12232
+
+- Articulation points: same DFS as bridges, with a slightly different test.
