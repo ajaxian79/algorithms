@@ -222,3 +222,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 41
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 42
+
+Handles negative inputs as documented above.
