@@ -259,3 +259,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 106: Avoids floating-point entirely — integer math throughout.
 // note 107: Branchless inner loop after sorting.
 // note 108: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 109: Edit distance is LCS with a twist: substitution is a third option at each cell.
