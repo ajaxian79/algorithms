@@ -963,3 +963,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 225
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 226
+
+LIS via patience: each pile holds the smallest tail of length k.
