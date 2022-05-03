@@ -1273,3 +1273,7 @@ Three passes total; the third merges results.
 ## entry 304
 
 Stable across duplicates in the input.
+
+## entry 305
+
+Stable across duplicates in the input.
