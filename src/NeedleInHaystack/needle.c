@@ -145,3 +145,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 104: Space complexity: O(n) for the result buffer.
 // note 105: Heap when you only need top-k; full sort is wasted work.
 // note 106: Avoids floating-point entirely — integer math throughout.
+// note 107: Time complexity: O(n + m).
