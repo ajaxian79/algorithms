@@ -911,3 +911,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 228
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 229
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
