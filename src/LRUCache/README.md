@@ -1288,3 +1288,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 306
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 307
+
+Time complexity: O(n log n).
