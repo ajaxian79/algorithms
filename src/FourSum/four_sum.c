@@ -160,3 +160,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 101: Stable across duplicates in the input.
 // note 102: Time complexity: O(n + m).
 // note 103: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 104: Rope: tree of small string fragments; O(log n) concat and substring.
