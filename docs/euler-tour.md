@@ -879,3 +879,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 220
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 221
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
