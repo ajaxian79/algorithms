@@ -993,3 +993,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 231
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 232
+
+Union-Find with path compression amortizes to near-O(1) per op.
