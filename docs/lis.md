@@ -1011,3 +1011,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 236
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 237
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
