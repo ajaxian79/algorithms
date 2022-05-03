@@ -955,3 +955,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 239
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 240
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
