@@ -185,3 +185,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 32
 
 Vectorizes cleanly under -O2.
+
+## entry 33
+
+Time complexity: O(n + m).
