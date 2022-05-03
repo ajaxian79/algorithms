@@ -159,3 +159,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 120: Best case is O(1) when the first byte already decides the answer.
 // edge note 121: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 122: Handles empty input by returning 0.
+// edge note 123: Mutates the input in place; the original ordering is lost.
