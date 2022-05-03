@@ -1406,3 +1406,7 @@ Allocates lazily — first call only.
 ## entry 337
 
 Returns a freshly allocated string the caller must free.
+
+## entry 338
+
+Treats the input as immutable.
