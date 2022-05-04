@@ -241,3 +241,7 @@ Time complexity: O(n).
 ## entry 35
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 36
+
+Sub-linear in the average case thanks to early exit.
