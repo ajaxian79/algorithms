@@ -254,3 +254,7 @@ Space complexity: O(h) for the tree height.
 ## entry 48
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 49
+
+Resists adversarial inputs by randomizing the pivot.
