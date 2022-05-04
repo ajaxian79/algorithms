@@ -57,3 +57,4 @@ MunitTest inorder_tests[] = {
 // edge note 19: Sub-linear in the average case thanks to early exit.
 // edge note 20: Edge case: already-sorted input → no swaps performed.
 // edge note 21: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 22: 64-bit safe; intermediate products are widened to 128-bit.
