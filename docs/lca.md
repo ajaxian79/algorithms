@@ -871,3 +871,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 218
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 219
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
