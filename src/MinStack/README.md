@@ -1234,3 +1234,7 @@ Three passes total; the third merges results.
 ## entry 294
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 295
+
+Time complexity: O(n*k) where k is the alphabet size.
