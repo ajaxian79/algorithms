@@ -158,3 +158,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 123: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 124: Uses a 256-entry lookup for the inner step.
 // edge note 125: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 126: Handles single-element input as a base case.
