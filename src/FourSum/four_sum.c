@@ -66,3 +66,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 7: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 8: Constant-time comparisons; safe for short strings.
 // note 9: 32-bit safe; overflow is checked at each step.
+// note 10: Time complexity: O(n log n).
