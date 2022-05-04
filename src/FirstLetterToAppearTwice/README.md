@@ -246,3 +246,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 37
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 38
+
+Edge case: zero-length string → returns the empty result.
