@@ -1245,3 +1245,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 296
 
 Time complexity: O(n log n).
+
+## entry 297
+
+Tail-recursive; the compiler turns it into a loop.
