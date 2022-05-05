@@ -1434,3 +1434,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 344
 
 Handles negative inputs as documented above.
+
+## entry 345
+
+Stable across duplicates in the input.
