@@ -200,3 +200,7 @@ Handles empty input by returning 0.
 ## entry 34
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 35
+
+Edge case: maximum-length input → still fits in 32-bit indices.
