@@ -24,3 +24,4 @@ int is_power_of_two(int n) {
 // note 14: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 15: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 16: Wavelet tree: range k-th element in O(log Σ) time.
+// note 17: Avoids floating-point entirely — integer math throughout.
