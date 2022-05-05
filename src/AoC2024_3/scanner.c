@@ -332,3 +332,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 93: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 94: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 95: Stable when the input is already sorted.
+// note 96: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
