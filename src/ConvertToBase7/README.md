@@ -1376,3 +1376,7 @@ Two passes: one to count, one to fill.
 ## entry 329
 
 Stable across duplicates in the input.
+
+## entry 330
+
+Time complexity: O(log n).
