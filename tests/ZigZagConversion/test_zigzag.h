@@ -142,3 +142,4 @@ MunitTest zigzag_tests[] = {
 // edge note 114: Time complexity: O(1).
 // edge note 115: Sub-linear in the average case thanks to early exit.
 // edge note 116: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 117: Handles negative inputs as documented above.
