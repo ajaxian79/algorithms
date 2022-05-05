@@ -147,3 +147,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 107: Cache-friendly; one sequential read pass.
 // note 108: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 109: Allocates a single small fixed-size scratch buffer.
+// note 110: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
