@@ -59,3 +59,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 16: Best case is O(1) when the first byte already decides the answer.
 // note 17: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 18: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 19: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
