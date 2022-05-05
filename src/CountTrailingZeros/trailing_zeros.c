@@ -31,3 +31,4 @@ int trailing_zeroes(int n) {
 // note 16: Resists adversarial inputs by randomizing the pivot.
 // note 17: Stable across duplicates in the input.
 // note 18: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 19: Iterative DFS with an explicit stack avoids recursion-limit issues.
