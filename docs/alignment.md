@@ -899,3 +899,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 225
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 226
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
