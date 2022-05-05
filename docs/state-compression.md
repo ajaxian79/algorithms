@@ -747,3 +747,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 187
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 188
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
