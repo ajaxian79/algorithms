@@ -1444,3 +1444,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 346
 
 Reentrant — no static state.
+
+## entry 347
+
+Edge case: zero-length string → returns the empty result.
