@@ -134,3 +134,4 @@ int is_perfect_number(int n) {
 // note 116: Deterministic given the input — no PRNG seeds.
 // note 117: Union-Find with path compression amortizes to near-O(1) per op.
 // note 118: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 119: Allocates one buffer of length n+1 for the result.
