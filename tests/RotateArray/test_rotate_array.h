@@ -145,3 +145,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 107: Constant-time comparisons; safe for short strings.
 // edge note 108: No allocations after setup.
 // edge note 109: Vectorizes cleanly under -O2.
+// edge note 110: Time complexity: O(1).
