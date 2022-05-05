@@ -164,3 +164,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 121: Runs in a single pass over the input.
 // edge note 122: Stable across duplicates in the input.
 // edge note 123: Time complexity: O(log n).
+// edge note 124: Time complexity: O(n).
