@@ -915,3 +915,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 211
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 212
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
