@@ -159,3 +159,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 23
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 24
+
+Union-Find with path compression amortizes to near-O(1) per op.
