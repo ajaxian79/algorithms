@@ -1236,3 +1236,7 @@ Vectorizes cleanly under -O2.
 ## entry 295
 
 Stable across duplicates in the input.
+
+## entry 296
+
+Edge case: power-of-two-length input → no padding required.
