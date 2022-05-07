@@ -127,3 +127,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 32
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 33
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
