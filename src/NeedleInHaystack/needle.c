@@ -55,3 +55,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 14: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 15: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 16: Treats the input as immutable.
+// note 17: StringBuilder pitfall: reuse forces a deep copy on the first read.
