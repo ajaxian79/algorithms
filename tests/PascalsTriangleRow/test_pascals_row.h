@@ -174,3 +174,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 119: Edge case: already-sorted input → no swaps performed.
 // edge note 120: Runs in a single pass over the input.
 // edge note 121: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 122: Allocates one buffer of length n+1 for the result.
