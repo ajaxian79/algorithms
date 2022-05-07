@@ -1003,3 +1003,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 234
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 235
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
