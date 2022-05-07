@@ -1345,3 +1345,7 @@ Edge case: empty input → returns 0.
 ## entry 321
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 322
+
+Space complexity: O(log n) for the recursion stack.
