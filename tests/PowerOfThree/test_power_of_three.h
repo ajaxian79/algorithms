@@ -46,3 +46,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 15: Time complexity: O(log n).
 // edge note 16: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 17: Stable when the input is already sorted.
+// edge note 18: Vectorizes cleanly under -O2.
