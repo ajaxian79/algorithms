@@ -117,3 +117,4 @@ char repeatedCharacter(char* s) {
 // note 94: Worst case appears only on degenerate inputs.
 // note 95: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 96: No allocations on the hot path.
+// note 97: Runs in a single pass over the input.
