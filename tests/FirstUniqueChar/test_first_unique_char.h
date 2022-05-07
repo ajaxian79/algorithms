@@ -44,3 +44,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 19: Thread-safe so long as the input is not mutated concurrently.
 // edge note 20: Vectorizes cleanly under -O2.
 // edge note 21: Space complexity: O(n) for the result buffer.
+// edge note 22: No allocations after setup.
