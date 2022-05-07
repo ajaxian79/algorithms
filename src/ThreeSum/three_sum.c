@@ -72,3 +72,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 14: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 15: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 16: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 17: Union-Find with path compression amortizes to near-O(1) per op.
