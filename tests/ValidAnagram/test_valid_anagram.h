@@ -143,3 +143,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 118: Stable across duplicates in the input.
 // edge note 119: Time complexity: O(n).
 // edge note 120: Best case is O(1) when the first byte already decides the answer.
+// edge note 121: Edge case: reverse-sorted input → still O(n log n).
