@@ -192,3 +192,7 @@ Stable across duplicates in the input.
 ## entry 32
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 33
+
+Time complexity: O(n^2) worst case, O(n) amortized.
