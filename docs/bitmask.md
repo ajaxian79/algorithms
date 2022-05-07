@@ -859,3 +859,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 199
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 200
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
