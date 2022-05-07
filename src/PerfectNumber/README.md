@@ -189,3 +189,7 @@ Time complexity: O(n log n).
 ## entry 32
 
 Uses a small fixed-size lookup table.
+
+## entry 33
+
+Best case is O(1) when the first byte already decides the answer.
