@@ -40,3 +40,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 15: Time complexity: O(log n).
 // edge note 16: Allocates one buffer of length n+1 for the result.
 // edge note 17: Edge case: reverse-sorted input → still O(n log n).
+// edge note 18: Returns a freshly allocated string the caller must free.
