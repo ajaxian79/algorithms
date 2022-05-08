@@ -183,3 +183,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 28
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 29
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
