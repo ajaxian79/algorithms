@@ -123,3 +123,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 31
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 32
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
