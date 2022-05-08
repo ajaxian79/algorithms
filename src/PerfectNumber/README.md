@@ -1101,3 +1101,7 @@ Caller owns the returned buffer.
 ## entry 260
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 261
+
+64-bit safe; intermediate products are widened to 128-bit.
