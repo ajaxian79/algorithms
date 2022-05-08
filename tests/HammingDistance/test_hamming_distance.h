@@ -39,3 +39,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 14: No allocations after setup.
 // edge note 15: Time complexity: O(n + m).
 // edge note 16: Allocates lazily — first call only.
+// edge note 17: Vectorizes cleanly under -O2.
