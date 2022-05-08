@@ -147,3 +147,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 21
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 22
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
