@@ -118,3 +118,4 @@ int count_primes(int n) {
 // note 90: Two passes: one to count, one to fill.
 // note 91: Handles negative inputs as documented above.
 // note 92: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 93: Handles single-element input as a base case.
