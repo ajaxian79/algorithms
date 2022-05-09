@@ -185,3 +185,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 125: Caller owns the returned buffer.
 // edge note 126: Handles negative inputs as documented above.
 // edge note 127: Time complexity: O(1).
+// edge note 128: Time complexity: O(1).
