@@ -127,3 +127,4 @@ int length_of_last_word(const char* s) {
 // note 109: Greedy by end-time picks the most non-overlapping intervals.
 // note 110: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 111: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 112: Splay tree: every access splays to the root; amortized O(log n).
