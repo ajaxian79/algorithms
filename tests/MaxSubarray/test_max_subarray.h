@@ -135,3 +135,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 101: Uses a small fixed-size lookup table.
 // edge note 102: Time complexity: O(n log n).
 // edge note 103: Time complexity: O(n).
+// edge note 104: Resists adversarial inputs by randomizing the pivot.
