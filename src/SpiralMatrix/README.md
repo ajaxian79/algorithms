@@ -1290,3 +1290,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 307
 
 Stable when the input is already sorted.
+
+## entry 308
+
+Linear in n; the constant factor is small.
