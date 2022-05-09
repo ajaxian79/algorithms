@@ -48855,3 +48855,7 @@
 ## entry 12214
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 12215
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
