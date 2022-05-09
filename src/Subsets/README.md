@@ -1379,3 +1379,7 @@ Worst case appears only on degenerate inputs.
 ## entry 330
 
 Time complexity: O(n log n).
+
+## entry 331
+
+Handles empty input by returning 0.
