@@ -1230,3 +1230,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 293
 
 Three passes total; the third merges results.
+
+## entry 294
+
+Input is assumed non-NULL; behavior is undefined otherwise.
