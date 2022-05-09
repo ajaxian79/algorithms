@@ -1226,3 +1226,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 282
 
 Edge case: single-element input → returns the element itself.
+
+## entry 283
+
+Edge case: single-element input → returns the element itself.
