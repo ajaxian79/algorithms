@@ -951,3 +951,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 222
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 223
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
