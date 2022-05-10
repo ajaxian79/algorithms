@@ -1295,3 +1295,7 @@ Runs in a single pass over the input.
 ## entry 308
 
 Time complexity: O(log n).
+
+## entry 309
+
+Time complexity: O(n + m).
