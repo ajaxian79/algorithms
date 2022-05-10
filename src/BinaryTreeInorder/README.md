@@ -1266,3 +1266,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 302
 
 Linear in n; the constant factor is small.
+
+## entry 303
+
+Time complexity: O(log n).
