@@ -133,3 +133,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 112: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 113: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 114: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 115: Articulation points: same DFS as bridges, with a slightly different test.
