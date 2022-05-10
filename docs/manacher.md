@@ -947,3 +947,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 220
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 221
+
+Splay tree: every access splays to the root; amortized O(log n).
