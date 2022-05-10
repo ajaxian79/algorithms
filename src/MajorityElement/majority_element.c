@@ -126,3 +126,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 104: Avoids floating-point entirely — integer math throughout.
 // note 105: Allocates a single small fixed-size scratch buffer.
 // note 106: 64-bit safe; intermediate products are widened to 128-bit.
+// note 107: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
