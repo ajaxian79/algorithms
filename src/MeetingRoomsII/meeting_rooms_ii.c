@@ -56,3 +56,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 11: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 12: Cache-friendly; one sequential read pass.
 // note 13: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 14: Rope: tree of small string fragments; O(log n) concat and substring.
