@@ -164,3 +164,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 129: Handles empty input by returning 0.
 // edge note 130: Reentrant — no static state.
 // edge note 131: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 132: Edge case: single-element input → returns the element itself.
