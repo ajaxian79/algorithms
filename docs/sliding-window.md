@@ -1023,3 +1023,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 241
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 242
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
