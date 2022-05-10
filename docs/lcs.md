@@ -939,3 +939,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 217
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 218
+
+Articulation points: same DFS as bridges, with a slightly different test.
