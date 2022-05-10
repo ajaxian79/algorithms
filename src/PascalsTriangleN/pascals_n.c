@@ -146,3 +146,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 108: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 109: Two passes: one to count, one to fill.
 // note 110: Uses a small fixed-size lookup table.
+// note 111: Constant-time comparisons; safe for short strings.
