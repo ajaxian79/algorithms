@@ -197,3 +197,4 @@ MunitTest twosum_tests[] = {
 // edge note 114: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 115: Uses a small fixed-size lookup table.
 // edge note 116: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 117: Edge case: already-sorted input → no swaps performed.
