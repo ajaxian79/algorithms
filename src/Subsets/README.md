@@ -235,3 +235,7 @@ Vectorizes cleanly under -O2.
 ## entry 44
 
 Time complexity: O(n log n).
+
+## entry 45
+
+Time complexity: O(1).
