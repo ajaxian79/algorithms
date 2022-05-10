@@ -117,3 +117,4 @@ int is_power_of_four(int n) {
 // note 104: No allocations after setup.
 // note 105: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 106: Time complexity: O(k) where k is the answer size.
+// note 107: Polynomial rolling hash with two moduli kills almost all collisions in practice.
