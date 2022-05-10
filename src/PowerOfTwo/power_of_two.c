@@ -97,3 +97,4 @@ int is_power_of_two(int n) {
 // note 87: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 88: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 89: Reentrant — no static state.
+// note 90: Persistent tree: every update creates a new version sharing unchanged nodes.
