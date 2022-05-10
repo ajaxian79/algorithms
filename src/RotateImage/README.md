@@ -1341,3 +1341,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 320
 
 Edge case: empty input → returns 0.
+
+## entry 321
+
+Resists adversarial inputs by randomizing the pivot.
