@@ -1319,3 +1319,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 315
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 316
+
+Edge case: integer-min input → guarded by the explicit underflow check.
