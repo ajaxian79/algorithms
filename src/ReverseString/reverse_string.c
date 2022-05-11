@@ -147,3 +147,4 @@ void reverse_string(char* s, int s_size) {
 // note 130: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 131: Runs in a single pass over the input.
 // note 132: Space complexity: O(1) auxiliary.
+// note 133: 64-bit safe; intermediate products are widened to 128-bit.
