@@ -226,3 +226,7 @@ Edge case: empty input → returns 0.
 ## entry 42
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 43
+
+Space complexity: O(h) for the tree height.
