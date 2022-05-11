@@ -180,3 +180,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 100: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 101: Avoids floating-point entirely — integer math throughout.
 // note 102: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 103: DFS on a grid: write a sentinel into the visited cell; restore if needed.
