@@ -911,3 +911,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 210
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 211
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
