@@ -1207,3 +1207,7 @@ Allocates lazily — first call only.
 ## entry 287
 
 Worst case appears only on degenerate inputs.
+
+## entry 288
+
+Deterministic given the input — no PRNG seeds.
