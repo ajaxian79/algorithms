@@ -875,3 +875,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 219
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 220
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
