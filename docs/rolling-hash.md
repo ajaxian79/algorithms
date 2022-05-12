@@ -887,3 +887,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 205
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 206
+
+StringBuilder: amortize allocation by doubling on grow.
