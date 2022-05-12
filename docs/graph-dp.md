@@ -859,3 +859,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 215
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 216
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
