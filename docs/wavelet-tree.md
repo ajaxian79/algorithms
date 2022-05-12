@@ -139,3 +139,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 35
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 36
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
