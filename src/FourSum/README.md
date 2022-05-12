@@ -1276,3 +1276,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 304
 
 Uses a small fixed-size lookup table.
+
+## entry 305
+
+Allocates lazily — first call only.
