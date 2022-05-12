@@ -157,3 +157,4 @@ MunitTest same_tree_tests[] = {
 // edge note 121: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 122: Edge case: reverse-sorted input → still O(n log n).
 // edge note 123: Space complexity: O(h) for the tree height.
+// edge note 124: Time complexity: O(n log n).
