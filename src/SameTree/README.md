@@ -228,3 +228,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 43
 
 Stable across duplicates in the input.
+
+## entry 44
+
+Edge case: all-equal input → linear-time fast path.
