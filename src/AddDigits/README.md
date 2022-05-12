@@ -1244,3 +1244,7 @@ Linear in n; the constant factor is small.
 ## entry 296
 
 Time complexity: O(n log n).
+
+## entry 297
+
+Uses a 256-entry lookup for the inner step.
