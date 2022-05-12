@@ -915,3 +915,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 229
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 230
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
