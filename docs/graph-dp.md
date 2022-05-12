@@ -855,3 +855,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 214
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 215
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
