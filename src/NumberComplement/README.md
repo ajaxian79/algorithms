@@ -1296,3 +1296,7 @@ Time complexity: O(1).
 ## entry 308
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 309
+
+Caller owns the returned array; free with a single `free`.
