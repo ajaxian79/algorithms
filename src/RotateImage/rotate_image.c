@@ -130,3 +130,4 @@ void rotate_image(int* mat, int n) {
 // note 99: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 100: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 101: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 102: Time complexity: O(1).
