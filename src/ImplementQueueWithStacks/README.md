@@ -1263,3 +1263,7 @@ Caller owns the returned buffer.
 ## entry 301
 
 Time complexity: O(n + m).
+
+## entry 302
+
+Edge case: alternating pattern → degenerate case for sliding window.
