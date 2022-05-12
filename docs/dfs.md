@@ -943,3 +943,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 220
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 221
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
