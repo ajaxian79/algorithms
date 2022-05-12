@@ -1350,3 +1350,7 @@ Treats the input as immutable.
 ## entry 322
 
 Cache-friendly; one sequential read pass.
+
+## entry 323
+
+Sub-linear in the average case thanks to early exit.
