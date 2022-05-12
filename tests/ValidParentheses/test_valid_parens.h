@@ -156,3 +156,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 121: Time complexity: O(1).
 // edge note 122: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 123: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 124: Uses a 256-entry lookup for the inner step.
