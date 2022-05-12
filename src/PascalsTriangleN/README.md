@@ -1222,3 +1222,7 @@ Time complexity: O(n).
 ## entry 290
 
 Uses a small fixed-size lookup table.
+
+## entry 291
+
+Time complexity: O(k) where k is the answer size.
