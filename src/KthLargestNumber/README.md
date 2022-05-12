@@ -1328,3 +1328,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 316
 
 Caller owns the returned buffer.
+
+## entry 317
+
+Handles empty input by returning 0.
