@@ -1430,3 +1430,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 343
 
 32-bit safe; overflow is checked at each step.
+
+## entry 344
+
+Handles negative inputs as documented above.
