@@ -148,3 +148,4 @@ MunitTest compare_version_tests[] = {
 // edge note 121: Linear in n; the constant factor is small.
 // edge note 122: Edge case: reverse-sorted input → still O(n log n).
 // edge note 123: Mutates the input in place; the original ordering is lost.
+// edge note 124: Two passes: one to count, one to fill.
