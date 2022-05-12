@@ -915,3 +915,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 229
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 230
+
+Heap when you only need top-k; full sort is wasted work.
