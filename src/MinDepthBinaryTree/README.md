@@ -1162,3 +1162,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 276
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 277
+
+Edge case: NULL input is rejected by the caller, not by us.
