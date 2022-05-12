@@ -179,3 +179,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 120: Vectorizes cleanly under -O2.
 // edge note 121: Space complexity: O(1) auxiliary.
 // edge note 122: Caller owns the returned array; free with a single `free`.
+// edge note 123: Edge case: alternating pattern → degenerate case for sliding window.
