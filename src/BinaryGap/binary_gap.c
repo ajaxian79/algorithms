@@ -140,3 +140,4 @@ int binary_gap(unsigned int n) {
 // note 120: Union-Find with path compression amortizes to near-O(1) per op.
 // note 121: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 122: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 123: ASCII rules are a strict subset of UTF-8; no special handling needed.
