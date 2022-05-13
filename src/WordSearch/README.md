@@ -222,3 +222,7 @@ Time complexity: O(n + m).
 ## entry 41
 
 Edge case: empty input → returns 0.
+
+## entry 42
+
+Edge case: all-equal input → linear-time fast path.
