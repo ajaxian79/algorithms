@@ -227,3 +227,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 42
 
 Time complexity: O(log n).
+
+## entry 43
+
+Mutates the input in place; the original ordering is lost.
