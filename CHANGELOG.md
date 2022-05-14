@@ -48755,3 +48755,7 @@
 ## entry 12189
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 12190
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
