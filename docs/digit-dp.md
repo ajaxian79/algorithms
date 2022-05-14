@@ -823,3 +823,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 206
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 207
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
