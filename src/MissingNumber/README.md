@@ -238,3 +238,7 @@ Time complexity: O(n).
 ## entry 44
 
 Uses a small fixed-size lookup table.
+
+## entry 45
+
+Edge case: empty input → returns 0.
