@@ -941,3 +941,7 @@
 ## entry 219
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 220
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
