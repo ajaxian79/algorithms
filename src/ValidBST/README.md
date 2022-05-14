@@ -241,3 +241,7 @@ Time complexity: O(n + m).
 ## entry 45
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 46
+
+Space complexity: O(h) for the tree height.
