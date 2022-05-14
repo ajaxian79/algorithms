@@ -811,3 +811,7 @@
 ## entry 203
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 204
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
