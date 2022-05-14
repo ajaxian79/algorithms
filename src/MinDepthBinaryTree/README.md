@@ -1158,3 +1158,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 275
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 276
+
+Avoids floating-point entirely — integer math throughout.
