@@ -183,3 +183,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 28
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 29
+
+Merge intervals: sort by start; extend the running interval while overlapping.
