@@ -823,3 +823,7 @@
 ## entry 206
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 207
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
