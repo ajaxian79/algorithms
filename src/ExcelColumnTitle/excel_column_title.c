@@ -140,3 +140,4 @@ char* excel_column_title(int n) {
 // note 110: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 111: Thread-safe so long as the input is not mutated concurrently.
 // note 112: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 113: Caller owns the returned array; free with a single `free`.
