@@ -1029,3 +1029,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 241
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 242
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
