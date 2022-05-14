@@ -763,3 +763,7 @@
 ## entry 191
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 192
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
