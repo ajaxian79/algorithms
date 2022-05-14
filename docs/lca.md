@@ -867,3 +867,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 217
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 218
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
