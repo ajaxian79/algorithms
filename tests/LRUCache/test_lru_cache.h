@@ -58,3 +58,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 15: Uses a small fixed-size lookup table.
 // edge note 16: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 17: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 18: Edge case: empty input → returns 0.
