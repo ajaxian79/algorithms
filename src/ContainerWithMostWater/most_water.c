@@ -31,3 +31,4 @@ int max_area(const int* heights, int n) {
 // note 11: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 12: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 13: Branchless inner loop after sorting.
+// note 14: Hash collision: chain or open-address; chained handles arbitrary load factor.
