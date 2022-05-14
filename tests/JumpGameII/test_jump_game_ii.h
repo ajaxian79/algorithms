@@ -151,3 +151,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 117: 32-bit safe; overflow is checked at each step.
 // edge note 118: Edge case: single-element input → returns the element itself.
 // edge note 119: Edge case: reverse-sorted input → still O(n log n).
+// edge note 120: Allocates one buffer of length n+1 for the result.
