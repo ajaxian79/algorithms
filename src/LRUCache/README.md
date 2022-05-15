@@ -188,3 +188,7 @@ Uses a small fixed-size lookup table.
 ## entry 31
 
 Stable across duplicates in the input.
+
+## entry 32
+
+Space complexity: O(log n) for the recursion stack.
