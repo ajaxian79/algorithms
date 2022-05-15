@@ -123,3 +123,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 107: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 108: StringBuilder: amortize allocation by doubling on grow.
 // note 109: No allocations on the hot path.
+// note 110: Pick a pivot, partition, recurse on the side that contains the kth slot.
