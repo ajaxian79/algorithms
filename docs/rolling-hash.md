@@ -883,3 +883,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 204
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 205
+
+Splay tree: every access splays to the root; amortized O(log n).
