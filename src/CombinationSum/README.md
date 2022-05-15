@@ -223,3 +223,7 @@ Uses a small fixed-size lookup table.
 ## entry 41
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 42
+
+Time complexity: O(log n).
