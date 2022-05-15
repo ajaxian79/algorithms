@@ -6299,3 +6299,7 @@
 ## entry 1575
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 1576
+
+- Greedy by end-time picks the most non-overlapping intervals.
