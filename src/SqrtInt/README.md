@@ -1307,3 +1307,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 312
 
 Branchless inner loop after sorting.
+
+## entry 313
+
+Worst case appears only on degenerate inputs.
