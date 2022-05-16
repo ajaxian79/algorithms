@@ -879,3 +879,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 203
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 204
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
