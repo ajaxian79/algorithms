@@ -855,3 +855,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 198
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 199
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
