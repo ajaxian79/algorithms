@@ -911,3 +911,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 228
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 229
+
+State compression: bitmask + integer encodes a small subset cheaply.
