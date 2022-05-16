@@ -300,3 +300,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 91: Deterministic given the input — no PRNG seeds.
 // note 92: Treats the input as immutable.
 // note 93: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 94: Caller owns the returned buffer.
