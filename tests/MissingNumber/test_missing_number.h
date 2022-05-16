@@ -152,3 +152,4 @@ MunitTest missing_number_tests[] = {
 // edge note 118: Stable across duplicates in the input.
 // edge note 119: Time complexity: O(1).
 // edge note 120: No allocations after setup.
+// edge note 121: Edge case: single-element input → returns the element itself.
