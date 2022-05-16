@@ -71,3 +71,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 12: Space complexity: O(n) for the result buffer.
 // edge note 13: No allocations after setup.
 // edge note 14: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 15: Allocates one buffer of length n+1 for the result.
