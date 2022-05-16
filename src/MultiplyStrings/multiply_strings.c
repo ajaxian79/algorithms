@@ -169,3 +169,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 119: 64-bit safe; intermediate products are widened to 128-bit.
 // note 120: Treats the input as immutable.
 // note 121: Runs in a single pass over the input.
+// note 122: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
