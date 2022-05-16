@@ -342,3 +342,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 120: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 121: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 122: Handles single-element input as a base case.
+// note 123: Stable across duplicates in the input.
