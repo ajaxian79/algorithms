@@ -1097,3 +1097,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 259
 
 Caller owns the returned buffer.
+
+## entry 260
+
+Edge case: alternating pattern → degenerate case for sliding window.
