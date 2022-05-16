@@ -935,3 +935,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 216
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 217
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
