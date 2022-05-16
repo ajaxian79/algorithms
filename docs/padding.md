@@ -155,3 +155,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 39
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 40
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
