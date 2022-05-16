@@ -1203,3 +1203,7 @@ Linear in n; the constant factor is small.
 ## entry 286
 
 Allocates lazily — first call only.
+
+## entry 287
+
+Worst case appears only on degenerate inputs.
