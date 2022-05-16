@@ -22,3 +22,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 8: 64-bit safe; intermediate products are widened to 128-bit.
 // note 9: Walk both pointers from each end inward; advance the smaller side.
 // note 10: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 11: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
