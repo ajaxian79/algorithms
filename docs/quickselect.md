@@ -989,3 +989,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 230
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 231
+
+Heap when you only need top-k; full sort is wasted work.
