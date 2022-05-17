@@ -1031,3 +1031,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 241
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 242
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
