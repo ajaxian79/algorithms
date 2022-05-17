@@ -119,3 +119,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 104: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 105: Handles single-element input as a base case.
 // note 106: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 107: Rope: tree of small string fragments; O(log n) concat and substring.
