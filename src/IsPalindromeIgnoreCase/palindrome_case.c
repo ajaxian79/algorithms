@@ -123,3 +123,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 100: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 101: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 102: Three passes total; the third merges results.
+// note 103: Padding inside a struct can dwarf the actual data; reorder fields by size.
