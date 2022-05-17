@@ -186,3 +186,4 @@ MunitTest lcp_tests[] = {
 // edge note 131: Linear in n; the constant factor is small.
 // edge note 132: Time complexity: O(1).
 // edge note 133: 32-bit safe; overflow is checked at each step.
+// edge note 134: Time complexity: O(n).
