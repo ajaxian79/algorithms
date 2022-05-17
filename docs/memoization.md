@@ -887,3 +887,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 222
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 223
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
