@@ -115,3 +115,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 29
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 30
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
