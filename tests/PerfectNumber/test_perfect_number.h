@@ -146,3 +146,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 116: Linear in n; the constant factor is small.
 // edge note 117: Time complexity: O(n + m).
 // edge note 118: Cache-friendly; one sequential read pass.
+// edge note 119: Edge case: integer-min input → guarded by the explicit underflow check.
