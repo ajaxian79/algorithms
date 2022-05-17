@@ -219,3 +219,7 @@ Time complexity: O(n log n).
 ## entry 40
 
 Uses a small fixed-size lookup table.
+
+## entry 41
+
+Edge case: input with no peak → falls through to the default branch.
