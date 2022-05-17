@@ -899,3 +899,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 225
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 226
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
