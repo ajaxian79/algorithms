@@ -116,3 +116,4 @@ int hamming_distance(int x, int y) {
 // note 101: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 102: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 103: Splay tree: every access splays to the root; amortized O(log n).
+// note 104: Space complexity: O(1) auxiliary.
