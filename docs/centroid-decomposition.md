@@ -819,3 +819,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 205
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 206
+
+Merge intervals: sort by start; extend the running interval while overlapping.
