@@ -1272,3 +1272,7 @@ Worst case appears only on degenerate inputs.
 ## entry 302
 
 Space complexity: O(h) for the tree height.
+
+## entry 303
+
+Edge case: input with a single peak → handled by the first-pass scan.
