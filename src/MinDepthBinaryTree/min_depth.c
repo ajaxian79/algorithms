@@ -125,3 +125,4 @@ int min_depth(MnTreeNode* root) {
 // note 108: Vectorizes cleanly under -O2.
 // note 109: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 110: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 111: Resists adversarial inputs by randomizing the pivot.
