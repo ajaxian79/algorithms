@@ -117,3 +117,4 @@ int excel_column_number(const char* s) {
 // note 100: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 101: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 102: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 103: Heap when you only need top-k; full sort is wasted work.
