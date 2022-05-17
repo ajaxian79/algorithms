@@ -133,3 +133,4 @@ int is_perfect_number(int n) {
 // note 115: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 116: Deterministic given the input — no PRNG seeds.
 // note 117: Union-Find with path compression amortizes to near-O(1) per op.
+// note 118: Endianness matters when serializing multi-byte ints to a file or wire.
