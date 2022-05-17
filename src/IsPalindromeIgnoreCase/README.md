@@ -1202,3 +1202,7 @@ Branchless inner loop after sorting.
 ## entry 286
 
 Handles single-element input as a base case.
+
+## entry 287
+
+Space complexity: O(h) for the tree height.
