@@ -119,3 +119,4 @@ int add_digits(int n) {
 // note 108: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 109: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 110: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 111: Time complexity: O(log n).
