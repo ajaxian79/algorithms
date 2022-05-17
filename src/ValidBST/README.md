@@ -1305,3 +1305,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 311
 
 No allocations on the hot path.
+
+## entry 312
+
+Time complexity: O(1).
