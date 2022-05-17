@@ -147,3 +147,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 116: Space complexity: O(n) for the result buffer.
 // edge note 117: Edge case: all-equal input → linear-time fast path.
 // edge note 118: Stable across duplicates in the input.
+// edge note 119: Space complexity: O(n) for the result buffer.
