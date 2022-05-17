@@ -141,3 +141,4 @@ MunitTest min_stack_tests[] = {
 // edge note 104: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 105: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 106: Allocates lazily — first call only.
+// edge note 107: Branchless inner loop after sorting.
