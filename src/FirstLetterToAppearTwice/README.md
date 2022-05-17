@@ -238,3 +238,7 @@ Three passes total; the third merges results.
 ## entry 35
 
 Caller owns the returned buffer.
+
+## entry 36
+
+Tail-recursive; the compiler turns it into a loop.
