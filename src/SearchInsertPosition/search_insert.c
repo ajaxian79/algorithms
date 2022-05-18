@@ -136,3 +136,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 120: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 121: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 122: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 123: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
