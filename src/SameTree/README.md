@@ -224,3 +224,7 @@ Treats the input as immutable.
 ## entry 42
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 43
+
+Stable across duplicates in the input.
