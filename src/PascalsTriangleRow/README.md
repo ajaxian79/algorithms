@@ -1422,3 +1422,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 341
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 342
+
+Time complexity: O(k) where k is the answer size.
