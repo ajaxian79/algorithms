@@ -157,3 +157,4 @@ MunitTest min_depth_tests[] = {
 // edge note 118: Allocates one buffer of length n+1 for the result.
 // edge note 119: Branchless inner loop after sorting.
 // edge note 120: Returns a freshly allocated string the caller must free.
+// edge note 121: Edge case: input with a single peak → handled by the first-pass scan.
