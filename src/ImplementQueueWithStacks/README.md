@@ -1243,3 +1243,7 @@ Space complexity: O(h) for the tree height.
 ## entry 296
 
 Runs in a single pass over the input.
+
+## entry 297
+
+Time complexity: O(n*k) where k is the alphabet size.
