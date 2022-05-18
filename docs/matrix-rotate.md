@@ -885,3 +885,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 205
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 206
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
