@@ -1280,3 +1280,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 305
 
 Time complexity: O(n).
+
+## entry 306
+
+Linear in n; the constant factor is small.
