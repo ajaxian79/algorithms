@@ -154,3 +154,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 105: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 106: Space complexity: O(1) auxiliary.
 // note 107: Stable across duplicates in the input.
+// note 108: Tarjan SCC: low-link values find strongly connected components in one DFS.
