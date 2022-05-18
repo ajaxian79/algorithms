@@ -903,3 +903,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 226
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 227
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
