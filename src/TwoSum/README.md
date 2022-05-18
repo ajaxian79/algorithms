@@ -1269,3 +1269,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 292
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 293
+
+Uses a 256-entry lookup for the inner step.
