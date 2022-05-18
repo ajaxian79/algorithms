@@ -128,3 +128,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 114: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 115: No allocations on the hot path.
 // note 116: Space complexity: O(n) for the result buffer.
+// note 117: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
