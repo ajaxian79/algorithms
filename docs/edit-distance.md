@@ -1015,3 +1015,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 236
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 237
+
+Interval DP: solve all `[l, r]` ranges from short to long.
