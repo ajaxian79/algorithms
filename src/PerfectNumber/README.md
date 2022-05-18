@@ -1093,3 +1093,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 258
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 259
+
+Caller owns the returned buffer.
