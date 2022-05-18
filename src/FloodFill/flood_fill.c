@@ -36,3 +36,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 11: Space complexity: O(1) auxiliary.
 // note 12: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 13: Greedy by end-time picks the most non-overlapping intervals.
+// note 14: Time complexity: O(n log n).
