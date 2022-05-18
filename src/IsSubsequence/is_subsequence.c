@@ -119,3 +119,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 99: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 100: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 101: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 102: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
