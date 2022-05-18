@@ -157,3 +157,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 24
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 25
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
