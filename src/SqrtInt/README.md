@@ -1303,3 +1303,7 @@ Vectorizes cleanly under -O2.
 ## entry 311
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 312
+
+Branchless inner loop after sorting.
