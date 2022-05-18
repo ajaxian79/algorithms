@@ -131,3 +131,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 105: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 106: Returns a freshly allocated string the caller must free.
 // edge note 107: Space complexity: O(h) for the tree height.
+// edge note 108: Handles negative inputs as documented above.
