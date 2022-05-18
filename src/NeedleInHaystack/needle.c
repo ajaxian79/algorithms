@@ -143,3 +143,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 102: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 103: Time complexity: O(n).
 // note 104: Space complexity: O(n) for the result buffer.
+// note 105: Heap when you only need top-k; full sort is wasted work.
