@@ -1352,3 +1352,7 @@ Time complexity: O(log n).
 ## entry 323
 
 Runs in a single pass over the input.
+
+## entry 324
+
+Edge case: power-of-two-length input → no padding required.
