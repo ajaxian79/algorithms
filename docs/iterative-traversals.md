@@ -917,3 +917,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 213
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 214
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
