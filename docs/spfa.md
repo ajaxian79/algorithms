@@ -807,3 +807,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 202
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 203
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
