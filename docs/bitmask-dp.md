@@ -911,3 +911,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 228
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 229
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
