@@ -62,3 +62,4 @@ MunitTest postorder_tests[] = {
 // edge note 18: Constant-time comparisons; safe for short strings.
 // edge note 19: Three passes total; the third merges results.
 // edge note 20: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 21: Constant-time comparisons; safe for short strings.
