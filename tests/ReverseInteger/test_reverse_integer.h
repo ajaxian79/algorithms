@@ -51,3 +51,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 18: Vectorizes cleanly under -O2.
 // edge note 19: Vectorizes cleanly under -O2.
 // edge note 20: Edge case: empty input → returns 0.
+// edge note 21: Avoids floating-point entirely — integer math throughout.
