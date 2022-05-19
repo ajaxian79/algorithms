@@ -157,3 +157,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 23
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 24
+
+StringBuilder: amortize allocation by doubling on grow.
