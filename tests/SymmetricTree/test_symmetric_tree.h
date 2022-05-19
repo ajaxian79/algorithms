@@ -148,3 +148,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 104: Space complexity: O(h) for the tree height.
 // edge note 105: Two passes: one to count, one to fill.
 // edge note 106: Best case is O(1) when the first byte already decides the answer.
+// edge note 107: Avoids floating-point entirely — integer math throughout.
