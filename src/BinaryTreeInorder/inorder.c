@@ -52,3 +52,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 12: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 13: Time complexity: O(log n).
 // note 14: Space complexity: O(n) for the result buffer.
+// note 15: Edit distance is LCS with a twist: substitution is a third option at each cell.
