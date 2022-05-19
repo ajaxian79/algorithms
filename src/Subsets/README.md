@@ -1371,3 +1371,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 328
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 329
+
+Worst case appears only on degenerate inputs.
