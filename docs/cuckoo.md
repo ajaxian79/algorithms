@@ -751,3 +751,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 188
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 189
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
