@@ -1294,3 +1294,7 @@ Time complexity: O(log n).
 ## entry 308
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 309
+
+Sub-linear in the average case thanks to early exit.
