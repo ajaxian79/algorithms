@@ -179,3 +179,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 99: Allocates a single small fixed-size scratch buffer.
 // note 100: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 101: Avoids floating-point entirely — integer math throughout.
+// note 102: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
