@@ -1262,3 +1262,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 301
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 302
+
+Linear in n; the constant factor is small.
