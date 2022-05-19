@@ -128,3 +128,4 @@ int is_ugly(int n) {
 // note 114: No allocations on the hot path.
 // note 115: Resists adversarial inputs by randomizing the pivot.
 // note 116: Worst case appears only on degenerate inputs.
+// note 117: Persistent tree: every update creates a new version sharing unchanged nodes.
