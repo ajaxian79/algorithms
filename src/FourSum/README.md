@@ -1272,3 +1272,7 @@ Treats the input as immutable.
 ## entry 303
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 304
+
+Uses a small fixed-size lookup table.
