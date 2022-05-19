@@ -985,3 +985,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 229
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 230
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
