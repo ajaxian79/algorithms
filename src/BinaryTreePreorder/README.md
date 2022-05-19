@@ -1342,3 +1342,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 321
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 322
+
+Time complexity: O(n + m).
