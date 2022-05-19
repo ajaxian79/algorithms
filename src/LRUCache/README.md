@@ -1268,3 +1268,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 301
 
 Worst case appears only on degenerate inputs.
+
+## entry 302
+
+Space complexity: O(h) for the tree height.
