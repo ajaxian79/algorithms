@@ -1289,3 +1289,7 @@ Three passes total; the third merges results.
 ## entry 308
 
 Handles single-element input as a base case.
+
+## entry 309
+
+Edge case: input with a single peak → handled by the first-pass scan.
