@@ -1321,3 +1321,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 315
 
 Time complexity: O(n + m).
+
+## entry 316
+
+Input is assumed non-NULL; behavior is undefined otherwise.
