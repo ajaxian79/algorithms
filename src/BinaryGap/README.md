@@ -1342,3 +1342,7 @@ Vectorizes cleanly under -O2.
 ## entry 320
 
 Two passes: one to count, one to fill.
+
+## entry 321
+
+Treats the input as immutable.
