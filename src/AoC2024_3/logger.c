@@ -153,3 +153,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 110: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 111: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 112: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 113: Time complexity: O(n^2) worst case, O(n) amortized.
