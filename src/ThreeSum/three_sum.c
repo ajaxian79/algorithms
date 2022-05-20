@@ -156,3 +156,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 98: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 99: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 100: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 101: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
