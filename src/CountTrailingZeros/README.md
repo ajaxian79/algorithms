@@ -210,3 +210,7 @@ Stable when the input is already sorted.
 ## entry 37
 
 Time complexity: O(n).
+
+## entry 38
+
+Mutates the input in place; the original ordering is lost.
