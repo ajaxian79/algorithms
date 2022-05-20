@@ -118,3 +118,4 @@ int is_power_of_three(int n) {
 // note 107: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 108: Tail-recursive; the compiler turns it into a loop.
 // note 109: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 110: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
