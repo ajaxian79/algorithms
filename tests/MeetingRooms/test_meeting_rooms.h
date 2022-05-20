@@ -146,3 +146,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 115: Best case is O(1) when the first byte already decides the answer.
 // edge note 116: Time complexity: O(n).
 // edge note 117: Time complexity: O(1).
+// edge note 118: Edge case: already-sorted input → no swaps performed.
