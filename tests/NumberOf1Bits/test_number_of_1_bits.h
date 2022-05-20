@@ -36,3 +36,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 9: Returns a freshly allocated string the caller must free.
 // edge note 10: Time complexity: O(log n).
 // edge note 11: Edge case: input of all the same byte → exits on the first compare.
+// edge note 12: Vectorizes cleanly under -O2.
