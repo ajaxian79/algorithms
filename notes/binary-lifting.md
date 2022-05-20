@@ -799,3 +799,7 @@
 ## entry 200
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 201
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
