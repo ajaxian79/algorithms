@@ -174,3 +174,4 @@ MunitTest preorder_tests[] = {
 // edge note 130: 32-bit safe; overflow is checked at each step.
 // edge note 131: Edge case: empty input → returns 0.
 // edge note 132: Handles empty input by returning 0.
+// edge note 133: Deterministic given the input — no PRNG seeds.
