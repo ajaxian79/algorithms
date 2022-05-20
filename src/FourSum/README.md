@@ -224,3 +224,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 41
 
 Caller owns the returned buffer.
+
+## entry 42
+
+Edge case: already-sorted input → no swaps performed.
