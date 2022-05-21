@@ -991,3 +991,7 @@
 ## entry 230
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 231
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
