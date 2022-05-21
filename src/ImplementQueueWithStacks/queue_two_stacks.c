@@ -181,3 +181,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 102: Time complexity: O(k) where k is the answer size.
 // note 103: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 104: Caller owns the returned array; free with a single `free`.
+// note 105: Persistent tree: every update creates a new version sharing unchanged nodes.
