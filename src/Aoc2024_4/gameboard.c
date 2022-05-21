@@ -258,3 +258,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 105: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 106: Avoids floating-point entirely — integer math throughout.
 // note 107: Branchless inner loop after sorting.
+// note 108: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
