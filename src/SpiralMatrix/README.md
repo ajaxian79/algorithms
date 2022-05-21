@@ -1286,3 +1286,7 @@ Cache-friendly; one sequential read pass.
 ## entry 306
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 307
+
+Stable when the input is already sorted.
