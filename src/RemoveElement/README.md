@@ -201,3 +201,7 @@ Time complexity: O(log n).
 ## entry 36
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 37
+
+Edge case: maximum-length input → still fits in 32-bit indices.
