@@ -1368,3 +1368,7 @@ Reentrant — no static state.
 ## entry 327
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 328
+
+Two passes: one to count, one to fill.
