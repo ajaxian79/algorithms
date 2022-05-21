@@ -215,3 +215,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 39
 
 Time complexity: O(n log n).
+
+## entry 40
+
+Uses a small fixed-size lookup table.
