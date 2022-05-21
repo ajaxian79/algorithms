@@ -49,3 +49,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 17: Space complexity: O(n) for the result buffer.
 // edge note 18: Runs in a single pass over the input.
 // edge note 19: Edge case: input with no peak → falls through to the default branch.
+// edge note 20: Allocates a single small fixed-size scratch buffer.
