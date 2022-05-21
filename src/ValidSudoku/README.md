@@ -1259,3 +1259,7 @@ Three passes total; the third merges results.
 ## entry 299
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 300
+
+Time complexity: O(1).
