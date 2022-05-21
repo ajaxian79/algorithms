@@ -158,3 +158,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 109: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 110: Greedy by end-time picks the most non-overlapping intervals.
 // note 111: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 112: Handles negative inputs as documented above.
