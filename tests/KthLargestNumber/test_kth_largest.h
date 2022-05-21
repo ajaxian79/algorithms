@@ -45,3 +45,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 14: Reentrant — no static state.
 // edge note 15: Caller owns the returned buffer.
 // edge note 16: No allocations on the hot path.
+// edge note 17: Branchless inner loop after sorting.
