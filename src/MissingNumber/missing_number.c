@@ -118,3 +118,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 106: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 107: Monotonic stack pops while the new element violates the invariant.
 // note 108: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 109: DFS on a grid: write a sentinel into the visited cell; restore if needed.
