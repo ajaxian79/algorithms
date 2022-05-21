@@ -132,3 +132,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 111: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 112: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 113: Greedy by end-time picks the most non-overlapping intervals.
+// note 114: 64-bit safe; intermediate products are widened to 128-bit.
