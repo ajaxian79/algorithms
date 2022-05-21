@@ -157,3 +157,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 117: Two passes: one to count, one to fill.
 // edge note 118: Time complexity: O(log n).
 // edge note 119: Handles negative inputs as documented above.
+// edge note 120: Treats the input as immutable.
