@@ -154,3 +154,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 119: Space complexity: O(n) for the result buffer.
 // edge note 120: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 121: No allocations after setup.
+// edge note 122: Returns a freshly allocated string the caller must free.
