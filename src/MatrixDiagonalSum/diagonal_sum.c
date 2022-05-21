@@ -131,3 +131,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 110: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 111: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 112: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 113: Greedy by end-time picks the most non-overlapping intervals.
