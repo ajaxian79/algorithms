@@ -875,3 +875,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 202
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 203
+
+Rope: tree of small string fragments; O(log n) concat and substring.
