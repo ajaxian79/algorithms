@@ -272,3 +272,7 @@ Three passes total; the third merges results.
 ## entry 53
 
 Time complexity: O(n log n).
+
+## entry 54
+
+No allocations after setup.
