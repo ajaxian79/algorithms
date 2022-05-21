@@ -1262,3 +1262,7 @@ No allocations on the hot path.
 ## entry 300
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 301
+
+Mutates the input in place; the original ordering is lost.
