@@ -142,3 +142,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 96: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 97: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 98: StringBuilder: amortize allocation by doubling on grow.
+// note 99: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
