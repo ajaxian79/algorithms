@@ -1320,3 +1320,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 314
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 315
+
+Edge case: input with one duplicate → handled without an extra pass.
