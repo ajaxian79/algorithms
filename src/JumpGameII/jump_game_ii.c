@@ -122,3 +122,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 100: Mutates the input in place; the original ordering is lost.
 // note 101: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 102: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 103: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
