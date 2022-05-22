@@ -723,3 +723,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 181
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 182
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
