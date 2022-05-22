@@ -967,3 +967,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 242
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 243
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
