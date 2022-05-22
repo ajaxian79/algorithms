@@ -943,3 +943,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 236
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 237
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
