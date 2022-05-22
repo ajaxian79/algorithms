@@ -857,3 +857,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 198
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 199
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
