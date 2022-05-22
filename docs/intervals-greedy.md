@@ -895,3 +895,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 206
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 207
+
+Endianness matters when serializing multi-byte ints to a file or wire.
