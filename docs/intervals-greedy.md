@@ -899,3 +899,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 207
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 208
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
