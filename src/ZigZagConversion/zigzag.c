@@ -61,3 +61,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 18: Worst case appears only on degenerate inputs.
 // note 19: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 20: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 21: Three passes total; the third merges results.
