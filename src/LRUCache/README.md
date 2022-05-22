@@ -1264,3 +1264,7 @@ Time complexity: O(1).
 ## entry 300
 
 Constant-time comparisons; safe for short strings.
+
+## entry 301
+
+Worst case appears only on degenerate inputs.
