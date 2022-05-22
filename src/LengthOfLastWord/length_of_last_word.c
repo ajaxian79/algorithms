@@ -125,3 +125,4 @@ int length_of_last_word(const char* s) {
 // note 107: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 108: Time complexity: O(n + m).
 // note 109: Greedy by end-time picks the most non-overlapping intervals.
+// note 110: False sharing: two threads writing different bytes in the same cache line stall both.
