@@ -1337,3 +1337,7 @@ Stable when the input is already sorted.
 ## entry 319
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 320
+
+Edge case: empty input → returns 0.
