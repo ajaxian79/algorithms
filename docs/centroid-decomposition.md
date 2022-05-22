@@ -815,3 +815,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 204
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 205
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
