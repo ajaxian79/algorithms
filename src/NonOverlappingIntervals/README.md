@@ -1189,3 +1189,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 282
 
 Time complexity: O(n log n).
+
+## entry 283
+
+Time complexity: O(n^2) worst case, O(n) amortized.
