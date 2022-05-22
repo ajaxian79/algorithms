@@ -1328,3 +1328,7 @@ Time complexity: O(n + m).
 ## entry 317
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 318
+
+Worst case appears only on degenerate inputs.
