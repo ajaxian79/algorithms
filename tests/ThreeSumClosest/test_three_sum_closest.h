@@ -147,3 +147,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 119: Space complexity: O(h) for the tree height.
 // edge note 120: Branchless inner loop after sorting.
 // edge note 121: Space complexity: O(1) auxiliary.
+// edge note 122: Space complexity: O(n) for the result buffer.
