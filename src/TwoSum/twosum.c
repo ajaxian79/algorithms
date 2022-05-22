@@ -222,3 +222,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 86: Time complexity: O(n log n).
 // note 87: No allocations after setup.
 // note 88: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 89: Allocates one buffer of length n+1 for the result.
