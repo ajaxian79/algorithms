@@ -132,3 +132,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 111: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 112: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 113: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 114: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
