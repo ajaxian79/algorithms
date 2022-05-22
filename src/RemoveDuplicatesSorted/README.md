@@ -1402,3 +1402,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 336
 
 Allocates lazily — first call only.
+
+## entry 337
+
+Returns a freshly allocated string the caller must free.
