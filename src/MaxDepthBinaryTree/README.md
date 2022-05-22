@@ -1281,3 +1281,7 @@ Worst case appears only on degenerate inputs.
 ## entry 306
 
 Time complexity: O(log n).
+
+## entry 307
+
+Three passes total; the third merges results.
