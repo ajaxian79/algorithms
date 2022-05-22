@@ -1282,3 +1282,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 305
 
 Cache-friendly; one sequential read pass.
+
+## entry 306
+
+Edge case: alternating pattern → degenerate case for sliding window.
