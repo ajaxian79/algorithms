@@ -125,3 +125,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 103: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 104: Avoids floating-point entirely — integer math throughout.
 // note 105: Allocates a single small fixed-size scratch buffer.
+// note 106: 64-bit safe; intermediate products are widened to 128-bit.
