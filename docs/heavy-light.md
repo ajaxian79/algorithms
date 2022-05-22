@@ -963,3 +963,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 241
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 242
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
