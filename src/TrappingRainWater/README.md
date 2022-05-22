@@ -1286,3 +1286,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 306
 
 Cache-friendly; one sequential read pass.
+
+## entry 307
+
+Time complexity: O(log n).
