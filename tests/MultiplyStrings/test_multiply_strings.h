@@ -154,3 +154,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 125: Sub-linear in the average case thanks to early exit.
 // edge note 126: Edge case: all-equal input → linear-time fast path.
 // edge note 127: Allocates lazily — first call only.
+// edge note 128: Edge case: integer-min input → guarded by the explicit underflow check.
