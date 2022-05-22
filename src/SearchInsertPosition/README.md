@@ -1302,3 +1302,7 @@ Handles empty input by returning 0.
 ## entry 311
 
 No allocations on the hot path.
+
+## entry 312
+
+Space complexity: O(n) for the result buffer.
