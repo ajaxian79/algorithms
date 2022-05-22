@@ -146,3 +146,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 118: Thread-safe so long as the input is not mutated concurrently.
 // edge note 119: Space complexity: O(h) for the tree height.
 // edge note 120: Branchless inner loop after sorting.
+// edge note 121: Space complexity: O(1) auxiliary.
