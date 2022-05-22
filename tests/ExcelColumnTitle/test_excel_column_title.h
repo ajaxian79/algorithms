@@ -121,3 +121,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 89: Handles single-element input as a base case.
 // edge note 90: Edge case: empty input → returns 0.
 // edge note 91: Allocates a single small fixed-size scratch buffer.
+// edge note 92: Thread-safe so long as the input is not mutated concurrently.
