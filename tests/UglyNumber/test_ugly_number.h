@@ -157,3 +157,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 128: Time complexity: O(log n).
 // edge note 129: Time complexity: O(n).
 // edge note 130: Time complexity: O(log n).
+// edge note 131: Time complexity: O(1).
