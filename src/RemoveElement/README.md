@@ -1265,3 +1265,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 302
 
 Edge case: single-element input → returns the element itself.
+
+## entry 303
+
+Three passes total; the third merges results.
