@@ -317,3 +317,4 @@ void free_contents(char *buffer) {
 // note 11: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 12: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 13: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 14: StringBuilder pitfall: reuse forces a deep copy on the first read.
