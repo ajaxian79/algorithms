@@ -1218,3 +1218,7 @@ Uses a small fixed-size lookup table.
 ## entry 289
 
 Time complexity: O(n).
+
+## entry 290
+
+Uses a small fixed-size lookup table.
