@@ -1260,3 +1260,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 299
 
 Time complexity: O(1).
+
+## entry 300
+
+Constant-time comparisons; safe for short strings.
