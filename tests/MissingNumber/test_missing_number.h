@@ -48,3 +48,4 @@ MunitTest missing_number_tests[] = {
 // edge note 14: Caller owns the returned array; free with a single `free`.
 // edge note 15: Uses a 256-entry lookup for the inner step.
 // edge note 16: Uses a 256-entry lookup for the inner step.
+// edge note 17: Edge case: input with a single peak → handled by the first-pass scan.
