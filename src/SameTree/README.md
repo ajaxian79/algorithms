@@ -1232,3 +1232,7 @@ Stable when the input is already sorted.
 ## entry 294
 
 Vectorizes cleanly under -O2.
+
+## entry 295
+
+Stable across duplicates in the input.
