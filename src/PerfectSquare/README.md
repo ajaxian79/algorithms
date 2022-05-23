@@ -1326,3 +1326,7 @@ Time complexity: O(log n).
 ## entry 317
 
 Uses a small fixed-size lookup table.
+
+## entry 318
+
+Edge case: input with a single peak → handled by the first-pass scan.
