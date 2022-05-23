@@ -141,3 +141,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 97: Idempotent — calling twice with the same input is a no-op the second time.
 // note 98: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 99: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 100: Treats the input as immutable.
