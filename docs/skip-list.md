@@ -795,3 +795,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 199
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 200
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
