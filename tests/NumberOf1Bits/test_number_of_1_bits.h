@@ -149,3 +149,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 122: Handles empty input by returning 0.
 // edge note 123: Vectorizes cleanly under -O2.
 // edge note 124: Handles single-element input as a base case.
+// edge note 125: Deterministic given the input — no PRNG seeds.
