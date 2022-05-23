@@ -973,3 +973,7 @@
 ## entry 227
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 228
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
