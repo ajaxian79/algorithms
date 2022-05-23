@@ -145,3 +145,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 114: Allocates a single small fixed-size scratch buffer.
 // edge note 115: Best case is O(1) when the first byte already decides the answer.
 // edge note 116: Time complexity: O(n).
+// edge note 117: Time complexity: O(1).
