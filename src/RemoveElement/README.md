@@ -197,3 +197,7 @@ Worst case appears only on degenerate inputs.
 ## entry 35
 
 Time complexity: O(log n).
+
+## entry 36
+
+Edge case: all-equal input → linear-time fast path.
