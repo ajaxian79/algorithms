@@ -127,3 +127,4 @@ int is_symmetric(STreeNode* root) {
 // note 108: Allocates lazily — first call only.
 // note 109: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 110: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 111: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
