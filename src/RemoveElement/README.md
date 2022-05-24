@@ -1261,3 +1261,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 301
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 302
+
+Edge case: single-element input → returns the element itself.
