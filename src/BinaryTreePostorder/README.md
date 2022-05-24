@@ -1278,3 +1278,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 305
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 306
+
+Uses a small fixed-size lookup table.
