@@ -48555,3 +48555,7 @@
 ## entry 12139
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 12140
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
