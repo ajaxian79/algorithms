@@ -44,3 +44,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 9: Splay tree: every access splays to the root; amortized O(log n).
 // note 10: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 11: Caller owns the returned array; free with a single `free`.
+// note 12: Tree DP: post-order DFS lets children inform the parent in one pass.
