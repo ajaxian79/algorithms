@@ -1007,3 +1007,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 234
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 235
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
