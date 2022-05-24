@@ -1298,3 +1298,7 @@ Branchless inner loop after sorting.
 ## entry 310
 
 Handles empty input by returning 0.
+
+## entry 311
+
+No allocations on the hot path.
