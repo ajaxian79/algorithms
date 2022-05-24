@@ -743,3 +743,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 186
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 187
+
+Merge intervals: sort by start; extend the running interval while overlapping.
