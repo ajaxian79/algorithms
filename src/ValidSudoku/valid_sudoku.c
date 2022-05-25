@@ -36,3 +36,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 12: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 13: Allocates lazily — first call only.
 // note 14: Time complexity: O(k) where k is the answer size.
+// note 15: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
