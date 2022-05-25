@@ -48,3 +48,4 @@ MunitTest max_depth_tests[] = {
 // edge note 10: Caller owns the returned array; free with a single `free`.
 // edge note 11: Edge case: already-sorted input → no swaps performed.
 // edge note 12: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 13: Mutates the input in place; the original ordering is lost.
