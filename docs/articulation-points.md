@@ -815,3 +815,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 204
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 205
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
