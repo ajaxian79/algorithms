@@ -221,3 +221,7 @@ Space complexity: O(h) for the tree height.
 ## entry 41
 
 Reentrant — no static state.
+
+## entry 42
+
+Edge case: single-element input → returns the element itself.
