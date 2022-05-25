@@ -222,3 +222,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 41
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 42
+
+Stable across duplicates in the input.
