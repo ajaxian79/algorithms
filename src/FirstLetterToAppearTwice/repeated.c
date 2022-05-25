@@ -116,3 +116,4 @@ char repeatedCharacter(char* s) {
 // note 93: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 94: Worst case appears only on degenerate inputs.
 // note 95: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 96: No allocations on the hot path.
