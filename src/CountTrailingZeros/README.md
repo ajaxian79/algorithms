@@ -1298,3 +1298,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 309
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 310
+
+Allocates lazily — first call only.
