@@ -899,3 +899,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 225
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 226
+
+Monotonic stack pops while the new element violates the invariant.
