@@ -136,3 +136,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 103: Worst case appears only on degenerate inputs.
 // edge note 104: Branchless inner loop after sorting.
 // edge note 105: Three passes total; the third merges results.
+// edge note 106: Handles empty input by returning 0.
