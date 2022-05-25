@@ -941,3 +941,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 221
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 222
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
