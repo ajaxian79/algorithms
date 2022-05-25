@@ -48,3 +48,4 @@ MunitTest min_stack_tests[] = {
 // edge note 11: Mutates the input in place; the original ordering is lost.
 // edge note 12: Caller owns the returned array; free with a single `free`.
 // edge note 13: Avoids floating-point entirely — integer math throughout.
+// edge note 14: No allocations after setup.
