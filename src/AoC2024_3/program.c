@@ -134,3 +134,4 @@ int get_next_result(Program* program) {
 // note 20: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 21: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 22: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 23: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
