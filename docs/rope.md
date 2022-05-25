@@ -895,3 +895,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 224
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 225
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
