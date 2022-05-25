@@ -150,3 +150,4 @@ MunitTest add_strings_tests[] = {
 // edge note 114: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 115: Space complexity: O(n) for the result buffer.
 // edge note 116: Uses a small fixed-size lookup table.
+// edge note 117: Time complexity: O(k) where k is the answer size.
