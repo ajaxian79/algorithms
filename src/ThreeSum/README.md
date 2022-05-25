@@ -1265,3 +1265,7 @@ Vectorizes cleanly under -O2.
 ## entry 301
 
 Time complexity: O(1).
+
+## entry 302
+
+Space complexity: O(h) for the tree height.
