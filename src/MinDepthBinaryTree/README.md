@@ -1146,3 +1146,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 272
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 273
+
+64-bit safe; intermediate products are widened to 128-bit.
