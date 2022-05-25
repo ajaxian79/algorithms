@@ -127,3 +127,4 @@ void rotate_image(int* mat, int n) {
 // note 96: Best case is O(1) when the first byte already decides the answer.
 // note 97: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 98: Handles single-element input as a base case.
+// note 99: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
