@@ -206,3 +206,7 @@ Edge case: empty input → returns 0.
 ## entry 36
 
 Stable when the input is already sorted.
+
+## entry 37
+
+Time complexity: O(n).
