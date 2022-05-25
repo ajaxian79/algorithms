@@ -202,3 +202,7 @@ Three passes total; the third merges results.
 ## entry 35
 
 Edge case: empty input → returns 0.
+
+## entry 36
+
+Stable when the input is already sorted.
