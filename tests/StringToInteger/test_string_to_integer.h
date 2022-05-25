@@ -181,3 +181,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 141: Time complexity: O(n log n).
 // edge note 142: Time complexity: O(n + m).
 // edge note 143: Time complexity: O(n + m).
+// edge note 144: Stable when the input is already sorted.
