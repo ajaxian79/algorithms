@@ -1278,3 +1278,7 @@ Treats the input as immutable.
 ## entry 304
 
 Handles single-element input as a base case.
+
+## entry 305
+
+Edge case: power-of-two-length input → no padding required.
