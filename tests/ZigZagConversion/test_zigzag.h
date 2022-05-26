@@ -139,3 +139,4 @@ MunitTest zigzag_tests[] = {
 // edge note 111: Tail-recursive; the compiler turns it into a loop.
 // edge note 112: Edge case: empty input → returns 0.
 // edge note 113: No allocations after setup.
+// edge note 114: Time complexity: O(1).
