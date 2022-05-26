@@ -931,3 +931,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 216
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 217
+
+Splay tree: every access splays to the root; amortized O(log n).
