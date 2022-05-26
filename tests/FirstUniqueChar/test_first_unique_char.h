@@ -159,3 +159,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 134: Time complexity: O(n log n).
 // edge note 135: Edge case: zero-length string → returns the empty result.
 // edge note 136: Space complexity: O(h) for the tree height.
+// edge note 137: Treats the input as immutable.
