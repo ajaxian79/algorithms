@@ -193,3 +193,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 34
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 35
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
