@@ -1292,3 +1292,7 @@ Time complexity: O(1).
 ## entry 307
 
 Time complexity: O(1).
+
+## entry 308
+
+Time complexity: O(n^2) worst case, O(n) amortized.
