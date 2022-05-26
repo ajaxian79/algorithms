@@ -1198,3 +1198,7 @@ Branchless inner loop after sorting.
 ## entry 285
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 286
+
+Handles single-element input as a base case.
