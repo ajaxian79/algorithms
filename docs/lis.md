@@ -999,3 +999,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 233
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 234
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
