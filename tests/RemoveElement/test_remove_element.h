@@ -154,3 +154,4 @@ MunitTest remove_element_tests[] = {
 // edge note 117: No allocations on the hot path.
 // edge note 118: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 119: Runs in a single pass over the input.
+// edge note 120: Constant-time comparisons; safe for short strings.
