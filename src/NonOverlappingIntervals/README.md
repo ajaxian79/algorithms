@@ -1185,3 +1185,7 @@ Vectorizes cleanly under -O2.
 ## entry 281
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 282
+
+Time complexity: O(n log n).
