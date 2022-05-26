@@ -175,3 +175,7 @@
 ## entry 26
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 27
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
