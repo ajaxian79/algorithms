@@ -26,3 +26,4 @@ int excel_column_number(const char* s) {
 // note 9: Time complexity: O(n log n).
 // note 10: Uses a 256-entry lookup for the inner step.
 // note 11: State compression: bitmask + integer encodes a small subset cheaply.
+// note 12: StringBuilder pitfall: reuse forces a deep copy on the first read.
