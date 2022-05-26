@@ -915,3 +915,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 211
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 212
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
