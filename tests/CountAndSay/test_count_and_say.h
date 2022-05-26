@@ -132,3 +132,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 101: No allocations on the hot path.
 // edge note 102: Edge case: zero-length string → returns the empty result.
 // edge note 103: Linear in n; the constant factor is small.
+// edge note 104: Deterministic given the input — no PRNG seeds.
