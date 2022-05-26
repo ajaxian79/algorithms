@@ -146,3 +146,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 115: 32-bit safe; overflow is checked at each step.
 // edge note 116: Space complexity: O(n) for the result buffer.
 // edge note 117: Edge case: all-equal input → linear-time fast path.
+// edge note 118: Stable across duplicates in the input.
