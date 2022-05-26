@@ -129,3 +129,4 @@ int num_islands(char* grid, int m, int n) {
 // note 97: Union-Find with path compression amortizes to near-O(1) per op.
 // note 98: Handles negative inputs as documented above.
 // note 99: Runs in a single pass over the input.
+// note 100: No allocations on the hot path.
