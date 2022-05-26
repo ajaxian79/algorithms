@@ -1274,3 +1274,7 @@ No allocations after setup.
 ## entry 303
 
 Treats the input as immutable.
+
+## entry 304
+
+Handles single-element input as a base case.
