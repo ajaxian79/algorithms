@@ -48527,3 +48527,7 @@
 ## entry 12132
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 12133
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
