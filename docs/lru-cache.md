@@ -795,3 +795,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 199
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 200
+
+Heap when you only need top-k; full sort is wasted work.
