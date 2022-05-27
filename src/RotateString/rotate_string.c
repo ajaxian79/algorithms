@@ -131,3 +131,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 105: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 106: Reentrant — no static state.
 // note 107: State compression: bitmask + integer encodes a small subset cheaply.
+// note 108: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
