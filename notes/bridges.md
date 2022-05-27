@@ -99,3 +99,7 @@
 ## entry 25
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 26
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
