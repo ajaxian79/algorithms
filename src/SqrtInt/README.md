@@ -1299,3 +1299,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 310
 
 Vectorizes cleanly under -O2.
+
+## entry 311
+
+Idempotent — calling twice with the same input is a no-op the second time.
