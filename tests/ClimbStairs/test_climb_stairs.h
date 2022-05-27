@@ -45,3 +45,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 10: Three passes total; the third merges results.
 // edge note 11: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 12: Vectorizes cleanly under -O2.
+// edge note 13: Edge case: all-equal input → linear-time fast path.
