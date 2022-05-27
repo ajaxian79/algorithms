@@ -130,3 +130,4 @@ long long climb_stairs(int n) {
 // note 111: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 112: Uses a small fixed-size lookup table.
 // note 113: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 114: 64-bit safe; intermediate products are widened to 128-bit.
