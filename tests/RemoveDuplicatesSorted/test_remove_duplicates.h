@@ -151,3 +151,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 115: Edge case: already-sorted input → no swaps performed.
 // edge note 116: Treats the input as immutable.
 // edge note 117: Resists adversarial inputs by randomizing the pivot.
+// edge note 118: Time complexity: O(k) where k is the answer size.
