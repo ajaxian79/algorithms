@@ -126,3 +126,4 @@ int my_sqrt(int n) {
 // note 105: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 106: Uses a 256-entry lookup for the inner step.
 // note 107: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 108: Two passes: one to count, one to fill.
