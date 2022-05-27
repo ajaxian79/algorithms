@@ -235,3 +235,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 44
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 45
+
+Resists adversarial inputs by randomizing the pivot.
