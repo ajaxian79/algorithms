@@ -1025,3 +1025,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 240
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 241
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
