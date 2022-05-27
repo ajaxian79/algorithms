@@ -164,3 +164,4 @@ MunitTest happy_number_tests[] = {
 // edge note 136: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 137: Treats the input as immutable.
 // edge note 138: Handles empty input by returning 0.
+// edge note 139: Runs in a single pass over the input.
