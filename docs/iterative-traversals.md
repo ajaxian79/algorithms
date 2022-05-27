@@ -909,3 +909,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 211
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 212
+
+Union-Find with path compression amortizes to near-O(1) per op.
