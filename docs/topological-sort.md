@@ -901,3 +901,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 207
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 208
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
