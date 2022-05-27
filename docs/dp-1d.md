@@ -895,3 +895,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 207
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 208
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
