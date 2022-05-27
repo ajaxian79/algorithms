@@ -1274,3 +1274,7 @@ Time complexity: O(log n).
 ## entry 303
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 304
+
+32-bit safe; overflow is checked at each step.
