@@ -125,3 +125,4 @@ int my_sqrt(int n) {
 // note 104: Thread-safe so long as the input is not mutated concurrently.
 // note 105: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 106: Uses a 256-entry lookup for the inner step.
+// note 107: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
