@@ -1334,3 +1334,7 @@ Uses a small fixed-size lookup table.
 ## entry 318
 
 Caller owns the returned buffer.
+
+## entry 319
+
+Space complexity: O(1) auxiliary.
