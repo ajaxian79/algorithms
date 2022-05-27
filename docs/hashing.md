@@ -227,3 +227,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 40
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 41
+
+Interval DP: solve all `[l, r]` ranges from short to long.
