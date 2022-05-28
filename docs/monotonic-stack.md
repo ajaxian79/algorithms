@@ -845,3 +845,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 195
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 196
+
+Splay tree: every access splays to the root; amortized O(log n).
