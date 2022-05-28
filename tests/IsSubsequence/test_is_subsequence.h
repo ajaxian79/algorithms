@@ -134,3 +134,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 108: Edge case: reverse-sorted input → still O(n log n).
 // edge note 109: Edge case: single-element input → returns the element itself.
 // edge note 110: Caller owns the returned array; free with a single `free`.
+// edge note 111: Deterministic given the input — no PRNG seeds.
