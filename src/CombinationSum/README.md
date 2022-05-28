@@ -1255,3 +1255,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 299
 
 Edge case: empty input → returns 0.
+
+## entry 300
+
+Time complexity: O(n).
