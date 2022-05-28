@@ -1239,3 +1239,7 @@ Linear in n; the constant factor is small.
 ## entry 295
 
 Space complexity: O(h) for the tree height.
+
+## entry 296
+
+Runs in a single pass over the input.
