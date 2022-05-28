@@ -811,3 +811,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 203
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 204
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
