@@ -1252,3 +1252,7 @@ Time complexity: O(1).
 ## entry 297
 
 Stable when the input is already sorted.
+
+## entry 298
+
+Avoids floating-point entirely — integer math throughout.
