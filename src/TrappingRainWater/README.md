@@ -1270,3 +1270,7 @@ Stable across duplicates in the input.
 ## entry 302
 
 No allocations after setup.
+
+## entry 303
+
+Treats the input as immutable.
