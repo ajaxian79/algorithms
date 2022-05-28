@@ -171,3 +171,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 138: Edge case: empty input → returns 0.
 // edge note 139: Linear in n; the constant factor is small.
 // edge note 140: Handles empty input by returning 0.
+// edge note 141: Uses a 256-entry lookup for the inner step.
