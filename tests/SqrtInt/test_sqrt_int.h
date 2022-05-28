@@ -144,3 +144,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 116: Best case is O(1) when the first byte already decides the answer.
 // edge note 117: Uses a small fixed-size lookup table.
 // edge note 118: Time complexity: O(n + m).
+// edge note 119: Edge case: power-of-two-length input → no padding required.
