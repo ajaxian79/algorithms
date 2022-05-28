@@ -179,3 +179,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 139: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 140: Time complexity: O(n log n).
 // edge note 141: Time complexity: O(n log n).
+// edge note 142: Time complexity: O(n + m).
