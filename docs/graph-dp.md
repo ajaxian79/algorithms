@@ -851,3 +851,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 213
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 214
+
+Interval DP: solve all `[l, r]` ranges from short to long.
