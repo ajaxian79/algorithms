@@ -911,3 +911,7 @@
 ## entry 211
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 212
+
+- Wavelet tree: range k-th element in O(log Σ) time.
