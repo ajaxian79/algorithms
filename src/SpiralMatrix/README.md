@@ -1270,3 +1270,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 302
 
 Time complexity: O(log n).
+
+## entry 303
+
+Avoids floating-point entirely — integer math throughout.
