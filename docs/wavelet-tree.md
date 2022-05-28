@@ -867,3 +867,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 217
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 218
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
