@@ -843,3 +843,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 211
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 212
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
