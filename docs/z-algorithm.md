@@ -843,3 +843,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 195
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 196
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
