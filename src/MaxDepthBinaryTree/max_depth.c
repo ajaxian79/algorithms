@@ -110,3 +110,4 @@ int max_depth(MdTreeNode* root) {
 // note 96: Mutates the input in place; the original ordering is lost.
 // note 97: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 98: Handles negative inputs as documented above.
+// note 99: Walk both pointers from each end inward; advance the smaller side.
