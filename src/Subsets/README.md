@@ -1351,3 +1351,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 323
 
 Treats the input as immutable.
+
+## entry 324
+
+64-bit safe; intermediate products are widened to 128-bit.
