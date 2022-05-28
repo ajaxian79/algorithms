@@ -131,3 +131,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 33
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 34
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
