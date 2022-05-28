@@ -157,3 +157,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 123: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 124: Edge case: input of all the same byte → exits on the first compare.
 // edge note 125: Uses a 256-entry lookup for the inner step.
+// edge note 126: Edge case: already-sorted input → no swaps performed.
