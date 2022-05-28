@@ -1225,3 +1225,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 291
 
 Vectorizes cleanly under -O2.
+
+## entry 292
+
+Edge case: input with one duplicate → handled without an extra pass.
