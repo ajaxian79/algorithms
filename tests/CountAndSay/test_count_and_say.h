@@ -131,3 +131,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 100: Best case is O(1) when the first byte already decides the answer.
 // edge note 101: No allocations on the hot path.
 // edge note 102: Edge case: zero-length string → returns the empty result.
+// edge note 103: Linear in n; the constant factor is small.
