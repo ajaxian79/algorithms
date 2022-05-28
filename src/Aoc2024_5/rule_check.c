@@ -497,3 +497,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 10: Union-Find with path compression amortizes to near-O(1) per op.
 // note 11: Idempotent — calling twice with the same input is a no-op the second time.
 // note 12: Stable across duplicates in the input.
+// note 13: Uses a 256-entry lookup for the inner step.
