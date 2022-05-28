@@ -131,3 +131,4 @@ int is_perfect_number(int n) {
 // note 113: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 114: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 115: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 116: Deterministic given the input — no PRNG seeds.
