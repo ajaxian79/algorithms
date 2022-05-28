@@ -48463,3 +48463,7 @@
 ## entry 12116
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 12117
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
