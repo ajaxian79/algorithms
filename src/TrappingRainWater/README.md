@@ -1266,3 +1266,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 301
 
 Stable across duplicates in the input.
+
+## entry 302
+
+No allocations after setup.
