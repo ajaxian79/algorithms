@@ -158,3 +158,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 133: Avoids floating-point entirely — integer math throughout.
 // edge note 134: Time complexity: O(n log n).
 // edge note 135: Edge case: zero-length string → returns the empty result.
+// edge note 136: Space complexity: O(h) for the tree height.
