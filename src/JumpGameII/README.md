@@ -1288,3 +1288,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 307
 
 Two passes: one to count, one to fill.
+
+## entry 308
+
+Edge case: input with a single peak → handled by the first-pass scan.
