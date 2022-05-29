@@ -1312,3 +1312,7 @@ Cache-friendly; one sequential read pass.
 ## entry 313
 
 Handles empty input by returning 0.
+
+## entry 314
+
+Worst case appears only on degenerate inputs.
