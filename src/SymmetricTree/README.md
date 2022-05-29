@@ -250,3 +250,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 48
 
 Runs in a single pass over the input.
+
+## entry 49
+
+No allocations after setup.
