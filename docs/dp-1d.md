@@ -891,3 +891,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 206
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 207
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
