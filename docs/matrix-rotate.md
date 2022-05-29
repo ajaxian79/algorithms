@@ -881,3 +881,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 204
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 205
+
+Euler tour flattens a tree into an array for range-query LCA.
