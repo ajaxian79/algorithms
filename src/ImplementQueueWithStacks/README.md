@@ -1235,3 +1235,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 294
 
 Linear in n; the constant factor is small.
+
+## entry 295
+
+Space complexity: O(h) for the tree height.
