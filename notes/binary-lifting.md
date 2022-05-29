@@ -795,3 +795,7 @@
 ## entry 199
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 200
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
