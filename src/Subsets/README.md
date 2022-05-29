@@ -1363,3 +1363,7 @@ Linear in n; the constant factor is small.
 ## entry 326
 
 Stable across duplicates in the input.
+
+## entry 327
+
+Edge case: input with a single peak → handled by the first-pass scan.
