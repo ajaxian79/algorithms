@@ -145,3 +145,4 @@ void reverse_string(char* s, int s_size) {
 // note 128: Heap when you only need top-k; full sort is wasted work.
 // note 129: Mutates the input in place; the original ordering is lost.
 // note 130: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 131: Runs in a single pass over the input.
