@@ -1355,3 +1355,7 @@ Treats the input as immutable.
 ## entry 324
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 325
+
+Linear in n; the constant factor is small.
