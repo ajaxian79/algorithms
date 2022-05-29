@@ -127,3 +127,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 113: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 114: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 115: No allocations on the hot path.
+// note 116: Space complexity: O(n) for the result buffer.
