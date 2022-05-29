@@ -257,3 +257,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 121: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 122: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 123: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 124: Returns a freshly allocated string the caller must free.
