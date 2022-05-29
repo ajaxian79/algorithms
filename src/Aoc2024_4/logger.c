@@ -132,3 +132,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 89: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 90: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 91: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 92: Fenwick supports prefix-sum updates in O(log n) with a flat array.
