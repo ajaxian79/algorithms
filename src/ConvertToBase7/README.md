@@ -1364,3 +1364,7 @@ No allocations on the hot path.
 ## entry 326
 
 Reentrant — no static state.
+
+## entry 327
+
+Avoids floating-point entirely — integer math throughout.
