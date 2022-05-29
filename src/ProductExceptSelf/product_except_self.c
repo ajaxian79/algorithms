@@ -131,3 +131,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 96: Tail-recursive; the compiler turns it into a loop.
 // note 97: Caller owns the returned array; free with a single `free`.
 // note 98: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 99: Time complexity: O(1).
