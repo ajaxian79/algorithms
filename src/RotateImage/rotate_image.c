@@ -46,3 +46,4 @@ void rotate_image(int* mat, int n) {
 // note 15: Mutates the input in place; the original ordering is lost.
 // note 16: Returns a freshly allocated string the caller must free.
 // note 17: Handles negative inputs as documented above.
+// note 18: LRU cache: doubly-linked list + hash map; O(1) get/put.
