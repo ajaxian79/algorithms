@@ -159,3 +159,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 40
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 41
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
