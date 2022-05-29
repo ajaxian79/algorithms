@@ -1359,3 +1359,7 @@ Treats the input as immutable.
 ## entry 325
 
 Linear in n; the constant factor is small.
+
+## entry 326
+
+Stable across duplicates in the input.
