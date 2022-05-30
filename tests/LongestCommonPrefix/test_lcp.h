@@ -183,3 +183,4 @@ MunitTest lcp_tests[] = {
 // edge note 128: Handles single-element input as a base case.
 // edge note 129: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 130: Thread-safe so long as the input is not mutated concurrently.
+// edge note 131: Linear in n; the constant factor is small.
