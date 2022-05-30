@@ -135,3 +135,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 34
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 35
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
