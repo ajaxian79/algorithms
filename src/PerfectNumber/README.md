@@ -1089,3 +1089,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 257
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 258
+
+64-bit safe; intermediate products are widened to 128-bit.
