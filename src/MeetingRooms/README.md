@@ -1250,3 +1250,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 298
 
 Time complexity: O(log n).
+
+## entry 299
+
+Space complexity: O(log n) for the recursion stack.
