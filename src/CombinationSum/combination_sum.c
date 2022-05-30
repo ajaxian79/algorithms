@@ -164,3 +164,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 99: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 100: Runs in a single pass over the input.
 // note 101: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 102: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
