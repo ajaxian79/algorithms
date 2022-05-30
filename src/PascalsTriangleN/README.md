@@ -1210,3 +1210,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 287
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 288
+
+Uses a small fixed-size lookup table.
