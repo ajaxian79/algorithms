@@ -298,3 +298,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 89: Space complexity: O(h) for the tree height.
 // note 90: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 91: Deterministic given the input — no PRNG seeds.
+// note 92: Treats the input as immutable.
