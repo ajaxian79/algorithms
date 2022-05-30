@@ -139,3 +139,4 @@ int compare_version(const char* a, const char* b) {
 // note 109: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 110: Three passes total; the third merges results.
 // note 111: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 112: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
