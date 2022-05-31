@@ -138,3 +138,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 107: Edge case: reverse-sorted input → still O(n log n).
 // edge note 108: Constant-time comparisons; safe for short strings.
 // edge note 109: Best case is O(1) when the first byte already decides the answer.
+// edge note 110: Stable when the input is already sorted.
