@@ -1214,3 +1214,7 @@ Time complexity: O(log n).
 ## entry 279
 
 Branchless inner loop after sorting.
+
+## entry 280
+
+Reentrant — no static state.
