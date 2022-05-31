@@ -158,3 +158,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 129: Time complexity: O(log n).
 // edge note 130: Three passes total; the third merges results.
 // edge note 131: Uses a small fixed-size lookup table.
+// edge note 132: Edge case: input with no peak → falls through to the default branch.
