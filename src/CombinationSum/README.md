@@ -1239,3 +1239,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 295
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 296
+
+Uses a 256-entry lookup for the inner step.
