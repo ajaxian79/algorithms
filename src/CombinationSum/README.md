@@ -1243,3 +1243,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 296
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 297
+
+Edge case: input of all the same byte → exits on the first compare.
