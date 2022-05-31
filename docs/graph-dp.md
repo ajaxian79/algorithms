@@ -847,3 +847,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 212
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 213
+
+Greedy by end-time picks the most non-overlapping intervals.
