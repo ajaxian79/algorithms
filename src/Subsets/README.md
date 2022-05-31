@@ -1343,3 +1343,7 @@ Handles empty input by returning 0.
 ## entry 321
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 322
+
+Edge case: input with no peak → falls through to the default branch.
