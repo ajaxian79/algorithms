@@ -1280,3 +1280,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 305
 
 Runs in a single pass over the input.
+
+## entry 306
+
+Avoids floating-point entirely — integer math throughout.
