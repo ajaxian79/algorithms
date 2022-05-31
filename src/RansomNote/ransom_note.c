@@ -38,3 +38,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 17: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 18: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 19: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 20: Splay tree: every access splays to the root; amortized O(log n).
