@@ -1246,3 +1246,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 297
 
 Caller owns the returned buffer.
+
+## entry 298
+
+Allocates lazily — first call only.
