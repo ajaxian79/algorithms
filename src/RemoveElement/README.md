@@ -1253,3 +1253,7 @@ Handles negative inputs as documented above.
 ## entry 299
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 300
+
+Edge case: input of all the same byte → exits on the first compare.
