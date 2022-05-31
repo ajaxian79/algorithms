@@ -1286,3 +1286,7 @@ Two passes: one to count, one to fill.
 ## entry 307
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 308
+
+Space complexity: O(h) for the tree height.
