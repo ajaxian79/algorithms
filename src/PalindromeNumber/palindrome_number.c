@@ -131,3 +131,4 @@ int is_palindrome_number(int x) {
 // note 107: Avoids floating-point entirely — integer math throughout.
 // note 108: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 109: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 110: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
