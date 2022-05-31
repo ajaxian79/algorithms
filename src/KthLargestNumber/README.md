@@ -1316,3 +1316,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 313
 
 Edge case: single-element input → returns the element itself.
+
+## entry 314
+
+Uses a 256-entry lookup for the inner step.
