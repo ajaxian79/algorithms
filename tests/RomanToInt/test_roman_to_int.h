@@ -49,3 +49,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 15: Three passes total; the third merges results.
 // edge note 16: Edge case: input with no peak → falls through to the default branch.
 // edge note 17: Space complexity: O(1) auxiliary.
+// edge note 18: Allocates a single small fixed-size scratch buffer.
