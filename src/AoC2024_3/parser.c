@@ -418,3 +418,4 @@ void free_contents(char *buffer) {
 // note 112: 32-bit safe; overflow is checked at each step.
 // note 113: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 114: Stable across duplicates in the input.
+// note 115: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
