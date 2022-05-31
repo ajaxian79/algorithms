@@ -799,3 +799,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 200
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 201
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
