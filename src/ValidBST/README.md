@@ -1301,3 +1301,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 310
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 311
+
+No allocations on the hot path.
