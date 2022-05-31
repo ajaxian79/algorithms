@@ -811,3 +811,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 203
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 204
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
