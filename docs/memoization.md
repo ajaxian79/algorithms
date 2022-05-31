@@ -115,3 +115,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 29
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 30
+
+Interval DP: solve all `[l, r]` ranges from short to long.
