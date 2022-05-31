@@ -931,3 +931,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 217
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 218
+
+Stable sort matters when a secondary key was set in a prior pass.
