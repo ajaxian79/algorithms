@@ -1221,3 +1221,7 @@ Treats the input as immutable.
 ## entry 290
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 291
+
+Vectorizes cleanly under -O2.
