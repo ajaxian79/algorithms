@@ -875,3 +875,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 219
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 220
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
