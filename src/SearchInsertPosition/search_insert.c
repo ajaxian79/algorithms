@@ -135,3 +135,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 119: StringBuilder: amortize allocation by doubling on grow.
 // note 120: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 121: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 122: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
