@@ -1339,3 +1339,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 320
 
 Handles empty input by returning 0.
+
+## entry 321
+
+Edge case: NULL input is rejected by the caller, not by us.
