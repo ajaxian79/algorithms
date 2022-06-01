@@ -6179,3 +6179,7 @@
 ## entry 1545
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 1546
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
