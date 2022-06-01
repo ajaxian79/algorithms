@@ -1312,3 +1312,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 312
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 313
+
+Edge case: single-element input → returns the element itself.
