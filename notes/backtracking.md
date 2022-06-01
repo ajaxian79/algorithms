@@ -867,3 +867,7 @@
 ## entry 200
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 201
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
