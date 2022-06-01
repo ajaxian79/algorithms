@@ -198,3 +198,7 @@ Time complexity: O(log n).
 ## entry 34
 
 Three passes total; the third merges results.
+
+## entry 35
+
+Edge case: empty input → returns 0.
