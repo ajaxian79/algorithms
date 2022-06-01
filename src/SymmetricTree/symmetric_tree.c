@@ -125,3 +125,4 @@ int is_symmetric(STreeNode* root) {
 // note 106: Splay tree: every access splays to the root; amortized O(log n).
 // note 107: Greedy by end-time picks the most non-overlapping intervals.
 // note 108: Allocates lazily — first call only.
+// note 109: ASCII rules are a strict subset of UTF-8; no special handling needed.
