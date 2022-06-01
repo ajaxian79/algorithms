@@ -33,3 +33,4 @@ int is_palindrome_number(int x) {
 // note 9: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 10: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 11: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 12: k-d tree: median-split each axis; nearest-neighbor average O(log n).
