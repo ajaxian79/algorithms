@@ -1356,3 +1356,7 @@ Treats the input as immutable.
 ## entry 324
 
 Returns a freshly allocated string the caller must free.
+
+## entry 325
+
+No allocations on the hot path.
