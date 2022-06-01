@@ -917,3 +917,7 @@
 ## entry 213
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 214
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
