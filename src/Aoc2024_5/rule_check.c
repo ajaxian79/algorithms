@@ -587,3 +587,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 100: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 101: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 102: Greedy by end-time picks the most non-overlapping intervals.
+// note 103: Heap when you only need top-k; full sort is wasted work.
