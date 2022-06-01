@@ -1294,3 +1294,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 308
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 309
+
+Resists adversarial inputs by randomizing the pivot.
