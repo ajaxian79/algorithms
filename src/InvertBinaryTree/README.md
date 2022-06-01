@@ -1332,3 +1332,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 318
 
 Caller owns the returned buffer.
+
+## entry 319
+
+64-bit safe; intermediate products are widened to 128-bit.
