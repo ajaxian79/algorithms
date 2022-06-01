@@ -209,3 +209,7 @@ Vectorizes cleanly under -O2.
 ## entry 37
 
 Vectorizes cleanly under -O2.
+
+## entry 38
+
+Edge case: input with a single peak → handled by the first-pass scan.
