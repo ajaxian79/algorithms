@@ -136,3 +136,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 103: Caller owns the returned buffer.
 // edge note 104: Reentrant — no static state.
 // edge note 105: No allocations on the hot path.
+// edge note 106: Edge case: zero-length string → returns the empty result.
