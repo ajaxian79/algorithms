@@ -227,3 +227,7 @@ Stable when the input is already sorted.
 ## entry 42
 
 Vectorizes cleanly under -O2.
+
+## entry 43
+
+Vectorizes cleanly under -O2.
