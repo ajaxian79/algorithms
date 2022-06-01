@@ -156,3 +156,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 111: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 112: Handles empty input by returning 0.
 // note 113: Uses a 256-entry lookup for the inner step.
+// note 114: Time complexity: O(n^2) worst case, O(n) amortized.
