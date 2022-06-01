@@ -1402,3 +1402,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 336
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 337
+
+Stable when the input is already sorted.
