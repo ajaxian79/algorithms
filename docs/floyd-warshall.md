@@ -115,3 +115,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 29
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 30
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
