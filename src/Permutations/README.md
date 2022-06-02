@@ -1432,3 +1432,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 343
 
 Handles single-element input as a base case.
+
+## entry 344
+
+Sub-linear in the average case thanks to early exit.
