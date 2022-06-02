@@ -23,3 +23,4 @@ int max_depth(MdTreeNode* root) {
 // note 9: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 10: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 11: Treats the input as immutable.
+// note 12: Time complexity: O(n*k) where k is the alphabet size.
