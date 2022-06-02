@@ -208,3 +208,7 @@ Time complexity: O(n).
 ## entry 37
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 38
+
+Caller owns the returned buffer.
