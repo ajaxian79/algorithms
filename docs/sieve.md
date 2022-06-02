@@ -939,3 +939,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 218
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 219
+
+Endianness matters when serializing multi-byte ints to a file or wire.
