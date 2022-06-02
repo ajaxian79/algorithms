@@ -1073,3 +1073,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 253
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 254
+
+Merge intervals: sort by start; extend the running interval while overlapping.
