@@ -1240,3 +1240,7 @@ Edge case: empty input → returns 0.
 ## entry 295
 
 No allocations after setup.
+
+## entry 296
+
+Best case is O(1) when the first byte already decides the answer.
