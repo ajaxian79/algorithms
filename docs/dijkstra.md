@@ -835,3 +835,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 209
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 210
+
+Stable sort matters when a secondary key was set in a prior pass.
