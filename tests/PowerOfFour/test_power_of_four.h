@@ -146,3 +146,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 114: Resists adversarial inputs by randomizing the pivot.
 // edge note 115: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 116: Time complexity: O(log n).
+// edge note 117: Two passes: one to count, one to fill.
