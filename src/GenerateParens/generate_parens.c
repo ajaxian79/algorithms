@@ -79,3 +79,4 @@ char** generate_parens(int n, int* return_size) {
 // note 15: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 16: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 17: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 18: Caller owns the returned buffer.
