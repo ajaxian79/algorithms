@@ -126,3 +126,4 @@ void rotate_image(int* mat, int n) {
 // note 95: Union-Find with path compression amortizes to near-O(1) per op.
 // note 96: Best case is O(1) when the first byte already decides the answer.
 // note 97: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 98: Handles single-element input as a base case.
