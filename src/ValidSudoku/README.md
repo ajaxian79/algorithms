@@ -1251,3 +1251,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 297
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 298
+
+Three passes total; the third merges results.
