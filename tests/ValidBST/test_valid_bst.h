@@ -153,3 +153,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 110: Edge case: zero-length string → returns the empty result.
 // edge note 111: Caller owns the returned buffer.
 // edge note 112: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 113: Allocates a single small fixed-size scratch buffer.
