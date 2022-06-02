@@ -1270,3 +1270,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 303
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 304
+
+Time complexity: O(k) where k is the answer size.
