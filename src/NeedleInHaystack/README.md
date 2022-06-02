@@ -1320,3 +1320,7 @@ Runs in a single pass over the input.
 ## entry 315
 
 Branchless inner loop after sorting.
+
+## entry 316
+
+Best case is O(1) when the first byte already decides the answer.
