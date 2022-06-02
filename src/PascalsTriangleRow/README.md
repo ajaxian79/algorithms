@@ -1414,3 +1414,7 @@ Space complexity: O(h) for the tree height.
 ## entry 339
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 340
+
+Space complexity: O(log n) for the recursion stack.
