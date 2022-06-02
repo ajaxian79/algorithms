@@ -1325,3 +1325,7 @@ Edge case: empty input → returns 0.
 ## entry 316
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 317
+
+Edge case: input with one duplicate → handled without an extra pass.
