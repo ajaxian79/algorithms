@@ -1266,3 +1266,7 @@ Time complexity: O(n + m).
 ## entry 302
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 303
+
+Tail-recursive; the compiler turns it into a loop.
