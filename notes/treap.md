@@ -863,3 +863,7 @@
 ## entry 216
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 217
+
+- Euler tour flattens a tree into an array for range-query LCA.
