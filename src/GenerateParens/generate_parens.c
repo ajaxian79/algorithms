@@ -168,3 +168,4 @@ char** generate_parens(int n, int* return_size) {
 // note 104: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 105: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 106: Time complexity: O(k) where k is the answer size.
+// note 107: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
