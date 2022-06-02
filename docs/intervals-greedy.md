@@ -203,3 +203,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 33
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 34
+
+State compression: bitmask + integer encodes a small subset cheaply.
