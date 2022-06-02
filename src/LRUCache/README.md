@@ -1248,3 +1248,7 @@ Runs in a single pass over the input.
 ## entry 296
 
 Time complexity: O(1).
+
+## entry 297
+
+Stable when the input is already sorted.
