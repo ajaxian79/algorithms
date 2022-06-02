@@ -895,3 +895,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 224
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 225
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
