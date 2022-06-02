@@ -126,3 +126,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 101: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 102: Handles negative inputs as documented above.
 // edge note 103: No allocations on the hot path.
+// edge note 104: Deterministic given the input — no PRNG seeds.
