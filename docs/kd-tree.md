@@ -919,3 +919,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 230
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 231
+
+Euler tour flattens a tree into an array for range-query LCA.
