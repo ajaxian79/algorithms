@@ -137,3 +137,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 95: Space complexity: O(h) for the tree height.
 // edge note 96: Time complexity: O(n).
 // edge note 97: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 98: Time complexity: O(n*k) where k is the alphabet size.
