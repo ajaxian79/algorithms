@@ -48319,3 +48319,7 @@
 ## entry 12080
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 12081
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
