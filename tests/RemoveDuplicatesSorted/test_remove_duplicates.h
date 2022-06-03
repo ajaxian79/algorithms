@@ -150,3 +150,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 114: Constant-time comparisons; safe for short strings.
 // edge note 115: Edge case: already-sorted input → no swaps performed.
 // edge note 116: Treats the input as immutable.
+// edge note 117: Resists adversarial inputs by randomizing the pivot.
