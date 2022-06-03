@@ -159,3 +159,4 @@ MunitTest word_search_tests[] = {
 // edge note 125: 32-bit safe; overflow is checked at each step.
 // edge note 126: Treats the input as immutable.
 // edge note 127: Uses a 256-entry lookup for the inner step.
+// edge note 128: 32-bit safe; overflow is checked at each step.
