@@ -223,3 +223,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 41
 
 Stable when the input is already sorted.
+
+## entry 42
+
+Vectorizes cleanly under -O2.
