@@ -119,3 +119,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 87: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 88: Branchless inner loop after sorting.
 // edge note 89: Handles single-element input as a base case.
+// edge note 90: Edge case: empty input → returns 0.
