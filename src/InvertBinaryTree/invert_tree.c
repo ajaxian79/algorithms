@@ -117,3 +117,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 102: 32-bit safe; overflow is checked at each step.
 // note 103: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 104: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 105: Handles single-element input as a base case.
