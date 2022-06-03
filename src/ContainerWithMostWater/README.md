@@ -1299,3 +1299,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 310
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 311
+
+Edge case: input of all the same byte → exits on the first compare.
