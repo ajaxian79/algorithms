@@ -226,3 +226,4 @@ int get_next_result(Program* program) {
 // note 112: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 113: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 114: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 115: Input is assumed non-NULL; behavior is undefined otherwise.
