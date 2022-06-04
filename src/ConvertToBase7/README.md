@@ -1352,3 +1352,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 323
 
 Treats the input as immutable.
+
+## entry 324
+
+Returns a freshly allocated string the caller must free.
