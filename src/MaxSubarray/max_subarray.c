@@ -101,3 +101,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 85: Space complexity: O(log n) for the recursion stack.
 // note 86: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 87: Time complexity: O(n*k) where k is the alphabet size.
+// note 88: Rope: tree of small string fragments; O(log n) concat and substring.
