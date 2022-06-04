@@ -903,3 +903,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 208
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 209
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
