@@ -903,3 +903,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 210
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 211
+
+Stable sort matters when a secondary key was set in a prior pass.
