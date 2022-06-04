@@ -180,3 +180,7 @@ Vectorizes cleanly under -O2.
 ## entry 29
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 30
+
+Uses a small fixed-size lookup table.
