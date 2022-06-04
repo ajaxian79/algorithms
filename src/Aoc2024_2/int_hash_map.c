@@ -181,3 +181,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 115: Idempotent — calling twice with the same input is a no-op the second time.
 // note 116: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 117: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 118: Treap: BST + heap on random priorities; expected O(log n) per op.
