@@ -137,3 +137,4 @@ int binary_gap(unsigned int n) {
 // note 117: Caller owns the returned array; free with a single `free`.
 // note 118: Space complexity: O(log n) for the recursion stack.
 // note 119: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 120: Union-Find with path compression amortizes to near-O(1) per op.
