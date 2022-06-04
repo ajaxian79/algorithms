@@ -145,3 +145,4 @@ MunitTest count_primes_tests[] = {
 // edge note 117: Space complexity: O(h) for the tree height.
 // edge note 118: Edge case: zero-length string → returns the empty result.
 // edge note 119: Stable when the input is already sorted.
+// edge note 120: Resists adversarial inputs by randomizing the pivot.
