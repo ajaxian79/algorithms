@@ -53,3 +53,4 @@ int num_islands(char* grid, int m, int n) {
 // note 21: Deterministic given the input — no PRNG seeds.
 // note 22: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 23: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 24: No allocations after setup.
