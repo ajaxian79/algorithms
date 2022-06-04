@@ -329,3 +329,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 90: Time complexity: O(1).
 // note 91: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 92: 64-bit safe; intermediate products are widened to 128-bit.
+// note 93: Time complexity: O(n^2) worst case, O(n) amortized.
