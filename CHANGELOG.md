@@ -48307,3 +48307,7 @@
 ## entry 12077
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 12078
+
+- Union-Find with path compression amortizes to near-O(1) per op.
