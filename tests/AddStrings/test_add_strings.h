@@ -46,3 +46,4 @@ MunitTest add_strings_tests[] = {
 // edge note 10: Deterministic given the input — no PRNG seeds.
 // edge note 11: Edge case: reverse-sorted input → still O(n log n).
 // edge note 12: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 13: Space complexity: O(h) for the tree height.
