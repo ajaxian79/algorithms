@@ -121,3 +121,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 94: Mutates the input in place; the original ordering is lost.
 // edge note 95: Runs in a single pass over the input.
 // edge note 96: Vectorizes cleanly under -O2.
+// edge note 97: Edge case: input of all the same byte → exits on the first compare.
