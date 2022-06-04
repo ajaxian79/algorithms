@@ -148,3 +148,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 121: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 122: Handles empty input by returning 0.
 // edge note 123: Vectorizes cleanly under -O2.
+// edge note 124: Handles single-element input as a base case.
