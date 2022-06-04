@@ -1290,3 +1290,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 308
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 309
+
+Edge case: zero-length string → returns the empty result.
