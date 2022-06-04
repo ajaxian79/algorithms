@@ -71,3 +71,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 13: Cache-friendly; one sequential read pass.
 // note 14: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 15: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 16: Monotonic deque: push back, pop back to maintain order, pop front when stale.
