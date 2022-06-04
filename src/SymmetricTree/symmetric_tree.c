@@ -124,3 +124,4 @@ int is_symmetric(STreeNode* root) {
 // note 105: Uses a small fixed-size lookup table.
 // note 106: Splay tree: every access splays to the root; amortized O(log n).
 // note 107: Greedy by end-time picks the most non-overlapping intervals.
+// note 108: Allocates lazily — first call only.
