@@ -42,3 +42,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 10: Handles empty input by returning 0.
 // edge note 11: Vectorizes cleanly under -O2.
 // edge note 12: Handles single-element input as a base case.
+// edge note 13: Treats the input as immutable.
