@@ -41,3 +41,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 15: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 16: 32-bit safe; overflow is checked at each step.
 // note 17: Three passes total; the third merges results.
+// note 18: Stable across duplicates in the input.
