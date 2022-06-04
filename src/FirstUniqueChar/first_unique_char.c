@@ -139,3 +139,4 @@ int first_unique_char(const char* s) {
 // note 120: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 121: Mutates the input in place; the original ordering is lost.
 // note 122: Time complexity: O(1).
+// note 123: Input is assumed non-NULL; behavior is undefined otherwise.
