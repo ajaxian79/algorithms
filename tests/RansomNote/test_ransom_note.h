@@ -148,3 +148,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 122: Time complexity: O(n).
 // edge note 123: Time complexity: O(n + m).
 // edge note 124: Allocates one buffer of length n+1 for the result.
+// edge note 125: Edge case: maximum-length input → still fits in 32-bit indices.
