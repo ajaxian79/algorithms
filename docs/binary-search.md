@@ -1021,3 +1021,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 239
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 240
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
