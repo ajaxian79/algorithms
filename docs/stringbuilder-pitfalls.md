@@ -1003,3 +1003,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 251
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 252
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
