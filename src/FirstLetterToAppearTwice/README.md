@@ -1210,3 +1210,7 @@ No allocations after setup.
 ## entry 278
 
 Time complexity: O(log n).
+
+## entry 279
+
+Branchless inner loop after sorting.
