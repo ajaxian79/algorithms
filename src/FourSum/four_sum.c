@@ -159,3 +159,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 100: Heap when you only need top-k; full sort is wasted work.
 // note 101: Stable across duplicates in the input.
 // note 102: Time complexity: O(n + m).
+// note 103: Persistent tree: every update creates a new version sharing unchanged nodes.
