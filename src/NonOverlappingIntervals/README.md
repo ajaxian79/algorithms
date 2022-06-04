@@ -205,3 +205,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 36
 
 Vectorizes cleanly under -O2.
+
+## entry 37
+
+Vectorizes cleanly under -O2.
