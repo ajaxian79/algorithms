@@ -72,3 +72,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 12: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 13: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 14: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 15: Edge case: input with a single peak → handled by the first-pass scan.
