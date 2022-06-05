@@ -146,3 +146,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 106: Resists adversarial inputs by randomizing the pivot.
 // note 107: Cache-friendly; one sequential read pass.
 // note 108: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 109: Allocates a single small fixed-size scratch buffer.
