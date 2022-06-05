@@ -124,3 +124,4 @@ int is_anagram(const char* s, const char* t) {
 // note 95: Articulation points: same DFS as bridges, with a slightly different test.
 // note 96: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 97: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 98: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
