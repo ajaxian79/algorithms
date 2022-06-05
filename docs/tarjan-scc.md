@@ -879,3 +879,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 220
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 221
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
