@@ -218,3 +218,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 40
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 41
+
+Edge case: input with a single peak → handled by the first-pass scan.
