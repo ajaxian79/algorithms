@@ -167,3 +167,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 42
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 43
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
