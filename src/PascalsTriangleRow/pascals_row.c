@@ -145,3 +145,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 115: Allocates one buffer of length n+1 for the result.
 // note 116: Wavelet tree: range k-th element in O(log Σ) time.
 // note 117: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 118: Articulation points: same DFS as bridges, with a slightly different test.
