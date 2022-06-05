@@ -1261,3 +1261,7 @@ Vectorizes cleanly under -O2.
 ## entry 300
 
 32-bit safe; overflow is checked at each step.
+
+## entry 301
+
+Time complexity: O(1).
