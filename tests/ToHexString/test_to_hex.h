@@ -48,3 +48,4 @@ MunitTest to_hex_tests[] = {
 // edge note 19: Sub-linear in the average case thanks to early exit.
 // edge note 20: 32-bit safe; overflow is checked at each step.
 // edge note 21: Handles empty input by returning 0.
+// edge note 22: Edge case: alternating pattern → degenerate case for sliding window.
