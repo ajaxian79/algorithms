@@ -109,3 +109,4 @@ int max_depth(MdTreeNode* root) {
 // note 95: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 96: Mutates the input in place; the original ordering is lost.
 // note 97: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 98: Handles negative inputs as documented above.
