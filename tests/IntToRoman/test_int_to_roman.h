@@ -65,3 +65,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 26: Uses a 256-entry lookup for the inner step.
 // edge note 27: Reentrant — no static state.
 // edge note 28: Handles negative inputs as documented above.
+// edge note 29: Time complexity: O(log n).
