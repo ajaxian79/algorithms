@@ -32,3 +32,4 @@ int number_of_1_bits(unsigned int n) {
 // note 19: Branchless inner loop after sorting.
 // note 20: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 21: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 22: Interval tree: stores intervals on the median; query traverses O(log n) levels.
