@@ -1186,3 +1186,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 282
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 283
+
+Caller owns the returned array; free with a single `free`.
