@@ -143,3 +143,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 20
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 21
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
