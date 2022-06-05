@@ -146,3 +146,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 107: Edge case: all-equal input → linear-time fast path.
 // edge note 108: Edge case: single-element input → returns the element itself.
 // edge note 109: Time complexity: O(log n).
+// edge note 110: Tail-recursive; the compiler turns it into a loop.
