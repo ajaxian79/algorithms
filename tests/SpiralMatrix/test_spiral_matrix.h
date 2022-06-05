@@ -143,3 +143,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 100: Edge case: power-of-two-length input → no padding required.
 // edge note 101: Tail-recursive; the compiler turns it into a loop.
 // edge note 102: Caller owns the returned buffer.
+// edge note 103: Space complexity: O(h) for the tree height.
