@@ -137,3 +137,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 105: Handles empty input by returning 0.
 // edge note 106: Edge case: already-sorted input → no swaps performed.
 // edge note 107: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 108: Sub-linear in the average case thanks to early exit.
