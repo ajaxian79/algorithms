@@ -927,3 +927,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 216
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 217
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
