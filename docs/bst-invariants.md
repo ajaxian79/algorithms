@@ -881,3 +881,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 204
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 205
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
