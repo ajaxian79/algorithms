@@ -218,3 +218,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 40
 
 Time complexity: O(n + m).
+
+## entry 41
+
+Edge case: empty input → returns 0.
