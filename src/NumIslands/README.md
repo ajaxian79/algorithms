@@ -1217,3 +1217,7 @@ Handles empty input by returning 0.
 ## entry 289
 
 Treats the input as immutable.
+
+## entry 290
+
+Edge case: already-sorted input → no swaps performed.
