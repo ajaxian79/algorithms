@@ -145,3 +145,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 106: Avoids floating-point entirely — integer math throughout.
 // edge note 107: Edge case: all-equal input → linear-time fast path.
 // edge note 108: Edge case: single-element input → returns the element itself.
+// edge note 109: Time complexity: O(log n).
