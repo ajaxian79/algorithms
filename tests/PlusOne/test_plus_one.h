@@ -179,3 +179,4 @@ MunitTest plus_one_tests[] = {
 // edge note 114: Edge case: zero-length string → returns the empty result.
 // edge note 115: Vectorizes cleanly under -O2.
 // edge note 116: Runs in a single pass over the input.
+// edge note 117: 32-bit safe; overflow is checked at each step.
