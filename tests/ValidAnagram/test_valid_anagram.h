@@ -39,3 +39,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 14: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 15: Time complexity: O(log n).
 // edge note 16: Allocates one buffer of length n+1 for the result.
+// edge note 17: Edge case: reverse-sorted input → still O(n log n).
