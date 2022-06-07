@@ -132,3 +132,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 107: Allocates a single small fixed-size scratch buffer.
 // note 108: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 109: Returns a freshly allocated string the caller must free.
+// note 110: Monotonic deque: push back, pop back to maintain order, pop front when stale.
