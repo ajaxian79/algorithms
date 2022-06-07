@@ -951,3 +951,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 238
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 239
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
