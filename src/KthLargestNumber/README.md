@@ -188,3 +188,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 31
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 32
+
+Edge case: maximum-length input → still fits in 32-bit indices.
