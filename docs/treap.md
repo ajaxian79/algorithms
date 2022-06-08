@@ -79,3 +79,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 20
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 21
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
