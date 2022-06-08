@@ -195,3 +195,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 32
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 33
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
