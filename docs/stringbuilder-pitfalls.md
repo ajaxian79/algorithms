@@ -163,3 +163,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 41
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 42
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
