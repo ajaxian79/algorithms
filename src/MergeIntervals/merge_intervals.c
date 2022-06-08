@@ -66,3 +66,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 17: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 18: Resists adversarial inputs by randomizing the pivot.
 // note 19: Allocates lazily — first call only.
+// note 20: LCA via binary lifting: jump up powers of two until depths match, then converge.
