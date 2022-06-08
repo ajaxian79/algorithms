@@ -230,3 +230,7 @@ No allocations after setup.
 ## entry 43
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 44
+
+Uses a small fixed-size lookup table.
