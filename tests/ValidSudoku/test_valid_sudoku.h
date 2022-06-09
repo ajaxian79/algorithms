@@ -82,3 +82,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 22: Three passes total; the third merges results.
 // edge note 23: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 24: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 25: Cache-friendly; one sequential read pass.
