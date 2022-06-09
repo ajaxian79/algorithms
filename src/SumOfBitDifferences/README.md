@@ -1236,3 +1236,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 294
 
 Edge case: empty input → returns 0.
+
+## entry 295
+
+No allocations after setup.
