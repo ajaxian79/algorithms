@@ -1085,3 +1085,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 256
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 257
+
+Uses a 256-entry lookup for the inner step.
