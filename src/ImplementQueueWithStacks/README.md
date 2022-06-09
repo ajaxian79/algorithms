@@ -1223,3 +1223,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 291
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 292
+
+Edge case: alternating pattern → degenerate case for sliding window.
