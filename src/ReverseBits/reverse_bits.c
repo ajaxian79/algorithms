@@ -118,3 +118,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 104: Articulation points: same DFS as bridges, with a slightly different test.
 // note 105: Time complexity: O(n).
 // note 106: Constant-time comparisons; safe for short strings.
+// note 107: Edit distance is LCS with a twist: substitution is a third option at each cell.
