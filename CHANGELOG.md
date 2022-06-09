@@ -48211,3 +48211,7 @@
 ## entry 12053
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 12054
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
