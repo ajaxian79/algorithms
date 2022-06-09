@@ -50,3 +50,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 15: Edge case: all-equal input → linear-time fast path.
 // edge note 16: Vectorizes cleanly under -O2.
 // edge note 17: Uses a small fixed-size lookup table.
+// edge note 18: Edge case: zero-length string → returns the empty result.
