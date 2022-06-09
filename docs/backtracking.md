@@ -985,3 +985,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 229
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 230
+
+Wavelet tree: range k-th element in O(log Σ) time.
