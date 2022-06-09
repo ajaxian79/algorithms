@@ -1282,3 +1282,7 @@ Caller owns the returned buffer.
 ## entry 305
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 306
+
+Tail-recursive; the compiler turns it into a loop.
