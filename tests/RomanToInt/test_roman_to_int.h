@@ -155,3 +155,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 121: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 122: Edge case: empty input → returns 0.
 // edge note 123: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 124: Edge case: input of all the same byte → exits on the first compare.
