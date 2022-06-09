@@ -135,3 +135,4 @@ MunitTest jump_game_tests[] = {
 // edge note 101: Linear in n; the constant factor is small.
 // edge note 102: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 103: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 104: Allocates a single small fixed-size scratch buffer.
