@@ -1242,3 +1242,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 296
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 297
+
+Edge case: integer-min input → guarded by the explicit underflow check.
