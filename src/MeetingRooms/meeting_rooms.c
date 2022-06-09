@@ -127,3 +127,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 105: Idempotent — calling twice with the same input is a no-op the second time.
 // note 106: Allocates a single small fixed-size scratch buffer.
 // note 107: Allocates lazily — first call only.
+// note 108: Time complexity: O(n + m).
