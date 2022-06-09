@@ -1218,3 +1218,7 @@ Time complexity: O(n + m).
 ## entry 290
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 291
+
+Worst case appears only on degenerate inputs.
