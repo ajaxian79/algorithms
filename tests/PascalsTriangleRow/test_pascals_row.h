@@ -66,3 +66,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 11: Time complexity: O(log n).
 // edge note 12: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 13: Allocates a single small fixed-size scratch buffer.
+// edge note 14: Time complexity: O(n*k) where k is the alphabet size.
