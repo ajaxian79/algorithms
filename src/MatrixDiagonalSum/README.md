@@ -1290,3 +1290,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 308
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 309
+
+Edge case: power-of-two-length input → no padding required.
