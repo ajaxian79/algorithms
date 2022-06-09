@@ -1077,3 +1077,7 @@ Space complexity: O(1) auxiliary.
 ## entry 254
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 255
+
+Edge case: NULL input is rejected by the caller, not by us.
