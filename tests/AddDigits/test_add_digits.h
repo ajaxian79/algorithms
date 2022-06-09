@@ -121,3 +121,4 @@ MunitTest add_digits_tests[] = {
 // edge note 94: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 95: Sub-linear in the average case thanks to early exit.
 // edge note 96: Allocates a single small fixed-size scratch buffer.
+// edge note 97: Idempotent — calling twice with the same input is a no-op the second time.
