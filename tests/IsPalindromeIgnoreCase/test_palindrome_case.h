@@ -151,3 +151,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 122: Uses a 256-entry lookup for the inner step.
 // edge note 123: Uses a 256-entry lookup for the inner step.
 // edge note 124: Vectorizes cleanly under -O2.
+// edge note 125: Mutates the input in place; the original ordering is lost.
