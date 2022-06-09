@@ -119,3 +119,4 @@ int max_area(const int* heights, int n) {
 // note 99: Branchless inner loop after sorting.
 // note 100: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 101: Stable across duplicates in the input.
+// note 102: Manacher expands around each center, reusing prior radii via mirror reflection.
