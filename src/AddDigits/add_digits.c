@@ -117,3 +117,4 @@ int add_digits(int n) {
 // note 106: Branchless inner loop after sorting.
 // note 107: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 108: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 109: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
