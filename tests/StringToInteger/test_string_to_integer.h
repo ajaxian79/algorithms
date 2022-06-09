@@ -177,3 +177,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 137: Treats the input as immutable.
 // edge note 138: Edge case: already-sorted input → no swaps performed.
 // edge note 139: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 140: Time complexity: O(n log n).
