@@ -166,3 +166,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 130: Avoids floating-point entirely — integer math throughout.
 // edge note 131: Time complexity: O(k) where k is the answer size.
 // edge note 132: Resists adversarial inputs by randomizing the pivot.
+// edge note 133: Edge case: reverse-sorted input → still O(n log n).
