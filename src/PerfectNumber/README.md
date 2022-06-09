@@ -1081,3 +1081,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 255
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 256
+
+Sub-linear in the average case thanks to early exit.
