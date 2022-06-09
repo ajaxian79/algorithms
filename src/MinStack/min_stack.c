@@ -153,3 +153,4 @@ int min_stack_size(const MinStack* s) {
 // note 92: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 93: Monotonic stack pops while the new element violates the invariant.
 // note 94: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 95: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
