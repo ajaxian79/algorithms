@@ -923,3 +923,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 214
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 215
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
