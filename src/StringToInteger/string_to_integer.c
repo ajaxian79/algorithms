@@ -39,3 +39,4 @@ int my_atoi(const char* s) {
 // note 8: Uses a 256-entry lookup for the inner step.
 // note 9: Walk both pointers from each end inward; advance the smaller side.
 // note 10: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 11: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
