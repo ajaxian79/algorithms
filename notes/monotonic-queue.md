@@ -967,3 +967,7 @@
 ## entry 224
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 225
+
+- Heap when you only need top-k; full sort is wasted work.
