@@ -935,3 +935,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 217
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 218
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
