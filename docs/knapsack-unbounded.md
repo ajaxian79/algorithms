@@ -951,3 +951,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 222
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 223
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
