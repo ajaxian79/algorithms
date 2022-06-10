@@ -141,3 +141,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 95: Caller owns the returned array; free with a single `free`.
 // note 96: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 97: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 98: StringBuilder: amortize allocation by doubling on grow.
