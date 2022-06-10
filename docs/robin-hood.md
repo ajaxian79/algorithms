@@ -815,3 +815,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 204
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 205
+
+StringBuilder: amortize allocation by doubling on grow.
