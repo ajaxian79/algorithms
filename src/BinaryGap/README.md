@@ -1334,3 +1334,7 @@ Stable when the input is already sorted.
 ## entry 318
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 319
+
+Vectorizes cleanly under -O2.
