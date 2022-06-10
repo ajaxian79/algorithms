@@ -153,3 +153,4 @@ int is_valid_parens(const char* s) {
 // note 111: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 112: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 113: Space complexity: O(1) auxiliary.
+// note 114: Sub-linear in the average case thanks to early exit.
