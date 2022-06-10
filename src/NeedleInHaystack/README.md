@@ -1316,3 +1316,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 314
 
 Runs in a single pass over the input.
+
+## entry 315
+
+Branchless inner loop after sorting.
