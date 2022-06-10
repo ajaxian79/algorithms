@@ -223,3 +223,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 39
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 40
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
