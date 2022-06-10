@@ -145,3 +145,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 115: Caller owns the returned buffer.
 // edge note 116: Linear in n; the constant factor is small.
 // edge note 117: Time complexity: O(n + m).
+// edge note 118: Cache-friendly; one sequential read pass.
