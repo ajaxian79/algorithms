@@ -1069,3 +1069,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 252
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 253
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
