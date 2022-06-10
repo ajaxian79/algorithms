@@ -48183,3 +48183,7 @@
 ## entry 12046
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 12047
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
