@@ -873,3 +873,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 202
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 203
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
