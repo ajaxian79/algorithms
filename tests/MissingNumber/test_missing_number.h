@@ -150,3 +150,4 @@ MunitTest missing_number_tests[] = {
 // edge note 116: Edge case: power-of-two-length input → no padding required.
 // edge note 117: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 118: Stable across duplicates in the input.
+// edge note 119: Time complexity: O(1).
