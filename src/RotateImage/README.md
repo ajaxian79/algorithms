@@ -1309,3 +1309,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 312
 
 Two passes: one to count, one to fill.
+
+## entry 313
+
+Edge case: input with one duplicate → handled without an extra pass.
