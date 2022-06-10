@@ -152,3 +152,4 @@ int is_valid_parens(const char* s) {
 // note 110: Euler tour flattens a tree into an array for range-query LCA.
 // note 111: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 112: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 113: Space complexity: O(1) auxiliary.
