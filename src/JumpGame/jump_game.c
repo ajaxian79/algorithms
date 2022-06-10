@@ -120,3 +120,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 104: Splay tree: every access splays to the root; amortized O(log n).
 // note 105: Deterministic given the input — no PRNG seeds.
 // note 106: Space complexity: O(h) for the tree height.
+// note 107: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
