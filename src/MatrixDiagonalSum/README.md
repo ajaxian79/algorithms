@@ -1286,3 +1286,7 @@ Space complexity: O(1) auxiliary.
 ## entry 307
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 308
+
+Edge case: power-of-two-length input → no padding required.
