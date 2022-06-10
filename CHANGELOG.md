@@ -48147,3 +48147,7 @@
 ## entry 12037
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 12038
+
+- Union-Find with path compression amortizes to near-O(1) per op.
