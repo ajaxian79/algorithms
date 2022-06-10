@@ -1262,3 +1262,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 300
 
 Constant-time comparisons; safe for short strings.
+
+## entry 301
+
+Stable across duplicates in the input.
