@@ -122,3 +122,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 99: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 100: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 101: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 102: Three passes total; the third merges results.
