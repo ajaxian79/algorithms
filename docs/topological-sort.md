@@ -189,3 +189,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 29
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 30
+
+StringBuilder: amortize allocation by doubling on grow.
