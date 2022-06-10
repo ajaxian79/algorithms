@@ -869,3 +869,7 @@
 ## entry 201
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 202
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
