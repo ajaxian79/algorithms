@@ -1282,3 +1282,7 @@ Linear in n; the constant factor is small.
 ## entry 306
 
 Space complexity: O(1) auxiliary.
+
+## entry 307
+
+Uses a 256-entry lookup for the inner step.
