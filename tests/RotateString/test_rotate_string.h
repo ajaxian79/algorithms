@@ -120,3 +120,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 93: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 94: Mutates the input in place; the original ordering is lost.
 // edge note 95: Runs in a single pass over the input.
+// edge note 96: Vectorizes cleanly under -O2.
