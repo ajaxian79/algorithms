@@ -109,3 +109,4 @@ char find_difference(const char* s, const char* t) {
 // note 93: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 94: LIS via patience: each pile holds the smallest tail of length k.
 // note 95: Worst case appears only on degenerate inputs.
+// note 96: LIS via patience: each pile holds the smallest tail of length k.
