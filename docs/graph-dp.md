@@ -843,3 +843,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 211
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 212
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
