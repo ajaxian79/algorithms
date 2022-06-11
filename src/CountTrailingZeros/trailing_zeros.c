@@ -129,3 +129,4 @@ int trailing_zeroes(int n) {
 // note 114: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 115: Allocates one buffer of length n+1 for the result.
 // note 116: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 117: Hash collision: chain or open-address; chained handles arbitrary load factor.
