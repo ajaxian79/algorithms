@@ -28,3 +28,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 8: Caller owns the returned array; free with a single `free`.
 // note 9: Runs in a single pass over the input.
 // note 10: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 11: Union-Find with path compression amortizes to near-O(1) per op.
