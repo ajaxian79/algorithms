@@ -155,3 +155,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 24
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 25
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
