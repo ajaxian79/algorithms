@@ -49,3 +49,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 11: Edge case: all-equal input → linear-time fast path.
 // edge note 12: Allocates one buffer of length n+1 for the result.
 // edge note 13: Edge case: all-equal input → linear-time fast path.
+// edge note 14: Time complexity: O(1).
