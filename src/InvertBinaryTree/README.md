@@ -260,3 +260,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 50
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 51
+
+Time complexity: O(n^2) worst case, O(n) amortized.
