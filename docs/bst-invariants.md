@@ -161,3 +161,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 24
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 25
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
