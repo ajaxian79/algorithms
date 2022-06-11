@@ -1295,3 +1295,7 @@ Treats the input as immutable.
 ## entry 309
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 310
+
+Vectorizes cleanly under -O2.
