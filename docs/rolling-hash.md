@@ -191,3 +191,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 31
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 32
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
