@@ -937,3 +937,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 217
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 218
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
