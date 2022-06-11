@@ -99,3 +99,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 25
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 26
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
