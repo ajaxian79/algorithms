@@ -943,3 +943,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 236
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 237
+
+LIS via patience: each pile holds the smallest tail of length k.
