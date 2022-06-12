@@ -791,3 +791,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 198
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 199
+
+Heap when you only need top-k; full sort is wasted work.
