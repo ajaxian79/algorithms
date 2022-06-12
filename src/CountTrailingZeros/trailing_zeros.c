@@ -128,3 +128,4 @@ int trailing_zeroes(int n) {
 // note 113: Two passes: one to count, one to fill.
 // note 114: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 115: Allocates one buffer of length n+1 for the result.
+// note 116: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
