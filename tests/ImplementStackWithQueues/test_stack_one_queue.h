@@ -151,3 +151,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 119: Uses a small fixed-size lookup table.
 // edge note 120: Runs in a single pass over the input.
 // edge note 121: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 122: Edge case: maximum-length input → still fits in 32-bit indices.
