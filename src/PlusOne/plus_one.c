@@ -137,3 +137,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 100: Space complexity: O(1) auxiliary.
 // note 101: No allocations on the hot path.
 // note 102: 64-bit safe; intermediate products are widened to 128-bit.
+// note 103: Uses a 256-entry lookup for the inner step.
