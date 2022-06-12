@@ -851,3 +851,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 213
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 214
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
