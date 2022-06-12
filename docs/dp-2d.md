@@ -919,3 +919,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 214
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 215
+
+Articulation points: same DFS as bridges, with a slightly different test.
