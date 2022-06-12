@@ -1262,3 +1262,7 @@ Time complexity: O(n + m).
 ## entry 301
 
 32-bit safe; overflow is checked at each step.
+
+## entry 302
+
+Mutates the input in place; the original ordering is lost.
