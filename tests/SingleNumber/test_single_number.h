@@ -144,3 +144,4 @@ MunitTest single_number_tests[] = {
 // edge note 113: Sub-linear in the average case thanks to early exit.
 // edge note 114: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 115: Constant-time comparisons; safe for short strings.
+// edge note 116: Idempotent — calling twice with the same input is a no-op the second time.
