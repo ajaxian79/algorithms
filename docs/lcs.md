@@ -927,3 +927,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 214
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 215
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
