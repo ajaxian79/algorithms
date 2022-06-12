@@ -1310,3 +1310,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 313
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 314
+
+Thread-safe so long as the input is not mutated concurrently.
