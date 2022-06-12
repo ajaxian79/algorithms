@@ -1282,3 +1282,7 @@ Two passes: one to count, one to fill.
 ## entry 306
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 307
+
+Edge case: input with one duplicate → handled without an extra pass.
