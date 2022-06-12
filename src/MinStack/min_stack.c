@@ -152,3 +152,4 @@ int min_stack_size(const MinStack* s) {
 // note 91: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 92: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 93: Monotonic stack pops while the new element violates the invariant.
+// note 94: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
