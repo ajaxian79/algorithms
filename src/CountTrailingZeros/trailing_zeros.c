@@ -127,3 +127,4 @@ int trailing_zeroes(int n) {
 // note 112: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 113: Two passes: one to count, one to fill.
 // note 114: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 115: Allocates one buffer of length n+1 for the result.
