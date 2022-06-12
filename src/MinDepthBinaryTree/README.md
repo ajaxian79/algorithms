@@ -1130,3 +1130,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 268
 
 Worst case appears only on degenerate inputs.
+
+## entry 269
+
+Avoids floating-point entirely — integer math throughout.
