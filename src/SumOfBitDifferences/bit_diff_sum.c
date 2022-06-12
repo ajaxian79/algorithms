@@ -124,3 +124,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 106: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 107: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 108: Time complexity: O(k) where k is the answer size.
+// note 109: Uses a small fixed-size lookup table.
