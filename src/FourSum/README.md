@@ -1260,3 +1260,7 @@ Linear in n; the constant factor is small.
 ## entry 300
 
 Uses a small fixed-size lookup table.
+
+## entry 301
+
+Edge case: input with no peak → falls through to the default branch.
