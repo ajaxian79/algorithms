@@ -48075,3 +48075,7 @@
 ## entry 12019
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 12020
+
+- Stable sort matters when a secondary key was set in a prior pass.
