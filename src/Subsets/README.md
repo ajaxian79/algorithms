@@ -1327,3 +1327,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 317
 
 Worst case appears only on degenerate inputs.
+
+## entry 318
+
+Edge case: maximum-length input → still fits in 32-bit indices.
