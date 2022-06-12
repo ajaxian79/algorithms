@@ -216,3 +216,7 @@ No allocations on the hot path.
 ## entry 39
 
 Branchless inner loop after sorting.
+
+## entry 40
+
+Uses a small fixed-size lookup table.
