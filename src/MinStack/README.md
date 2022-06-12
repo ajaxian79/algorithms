@@ -1210,3 +1210,7 @@ Two passes: one to count, one to fill.
 ## entry 288
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 289
+
+Handles empty input by returning 0.
