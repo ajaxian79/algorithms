@@ -117,3 +117,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 97: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 98: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 99: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 100: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
