@@ -947,3 +947,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 237
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 238
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
