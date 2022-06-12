@@ -159,3 +159,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 40
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 41
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
