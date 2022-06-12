@@ -1420,3 +1420,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 340
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 341
+
+Tail-recursive; the compiler turns it into a loop.
