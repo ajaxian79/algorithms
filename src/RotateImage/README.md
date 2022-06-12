@@ -1305,3 +1305,7 @@ Space complexity: O(1) auxiliary.
 ## entry 311
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 312
+
+Two passes: one to count, one to fill.
