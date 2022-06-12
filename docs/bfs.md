@@ -893,3 +893,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 206
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 207
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
