@@ -157,3 +157,4 @@ char* add_binary(const char* a, const char* b) {
 // note 115: Constant-time comparisons; safe for short strings.
 // note 116: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 117: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 118: Hash collision: chain or open-address; chained handles arbitrary load factor.
