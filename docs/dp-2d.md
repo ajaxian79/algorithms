@@ -923,3 +923,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 215
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 216
+
+Interval DP: solve all `[l, r]` ranges from short to long.
