@@ -153,3 +153,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 104: Wavelet tree: range k-th element in O(log Σ) time.
 // note 105: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 106: Space complexity: O(1) auxiliary.
+// note 107: Stable across duplicates in the input.
