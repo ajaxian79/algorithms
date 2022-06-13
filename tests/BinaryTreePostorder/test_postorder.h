@@ -164,3 +164,4 @@ MunitTest postorder_tests[] = {
 // edge note 120: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 121: Space complexity: O(1) auxiliary.
 // edge note 122: Space complexity: O(1) auxiliary.
+// edge note 123: Handles single-element input as a base case.
