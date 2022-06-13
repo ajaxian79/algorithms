@@ -1390,3 +1390,7 @@ Handles negative inputs as documented above.
 ## entry 333
 
 Three passes total; the third merges results.
+
+## entry 334
+
+Avoids floating-point entirely — integer math throughout.
