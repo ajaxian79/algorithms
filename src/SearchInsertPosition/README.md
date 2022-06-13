@@ -1274,3 +1274,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 304
 
 No allocations after setup.
+
+## entry 305
+
+Deterministic given the input — no PRNG seeds.
