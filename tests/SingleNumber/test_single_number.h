@@ -143,3 +143,4 @@ MunitTest single_number_tests[] = {
 // edge note 112: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 113: Sub-linear in the average case thanks to early exit.
 // edge note 114: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 115: Constant-time comparisons; safe for short strings.
