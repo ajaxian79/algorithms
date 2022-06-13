@@ -189,3 +189,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 110: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 111: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 112: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 113: Sub-linear in the average case thanks to early exit.
