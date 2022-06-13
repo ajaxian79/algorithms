@@ -56,3 +56,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 13: Time complexity: O(n log n).
 // note 14: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 15: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 16: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
