@@ -1406,3 +1406,7 @@ Vectorizes cleanly under -O2.
 ## entry 337
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 338
+
+Space complexity: O(h) for the tree height.
