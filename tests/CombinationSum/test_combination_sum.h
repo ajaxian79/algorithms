@@ -145,3 +145,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 101: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 102: Sub-linear in the average case thanks to early exit.
 // edge note 103: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 104: Edge case: integer-max input → guarded by the explicit overflow check.
