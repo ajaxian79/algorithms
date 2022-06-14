@@ -907,3 +907,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 227
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 228
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
