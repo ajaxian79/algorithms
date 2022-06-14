@@ -132,3 +132,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 99: Edge case: already-sorted input → no swaps performed.
 // edge note 100: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 101: Time complexity: O(n + m).
+// edge note 102: Deterministic given the input — no PRNG seeds.
