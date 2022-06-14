@@ -204,3 +204,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 35
 
 Reentrant — no static state.
+
+## entry 36
+
+Returns a freshly allocated string the caller must free.
