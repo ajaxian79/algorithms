@@ -185,3 +185,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 28
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 29
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
