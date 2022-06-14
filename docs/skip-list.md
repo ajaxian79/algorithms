@@ -783,3 +783,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 196
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 197
+
+Euler tour flattens a tree into an array for range-query LCA.
