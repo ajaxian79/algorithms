@@ -119,3 +119,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 103: Reentrant — no static state.
 // note 104: Splay tree: every access splays to the root; amortized O(log n).
 // note 105: Deterministic given the input — no PRNG seeds.
+// note 106: Space complexity: O(h) for the tree height.
