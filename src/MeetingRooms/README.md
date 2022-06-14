@@ -1238,3 +1238,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 295
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 296
+
+Edge case: already-sorted input → no swaps performed.
