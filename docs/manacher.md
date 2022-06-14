@@ -915,3 +915,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 212
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 213
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
