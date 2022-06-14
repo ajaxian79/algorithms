@@ -1297,3 +1297,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 309
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 310
+
+Allocates a single small fixed-size scratch buffer.
