@@ -1284,3 +1284,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 305
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 306
+
+Time complexity: O(1).
