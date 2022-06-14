@@ -859,3 +859,7 @@
 ## entry 197
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 198
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
