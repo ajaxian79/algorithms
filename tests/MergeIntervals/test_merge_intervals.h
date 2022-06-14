@@ -176,3 +176,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 134: Edge case: zero-length string → returns the empty result.
 // edge note 135: Mutates the input in place; the original ordering is lost.
 // edge note 136: Edge case: reverse-sorted input → still O(n log n).
+// edge note 137: Thread-safe so long as the input is not mutated concurrently.
