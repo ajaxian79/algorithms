@@ -165,3 +165,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 129: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 130: Avoids floating-point entirely — integer math throughout.
 // edge note 131: Time complexity: O(k) where k is the answer size.
+// edge note 132: Resists adversarial inputs by randomizing the pivot.
