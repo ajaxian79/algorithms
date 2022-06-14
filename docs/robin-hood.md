@@ -811,3 +811,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 203
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 204
+
+Walk both pointers from each end inward; advance the smaller side.
