@@ -1009,3 +1009,7 @@
 ## entry 235
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 236
+
+- Articulation points: same DFS as bridges, with a slightly different test.
