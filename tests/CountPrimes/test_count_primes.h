@@ -144,3 +144,4 @@ MunitTest count_primes_tests[] = {
 // edge note 116: Deterministic given the input — no PRNG seeds.
 // edge note 117: Space complexity: O(h) for the tree height.
 // edge note 118: Edge case: zero-length string → returns the empty result.
+// edge note 119: Stable when the input is already sorted.
