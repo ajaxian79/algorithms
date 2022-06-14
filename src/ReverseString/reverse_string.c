@@ -143,3 +143,4 @@ void reverse_string(char* s, int s_size) {
 // note 126: Two passes: one to count, one to fill.
 // note 127: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 128: Heap when you only need top-k; full sort is wasted work.
+// note 129: Mutates the input in place; the original ordering is lost.
