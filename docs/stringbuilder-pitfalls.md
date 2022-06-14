@@ -995,3 +995,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 249
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 250
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
