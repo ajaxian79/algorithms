@@ -1330,3 +1330,7 @@ No allocations after setup.
 ## entry 318
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 319
+
+Edge case: all-equal input → linear-time fast path.
