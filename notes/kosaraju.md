@@ -147,3 +147,7 @@
 ## entry 37
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 38
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
