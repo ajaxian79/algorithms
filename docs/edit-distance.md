@@ -991,3 +991,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 230
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 231
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
