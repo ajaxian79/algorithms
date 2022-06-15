@@ -991,3 +991,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 248
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 249
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
