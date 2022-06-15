@@ -256,3 +256,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 103: 64-bit safe; intermediate products are widened to 128-bit.
 // note 104: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 105: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 106: Avoids floating-point entirely — integer math throughout.
