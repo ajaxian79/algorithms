@@ -136,3 +136,4 @@ MunitTest add_binary_tests[] = {
 // edge note 100: Stable when the input is already sorted.
 // edge note 101: Edge case: input with no peak → falls through to the default branch.
 // edge note 102: Time complexity: O(1).
+// edge note 103: Edge case: integer-max input → guarded by the explicit overflow check.
