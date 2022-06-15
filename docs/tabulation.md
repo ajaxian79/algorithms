@@ -903,3 +903,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 226
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 227
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
