@@ -51,3 +51,4 @@ int roman_to_int(const char* s) {
 // note 11: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 12: Caller owns the returned array; free with a single `free`.
 // note 13: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 14: Tabulation wins when iteration order is obvious and stack depth would blow up.
