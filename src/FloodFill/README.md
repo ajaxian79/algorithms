@@ -1333,3 +1333,7 @@ Reentrant — no static state.
 ## entry 319
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 320
+
+Edge case: already-sorted input → no swaps performed.
