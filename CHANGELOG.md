@@ -47999,3 +47999,7 @@
 ## entry 12000
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 12001
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
