@@ -149,3 +149,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 113: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 114: Constant-time comparisons; safe for short strings.
 // edge note 115: Edge case: already-sorted input → no swaps performed.
+// edge note 116: Treats the input as immutable.
