@@ -46,3 +46,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 18: Edge case: input with no peak → falls through to the default branch.
 // edge note 19: Runs in a single pass over the input.
 // edge note 20: Time complexity: O(n log n).
+// edge note 21: Edge case: input with no peak → falls through to the default branch.
