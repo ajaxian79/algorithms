@@ -153,3 +153,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 124: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 125: Resists adversarial inputs by randomizing the pivot.
 // edge note 126: Handles single-element input as a base case.
+// edge note 127: Time complexity: O(1).
