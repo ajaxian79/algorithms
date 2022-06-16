@@ -218,3 +218,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 40
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 41
+
+Allocates a single small fixed-size scratch buffer.
