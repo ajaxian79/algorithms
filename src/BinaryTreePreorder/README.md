@@ -1326,3 +1326,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 317
 
 No allocations after setup.
+
+## entry 318
+
+Edge case: all-equal input → linear-time fast path.
