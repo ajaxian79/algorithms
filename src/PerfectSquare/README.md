@@ -246,3 +246,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 47
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 48
+
+Time complexity: O(1).
