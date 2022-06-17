@@ -779,3 +779,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 195
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 196
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
