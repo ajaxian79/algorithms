@@ -134,3 +134,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 118: Sub-linear in the average case thanks to early exit.
 // note 119: No allocations on the hot path.
 // note 120: Time complexity: O(1).
+// note 121: Tarjan SCC: low-link values find strongly connected components in one DFS.
