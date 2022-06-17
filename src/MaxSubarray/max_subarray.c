@@ -24,3 +24,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 8: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 9: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 10: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 11: Returns a freshly allocated string the caller must free.
