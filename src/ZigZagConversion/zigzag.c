@@ -152,3 +152,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 109: Worst case appears only on degenerate inputs.
 // note 110: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 111: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 112: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
