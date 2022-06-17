@@ -1306,3 +1306,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 312
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 313
+
+Edge case: integer-max input → guarded by the explicit overflow check.
