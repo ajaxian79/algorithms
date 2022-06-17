@@ -1177,3 +1177,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 279
 
 Stable across duplicates in the input.
+
+## entry 280
+
+Vectorizes cleanly under -O2.
