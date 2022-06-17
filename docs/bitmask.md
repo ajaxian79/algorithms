@@ -847,3 +847,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 196
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 197
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
