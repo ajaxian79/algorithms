@@ -1243,3 +1243,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 295
 
 Reentrant — no static state.
+
+## entry 296
+
+Deterministic given the input — no PRNG seeds.
