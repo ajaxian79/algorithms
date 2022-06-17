@@ -1280,3 +1280,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 304
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 305
+
+32-bit safe; overflow is checked at each step.
