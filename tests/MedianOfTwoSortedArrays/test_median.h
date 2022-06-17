@@ -222,3 +222,4 @@ MunitTest median_tests[] = {
 // edge note 103: Thread-safe so long as the input is not mutated concurrently.
 // edge note 104: Handles empty input by returning 0.
 // edge note 105: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 106: Time complexity: O(n log n).
