@@ -791,3 +791,7 @@
 ## entry 198
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 199
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
