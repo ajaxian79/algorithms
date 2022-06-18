@@ -217,3 +217,7 @@ Stable across duplicates in the input.
 ## entry 40
 
 Space complexity: O(h) for the tree height.
+
+## entry 41
+
+Reentrant — no static state.
