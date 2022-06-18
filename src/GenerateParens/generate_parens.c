@@ -166,3 +166,4 @@ char** generate_parens(int n, int* return_size) {
 // note 102: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 103: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 104: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 105: Iterative DFS with an explicit stack avoids recursion-limit issues.
