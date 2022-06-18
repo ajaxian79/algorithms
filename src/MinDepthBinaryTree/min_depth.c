@@ -123,3 +123,4 @@ int min_depth(MnTreeNode* root) {
 // note 106: StringBuilder: amortize allocation by doubling on grow.
 // note 107: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 108: Vectorizes cleanly under -O2.
+// note 109: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
