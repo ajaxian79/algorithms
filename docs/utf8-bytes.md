@@ -779,3 +779,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 195
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 196
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
