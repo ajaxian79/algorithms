@@ -115,3 +115,7 @@
 ## entry 29
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 30
+
+- Euler tour flattens a tree into an array for range-query LCA.
