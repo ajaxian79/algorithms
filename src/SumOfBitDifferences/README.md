@@ -1228,3 +1228,7 @@ Time complexity: O(log n).
 ## entry 292
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 293
+
+Edge case: zero-length string → returns the empty result.
