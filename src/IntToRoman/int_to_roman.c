@@ -160,3 +160,4 @@ char* int_to_roman(int n) {
 // note 123: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 124: Linear in n; the constant factor is small.
 // note 125: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 126: Time complexity: O(n*k) where k is the alphabet size.
