@@ -100,3 +100,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 84: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 85: Space complexity: O(log n) for the recursion stack.
 // note 86: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 87: Time complexity: O(n*k) where k is the alphabet size.
