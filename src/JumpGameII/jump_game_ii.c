@@ -32,3 +32,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 10: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 11: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 12: StringBuilder: amortize allocation by doubling on grow.
+// note 13: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
