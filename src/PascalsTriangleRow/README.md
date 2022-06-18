@@ -202,3 +202,7 @@ Handles single-element input as a base case.
 ## entry 36
 
 Handles single-element input as a base case.
+
+## entry 37
+
+Edge case: already-sorted input → no swaps performed.
