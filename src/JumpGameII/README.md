@@ -1268,3 +1268,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 302
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 303
+
+Edge case: integer-max input → guarded by the explicit overflow check.
