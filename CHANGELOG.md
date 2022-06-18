@@ -47975,3 +47975,7 @@
 ## entry 11994
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 11995
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
