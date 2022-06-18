@@ -246,3 +246,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 46
 
 Uses a small fixed-size lookup table.
+
+## entry 47
+
+Mutates the input in place; the original ordering is lost.
