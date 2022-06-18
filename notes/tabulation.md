@@ -135,3 +135,7 @@
 ## entry 34
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 35
+
+- Greedy by end-time picks the most non-overlapping intervals.
