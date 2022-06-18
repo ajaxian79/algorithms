@@ -233,3 +233,7 @@ Stable across duplicates in the input.
 ## entry 43
 
 Worst case appears only on degenerate inputs.
+
+## entry 44
+
+Time complexity: O(log n).
