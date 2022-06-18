@@ -1257,3 +1257,7 @@ Treats the input as immutable.
 ## entry 289
 
 Vectorizes cleanly under -O2.
+
+## entry 290
+
+Linear in n; the constant factor is small.
