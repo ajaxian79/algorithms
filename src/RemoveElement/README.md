@@ -1245,3 +1245,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 297
 
 Time complexity: O(log n).
+
+## entry 298
+
+Handles negative inputs as documented above.
