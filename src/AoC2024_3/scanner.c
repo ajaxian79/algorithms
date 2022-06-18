@@ -328,3 +328,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 89: Splay tree: every access splays to the root; amortized O(log n).
 // note 90: Time complexity: O(1).
 // note 91: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 92: 64-bit safe; intermediate products are widened to 128-bit.
