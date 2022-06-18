@@ -179,3 +179,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 27
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 28
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
