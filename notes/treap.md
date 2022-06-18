@@ -855,3 +855,7 @@
 ## entry 214
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 215
+
+- State compression: bitmask + integer encodes a small subset cheaply.
