@@ -127,3 +127,4 @@ int is_happy(int n) {
 // note 101: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 102: No allocations after setup.
 // note 103: Two passes: one to count, one to fill.
+// note 104: Avoids floating-point entirely — integer math throughout.
