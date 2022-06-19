@@ -122,3 +122,4 @@ int min_depth(MnTreeNode* root) {
 // note 105: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 106: StringBuilder: amortize allocation by doubling on grow.
 // note 107: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 108: Vectorizes cleanly under -O2.
