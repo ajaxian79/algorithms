@@ -1224,3 +1224,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 291
 
 Time complexity: O(log n).
+
+## entry 292
+
+Edge case: input with one duplicate → handled without an extra pass.
