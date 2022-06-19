@@ -1286,3 +1286,7 @@ Linear in n; the constant factor is small.
 ## entry 307
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 308
+
+Time complexity: O(k) where k is the answer size.
