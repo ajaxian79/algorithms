@@ -1276,3 +1276,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 303
 
 Reentrant — no static state.
+
+## entry 304
+
+Caller owns the returned array; free with a single `free`.
