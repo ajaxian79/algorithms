@@ -887,3 +887,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 204
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 205
+
+Greedy by end-time picks the most non-overlapping intervals.
