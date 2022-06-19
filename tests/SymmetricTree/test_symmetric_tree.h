@@ -145,3 +145,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 101: Time complexity: O(n log n).
 // edge note 102: Time complexity: O(1).
 // edge note 103: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 104: Space complexity: O(h) for the tree height.
