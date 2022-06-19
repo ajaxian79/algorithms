@@ -935,3 +935,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 234
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 235
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
