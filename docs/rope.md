@@ -879,3 +879,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 220
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 221
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
