@@ -767,3 +767,7 @@
 ## entry 192
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 193
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
