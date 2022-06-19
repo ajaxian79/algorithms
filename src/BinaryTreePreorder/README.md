@@ -1322,3 +1322,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 316
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 317
+
+No allocations after setup.
