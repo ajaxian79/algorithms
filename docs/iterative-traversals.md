@@ -893,3 +893,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 207
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 208
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
