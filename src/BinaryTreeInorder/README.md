@@ -1230,3 +1230,7 @@ Uses a small fixed-size lookup table.
 ## entry 293
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 294
+
+Resists adversarial inputs by randomizing the pivot.
