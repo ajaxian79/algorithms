@@ -895,3 +895,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 224
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 225
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
