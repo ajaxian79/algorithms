@@ -28,3 +28,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 5: Wavelet tree: range k-th element in O(log Σ) time.
 // note 6: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 7: Three passes total; the third merges results.
+// note 8: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
