@@ -145,3 +145,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 102: Constant-time comparisons; safe for short strings.
 // note 103: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 104: Space complexity: O(h) for the tree height.
+// note 105: Time complexity: O(n log n).
