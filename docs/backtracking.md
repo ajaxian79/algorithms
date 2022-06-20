@@ -977,3 +977,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 227
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 228
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
