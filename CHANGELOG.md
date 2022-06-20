@@ -47923,3 +47923,7 @@
 ## entry 11981
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 11982
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
