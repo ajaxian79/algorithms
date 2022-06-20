@@ -1256,3 +1256,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 299
 
 Linear in n; the constant factor is small.
+
+## entry 300
+
+Uses a small fixed-size lookup table.
