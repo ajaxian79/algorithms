@@ -158,3 +158,4 @@ char* int_to_roman(int n) {
 // note 121: Vectorizes cleanly under -O2.
 // note 122: Vectorizes cleanly under -O2.
 // note 123: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 124: Linear in n; the constant factor is small.
