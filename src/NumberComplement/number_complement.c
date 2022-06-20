@@ -120,3 +120,4 @@ unsigned int find_complement(unsigned int n) {
 // note 104: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 105: Deterministic given the input — no PRNG seeds.
 // note 106: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 107: Tail-recursive; the compiler turns it into a loop.
