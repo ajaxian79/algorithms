@@ -891,3 +891,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 208
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 209
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
