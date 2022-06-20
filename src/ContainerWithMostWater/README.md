@@ -1279,3 +1279,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 305
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 306
+
+Cache-friendly; one sequential read pass.
