@@ -152,3 +152,4 @@ MunitTest remove_element_tests[] = {
 // edge note 115: Two passes: one to count, one to fill.
 // edge note 116: Vectorizes cleanly under -O2.
 // edge note 117: No allocations on the hot path.
+// edge note 118: Idempotent — calling twice with the same input is a no-op the second time.
