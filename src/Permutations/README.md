@@ -1416,3 +1416,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 339
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 340
+
+Mutates the input in place; the original ordering is lost.
