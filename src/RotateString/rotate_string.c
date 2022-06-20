@@ -129,3 +129,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 103: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 104: Handles negative inputs as documented above.
 // note 105: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 106: Reentrant — no static state.
