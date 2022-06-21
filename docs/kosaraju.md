@@ -99,3 +99,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 25
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 26
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
