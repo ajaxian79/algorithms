@@ -78,3 +78,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 13: Time complexity: O(n*k) where k is the alphabet size.
 // note 14: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 15: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 16: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
