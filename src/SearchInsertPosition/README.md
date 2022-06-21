@@ -234,3 +234,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 44
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 45
+
+Caller owns the returned array; free with a single `free`.
