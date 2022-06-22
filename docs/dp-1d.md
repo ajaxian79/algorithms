@@ -887,3 +887,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 205
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 206
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
