@@ -37,3 +37,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 16: Branchless inner loop after sorting.
 // note 17: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 18: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 19: Backtracking template: choose, recurse, un-choose. Mutate then revert.
