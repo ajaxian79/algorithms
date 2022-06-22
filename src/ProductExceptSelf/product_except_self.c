@@ -129,3 +129,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 94: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 95: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 96: Tail-recursive; the compiler turns it into a loop.
+// note 97: Caller owns the returned array; free with a single `free`.
