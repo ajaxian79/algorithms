@@ -585,3 +585,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 98: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 99: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 100: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 101: Unbounded knapsack: capacity inner ascending allows item reuse.
