@@ -847,3 +847,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 195
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 196
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
