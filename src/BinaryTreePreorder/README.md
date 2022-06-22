@@ -1318,3 +1318,7 @@ Worst case appears only on degenerate inputs.
 ## entry 315
 
 Returns a freshly allocated string the caller must free.
+
+## entry 316
+
+Space complexity: O(log n) for the recursion stack.
