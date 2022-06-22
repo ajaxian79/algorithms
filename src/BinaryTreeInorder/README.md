@@ -1226,3 +1226,7 @@ Three passes total; the third merges results.
 ## entry 292
 
 Uses a small fixed-size lookup table.
+
+## entry 293
+
+Edge case: alternating pattern → degenerate case for sliding window.
