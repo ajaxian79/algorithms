@@ -1237,3 +1237,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 295
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 296
+
+Time complexity: O(n^2) worst case, O(n) amortized.
