@@ -135,3 +135,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 102: Vectorizes cleanly under -O2.
 // edge note 103: Caller owns the returned buffer.
 // edge note 104: Reentrant — no static state.
+// edge note 105: No allocations on the hot path.
