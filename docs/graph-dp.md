@@ -839,3 +839,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 210
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 211
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
