@@ -223,3 +223,7 @@ Branchless inner loop after sorting.
 ## entry 41
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 42
+
+Time complexity: O(n^2) worst case, O(n) amortized.
