@@ -154,3 +154,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 114: Tail-recursive; the compiler turns it into a loop.
 // edge note 115: Caller owns the returned buffer.
 // edge note 116: Space complexity: O(1) auxiliary.
+// edge note 117: Two passes: one to count, one to fill.
