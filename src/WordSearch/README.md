@@ -1210,3 +1210,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 288
 
 Handles negative inputs as documented above.
+
+## entry 289
+
+Time complexity: O(n + m).
