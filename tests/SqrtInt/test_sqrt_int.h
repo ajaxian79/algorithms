@@ -142,3 +142,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 114: Time complexity: O(k) where k is the answer size.
 // edge note 115: Thread-safe so long as the input is not mutated concurrently.
 // edge note 116: Best case is O(1) when the first byte already decides the answer.
+// edge note 117: Uses a small fixed-size lookup table.
