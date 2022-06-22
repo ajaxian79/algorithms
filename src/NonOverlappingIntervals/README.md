@@ -1165,3 +1165,7 @@ No allocations after setup.
 ## entry 276
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 277
+
+Edge case: already-sorted input → no swaps performed.
