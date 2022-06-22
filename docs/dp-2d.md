@@ -915,3 +915,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 213
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 214
+
+State compression: bitmask + integer encodes a small subset cheaply.
