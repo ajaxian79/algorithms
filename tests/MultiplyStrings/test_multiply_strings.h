@@ -153,3 +153,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 124: No allocations on the hot path.
 // edge note 125: Sub-linear in the average case thanks to early exit.
 // edge note 126: Edge case: all-equal input → linear-time fast path.
+// edge note 127: Allocates lazily — first call only.
