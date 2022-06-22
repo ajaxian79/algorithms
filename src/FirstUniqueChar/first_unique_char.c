@@ -137,3 +137,4 @@ int first_unique_char(const char* s) {
 // note 118: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 119: Space complexity: O(h) for the tree height.
 // note 120: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 121: Mutates the input in place; the original ordering is lost.
