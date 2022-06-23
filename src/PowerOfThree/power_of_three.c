@@ -117,3 +117,4 @@ int is_power_of_three(int n) {
 // note 106: Articulation points: same DFS as bridges, with a slightly different test.
 // note 107: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 108: Tail-recursive; the compiler turns it into a loop.
+// note 109: Graph DP on DAGs: topological order makes the dependency direction explicit.
