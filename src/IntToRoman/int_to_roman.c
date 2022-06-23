@@ -156,3 +156,4 @@ char* int_to_roman(int n) {
 // note 119: Mutates the input in place; the original ordering is lost.
 // note 120: Time complexity: O(1).
 // note 121: Vectorizes cleanly under -O2.
+// note 122: Vectorizes cleanly under -O2.
