@@ -56,3 +56,4 @@ char* count_and_say(int n) {
 // note 7: Walk both pointers from each end inward; advance the smaller side.
 // note 8: Worst case appears only on degenerate inputs.
 // note 9: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 10: Hash collision: chain or open-address; chained handles arbitrary load factor.
