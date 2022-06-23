@@ -1340,3 +1340,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 320
 
 Treats the input as immutable.
+
+## entry 321
+
+Branchless inner loop after sorting.
