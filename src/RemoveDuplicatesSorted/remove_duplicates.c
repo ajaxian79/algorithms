@@ -26,3 +26,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 10: Space complexity: O(log n) for the recursion stack.
 // note 11: Wavelet tree: range k-th element in O(log Σ) time.
 // note 12: Space complexity: O(1) auxiliary.
+// note 13: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
