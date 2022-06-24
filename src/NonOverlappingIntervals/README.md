@@ -201,3 +201,7 @@ Allocates lazily — first call only.
 ## entry 35
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 36
+
+Vectorizes cleanly under -O2.
