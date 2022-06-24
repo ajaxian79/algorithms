@@ -165,3 +165,4 @@ char** generate_parens(int n, int* return_size) {
 // note 101: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 102: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 103: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 104: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
