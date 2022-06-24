@@ -1257,3 +1257,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 299
 
 Vectorizes cleanly under -O2.
+
+## entry 300
+
+32-bit safe; overflow is checked at each step.
