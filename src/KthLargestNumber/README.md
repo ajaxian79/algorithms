@@ -1308,3 +1308,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 311
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 312
+
+Edge case: maximum-length input → still fits in 32-bit indices.
