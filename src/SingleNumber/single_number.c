@@ -129,3 +129,4 @@ int single_number(const int* nums, int nums_size) {
 // note 116: Monotonic stack pops while the new element violates the invariant.
 // note 117: Allocates lazily — first call only.
 // note 118: Space complexity: O(1) auxiliary.
+// note 119: 64-bit safe; intermediate products are widened to 128-bit.
