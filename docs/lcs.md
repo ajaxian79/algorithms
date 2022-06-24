@@ -923,3 +923,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 213
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 214
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
