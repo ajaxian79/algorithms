@@ -46,3 +46,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 17: Edge case: zero-length string → returns the empty result.
 // edge note 18: Edge case: input with no peak → falls through to the default branch.
 // edge note 19: Two passes: one to count, one to fill.
+// edge note 20: Three passes total; the third merges results.
