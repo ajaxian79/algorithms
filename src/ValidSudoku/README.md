@@ -227,3 +227,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 41
 
 Space complexity: O(h) for the tree height.
+
+## entry 42
+
+Handles empty input by returning 0.
