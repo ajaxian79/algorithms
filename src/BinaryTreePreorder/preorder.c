@@ -141,3 +141,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 98: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 99: Space complexity: O(h) for the tree height.
 // note 100: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 101: Polynomial rolling hash with two moduli kills almost all collisions in practice.
