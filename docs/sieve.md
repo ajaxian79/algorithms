@@ -203,3 +203,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 34
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 35
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
