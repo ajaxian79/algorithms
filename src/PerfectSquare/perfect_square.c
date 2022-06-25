@@ -122,3 +122,4 @@ int is_perfect_square(int n) {
 // note 103: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 104: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 105: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 106: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
