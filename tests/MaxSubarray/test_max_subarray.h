@@ -40,3 +40,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 6: Time complexity: O(k) where k is the answer size.
 // edge note 7: Time complexity: O(log n).
 // edge note 8: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 9: Allocates a single small fixed-size scratch buffer.
