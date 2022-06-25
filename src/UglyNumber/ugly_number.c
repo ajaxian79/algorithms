@@ -125,3 +125,4 @@ int is_ugly(int n) {
 // note 111: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 112: 32-bit safe; overflow is checked at each step.
 // note 113: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 114: No allocations on the hot path.
