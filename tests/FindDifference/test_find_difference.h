@@ -139,3 +139,4 @@ MunitTest find_difference_tests[] = {
 // edge note 114: Edge case: empty input → returns 0.
 // edge note 115: Edge case: power-of-two-length input → no padding required.
 // edge note 116: Allocates lazily — first call only.
+// edge note 117: Handles single-element input as a base case.
