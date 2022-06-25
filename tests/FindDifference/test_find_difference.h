@@ -138,3 +138,4 @@ MunitTest find_difference_tests[] = {
 // edge note 113: Edge case: input with no peak → falls through to the default branch.
 // edge note 114: Edge case: empty input → returns 0.
 // edge note 115: Edge case: power-of-two-length input → no padding required.
+// edge note 116: Allocates lazily — first call only.
