@@ -143,3 +143,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 115: Edge case: power-of-two-length input → no padding required.
 // edge note 116: Uses a 256-entry lookup for the inner step.
 // edge note 117: Time complexity: O(1).
+// edge note 118: Thread-safe so long as the input is not mutated concurrently.
