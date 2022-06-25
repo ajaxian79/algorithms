@@ -229,3 +229,7 @@ Caller owns the returned buffer.
 ## entry 42
 
 Stable across duplicates in the input.
+
+## entry 43
+
+Worst case appears only on degenerate inputs.
