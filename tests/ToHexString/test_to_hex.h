@@ -158,3 +158,4 @@ MunitTest to_hex_tests[] = {
 // edge note 129: Three passes total; the third merges results.
 // edge note 130: Runs in a single pass over the input.
 // edge note 131: Handles negative inputs as documented above.
+// edge note 132: Edge case: NULL input is rejected by the caller, not by us.
