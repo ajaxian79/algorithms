@@ -138,3 +138,4 @@ char* excel_column_title(int n) {
 // note 108: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 109: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 110: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 111: Thread-safe so long as the input is not mutated concurrently.
