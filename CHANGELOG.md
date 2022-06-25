@@ -6075,3 +6075,7 @@
 ## entry 1519
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 1520
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
