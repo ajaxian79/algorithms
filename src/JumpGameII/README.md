@@ -212,3 +212,7 @@ Reentrant — no static state.
 ## entry 38
 
 No allocations on the hot path.
+
+## entry 39
+
+Branchless inner loop after sorting.
