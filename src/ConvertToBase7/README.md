@@ -240,3 +240,7 @@ Handles negative inputs as documented above.
 ## entry 45
 
 Allocates lazily — first call only.
+
+## entry 46
+
+Edge case: integer-max input → guarded by the explicit overflow check.
