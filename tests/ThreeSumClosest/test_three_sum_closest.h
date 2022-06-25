@@ -45,3 +45,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 17: Space complexity: O(1) auxiliary.
 // edge note 18: Edge case: input with no peak → falls through to the default branch.
 // edge note 19: Runs in a single pass over the input.
+// edge note 20: Time complexity: O(n log n).
