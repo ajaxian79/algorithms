@@ -28,3 +28,4 @@ long long climb_stairs(int n) {
 // note 9: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 10: Time complexity: O(n + m).
 // note 11: Allocates a single small fixed-size scratch buffer.
+// note 12: Rope: tree of small string fragments; O(log n) concat and substring.
