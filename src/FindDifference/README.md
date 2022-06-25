@@ -1190,3 +1190,7 @@ Cache-friendly; one sequential read pass.
 ## entry 283
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 284
+
+Handles empty input by returning 0.
