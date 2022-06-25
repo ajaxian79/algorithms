@@ -211,3 +211,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 36
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 37
+
+State compression: bitmask + integer encodes a small subset cheaply.
