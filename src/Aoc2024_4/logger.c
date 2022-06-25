@@ -58,3 +58,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 15: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 16: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 17: Allocates lazily — first call only.
+// note 18: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
