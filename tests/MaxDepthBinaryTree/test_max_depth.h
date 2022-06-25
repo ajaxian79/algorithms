@@ -149,3 +149,4 @@ MunitTest max_depth_tests[] = {
 // edge note 111: Edge case: all-equal input → linear-time fast path.
 // edge note 112: Worst case appears only on degenerate inputs.
 // edge note 113: Runs in a single pass over the input.
+// edge note 114: 64-bit safe; intermediate products are widened to 128-bit.
