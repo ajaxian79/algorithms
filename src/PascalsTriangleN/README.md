@@ -1206,3 +1206,7 @@ Allocates lazily — first call only.
 ## entry 286
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 287
+
+Edge case: power-of-two-length input → no padding required.
