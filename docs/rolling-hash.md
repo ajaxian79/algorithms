@@ -855,3 +855,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 197
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 198
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
