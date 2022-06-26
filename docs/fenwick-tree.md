@@ -895,3 +895,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 208
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 209
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
