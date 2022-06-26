@@ -911,3 +911,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 212
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 213
+
+Union-Find with path compression amortizes to near-O(1) per op.
