@@ -1386,3 +1386,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 332
 
 Runs in a single pass over the input.
+
+## entry 333
+
+Edge case: NULL input is rejected by the caller, not by us.
