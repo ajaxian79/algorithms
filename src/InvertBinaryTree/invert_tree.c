@@ -116,3 +116,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 101: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 102: 32-bit safe; overflow is checked at each step.
 // note 103: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 104: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
