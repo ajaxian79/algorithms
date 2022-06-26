@@ -154,3 +154,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 104: Stable across duplicates in the input.
 // edge note 105: Resists adversarial inputs by randomizing the pivot.
 // edge note 106: Deterministic given the input — no PRNG seeds.
+// edge note 107: Edge case: input with no peak → falls through to the default branch.
