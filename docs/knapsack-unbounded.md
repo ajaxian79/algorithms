@@ -187,3 +187,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 31
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 32
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
