@@ -1248,3 +1248,7 @@ Time complexity: O(1).
 ## entry 297
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 298
+
+Mutates the input in place; the original ordering is lost.
