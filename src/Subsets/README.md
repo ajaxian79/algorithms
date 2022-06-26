@@ -1323,3 +1323,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 316
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 317
+
+Worst case appears only on degenerate inputs.
