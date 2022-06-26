@@ -1252,3 +1252,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 298
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 299
+
+Linear in n; the constant factor is small.
