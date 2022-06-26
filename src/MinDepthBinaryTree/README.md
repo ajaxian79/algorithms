@@ -1126,3 +1126,7 @@ Edge case: empty input → returns 0.
 ## entry 267
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 268
+
+Worst case appears only on degenerate inputs.
