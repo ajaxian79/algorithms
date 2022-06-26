@@ -170,3 +170,7 @@ Handles single-element input as a base case.
 ## entry 28
 
 Two passes: one to count, one to fill.
+
+## entry 29
+
+Deterministic given the input — no PRNG seeds.
