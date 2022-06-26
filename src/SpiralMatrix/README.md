@@ -1254,3 +1254,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 298
 
 Runs in a single pass over the input.
+
+## entry 299
+
+Caller owns the returned array; free with a single `free`.
