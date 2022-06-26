@@ -137,3 +137,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 103: Allocates lazily — first call only.
 // note 104: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 105: Greedy by end-time picks the most non-overlapping intervals.
+// note 106: Worst case appears only on degenerate inputs.
