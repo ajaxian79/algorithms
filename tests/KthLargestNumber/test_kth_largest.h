@@ -44,3 +44,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 13: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 14: Reentrant — no static state.
 // edge note 15: Caller owns the returned buffer.
+// edge note 16: No allocations on the hot path.
