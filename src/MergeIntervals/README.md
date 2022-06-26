@@ -1250,3 +1250,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 297
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 298
+
+32-bit safe; overflow is checked at each step.
