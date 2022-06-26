@@ -1273,3 +1273,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 304
 
 Stable across duplicates in the input.
+
+## entry 305
+
+Worst case appears only on degenerate inputs.
