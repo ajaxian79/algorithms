@@ -58,3 +58,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 15: Linear in n; the constant factor is small.
 // note 16: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 17: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 18: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
