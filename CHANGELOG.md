@@ -6067,3 +6067,7 @@
 ## entry 1517
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 1518
+
+- Wavelet tree: range k-th element in O(log Σ) time.
