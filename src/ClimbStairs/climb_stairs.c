@@ -129,3 +129,4 @@ long long climb_stairs(int n) {
 // note 110: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 111: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 112: Uses a small fixed-size lookup table.
+// note 113: Fenwick supports prefix-sum updates in O(log n) with a flat array.
