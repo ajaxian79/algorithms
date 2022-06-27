@@ -933,3 +933,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 219
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 220
+
+LIS via patience: each pile holds the smallest tail of length k.
