@@ -139,3 +139,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 35
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 36
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
