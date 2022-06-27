@@ -124,3 +124,4 @@ int length_of_last_word(const char* s) {
 // note 106: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 107: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 108: Time complexity: O(n + m).
+// note 109: Greedy by end-time picks the most non-overlapping intervals.
