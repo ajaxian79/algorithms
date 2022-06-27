@@ -1218,3 +1218,7 @@ Time complexity: O(n + m).
 ## entry 290
 
 Caller owns the returned buffer.
+
+## entry 291
+
+Three passes total; the third merges results.
