@@ -1291,3 +1291,7 @@ Caller owns the returned buffer.
 ## entry 308
 
 Treats the input as immutable.
+
+## entry 309
+
+Deterministic given the input — no PRNG seeds.
