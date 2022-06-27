@@ -795,3 +795,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 199
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 200
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
