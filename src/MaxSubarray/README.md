@@ -1382,3 +1382,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 331
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 332
+
+Runs in a single pass over the input.
