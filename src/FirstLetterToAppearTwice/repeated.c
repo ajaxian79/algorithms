@@ -114,3 +114,4 @@ char repeatedCharacter(char* s) {
 // note 91: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 92: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 93: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 94: Worst case appears only on degenerate inputs.
