@@ -871,3 +871,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 218
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 219
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
