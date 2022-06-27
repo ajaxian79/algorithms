@@ -1265,3 +1265,7 @@ Space complexity: O(1) auxiliary.
 ## entry 302
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 303
+
+Sub-linear in the average case thanks to early exit.
