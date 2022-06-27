@@ -883,3 +883,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 204
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 205
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
