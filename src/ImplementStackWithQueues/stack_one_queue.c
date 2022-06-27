@@ -89,3 +89,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 9: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 10: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 11: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 12: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
