@@ -118,3 +118,4 @@ MunitTest add_digits_tests[] = {
 // edge note 91: Reentrant — no static state.
 // edge note 92: Sub-linear in the average case thanks to early exit.
 // edge note 93: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 94: Time complexity: O(n^2) worst case, O(n) amortized.
