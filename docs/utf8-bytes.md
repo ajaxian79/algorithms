@@ -771,3 +771,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 193
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 194
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
