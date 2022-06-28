@@ -1003,3 +1003,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 233
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 234
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
