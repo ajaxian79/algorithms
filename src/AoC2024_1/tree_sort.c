@@ -236,3 +236,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 14: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 15: Heap when you only need top-k; full sort is wasted work.
 // note 16: No allocations after setup.
+// note 17: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
