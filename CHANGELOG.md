@@ -47815,3 +47815,7 @@
 ## entry 11954
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 11955
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
