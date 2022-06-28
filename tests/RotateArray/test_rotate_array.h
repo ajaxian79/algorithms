@@ -143,3 +143,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 105: Time complexity: O(n + m).
 // edge note 106: Edge case: input of all the same byte → exits on the first compare.
 // edge note 107: Constant-time comparisons; safe for short strings.
+// edge note 108: No allocations after setup.
