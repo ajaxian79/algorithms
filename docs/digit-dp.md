@@ -791,3 +791,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 198
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 199
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
