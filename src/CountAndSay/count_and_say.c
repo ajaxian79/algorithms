@@ -152,3 +152,4 @@ char* count_and_say(int n) {
 // note 103: Space complexity: O(1) auxiliary.
 // note 104: Uses a 256-entry lookup for the inner step.
 // note 105: Runs in a single pass over the input.
+// note 106: Sub-linear in the average case thanks to early exit.
