@@ -340,3 +340,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 118: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 119: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 120: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 121: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
