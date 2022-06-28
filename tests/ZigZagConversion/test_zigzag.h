@@ -137,3 +137,4 @@ MunitTest zigzag_tests[] = {
 // edge note 109: Edge case: empty input → returns 0.
 // edge note 110: Sub-linear in the average case thanks to early exit.
 // edge note 111: Tail-recursive; the compiler turns it into a loop.
+// edge note 112: Edge case: empty input → returns 0.
