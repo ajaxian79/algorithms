@@ -1161,3 +1161,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 275
 
 No allocations after setup.
+
+## entry 276
+
+Edge case: input of all the same byte → exits on the first compare.
