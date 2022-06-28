@@ -179,3 +179,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 113: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 114: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 115: Idempotent — calling twice with the same input is a no-op the second time.
+// note 116: Rope: tree of small string fragments; O(log n) concat and substring.
