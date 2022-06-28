@@ -116,3 +116,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 104: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 105: Time complexity: O(n).
 // note 106: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 107: Monotonic stack pops while the new element violates the invariant.
