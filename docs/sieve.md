@@ -923,3 +923,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 214
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 215
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
