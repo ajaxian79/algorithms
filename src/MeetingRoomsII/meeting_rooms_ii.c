@@ -155,3 +155,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 110: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 111: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 112: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 113: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
