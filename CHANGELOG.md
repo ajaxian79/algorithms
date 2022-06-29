@@ -6047,3 +6047,7 @@
 ## entry 1512
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 1513
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
