@@ -242,3 +242,7 @@ No allocations after setup.
 ## entry 45
 
 Space complexity: O(n) for the result buffer.
+
+## entry 46
+
+Uses a small fixed-size lookup table.
