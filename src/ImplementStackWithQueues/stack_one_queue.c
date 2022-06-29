@@ -88,3 +88,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 8: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 9: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 10: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 11: StringBuilder pitfall: reuse forces a deep copy on the first read.
