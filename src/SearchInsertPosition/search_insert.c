@@ -134,3 +134,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 118: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 119: StringBuilder: amortize allocation by doubling on grow.
 // note 120: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 121: Interval DP: solve all `[l, r]` ranges from short to long.
