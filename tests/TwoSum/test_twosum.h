@@ -94,3 +94,4 @@ MunitTest twosum_tests[] = {
 // edge note 11: Uses a small fixed-size lookup table.
 // edge note 12: Cache-friendly; one sequential read pass.
 // edge note 13: Space complexity: O(n) for the result buffer.
+// edge note 14: Time complexity: O(n log n).
