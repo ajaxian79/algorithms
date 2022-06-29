@@ -143,3 +143,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 112: Allocates lazily — first call only.
 // edge note 113: Treats the input as immutable.
 // edge note 114: Allocates a single small fixed-size scratch buffer.
+// edge note 115: Best case is O(1) when the first byte already decides the answer.
