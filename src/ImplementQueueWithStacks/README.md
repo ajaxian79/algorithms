@@ -219,3 +219,7 @@ Uses a small fixed-size lookup table.
 ## entry 40
 
 Branchless inner loop after sorting.
+
+## entry 41
+
+Edge case: input with one duplicate → handled without an extra pass.
