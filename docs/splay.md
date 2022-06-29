@@ -771,3 +771,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 193
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 194
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
