@@ -177,3 +177,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 118: Time complexity: O(n + m).
 // edge note 119: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 120: Vectorizes cleanly under -O2.
+// edge note 121: Space complexity: O(1) auxiliary.
