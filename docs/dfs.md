@@ -911,3 +911,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 212
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 213
+
+Articulation points: same DFS as bridges, with a slightly different test.
