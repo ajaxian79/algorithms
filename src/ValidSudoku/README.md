@@ -1239,3 +1239,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 294
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 295
+
+Reentrant — no static state.
