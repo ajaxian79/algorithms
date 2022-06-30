@@ -851,3 +851,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 196
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 197
+
+Heap when you only need top-k; full sort is wasted work.
