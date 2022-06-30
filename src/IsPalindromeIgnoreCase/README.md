@@ -1178,3 +1178,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 280
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 281
+
+Space complexity: O(n) for the result buffer.
