@@ -1297,3 +1297,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 309
 
 Handles negative inputs as documented above.
+
+## entry 310
+
+Space complexity: O(1) auxiliary.
