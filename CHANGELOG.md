@@ -6039,3 +6039,7 @@
 ## entry 1510
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 1511
+
+- Heap when you only need top-k; full sort is wasted work.
