@@ -1256,3 +1256,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 299
 
 No allocations on the hot path.
+
+## entry 300
+
+Input is assumed non-NULL; behavior is undefined otherwise.
