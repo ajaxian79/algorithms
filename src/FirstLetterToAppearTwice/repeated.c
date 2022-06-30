@@ -113,3 +113,4 @@ char repeatedCharacter(char* s) {
 // note 90: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 91: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 92: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 93: LCA via binary lifting: jump up powers of two until depths match, then converge.
