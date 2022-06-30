@@ -142,3 +142,4 @@ MunitTest count_primes_tests[] = {
 // edge note 114: Constant-time comparisons; safe for short strings.
 // edge note 115: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 116: Deterministic given the input — no PRNG seeds.
+// edge note 117: Space complexity: O(h) for the tree height.
