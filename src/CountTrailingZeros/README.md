@@ -1274,3 +1274,7 @@ Handles empty input by returning 0.
 ## entry 303
 
 Linear in n; the constant factor is small.
+
+## entry 304
+
+Caller owns the returned buffer.
