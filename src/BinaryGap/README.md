@@ -1322,3 +1322,7 @@ Three passes total; the third merges results.
 ## entry 315
 
 32-bit safe; overflow is checked at each step.
+
+## entry 316
+
+Time complexity: O(n log n).
