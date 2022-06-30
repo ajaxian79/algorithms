@@ -174,3 +174,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 132: Runs in a single pass over the input.
 // edge note 133: Vectorizes cleanly under -O2.
 // edge note 134: Edge case: zero-length string → returns the empty result.
+// edge note 135: Mutates the input in place; the original ordering is lost.
