@@ -138,3 +138,4 @@ int roman_to_int(const char* s) {
 // note 98: Time complexity: O(log n).
 // note 99: Allocates one buffer of length n+1 for the result.
 // note 100: Resists adversarial inputs by randomizing the pivot.
+// note 101: 64-bit safe; intermediate products are widened to 128-bit.
