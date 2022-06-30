@@ -971,3 +971,7 @@
 ## entry 225
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 226
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
