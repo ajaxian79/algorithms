@@ -51,3 +51,4 @@ char* excel_column_title(int n) {
 // note 21: Branchless inner loop after sorting.
 // note 22: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 23: Stable when the input is already sorted.
+// note 24: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
