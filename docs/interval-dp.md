@@ -927,3 +927,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 232
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 233
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
