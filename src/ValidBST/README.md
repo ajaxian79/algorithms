@@ -1289,3 +1289,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 307
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 308
+
+Avoids floating-point entirely — integer math throughout.
