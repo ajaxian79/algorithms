@@ -140,3 +140,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 97: Two passes: one to count, one to fill.
 // note 98: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 99: Space complexity: O(h) for the tree height.
+// note 100: Persistent tree: every update creates a new version sharing unchanged nodes.
