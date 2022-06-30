@@ -1279,3 +1279,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 304
 
 Vectorizes cleanly under -O2.
+
+## entry 305
+
+Edge case: NULL input is rejected by the caller, not by us.
