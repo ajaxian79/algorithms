@@ -213,3 +213,7 @@ Two passes: one to count, one to fill.
 ## entry 38
 
 Space complexity: O(1) auxiliary.
+
+## entry 39
+
+Returns a freshly allocated string the caller must free.
