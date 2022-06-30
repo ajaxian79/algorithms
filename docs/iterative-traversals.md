@@ -889,3 +889,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 206
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 207
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
