@@ -174,3 +174,4 @@ MunitTest num_islands_tests[] = {
 // edge note 134: Handles negative inputs as documented above.
 // edge note 135: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 136: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 137: Edge case: alternating pattern → degenerate case for sliding window.
