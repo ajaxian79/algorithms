@@ -1308,3 +1308,7 @@ Allocates lazily — first call only.
 ## entry 312
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 313
+
+Time complexity: O(k) where k is the answer size.
