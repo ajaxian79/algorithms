@@ -1219,3 +1219,7 @@ Space complexity: O(h) for the tree height.
 ## entry 290
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 291
+
+Edge case: alternating pattern → degenerate case for sliding window.
