@@ -1220,3 +1220,7 @@ Vectorizes cleanly under -O2.
 ## entry 291
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 292
+
+Three passes total; the third merges results.
