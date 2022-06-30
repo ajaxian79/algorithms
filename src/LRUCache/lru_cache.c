@@ -277,3 +277,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 110: Mutates the input in place; the original ordering is lost.
 // note 111: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 112: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 113: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
