@@ -1199,3 +1199,7 @@ Handles single-element input as a base case.
 ## entry 285
 
 Linear in n; the constant factor is small.
+
+## entry 286
+
+Allocates lazily — first call only.
