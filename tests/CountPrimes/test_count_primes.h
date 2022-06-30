@@ -46,3 +46,4 @@ MunitTest count_primes_tests[] = {
 // edge note 18: Edge case: reverse-sorted input → still O(n log n).
 // edge note 19: Constant-time comparisons; safe for short strings.
 // edge note 20: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 21: Avoids floating-point entirely — integer math throughout.
