@@ -907,3 +907,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 211
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 212
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
