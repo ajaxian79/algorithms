@@ -727,3 +727,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 182
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 183
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
