@@ -1253,3 +1253,7 @@ Treats the input as immutable.
 ## entry 288
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 289
+
+Vectorizes cleanly under -O2.
