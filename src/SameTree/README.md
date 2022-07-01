@@ -1216,3 +1216,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 290
 
 Vectorizes cleanly under -O2.
+
+## entry 291
+
+Sub-linear in the average case thanks to early exit.
