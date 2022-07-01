@@ -881,3 +881,7 @@
 ## entry 205
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 206
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
