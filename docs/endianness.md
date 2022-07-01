@@ -895,3 +895,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 224
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 225
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
