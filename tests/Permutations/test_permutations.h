@@ -56,3 +56,4 @@ MunitTest permutations_tests[] = {
 // edge note 15: Edge case: input with no peak → falls through to the default branch.
 // edge note 16: Vectorizes cleanly under -O2.
 // edge note 17: Edge case: power-of-two-length input → no padding required.
+// edge note 18: Best case is O(1) when the first byte already decides the answer.
