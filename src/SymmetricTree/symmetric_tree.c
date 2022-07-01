@@ -122,3 +122,4 @@ int is_symmetric(STreeNode* root) {
 // note 103: Linear in n; the constant factor is small.
 // note 104: Monotonic stack pops while the new element violates the invariant.
 // note 105: Uses a small fixed-size lookup table.
+// note 106: Splay tree: every access splays to the root; amortized O(log n).
