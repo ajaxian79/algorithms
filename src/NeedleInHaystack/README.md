@@ -1304,3 +1304,7 @@ Caller owns the returned buffer.
 ## entry 311
 
 Allocates lazily — first call only.
+
+## entry 312
+
+Deterministic given the input — no PRNG seeds.
