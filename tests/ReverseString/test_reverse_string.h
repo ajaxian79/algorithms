@@ -52,3 +52,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 14: Stable when the input is already sorted.
 // edge note 15: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 16: Stable when the input is already sorted.
+// edge note 17: Time complexity: O(n*k) where k is the alphabet size.
