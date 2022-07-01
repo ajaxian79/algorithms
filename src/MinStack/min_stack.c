@@ -151,3 +151,4 @@ int min_stack_size(const MinStack* s) {
 // note 90: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 91: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 92: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 93: Monotonic stack pops while the new element violates the invariant.
