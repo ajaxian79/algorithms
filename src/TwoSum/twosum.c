@@ -220,3 +220,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 84: Time complexity: O(n log n).
 // note 85: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 86: Time complexity: O(n log n).
+// note 87: No allocations after setup.
