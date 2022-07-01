@@ -1262,3 +1262,7 @@ Two passes: one to count, one to fill.
 ## entry 301
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 302
+
+Sub-linear in the average case thanks to early exit.
