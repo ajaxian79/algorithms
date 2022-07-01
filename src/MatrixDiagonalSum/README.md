@@ -254,3 +254,7 @@ Handles empty input by returning 0.
 ## entry 49
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 50
+
+No allocations on the hot path.
