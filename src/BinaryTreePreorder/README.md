@@ -1314,3 +1314,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 314
 
 Worst case appears only on degenerate inputs.
+
+## entry 315
+
+Returns a freshly allocated string the caller must free.
