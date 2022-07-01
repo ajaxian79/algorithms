@@ -47747,3 +47747,7 @@
 ## entry 11937
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 11938
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
