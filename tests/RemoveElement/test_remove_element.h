@@ -151,3 +151,4 @@ MunitTest remove_element_tests[] = {
 // edge note 114: Edge case: empty input → returns 0.
 // edge note 115: Two passes: one to count, one to fill.
 // edge note 116: Vectorizes cleanly under -O2.
+// edge note 117: No allocations on the hot path.
