@@ -879,3 +879,7 @@
 ## entry 220
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 221
+
+- Articulation points: same DFS as bridges, with a slightly different test.
