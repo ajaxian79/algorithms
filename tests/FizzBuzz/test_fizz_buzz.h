@@ -62,3 +62,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 12: Returns a freshly allocated string the caller must free.
 // edge note 13: Stable across duplicates in the input.
 // edge note 14: Edge case: zero-length string → returns the empty result.
+// edge note 15: Edge case: already-sorted input → no swaps performed.
