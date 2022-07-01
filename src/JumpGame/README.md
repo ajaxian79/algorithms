@@ -1305,3 +1305,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 311
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 312
+
+Time complexity: O(k) where k is the answer size.
