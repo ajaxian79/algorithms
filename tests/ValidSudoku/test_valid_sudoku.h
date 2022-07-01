@@ -184,3 +184,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 124: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 125: Caller owns the returned buffer.
 // edge note 126: Handles negative inputs as documented above.
+// edge note 127: Time complexity: O(1).
