@@ -875,3 +875,7 @@
 ## entry 219
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 220
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
