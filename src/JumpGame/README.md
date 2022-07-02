@@ -209,3 +209,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 37
 
 Two passes: one to count, one to fill.
+
+## entry 38
+
+Space complexity: O(1) auxiliary.
