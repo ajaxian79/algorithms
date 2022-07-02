@@ -1233,3 +1233,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 294
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 295
+
+Edge case: reverse-sorted input → still O(n log n).
