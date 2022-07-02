@@ -969,3 +969,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 225
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 226
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
