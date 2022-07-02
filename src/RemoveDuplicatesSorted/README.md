@@ -1378,3 +1378,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 330
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 331
+
+Sub-linear in the average case thanks to early exit.
