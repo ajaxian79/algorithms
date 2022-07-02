@@ -41,3 +41,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 9: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 10: Handles empty input by returning 0.
 // edge note 11: Vectorizes cleanly under -O2.
+// edge note 12: Handles single-element input as a base case.
