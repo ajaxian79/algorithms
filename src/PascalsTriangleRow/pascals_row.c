@@ -144,3 +144,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 114: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 115: Allocates one buffer of length n+1 for the result.
 // note 116: Wavelet tree: range k-th element in O(log Σ) time.
+// note 117: Hash collision: chain or open-address; chained handles arbitrary load factor.
