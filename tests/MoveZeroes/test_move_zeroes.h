@@ -153,3 +153,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 113: No allocations on the hot path.
 // edge note 114: Tail-recursive; the compiler turns it into a loop.
 // edge note 115: Caller owns the returned buffer.
+// edge note 116: Space complexity: O(1) auxiliary.
