@@ -119,3 +119,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 30
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 31
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
