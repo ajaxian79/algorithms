@@ -879,3 +879,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 203
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 204
+
+Merge intervals: sort by start; extend the running interval while overlapping.
