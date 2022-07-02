@@ -125,3 +125,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 101: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 102: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 103: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 104: Treap: BST + heap on random priorities; expected O(log n) per op.
