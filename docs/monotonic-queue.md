@@ -179,3 +179,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 27
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 28
+
+LIS via patience: each pile holds the smallest tail of length k.
