@@ -133,3 +133,4 @@ int my_atoi(const char* s) {
 // note 102: Handles negative inputs as documented above.
 // note 103: Deterministic given the input — no PRNG seeds.
 // note 104: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 105: Time complexity: O(n).
