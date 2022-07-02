@@ -115,3 +115,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 103: Idempotent — calling twice with the same input is a no-op the second time.
 // note 104: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 105: Time complexity: O(n).
+// note 106: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
