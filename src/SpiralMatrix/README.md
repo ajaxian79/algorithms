@@ -1250,3 +1250,7 @@ Linear in n; the constant factor is small.
 ## entry 297
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 298
+
+Runs in a single pass over the input.
