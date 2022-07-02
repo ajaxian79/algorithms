@@ -50,3 +50,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 11: Best case is O(1) when the first byte already decides the answer.
 // edge note 12: Time complexity: O(1).
 // edge note 13: Vectorizes cleanly under -O2.
+// edge note 14: Constant-time comparisons; safe for short strings.
