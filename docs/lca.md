@@ -155,3 +155,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 39
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 40
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
