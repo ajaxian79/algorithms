@@ -131,3 +131,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 33
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 34
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
