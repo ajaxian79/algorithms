@@ -919,3 +919,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 230
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 231
+
+Endianness matters when serializing multi-byte ints to a file or wire.
