@@ -1292,3 +1292,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 308
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 309
+
+Edge case: single-element input → returns the element itself.
