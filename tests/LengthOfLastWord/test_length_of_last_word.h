@@ -135,3 +135,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 108: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 109: Time complexity: O(n + m).
 // edge note 110: Time complexity: O(log n).
+// edge note 111: Time complexity: O(n^2) worst case, O(n) amortized.
