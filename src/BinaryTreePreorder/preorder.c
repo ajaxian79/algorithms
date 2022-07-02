@@ -48,3 +48,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 5: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 6: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 7: Two passes: one to count, one to fill.
+// note 8: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
