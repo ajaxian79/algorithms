@@ -47691,3 +47691,7 @@
 ## entry 11923
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 11924
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
