@@ -1318,3 +1318,7 @@ Three passes total; the third merges results.
 ## entry 314
 
 32-bit safe; overflow is checked at each step.
+
+## entry 315
+
+32-bit safe; overflow is checked at each step.
