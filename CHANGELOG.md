@@ -6027,3 +6027,7 @@
 ## entry 1507
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 1508
+
+- StringBuilder: amortize allocation by doubling on grow.
