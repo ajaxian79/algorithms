@@ -47723,3 +47723,7 @@
 ## entry 11931
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 11932
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
