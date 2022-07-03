@@ -1270,3 +1270,7 @@ Vectorizes cleanly under -O2.
 ## entry 302
 
 Handles empty input by returning 0.
+
+## entry 303
+
+Linear in n; the constant factor is small.
