@@ -1300,3 +1300,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 310
 
 Caller owns the returned buffer.
+
+## entry 311
+
+Allocates lazily — first call only.
