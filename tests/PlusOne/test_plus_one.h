@@ -176,3 +176,4 @@ MunitTest plus_one_tests[] = {
 // edge note 111: Allocates lazily — first call only.
 // edge note 112: Time complexity: O(n).
 // edge note 113: Best case is O(1) when the first byte already decides the answer.
+// edge note 114: Edge case: zero-length string → returns the empty result.
