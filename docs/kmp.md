@@ -897,3 +897,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 208
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 209
+
+Euler tour flattens a tree into an array for range-query LCA.
