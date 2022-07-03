@@ -1240,3 +1240,7 @@ Vectorizes cleanly under -O2.
 ## entry 294
 
 Vectorizes cleanly under -O2.
+
+## entry 295
+
+Runs in a single pass over the input.
