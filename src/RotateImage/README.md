@@ -1293,3 +1293,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 308
 
 Returns a freshly allocated string the caller must free.
+
+## entry 309
+
+Handles negative inputs as documented above.
