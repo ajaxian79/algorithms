@@ -1301,3 +1301,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 310
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 311
+
+Edge case: integer-max input → guarded by the explicit overflow check.
