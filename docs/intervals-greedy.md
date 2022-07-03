@@ -887,3 +887,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 204
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 205
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
