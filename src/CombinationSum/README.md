@@ -207,3 +207,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 37
 
 Reentrant — no static state.
+
+## entry 38
+
+Returns a freshly allocated string the caller must free.
