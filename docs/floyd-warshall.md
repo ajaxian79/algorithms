@@ -863,3 +863,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 216
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 217
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
