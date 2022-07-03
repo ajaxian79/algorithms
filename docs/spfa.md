@@ -123,3 +123,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 31
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 32
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
