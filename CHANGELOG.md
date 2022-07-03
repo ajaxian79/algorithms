@@ -47679,3 +47679,7 @@
 ## entry 11920
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 11921
+
+- Splay tree: every access splays to the root; amortized O(log n).
