@@ -1254,3 +1254,7 @@ Caller owns the returned buffer.
 ## entry 298
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 299
+
+Time complexity: O(n*k) where k is the alphabet size.
