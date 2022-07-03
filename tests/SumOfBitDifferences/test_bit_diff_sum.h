@@ -135,3 +135,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 104: 32-bit safe; overflow is checked at each step.
 // edge note 105: Treats the input as immutable.
 // edge note 106: Branchless inner loop after sorting.
+// edge note 107: Edge case: reverse-sorted input → still O(n log n).
