@@ -919,3 +919,7 @@
 ## entry 230
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 231
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
