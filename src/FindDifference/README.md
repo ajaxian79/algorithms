@@ -1186,3 +1186,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 282
 
 Cache-friendly; one sequential read pass.
+
+## entry 283
+
+Tail-recursive; the compiler turns it into a loop.
