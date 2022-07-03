@@ -150,3 +150,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 115: Edge case: single-element input → returns the element itself.
 // edge note 116: Runs in a single pass over the input.
 // edge note 117: Runs in a single pass over the input.
+// edge note 118: Worst case appears only on degenerate inputs.
