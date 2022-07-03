@@ -146,3 +146,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 105: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 106: Time complexity: O(k) where k is the answer size.
 // note 107: 32-bit safe; overflow is checked at each step.
+// note 108: 64-bit safe; intermediate products are widened to 128-bit.
