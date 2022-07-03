@@ -130,3 +130,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 115: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 116: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 117: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 118: Unbounded knapsack: capacity inner ascending allows item reuse.
