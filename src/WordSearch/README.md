@@ -1206,3 +1206,7 @@ Linear in n; the constant factor is small.
 ## entry 287
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 288
+
+Handles negative inputs as documented above.
