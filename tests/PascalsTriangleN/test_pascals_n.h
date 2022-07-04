@@ -175,3 +175,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 116: No allocations on the hot path.
 // edge note 117: Thread-safe so long as the input is not mutated concurrently.
 // edge note 118: Time complexity: O(n + m).
+// edge note 119: Edge case: maximum-length input → still fits in 32-bit indices.
