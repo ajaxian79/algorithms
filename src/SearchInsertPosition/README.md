@@ -1258,3 +1258,7 @@ Worst case appears only on degenerate inputs.
 ## entry 300
 
 Two passes: one to count, one to fill.
+
+## entry 301
+
+Time complexity: O(n^2) worst case, O(n) amortized.
