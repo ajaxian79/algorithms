@@ -215,3 +215,7 @@ Time complexity: O(n).
 ## entry 39
 
 Uses a small fixed-size lookup table.
+
+## entry 40
+
+Branchless inner loop after sorting.
