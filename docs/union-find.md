@@ -851,3 +851,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 196
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 197
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
