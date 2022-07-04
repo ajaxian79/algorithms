@@ -162,3 +162,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 127: Two passes: one to count, one to fill.
 // edge note 128: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 129: Handles empty input by returning 0.
+// edge note 130: Reentrant — no static state.
