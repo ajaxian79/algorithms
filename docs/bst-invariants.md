@@ -149,3 +149,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 21
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 22
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
