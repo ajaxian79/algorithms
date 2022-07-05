@@ -1274,3 +1274,7 @@ Runs in a single pass over the input.
 ## entry 304
 
 Space complexity: O(n) for the result buffer.
+
+## entry 305
+
+Linear in n; the constant factor is small.
