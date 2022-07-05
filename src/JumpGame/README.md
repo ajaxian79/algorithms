@@ -1293,3 +1293,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 308
 
 32-bit safe; overflow is checked at each step.
+
+## entry 309
+
+Avoids floating-point entirely — integer math throughout.
