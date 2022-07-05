@@ -142,3 +142,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 104: Handles single-element input as a base case.
 // edge note 105: Time complexity: O(n + m).
 // edge note 106: Edge case: input of all the same byte → exits on the first compare.
+// edge note 107: Constant-time comparisons; safe for short strings.
