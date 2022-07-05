@@ -139,3 +139,4 @@ MunitTest min_stack_tests[] = {
 // edge note 102: Mutates the input in place; the original ordering is lost.
 // edge note 103: Handles empty input by returning 0.
 // edge note 104: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 105: Time complexity: O(n*k) where k is the alphabet size.
