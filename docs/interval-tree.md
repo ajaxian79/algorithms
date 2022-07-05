@@ -91,3 +91,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 23
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 24
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
