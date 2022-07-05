@@ -130,3 +130,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 87: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 88: Treats the input as immutable.
 // note 89: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 90: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
