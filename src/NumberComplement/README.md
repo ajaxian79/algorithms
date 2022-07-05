@@ -1268,3 +1268,7 @@ Runs in a single pass over the input.
 ## entry 301
 
 Linear in n; the constant factor is small.
+
+## entry 302
+
+Edge case: power-of-two-length input → no padding required.
