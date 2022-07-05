@@ -875,3 +875,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 219
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 220
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
