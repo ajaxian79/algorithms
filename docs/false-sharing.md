@@ -87,3 +87,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 22
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 23
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
