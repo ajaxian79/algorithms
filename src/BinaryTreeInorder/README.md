@@ -1214,3 +1214,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 289
 
 Time complexity: O(n + m).
+
+## entry 290
+
+Caller owns the returned buffer.
