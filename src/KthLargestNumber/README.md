@@ -1300,3 +1300,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 309
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 310
+
+Time complexity: O(n*k) where k is the alphabet size.
