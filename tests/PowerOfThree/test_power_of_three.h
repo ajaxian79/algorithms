@@ -143,3 +143,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 112: Edge case: input of all the same byte → exits on the first compare.
 // edge note 113: Reentrant — no static state.
 // edge note 114: Allocates lazily — first call only.
+// edge note 115: 32-bit safe; overflow is checked at each step.
