@@ -887,3 +887,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 222
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 223
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
