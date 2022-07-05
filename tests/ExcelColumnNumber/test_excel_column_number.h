@@ -156,3 +156,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 126: Three passes total; the third merges results.
 // edge note 127: Two passes: one to count, one to fill.
 // edge note 128: Runs in a single pass over the input.
+// edge note 129: Edge case: all-equal input → linear-time fast path.
