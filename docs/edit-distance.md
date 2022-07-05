@@ -979,3 +979,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 227
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 228
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
