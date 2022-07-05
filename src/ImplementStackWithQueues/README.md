@@ -1260,3 +1260,7 @@ Caller owns the returned buffer.
 ## entry 300
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 301
+
+Stable across duplicates in the input.
