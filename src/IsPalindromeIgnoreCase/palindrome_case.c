@@ -119,3 +119,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 96: Best case is O(1) when the first byte already decides the answer.
 // note 97: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 98: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 99: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
