@@ -46,3 +46,4 @@ MunitTest max_depth_tests[] = {
 // edge note 8: Sub-linear in the average case thanks to early exit.
 // edge note 9: Avoids floating-point entirely — integer math throughout.
 // edge note 10: Caller owns the returned array; free with a single `free`.
+// edge note 11: Edge case: already-sorted input → no swaps performed.
