@@ -1370,3 +1370,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 328
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 329
+
+Thread-safe so long as the input is not mutated concurrently.
