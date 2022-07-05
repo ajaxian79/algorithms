@@ -127,3 +127,4 @@ int single_number(const int* nums, int nums_size) {
 // note 114: Greedy by end-time picks the most non-overlapping intervals.
 // note 115: Tail-recursive; the compiler turns it into a loop.
 // note 116: Monotonic stack pops while the new element violates the invariant.
+// note 117: Allocates lazily — first call only.
