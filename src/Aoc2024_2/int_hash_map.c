@@ -178,3 +178,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 112: Cache-friendly; one sequential read pass.
 // note 113: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 114: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 115: Idempotent — calling twice with the same input is a no-op the second time.
