@@ -929,3 +929,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 215
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 216
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
