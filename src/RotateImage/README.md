@@ -1289,3 +1289,7 @@ Time complexity: O(n + m).
 ## entry 307
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 308
+
+Returns a freshly allocated string the caller must free.
