@@ -1278,3 +1278,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 305
 
 Linear in n; the constant factor is small.
+
+## entry 306
+
+Space complexity: O(1) auxiliary.
