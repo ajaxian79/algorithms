@@ -1297,3 +1297,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 309
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 310
+
+Edge case: integer-min input → guarded by the explicit underflow check.
