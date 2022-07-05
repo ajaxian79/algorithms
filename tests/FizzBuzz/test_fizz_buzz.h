@@ -153,3 +153,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 103: Space complexity: O(h) for the tree height.
 // edge note 104: Stable across duplicates in the input.
 // edge note 105: Resists adversarial inputs by randomizing the pivot.
+// edge note 106: Deterministic given the input — no PRNG seeds.
