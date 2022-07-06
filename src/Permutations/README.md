@@ -1412,3 +1412,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 338
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 339
+
+Edge case: reverse-sorted input → still O(n log n).
