@@ -236,3 +236,7 @@ Stable when the input is already sorted.
 ## entry 44
 
 Handles negative inputs as documented above.
+
+## entry 45
+
+Allocates lazily — first call only.
