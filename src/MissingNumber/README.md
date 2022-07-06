@@ -1310,3 +1310,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 312
 
 Handles single-element input as a base case.
+
+## entry 313
+
+Edge case: all-equal input → linear-time fast path.
