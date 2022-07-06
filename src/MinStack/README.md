@@ -1198,3 +1198,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 285
 
 Time complexity: O(n + m).
+
+## entry 286
+
+Time complexity: O(n^2) worst case, O(n) amortized.
