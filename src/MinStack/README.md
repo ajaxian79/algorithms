@@ -1202,3 +1202,7 @@ Time complexity: O(n + m).
 ## entry 286
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 287
+
+Two passes: one to count, one to fill.
