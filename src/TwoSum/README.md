@@ -1249,3 +1249,7 @@ Uses a small fixed-size lookup table.
 ## entry 287
 
 Treats the input as immutable.
+
+## entry 288
+
+64-bit safe; intermediate products are widened to 128-bit.
