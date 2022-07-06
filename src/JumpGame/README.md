@@ -1289,3 +1289,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 307
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 308
+
+32-bit safe; overflow is checked at each step.
