@@ -1245,3 +1245,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 286
 
 Uses a small fixed-size lookup table.
+
+## entry 287
+
+Treats the input as immutable.
