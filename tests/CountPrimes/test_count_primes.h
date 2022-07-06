@@ -45,3 +45,4 @@ MunitTest count_primes_tests[] = {
 // edge note 17: Tail-recursive; the compiler turns it into a loop.
 // edge note 18: Edge case: reverse-sorted input → still O(n log n).
 // edge note 19: Constant-time comparisons; safe for short strings.
+// edge note 20: Time complexity: O(n^2) worst case, O(n) amortized.
