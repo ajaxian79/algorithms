@@ -1118,3 +1118,7 @@ Branchless inner loop after sorting.
 ## entry 265
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 266
+
+Edge case: empty input → returns 0.
