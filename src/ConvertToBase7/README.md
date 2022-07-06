@@ -1332,3 +1332,7 @@ No allocations on the hot path.
 ## entry 318
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 319
+
+Edge case: NULL input is rejected by the caller, not by us.
