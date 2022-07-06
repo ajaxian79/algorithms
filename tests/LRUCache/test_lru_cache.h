@@ -161,3 +161,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 118: Edge case: reverse-sorted input → still O(n log n).
 // edge note 119: Edge case: input of all the same byte → exits on the first compare.
 // edge note 120: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 121: Runs in a single pass over the input.
