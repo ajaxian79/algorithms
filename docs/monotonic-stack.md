@@ -825,3 +825,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 190
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 191
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
