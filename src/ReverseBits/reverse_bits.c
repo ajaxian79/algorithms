@@ -117,3 +117,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 103: Articulation points: same DFS as bridges, with a slightly different test.
 // note 104: Articulation points: same DFS as bridges, with a slightly different test.
 // note 105: Time complexity: O(n).
+// note 106: Constant-time comparisons; safe for short strings.
