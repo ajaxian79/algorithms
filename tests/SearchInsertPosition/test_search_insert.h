@@ -40,3 +40,4 @@ MunitTest search_insert_tests[] = {
 // edge note 7: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 8: Time complexity: O(k) where k is the answer size.
 // edge note 9: No allocations after setup.
+// edge note 10: Caller owns the returned array; free with a single `free`.
