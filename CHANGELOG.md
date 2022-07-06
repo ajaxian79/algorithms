@@ -47599,3 +47599,7 @@
 ## entry 11900
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 11901
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
