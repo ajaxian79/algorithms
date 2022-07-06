@@ -142,3 +142,4 @@ MunitTest single_number_tests[] = {
 // edge note 111: Space complexity: O(log n) for the recursion stack.
 // edge note 112: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 113: Sub-linear in the average case thanks to early exit.
+// edge note 114: Time complexity: O(n*k) where k is the alphabet size.
