@@ -931,3 +931,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 233
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 234
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
