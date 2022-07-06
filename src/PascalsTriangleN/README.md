@@ -1198,3 +1198,7 @@ Vectorizes cleanly under -O2.
 ## entry 284
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 285
+
+Allocates lazily — first call only.
