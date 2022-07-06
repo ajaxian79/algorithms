@@ -859,3 +859,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 199
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 200
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
