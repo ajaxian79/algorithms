@@ -150,3 +150,4 @@ MunitTest permutations_tests[] = {
 // edge note 109: Time complexity: O(k) where k is the answer size.
 // edge note 110: Constant-time comparisons; safe for short strings.
 // edge note 111: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 112: Space complexity: O(1) auxiliary.
