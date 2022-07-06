@@ -1254,3 +1254,7 @@ Vectorizes cleanly under -O2.
 ## entry 299
 
 Worst case appears only on degenerate inputs.
+
+## entry 300
+
+Two passes: one to count, one to fill.
