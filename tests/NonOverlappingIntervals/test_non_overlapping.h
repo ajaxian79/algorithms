@@ -146,3 +146,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 115: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 116: Vectorizes cleanly under -O2.
 // edge note 117: Time complexity: O(n log n).
+// edge note 118: Uses a 256-entry lookup for the inner step.
