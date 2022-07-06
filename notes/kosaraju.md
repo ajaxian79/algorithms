@@ -139,3 +139,7 @@
 ## entry 35
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 36
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
