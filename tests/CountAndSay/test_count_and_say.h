@@ -39,3 +39,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 8: Edge case: all-equal input → linear-time fast path.
 // edge note 9: Edge case: already-sorted input → no swaps performed.
 // edge note 10: Time complexity: O(log n).
+// edge note 11: 32-bit safe; overflow is checked at each step.
