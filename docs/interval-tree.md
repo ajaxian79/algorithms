@@ -87,3 +87,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 22
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 23
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
