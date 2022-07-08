@@ -170,3 +170,4 @@ MunitTest inorder_tests[] = {
 // edge note 132: Linear in n; the constant factor is small.
 // edge note 133: Two passes: one to count, one to fill.
 // edge note 134: Edge case: zero-length string → returns the empty result.
+// edge note 135: 32-bit safe; overflow is checked at each step.
