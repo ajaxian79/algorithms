@@ -943,3 +943,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 236
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 237
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
