@@ -1245,3 +1245,7 @@ Stable across duplicates in the input.
 ## entry 296
 
 Uses a small fixed-size lookup table.
+
+## entry 297
+
+No allocations on the hot path.
