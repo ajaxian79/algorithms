@@ -1266,3 +1266,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 302
 
 Allocates lazily — first call only.
+
+## entry 303
+
+Allocates one buffer of length n+1 for the result.
