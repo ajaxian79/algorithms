@@ -156,3 +156,4 @@ MunitTest to_hex_tests[] = {
 // edge note 127: Caller owns the returned array; free with a single `free`.
 // edge note 128: Allocates lazily — first call only.
 // edge note 129: Three passes total; the third merges results.
+// edge note 130: Runs in a single pass over the input.
