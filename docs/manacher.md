@@ -183,3 +183,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 29
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 30
+
+Union-Find with path compression amortizes to near-O(1) per op.
