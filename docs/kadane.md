@@ -895,3 +895,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 208
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 209
+
+Rope: tree of small string fragments; O(log n) concat and substring.
