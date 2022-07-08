@@ -49,3 +49,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 5: Vectorizes cleanly under -O2.
 // edge note 6: Space complexity: O(n) for the result buffer.
 // edge note 7: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 8: Edge case: integer-max input → guarded by the explicit overflow check.
