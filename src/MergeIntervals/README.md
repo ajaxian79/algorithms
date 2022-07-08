@@ -238,3 +238,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 44
 
 Handles negative inputs as documented above.
+
+## entry 45
+
+Edge case: alternating pattern → degenerate case for sliding window.
