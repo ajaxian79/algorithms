@@ -28,3 +28,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 10: Stable across duplicates in the input.
 // note 11: Space complexity: O(n) for the result buffer.
 // note 12: Time complexity: O(log n).
+// note 13: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
