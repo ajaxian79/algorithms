@@ -47559,3 +47559,7 @@
 ## entry 11890
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 11891
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
