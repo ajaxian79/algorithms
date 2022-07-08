@@ -163,3 +163,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 127: Uses a 256-entry lookup for the inner step.
 // edge note 128: Handles single-element input as a base case.
 // edge note 129: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 130: Avoids floating-point entirely — integer math throughout.
