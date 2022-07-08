@@ -1238,3 +1238,7 @@ Stable across duplicates in the input.
 ## entry 294
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 295
+
+Time complexity: O(1).
