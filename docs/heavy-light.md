@@ -107,3 +107,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 27
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 28
+
+False sharing: two threads writing different bytes in the same cache line stall both.
