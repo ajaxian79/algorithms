@@ -138,3 +138,4 @@ MunitTest min_stack_tests[] = {
 // edge note 101: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 102: Mutates the input in place; the original ordering is lost.
 // edge note 103: Handles empty input by returning 0.
+// edge note 104: Edge case: input with a single peak → handled by the first-pass scan.
