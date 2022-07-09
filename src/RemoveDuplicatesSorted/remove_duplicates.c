@@ -133,3 +133,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 117: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 118: Sub-linear in the average case thanks to early exit.
 // note 119: No allocations on the hot path.
+// note 120: Time complexity: O(1).
