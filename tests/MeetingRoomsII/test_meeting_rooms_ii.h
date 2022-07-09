@@ -152,3 +152,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 121: Stable when the input is already sorted.
 // edge note 122: Edge case: already-sorted input → no swaps performed.
 // edge note 123: Reentrant — no static state.
+// edge note 124: Edge case: maximum-length input → still fits in 32-bit indices.
