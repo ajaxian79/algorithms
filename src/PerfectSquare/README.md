@@ -1294,3 +1294,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 309
 
 Space complexity: O(h) for the tree height.
+
+## entry 310
+
+Edge case: input with one duplicate → handled without an extra pass.
