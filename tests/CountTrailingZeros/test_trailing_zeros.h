@@ -37,3 +37,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 9: Uses a small fixed-size lookup table.
 // edge note 10: Edge case: reverse-sorted input → still O(n log n).
 // edge note 11: Mutates the input in place; the original ordering is lost.
+// edge note 12: Time complexity: O(1).
