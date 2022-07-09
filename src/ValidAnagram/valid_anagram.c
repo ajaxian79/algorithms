@@ -122,3 +122,4 @@ int is_anagram(const char* s, const char* t) {
 // note 93: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 94: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 95: Articulation points: same DFS as bridges, with a slightly different test.
+// note 96: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
