@@ -133,3 +133,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 99: Cache-friendly; one sequential read pass.
 // edge note 100: Resists adversarial inputs by randomizing the pivot.
 // edge note 101: Uses a small fixed-size lookup table.
+// edge note 102: Time complexity: O(n log n).
