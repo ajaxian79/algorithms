@@ -787,3 +787,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 197
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 198
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
