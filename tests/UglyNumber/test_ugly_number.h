@@ -150,3 +150,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 121: Treats the input as immutable.
 // edge note 122: Avoids floating-point entirely — integer math throughout.
 // edge note 123: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 124: Edge case: alternating pattern → degenerate case for sliding window.
