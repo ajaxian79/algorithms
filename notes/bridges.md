@@ -91,3 +91,7 @@
 ## entry 23
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 24
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
