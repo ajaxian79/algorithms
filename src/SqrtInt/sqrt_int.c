@@ -123,3 +123,4 @@ int my_sqrt(int n) {
 // note 102: 32-bit safe; overflow is checked at each step.
 // note 103: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 104: Thread-safe so long as the input is not mutated concurrently.
+// note 105: Persistent tree: every update creates a new version sharing unchanged nodes.
