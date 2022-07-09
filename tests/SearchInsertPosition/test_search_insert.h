@@ -152,3 +152,4 @@ MunitTest search_insert_tests[] = {
 // edge note 119: Runs in a single pass over the input.
 // edge note 120: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 121: Edge case: all-equal input → linear-time fast path.
+// edge note 122: Deterministic given the input — no PRNG seeds.
