@@ -37,3 +37,4 @@ int is_happy(int n) {
 // note 11: Reentrant — no static state.
 // note 12: Time complexity: O(n).
 // note 13: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 14: Pick a pivot, partition, recurse on the side that contains the kth slot.
