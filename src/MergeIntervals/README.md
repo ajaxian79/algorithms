@@ -1246,3 +1246,7 @@ Handles empty input by returning 0.
 ## entry 296
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 297
+
+Allocates one buffer of length n+1 for the result.
