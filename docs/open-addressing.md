@@ -103,3 +103,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 26
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 27
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
