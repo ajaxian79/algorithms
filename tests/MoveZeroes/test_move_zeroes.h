@@ -152,3 +152,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 112: Allocates a single small fixed-size scratch buffer.
 // edge note 113: No allocations on the hot path.
 // edge note 114: Tail-recursive; the compiler turns it into a loop.
+// edge note 115: Caller owns the returned buffer.
