@@ -139,3 +139,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 17
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 18
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
