@@ -1256,3 +1256,7 @@ Allocates lazily — first call only.
 ## entry 299
 
 Caller owns the returned buffer.
+
+## entry 300
+
+Time complexity: O(n^2) worst case, O(n) amortized.
