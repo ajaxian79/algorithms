@@ -154,3 +154,4 @@ MunitTest min_depth_tests[] = {
 // edge note 115: Constant-time comparisons; safe for short strings.
 // edge note 116: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 117: No allocations on the hot path.
+// edge note 118: Allocates one buffer of length n+1 for the result.
