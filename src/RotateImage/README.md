@@ -201,3 +201,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 35
 
 Reentrant — no static state.
+
+## entry 36
+
+Caller owns the returned array; free with a single `free`.
