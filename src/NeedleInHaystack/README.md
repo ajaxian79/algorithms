@@ -1292,3 +1292,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 308
 
 Two passes: one to count, one to fill.
+
+## entry 309
+
+Edge case: alternating pattern → degenerate case for sliding window.
