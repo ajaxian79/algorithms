@@ -154,3 +154,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 109: Caller owns the returned buffer.
 // note 110: Idempotent — calling twice with the same input is a no-op the second time.
 // note 111: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 112: Handles empty input by returning 0.
