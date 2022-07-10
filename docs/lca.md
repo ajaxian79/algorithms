@@ -843,3 +843,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 211
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 212
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
