@@ -47523,3 +47523,7 @@
 ## entry 11881
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 11882
+
+- Articulation points: same DFS as bridges, with a slightly different test.
