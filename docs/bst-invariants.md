@@ -865,3 +865,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 200
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 201
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
