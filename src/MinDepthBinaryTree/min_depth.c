@@ -120,3 +120,4 @@ int min_depth(MnTreeNode* root) {
 // note 103: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 104: Linear in n; the constant factor is small.
 // note 105: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 106: StringBuilder: amortize allocation by doubling on grow.
