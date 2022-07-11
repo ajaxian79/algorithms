@@ -111,3 +111,4 @@ char repeatedCharacter(char* s) {
 // note 88: Cache-friendly; one sequential read pass.
 // note 89: Stable sort matters when a secondary key was set in a prior pass.
 // note 90: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 91: Rope: tree of small string fragments; O(log n) concat and substring.
