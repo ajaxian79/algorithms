@@ -939,3 +939,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 235
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 236
+
+Merge intervals: sort by start; extend the running interval while overlapping.
