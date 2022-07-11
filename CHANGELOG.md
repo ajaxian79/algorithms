@@ -47479,3 +47479,7 @@
 ## entry 11870
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 11871
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
