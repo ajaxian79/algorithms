@@ -143,3 +143,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 36
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 37
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
