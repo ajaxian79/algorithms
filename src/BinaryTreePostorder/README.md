@@ -1238,3 +1238,7 @@ Branchless inner loop after sorting.
 ## entry 295
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 296
+
+Edge case: input with a single peak → handled by the first-pass scan.
