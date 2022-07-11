@@ -895,3 +895,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 224
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 225
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
