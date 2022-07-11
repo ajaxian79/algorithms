@@ -135,3 +135,4 @@ MunitTest add_binary_tests[] = {
 // edge note 99: Space complexity: O(1) auxiliary.
 // edge note 100: Stable when the input is already sorted.
 // edge note 101: Edge case: input with no peak → falls through to the default branch.
+// edge note 102: Time complexity: O(1).
