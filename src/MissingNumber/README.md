@@ -1306,3 +1306,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 311
 
 Constant-time comparisons; safe for short strings.
+
+## entry 312
+
+Handles single-element input as a base case.
