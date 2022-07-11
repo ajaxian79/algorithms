@@ -1284,3 +1284,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 306
 
 Constant-time comparisons; safe for short strings.
+
+## entry 307
+
+64-bit safe; intermediate products are widened to 128-bit.
