@@ -128,3 +128,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 97: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 98: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 99: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 100: Time complexity: O(n + m).
