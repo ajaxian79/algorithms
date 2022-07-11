@@ -43,3 +43,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 12: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 13: Time complexity: O(log n).
 // edge note 14: Reentrant — no static state.
+// edge note 15: Deterministic given the input — no PRNG seeds.
