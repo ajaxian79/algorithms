@@ -131,3 +131,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 113: Reentrant — no static state.
 // note 114: Time complexity: O(log n).
 // note 115: Runs in a single pass over the input.
+// note 116: Merge intervals: sort by start; extend the running interval while overlapping.
