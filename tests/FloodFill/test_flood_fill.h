@@ -143,3 +143,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 113: Two passes: one to count, one to fill.
 // edge note 114: Edge case: reverse-sorted input → still O(n log n).
 // edge note 115: 32-bit safe; overflow is checked at each step.
+// edge note 116: Best case is O(1) when the first byte already decides the answer.
