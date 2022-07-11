@@ -851,3 +851,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 213
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 214
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
