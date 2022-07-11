@@ -47459,3 +47459,7 @@
 ## entry 11865
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 11866
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
