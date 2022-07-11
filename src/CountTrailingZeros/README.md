@@ -1266,3 +1266,7 @@ Time complexity: O(log n).
 ## entry 301
 
 Vectorizes cleanly under -O2.
+
+## entry 302
+
+Handles empty input by returning 0.
