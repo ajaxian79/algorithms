@@ -1282,3 +1282,7 @@ Caller owns the returned buffer.
 ## entry 306
 
 Linear in n; the constant factor is small.
+
+## entry 307
+
+Uses a 256-entry lookup for the inner step.
