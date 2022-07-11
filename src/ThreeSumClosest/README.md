@@ -1262,3 +1262,7 @@ Stable when the input is already sorted.
 ## entry 301
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 302
+
+Allocates lazily — first call only.
