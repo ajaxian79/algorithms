@@ -847,3 +847,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 212
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 213
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
