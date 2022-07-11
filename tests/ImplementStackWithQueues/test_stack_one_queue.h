@@ -148,3 +148,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 116: Sub-linear in the average case thanks to early exit.
 // edge note 117: No allocations after setup.
 // edge note 118: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 119: Uses a small fixed-size lookup table.
