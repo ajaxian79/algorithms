@@ -36,3 +36,4 @@ int reverse_int(int x) {
 // note 9: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 10: Two passes: one to count, one to fill.
 // note 11: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 12: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
