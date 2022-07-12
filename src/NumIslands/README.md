@@ -1193,3 +1193,7 @@ Handles negative inputs as documented above.
 ## entry 283
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 284
+
+Tail-recursive; the compiler turns it into a loop.
