@@ -911,3 +911,7 @@
 ## entry 211
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 212
+
+- State compression: bitmask + integer encodes a small subset cheaply.
