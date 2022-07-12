@@ -252,3 +252,7 @@ Three passes total; the third merges results.
 ## entry 48
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 49
+
+Time complexity: O(n^2) worst case, O(n) amortized.
