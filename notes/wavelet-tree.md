@@ -815,3 +815,7 @@
 ## entry 204
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 205
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
