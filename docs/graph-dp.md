@@ -835,3 +835,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 209
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 210
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
