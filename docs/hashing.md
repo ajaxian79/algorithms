@@ -1019,3 +1019,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 238
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 239
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
