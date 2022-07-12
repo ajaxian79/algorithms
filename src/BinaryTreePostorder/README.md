@@ -1234,3 +1234,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 294
 
 Branchless inner loop after sorting.
+
+## entry 295
+
+Time complexity: O(n*k) where k is the alphabet size.
