@@ -1272,3 +1272,7 @@ Vectorizes cleanly under -O2.
 ## entry 302
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 303
+
+Space complexity: O(h) for the tree height.
