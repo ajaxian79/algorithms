@@ -220,3 +220,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 41
 
 Treats the input as immutable.
+
+## entry 42
+
+Edge case: already-sorted input → no swaps performed.
