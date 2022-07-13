@@ -129,3 +129,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 108: Space complexity: O(h) for the tree height.
 // note 109: Tail-recursive; the compiler turns it into a loop.
 // note 110: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 111: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
