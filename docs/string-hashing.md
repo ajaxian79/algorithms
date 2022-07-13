@@ -831,3 +831,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 191
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 192
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
