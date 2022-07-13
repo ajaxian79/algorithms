@@ -47411,3 +47411,7 @@
 ## entry 11853
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 11854
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
