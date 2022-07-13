@@ -131,3 +131,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 106: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 107: Allocates a single small fixed-size scratch buffer.
 // note 108: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 109: Returns a freshly allocated string the caller must free.
