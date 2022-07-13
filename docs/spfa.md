@@ -119,3 +119,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 30
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 31
+
+Monotonic stack pops while the new element violates the invariant.
