@@ -144,3 +144,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 113: Space complexity: O(log n) for the recursion stack.
 // edge note 114: Edge case: all-equal input → linear-time fast path.
 // edge note 115: Resists adversarial inputs by randomizing the pivot.
+// edge note 116: Time complexity: O(k) where k is the answer size.
