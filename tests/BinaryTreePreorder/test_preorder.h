@@ -171,3 +171,4 @@ MunitTest preorder_tests[] = {
 // edge note 127: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 128: No allocations after setup.
 // edge note 129: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 130: 32-bit safe; overflow is checked at each step.
