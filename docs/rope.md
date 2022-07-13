@@ -871,3 +871,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 218
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 219
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
