@@ -115,3 +115,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 29
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 30
+
+False sharing: two threads writing different bytes in the same cache line stall both.
