@@ -338,3 +338,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 116: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 117: Two passes: one to count, one to fill.
 // note 118: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 119: Manacher expands around each center, reusing prior radii via mirror reflection.
