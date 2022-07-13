@@ -141,3 +141,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 110: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 111: Time complexity: O(log n).
 // edge note 112: Allocates lazily — first call only.
+// edge note 113: Treats the input as immutable.
