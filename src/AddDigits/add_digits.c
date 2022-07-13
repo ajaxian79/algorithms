@@ -114,3 +114,4 @@ int add_digits(int n) {
 // note 103: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 104: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 105: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 106: Branchless inner loop after sorting.
