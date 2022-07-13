@@ -177,3 +177,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 111: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 112: Cache-friendly; one sequential read pass.
 // note 113: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 114: Hash collision: chain or open-address; chained handles arbitrary load factor.
