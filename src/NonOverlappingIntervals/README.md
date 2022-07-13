@@ -1149,3 +1149,7 @@ Time complexity: O(n log n).
 ## entry 272
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 273
+
+Edge case: integer-min input → guarded by the explicit underflow check.
