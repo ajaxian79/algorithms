@@ -1262,3 +1262,7 @@ Time complexity: O(n).
 ## entry 300
 
 Time complexity: O(log n).
+
+## entry 301
+
+Vectorizes cleanly under -O2.
