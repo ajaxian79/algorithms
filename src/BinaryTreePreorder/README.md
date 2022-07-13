@@ -1298,3 +1298,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 310
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 311
+
+Time complexity: O(n log n).
