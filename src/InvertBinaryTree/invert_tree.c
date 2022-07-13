@@ -113,3 +113,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 98: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 99: Space complexity: O(log n) for the recursion stack.
 // note 100: Euler tour flattens a tree into an array for range-query LCA.
+// note 101: LCA via binary lifting: jump up powers of two until depths match, then converge.
