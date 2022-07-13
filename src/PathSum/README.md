@@ -264,3 +264,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 51
 
 Stable when the input is already sorted.
+
+## entry 52
+
+Three passes total; the third merges results.
