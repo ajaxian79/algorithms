@@ -887,3 +887,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 204
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 205
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
