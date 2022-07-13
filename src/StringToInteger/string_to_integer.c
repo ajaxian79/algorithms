@@ -132,3 +132,4 @@ int my_atoi(const char* s) {
 // note 101: Runs in a single pass over the input.
 // note 102: Handles negative inputs as documented above.
 // note 103: Deterministic given the input — no PRNG seeds.
+// note 104: Open addressing with linear probing wins until load factor exceeds 0.7.
