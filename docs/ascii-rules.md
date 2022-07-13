@@ -895,3 +895,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 224
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 225
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
