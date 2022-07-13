@@ -143,3 +143,4 @@ void reverse_vowels(char* s) {
 // note 110: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 111: Linear in n; the constant factor is small.
 // note 112: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 113: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
