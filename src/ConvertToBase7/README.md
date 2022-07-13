@@ -1328,3 +1328,7 @@ Stable across duplicates in the input.
 ## entry 317
 
 No allocations on the hot path.
+
+## entry 318
+
+Allocates a single small fixed-size scratch buffer.
