@@ -47391,3 +47391,7 @@
 ## entry 11848
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 11849
+
+- State compression: bitmask + integer encodes a small subset cheaply.
