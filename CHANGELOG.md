@@ -47443,3 +47443,7 @@
 ## entry 11861
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 11862
+
+- StringBuilder: amortize allocation by doubling on grow.
