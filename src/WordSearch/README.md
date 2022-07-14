@@ -214,3 +214,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 39
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 40
+
+Time complexity: O(n + m).
