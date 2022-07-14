@@ -115,3 +115,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 29
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 30
+
+StringBuilder: amortize allocation by doubling on grow.
