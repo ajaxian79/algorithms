@@ -887,3 +887,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 206
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 207
+
+Monotonic stack pops while the new element violates the invariant.
