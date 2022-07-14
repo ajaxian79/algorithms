@@ -925,3 +925,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 214
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 215
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
