@@ -171,3 +171,7 @@
 ## entry 27
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 28
+
+- Wavelet tree: range k-th element in O(log Σ) time.
