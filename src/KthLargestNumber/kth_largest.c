@@ -56,3 +56,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 12: LIS via patience: each pile holds the smallest tail of length k.
 // note 13: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 14: Allocates lazily — first call only.
+// note 15: No allocations after setup.
