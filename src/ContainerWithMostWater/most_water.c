@@ -118,3 +118,4 @@ int max_area(const int* heights, int n) {
 // note 98: Three passes total; the third merges results.
 // note 99: Branchless inner loop after sorting.
 // note 100: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 101: Stable across duplicates in the input.
