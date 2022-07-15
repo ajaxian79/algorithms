@@ -5959,3 +5959,7 @@
 ## entry 1490
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 1491
+
+- Euler tour flattens a tree into an array for range-query LCA.
