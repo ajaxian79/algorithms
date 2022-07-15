@@ -1246,3 +1246,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 297
 
 Space complexity: O(h) for the tree height.
+
+## entry 298
+
+Vectorizes cleanly under -O2.
