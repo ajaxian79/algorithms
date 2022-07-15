@@ -42,3 +42,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 13: Thread-safe so long as the input is not mutated concurrently.
 // edge note 14: Space complexity: O(log n) for the recursion stack.
 // edge note 15: Allocates one buffer of length n+1 for the result.
+// edge note 16: Edge case: input with one duplicate → handled without an extra pass.
