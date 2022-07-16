@@ -1366,3 +1366,7 @@ Cache-friendly; one sequential read pass.
 ## entry 327
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 328
+
+Thread-safe so long as the input is not mutated concurrently.
