@@ -5939,3 +5939,7 @@
 ## entry 1485
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 1486
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
