@@ -208,3 +208,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 37
 
 Reentrant — no static state.
+
+## entry 38
+
+No allocations on the hot path.
