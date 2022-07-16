@@ -891,3 +891,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 206
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 207
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
