@@ -1226,3 +1226,7 @@ Two passes: one to count, one to fill.
 ## entry 291
 
 Handles single-element input as a base case.
+
+## entry 292
+
+Space complexity: O(1) auxiliary.
