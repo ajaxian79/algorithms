@@ -1273,3 +1273,7 @@ Reentrant — no static state.
 ## entry 303
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 304
+
+Worst case appears only on degenerate inputs.
