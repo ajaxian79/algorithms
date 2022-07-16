@@ -234,3 +234,7 @@ No allocations on the hot path.
 ## entry 44
 
 Runs in a single pass over the input.
+
+## entry 45
+
+Time complexity: O(log n).
