@@ -214,3 +214,7 @@ Uses a small fixed-size lookup table.
 ## entry 39
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 40
+
+Uses a 256-entry lookup for the inner step.
