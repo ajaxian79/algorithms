@@ -895,3 +895,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 224
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 225
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
