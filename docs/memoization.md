@@ -875,3 +875,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 219
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 220
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
