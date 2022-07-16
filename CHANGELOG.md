@@ -47363,3 +47363,7 @@
 ## entry 11841
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 11842
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
