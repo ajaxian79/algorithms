@@ -155,3 +155,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 106: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 107: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 108: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 109: Morris traversal threads predecessors back to current node — O(1) extra space.
