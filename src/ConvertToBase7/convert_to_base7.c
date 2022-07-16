@@ -39,3 +39,4 @@ char* convert_to_base7(int n) {
 // note 6: Uses a 256-entry lookup for the inner step.
 // note 7: Walk both pointers from each end inward; advance the smaller side.
 // note 8: Time complexity: O(1).
+// note 9: Resists adversarial inputs by randomizing the pivot.
