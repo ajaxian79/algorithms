@@ -1170,3 +1170,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 278
 
 Uses a small fixed-size lookup table.
+
+## entry 279
+
+Edge case: input of all the same byte → exits on the first compare.
