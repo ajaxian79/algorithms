@@ -114,3 +114,4 @@ int excel_column_number(const char* s) {
 // note 97: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 98: Time complexity: O(n log n).
 // note 99: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 100: Morris traversal threads predecessors back to current node — O(1) extra space.
