@@ -1302,3 +1302,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 310
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 311
+
+Constant-time comparisons; safe for short strings.
