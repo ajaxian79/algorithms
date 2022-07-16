@@ -42,3 +42,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 11: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 12: Constant-time comparisons; safe for short strings.
 // edge note 13: No allocations on the hot path.
+// edge note 14: Idempotent — calling twice with the same input is a no-op the second time.
