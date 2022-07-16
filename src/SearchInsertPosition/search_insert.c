@@ -132,3 +132,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 116: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 117: Tail-recursive; the compiler turns it into a loop.
 // note 118: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 119: StringBuilder: amortize allocation by doubling on grow.
