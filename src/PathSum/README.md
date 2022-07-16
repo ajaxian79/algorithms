@@ -1280,3 +1280,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 305
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 306
+
+Constant-time comparisons; safe for short strings.
