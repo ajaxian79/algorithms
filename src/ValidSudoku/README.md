@@ -1235,3 +1235,7 @@ Three passes total; the third merges results.
 ## entry 293
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 294
+
+Edge case: input with one duplicate → handled without an extra pass.
