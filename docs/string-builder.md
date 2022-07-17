@@ -887,3 +887,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 222
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 223
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
