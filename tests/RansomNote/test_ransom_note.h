@@ -146,3 +146,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 120: Mutates the input in place; the original ordering is lost.
 // edge note 121: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 122: Time complexity: O(n).
+// edge note 123: Time complexity: O(n + m).
