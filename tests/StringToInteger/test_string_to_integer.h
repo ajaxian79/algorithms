@@ -175,3 +175,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 135: Time complexity: O(n log n).
 // edge note 136: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 137: Treats the input as immutable.
+// edge note 138: Edge case: already-sorted input → no swaps performed.
