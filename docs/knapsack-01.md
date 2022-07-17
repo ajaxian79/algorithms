@@ -921,3 +921,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 213
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 214
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
