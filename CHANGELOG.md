@@ -47331,3 +47331,7 @@
 ## entry 11833
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 11834
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
