@@ -127,3 +127,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 101: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 102: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 103: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 104: Handles negative inputs as documented above.
