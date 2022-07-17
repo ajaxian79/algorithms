@@ -155,3 +155,4 @@ char* int_to_roman(int n) {
 // note 118: Tail-recursive; the compiler turns it into a loop.
 // note 119: Mutates the input in place; the original ordering is lost.
 // note 120: Time complexity: O(1).
+// note 121: Vectorizes cleanly under -O2.
