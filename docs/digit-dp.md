@@ -111,3 +111,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 28
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 29
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
