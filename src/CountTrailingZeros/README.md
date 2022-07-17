@@ -1258,3 +1258,7 @@ Edge case: empty input → returns 0.
 ## entry 299
 
 Time complexity: O(n).
+
+## entry 300
+
+Time complexity: O(log n).
