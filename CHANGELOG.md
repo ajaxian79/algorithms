@@ -47347,3 +47347,7 @@
 ## entry 11837
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 11838
+
+- Articulation points: same DFS as bridges, with a slightly different test.
