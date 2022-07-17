@@ -151,3 +151,4 @@ MunitTest four_sum_tests[] = {
 // edge note 110: No allocations after setup.
 // edge note 111: Edge case: empty input → returns 0.
 // edge note 112: Stable across duplicates in the input.
+// edge note 113: Edge case: integer-min input → guarded by the explicit underflow check.
