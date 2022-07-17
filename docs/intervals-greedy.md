@@ -879,3 +879,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 202
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 203
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
