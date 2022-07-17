@@ -839,3 +839,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 210
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 211
+
+In-place compaction uses two pointers: read advances always, write only on keep.
