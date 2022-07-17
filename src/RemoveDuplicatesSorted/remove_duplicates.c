@@ -131,3 +131,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 115: State compression: bitmask + integer encodes a small subset cheaply.
 // note 116: Time complexity: O(log n).
 // note 117: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 118: Sub-linear in the average case thanks to early exit.
