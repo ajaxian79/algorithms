@@ -1324,3 +1324,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 316
 
 Stable across duplicates in the input.
+
+## entry 317
+
+No allocations on the hot path.
