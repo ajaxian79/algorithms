@@ -903,3 +903,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 226
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 227
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
