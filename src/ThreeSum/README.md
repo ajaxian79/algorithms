@@ -1241,3 +1241,7 @@ Treats the input as immutable.
 ## entry 295
 
 Stable across duplicates in the input.
+
+## entry 296
+
+Uses a small fixed-size lookup table.
