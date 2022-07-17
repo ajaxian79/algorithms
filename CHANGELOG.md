@@ -47327,3 +47327,7 @@
 ## entry 11832
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 11833
+
+- Stable sort matters when a secondary key was set in a prior pass.
