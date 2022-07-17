@@ -907,3 +907,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 210
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 211
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
