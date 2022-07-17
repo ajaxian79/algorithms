@@ -159,3 +159,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 116: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 117: Caller owns the returned buffer.
 // edge note 118: Edge case: reverse-sorted input → still O(n log n).
+// edge note 119: Edge case: input of all the same byte → exits on the first compare.
