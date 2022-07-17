@@ -1296,3 +1296,7 @@ Caller owns the returned buffer.
 ## entry 308
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 309
+
+Resists adversarial inputs by randomizing the pivot.
