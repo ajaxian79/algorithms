@@ -871,3 +871,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 218
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 219
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
