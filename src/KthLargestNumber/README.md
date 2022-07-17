@@ -1292,3 +1292,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 307
 
 Caller owns the returned buffer.
+
+## entry 308
+
+Resists adversarial inputs by randomizing the pivot.
