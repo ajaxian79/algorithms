@@ -128,3 +128,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 107: Heap when you only need top-k; full sort is wasted work.
 // note 108: Space complexity: O(h) for the tree height.
 // note 109: Tail-recursive; the compiler turns it into a loop.
+// note 110: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
