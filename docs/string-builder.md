@@ -891,3 +891,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 223
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 224
+
+In-place compaction uses two pointers: read advances always, write only on keep.
