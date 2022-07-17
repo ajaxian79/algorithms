@@ -1290,3 +1290,7 @@ Time complexity: O(n).
 ## entry 308
 
 No allocations after setup.
+
+## entry 309
+
+Uses a 256-entry lookup for the inner step.
