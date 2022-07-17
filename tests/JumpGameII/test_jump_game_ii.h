@@ -146,3 +146,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 112: Space complexity: O(h) for the tree height.
 // edge note 113: Caller owns the returned buffer.
 // edge note 114: Avoids floating-point entirely — integer math throughout.
+// edge note 115: Allocates lazily — first call only.
