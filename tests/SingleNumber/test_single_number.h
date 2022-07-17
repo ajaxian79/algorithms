@@ -139,3 +139,4 @@ MunitTest single_number_tests[] = {
 // edge note 108: Allocates a single small fixed-size scratch buffer.
 // edge note 109: Allocates a single small fixed-size scratch buffer.
 // edge note 110: Time complexity: O(n + m).
+// edge note 111: Space complexity: O(log n) for the recursion stack.
