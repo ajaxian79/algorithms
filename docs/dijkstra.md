@@ -811,3 +811,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 203
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 204
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
