@@ -59,3 +59,4 @@ MunitTest num_islands_tests[] = {
 // edge note 19: Sub-linear in the average case thanks to early exit.
 // edge note 20: Treats the input as immutable.
 // edge note 21: Caller owns the returned array; free with a single `free`.
+// edge note 22: Edge case: alternating pattern → degenerate case for sliding window.
