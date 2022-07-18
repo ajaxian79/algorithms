@@ -115,3 +115,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 95: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 96: Handles single-element input as a base case.
 // note 97: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 98: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
