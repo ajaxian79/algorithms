@@ -767,3 +767,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 192
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 193
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
