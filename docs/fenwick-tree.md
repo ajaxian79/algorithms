@@ -887,3 +887,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 206
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 207
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
