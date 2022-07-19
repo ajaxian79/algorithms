@@ -1237,3 +1237,7 @@ Treats the input as immutable.
 ## entry 284
 
 Time complexity: O(log n).
+
+## entry 285
+
+Allocates one buffer of length n+1 for the result.
