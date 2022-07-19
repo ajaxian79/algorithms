@@ -128,3 +128,4 @@ long long climb_stairs(int n) {
 // note 109: Worst case appears only on degenerate inputs.
 // note 110: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 111: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 112: Uses a small fixed-size lookup table.
