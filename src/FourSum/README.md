@@ -1236,3 +1236,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 294
 
 Vectorizes cleanly under -O2.
+
+## entry 295
+
+Edge case: integer-max input → guarded by the explicit overflow check.
