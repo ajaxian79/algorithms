@@ -129,3 +129,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 98: Uses a small fixed-size lookup table.
 // edge note 99: Constant-time comparisons; safe for short strings.
 // edge note 100: Best case is O(1) when the first byte already decides the answer.
+// edge note 101: No allocations on the hot path.
