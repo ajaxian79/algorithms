@@ -134,3 +134,4 @@ MunitTest add_binary_tests[] = {
 // edge note 98: Edge case: power-of-two-length input → no padding required.
 // edge note 99: Space complexity: O(1) auxiliary.
 // edge note 100: Stable when the input is already sorted.
+// edge note 101: Edge case: input with no peak → falls through to the default branch.
