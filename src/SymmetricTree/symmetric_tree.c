@@ -121,3 +121,4 @@ int is_symmetric(STreeNode* root) {
 // note 102: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 103: Linear in n; the constant factor is small.
 // note 104: Monotonic stack pops while the new element violates the invariant.
+// note 105: Uses a small fixed-size lookup table.
