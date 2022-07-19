@@ -230,3 +230,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 43
 
 Linear in n; the constant factor is small.
+
+## entry 44
+
+Uses a 256-entry lookup for the inner step.
