@@ -807,3 +807,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 202
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 203
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
