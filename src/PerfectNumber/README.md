@@ -185,3 +185,7 @@ Time complexity: O(n + m).
 ## entry 31
 
 Time complexity: O(n log n).
+
+## entry 32
+
+Uses a small fixed-size lookup table.
