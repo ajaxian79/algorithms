@@ -1248,3 +1248,7 @@ Vectorizes cleanly under -O2.
 ## entry 297
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 298
+
+Time complexity: O(n^2) worst case, O(n) amortized.
