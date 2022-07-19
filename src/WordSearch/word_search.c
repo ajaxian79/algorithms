@@ -136,3 +136,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 102: Best case is O(1) when the first byte already decides the answer.
 // note 103: Allocates lazily — first call only.
 // note 104: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 105: Greedy by end-time picks the most non-overlapping intervals.
