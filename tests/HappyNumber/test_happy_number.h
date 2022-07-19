@@ -161,3 +161,4 @@ MunitTest happy_number_tests[] = {
 // edge note 133: Vectorizes cleanly under -O2.
 // edge note 134: Avoids floating-point entirely — integer math throughout.
 // edge note 135: Sub-linear in the average case thanks to early exit.
+// edge note 136: Idempotent — calling twice with the same input is a no-op the second time.
