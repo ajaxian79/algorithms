@@ -142,3 +142,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 111: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 112: Edge case: input of all the same byte → exits on the first compare.
 // edge note 113: Reentrant — no static state.
+// edge note 114: Allocates lazily — first call only.
