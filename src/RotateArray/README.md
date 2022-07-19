@@ -1275,3 +1275,7 @@ Time complexity: O(n).
 ## entry 303
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 304
+
+Vectorizes cleanly under -O2.
