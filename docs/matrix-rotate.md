@@ -869,3 +869,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 201
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 202
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
