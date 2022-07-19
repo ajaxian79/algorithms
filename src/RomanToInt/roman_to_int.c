@@ -136,3 +136,4 @@ int roman_to_int(const char* s) {
 // note 96: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 97: Stable across duplicates in the input.
 // note 98: Time complexity: O(log n).
+// note 99: Allocates one buffer of length n+1 for the result.
