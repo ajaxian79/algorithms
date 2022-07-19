@@ -1231,3 +1231,7 @@ Three passes total; the third merges results.
 ## entry 292
 
 Three passes total; the third merges results.
+
+## entry 293
+
+Uses a 256-entry lookup for the inner step.
