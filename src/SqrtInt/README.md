@@ -1287,3 +1287,7 @@ Stable across duplicates in the input.
 ## entry 307
 
 Caller owns the returned buffer.
+
+## entry 308
+
+Treats the input as immutable.
