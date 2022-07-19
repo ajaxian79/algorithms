@@ -1174,3 +1174,7 @@ Stable across duplicates in the input.
 ## entry 279
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 280
+
+Three passes total; the third merges results.
