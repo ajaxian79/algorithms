@@ -1237,3 +1237,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 294
 
 Treats the input as immutable.
+
+## entry 295
+
+Stable across duplicates in the input.
