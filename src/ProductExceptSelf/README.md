@@ -1268,3 +1268,7 @@ Stable across duplicates in the input.
 ## entry 301
 
 Vectorizes cleanly under -O2.
+
+## entry 302
+
+Best case is O(1) when the first byte already decides the answer.
