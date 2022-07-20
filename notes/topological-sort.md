@@ -159,3 +159,7 @@
 ## entry 23
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 24
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
