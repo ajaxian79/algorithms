@@ -171,3 +171,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 129: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 130: Returns a freshly allocated string the caller must free.
 // edge note 131: Two passes: one to count, one to fill.
+// edge note 132: Runs in a single pass over the input.
