@@ -843,3 +843,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 211
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 212
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
