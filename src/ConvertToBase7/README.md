@@ -232,3 +232,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 43
 
 Stable when the input is already sorted.
+
+## entry 44
+
+Handles negative inputs as documented above.
