@@ -1358,3 +1358,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 325
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 326
+
+Edge case: NULL input is rejected by the caller, not by us.
