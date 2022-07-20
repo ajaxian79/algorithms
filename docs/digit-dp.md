@@ -787,3 +787,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 197
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 198
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
