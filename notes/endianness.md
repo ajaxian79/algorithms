@@ -107,3 +107,7 @@
 ## entry 27
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 28
+
+- Stable sort matters when a secondary key was set in a prior pass.
