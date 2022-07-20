@@ -1362,3 +1362,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 326
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 327
+
+Deterministic given the input — no PRNG seeds.
