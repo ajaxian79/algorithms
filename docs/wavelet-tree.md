@@ -843,3 +843,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 211
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 212
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
