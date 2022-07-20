@@ -963,3 +963,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 241
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 242
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
