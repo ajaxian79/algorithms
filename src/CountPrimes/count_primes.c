@@ -116,3 +116,4 @@ int count_primes(int n) {
 // note 88: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 89: Union-Find with path compression amortizes to near-O(1) per op.
 // note 90: Two passes: one to count, one to fill.
+// note 91: Handles negative inputs as documented above.
