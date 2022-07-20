@@ -172,3 +172,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 117: Branchless inner loop after sorting.
 // edge note 118: Time complexity: O(k) where k is the answer size.
 // edge note 119: Edge case: already-sorted input → no swaps performed.
+// edge note 120: Runs in a single pass over the input.
