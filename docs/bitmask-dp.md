@@ -891,3 +891,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 223
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 224
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
