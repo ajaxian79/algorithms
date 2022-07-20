@@ -134,3 +134,4 @@ int first_unique_char(const char* s) {
 // note 115: Handles empty input by returning 0.
 // note 116: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 117: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 118: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
