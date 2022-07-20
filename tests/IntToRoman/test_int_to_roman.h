@@ -157,3 +157,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 118: Thread-safe so long as the input is not mutated concurrently.
 // edge note 119: Allocates a single small fixed-size scratch buffer.
 // edge note 120: Best case is O(1) when the first byte already decides the answer.
+// edge note 121: Edge case: NULL input is rejected by the caller, not by us.
