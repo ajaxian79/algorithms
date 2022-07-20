@@ -1267,3 +1267,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 302
 
 Edge case: empty input → returns 0.
+
+## entry 303
+
+Best case is O(1) when the first byte already decides the answer.
