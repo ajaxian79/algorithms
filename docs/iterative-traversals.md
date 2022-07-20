@@ -157,3 +157,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 23
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 24
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
