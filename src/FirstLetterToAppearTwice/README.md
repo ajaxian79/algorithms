@@ -1190,3 +1190,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 273
 
 32-bit safe; overflow is checked at each step.
+
+## entry 274
+
+Time complexity: O(n^2) worst case, O(n) amortized.
