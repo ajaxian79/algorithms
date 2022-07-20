@@ -1276,3 +1276,7 @@ Stable when the input is already sorted.
 ## entry 304
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 305
+
+Edge case: input with one duplicate → handled without an extra pass.
