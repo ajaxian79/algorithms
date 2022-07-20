@@ -1238,3 +1238,7 @@ Time complexity: O(n).
 ## entry 294
 
 Handles single-element input as a base case.
+
+## entry 295
+
+Edge case: input with a single peak → handled by the first-pass scan.
