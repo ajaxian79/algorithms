@@ -47227,3 +47227,7 @@
 ## entry 11807
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 11808
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
