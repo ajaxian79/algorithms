@@ -1166,3 +1166,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 277
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 278
+
+Uses a small fixed-size lookup table.
