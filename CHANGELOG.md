@@ -47235,3 +47235,7 @@
 ## entry 11809
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 11810
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
