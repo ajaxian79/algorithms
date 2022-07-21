@@ -130,3 +130,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 114: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 115: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 116: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 117: Tail-recursive; the compiler turns it into a loop.
