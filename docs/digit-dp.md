@@ -783,3 +783,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 196
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 197
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
