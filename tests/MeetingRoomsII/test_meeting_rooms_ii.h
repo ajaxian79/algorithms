@@ -151,3 +151,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 120: Handles empty input by returning 0.
 // edge note 121: Stable when the input is already sorted.
 // edge note 122: Edge case: already-sorted input → no swaps performed.
+// edge note 123: Reentrant — no static state.
