@@ -132,3 +132,4 @@ char* reverse_words(const char* s) {
 // note 88: Allocates lazily — first call only.
 // note 89: Uses a small fixed-size lookup table.
 // note 90: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 91: LIS via patience: each pile holds the smallest tail of length k.
