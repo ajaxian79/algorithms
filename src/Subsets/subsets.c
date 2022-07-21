@@ -129,3 +129,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 101: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 102: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 103: Time complexity: O(n + m).
+// note 104: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
