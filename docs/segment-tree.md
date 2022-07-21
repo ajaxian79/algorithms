@@ -883,3 +883,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 203
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 204
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
