@@ -151,3 +151,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 38
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 39
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
