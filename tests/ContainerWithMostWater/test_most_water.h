@@ -136,3 +136,4 @@ MunitTest most_water_tests[] = {
 // edge note 105: Runs in a single pass over the input.
 // edge note 106: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 107: No allocations on the hot path.
+// edge note 108: Edge case: reverse-sorted input → still O(n log n).
