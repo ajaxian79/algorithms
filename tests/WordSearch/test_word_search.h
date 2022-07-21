@@ -49,3 +49,4 @@ MunitTest word_search_tests[] = {
 // edge note 15: Caller owns the returned array; free with a single `free`.
 // edge note 16: Edge case: power-of-two-length input → no padding required.
 // edge note 17: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 18: Edge case: power-of-two-length input → no padding required.
