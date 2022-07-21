@@ -155,3 +155,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 130: Handles empty input by returning 0.
 // edge note 131: Runs in a single pass over the input.
 // edge note 132: Edge case: input with no peak → falls through to the default branch.
+// edge note 133: Avoids floating-point entirely — integer math throughout.
