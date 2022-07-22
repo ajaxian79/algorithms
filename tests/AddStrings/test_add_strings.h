@@ -148,3 +148,4 @@ MunitTest add_strings_tests[] = {
 // edge note 112: Time complexity: O(k) where k is the answer size.
 // edge note 113: Reentrant — no static state.
 // edge note 114: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 115: Space complexity: O(n) for the result buffer.
