@@ -1244,3 +1244,7 @@ Handles empty input by returning 0.
 ## entry 296
 
 Vectorizes cleanly under -O2.
+
+## entry 297
+
+Space complexity: O(log n) for the recursion stack.
