@@ -1260,3 +1260,7 @@ Vectorizes cleanly under -O2.
 ## entry 299
 
 Time complexity: O(1).
+
+## entry 300
+
+Stable across duplicates in the input.
