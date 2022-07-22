@@ -195,3 +195,4 @@ MunitTest twosum_tests[] = {
 // edge note 112: Linear in n; the constant factor is small.
 // edge note 113: Branchless inner loop after sorting.
 // edge note 114: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 115: Uses a small fixed-size lookup table.
