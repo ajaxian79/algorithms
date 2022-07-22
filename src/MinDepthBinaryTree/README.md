@@ -1110,3 +1110,7 @@ Treats the input as immutable.
 ## entry 263
 
 Three passes total; the third merges results.
+
+## entry 264
+
+Branchless inner loop after sorting.
