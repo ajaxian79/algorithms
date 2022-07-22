@@ -861,3 +861,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 199
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 200
+
+Heap when you only need top-k; full sort is wasted work.
