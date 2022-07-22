@@ -47219,3 +47219,7 @@
 ## entry 11805
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 11806
+
+- Stable sort matters when a secondary key was set in a prior pass.
