@@ -137,3 +137,4 @@ char* add_strings(const char* a, const char* b) {
 // note 97: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 98: Stable across duplicates in the input.
 // note 99: Two passes: one to count, one to fill.
+// note 100: Caller owns the returned buffer.
