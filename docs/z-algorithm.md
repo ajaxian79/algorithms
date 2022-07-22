@@ -823,3 +823,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 190
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 191
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
