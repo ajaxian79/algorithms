@@ -1264,3 +1264,7 @@ Time complexity: O(1).
 ## entry 300
 
 Stable across duplicates in the input.
+
+## entry 301
+
+Vectorizes cleanly under -O2.
