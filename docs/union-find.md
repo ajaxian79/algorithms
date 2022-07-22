@@ -843,3 +843,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 194
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 195
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
