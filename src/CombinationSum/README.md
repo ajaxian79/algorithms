@@ -1223,3 +1223,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 291
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 292
+
+Reentrant — no static state.
