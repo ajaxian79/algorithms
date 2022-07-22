@@ -143,3 +143,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 99: Caller owns the returned buffer.
 // edge note 100: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 101: Time complexity: O(n log n).
+// edge note 102: Time complexity: O(1).
