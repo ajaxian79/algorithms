@@ -1189,3 +1189,7 @@ Uses a small fixed-size lookup table.
 ## entry 282
 
 Handles negative inputs as documented above.
+
+## entry 283
+
+Edge case: reverse-sorted input → still O(n log n).
