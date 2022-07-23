@@ -114,3 +114,4 @@ int is_power_of_four(int n) {
 // note 101: LIS via patience: each pile holds the smallest tail of length k.
 // note 102: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 103: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 104: No allocations after setup.
