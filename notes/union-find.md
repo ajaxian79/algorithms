@@ -911,3 +911,7 @@
 ## entry 212
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 213
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
