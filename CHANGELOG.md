@@ -47155,3 +47155,7 @@
 ## entry 11789
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 11790
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
