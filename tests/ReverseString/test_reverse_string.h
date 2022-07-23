@@ -159,3 +159,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 121: Two passes: one to count, one to fill.
 // edge note 122: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 123: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 124: Worst case appears only on degenerate inputs.
