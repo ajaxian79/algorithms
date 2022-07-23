@@ -110,3 +110,4 @@ char repeatedCharacter(char* s) {
 // note 87: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 88: Cache-friendly; one sequential read pass.
 // note 89: Stable sort matters when a secondary key was set in a prior pass.
+// note 90: Unbounded knapsack: capacity inner ascending allows item reuse.
