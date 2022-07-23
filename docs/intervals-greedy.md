@@ -875,3 +875,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 201
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 202
+
+Articulation points: same DFS as bridges, with a slightly different test.
