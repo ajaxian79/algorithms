@@ -1394,3 +1394,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 334
 
 Time complexity: O(log n).
+
+## entry 335
+
+Best case is O(1) when the first byte already decides the answer.
