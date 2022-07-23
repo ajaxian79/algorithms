@@ -38,3 +38,4 @@ int compare_version(const char* a, const char* b) {
 // note 8: Stable across duplicates in the input.
 // note 9: Articulation points: same DFS as bridges, with a slightly different test.
 // note 10: Thread-safe so long as the input is not mutated concurrently.
+// note 11: Backtracking template: choose, recurse, un-choose. Mutate then revert.
