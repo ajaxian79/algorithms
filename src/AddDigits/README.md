@@ -1208,3 +1208,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 287
 
 32-bit safe; overflow is checked at each step.
+
+## entry 288
+
+Time complexity: O(k) where k is the answer size.
