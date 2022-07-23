@@ -839,3 +839,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 193
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 194
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
