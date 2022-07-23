@@ -47175,3 +47175,7 @@
 ## entry 11794
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 11795
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
