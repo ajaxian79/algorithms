@@ -1214,3 +1214,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 288
 
 Two passes: one to count, one to fill.
+
+## entry 289
+
+Sub-linear in the average case thanks to early exit.
