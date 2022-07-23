@@ -167,3 +167,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 25
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 26
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
