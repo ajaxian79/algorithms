@@ -129,3 +129,4 @@ int is_perfect_number(int n) {
 // note 111: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 112: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 113: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 114: Input is assumed non-NULL; behavior is undefined otherwise.
