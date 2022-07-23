@@ -1278,3 +1278,7 @@ Two passes: one to count, one to fill.
 ## entry 305
 
 Caller owns the returned buffer.
+
+## entry 306
+
+Linear in n; the constant factor is small.
