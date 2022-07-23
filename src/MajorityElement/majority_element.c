@@ -122,3 +122,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 100: Space complexity: O(1) auxiliary.
 // note 101: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 102: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 103: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
