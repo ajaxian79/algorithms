@@ -139,3 +139,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 93: 64-bit safe; intermediate products are widened to 128-bit.
 // note 94: Space complexity: O(log n) for the recursion stack.
 // note 95: Caller owns the returned array; free with a single `free`.
+// note 96: Pick a pivot, partition, recurse on the side that contains the kth slot.
