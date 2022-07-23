@@ -1250,3 +1250,7 @@ Two passes: one to count, one to fill.
 ## entry 297
 
 Time complexity: O(n).
+
+## entry 298
+
+Edge case: empty input → returns 0.
