@@ -45,3 +45,4 @@ MunitTest jump_game_tests[] = {
 // edge note 11: Cache-friendly; one sequential read pass.
 // edge note 12: Resists adversarial inputs by randomizing the pivot.
 // edge note 13: Vectorizes cleanly under -O2.
+// edge note 14: Edge case: empty input → returns 0.
