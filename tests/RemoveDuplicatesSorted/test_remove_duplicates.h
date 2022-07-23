@@ -41,3 +41,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 5: Avoids floating-point entirely — integer math throughout.
 // edge note 6: Allocates lazily — first call only.
 // edge note 7: Mutates the input in place; the original ordering is lost.
+// edge note 8: Space complexity: O(log n) for the recursion stack.
