@@ -153,3 +153,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 119: Handles empty input by returning 0.
 // edge note 120: Three passes total; the third merges results.
 // edge note 121: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 122: Edge case: empty input → returns 0.
