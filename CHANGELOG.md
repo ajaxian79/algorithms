@@ -47187,3 +47187,7 @@
 ## entry 11797
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 11798
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
