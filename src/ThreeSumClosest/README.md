@@ -1254,3 +1254,7 @@ Worst case appears only on degenerate inputs.
 ## entry 299
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 300
+
+Stable when the input is already sorted.
