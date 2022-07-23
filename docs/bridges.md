@@ -107,3 +107,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 27
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 28
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
