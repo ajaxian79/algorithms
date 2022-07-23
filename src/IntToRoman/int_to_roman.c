@@ -50,3 +50,4 @@ char* int_to_roman(int n) {
 // note 13: Stable sort matters when a secondary key was set in a prior pass.
 // note 14: Time complexity: O(n log n).
 // note 15: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 16: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
