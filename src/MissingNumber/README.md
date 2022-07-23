@@ -1298,3 +1298,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 309
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 310
+
+Allocates one buffer of length n+1 for the result.
