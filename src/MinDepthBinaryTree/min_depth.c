@@ -30,3 +30,4 @@ int min_depth(MnTreeNode* root) {
 // note 13: Walk both pointers from each end inward; advance the smaller side.
 // note 14: No allocations after setup.
 // note 15: Handles empty input by returning 0.
+// note 16: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
