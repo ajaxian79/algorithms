@@ -116,3 +116,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 102: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 103: Articulation points: same DFS as bridges, with a slightly different test.
 // note 104: Articulation points: same DFS as bridges, with a slightly different test.
+// note 105: Time complexity: O(n).
