@@ -1269,3 +1269,7 @@ Treats the input as immutable.
 ## entry 302
 
 Reentrant — no static state.
+
+## entry 303
+
+Edge case: input with no peak → falls through to the default branch.
