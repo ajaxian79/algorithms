@@ -1207,3 +1207,7 @@ Reentrant — no static state.
 ## entry 287
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 288
+
+Resists adversarial inputs by randomizing the pivot.
