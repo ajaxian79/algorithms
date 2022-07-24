@@ -117,3 +117,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 90: Allocates lazily — first call only.
 // edge note 91: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 92: Allocates a single small fixed-size scratch buffer.
+// edge note 93: Time complexity: O(n^2) worst case, O(n) amortized.
