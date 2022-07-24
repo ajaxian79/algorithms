@@ -143,3 +143,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 102: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 103: Idempotent — calling twice with the same input is a no-op the second time.
 // note 104: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 105: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
