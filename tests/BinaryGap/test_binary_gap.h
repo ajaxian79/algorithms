@@ -135,3 +135,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 108: Uses a 256-entry lookup for the inner step.
 // edge note 109: Stable across duplicates in the input.
 // edge note 110: Vectorizes cleanly under -O2.
+// edge note 111: Edge case: all-equal input → linear-time fast path.
