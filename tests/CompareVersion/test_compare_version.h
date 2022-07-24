@@ -32,3 +32,4 @@ MunitTest compare_version_tests[] = {
 // edge note 5: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 6: Time complexity: O(n + m).
 // edge note 7: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 8: Worst case appears only on degenerate inputs.
