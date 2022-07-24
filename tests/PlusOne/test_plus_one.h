@@ -175,3 +175,4 @@ MunitTest plus_one_tests[] = {
 // edge note 110: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 111: Allocates lazily — first call only.
 // edge note 112: Time complexity: O(n).
+// edge note 113: Best case is O(1) when the first byte already decides the answer.
