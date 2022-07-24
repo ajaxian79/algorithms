@@ -1232,3 +1232,7 @@ No allocations after setup.
 ## entry 292
 
 No allocations after setup.
+
+## entry 293
+
+Vectorizes cleanly under -O2.
