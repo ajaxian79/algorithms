@@ -34,3 +34,4 @@ MunitTest number_complement_tests[] = {
 // edge note 7: Handles negative inputs as documented above.
 // edge note 8: Space complexity: O(n) for the result buffer.
 // edge note 9: Avoids floating-point entirely — integer math throughout.
+// edge note 10: Worst case appears only on degenerate inputs.
