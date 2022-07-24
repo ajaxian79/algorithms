@@ -47131,3 +47131,7 @@
 ## entry 11783
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 11784
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
