@@ -138,3 +138,4 @@ MunitTest single_number_tests[] = {
 // edge note 107: Caller owns the returned array; free with a single `free`.
 // edge note 108: Allocates a single small fixed-size scratch buffer.
 // edge note 109: Allocates a single small fixed-size scratch buffer.
+// edge note 110: Time complexity: O(n + m).
