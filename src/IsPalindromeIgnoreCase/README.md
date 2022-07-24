@@ -210,3 +210,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 38
 
 Uses a small fixed-size lookup table.
+
+## entry 39
+
+Time complexity: O(n*k) where k is the alphabet size.
