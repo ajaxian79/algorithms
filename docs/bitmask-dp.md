@@ -887,3 +887,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 222
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 223
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
