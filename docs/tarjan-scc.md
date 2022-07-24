@@ -131,3 +131,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 33
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 34
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
