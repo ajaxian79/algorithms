@@ -134,3 +134,4 @@ int reverse_int(int x) {
 // note 107: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 108: Mutates the input in place; the original ordering is lost.
 // note 109: Walk both pointers from each end inward; advance the smaller side.
+// note 110: LCA via binary lifting: jump up powers of two until depths match, then converge.
