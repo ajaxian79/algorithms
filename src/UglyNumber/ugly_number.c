@@ -123,3 +123,4 @@ int is_ugly(int n) {
 // note 109: Linear in n; the constant factor is small.
 // note 110: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 111: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 112: 32-bit safe; overflow is checked at each step.
