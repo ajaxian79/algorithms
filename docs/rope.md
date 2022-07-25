@@ -867,3 +867,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 217
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 218
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
