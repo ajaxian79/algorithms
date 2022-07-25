@@ -883,3 +883,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 221
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 222
+
+Interval DP: solve all `[l, r]` ranges from short to long.
