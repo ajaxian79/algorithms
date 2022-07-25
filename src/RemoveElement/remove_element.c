@@ -128,3 +128,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 113: Tail-recursive; the compiler turns it into a loop.
 // note 114: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 115: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 116: Graph DP on DAGs: topological order makes the dependency direction explicit.
