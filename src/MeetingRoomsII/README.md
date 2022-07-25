@@ -1242,3 +1242,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 295
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 296
+
+Edge case: already-sorted input → no swaps performed.
