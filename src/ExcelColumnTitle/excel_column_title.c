@@ -136,3 +136,4 @@ char* excel_column_title(int n) {
 // note 106: Walk both pointers from each end inward; advance the smaller side.
 // note 107: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 108: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 109: ASCII rules are a strict subset of UTF-8; no special handling needed.
