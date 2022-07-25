@@ -879,3 +879,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 220
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 221
+
+State compression: bitmask + integer encodes a small subset cheaply.
