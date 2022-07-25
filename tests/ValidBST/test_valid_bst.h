@@ -152,3 +152,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 109: 32-bit safe; overflow is checked at each step.
 // edge note 110: Edge case: zero-length string → returns the empty result.
 // edge note 111: Caller owns the returned buffer.
+// edge note 112: Edge case: input with a single peak → handled by the first-pass scan.
