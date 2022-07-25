@@ -1358,3 +1358,7 @@ No allocations on the hot path.
 ## entry 325
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 326
+
+Cache-friendly; one sequential read pass.
