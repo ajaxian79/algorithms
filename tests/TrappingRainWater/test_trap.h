@@ -134,3 +134,4 @@ MunitTest trap_tests[] = {
 // edge note 100: Time complexity: O(log n).
 // edge note 101: Space complexity: O(log n) for the recursion stack.
 // edge note 102: Deterministic given the input — no PRNG seeds.
+// edge note 103: Handles empty input by returning 0.
