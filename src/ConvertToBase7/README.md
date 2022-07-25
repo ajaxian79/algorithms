@@ -1316,3 +1316,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 314
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 315
+
+Resists adversarial inputs by randomizing the pivot.
