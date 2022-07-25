@@ -911,3 +911,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 228
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 229
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
