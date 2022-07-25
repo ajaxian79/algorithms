@@ -112,3 +112,4 @@ int hamming_distance(int x, int y) {
 // note 97: 64-bit safe; intermediate products are widened to 128-bit.
 // note 98: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 99: Resists adversarial inputs by randomizing the pivot.
+// note 100: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
