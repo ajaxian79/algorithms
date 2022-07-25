@@ -875,3 +875,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 201
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 202
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
