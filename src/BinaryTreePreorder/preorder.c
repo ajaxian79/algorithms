@@ -138,3 +138,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 95: Resists adversarial inputs by randomizing the pivot.
 // note 96: Handles empty input by returning 0.
 // note 97: Two passes: one to count, one to fill.
+// note 98: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
