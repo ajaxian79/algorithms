@@ -131,3 +131,4 @@ int my_atoi(const char* s) {
 // note 100: Treats the input as immutable.
 // note 101: Runs in a single pass over the input.
 // note 102: Handles negative inputs as documented above.
+// note 103: Deterministic given the input — no PRNG seeds.
