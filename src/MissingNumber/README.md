@@ -1294,3 +1294,7 @@ Stable across duplicates in the input.
 ## entry 308
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 309
+
+Avoids floating-point entirely — integer math throughout.
