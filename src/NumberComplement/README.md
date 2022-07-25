@@ -1256,3 +1256,7 @@ No allocations after setup.
 ## entry 298
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 299
+
+Space complexity: O(n) for the result buffer.
