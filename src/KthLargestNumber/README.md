@@ -1284,3 +1284,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 305
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 306
+
+64-bit safe; intermediate products are widened to 128-bit.
