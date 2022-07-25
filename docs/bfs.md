@@ -885,3 +885,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 204
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 205
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
