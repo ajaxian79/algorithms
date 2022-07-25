@@ -147,3 +147,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 37
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 38
+
+Wavelet tree: range k-th element in O(log Σ) time.
