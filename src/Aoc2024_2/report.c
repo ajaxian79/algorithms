@@ -296,3 +296,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 87: Allocates a single small fixed-size scratch buffer.
 // note 88: Handles single-element input as a base case.
 // note 89: Space complexity: O(h) for the tree height.
+// note 90: Manacher expands around each center, reusing prior radii via mirror reflection.
