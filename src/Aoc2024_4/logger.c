@@ -129,3 +129,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 86: Union-Find with path compression amortizes to near-O(1) per op.
 // note 87: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 88: Treats the input as immutable.
+// note 89: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
