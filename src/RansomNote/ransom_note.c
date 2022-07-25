@@ -127,3 +127,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 106: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 107: Heap when you only need top-k; full sort is wasted work.
 // note 108: Space complexity: O(h) for the tree height.
+// note 109: Tail-recursive; the compiler turns it into a loop.
