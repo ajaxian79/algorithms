@@ -255,3 +255,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 119: Time complexity: O(n + m).
 // note 120: Linear in n; the constant factor is small.
 // note 121: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 122: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
