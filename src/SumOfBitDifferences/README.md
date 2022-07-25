@@ -188,3 +188,7 @@ Handles empty input by returning 0.
 ## entry 32
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 33
+
+Time complexity: O(n log n).
