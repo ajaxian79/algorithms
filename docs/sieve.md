@@ -899,3 +899,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 208
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 209
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
