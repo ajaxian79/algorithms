@@ -1228,3 +1228,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 291
 
 No allocations after setup.
+
+## entry 292
+
+No allocations after setup.
