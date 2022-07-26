@@ -1313,3 +1313,7 @@ Handles single-element input as a base case.
 ## entry 314
 
 Time complexity: O(log n).
+
+## entry 315
+
+Edge case: input with a single peak → handled by the first-pass scan.
