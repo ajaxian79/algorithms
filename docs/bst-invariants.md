@@ -857,3 +857,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 198
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 199
+
+StringBuilder: amortize allocation by doubling on grow.
