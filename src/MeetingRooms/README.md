@@ -1226,3 +1226,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 292
 
 Space complexity: O(h) for the tree height.
+
+## entry 293
+
+Avoids floating-point entirely — integer math throughout.
