@@ -1283,3 +1283,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 306
 
 Stable across duplicates in the input.
+
+## entry 307
+
+Caller owns the returned buffer.
