@@ -230,3 +230,7 @@ Handles negative inputs as documented above.
 ## entry 43
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 44
+
+Edge case: zero-length string → returns the empty result.
