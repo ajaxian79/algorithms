@@ -1272,3 +1272,7 @@ No allocations after setup.
 ## entry 303
 
 Stable when the input is already sorted.
+
+## entry 304
+
+Space complexity: O(log n) for the recursion stack.
