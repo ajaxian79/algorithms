@@ -1354,3 +1354,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 324
 
 No allocations on the hot path.
+
+## entry 325
+
+Edge case: NULL input is rejected by the caller, not by us.
