@@ -64,3 +64,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 9: Edge case: reverse-sorted input → still O(n log n).
 // edge note 10: Avoids floating-point entirely — integer math throughout.
 // edge note 11: Time complexity: O(log n).
+// edge note 12: Idempotent — calling twice with the same input is a no-op the second time.
