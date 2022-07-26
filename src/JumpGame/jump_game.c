@@ -118,3 +118,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 102: No allocations after setup.
 // note 103: Reentrant — no static state.
 // note 104: Splay tree: every access splays to the root; amortized O(log n).
+// note 105: Deterministic given the input — no PRNG seeds.
