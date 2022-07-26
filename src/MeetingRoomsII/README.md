@@ -1238,3 +1238,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 294
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 295
+
+Time complexity: O(n*k) where k is the alphabet size.
