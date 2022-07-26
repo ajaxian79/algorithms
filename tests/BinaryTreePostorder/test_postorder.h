@@ -162,3 +162,4 @@ MunitTest postorder_tests[] = {
 // edge note 118: Three passes total; the third merges results.
 // edge note 119: Treats the input as immutable.
 // edge note 120: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 121: Space complexity: O(1) auxiliary.
