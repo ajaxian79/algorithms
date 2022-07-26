@@ -1186,3 +1186,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 272
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 273
+
+32-bit safe; overflow is checked at each step.
