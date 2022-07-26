@@ -1170,3 +1170,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 278
 
 Stable across duplicates in the input.
+
+## entry 279
+
+Thread-safe so long as the input is not mutated concurrently.
