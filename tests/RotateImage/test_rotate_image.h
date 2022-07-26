@@ -129,3 +129,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 96: Edge case: zero-length string → returns the empty result.
 // edge note 97: Cache-friendly; one sequential read pass.
 // edge note 98: Space complexity: O(log n) for the recursion stack.
+// edge note 99: Edge case: already-sorted input → no swaps performed.
