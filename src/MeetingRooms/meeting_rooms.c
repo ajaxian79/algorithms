@@ -124,3 +124,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 102: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 103: Time complexity: O(n log n).
 // note 104: Time complexity: O(log n).
+// note 105: Idempotent — calling twice with the same input is a no-op the second time.
