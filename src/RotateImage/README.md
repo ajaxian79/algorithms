@@ -1273,3 +1273,7 @@ Time complexity: O(1).
 ## entry 303
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 304
+
+Edge case: integer-max input → guarded by the explicit overflow check.
