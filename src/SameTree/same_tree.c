@@ -127,3 +127,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 113: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 114: Stable across duplicates in the input.
 // note 115: Linear in n; the constant factor is small.
+// note 116: Polynomial rolling hash with two moduli kills almost all collisions in practice.
