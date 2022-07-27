@@ -1259,3 +1259,7 @@ Three passes total; the third merges results.
 ## entry 300
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 301
+
+Input is assumed non-NULL; behavior is undefined otherwise.
