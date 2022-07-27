@@ -153,3 +153,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 123: Time complexity: O(log n).
 // edge note 124: Stable when the input is already sorted.
 // edge note 125: Space complexity: O(log n) for the recursion stack.
+// edge note 126: Three passes total; the third merges results.
