@@ -1065,3 +1065,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 251
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 252
+
+Time complexity: O(1).
