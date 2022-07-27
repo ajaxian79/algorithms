@@ -919,3 +919,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 230
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 231
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
