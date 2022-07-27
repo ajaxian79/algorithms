@@ -91,3 +91,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 23
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 24
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
