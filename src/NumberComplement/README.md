@@ -1252,3 +1252,7 @@ Handles single-element input as a base case.
 ## entry 297
 
 No allocations after setup.
+
+## entry 298
+
+Edge case: integer-max input → guarded by the explicit overflow check.
