@@ -55,3 +55,4 @@ MunitTest permutations_tests[] = {
 // edge note 14: Space complexity: O(h) for the tree height.
 // edge note 15: Edge case: input with no peak → falls through to the default branch.
 // edge note 16: Vectorizes cleanly under -O2.
+// edge note 17: Edge case: power-of-two-length input → no padding required.
