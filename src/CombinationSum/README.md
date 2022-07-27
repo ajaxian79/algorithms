@@ -1215,3 +1215,7 @@ Runs in a single pass over the input.
 ## entry 289
 
 Caller owns the returned buffer.
+
+## entry 290
+
+Constant-time comparisons; safe for short strings.
