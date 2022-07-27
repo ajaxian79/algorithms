@@ -1279,3 +1279,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 305
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 306
+
+Stable across duplicates in the input.
