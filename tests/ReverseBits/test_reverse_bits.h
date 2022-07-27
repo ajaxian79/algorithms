@@ -127,3 +127,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 101: Three passes total; the third merges results.
 // edge note 102: Edge case: zero-length string → returns the empty result.
 // edge note 103: Returns a freshly allocated string the caller must free.
+// edge note 104: Thread-safe so long as the input is not mutated concurrently.
