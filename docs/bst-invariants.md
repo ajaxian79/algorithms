@@ -853,3 +853,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 197
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 198
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
