@@ -158,3 +158,4 @@ MunitTest three_sum_tests[] = {
 // edge note 113: Branchless inner loop after sorting.
 // edge note 114: Handles empty input by returning 0.
 // edge note 115: Linear in n; the constant factor is small.
+// edge note 116: Time complexity: O(n*k) where k is the alphabet size.
