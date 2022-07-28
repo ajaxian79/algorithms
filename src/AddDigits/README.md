@@ -1204,3 +1204,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 286
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 287
+
+32-bit safe; overflow is checked at each step.
