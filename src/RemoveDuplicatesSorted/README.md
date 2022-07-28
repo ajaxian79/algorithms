@@ -1354,3 +1354,7 @@ Stable when the input is already sorted.
 ## entry 324
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 325
+
+Time complexity: O(n*k) where k is the alphabet size.
