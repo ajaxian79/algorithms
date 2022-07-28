@@ -1404,3 +1404,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 336
 
 Caller owns the returned buffer.
+
+## entry 337
+
+Edge case: input of all the same byte → exits on the first compare.
