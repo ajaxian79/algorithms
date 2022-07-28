@@ -1400,3 +1400,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 335
 
 32-bit safe; overflow is checked at each step.
+
+## entry 336
+
+Caller owns the returned buffer.
