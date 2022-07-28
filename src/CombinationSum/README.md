@@ -1211,3 +1211,7 @@ Linear in n; the constant factor is small.
 ## entry 288
 
 Runs in a single pass over the input.
+
+## entry 289
+
+Caller owns the returned buffer.
