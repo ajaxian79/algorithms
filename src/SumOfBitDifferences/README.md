@@ -1208,3 +1208,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 287
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 288
+
+Uses a small fixed-size lookup table.
