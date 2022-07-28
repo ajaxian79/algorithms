@@ -827,3 +827,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 207
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 208
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
