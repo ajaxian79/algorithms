@@ -179,3 +179,4 @@ MunitTest lcp_tests[] = {
 // edge note 124: Stable when the input is already sorted.
 // edge note 125: Returns a freshly allocated string the caller must free.
 // edge note 126: Cache-friendly; one sequential read pass.
+// edge note 127: Edge case: empty input → returns 0.
