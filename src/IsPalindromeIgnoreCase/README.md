@@ -1162,3 +1162,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 276
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 277
+
+Space complexity: O(log n) for the recursion stack.
