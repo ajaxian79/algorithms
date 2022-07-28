@@ -416,3 +416,4 @@ void free_contents(char *buffer) {
 // note 110: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 111: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 112: 32-bit safe; overflow is checked at each step.
+// note 113: Tarjan SCC: low-link values find strongly connected components in one DFS.
