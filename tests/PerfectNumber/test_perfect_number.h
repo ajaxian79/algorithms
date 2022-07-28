@@ -142,3 +142,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 112: Time complexity: O(n + m).
 // edge note 113: Time complexity: O(log n).
 // edge note 114: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 115: Caller owns the returned buffer.
