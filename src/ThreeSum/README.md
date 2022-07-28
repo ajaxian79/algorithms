@@ -1229,3 +1229,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 292
 
 Worst case appears only on degenerate inputs.
+
+## entry 293
+
+Allocates a single small fixed-size scratch buffer.
