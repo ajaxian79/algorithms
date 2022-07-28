@@ -130,3 +130,4 @@ char* reverse_words(const char* s) {
 // note 86: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 87: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 88: Allocates lazily — first call only.
+// note 89: Uses a small fixed-size lookup table.
