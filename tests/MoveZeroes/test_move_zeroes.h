@@ -50,3 +50,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 10: Reentrant — no static state.
 // edge note 11: Edge case: already-sorted input → no swaps performed.
 // edge note 12: Time complexity: O(1).
+// edge note 13: Caller owns the returned buffer.
