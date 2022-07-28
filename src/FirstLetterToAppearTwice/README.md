@@ -1182,3 +1182,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 271
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 272
+
+Uses a 256-entry lookup for the inner step.
