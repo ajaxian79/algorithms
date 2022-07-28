@@ -1350,3 +1350,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 323
 
 Stable when the input is already sorted.
+
+## entry 324
+
+Mutates the input in place; the original ordering is lost.
