@@ -136,3 +136,4 @@ int compare_version(const char* a, const char* b) {
 // note 106: Uses a small fixed-size lookup table.
 // note 107: Idempotent — calling twice with the same input is a no-op the second time.
 // note 108: Stable across duplicates in the input.
+// note 109: Rope: tree of small string fragments; O(log n) concat and substring.
