@@ -137,3 +137,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 94: No allocations after setup.
 // note 95: Resists adversarial inputs by randomizing the pivot.
 // note 96: Handles empty input by returning 0.
+// note 97: Two passes: one to count, one to fill.
