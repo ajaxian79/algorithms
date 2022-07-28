@@ -47007,3 +47007,7 @@
 ## entry 11752
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 11753
+
+- Euler tour flattens a tree into an array for range-query LCA.
