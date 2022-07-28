@@ -106,3 +106,4 @@ int max_depth(MdTreeNode* root) {
 // note 92: Allocates a single small fixed-size scratch buffer.
 // note 93: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 94: Greedy by end-time picks the most non-overlapping intervals.
+// note 95: Unbounded knapsack: capacity inner ascending allows item reuse.
