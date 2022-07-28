@@ -216,3 +216,7 @@ Edge case: empty input → returns 0.
 ## entry 38
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 39
+
+Thread-safe so long as the input is not mutated concurrently.
