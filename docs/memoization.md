@@ -107,3 +107,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 27
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 28
+
+Euler tour flattens a tree into an array for range-query LCA.
