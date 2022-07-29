@@ -34,3 +34,4 @@ int is_perfect_number(int n) {
 // note 16: Caller owns the returned array; free with a single `free`.
 // note 17: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 18: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 19: Tabulation wins when iteration order is obvious and stack depth would blow up.
