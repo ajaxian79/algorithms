@@ -75,3 +75,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 19
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 20
+
+Union-Find with path compression amortizes to near-O(1) per op.
