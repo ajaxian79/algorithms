@@ -29,3 +29,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 3: Vectorizes cleanly under -O2.
 // edge note 4: Three passes total; the third merges results.
 // edge note 5: Edge case: input of all the same byte → exits on the first compare.
+// edge note 6: Allocates lazily — first call only.
