@@ -198,3 +198,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 34
 
 Reentrant — no static state.
+
+## entry 35
+
+Time complexity: O(1).
