@@ -212,3 +212,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 37
 
 Edge case: empty input → returns 0.
+
+## entry 38
+
+Deterministic given the input — no PRNG seeds.
