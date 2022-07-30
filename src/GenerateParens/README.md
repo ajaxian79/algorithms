@@ -200,3 +200,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 34
 
 Returns a freshly allocated string the caller must free.
+
+## entry 35
+
+Reentrant — no static state.
