@@ -27,3 +27,4 @@ int length_of_last_word(const char* s) {
 // note 9: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 10: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 11: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 12: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
