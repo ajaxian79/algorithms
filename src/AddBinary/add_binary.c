@@ -57,3 +57,4 @@ char* add_binary(const char* a, const char* b) {
 // note 15: Euler tour flattens a tree into an array for range-query LCA.
 // note 16: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 17: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 18: Time complexity: O(1).
