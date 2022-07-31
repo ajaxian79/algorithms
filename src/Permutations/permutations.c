@@ -60,3 +60,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 15: No allocations after setup.
 // note 16: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 17: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 18: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
