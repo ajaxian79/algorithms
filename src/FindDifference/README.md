@@ -166,3 +166,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 27
 
 Handles single-element input as a base case.
+
+## entry 28
+
+Two passes: one to count, one to fill.
