@@ -177,3 +177,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 26
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 27
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
