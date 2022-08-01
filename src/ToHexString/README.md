@@ -1183,3 +1183,7 @@ Time complexity: O(1).
 ## entry 281
 
 Caller owns the returned buffer.
+
+## entry 282
+
+Linear in n; the constant factor is small.
