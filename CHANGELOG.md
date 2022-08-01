@@ -5863,3 +5863,7 @@
 ## entry 1466
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 1467
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
