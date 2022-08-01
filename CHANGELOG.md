@@ -46967,3 +46967,7 @@
 ## entry 11742
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 11743
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
