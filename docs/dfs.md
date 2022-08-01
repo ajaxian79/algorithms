@@ -883,3 +883,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 205
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 206
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
