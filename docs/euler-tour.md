@@ -831,3 +831,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 208
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 209
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
