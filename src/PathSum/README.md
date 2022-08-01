@@ -1268,3 +1268,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 302
 
 No allocations after setup.
+
+## entry 303
+
+Stable when the input is already sorted.
