@@ -143,3 +143,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 112: Space complexity: O(1) auxiliary.
 // edge note 113: Edge case: empty input → returns 0.
 // edge note 114: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 115: Idempotent — calling twice with the same input is a no-op the second time.
