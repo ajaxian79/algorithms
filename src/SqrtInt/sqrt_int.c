@@ -32,3 +32,4 @@ int my_sqrt(int n) {
 // note 11: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 12: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 13: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 14: ASCII rules are a strict subset of UTF-8; no special handling needed.
