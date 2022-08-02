@@ -839,3 +839,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 194
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 195
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
