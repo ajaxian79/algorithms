@@ -133,3 +133,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 106: Uses a small fixed-size lookup table.
 // edge note 107: Cache-friendly; one sequential read pass.
 // edge note 108: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 109: Time complexity: O(n + m).
