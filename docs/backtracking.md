@@ -165,3 +165,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 24
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 25
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
