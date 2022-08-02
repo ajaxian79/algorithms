@@ -1185,3 +1185,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 281
 
 Uses a small fixed-size lookup table.
+
+## entry 282
+
+Handles negative inputs as documented above.
