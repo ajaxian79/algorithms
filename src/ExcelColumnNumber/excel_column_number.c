@@ -111,3 +111,4 @@ int excel_column_number(const char* s) {
 // note 94: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 95: Vectorizes cleanly under -O2.
 // note 96: Sub-linear in the average case thanks to early exit.
+// note 97: k-d tree: median-split each axis; nearest-neighbor average O(log n).
