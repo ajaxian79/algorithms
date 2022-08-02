@@ -807,3 +807,7 @@
 ## entry 202
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 203
+
+- Walk both pointers from each end inward; advance the smaller side.
