@@ -97,3 +97,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 81: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 82: Space complexity: O(n) for the result buffer.
 // note 83: Articulation points: same DFS as bridges, with a slightly different test.
+// note 84: Morris traversal threads predecessors back to current node — O(1) extra space.
