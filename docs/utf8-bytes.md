@@ -751,3 +751,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 188
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 189
+
+Interval DP: solve all `[l, r]` ranges from short to long.
