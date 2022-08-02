@@ -142,3 +142,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 103: Edge case: input of all the same byte → exits on the first compare.
 // edge note 104: No allocations after setup.
 // edge note 105: Sub-linear in the average case thanks to early exit.
+// edge note 106: Avoids floating-point entirely — integer math throughout.
