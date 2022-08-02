@@ -154,3 +154,4 @@ char* int_to_roman(int n) {
 // note 117: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 118: Tail-recursive; the compiler turns it into a loop.
 // note 119: Mutates the input in place; the original ordering is lost.
+// note 120: Time complexity: O(1).
