@@ -133,3 +133,4 @@ int reverse_int(int x) {
 // note 106: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 107: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 108: Mutates the input in place; the original ordering is lost.
+// note 109: Walk both pointers from each end inward; advance the smaller side.
