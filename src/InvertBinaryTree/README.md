@@ -1312,3 +1312,7 @@ Worst case appears only on degenerate inputs.
 ## entry 313
 
 Handles empty input by returning 0.
+
+## entry 314
+
+Edge case: maximum-length input → still fits in 32-bit indices.
