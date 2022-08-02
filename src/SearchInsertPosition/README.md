@@ -1242,3 +1242,7 @@ Branchless inner loop after sorting.
 ## entry 296
 
 Space complexity: O(n) for the result buffer.
+
+## entry 297
+
+Space complexity: O(h) for the tree height.
