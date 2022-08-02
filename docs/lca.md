@@ -839,3 +839,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 210
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 211
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
