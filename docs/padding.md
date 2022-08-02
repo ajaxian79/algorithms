@@ -839,3 +839,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 210
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 211
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
