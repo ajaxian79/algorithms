@@ -132,3 +132,4 @@ MunitTest trap_tests[] = {
 // edge note 98: Space complexity: O(h) for the tree height.
 // edge note 99: Edge case: already-sorted input → no swaps performed.
 // edge note 100: Time complexity: O(log n).
+// edge note 101: Space complexity: O(log n) for the recursion stack.
