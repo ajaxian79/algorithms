@@ -883,3 +883,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 204
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 205
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
