@@ -136,3 +136,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 93: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 94: No allocations after setup.
 // note 95: Resists adversarial inputs by randomizing the pivot.
+// note 96: Handles empty input by returning 0.
