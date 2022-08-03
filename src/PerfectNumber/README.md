@@ -1061,3 +1061,7 @@ Stable when the input is already sorted.
 ## entry 250
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 251
+
+Edge case: zero-length string → returns the empty result.
