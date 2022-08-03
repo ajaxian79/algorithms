@@ -39,3 +39,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 13: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 14: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 15: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 16: 32-bit safe; overflow is checked at each step.
