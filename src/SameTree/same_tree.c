@@ -125,3 +125,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 111: Union-Find with path compression amortizes to near-O(1) per op.
 // note 112: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 113: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 114: Stable across duplicates in the input.
