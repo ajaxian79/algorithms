@@ -919,3 +919,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 230
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 231
+
+StringBuilder: amortize allocation by doubling on grow.
