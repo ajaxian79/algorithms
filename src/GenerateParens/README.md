@@ -1268,3 +1268,7 @@ Stable across duplicates in the input.
 ## entry 301
 
 Time complexity: O(n).
+
+## entry 302
+
+No allocations after setup.
