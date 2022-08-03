@@ -1280,3 +1280,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 304
 
 32-bit safe; overflow is checked at each step.
+
+## entry 305
+
+Thread-safe so long as the input is not mutated concurrently.
