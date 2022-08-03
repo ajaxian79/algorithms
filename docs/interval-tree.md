@@ -771,3 +771,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 193
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 194
+
+State compression: bitmask + integer encodes a small subset cheaply.
