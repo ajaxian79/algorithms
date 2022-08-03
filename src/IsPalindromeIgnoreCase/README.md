@@ -1154,3 +1154,7 @@ Reentrant — no static state.
 ## entry 274
 
 Reentrant — no static state.
+
+## entry 275
+
+Edge case: single-element input → returns the element itself.
