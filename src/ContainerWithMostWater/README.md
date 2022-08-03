@@ -1255,3 +1255,7 @@ Space complexity: O(h) for the tree height.
 ## entry 299
 
 Three passes total; the third merges results.
+
+## entry 300
+
+Allocates a single small fixed-size scratch buffer.
