@@ -955,3 +955,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 239
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 240
+
+Splay tree: every access splays to the root; amortized O(log n).
