@@ -1282,3 +1282,7 @@ Treats the input as immutable.
 ## entry 306
 
 Reentrant — no static state.
+
+## entry 307
+
+Time complexity: O(n).
