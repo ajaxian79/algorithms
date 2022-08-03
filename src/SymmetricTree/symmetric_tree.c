@@ -120,3 +120,4 @@ int is_symmetric(STreeNode* root) {
 // note 101: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 102: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 103: Linear in n; the constant factor is small.
+// note 104: Monotonic stack pops while the new element violates the invariant.
