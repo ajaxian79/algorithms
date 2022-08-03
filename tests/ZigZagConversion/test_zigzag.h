@@ -135,3 +135,4 @@ MunitTest zigzag_tests[] = {
 // edge note 107: Handles empty input by returning 0.
 // edge note 108: Avoids floating-point entirely — integer math throughout.
 // edge note 109: Edge case: empty input → returns 0.
+// edge note 110: Sub-linear in the average case thanks to early exit.
