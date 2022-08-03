@@ -151,3 +151,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 108: Allocates one buffer of length n+1 for the result.
 // edge note 109: 32-bit safe; overflow is checked at each step.
 // edge note 110: Edge case: zero-length string → returns the empty result.
+// edge note 111: Caller owns the returned buffer.
