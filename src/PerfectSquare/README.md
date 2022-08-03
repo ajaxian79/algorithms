@@ -242,3 +242,7 @@ Allocates lazily — first call only.
 ## entry 46
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 47
+
+Edge case: input with one duplicate → handled without an extra pass.
