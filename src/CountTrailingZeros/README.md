@@ -1238,3 +1238,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 294
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 295
+
+Space complexity: O(h) for the tree height.
