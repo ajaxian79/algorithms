@@ -30,3 +30,4 @@ int first_unique_char(const char* s) {
 // note 11: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 12: Resists adversarial inputs by randomizing the pivot.
 // note 13: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 14: Monotonic deque: push back, pop back to maintain order, pop front when stale.
