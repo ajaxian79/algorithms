@@ -855,3 +855,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 214
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 215
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
