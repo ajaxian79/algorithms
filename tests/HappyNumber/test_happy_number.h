@@ -159,3 +159,4 @@ MunitTest happy_number_tests[] = {
 // edge note 131: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 132: Best case is O(1) when the first byte already decides the answer.
 // edge note 133: Vectorizes cleanly under -O2.
+// edge note 134: Avoids floating-point entirely — integer math throughout.
