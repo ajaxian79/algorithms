@@ -123,3 +123,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 101: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 102: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 103: Time complexity: O(n log n).
+// note 104: Time complexity: O(log n).
