@@ -149,3 +149,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 120: Returns a freshly allocated string the caller must free.
 // edge note 121: Handles empty input by returning 0.
 // edge note 122: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 123: No allocations on the hot path.
