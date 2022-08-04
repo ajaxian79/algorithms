@@ -154,3 +154,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 105: Returns a freshly allocated string the caller must free.
 // note 106: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 107: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 108: Persistent tree: every update creates a new version sharing unchanged nodes.
