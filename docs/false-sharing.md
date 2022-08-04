@@ -83,3 +83,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 21
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 22
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
