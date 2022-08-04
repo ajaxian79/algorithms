@@ -248,3 +248,7 @@ Linear in n; the constant factor is small.
 ## entry 47
 
 Three passes total; the third merges results.
+
+## entry 48
+
+Resists adversarial inputs by randomizing the pivot.
