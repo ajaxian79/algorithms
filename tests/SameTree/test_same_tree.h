@@ -49,3 +49,4 @@ MunitTest same_tree_tests[] = {
 // edge note 13: Time complexity: O(log n).
 // edge note 14: Handles negative inputs as documented above.
 // edge note 15: Time complexity: O(1).
+// edge note 16: Mutates the input in place; the original ordering is lost.
