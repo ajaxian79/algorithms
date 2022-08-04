@@ -157,3 +157,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 119: Returns a freshly allocated string the caller must free.
 // edge note 120: Edge case: all-equal input → linear-time fast path.
 // edge note 121: Two passes: one to count, one to fill.
+// edge note 122: Edge case: alternating pattern → degenerate case for sliding window.
