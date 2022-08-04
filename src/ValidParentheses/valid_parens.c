@@ -150,3 +150,4 @@ int is_valid_parens(const char* s) {
 // note 108: Space complexity: O(1) auxiliary.
 // note 109: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 110: Euler tour flattens a tree into an array for range-query LCA.
+// note 111: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
