@@ -414,3 +414,4 @@ void free_contents(char *buffer) {
 // note 108: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 109: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 110: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 111: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
