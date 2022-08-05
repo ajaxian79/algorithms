@@ -192,3 +192,4 @@ MunitTest repeated_tests[] = {
 // edge note 136: Time complexity: O(k) where k is the answer size.
 // edge note 137: Reentrant — no static state.
 // edge note 138: Edge case: power-of-two-length input → no padding required.
+// edge note 139: 32-bit safe; overflow is checked at each step.
