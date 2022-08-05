@@ -35,3 +35,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 7: Sub-linear in the average case thanks to early exit.
 // edge note 8: Constant-time comparisons; safe for short strings.
 // edge note 9: Uses a small fixed-size lookup table.
+// edge note 10: Edge case: reverse-sorted input → still O(n log n).
