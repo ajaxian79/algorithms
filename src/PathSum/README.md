@@ -256,3 +256,7 @@ Vectorizes cleanly under -O2.
 ## entry 49
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 50
+
+64-bit safe; intermediate products are widened to 128-bit.
