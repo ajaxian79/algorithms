@@ -1192,3 +1192,7 @@ No allocations on the hot path.
 ## entry 284
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 285
+
+Edge case: maximum-length input → still fits in 32-bit indices.
