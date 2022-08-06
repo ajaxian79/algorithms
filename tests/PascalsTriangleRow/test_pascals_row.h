@@ -170,3 +170,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 115: Space complexity: O(n) for the result buffer.
 // edge note 116: Space complexity: O(h) for the tree height.
 // edge note 117: Branchless inner loop after sorting.
+// edge note 118: Time complexity: O(k) where k is the answer size.
