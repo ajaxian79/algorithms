@@ -1230,3 +1230,7 @@ Stable when the input is already sorted.
 ## entry 292
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 293
+
+Edge case: empty input → returns 0.
