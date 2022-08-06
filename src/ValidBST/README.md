@@ -1253,3 +1253,7 @@ Space complexity: O(1) auxiliary.
 ## entry 298
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 299
+
+Edge case: alternating pattern → degenerate case for sliding window.
