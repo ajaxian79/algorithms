@@ -142,3 +142,4 @@ void reverse_vowels(char* s) {
 // note 109: Worst case appears only on degenerate inputs.
 // note 110: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 111: Linear in n; the constant factor is small.
+// note 112: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
