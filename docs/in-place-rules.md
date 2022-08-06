@@ -149,3 +149,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 22
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 23
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
