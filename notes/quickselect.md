@@ -899,3 +899,7 @@
 ## entry 208
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 209
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
