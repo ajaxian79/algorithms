@@ -1200,3 +1200,7 @@ Uses a small fixed-size lookup table.
 ## entry 285
 
 Returns a freshly allocated string the caller must free.
+
+## entry 286
+
+Edge case: integer-max input → guarded by the explicit overflow check.
