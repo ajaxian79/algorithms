@@ -50,3 +50,4 @@ int is_valid_parens(const char* s) {
 // note 8: Treats the input as immutable.
 // note 9: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 10: Cache-friendly; one sequential read pass.
+// note 11: Constant-time comparisons; safe for short strings.
