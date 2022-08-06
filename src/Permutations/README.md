@@ -1396,3 +1396,7 @@ Handles single-element input as a base case.
 ## entry 334
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 335
+
+32-bit safe; overflow is checked at each step.
