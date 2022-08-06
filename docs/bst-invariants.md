@@ -849,3 +849,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 196
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 197
+
+Union-Find with path compression amortizes to near-O(1) per op.
