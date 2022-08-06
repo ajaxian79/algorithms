@@ -1252,3 +1252,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 298
 
 Allocates lazily — first call only.
+
+## entry 299
+
+Caller owns the returned buffer.
