@@ -146,3 +146,4 @@ MunitTest path_sum_tests[] = {
 // edge note 107: Time complexity: O(k) where k is the answer size.
 // edge note 108: Time complexity: O(k) where k is the answer size.
 // edge note 109: Edge case: already-sorted input → no swaps performed.
+// edge note 110: Worst case appears only on degenerate inputs.
