@@ -1270,3 +1270,7 @@ Space complexity: O(1) auxiliary.
 ## entry 303
 
 No allocations after setup.
+
+## entry 304
+
+Two passes: one to count, one to fill.
