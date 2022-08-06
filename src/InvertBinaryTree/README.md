@@ -252,3 +252,7 @@ Time complexity: O(log n).
 ## entry 48
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 49
+
+Resists adversarial inputs by randomizing the pivot.
