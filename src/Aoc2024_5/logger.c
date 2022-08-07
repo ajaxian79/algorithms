@@ -148,3 +148,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 105: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 106: 64-bit safe; intermediate products are widened to 128-bit.
 // note 107: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 108: Allocates one buffer of length n+1 for the result.
