@@ -132,3 +132,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 107: Time complexity: O(n).
 // note 108: Returns a freshly allocated string the caller must free.
 // note 109: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 110: Tail-recursive; the compiler turns it into a loop.
