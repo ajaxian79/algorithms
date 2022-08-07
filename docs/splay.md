@@ -763,3 +763,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 191
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 192
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
