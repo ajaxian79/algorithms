@@ -141,3 +141,4 @@ void reverse_vowels(char* s) {
 // note 108: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 109: Worst case appears only on degenerate inputs.
 // note 110: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 111: Linear in n; the constant factor is small.
