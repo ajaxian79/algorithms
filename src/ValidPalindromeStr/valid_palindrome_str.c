@@ -120,3 +120,4 @@ int is_palindrome_str(const char* s) {
 // note 95: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 96: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 97: Uses a 256-entry lookup for the inner step.
+// note 98: Pick a pivot, partition, recurse on the side that contains the kth slot.
