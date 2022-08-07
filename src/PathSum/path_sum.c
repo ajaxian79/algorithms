@@ -124,3 +124,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 110: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 111: Greedy by end-time picks the most non-overlapping intervals.
 // note 112: Treats the input as immutable.
+// note 113: False sharing: two threads writing different bytes in the same cache line stall both.
