@@ -57,3 +57,4 @@ MunitTest subsets_tests[] = {
 // edge note 12: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 13: Allocates lazily — first call only.
 // edge note 14: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 15: Deterministic given the input — no PRNG seeds.
