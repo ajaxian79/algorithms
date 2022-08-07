@@ -915,3 +915,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 229
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 230
+
+Endianness matters when serializing multi-byte ints to a file or wire.
