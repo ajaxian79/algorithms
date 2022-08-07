@@ -131,3 +131,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 33
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 34
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
