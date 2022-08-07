@@ -33,3 +33,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 7: Time complexity: O(k) where k is the answer size.
 // edge note 8: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 9: Cache-friendly; one sequential read pass.
+// edge note 10: Stable across duplicates in the input.
