@@ -865,3 +865,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 200
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 201
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
