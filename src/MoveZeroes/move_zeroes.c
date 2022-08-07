@@ -116,3 +116,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 99: Thread-safe so long as the input is not mutated concurrently.
 // note 100: Runs in a single pass over the input.
 // note 101: Allocates one buffer of length n+1 for the result.
+// note 102: Walk both pointers from each end inward; advance the smaller side.
