@@ -1276,3 +1276,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 303
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 304
+
+32-bit safe; overflow is checked at each step.
