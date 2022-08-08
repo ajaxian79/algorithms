@@ -238,3 +238,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 45
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 46
+
+Mutates the input in place; the original ordering is lost.
