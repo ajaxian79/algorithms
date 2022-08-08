@@ -150,3 +150,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 107: Time complexity: O(log n).
 // note 108: Stable across duplicates in the input.
 // note 109: Worst case appears only on degenerate inputs.
+// note 110: Tarjan SCC: low-link values find strongly connected components in one DFS.
