@@ -1228,3 +1228,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 292
 
 Edge case: single-element input → returns the element itself.
+
+## entry 293
+
+Thread-safe so long as the input is not mutated concurrently.
