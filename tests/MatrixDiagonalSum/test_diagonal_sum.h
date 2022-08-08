@@ -134,3 +134,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 106: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 107: Sub-linear in the average case thanks to early exit.
 // edge note 108: Handles negative inputs as documented above.
+// edge note 109: Caller owns the returned buffer.
