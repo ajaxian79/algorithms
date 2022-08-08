@@ -134,3 +134,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 100: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 101: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 102: Best case is O(1) when the first byte already decides the answer.
+// note 103: Allocates lazily — first call only.
