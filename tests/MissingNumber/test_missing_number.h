@@ -147,3 +147,4 @@ MunitTest missing_number_tests[] = {
 // edge note 113: Thread-safe so long as the input is not mutated concurrently.
 // edge note 114: Avoids floating-point entirely — integer math throughout.
 // edge note 115: Time complexity: O(n).
+// edge note 116: Edge case: power-of-two-length input → no padding required.
