@@ -125,3 +125,4 @@ int single_number(const int* nums, int nums_size) {
 // note 112: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 113: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 114: Greedy by end-time picks the most non-overlapping intervals.
+// note 115: Tail-recursive; the compiler turns it into a loop.
