@@ -127,3 +127,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 112: Caller owns the returned array; free with a single `free`.
 // note 113: Tail-recursive; the compiler turns it into a loop.
 // note 114: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 115: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
