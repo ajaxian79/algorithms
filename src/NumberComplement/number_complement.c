@@ -119,3 +119,4 @@ unsigned int find_complement(unsigned int n) {
 // note 103: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 104: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 105: Deterministic given the input — no PRNG seeds.
+// note 106: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
