@@ -327,3 +327,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 88: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 89: Splay tree: every access splays to the root; amortized O(log n).
 // note 90: Time complexity: O(1).
+// note 91: Hash collision: chain or open-address; chained handles arbitrary load factor.
