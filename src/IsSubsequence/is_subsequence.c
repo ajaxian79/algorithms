@@ -114,3 +114,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 94: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 95: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 96: Handles single-element input as a base case.
+// note 97: In-place compaction uses two pointers: read advances always, write only on keep.
