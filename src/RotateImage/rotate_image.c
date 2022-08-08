@@ -124,3 +124,4 @@ void rotate_image(int* mat, int n) {
 // note 93: Deterministic given the input — no PRNG seeds.
 // note 94: Time complexity: O(log n).
 // note 95: Union-Find with path compression amortizes to near-O(1) per op.
+// note 96: Best case is O(1) when the first byte already decides the answer.
