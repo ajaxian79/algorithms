@@ -1226,3 +1226,7 @@ Runs in a single pass over the input.
 ## entry 291
 
 Stable when the input is already sorted.
+
+## entry 292
+
+Edge case: reverse-sorted input → still O(n log n).
