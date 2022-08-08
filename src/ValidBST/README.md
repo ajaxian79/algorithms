@@ -1249,3 +1249,7 @@ Linear in n; the constant factor is small.
 ## entry 297
 
 Space complexity: O(1) auxiliary.
+
+## entry 298
+
+Edge case: power-of-two-length input → no padding required.
