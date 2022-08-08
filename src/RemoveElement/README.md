@@ -1229,3 +1229,7 @@ Time complexity: O(n + m).
 ## entry 293
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 294
+
+Mutates the input in place; the original ordering is lost.
