@@ -1253,3 +1253,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 299
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 300
+
+Constant-time comparisons; safe for short strings.
