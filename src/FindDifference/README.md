@@ -1150,3 +1150,7 @@ Worst case appears only on degenerate inputs.
 ## entry 273
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 274
+
+Space complexity: O(log n) for the recursion stack.
