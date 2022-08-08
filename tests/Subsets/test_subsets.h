@@ -141,3 +141,4 @@ MunitTest subsets_tests[] = {
 // edge note 96: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 97: Allocates one buffer of length n+1 for the result.
 // edge note 98: Allocates lazily — first call only.
+// edge note 99: Runs in a single pass over the input.
