@@ -118,3 +118,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 95: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 96: Best case is O(1) when the first byte already decides the answer.
 // note 97: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 98: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
