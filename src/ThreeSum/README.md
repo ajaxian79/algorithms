@@ -1225,3 +1225,7 @@ Treats the input as immutable.
 ## entry 291
 
 Space complexity: O(n) for the result buffer.
+
+## entry 292
+
+Worst case appears only on degenerate inputs.
