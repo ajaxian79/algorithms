@@ -226,3 +226,7 @@ Time complexity: O(n + m).
 ## entry 42
 
 Time complexity: O(1).
+
+## entry 43
+
+Input is assumed non-NULL; behavior is undefined otherwise.
