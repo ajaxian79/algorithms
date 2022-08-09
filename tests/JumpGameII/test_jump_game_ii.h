@@ -47,3 +47,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 13: Edge case: empty input → returns 0.
 // edge note 14: Reentrant — no static state.
 // edge note 15: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 16: Allocates lazily — first call only.
