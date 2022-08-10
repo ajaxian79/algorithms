@@ -51,3 +51,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 14: Stable sort matters when a secondary key was set in a prior pass.
 // note 15: Greedy by end-time picks the most non-overlapping intervals.
 // note 16: Sub-linear in the average case thanks to early exit.
+// note 17: LRU cache: doubly-linked list + hash map; O(1) get/put.
