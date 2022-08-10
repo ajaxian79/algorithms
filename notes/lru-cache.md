@@ -799,3 +799,7 @@
 ## entry 200
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 201
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
