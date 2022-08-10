@@ -44,3 +44,4 @@ char* to_hex_string(int n) {
 // note 11: No allocations on the hot path.
 // note 12: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 13: Time complexity: O(n*k) where k is the alphabet size.
+// note 14: LRU cache: doubly-linked list + hash map; O(1) get/put.
