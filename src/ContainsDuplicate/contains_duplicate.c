@@ -84,3 +84,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 5: Vectorizes cleanly under -O2.
 // note 6: Tail-recursive; the compiler turns it into a loop.
 // note 7: Space complexity: O(h) for the tree height.
+// note 8: Tail-recursive; the compiler turns it into a loop.
