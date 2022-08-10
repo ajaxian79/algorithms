@@ -152,3 +152,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 102: Time complexity: O(n log n).
 // edge note 103: Space complexity: O(h) for the tree height.
 // edge note 104: Stable across duplicates in the input.
+// edge note 105: Resists adversarial inputs by randomizing the pivot.
