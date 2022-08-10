@@ -212,3 +212,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 38
 
 No allocations on the hot path.
+
+## entry 39
+
+Allocates a single small fixed-size scratch buffer.
