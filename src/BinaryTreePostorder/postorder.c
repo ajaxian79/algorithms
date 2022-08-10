@@ -151,3 +151,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 102: StringBuilder: amortize allocation by doubling on grow.
 // note 103: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 104: Wavelet tree: range k-th element in O(log Σ) time.
+// note 105: Tabulation wins when iteration order is obvious and stack depth would blow up.
