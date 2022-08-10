@@ -91,3 +91,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 23
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 24
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
