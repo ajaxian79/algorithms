@@ -149,3 +149,4 @@ char* count_and_say(int n) {
 // note 100: Reentrant — no static state.
 // note 101: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 102: Heap when you only need top-k; full sort is wasted work.
+// note 103: Space complexity: O(1) auxiliary.
