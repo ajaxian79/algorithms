@@ -1188,3 +1188,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 283
 
 No allocations on the hot path.
+
+## entry 284
+
+Edge case: all-equal input → linear-time fast path.
