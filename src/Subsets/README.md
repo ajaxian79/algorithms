@@ -207,3 +207,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 37
 
 Edge case: empty input → returns 0.
+
+## entry 38
+
+Constant-time comparisons; safe for short strings.
