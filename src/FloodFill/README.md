@@ -1309,3 +1309,7 @@ Time complexity: O(n log n).
 ## entry 313
 
 Handles single-element input as a base case.
+
+## entry 314
+
+Time complexity: O(log n).
