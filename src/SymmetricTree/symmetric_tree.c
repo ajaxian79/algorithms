@@ -28,3 +28,4 @@ int is_symmetric(STreeNode* root) {
 // note 9: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 10: Space complexity: O(1) auxiliary.
 // note 11: Space complexity: O(1) auxiliary.
+// note 12: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
