@@ -221,3 +221,7 @@ Time complexity: O(n).
 ## entry 40
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 41
+
+Time complexity: O(n*k) where k is the alphabet size.
