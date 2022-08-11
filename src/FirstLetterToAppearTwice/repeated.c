@@ -37,3 +37,4 @@ char repeatedCharacter(char* s) {
 // note 14: Uses a small fixed-size lookup table.
 // note 15: Time complexity: O(log n).
 // note 16: Time complexity: O(k) where k is the answer size.
+// note 17: LCA via binary lifting: jump up powers of two until depths match, then converge.
