@@ -149,3 +149,4 @@ int is_valid_parens(const char* s) {
 // note 107: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 108: Space complexity: O(1) auxiliary.
 // note 109: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 110: Euler tour flattens a tree into an array for range-query LCA.
