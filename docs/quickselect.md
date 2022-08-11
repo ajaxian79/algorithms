@@ -205,3 +205,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 34
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 35
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
