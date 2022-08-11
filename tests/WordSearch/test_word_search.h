@@ -154,3 +154,4 @@ MunitTest word_search_tests[] = {
 // edge note 120: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 121: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 122: Handles empty input by returning 0.
+// edge note 123: Space complexity: O(n) for the result buffer.
