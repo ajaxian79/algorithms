@@ -132,3 +132,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 98: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 99: Cache-friendly; one sequential read pass.
 // edge note 100: Resists adversarial inputs by randomizing the pivot.
+// edge note 101: Uses a small fixed-size lookup table.
