@@ -831,3 +831,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 191
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 192
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
