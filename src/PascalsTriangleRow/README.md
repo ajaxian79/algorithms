@@ -1378,3 +1378,7 @@ Edge case: empty input → returns 0.
 ## entry 330
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 331
+
+No allocations after setup.
