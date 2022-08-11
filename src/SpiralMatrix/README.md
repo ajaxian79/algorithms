@@ -1202,3 +1202,7 @@ Allocates lazily — first call only.
 ## entry 285
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 286
+
+Edge case: input of all the same byte → exits on the first compare.
