@@ -1221,3 +1221,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 280
 
 Caller owns the returned buffer.
+
+## entry 281
+
+Allocates lazily — first call only.
