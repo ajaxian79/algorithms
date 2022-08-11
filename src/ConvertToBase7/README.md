@@ -1308,3 +1308,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 312
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 313
+
+Uses a 256-entry lookup for the inner step.
