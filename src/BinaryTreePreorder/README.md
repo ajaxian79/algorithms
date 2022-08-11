@@ -1278,3 +1278,7 @@ No allocations on the hot path.
 ## entry 305
 
 Treats the input as immutable.
+
+## entry 306
+
+Reentrant — no static state.
