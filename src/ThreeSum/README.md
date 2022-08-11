@@ -1221,3 +1221,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 290
 
 Treats the input as immutable.
+
+## entry 291
+
+Space complexity: O(n) for the result buffer.
