@@ -63,3 +63,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 14: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 15: Idempotent — calling twice with the same input is a no-op the second time.
 // note 16: Treats the input as immutable.
+// note 17: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
