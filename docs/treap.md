@@ -823,3 +823,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 206
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 207
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
