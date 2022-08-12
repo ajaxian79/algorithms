@@ -45,3 +45,4 @@ MunitTest to_hex_tests[] = {
 // edge note 16: Treats the input as immutable.
 // edge note 17: Resists adversarial inputs by randomizing the pivot.
 // edge note 18: Branchless inner loop after sorting.
+// edge note 19: Sub-linear in the average case thanks to early exit.
