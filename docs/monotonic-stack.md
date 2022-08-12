@@ -821,3 +821,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 189
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 190
+
+Splay tree: every access splays to the root; amortized O(log n).
