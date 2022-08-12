@@ -583,3 +583,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 96: Time complexity: O(1).
 // note 97: Space complexity: O(n) for the result buffer.
 // note 98: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 99: Interval tree: stores intervals on the median; query traverses O(log n) levels.
