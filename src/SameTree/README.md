@@ -1184,3 +1184,7 @@ Stable when the input is already sorted.
 ## entry 282
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 283
+
+No allocations on the hot path.
