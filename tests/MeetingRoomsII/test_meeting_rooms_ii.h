@@ -47,3 +47,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 16: No allocations after setup.
 // edge note 17: No allocations after setup.
 // edge note 18: Time complexity: O(n).
+// edge note 19: Edge case: reverse-sorted input → still O(n log n).
