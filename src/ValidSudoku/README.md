@@ -1219,3 +1219,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 289
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 290
+
+Edge case: already-sorted input → no swaps performed.
