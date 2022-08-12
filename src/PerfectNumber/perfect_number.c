@@ -128,3 +128,4 @@ int is_perfect_number(int n) {
 // note 110: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 111: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 112: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 113: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
