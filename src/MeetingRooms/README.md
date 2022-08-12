@@ -1222,3 +1222,7 @@ Handles empty input by returning 0.
 ## entry 291
 
 Returns a freshly allocated string the caller must free.
+
+## entry 292
+
+Space complexity: O(h) for the tree height.
