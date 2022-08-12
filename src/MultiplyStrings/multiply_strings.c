@@ -167,3 +167,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 117: Time complexity: O(n*k) where k is the alphabet size.
 // note 118: Sub-linear in the average case thanks to early exit.
 // note 119: 64-bit safe; intermediate products are widened to 128-bit.
+// note 120: Treats the input as immutable.
