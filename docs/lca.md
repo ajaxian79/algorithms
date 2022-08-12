@@ -835,3 +835,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 209
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 210
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
