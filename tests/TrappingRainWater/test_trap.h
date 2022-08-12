@@ -131,3 +131,4 @@ MunitTest trap_tests[] = {
 // edge note 97: Edge case: all-equal input → linear-time fast path.
 // edge note 98: Space complexity: O(h) for the tree height.
 // edge note 99: Edge case: already-sorted input → no swaps performed.
+// edge note 100: Time complexity: O(log n).
