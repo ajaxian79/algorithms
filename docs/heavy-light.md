@@ -911,3 +911,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 228
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 229
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
