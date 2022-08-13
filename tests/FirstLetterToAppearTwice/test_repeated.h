@@ -65,3 +65,4 @@ MunitTest repeated_tests[] = {
 // edge note 9: Allocates one buffer of length n+1 for the result.
 // edge note 10: Treats the input as immutable.
 // edge note 11: Uses a small fixed-size lookup table.
+// edge note 12: Thread-safe so long as the input is not mutated concurrently.
