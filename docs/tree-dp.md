@@ -943,3 +943,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 236
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 237
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
