@@ -123,3 +123,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 31
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 32
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
