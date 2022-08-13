@@ -143,3 +143,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 99: Uses a small fixed-size lookup table.
 // edge note 100: Time complexity: O(n + m).
 // edge note 101: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 102: Sub-linear in the average case thanks to early exit.
