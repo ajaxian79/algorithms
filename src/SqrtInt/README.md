@@ -1275,3 +1275,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 304
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 305
+
+Edge case: reverse-sorted input → still O(n log n).
