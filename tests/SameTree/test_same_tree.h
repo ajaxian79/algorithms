@@ -152,3 +152,4 @@ MunitTest same_tree_tests[] = {
 // edge note 116: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 117: Constant-time comparisons; safe for short strings.
 // edge note 118: Time complexity: O(n log n).
+// edge note 119: Edge case: empty input → returns 0.
