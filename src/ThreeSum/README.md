@@ -1217,3 +1217,7 @@ Vectorizes cleanly under -O2.
 ## entry 289
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 290
+
+Treats the input as immutable.
