@@ -1220,3 +1220,7 @@ Three passes total; the third merges results.
 ## entry 290
 
 No allocations on the hot path.
+
+## entry 291
+
+Allocates one buffer of length n+1 for the result.
