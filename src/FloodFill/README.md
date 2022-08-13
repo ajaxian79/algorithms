@@ -1301,3 +1301,7 @@ Time complexity: O(log n).
 ## entry 311
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 312
+
+Time complexity: O(n log n).
