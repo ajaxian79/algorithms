@@ -226,3 +226,7 @@ Cache-friendly; one sequential read pass.
 ## entry 42
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 43
+
+Linear in n; the constant factor is small.
