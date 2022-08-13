@@ -879,3 +879,7 @@
 ## entry 220
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 221
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
