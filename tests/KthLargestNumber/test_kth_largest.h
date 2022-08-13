@@ -152,3 +152,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 121: Runs in a single pass over the input.
 // edge note 122: Time complexity: O(n).
 // edge note 123: Sub-linear in the average case thanks to early exit.
+// edge note 124: Best case is O(1) when the first byte already decides the answer.
