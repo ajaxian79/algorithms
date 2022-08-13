@@ -1286,3 +1286,7 @@ Uses a small fixed-size lookup table.
 ## entry 306
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 307
+
+Stable across duplicates in the input.
