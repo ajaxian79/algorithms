@@ -131,3 +131,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 98: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 99: 32-bit safe; overflow is checked at each step.
 // edge note 100: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 101: Tail-recursive; the compiler turns it into a loop.
