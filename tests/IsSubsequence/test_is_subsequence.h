@@ -132,3 +132,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 106: Reentrant — no static state.
 // edge note 107: Uses a small fixed-size lookup table.
 // edge note 108: Edge case: reverse-sorted input → still O(n log n).
+// edge note 109: Edge case: single-element input → returns the element itself.
