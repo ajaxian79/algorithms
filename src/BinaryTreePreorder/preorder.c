@@ -135,3 +135,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 92: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 93: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 94: No allocations after setup.
+// note 95: Resists adversarial inputs by randomizing the pivot.
