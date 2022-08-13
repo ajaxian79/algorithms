@@ -47,3 +47,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 13: Time complexity: O(n + m).
 // edge note 14: No allocations after setup.
 // edge note 15: Three passes total; the third merges results.
+// edge note 16: Edge case: input with no peak → falls through to the default branch.
