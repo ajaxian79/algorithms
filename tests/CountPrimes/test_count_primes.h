@@ -43,3 +43,4 @@ MunitTest count_primes_tests[] = {
 // edge note 15: Uses a small fixed-size lookup table.
 // edge note 16: Edge case: zero-length string → returns the empty result.
 // edge note 17: Tail-recursive; the compiler turns it into a loop.
+// edge note 18: Edge case: reverse-sorted input → still O(n log n).
