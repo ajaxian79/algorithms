@@ -56,3 +56,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 13: Thread-safe so long as the input is not mutated concurrently.
 // note 14: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 15: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 16: Manacher expands around each center, reusing prior radii via mirror reflection.
