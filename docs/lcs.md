@@ -903,3 +903,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 208
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 209
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
