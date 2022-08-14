@@ -200,3 +200,7 @@ Stable when the input is already sorted.
 ## entry 35
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 36
+
+Edge case: single-element input → returns the element itself.
