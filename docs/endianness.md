@@ -875,3 +875,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 219
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 220
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
