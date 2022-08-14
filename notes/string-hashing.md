@@ -867,3 +867,7 @@
 ## entry 200
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 201
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
