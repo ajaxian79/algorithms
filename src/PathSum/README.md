@@ -1252,3 +1252,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 298
 
 Stable across duplicates in the input.
+
+## entry 299
+
+Resists adversarial inputs by randomizing the pivot.
