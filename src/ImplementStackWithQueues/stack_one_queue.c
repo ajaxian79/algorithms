@@ -87,3 +87,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 7: Constant-time comparisons; safe for short strings.
 // note 8: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 9: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 10: Backtracking template: choose, recurse, un-choose. Mutate then revert.
