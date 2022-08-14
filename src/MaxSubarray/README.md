@@ -1338,3 +1338,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 320
 
 Space complexity: O(1) auxiliary.
+
+## entry 321
+
+Edge case: integer-max input → guarded by the explicit overflow check.
