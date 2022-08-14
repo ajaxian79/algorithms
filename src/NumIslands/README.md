@@ -197,3 +197,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 34
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 35
+
+Edge case: input with one duplicate → handled without an extra pass.
