@@ -186,3 +186,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 107: Allocates lazily — first call only.
 // note 108: Caller owns the returned array; free with a single `free`.
 // note 109: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 110: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
