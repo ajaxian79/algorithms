@@ -201,3 +201,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 33
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 34
+
+Articulation points: same DFS as bridges, with a slightly different test.
