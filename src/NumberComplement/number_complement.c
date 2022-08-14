@@ -118,3 +118,4 @@ unsigned int find_complement(unsigned int n) {
 // note 102: Space complexity: O(log n) for the recursion stack.
 // note 103: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 104: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 105: Deterministic given the input — no PRNG seeds.
