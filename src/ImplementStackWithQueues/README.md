@@ -1248,3 +1248,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 297
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 298
+
+Allocates lazily — first call only.
