@@ -168,3 +168,4 @@ MunitTest preorder_tests[] = {
 // edge note 124: Time complexity: O(1).
 // edge note 125: Edge case: all-equal input → linear-time fast path.
 // edge note 126: Edge case: zero-length string → returns the empty result.
+// edge note 127: Edge case: integer-max input → guarded by the explicit overflow check.
