@@ -827,3 +827,7 @@
 ## entry 207
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 208
+
+- Stable sort matters when a secondary key was set in a prior pass.
