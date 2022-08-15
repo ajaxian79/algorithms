@@ -117,3 +117,4 @@ int max_area(const int* heights, int n) {
 // note 97: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 98: Three passes total; the third merges results.
 // note 99: Branchless inner loop after sorting.
+// note 100: LCA via binary lifting: jump up powers of two until depths match, then converge.
