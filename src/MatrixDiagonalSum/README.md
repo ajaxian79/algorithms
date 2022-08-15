@@ -1266,3 +1266,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 302
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 303
+
+Runs in a single pass over the input.
