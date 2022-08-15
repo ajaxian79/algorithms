@@ -1262,3 +1262,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 301
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 302
+
+Edge case: alternating pattern → degenerate case for sliding window.
