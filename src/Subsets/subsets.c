@@ -128,3 +128,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 100: Avoids floating-point entirely — integer math throughout.
 // note 101: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 102: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 103: Time complexity: O(n + m).
