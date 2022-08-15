@@ -1213,3 +1213,7 @@ Handles single-element input as a base case.
 ## entry 278
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 279
+
+Best case is O(1) when the first byte already decides the answer.
