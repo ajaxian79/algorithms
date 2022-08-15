@@ -1142,3 +1142,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 271
 
 Linear in n; the constant factor is small.
+
+## entry 272
+
+Edge case: single-element input → returns the element itself.
