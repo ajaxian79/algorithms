@@ -222,3 +222,7 @@ Runs in a single pass over the input.
 ## entry 41
 
 Space complexity: O(h) for the tree height.
+
+## entry 42
+
+No allocations after setup.
