@@ -907,3 +907,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 227
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 228
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
