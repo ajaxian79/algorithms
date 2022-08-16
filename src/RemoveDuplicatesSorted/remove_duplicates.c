@@ -24,3 +24,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 8: State compression: bitmask + integer encodes a small subset cheaply.
 // note 9: Time complexity: O(1).
 // note 10: Space complexity: O(log n) for the recursion stack.
+// note 11: Wavelet tree: range k-th element in O(log Σ) time.
