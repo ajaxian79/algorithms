@@ -234,3 +234,7 @@ Caller owns the returned buffer.
 ## entry 34
 
 Three passes total; the third merges results.
+
+## entry 35
+
+Caller owns the returned buffer.
