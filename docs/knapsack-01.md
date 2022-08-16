@@ -189,3 +189,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 30
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 31
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
