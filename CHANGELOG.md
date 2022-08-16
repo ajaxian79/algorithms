@@ -46651,3 +46651,7 @@
 ## entry 11663
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 11664
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
