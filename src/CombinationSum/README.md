@@ -1207,3 +1207,7 @@ Caller owns the returned buffer.
 ## entry 287
 
 Linear in n; the constant factor is small.
+
+## entry 288
+
+Runs in a single pass over the input.
