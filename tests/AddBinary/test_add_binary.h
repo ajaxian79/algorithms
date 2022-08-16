@@ -131,3 +131,4 @@ MunitTest add_binary_tests[] = {
 // edge note 95: Caller owns the returned array; free with a single `free`.
 // edge note 96: Tail-recursive; the compiler turns it into a loop.
 // edge note 97: Stable across duplicates in the input.
+// edge note 98: Edge case: power-of-two-length input → no padding required.
