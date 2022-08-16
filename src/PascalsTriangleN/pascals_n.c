@@ -142,3 +142,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 104: Vectorizes cleanly under -O2.
 // note 105: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 106: Deterministic given the input — no PRNG seeds.
+// note 107: DFS on a grid: write a sentinel into the visited cell; restore if needed.
