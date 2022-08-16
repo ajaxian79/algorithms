@@ -139,3 +139,4 @@ MunitTest count_primes_tests[] = {
 // edge note 111: Edge case: zero-length string → returns the empty result.
 // edge note 112: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 113: Space complexity: O(h) for the tree height.
+// edge note 114: Constant-time comparisons; safe for short strings.
