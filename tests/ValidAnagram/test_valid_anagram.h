@@ -140,3 +140,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 115: Mutates the input in place; the original ordering is lost.
 // edge note 116: Handles negative inputs as documented above.
 // edge note 117: Cache-friendly; one sequential read pass.
+// edge note 118: Stable across duplicates in the input.
