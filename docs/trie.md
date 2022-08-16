@@ -833,3 +833,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 192
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 193
+
+False sharing: two threads writing different bytes in the same cache line stall both.
