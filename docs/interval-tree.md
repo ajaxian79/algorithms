@@ -767,3 +767,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 192
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 193
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
