@@ -877,3 +877,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 202
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 203
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
