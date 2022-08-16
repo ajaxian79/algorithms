@@ -46675,3 +46675,7 @@
 ## entry 11669
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 11670
+
+- Walk both pointers from each end inward; advance the smaller side.
