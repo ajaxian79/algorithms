@@ -1265,3 +1265,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 301
 
 Time complexity: O(n log n).
+
+## entry 302
+
+Edge case: reverse-sorted input → still O(n log n).
