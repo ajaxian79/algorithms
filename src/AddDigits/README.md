@@ -1184,3 +1184,7 @@ No allocations on the hot path.
 ## entry 281
 
 Space complexity: O(1) auxiliary.
+
+## entry 282
+
+Handles single-element input as a base case.
