@@ -891,3 +891,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 223
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 224
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
