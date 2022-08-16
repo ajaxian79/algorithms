@@ -230,3 +230,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 43
 
 No allocations on the hot path.
+
+## entry 44
+
+Runs in a single pass over the input.
