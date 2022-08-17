@@ -889,3 +889,7 @@
 ## entry 205
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 206
+
+- State compression: bitmask + integer encodes a small subset cheaply.
