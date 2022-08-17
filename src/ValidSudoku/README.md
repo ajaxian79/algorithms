@@ -1215,3 +1215,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 288
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 289
+
+Edge case: input with one duplicate → handled without an extra pass.
