@@ -103,3 +103,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 26
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 27
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
