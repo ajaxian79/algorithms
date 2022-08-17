@@ -147,3 +147,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 104: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 105: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 106: 64-bit safe; intermediate products are widened to 128-bit.
+// note 107: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
