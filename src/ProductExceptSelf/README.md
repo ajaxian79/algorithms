@@ -1256,3 +1256,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 298
 
 Vectorizes cleanly under -O2.
+
+## entry 299
+
+Time complexity: O(1).
