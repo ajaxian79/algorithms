@@ -234,3 +234,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 44
 
 Returns a freshly allocated string the caller must free.
+
+## entry 45
+
+Edge case: integer-max input → guarded by the explicit overflow check.
