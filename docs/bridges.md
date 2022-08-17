@@ -903,3 +903,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 226
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 227
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
