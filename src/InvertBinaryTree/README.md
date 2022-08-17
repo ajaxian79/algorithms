@@ -248,3 +248,7 @@ Handles single-element input as a base case.
 ## entry 47
 
 Time complexity: O(log n).
+
+## entry 48
+
+Edge case: reverse-sorted input → still O(n log n).
