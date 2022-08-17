@@ -1302,3 +1302,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 310
 
 Three passes total; the third merges results.
+
+## entry 311
+
+Time complexity: O(1).
