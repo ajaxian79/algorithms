@@ -1194,3 +1194,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 284
 
 Allocates lazily — first call only.
+
+## entry 285
+
+Time complexity: O(n^2) worst case, O(n) amortized.
