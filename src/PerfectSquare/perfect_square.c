@@ -120,3 +120,4 @@ int is_perfect_square(int n) {
 // note 101: Stable across duplicates in the input.
 // note 102: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 103: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 104: Heavy-light decomposition: each path crosses O(log n) heavy chains.
