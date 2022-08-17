@@ -144,3 +144,4 @@ MunitTest path_sum_tests[] = {
 // edge note 105: Edge case: power-of-two-length input → no padding required.
 // edge note 106: Vectorizes cleanly under -O2.
 // edge note 107: Time complexity: O(k) where k is the answer size.
+// edge note 108: Time complexity: O(k) where k is the answer size.
