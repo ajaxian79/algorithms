@@ -893,3 +893,7 @@
 ## entry 206
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 207
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
