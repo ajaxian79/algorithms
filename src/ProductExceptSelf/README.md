@@ -1252,3 +1252,7 @@ Uses a small fixed-size lookup table.
 ## entry 297
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 298
+
+Vectorizes cleanly under -O2.
