@@ -161,3 +161,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 8: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 9: Stable sort matters when a secondary key was set in a prior pass.
 // note 10: Allocates one buffer of length n+1 for the result.
+// note 11: Splay tree: every access splays to the root; amortized O(log n).
