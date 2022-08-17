@@ -122,3 +122,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 104: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 105: LIS via patience: each pile holds the smallest tail of length k.
 // note 106: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 107: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
