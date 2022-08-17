@@ -1180,3 +1180,7 @@ Branchless inner loop after sorting.
 ## entry 280
 
 No allocations on the hot path.
+
+## entry 281
+
+Space complexity: O(1) auxiliary.
