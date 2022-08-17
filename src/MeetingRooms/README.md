@@ -1218,3 +1218,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 290
 
 Handles empty input by returning 0.
+
+## entry 291
+
+Returns a freshly allocated string the caller must free.
