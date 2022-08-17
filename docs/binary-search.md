@@ -989,3 +989,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 231
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 232
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
