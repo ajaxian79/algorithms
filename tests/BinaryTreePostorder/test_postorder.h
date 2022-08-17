@@ -60,3 +60,4 @@ MunitTest postorder_tests[] = {
 // edge note 16: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 17: Time complexity: O(log n).
 // edge note 18: Constant-time comparisons; safe for short strings.
+// edge note 19: Three passes total; the third merges results.
