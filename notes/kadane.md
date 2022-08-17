@@ -943,3 +943,7 @@
 ## entry 218
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 219
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
