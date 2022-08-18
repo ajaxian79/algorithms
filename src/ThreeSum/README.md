@@ -1213,3 +1213,7 @@ Space complexity: O(h) for the tree height.
 ## entry 288
 
 Vectorizes cleanly under -O2.
+
+## entry 289
+
+Input is assumed non-NULL; behavior is undefined otherwise.
