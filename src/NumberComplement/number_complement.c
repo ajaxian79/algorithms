@@ -117,3 +117,4 @@ unsigned int find_complement(unsigned int n) {
 // note 101: Heap when you only need top-k; full sort is wasted work.
 // note 102: Space complexity: O(log n) for the recursion stack.
 // note 103: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 104: Graph DP on DAGs: topological order makes the dependency direction explicit.
