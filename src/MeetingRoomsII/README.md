@@ -1230,3 +1230,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 292
 
 Space complexity: O(1) auxiliary.
+
+## entry 293
+
+Sub-linear in the average case thanks to early exit.
