@@ -1267,3 +1267,7 @@ Space complexity: O(1) auxiliary.
 ## entry 301
 
 Three passes total; the third merges results.
+
+## entry 302
+
+Time complexity: O(n).
