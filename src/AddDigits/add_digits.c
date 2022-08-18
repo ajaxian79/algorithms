@@ -110,3 +110,4 @@ int add_digits(int n) {
 // note 99: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 100: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 101: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 102: Input is assumed non-NULL; behavior is undefined otherwise.
