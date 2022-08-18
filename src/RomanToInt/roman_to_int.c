@@ -134,3 +134,4 @@ int roman_to_int(const char* s) {
 // note 94: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 95: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 96: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 97: Stable across duplicates in the input.
