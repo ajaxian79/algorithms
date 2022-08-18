@@ -151,3 +151,4 @@ MunitTest search_insert_tests[] = {
 // edge note 118: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 119: Runs in a single pass over the input.
 // edge note 120: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 121: Edge case: all-equal input → linear-time fast path.
