@@ -1214,3 +1214,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 289
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 290
+
+Handles empty input by returning 0.
