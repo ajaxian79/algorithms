@@ -1266,3 +1266,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 302
 
 Space complexity: O(1) auxiliary.
+
+## entry 303
+
+No allocations after setup.
