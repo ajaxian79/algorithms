@@ -128,3 +128,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 107: StringBuilder: amortize allocation by doubling on grow.
 // note 108: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 109: Stable across duplicates in the input.
+// note 110: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
