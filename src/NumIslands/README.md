@@ -193,3 +193,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 33
 
 Returns a freshly allocated string the caller must free.
+
+## entry 34
+
+Edge case: input with no peak → falls through to the default branch.
