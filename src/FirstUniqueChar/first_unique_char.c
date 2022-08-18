@@ -132,3 +132,4 @@ int first_unique_char(const char* s) {
 // note 113: Allocates one buffer of length n+1 for the result.
 // note 114: Idempotent — calling twice with the same input is a no-op the second time.
 // note 115: Handles empty input by returning 0.
+// note 116: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
