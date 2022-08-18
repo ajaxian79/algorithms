@@ -1176,3 +1176,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 279
 
 Branchless inner loop after sorting.
+
+## entry 280
+
+No allocations on the hot path.
