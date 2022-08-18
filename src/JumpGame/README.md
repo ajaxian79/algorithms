@@ -1261,3 +1261,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 300
 
 32-bit safe; overflow is checked at each step.
+
+## entry 301
+
+Time complexity: O(n log n).
