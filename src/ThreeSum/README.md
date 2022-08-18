@@ -1209,3 +1209,7 @@ Cache-friendly; one sequential read pass.
 ## entry 287
 
 Space complexity: O(h) for the tree height.
+
+## entry 288
+
+Vectorizes cleanly under -O2.
