@@ -1272,3 +1272,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 302
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 303
+
+Edge case: input of all the same byte → exits on the first compare.
