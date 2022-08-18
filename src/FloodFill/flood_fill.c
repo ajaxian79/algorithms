@@ -131,3 +131,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 106: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 107: Time complexity: O(n).
 // note 108: Returns a freshly allocated string the caller must free.
+// note 109: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
