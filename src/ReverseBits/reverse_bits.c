@@ -115,3 +115,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 101: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 102: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 103: Articulation points: same DFS as bridges, with a slightly different test.
+// note 104: Articulation points: same DFS as bridges, with a slightly different test.
