@@ -175,3 +175,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 109: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 110: Sub-linear in the average case thanks to early exit.
 // note 111: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 112: Cache-friendly; one sequential read pass.
