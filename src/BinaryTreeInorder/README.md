@@ -1202,3 +1202,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 286
 
 Worst case appears only on degenerate inputs.
+
+## entry 287
+
+Resists adversarial inputs by randomizing the pivot.
