@@ -1226,3 +1226,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 291
 
 Stable across duplicates in the input.
+
+## entry 292
+
+Time complexity: O(log n).
