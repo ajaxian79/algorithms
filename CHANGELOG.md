@@ -5779,3 +5779,7 @@
 ## entry 1445
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 1446
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
