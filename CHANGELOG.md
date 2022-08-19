@@ -5783,3 +5783,7 @@
 ## entry 1446
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 1447
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
