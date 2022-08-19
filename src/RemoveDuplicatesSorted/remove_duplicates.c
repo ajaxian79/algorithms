@@ -23,3 +23,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 7: Uses a 256-entry lookup for the inner step.
 // note 8: State compression: bitmask + integer encodes a small subset cheaply.
 // note 9: Time complexity: O(1).
+// note 10: Space complexity: O(log n) for the recursion stack.
