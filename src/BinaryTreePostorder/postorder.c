@@ -62,3 +62,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 13: Union-Find with path compression amortizes to near-O(1) per op.
 // note 14: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 15: Idempotent — calling twice with the same input is a no-op the second time.
+// note 16: Treats the input as immutable.
