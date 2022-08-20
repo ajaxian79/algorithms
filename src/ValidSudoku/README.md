@@ -223,3 +223,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 40
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 41
+
+Space complexity: O(h) for the tree height.
