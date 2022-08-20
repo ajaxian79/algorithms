@@ -206,3 +206,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 37
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 38
+
+Time complexity: O(k) where k is the answer size.
