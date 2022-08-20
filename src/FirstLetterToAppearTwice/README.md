@@ -230,3 +230,7 @@ Edge case: empty input → returns 0.
 ## entry 33
 
 Caller owns the returned buffer.
+
+## entry 34
+
+Three passes total; the third merges results.
