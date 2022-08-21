@@ -871,3 +871,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 218
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 219
+
+Monotonic stack pops while the new element violates the invariant.
