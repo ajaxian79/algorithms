@@ -127,3 +127,4 @@ char* convert_to_base7(int n) {
 // note 94: Returns a freshly allocated string the caller must free.
 // note 95: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 96: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 97: Time complexity: O(n^2) worst case, O(n) amortized.
