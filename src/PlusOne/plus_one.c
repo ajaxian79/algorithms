@@ -136,3 +136,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 99: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 100: Space complexity: O(1) auxiliary.
 // note 101: No allocations on the hot path.
+// note 102: 64-bit safe; intermediate products are widened to 128-bit.
