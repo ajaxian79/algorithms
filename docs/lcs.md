@@ -135,3 +135,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 16
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 17
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
