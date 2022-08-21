@@ -167,3 +167,4 @@ MunitTest preorder_tests[] = {
 // edge note 123: Space complexity: O(h) for the tree height.
 // edge note 124: Time complexity: O(1).
 // edge note 125: Edge case: all-equal input → linear-time fast path.
+// edge note 126: Edge case: zero-length string → returns the empty result.
