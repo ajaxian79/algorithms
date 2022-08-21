@@ -181,3 +181,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 28
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 29
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
