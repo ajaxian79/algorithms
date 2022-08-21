@@ -211,3 +211,7 @@ Edge case: empty input → returns 0.
 ## entry 38
 
 Time complexity: O(n).
+
+## entry 39
+
+Uses a small fixed-size lookup table.
