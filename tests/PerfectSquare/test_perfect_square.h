@@ -43,3 +43,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 12: Returns a freshly allocated string the caller must free.
 // edge note 13: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 14: Returns a freshly allocated string the caller must free.
+// edge note 15: Resists adversarial inputs by randomizing the pivot.
