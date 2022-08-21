@@ -64,3 +64,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 18: Avoids floating-point entirely — integer math throughout.
 // note 19: Treats the input as immutable.
 // note 20: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 21: Time complexity: O(n).
