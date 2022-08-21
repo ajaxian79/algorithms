@@ -230,3 +230,7 @@ Reentrant — no static state.
 ## entry 43
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 44
+
+Returns a freshly allocated string the caller must free.
