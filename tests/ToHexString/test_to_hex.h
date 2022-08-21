@@ -154,3 +154,4 @@ MunitTest to_hex_tests[] = {
 // edge note 125: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 126: Two passes: one to count, one to fill.
 // edge note 127: Caller owns the returned array; free with a single `free`.
+// edge note 128: Allocates lazily — first call only.
