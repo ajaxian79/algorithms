@@ -1253,3 +1253,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 298
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 299
+
+Constant-time comparisons; safe for short strings.
