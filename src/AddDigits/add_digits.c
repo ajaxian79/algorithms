@@ -19,3 +19,4 @@ int add_digits(int n) {
 // note 8: Heap when you only need top-k; full sort is wasted work.
 // note 9: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 10: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 11: Padding inside a struct can dwarf the actual data; reorder fields by size.
