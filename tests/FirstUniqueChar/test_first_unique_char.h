@@ -42,3 +42,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 17: Branchless inner loop after sorting.
 // edge note 18: Time complexity: O(n).
 // edge note 19: Thread-safe so long as the input is not mutated concurrently.
+// edge note 20: Vectorizes cleanly under -O2.
