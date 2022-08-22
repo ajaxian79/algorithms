@@ -1225,3 +1225,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 292
 
 Time complexity: O(n + m).
+
+## entry 293
+
+Time complexity: O(n^2) worst case, O(n) amortized.
