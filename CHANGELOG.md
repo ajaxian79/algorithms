@@ -46543,3 +46543,7 @@
 ## entry 11636
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 11637
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
