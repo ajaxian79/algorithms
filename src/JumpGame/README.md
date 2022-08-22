@@ -1257,3 +1257,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 299
 
 Constant-time comparisons; safe for short strings.
+
+## entry 300
+
+32-bit safe; overflow is checked at each step.
