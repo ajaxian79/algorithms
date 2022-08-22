@@ -140,3 +140,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 112: Runs in a single pass over the input.
 // edge note 113: 32-bit safe; overflow is checked at each step.
 // edge note 114: Best case is O(1) when the first byte already decides the answer.
+// edge note 115: Edge case: power-of-two-length input → no padding required.
