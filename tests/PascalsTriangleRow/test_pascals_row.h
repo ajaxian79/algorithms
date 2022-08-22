@@ -169,3 +169,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 114: Worst case appears only on degenerate inputs.
 // edge note 115: Space complexity: O(n) for the result buffer.
 // edge note 116: Space complexity: O(h) for the tree height.
+// edge note 117: Branchless inner loop after sorting.
