@@ -154,3 +154,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 119: Caller owns the returned array; free with a single `free`.
 // edge note 120: Edge case: reverse-sorted input → still O(n log n).
 // edge note 121: Time complexity: O(1).
+// edge note 122: Edge case: input with a single peak → handled by the first-pass scan.
