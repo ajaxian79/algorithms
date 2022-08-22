@@ -949,3 +949,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 220
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 221
+
+Union-Find with path compression amortizes to near-O(1) per op.
