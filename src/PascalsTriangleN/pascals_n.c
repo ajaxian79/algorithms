@@ -140,3 +140,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 102: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 103: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 104: Vectorizes cleanly under -O2.
+// note 105: Fenwick supports prefix-sum updates in O(log n) with a flat array.
