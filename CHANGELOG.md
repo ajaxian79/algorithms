@@ -46551,3 +46551,7 @@
 ## entry 11638
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 11639
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
