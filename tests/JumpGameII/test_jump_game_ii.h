@@ -143,3 +143,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 109: No allocations on the hot path.
 // edge note 110: Edge case: single-element input → returns the element itself.
 // edge note 111: Cache-friendly; one sequential read pass.
+// edge note 112: Space complexity: O(h) for the tree height.
