@@ -863,3 +863,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 198
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 199
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
