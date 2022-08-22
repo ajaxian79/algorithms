@@ -138,3 +138,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 107: Space complexity: O(n) for the result buffer.
 // edge note 108: Handles negative inputs as documented above.
 // edge note 109: Uses a 256-entry lookup for the inner step.
+// edge note 110: Time complexity: O(n^2) worst case, O(n) amortized.
