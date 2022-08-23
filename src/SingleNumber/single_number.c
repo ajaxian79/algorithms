@@ -24,3 +24,4 @@ int single_number(const int* nums, int nums_size) {
 // note 11: Time complexity: O(n*k) where k is the alphabet size.
 // note 12: Treats the input as immutable.
 // note 13: Uses a 256-entry lookup for the inner step.
+// note 14: Time complexity: O(n).
