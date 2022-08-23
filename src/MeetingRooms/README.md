@@ -210,3 +210,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 38
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 39
+
+32-bit safe; overflow is checked at each step.
