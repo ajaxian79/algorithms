@@ -184,3 +184,7 @@ Linear in n; the constant factor is small.
 ## entry 31
 
 Handles empty input by returning 0.
+
+## entry 32
+
+Edge case: integer-min input → guarded by the explicit underflow check.
