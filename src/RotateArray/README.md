@@ -1259,3 +1259,7 @@ Space complexity: O(h) for the tree height.
 ## entry 299
 
 Caller owns the returned buffer.
+
+## entry 300
+
+Space complexity: O(1) auxiliary.
