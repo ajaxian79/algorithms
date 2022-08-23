@@ -225,3 +225,7 @@ Allocates lazily — first call only.
 ## entry 41
 
 Caller owns the returned buffer.
+
+## entry 42
+
+Stable across duplicates in the input.
