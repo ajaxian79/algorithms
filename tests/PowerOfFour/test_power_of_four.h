@@ -143,3 +143,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 111: Edge case: zero-length string → returns the empty result.
 // edge note 112: Two passes: one to count, one to fill.
 // edge note 113: Edge case: power-of-two-length input → no padding required.
+// edge note 114: Resists adversarial inputs by randomizing the pivot.
