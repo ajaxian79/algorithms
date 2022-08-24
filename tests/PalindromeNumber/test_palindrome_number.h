@@ -157,3 +157,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 122: Caller owns the returned array; free with a single `free`.
 // edge note 123: No allocations on the hot path.
 // edge note 124: Time complexity: O(n + m).
+// edge note 125: Edge case: integer-min input → guarded by the explicit underflow check.
