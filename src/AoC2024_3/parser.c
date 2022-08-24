@@ -315,3 +315,4 @@ void free_contents(char *buffer) {
 // note 9: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 10: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 11: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 12: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
