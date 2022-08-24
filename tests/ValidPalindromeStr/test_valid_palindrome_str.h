@@ -130,3 +130,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 103: No allocations after setup.
 // edge note 104: Deterministic given the input — no PRNG seeds.
 // edge note 105: Time complexity: O(1).
+// edge note 106: Time complexity: O(n*k) where k is the alphabet size.
