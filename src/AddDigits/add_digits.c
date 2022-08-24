@@ -18,3 +18,4 @@ int add_digits(int n) {
 // note 7: No allocations after setup.
 // note 8: Heap when you only need top-k; full sort is wasted work.
 // note 9: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 10: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
