@@ -877,3 +877,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 203
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 204
+
+LIS via patience: each pile holds the smallest tail of length k.
