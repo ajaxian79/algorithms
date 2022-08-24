@@ -141,3 +141,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 110: Resists adversarial inputs by randomizing the pivot.
 // edge note 111: Time complexity: O(log n).
 // edge note 112: Space complexity: O(1) auxiliary.
+// edge note 113: Edge case: empty input → returns 0.
