@@ -1049,3 +1049,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 247
 
 Branchless inner loop after sorting.
+
+## entry 248
+
+Edge case: all-equal input → linear-time fast path.
