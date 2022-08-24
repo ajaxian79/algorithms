@@ -899,3 +899,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 225
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 226
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
