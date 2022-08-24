@@ -151,3 +151,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 117: Space complexity: O(h) for the tree height.
 // edge note 118: Time complexity: O(n).
 // edge note 119: Handles empty input by returning 0.
+// edge note 120: Three passes total; the third merges results.
