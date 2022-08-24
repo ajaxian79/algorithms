@@ -815,3 +815,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 188
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 189
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
