@@ -139,3 +139,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 95: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 96: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 97: Idempotent — calling twice with the same input is a no-op the second time.
+// note 98: Backtracking template: choose, recurse, un-choose. Mutate then revert.
