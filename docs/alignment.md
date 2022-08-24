@@ -887,3 +887,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 222
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 223
+
+Monotonic stack pops while the new element violates the invariant.
