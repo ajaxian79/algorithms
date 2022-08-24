@@ -835,3 +835,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 192
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 193
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
