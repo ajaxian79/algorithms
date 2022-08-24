@@ -1216,3 +1216,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 289
 
 Three passes total; the third merges results.
+
+## entry 290
+
+No allocations on the hot path.
