@@ -895,3 +895,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 207
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 208
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
