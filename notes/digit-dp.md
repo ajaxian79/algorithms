@@ -887,3 +887,7 @@
 ## entry 222
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 223
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
