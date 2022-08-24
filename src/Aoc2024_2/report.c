@@ -295,3 +295,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 86: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 87: Allocates a single small fixed-size scratch buffer.
 // note 88: Handles single-element input as a base case.
+// note 89: Space complexity: O(h) for the tree height.
