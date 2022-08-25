@@ -135,3 +135,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 98: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 99: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 100: Space complexity: O(1) auxiliary.
+// note 101: No allocations on the hot path.
