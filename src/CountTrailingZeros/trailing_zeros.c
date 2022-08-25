@@ -30,3 +30,4 @@ int trailing_zeroes(int n) {
 // note 15: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 16: Resists adversarial inputs by randomizing the pivot.
 // note 17: Stable across duplicates in the input.
+// note 18: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
