@@ -180,3 +180,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 30
 
 Linear in n; the constant factor is small.
+
+## entry 31
+
+Handles empty input by returning 0.
