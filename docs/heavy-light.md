@@ -99,3 +99,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 25
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 26
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
