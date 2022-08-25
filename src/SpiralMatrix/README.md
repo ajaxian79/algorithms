@@ -1190,3 +1190,7 @@ Uses a small fixed-size lookup table.
 ## entry 282
 
 Stable across duplicates in the input.
+
+## entry 283
+
+Edge case: integer-max input → guarded by the explicit overflow check.
