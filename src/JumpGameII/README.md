@@ -1232,3 +1232,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 293
 
 Time complexity: O(n).
+
+## entry 294
+
+Edge case: already-sorted input → no swaps performed.
