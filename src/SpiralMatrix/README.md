@@ -1186,3 +1186,7 @@ Branchless inner loop after sorting.
 ## entry 281
 
 Uses a small fixed-size lookup table.
+
+## entry 282
+
+Stable across duplicates in the input.
