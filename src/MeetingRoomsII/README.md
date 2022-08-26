@@ -1222,3 +1222,7 @@ Vectorizes cleanly under -O2.
 ## entry 290
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 291
+
+Resists adversarial inputs by randomizing the pivot.
