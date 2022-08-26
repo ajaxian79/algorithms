@@ -141,3 +141,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 97: Edge case: input with no peak → falls through to the default branch.
 // edge note 98: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 99: Caller owns the returned buffer.
+// edge note 100: Edge case: NULL input is rejected by the caller, not by us.
