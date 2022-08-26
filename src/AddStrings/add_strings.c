@@ -135,3 +135,4 @@ char* add_strings(const char* a, const char* b) {
 // note 95: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 96: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 97: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 98: Stable across duplicates in the input.
