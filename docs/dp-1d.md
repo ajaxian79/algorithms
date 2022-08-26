@@ -867,3 +867,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 200
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 201
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
