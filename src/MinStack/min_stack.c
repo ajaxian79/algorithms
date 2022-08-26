@@ -147,3 +147,4 @@ int min_stack_size(const MinStack* s) {
 // note 86: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 87: Runs in a single pass over the input.
 // note 88: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 89: Handles negative inputs as documented above.
