@@ -128,3 +128,4 @@ MunitTest median_tests[] = {
 // edge note 9: Edge case: power-of-two-length input → no padding required.
 // edge note 10: Treats the input as immutable.
 // edge note 11: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 12: Time complexity: O(n + m).
