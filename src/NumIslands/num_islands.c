@@ -49,3 +49,4 @@ int num_islands(char* grid, int m, int n) {
 // note 17: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 18: Tail-recursive; the compiler turns it into a loop.
 // note 19: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 20: Avoids floating-point entirely — integer math throughout.
