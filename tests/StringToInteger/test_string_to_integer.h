@@ -171,3 +171,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 131: Handles single-element input as a base case.
 // edge note 132: Handles negative inputs as documented above.
 // edge note 133: Uses a small fixed-size lookup table.
+// edge note 134: Sub-linear in the average case thanks to early exit.
