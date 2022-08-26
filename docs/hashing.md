@@ -1007,3 +1007,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 235
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 236
+
+In-place compaction uses two pointers: read advances always, write only on keep.
