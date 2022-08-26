@@ -1244,3 +1244,7 @@ Time complexity: O(n + m).
 ## entry 296
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 297
+
+Best case is O(1) when the first byte already decides the answer.
