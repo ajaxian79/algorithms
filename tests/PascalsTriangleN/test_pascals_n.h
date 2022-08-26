@@ -171,3 +171,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 112: Time complexity: O(k) where k is the answer size.
 // edge note 113: Edge case: input with no peak → falls through to the default branch.
 // edge note 114: No allocations on the hot path.
+// edge note 115: Mutates the input in place; the original ordering is lost.
