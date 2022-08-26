@@ -1220,3 +1220,7 @@ Space complexity: O(h) for the tree height.
 ## entry 289
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 290
+
+Best case is O(1) when the first byte already decides the answer.
