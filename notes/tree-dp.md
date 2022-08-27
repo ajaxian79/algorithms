@@ -63,3 +63,7 @@
 ## entry 16
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 17
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
