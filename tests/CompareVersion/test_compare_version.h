@@ -145,3 +145,4 @@ MunitTest compare_version_tests[] = {
 // edge note 118: No allocations on the hot path.
 // edge note 119: Stable across duplicates in the input.
 // edge note 120: Cache-friendly; one sequential read pass.
+// edge note 121: Linear in n; the constant factor is small.
