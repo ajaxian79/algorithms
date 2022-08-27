@@ -135,3 +135,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 103: No allocations on the hot path.
 // edge note 104: Stable when the input is already sorted.
 // edge note 105: Handles empty input by returning 0.
+// edge note 106: Edge case: already-sorted input → no swaps performed.
