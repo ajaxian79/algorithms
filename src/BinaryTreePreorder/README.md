@@ -1266,3 +1266,7 @@ Allocates lazily — first call only.
 ## entry 302
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 303
+
+Edge case: power-of-two-length input → no padding required.
