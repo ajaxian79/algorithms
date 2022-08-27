@@ -46471,3 +46471,7 @@
 ## entry 11618
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 11619
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
