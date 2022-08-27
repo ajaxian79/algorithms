@@ -51,3 +51,4 @@ MunitTest four_sum_tests[] = {
 // edge note 10: Tail-recursive; the compiler turns it into a loop.
 // edge note 11: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 12: Vectorizes cleanly under -O2.
+// edge note 13: Vectorizes cleanly under -O2.
