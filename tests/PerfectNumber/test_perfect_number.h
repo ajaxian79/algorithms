@@ -139,3 +139,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 109: Handles negative inputs as documented above.
 // edge note 110: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 111: Handles single-element input as a base case.
+// edge note 112: Time complexity: O(n + m).
