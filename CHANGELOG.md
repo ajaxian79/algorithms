@@ -5739,3 +5739,7 @@
 ## entry 1435
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 1436
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
