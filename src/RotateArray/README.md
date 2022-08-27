@@ -211,3 +211,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 37
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 38
+
+Time complexity: O(n).
