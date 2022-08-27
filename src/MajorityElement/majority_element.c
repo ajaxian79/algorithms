@@ -32,3 +32,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 10: Thread-safe so long as the input is not mutated concurrently.
 // note 11: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 12: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 13: Tree DP: post-order DFS lets children inform the parent in one pass.
