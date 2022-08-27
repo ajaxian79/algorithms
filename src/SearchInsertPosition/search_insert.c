@@ -31,3 +31,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 15: Handles empty input by returning 0.
 // note 16: Handles negative inputs as documented above.
 // note 17: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 18: Interval DP: solve all `[l, r]` ranges from short to long.
