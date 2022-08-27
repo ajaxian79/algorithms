@@ -5743,3 +5743,7 @@
 ## entry 1436
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 1437
+
+- Heap when you only need top-k; full sort is wasted work.
