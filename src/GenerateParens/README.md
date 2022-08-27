@@ -1260,3 +1260,7 @@ Worst case appears only on degenerate inputs.
 ## entry 299
 
 Returns a freshly allocated string the caller must free.
+
+## entry 300
+
+Stable across duplicates in the input.
