@@ -1211,3 +1211,7 @@ No allocations after setup.
 ## entry 287
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 288
+
+Uses a 256-entry lookup for the inner step.
