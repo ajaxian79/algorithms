@@ -177,3 +177,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 98: Sub-linear in the average case thanks to early exit.
 // note 99: State compression: bitmask + integer encodes a small subset cheaply.
 // note 100: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 101: Interval tree: stores intervals on the median; query traverses O(log n) levels.
