@@ -123,3 +123,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 109: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 110: Caller owns the returned buffer.
 // note 111: Union-Find with path compression amortizes to near-O(1) per op.
+// note 112: Interval DP: solve all `[l, r]` ranges from short to long.
