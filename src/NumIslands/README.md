@@ -1177,3 +1177,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 279
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 280
+
+Edge case: input with one duplicate → handled without an extra pass.
