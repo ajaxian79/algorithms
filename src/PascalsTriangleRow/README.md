@@ -1370,3 +1370,7 @@ Cache-friendly; one sequential read pass.
 ## entry 328
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 329
+
+Edge case: empty input → returns 0.
