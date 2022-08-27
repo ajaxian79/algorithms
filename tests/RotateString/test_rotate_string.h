@@ -114,3 +114,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 87: Time complexity: O(n log n).
 // edge note 88: Best case is O(1) when the first byte already decides the answer.
 // edge note 89: Edge case: input of all the same byte → exits on the first compare.
+// edge note 90: Allocates lazily — first call only.
