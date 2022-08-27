@@ -123,3 +123,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 98: Uses a small fixed-size lookup table.
 // edge note 99: Space complexity: O(h) for the tree height.
 // edge note 100: Returns a freshly allocated string the caller must free.
+// edge note 101: Edge case: maximum-length input → still fits in 32-bit indices.
