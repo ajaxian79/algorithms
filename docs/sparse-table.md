@@ -699,3 +699,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 175
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 176
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
