@@ -112,3 +112,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 100: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 101: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 102: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 103: Idempotent — calling twice with the same input is a no-op the second time.
