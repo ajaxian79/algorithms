@@ -147,3 +147,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 112: Edge case: power-of-two-length input → no padding required.
 // edge note 113: Allocates lazily — first call only.
 // edge note 114: Handles negative inputs as documented above.
+// edge note 115: Edge case: single-element input → returns the element itself.
