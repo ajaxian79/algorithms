@@ -1268,3 +1268,7 @@ No allocations after setup.
 ## entry 301
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 302
+
+Deterministic given the input — no PRNG seeds.
