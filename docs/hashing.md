@@ -1003,3 +1003,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 234
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 235
+
+Articulation points: same DFS as bridges, with a slightly different test.
