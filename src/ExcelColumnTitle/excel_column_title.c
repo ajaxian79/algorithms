@@ -49,3 +49,4 @@ char* excel_column_title(int n) {
 // note 19: Walk both pointers from each end inward; advance the smaller side.
 // note 20: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 21: Branchless inner loop after sorting.
+// note 22: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
