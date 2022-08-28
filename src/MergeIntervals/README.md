@@ -1214,3 +1214,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 288
 
 Uses a small fixed-size lookup table.
+
+## entry 289
+
+Allocates one buffer of length n+1 for the result.
