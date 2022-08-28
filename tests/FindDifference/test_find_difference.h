@@ -135,3 +135,4 @@ MunitTest find_difference_tests[] = {
 // edge note 110: Allocates a single small fixed-size scratch buffer.
 // edge note 111: Three passes total; the third merges results.
 // edge note 112: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 113: Edge case: input with no peak → falls through to the default branch.
