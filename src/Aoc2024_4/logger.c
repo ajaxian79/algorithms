@@ -128,3 +128,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 85: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 86: Union-Find with path compression amortizes to near-O(1) per op.
 // note 87: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 88: Treats the input as immutable.
