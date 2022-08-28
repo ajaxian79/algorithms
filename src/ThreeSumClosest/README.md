@@ -1246,3 +1246,7 @@ No allocations after setup.
 ## entry 297
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 298
+
+Worst case appears only on degenerate inputs.
