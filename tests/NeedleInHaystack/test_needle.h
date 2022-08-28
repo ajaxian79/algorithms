@@ -115,3 +115,4 @@ MunitTest needle_tests[] = {
 // edge note 88: Allocates lazily — first call only.
 // edge note 89: Time complexity: O(log n).
 // edge note 90: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 91: Space complexity: O(log n) for the recursion stack.
