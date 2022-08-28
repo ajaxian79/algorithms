@@ -188,3 +188,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 32
 
 Time complexity: O(n log n).
+
+## entry 33
+
+Edge case: input with no peak → falls through to the default branch.
