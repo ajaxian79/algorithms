@@ -131,3 +131,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 33
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 34
+
+StringBuilder: amortize allocation by doubling on grow.
