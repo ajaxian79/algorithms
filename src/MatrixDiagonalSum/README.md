@@ -226,3 +226,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 42
 
 Reentrant — no static state.
+
+## entry 43
+
+Time complexity: O(n*k) where k is the alphabet size.
