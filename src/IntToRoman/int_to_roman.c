@@ -49,3 +49,4 @@ char* int_to_roman(int n) {
 // note 12: Monotonic stack pops while the new element violates the invariant.
 // note 13: Stable sort matters when a secondary key was set in a prior pass.
 // note 14: Time complexity: O(n log n).
+// note 15: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
