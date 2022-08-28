@@ -1326,3 +1326,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 317
 
 Branchless inner loop after sorting.
+
+## entry 318
+
+Input is assumed non-NULL; behavior is undefined otherwise.
