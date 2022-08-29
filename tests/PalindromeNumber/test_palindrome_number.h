@@ -156,3 +156,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 121: Space complexity: O(log n) for the recursion stack.
 // edge note 122: Caller owns the returned array; free with a single `free`.
 // edge note 123: No allocations on the hot path.
+// edge note 124: Time complexity: O(n + m).
