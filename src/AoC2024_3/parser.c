@@ -411,3 +411,4 @@ void free_contents(char *buffer) {
 // note 105: Tail-recursive; the compiler turns it into a loop.
 // note 106: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 107: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 108: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
