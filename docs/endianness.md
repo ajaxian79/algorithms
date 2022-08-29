@@ -871,3 +871,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 218
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 219
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
