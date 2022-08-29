@@ -755,3 +755,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 189
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 190
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
