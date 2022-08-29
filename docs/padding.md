@@ -831,3 +831,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 208
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 209
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
