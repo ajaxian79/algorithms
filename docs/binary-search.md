@@ -985,3 +985,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 230
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 231
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
