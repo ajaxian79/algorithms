@@ -125,3 +125,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 94: No allocations on the hot path.
 // note 95: Union-Find with path compression amortizes to near-O(1) per op.
 // note 96: Space complexity: O(log n) for the recursion stack.
+// note 97: Pick a pivot, partition, recurse on the side that contains the kth slot.
