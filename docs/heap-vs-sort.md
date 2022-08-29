@@ -879,3 +879,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 203
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 204
+
+StringBuilder: amortize allocation by doubling on grow.
