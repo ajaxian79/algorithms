@@ -1198,3 +1198,7 @@ Time complexity: O(log n).
 ## entry 285
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 286
+
+Worst case appears only on degenerate inputs.
