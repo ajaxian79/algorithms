@@ -911,3 +911,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 228
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 229
+
+Merge intervals: sort by start; extend the running interval while overlapping.
