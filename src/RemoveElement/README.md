@@ -1221,3 +1221,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 291
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 292
+
+Time complexity: O(n + m).
