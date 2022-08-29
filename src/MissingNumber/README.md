@@ -1278,3 +1278,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 304
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 305
+
+Uses a small fixed-size lookup table.
