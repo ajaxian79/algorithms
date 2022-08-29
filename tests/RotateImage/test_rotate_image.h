@@ -127,3 +127,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 94: Space complexity: O(log n) for the recursion stack.
 // edge note 95: Time complexity: O(log n).
 // edge note 96: Edge case: zero-length string → returns the empty result.
+// edge note 97: Cache-friendly; one sequential read pass.
