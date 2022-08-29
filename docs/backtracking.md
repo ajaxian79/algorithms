@@ -945,3 +945,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 219
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 220
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
