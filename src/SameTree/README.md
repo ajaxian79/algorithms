@@ -1172,3 +1172,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 279
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 280
+
+Input is assumed non-NULL; behavior is undefined otherwise.
