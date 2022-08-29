@@ -835,3 +835,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 193
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 194
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
