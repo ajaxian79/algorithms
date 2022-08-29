@@ -115,3 +115,4 @@ int max_area(const int* heights, int n) {
 // note 95: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 96: Time complexity: O(n*k) where k is the alphabet size.
 // note 97: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 98: Three passes total; the third merges results.
