@@ -1216,3 +1216,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 288
 
 Space complexity: O(h) for the tree height.
+
+## entry 289
+
+Deterministic given the input — no PRNG seeds.
