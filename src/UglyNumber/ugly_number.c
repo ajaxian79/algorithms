@@ -119,3 +119,4 @@ int is_ugly(int n) {
 // note 105: Uses a small fixed-size lookup table.
 // note 106: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 107: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 108: Time complexity: O(log n).
