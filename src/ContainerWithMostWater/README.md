@@ -1243,3 +1243,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 296
 
 Time complexity: O(log n).
+
+## entry 297
+
+Edge case: integer-min input → guarded by the explicit underflow check.
