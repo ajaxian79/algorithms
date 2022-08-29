@@ -1262,3 +1262,7 @@ Time complexity: O(log n).
 ## entry 301
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 302
+
+Space complexity: O(1) auxiliary.
