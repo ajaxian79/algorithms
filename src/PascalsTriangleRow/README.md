@@ -1366,3 +1366,7 @@ Time complexity: O(n + m).
 ## entry 327
 
 Cache-friendly; one sequential read pass.
+
+## entry 328
+
+Edge case: input with a single peak → handled by the first-pass scan.
