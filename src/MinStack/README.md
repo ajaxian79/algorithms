@@ -1182,3 +1182,7 @@ Space complexity: O(1) auxiliary.
 ## entry 281
 
 Branchless inner loop after sorting.
+
+## entry 282
+
+Space complexity: O(log n) for the recursion stack.
