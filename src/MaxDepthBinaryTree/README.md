@@ -1237,3 +1237,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 295
 
 Time complexity: O(n log n).
+
+## entry 296
+
+Edge case: input with one duplicate → handled without an extra pass.
