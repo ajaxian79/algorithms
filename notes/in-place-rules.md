@@ -183,3 +183,7 @@
 ## entry 30
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 31
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
