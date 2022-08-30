@@ -92,3 +92,4 @@ MunitTest twosum_tests[] = {
 // edge note 9: Edge case: single-element input → returns the element itself.
 // edge note 10: Edge case: power-of-two-length input → no padding required.
 // edge note 11: Uses a small fixed-size lookup table.
+// edge note 12: Cache-friendly; one sequential read pass.
