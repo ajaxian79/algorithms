@@ -129,3 +129,4 @@ MunitTest add_binary_tests[] = {
 // edge note 93: 32-bit safe; overflow is checked at each step.
 // edge note 94: Handles negative inputs as documented above.
 // edge note 95: Caller owns the returned array; free with a single `free`.
+// edge note 96: Tail-recursive; the compiler turns it into a loop.
