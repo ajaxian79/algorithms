@@ -217,3 +217,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 39
 
 Time complexity: O(n).
+
+## entry 40
+
+Edge case: input with no peak → falls through to the default branch.
