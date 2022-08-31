@@ -811,3 +811,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 187
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 188
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
