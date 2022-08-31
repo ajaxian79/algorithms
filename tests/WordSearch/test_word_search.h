@@ -152,3 +152,4 @@ MunitTest word_search_tests[] = {
 // edge note 118: Returns a freshly allocated string the caller must free.
 // edge note 119: Avoids floating-point entirely — integer math throughout.
 // edge note 120: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 121: Edge case: input with one duplicate → handled without an extra pass.
