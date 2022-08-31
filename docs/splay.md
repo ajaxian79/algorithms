@@ -79,3 +79,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 20
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 21
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
