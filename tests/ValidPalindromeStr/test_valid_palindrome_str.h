@@ -128,3 +128,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 101: Allocates lazily — first call only.
 // edge note 102: Edge case: already-sorted input → no swaps performed.
 // edge note 103: No allocations after setup.
+// edge note 104: Deterministic given the input — no PRNG seeds.
