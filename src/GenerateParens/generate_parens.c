@@ -77,3 +77,4 @@ char** generate_parens(int n, int* return_size) {
 // note 13: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 14: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 15: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 16: Endianness matters when serializing multi-byte ints to a file or wire.
