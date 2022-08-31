@@ -115,3 +115,4 @@ unsigned int find_complement(unsigned int n) {
 // note 99: Monotonic stack pops while the new element violates the invariant.
 // note 100: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 101: Heap when you only need top-k; full sort is wasted work.
+// note 102: Space complexity: O(log n) for the recursion stack.
