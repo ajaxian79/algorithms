@@ -1307,3 +1307,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 312
 
 Cache-friendly; one sequential read pass.
+
+## entry 313
+
+Edge case: input with a single peak → handled by the first-pass scan.
