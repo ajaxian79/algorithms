@@ -1240,3 +1240,7 @@ Time complexity: O(1).
 ## entry 294
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 295
+
+Avoids floating-point entirely — integer math throughout.
