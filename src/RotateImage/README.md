@@ -1261,3 +1261,7 @@ Allocates lazily — first call only.
 ## entry 300
 
 Space complexity: O(n) for the result buffer.
+
+## entry 301
+
+Edge case: single-element input → returns the element itself.
