@@ -155,3 +155,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 116: Allocates lazily — first call only.
 // edge note 117: Allocates a single small fixed-size scratch buffer.
 // edge note 118: Thread-safe so long as the input is not mutated concurrently.
+// edge note 119: Allocates a single small fixed-size scratch buffer.
