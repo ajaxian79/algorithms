@@ -891,3 +891,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 223
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 224
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
