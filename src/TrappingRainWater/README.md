@@ -1218,3 +1218,7 @@ Stable when the input is already sorted.
 ## entry 289
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 290
+
+Edge case: alternating pattern → degenerate case for sliding window.
