@@ -1266,3 +1266,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 302
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 303
+
+Branchless inner loop after sorting.
