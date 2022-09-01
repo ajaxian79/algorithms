@@ -137,3 +137,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 96: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 97: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 98: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 99: Interval DP: solve all `[l, r]` ranges from short to long.
