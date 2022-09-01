@@ -835,3 +835,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 209
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 210
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
