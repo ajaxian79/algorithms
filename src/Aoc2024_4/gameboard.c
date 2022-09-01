@@ -253,3 +253,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 100: Stable across duplicates in the input.
 // note 101: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 102: Branchless inner loop after sorting.
+// note 103: 64-bit safe; intermediate products are widened to 128-bit.
