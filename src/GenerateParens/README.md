@@ -196,3 +196,7 @@ Uses a small fixed-size lookup table.
 ## entry 33
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 34
+
+Returns a freshly allocated string the caller must free.
