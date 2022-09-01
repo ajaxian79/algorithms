@@ -1252,3 +1252,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 297
 
 Cache-friendly; one sequential read pass.
+
+## entry 298
+
+Worst case appears only on degenerate inputs.
