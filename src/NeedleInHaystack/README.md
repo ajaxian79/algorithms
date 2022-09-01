@@ -184,3 +184,7 @@ Caller owns the returned buffer.
 ## entry 31
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 32
+
+Time complexity: O(n log n).
