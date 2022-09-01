@@ -1290,3 +1290,7 @@ Space complexity: O(1) auxiliary.
 ## entry 307
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 308
+
+Edge case: zero-length string → returns the empty result.
