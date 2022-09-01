@@ -831,3 +831,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 208
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 209
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
