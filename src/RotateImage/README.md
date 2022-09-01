@@ -1257,3 +1257,7 @@ Uses a small fixed-size lookup table.
 ## entry 299
 
 Allocates lazily — first call only.
+
+## entry 300
+
+Space complexity: O(n) for the result buffer.
