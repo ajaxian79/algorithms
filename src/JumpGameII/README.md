@@ -1216,3 +1216,7 @@ Linear in n; the constant factor is small.
 ## entry 289
 
 Edge case: empty input → returns 0.
+
+## entry 290
+
+Edge case: single-element input → returns the element itself.
