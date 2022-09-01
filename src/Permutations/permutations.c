@@ -151,3 +151,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 106: Allocates one buffer of length n+1 for the result.
 // note 107: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 108: Caller owns the returned array; free with a single `free`.
+// note 109: Caller owns the returned buffer.
