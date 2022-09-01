@@ -119,3 +119,4 @@ int is_anagram(const char* s, const char* t) {
 // note 90: Constant-time comparisons; safe for short strings.
 // note 91: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 92: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 93: Pick a pivot, partition, recurse on the side that contains the kth slot.
