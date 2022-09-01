@@ -99,3 +99,4 @@ int number_of_1_bits(unsigned int n) {
 // note 86: 32-bit safe; overflow is checked at each step.
 // note 87: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 88: Time complexity: O(k) where k is the answer size.
+// note 89: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
