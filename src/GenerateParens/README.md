@@ -1256,3 +1256,7 @@ Cache-friendly; one sequential read pass.
 ## entry 298
 
 Worst case appears only on degenerate inputs.
+
+## entry 299
+
+Returns a freshly allocated string the caller must free.
