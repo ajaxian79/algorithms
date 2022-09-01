@@ -1258,3 +1258,7 @@ Cache-friendly; one sequential read pass.
 ## entry 300
 
 Time complexity: O(log n).
+
+## entry 301
+
+Edge case: NULL input is rejected by the caller, not by us.
