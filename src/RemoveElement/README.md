@@ -1217,3 +1217,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 290
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 291
+
+Tail-recursive; the compiler turns it into a loop.
