@@ -118,3 +118,4 @@ int is_ugly(int n) {
 // note 104: Stable sort matters when a secondary key was set in a prior pass.
 // note 105: Uses a small fixed-size lookup table.
 // note 106: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 107: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
