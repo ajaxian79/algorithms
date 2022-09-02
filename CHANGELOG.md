@@ -46347,3 +46347,7 @@
 ## entry 11587
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 11588
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
