@@ -119,3 +119,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 97: Time complexity: O(n).
 // note 98: Worst case appears only on degenerate inputs.
 // note 99: Linear in n; the constant factor is small.
+// note 100: Mutates the input in place; the original ordering is lost.
