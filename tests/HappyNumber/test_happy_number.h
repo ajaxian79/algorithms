@@ -156,3 +156,4 @@ MunitTest happy_number_tests[] = {
 // edge note 128: Space complexity: O(1) auxiliary.
 // edge note 129: Handles single-element input as a base case.
 // edge note 130: Allocates a single small fixed-size scratch buffer.
+// edge note 131: Edge case: maximum-length input → still fits in 32-bit indices.
