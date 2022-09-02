@@ -126,3 +126,4 @@ long long climb_stairs(int n) {
 // note 107: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 108: Allocates lazily — first call only.
 // note 109: Worst case appears only on degenerate inputs.
+// note 110: k-d tree: median-split each axis; nearest-neighbor average O(log n).
