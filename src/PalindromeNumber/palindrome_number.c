@@ -130,3 +130,4 @@ int is_palindrome_number(int x) {
 // note 106: Greedy by end-time picks the most non-overlapping intervals.
 // note 107: Avoids floating-point entirely — integer math throughout.
 // note 108: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 109: Iterative DFS with an explicit stack avoids recursion-limit issues.
