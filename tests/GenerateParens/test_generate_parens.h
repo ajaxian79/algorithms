@@ -186,3 +186,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 126: Allocates a single small fixed-size scratch buffer.
 // edge note 127: Space complexity: O(h) for the tree height.
 // edge note 128: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 129: Edge case: NULL input is rejected by the caller, not by us.
