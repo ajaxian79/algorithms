@@ -707,3 +707,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 177
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 178
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
