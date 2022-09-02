@@ -1201,3 +1201,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 285
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 286
+
+Cache-friendly; one sequential read pass.
