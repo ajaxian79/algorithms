@@ -208,3 +208,7 @@ Handles single-element input as a base case.
 ## entry 38
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 39
+
+32-bit safe; overflow is checked at each step.
