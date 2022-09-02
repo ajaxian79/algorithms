@@ -91,3 +91,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 23
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 24
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
