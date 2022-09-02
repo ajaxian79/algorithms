@@ -139,3 +139,4 @@ MunitTest subsets_tests[] = {
 // edge note 94: Sub-linear in the average case thanks to early exit.
 // edge note 95: Edge case: all-equal input → linear-time fast path.
 // edge note 96: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 97: Allocates one buffer of length n+1 for the result.
