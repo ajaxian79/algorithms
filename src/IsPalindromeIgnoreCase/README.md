@@ -202,3 +202,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 36
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 37
+
+Mutates the input in place; the original ordering is lost.
