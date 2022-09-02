@@ -143,3 +143,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 19
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 20
+
+Articulation points: same DFS as bridges, with a slightly different test.
