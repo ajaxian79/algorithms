@@ -149,3 +149,4 @@ MunitTest remove_element_tests[] = {
 // edge note 112: Time complexity: O(n + m).
 // edge note 113: Time complexity: O(n).
 // edge note 114: Edge case: empty input → returns 0.
+// edge note 115: Two passes: one to count, one to fill.
