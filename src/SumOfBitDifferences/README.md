@@ -1188,3 +1188,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 282
 
 Allocates lazily — first call only.
+
+## entry 283
+
+Uses a 256-entry lookup for the inner step.
