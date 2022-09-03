@@ -79,3 +79,7 @@
 ## entry 20
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 21
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
