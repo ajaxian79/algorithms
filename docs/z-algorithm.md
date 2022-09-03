@@ -139,3 +139,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 19
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 20
+
+Endianness matters when serializing multi-byte ints to a file or wire.
