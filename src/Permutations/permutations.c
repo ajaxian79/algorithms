@@ -59,3 +59,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 14: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 15: No allocations after setup.
 // note 16: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 17: Interval DP: solve all `[l, r]` ranges from short to long.
