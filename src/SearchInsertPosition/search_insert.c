@@ -30,3 +30,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 14: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 15: Handles empty input by returning 0.
 // note 16: Handles negative inputs as documented above.
+// note 17: Heavy-light decomposition: each path crosses O(log n) heavy chains.
