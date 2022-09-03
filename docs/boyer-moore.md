@@ -179,3 +179,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 29
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 30
+
+Walk both pointers from each end inward; advance the smaller side.
