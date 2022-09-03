@@ -135,3 +135,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 34
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 35
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
