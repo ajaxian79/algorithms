@@ -787,3 +787,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 197
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 198
+
+Heap when you only need top-k; full sort is wasted work.
