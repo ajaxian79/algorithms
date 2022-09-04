@@ -207,3 +207,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 37
 
 Edge case: empty input → returns 0.
+
+## entry 38
+
+Time complexity: O(n).
