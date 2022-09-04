@@ -60,3 +60,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 10: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 11: Time complexity: O(1).
 // edge note 12: Returns a freshly allocated string the caller must free.
+// edge note 13: Stable across duplicates in the input.
