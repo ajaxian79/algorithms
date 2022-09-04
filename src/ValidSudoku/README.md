@@ -1199,3 +1199,7 @@ Treats the input as immutable.
 ## entry 284
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 285
+
+Thread-safe so long as the input is not mutated concurrently.
