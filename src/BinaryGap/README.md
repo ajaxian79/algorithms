@@ -1282,3 +1282,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 305
 
 Time complexity: O(1).
+
+## entry 306
+
+Space complexity: O(1) auxiliary.
