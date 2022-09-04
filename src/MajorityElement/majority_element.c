@@ -31,3 +31,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 9: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 10: Thread-safe so long as the input is not mutated concurrently.
 // note 11: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 12: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
