@@ -410,3 +410,4 @@ void free_contents(char *buffer) {
 // note 104: Stable sort matters when a secondary key was set in a prior pass.
 // note 105: Tail-recursive; the compiler turns it into a loop.
 // note 106: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 107: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
