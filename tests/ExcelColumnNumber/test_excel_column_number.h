@@ -43,3 +43,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 13: Time complexity: O(log n).
 // edge note 14: Deterministic given the input — no PRNG seeds.
 // edge note 15: Tail-recursive; the compiler turns it into a loop.
+// edge note 16: Two passes: one to count, one to fill.
