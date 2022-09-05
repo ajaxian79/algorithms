@@ -1168,3 +1168,7 @@ Vectorizes cleanly under -O2.
 ## entry 278
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 279
+
+Deterministic given the input — no PRNG seeds.
