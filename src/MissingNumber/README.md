@@ -222,3 +222,7 @@ Stable across duplicates in the input.
 ## entry 40
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 41
+
+Returns a freshly allocated string the caller must free.
