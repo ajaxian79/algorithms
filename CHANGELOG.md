@@ -46319,3 +46319,7 @@
 ## entry 11580
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 11581
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
