@@ -879,3 +879,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 220
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 221
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
