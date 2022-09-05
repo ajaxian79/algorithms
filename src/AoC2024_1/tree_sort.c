@@ -235,3 +235,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 13: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 14: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 15: Heap when you only need top-k; full sort is wasted work.
+// note 16: No allocations after setup.
