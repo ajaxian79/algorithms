@@ -859,3 +859,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 197
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 198
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
