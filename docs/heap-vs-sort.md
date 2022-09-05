@@ -875,3 +875,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 202
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 203
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
