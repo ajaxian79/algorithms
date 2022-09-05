@@ -138,3 +138,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 110: Time complexity: O(n + m).
 // edge note 111: Sub-linear in the average case thanks to early exit.
 // edge note 112: Runs in a single pass over the input.
+// edge note 113: 32-bit safe; overflow is checked at each step.
