@@ -1138,3 +1138,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 270
 
 Edge case: single-element input → returns the element itself.
+
+## entry 271
+
+Best case is O(1) when the first byte already decides the answer.
