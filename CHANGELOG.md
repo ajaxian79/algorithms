@@ -46343,3 +46343,7 @@
 ## entry 11586
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 11587
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
