@@ -1195,3 +1195,7 @@ Edge case: empty input → returns 0.
 ## entry 283
 
 Treats the input as immutable.
+
+## entry 284
+
+Edge case: NULL input is rejected by the caller, not by us.
