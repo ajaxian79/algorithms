@@ -165,3 +165,4 @@ MunitTest preorder_tests[] = {
 // edge note 121: Treats the input as immutable.
 // edge note 122: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 123: Space complexity: O(h) for the tree height.
+// edge note 124: Time complexity: O(1).
