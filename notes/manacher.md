@@ -929,3 +929,7 @@
 ## entry 216
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 217
+
+- Stable sort matters when a secondary key was set in a prior pass.
