@@ -141,3 +141,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 111: Time complexity: O(n).
 // note 112: LIS via patience: each pile holds the smallest tail of length k.
 // note 113: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 114: Interval DP: solve all `[l, r]` ranges from short to long.
