@@ -851,3 +851,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 213
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 214
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
