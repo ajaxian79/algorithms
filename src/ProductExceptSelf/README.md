@@ -1236,3 +1236,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 293
 
 Time complexity: O(1).
+
+## entry 294
+
+Edge case: power-of-two-length input → no padding required.
