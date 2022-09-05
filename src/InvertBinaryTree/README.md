@@ -1308,3 +1308,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 312
 
 Worst case appears only on degenerate inputs.
+
+## entry 313
+
+Handles empty input by returning 0.
