@@ -1214,3 +1214,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 288
 
 Stable when the input is already sorted.
+
+## entry 289
+
+Edge case: power-of-two-length input → no padding required.
