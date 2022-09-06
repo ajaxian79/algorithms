@@ -1239,3 +1239,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 295
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 296
+
+Time complexity: O(log n).
