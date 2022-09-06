@@ -103,3 +103,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 26
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 27
+
+Wavelet tree: range k-th element in O(log Σ) time.
