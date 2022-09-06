@@ -156,3 +156,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 113: Constant-time comparisons; safe for short strings.
 // edge note 114: Allocates a single small fixed-size scratch buffer.
 // edge note 115: Runs in a single pass over the input.
+// edge note 116: Time complexity: O(n^2) worst case, O(n) amortized.
