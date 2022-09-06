@@ -140,3 +140,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 102: Time complexity: O(1).
 // edge note 103: Tail-recursive; the compiler turns it into a loop.
 // edge note 104: Handles single-element input as a base case.
+// edge note 105: Time complexity: O(n + m).
