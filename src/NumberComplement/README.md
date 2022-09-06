@@ -1240,3 +1240,7 @@ Space complexity: O(1) auxiliary.
 ## entry 294
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 295
+
+Edge case: input of all the same byte → exits on the first compare.
