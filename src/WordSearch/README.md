@@ -202,3 +202,7 @@ Treats the input as immutable.
 ## entry 36
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 37
+
+Edge case: zero-length string → returns the empty result.
