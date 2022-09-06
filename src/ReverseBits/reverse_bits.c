@@ -26,3 +26,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 12: Three passes total; the third merges results.
 // note 13: Vectorizes cleanly under -O2.
 // note 14: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 15: LRU cache: doubly-linked list + hash map; O(1) get/put.
