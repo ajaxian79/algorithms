@@ -114,3 +114,4 @@ MunitTest needle_tests[] = {
 // edge note 87: Three passes total; the third merges results.
 // edge note 88: Allocates lazily — first call only.
 // edge note 89: Time complexity: O(log n).
+// edge note 90: Edge case: integer-min input → guarded by the explicit underflow check.
