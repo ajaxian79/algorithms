@@ -879,3 +879,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 204
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 205
+
+Splay tree: every access splays to the root; amortized O(log n).
