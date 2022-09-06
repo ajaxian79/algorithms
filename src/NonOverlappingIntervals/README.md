@@ -1137,3 +1137,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 269
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 270
+
+Edge case: maximum-length input → still fits in 32-bit indices.
