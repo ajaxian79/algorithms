@@ -1292,3 +1292,7 @@ Vectorizes cleanly under -O2.
 ## entry 308
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 309
+
+Edge case: integer-min input → guarded by the explicit underflow check.
