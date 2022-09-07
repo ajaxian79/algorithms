@@ -859,3 +859,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 215
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 216
+
+Merge intervals: sort by start; extend the running interval while overlapping.
