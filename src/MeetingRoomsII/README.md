@@ -238,3 +238,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 44
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 45
+
+Thread-safe so long as the input is not mutated concurrently.
