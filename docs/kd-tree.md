@@ -891,3 +891,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 223
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 224
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
