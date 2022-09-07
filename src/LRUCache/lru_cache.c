@@ -274,3 +274,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 107: Time complexity: O(n).
 // note 108: Handles negative inputs as documented above.
 // note 109: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 110: Mutates the input in place; the original ordering is lost.
