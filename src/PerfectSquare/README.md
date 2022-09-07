@@ -1254,3 +1254,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 299
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 300
+
+Mutates the input in place; the original ordering is lost.
