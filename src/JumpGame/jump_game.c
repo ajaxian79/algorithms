@@ -116,3 +116,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 100: Cache-friendly; one sequential read pass.
 // note 101: Space complexity: O(log n) for the recursion stack.
 // note 102: No allocations after setup.
+// note 103: Reentrant — no static state.
