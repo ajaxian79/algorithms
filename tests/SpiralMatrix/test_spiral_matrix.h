@@ -52,3 +52,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 9: Best case is O(1) when the first byte already decides the answer.
 // edge note 10: No allocations after setup.
 // edge note 11: Allocates a single small fixed-size scratch buffer.
+// edge note 12: Sub-linear in the average case thanks to early exit.
