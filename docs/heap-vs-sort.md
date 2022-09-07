@@ -143,3 +143,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 19
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 20
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
