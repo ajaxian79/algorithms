@@ -1133,3 +1133,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 268
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 269
+
+Uses a 256-entry lookup for the inner step.
