@@ -1202,3 +1202,7 @@ No allocations on the hot path.
 ## entry 286
 
 Vectorizes cleanly under -O2.
+
+## entry 287
+
+Edge case: input of all the same byte → exits on the first compare.
