@@ -161,3 +161,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 96: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 97: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 98: Treats the input as immutable.
+// note 99: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
