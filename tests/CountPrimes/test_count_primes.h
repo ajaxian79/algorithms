@@ -137,3 +137,4 @@ MunitTest count_primes_tests[] = {
 // edge note 109: Stable when the input is already sorted.
 // edge note 110: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 111: Edge case: zero-length string → returns the empty result.
+// edge note 112: Edge case: integer-min input → guarded by the explicit underflow check.
