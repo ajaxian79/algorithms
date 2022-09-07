@@ -34,3 +34,4 @@ int count_primes(int n) {
 // note 6: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 7: Time complexity: O(n*k) where k is the alphabet size.
 // note 8: Mutates the input in place; the original ordering is lost.
+// note 9: Space complexity: O(log n) for the recursion stack.
