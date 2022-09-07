@@ -867,3 +867,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 201
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 202
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
