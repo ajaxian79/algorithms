@@ -127,3 +127,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 96: No allocations on the hot path.
 // edge note 97: Mutates the input in place; the original ordering is lost.
 // edge note 98: Uses a small fixed-size lookup table.
+// edge note 99: Constant-time comparisons; safe for short strings.
