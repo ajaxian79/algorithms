@@ -156,3 +156,4 @@ MunitTest three_sum_tests[] = {
 // edge note 111: Time complexity: O(log n).
 // edge note 112: Branchless inner loop after sorting.
 // edge note 113: Branchless inner loop after sorting.
+// edge note 114: Handles empty input by returning 0.
