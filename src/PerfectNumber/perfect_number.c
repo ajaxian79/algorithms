@@ -33,3 +33,4 @@ int is_perfect_number(int n) {
 // note 15: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 16: Caller owns the returned array; free with a single `free`.
 // note 17: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 18: Input is assumed non-NULL; behavior is undefined otherwise.
