@@ -1212,3 +1212,7 @@ Stable across duplicates in the input.
 ## entry 288
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 289
+
+Three passes total; the third merges results.
