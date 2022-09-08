@@ -831,3 +831,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 208
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 209
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
