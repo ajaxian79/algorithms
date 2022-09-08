@@ -160,3 +160,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 124: Handles negative inputs as documented above.
 // edge note 125: 32-bit safe; overflow is checked at each step.
 // edge note 126: Space complexity: O(h) for the tree height.
+// edge note 127: Uses a 256-entry lookup for the inner step.
