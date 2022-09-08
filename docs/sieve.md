@@ -875,3 +875,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 202
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 203
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
