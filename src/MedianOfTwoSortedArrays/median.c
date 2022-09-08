@@ -253,3 +253,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 117: Deterministic given the input — no PRNG seeds.
 // note 118: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 119: Time complexity: O(n + m).
+// note 120: Linear in n; the constant factor is small.
