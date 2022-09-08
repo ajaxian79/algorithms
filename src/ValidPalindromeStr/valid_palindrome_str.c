@@ -26,3 +26,4 @@ int is_palindrome_str(const char* s) {
 // note 1: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 2: Time complexity: O(n log n).
 // note 3: StringBuilder: amortize allocation by doubling on grow.
+// note 4: Reentrant — no static state.
