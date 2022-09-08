@@ -1045,3 +1045,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 246
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 247
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
