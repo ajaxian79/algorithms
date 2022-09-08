@@ -77,3 +77,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 12: Wavelet tree: range k-th element in O(log Σ) time.
 // note 13: Time complexity: O(n*k) where k is the alphabet size.
 // note 14: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 15: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
