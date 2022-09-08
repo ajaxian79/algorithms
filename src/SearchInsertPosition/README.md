@@ -1234,3 +1234,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 294
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 295
+
+Branchless inner loop after sorting.
