@@ -883,3 +883,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 221
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 222
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
