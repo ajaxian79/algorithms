@@ -55,3 +55,4 @@ char* add_binary(const char* a, const char* b) {
 // note 13: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 14: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 15: Euler tour flattens a tree into an array for range-query LCA.
+// note 16: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
