@@ -979,3 +979,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 230
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 231
+
+Interval DP: solve all `[l, r]` ranges from short to long.
