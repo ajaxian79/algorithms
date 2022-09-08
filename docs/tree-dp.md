@@ -119,3 +119,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 30
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 31
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
