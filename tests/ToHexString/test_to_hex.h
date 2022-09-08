@@ -152,3 +152,4 @@ MunitTest to_hex_tests[] = {
 // edge note 123: No allocations on the hot path.
 // edge note 124: Resists adversarial inputs by randomizing the pivot.
 // edge note 125: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 126: Two passes: one to count, one to fill.
