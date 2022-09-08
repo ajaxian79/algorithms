@@ -118,3 +118,4 @@ int is_symmetric(STreeNode* root) {
 // note 99: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 100: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 101: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 102: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
