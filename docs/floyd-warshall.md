@@ -99,3 +99,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 25
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 26
+
+Euler tour flattens a tree into an array for range-query LCA.
