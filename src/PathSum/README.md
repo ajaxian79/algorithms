@@ -1236,3 +1236,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 294
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 295
+
+Time complexity: O(n + m).
