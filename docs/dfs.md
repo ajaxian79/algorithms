@@ -879,3 +879,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 204
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 205
+
+Endianness matters when serializing multi-byte ints to a file or wire.
