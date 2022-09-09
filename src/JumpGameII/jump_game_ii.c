@@ -31,3 +31,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 9: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 10: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 11: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 12: StringBuilder: amortize allocation by doubling on grow.
