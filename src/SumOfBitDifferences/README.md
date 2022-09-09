@@ -1184,3 +1184,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 281
 
 Returns a freshly allocated string the caller must free.
+
+## entry 282
+
+Allocates lazily — first call only.
