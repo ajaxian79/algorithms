@@ -1314,3 +1314,7 @@ Worst case appears only on degenerate inputs.
 ## entry 314
 
 Space complexity: O(h) for the tree height.
+
+## entry 315
+
+Input is assumed non-NULL; behavior is undefined otherwise.
