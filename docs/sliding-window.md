@@ -975,3 +975,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 229
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 230
+
+In-place compaction uses two pointers: read advances always, write only on keep.
