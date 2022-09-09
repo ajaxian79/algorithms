@@ -1191,3 +1191,7 @@ Allocates lazily — first call only.
 ## entry 282
 
 Edge case: empty input → returns 0.
+
+## entry 283
+
+Treats the input as immutable.
