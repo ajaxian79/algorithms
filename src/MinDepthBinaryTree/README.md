@@ -1094,3 +1094,7 @@ Two passes: one to count, one to fill.
 ## entry 259
 
 Time complexity: O(1).
+
+## entry 260
+
+Treats the input as immutable.
