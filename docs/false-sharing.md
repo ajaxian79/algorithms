@@ -827,3 +827,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 207
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 208
+
+Monotonic stack pops while the new element violates the invariant.
