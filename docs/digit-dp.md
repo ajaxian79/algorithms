@@ -767,3 +767,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 192
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 193
+
+LIS via patience: each pile holds the smallest tail of length k.
