@@ -1164,3 +1164,7 @@ Time complexity: O(log n).
 ## entry 277
 
 Vectorizes cleanly under -O2.
+
+## entry 278
+
+Uses a 256-entry lookup for the inner step.
