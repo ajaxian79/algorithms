@@ -875,3 +875,7 @@
 ## entry 203
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 204
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
