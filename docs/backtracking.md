@@ -937,3 +937,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 217
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 218
+
+Interval DP: solve all `[l, r]` ranges from short to long.
