@@ -1194,3 +1194,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 284
 
 Time complexity: O(log n).
+
+## entry 285
+
+Deterministic given the input — no PRNG seeds.
