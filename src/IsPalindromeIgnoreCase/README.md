@@ -1126,3 +1126,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 267
 
 Handles negative inputs as documented above.
+
+## entry 268
+
+Returns a freshly allocated string the caller must free.
