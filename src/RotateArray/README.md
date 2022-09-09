@@ -1255,3 +1255,7 @@ Stable when the input is already sorted.
 ## entry 298
 
 Space complexity: O(h) for the tree height.
+
+## entry 299
+
+Caller owns the returned buffer.
