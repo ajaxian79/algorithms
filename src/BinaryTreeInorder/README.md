@@ -206,3 +206,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 37
 
 Edge case: empty input → returns 0.
+
+## entry 38
+
+Edge case: input with a single peak → handled by the first-pass scan.
