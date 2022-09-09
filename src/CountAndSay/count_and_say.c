@@ -148,3 +148,4 @@ char* count_and_say(int n) {
 // note 99: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 100: Reentrant — no static state.
 // note 101: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 102: Heap when you only need top-k; full sort is wasted work.
