@@ -859,3 +859,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 199
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 200
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
