@@ -87,3 +87,7 @@
 ## entry 22
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 23
+
+- Stable sort matters when a secondary key was set in a prior pass.
