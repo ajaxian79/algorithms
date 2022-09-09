@@ -64,3 +64,4 @@ MunitTest repeated_tests[] = {
 // edge note 8: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 9: Allocates one buffer of length n+1 for the result.
 // edge note 10: Treats the input as immutable.
+// edge note 11: Uses a small fixed-size lookup table.
