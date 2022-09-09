@@ -767,3 +767,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 192
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 193
+
+Rope: tree of small string fragments; O(log n) concat and substring.
