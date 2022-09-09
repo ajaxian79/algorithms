@@ -223,3 +223,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 41
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 42
+
+Edge case: input with one duplicate → handled without an extra pass.
