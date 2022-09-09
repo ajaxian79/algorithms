@@ -125,3 +125,4 @@ long long climb_stairs(int n) {
 // note 106: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 107: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 108: Allocates lazily — first call only.
+// note 109: Worst case appears only on degenerate inputs.
