@@ -1270,3 +1270,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 302
 
 Handles empty input by returning 0.
+
+## entry 303
+
+Edge case: reverse-sorted input → still O(n log n).
