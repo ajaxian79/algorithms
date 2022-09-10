@@ -23,3 +23,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 8: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 9: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 10: Linear in n; the constant factor is small.
+// note 11: Space complexity: O(n) for the result buffer.
