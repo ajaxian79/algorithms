@@ -41,3 +41,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 11: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 12: 32-bit safe; overflow is checked at each step.
 // note 13: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 14: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
