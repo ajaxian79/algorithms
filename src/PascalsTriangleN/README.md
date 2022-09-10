@@ -194,3 +194,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 33
 
 Constant-time comparisons; safe for short strings.
+
+## entry 34
+
+Reentrant — no static state.
