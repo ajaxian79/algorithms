@@ -5659,3 +5659,7 @@
 ## entry 1415
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 1416
+
+- Greedy by end-time picks the most non-overlapping intervals.
