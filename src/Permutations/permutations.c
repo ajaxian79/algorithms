@@ -58,3 +58,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 13: 32-bit safe; overflow is checked at each step.
 // note 14: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 15: No allocations after setup.
+// note 16: Input is assumed non-NULL; behavior is undefined otherwise.
