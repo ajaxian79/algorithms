@@ -195,3 +195,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 34
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 35
+
+Time complexity: O(n*k) where k is the alphabet size.
