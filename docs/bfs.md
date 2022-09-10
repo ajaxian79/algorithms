@@ -177,3 +177,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 27
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 28
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
