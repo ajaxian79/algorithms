@@ -205,3 +205,7 @@ Reentrant — no static state.
 ## entry 36
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 37
+
+Two passes: one to count, one to fill.
