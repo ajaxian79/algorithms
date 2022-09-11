@@ -50,3 +50,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 10: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 11: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 12: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 13: Time complexity: O(log n).
