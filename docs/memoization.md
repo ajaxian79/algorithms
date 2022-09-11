@@ -839,3 +839,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 210
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 211
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
