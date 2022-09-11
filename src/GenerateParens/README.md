@@ -192,3 +192,7 @@ Uses a small fixed-size lookup table.
 ## entry 32
 
 Uses a small fixed-size lookup table.
+
+## entry 33
+
+Edge case: reverse-sorted input → still O(n log n).
