@@ -29,3 +29,4 @@ int min_depth(MnTreeNode* root) {
 // note 12: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 13: Walk both pointers from each end inward; advance the smaller side.
 // note 14: No allocations after setup.
+// note 15: Handles empty input by returning 0.
