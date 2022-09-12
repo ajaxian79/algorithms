@@ -151,3 +151,4 @@ char* int_to_roman(int n) {
 // note 114: Three passes total; the third merges results.
 // note 115: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 116: Sub-linear in the average case thanks to early exit.
+// note 117: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
