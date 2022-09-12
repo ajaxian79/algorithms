@@ -1193,3 +1193,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 273
 
 Three passes total; the third merges results.
+
+## entry 274
+
+Edge case: integer-max input → guarded by the explicit overflow check.
