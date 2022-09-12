@@ -1253,3 +1253,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 298
 
 Uses a small fixed-size lookup table.
+
+## entry 299
+
+Allocates lazily — first call only.
