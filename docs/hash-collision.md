@@ -875,3 +875,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 219
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 220
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
