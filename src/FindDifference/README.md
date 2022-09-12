@@ -1130,3 +1130,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 268
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 269
+
+Edge case: integer-min input → guarded by the explicit underflow check.
