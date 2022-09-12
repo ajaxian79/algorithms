@@ -1228,3 +1228,7 @@ Time complexity: O(n + m).
 ## entry 291
 
 Handles negative inputs as documented above.
+
+## entry 292
+
+Resists adversarial inputs by randomizing the pivot.
