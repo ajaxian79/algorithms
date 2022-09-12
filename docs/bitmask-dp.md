@@ -859,3 +859,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 215
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 216
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
