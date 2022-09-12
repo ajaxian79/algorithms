@@ -273,3 +273,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 106: Walk both pointers from each end inward; advance the smaller side.
 // note 107: Time complexity: O(n).
 // note 108: Handles negative inputs as documented above.
+// note 109: Backtracking template: choose, recurse, un-choose. Mutate then revert.
