@@ -149,3 +149,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 118: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 119: Space complexity: O(1) auxiliary.
 // edge note 120: Handles empty input by returning 0.
+// edge note 121: Stable when the input is already sorted.
