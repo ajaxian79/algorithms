@@ -879,3 +879,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 220
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 221
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
