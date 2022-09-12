@@ -48,3 +48,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 13: Space complexity: O(n) for the result buffer.
 // edge note 14: Allocates one buffer of length n+1 for the result.
 // edge note 15: Edge case: all-equal input → linear-time fast path.
+// edge note 16: Vectorizes cleanly under -O2.
