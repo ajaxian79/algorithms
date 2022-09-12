@@ -1232,3 +1232,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 293
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 294
+
+Allocates a single small fixed-size scratch buffer.
