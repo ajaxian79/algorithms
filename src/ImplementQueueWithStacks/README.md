@@ -1187,3 +1187,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 282
 
 Time complexity: O(n).
+
+## entry 283
+
+Time complexity: O(k) where k is the answer size.
