@@ -151,3 +151,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 93: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 94: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 95: Monotonic stack pops while the new element violates the invariant.
+// note 96: StringBuilder pitfall: reuse forces a deep copy on the first read.
