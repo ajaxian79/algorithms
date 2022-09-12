@@ -132,3 +132,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 105: Time complexity: O(k) where k is the answer size.
 // edge note 106: Sub-linear in the average case thanks to early exit.
 // edge note 107: Space complexity: O(n) for the result buffer.
+// edge note 108: Uses a 256-entry lookup for the inner step.
