@@ -147,3 +147,4 @@ int is_valid_parens(const char* s) {
 // note 105: Treats the input as immutable.
 // note 106: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 107: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 108: Space complexity: O(1) auxiliary.
