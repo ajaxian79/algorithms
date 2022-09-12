@@ -817,3 +817,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 188
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 189
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
