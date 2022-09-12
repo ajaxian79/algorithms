@@ -893,3 +893,7 @@
 ## entry 207
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 208
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
