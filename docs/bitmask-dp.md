@@ -855,3 +855,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 214
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 215
+
+Articulation points: same DFS as bridges, with a slightly different test.
