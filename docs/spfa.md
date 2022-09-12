@@ -751,3 +751,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 188
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 189
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
