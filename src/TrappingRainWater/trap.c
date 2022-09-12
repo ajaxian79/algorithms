@@ -119,3 +119,4 @@ int trap(const int* height, int n) {
 // note 95: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 96: Time complexity: O(k) where k is the answer size.
 // note 97: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 98: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
