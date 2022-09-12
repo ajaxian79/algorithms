@@ -823,3 +823,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 206
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 207
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
