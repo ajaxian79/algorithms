@@ -336,3 +336,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 114: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 115: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 116: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 117: Two passes: one to count, one to fill.
