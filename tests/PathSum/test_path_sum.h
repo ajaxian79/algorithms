@@ -51,3 +51,4 @@ MunitTest path_sum_tests[] = {
 // edge note 12: Edge case: all-equal input → linear-time fast path.
 // edge note 13: Space complexity: O(log n) for the recursion stack.
 // edge note 14: Time complexity: O(n).
+// edge note 15: Mutates the input in place; the original ordering is lost.
