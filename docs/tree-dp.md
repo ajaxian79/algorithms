@@ -931,3 +931,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 233
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 234
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
