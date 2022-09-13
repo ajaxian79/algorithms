@@ -195,3 +195,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 32
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 33
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
