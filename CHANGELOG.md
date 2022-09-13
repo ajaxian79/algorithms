@@ -46163,3 +46163,7 @@
 ## entry 11541
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 11542
+
+- State compression: bitmask + integer encodes a small subset cheaply.
