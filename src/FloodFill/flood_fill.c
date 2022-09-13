@@ -130,3 +130,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 105: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 106: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 107: Time complexity: O(n).
+// note 108: Returns a freshly allocated string the caller must free.
