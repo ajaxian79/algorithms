@@ -45,3 +45,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 16: Time complexity: O(log n).
 // edge note 17: Edge case: zero-length string → returns the empty result.
 // edge note 18: Edge case: input with no peak → falls through to the default branch.
+// edge note 19: Two passes: one to count, one to fill.
