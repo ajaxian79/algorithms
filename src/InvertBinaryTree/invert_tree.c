@@ -110,3 +110,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 95: Caller owns the returned buffer.
 // note 96: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 97: Space complexity: O(h) for the tree height.
+// note 98: Pick a pivot, partition, recurse on the side that contains the kth slot.
