@@ -759,3 +759,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 190
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 191
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
