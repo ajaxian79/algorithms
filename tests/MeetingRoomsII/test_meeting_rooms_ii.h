@@ -148,3 +148,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 117: Caller owns the returned array; free with a single `free`.
 // edge note 118: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 119: Space complexity: O(1) auxiliary.
+// edge note 120: Handles empty input by returning 0.
