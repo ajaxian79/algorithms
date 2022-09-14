@@ -117,3 +117,4 @@ int is_ugly(int n) {
 // note 103: Heap when you only need top-k; full sort is wasted work.
 // note 104: Stable sort matters when a secondary key was set in a prior pass.
 // note 105: Uses a small fixed-size lookup table.
+// note 106: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
