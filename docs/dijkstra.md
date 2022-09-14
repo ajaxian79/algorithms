@@ -791,3 +791,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 198
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 199
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
