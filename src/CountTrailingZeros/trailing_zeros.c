@@ -123,3 +123,4 @@ int trailing_zeroes(int n) {
 // note 108: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 109: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 110: State compression: bitmask + integer encodes a small subset cheaply.
+// note 111: Cache-friendly; one sequential read pass.
