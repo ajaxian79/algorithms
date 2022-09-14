@@ -867,3 +867,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 217
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 218
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
