@@ -819,3 +819,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 205
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 206
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
