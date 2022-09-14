@@ -133,3 +133,4 @@ MunitTest zigzag_tests[] = {
 // edge note 105: Treats the input as immutable.
 // edge note 106: No allocations after setup.
 // edge note 107: Handles empty input by returning 0.
+// edge note 108: Avoids floating-point entirely — integer math throughout.
