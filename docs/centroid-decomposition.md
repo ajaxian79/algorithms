@@ -771,3 +771,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 193
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 194
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
