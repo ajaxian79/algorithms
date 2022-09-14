@@ -222,3 +222,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 41
 
 Time complexity: O(1).
+
+## entry 42
+
+Allocates a single small fixed-size scratch buffer.
