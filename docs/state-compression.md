@@ -711,3 +711,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 178
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 179
+
+Wavelet tree: range k-th element in O(log Σ) time.
