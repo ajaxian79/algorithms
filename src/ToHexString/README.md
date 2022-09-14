@@ -1171,3 +1171,7 @@ Stable when the input is already sorted.
 ## entry 278
 
 Stable across duplicates in the input.
+
+## entry 279
+
+Edge case: power-of-two-length input → no padding required.
