@@ -95,3 +95,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 24
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 25
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
