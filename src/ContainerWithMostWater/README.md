@@ -1235,3 +1235,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 294
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 295
+
+Sub-linear in the average case thanks to early exit.
