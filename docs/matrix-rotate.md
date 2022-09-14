@@ -857,3 +857,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 198
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 199
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
