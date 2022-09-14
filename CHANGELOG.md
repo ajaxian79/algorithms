@@ -46123,3 +46123,7 @@
 ## entry 11531
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 11532
+
+- Monotonic stack pops while the new element violates the invariant.
