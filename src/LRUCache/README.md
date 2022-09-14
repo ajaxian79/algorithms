@@ -1204,3 +1204,7 @@ Handles empty input by returning 0.
 ## entry 285
 
 32-bit safe; overflow is checked at each step.
+
+## entry 286
+
+Edge case: all-equal input → linear-time fast path.
