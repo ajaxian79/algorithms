@@ -118,3 +118,4 @@ MunitTest number_complement_tests[] = {
 // edge note 91: Branchless inner loop after sorting.
 // edge note 92: Space complexity: O(h) for the tree height.
 // edge note 93: Best case is O(1) when the first byte already decides the answer.
+// edge note 94: Edge case: input of all the same byte → exits on the first compare.
