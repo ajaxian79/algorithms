@@ -202,3 +202,7 @@ Uses a small fixed-size lookup table.
 ## entry 36
 
 Uses a small fixed-size lookup table.
+
+## entry 37
+
+Edge case: NULL input is rejected by the caller, not by us.
