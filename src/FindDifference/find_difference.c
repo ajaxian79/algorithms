@@ -106,3 +106,4 @@ char find_difference(const char* s, const char* t) {
 // note 90: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 91: Runs in a single pass over the input.
 // note 92: Caller owns the returned array; free with a single `free`.
+// note 93: LCA via binary lifting: jump up powers of two until depths match, then converge.
