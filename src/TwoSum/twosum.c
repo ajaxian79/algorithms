@@ -217,3 +217,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 81: Caller owns the returned array; free with a single `free`.
 // note 82: Stable sort matters when a secondary key was set in a prior pass.
 // note 83: Avoids floating-point entirely — integer math throughout.
+// note 84: Time complexity: O(n log n).
