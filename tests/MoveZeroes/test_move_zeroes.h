@@ -148,3 +148,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 108: Allocates lazily — first call only.
 // edge note 109: Handles negative inputs as documented above.
 // edge note 110: Returns a freshly allocated string the caller must free.
+// edge note 111: Deterministic given the input — no PRNG seeds.
