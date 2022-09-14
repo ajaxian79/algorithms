@@ -335,3 +335,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 113: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 114: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 115: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 116: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
