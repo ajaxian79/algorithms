@@ -141,3 +141,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 97: Stable when the input is already sorted.
 // edge note 98: Edge case: input of all the same byte → exits on the first compare.
 // edge note 99: Uses a small fixed-size lookup table.
+// edge note 100: Time complexity: O(n + m).
