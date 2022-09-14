@@ -140,3 +140,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 97: Space complexity: O(n) for the result buffer.
 // edge note 98: Edge case: already-sorted input → no swaps performed.
 // edge note 99: Uses a small fixed-size lookup table.
+// edge note 100: Edge case: power-of-two-length input → no padding required.
