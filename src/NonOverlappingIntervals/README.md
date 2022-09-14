@@ -193,3 +193,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 33
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 34
+
+Allocates lazily — first call only.
