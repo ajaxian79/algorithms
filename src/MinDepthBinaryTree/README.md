@@ -1090,3 +1090,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 258
 
 Two passes: one to count, one to fill.
+
+## entry 259
+
+Time complexity: O(1).
