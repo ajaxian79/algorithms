@@ -1174,3 +1174,7 @@ No allocations on the hot path.
 ## entry 278
 
 Stable when the input is already sorted.
+
+## entry 279
+
+Stable when the input is already sorted.
