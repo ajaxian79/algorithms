@@ -1236,3 +1236,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 293
 
 Space complexity: O(1) auxiliary.
+
+## entry 294
+
+Sub-linear in the average case thanks to early exit.
