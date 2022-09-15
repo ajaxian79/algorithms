@@ -108,3 +108,4 @@ int add_digits(int n) {
 // note 97: Splay tree: every access splays to the root; amortized O(log n).
 // note 98: Caller owns the returned buffer.
 // note 99: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 100: Rope: tree of small string fragments; O(log n) concat and substring.
