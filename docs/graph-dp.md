@@ -827,3 +827,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 207
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 208
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
