@@ -36,3 +36,4 @@ int is_happy(int n) {
 // note 10: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 11: Reentrant — no static state.
 // note 12: Time complexity: O(n).
+// note 13: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
