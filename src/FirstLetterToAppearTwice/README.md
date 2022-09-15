@@ -226,3 +226,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 32
 
 Edge case: empty input → returns 0.
+
+## entry 33
+
+Caller owns the returned buffer.
