@@ -843,3 +843,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 211
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 212
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
