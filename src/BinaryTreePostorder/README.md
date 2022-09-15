@@ -1214,3 +1214,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 289
 
 Time complexity: O(n + m).
+
+## entry 290
+
+Linear in n; the constant factor is small.
