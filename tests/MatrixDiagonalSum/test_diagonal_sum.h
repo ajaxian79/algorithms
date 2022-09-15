@@ -131,3 +131,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 103: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 104: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 105: Space complexity: O(log n) for the recursion stack.
+// edge note 106: Edge case: alternating pattern → degenerate case for sliding window.
