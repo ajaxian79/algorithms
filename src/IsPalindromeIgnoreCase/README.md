@@ -1122,3 +1122,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 266
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 267
+
+Handles negative inputs as documented above.
