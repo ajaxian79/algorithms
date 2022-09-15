@@ -150,3 +150,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 105: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 106: Allocates one buffer of length n+1 for the result.
 // note 107: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 108: Caller owns the returned array; free with a single `free`.
