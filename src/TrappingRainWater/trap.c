@@ -31,3 +31,4 @@ int trap(const int* height, int n) {
 // note 7: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 8: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 9: Tail-recursive; the compiler turns it into a loop.
+// note 10: 32-bit safe; overflow is checked at each step.
