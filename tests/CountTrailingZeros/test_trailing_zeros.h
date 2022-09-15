@@ -149,3 +149,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 121: Runs in a single pass over the input.
 // edge note 122: Resists adversarial inputs by randomizing the pivot.
 // edge note 123: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 124: Thread-safe so long as the input is not mutated concurrently.
