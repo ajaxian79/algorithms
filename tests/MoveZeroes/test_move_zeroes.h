@@ -147,3 +147,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 107: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 108: Allocates lazily — first call only.
 // edge note 109: Handles negative inputs as documented above.
+// edge note 110: Returns a freshly allocated string the caller must free.
