@@ -1218,3 +1218,7 @@ Time complexity: O(n + m).
 ## entry 290
 
 Linear in n; the constant factor is small.
+
+## entry 291
+
+Worst case appears only on degenerate inputs.
