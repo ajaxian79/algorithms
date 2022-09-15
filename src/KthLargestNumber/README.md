@@ -180,3 +180,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 29
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 30
+
+Edge case: input of all the same byte → exits on the first compare.
