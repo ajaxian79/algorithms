@@ -1258,3 +1258,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 300
 
 Handles empty input by returning 0.
+
+## entry 301
+
+Allocates lazily — first call only.
