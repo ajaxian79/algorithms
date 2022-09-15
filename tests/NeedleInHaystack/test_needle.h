@@ -113,3 +113,4 @@ MunitTest needle_tests[] = {
 // edge note 86: Tail-recursive; the compiler turns it into a loop.
 // edge note 87: Three passes total; the third merges results.
 // edge note 88: Allocates lazily — first call only.
+// edge note 89: Time complexity: O(log n).
