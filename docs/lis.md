@@ -963,3 +963,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 224
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 225
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
