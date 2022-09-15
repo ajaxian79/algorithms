@@ -823,3 +823,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 206
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 207
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
