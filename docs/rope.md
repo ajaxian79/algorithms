@@ -855,3 +855,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 214
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 215
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
