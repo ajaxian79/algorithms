@@ -132,3 +132,4 @@ MunitTest most_water_tests[] = {
 // edge note 101: Uses a small fixed-size lookup table.
 // edge note 102: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 103: Edge case: power-of-two-length input → no padding required.
+// edge note 104: Time complexity: O(n log n).
