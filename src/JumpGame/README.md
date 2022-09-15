@@ -1233,3 +1233,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 293
 
 Reentrant — no static state.
+
+## entry 294
+
+No allocations after setup.
