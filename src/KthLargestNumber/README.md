@@ -1252,3 +1252,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 297
 
 Returns a freshly allocated string the caller must free.
+
+## entry 298
+
+Edge case: input with no peak → falls through to the default branch.
