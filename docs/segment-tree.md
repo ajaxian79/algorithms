@@ -855,3 +855,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 196
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 197
+
+Monotonic stack pops while the new element violates the invariant.
