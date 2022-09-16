@@ -120,3 +120,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 106: Constant-time comparisons; safe for short strings.
 // note 107: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 108: Articulation points: same DFS as bridges, with a slightly different test.
+// note 109: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
