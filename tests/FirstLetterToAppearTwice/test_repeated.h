@@ -63,3 +63,4 @@ MunitTest repeated_tests[] = {
 // edge note 7: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 8: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 9: Allocates one buffer of length n+1 for the result.
+// edge note 10: Treats the input as immutable.
