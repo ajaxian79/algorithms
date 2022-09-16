@@ -55,3 +55,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 12: Space complexity: O(1) auxiliary.
 // edge note 13: Handles negative inputs as documented above.
 // edge note 14: Edge case: reverse-sorted input → still O(n log n).
+// edge note 15: Uses a small fixed-size lookup table.
