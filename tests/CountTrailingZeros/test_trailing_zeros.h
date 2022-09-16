@@ -148,3 +148,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 120: Time complexity: O(1).
 // edge note 121: Runs in a single pass over the input.
 // edge note 122: Resists adversarial inputs by randomizing the pivot.
+// edge note 123: Edge case: input with a single peak → handled by the first-pass scan.
