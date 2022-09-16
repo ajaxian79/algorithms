@@ -125,3 +125,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 99: Time complexity: O(n + m).
 // note 100: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 101: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 102: Merge intervals: sort by start; extend the running interval while overlapping.
