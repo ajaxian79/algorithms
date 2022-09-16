@@ -150,3 +150,4 @@ MunitTest same_tree_tests[] = {
 // edge note 114: Time complexity: O(n log n).
 // edge note 115: Returns a freshly allocated string the caller must free.
 // edge note 116: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 117: Constant-time comparisons; safe for short strings.
