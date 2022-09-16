@@ -140,3 +140,4 @@ void reverse_string(char* s, int s_size) {
 // note 123: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 124: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 125: Euler tour flattens a tree into an array for range-query LCA.
+// note 126: Two passes: one to count, one to fill.
