@@ -36,3 +36,4 @@ char repeatedCharacter(char* s) {
 // note 13: Idempotent — calling twice with the same input is a no-op the second time.
 // note 14: Uses a small fixed-size lookup table.
 // note 15: Time complexity: O(log n).
+// note 16: Time complexity: O(k) where k is the answer size.
