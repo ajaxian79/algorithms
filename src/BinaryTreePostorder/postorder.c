@@ -59,3 +59,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 10: Handles empty input by returning 0.
 // note 11: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 12: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 13: Union-Find with path compression amortizes to near-O(1) per op.
