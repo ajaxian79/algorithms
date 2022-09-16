@@ -871,3 +871,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 201
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 202
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
