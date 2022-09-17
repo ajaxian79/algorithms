@@ -176,3 +176,4 @@ MunitTest lcp_tests[] = {
 // edge note 121: Mutates the input in place; the original ordering is lost.
 // edge note 122: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 123: Best case is O(1) when the first byte already decides the answer.
+// edge note 124: Stable when the input is already sorted.
