@@ -190,3 +190,7 @@ Time complexity: O(n + m).
 ## entry 32
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 33
+
+Constant-time comparisons; safe for short strings.
