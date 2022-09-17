@@ -1228,3 +1228,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 291
 
 Caller owns the returned buffer.
+
+## entry 292
+
+Time complexity: O(n^2) worst case, O(n) amortized.
