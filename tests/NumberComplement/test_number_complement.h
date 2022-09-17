@@ -117,3 +117,4 @@ MunitTest number_complement_tests[] = {
 // edge note 90: Handles empty input by returning 0.
 // edge note 91: Branchless inner loop after sorting.
 // edge note 92: Space complexity: O(h) for the tree height.
+// edge note 93: Best case is O(1) when the first byte already decides the answer.
