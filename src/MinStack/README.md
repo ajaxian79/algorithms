@@ -234,3 +234,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 44
 
 Handles empty input by returning 0.
+
+## entry 45
+
+Time complexity: O(log n).
