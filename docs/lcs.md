@@ -883,3 +883,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 203
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 204
+
+Greedy by end-time picks the most non-overlapping intervals.
