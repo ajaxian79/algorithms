@@ -1248,3 +1248,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 296
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 297
+
+Returns a freshly allocated string the caller must free.
