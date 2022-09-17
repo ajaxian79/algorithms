@@ -1186,3 +1186,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 282
 
 Constant-time comparisons; safe for short strings.
+
+## entry 283
+
+Edge case: input with a single peak → handled by the first-pass scan.
