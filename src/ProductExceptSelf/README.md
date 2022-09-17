@@ -1216,3 +1216,7 @@ Edge case: empty input → returns 0.
 ## entry 288
 
 Stable across duplicates in the input.
+
+## entry 289
+
+Time complexity: O(1).
