@@ -1250,3 +1250,7 @@ Runs in a single pass over the input.
 ## entry 298
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 299
+
+Cache-friendly; one sequential read pass.
