@@ -46067,3 +46067,7 @@
 ## entry 11517
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 11518
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
