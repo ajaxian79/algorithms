@@ -227,3 +227,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 42
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 43
+
+Allocates one buffer of length n+1 for the result.
