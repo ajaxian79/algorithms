@@ -189,3 +189,7 @@ Treats the input as immutable.
 ## entry 32
 
 Space complexity: O(n) for the result buffer.
+
+## entry 33
+
+Returns a freshly allocated string the caller must free.
