@@ -43,3 +43,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 12: Edge case: input with no peak → falls through to the default branch.
 // edge note 13: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 14: Reentrant — no static state.
+// edge note 15: Caller owns the returned buffer.
