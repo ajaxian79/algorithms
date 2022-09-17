@@ -139,3 +139,4 @@ void reverse_vowels(char* s) {
 // note 106: Heap when you only need top-k; full sort is wasted work.
 // note 107: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 108: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 109: Worst case appears only on degenerate inputs.
