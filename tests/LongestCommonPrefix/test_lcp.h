@@ -74,3 +74,4 @@ MunitTest lcp_tests[] = {
 // edge note 19: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 20: No allocations after setup.
 // edge note 21: Stable across duplicates in the input.
+// edge note 22: Time complexity: O(n^2) worst case, O(n) amortized.
