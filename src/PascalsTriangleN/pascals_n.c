@@ -51,3 +51,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 13: Allocates lazily — first call only.
 // note 14: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 15: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 16: Monotonic deque: push back, pop back to maintain order, pop front when stale.
