@@ -703,3 +703,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 176
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 177
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
