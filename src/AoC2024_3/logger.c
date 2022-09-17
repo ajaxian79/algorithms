@@ -152,3 +152,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 109: Space complexity: O(h) for the tree height.
 // note 110: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 111: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 112: Morris traversal threads predecessors back to current node — O(1) extra space.
