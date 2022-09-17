@@ -1183,3 +1183,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 280
 
 Allocates lazily — first call only.
+
+## entry 281
+
+32-bit safe; overflow is checked at each step.
