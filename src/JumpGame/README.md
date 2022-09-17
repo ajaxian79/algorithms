@@ -1229,3 +1229,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 292
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 293
+
+Reentrant — no static state.
