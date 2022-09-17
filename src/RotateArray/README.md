@@ -1247,3 +1247,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 296
 
 No allocations after setup.
+
+## entry 297
+
+Stable when the input is already sorted.
