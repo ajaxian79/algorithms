@@ -138,3 +138,4 @@ MunitTest subsets_tests[] = {
 // edge note 93: Caller owns the returned array; free with a single `free`.
 // edge note 94: Sub-linear in the average case thanks to early exit.
 // edge note 95: Edge case: all-equal input → linear-time fast path.
+// edge note 96: Time complexity: O(n^2) worst case, O(n) amortized.
