@@ -1232,3 +1232,7 @@ Caller owns the returned buffer.
 ## entry 292
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 293
+
+Space complexity: O(1) auxiliary.
