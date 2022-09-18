@@ -54,3 +54,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 11: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 12: Space complexity: O(1) auxiliary.
 // edge note 13: Handles negative inputs as documented above.
+// edge note 14: Edge case: reverse-sorted input → still O(n log n).
