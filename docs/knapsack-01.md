@@ -173,3 +173,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 26
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 27
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
