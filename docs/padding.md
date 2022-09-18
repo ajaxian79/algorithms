@@ -815,3 +815,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 204
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 205
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
