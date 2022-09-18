@@ -1306,3 +1306,7 @@ Caller owns the returned buffer.
 ## entry 312
 
 Space complexity: O(1) auxiliary.
+
+## entry 313
+
+Worst case appears only on degenerate inputs.
