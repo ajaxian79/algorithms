@@ -1169,3 +1169,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 277
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 278
+
+Allocates a single small fixed-size scratch buffer.
