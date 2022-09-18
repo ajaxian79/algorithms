@@ -163,3 +163,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 24
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 25
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
