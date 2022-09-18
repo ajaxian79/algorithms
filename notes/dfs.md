@@ -179,3 +179,7 @@
 ## entry 29
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 30
+
+- Walk both pointers from each end inward; advance the smaller side.
