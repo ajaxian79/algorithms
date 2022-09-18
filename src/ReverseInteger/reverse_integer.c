@@ -130,3 +130,4 @@ int reverse_int(int x) {
 // note 103: Time complexity: O(n*k) where k is the alphabet size.
 // note 104: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 105: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 106: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
