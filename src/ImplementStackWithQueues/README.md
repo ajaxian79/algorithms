@@ -236,3 +236,7 @@ No allocations on the hot path.
 ## entry 44
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 45
+
+Tail-recursive; the compiler turns it into a loop.
