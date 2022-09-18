@@ -75,3 +75,4 @@ char** generate_parens(int n, int* return_size) {
 // note 11: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 12: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 13: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 14: ASCII rules are a strict subset of UTF-8; no special handling needed.
