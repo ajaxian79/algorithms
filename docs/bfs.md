@@ -857,3 +857,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 197
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 198
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
