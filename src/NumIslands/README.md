@@ -1165,3 +1165,7 @@ Three passes total; the third merges results.
 ## entry 276
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 277
+
+Edge case: reverse-sorted input → still O(n log n).
