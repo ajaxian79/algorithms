@@ -83,3 +83,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 21
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 22
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
