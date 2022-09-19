@@ -203,3 +203,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 34
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 35
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
