@@ -119,3 +119,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 30
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 31
+
+In-place compaction uses two pointers: read advances always, write only on keep.
