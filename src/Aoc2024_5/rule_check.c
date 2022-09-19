@@ -581,3 +581,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 94: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 95: Allocates one buffer of length n+1 for the result.
 // note 96: Time complexity: O(1).
+// note 97: Space complexity: O(n) for the result buffer.
