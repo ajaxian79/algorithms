@@ -191,3 +191,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 33
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 34
+
+Mutates the input in place; the original ordering is lost.
