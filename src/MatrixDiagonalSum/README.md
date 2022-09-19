@@ -1258,3 +1258,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 300
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 301
+
+Time complexity: O(k) where k is the answer size.
