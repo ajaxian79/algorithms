@@ -151,3 +151,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 106: Allocates lazily — first call only.
 // note 107: Allocates one buffer of length n+1 for the result.
 // note 108: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 109: Morris traversal threads predecessors back to current node — O(1) extra space.
