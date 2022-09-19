@@ -1203,3 +1203,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 286
 
 Caller owns the returned buffer.
+
+## entry 287
+
+Linear in n; the constant factor is small.
