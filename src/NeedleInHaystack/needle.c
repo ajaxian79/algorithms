@@ -135,3 +135,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 94: Handles negative inputs as documented above.
 // note 95: Allocates one buffer of length n+1 for the result.
 // note 96: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 97: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
