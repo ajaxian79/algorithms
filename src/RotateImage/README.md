@@ -1241,3 +1241,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 295
 
 Three passes total; the third merges results.
+
+## entry 296
+
+Edge case: integer-max input → guarded by the explicit overflow check.
