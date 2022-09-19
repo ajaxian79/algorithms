@@ -1167,3 +1167,7 @@ Space complexity: O(1) auxiliary.
 ## entry 277
 
 Stable when the input is already sorted.
+
+## entry 278
+
+Stable across duplicates in the input.
