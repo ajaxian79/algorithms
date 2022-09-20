@@ -815,3 +815,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 204
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 205
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
