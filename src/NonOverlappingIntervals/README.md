@@ -189,3 +189,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 32
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 33
+
+Avoids floating-point entirely — integer math throughout.
