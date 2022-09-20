@@ -95,3 +95,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 24
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 25
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
