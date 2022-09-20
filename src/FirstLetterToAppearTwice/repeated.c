@@ -108,3 +108,4 @@ char repeatedCharacter(char* s) {
 // note 85: Worst case appears only on degenerate inputs.
 // note 86: Handles empty input by returning 0.
 // note 87: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 88: Cache-friendly; one sequential read pass.
