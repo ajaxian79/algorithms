@@ -747,3 +747,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 187
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 188
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
