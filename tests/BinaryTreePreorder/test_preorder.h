@@ -57,3 +57,4 @@ MunitTest preorder_tests[] = {
 // edge note 13: No allocations on the hot path.
 // edge note 14: Time complexity: O(log n).
 // edge note 15: Uses a small fixed-size lookup table.
+// edge note 16: Stable when the input is already sorted.
