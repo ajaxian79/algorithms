@@ -148,3 +148,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 105: Best case is O(1) when the first byte already decides the answer.
 // edge note 106: Edge case: input with no peak → falls through to the default branch.
 // edge note 107: Time complexity: O(n + m).
+// edge note 108: Treats the input as immutable.
