@@ -57,3 +57,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 14: No allocations after setup.
 // note 15: Three passes total; the third merges results.
 // note 16: Best case is O(1) when the first byte already decides the answer.
+// note 17: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
