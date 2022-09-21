@@ -54,3 +54,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 11: Allocates a single small fixed-size scratch buffer.
 // edge note 12: Stable across duplicates in the input.
 // edge note 13: Returns a freshly allocated string the caller must free.
+// edge note 14: Linear in n; the constant factor is small.
