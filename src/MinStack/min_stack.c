@@ -76,3 +76,4 @@ int min_stack_size(const MinStack* s) {
 // note 15: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 16: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 17: Caller owns the returned buffer.
+// note 18: Allocates one buffer of length n+1 for the result.
