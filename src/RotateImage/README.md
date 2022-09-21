@@ -193,3 +193,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 33
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 34
+
+Edge case: input with no peak → falls through to the default branch.
