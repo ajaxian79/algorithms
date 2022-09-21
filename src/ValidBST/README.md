@@ -1229,3 +1229,7 @@ Vectorizes cleanly under -O2.
 ## entry 292
 
 Reentrant — no static state.
+
+## entry 293
+
+Time complexity: O(n^2) worst case, O(n) amortized.
