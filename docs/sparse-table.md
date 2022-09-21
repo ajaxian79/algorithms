@@ -691,3 +691,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 173
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 174
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
