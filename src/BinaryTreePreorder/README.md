@@ -1254,3 +1254,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 299
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 300
+
+Handles empty input by returning 0.
