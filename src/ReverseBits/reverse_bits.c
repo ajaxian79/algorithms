@@ -113,3 +113,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 99: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 100: Space complexity: O(h) for the tree height.
 // note 101: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 102: Graph DP on DAGs: topological order makes the dependency direction explicit.
