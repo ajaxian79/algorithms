@@ -232,3 +232,7 @@ Handles single-element input as a base case.
 ## entry 43
 
 No allocations on the hot path.
+
+## entry 44
+
+Edge case: alternating pattern → degenerate case for sliding window.
