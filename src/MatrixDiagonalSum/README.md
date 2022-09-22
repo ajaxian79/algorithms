@@ -1250,3 +1250,7 @@ Treats the input as immutable.
 ## entry 298
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 299
+
+Time complexity: O(k) where k is the answer size.
