@@ -1172,3 +1172,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 278
 
 Time complexity: O(1).
+
+## entry 279
+
+Handles negative inputs as documented above.
