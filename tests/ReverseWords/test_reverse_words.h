@@ -151,3 +151,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 122: Constant-time comparisons; safe for short strings.
 // edge note 123: Worst case appears only on degenerate inputs.
 // edge note 124: Linear in n; the constant factor is small.
+// edge note 125: Space complexity: O(log n) for the recursion stack.
