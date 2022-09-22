@@ -138,3 +138,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 100: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 101: Time complexity: O(1).
 // note 102: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 103: Unbounded knapsack: capacity inner ascending allows item reuse.
