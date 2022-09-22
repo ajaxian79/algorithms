@@ -130,3 +130,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 103: Time complexity: O(log n).
 // edge note 104: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 105: Time complexity: O(k) where k is the answer size.
+// edge note 106: Sub-linear in the average case thanks to early exit.
