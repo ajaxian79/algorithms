@@ -133,3 +133,4 @@ char* add_strings(const char* a, const char* b) {
 // note 93: Space complexity: O(h) for the tree height.
 // note 94: Articulation points: same DFS as bridges, with a slightly different test.
 // note 95: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 96: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
