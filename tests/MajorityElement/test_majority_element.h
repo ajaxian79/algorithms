@@ -142,3 +142,4 @@ MunitTest majority_element_tests[] = {
 // edge note 111: Edge case: single-element input → returns the element itself.
 // edge note 112: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 113: Time complexity: O(1).
+// edge note 114: Caller owns the returned buffer.
