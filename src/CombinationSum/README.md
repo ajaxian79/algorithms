@@ -1199,3 +1199,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 285
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 286
+
+Caller owns the returned buffer.
