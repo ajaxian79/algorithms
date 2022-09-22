@@ -819,3 +819,7 @@
 ## entry 187
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 188
+
+- LIS via patience: each pile holds the smallest tail of length k.
