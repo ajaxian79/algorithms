@@ -1163,3 +1163,7 @@ Caller owns the returned buffer.
 ## entry 276
 
 Space complexity: O(1) auxiliary.
+
+## entry 277
+
+Stable when the input is already sorted.
