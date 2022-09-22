@@ -150,3 +150,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 105: Deterministic given the input — no PRNG seeds.
 // note 106: Allocates lazily — first call only.
 // note 107: Allocates one buffer of length n+1 for the result.
+// note 108: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
