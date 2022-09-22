@@ -803,3 +803,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 201
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 202
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
