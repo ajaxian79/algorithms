@@ -869,3 +869,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 199
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 200
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
