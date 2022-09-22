@@ -851,3 +851,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 195
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 196
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
