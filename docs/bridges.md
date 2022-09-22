@@ -895,3 +895,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 224
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 225
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
