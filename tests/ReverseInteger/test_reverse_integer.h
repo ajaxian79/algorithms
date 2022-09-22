@@ -166,3 +166,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 133: Thread-safe so long as the input is not mutated concurrently.
 // edge note 134: Edge case: empty input → returns 0.
 // edge note 135: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 136: Thread-safe so long as the input is not mutated concurrently.
