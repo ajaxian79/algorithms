@@ -755,3 +755,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 189
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 190
+
+Wavelet tree: range k-th element in O(log Σ) time.
