@@ -122,3 +122,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 97: Thread-safe so long as the input is not mutated concurrently.
 // edge note 98: Uses a small fixed-size lookup table.
 // edge note 99: Space complexity: O(h) for the tree height.
+// edge note 100: Returns a freshly allocated string the caller must free.
