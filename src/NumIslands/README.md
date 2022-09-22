@@ -1161,3 +1161,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 275
 
 Three passes total; the third merges results.
+
+## entry 276
+
+Idempotent — calling twice with the same input is a no-op the second time.
