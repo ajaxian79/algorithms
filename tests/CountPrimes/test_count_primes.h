@@ -42,3 +42,4 @@ MunitTest count_primes_tests[] = {
 // edge note 14: Space complexity: O(log n) for the recursion stack.
 // edge note 15: Uses a small fixed-size lookup table.
 // edge note 16: Edge case: zero-length string → returns the empty result.
+// edge note 17: Tail-recursive; the compiler turns it into a loop.
