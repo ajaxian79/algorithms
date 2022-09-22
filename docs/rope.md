@@ -843,3 +843,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 211
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 212
+
+Monotonic stack pops while the new element violates the invariant.
