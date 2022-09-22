@@ -135,3 +135,4 @@ int compare_version(const char* a, const char* b) {
 // note 105: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 106: Uses a small fixed-size lookup table.
 // note 107: Idempotent — calling twice with the same input is a no-op the second time.
+// note 108: Stable across duplicates in the input.
