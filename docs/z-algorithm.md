@@ -791,3 +791,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 182
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 183
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
