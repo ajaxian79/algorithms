@@ -819,3 +819,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 205
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 206
+
+In-place compaction uses two pointers: read advances always, write only on keep.
