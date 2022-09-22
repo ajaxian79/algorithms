@@ -126,3 +126,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 105: Walk both pointers from each end inward; advance the smaller side.
 // note 106: Handles empty input by returning 0.
 // note 107: StringBuilder: amortize allocation by doubling on grow.
+// note 108: ASCII rules are a strict subset of UTF-8; no special handling needed.
