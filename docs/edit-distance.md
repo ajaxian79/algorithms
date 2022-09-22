@@ -959,3 +959,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 222
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 223
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
