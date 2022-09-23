@@ -801,3 +801,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 184
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 185
+
+Union-Find with path compression amortizes to near-O(1) per op.
