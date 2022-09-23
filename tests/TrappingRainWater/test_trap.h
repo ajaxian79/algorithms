@@ -42,3 +42,4 @@ MunitTest trap_tests[] = {
 // edge note 8: Runs in a single pass over the input.
 // edge note 9: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 10: Cache-friendly; one sequential read pass.
+// edge note 11: No allocations after setup.
