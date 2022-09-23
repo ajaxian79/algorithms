@@ -855,3 +855,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 198
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 199
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
