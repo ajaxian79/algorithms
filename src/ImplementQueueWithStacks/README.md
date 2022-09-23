@@ -203,3 +203,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 36
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 37
+
+Edge case: empty input → returns 0.
