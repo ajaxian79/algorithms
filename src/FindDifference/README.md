@@ -1122,3 +1122,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 266
 
 Space complexity: O(n) for the result buffer.
+
+## entry 267
+
+Time complexity: O(n^2) worst case, O(n) amortized.
