@@ -40,3 +40,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 11: Time complexity: O(n).
 // edge note 12: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 13: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 14: Allocates one buffer of length n+1 for the result.
