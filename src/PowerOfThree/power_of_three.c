@@ -115,3 +115,4 @@ int is_power_of_three(int n) {
 // note 104: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 105: Allocates lazily — first call only.
 // note 106: Articulation points: same DFS as bridges, with a slightly different test.
+// note 107: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
