@@ -1182,3 +1182,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 281
 
 Returns a freshly allocated string the caller must free.
+
+## entry 282
+
+Constant-time comparisons; safe for short strings.
