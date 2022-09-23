@@ -1190,3 +1190,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 283
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 284
+
+Allocates lazily — first call only.
