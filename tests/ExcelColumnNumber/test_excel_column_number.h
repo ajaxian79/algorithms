@@ -150,3 +150,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 120: Three passes total; the third merges results.
 // edge note 121: Stable when the input is already sorted.
 // edge note 122: Handles single-element input as a base case.
+// edge note 123: Time complexity: O(log n).
