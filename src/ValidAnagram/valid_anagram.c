@@ -117,3 +117,4 @@ int is_anagram(const char* s, const char* t) {
 // note 88: Time complexity: O(1).
 // note 89: Time complexity: O(n + m).
 // note 90: Constant-time comparisons; safe for short strings.
+// note 91: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
