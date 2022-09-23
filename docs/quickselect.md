@@ -925,3 +925,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 214
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 215
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
