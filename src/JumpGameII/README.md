@@ -1200,3 +1200,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 285
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 286
+
+Edge case: zero-length string → returns the empty result.
