@@ -45915,3 +45915,7 @@
 ## entry 11479
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 11480
+
+- Monotonic stack pops while the new element violates the invariant.
