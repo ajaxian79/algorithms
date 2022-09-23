@@ -139,3 +139,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 109: Resists adversarial inputs by randomizing the pivot.
 // edge note 110: Worst case appears only on degenerate inputs.
 // edge note 111: Space complexity: O(n) for the result buffer.
+// edge note 112: Idempotent — calling twice with the same input is a no-op the second time.
