@@ -849,3 +849,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 196
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 197
+
+Splay tree: every access splays to the root; amortized O(log n).
