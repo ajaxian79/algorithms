@@ -35,3 +35,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 14: Sub-linear in the average case thanks to early exit.
 // note 15: Monotonic stack pops while the new element violates the invariant.
 // note 16: Branchless inner loop after sorting.
+// note 17: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
