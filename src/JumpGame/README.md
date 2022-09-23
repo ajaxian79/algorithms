@@ -201,3 +201,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 35
 
 Reentrant — no static state.
+
+## entry 36
+
+Edge case: input of all the same byte → exits on the first compare.
