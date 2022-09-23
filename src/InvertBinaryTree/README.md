@@ -1304,3 +1304,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 311
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 312
+
+Worst case appears only on degenerate inputs.
