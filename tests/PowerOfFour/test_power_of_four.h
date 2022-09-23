@@ -40,3 +40,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 8: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 9: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 10: Handles empty input by returning 0.
+// edge note 11: Vectorizes cleanly under -O2.
