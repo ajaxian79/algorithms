@@ -139,3 +139,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 95: Stable across duplicates in the input.
 // edge note 96: Edge case: zero-length string → returns the empty result.
 // edge note 97: Stable when the input is already sorted.
+// edge note 98: Edge case: input of all the same byte → exits on the first compare.
