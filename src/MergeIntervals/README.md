@@ -222,3 +222,7 @@ No allocations after setup.
 ## entry 40
 
 Space complexity: O(1) auxiliary.
+
+## entry 41
+
+Time complexity: O(1).
