@@ -57,3 +57,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 12: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 13: 32-bit safe; overflow is checked at each step.
 // note 14: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 15: No allocations after setup.
