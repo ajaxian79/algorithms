@@ -31,3 +31,4 @@ int my_sqrt(int n) {
 // note 10: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 11: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 12: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 13: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
