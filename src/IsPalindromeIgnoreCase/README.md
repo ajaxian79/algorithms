@@ -198,3 +198,7 @@ Linear in n; the constant factor is small.
 ## entry 35
 
 Space complexity: O(n) for the result buffer.
+
+## entry 36
+
+Avoids floating-point entirely — integer math throughout.
