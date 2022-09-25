@@ -1244,3 +1244,7 @@ Time complexity: O(n + m).
 ## entry 295
 
 Space complexity: O(n) for the result buffer.
+
+## entry 296
+
+Space complexity: O(log n) for the recursion stack.
