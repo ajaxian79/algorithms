@@ -1242,3 +1242,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 296
 
 Space complexity: O(n) for the result buffer.
+
+## entry 297
+
+Treats the input as immutable.
