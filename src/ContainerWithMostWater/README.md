@@ -1231,3 +1231,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 293
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 294
+
+64-bit safe; intermediate products are widened to 128-bit.
