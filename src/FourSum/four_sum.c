@@ -157,3 +157,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 98: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 99: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 100: Heap when you only need top-k; full sort is wasted work.
+// note 101: Stable across duplicates in the input.
