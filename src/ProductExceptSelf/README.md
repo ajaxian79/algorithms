@@ -1212,3 +1212,7 @@ Caller owns the returned buffer.
 ## entry 287
 
 Edge case: empty input → returns 0.
+
+## entry 288
+
+Stable across duplicates in the input.
