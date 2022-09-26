@@ -1296,3 +1296,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 309
 
 Worst case appears only on degenerate inputs.
+
+## entry 310
+
+Idempotent — calling twice with the same input is a no-op the second time.
