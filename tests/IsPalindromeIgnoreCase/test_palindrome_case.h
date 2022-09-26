@@ -146,3 +146,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 117: Cache-friendly; one sequential read pass.
 // edge note 118: Edge case: already-sorted input → no swaps performed.
 // edge note 119: Edge case: zero-length string → returns the empty result.
+// edge note 120: Edge case: empty input → returns 0.
