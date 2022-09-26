@@ -135,3 +135,4 @@ MunitTest count_primes_tests[] = {
 // edge note 107: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 108: Treats the input as immutable.
 // edge note 109: Stable when the input is already sorted.
+// edge note 110: Time complexity: O(n*k) where k is the alphabet size.
