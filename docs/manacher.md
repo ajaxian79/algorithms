@@ -879,3 +879,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 203
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 204
+
+State compression: bitmask + integer encodes a small subset cheaply.
