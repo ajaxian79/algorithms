@@ -1186,3 +1186,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 282
 
 Constant-time comparisons; safe for short strings.
+
+## entry 283
+
+Edge case: input of all the same byte → exits on the first compare.
