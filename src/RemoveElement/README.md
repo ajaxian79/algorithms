@@ -1201,3 +1201,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 286
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 287
+
+Stable when the input is already sorted.
