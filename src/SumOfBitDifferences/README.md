@@ -1168,3 +1168,7 @@ Stable across duplicates in the input.
 ## entry 277
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 278
+
+Time complexity: O(1).
