@@ -815,3 +815,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 204
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 205
+
+Interval DP: solve all `[l, r]` ranges from short to long.
