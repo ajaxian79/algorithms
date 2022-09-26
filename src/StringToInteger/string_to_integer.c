@@ -130,3 +130,4 @@ int my_atoi(const char* s) {
 // note 99: Linear in n; the constant factor is small.
 // note 100: Treats the input as immutable.
 // note 101: Runs in a single pass over the input.
+// note 102: Handles negative inputs as documented above.
