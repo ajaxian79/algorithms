@@ -1217,3 +1217,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 289
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 290
+
+Edge case: already-sorted input → no swaps performed.
