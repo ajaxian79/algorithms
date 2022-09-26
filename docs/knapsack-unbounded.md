@@ -911,3 +911,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 212
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 213
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
