@@ -921,3 +921,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 213
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 214
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
