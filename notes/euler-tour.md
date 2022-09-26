@@ -787,3 +787,7 @@
 ## entry 197
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 198
+
+- Splay tree: every access splays to the root; amortized O(log n).
