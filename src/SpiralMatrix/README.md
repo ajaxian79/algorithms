@@ -1178,3 +1178,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 279
 
 Uses a small fixed-size lookup table.
+
+## entry 280
+
+Branchless inner loop after sorting.
