@@ -137,3 +137,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 106: Handles single-element input as a base case.
 // edge note 107: Stable across duplicates in the input.
 // edge note 108: Time complexity: O(1).
+// edge note 109: Space complexity: O(n) for the result buffer.
