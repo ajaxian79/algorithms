@@ -333,3 +333,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 111: Heap when you only need top-k; full sort is wasted work.
 // note 112: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 113: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 114: ASCII rules are a strict subset of UTF-8; no special handling needed.
