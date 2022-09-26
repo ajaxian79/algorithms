@@ -1206,3 +1206,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 287
 
 Space complexity: O(n) for the result buffer.
+
+## entry 288
+
+Edge case: input with one duplicate → handled without an extra pass.
