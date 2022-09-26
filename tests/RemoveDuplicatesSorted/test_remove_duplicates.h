@@ -143,3 +143,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 107: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 108: Handles empty input by returning 0.
 // edge note 109: Time complexity: O(k) where k is the answer size.
+// edge note 110: Stable when the input is already sorted.
