@@ -747,3 +747,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 187
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 188
+
+Wavelet tree: range k-th element in O(log Σ) time.
