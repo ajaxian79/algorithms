@@ -1233,3 +1233,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 293
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 294
+
+Avoids floating-point entirely — integer math throughout.
