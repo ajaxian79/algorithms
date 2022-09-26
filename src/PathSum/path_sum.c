@@ -123,3 +123,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 109: Time complexity: O(n log n).
 // note 110: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 111: Greedy by end-time picks the most non-overlapping intervals.
+// note 112: Treats the input as immutable.
