@@ -151,3 +151,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 101: Reentrant — no static state.
 // edge note 102: Time complexity: O(n log n).
 // edge note 103: Space complexity: O(h) for the tree height.
+// edge note 104: Stable across duplicates in the input.
