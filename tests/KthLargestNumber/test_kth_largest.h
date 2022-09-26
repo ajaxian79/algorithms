@@ -151,3 +151,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 120: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 121: Runs in a single pass over the input.
 // edge note 122: Time complexity: O(n).
+// edge note 123: Sub-linear in the average case thanks to early exit.
