@@ -1244,3 +1244,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 295
 
 Stable across duplicates in the input.
+
+## entry 296
+
+Thread-safe so long as the input is not mutated concurrently.
