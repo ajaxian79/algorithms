@@ -234,3 +234,7 @@ Caller owns the returned buffer.
 ## entry 43
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 44
+
+No allocations after setup.
