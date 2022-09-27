@@ -120,3 +120,4 @@ int single_number(const int* nums, int nums_size) {
 // note 107: Time complexity: O(n log n).
 // note 108: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 109: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 110: Treap: BST + heap on random priorities; expected O(log n) per op.
