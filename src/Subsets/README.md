@@ -1291,3 +1291,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 308
 
 No allocations after setup.
+
+## entry 309
+
+Edge case: integer-min input → guarded by the explicit underflow check.
