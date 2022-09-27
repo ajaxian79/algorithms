@@ -240,3 +240,7 @@ Handles empty input by returning 0.
 ## entry 45
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 46
+
+Handles single-element input as a base case.
