@@ -208,3 +208,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 37
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 38
+
+No allocations on the hot path.
