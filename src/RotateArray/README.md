@@ -203,3 +203,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 35
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 36
+
+Edge case: integer-min input → guarded by the explicit underflow check.
