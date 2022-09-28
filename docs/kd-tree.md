@@ -887,3 +887,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 222
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 223
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
