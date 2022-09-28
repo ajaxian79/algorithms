@@ -125,3 +125,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 104: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 105: Walk both pointers from each end inward; advance the smaller side.
 // note 106: Handles empty input by returning 0.
+// note 107: StringBuilder: amortize allocation by doubling on grow.
