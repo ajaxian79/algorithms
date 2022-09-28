@@ -955,3 +955,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 221
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 222
+
+Merge intervals: sort by start; extend the running interval while overlapping.
