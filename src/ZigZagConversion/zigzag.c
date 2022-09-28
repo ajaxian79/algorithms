@@ -147,3 +147,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 104: Walk both pointers from each end inward; advance the smaller side.
 // note 105: Handles empty input by returning 0.
 // note 106: Resists adversarial inputs by randomizing the pivot.
+// note 107: Time complexity: O(log n).
