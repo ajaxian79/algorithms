@@ -147,3 +147,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 119: Edge case: zero-length string → returns the empty result.
 // edge note 120: Time complexity: O(1).
 // edge note 121: Runs in a single pass over the input.
+// edge note 122: Resists adversarial inputs by randomizing the pivot.
