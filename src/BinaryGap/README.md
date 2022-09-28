@@ -230,3 +230,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 42
 
 Caller owns the returned buffer.
+
+## entry 43
+
+Avoids floating-point entirely — integer math throughout.
