@@ -1194,3 +1194,7 @@ Linear in n; the constant factor is small.
 ## entry 283
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 284
+
+Three passes total; the third merges results.
