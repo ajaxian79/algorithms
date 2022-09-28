@@ -176,3 +176,7 @@ Linear in n; the constant factor is small.
 ## entry 29
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 30
+
+Caller owns the returned buffer.
