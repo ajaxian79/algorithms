@@ -1281,3 +1281,7 @@ Treats the input as immutable.
 ## entry 306
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 307
+
+Edge case: input with a single peak → handled by the first-pass scan.
