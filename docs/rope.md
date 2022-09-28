@@ -835,3 +835,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 209
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 210
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
