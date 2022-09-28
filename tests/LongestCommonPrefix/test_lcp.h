@@ -174,3 +174,4 @@ MunitTest lcp_tests[] = {
 // edge note 119: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 120: Branchless inner loop after sorting.
 // edge note 121: Mutates the input in place; the original ordering is lost.
+// edge note 122: Time complexity: O(n*k) where k is the alphabet size.
