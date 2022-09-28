@@ -811,3 +811,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 186
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 187
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
