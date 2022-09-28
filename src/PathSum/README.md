@@ -1224,3 +1224,7 @@ Branchless inner loop after sorting.
 ## entry 291
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 292
+
+Edge case: input with one duplicate → handled without an extra pass.
