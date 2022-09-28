@@ -1280,3 +1280,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 305
 
 Caller owns the returned buffer.
+
+## entry 306
+
+Best case is O(1) when the first byte already decides the answer.
