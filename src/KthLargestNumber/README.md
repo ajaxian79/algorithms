@@ -1240,3 +1240,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 294
 
 Time complexity: O(n + m).
+
+## entry 295
+
+Space complexity: O(n) for the result buffer.
