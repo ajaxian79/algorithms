@@ -1287,3 +1287,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 307
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 308
+
+No allocations after setup.
