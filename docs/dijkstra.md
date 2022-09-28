@@ -787,3 +787,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 197
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 198
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
