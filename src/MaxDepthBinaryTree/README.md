@@ -1221,3 +1221,7 @@ No allocations on the hot path.
 ## entry 291
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 292
+
+Handles negative inputs as documented above.
