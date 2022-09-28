@@ -1118,3 +1118,7 @@ Time complexity: O(n).
 ## entry 265
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 266
+
+Space complexity: O(n) for the result buffer.
