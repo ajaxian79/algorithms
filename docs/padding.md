@@ -811,3 +811,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 203
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 204
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
