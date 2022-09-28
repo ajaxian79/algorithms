@@ -961,3 +961,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 224
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 225
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
