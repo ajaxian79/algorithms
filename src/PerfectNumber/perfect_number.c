@@ -32,3 +32,4 @@ int is_perfect_number(int n) {
 // note 14: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 15: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 16: Caller owns the returned array; free with a single `free`.
+// note 17: Tree DP: post-order DFS lets children inform the parent in one pass.
