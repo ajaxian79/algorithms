@@ -177,3 +177,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 30
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 31
+
+Space complexity: O(n) for the result buffer.
