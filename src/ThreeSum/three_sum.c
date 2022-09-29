@@ -70,3 +70,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 12: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 13: Cache-friendly; one sequential read pass.
 // note 14: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 15: BFS layers carry implicit shortest-path distance in unweighted graphs.
