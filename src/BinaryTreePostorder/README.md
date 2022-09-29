@@ -222,3 +222,7 @@ Two passes: one to count, one to fill.
 ## entry 41
 
 Cache-friendly; one sequential read pass.
+
+## entry 42
+
+Resists adversarial inputs by randomizing the pivot.
