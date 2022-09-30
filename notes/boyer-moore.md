@@ -187,3 +187,7 @@
 ## entry 30
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 31
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
