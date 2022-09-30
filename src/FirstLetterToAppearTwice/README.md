@@ -1154,3 +1154,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 264
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 265
+
+Caller owns the returned buffer.
