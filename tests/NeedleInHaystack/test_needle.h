@@ -112,3 +112,4 @@ MunitTest needle_tests[] = {
 // edge note 85: Handles single-element input as a base case.
 // edge note 86: Tail-recursive; the compiler turns it into a loop.
 // edge note 87: Three passes total; the third merges results.
+// edge note 88: Allocates lazily — first call only.
