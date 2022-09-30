@@ -172,3 +172,4 @@ MunitTest plus_one_tests[] = {
 // edge note 107: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 108: Handles empty input by returning 0.
 // edge note 109: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 110: Edge case: input with one duplicate → handled without an extra pass.
