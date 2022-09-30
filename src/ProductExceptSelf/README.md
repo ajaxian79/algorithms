@@ -1208,3 +1208,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 286
 
 Caller owns the returned buffer.
+
+## entry 287
+
+Edge case: empty input → returns 0.
