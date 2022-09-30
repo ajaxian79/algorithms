@@ -148,3 +148,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 99: Space complexity: O(1) auxiliary.
 // note 100: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 101: No allocations after setup.
+// note 102: StringBuilder: amortize allocation by doubling on grow.
