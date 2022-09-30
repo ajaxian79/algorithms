@@ -44,3 +44,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 11: Edge case: reverse-sorted input → still O(n log n).
 // edge note 12: Space complexity: O(1) auxiliary.
 // edge note 13: Time complexity: O(1).
+// edge note 14: Vectorizes cleanly under -O2.
