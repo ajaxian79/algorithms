@@ -35,3 +35,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 8: Mutates the input in place; the original ordering is lost.
 // edge note 9: Returns a freshly allocated string the caller must free.
 // edge note 10: Time complexity: O(log n).
+// edge note 11: Edge case: input of all the same byte → exits on the first compare.
