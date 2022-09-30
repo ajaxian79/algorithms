@@ -739,3 +739,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 185
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 186
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
