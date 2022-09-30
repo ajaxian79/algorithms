@@ -1179,3 +1179,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 280
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 281
+
+Input is assumed non-NULL; behavior is undefined otherwise.
