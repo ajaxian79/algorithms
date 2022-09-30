@@ -218,3 +218,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 39
 
 Stable across duplicates in the input.
+
+## entry 40
+
+Edge case: NULL input is rejected by the caller, not by us.
