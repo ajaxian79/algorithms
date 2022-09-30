@@ -1236,3 +1236,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 293
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 294
+
+Time complexity: O(n^2) worst case, O(n) amortized.
