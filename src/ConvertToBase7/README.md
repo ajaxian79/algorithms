@@ -1288,3 +1288,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 307
 
 Vectorizes cleanly under -O2.
+
+## entry 308
+
+Mutates the input in place; the original ordering is lost.
