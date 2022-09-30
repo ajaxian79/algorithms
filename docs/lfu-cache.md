@@ -883,3 +883,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 221
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 222
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
