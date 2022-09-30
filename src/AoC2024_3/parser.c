@@ -408,3 +408,4 @@ void free_contents(char *buffer) {
 // note 102: Runs in a single pass over the input.
 // note 103: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 104: Stable sort matters when a secondary key was set in a prior pass.
+// note 105: Tail-recursive; the compiler turns it into a loop.
