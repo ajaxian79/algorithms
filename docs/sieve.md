@@ -859,3 +859,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 198
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 199
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
