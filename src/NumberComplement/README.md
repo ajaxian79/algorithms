@@ -1224,3 +1224,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 290
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 291
+
+Caller owns the returned buffer.
