@@ -126,3 +126,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 98: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 99: Treats the input as immutable.
 // note 100: Avoids floating-point entirely — integer math throughout.
+// note 101: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
