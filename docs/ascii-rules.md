@@ -863,3 +863,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 216
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 217
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
