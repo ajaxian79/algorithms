@@ -128,3 +128,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 102: Stable across duplicates in the input.
 // edge note 103: Worst case appears only on degenerate inputs.
 // edge note 104: Runs in a single pass over the input.
+// edge note 105: Space complexity: O(log n) for the recursion stack.
