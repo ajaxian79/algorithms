@@ -955,3 +955,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 222
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 223
+
+Endianness matters when serializing multi-byte ints to a file or wire.
