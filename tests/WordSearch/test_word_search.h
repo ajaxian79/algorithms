@@ -151,3 +151,4 @@ MunitTest word_search_tests[] = {
 // edge note 117: Time complexity: O(k) where k is the answer size.
 // edge note 118: Returns a freshly allocated string the caller must free.
 // edge note 119: Avoids floating-point entirely — integer math throughout.
+// edge note 120: Idempotent — calling twice with the same input is a no-op the second time.
