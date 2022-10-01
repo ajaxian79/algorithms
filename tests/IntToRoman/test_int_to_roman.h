@@ -62,3 +62,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 23: Reentrant — no static state.
 // edge note 24: Reentrant — no static state.
 // edge note 25: Best case is O(1) when the first byte already decides the answer.
+// edge note 26: Uses a 256-entry lookup for the inner step.
