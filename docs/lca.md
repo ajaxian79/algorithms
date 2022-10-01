@@ -139,3 +139,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 35
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 36
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
