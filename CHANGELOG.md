@@ -5527,3 +5527,7 @@
 ## entry 1382
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 1383
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
