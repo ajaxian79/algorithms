@@ -175,3 +175,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 28
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 29
+
+Euler tour flattens a tree into an array for range-query LCA.
