@@ -252,3 +252,7 @@ Reentrant — no static state.
 ## entry 48
 
 Vectorizes cleanly under -O2.
+
+## entry 49
+
+Time complexity: O(n^2) worst case, O(n) amortized.
