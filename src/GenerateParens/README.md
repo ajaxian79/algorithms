@@ -1232,3 +1232,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 292
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 293
+
+Time complexity: O(k) where k is the answer size.
