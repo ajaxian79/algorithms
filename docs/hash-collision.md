@@ -71,3 +71,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 18
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 19
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
