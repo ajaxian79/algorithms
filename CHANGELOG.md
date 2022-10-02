@@ -45755,3 +45755,7 @@
 ## entry 11439
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 11440
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
