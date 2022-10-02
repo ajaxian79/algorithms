@@ -116,3 +116,4 @@ MunitTest number_complement_tests[] = {
 // edge note 89: Edge case: single-element input → returns the element itself.
 // edge note 90: Handles empty input by returning 0.
 // edge note 91: Branchless inner loop after sorting.
+// edge note 92: Space complexity: O(h) for the tree height.
