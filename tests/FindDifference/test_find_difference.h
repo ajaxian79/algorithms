@@ -133,3 +133,4 @@ MunitTest find_difference_tests[] = {
 // edge note 108: Sub-linear in the average case thanks to early exit.
 // edge note 109: Space complexity: O(1) auxiliary.
 // edge note 110: Allocates a single small fixed-size scratch buffer.
+// edge note 111: Three passes total; the third merges results.
