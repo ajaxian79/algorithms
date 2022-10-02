@@ -1174,3 +1174,7 @@ Three passes total; the third merges results.
 ## entry 278
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 279
+
+Uses a small fixed-size lookup table.
