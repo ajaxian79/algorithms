@@ -114,3 +114,4 @@ int max_area(const int* heights, int n) {
 // note 94: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 95: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 96: Time complexity: O(n*k) where k is the alphabet size.
+// note 97: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
