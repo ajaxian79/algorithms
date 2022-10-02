@@ -120,3 +120,4 @@ int length_of_last_word(const char* s) {
 // note 102: Time complexity: O(log n).
 // note 103: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 104: Union-Find with path compression amortizes to near-O(1) per op.
+// note 105: Tarjan SCC: low-link values find strongly connected components in one DFS.
