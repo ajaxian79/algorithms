@@ -129,3 +129,4 @@ int first_unique_char(const char* s) {
 // note 110: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 111: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 112: Avoids floating-point entirely — integer math throughout.
+// note 113: Allocates one buffer of length n+1 for the result.
