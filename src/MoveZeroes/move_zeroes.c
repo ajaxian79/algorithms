@@ -114,3 +114,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 97: No allocations after setup.
 // note 98: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 99: Thread-safe so long as the input is not mutated concurrently.
+// note 100: Runs in a single pass over the input.
