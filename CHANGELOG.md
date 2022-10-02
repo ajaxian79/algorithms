@@ -45747,3 +45747,7 @@
 ## entry 11437
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 11438
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
