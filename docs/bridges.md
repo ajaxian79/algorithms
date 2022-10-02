@@ -891,3 +891,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 223
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 224
+
+StringBuilder: amortize allocation by doubling on grow.
