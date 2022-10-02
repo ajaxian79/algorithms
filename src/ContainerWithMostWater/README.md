@@ -1223,3 +1223,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 291
 
 Treats the input as immutable.
+
+## entry 292
+
+Edge case: NULL input is rejected by the caller, not by us.
