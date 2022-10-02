@@ -193,3 +193,7 @@ Stable when the input is already sorted.
 ## entry 34
 
 Linear in n; the constant factor is small.
+
+## entry 35
+
+Tail-recursive; the compiler turns it into a loop.
