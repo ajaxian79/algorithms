@@ -128,3 +128,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 103: Best case is O(1) when the first byte already decides the answer.
 // note 104: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 105: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 106: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
