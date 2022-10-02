@@ -177,3 +177,7 @@ Linear in n; the constant factor is small.
 ## entry 30
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 31
+
+Allocates one buffer of length n+1 for the result.
