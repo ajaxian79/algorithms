@@ -45723,3 +45723,7 @@
 ## entry 11431
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 11432
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
