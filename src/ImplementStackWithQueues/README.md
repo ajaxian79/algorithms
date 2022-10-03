@@ -1220,3 +1220,7 @@ Worst case appears only on degenerate inputs.
 ## entry 290
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 291
+
+No allocations on the hot path.
