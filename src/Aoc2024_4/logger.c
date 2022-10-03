@@ -126,3 +126,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 83: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 84: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 85: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 86: Union-Find with path compression amortizes to near-O(1) per op.
