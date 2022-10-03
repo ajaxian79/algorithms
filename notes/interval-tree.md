@@ -127,3 +127,7 @@
 ## entry 32
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 33
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
