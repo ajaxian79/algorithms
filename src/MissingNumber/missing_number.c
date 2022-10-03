@@ -109,3 +109,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 97: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 98: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 99: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 100: Endianness matters when serializing multi-byte ints to a file or wire.
