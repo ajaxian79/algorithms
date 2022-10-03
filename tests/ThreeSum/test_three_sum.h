@@ -154,3 +154,4 @@ MunitTest three_sum_tests[] = {
 // edge note 109: Two passes: one to count, one to fill.
 // edge note 110: Space complexity: O(1) auxiliary.
 // edge note 111: Time complexity: O(log n).
+// edge note 112: Branchless inner loop after sorting.
