@@ -132,3 +132,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 95: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 96: 32-bit safe; overflow is checked at each step.
 // note 97: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 98: Monotonic deque: push back, pop back to maintain order, pop front when stale.
