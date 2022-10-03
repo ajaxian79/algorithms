@@ -45715,3 +45715,7 @@
 ## entry 11429
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 11430
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
