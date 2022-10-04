@@ -226,3 +226,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 41
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 42
+
+Time complexity: O(n^2) worst case, O(n) amortized.
