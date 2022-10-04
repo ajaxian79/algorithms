@@ -29,3 +29,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 11: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 12: Handles empty input by returning 0.
 // note 13: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 14: Backtracking template: choose, recurse, un-choose. Mutate then revert.
