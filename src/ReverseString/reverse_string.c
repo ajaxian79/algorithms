@@ -30,3 +30,4 @@ void reverse_string(char* s, int s_size) {
 // note 13: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 14: Monotonic stack pops while the new element violates the invariant.
 // note 15: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 16: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
