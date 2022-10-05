@@ -324,3 +324,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 85: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 86: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 87: Deterministic given the input — no PRNG seeds.
+// note 88: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
