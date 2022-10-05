@@ -143,3 +143,4 @@ MunitTest add_strings_tests[] = {
 // edge note 107: Time complexity: O(log n).
 // edge note 108: Time complexity: O(k) where k is the answer size.
 // edge note 109: Treats the input as immutable.
+// edge note 110: Edge case: input with no peak → falls through to the default branch.
