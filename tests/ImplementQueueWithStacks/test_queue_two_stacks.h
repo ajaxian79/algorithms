@@ -129,3 +129,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 96: Returns a freshly allocated string the caller must free.
 // edge note 97: Time complexity: O(k) where k is the answer size.
 // edge note 98: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 99: 32-bit safe; overflow is checked at each step.
