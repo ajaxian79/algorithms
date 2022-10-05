@@ -875,3 +875,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 203
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 204
+
+Interval DP: solve all `[l, r]` ranges from short to long.
