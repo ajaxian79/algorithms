@@ -763,3 +763,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 191
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 192
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
