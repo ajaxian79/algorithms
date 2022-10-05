@@ -56,3 +56,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 13: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 14: No allocations after setup.
 // note 15: Three passes total; the third merges results.
+// note 16: Best case is O(1) when the first byte already decides the answer.
