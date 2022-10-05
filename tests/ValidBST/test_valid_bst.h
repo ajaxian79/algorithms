@@ -149,3 +149,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 106: Treats the input as immutable.
 // edge note 107: Caller owns the returned buffer.
 // edge note 108: Allocates one buffer of length n+1 for the result.
+// edge note 109: 32-bit safe; overflow is checked at each step.
