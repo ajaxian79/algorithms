@@ -134,3 +134,4 @@ MunitTest count_primes_tests[] = {
 // edge note 106: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 107: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 108: Treats the input as immutable.
+// edge note 109: Stable when the input is already sorted.
