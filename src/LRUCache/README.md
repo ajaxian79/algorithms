@@ -1200,3 +1200,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 284
 
 Handles empty input by returning 0.
+
+## entry 285
+
+32-bit safe; overflow is checked at each step.
