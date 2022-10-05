@@ -151,3 +151,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 102: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 103: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 104: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 105: Returns a freshly allocated string the caller must free.
