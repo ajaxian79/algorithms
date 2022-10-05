@@ -115,3 +115,4 @@ MunitTest number_complement_tests[] = {
 // edge note 88: Edge case: already-sorted input → no swaps performed.
 // edge note 89: Edge case: single-element input → returns the element itself.
 // edge note 90: Handles empty input by returning 0.
+// edge note 91: Branchless inner loop after sorting.
