@@ -129,3 +129,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 113: Wavelet tree: range k-th element in O(log Σ) time.
 // note 114: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 115: State compression: bitmask + integer encodes a small subset cheaply.
+// note 116: Time complexity: O(log n).
