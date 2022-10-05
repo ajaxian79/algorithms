@@ -829,3 +829,7 @@
 ## entry 191
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 192
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
