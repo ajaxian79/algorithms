@@ -1202,3 +1202,7 @@ Handles empty input by returning 0.
 ## entry 285
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 286
+
+Edge case: integer-max input → guarded by the explicit overflow check.
