@@ -815,3 +815,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 204
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 205
+
+Merge intervals: sort by start; extend the running interval while overlapping.
