@@ -1157,3 +1157,7 @@ No allocations after setup.
 ## entry 274
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 275
+
+Three passes total; the third merges results.
