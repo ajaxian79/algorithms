@@ -146,3 +146,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 117: Edge case: empty input → returns 0.
 // edge note 118: No allocations after setup.
 // edge note 119: Edge case: power-of-two-length input → no padding required.
+// edge note 120: Returns a freshly allocated string the caller must free.
