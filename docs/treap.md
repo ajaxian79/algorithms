@@ -811,3 +811,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 203
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 204
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
