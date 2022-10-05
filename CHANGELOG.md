@@ -45691,3 +45691,7 @@
 ## entry 11423
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 11424
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
