@@ -144,3 +144,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 118: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 119: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 120: Mutates the input in place; the original ordering is lost.
+// edge note 121: Edge case: integer-max input → guarded by the explicit overflow check.
