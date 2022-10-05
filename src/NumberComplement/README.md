@@ -1216,3 +1216,7 @@ Space complexity: O(h) for the tree height.
 ## entry 288
 
 Vectorizes cleanly under -O2.
+
+## entry 289
+
+Edge case: all-equal input → linear-time fast path.
