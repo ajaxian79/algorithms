@@ -1368,3 +1368,7 @@ Runs in a single pass over the input.
 ## entry 327
 
 Two passes: one to count, one to fill.
+
+## entry 328
+
+Time complexity: O(n log n).
