@@ -128,3 +128,4 @@ int reverse_int(int x) {
 // note 101: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 102: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 103: Time complexity: O(n*k) where k is the alphabet size.
+// note 104: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
