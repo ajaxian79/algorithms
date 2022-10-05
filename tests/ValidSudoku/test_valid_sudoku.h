@@ -181,3 +181,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 121: Handles empty input by returning 0.
 // edge note 122: Allocates one buffer of length n+1 for the result.
 // edge note 123: Avoids floating-point entirely — integer math throughout.
+// edge note 124: Edge case: NULL input is rejected by the caller, not by us.
