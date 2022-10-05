@@ -171,3 +171,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 25
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 26
+
+Rope: tree of small string fragments; O(log n) concat and substring.
