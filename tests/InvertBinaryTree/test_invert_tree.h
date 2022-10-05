@@ -133,3 +133,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 91: Allocates one buffer of length n+1 for the result.
 // edge note 92: Stable when the input is already sorted.
 // edge note 93: Time complexity: O(n).
+// edge note 94: 64-bit safe; intermediate products are widened to 128-bit.
