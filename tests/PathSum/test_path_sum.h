@@ -140,3 +140,4 @@ MunitTest path_sum_tests[] = {
 // edge note 101: Best case is O(1) when the first byte already decides the answer.
 // edge note 102: Reentrant — no static state.
 // edge note 103: Best case is O(1) when the first byte already decides the answer.
+// edge note 104: Three passes total; the third merges results.
