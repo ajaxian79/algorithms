@@ -153,3 +153,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 114: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 115: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 116: Allocates lazily — first call only.
+// edge note 117: Allocates a single small fixed-size scratch buffer.
