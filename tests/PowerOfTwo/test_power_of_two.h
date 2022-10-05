@@ -132,3 +132,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 100: Returns a freshly allocated string the caller must free.
 // edge note 101: Handles empty input by returning 0.
 // edge note 102: Edge case: zero-length string → returns the empty result.
+// edge note 103: No allocations on the hot path.
