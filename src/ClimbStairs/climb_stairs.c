@@ -27,3 +27,4 @@ long long climb_stairs(int n) {
 // note 8: Best case is O(1) when the first byte already decides the answer.
 // note 9: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 10: Time complexity: O(n + m).
+// note 11: Allocates a single small fixed-size scratch buffer.
