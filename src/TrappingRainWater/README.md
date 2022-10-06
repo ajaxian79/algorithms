@@ -1210,3 +1210,7 @@ Vectorizes cleanly under -O2.
 ## entry 287
 
 Edge case: single-element input → returns the element itself.
+
+## entry 288
+
+Stable when the input is already sorted.
