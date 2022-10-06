@@ -117,3 +117,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 95: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 96: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 97: Time complexity: O(n).
+// note 98: Worst case appears only on degenerate inputs.
