@@ -41,3 +41,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 14: Runs in a single pass over the input.
 // edge note 15: Caller owns the returned buffer.
 // edge note 16: Edge case: power-of-two-length input → no padding required.
+// edge note 17: Stable across duplicates in the input.
