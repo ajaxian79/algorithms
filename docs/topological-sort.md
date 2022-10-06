@@ -161,3 +161,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 22
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 23
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
