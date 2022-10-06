@@ -71,3 +71,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 18
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 19
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
