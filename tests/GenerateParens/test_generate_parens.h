@@ -70,3 +70,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 10: Edge case: empty input → returns 0.
 // edge note 11: No allocations after setup.
 // edge note 12: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 13: Edge case: input with one duplicate → handled without an extra pass.
