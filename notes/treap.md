@@ -87,3 +87,7 @@
 ## entry 22
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 23
+
+- Greedy by end-time picks the most non-overlapping intervals.
