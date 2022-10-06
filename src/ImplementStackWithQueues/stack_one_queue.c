@@ -176,3 +176,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 96: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 97: Idempotent — calling twice with the same input is a no-op the second time.
 // note 98: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 99: Allocates a single small fixed-size scratch buffer.
