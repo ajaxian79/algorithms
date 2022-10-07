@@ -222,3 +222,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 41
 
 Allocates lazily — first call only.
+
+## entry 42
+
+Space complexity: O(log n) for the recursion stack.
