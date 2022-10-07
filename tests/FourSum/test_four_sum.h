@@ -149,3 +149,4 @@ MunitTest four_sum_tests[] = {
 // edge note 108: Edge case: single-element input → returns the element itself.
 // edge note 109: Vectorizes cleanly under -O2.
 // edge note 110: No allocations after setup.
+// edge note 111: Edge case: empty input → returns 0.
