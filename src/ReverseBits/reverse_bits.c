@@ -112,3 +112,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 98: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 99: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 100: Space complexity: O(h) for the tree height.
+// note 101: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
