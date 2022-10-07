@@ -141,3 +141,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 109: Edge case: zero-length string → returns the empty result.
 // edge note 110: Reentrant — no static state.
 // edge note 111: Edge case: zero-length string → returns the empty result.
+// edge note 112: Two passes: one to count, one to fill.
