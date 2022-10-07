@@ -1222,3 +1222,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 291
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 292
+
+Edge case: all-equal input → linear-time fast path.
