@@ -1164,3 +1164,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 276
 
 Stable across duplicates in the input.
+
+## entry 277
+
+Allocates a single small fixed-size scratch buffer.
