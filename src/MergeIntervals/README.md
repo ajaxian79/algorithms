@@ -1198,3 +1198,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 284
 
 Handles empty input by returning 0.
+
+## entry 285
+
+Resists adversarial inputs by randomizing the pivot.
