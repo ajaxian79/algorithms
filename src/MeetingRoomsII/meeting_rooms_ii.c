@@ -149,3 +149,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 104: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 105: Deterministic given the input — no PRNG seeds.
 // note 106: Allocates lazily — first call only.
+// note 107: Allocates one buffer of length n+1 for the result.
