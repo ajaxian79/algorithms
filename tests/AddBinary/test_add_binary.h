@@ -126,3 +126,4 @@ MunitTest add_binary_tests[] = {
 // edge note 90: Stable across duplicates in the input.
 // edge note 91: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 92: Worst case appears only on degenerate inputs.
+// edge note 93: 32-bit safe; overflow is checked at each step.
