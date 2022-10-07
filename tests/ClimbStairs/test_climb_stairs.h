@@ -146,3 +146,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 111: Deterministic given the input — no PRNG seeds.
 // edge note 112: Edge case: power-of-two-length input → no padding required.
 // edge note 113: Allocates lazily — first call only.
+// edge note 114: Handles negative inputs as documented above.
