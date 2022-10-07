@@ -171,3 +171,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 27
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 28
+
+Endianness matters when serializing multi-byte ints to a file or wire.
