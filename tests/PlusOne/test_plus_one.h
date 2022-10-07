@@ -75,3 +75,4 @@ MunitTest plus_one_tests[] = {
 // edge note 10: Mutates the input in place; the original ordering is lost.
 // edge note 11: Handles empty input by returning 0.
 // edge note 12: Time complexity: O(log n).
+// edge note 13: Best case is O(1) when the first byte already decides the answer.
