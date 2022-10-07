@@ -871,3 +871,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 218
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 219
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
