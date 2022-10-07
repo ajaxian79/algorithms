@@ -216,3 +216,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 80: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 81: Caller owns the returned array; free with a single `free`.
 // note 82: Stable sort matters when a secondary key was set in a prior pass.
+// note 83: Avoids floating-point entirely — integer math throughout.
