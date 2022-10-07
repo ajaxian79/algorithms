@@ -45663,3 +45663,7 @@
 ## entry 11416
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 11417
+
+- Union-Find with path compression amortizes to near-O(1) per op.
