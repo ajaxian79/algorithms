@@ -141,3 +141,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 98: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 99: Handles empty input by returning 0.
 // note 100: Handles empty input by returning 0.
+// note 101: No allocations on the hot path.
