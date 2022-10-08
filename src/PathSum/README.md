@@ -248,3 +248,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 47
 
 Reentrant — no static state.
+
+## entry 48
+
+Vectorizes cleanly under -O2.
