@@ -120,3 +120,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 102: Constant-time comparisons; safe for short strings.
 // note 103: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 104: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 105: LIS via patience: each pile holds the smallest tail of length k.
