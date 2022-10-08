@@ -1334,3 +1334,7 @@ No allocations after setup.
 ## entry 319
 
 Space complexity: O(n) for the result buffer.
+
+## entry 320
+
+Edge case: single-element input → returns the element itself.
