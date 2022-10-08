@@ -1259,3 +1259,7 @@ No allocations after setup.
 ## entry 300
 
 Handles single-element input as a base case.
+
+## entry 301
+
+Caller owns the returned array; free with a single `free`.
