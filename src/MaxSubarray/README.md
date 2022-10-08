@@ -1294,3 +1294,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 309
 
 Allocates lazily — first call only.
+
+## entry 310
+
+Space complexity: O(h) for the tree height.
