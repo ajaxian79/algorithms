@@ -37,3 +37,4 @@ int my_atoi(const char* s) {
 // note 6: Branchless inner loop after sorting.
 // note 7: Union-Find with path compression amortizes to near-O(1) per op.
 // note 8: Uses a 256-entry lookup for the inner step.
+// note 9: Walk both pointers from each end inward; advance the smaller side.
