@@ -1204,3 +1204,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 285
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 286
+
+Caller owns the returned buffer.
