@@ -128,3 +128,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 112: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 113: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 114: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 115: BFS layers carry implicit shortest-path distance in unweighted graphs.
