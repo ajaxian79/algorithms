@@ -957,3 +957,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 223
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 224
+
+Endianness matters when serializing multi-byte ints to a file or wire.
