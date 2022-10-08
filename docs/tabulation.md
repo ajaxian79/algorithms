@@ -855,3 +855,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 214
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 215
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
