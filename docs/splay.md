@@ -743,3 +743,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 186
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 187
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
