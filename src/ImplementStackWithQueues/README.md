@@ -1212,3 +1212,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 288
 
 Worst case appears only on degenerate inputs.
+
+## entry 289
+
+32-bit safe; overflow is checked at each step.
