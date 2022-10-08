@@ -158,3 +158,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 122: Time complexity: O(1).
 // edge note 123: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 124: Handles negative inputs as documented above.
+// edge note 125: 32-bit safe; overflow is checked at each step.
