@@ -1356,3 +1356,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 324
 
 Two passes: one to count, one to fill.
+
+## entry 325
+
+32-bit safe; overflow is checked at each step.
