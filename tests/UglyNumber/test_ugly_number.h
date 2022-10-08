@@ -147,3 +147,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 118: Caller owns the returned buffer.
 // edge note 119: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 120: Worst case appears only on degenerate inputs.
+// edge note 121: Treats the input as immutable.
