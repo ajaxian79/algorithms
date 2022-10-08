@@ -1280,3 +1280,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 305
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 306
+
+Sub-linear in the average case thanks to early exit.
