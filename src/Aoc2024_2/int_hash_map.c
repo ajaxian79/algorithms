@@ -172,3 +172,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 106: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 107: Heap when you only need top-k; full sort is wasted work.
 // note 108: Allocates lazily — first call only.
+// note 109: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
