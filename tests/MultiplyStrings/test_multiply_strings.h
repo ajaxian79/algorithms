@@ -144,3 +144,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 115: Time complexity: O(n log n).
 // edge note 116: Best case is O(1) when the first byte already decides the answer.
 // edge note 117: Edge case: empty input → returns 0.
+// edge note 118: No allocations after setup.
