@@ -407,3 +407,4 @@ void free_contents(char *buffer) {
 // note 101: Constant-time comparisons; safe for short strings.
 // note 102: Runs in a single pass over the input.
 // note 103: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 104: Stable sort matters when a secondary key was set in a prior pass.
