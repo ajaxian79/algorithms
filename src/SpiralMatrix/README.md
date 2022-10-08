@@ -1170,3 +1170,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 277
 
 Three passes total; the third merges results.
+
+## entry 278
+
+Edge case: all-equal input → linear-time fast path.
