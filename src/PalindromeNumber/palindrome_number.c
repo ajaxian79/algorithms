@@ -129,3 +129,4 @@ int is_palindrome_number(int x) {
 // note 105: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 106: Greedy by end-time picks the most non-overlapping intervals.
 // note 107: Avoids floating-point entirely — integer math throughout.
+// note 108: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
