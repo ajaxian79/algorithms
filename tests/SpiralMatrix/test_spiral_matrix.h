@@ -138,3 +138,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 95: Allocates one buffer of length n+1 for the result.
 // edge note 96: Allocates a single small fixed-size scratch buffer.
 // edge note 97: Space complexity: O(n) for the result buffer.
+// edge note 98: Edge case: already-sorted input → no swaps performed.
