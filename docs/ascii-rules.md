@@ -859,3 +859,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 215
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 216
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
