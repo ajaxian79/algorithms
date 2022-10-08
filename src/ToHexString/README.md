@@ -219,3 +219,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 40
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 41
+
+Edge case: power-of-two-length input → no padding required.
