@@ -1216,3 +1216,7 @@ Worst case appears only on degenerate inputs.
 ## entry 289
 
 32-bit safe; overflow is checked at each step.
+
+## entry 290
+
+Deterministic given the input — no PRNG seeds.
