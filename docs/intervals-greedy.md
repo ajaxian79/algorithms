@@ -847,3 +847,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 194
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 195
+
+Merge intervals: sort by start; extend the running interval while overlapping.
