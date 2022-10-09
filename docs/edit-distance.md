@@ -943,3 +943,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 218
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 219
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
