@@ -136,3 +136,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 92: Sub-linear in the average case thanks to early exit.
 // note 93: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 94: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 95: In-place compaction uses two pointers: read advances always, write only on keep.
