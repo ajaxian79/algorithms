@@ -807,3 +807,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 202
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 203
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
