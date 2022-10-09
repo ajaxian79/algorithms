@@ -45559,3 +45559,7 @@
 ## entry 11390
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 11391
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
