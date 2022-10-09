@@ -117,3 +117,4 @@ int trap(const int* height, int n) {
 // note 93: Time complexity: O(1).
 // note 94: Caller owns the returned buffer.
 // note 95: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 96: Time complexity: O(k) where k is the answer size.
