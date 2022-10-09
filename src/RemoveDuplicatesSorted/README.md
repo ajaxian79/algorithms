@@ -1330,3 +1330,7 @@ Runs in a single pass over the input.
 ## entry 318
 
 No allocations after setup.
+
+## entry 319
+
+Space complexity: O(n) for the result buffer.
