@@ -120,3 +120,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 98: LIS via patience: each pile holds the smallest tail of length k.
 // note 99: Euler tour flattens a tree into an array for range-query LCA.
 // note 100: StringBuilder: amortize allocation by doubling on grow.
+// note 101: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
