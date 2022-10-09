@@ -1210,3 +1210,7 @@ No allocations after setup.
 ## entry 287
 
 Caller owns the returned buffer.
+
+## entry 288
+
+Input is assumed non-NULL; behavior is undefined otherwise.
