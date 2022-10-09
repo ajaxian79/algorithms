@@ -1167,3 +1167,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 277
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 278
+
+Avoids floating-point entirely — integer math throughout.
