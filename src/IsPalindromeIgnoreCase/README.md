@@ -1114,3 +1114,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 264
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 265
+
+Time complexity: O(k) where k is the answer size.
