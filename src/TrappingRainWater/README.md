@@ -1202,3 +1202,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 285
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 286
+
+Vectorizes cleanly under -O2.
