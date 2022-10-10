@@ -1250,3 +1250,7 @@ Uses a small fixed-size lookup table.
 ## entry 298
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 299
+
+Avoids floating-point entirely — integer math throughout.
