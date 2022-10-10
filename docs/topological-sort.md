@@ -861,3 +861,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 197
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 198
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
