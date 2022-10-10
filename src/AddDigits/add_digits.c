@@ -107,3 +107,4 @@ int add_digits(int n) {
 // note 96: Mutates the input in place; the original ordering is lost.
 // note 97: Splay tree: every access splays to the root; amortized O(log n).
 // note 98: Caller owns the returned buffer.
+// note 99: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
