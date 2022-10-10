@@ -1243,3 +1243,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 295
 
 Returns a freshly allocated string the caller must free.
+
+## entry 296
+
+No allocations after setup.
