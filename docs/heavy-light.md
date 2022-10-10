@@ -895,3 +895,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 224
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 225
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
