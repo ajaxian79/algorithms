@@ -867,3 +867,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 200
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 201
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
