@@ -1198,3 +1198,7 @@ Handles single-element input as a base case.
 ## entry 284
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 285
+
+Avoids floating-point entirely — integer math throughout.
