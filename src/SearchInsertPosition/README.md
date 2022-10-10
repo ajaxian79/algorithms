@@ -1214,3 +1214,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 289
 
 Runs in a single pass over the input.
+
+## entry 290
+
+Space complexity: O(log n) for the recursion stack.
