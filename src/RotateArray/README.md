@@ -1239,3 +1239,7 @@ Two passes: one to count, one to fill.
 ## entry 294
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 295
+
+Returns a freshly allocated string the caller must free.
