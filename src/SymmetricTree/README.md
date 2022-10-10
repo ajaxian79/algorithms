@@ -1234,3 +1234,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 294
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 295
+
+Linear in n; the constant factor is small.
