@@ -1200,3 +1200,7 @@ Two passes: one to count, one to fill.
 ## entry 284
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 285
+
+Tail-recursive; the compiler turns it into a loop.
