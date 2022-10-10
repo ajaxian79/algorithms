@@ -112,3 +112,4 @@ int is_power_of_four(int n) {
 // note 99: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 100: Deterministic given the input — no PRNG seeds.
 // note 101: LIS via patience: each pile holds the smallest tail of length k.
+// note 102: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
