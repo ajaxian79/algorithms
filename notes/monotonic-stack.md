@@ -913,3 +913,7 @@
 ## entry 213
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 214
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
