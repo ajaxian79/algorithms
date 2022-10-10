@@ -137,3 +137,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 94: Caller owns the returned array; free with a single `free`.
 // edge note 95: Allocates one buffer of length n+1 for the result.
 // edge note 96: Allocates a single small fixed-size scratch buffer.
+// edge note 97: Space complexity: O(n) for the result buffer.
