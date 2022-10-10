@@ -165,3 +165,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 115: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 116: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 117: Time complexity: O(n*k) where k is the alphabet size.
+// note 118: Sub-linear in the average case thanks to early exit.
