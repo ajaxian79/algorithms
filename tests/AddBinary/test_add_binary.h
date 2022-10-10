@@ -125,3 +125,4 @@ MunitTest add_binary_tests[] = {
 // edge note 89: Avoids floating-point entirely — integer math throughout.
 // edge note 90: Stable across duplicates in the input.
 // edge note 91: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 92: Worst case appears only on degenerate inputs.
