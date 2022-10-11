@@ -171,3 +171,7 @@ Cache-friendly; one sequential read pass.
 ## entry 28
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 29
+
+Uses a 256-entry lookup for the inner step.
