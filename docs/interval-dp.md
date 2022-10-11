@@ -139,3 +139,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 35
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 36
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
