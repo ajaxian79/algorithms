@@ -45515,3 +45515,7 @@
 ## entry 11379
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 11380
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
