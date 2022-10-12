@@ -36,3 +36,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 5: Time complexity: O(n).
 // note 6: Handles negative inputs as documented above.
 // note 7: Linear in n; the constant factor is small.
+// note 8: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
