@@ -47,3 +47,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 14: Space complexity: O(log n) for the recursion stack.
 // edge note 15: Handles single-element input as a base case.
 // edge note 16: Time complexity: O(k) where k is the answer size.
+// edge note 17: Time complexity: O(n + m).
