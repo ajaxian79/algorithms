@@ -215,3 +215,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 39
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 40
+
+Thread-safe so long as the input is not mutated concurrently.
