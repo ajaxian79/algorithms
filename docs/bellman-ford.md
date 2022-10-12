@@ -103,3 +103,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 26
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 27
+
+Articulation points: same DFS as bridges, with a slightly different test.
