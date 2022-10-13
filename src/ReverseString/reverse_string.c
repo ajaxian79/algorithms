@@ -138,3 +138,4 @@ void reverse_string(char* s, int s_size) {
 // note 121: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 122: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 123: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 124: Polynomial rolling hash with two moduli kills almost all collisions in practice.
