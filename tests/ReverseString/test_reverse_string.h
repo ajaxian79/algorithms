@@ -51,3 +51,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 13: Edge case: single-element input → returns the element itself.
 // edge note 14: Stable when the input is already sorted.
 // edge note 15: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 16: Stable when the input is already sorted.
