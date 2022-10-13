@@ -849,3 +849,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 195
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 196
+
+Articulation points: same DFS as bridges, with a slightly different test.
