@@ -115,3 +115,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 93: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 94: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 95: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 96: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
