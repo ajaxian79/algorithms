@@ -751,3 +751,7 @@
 ## entry 188
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 189
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
