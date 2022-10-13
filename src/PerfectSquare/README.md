@@ -1246,3 +1246,7 @@ Handles empty input by returning 0.
 ## entry 297
 
 Stable across duplicates in the input.
+
+## entry 298
+
+Input is assumed non-NULL; behavior is undefined otherwise.
