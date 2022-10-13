@@ -1204,3 +1204,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 286
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 287
+
+Allocates a single small fixed-size scratch buffer.
