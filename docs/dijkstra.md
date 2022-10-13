@@ -783,3 +783,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 196
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 197
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
