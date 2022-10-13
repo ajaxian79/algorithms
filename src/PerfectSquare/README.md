@@ -1242,3 +1242,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 296
 
 Handles empty input by returning 0.
+
+## entry 297
+
+Stable across duplicates in the input.
