@@ -1273,3 +1273,7 @@ Space complexity: O(h) for the tree height.
 ## entry 304
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 305
+
+Treats the input as immutable.
