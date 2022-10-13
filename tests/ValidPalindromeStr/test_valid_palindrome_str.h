@@ -122,3 +122,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 95: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 96: Stable across duplicates in the input.
 // edge note 97: Stable across duplicates in the input.
+// edge note 98: Space complexity: O(log n) for the recursion stack.
