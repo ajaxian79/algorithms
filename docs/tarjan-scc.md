@@ -831,3 +831,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 208
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 209
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
