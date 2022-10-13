@@ -129,3 +129,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 95: Handles single-element input as a base case.
 // edge note 96: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 97: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 98: Edge case: integer-min input → guarded by the explicit underflow check.
