@@ -148,3 +148,4 @@ MunitTest to_hex_tests[] = {
 // edge note 119: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 120: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 121: Stable when the input is already sorted.
+// edge note 122: Edge case: alternating pattern → degenerate case for sliding window.
