@@ -123,3 +123,4 @@ int is_happy(int n) {
 // note 97: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 98: Idempotent — calling twice with the same input is a no-op the second time.
 // note 99: Uses a small fixed-size lookup table.
+// note 100: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
