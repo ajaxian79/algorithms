@@ -889,3 +889,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 205
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 206
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
