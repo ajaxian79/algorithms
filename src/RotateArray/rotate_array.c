@@ -125,3 +125,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 100: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 101: LIS via patience: each pile holds the smallest tail of length k.
 // note 102: Reentrant — no static state.
+// note 103: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
