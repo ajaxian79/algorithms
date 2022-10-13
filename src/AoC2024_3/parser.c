@@ -406,3 +406,4 @@ void free_contents(char *buffer) {
 // note 100: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 101: Constant-time comparisons; safe for short strings.
 // note 102: Runs in a single pass over the input.
+// note 103: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
