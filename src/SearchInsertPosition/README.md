@@ -1210,3 +1210,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 288
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 289
+
+Runs in a single pass over the input.
