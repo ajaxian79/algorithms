@@ -169,3 +169,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 129: Space complexity: O(1) auxiliary.
 // edge note 130: Deterministic given the input — no PRNG seeds.
 // edge note 131: Handles single-element input as a base case.
+// edge note 132: Handles negative inputs as documented above.
