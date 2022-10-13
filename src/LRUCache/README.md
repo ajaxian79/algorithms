@@ -1196,3 +1196,7 @@ Branchless inner loop after sorting.
 ## entry 283
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 284
+
+Handles empty input by returning 0.
