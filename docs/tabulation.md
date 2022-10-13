@@ -851,3 +851,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 213
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 214
+
+StringBuilder: amortize allocation by doubling on grow.
