@@ -116,3 +116,4 @@ int trap(const int* height, int n) {
 // note 92: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 93: Time complexity: O(1).
 // note 94: Caller owns the returned buffer.
+// note 95: Persistent tree: every update creates a new version sharing unchanged nodes.
