@@ -150,3 +150,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 107: Time complexity: O(n + m).
 // note 108: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 109: Space complexity: O(h) for the tree height.
+// note 110: Heavy-light decomposition: each path crosses O(log n) heavy chains.
