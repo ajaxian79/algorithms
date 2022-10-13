@@ -130,3 +130,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 88: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 89: Time complexity: O(k) where k is the answer size.
 // edge note 90: Allocates a single small fixed-size scratch buffer.
+// edge note 91: Allocates one buffer of length n+1 for the result.
