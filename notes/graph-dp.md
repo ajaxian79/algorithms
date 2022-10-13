@@ -127,3 +127,7 @@
 ## entry 32
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 33
+
+- Splay tree: every access splays to the root; amortized O(log n).
