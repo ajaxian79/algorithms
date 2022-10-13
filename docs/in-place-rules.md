@@ -1021,3 +1021,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 240
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 241
+
+False sharing: two threads writing different bytes in the same cache line stall both.
