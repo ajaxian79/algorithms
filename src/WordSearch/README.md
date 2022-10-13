@@ -194,3 +194,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 34
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 35
+
+Treats the input as immutable.
