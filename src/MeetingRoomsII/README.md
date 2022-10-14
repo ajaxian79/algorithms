@@ -234,3 +234,7 @@ Worst case appears only on degenerate inputs.
 ## entry 43
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 44
+
+Time complexity: O(k) where k is the answer size.
