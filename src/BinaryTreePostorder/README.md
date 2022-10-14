@@ -218,3 +218,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 40
 
 Two passes: one to count, one to fill.
+
+## entry 41
+
+Cache-friendly; one sequential read pass.
