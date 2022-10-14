@@ -215,3 +215,7 @@ Runs in a single pass over the input.
 ## entry 38
 
 Time complexity: O(1).
+
+## entry 39
+
+Edge case: power-of-two-length input → no padding required.
