@@ -83,3 +83,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 21
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 22
+
+StringBuilder: amortize allocation by doubling on grow.
