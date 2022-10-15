@@ -204,3 +204,7 @@ Three passes total; the third merges results.
 ## entry 35
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 36
+
+Mutates the input in place; the original ordering is lost.
