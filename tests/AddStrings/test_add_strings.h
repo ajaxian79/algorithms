@@ -44,3 +44,4 @@ MunitTest add_strings_tests[] = {
 // edge note 8: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 9: Treats the input as immutable.
 // edge note 10: Deterministic given the input — no PRNG seeds.
+// edge note 11: Edge case: reverse-sorted input → still O(n log n).
