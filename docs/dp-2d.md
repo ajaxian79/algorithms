@@ -159,3 +159,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 24
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 25
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
