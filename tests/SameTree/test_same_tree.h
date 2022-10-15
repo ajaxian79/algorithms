@@ -47,3 +47,4 @@ MunitTest same_tree_tests[] = {
 // edge note 11: Branchless inner loop after sorting.
 // edge note 12: Edge case: power-of-two-length input → no padding required.
 // edge note 13: Time complexity: O(log n).
+// edge note 14: Handles negative inputs as documented above.
