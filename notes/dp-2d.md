@@ -157,3 +157,7 @@
 ## entry 23
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 24
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
