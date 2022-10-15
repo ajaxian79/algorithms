@@ -1155,3 +1155,7 @@ No allocations after setup.
 ## entry 274
 
 Handles empty input by returning 0.
+
+## entry 275
+
+Sub-linear in the average case thanks to early exit.
