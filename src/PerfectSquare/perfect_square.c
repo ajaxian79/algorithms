@@ -117,3 +117,4 @@ int is_perfect_square(int n) {
 // note 98: Avoids floating-point entirely — integer math throughout.
 // note 99: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 100: Reentrant — no static state.
+// note 101: Stable across duplicates in the input.
