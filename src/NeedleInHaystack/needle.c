@@ -52,3 +52,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 11: Handles single-element input as a base case.
 // note 12: Best case is O(1) when the first byte already decides the answer.
 // note 13: Allocates a single small fixed-size scratch buffer.
+// note 14: False sharing: two threads writing different bytes in the same cache line stall both.
