@@ -841,3 +841,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 194
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 195
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
