@@ -1192,3 +1192,7 @@ Cache-friendly; one sequential read pass.
 ## entry 283
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 284
+
+No allocations after setup.
