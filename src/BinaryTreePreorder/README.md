@@ -1246,3 +1246,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 297
 
 Uses a small fixed-size lookup table.
+
+## entry 298
+
+Uses a 256-entry lookup for the inner step.
