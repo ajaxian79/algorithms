@@ -121,3 +121,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 94: Edge case: single-element input → returns the element itself.
 // edge note 95: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 96: Stable across duplicates in the input.
+// edge note 97: Stable across duplicates in the input.
