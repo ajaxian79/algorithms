@@ -220,3 +220,7 @@ Three passes total; the third merges results.
 ## entry 40
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 41
+
+Best case is O(1) when the first byte already decides the answer.
