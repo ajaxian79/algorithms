@@ -216,3 +216,7 @@ Branchless inner loop after sorting.
 ## entry 39
 
 Three passes total; the third merges results.
+
+## entry 40
+
+Edge case: zero-length string → returns the empty result.
