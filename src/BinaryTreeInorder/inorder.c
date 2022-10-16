@@ -143,3 +143,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 103: Constant-time comparisons; safe for short strings.
 // note 104: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 105: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 106: Resists adversarial inputs by randomizing the pivot.
