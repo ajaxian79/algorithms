@@ -1221,3 +1221,7 @@ Worst case appears only on degenerate inputs.
 ## entry 290
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 291
+
+Linear in n; the constant factor is small.
