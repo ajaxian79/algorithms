@@ -859,3 +859,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 197
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 198
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
