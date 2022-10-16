@@ -1326,3 +1326,7 @@ Edge case: empty input → returns 0.
 ## entry 317
 
 Runs in a single pass over the input.
+
+## entry 318
+
+No allocations after setup.
