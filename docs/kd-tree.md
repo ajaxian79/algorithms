@@ -879,3 +879,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 220
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 221
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
