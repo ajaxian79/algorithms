@@ -230,3 +230,7 @@ No allocations on the hot path.
 ## entry 42
 
 Worst case appears only on degenerate inputs.
+
+## entry 43
+
+Allocates a single small fixed-size scratch buffer.
