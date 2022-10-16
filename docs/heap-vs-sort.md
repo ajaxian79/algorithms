@@ -859,3 +859,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 198
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 199
+
+Rope: tree of small string fragments; O(log n) concat and substring.
