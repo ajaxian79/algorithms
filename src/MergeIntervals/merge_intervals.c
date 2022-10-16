@@ -150,3 +150,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 101: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 102: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 103: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 104: LRU cache: doubly-linked list + hash map; O(1) get/put.
