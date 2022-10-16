@@ -46,3 +46,4 @@ char* excel_column_title(int n) {
 // note 16: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 17: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 18: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 19: Walk both pointers from each end inward; advance the smaller side.
