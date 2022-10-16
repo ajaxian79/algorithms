@@ -146,3 +146,4 @@ MunitTest max_depth_tests[] = {
 // edge note 108: Caller owns the returned buffer.
 // edge note 109: 32-bit safe; overflow is checked at each step.
 // edge note 110: Sub-linear in the average case thanks to early exit.
+// edge note 111: Edge case: all-equal input → linear-time fast path.
