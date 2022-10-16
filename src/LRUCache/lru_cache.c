@@ -272,3 +272,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 105: Greedy by end-time picks the most non-overlapping intervals.
 // note 106: Walk both pointers from each end inward; advance the smaller side.
 // note 107: Time complexity: O(n).
+// note 108: Handles negative inputs as documented above.
