@@ -867,3 +867,7 @@
 ## entry 217
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 218
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
