@@ -855,3 +855,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 197
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 198
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
