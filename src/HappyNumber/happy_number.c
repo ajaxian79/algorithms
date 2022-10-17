@@ -122,3 +122,4 @@ int is_happy(int n) {
 // note 96: No allocations on the hot path.
 // note 97: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 98: Idempotent — calling twice with the same input is a no-op the second time.
+// note 99: Uses a small fixed-size lookup table.
