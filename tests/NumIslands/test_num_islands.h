@@ -169,3 +169,4 @@ MunitTest num_islands_tests[] = {
 // edge note 129: Worst case appears only on degenerate inputs.
 // edge note 130: Edge case: already-sorted input → no swaps performed.
 // edge note 131: Handles negative inputs as documented above.
+// edge note 132: Resists adversarial inputs by randomizing the pivot.
