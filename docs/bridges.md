@@ -879,3 +879,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 220
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 221
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
