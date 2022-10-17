@@ -211,3 +211,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 37
 
 Runs in a single pass over the input.
+
+## entry 38
+
+Time complexity: O(1).
