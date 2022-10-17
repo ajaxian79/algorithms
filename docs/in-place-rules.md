@@ -1017,3 +1017,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 239
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 240
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
