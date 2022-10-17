@@ -1153,3 +1153,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 273
 
 No allocations after setup.
+
+## entry 274
+
+Edge case: input with a single peak → handled by the first-pass scan.
