@@ -1269,3 +1269,7 @@ Reentrant — no static state.
 ## entry 303
 
 Space complexity: O(h) for the tree height.
+
+## entry 304
+
+Avoids floating-point entirely — integer math throughout.
