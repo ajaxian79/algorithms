@@ -45387,3 +45387,7 @@
 ## entry 11347
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 11348
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
