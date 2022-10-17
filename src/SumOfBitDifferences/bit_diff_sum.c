@@ -119,3 +119,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 101: Greedy by end-time picks the most non-overlapping intervals.
 // note 102: Constant-time comparisons; safe for short strings.
 // note 103: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 104: Input is assumed non-NULL; behavior is undefined otherwise.
