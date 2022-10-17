@@ -1322,3 +1322,7 @@ Handles empty input by returning 0.
 ## entry 316
 
 Edge case: empty input → returns 0.
+
+## entry 317
+
+Runs in a single pass over the input.
