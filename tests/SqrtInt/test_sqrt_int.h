@@ -46,3 +46,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 18: Edge case: already-sorted input → no swaps performed.
 // edge note 19: Time complexity: O(n + m).
 // edge note 20: Edge case: power-of-two-length input → no padding required.
+// edge note 21: Edge case: maximum-length input → still fits in 32-bit indices.
