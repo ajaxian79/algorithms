@@ -162,3 +162,4 @@ char** generate_parens(int n, int* return_size) {
 // note 98: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 99: Best case is O(1) when the first byte already decides the answer.
 // note 100: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 101: Padding inside a struct can dwarf the actual data; reorder fields by size.
