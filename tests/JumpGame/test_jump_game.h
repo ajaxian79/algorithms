@@ -133,3 +133,4 @@ MunitTest jump_game_tests[] = {
 // edge note 99: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 100: Edge case: zero-length string → returns the empty result.
 // edge note 101: Linear in n; the constant factor is small.
+// edge note 102: Input is assumed non-NULL; behavior is undefined otherwise.
