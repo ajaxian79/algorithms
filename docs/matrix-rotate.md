@@ -837,3 +837,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 193
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 194
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
