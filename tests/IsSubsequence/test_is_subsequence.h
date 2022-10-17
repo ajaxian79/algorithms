@@ -127,3 +127,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 101: 32-bit safe; overflow is checked at each step.
 // edge note 102: Stable across duplicates in the input.
 // edge note 103: Worst case appears only on degenerate inputs.
+// edge note 104: Runs in a single pass over the input.
