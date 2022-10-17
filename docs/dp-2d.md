@@ -871,3 +871,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 202
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 203
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
