@@ -123,3 +123,4 @@ void rotate_image(int* mat, int n) {
 // note 92: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 93: Deterministic given the input — no PRNG seeds.
 // note 94: Time complexity: O(log n).
+// note 95: Union-Find with path compression amortizes to near-O(1) per op.
