@@ -45399,3 +45399,7 @@
 ## entry 11350
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 11351
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
