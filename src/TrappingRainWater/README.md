@@ -1194,3 +1194,7 @@ Reentrant — no static state.
 ## entry 283
 
 Handles single-element input as a base case.
+
+## entry 284
+
+Resists adversarial inputs by randomizing the pivot.
