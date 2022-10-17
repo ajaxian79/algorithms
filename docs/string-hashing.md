@@ -811,3 +811,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 186
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 187
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
