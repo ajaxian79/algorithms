@@ -1260,3 +1260,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 300
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 301
+
+Edge case: empty input → returns 0.
