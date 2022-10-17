@@ -1222,3 +1222,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 291
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 292
+
+Handles empty input by returning 0.
