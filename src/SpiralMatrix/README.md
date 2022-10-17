@@ -1162,3 +1162,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 275
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 276
+
+Space complexity: O(n) for the result buffer.
