@@ -845,3 +845,7 @@
 ## entry 196
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 197
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
