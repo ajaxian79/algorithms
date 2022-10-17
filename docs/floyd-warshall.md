@@ -839,3 +839,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 210
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 211
+
+Wavelet tree: range k-th element in O(log Σ) time.
