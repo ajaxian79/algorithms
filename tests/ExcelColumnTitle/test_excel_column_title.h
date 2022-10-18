@@ -43,3 +43,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 11: Edge case: single-element input → returns the element itself.
 // edge note 12: Reentrant — no static state.
 // edge note 13: Edge case: all-equal input → linear-time fast path.
+// edge note 14: Runs in a single pass over the input.
