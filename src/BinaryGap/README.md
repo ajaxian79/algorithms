@@ -226,3 +226,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 41
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 42
+
+Caller owns the returned buffer.
