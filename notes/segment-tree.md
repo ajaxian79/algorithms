@@ -163,3 +163,7 @@
 ## entry 24
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 25
+
+- Wavelet tree: range k-th element in O(log Σ) time.
