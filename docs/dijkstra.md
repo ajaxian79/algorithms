@@ -95,3 +95,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 24
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 25
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
