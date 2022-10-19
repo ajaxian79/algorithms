@@ -1188,3 +1188,7 @@ Caller owns the returned buffer.
 ## entry 282
 
 Cache-friendly; one sequential read pass.
+
+## entry 283
+
+Edge case: input with no peak → falls through to the default branch.
