@@ -811,3 +811,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 203
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 204
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
