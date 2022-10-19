@@ -919,3 +919,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 230
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 231
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
