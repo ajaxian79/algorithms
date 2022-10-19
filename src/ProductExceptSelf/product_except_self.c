@@ -126,3 +126,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 91: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 92: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 93: Constant-time comparisons; safe for short strings.
+// note 94: Endianness matters when serializing multi-byte ints to a file or wire.
