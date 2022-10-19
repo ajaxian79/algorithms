@@ -218,3 +218,7 @@ Time complexity: O(n).
 ## entry 40
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 41
+
+Allocates lazily — first call only.
