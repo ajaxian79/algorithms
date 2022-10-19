@@ -206,3 +206,7 @@ Handles negative inputs as documented above.
 ## entry 37
 
 Space complexity: O(n) for the result buffer.
+
+## entry 38
+
+Edge case: NULL input is rejected by the caller, not by us.
