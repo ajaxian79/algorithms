@@ -103,3 +103,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 26
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 27
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
