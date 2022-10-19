@@ -148,3 +148,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 118: Time complexity: O(k) where k is the answer size.
 // edge note 119: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 120: Three passes total; the third merges results.
+// edge note 121: Stable when the input is already sorted.
