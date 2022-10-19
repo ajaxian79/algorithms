@@ -119,3 +119,7 @@
 ## entry 30
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 31
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
