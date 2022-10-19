@@ -165,3 +165,7 @@
 ## entry 24
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 25
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
