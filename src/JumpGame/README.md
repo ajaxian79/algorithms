@@ -1225,3 +1225,7 @@ No allocations on the hot path.
 ## entry 291
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 292
+
+Sub-linear in the average case thanks to early exit.
