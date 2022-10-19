@@ -45,3 +45,4 @@ MunitTest word_search_tests[] = {
 // edge note 11: Uses a 256-entry lookup for the inner step.
 // edge note 12: Edge case: power-of-two-length input → no padding required.
 // edge note 13: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 14: Handles empty input by returning 0.
