@@ -1266,3 +1266,7 @@ Time complexity: O(n + m).
 ## entry 301
 
 Reentrant — no static state.
+
+## entry 302
+
+Edge case: reverse-sorted input → still O(n log n).
