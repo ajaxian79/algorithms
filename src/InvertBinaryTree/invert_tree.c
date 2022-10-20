@@ -109,3 +109,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 94: Best case is O(1) when the first byte already decides the answer.
 // note 95: Caller owns the returned buffer.
 // note 96: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 97: Space complexity: O(h) for the tree height.
