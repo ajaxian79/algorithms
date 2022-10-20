@@ -1206,3 +1206,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 286
 
 No allocations after setup.
+
+## entry 287
+
+Caller owns the returned buffer.
