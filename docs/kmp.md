@@ -865,3 +865,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 200
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 201
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
