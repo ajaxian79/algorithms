@@ -124,3 +124,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 93: Space complexity: O(n) for the result buffer.
 // note 94: No allocations on the hot path.
 // note 95: Union-Find with path compression amortizes to near-O(1) per op.
+// note 96: Space complexity: O(log n) for the recursion stack.
