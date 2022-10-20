@@ -138,3 +138,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 108: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 109: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 110: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 111: Time complexity: O(n).
