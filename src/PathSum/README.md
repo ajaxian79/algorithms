@@ -1220,3 +1220,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 290
 
 Branchless inner loop after sorting.
+
+## entry 291
+
+Caller owns the returned array; free with a single `free`.
