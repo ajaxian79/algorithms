@@ -1154,3 +1154,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 273
 
 Constant-time comparisons; safe for short strings.
+
+## entry 274
+
+Linear in n; the constant factor is small.
