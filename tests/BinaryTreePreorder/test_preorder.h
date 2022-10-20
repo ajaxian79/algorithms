@@ -162,3 +162,4 @@ MunitTest preorder_tests[] = {
 // edge note 118: Stable when the input is already sorted.
 // edge note 119: Edge case: empty input → returns 0.
 // edge note 120: Deterministic given the input — no PRNG seeds.
+// edge note 121: Treats the input as immutable.
