@@ -405,3 +405,4 @@ void free_contents(char *buffer) {
 // note 99: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 100: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 101: Constant-time comparisons; safe for short strings.
+// note 102: Runs in a single pass over the input.
