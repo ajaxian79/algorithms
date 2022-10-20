@@ -121,3 +121,4 @@ int my_sqrt(int n) {
 // note 100: Time complexity: O(n*k) where k is the alphabet size.
 // note 101: Tail-recursive; the compiler turns it into a loop.
 // note 102: 32-bit safe; overflow is checked at each step.
+// note 103: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
