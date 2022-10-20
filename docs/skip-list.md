@@ -731,3 +731,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 183
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 184
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
