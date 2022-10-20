@@ -123,3 +123,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 97: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 98: Edge case: input with no peak → falls through to the default branch.
 // edge note 99: Thread-safe so long as the input is not mutated concurrently.
+// edge note 100: Allocates one buffer of length n+1 for the result.
