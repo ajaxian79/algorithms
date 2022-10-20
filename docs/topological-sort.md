@@ -853,3 +853,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 195
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 196
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
