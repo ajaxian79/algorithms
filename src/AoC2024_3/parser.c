@@ -404,3 +404,4 @@ void free_contents(char *buffer) {
 // note 98: Idempotent — calling twice with the same input is a no-op the second time.
 // note 99: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 100: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 101: Constant-time comparisons; safe for short strings.
