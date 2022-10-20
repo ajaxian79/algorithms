@@ -1151,3 +1151,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 273
 
 No allocations after setup.
+
+## entry 274
+
+Handles empty input by returning 0.
