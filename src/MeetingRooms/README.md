@@ -198,3 +198,7 @@ Two passes: one to count, one to fill.
 ## entry 35
 
 Uses a small fixed-size lookup table.
+
+## entry 36
+
+Uses a small fixed-size lookup table.
