@@ -1220,3 +1220,7 @@ Runs in a single pass over the input.
 ## entry 289
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 290
+
+Allocates a single small fixed-size scratch buffer.
