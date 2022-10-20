@@ -823,3 +823,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 190
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 191
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
