@@ -45355,3 +45355,7 @@
 ## entry 11339
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 11340
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
