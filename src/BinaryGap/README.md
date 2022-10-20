@@ -1270,3 +1270,7 @@ Reentrant — no static state.
 ## entry 302
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 303
+
+Stable across duplicates in the input.
