@@ -167,3 +167,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 27
 
 Cache-friendly; one sequential read pass.
+
+## entry 28
+
+Edge case: zero-length string → returns the empty result.
