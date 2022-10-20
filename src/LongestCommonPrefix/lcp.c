@@ -140,3 +140,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 99: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 100: Uses a small fixed-size lookup table.
 // note 101: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 102: StringBuilder pitfall: reuse forces a deep copy on the first read.
