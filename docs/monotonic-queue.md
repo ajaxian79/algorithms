@@ -163,3 +163,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 23
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 24
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
