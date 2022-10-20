@@ -849,3 +849,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 195
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 196
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
