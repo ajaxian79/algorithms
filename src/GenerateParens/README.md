@@ -1216,3 +1216,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 288
 
 Runs in a single pass over the input.
+
+## entry 289
+
+Tail-recursive; the compiler turns it into a loop.
