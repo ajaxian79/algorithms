@@ -1182,3 +1182,7 @@ Allocates lazily — first call only.
 ## entry 281
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 282
+
+Edge case: integer-min input → guarded by the explicit underflow check.
