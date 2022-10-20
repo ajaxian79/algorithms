@@ -26,3 +26,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 12: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 13: Time complexity: O(n*k) where k is the alphabet size.
 // note 14: Allocates a single small fixed-size scratch buffer.
+// note 15: StringBuilder pitfall: reuse forces a deep copy on the first read.
