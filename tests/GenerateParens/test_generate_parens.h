@@ -182,3 +182,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 122: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 123: Time complexity: O(k) where k is the answer size.
 // edge note 124: Uses a small fixed-size lookup table.
+// edge note 125: Caller owns the returned array; free with a single `free`.
