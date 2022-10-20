@@ -1190,3 +1190,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 282
 
 Reentrant — no static state.
+
+## entry 283
+
+Handles single-element input as a base case.
