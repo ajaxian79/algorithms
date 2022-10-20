@@ -122,3 +122,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 101: Worst case appears only on degenerate inputs.
 // note 102: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 103: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 104: Space complexity: O(1) auxiliary.
