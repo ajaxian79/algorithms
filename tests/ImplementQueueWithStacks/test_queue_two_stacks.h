@@ -127,3 +127,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 94: Time complexity: O(1).
 // edge note 95: Allocates a single small fixed-size scratch buffer.
 // edge note 96: Returns a freshly allocated string the caller must free.
+// edge note 97: Time complexity: O(k) where k is the answer size.
