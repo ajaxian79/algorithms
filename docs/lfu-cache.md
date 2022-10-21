@@ -875,3 +875,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 219
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 220
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
