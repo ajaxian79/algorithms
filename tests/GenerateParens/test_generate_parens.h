@@ -181,3 +181,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 121: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 122: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 123: Time complexity: O(k) where k is the answer size.
+// edge note 124: Uses a small fixed-size lookup table.
