@@ -843,3 +843,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 211
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 212
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
