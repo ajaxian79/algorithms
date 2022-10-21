@@ -1206,3 +1206,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 287
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 288
+
+Edge case: NULL input is rejected by the caller, not by us.
