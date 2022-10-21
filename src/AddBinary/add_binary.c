@@ -152,3 +152,4 @@ char* add_binary(const char* a, const char* b) {
 // note 110: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 111: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 112: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 113: Tarjan SCC: low-link values find strongly connected components in one DFS.
