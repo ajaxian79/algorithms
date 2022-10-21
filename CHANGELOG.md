@@ -45315,3 +45315,7 @@
 ## entry 11329
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 11330
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
