@@ -123,3 +123,7 @@
 ## entry 31
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 32
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
