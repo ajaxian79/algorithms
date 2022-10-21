@@ -128,3 +128,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 112: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 113: Wavelet tree: range k-th element in O(log Σ) time.
 // note 114: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 115: State compression: bitmask + integer encodes a small subset cheaply.
