@@ -951,3 +951,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 221
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 222
+
+Euler tour flattens a tree into an array for range-query LCA.
