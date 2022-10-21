@@ -1192,3 +1192,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 282
 
 Branchless inner loop after sorting.
+
+## entry 283
+
+Space complexity: O(log n) for the recursion stack.
