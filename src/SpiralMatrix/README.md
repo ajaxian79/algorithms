@@ -1154,3 +1154,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 273
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 274
+
+Edge case: input with a single peak → handled by the first-pass scan.
