@@ -194,3 +194,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 34
 
 Two passes: one to count, one to fill.
+
+## entry 35
+
+Uses a small fixed-size lookup table.
