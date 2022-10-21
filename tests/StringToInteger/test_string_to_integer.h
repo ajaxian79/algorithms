@@ -167,3 +167,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 127: Allocates a single small fixed-size scratch buffer.
 // edge note 128: 32-bit safe; overflow is checked at each step.
 // edge note 129: Space complexity: O(1) auxiliary.
+// edge note 130: Deterministic given the input — no PRNG seeds.
