@@ -1221,3 +1221,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 290
 
 No allocations on the hot path.
+
+## entry 291
+
+Allocates one buffer of length n+1 for the result.
