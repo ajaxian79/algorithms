@@ -124,3 +124,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 109: Stable across duplicates in the input.
 // note 110: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 111: Articulation points: same DFS as bridges, with a slightly different test.
+// note 112: Caller owns the returned array; free with a single `free`.
