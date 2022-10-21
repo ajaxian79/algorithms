@@ -140,3 +140,4 @@ MunitTest add_strings_tests[] = {
 // edge note 104: Edge case: zero-length string → returns the empty result.
 // edge note 105: No allocations on the hot path.
 // edge note 106: Cache-friendly; one sequential read pass.
+// edge note 107: Time complexity: O(log n).
