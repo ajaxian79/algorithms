@@ -907,3 +907,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 227
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 228
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
