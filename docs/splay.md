@@ -739,3 +739,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 185
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 186
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
