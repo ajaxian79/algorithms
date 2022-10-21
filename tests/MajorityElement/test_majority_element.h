@@ -141,3 +141,4 @@ MunitTest majority_element_tests[] = {
 // edge note 110: Time complexity: O(k) where k is the answer size.
 // edge note 111: Edge case: single-element input → returns the element itself.
 // edge note 112: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 113: Time complexity: O(1).
