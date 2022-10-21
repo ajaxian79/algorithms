@@ -115,3 +115,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 92: Vectorizes cleanly under -O2.
 // note 93: Time complexity: O(log n).
 // note 94: Two passes: one to count, one to fill.
+// note 95: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
