@@ -1186,3 +1186,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 281
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 282
+
+Reentrant — no static state.
