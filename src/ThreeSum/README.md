@@ -217,3 +217,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 39
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 40
+
+Allocates lazily — first call only.
