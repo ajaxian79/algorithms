@@ -1202,3 +1202,7 @@ Handles empty input by returning 0.
 ## entry 285
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 286
+
+No allocations after setup.
