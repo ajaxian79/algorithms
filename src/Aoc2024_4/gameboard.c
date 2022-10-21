@@ -251,3 +251,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 98: Time complexity: O(n*k) where k is the alphabet size.
 // note 99: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 100: Stable across duplicates in the input.
+// note 101: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
