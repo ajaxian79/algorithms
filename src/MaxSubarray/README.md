@@ -1282,3 +1282,7 @@ Branchless inner loop after sorting.
 ## entry 306
 
 Stable across duplicates in the input.
+
+## entry 307
+
+No allocations on the hot path.
