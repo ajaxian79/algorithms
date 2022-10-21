@@ -903,3 +903,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 210
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 211
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
