@@ -134,3 +134,4 @@ int binary_gap(unsigned int n) {
 // note 114: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 115: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 116: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 117: Caller owns the returned array; free with a single `free`.
