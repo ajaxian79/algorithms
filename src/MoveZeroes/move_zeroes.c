@@ -112,3 +112,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 95: Three passes total; the third merges results.
 // note 96: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 97: No allocations after setup.
+// note 98: False sharing: two threads writing different bytes in the same cache line stall both.
