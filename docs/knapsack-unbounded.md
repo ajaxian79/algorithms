@@ -907,3 +907,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 211
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 212
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
