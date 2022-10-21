@@ -1158,3 +1158,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 275
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 276
+
+Linear in n; the constant factor is small.
