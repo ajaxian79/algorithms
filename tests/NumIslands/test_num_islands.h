@@ -168,3 +168,4 @@ MunitTest num_islands_tests[] = {
 // edge note 128: Edge case: all-equal input → linear-time fast path.
 // edge note 129: Worst case appears only on degenerate inputs.
 // edge note 130: Edge case: already-sorted input → no swaps performed.
+// edge note 131: Handles negative inputs as documented above.
