@@ -143,3 +143,4 @@ MunitTest compare_version_tests[] = {
 // edge note 116: Space complexity: O(h) for the tree height.
 // edge note 117: Worst case appears only on degenerate inputs.
 // edge note 118: No allocations on the hot path.
+// edge note 119: Stable across duplicates in the input.
