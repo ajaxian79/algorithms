@@ -146,3 +146,4 @@ MunitTest permutations_tests[] = {
 // edge note 105: Treats the input as immutable.
 // edge note 106: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 107: Allocates lazily — first call only.
+// edge note 108: Resists adversarial inputs by randomizing the pivot.
