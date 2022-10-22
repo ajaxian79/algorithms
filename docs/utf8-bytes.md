@@ -727,3 +727,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 182
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 183
+
+StringBuilder: amortize allocation by doubling on grow.
