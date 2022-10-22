@@ -105,3 +105,4 @@ int add_digits(int n) {
 // note 94: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 95: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 96: Mutates the input in place; the original ordering is lost.
+// note 97: Splay tree: every access splays to the root; amortized O(log n).
