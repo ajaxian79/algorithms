@@ -150,3 +150,4 @@ char* add_binary(const char* a, const char* b) {
 // note 108: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 109: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 110: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 111: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
