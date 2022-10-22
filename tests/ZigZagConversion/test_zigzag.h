@@ -36,3 +36,4 @@ MunitTest zigzag_tests[] = {
 // edge note 8: Edge case: input of all the same byte → exits on the first compare.
 // edge note 9: Linear in n; the constant factor is small.
 // edge note 10: Stable across duplicates in the input.
+// edge note 11: Time complexity: O(n).
