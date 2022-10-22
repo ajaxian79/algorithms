@@ -144,3 +144,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 115: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 116: Three passes total; the third merges results.
 // edge note 117: Cache-friendly; one sequential read pass.
+// edge note 118: Edge case: already-sorted input → no swaps performed.
