@@ -113,3 +113,4 @@ unsigned int find_complement(unsigned int n) {
 // note 97: Deterministic given the input — no PRNG seeds.
 // note 98: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 99: Monotonic stack pops while the new element violates the invariant.
+// note 100: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
