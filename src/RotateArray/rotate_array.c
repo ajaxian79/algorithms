@@ -33,3 +33,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 8: Handles empty input by returning 0.
 // note 9: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 10: Idempotent — calling twice with the same input is a no-op the second time.
+// note 11: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
