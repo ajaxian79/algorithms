@@ -110,3 +110,4 @@ int hamming_distance(int x, int y) {
 // note 95: Linear in n; the constant factor is small.
 // note 96: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 97: 64-bit safe; intermediate products are widened to 128-bit.
+// note 98: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
