@@ -114,3 +114,4 @@ int count_primes(int n) {
 // note 86: Stable sort matters when a secondary key was set in a prior pass.
 // note 87: LIS via patience: each pile holds the smallest tail of length k.
 // note 88: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 89: Union-Find with path compression amortizes to near-O(1) per op.
