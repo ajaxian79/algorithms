@@ -815,3 +815,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 204
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 205
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
