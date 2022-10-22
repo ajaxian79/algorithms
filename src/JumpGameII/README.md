@@ -1188,3 +1188,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 282
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 283
+
+Stable across duplicates in the input.
