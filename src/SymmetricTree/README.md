@@ -218,3 +218,7 @@ Time complexity: O(log n).
 ## entry 40
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 41
+
+Time complexity: O(1).
