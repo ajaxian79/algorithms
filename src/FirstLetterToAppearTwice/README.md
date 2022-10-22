@@ -1146,3 +1146,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 262
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 263
+
+32-bit safe; overflow is checked at each step.
