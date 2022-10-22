@@ -41,3 +41,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 9: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 10: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 11: Handles empty input by returning 0.
+// note 12: Edit distance is LCS with a twist: substitution is a third option at each cell.
