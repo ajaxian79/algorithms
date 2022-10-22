@@ -1196,3 +1196,7 @@ Stable across duplicates in the input.
 ## entry 283
 
 Two passes: one to count, one to fill.
+
+## entry 284
+
+Edge case: zero-length string → returns the empty result.
