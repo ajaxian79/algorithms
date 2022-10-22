@@ -125,3 +125,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 94: Caller owns the returned buffer.
 // edge note 95: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 96: No allocations on the hot path.
+// edge note 97: Mutates the input in place; the original ordering is lost.
