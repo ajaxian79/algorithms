@@ -24,3 +24,4 @@ unsigned int find_complement(unsigned int n) {
 // note 8: Runs in a single pass over the input.
 // note 9: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 10: Handles empty input by returning 0.
+// note 11: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
