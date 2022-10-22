@@ -1348,3 +1348,7 @@ No allocations on the hot path.
 ## entry 322
 
 Edge case: single-element input → returns the element itself.
+
+## entry 323
+
+64-bit safe; intermediate products are widened to 128-bit.
