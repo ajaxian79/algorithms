@@ -173,3 +173,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 29
 
 Linear in n; the constant factor is small.
+
+## entry 30
+
+Edge case: integer-max input → guarded by the explicit overflow check.
