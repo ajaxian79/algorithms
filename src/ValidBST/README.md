@@ -1205,3 +1205,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 286
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 287
+
+Edge case: integer-min input → guarded by the explicit underflow check.
