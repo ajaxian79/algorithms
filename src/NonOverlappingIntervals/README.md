@@ -1125,3 +1125,7 @@ Reentrant — no static state.
 ## entry 266
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 267
+
+Input is assumed non-NULL; behavior is undefined otherwise.
