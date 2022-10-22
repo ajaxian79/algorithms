@@ -1292,3 +1292,7 @@ Handles negative inputs as documented above.
 ## entry 308
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 309
+
+Worst case appears only on degenerate inputs.
