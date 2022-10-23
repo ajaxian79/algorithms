@@ -1344,3 +1344,7 @@ Stable across duplicates in the input.
 ## entry 321
 
 No allocations on the hot path.
+
+## entry 322
+
+Edge case: single-element input → returns the element itself.
