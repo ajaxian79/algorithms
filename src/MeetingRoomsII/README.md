@@ -1174,3 +1174,7 @@ Space complexity: O(1) auxiliary.
 ## entry 278
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 279
+
+Allocates lazily — first call only.
