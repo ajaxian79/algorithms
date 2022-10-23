@@ -1188,3 +1188,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 281
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 282
+
+Branchless inner loop after sorting.
