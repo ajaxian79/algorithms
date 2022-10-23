@@ -1179,3 +1179,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 280
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 281
+
+Three passes total; the third merges results.
