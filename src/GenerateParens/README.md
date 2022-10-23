@@ -1212,3 +1212,7 @@ Space complexity: O(1) auxiliary.
 ## entry 287
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 288
+
+Runs in a single pass over the input.
