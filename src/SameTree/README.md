@@ -1144,3 +1144,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 272
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 273
+
+Edge case: single-element input → returns the element itself.
