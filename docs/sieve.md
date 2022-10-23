@@ -851,3 +851,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 196
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 197
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
