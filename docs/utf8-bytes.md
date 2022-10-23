@@ -723,3 +723,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 181
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 182
+
+Articulation points: same DFS as bridges, with a slightly different test.
