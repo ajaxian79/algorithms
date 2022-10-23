@@ -739,3 +739,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 185
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 186
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
