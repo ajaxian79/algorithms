@@ -1261,3 +1261,7 @@ Handles negative inputs as documented above.
 ## entry 301
 
 Time complexity: O(n + m).
+
+## entry 302
+
+Reentrant — no static state.
