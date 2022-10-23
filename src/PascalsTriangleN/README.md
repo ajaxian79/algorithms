@@ -1150,3 +1150,7 @@ Caller owns the returned buffer.
 ## entry 272
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 273
+
+Constant-time comparisons; safe for short strings.
