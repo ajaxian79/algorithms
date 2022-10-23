@@ -1262,3 +1262,7 @@ Time complexity: O(n + m).
 ## entry 300
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 301
+
+Reentrant — no static state.
