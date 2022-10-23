@@ -35,3 +35,4 @@ int reverse_int(int x) {
 // note 8: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 9: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 10: Two passes: one to count, one to fill.
+// note 11: Input is assumed non-NULL; behavior is undefined otherwise.
