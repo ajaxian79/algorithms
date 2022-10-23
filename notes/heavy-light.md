@@ -99,3 +99,7 @@
 ## entry 25
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 26
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
