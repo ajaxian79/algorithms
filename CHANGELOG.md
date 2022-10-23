@@ -45195,3 +45195,7 @@
 ## entry 11299
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 11300
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
