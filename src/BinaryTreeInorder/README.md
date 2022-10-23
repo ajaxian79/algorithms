@@ -198,3 +198,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 35
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 36
+
+Tail-recursive; the compiler turns it into a loop.
