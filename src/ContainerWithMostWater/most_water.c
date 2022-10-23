@@ -112,3 +112,4 @@ int max_area(const int* heights, int n) {
 // note 92: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 93: Allocates a single small fixed-size scratch buffer.
 // note 94: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 95: Tarjan SCC: low-link values find strongly connected components in one DFS.
