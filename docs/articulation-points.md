@@ -775,3 +775,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 194
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 195
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
