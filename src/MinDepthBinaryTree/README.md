@@ -1078,3 +1078,7 @@ Caller owns the returned buffer.
 ## entry 255
 
 Space complexity: O(1) auxiliary.
+
+## entry 256
+
+Best case is O(1) when the first byte already decides the answer.
