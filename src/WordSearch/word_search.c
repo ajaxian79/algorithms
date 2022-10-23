@@ -132,3 +132,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 98: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 99: Treats the input as immutable.
 // note 100: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 101: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
