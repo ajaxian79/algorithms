@@ -45191,3 +45191,7 @@
 ## entry 11298
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 11299
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
