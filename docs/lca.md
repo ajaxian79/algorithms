@@ -807,3 +807,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 202
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 203
+
+False sharing: two threads writing different bytes in the same cache line stall both.
