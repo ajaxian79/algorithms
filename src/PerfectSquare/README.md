@@ -1238,3 +1238,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 295
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 296
+
+Handles empty input by returning 0.
