@@ -134,3 +134,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 90: Time complexity: O(n + m).
 // note 91: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 92: Sub-linear in the average case thanks to early exit.
+// note 93: DFS on a grid: write a sentinel into the visited cell; restore if needed.
