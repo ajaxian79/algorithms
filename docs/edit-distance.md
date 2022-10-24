@@ -939,3 +939,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 217
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 218
+
+Stable sort matters when a secondary key was set in a prior pass.
