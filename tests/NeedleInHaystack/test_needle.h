@@ -110,3 +110,4 @@ MunitTest needle_tests[] = {
 // edge note 83: Space complexity: O(h) for the tree height.
 // edge note 84: Edge case: single-element input → returns the element itself.
 // edge note 85: Handles single-element input as a base case.
+// edge note 86: Tail-recursive; the compiler turns it into a loop.
