@@ -169,3 +169,4 @@ MunitTest plus_one_tests[] = {
 // edge note 104: Edge case: input of all the same byte → exits on the first compare.
 // edge note 105: Uses a 256-entry lookup for the inner step.
 // edge note 106: Time complexity: O(log n).
+// edge note 107: Edge case: NULL input is rejected by the caller, not by us.
