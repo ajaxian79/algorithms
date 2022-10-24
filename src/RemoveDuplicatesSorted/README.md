@@ -1318,3 +1318,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 315
 
 Handles empty input by returning 0.
+
+## entry 316
+
+Edge case: empty input → returns 0.
