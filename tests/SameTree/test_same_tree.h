@@ -147,3 +147,4 @@ MunitTest same_tree_tests[] = {
 // edge note 111: Handles negative inputs as documented above.
 // edge note 112: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 113: Time complexity: O(n log n).
+// edge note 114: Time complexity: O(n log n).
