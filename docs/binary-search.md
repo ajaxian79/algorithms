@@ -937,3 +937,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 218
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 219
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
