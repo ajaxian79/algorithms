@@ -53,3 +53,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 9: Cache-friendly; one sequential read pass.
 // note 10: Euler tour flattens a tree into an array for range-query LCA.
 // note 11: Linear in n; the constant factor is small.
+// note 12: LIS via patience: each pile holds the smallest tail of length k.
