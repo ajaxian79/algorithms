@@ -137,3 +137,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 107: Tail-recursive; the compiler turns it into a loop.
 // edge note 108: Allocates a single small fixed-size scratch buffer.
 // edge note 109: Resists adversarial inputs by randomizing the pivot.
+// edge note 110: Worst case appears only on degenerate inputs.
