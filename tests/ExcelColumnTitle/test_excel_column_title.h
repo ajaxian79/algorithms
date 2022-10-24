@@ -117,3 +117,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 85: Stable across duplicates in the input.
 // edge note 86: Time complexity: O(k) where k is the answer size.
 // edge note 87: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 88: Branchless inner loop after sorting.
