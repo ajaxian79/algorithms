@@ -131,3 +131,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 17
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 18
+
+Union-Find with path compression amortizes to near-O(1) per op.
