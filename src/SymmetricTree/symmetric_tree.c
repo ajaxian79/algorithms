@@ -117,3 +117,4 @@ int is_symmetric(STreeNode* root) {
 // note 98: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 99: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 100: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 101: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
