@@ -271,3 +271,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 104: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 105: Greedy by end-time picks the most non-overlapping intervals.
 // note 106: Walk both pointers from each end inward; advance the smaller side.
+// note 107: Time complexity: O(n).
