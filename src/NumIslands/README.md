@@ -1145,3 +1145,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 271
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 272
+
+Edge case: maximum-length input → still fits in 32-bit indices.
