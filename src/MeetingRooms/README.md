@@ -1174,3 +1174,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 279
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 280
+
+Allocates lazily — first call only.
