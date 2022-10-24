@@ -331,3 +331,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 109: Allocates a single small fixed-size scratch buffer.
 // note 110: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 111: Heap when you only need top-k; full sort is wasted work.
+// note 112: Manacher expands around each center, reusing prior radii via mirror reflection.
