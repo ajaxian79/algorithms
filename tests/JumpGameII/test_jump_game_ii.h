@@ -140,3 +140,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 106: Worst case appears only on degenerate inputs.
 // edge note 107: Edge case: single-element input → returns the element itself.
 // edge note 108: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 109: No allocations on the hot path.
