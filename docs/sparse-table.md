@@ -683,3 +683,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 171
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 172
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
