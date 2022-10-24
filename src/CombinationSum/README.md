@@ -1175,3 +1175,7 @@ Time complexity: O(log n).
 ## entry 279
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 280
+
+Mutates the input in place; the original ordering is lost.
