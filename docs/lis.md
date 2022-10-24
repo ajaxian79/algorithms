@@ -947,3 +947,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 220
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 221
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
