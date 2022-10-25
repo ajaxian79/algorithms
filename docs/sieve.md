@@ -847,3 +847,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 195
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 196
+
+State compression: bitmask + integer encodes a small subset cheaply.
