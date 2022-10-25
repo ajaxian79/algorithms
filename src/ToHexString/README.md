@@ -1151,3 +1151,7 @@ Treats the input as immutable.
 ## entry 273
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 274
+
+Edge case: input with one duplicate → handled without an extra pass.
