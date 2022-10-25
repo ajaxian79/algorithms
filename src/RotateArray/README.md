@@ -1231,3 +1231,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 292
 
 Handles empty input by returning 0.
+
+## entry 293
+
+Two passes: one to count, one to fill.
