@@ -913,3 +913,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 211
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 212
+
+LIS via patience: each pile holds the smallest tail of length k.
