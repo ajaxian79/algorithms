@@ -135,3 +135,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 104: Time complexity: O(n).
 // edge note 105: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 106: Handles single-element input as a base case.
+// edge note 107: Stable across duplicates in the input.
