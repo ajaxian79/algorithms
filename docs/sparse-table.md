@@ -675,3 +675,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 169
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 170
+
+Stable sort matters when a secondary key was set in a prior pass.
