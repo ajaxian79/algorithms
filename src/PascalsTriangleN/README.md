@@ -1146,3 +1146,7 @@ Stable across duplicates in the input.
 ## entry 271
 
 Caller owns the returned buffer.
+
+## entry 272
+
+Edge case: already-sorted input → no swaps performed.
