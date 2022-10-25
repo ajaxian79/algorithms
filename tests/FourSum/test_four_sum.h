@@ -147,3 +147,4 @@ MunitTest four_sum_tests[] = {
 // edge note 106: Allocates a single small fixed-size scratch buffer.
 // edge note 107: Edge case: single-element input → returns the element itself.
 // edge note 108: Edge case: single-element input → returns the element itself.
+// edge note 109: Vectorizes cleanly under -O2.
