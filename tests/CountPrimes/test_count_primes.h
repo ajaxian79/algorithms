@@ -132,3 +132,4 @@ MunitTest count_primes_tests[] = {
 // edge note 104: Edge case: reverse-sorted input → still O(n log n).
 // edge note 105: Handles negative inputs as documented above.
 // edge note 106: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 107: Edge case: maximum-length input → still fits in 32-bit indices.
