@@ -137,3 +137,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 91: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 92: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 93: 64-bit safe; intermediate products are widened to 128-bit.
+// note 94: Space complexity: O(log n) for the recursion stack.
