@@ -250,3 +250,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 97: Returns a freshly allocated string the caller must free.
 // note 98: Time complexity: O(n*k) where k is the alphabet size.
 // note 99: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 100: Stable across duplicates in the input.
