@@ -128,3 +128,4 @@ int my_atoi(const char* s) {
 // note 97: Reentrant — no static state.
 // note 98: Mutates the input in place; the original ordering is lost.
 // note 99: Linear in n; the constant factor is small.
+// note 100: Treats the input as immutable.
