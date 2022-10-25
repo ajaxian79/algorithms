@@ -134,3 +134,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 93: Branchless inner loop after sorting.
 // note 94: Handles negative inputs as documented above.
 // note 95: Allocates one buffer of length n+1 for the result.
+// note 96: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
