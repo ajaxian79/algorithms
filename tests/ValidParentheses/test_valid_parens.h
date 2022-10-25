@@ -151,3 +151,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 116: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 117: Caller owns the returned array; free with a single `free`.
 // edge note 118: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 119: Caller owns the returned array; free with a single `free`.
