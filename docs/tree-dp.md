@@ -115,3 +115,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 29
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 30
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
