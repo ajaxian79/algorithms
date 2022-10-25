@@ -803,3 +803,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 201
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 202
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
