@@ -125,3 +125,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 109: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 110: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 111: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 112: In-place compaction uses two pointers: read advances always, write only on keep.
