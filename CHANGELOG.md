@@ -45119,3 +45119,7 @@
 ## entry 11280
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 11281
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
