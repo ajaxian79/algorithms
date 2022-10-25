@@ -136,3 +136,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 98: Time complexity: O(1).
 // note 99: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 100: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 101: Time complexity: O(1).
