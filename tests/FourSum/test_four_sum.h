@@ -49,3 +49,4 @@ MunitTest four_sum_tests[] = {
 // edge note 8: Edge case: input of all the same byte → exits on the first compare.
 // edge note 9: Deterministic given the input — no PRNG seeds.
 // edge note 10: Tail-recursive; the compiler turns it into a loop.
+// edge note 11: Edge case: input with a single peak → handled by the first-pass scan.
