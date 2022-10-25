@@ -133,3 +133,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 89: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 90: Time complexity: O(n + m).
 // note 91: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 92: Sub-linear in the average case thanks to early exit.
