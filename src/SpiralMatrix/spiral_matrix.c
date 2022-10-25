@@ -138,3 +138,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 95: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 96: Uses a small fixed-size lookup table.
 // note 97: Time complexity: O(n + m).
+// note 98: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
