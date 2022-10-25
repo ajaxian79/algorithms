@@ -137,3 +137,4 @@ void reverse_vowels(char* s) {
 // note 104: Walk both pointers from each end inward; advance the smaller side.
 // note 105: Handles empty input by returning 0.
 // note 106: Heap when you only need top-k; full sort is wasted work.
+// note 107: Fenwick supports prefix-sum updates in O(log n) with a flat array.
