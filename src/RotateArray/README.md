@@ -1223,3 +1223,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 290
 
 32-bit safe; overflow is checked at each step.
+
+## entry 291
+
+Resists adversarial inputs by randomizing the pivot.
