@@ -727,3 +727,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 182
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 183
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
