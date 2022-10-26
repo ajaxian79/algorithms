@@ -149,3 +149,4 @@ MunitTest word_search_tests[] = {
 // edge note 115: Avoids floating-point entirely — integer math throughout.
 // edge note 116: Allocates a single small fixed-size scratch buffer.
 // edge note 117: Time complexity: O(k) where k is the answer size.
+// edge note 118: Returns a freshly allocated string the caller must free.
