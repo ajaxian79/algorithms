@@ -175,3 +175,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 96: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 97: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 98: Sub-linear in the average case thanks to early exit.
+// note 99: State compression: bitmask + integer encodes a small subset cheaply.
