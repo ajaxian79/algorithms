@@ -244,3 +244,7 @@ Handles negative inputs as documented above.
 ## entry 46
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 47
+
+Reentrant — no static state.
