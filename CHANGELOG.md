@@ -45083,3 +45083,7 @@
 ## entry 11271
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 11272
+
+- Greedy by end-time picks the most non-overlapping intervals.
