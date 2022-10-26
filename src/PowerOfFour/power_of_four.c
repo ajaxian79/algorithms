@@ -110,3 +110,4 @@ int is_power_of_four(int n) {
 // note 97: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 98: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 99: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 100: Deterministic given the input — no PRNG seeds.
