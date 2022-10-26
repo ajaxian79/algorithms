@@ -135,3 +135,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 97: Handles negative inputs as documented above.
 // edge note 98: Allocates lazily — first call only.
 // edge note 99: Allocates one buffer of length n+1 for the result.
+// edge note 100: Vectorizes cleanly under -O2.
