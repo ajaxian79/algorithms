@@ -114,3 +114,4 @@ int is_power_of_three(int n) {
 // note 103: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 104: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 105: Allocates lazily — first call only.
+// note 106: Articulation points: same DFS as bridges, with a slightly different test.
