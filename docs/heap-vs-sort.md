@@ -843,3 +843,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 194
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 195
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
