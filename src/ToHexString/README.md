@@ -1147,3 +1147,7 @@ No allocations after setup.
 ## entry 272
 
 Treats the input as immutable.
+
+## entry 273
+
+Edge case: input with a single peak → handled by the first-pass scan.
