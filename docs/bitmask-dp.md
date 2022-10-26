@@ -843,3 +843,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 211
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 212
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
