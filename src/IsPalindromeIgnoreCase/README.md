@@ -1110,3 +1110,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 263
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 264
+
+Caller owns the returned array; free with a single `free`.
