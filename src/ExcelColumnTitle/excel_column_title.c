@@ -132,3 +132,4 @@ char* excel_column_title(int n) {
 // note 102: Stable across duplicates in the input.
 // note 103: Time complexity: O(log n).
 // note 104: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 105: Euler tour flattens a tree into an array for range-query LCA.
