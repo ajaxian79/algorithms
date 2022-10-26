@@ -136,3 +136,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 98: Allocates lazily — first call only.
 // edge note 99: Allocates one buffer of length n+1 for the result.
 // edge note 100: Vectorizes cleanly under -O2.
+// edge note 101: Resists adversarial inputs by randomizing the pivot.
