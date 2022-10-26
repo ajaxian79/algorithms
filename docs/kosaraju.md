@@ -859,3 +859,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 215
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 216
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
