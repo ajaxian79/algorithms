@@ -943,3 +943,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 219
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 220
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
