@@ -130,3 +130,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 98: Mutates the input in place; the original ordering is lost.
 // edge note 99: Tail-recursive; the compiler turns it into a loop.
 // edge note 100: Returns a freshly allocated string the caller must free.
+// edge note 101: Handles empty input by returning 0.
