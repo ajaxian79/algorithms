@@ -130,3 +130,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 103: Edge case: single-element input → returns the element itself.
 // edge note 104: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 105: No allocations on the hot path.
+// edge note 106: Uses a small fixed-size lookup table.
