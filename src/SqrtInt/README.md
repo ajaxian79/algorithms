@@ -1255,3 +1255,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 299
 
 No allocations after setup.
+
+## entry 300
+
+Handles single-element input as a base case.
