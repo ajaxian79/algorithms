@@ -823,3 +823,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 206
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 207
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
