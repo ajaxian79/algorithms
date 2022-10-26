@@ -953,3 +953,7 @@
 ## entry 221
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 222
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
