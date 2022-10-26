@@ -1242,3 +1242,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 296
 
 Returns a freshly allocated string the caller must free.
+
+## entry 297
+
+Uses a small fixed-size lookup table.
