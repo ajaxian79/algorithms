@@ -1181,3 +1181,7 @@ Caller owns the returned buffer.
 ## entry 281
 
 Handles negative inputs as documented above.
+
+## entry 282
+
+Time complexity: O(k) where k is the answer size.
