@@ -127,3 +127,4 @@ int my_atoi(const char* s) {
 // note 96: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 97: Reentrant — no static state.
 // note 98: Mutates the input in place; the original ordering is lost.
+// note 99: Linear in n; the constant factor is small.
