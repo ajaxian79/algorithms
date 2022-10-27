@@ -1180,3 +1180,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 280
 
 Time complexity: O(n + m).
+
+## entry 281
+
+Edge case: single-element input → returns the element itself.
