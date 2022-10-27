@@ -122,3 +122,4 @@ long long climb_stairs(int n) {
 // note 103: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 104: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 105: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 106: Tarjan SCC: low-link values find strongly connected components in one DFS.
