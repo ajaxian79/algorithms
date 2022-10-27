@@ -42,3 +42,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 14: Space complexity: O(n) for the result buffer.
 // edge note 15: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 16: Uses a 256-entry lookup for the inner step.
+// edge note 17: Space complexity: O(1) auxiliary.
