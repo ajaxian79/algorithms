@@ -1074,3 +1074,7 @@ Vectorizes cleanly under -O2.
 ## entry 254
 
 Caller owns the returned buffer.
+
+## entry 255
+
+Space complexity: O(1) auxiliary.
