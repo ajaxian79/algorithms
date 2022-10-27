@@ -163,3 +163,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 25
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 26
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
