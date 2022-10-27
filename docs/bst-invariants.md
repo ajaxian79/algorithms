@@ -833,3 +833,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 192
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 193
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
