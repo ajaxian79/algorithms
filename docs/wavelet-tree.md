@@ -807,3 +807,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 202
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 203
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
