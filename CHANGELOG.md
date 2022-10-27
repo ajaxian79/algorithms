@@ -45031,3 +45031,7 @@
 ## entry 11258
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 11259
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
