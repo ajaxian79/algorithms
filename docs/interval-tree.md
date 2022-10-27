@@ -83,3 +83,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 21
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 22
+
+Euler tour flattens a tree into an array for range-query LCA.
