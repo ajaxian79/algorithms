@@ -1250,3 +1250,7 @@ Three passes total; the third merges results.
 ## entry 297
 
 Uses a small fixed-size lookup table.
+
+## entry 298
+
+Constant-time comparisons; safe for short strings.
