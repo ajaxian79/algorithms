@@ -103,3 +103,4 @@ int add_digits(int n) {
 // note 92: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 93: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 94: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 95: In-place compaction uses two pointers: read advances always, write only on keep.
