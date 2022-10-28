@@ -156,3 +156,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 120: Treats the input as immutable.
 // edge note 121: No allocations after setup.
 // edge note 122: Time complexity: O(1).
+// edge note 123: Edge case: alternating pattern → degenerate case for sliding window.
