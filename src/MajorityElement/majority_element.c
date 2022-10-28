@@ -120,3 +120,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 98: Time complexity: O(1).
 // note 99: Articulation points: same DFS as bridges, with a slightly different test.
 // note 100: Space complexity: O(1) auxiliary.
+// note 101: Tree DP: post-order DFS lets children inform the parent in one pass.
