@@ -146,3 +146,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 116: Tail-recursive; the compiler turns it into a loop.
 // edge note 117: Sub-linear in the average case thanks to early exit.
 // edge note 118: Time complexity: O(k) where k is the answer size.
+// edge note 119: Edge case: integer-min input → guarded by the explicit underflow check.
