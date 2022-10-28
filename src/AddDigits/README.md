@@ -1148,3 +1148,7 @@ Space complexity: O(h) for the tree height.
 ## entry 272
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 273
+
+Time complexity: O(n^2) worst case, O(n) amortized.
