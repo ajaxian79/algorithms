@@ -1190,3 +1190,7 @@ Space complexity: O(1) auxiliary.
 ## entry 282
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 283
+
+Input is assumed non-NULL; behavior is undefined otherwise.
