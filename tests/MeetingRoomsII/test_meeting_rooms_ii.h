@@ -146,3 +146,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 115: Caller owns the returned buffer.
 // edge note 116: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 117: Caller owns the returned array; free with a single `free`.
+// edge note 118: Edge case: maximum-length input → still fits in 32-bit indices.
