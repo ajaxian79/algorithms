@@ -122,3 +122,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 96: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 97: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 98: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 99: Time complexity: O(n + m).
