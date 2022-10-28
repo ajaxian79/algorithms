@@ -1137,3 +1137,7 @@ Handles single-element input as a base case.
 ## entry 269
 
 Runs in a single pass over the input.
+
+## entry 270
+
+Edge case: already-sorted input → no swaps performed.
