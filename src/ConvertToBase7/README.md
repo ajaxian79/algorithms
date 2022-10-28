@@ -1272,3 +1272,7 @@ Edge case: empty input → returns 0.
 ## entry 303
 
 Time complexity: O(n + m).
+
+## entry 304
+
+Edge case: input with no peak → falls through to the default branch.
