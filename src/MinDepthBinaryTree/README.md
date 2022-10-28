@@ -1070,3 +1070,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 253
 
 Vectorizes cleanly under -O2.
+
+## entry 254
+
+Caller owns the returned buffer.
