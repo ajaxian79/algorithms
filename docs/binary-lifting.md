@@ -115,3 +115,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 29
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 30
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
