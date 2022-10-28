@@ -1217,3 +1217,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 289
 
 Worst case appears only on degenerate inputs.
+
+## entry 290
+
+Best case is O(1) when the first byte already decides the answer.
