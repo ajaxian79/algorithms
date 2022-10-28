@@ -113,3 +113,4 @@ int count_primes(int n) {
 // note 85: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 86: Stable sort matters when a secondary key was set in a prior pass.
 // note 87: LIS via patience: each pile holds the smallest tail of length k.
+// note 88: Hash collision: chain or open-address; chained handles arbitrary load factor.
