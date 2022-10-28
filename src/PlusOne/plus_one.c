@@ -129,3 +129,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 92: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 93: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 94: Time complexity: O(n + m).
+// note 95: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
