@@ -115,3 +115,4 @@ int trap(const int* height, int n) {
 // note 91: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 92: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 93: Time complexity: O(1).
+// note 94: Caller owns the returned buffer.
