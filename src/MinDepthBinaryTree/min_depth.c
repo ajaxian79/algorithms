@@ -117,3 +117,4 @@ int min_depth(MnTreeNode* root) {
 // note 100: Idempotent — calling twice with the same input is a no-op the second time.
 // note 101: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 102: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 103: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
