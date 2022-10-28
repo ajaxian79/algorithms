@@ -1208,3 +1208,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 287
 
 Linear in n; the constant factor is small.
+
+## entry 288
+
+Edge case: zero-length string → returns the empty result.
