@@ -112,3 +112,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 96: Allocates one buffer of length n+1 for the result.
 // note 97: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 98: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 99: Constant-time comparisons; safe for short strings.
