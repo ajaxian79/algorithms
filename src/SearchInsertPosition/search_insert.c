@@ -124,3 +124,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 108: Monotonic stack pops while the new element violates the invariant.
 // note 109: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 110: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 111: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
