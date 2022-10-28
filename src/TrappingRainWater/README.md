@@ -1174,3 +1174,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 278
 
 Time complexity: O(n log n).
+
+## entry 279
+
+Space complexity: O(log n) for the recursion stack.
