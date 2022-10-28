@@ -1207,3 +1207,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 287
 
 Space complexity: O(1) auxiliary.
+
+## entry 288
+
+Linear in n; the constant factor is small.
