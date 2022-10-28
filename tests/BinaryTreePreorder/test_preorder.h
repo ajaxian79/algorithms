@@ -161,3 +161,4 @@ MunitTest preorder_tests[] = {
 // edge note 117: Tail-recursive; the compiler turns it into a loop.
 // edge note 118: Stable when the input is already sorted.
 // edge note 119: Edge case: empty input → returns 0.
+// edge note 120: Deterministic given the input — no PRNG seeds.
