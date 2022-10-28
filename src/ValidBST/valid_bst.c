@@ -130,3 +130,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 112: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 113: Reentrant — no static state.
 // note 114: Time complexity: O(log n).
+// note 115: Runs in a single pass over the input.
