@@ -143,3 +143,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 100: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 101: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 102: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 103: Monotonic deque: push back, pop back to maintain order, pop front when stale.
