@@ -803,3 +803,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 201
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 202
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
