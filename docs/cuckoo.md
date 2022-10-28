@@ -691,3 +691,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 173
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 174
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
