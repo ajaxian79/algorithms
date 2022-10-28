@@ -1234,3 +1234,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 294
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 295
+
+Best case is O(1) when the first byte already decides the answer.
