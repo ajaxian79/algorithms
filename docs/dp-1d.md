@@ -195,3 +195,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 32
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 33
+
+Endianness matters when serializing multi-byte ints to a file or wire.
