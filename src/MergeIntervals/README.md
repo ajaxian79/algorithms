@@ -1194,3 +1194,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 283
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 284
+
+Handles empty input by returning 0.
