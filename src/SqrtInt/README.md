@@ -1251,3 +1251,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 298
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 299
+
+No allocations after setup.
