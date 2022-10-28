@@ -731,3 +731,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 183
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 184
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
