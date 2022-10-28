@@ -1143,3 +1143,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 271
 
 No allocations after setup.
+
+## entry 272
+
+Treats the input as immutable.
