@@ -181,3 +181,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 102: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 103: Handles negative inputs as documented above.
 // note 104: Caller owns the returned array; free with a single `free`.
+// note 105: Allocates lazily — first call only.
