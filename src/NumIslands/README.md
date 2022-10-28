@@ -1141,3 +1141,7 @@ Runs in a single pass over the input.
 ## entry 270
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 271
+
+Resists adversarial inputs by randomizing the pivot.
