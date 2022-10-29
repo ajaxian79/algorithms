@@ -204,3 +204,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 37
 
 Handles single-element input as a base case.
+
+## entry 38
+
+Resists adversarial inputs by randomizing the pivot.
