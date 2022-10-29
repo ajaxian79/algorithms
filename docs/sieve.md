@@ -187,3 +187,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 30
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 31
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
