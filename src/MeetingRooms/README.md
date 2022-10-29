@@ -190,3 +190,7 @@ Three passes total; the third merges results.
 ## entry 33
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 34
+
+Two passes: one to count, one to fill.
