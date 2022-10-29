@@ -119,3 +119,7 @@
 ## entry 30
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 31
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
