@@ -45,3 +45,4 @@ MunitTest missing_number_tests[] = {
 // edge note 11: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 12: Time complexity: O(n).
 // edge note 13: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 14: Caller owns the returned array; free with a single `free`.
