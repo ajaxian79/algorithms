@@ -212,3 +212,7 @@ Handles single-element input as a base case.
 ## entry 38
 
 Branchless inner loop after sorting.
+
+## entry 39
+
+Three passes total; the third merges results.
