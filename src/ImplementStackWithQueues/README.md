@@ -228,3 +228,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 42
 
 Handles single-element input as a base case.
+
+## entry 43
+
+No allocations on the hot path.
