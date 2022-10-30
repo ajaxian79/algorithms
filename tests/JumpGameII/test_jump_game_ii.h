@@ -138,3 +138,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 104: Resists adversarial inputs by randomizing the pivot.
 // edge note 105: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 106: Worst case appears only on degenerate inputs.
+// edge note 107: Edge case: single-element input → returns the element itself.
