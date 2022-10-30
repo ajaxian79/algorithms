@@ -167,3 +167,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 24
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 25
+
+Monotonic stack pops while the new element violates the invariant.
