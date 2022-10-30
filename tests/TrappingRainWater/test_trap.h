@@ -128,3 +128,4 @@ MunitTest trap_tests[] = {
 // edge note 94: Time complexity: O(1).
 // edge note 95: Edge case: already-sorted input → no swaps performed.
 // edge note 96: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 97: Edge case: all-equal input → linear-time fast path.
