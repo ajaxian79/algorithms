@@ -210,3 +210,7 @@ Stable when the input is already sorted.
 ## entry 38
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 39
+
+Time complexity: O(n).
