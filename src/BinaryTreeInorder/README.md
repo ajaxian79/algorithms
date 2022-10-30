@@ -1170,3 +1170,7 @@ No allocations after setup.
 ## entry 278
 
 Linear in n; the constant factor is small.
+
+## entry 279
+
+Resists adversarial inputs by randomizing the pivot.
