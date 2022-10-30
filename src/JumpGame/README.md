@@ -1209,3 +1209,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 287
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 288
+
+Time complexity: O(n*k) where k is the alphabet size.
