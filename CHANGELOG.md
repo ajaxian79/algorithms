@@ -44959,3 +44959,7 @@
 ## entry 11240
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 11241
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
