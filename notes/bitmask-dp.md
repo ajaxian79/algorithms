@@ -783,3 +783,7 @@
 ## entry 196
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 197
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
