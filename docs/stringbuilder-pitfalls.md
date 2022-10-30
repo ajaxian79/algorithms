@@ -939,3 +939,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 235
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 236
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
