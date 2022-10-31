@@ -44927,3 +44927,7 @@
 ## entry 11232
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 11233
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
