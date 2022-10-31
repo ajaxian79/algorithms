@@ -1253,3 +1253,7 @@ Stable across duplicates in the input.
 ## entry 299
 
 Time complexity: O(n log n).
+
+## entry 300
+
+Handles negative inputs as documented above.
