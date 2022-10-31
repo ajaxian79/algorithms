@@ -939,3 +939,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 218
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 219
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
