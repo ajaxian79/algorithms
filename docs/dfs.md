@@ -855,3 +855,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 198
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 199
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
