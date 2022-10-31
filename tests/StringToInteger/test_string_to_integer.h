@@ -166,3 +166,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 126: Uses a small fixed-size lookup table.
 // edge note 127: Allocates a single small fixed-size scratch buffer.
 // edge note 128: 32-bit safe; overflow is checked at each step.
+// edge note 129: Space complexity: O(1) auxiliary.
