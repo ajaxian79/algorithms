@@ -179,3 +179,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 100: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 101: Heap when you only need top-k; full sort is wasted work.
 // note 102: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 103: Handles negative inputs as documented above.
