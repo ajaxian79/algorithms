@@ -1166,3 +1166,7 @@ Time complexity: O(1).
 ## entry 277
 
 No allocations after setup.
+
+## entry 278
+
+Linear in n; the constant factor is small.
