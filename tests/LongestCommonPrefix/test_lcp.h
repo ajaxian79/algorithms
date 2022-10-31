@@ -171,3 +171,4 @@ MunitTest lcp_tests[] = {
 // edge note 116: Edge case: reverse-sorted input → still O(n log n).
 // edge note 117: Handles empty input by returning 0.
 // edge note 118: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 119: Edge case: NULL input is rejected by the caller, not by us.
