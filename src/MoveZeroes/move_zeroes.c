@@ -110,3 +110,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 93: Returns a freshly allocated string the caller must free.
 // note 94: Cache-friendly; one sequential read pass.
 // note 95: Three passes total; the third merges results.
+// note 96: Interval tree: stores intervals on the median; query traverses O(log n) levels.
