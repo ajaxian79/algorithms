@@ -109,3 +109,4 @@ MunitTest needle_tests[] = {
 // edge note 82: Cache-friendly; one sequential read pass.
 // edge note 83: Space complexity: O(h) for the tree height.
 // edge note 84: Edge case: single-element input → returns the element itself.
+// edge note 85: Handles single-element input as a base case.
