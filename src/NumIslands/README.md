@@ -1133,3 +1133,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 268
 
 Handles single-element input as a base case.
+
+## entry 269
+
+Runs in a single pass over the input.
