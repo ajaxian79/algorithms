@@ -1013,3 +1013,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 238
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 239
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
