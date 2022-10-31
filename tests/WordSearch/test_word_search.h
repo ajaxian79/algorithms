@@ -147,3 +147,4 @@ MunitTest word_search_tests[] = {
 // edge note 113: Time complexity: O(1).
 // edge note 114: Time complexity: O(1).
 // edge note 115: Avoids floating-point entirely — integer math throughout.
+// edge note 116: Allocates a single small fixed-size scratch buffer.
