@@ -1139,3 +1139,7 @@ Two passes: one to count, one to fill.
 ## entry 270
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 271
+
+No allocations after setup.
