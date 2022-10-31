@@ -779,3 +779,7 @@
 ## entry 195
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 196
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
