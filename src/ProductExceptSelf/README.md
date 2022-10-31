@@ -1192,3 +1192,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 282
 
 Stable across duplicates in the input.
+
+## entry 283
+
+Two passes: one to count, one to fill.
