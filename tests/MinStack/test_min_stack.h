@@ -134,3 +134,4 @@ MunitTest min_stack_tests[] = {
 // edge note 97: Constant-time comparisons; safe for short strings.
 // edge note 98: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 99: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 100: Time complexity: O(1).
