@@ -228,3 +228,7 @@ Worst case appears only on degenerate inputs.
 ## entry 42
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 43
+
+Uses a small fixed-size lookup table.
