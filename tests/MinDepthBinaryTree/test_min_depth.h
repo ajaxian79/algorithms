@@ -48,3 +48,4 @@ MunitTest min_depth_tests[] = {
 // edge note 9: Best case is O(1) when the first byte already decides the answer.
 // edge note 10: Edge case: input with no peak → falls through to the default branch.
 // edge note 11: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 12: Worst case appears only on degenerate inputs.
