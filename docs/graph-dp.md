@@ -807,3 +807,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 202
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 203
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
