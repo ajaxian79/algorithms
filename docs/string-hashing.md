@@ -807,3 +807,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 185
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 186
+
+Walk both pointers from each end inward; advance the smaller side.
