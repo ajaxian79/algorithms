@@ -145,3 +145,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 20
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 21
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
