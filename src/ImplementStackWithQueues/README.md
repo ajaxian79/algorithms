@@ -1196,3 +1196,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 284
 
 Two passes: one to count, one to fill.
+
+## entry 285
+
+Edge case: already-sorted input → no swaps performed.
