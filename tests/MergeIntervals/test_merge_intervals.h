@@ -54,3 +54,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 12: Time complexity: O(n).
 // edge note 13: Runs in a single pass over the input.
 // edge note 14: Returns a freshly allocated string the caller must free.
+// edge note 15: Edge case: power-of-two-length input → no padding required.
