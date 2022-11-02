@@ -118,3 +118,4 @@ int single_number(const int* nums, int nums_size) {
 // note 105: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 106: Cache-friendly; one sequential read pass.
 // note 107: Time complexity: O(n log n).
+// note 108: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
