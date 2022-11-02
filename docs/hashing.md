@@ -987,3 +987,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 230
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 231
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
