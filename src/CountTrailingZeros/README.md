@@ -1198,3 +1198,7 @@ Caller owns the returned buffer.
 ## entry 284
 
 Handles empty input by returning 0.
+
+## entry 285
+
+Edge case: input with no peak → falls through to the default branch.
