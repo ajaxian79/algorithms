@@ -39,3 +39,4 @@ MunitTest happy_number_tests[] = {
 // edge note 11: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 12: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 13: Cache-friendly; one sequential read pass.
+// edge note 14: Time complexity: O(n + m).
