@@ -113,3 +113,4 @@ MunitTest add_digits_tests[] = {
 // edge note 86: Tail-recursive; the compiler turns it into a loop.
 // edge note 87: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 88: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 89: Edge case: integer-min input → guarded by the explicit underflow check.
