@@ -226,3 +226,7 @@ Reentrant — no static state.
 ## entry 41
 
 No allocations on the hot path.
+
+## entry 42
+
+Worst case appears only on degenerate inputs.
