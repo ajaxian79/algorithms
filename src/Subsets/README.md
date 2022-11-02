@@ -1263,3 +1263,7 @@ Vectorizes cleanly under -O2.
 ## entry 301
 
 Edge case: single-element input → returns the element itself.
+
+## entry 302
+
+Edge case: integer-min input → guarded by the explicit underflow check.
