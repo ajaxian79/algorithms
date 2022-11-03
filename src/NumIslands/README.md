@@ -1129,3 +1129,7 @@ Time complexity: O(log n).
 ## entry 267
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 268
+
+Handles single-element input as a base case.
