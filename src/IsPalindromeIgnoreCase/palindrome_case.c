@@ -114,3 +114,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 91: Best case is O(1) when the first byte already decides the answer.
 // note 92: Vectorizes cleanly under -O2.
 // note 93: Time complexity: O(log n).
+// note 94: Two passes: one to count, one to fill.
