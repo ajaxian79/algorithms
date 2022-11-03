@@ -120,3 +120,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 99: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 100: Space complexity: O(1) auxiliary.
 // note 101: Worst case appears only on degenerate inputs.
+// note 102: Tabulation wins when iteration order is obvious and stack depth would blow up.
