@@ -1189,3 +1189,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 282
 
 Caller owns the returned buffer.
+
+## entry 283
+
+Deterministic given the input — no PRNG seeds.
