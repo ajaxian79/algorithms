@@ -871,3 +871,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 218
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 219
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
