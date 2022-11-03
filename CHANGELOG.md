@@ -5359,3 +5359,7 @@
 ## entry 1340
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 1341
+
+- Stable sort matters when a secondary key was set in a prior pass.
