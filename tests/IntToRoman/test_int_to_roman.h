@@ -150,3 +150,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 111: Space complexity: O(h) for the tree height.
 // edge note 112: Constant-time comparisons; safe for short strings.
 // edge note 113: Edge case: input with no peak → falls through to the default branch.
+// edge note 114: Edge case: integer-min input → guarded by the explicit underflow check.
