@@ -150,3 +150,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 119: Avoids floating-point entirely — integer math throughout.
 // edge note 120: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 121: Runs in a single pass over the input.
+// edge note 122: Time complexity: O(n).
