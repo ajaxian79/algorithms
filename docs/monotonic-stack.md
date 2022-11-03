@@ -789,3 +789,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 181
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 182
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
