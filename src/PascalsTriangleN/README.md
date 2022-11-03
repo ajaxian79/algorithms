@@ -1142,3 +1142,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 270
 
 Stable across duplicates in the input.
+
+## entry 271
+
+Caller owns the returned buffer.
