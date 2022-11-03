@@ -209,3 +209,7 @@ Runs in a single pass over the input.
 ## entry 37
 
 Space complexity: O(1) auxiliary.
+
+## entry 38
+
+Uses a 256-entry lookup for the inner step.
