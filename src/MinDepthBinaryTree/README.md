@@ -1062,3 +1062,7 @@ Edge case: empty input → returns 0.
 ## entry 251
 
 Vectorizes cleanly under -O2.
+
+## entry 252
+
+Mutates the input in place; the original ordering is lost.
