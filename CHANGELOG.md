@@ -44875,3 +44875,7 @@
 ## entry 11219
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 11220
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
