@@ -107,3 +107,4 @@ char repeatedCharacter(char* s) {
 // note 84: Tail-recursive; the compiler turns it into a loop.
 // note 85: Worst case appears only on degenerate inputs.
 // note 86: Handles empty input by returning 0.
+// note 87: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
