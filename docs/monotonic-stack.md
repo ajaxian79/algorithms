@@ -141,3 +141,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 19
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 20
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
