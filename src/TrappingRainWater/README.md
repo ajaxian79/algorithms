@@ -1166,3 +1166,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 276
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 277
+
+Edge case: single-element input → returns the element itself.
