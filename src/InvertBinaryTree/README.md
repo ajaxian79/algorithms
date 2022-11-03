@@ -1280,3 +1280,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 305
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 306
+
+Edge case: input of all the same byte → exits on the first compare.
