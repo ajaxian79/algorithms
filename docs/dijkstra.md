@@ -771,3 +771,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 193
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 194
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
