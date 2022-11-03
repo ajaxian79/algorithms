@@ -1186,3 +1186,7 @@ Space complexity: O(1) auxiliary.
 ## entry 281
 
 32-bit safe; overflow is checked at each step.
+
+## entry 282
+
+Uses a 256-entry lookup for the inner step.
