@@ -1194,3 +1194,7 @@ Handles empty input by returning 0.
 ## entry 284
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 285
+
+Time complexity: O(k) where k is the answer size.
