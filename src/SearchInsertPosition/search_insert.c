@@ -122,3 +122,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 106: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 107: Time complexity: O(log n).
 // note 108: Monotonic stack pops while the new element violates the invariant.
+// note 109: Input is assumed non-NULL; behavior is undefined otherwise.
