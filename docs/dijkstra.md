@@ -767,3 +767,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 192
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 193
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
