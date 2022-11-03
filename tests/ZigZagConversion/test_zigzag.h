@@ -132,3 +132,4 @@ MunitTest zigzag_tests[] = {
 // edge note 104: Worst case appears only on degenerate inputs.
 // edge note 105: Treats the input as immutable.
 // edge note 106: No allocations after setup.
+// edge note 107: Handles empty input by returning 0.
