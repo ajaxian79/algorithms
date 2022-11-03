@@ -1140,3 +1140,7 @@ Reentrant — no static state.
 ## entry 271
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 272
+
+Edge case: input of all the same byte → exits on the first compare.
