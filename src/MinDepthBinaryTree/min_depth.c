@@ -116,3 +116,4 @@ int min_depth(MnTreeNode* root) {
 // note 99: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 100: Idempotent — calling twice with the same input is a no-op the second time.
 // note 101: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 102: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
