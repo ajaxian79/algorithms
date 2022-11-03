@@ -1230,3 +1230,7 @@ Three passes total; the third merges results.
 ## entry 293
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 294
+
+Edge case: zero-length string → returns the empty result.
