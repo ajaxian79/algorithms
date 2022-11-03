@@ -799,3 +799,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 200
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 201
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
