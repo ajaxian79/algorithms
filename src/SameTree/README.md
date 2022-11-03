@@ -1136,3 +1136,7 @@ Stable across duplicates in the input.
 ## entry 270
 
 Reentrant — no static state.
+
+## entry 271
+
+Edge case: input with one duplicate → handled without an extra pass.
