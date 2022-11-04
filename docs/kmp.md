@@ -849,3 +849,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 196
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 197
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
