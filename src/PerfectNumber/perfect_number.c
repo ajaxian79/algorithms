@@ -125,3 +125,4 @@ int is_perfect_number(int n) {
 // note 107: Time complexity: O(1).
 // note 108: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 109: Mutates the input in place; the original ordering is lost.
+// note 110: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
