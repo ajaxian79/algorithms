@@ -1106,3 +1106,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 262
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 263
+
+Reentrant — no static state.
