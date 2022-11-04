@@ -735,3 +735,7 @@
 ## entry 184
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 185
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
