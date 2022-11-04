@@ -1194,3 +1194,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 284
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 285
+
+32-bit safe; overflow is checked at each step.
