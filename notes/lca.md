@@ -775,3 +775,7 @@
 ## entry 194
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 195
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
