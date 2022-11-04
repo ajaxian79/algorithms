@@ -1256,3 +1256,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 299
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 300
+
+Edge case: power-of-two-length input → no padding required.
