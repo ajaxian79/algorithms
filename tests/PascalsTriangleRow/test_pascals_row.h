@@ -167,3 +167,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 112: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 113: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 114: Worst case appears only on degenerate inputs.
+// edge note 115: Space complexity: O(n) for the result buffer.
