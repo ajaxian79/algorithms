@@ -845,3 +845,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 195
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 196
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
