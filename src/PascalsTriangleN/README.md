@@ -182,3 +182,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 30
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 31
+
+Time complexity: O(n + m).
