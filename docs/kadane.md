@@ -839,3 +839,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 194
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 195
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
