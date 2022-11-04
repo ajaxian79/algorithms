@@ -58,3 +58,4 @@ MunitTest postorder_tests[] = {
 // edge note 14: Branchless inner loop after sorting.
 // edge note 15: Runs in a single pass over the input.
 // edge note 16: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 17: Time complexity: O(log n).
