@@ -1226,3 +1226,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 292
 
 Three passes total; the third merges results.
+
+## entry 293
+
+Caller owns the returned array; free with a single `free`.
