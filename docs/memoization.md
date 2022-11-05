@@ -103,3 +103,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 26
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 27
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
