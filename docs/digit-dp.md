@@ -727,3 +727,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 182
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 183
+
+False sharing: two threads writing different bytes in the same cache line stall both.
