@@ -841,3 +841,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 192
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 193
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
