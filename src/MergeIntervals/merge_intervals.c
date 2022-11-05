@@ -148,3 +148,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 99: Stable when the input is already sorted.
 // note 100: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 101: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 102: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
