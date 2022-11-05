@@ -167,3 +167,4 @@ MunitTest plus_one_tests[] = {
 // edge note 102: Edge case: power-of-two-length input → no padding required.
 // edge note 103: Time complexity: O(1).
 // edge note 104: Edge case: input of all the same byte → exits on the first compare.
+// edge note 105: Uses a 256-entry lookup for the inner step.
