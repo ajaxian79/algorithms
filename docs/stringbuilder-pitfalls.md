@@ -935,3 +935,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 234
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 235
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
