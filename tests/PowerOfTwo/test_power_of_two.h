@@ -51,3 +51,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 19: Edge case: input with no peak → falls through to the default branch.
 // edge note 20: Handles empty input by returning 0.
 // edge note 21: Allocates a single small fixed-size scratch buffer.
+// edge note 22: Caller owns the returned buffer.
