@@ -23,8 +23,22 @@ static MunitResult test_twosum_basic_test(const MunitParameter params[], void* u
 }
 
 static MunitResult test_twosum_large_number_test(const MunitParameter params[], void* user_data_or_fixture) {
-    int nums[] = {1,6142,8192,1023918431};
+    int nums[] = {1,6142,8192,10239};
     int num_size = 18431;
+    int return_size;
+
+    int* result = twoSum(nums, num_size, 9, &return_size);
+
+    munit_assert_int(result[0], ==, 0);
+    munit_assert_int(result[1], ==, 1);
+
+    free(result);
+    return MUNIT_OK;
+}
+
+static MunitResult test_twosum_zeros_test(const MunitParameter params[], void* user_data_or_fixture) {
+    int nums[] = {0,4,3,0};
+    int num_size = 0;
     int return_size;
 
     int* result = twoSum(nums, num_size, 9, &return_size);
@@ -47,6 +61,13 @@ MunitTest twosum_tests[] = {
         },{
                 "/large numbers",
                 test_twosum_large_number_test,
+                NULL,
+                NULL,
+                MUNIT_TEST_OPTION_NONE,
+                NULL
+        },{
+                "/zeros",
+                test_twosum_zeros_test,
                 NULL,
                 NULL,
                 MUNIT_TEST_OPTION_NONE,
