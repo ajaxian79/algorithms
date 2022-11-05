@@ -795,3 +795,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 199
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 200
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
