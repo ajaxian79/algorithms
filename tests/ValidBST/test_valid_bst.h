@@ -147,3 +147,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 104: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 105: Mutates the input in place; the original ordering is lost.
 // edge note 106: Treats the input as immutable.
+// edge note 107: Caller owns the returned buffer.
