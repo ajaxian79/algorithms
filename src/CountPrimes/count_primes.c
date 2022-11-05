@@ -112,3 +112,4 @@ int count_primes(int n) {
 // note 84: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 85: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 86: Stable sort matters when a secondary key was set in a prior pass.
+// note 87: LIS via patience: each pile holds the smallest tail of length k.
