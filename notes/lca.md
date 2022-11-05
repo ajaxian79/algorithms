@@ -771,3 +771,7 @@
 ## entry 193
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 194
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
