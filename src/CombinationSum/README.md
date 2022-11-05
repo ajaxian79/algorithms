@@ -199,3 +199,7 @@ Cache-friendly; one sequential read pass.
 ## entry 35
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 36
+
+Allocates one buffer of length n+1 for the result.
