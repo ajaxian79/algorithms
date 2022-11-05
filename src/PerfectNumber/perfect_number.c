@@ -124,3 +124,4 @@ int is_perfect_number(int n) {
 // note 106: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 107: Time complexity: O(1).
 // note 108: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 109: Mutates the input in place; the original ordering is lost.
