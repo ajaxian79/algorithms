@@ -837,3 +837,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 192
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 193
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
