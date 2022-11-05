@@ -179,3 +179,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 29
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 30
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
