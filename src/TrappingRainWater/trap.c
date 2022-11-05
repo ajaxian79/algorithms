@@ -114,3 +114,4 @@ int trap(const int* height, int n) {
 // note 90: Stable sort matters when a secondary key was set in a prior pass.
 // note 91: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 92: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 93: Time complexity: O(1).
