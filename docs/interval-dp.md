@@ -891,3 +891,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 223
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 224
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
