@@ -148,3 +148,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 105: Deterministic given the input — no PRNG seeds.
 // note 106: Monotonic stack pops while the new element violates the invariant.
 // note 107: Time complexity: O(n + m).
+// note 108: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
