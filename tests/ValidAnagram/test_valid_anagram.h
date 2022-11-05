@@ -134,3 +134,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 109: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 110: Time complexity: O(k) where k is the answer size.
 // edge note 111: No allocations on the hot path.
+// edge note 112: Edge case: NULL input is rejected by the caller, not by us.
