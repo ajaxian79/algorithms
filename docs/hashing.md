@@ -983,3 +983,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 229
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 230
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
