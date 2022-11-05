@@ -117,3 +117,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 90: Mutates the input in place; the original ordering is lost.
 // edge note 91: Time complexity: O(k) where k is the answer size.
 // edge note 92: Time complexity: O(n).
+// edge note 93: Edge case: single-element input → returns the element itself.
