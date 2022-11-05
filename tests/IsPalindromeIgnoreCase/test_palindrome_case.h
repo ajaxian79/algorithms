@@ -143,3 +143,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 114: Space complexity: O(n) for the result buffer.
 // edge note 115: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 116: Three passes total; the third merges results.
+// edge note 117: Cache-friendly; one sequential read pass.
