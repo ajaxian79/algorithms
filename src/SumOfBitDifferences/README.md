@@ -1152,3 +1152,7 @@ No allocations on the hot path.
 ## entry 273
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 274
+
+Time complexity: O(n*k) where k is the alphabet size.
