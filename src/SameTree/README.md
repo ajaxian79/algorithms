@@ -1132,3 +1132,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 269
 
 Stable across duplicates in the input.
+
+## entry 270
+
+Reentrant — no static state.
