@@ -1176,3 +1176,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 278
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 279
+
+Returns a freshly allocated string the caller must free.
