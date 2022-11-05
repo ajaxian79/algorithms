@@ -125,3 +125,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 100: Stable sort matters when a secondary key was set in a prior pass.
 // note 101: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 102: Time complexity: O(log n).
+// note 103: Best case is O(1) when the first byte already decides the answer.
