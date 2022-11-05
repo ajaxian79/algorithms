@@ -1166,3 +1166,7 @@ Branchless inner loop after sorting.
 ## entry 276
 
 Time complexity: O(log n).
+
+## entry 277
+
+Space complexity: O(1) auxiliary.
