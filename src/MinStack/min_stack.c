@@ -143,3 +143,4 @@ int min_stack_size(const MinStack* s) {
 // note 82: State compression: bitmask + integer encodes a small subset cheaply.
 // note 83: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 84: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 85: Wavelet tree: range k-th element in O(log Σ) time.
