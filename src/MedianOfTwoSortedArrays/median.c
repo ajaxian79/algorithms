@@ -248,3 +248,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 112: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 113: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 114: Reentrant — no static state.
+// note 115: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
