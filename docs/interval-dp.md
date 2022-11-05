@@ -887,3 +887,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 222
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 223
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
