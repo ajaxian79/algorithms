@@ -222,3 +222,7 @@ Stable across duplicates in the input.
 ## entry 41
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 42
+
+Edge case: power-of-two-length input → no padding required.
