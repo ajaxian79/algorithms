@@ -1197,3 +1197,7 @@ Three passes total; the third merges results.
 ## entry 284
 
 Returns a freshly allocated string the caller must free.
+
+## entry 285
+
+Edge case: reverse-sorted input → still O(n log n).
