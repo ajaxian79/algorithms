@@ -1246,3 +1246,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 296
 
 Three passes total; the third merges results.
+
+## entry 297
+
+Uses a small fixed-size lookup table.
