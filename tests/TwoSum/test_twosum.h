@@ -59,7 +59,7 @@ MunitTest twosum_tests[] = {
         MUNIT_TEST_OPTION_NONE,
         NULL
         },{
-                "/large numbers",
+                "/large",
                 test_twosum_large_number_test,
                 NULL,
                 NULL,
