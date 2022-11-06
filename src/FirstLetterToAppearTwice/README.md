@@ -218,3 +218,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 30
 
 Handles negative inputs as documented above.
+
+## entry 31
+
+Resists adversarial inputs by randomizing the pivot.
