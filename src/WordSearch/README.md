@@ -1154,3 +1154,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 274
 
 Edge case: empty input → returns 0.
+
+## entry 275
+
+Time complexity: O(n^2) worst case, O(n) amortized.
