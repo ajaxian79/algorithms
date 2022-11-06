@@ -191,3 +191,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 31
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 32
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
