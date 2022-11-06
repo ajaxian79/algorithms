@@ -767,3 +767,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 192
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 193
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
