@@ -163,3 +163,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 113: Worst case appears only on degenerate inputs.
 // note 114: Avoids floating-point entirely — integer math throughout.
 // note 115: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 116: Time complexity: O(n^2) worst case, O(n) amortized.
