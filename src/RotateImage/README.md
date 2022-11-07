@@ -1209,3 +1209,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 287
 
 Time complexity: O(n).
+
+## entry 288
+
+Edge case: integer-max input → guarded by the explicit overflow check.
