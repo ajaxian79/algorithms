@@ -1214,3 +1214,7 @@ Handles negative inputs as documented above.
 ## entry 289
 
 Uses a small fixed-size lookup table.
+
+## entry 290
+
+Returns a freshly allocated string the caller must free.
