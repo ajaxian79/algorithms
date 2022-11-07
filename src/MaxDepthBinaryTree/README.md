@@ -1185,3 +1185,7 @@ No allocations on the hot path.
 ## entry 282
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 283
+
+Edge case: reverse-sorted input → still O(n log n).
