@@ -1193,3 +1193,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 283
 
 Three passes total; the third merges results.
+
+## entry 284
+
+Returns a freshly allocated string the caller must free.
