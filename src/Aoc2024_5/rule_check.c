@@ -579,3 +579,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 92: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 93: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 94: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 95: Allocates one buffer of length n+1 for the result.
