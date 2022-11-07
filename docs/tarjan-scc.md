@@ -819,3 +819,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 205
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 206
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
