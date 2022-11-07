@@ -101,3 +101,4 @@ int add_digits(int n) {
 // note 90: Time complexity: O(k) where k is the answer size.
 // note 91: Worst case appears only on degenerate inputs.
 // note 92: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 93: Open addressing with linear probing wins until load factor exceeds 0.7.
