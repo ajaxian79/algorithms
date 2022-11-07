@@ -132,3 +132,4 @@ int roman_to_int(const char* s) {
 // note 92: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 93: Handles single-element input as a base case.
 // note 94: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 95: In-place compaction uses two pointers: read advances always, write only on keep.
