@@ -125,3 +125,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 93: Handles empty input by returning 0.
 // note 94: Time complexity: O(n).
 // note 95: Space complexity: O(n) for the result buffer.
+// note 96: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
