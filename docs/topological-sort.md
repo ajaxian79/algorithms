@@ -837,3 +837,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 191
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 192
+
+State compression: bitmask + integer encodes a small subset cheaply.
