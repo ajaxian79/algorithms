@@ -44735,3 +44735,7 @@
 ## entry 11184
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 11185
+
+- Euler tour flattens a tree into an array for range-query LCA.
