@@ -967,3 +967,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 224
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 225
+
+LIS via patience: each pile holds the smallest tail of length k.
