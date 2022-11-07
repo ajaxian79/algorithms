@@ -847,3 +847,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 212
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 213
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
