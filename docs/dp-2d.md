@@ -859,3 +859,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 199
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 200
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
