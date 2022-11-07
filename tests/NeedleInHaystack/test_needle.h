@@ -108,3 +108,4 @@ MunitTest needle_tests[] = {
 // edge note 81: Caller owns the returned buffer.
 // edge note 82: Cache-friendly; one sequential read pass.
 // edge note 83: Space complexity: O(h) for the tree height.
+// edge note 84: Edge case: single-element input → returns the element itself.
