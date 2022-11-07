@@ -803,3 +803,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 184
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 185
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
