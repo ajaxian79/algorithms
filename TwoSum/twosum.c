@@ -10,6 +10,7 @@
 
 #include <malloc.h>
 #include <string.h>
+#include <math.h>
 
 int* get_result_array(int* returnSize) {
     *returnSize = 2;
@@ -60,7 +61,7 @@ void table_release(TABLE** table) {
 }
 
 int table_hash(TABLE* table, int input) {
-    return input % table->columns;
+    return abs(input) % table->columns;
 }
 
 int table_seek(TABLE* table, int key, int(*matching_function)(KEY_VALUE*, int)) {

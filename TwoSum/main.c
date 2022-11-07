@@ -6,8 +6,8 @@
 
 int main() {
 
-    int nums[] = {2, 7, 18, -24};
-    int num_size = 4;
+    int nums[] = {1,6142,8192,10239};
+    int num_size = 18431;
     int return_size;
 
     int* result = twoSum(nums, num_size, 9, &return_size);

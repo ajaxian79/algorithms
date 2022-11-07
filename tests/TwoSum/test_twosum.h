@@ -29,8 +29,8 @@ static MunitResult test_twosum_large_number_test(const MunitParameter params[], 
 
     int* result = twoSum(nums, num_size, 9, &return_size);
 
-    munit_assert_int(result[0], ==, 0);
-    munit_assert_int(result[1], ==, 1);
+    munit_assert_int(result[0], ==, 2);
+    munit_assert_int(result[1], ==, 3);
 
     free(result);
     return MUNIT_OK;
@@ -44,7 +44,7 @@ static MunitResult test_twosum_zeros_test(const MunitParameter params[], void* u
     int* result = twoSum(nums, num_size, 9, &return_size);
 
     munit_assert_int(result[0], ==, 0);
-    munit_assert_int(result[1], ==, 1);
+    munit_assert_int(result[1], ==, 3);
 
     free(result);
     return MUNIT_OK;
