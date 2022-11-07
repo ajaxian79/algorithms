@@ -140,3 +140,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 109: Space complexity: O(n) for the result buffer.
 // edge note 110: Vectorizes cleanly under -O2.
 // edge note 111: Resists adversarial inputs by randomizing the pivot.
+// edge note 112: Stable across duplicates in the input.
