@@ -787,3 +787,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 197
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 198
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
