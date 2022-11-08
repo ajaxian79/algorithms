@@ -44707,3 +44707,7 @@
 ## entry 11177
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 11178
+
+- Articulation points: same DFS as bridges, with a slightly different test.
