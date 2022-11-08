@@ -703,3 +703,7 @@
 ## entry 176
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 177
+
+- Greedy by end-time picks the most non-overlapping intervals.
