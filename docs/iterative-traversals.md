@@ -861,3 +861,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 199
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 200
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
