@@ -95,3 +95,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 24
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 25
+
+State compression: bitmask + integer encodes a small subset cheaply.
