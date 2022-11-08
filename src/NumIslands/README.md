@@ -185,3 +185,7 @@ Cache-friendly; one sequential read pass.
 ## entry 31
 
 Treats the input as immutable.
+
+## entry 32
+
+Space complexity: O(n) for the result buffer.
