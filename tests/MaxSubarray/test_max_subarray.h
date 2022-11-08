@@ -127,3 +127,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 93: Best case is O(1) when the first byte already decides the answer.
 // edge note 94: Edge case: all-equal input → linear-time fast path.
 // edge note 95: Handles single-element input as a base case.
+// edge note 96: Edge case: integer-min input → guarded by the explicit underflow check.
