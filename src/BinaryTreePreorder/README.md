@@ -1234,3 +1234,7 @@ Three passes total; the third merges results.
 ## entry 294
 
 Edge case: empty input → returns 0.
+
+## entry 295
+
+Returns a freshly allocated string the caller must free.
