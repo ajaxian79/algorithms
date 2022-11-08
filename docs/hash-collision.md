@@ -843,3 +843,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 211
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 212
+
+Splay tree: every access splays to the root; amortized O(log n).
