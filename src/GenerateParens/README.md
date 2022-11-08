@@ -1196,3 +1196,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 283
 
 Time complexity: O(n).
+
+## entry 284
+
+Stable when the input is already sorted.
