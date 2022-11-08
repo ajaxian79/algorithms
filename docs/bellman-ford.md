@@ -891,3 +891,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 223
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 224
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
