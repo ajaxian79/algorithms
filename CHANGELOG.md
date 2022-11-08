@@ -44683,3 +44683,7 @@
 ## entry 11171
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 11172
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
