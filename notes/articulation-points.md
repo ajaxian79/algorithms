@@ -791,3 +791,7 @@
 ## entry 198
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 199
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
