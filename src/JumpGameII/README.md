@@ -1172,3 +1172,7 @@ Branchless inner loop after sorting.
 ## entry 278
 
 Time complexity: O(1).
+
+## entry 279
+
+Edge case: input with no peak → falls through to the default branch.
