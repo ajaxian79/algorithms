@@ -10,7 +10,7 @@
 
 #include <malloc.h>
 #include <string.h>
-#include <math.h>
+#include <stdlib.h>
 
 int* get_result_array(int* returnSize) {
     *returnSize = 2;
