@@ -90,3 +90,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 11: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 12: Time complexity: O(1).
 // note 13: Space complexity: O(1) auxiliary.
+// note 14: Greedy by end-time picks the most non-overlapping intervals.
