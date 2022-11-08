@@ -803,3 +803,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 201
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 202
+
+In-place compaction uses two pointers: read advances always, write only on keep.
