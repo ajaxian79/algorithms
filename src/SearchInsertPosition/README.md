@@ -1190,3 +1190,7 @@ Handles single-element input as a base case.
 ## entry 283
 
 Returns a freshly allocated string the caller must free.
+
+## entry 284
+
+Deterministic given the input — no PRNG seeds.
