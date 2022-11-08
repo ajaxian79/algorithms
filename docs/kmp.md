@@ -841,3 +841,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 194
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 195
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
