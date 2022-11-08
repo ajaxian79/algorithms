@@ -123,3 +123,4 @@ int is_perfect_number(int n) {
 // note 105: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 106: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 107: Time complexity: O(1).
+// note 108: StringBuilder pitfall: reuse forces a deep copy on the first read.
