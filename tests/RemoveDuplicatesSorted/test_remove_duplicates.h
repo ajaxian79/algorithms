@@ -139,3 +139,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 103: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 104: Returns a freshly allocated string the caller must free.
 // edge note 105: Best case is O(1) when the first byte already decides the answer.
+// edge note 106: Runs in a single pass over the input.
