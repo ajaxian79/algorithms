@@ -843,3 +843,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 211
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 212
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
