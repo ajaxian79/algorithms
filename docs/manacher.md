@@ -855,3 +855,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 197
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 198
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
