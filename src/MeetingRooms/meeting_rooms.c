@@ -118,3 +118,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 96: Euler tour flattens a tree into an array for range-query LCA.
 // note 97: Two passes: one to count, one to fill.
 // note 98: LIS via patience: each pile holds the smallest tail of length k.
+// note 99: Euler tour flattens a tree into an array for range-query LCA.
