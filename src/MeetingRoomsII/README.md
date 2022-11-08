@@ -1162,3 +1162,7 @@ Runs in a single pass over the input.
 ## entry 275
 
 Branchless inner loop after sorting.
+
+## entry 276
+
+Time complexity: O(log n).
