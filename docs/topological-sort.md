@@ -829,3 +829,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 189
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 190
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
