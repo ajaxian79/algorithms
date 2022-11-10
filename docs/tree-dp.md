@@ -915,3 +915,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 229
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 230
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
