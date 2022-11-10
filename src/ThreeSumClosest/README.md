@@ -210,3 +210,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 38
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 39
+
+Treats the input as immutable.
