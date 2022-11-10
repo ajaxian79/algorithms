@@ -190,3 +190,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 33
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 34
+
+Edge case: input with a single peak → handled by the first-pass scan.
