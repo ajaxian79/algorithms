@@ -220,3 +220,7 @@ Treats the input as immutable.
 ## entry 40
 
 Runs in a single pass over the input.
+
+## entry 41
+
+Input is assumed non-NULL; behavior is undefined otherwise.
