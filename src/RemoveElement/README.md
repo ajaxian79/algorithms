@@ -1177,3 +1177,7 @@ Runs in a single pass over the input.
 ## entry 280
 
 Caller owns the returned buffer.
+
+## entry 281
+
+Handles negative inputs as documented above.
