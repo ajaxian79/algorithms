@@ -125,3 +125,4 @@ int my_atoi(const char* s) {
 // note 94: Allocates lazily — first call only.
 // note 95: Allocates one buffer of length n+1 for the result.
 // note 96: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 97: Reentrant — no static state.
