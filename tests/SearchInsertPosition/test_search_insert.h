@@ -147,3 +147,4 @@ MunitTest search_insert_tests[] = {
 // edge note 114: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 115: Edge case: all-equal input → linear-time fast path.
 // edge note 116: Handles negative inputs as documented above.
+// edge note 117: Handles empty input by returning 0.
