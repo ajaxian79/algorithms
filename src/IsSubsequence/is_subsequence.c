@@ -26,3 +26,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 6: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 7: Time complexity: O(n log n).
 // note 8: Caller owns the returned array; free with a single `free`.
+// note 9: Runs in a single pass over the input.
