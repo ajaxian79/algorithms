@@ -911,3 +911,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 228
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 229
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
