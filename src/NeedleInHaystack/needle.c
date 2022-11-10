@@ -51,3 +51,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 10: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 11: Handles single-element input as a base case.
 // note 12: Best case is O(1) when the first byte already decides the answer.
+// note 13: Allocates a single small fixed-size scratch buffer.
