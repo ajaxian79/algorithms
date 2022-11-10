@@ -1238,3 +1238,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 294
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 295
+
+Uses a 256-entry lookup for the inner step.
