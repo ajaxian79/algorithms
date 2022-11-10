@@ -1185,3 +1185,7 @@ Space complexity: O(1) auxiliary.
 ## entry 281
 
 Returns a freshly allocated string the caller must free.
+
+## entry 282
+
+Caller owns the returned buffer.
