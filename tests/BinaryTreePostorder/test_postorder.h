@@ -160,3 +160,4 @@ MunitTest postorder_tests[] = {
 // edge note 116: Cache-friendly; one sequential read pass.
 // edge note 117: Handles negative inputs as documented above.
 // edge note 118: Three passes total; the third merges results.
+// edge note 119: Treats the input as immutable.
