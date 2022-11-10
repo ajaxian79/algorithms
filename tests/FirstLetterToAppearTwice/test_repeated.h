@@ -2,75 +2,48 @@
 // Created by ajaxian on 11/13/23.
 //
 
-#ifndef ALGORITHMS_TEST_TWOSUM_H
-#define ALGORITHMS_TEST_TWOSUM_H
+#ifndef ALGORITHMS_TEST_REPEATED_H
+#define ALGORITHMS_TEST_REPEATED_H
 
 #include "../tests.h"
-#include "../../TwoSum/twosum.h"
+#include "../../FirstLetterToAppearTwice/repeated.h"
 
-static MunitResult test_twosum_basic_test(const MunitParameter params[], void* user_data_or_fixture) {
-    int nums[] = {2, 7, 18, -24};
-    int target = 9;
-    int num_size = 4;
-    int return_size;
-
-    int* result = twoSum(nums, num_size, target, &return_size);
-
-    munit_assert_int(result[0], ==, 0);
-    munit_assert_int(result[1], ==, 1);
-
-    free(result);
+static MunitResult test_repeated_basic_test(const MunitParameter params[], void* user_data_or_fixture) {
+    char string[] = {"abccbaacz"};
+    munit_assert_char(repeatedCharacter(string), ==, 'c');
     return MUNIT_OK;
 }
 
-static MunitResult test_twosum_large_number_test(const MunitParameter params[], void* user_data_or_fixture) {
-    int nums[] = {1,6142,8192,10239};
-    int target = 18431;
-    int num_size = 4;
-    int return_size;
-
-    int* result = twoSum(nums, num_size, target, &return_size);
-
-    munit_assert_int(result[0], ==, 2);
-    munit_assert_int(result[1], ==, 3);
-
-    free(result);
+static MunitResult test_repeated_end_of_string_test(const MunitParameter params[], void* user_data_or_fixture) {
+    char string[] = {"abcdd"};
+    munit_assert_char(repeatedCharacter(string), ==, 'd');
     return MUNIT_OK;
 }
 
-static MunitResult test_twosum_zeros_test(const MunitParameter params[], void* user_data_or_fixture) {
-    int nums[] = {0,4,3,0};
-    int target = 0;
-    int num_size = 4;
-    int return_size;
-
-    int* result = twoSum(nums, num_size, target, &return_size);
-
-    munit_assert_int(result[0], ==, 0);
-    munit_assert_int(result[1], ==, 3);
-
-    free(result);
+static MunitResult test_repeated_end_of_long_string_test(const MunitParameter params[], void* user_data_or_fixture) {
+    char string[] = {"abcdefghijklmnopqrstuvwxyza"};
+    munit_assert_char(repeatedCharacter(string), ==, 'a');
     return MUNIT_OK;
 }
 
-MunitTest twosum_tests[] = {
+MunitTest repeated_tests[] = {
     {
         "/basic",
-            test_twosum_basic_test,
+            test_repeated_basic_test,
         NULL,
         NULL,
         MUNIT_TEST_OPTION_NONE,
         NULL
         },{
-                "/large",
-                test_twosum_large_number_test,
+                "/end of string",
+                test_repeated_end_of_string_test,
                 NULL,
                 NULL,
                 MUNIT_TEST_OPTION_NONE,
                 NULL
         },{
-                "/zeros",
-                test_twosum_zeros_test,
+                "/end of long string",
+                test_repeated_end_of_long_string_test,
                 NULL,
                 NULL,
                 MUNIT_TEST_OPTION_NONE,
@@ -80,4 +53,4 @@ MunitTest twosum_tests[] = {
         {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
 };
 
-#endif //ALGORITHMS_TEST_TWOSUM_H
+#endif //ALGORITHMS_TEST_REPEATED_H

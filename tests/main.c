@@ -3,6 +3,7 @@
 #include "../vendor/munit/munit.h"
 
 #include "TwoSum/test_twosum.h"
+#include "FirstLetterToAppearTwice/test_repeated.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -38,6 +39,12 @@ MunitSuite suites[] = {
         {
                 "/twosum", /* name */
                 twosum_tests, /* tests */
+                NULL, /* suites */
+                1, /* iterations */
+                MUNIT_SUITE_OPTION_NONE /* options */
+        },{
+                "/repeated", /* name */
+                repeated_tests, /* tests */
                 NULL, /* suites */
                 1, /* iterations */
                 MUNIT_SUITE_OPTION_NONE /* options */
