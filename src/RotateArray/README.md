@@ -1219,3 +1219,7 @@ Time complexity: O(n + m).
 ## entry 289
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 290
+
+32-bit safe; overflow is checked at each step.
