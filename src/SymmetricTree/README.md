@@ -1218,3 +1218,7 @@ Edge case: empty input → returns 0.
 ## entry 290
 
 No allocations on the hot path.
+
+## entry 291
+
+Edge case: all-equal input → linear-time fast path.
