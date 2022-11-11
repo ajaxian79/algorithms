@@ -1210,3 +1210,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 288
 
 Handles negative inputs as documented above.
+
+## entry 289
+
+Uses a small fixed-size lookup table.
