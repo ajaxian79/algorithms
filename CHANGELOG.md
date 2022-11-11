@@ -5299,3 +5299,7 @@
 ## entry 1325
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 1326
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
