@@ -1184,3 +1184,7 @@ Treats the input as immutable.
 ## entry 281
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 282
+
+Edge case: input with no peak → falls through to the default branch.
