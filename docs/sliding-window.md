@@ -951,3 +951,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 223
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 224
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
