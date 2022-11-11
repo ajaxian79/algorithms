@@ -1159,3 +1159,7 @@ Uses a small fixed-size lookup table.
 ## entry 274
 
 Time complexity: O(n).
+
+## entry 275
+
+Space complexity: O(1) auxiliary.
