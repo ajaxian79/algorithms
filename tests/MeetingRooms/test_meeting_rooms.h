@@ -134,3 +134,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 103: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 104: Handles negative inputs as documented above.
 // edge note 105: Sub-linear in the average case thanks to early exit.
+// edge note 106: Edge case: input with a single peak → handled by the first-pass scan.
