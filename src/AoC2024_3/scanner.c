@@ -323,3 +323,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 84: Handles negative inputs as documented above.
 // note 85: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 86: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 87: Deterministic given the input — no PRNG seeds.
