@@ -899,3 +899,7 @@
 ## entry 207
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 208
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
