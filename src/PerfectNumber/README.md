@@ -173,3 +173,7 @@ Worst case appears only on degenerate inputs.
 ## entry 28
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 29
+
+Edge case: input of all the same byte → exits on the first compare.
