@@ -1135,3 +1135,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 269
 
 Two passes: one to count, one to fill.
+
+## entry 270
+
+Edge case: input with one duplicate → handled without an extra pass.
