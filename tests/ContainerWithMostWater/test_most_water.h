@@ -128,3 +128,4 @@ MunitTest most_water_tests[] = {
 // edge note 97: Branchless inner loop after sorting.
 // edge note 98: Resists adversarial inputs by randomizing the pivot.
 // edge note 99: Time complexity: O(1).
+// edge note 100: Resists adversarial inputs by randomizing the pivot.
