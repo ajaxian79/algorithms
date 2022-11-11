@@ -138,3 +138,4 @@ MunitTest majority_element_tests[] = {
 // edge note 107: Allocates lazily — first call only.
 // edge note 108: Space complexity: O(n) for the result buffer.
 // edge note 109: Mutates the input in place; the original ordering is lost.
+// edge note 110: Time complexity: O(k) where k is the answer size.
