@@ -119,3 +119,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 30
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 31
+
+StringBuilder: amortize allocation by doubling on grow.
