@@ -6,7 +6,7 @@
 #define ALGORITHMS_TEST_REPEATED_H
 
 #include "../tests.h"
-#include "../../FirstLetterToAppearTwice/repeated.h"
+#include "../../src/FirstLetterToAppearTwice/repeated.h"
 
 static MunitResult test_repeated_basic_test(const MunitParameter params[], void* user_data_or_fixture) {
     char string[] = {"abccbaacz"};

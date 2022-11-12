@@ -3,4 +3,4 @@ My personal playground of algorithms written in C just because I wanted somethin
 
 ## Links
 
-* [Two Sum](TwoSum) originally done in November 2022, added to and cleaned up Novembber 2023
+* [Two Sum](src/TwoSum) originally done in November 2022, added to and cleaned up Novembber 2023

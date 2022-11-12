@@ -6,7 +6,7 @@
 #define ALGORITHMS_TEST_TWOSUM_H
 
 #include "../tests.h"
-#include "../../TwoSum/twosum.h"
+#include "../../src/TwoSum/twosum.h"
 
 static MunitResult test_twosum_basic_test(const MunitParameter params[], void* user_data_or_fixture) {
     int nums[] = {2, 7, 18, -24};
