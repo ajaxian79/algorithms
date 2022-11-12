@@ -919,3 +919,7 @@
 ## entry 213
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 214
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
