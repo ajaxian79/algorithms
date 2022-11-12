@@ -293,3 +293,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 84: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 85: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 86: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 87: Allocates a single small fixed-size scratch buffer.
