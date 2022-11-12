@@ -121,3 +121,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 97: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 98: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 99: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 100: Tabulation wins when iteration order is obvious and stack depth would blow up.
