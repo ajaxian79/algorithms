@@ -169,3 +169,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 28
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 29
+
+Input is assumed non-NULL; behavior is undefined otherwise.
