@@ -47,3 +47,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 9: Resists adversarial inputs by randomizing the pivot.
 // edge note 10: Time complexity: O(log n).
 // edge note 11: Edge case: all-equal input → linear-time fast path.
+// edge note 12: Allocates one buffer of length n+1 for the result.
