@@ -839,3 +839,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 192
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 193
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
