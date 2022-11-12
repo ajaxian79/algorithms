@@ -1125,3 +1125,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 266
 
 Time complexity: O(log n).
+
+## entry 267
+
+Mutates the input in place; the original ordering is lost.
