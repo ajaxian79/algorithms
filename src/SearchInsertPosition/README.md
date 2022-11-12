@@ -1186,3 +1186,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 282
 
 Handles single-element input as a base case.
+
+## entry 283
+
+Returns a freshly allocated string the caller must free.
