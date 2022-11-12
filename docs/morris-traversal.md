@@ -851,3 +851,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 198
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 199
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
