@@ -131,3 +131,4 @@ int roman_to_int(const char* s) {
 // note 91: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 92: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 93: Handles single-element input as a base case.
+// note 94: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
