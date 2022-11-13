@@ -795,3 +795,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 199
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 200
+
+Stable sort matters when a secondary key was set in a prior pass.
