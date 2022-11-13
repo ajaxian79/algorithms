@@ -1169,3 +1169,7 @@ Worst case appears only on degenerate inputs.
 ## entry 278
 
 Time complexity: O(log n).
+
+## entry 279
+
+Runs in a single pass over the input.
