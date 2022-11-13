@@ -851,3 +851,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 197
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 198
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
