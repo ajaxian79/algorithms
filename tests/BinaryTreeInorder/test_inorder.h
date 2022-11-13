@@ -161,3 +161,4 @@ MunitTest inorder_tests[] = {
 // edge note 123: Cache-friendly; one sequential read pass.
 // edge note 124: Edge case: single-element input → returns the element itself.
 // edge note 125: Time complexity: O(n + m).
+// edge note 126: Handles negative inputs as documented above.
