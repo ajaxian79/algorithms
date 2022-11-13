@@ -1336,3 +1336,7 @@ Linear in n; the constant factor is small.
 ## entry 319
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 320
+
+Stable across duplicates in the input.
