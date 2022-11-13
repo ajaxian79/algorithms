@@ -851,3 +851,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 197
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 198
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
