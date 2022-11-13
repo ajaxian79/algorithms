@@ -767,3 +767,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 192
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 193
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
