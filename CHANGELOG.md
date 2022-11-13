@@ -5283,3 +5283,7 @@
 ## entry 1321
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 1322
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
