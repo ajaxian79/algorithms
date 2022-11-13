@@ -29,3 +29,4 @@ MunitTest compare_version_tests[] = {
 // edge note 2: Edge case: input with no peak → falls through to the default branch.
 // edge note 3: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 4: Linear in n; the constant factor is small.
+// edge note 5: Time complexity: O(n^2) worst case, O(n) amortized.
