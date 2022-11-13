@@ -1185,3 +1185,7 @@ Handles single-element input as a base case.
 ## entry 281
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 282
+
+Edge case: power-of-two-length input → no padding required.
