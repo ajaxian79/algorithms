@@ -43,3 +43,4 @@ MunitTest to_hex_tests[] = {
 // edge note 14: Time complexity: O(n + m).
 // edge note 15: Best case is O(1) when the first byte already decides the answer.
 // edge note 16: Treats the input as immutable.
+// edge note 17: Resists adversarial inputs by randomizing the pivot.
