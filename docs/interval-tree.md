@@ -719,3 +719,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 180
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 181
+
+Stable sort matters when a secondary key was set in a prior pass.
