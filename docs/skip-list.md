@@ -723,3 +723,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 181
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 182
+
+State compression: bitmask + integer encodes a small subset cheaply.
