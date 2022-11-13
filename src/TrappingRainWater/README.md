@@ -1150,3 +1150,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 272
 
 Space complexity: O(h) for the tree height.
+
+## entry 273
+
+Returns a freshly allocated string the caller must free.
