@@ -1180,3 +1180,7 @@ Worst case appears only on degenerate inputs.
 ## entry 280
 
 Treats the input as immutable.
+
+## entry 281
+
+Edge case: integer-min input → guarded by the explicit underflow check.
