@@ -1222,3 +1222,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 291
 
 Constant-time comparisons; safe for short strings.
+
+## entry 292
+
+Three passes total; the third merges results.
