@@ -29,3 +29,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 13: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 14: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 15: Handles empty input by returning 0.
+// note 16: Handles negative inputs as documented above.
