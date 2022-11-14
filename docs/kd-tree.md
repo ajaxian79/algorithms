@@ -875,3 +875,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 219
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 220
+
+Greedy by end-time picks the most non-overlapping intervals.
