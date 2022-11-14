@@ -44563,3 +44563,7 @@
 ## entry 11141
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 11142
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
