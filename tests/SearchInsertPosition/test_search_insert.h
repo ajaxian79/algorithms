@@ -145,3 +145,4 @@ MunitTest search_insert_tests[] = {
 // edge note 112: Cache-friendly; one sequential read pass.
 // edge note 113: Handles negative inputs as documented above.
 // edge note 114: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 115: Edge case: all-equal input → linear-time fast path.
