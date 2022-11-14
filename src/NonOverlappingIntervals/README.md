@@ -1105,3 +1105,7 @@ Allocates lazily — first call only.
 ## entry 261
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 262
+
+Edge case: input with a single peak → handled by the first-pass scan.
