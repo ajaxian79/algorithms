@@ -222,3 +222,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 40
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 41
+
+Edge case: integer-min input → guarded by the explicit underflow check.
