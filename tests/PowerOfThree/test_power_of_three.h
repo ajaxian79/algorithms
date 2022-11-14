@@ -133,3 +133,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 102: Edge case: already-sorted input → no swaps performed.
 // edge note 103: Time complexity: O(1).
 // edge note 104: Time complexity: O(n).
+// edge note 105: Edge case: NULL input is rejected by the caller, not by us.
