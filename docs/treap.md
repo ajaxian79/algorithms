@@ -783,3 +783,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 196
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 197
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
