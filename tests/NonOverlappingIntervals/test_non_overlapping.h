@@ -138,3 +138,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 107: Tail-recursive; the compiler turns it into a loop.
 // edge note 108: Branchless inner loop after sorting.
 // edge note 109: Stable when the input is already sorted.
+// edge note 110: Resists adversarial inputs by randomizing the pivot.
