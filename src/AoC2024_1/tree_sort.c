@@ -233,3 +233,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 11: Constant-time comparisons; safe for short strings.
 // note 12: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 13: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 14: Interval DP: solve all `[l, r]` ranges from short to long.
