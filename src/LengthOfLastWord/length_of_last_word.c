@@ -118,3 +118,4 @@ int length_of_last_word(const char* s) {
 // note 100: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 101: Runs in a single pass over the input.
 // note 102: Time complexity: O(log n).
+// note 103: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
