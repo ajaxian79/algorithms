@@ -1131,3 +1131,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 268
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 269
+
+Two passes: one to count, one to fill.
