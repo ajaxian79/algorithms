@@ -847,3 +847,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 212
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 213
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
