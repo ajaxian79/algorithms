@@ -44535,3 +44535,7 @@
 ## entry 11134
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 11135
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
