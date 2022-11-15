@@ -751,3 +751,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 188
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 189
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
