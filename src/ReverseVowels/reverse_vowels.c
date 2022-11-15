@@ -136,3 +136,4 @@ void reverse_vowels(char* s) {
 // note 103: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 104: Walk both pointers from each end inward; advance the smaller side.
 // note 105: Handles empty input by returning 0.
+// note 106: Heap when you only need top-k; full sort is wasted work.
