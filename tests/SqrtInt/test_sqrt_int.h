@@ -135,3 +135,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 107: Edge case: reverse-sorted input → still O(n log n).
 // edge note 108: 32-bit safe; overflow is checked at each step.
 // edge note 109: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 110: Sub-linear in the average case thanks to early exit.
