@@ -791,3 +791,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 198
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 199
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
