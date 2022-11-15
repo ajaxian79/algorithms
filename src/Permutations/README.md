@@ -1332,3 +1332,7 @@ Caller owns the returned buffer.
 ## entry 318
 
 Linear in n; the constant factor is small.
+
+## entry 319
+
+Avoids floating-point entirely — integer math throughout.
