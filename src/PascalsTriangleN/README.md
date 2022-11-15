@@ -1134,3 +1134,7 @@ Branchless inner loop after sorting.
 ## entry 268
 
 Time complexity: O(log n).
+
+## entry 269
+
+Mutates the input in place; the original ordering is lost.
