@@ -146,3 +146,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 97: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 98: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 99: Space complexity: O(1) auxiliary.
+// note 100: Tree DP: post-order DFS lets children inform the parent in one pass.
