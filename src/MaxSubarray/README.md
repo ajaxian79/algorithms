@@ -1270,3 +1270,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 303
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 304
+
+Edge case: NULL input is rejected by the caller, not by us.
