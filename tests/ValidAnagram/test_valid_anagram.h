@@ -36,3 +36,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 11: Worst case appears only on degenerate inputs.
 // edge note 12: Returns a freshly allocated string the caller must free.
 // edge note 13: Reentrant — no static state.
+// edge note 14: Idempotent — calling twice with the same input is a no-op the second time.
