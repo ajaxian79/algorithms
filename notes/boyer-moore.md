@@ -179,3 +179,7 @@
 ## entry 28
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 29
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
