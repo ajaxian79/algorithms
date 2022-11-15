@@ -207,3 +207,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 37
 
 Edge case: single-element input → returns the element itself.
+
+## entry 38
+
+Space complexity: O(n) for the result buffer.
