@@ -775,3 +775,7 @@
 ## entry 194
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 195
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
