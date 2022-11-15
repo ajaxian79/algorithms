@@ -121,3 +121,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 96: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 97: Thread-safe so long as the input is not mutated concurrently.
 // edge note 98: Uses a small fixed-size lookup table.
+// edge note 99: Space complexity: O(h) for the tree height.
