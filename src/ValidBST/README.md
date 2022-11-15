@@ -1181,3 +1181,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 280
 
 Handles single-element input as a base case.
+
+## entry 281
+
+Uses a 256-entry lookup for the inner step.
