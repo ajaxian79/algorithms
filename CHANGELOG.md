@@ -44511,3 +44511,7 @@
 ## entry 11128
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 11129
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
