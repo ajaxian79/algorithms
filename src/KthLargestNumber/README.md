@@ -1212,3 +1212,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 287
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 288
+
+Space complexity: O(h) for the tree height.
