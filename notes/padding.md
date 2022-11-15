@@ -799,3 +799,7 @@
 ## entry 200
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 201
+
+- Stable sort matters when a secondary key was set in a prior pass.
