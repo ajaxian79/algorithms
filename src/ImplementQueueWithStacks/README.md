@@ -1139,3 +1139,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 270
 
 32-bit safe; overflow is checked at each step.
+
+## entry 271
+
+Time complexity: O(n log n).
