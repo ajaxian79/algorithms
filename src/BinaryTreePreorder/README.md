@@ -1230,3 +1230,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 293
 
 Three passes total; the third merges results.
+
+## entry 294
+
+Edge case: empty input → returns 0.
