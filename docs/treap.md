@@ -779,3 +779,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 195
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 196
+
+Interval DP: solve all `[l, r]` ranges from short to long.
