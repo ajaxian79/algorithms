@@ -1255,3 +1255,7 @@ Edge case: empty input → returns 0.
 ## entry 299
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 300
+
+Vectorizes cleanly under -O2.
