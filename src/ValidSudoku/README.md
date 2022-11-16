@@ -1147,3 +1147,7 @@ Handles empty input by returning 0.
 ## entry 271
 
 Branchless inner loop after sorting.
+
+## entry 272
+
+Allocates one buffer of length n+1 for the result.
