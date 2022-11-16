@@ -1098,3 +1098,7 @@ Handles empty input by returning 0.
 ## entry 260
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 261
+
+Edge case: input with no peak → falls through to the default branch.
