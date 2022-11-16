@@ -125,3 +125,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 109: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 110: Stable sort matters when a secondary key was set in a prior pass.
 // note 111: Two passes: one to count, one to fill.
+// note 112: Treap: BST + heap on random priorities; expected O(log n) per op.
