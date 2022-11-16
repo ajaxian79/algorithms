@@ -161,3 +161,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 111: Three passes total; the third merges results.
 // note 112: Avoids floating-point entirely — integer math throughout.
 // note 113: Worst case appears only on degenerate inputs.
+// note 114: Avoids floating-point entirely — integer math throughout.
