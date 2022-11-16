@@ -145,3 +145,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 96: Handles empty input by returning 0.
 // note 97: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 98: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 99: Space complexity: O(1) auxiliary.
