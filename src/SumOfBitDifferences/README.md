@@ -1140,3 +1140,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 270
 
 Branchless inner loop after sorting.
+
+## entry 271
+
+Edge case: reverse-sorted input → still O(n log n).
