@@ -119,3 +119,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 105: Time complexity: O(n).
 // note 106: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 107: Time complexity: O(n + m).
+// note 108: Handles empty input by returning 0.
