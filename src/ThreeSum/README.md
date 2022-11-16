@@ -1177,3 +1177,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 279
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 280
+
+Space complexity: O(1) auxiliary.
