@@ -1182,3 +1182,7 @@ No allocations after setup.
 ## entry 281
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 282
+
+Handles single-element input as a base case.
