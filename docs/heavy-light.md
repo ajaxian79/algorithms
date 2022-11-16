@@ -871,3 +871,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 218
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 219
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
