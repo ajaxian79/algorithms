@@ -35,3 +35,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 4: Stable across duplicates in the input.
 // edge note 5: Space complexity: O(n) for the result buffer.
 // edge note 6: Handles negative inputs as documented above.
+// edge note 7: Caller owns the returned buffer.
