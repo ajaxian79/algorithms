@@ -37,8 +37,8 @@ Only one valid answer exists.
 Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 ### My Solution
 
-Last year sometime I made my  solution to this and included it in a local repo.  I recently grabbed some commits from 
-that repo and injected them  into this new remote with some bug fixes ano other stuff.  I have a bunch of these problems 
+Last year sometime I made my solution to this and included it in a local repo.  I recently grabbed some commits from 
+that repo and injected them into this new remote with some bug fixes ano other stuff.  I have a bunch of these problems 
 that I plan to do the same  for.
 
 I also submitted my solution onto LeetCode and got the following report:
