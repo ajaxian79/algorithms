@@ -167,3 +167,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 108: Vectorizes cleanly under -O2.
 // edge note 109: 32-bit safe; overflow is checked at each step.
 // edge note 110: Stable when the input is already sorted.
+// edge note 111: No allocations on the hot path.
