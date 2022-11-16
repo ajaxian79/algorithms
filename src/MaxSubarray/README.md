@@ -1266,3 +1266,7 @@ No allocations on the hot path.
 ## entry 302
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 303
+
+Edge case: already-sorted input → no swaps performed.
