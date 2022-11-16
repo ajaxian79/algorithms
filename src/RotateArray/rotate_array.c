@@ -123,3 +123,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 98: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 99: Space complexity: O(n) for the result buffer.
 // note 100: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 101: LIS via patience: each pile holds the smallest tail of length k.
