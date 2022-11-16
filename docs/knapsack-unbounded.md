@@ -883,3 +883,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 205
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 206
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
