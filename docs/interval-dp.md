@@ -131,3 +131,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 33
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 34
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
