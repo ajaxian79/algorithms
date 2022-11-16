@@ -142,3 +142,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 113: Space complexity: O(h) for the tree height.
 // edge note 114: Reentrant — no static state.
 // edge note 115: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 116: Stable when the input is already sorted.
