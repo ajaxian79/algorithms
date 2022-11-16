@@ -831,3 +831,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 190
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 191
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
