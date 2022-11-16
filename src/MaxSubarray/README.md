@@ -202,3 +202,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 36
 
 Handles negative inputs as documented above.
+
+## entry 37
+
+Space complexity: O(n) for the result buffer.
