@@ -1143,3 +1143,7 @@ Two passes: one to count, one to fill.
 ## entry 270
 
 Handles empty input by returning 0.
+
+## entry 271
+
+Branchless inner loop after sorting.
