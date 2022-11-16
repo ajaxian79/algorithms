@@ -154,3 +154,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 119: Deterministic given the input — no PRNG seeds.
 // edge note 120: Treats the input as immutable.
 // edge note 121: Space complexity: O(log n) for the recursion stack.
+// edge note 122: Caller owns the returned array; free with a single `free`.
