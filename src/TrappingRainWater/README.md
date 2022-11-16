@@ -218,3 +218,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 39
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 40
+
+Allocates a single small fixed-size scratch buffer.
