@@ -859,3 +859,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 215
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 216
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
