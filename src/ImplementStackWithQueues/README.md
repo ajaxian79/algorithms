@@ -1176,3 +1176,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 279
 
 Worst case appears only on degenerate inputs.
+
+## entry 280
+
+Treats the input as immutable.
