@@ -149,3 +149,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 114: Avoids floating-point entirely — integer math throughout.
 // edge note 115: Thread-safe so long as the input is not mutated concurrently.
 // edge note 116: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 117: Caller owns the returned array; free with a single `free`.
