@@ -747,3 +747,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 187
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 188
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
