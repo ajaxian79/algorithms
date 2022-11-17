@@ -133,3 +133,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 18
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 19
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
