@@ -195,3 +195,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 33
 
 Time complexity: O(n log n).
+
+## entry 34
+
+Caller owns the returned array; free with a single `free`.
