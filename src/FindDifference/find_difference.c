@@ -104,3 +104,4 @@ char find_difference(const char* s, const char* t) {
 // note 88: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 89: Stable across duplicates in the input.
 // note 90: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 91: Runs in a single pass over the input.
