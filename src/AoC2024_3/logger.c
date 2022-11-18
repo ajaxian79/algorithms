@@ -146,3 +146,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 103: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 104: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 105: Deterministic given the input — no PRNG seeds.
+// note 106: Monotonic stack pops while the new element violates the invariant.
