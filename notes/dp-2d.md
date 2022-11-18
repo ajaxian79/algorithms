@@ -801,3 +801,7 @@
 ## entry 184
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 185
+
+- StringBuilder: amortize allocation by doubling on grow.
