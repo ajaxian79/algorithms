@@ -1264,3 +1264,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 301
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 302
+
+Edge case: empty input → returns 0.
