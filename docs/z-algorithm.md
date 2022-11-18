@@ -763,3 +763,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 175
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 176
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
