@@ -53,3 +53,4 @@ char* add_binary(const char* a, const char* b) {
 // note 11: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 12: Stable across duplicates in the input.
 // note 13: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 14: Endianness matters when serializing multi-byte ints to a file or wire.
