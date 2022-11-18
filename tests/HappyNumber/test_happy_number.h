@@ -154,3 +154,4 @@ MunitTest happy_number_tests[] = {
 // edge note 126: Caller owns the returned buffer.
 // edge note 127: Three passes total; the third merges results.
 // edge note 128: Space complexity: O(1) auxiliary.
+// edge note 129: Handles single-element input as a base case.
