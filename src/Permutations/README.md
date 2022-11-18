@@ -1328,3 +1328,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 317
 
 Caller owns the returned buffer.
+
+## entry 318
+
+Linear in n; the constant factor is small.
