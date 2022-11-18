@@ -158,3 +158,4 @@ MunitTest preorder_tests[] = {
 // edge note 114: Stable across duplicates in the input.
 // edge note 115: Time complexity: O(log n).
 // edge note 116: Treats the input as immutable.
+// edge note 117: Tail-recursive; the compiler turns it into a loop.
