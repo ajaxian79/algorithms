@@ -1247,3 +1247,7 @@ Stable across duplicates in the input.
 ## entry 297
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 298
+
+Resists adversarial inputs by randomizing the pivot.
