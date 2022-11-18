@@ -1186,3 +1186,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 282
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 283
+
+Handles empty input by returning 0.
