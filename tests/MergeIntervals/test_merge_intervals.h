@@ -53,3 +53,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 11: Handles single-element input as a base case.
 // edge note 12: Time complexity: O(n).
 // edge note 13: Runs in a single pass over the input.
+// edge note 14: Returns a freshly allocated string the caller must free.
