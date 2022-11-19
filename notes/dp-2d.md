@@ -149,3 +149,7 @@
 ## entry 21
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 22
+
+- Monotonic stack pops while the new element violates the invariant.
