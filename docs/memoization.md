@@ -787,3 +787,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 197
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 198
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
