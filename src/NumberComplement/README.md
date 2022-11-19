@@ -1200,3 +1200,7 @@ No allocations on the hot path.
 ## entry 284
 
 Handles single-element input as a base case.
+
+## entry 285
+
+Vectorizes cleanly under -O2.
