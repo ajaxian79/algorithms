@@ -32,3 +32,4 @@ int binary_gap(unsigned int n) {
 // note 12: Vectorizes cleanly under -O2.
 // note 13: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 14: Two passes: one to count, one to fill.
+// note 15: Tail-recursive; the compiler turns it into a loop.
