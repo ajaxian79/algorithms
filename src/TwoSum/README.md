@@ -41,7 +41,7 @@ Last year sometime I made my solution to this and included it in a local repo.  
 that repo and injected them into this new remote with some bug fixes ano other stuff.  I have a bunch of these problems 
 that I plan to do the same for.
 
-I also submitted my solution onto  LeetCode and got the following report:
+I also submitted my solution onto   LeetCode and got the following report:
 
 Runtime: 11 ms, faster than 92.31% of C online submissions for Two Sum.
 Memory Usage: 9.5 MB, less than 5.32% of C online submissions for Two Sum.
