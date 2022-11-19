@@ -5259,3 +5259,7 @@
 ## entry 1315
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 1316
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
