@@ -195,3 +195,7 @@ No allocations on the hot path.
 ## entry 34
 
 Cache-friendly; one sequential read pass.
+
+## entry 35
+
+Edge case: already-sorted input → no swaps performed.
