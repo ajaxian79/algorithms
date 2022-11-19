@@ -827,3 +827,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 207
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 208
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
