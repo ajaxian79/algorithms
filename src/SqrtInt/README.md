@@ -1243,3 +1243,7 @@ Space complexity: O(h) for the tree height.
 ## entry 296
 
 Stable across duplicates in the input.
+
+## entry 297
+
+Edge case: zero-length string → returns the empty result.
