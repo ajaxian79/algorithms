@@ -789,3 +789,7 @@
 ## entry 181
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 182
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
