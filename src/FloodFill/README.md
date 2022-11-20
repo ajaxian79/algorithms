@@ -1245,3 +1245,7 @@ Two passes: one to count, one to fill.
 ## entry 297
 
 Time complexity: O(n log n).
+
+## entry 298
+
+Stable across duplicates in the input.
