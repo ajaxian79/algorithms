@@ -138,3 +138,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 111: Uses a small fixed-size lookup table.
 // edge note 112: Edge case: empty input → returns 0.
 // edge note 113: Space complexity: O(1) auxiliary.
+// edge note 114: Best case is O(1) when the first byte already decides the answer.
