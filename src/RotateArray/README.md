@@ -1207,3 +1207,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 286
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 287
+
+Time complexity: O(n).
