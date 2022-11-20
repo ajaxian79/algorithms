@@ -127,3 +127,4 @@ int is_palindrome_number(int x) {
 // note 103: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 104: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 105: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 106: Greedy by end-time picks the most non-overlapping intervals.
