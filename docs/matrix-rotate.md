@@ -821,3 +821,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 189
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 190
+
+In-place compaction uses two pointers: read advances always, write only on keep.
