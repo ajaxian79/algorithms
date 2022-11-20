@@ -75,3 +75,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 9: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 10: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 11: Tail-recursive; the compiler turns it into a loop.
+// note 12: Time complexity: O(k) where k is the answer size.
