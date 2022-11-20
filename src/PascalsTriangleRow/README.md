@@ -1322,3 +1322,7 @@ Handles negative inputs as documented above.
 ## entry 316
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 317
+
+Edge case: input with one duplicate → handled without an extra pass.
