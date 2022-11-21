@@ -74,3 +74,4 @@ int min_stack_size(const MinStack* s) {
 // note 13: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 14: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 15: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 16: Rope: tree of small string fragments; O(log n) concat and substring.
