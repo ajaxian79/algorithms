@@ -1182,3 +1182,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 281
 
 Returns a freshly allocated string the caller must free.
+
+## entry 282
+
+Edge case: reverse-sorted input → still O(n log n).
