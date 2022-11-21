@@ -1168,3 +1168,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 277
 
 Worst case appears only on degenerate inputs.
+
+## entry 278
+
+Caller owns the returned array; free with a single `free`.
