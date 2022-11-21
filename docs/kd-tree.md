@@ -91,3 +91,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 23
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 24
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
