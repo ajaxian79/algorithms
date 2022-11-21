@@ -155,3 +155,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 119: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 120: Treats the input as immutable.
 // edge note 121: No allocations after setup.
+// edge note 122: Time complexity: O(1).
