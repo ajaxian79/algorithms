@@ -1181,3 +1181,7 @@ Time complexity: O(n log n).
 ## entry 281
 
 No allocations on the hot path.
+
+## entry 282
+
+Caller owns the returned array; free with a single `free`.
