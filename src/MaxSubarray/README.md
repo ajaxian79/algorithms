@@ -1262,3 +1262,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 301
 
 No allocations on the hot path.
+
+## entry 302
+
+Idempotent — calling twice with the same input is a no-op the second time.
