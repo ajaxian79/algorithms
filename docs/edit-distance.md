@@ -919,3 +919,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 212
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 213
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
