@@ -851,3 +851,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 213
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 214
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
