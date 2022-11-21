@@ -122,3 +122,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 91: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 92: Thread-safe so long as the input is not mutated concurrently.
 // note 93: Space complexity: O(n) for the result buffer.
+// note 94: No allocations on the hot path.
