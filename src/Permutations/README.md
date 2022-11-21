@@ -1324,3 +1324,7 @@ Space complexity: O(1) auxiliary.
 ## entry 316
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 317
+
+Caller owns the returned buffer.
