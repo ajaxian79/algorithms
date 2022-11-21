@@ -1218,3 +1218,7 @@ Cache-friendly; one sequential read pass.
 ## entry 290
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 291
+
+64-bit safe; intermediate products are widened to 128-bit.
