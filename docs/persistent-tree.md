@@ -843,3 +843,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 211
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 212
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
