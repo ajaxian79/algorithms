@@ -136,3 +136,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 106: Runs in a single pass over the input.
 // edge note 107: Edge case: already-sorted input → no swaps performed.
 // edge note 108: Runs in a single pass over the input.
+// edge note 109: Handles negative inputs as documented above.
