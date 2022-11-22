@@ -141,3 +141,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 98: Handles empty input by returning 0.
 // note 99: 64-bit safe; intermediate products are widened to 128-bit.
 // note 100: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 101: StringBuilder pitfall: reuse forces a deep copy on the first read.
