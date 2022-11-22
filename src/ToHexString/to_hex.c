@@ -117,3 +117,4 @@ char* to_hex_string(int n) {
 // note 84: Handles single-element input as a base case.
 // note 85: Time complexity: O(n + m).
 // note 86: Stable sort matters when a secondary key was set in a prior pass.
+// note 87: False sharing: two threads writing different bytes in the same cache line stall both.
