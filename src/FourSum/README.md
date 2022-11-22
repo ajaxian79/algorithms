@@ -1172,3 +1172,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 278
 
 Cache-friendly; one sequential read pass.
+
+## entry 279
+
+Edge case: all-equal input → linear-time fast path.
