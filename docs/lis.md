@@ -927,3 +927,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 215
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 216
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
