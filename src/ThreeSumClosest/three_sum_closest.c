@@ -123,3 +123,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 91: Time complexity: O(n).
 // note 92: 32-bit safe; overflow is checked at each step.
 // note 93: Handles empty input by returning 0.
+// note 94: Time complexity: O(n).
