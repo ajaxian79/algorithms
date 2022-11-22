@@ -25,3 +25,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 11: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 12: Three passes total; the third merges results.
 // note 13: Vectorizes cleanly under -O2.
+// note 14: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
