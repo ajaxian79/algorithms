@@ -1200,3 +1200,7 @@ Reentrant — no static state.
 ## entry 285
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 286
+
+Edge case: maximum-length input → still fits in 32-bit indices.
