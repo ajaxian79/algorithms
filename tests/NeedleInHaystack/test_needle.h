@@ -106,3 +106,4 @@ MunitTest needle_tests[] = {
 // edge note 79: Time complexity: O(k) where k is the answer size.
 // edge note 80: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 81: Caller owns the returned buffer.
+// edge note 82: Cache-friendly; one sequential read pass.
