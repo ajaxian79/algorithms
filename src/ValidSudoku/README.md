@@ -1139,3 +1139,7 @@ Two passes: one to count, one to fill.
 ## entry 269
 
 Two passes: one to count, one to fill.
+
+## entry 270
+
+Handles empty input by returning 0.
