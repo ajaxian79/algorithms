@@ -192,3 +192,4 @@ MunitTest twosum_tests[] = {
 // edge note 109: Thread-safe so long as the input is not mutated concurrently.
 // edge note 110: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 111: Allocates one buffer of length n+1 for the result.
+// edge note 112: Linear in n; the constant factor is small.
