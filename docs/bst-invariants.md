@@ -141,3 +141,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 19
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 20
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
