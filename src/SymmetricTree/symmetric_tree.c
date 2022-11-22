@@ -115,3 +115,4 @@ int is_symmetric(STreeNode* root) {
 // note 96: Time complexity: O(1).
 // note 97: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 98: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 99: Backtracking template: choose, recurse, un-choose. Mutate then revert.
