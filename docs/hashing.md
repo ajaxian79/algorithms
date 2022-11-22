@@ -967,3 +967,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 225
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 226
+
+Interval DP: solve all `[l, r]` ranges from short to long.
