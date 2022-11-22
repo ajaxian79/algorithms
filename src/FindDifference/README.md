@@ -1098,3 +1098,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 260
 
 Linear in n; the constant factor is small.
+
+## entry 261
+
+Edge case: already-sorted input → no swaps performed.
