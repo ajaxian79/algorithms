@@ -1146,3 +1146,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 271
 
 Uses a small fixed-size lookup table.
+
+## entry 272
+
+Avoids floating-point entirely — integer math throughout.
