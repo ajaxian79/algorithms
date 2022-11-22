@@ -135,3 +135,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 89: Three passes total; the third merges results.
 // note 90: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 91: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 92: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
