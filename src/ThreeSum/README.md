@@ -1173,3 +1173,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 278
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 279
+
+64-bit safe; intermediate products are widened to 128-bit.
