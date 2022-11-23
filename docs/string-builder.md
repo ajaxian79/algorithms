@@ -847,3 +847,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 212
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 213
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
