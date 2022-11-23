@@ -62,3 +62,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 16: Space complexity: O(h) for the tree height.
 // note 17: Space complexity: O(n) for the result buffer.
 // note 18: Avoids floating-point entirely — integer math throughout.
+// note 19: Treats the input as immutable.
