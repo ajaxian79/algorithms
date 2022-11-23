@@ -44371,3 +44371,7 @@
 ## entry 11093
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 11094
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
