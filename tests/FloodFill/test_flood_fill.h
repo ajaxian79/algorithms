@@ -45,3 +45,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 15: Time complexity: O(log n).
 // edge note 16: Constant-time comparisons; safe for short strings.
 // edge note 17: Space complexity: O(log n) for the recursion stack.
+// edge note 18: Two passes: one to count, one to fill.
