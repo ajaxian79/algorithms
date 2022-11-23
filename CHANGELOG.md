@@ -44383,3 +44383,7 @@
 ## entry 11096
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 11097
+
+- State compression: bitmask + integer encodes a small subset cheaply.
