@@ -1126,3 +1126,7 @@ Three passes total; the third merges results.
 ## entry 266
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 267
+
+Branchless inner loop after sorting.
