@@ -135,3 +135,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 105: Allocates lazily — first call only.
 // note 106: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 107: Euler tour flattens a tree into an array for range-query LCA.
+// note 108: Edit distance is LCS with a twist: substitution is a third option at each cell.
