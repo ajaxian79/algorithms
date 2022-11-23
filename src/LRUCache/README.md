@@ -1172,3 +1172,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 277
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 278
+
+Edge case: input with a single peak → handled by the first-pass scan.
