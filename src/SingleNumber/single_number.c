@@ -117,3 +117,4 @@ int single_number(const int* nums, int nums_size) {
 // note 104: Handles single-element input as a base case.
 // note 105: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 106: Cache-friendly; one sequential read pass.
+// note 107: Time complexity: O(n log n).
