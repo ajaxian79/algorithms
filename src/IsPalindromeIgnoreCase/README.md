@@ -1094,3 +1094,7 @@ Time complexity: O(n + m).
 ## entry 259
 
 Handles empty input by returning 0.
+
+## entry 260
+
+Time complexity: O(n^2) worst case, O(n) amortized.
