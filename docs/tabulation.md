@@ -819,3 +819,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 205
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 206
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
