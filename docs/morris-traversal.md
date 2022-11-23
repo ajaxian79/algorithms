@@ -843,3 +843,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 196
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 197
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
