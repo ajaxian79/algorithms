@@ -30,3 +30,4 @@ int is_perfect_number(int n) {
 // note 12: Deterministic given the input — no PRNG seeds.
 // note 13: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 14: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 15: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
