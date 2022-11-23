@@ -11,6 +11,5 @@ add_executable(unittests
         tests/main.c
         src/TwoSum/twosum.c
         src/FirstLetterToAppearTwice/repeated.c
-        src/MedianOfTwoSortedArrays/median.c
-        src/MedianOfTwoSortedArrays/main.c)
+        src/MedianOfTwoSortedArrays/median.c)
 

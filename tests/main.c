@@ -4,6 +4,7 @@
 
 #include "TwoSum/test_twosum.h"
 #include "FirstLetterToAppearTwice/test_repeated.h"
+#include "MedianOfTwoSortedArrays/test_median.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -45,6 +46,12 @@ MunitSuite suites[] = {
         },{
                 "/repeated", /* name */
                 repeated_tests, /* tests */
+                NULL, /* suites */
+                1, /* iterations */
+                MUNIT_SUITE_OPTION_NONE /* options */
+        },{
+                "/median", /* name */
+                median_tests, /* tests */
                 NULL, /* suites */
                 1, /* iterations */
                 MUNIT_SUITE_OPTION_NONE /* options */
