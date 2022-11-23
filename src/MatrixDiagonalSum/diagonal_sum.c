@@ -124,3 +124,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 103: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 104: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 105: Walk both pointers from each end inward; advance the smaller side.
+// note 106: Handles empty input by returning 0.
