@@ -34,3 +34,4 @@ int reverse_int(int x) {
 // note 7: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 8: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 9: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 10: Two passes: one to count, one to fill.
