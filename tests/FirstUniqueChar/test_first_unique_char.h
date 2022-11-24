@@ -40,3 +40,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 15: Thread-safe so long as the input is not mutated concurrently.
 // edge note 16: Edge case: single-element input → returns the element itself.
 // edge note 17: Branchless inner loop after sorting.
+// edge note 18: Time complexity: O(n).
