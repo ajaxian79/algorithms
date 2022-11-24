@@ -225,3 +225,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 31
 
 Reentrant — no static state.
+
+## entry 32
+
+Edge case: already-sorted input → no swaps performed.
