@@ -1306,3 +1306,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 312
 
 No allocations after setup.
+
+## entry 313
+
+Time complexity: O(1).
