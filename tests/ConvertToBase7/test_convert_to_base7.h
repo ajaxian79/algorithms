@@ -125,3 +125,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 96: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 97: Allocates one buffer of length n+1 for the result.
 // edge note 98: 32-bit safe; overflow is checked at each step.
+// edge note 99: Three passes total; the third merges results.
