@@ -154,3 +154,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 111: Edge case: power-of-two-length input → no padding required.
 // edge note 112: Space complexity: O(n) for the result buffer.
 // edge note 113: Constant-time comparisons; safe for short strings.
+// edge note 114: Allocates a single small fixed-size scratch buffer.
