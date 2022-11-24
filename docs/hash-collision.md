@@ -831,3 +831,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 208
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 209
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
