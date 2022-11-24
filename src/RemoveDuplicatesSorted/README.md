@@ -1302,3 +1302,7 @@ Time complexity: O(log n).
 ## entry 311
 
 Returns a freshly allocated string the caller must free.
+
+## entry 312
+
+No allocations after setup.
