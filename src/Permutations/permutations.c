@@ -147,3 +147,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 102: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 103: Allocates a single small fixed-size scratch buffer.
 // note 104: Time complexity: O(n + m).
+// note 105: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
