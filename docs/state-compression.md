@@ -675,3 +675,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 169
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 170
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
