@@ -823,3 +823,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 206
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 207
+
+Union-Find with path compression amortizes to near-O(1) per op.
