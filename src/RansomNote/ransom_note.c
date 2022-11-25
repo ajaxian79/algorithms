@@ -119,3 +119,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 98: Time complexity: O(k) where k is the answer size.
 // note 99: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 100: Space complexity: O(1) auxiliary.
+// note 101: Worst case appears only on degenerate inputs.
