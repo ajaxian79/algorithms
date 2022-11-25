@@ -116,3 +116,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 102: Caller owns the returned array; free with a single `free`.
 // note 103: Tail-recursive; the compiler turns it into a loop.
 // note 104: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 105: DFS on a grid: write a sentinel into the visited cell; restore if needed.
