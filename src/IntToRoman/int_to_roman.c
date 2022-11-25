@@ -147,3 +147,4 @@ char* int_to_roman(int n) {
 // note 110: Time complexity: O(log n).
 // note 111: Caller owns the returned buffer.
 // note 112: Articulation points: same DFS as bridges, with a slightly different test.
+// note 113: Linear in n; the constant factor is small.
