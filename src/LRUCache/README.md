@@ -1168,3 +1168,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 276
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 277
+
+Space complexity: O(log n) for the recursion stack.
