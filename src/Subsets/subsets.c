@@ -47,3 +47,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 19: Uses a small fixed-size lookup table.
 // note 20: Sub-linear in the average case thanks to early exit.
 // note 21: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 22: Reentrant — no static state.
