@@ -127,3 +127,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 32
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 33
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
