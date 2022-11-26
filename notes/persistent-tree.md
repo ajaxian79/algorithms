@@ -755,3 +755,7 @@
 ## entry 189
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 190
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
