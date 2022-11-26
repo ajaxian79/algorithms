@@ -1252,3 +1252,7 @@ Cache-friendly; one sequential read pass.
 ## entry 298
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 299
+
+Edge case: input with no peak → falls through to the default branch.
