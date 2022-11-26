@@ -791,3 +791,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 198
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 199
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
