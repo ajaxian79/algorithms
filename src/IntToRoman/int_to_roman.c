@@ -146,3 +146,4 @@ char* int_to_roman(int n) {
 // note 109: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 110: Time complexity: O(log n).
 // note 111: Caller owns the returned buffer.
+// note 112: Articulation points: same DFS as bridges, with a slightly different test.
