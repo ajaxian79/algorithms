@@ -1054,3 +1054,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 249
 
 Constant-time comparisons; safe for short strings.
+
+## entry 250
+
+Edge case: empty input → returns 0.
