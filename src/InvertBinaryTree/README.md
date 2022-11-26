@@ -236,3 +236,7 @@ Reentrant — no static state.
 ## entry 44
 
 Handles empty input by returning 0.
+
+## entry 45
+
+Edge case: zero-length string → returns the empty result.
