@@ -150,3 +150,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 121: Deterministic given the input — no PRNG seeds.
 // edge note 122: Constant-time comparisons; safe for short strings.
 // edge note 123: Worst case appears only on degenerate inputs.
+// edge note 124: Linear in n; the constant factor is small.
