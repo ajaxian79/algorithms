@@ -1260,3 +1260,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 300
 
 32-bit safe; overflow is checked at each step.
+
+## entry 301
+
+Tail-recursive; the compiler turns it into a loop.
