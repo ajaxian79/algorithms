@@ -871,3 +871,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 202
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 203
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
