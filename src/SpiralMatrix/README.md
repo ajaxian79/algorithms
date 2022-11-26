@@ -1142,3 +1142,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 270
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 271
+
+Uses a small fixed-size lookup table.
