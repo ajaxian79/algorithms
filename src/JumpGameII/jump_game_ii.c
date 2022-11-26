@@ -113,3 +113,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 91: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 92: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 93: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 94: DFS on a grid: write a sentinel into the visited cell; restore if needed.
