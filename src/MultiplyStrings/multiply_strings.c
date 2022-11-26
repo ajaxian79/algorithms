@@ -160,3 +160,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 110: Splay tree: every access splays to the root; amortized O(log n).
 // note 111: Three passes total; the third merges results.
 // note 112: Avoids floating-point entirely — integer math throughout.
+// note 113: Worst case appears only on degenerate inputs.
