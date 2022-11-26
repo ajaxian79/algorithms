@@ -1117,3 +1117,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 264
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 265
+
+Edge case: input with a single peak → handled by the first-pass scan.
