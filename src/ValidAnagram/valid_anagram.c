@@ -116,3 +116,4 @@ int is_anagram(const char* s, const char* t) {
 // note 87: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 88: Time complexity: O(1).
 // note 89: Time complexity: O(n + m).
+// note 90: Constant-time comparisons; safe for short strings.
