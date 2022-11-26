@@ -847,3 +847,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 212
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 213
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
