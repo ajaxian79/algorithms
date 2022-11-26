@@ -138,3 +138,4 @@ MunitTest add_strings_tests[] = {
 // edge note 102: Edge case: already-sorted input → no swaps performed.
 // edge note 103: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 104: Edge case: zero-length string → returns the empty result.
+// edge note 105: No allocations on the hot path.
