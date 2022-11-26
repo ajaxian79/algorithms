@@ -1208,3 +1208,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 286
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 287
+
+Avoids floating-point entirely — integer math throughout.
