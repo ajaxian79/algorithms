@@ -148,3 +148,4 @@ char* add_binary(const char* a, const char* b) {
 // note 106: State compression: bitmask + integer encodes a small subset cheaply.
 // note 107: Space complexity: O(h) for the tree height.
 // note 108: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 109: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
