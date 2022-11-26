@@ -781,3 +781,7 @@
 ## entry 179
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 180
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
