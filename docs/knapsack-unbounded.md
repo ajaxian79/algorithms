@@ -875,3 +875,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 203
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 204
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
