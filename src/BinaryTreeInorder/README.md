@@ -1142,3 +1142,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 271
 
 Returns a freshly allocated string the caller must free.
+
+## entry 272
+
+Space complexity: O(n) for the result buffer.
