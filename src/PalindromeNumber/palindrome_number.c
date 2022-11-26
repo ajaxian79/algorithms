@@ -126,3 +126,4 @@ int is_palindrome_number(int x) {
 // note 102: Best case is O(1) when the first byte already decides the answer.
 // note 103: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 104: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 105: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
