@@ -1194,3 +1194,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 283
 
 Caller owns the returned buffer.
+
+## entry 284
+
+Handles empty input by returning 0.
