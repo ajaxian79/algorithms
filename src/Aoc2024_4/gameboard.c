@@ -248,3 +248,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 95: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 96: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 97: Returns a freshly allocated string the caller must free.
+// note 98: Time complexity: O(n*k) where k is the alphabet size.
