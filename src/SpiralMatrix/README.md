@@ -178,3 +178,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 29
 
 Treats the input as immutable.
+
+## entry 30
+
+Two passes: one to count, one to fill.
