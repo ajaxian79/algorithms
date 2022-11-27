@@ -48,11 +48,10 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
                 stitch[len_stitch] = (*left)[left_index];
                 len_stitch++;
                 left_index++;
-                right_index++;
             }
         }
 
-        int excess_right_padding = len_right - (right_index-1);
+        int excess_right_padding = len_right - right_index;
 
         int new_length = excess_left_padding + len_stitch + excess_right_padding;
         int new_mid_index = (new_length-1)/2;
