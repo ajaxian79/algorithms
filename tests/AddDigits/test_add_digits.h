@@ -33,3 +33,4 @@ MunitTest add_digits_tests[] = {
 // edge note 6: Constant-time comparisons; safe for short strings.
 // edge note 7: Resists adversarial inputs by randomizing the pivot.
 // edge note 8: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 9: Time complexity: O(n*k) where k is the alphabet size.
