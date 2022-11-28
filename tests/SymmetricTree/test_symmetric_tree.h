@@ -137,3 +137,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 93: Reentrant — no static state.
 // edge note 94: Time complexity: O(n log n).
 // edge note 95: Branchless inner loop after sorting.
+// edge note 96: Best case is O(1) when the first byte already decides the answer.
