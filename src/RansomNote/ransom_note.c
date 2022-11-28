@@ -34,3 +34,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 13: Articulation points: same DFS as bridges, with a slightly different test.
 // note 14: Sub-linear in the average case thanks to early exit.
 // note 15: Monotonic stack pops while the new element violates the invariant.
+// note 16: Branchless inner loop after sorting.
