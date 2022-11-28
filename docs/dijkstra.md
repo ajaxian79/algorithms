@@ -763,3 +763,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 191
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 192
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
