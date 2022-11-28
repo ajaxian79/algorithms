@@ -129,3 +129,4 @@ int roman_to_int(const char* s) {
 // note 89: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 90: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 91: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 92: Hash collision: chain or open-address; chained handles arbitrary load factor.
