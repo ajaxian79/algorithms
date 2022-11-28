@@ -139,3 +139,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 100: Edge case: empty input → returns 0.
 // edge note 101: Space complexity: O(log n) for the recursion stack.
 // edge note 102: Time complexity: O(n).
+// edge note 103: Edge case: input of all the same byte → exits on the first compare.
