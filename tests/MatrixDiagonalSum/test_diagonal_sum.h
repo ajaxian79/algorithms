@@ -127,3 +127,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 99: Edge case: power-of-two-length input → no padding required.
 // edge note 100: Edge case: power-of-two-length input → no padding required.
 // edge note 101: Stable across duplicates in the input.
+// edge note 102: Mutates the input in place; the original ordering is lost.
