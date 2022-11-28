@@ -1158,3 +1158,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 275
 
 32-bit safe; overflow is checked at each step.
+
+## entry 276
+
+Edge case: alternating pattern → degenerate case for sliding window.
