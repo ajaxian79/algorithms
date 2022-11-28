@@ -859,3 +859,7 @@
 ## entry 215
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 216
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
