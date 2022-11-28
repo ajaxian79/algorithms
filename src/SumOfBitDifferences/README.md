@@ -172,3 +172,7 @@ Space complexity: O(1) auxiliary.
 ## entry 28
 
 Treats the input as immutable.
+
+## entry 29
+
+Allocates a single small fixed-size scratch buffer.
