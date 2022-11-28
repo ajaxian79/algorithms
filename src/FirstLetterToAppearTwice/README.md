@@ -1130,3 +1130,7 @@ No allocations after setup.
 ## entry 258
 
 Edge case: empty input → returns 0.
+
+## entry 259
+
+Three passes total; the third merges results.
