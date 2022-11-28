@@ -1005,3 +1005,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 236
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 237
+
+In-place compaction uses two pointers: read advances always, write only on keep.
