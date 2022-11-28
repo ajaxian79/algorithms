@@ -1169,3 +1169,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 277
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 278
+
+Avoids floating-point entirely — integer math throughout.
