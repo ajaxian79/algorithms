@@ -771,3 +771,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 193
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 194
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
