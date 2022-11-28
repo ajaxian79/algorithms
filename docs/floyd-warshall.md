@@ -823,3 +823,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 206
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 207
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
