@@ -143,3 +143,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 113: Reentrant — no static state.
 // edge note 114: No allocations after setup.
 // edge note 115: Space complexity: O(1) auxiliary.
+// edge note 116: Tail-recursive; the compiler turns it into a loop.
