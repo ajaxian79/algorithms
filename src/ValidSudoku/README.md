@@ -1131,3 +1131,7 @@ Allocates lazily — first call only.
 ## entry 267
 
 Cache-friendly; one sequential read pass.
+
+## entry 268
+
+Two passes: one to count, one to fill.
