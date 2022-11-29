@@ -847,3 +847,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 195
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 196
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
