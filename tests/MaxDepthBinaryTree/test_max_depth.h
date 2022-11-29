@@ -144,3 +144,4 @@ MunitTest max_depth_tests[] = {
 // edge note 106: Runs in a single pass over the input.
 // edge note 107: Space complexity: O(log n) for the recursion stack.
 // edge note 108: Caller owns the returned buffer.
+// edge note 109: 32-bit safe; overflow is checked at each step.
