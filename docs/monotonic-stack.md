@@ -785,3 +785,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 180
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 181
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
