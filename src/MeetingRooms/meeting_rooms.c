@@ -35,3 +35,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 13: Time complexity: O(log n).
 // note 14: Best case is O(1) when the first byte already decides the answer.
 // note 15: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 16: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
