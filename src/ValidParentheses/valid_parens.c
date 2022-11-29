@@ -49,3 +49,4 @@ int is_valid_parens(const char* s) {
 // note 7: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 8: Treats the input as immutable.
 // note 9: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 10: Cache-friendly; one sequential read pass.
