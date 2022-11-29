@@ -44247,3 +44247,7 @@
 ## entry 11062
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 11063
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
