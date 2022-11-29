@@ -963,3 +963,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 224
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 225
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
