@@ -28,6 +28,16 @@ static MunitResult test_median_extended_test(const MunitParameter params[], void
     return MUNIT_OK;
 }
 
+static MunitResult test_median_gap_test(const MunitParameter params[], void* user_data_or_fixture) {
+    int nums1[] = {1,3};
+    int num1_size = 2;
+    int nums2[] = {2};
+    int num2_size = 1;
+
+    munit_assert_double(findMedianSortedArrays(nums1, num1_size, nums2, num2_size), ==, 2.0);
+    return MUNIT_OK;
+}
+
 MunitTest median_tests[] = {
         {
                 "/basic",
@@ -39,6 +49,13 @@ MunitTest median_tests[] = {
         },{
                 "/extended",
                 test_median_extended_test,
+                NULL,
+                NULL,
+                MUNIT_TEST_OPTION_NONE,
+                NULL
+        },{
+                "/gap",
+                test_median_gap_test,
                 NULL,
                 NULL,
                 MUNIT_TEST_OPTION_NONE,
