@@ -195,3 +195,7 @@ Stable across duplicates in the input.
 ## entry 34
 
 Space complexity: O(n) for the result buffer.
+
+## entry 35
+
+64-bit safe; intermediate products are widened to 128-bit.
