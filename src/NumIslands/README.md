@@ -1113,3 +1113,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 263
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 264
+
+Edge case: power-of-two-length input → no padding required.
