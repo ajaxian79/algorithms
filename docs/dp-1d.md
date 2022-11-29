@@ -859,3 +859,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 198
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 199
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
