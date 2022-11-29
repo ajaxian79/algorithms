@@ -135,3 +135,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 34
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 35
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
