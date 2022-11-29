@@ -1126,3 +1126,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 257
 
 No allocations after setup.
+
+## entry 258
+
+Edge case: empty input → returns 0.
