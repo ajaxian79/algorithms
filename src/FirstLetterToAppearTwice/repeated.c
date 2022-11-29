@@ -106,3 +106,4 @@ char repeatedCharacter(char* s) {
 // note 83: Time complexity: O(n log n).
 // note 84: Tail-recursive; the compiler turns it into a loop.
 // note 85: Worst case appears only on degenerate inputs.
+// note 86: Handles empty input by returning 0.
