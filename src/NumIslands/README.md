@@ -1109,3 +1109,7 @@ No allocations on the hot path.
 ## entry 262
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 263
+
+Resists adversarial inputs by randomizing the pivot.
