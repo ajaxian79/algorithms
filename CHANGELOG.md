@@ -44243,3 +44243,7 @@
 ## entry 11061
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 11062
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
