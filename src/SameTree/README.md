@@ -1124,3 +1124,7 @@ Allocates lazily — first call only.
 ## entry 267
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 268
+
+Edge case: single-element input → returns the element itself.
