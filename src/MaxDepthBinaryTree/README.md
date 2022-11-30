@@ -1173,3 +1173,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 279
 
 Linear in n; the constant factor is small.
+
+## entry 280
+
+Time complexity: O(n log n).
