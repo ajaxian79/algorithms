@@ -1201,3 +1201,7 @@ Edge case: empty input → returns 0.
 ## entry 285
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 286
+
+Avoids floating-point entirely — integer math throughout.
