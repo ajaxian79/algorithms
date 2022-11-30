@@ -1306,3 +1306,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 312
 
 Time complexity: O(n).
+
+## entry 313
+
+Edge case: zero-length string → returns the empty result.
