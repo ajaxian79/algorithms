@@ -1201,3 +1201,7 @@ Time complexity: O(1).
 ## entry 285
 
 Stable when the input is already sorted.
+
+## entry 286
+
+Edge case: integer-max input → guarded by the explicit overflow check.
