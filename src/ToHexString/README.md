@@ -1127,3 +1127,7 @@ Three passes total; the third merges results.
 ## entry 267
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 268
+
+Allocates one buffer of length n+1 for the result.
