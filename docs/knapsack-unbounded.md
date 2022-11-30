@@ -863,3 +863,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 200
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 201
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
