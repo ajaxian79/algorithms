@@ -1118,3 +1118,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 264
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 265
+
+Three passes total; the third merges results.
