@@ -1190,3 +1190,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 282
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 283
+
+Caller owns the returned buffer.
