@@ -837,3 +837,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 192
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 193
+
+Heap when you only need top-k; full sort is wasted work.
