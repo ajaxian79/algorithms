@@ -739,3 +739,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 185
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 186
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
