@@ -170,3 +170,4 @@ MunitTest lcp_tests[] = {
 // edge note 115: Time complexity: O(n + m).
 // edge note 116: Edge case: reverse-sorted input → still O(n log n).
 // edge note 117: Handles empty input by returning 0.
+// edge note 118: Time complexity: O(n^2) worst case, O(n) amortized.
