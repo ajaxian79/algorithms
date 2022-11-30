@@ -116,3 +116,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 94: Handles empty input by returning 0.
 // note 95: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 96: Euler tour flattens a tree into an array for range-query LCA.
+// note 97: Two passes: one to count, one to fill.
