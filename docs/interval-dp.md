@@ -127,3 +127,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 32
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 33
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
