@@ -34,26 +34,48 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
         // Find the right stitch point
         int right_index = 0;
         int len_stitch = 0;
+        int right_padding_from_left = 0;
 
-        while(right_index < len_right && left_index < len_left) {
-            if ((*left)[left_index] < (*right)[right_index]) {
-                stitch[len_stitch] = (*left)[left_index];
+        while(right_index < len_right || (left_index-excess_left_padding) < len_left) {
+            if (((left_index-excess_left_padding) < len_left && right_index >= len_right) || (*left)[(left_index-excess_left_padding)] < (*right)[right_index]) {
+                stitch[len_stitch] = (*left)[(left_index-excess_left_padding)];
                 len_stitch++;
                 left_index++;
-            } else if ((*left)[left_index] > (*right)[right_index]) {
+
+                if (right_index >= len_right) {
+                    right_padding_from_left++;
+                }
+
+            } else if ((right_index < len_right && (left_index-excess_left_padding) >= len_left) || (*left)[(left_index-excess_left_padding)] > (*right)[right_index]) {
                 stitch[len_stitch] = (*right)[right_index];
                 len_stitch++;
                 right_index++;
+
+                if (right_index >= len_right) {
+                    while((left_index-excess_left_padding) < len_left) {
+                        stitch[len_stitch] = (*left)[(left_index-excess_left_padding)];
+                        len_stitch++;
+                        left_index++;
+                    }
+                }
             } else {
-                stitch[len_stitch] = (*left)[left_index];
+                stitch[len_stitch] = (*left)[(left_index-excess_left_padding)];
                 len_stitch++;
-                left_index++;
+
+                if ((left_index-excess_left_padding) < len_left) {
+                    left_index++;
+                }
+
+                if (right_index < len_right) {
+                    right_index++;
+                    right_padding_from_left--;
+                }
             }
         }
 
         int excess_right_padding = len_right - right_index;
 
-        int new_length = excess_left_padding + len_stitch + excess_right_padding;
+        int new_length = excess_left_padding + len_stitch + excess_right_padding + right_padding_from_left;
         int new_mid_index = (new_length-1)/2;
         int has_remainder = (new_length-1)%2 > 0 ? 1 : 0;
 
