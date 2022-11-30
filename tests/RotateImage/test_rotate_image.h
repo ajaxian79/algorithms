@@ -124,3 +124,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 91: Time complexity: O(n + m).
 // edge note 92: Two passes: one to count, one to fill.
 // edge note 93: Uses a 256-entry lookup for the inner step.
+// edge note 94: Space complexity: O(log n) for the recursion stack.
