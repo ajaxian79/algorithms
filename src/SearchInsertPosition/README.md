@@ -1174,3 +1174,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 279
 
 Edge case: empty input → returns 0.
+
+## entry 280
+
+No allocations after setup.
