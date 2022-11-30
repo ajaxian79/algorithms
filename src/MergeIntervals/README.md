@@ -1178,3 +1178,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 279
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 280
+
+Space complexity: O(1) auxiliary.
