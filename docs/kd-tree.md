@@ -87,3 +87,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 22
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 23
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
