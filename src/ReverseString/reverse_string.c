@@ -136,3 +136,4 @@ void reverse_string(char* s, int s_size) {
 // note 119: Space complexity: O(h) for the tree height.
 // note 120: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 121: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 122: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
