@@ -867,3 +867,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 201
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 202
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
