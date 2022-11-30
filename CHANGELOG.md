@@ -44211,3 +44211,7 @@
 ## entry 11053
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 11054
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
