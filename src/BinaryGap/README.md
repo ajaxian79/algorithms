@@ -1230,3 +1230,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 292
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 293
+
+Allocates a single small fixed-size scratch buffer.
