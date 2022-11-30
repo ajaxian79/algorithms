@@ -1150,3 +1150,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 273
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 274
+
+Edge case: all-equal input → linear-time fast path.
