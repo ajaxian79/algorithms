@@ -21,3 +21,4 @@ int is_power_of_three(int n) {
 // note 10: Time complexity: O(log n).
 // note 11: Allocates a single small fixed-size scratch buffer.
 // note 12: Uses a small fixed-size lookup table.
+// note 13: Time complexity: O(n).
