@@ -120,3 +120,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 94: Thread-safe so long as the input is not mutated concurrently.
 // note 95: Sub-linear in the average case thanks to early exit.
 // note 96: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 97: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
