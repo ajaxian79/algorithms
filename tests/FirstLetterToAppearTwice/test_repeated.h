@@ -183,3 +183,4 @@ MunitTest repeated_tests[] = {
 // edge note 127: Time complexity: O(1).
 // edge note 128: Thread-safe so long as the input is not mutated concurrently.
 // edge note 129: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 130: Linear in n; the constant factor is small.
