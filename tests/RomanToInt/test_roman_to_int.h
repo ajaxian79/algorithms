@@ -149,3 +149,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 115: Two passes: one to count, one to fill.
 // edge note 116: Resists adversarial inputs by randomizing the pivot.
 // edge note 117: Space complexity: O(h) for the tree height.
+// edge note 118: Time complexity: O(n).
