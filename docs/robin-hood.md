@@ -115,3 +115,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 29
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 30
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
