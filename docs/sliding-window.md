@@ -187,3 +187,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 32
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 33
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
