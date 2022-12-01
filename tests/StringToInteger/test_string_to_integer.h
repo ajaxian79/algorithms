@@ -52,3 +52,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 12: Time complexity: O(n).
 // edge note 13: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 14: Edge case: input with no peak → falls through to the default branch.
+// edge note 15: Vectorizes cleanly under -O2.
