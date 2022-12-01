@@ -141,3 +141,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 19
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 20
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
