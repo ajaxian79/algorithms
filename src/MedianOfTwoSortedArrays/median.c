@@ -23,6 +23,8 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 
     int left_index = len_left / 2;
 
+    int new_length = 0;
+
     // Find the left stitch point;
     while(left_index >= 0 && left_index < len_left && (*left)[left_index] < (*right)[0]) {
         left_index--;
@@ -41,11 +43,7 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
                 stitch[len_stitch] = (*left)[(left_index-excess_left_padding)];
                 len_stitch++;
                 left_index++;
-
-                if (right_index >= len_right) {
-                    right_padding_from_left++;
-                }
-
+                new_length++;
             } else if ((right_index < len_right && (left_index-excess_left_padding) >= len_left) || (*left)[(left_index-excess_left_padding)] > (*right)[right_index]) {
                 stitch[len_stitch] = (*right)[right_index];
                 len_stitch++;
@@ -71,11 +69,11 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
                     right_padding_from_left--;
                 }
             }
+
+            new_length++;
         }
 
         int excess_right_padding = len_right - right_index;
-
-        int new_length = excess_left_padding + len_stitch + excess_right_padding + right_padding_from_left;
         int new_mid_index = (new_length-1)/2;
         int has_remainder = (new_length-1)%2 > 0 ? 1 : 0;
 
