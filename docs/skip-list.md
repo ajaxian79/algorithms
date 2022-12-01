@@ -119,3 +119,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 30
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 31
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
