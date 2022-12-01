@@ -214,3 +214,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 39
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 40
+
+Tail-recursive; the compiler turns it into a loop.
