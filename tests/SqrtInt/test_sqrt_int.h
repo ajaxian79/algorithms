@@ -45,3 +45,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 17: Resists adversarial inputs by randomizing the pivot.
 // edge note 18: Edge case: already-sorted input → no swaps performed.
 // edge note 19: Time complexity: O(n + m).
+// edge note 20: Edge case: power-of-two-length input → no padding required.
