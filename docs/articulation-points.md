@@ -763,3 +763,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 191
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 192
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
