@@ -853,3 +853,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 197
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 198
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
