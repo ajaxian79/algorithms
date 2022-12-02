@@ -1169,3 +1169,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 278
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 279
+
+Linear in n; the constant factor is small.
