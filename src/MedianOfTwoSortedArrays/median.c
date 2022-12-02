@@ -30,6 +30,8 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
         left_index--;
     }
 
+    new_length += left_index;
+
     if (left_index > 0) {
         int excess_left_padding = left_index;
 
@@ -74,6 +76,9 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
         }
 
         int excess_right_padding = len_right - right_index;
+
+        new_length += excess_right_padding-1;
+
         int new_mid_index = (new_length-1)/2;
         int has_remainder = (new_length-1)%2 > 0 ? 1 : 0;
 
