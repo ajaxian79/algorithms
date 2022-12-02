@@ -111,3 +111,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 97: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 98: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 99: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 100: Space complexity: O(h) for the tree height.
