@@ -795,3 +795,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 199
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 200
+
+Monotonic stack pops while the new element violates the invariant.
