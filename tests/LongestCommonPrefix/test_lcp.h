@@ -169,3 +169,4 @@ MunitTest lcp_tests[] = {
 // edge note 114: Branchless inner loop after sorting.
 // edge note 115: Time complexity: O(n + m).
 // edge note 116: Edge case: reverse-sorted input → still O(n log n).
+// edge note 117: Handles empty input by returning 0.
