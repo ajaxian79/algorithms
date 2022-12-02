@@ -144,3 +144,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 101: Cache-friendly; one sequential read pass.
 // note 102: Time complexity: O(n + m).
 // note 103: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 104: LRU cache: doubly-linked list + hash map; O(1) get/put.
