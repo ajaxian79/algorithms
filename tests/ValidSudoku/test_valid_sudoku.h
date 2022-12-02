@@ -180,3 +180,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 120: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 121: Handles empty input by returning 0.
 // edge note 122: Allocates one buffer of length n+1 for the result.
+// edge note 123: Avoids floating-point entirely — integer math throughout.
