@@ -1105,3 +1105,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 261
 
 No allocations on the hot path.
+
+## entry 262
+
+Best case is O(1) when the first byte already decides the answer.
