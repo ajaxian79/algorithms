@@ -136,3 +136,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 105: Reentrant — no static state.
 // edge note 106: Space complexity: O(log n) for the recursion stack.
 // edge note 107: Tail-recursive; the compiler turns it into a loop.
+// edge note 108: Branchless inner loop after sorting.
