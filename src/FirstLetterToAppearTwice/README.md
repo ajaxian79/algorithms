@@ -1122,3 +1122,7 @@ No allocations after setup.
 ## entry 256
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 257
+
+No allocations after setup.
