@@ -1186,3 +1186,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 281
 
 32-bit safe; overflow is checked at each step.
+
+## entry 282
+
+Avoids floating-point entirely — integer math throughout.
