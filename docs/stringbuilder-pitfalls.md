@@ -923,3 +923,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 231
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 232
+
+Endianness matters when serializing multi-byte ints to a file or wire.
