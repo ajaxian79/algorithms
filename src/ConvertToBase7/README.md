@@ -208,3 +208,7 @@ Handles single-element input as a base case.
 ## entry 37
 
 32-bit safe; overflow is checked at each step.
+
+## entry 38
+
+Branchless inner loop after sorting.
