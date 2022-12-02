@@ -1199,3 +1199,7 @@ Cache-friendly; one sequential read pass.
 ## entry 284
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 285
+
+Input is assumed non-NULL; behavior is undefined otherwise.
