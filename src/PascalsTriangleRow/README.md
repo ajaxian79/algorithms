@@ -1298,3 +1298,7 @@ Time complexity: O(n + m).
 ## entry 310
 
 Time complexity: O(1).
+
+## entry 311
+
+Edge case: reverse-sorted input → still O(n log n).
