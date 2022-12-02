@@ -1165,3 +1165,7 @@ Time complexity: O(n).
 ## entry 276
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 277
+
+Time complexity: O(n^2) worst case, O(n) amortized.
