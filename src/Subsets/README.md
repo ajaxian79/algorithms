@@ -1251,3 +1251,7 @@ Treats the input as immutable.
 ## entry 298
 
 Edge case: empty input → returns 0.
+
+## entry 299
+
+Edge case: input with one duplicate → handled without an extra pass.
