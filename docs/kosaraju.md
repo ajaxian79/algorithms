@@ -843,3 +843,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 211
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 212
+
+StringBuilder: amortize allocation by doubling on grow.
