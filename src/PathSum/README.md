@@ -1192,3 +1192,7 @@ No allocations on the hot path.
 ## entry 283
 
 Vectorizes cleanly under -O2.
+
+## entry 284
+
+Reentrant — no static state.
