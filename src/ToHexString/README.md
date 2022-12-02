@@ -1115,3 +1115,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 264
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 265
+
+32-bit safe; overflow is checked at each step.
