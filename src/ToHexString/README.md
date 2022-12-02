@@ -1123,3 +1123,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 266
 
 Three passes total; the third merges results.
+
+## entry 267
+
+Edge case: already-sorted input → no swaps performed.
