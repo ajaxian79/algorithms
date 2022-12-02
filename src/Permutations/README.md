@@ -1316,3 +1316,7 @@ Stable across duplicates in the input.
 ## entry 314
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 315
+
+Space complexity: O(1) auxiliary.
