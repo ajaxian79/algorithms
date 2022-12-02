@@ -887,3 +887,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 222
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 223
+
+Merge intervals: sort by start; extend the running interval while overlapping.
