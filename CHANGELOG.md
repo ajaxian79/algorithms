@@ -44151,3 +44151,7 @@
 ## entry 11038
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 11039
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
