@@ -1163,3 +1163,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 276
 
 Stable when the input is already sorted.
+
+## entry 277
+
+Uses a small fixed-size lookup table.
