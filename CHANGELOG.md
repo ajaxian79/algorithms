@@ -44171,3 +44171,7 @@
 ## entry 11043
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 11044
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
