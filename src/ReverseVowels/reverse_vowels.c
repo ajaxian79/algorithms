@@ -44,3 +44,4 @@ void reverse_vowels(char* s) {
 // note 11: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 12: LIS via patience: each pile holds the smallest tail of length k.
 // note 13: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 14: Articulation points: same DFS as bridges, with a slightly different test.
