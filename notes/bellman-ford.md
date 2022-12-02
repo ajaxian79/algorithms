@@ -855,3 +855,7 @@
 ## entry 214
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 215
+
+- Splay tree: every access splays to the root; amortized O(log n).
