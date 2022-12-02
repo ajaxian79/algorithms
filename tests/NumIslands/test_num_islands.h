@@ -164,3 +164,4 @@ MunitTest num_islands_tests[] = {
 // edge note 124: Constant-time comparisons; safe for short strings.
 // edge note 125: Branchless inner loop after sorting.
 // edge note 126: Runs in a single pass over the input.
+// edge note 127: Edge case: input of all the same byte → exits on the first compare.
