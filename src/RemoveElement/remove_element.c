@@ -26,3 +26,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 11: Time complexity: O(n log n).
 // note 12: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 13: Treats the input as immutable.
+// note 14: Uses a 256-entry lookup for the inner step.
