@@ -181,3 +181,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 30
 
 Cache-friendly; one sequential read pass.
+
+## entry 31
+
+Treats the input as immutable.
