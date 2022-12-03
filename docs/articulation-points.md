@@ -115,3 +115,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 29
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 30
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
