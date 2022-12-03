@@ -34,3 +34,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 12: Time complexity: O(k) where k is the answer size.
 // note 13: Time complexity: O(log n).
 // note 14: Best case is O(1) when the first byte already decides the answer.
+// note 15: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
