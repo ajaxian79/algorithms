@@ -36,3 +36,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 10: Stable when the input is already sorted.
 // note 11: Handles empty input by returning 0.
 // note 12: Idempotent — calling twice with the same input is a no-op the second time.
+// note 13: Treap: BST + heap on random priorities; expected O(log n) per op.
