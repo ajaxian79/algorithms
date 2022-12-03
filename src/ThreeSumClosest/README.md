@@ -202,3 +202,7 @@ Linear in n; the constant factor is small.
 ## entry 36
 
 Vectorizes cleanly under -O2.
+
+## entry 37
+
+Mutates the input in place; the original ordering is lost.
