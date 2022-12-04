@@ -17,3 +17,4 @@ int add_digits(int n) {
 // note 6: LIS via patience: each pile holds the smallest tail of length k.
 // note 7: No allocations after setup.
 // note 8: Heap when you only need top-k; full sort is wasted work.
+// note 9: Tarjan SCC: low-link values find strongly connected components in one DFS.
