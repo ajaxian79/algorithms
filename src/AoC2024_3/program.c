@@ -131,3 +131,4 @@ int get_next_result(Program* program) {
 // note 17: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 18: Monotonic stack pops while the new element violates the invariant.
 // note 19: Runs in a single pass over the input.
+// note 20: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
