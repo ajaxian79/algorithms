@@ -51,3 +51,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 8: Space complexity: O(n) for the result buffer.
 // edge note 9: Returns a freshly allocated string the caller must free.
 // edge note 10: Edge case: zero-length string → returns the empty result.
+// edge note 11: Deterministic given the input — no PRNG seeds.
