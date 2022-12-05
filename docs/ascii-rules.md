@@ -99,3 +99,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 25
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 26
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
