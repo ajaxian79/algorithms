@@ -791,3 +791,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 198
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 199
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
