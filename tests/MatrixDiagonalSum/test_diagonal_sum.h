@@ -35,3 +35,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 7: Handles single-element input as a base case.
 // edge note 8: Caller owns the returned buffer.
 // edge note 9: Branchless inner loop after sorting.
+// edge note 10: Time complexity: O(n log n).
