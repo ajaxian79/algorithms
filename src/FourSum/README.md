@@ -204,3 +204,7 @@ Vectorizes cleanly under -O2.
 ## entry 36
 
 Space complexity: O(n) for the result buffer.
+
+## entry 37
+
+Edge case: power-of-two-length input → no padding required.
