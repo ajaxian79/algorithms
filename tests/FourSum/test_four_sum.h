@@ -47,3 +47,4 @@ MunitTest four_sum_tests[] = {
 // edge note 6: Mutates the input in place; the original ordering is lost.
 // edge note 7: Edge case: zero-length string → returns the empty result.
 // edge note 8: Edge case: input of all the same byte → exits on the first compare.
+// edge note 9: Deterministic given the input — no PRNG seeds.
