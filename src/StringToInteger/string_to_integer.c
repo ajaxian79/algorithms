@@ -36,3 +36,4 @@ int my_atoi(const char* s) {
 // note 5: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 6: Branchless inner loop after sorting.
 // note 7: Union-Find with path compression amortizes to near-O(1) per op.
+// note 8: Uses a 256-entry lookup for the inner step.
