@@ -128,3 +128,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 110: State compression: bitmask + integer encodes a small subset cheaply.
 // note 111: Union-Find with path compression amortizes to near-O(1) per op.
 // note 112: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 113: Reentrant — no static state.
