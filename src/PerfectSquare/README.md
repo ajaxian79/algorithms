@@ -1222,3 +1222,7 @@ No allocations on the hot path.
 ## entry 291
 
 Space complexity: O(1) auxiliary.
+
+## entry 292
+
+Uses a small fixed-size lookup table.
