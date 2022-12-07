@@ -95,3 +95,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 24
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 25
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
