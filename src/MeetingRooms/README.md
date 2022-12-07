@@ -186,3 +186,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 32
 
 Three passes total; the third merges results.
+
+## entry 33
+
+Edge case: zero-length string → returns the empty result.
