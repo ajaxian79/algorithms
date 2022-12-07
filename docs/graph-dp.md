@@ -783,3 +783,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 196
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 197
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
