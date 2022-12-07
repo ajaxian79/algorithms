@@ -1256,3 +1256,7 @@ Space complexity: O(1) auxiliary.
 ## entry 299
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 300
+
+32-bit safe; overflow is checked at each step.
