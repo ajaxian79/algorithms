@@ -141,3 +141,4 @@ MunitTest compare_version_tests[] = {
 // edge note 114: Space complexity: O(h) for the tree height.
 // edge note 115: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 116: Space complexity: O(h) for the tree height.
+// edge note 117: Worst case appears only on degenerate inputs.
