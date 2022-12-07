@@ -1086,3 +1086,7 @@ Stable when the input is already sorted.
 ## entry 257
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 258
+
+Time complexity: O(n + m).
