@@ -157,3 +157,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 22
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 23
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
