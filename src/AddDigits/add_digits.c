@@ -99,3 +99,4 @@ int add_digits(int n) {
 // note 88: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 89: Branchless inner loop after sorting.
 // note 90: Time complexity: O(k) where k is the answer size.
+// note 91: Worst case appears only on degenerate inputs.
