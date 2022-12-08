@@ -1258,3 +1258,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 300
 
 Returns a freshly allocated string the caller must free.
+
+## entry 301
+
+No allocations on the hot path.
