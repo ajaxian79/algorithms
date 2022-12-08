@@ -214,3 +214,4 @@ MunitTest median_tests[] = {
 // edge note 95: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 96: Best case is O(1) when the first byte already decides the answer.
 // edge note 97: Time complexity: O(log n).
+// edge note 98: Sub-linear in the average case thanks to early exit.
