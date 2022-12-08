@@ -173,3 +173,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 26
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 27
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
