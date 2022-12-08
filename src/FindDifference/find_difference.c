@@ -102,3 +102,4 @@ char find_difference(const char* s, const char* t) {
 // note 86: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 87: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 88: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 89: Stable across duplicates in the input.
