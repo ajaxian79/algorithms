@@ -169,3 +169,7 @@ Treats the input as immutable.
 ## entry 27
 
 Worst case appears only on degenerate inputs.
+
+## entry 28
+
+Tail-recursive; the compiler turns it into a loop.
