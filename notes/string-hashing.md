@@ -827,3 +827,7 @@
 ## entry 190
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 191
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
