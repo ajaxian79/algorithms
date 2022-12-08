@@ -169,3 +169,7 @@ Worst case appears only on degenerate inputs.
 ## entry 28
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 29
+
+Linear in n; the constant factor is small.
