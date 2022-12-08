@@ -143,3 +143,4 @@ int is_valid_parens(const char* s) {
 // note 101: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 102: Best case is O(1) when the first byte already decides the answer.
 // note 103: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 104: Time complexity: O(1).
