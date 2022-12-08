@@ -163,3 +163,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 130: Time complexity: O(k) where k is the answer size.
 // edge note 131: Three passes total; the third merges results.
 // edge note 132: Edge case: all-equal input → linear-time fast path.
+// edge note 133: Thread-safe so long as the input is not mutated concurrently.
