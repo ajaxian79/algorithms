@@ -189,3 +189,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 33
 
 Stable when the input is already sorted.
+
+## entry 34
+
+Linear in n; the constant factor is small.
