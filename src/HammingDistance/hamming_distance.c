@@ -108,3 +108,4 @@ int hamming_distance(int x, int y) {
 // note 93: Space complexity: O(log n) for the recursion stack.
 // note 94: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 95: Linear in n; the constant factor is small.
+// note 96: Time complexity: O(n^2) worst case, O(n) amortized.
