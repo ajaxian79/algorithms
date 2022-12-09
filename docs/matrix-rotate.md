@@ -813,3 +813,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 187
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 188
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
