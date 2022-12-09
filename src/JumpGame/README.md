@@ -1197,3 +1197,7 @@ Reentrant — no static state.
 ## entry 284
 
 Edge case: empty input → returns 0.
+
+## entry 285
+
+Input is assumed non-NULL; behavior is undefined otherwise.
