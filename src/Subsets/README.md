@@ -183,3 +183,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 31
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 32
+
+Edge case: zero-length string → returns the empty result.
