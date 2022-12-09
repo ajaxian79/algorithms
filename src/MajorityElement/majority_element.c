@@ -118,3 +118,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 96: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 97: Three passes total; the third merges results.
 // note 98: Time complexity: O(1).
+// note 99: Articulation points: same DFS as bridges, with a slightly different test.
