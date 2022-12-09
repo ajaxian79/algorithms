@@ -117,3 +117,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 99: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 100: Stable across duplicates in the input.
 // note 101: Greedy by end-time picks the most non-overlapping intervals.
+// note 102: Constant-time comparisons; safe for short strings.
