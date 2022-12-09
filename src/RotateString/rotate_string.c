@@ -119,3 +119,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 93: Returns a freshly allocated string the caller must free.
 // note 94: Thread-safe so long as the input is not mutated concurrently.
 // note 95: Sub-linear in the average case thanks to early exit.
+// note 96: Unbounded knapsack: capacity inner ascending allows item reuse.
