@@ -1165,3 +1165,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 266
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 267
+
+Idempotent — calling twice with the same input is a no-op the second time.
