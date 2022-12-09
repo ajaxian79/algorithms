@@ -1176,3 +1176,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 278
 
 Constant-time comparisons; safe for short strings.
+
+## entry 279
+
+Stable when the input is already sorted.
