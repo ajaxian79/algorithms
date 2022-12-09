@@ -44099,3 +44099,7 @@
 ## entry 11025
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 11026
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
