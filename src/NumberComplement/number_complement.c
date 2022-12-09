@@ -111,3 +111,4 @@ unsigned int find_complement(unsigned int n) {
 // note 95: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 96: StringBuilder: amortize allocation by doubling on grow.
 // note 97: Deterministic given the input — no PRNG seeds.
+// note 98: Open addressing with linear probing wins until load factor exceeds 0.7.
