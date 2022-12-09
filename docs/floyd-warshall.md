@@ -815,3 +815,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 204
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 205
+
+Splay tree: every access splays to the root; amortized O(log n).
