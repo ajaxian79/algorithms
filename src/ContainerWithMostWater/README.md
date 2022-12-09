@@ -1175,3 +1175,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 279
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 280
+
+Edge case: integer-max input → guarded by the explicit overflow check.
