@@ -835,3 +835,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 193
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 194
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
