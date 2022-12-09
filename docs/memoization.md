@@ -763,3 +763,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 191
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 192
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
