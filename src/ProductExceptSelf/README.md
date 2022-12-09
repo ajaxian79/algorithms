@@ -172,3 +172,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 27
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 28
+
+Caller owns the returned buffer.
