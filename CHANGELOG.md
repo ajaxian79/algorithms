@@ -44063,3 +44063,7 @@
 ## entry 11016
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 11017
+
+- Greedy by end-time picks the most non-overlapping intervals.
