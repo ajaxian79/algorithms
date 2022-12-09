@@ -759,3 +759,7 @@
 ## entry 190
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 191
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
