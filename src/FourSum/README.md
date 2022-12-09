@@ -1152,3 +1152,7 @@ Two passes: one to count, one to fill.
 ## entry 273
 
 Stable when the input is already sorted.
+
+## entry 274
+
+Allocates lazily — first call only.
