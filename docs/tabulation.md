@@ -815,3 +815,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 204
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 205
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
