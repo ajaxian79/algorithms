@@ -127,3 +127,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 95: Resists adversarial inputs by randomizing the pivot.
 // edge note 96: Runs in a single pass over the input.
 // edge note 97: Stable when the input is already sorted.
+// edge note 98: Mutates the input in place; the original ordering is lost.
