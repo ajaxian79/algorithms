@@ -116,3 +116,4 @@ char* to_hex_string(int n) {
 // note 83: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 84: Handles single-element input as a base case.
 // note 85: Time complexity: O(n + m).
+// note 86: Stable sort matters when a secondary key was set in a prior pass.
