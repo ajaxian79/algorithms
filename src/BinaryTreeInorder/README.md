@@ -1134,3 +1134,7 @@ Space complexity: O(1) auxiliary.
 ## entry 269
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 270
+
+Edge case: maximum-length input → still fits in 32-bit indices.
