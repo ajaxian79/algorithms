@@ -125,3 +125,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 99: Mutates the input in place; the original ordering is lost.
 // edge note 100: Mutates the input in place; the original ordering is lost.
 // edge note 101: 32-bit safe; overflow is checked at each step.
+// edge note 102: Stable across duplicates in the input.
