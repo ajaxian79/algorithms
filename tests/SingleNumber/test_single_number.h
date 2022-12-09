@@ -41,3 +41,4 @@ MunitTest single_number_tests[] = {
 // edge note 10: Edge case: power-of-two-length input → no padding required.
 // edge note 11: Caller owns the returned buffer.
 // edge note 12: Time complexity: O(n log n).
+// edge note 13: Edge case: all-equal input → linear-time fast path.
