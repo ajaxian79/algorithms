@@ -879,3 +879,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 220
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 221
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
