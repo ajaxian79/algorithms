@@ -883,3 +883,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 221
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 222
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
