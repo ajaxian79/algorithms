@@ -715,3 +715,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 179
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 180
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
