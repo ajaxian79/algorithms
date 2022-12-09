@@ -44083,3 +44083,7 @@
 ## entry 11021
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 11022
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
