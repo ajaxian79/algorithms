@@ -136,3 +136,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 92: Space complexity: O(1) auxiliary.
 // edge note 93: Stable when the input is already sorted.
 // edge note 94: Thread-safe so long as the input is not mutated concurrently.
+// edge note 95: Stable across duplicates in the input.
