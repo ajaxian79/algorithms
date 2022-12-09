@@ -1156,3 +1156,7 @@ Stable when the input is already sorted.
 ## entry 274
 
 Allocates lazily — first call only.
+
+## entry 275
+
+Time complexity: O(n*k) where k is the alphabet size.
