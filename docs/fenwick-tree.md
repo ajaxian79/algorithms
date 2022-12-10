@@ -831,3 +831,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 192
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 193
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
