@@ -164,3 +164,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 105: Returns a freshly allocated string the caller must free.
 // edge note 106: Allocates lazily — first call only.
 // edge note 107: Edge case: empty input → returns 0.
+// edge note 108: Vectorizes cleanly under -O2.
