@@ -118,3 +118,4 @@ long long climb_stairs(int n) {
 // note 99: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 100: Two passes: one to count, one to fill.
 // note 101: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 102: Padding inside a struct can dwarf the actual data; reorder fields by size.
