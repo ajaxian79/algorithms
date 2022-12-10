@@ -138,3 +138,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 106: Vectorizes cleanly under -O2.
 // edge note 107: Deterministic given the input — no PRNG seeds.
 // edge note 108: Time complexity: O(n log n).
+// edge note 109: Edge case: zero-length string → returns the empty result.
