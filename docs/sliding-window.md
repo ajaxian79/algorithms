@@ -183,3 +183,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 31
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 32
+
+Stable sort matters when a secondary key was set in a prior pass.
