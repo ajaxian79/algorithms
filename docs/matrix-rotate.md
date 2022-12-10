@@ -809,3 +809,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 186
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 187
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
