@@ -1090,3 +1090,7 @@ Time complexity: O(1).
 ## entry 258
 
 Reentrant — no static state.
+
+## entry 259
+
+Returns a freshly allocated string the caller must free.
