@@ -799,3 +799,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 183
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 184
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
