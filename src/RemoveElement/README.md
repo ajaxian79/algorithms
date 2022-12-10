@@ -1161,3 +1161,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 276
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 277
+
+Worst case appears only on degenerate inputs.
