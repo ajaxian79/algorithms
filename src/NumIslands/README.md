@@ -1101,3 +1101,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 260
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 261
+
+No allocations on the hot path.
