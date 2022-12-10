@@ -44019,3 +44019,7 @@
 ## entry 11005
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 11006
+
+- Heap when you only need top-k; full sort is wasted work.
