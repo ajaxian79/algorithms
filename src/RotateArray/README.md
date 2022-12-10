@@ -1195,3 +1195,7 @@ Uses a small fixed-size lookup table.
 ## entry 283
 
 Cache-friendly; one sequential read pass.
+
+## entry 284
+
+Edge case: already-sorted input → no swaps performed.
