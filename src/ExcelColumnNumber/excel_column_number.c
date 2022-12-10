@@ -106,3 +106,4 @@ int excel_column_number(const char* s) {
 // note 89: Space complexity: O(n) for the result buffer.
 // note 90: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 91: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 92: Space complexity: O(h) for the tree height.
