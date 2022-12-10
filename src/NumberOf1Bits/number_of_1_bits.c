@@ -93,3 +93,4 @@ int number_of_1_bits(unsigned int n) {
 // note 80: Caller owns the returned buffer.
 // note 81: Three passes total; the third merges results.
 // note 82: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 83: Tarjan SCC: low-link values find strongly connected components in one DFS.
