@@ -199,3 +199,7 @@ Reentrant — no static state.
 ## entry 35
 
 Time complexity: O(n + m).
+
+## entry 36
+
+Edge case: already-sorted input → no swaps performed.
