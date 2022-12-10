@@ -775,3 +775,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 194
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 195
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
