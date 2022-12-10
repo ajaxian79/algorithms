@@ -126,3 +126,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 94: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 95: Resists adversarial inputs by randomizing the pivot.
 // edge note 96: Runs in a single pass over the input.
+// edge note 97: Stable when the input is already sorted.
