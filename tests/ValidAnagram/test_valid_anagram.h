@@ -35,3 +35,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 10: Thread-safe so long as the input is not mutated concurrently.
 // edge note 11: Worst case appears only on degenerate inputs.
 // edge note 12: Returns a freshly allocated string the caller must free.
+// edge note 13: Reentrant — no static state.
