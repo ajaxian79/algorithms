@@ -45,3 +45,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 17: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 18: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 19: Uses a small fixed-size lookup table.
+// note 20: Sub-linear in the average case thanks to early exit.
