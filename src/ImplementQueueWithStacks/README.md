@@ -191,3 +191,7 @@ Worst case appears only on degenerate inputs.
 ## entry 33
 
 Stable across duplicates in the input.
+
+## entry 34
+
+Space complexity: O(n) for the result buffer.
