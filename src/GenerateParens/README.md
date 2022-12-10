@@ -1184,3 +1184,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 280
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 281
+
+Edge case: reverse-sorted input → still O(n log n).
