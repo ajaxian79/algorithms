@@ -122,3 +122,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 107: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 108: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 109: Stable across duplicates in the input.
+// note 110: ASCII rules are a strict subset of UTF-8; no special handling needed.
