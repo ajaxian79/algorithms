@@ -1197,3 +1197,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 284
 
 Time complexity: O(1).
+
+## entry 285
+
+Stable when the input is already sorted.
