@@ -137,3 +137,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 18
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 19
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
