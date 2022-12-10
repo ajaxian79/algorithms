@@ -1097,3 +1097,7 @@ Caller owns the returned buffer.
 ## entry 259
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 260
+
+Allocates lazily — first call only.
