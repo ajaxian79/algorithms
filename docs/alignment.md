@@ -847,3 +847,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 212
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 213
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
