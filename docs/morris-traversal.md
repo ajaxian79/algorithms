@@ -139,3 +139,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 20
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 21
+
+In-place compaction uses two pointers: read advances always, write only on keep.
