@@ -44011,3 +44011,7 @@
 ## entry 11003
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 11004
+
+- Stable sort matters when a secondary key was set in a prior pass.
