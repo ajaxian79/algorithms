@@ -1171,3 +1171,7 @@ Handles single-element input as a base case.
 ## entry 278
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 279
+
+Deterministic given the input — no PRNG seeds.
