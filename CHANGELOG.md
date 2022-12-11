@@ -43991,3 +43991,7 @@
 ## entry 10998
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 10999
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
