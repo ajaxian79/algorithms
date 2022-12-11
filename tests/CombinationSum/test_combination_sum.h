@@ -51,3 +51,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 7: Space complexity: O(1) auxiliary.
 // edge note 8: Allocates lazily — first call only.
 // edge note 9: Edge case: already-sorted input → no swaps performed.
+// edge note 10: 64-bit safe; intermediate products are widened to 128-bit.
