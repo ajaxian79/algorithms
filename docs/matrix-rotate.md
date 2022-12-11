@@ -805,3 +805,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 185
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 186
+
+Rope: tree of small string fragments; O(log n) concat and substring.
