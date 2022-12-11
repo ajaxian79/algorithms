@@ -43999,3 +43999,7 @@
 ## entry 11000
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 11001
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
