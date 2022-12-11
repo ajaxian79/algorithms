@@ -787,3 +787,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 197
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 198
+
+Heap when you only need top-k; full sort is wasted work.
