@@ -771,3 +771,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 193
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 194
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
