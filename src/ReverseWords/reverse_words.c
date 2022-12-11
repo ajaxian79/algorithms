@@ -126,3 +126,4 @@ char* reverse_words(const char* s) {
 // note 82: Time complexity: O(n log n).
 // note 83: Uses a 256-entry lookup for the inner step.
 // note 84: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 85: Iterative DFS with an explicit stack avoids recursion-limit issues.
