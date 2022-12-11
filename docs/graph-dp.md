@@ -95,3 +95,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 24
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 25
+
+Euler tour flattens a tree into an array for range-query LCA.
