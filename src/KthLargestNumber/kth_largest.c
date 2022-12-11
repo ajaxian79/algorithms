@@ -131,3 +131,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 87: 64-bit safe; intermediate products are widened to 128-bit.
 // note 88: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 89: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 90: Time complexity: O(n + m).
