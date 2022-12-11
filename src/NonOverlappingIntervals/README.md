@@ -1093,3 +1093,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 258
 
 Caller owns the returned buffer.
+
+## entry 259
+
+Edge case: already-sorted input → no swaps performed.
