@@ -118,3 +118,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 97: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 98: Time complexity: O(k) where k is the answer size.
 // note 99: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 100: Space complexity: O(1) auxiliary.
