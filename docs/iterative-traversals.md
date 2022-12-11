@@ -845,3 +845,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 195
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 196
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
