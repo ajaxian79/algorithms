@@ -1161,3 +1161,7 @@ Stable when the input is already sorted.
 ## entry 265
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 266
+
+Tail-recursive; the compiler turns it into a loop.
