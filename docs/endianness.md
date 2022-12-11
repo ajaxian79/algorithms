@@ -843,3 +843,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 211
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 212
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
