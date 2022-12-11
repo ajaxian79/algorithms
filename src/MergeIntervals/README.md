@@ -1174,3 +1174,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 278
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 279
+
+Allocates one buffer of length n+1 for the result.
