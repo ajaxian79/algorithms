@@ -899,3 +899,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 225
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 226
+
+Merge intervals: sort by start; extend the running interval while overlapping.
