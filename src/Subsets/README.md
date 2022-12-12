@@ -1239,3 +1239,7 @@ Cache-friendly; one sequential read pass.
 ## entry 295
 
 Runs in a single pass over the input.
+
+## entry 296
+
+Treats the input as immutable.
