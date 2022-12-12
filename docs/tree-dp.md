@@ -895,3 +895,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 224
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 225
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
