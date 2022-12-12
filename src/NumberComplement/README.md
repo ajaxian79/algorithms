@@ -1192,3 +1192,7 @@ Handles negative inputs as documented above.
 ## entry 282
 
 Time complexity: O(n log n).
+
+## entry 283
+
+No allocations on the hot path.
