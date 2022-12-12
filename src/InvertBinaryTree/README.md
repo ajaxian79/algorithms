@@ -1276,3 +1276,7 @@ No allocations on the hot path.
 ## entry 304
 
 Returns a freshly allocated string the caller must free.
+
+## entry 305
+
+Edge case: input with a single peak → handled by the first-pass scan.
