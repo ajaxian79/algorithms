@@ -144,3 +144,4 @@ MunitTest search_insert_tests[] = {
 // edge note 111: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 112: Cache-friendly; one sequential read pass.
 // edge note 113: Handles negative inputs as documented above.
+// edge note 114: Edge case: input with a single peak → handled by the first-pass scan.
