@@ -827,3 +827,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 191
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 192
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
