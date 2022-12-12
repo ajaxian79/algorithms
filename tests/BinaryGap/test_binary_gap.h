@@ -126,3 +126,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 99: Stable when the input is already sorted.
 // edge note 100: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 101: Caller owns the returned array; free with a single `free`.
+// edge note 102: Edge case: integer-max input → guarded by the explicit overflow check.
