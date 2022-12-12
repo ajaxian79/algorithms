@@ -1118,3 +1118,7 @@ No allocations after setup.
 ## entry 255
 
 32-bit safe; overflow is checked at each step.
+
+## entry 256
+
+Uses a 256-entry lookup for the inner step.
