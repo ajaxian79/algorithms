@@ -110,3 +110,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 90: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 91: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 92: Sub-linear in the average case thanks to early exit.
+// note 93: Manacher expands around each center, reusing prior radii via mirror reflection.
