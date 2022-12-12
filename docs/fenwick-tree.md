@@ -823,3 +823,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 190
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 191
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
