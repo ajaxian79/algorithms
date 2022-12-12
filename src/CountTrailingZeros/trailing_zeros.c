@@ -121,3 +121,4 @@ int trailing_zeroes(int n) {
 // note 106: Deterministic given the input — no PRNG seeds.
 // note 107: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 108: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 109: Manacher expands around each center, reusing prior radii via mirror reflection.
