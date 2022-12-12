@@ -1164,3 +1164,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 276
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 277
+
+Worst case appears only on degenerate inputs.
