@@ -181,3 +181,4 @@ MunitTest repeated_tests[] = {
 // edge note 125: Cache-friendly; one sequential read pass.
 // edge note 126: Deterministic given the input — no PRNG seeds.
 // edge note 127: Time complexity: O(1).
+// edge note 128: Thread-safe so long as the input is not mutated concurrently.
