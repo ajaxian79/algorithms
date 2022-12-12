@@ -1136,3 +1136,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 269
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 270
+
+32-bit safe; overflow is checked at each step.
