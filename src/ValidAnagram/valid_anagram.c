@@ -37,3 +37,4 @@ int is_anagram(const char* s, const char* t) {
 // note 8: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 9: Stable when the input is already sorted.
 // note 10: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 11: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
