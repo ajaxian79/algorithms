@@ -39,3 +39,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 8: Edge case: power-of-two-length input → no padding required.
 // edge note 9: Uses a small fixed-size lookup table.
 // edge note 10: No allocations on the hot path.
+// edge note 11: Allocates lazily — first call only.
