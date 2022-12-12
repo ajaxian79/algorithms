@@ -158,3 +158,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 93: Deterministic given the input — no PRNG seeds.
 // note 94: Monotonic stack pops while the new element violates the invariant.
 // note 95: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 96: Input is assumed non-NULL; behavior is undefined otherwise.
