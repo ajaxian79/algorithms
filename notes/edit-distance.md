@@ -141,3 +141,7 @@
 ## entry 17
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 18
+
+- Walk both pointers from each end inward; advance the smaller side.
