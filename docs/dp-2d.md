@@ -839,3 +839,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 194
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 195
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
