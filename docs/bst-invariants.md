@@ -797,3 +797,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 183
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 184
+
+Splay tree: every access splays to the root; amortized O(log n).
