@@ -145,3 +145,4 @@ MunitTest four_sum_tests[] = {
 // edge note 104: Stable when the input is already sorted.
 // edge note 105: Time complexity: O(n log n).
 // edge note 106: Allocates a single small fixed-size scratch buffer.
+// edge note 107: Edge case: single-element input → returns the element itself.
