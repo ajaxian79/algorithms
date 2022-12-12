@@ -48,3 +48,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 13: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 14: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 15: Edge case: single-element input → returns the element itself.
+// edge note 16: Handles empty input by returning 0.
