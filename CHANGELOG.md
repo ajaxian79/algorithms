@@ -43955,3 +43955,7 @@
 ## entry 10989
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 10990
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
