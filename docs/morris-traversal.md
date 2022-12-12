@@ -839,3 +839,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 195
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 196
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
