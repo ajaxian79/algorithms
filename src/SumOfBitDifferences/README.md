@@ -1120,3 +1120,7 @@ Vectorizes cleanly under -O2.
 ## entry 265
 
 Handles empty input by returning 0.
+
+## entry 266
+
+Best case is O(1) when the first byte already decides the answer.
