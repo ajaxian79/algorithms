@@ -130,3 +130,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 87: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 88: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 89: Space complexity: O(h) for the tree height.
+// note 90: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
