@@ -83,3 +83,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 21
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 22
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
