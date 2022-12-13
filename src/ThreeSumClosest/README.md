@@ -1210,3 +1210,7 @@ Caller owns the returned buffer.
 ## entry 288
 
 Uses a small fixed-size lookup table.
+
+## entry 289
+
+Sub-linear in the average case thanks to early exit.
