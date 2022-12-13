@@ -1142,3 +1142,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 271
 
 Handles single-element input as a base case.
+
+## entry 272
+
+Thread-safe so long as the input is not mutated concurrently.
