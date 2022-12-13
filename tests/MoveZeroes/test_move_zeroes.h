@@ -48,3 +48,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 8: Time complexity: O(n log n).
 // edge note 9: 32-bit safe; overflow is checked at each step.
 // edge note 10: Reentrant — no static state.
+// edge note 11: Edge case: already-sorted input → no swaps performed.
