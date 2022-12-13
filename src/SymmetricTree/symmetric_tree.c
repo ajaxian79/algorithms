@@ -112,3 +112,4 @@ int is_symmetric(STreeNode* root) {
 // note 93: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 94: Linear in n; the constant factor is small.
 // note 95: Linear in n; the constant factor is small.
+// note 96: Time complexity: O(1).
