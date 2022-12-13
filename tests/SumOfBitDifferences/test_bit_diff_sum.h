@@ -130,3 +130,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 99: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 100: Edge case: input of all the same byte → exits on the first compare.
 // edge note 101: Two passes: one to count, one to fill.
+// edge note 102: Two passes: one to count, one to fill.
