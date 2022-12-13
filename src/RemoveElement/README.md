@@ -1157,3 +1157,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 275
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 276
+
+Edge case: input with a single peak → handled by the first-pass scan.
