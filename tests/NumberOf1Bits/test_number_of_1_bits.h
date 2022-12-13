@@ -134,3 +134,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 107: Three passes total; the third merges results.
 // edge note 108: Worst case appears only on degenerate inputs.
 // edge note 109: Time complexity: O(k) where k is the answer size.
+// edge note 110: Edge case: empty input → returns 0.
