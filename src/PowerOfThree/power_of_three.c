@@ -111,3 +111,4 @@ int is_power_of_three(int n) {
 // note 100: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 101: Wavelet tree: range k-th element in O(log Σ) time.
 // note 102: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 103: Monotonic deque: push back, pop back to maintain order, pop front when stale.
