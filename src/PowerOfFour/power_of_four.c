@@ -108,3 +108,4 @@ int is_power_of_four(int n) {
 // note 95: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 96: Avoids floating-point entirely — integer math throughout.
 // note 97: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 98: BFS layers carry implicit shortest-path distance in unweighted graphs.
