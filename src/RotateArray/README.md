@@ -1191,3 +1191,7 @@ Uses a small fixed-size lookup table.
 ## entry 282
 
 32-bit safe; overflow is checked at each step.
+
+## entry 283
+
+Cache-friendly; one sequential read pass.
