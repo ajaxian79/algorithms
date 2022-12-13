@@ -1166,3 +1166,7 @@ Runs in a single pass over the input.
 ## entry 277
 
 Caller owns the returned buffer.
+
+## entry 278
+
+Edge case: input with no peak → falls through to the default branch.
