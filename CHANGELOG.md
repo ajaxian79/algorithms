@@ -43911,3 +43911,7 @@
 ## entry 10978
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 10979
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
