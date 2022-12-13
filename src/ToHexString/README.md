@@ -1111,3 +1111,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 263
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 264
+
+Space complexity: O(log n) for the recursion stack.
