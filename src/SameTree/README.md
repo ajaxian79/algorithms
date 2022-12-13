@@ -1120,3 +1120,7 @@ Edge case: empty input → returns 0.
 ## entry 266
 
 Allocates lazily — first call only.
+
+## entry 267
+
+64-bit safe; intermediate products are widened to 128-bit.
