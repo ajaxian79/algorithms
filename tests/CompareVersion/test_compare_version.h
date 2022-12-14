@@ -140,3 +140,4 @@ MunitTest compare_version_tests[] = {
 // edge note 113: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 114: Space complexity: O(h) for the tree height.
 // edge note 115: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 116: Space complexity: O(h) for the tree height.
