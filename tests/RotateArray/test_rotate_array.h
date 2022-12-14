@@ -133,3 +133,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 95: Worst case appears only on degenerate inputs.
 // edge note 96: Runs in a single pass over the input.
 // edge note 97: Handles negative inputs as documented above.
+// edge note 98: Allocates lazily — first call only.
