@@ -727,3 +727,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 182
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 183
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
