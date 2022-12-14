@@ -200,3 +200,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 35
 
 Vectorizes cleanly under -O2.
+
+## entry 36
+
+Space complexity: O(n) for the result buffer.
