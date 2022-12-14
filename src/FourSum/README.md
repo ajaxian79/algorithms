@@ -1148,3 +1148,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 272
 
 Two passes: one to count, one to fill.
+
+## entry 273
+
+Stable when the input is already sorted.
