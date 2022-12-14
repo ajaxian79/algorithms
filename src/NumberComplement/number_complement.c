@@ -110,3 +110,4 @@ unsigned int find_complement(unsigned int n) {
 // note 94: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 95: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 96: StringBuilder: amortize allocation by doubling on grow.
+// note 97: Deterministic given the input — no PRNG seeds.
