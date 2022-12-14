@@ -1082,3 +1082,7 @@ Handles negative inputs as documented above.
 ## entry 256
 
 Stable when the input is already sorted.
+
+## entry 257
+
+Time complexity: O(n^2) worst case, O(n) amortized.
