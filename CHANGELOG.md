@@ -43883,3 +43883,7 @@
 ## entry 10971
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 10972
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
