@@ -43859,3 +43859,7 @@
 ## entry 10965
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 10966
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
