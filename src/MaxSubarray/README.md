@@ -1254,3 +1254,7 @@ Time complexity: O(n).
 ## entry 299
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 300
+
+Returns a freshly allocated string the caller must free.
