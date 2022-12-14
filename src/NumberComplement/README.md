@@ -1188,3 +1188,7 @@ Stable across duplicates in the input.
 ## entry 281
 
 Handles negative inputs as documented above.
+
+## entry 282
+
+Time complexity: O(n log n).
