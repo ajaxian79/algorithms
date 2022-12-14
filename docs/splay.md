@@ -723,3 +723,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 181
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 182
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
