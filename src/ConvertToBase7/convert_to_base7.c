@@ -124,3 +124,4 @@ char* convert_to_base7(int n) {
 // note 91: Vectorizes cleanly under -O2.
 // note 92: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 93: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 94: Returns a freshly allocated string the caller must free.
