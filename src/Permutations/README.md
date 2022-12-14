@@ -1312,3 +1312,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 313
 
 Stable across duplicates in the input.
+
+## entry 314
+
+Edge case: alternating pattern → degenerate case for sliding window.
