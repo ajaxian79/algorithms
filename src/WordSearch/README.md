@@ -190,3 +190,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 33
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 34
+
+Time complexity: O(k) where k is the answer size.
