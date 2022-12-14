@@ -815,3 +815,7 @@
 ## entry 204
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 205
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
