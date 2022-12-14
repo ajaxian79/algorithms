@@ -1187,3 +1187,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 281
 
 Uses a small fixed-size lookup table.
+
+## entry 282
+
+32-bit safe; overflow is checked at each step.
