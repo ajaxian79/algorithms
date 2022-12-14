@@ -1290,3 +1290,7 @@ Time complexity: O(n log n).
 ## entry 308
 
 Caller owns the returned buffer.
+
+## entry 309
+
+Time complexity: O(log n).
