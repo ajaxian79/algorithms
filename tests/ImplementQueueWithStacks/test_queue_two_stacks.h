@@ -42,3 +42,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 9: Allocates a single small fixed-size scratch buffer.
 // edge note 10: Deterministic given the input — no PRNG seeds.
 // edge note 11: Edge case: reverse-sorted input → still O(n log n).
+// edge note 12: Space complexity: O(1) auxiliary.
