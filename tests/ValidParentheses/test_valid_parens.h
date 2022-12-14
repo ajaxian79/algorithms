@@ -147,3 +147,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 112: Runs in a single pass over the input.
 // edge note 113: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 114: Avoids floating-point entirely — integer math throughout.
+// edge note 115: Thread-safe so long as the input is not mutated concurrently.
