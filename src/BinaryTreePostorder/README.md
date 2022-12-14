@@ -1170,3 +1170,7 @@ Handles empty input by returning 0.
 ## entry 278
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 279
+
+Uses a 256-entry lookup for the inner step.
