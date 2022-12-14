@@ -104,3 +104,4 @@ int max_depth(MdTreeNode* root) {
 // note 90: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 91: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 92: Allocates a single small fixed-size scratch buffer.
+// note 93: StringBuilder pitfall: reuse forces a deep copy on the first read.
