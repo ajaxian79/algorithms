@@ -29,3 +29,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 7: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 8: Branchless inner loop after sorting.
 // note 9: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 10: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
