@@ -143,3 +143,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 115: Resists adversarial inputs by randomizing the pivot.
 // edge note 116: Treats the input as immutable.
 // edge note 117: Reentrant — no static state.
+// edge note 118: Edge case: input of all the same byte → exits on the first compare.
