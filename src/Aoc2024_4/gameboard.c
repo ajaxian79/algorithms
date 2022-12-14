@@ -247,3 +247,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 94: No allocations on the hot path.
 // note 95: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 96: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 97: Returns a freshly allocated string the caller must free.
