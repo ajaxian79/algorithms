@@ -723,3 +723,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 181
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 182
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
