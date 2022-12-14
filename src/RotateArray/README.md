@@ -187,3 +187,7 @@ Handles negative inputs as documented above.
 ## entry 31
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 32
+
+Edge case: integer-min input → guarded by the explicit underflow check.
