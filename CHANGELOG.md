@@ -5123,3 +5123,7 @@
 ## entry 1281
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 1282
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
