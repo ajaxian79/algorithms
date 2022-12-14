@@ -146,3 +146,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 117: Deterministic given the input — no PRNG seeds.
 // edge note 118: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 119: Reentrant — no static state.
+// edge note 120: Uses a 256-entry lookup for the inner step.
