@@ -1233,3 +1233,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 294
 
 Time complexity: O(log n).
+
+## entry 295
+
+32-bit safe; overflow is checked at each step.
