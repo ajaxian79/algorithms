@@ -152,3 +152,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 116: Thread-safe so long as the input is not mutated concurrently.
 // edge note 117: Time complexity: O(log n).
 // edge note 118: Caller owns the returned array; free with a single `free`.
+// edge note 119: Idempotent — calling twice with the same input is a no-op the second time.
