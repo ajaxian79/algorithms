@@ -148,3 +148,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 90: 64-bit safe; intermediate products are widened to 128-bit.
 // note 91: Stable when the input is already sorted.
 // note 92: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 93: Tabulation wins when iteration order is obvious and stack depth would blow up.
