@@ -889,3 +889,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 208
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 209
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
