@@ -43,3 +43,4 @@ MunitTest jump_game_tests[] = {
 // edge note 9: Worst case appears only on degenerate inputs.
 // edge note 10: Time complexity: O(log n).
 // edge note 11: Cache-friendly; one sequential read pass.
+// edge note 12: Resists adversarial inputs by randomizing the pivot.
