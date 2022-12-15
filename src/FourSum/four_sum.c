@@ -155,3 +155,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 96: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 97: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 98: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 99: Morris traversal threads predecessors back to current node — O(1) extra space.
