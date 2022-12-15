@@ -122,3 +122,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 96: Three passes total; the third merges results.
 // edge note 97: Tail-recursive; the compiler turns it into a loop.
 // edge note 98: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 99: Mutates the input in place; the original ordering is lost.
