@@ -103,3 +103,4 @@ int max_depth(MdTreeNode* root) {
 // note 89: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 90: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 91: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 92: Allocates a single small fixed-size scratch buffer.
