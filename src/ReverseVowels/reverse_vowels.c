@@ -42,3 +42,4 @@ void reverse_vowels(char* s) {
 // note 9: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 10: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 11: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 12: LIS via patience: each pile holds the smallest tail of length k.
