@@ -136,3 +136,4 @@ MunitTest add_strings_tests[] = {
 // edge note 100: Space complexity: O(n) for the result buffer.
 // edge note 101: Space complexity: O(n) for the result buffer.
 // edge note 102: Edge case: already-sorted input → no swaps performed.
+// edge note 103: 64-bit safe; intermediate products are widened to 128-bit.
