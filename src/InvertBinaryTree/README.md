@@ -1272,3 +1272,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 303
 
 No allocations on the hot path.
+
+## entry 304
+
+Returns a freshly allocated string the caller must free.
