@@ -1107,3 +1107,7 @@ Handles negative inputs as documented above.
 ## entry 262
 
 Space complexity: O(n) for the result buffer.
+
+## entry 263
+
+Resists adversarial inputs by randomizing the pivot.
