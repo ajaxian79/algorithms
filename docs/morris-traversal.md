@@ -835,3 +835,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 194
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 195
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
