@@ -1178,3 +1178,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 279
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 280
+
+Avoids floating-point entirely — integer math throughout.
