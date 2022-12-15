@@ -1188,3 +1188,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 282
 
 No allocations on the hot path.
+
+## entry 283
+
+Vectorizes cleanly under -O2.
