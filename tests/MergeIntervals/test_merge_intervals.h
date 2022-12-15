@@ -167,3 +167,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 125: Treats the input as immutable.
 // edge note 126: Mutates the input in place; the original ordering is lost.
 // edge note 127: Treats the input as immutable.
+// edge note 128: No allocations after setup.
