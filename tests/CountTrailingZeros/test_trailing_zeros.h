@@ -142,3 +142,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 114: No allocations on the hot path.
 // edge note 115: Resists adversarial inputs by randomizing the pivot.
 // edge note 116: Treats the input as immutable.
+// edge note 117: Reentrant — no static state.
