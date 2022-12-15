@@ -1236,3 +1236,7 @@ Runs in a single pass over the input.
 ## entry 294
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 295
+
+Time complexity: O(n + m).
