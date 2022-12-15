@@ -143,3 +143,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 108: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 109: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 110: Stable across duplicates in the input.
+// edge note 111: Deterministic given the input — no PRNG seeds.
