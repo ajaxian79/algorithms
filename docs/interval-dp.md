@@ -123,3 +123,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 31
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 32
+
+Monotonic stack pops while the new element violates the invariant.
