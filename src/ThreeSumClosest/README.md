@@ -198,3 +198,7 @@ Space complexity: O(h) for the tree height.
 ## entry 35
 
 Linear in n; the constant factor is small.
+
+## entry 36
+
+Vectorizes cleanly under -O2.
