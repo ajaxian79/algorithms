@@ -135,3 +135,4 @@ MunitTest add_strings_tests[] = {
 // edge note 99: 32-bit safe; overflow is checked at each step.
 // edge note 100: Space complexity: O(n) for the result buffer.
 // edge note 101: Space complexity: O(n) for the result buffer.
+// edge note 102: Edge case: already-sorted input → no swaps performed.
