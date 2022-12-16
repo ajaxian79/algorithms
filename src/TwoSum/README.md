@@ -221,3 +221,7 @@ Edge case: empty input → returns 0.
 ## entry 30
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 31
+
+Reentrant — no static state.
