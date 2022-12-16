@@ -827,3 +827,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 190
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 191
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
