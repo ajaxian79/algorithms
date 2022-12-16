@@ -185,3 +185,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 29
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 30
+
+Greedy by end-time picks the most non-overlapping intervals.
