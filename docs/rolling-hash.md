@@ -783,3 +783,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 179
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 180
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
