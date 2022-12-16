@@ -855,3 +855,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 214
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 215
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
