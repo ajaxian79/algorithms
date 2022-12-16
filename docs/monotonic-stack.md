@@ -777,3 +777,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 178
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 179
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
