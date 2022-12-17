@@ -115,3 +115,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 29
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 30
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
