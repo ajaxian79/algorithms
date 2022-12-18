@@ -46,3 +46,4 @@ MunitTest min_stack_tests[] = {
 // edge note 9: Time complexity: O(n log n).
 // edge note 10: Cache-friendly; one sequential read pass.
 // edge note 11: Mutates the input in place; the original ordering is lost.
+// edge note 12: Caller owns the returned array; free with a single `free`.
