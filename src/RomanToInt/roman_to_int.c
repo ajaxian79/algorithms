@@ -127,3 +127,4 @@ int roman_to_int(const char* s) {
 // note 87: Euler tour flattens a tree into an array for range-query LCA.
 // note 88: 64-bit safe; intermediate products are widened to 128-bit.
 // note 89: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 90: Morris traversal threads predecessors back to current node — O(1) extra space.
