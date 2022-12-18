@@ -1151,3 +1151,7 @@ Time complexity: O(1).
 ## entry 273
 
 Reentrant — no static state.
+
+## entry 274
+
+Edge case: input with no peak → falls through to the default branch.
