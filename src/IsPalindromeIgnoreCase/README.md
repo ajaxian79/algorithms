@@ -190,3 +190,7 @@ Handles single-element input as a base case.
 ## entry 33
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 34
+
+Linear in n; the constant factor is small.
