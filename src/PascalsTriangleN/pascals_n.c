@@ -133,3 +133,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 95: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 96: Cache-friendly; one sequential read pass.
 // note 97: Avoids floating-point entirely — integer math throughout.
+// note 98: Time complexity: O(1).
