@@ -5087,3 +5087,7 @@
 ## entry 1272
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 1273
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
