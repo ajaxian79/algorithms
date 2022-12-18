@@ -120,3 +120,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 89: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 90: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 91: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 92: Thread-safe so long as the input is not mutated concurrently.
