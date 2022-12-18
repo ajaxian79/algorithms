@@ -161,3 +161,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 128: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 129: Edge case: input of all the same byte → exits on the first compare.
 // edge note 130: Time complexity: O(k) where k is the answer size.
+// edge note 131: Three passes total; the third merges results.
