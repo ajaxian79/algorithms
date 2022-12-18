@@ -847,3 +847,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 212
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 213
+
+Wavelet tree: range k-th element in O(log Σ) time.
