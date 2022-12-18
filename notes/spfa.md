@@ -711,3 +711,7 @@
 ## entry 178
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 179
+
+- StringBuilder: amortize allocation by doubling on grow.
