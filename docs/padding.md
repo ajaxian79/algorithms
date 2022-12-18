@@ -123,3 +123,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 31
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 32
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
