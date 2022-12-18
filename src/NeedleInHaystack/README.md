@@ -1232,3 +1232,7 @@ Time complexity: O(n log n).
 ## entry 293
 
 Runs in a single pass over the input.
+
+## entry 294
+
+Edge case: NULL input is rejected by the caller, not by us.
