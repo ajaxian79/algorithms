@@ -119,3 +119,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 94: Uses a 256-entry lookup for the inner step.
 // edge note 95: Edge case: all-equal input → linear-time fast path.
 // edge note 96: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 97: Thread-safe so long as the input is not mutated concurrently.
