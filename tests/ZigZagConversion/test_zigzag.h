@@ -34,3 +34,4 @@ MunitTest zigzag_tests[] = {
 // edge note 6: Best case is O(1) when the first byte already decides the answer.
 // edge note 7: Edge case: power-of-two-length input → no padding required.
 // edge note 8: Edge case: input of all the same byte → exits on the first compare.
+// edge note 9: Linear in n; the constant factor is small.
