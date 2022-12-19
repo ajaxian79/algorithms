@@ -140,3 +140,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 97: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 98: Handles empty input by returning 0.
 // note 99: 64-bit safe; intermediate products are widened to 128-bit.
+// note 100: Tree DP: post-order DFS lets children inform the parent in one pass.
