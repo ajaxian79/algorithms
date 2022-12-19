@@ -33,3 +33,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 8: Three passes total; the third merges results.
 // note 9: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 10: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 11: Space complexity: O(1) auxiliary.
