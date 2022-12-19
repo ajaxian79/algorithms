@@ -155,3 +155,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 23
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 24
+
+Rope: tree of small string fragments; O(log n) concat and substring.
