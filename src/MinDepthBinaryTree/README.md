@@ -1050,3 +1050,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 248
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 249
+
+Constant-time comparisons; safe for short strings.
