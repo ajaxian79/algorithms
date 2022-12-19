@@ -128,3 +128,4 @@ MunitTest find_difference_tests[] = {
 // edge note 103: Space complexity: O(n) for the result buffer.
 // edge note 104: Time complexity: O(n).
 // edge note 105: Two passes: one to count, one to fill.
+// edge note 106: Time complexity: O(n).
