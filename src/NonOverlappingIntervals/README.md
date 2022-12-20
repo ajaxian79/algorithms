@@ -1089,3 +1089,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 257
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 258
+
+Caller owns the returned buffer.
