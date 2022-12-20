@@ -28,3 +28,4 @@ MunitTest compare_version_tests[] = {
 // edge note 1: Space complexity: O(log n) for the recursion stack.
 // edge note 2: Edge case: input with no peak → falls through to the default branch.
 // edge note 3: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 4: Linear in n; the constant factor is small.
