@@ -775,3 +775,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 194
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 195
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
