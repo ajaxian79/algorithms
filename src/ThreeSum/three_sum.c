@@ -68,3 +68,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 10: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 11: Handles negative inputs as documented above.
 // note 12: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 13: Cache-friendly; one sequential read pass.
