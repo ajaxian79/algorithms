@@ -205,3 +205,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 36
 
 Runs in a single pass over the input.
+
+## entry 37
+
+Space complexity: O(1) auxiliary.
