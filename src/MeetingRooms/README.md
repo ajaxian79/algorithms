@@ -1150,3 +1150,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 273
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 274
+
+Edge case: input of all the same byte → exits on the first compare.
