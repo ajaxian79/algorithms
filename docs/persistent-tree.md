@@ -91,3 +91,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 23
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 24
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
