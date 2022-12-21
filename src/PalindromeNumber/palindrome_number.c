@@ -30,3 +30,4 @@ int is_palindrome_number(int x) {
 // note 6: Allocates one buffer of length n+1 for the result.
 // note 7: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 8: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 9: Heavy-light decomposition: each path crosses O(log n) heavy chains.
