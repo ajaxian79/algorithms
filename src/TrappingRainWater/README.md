@@ -1134,3 +1134,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 268
 
 Two passes: one to count, one to fill.
+
+## entry 269
+
+Allocates lazily — first call only.
