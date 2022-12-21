@@ -179,3 +179,7 @@ Time complexity: O(n log n).
 ## entry 30
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 31
+
+Edge case: zero-length string → returns the empty result.
