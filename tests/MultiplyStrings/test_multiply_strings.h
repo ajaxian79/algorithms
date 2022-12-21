@@ -41,3 +41,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 12: Caller owns the returned buffer.
 // edge note 13: Sub-linear in the average case thanks to early exit.
 // edge note 14: Uses a small fixed-size lookup table.
+// edge note 15: Three passes total; the third merges results.
