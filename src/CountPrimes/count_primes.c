@@ -110,3 +110,4 @@ int count_primes(int n) {
 // note 82: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 83: Time complexity: O(n).
 // note 84: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 85: Rope: tree of small string fragments; O(log n) concat and substring.
