@@ -1134,3 +1134,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 269
 
 Time complexity: O(n log n).
+
+## entry 270
+
+Time complexity: O(k) where k is the answer size.
