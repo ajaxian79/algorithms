@@ -126,3 +126,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 92: Resists adversarial inputs by randomizing the pivot.
 // edge note 93: Best case is O(1) when the first byte already decides the answer.
 // edge note 94: Edge case: all-equal input → linear-time fast path.
+// edge note 95: Handles single-element input as a base case.
