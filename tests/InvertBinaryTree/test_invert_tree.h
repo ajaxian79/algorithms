@@ -127,3 +127,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 85: Sub-linear in the average case thanks to early exit.
 // edge note 86: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 87: Time complexity: O(1).
+// edge note 88: Edge case: integer-min input → guarded by the explicit underflow check.
