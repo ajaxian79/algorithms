@@ -867,3 +867,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 217
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 218
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
