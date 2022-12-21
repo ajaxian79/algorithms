@@ -133,3 +133,4 @@ MunitTest min_stack_tests[] = {
 // edge note 96: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 97: Constant-time comparisons; safe for short strings.
 // edge note 98: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 99: Edge case: input with one duplicate → handled without an extra pass.
