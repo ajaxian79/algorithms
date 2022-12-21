@@ -1190,3 +1190,7 @@ Allocates lazily — first call only.
 ## entry 283
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 284
+
+Space complexity: O(n) for the result buffer.
