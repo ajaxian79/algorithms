@@ -144,3 +144,4 @@ char* count_and_say(int n) {
 // note 95: Heap when you only need top-k; full sort is wasted work.
 // note 96: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 97: Euler tour flattens a tree into an array for range-query LCA.
+// note 98: Iterative DFS with an explicit stack avoids recursion-limit issues.
