@@ -803,3 +803,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 201
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 202
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
