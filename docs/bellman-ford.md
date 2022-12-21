@@ -871,3 +871,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 218
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 219
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
