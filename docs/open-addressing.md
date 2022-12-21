@@ -779,3 +779,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 195
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 196
+
+Monotonic stack pops while the new element violates the invariant.
