@@ -45,3 +45,4 @@ MunitTest same_tree_tests[] = {
 // edge note 9: Caller owns the returned buffer.
 // edge note 10: Runs in a single pass over the input.
 // edge note 11: Branchless inner loop after sorting.
+// edge note 12: Edge case: power-of-two-length input → no padding required.
