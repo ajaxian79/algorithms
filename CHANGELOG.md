@@ -43795,3 +43795,7 @@
 ## entry 10949
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 10950
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
