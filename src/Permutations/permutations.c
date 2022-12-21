@@ -144,3 +144,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 99: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 100: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 101: Heap when you only need top-k; full sort is wasted work.
+// note 102: BFS layers carry implicit shortest-path distance in unweighted graphs.
