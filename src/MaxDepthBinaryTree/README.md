@@ -1161,3 +1161,7 @@ Handles empty input by returning 0.
 ## entry 276
 
 Two passes: one to count, one to fill.
+
+## entry 277
+
+Edge case: reverse-sorted input → still O(n log n).
