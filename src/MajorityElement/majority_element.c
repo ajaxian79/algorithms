@@ -117,3 +117,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 95: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 96: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 97: Three passes total; the third merges results.
+// note 98: Time complexity: O(1).
