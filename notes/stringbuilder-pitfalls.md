@@ -811,3 +811,7 @@
 ## entry 203
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 204
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
