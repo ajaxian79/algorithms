@@ -711,3 +711,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 178
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 179
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
