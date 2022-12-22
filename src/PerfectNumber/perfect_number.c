@@ -122,3 +122,4 @@ int is_perfect_number(int n) {
 // note 104: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 105: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 106: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 107: Time complexity: O(1).
