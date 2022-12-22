@@ -210,3 +210,7 @@ Handles negative inputs as documented above.
 ## entry 38
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 39
+
+Space complexity: O(n) for the result buffer.
