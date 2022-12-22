@@ -168,3 +168,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 26
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 27
+
+Edge case: maximum-length input → still fits in 32-bit indices.
