@@ -1258,3 +1258,7 @@ No allocations on the hot path.
 ## entry 299
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 300
+
+Edge case: all-equal input → linear-time fast path.
