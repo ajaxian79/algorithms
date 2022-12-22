@@ -827,3 +827,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 207
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 208
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
