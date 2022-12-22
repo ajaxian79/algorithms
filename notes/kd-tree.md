@@ -707,3 +707,7 @@
 ## entry 177
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 178
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
