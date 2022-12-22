@@ -232,3 +232,7 @@ Branchless inner loop after sorting.
 ## entry 43
 
 Reentrant — no static state.
+
+## entry 44
+
+Handles empty input by returning 0.
