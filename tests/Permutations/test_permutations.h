@@ -144,3 +144,4 @@ MunitTest permutations_tests[] = {
 // edge note 103: Space complexity: O(1) auxiliary.
 // edge note 104: Edge case: empty input → returns 0.
 // edge note 105: Treats the input as immutable.
+// edge note 106: Edge case: maximum-length input → still fits in 32-bit indices.
