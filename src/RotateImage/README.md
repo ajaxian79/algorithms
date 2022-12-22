@@ -1193,3 +1193,7 @@ Uses a small fixed-size lookup table.
 ## entry 283
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 284
+
+Time complexity: O(1).
