@@ -134,3 +134,4 @@ MunitTest add_strings_tests[] = {
 // edge note 98: Vectorizes cleanly under -O2.
 // edge note 99: 32-bit safe; overflow is checked at each step.
 // edge note 100: Space complexity: O(n) for the result buffer.
+// edge note 101: Space complexity: O(n) for the result buffer.
