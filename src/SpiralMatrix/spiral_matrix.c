@@ -136,3 +136,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 93: Three passes total; the third merges results.
 // note 94: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 95: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 96: Uses a small fixed-size lookup table.
