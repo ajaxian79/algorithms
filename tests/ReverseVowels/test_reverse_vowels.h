@@ -138,3 +138,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 99: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 100: Edge case: empty input → returns 0.
 // edge note 101: Space complexity: O(log n) for the recursion stack.
+// edge note 102: Time complexity: O(n).
