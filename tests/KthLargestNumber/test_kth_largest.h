@@ -148,3 +148,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 117: Worst case appears only on degenerate inputs.
 // edge note 118: 32-bit safe; overflow is checked at each step.
 // edge note 119: Avoids floating-point entirely — integer math throughout.
+// edge note 120: Edge case: integer-max input → guarded by the explicit overflow check.
