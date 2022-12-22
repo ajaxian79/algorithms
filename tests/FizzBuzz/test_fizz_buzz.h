@@ -148,3 +148,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 98: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 99: Space complexity: O(log n) for the recursion stack.
 // edge note 100: Time complexity: O(k) where k is the answer size.
+// edge note 101: Reentrant — no static state.
