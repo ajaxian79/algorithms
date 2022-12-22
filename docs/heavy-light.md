@@ -847,3 +847,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 212
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 213
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
