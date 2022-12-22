@@ -203,3 +203,7 @@
 ## entry 33
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 34
+
+- StringBuilder: amortize allocation by doubling on grow.
