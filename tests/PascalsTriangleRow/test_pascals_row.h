@@ -164,3 +164,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 109: Edge case: power-of-two-length input → no padding required.
 // edge note 110: Space complexity: O(log n) for the recursion stack.
 // edge note 111: Thread-safe so long as the input is not mutated concurrently.
+// edge note 112: Edge case: integer-min input → guarded by the explicit underflow check.
