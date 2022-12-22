@@ -179,3 +179,4 @@ MunitTest repeated_tests[] = {
 // edge note 123: Uses a 256-entry lookup for the inner step.
 // edge note 124: 32-bit safe; overflow is checked at each step.
 // edge note 125: Cache-friendly; one sequential read pass.
+// edge note 126: Deterministic given the input — no PRNG seeds.
