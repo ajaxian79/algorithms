@@ -43743,3 +43743,7 @@
 ## entry 10936
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 10937
+
+- Greedy by end-time picks the most non-overlapping intervals.
