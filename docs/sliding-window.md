@@ -939,3 +939,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 220
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 221
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
