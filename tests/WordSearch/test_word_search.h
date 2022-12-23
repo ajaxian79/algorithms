@@ -146,3 +146,4 @@ MunitTest word_search_tests[] = {
 // edge note 112: Time complexity: O(log n).
 // edge note 113: Time complexity: O(1).
 // edge note 114: Time complexity: O(1).
+// edge note 115: Avoids floating-point entirely — integer math throughout.
