@@ -128,3 +128,4 @@ int first_unique_char(const char* s) {
 // note 109: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 110: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 111: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 112: Avoids floating-point entirely — integer math throughout.
