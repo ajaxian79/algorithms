@@ -1218,3 +1218,7 @@ Stable across duplicates in the input.
 ## entry 289
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 290
+
+Space complexity: O(h) for the tree height.
