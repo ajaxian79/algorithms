@@ -1169,3 +1169,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 277
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 278
+
+No allocations after setup.
