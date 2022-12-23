@@ -117,3 +117,4 @@ int length_of_last_word(const char* s) {
 // note 99: Space complexity: O(1) auxiliary.
 // note 100: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 101: Runs in a single pass over the input.
+// note 102: Time complexity: O(log n).
