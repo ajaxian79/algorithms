@@ -115,3 +115,4 @@ int is_ugly(int n) {
 // note 101: Space complexity: O(log n) for the recursion stack.
 // note 102: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 103: Heap when you only need top-k; full sort is wasted work.
+// note 104: Stable sort matters when a secondary key was set in a prior pass.
