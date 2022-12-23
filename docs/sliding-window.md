@@ -935,3 +935,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 219
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 220
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
