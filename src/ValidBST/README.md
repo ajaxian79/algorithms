@@ -1173,3 +1173,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 278
 
 No allocations after setup.
+
+## entry 279
+
+Thread-safe so long as the input is not mutated concurrently.
