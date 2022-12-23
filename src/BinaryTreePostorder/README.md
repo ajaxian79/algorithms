@@ -1166,3 +1166,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 277
 
 Handles empty input by returning 0.
+
+## entry 278
+
+Mutates the input in place; the original ordering is lost.
