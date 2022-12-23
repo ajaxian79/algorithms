@@ -126,3 +126,4 @@ MunitTest find_difference_tests[] = {
 // edge note 101: Mutates the input in place; the original ordering is lost.
 // edge note 102: Returns a freshly allocated string the caller must free.
 // edge note 103: Space complexity: O(n) for the result buffer.
+// edge note 104: Time complexity: O(n).
