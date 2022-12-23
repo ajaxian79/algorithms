@@ -210,3 +210,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 38
 
 Constant-time comparisons; safe for short strings.
+
+## entry 39
+
+Edge case: alternating pattern → degenerate case for sliding window.
