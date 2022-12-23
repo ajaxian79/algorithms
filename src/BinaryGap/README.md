@@ -1226,3 +1226,7 @@ Space complexity: O(h) for the tree height.
 ## entry 291
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 292
+
+Edge case: already-sorted input → no swaps performed.
