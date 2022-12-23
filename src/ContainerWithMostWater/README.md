@@ -1167,3 +1167,7 @@ Two passes: one to count, one to fill.
 ## entry 277
 
 Handles single-element input as a base case.
+
+## entry 278
+
+Mutates the input in place; the original ordering is lost.
