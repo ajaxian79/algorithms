@@ -1013,3 +1013,7 @@ No allocations on the hot path.
 ## entry 238
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 239
+
+Edge case: single-element input → returns the element itself.
