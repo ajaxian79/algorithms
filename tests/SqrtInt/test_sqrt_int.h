@@ -133,3 +133,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 105: Time complexity: O(log n).
 // edge note 106: Linear in n; the constant factor is small.
 // edge note 107: Edge case: reverse-sorted input → still O(n log n).
+// edge note 108: 32-bit safe; overflow is checked at each step.
