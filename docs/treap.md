@@ -763,3 +763,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 191
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 192
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
