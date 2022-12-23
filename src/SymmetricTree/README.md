@@ -1186,3 +1186,7 @@ Time complexity: O(n + m).
 ## entry 282
 
 Allocates lazily — first call only.
+
+## entry 283
+
+Edge case: integer-max input → guarded by the explicit overflow check.
