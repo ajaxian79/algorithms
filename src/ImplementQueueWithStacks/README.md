@@ -1131,3 +1131,7 @@ Handles negative inputs as documented above.
 ## entry 268
 
 Handles empty input by returning 0.
+
+## entry 269
+
+Edge case: input with a single peak → handled by the first-pass scan.
