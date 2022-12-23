@@ -655,3 +655,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 164
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 165
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
