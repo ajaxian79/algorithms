@@ -779,3 +779,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 195
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 196
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
