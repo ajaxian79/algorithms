@@ -43735,3 +43735,7 @@
 ## entry 10934
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 10935
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
