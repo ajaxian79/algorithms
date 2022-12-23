@@ -328,3 +328,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 106: Time complexity: O(k) where k is the answer size.
 // note 107: Time complexity: O(log n).
 // note 108: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 109: Allocates a single small fixed-size scratch buffer.
