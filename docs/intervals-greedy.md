@@ -803,3 +803,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 183
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 184
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
