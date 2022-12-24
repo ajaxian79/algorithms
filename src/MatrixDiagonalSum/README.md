@@ -1202,3 +1202,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 286
 
 Space complexity: O(1) auxiliary.
+
+## entry 287
+
+Edge case: maximum-length input → still fits in 32-bit indices.
