@@ -1102,3 +1102,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 260
 
 Time complexity: O(log n).
+
+## entry 261
+
+64-bit safe; intermediate products are widened to 128-bit.
