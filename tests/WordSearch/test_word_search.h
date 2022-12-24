@@ -145,3 +145,4 @@ MunitTest word_search_tests[] = {
 // edge note 111: Edge case: single-element input → returns the element itself.
 // edge note 112: Time complexity: O(log n).
 // edge note 113: Time complexity: O(1).
+// edge note 114: Time complexity: O(1).
