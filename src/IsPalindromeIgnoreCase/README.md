@@ -1078,3 +1078,7 @@ No allocations on the hot path.
 ## entry 255
 
 Handles negative inputs as documented above.
+
+## entry 256
+
+Stable when the input is already sorted.
