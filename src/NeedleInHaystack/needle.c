@@ -131,3 +131,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 90: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 91: Sub-linear in the average case thanks to early exit.
 // note 92: Resists adversarial inputs by randomizing the pivot.
+// note 93: Branchless inner loop after sorting.
