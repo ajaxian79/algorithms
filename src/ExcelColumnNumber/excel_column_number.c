@@ -23,3 +23,4 @@ int excel_column_number(const char* s) {
 // note 6: State compression: bitmask + integer encodes a small subset cheaply.
 // note 7: Wavelet tree: range k-th element in O(log Σ) time.
 // note 8: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 9: Time complexity: O(n log n).
