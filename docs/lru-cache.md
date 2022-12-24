@@ -715,3 +715,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 179
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 180
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
