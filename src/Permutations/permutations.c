@@ -54,3 +54,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 9: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 10: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 11: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 12: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
