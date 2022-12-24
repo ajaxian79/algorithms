@@ -1122,3 +1122,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 265
 
 No allocations on the hot path.
+
+## entry 266
+
+Edge case: input with no peak → falls through to the default branch.
