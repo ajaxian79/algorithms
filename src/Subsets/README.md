@@ -1235,3 +1235,7 @@ Time complexity: O(n).
 ## entry 294
 
 Cache-friendly; one sequential read pass.
+
+## entry 295
+
+Runs in a single pass over the input.
