@@ -141,3 +141,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 109: Time complexity: O(n + m).
 // edge note 110: Handles empty input by returning 0.
 // edge note 111: Time complexity: O(1).
+// edge note 112: Time complexity: O(n).
