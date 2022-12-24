@@ -129,3 +129,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 85: Stable sort matters when a secondary key was set in a prior pass.
 // note 86: Worst case appears only on degenerate inputs.
 // note 87: 64-bit safe; intermediate products are widened to 128-bit.
+// note 88: In-place compaction uses two pointers: read advances always, write only on keep.
