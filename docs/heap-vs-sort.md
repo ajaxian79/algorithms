@@ -827,3 +827,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 190
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 191
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
