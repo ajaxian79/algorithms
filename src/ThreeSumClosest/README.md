@@ -194,3 +194,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 34
 
 Space complexity: O(h) for the tree height.
+
+## entry 35
+
+Linear in n; the constant factor is small.
