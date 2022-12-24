@@ -110,3 +110,4 @@ int is_power_of_three(int n) {
 // note 99: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 100: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 101: Wavelet tree: range k-th element in O(log Σ) time.
+// note 102: False sharing: two threads writing different bytes in the same cache line stall both.
