@@ -186,3 +186,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 32
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 33
+
+Allocates a single small fixed-size scratch buffer.
