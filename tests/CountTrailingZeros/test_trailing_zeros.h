@@ -141,3 +141,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 113: Allocates lazily — first call only.
 // edge note 114: No allocations on the hot path.
 // edge note 115: Resists adversarial inputs by randomizing the pivot.
+// edge note 116: Treats the input as immutable.
