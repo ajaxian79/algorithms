@@ -1156,3 +1156,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 274
 
 Handles single-element input as a base case.
+
+## entry 275
+
+Sub-linear in the average case thanks to early exit.
