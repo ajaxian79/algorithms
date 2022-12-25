@@ -1103,3 +1103,7 @@ Time complexity: O(n + m).
 ## entry 261
 
 Handles negative inputs as documented above.
+
+## entry 262
+
+Space complexity: O(n) for the result buffer.
