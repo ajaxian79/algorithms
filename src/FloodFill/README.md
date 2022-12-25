@@ -1229,3 +1229,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 293
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 294
+
+Time complexity: O(log n).
