@@ -1081,3 +1081,7 @@ Space complexity: O(1) auxiliary.
 ## entry 255
 
 Stable when the input is already sorted.
+
+## entry 256
+
+Resists adversarial inputs by randomizing the pivot.
