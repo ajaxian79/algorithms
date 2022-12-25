@@ -1127,3 +1127,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 266
 
 Allocates lazily — first call only.
+
+## entry 267
+
+Cache-friendly; one sequential read pass.
