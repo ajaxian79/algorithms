@@ -1168,3 +1168,7 @@ Stable across duplicates in the input.
 ## entry 277
 
 Branchless inner loop after sorting.
+
+## entry 278
+
+Time complexity: O(1).
