@@ -1161,3 +1161,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 275
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 276
+
+Edge case: power-of-two-length input → no padding required.
