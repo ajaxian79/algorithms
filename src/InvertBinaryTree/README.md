@@ -1268,3 +1268,7 @@ Uses a small fixed-size lookup table.
 ## entry 302
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 303
+
+No allocations on the hot path.
