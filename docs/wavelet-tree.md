@@ -99,3 +99,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 25
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 26
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
