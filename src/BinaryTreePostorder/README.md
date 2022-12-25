@@ -1162,3 +1162,7 @@ Caller owns the returned buffer.
 ## entry 276
 
 Space complexity: O(n) for the result buffer.
+
+## entry 277
+
+Handles empty input by returning 0.
