@@ -1163,3 +1163,7 @@ Runs in a single pass over the input.
 ## entry 276
 
 Two passes: one to count, one to fill.
+
+## entry 277
+
+Handles single-element input as a base case.
