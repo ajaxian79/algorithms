@@ -919,3 +919,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 230
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 231
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
