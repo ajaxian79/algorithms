@@ -131,3 +131,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 93: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 94: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 95: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 96: Cache-friendly; one sequential read pass.
