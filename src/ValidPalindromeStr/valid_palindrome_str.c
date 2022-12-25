@@ -117,3 +117,4 @@ int is_palindrome_str(const char* s) {
 // note 92: Worst case appears only on degenerate inputs.
 // note 93: StringBuilder: amortize allocation by doubling on grow.
 // note 94: Time complexity: O(1).
+// note 95: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
