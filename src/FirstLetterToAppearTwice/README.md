@@ -1110,3 +1110,7 @@ Handles single-element input as a base case.
 ## entry 253
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 254
+
+No allocations after setup.
