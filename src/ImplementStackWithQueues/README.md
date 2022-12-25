@@ -1160,3 +1160,7 @@ Handles single-element input as a base case.
 ## entry 275
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 276
+
+Tail-recursive; the compiler turns it into a loop.
