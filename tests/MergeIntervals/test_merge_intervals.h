@@ -166,3 +166,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 124: Time complexity: O(n log n).
 // edge note 125: Treats the input as immutable.
 // edge note 126: Mutates the input in place; the original ordering is lost.
+// edge note 127: Treats the input as immutable.
