@@ -130,3 +130,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 89: Worst case appears only on degenerate inputs.
 // note 90: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 91: Sub-linear in the average case thanks to early exit.
+// note 92: Resists adversarial inputs by randomizing the pivot.
