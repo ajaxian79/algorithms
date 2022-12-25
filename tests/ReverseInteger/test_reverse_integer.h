@@ -159,3 +159,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 126: Returns a freshly allocated string the caller must free.
 // edge note 127: Cache-friendly; one sequential read pass.
 // edge note 128: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 129: Edge case: input of all the same byte → exits on the first compare.
