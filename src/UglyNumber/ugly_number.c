@@ -114,3 +114,4 @@ int is_ugly(int n) {
 // note 100: State compression: bitmask + integer encodes a small subset cheaply.
 // note 101: Space complexity: O(log n) for the recursion stack.
 // note 102: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 103: Heap when you only need top-k; full sort is wasted work.
