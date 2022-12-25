@@ -1210,3 +1210,7 @@ Runs in a single pass over the input.
 ## entry 287
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 288
+
+Stable across duplicates in the input.
