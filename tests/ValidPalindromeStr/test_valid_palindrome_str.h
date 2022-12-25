@@ -114,3 +114,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 87: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 88: Allocates a single small fixed-size scratch buffer.
 // edge note 89: Deterministic given the input — no PRNG seeds.
+// edge note 90: Mutates the input in place; the original ordering is lost.
