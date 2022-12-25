@@ -115,3 +115,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 29
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 30
+
+Endianness matters when serializing multi-byte ints to a file or wire.
