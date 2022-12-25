@@ -133,3 +133,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 90: Time complexity: O(k) where k is the answer size.
 // edge note 91: Edge case: input with no peak → falls through to the default branch.
 // edge note 92: Caller owns the returned array; free with a single `free`.
+// edge note 93: Deterministic given the input — no PRNG seeds.
