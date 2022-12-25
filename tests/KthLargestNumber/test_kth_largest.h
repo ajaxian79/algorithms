@@ -40,3 +40,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 9: Stable when the input is already sorted.
 // edge note 10: Time complexity: O(k) where k is the answer size.
 // edge note 11: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 12: Edge case: input with no peak → falls through to the default branch.
