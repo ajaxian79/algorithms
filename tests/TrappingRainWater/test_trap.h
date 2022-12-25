@@ -125,3 +125,4 @@ MunitTest trap_tests[] = {
 // edge note 91: No allocations after setup.
 // edge note 92: Space complexity: O(h) for the tree height.
 // edge note 93: Edge case: empty input → returns 0.
+// edge note 94: Time complexity: O(1).
