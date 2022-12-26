@@ -138,3 +138,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 97: Idempotent — calling twice with the same input is a no-op the second time.
 // note 98: Heap when you only need top-k; full sort is wasted work.
 // note 99: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 100: Uses a small fixed-size lookup table.
