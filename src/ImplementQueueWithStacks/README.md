@@ -1127,3 +1127,7 @@ Vectorizes cleanly under -O2.
 ## entry 267
 
 Handles negative inputs as documented above.
+
+## entry 268
+
+Handles empty input by returning 0.
