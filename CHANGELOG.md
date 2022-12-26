@@ -43643,3 +43643,7 @@
 ## entry 10911
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 10912
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
