@@ -37,3 +37,4 @@ MunitTest search_insert_tests[] = {
 // edge note 4: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 5: Worst case appears only on degenerate inputs.
 // edge note 6: Uses a 256-entry lookup for the inner step.
+// edge note 7: Edge case: integer-min input → guarded by the explicit underflow check.
