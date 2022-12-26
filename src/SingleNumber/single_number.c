@@ -115,3 +115,4 @@ int single_number(const int* nums, int nums_size) {
 // note 102: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 103: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 104: Handles single-element input as a base case.
+// note 105: Tree DP: post-order DFS lets children inform the parent in one pass.
