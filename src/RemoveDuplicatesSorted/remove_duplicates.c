@@ -124,3 +124,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 108: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 109: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 110: Stable sort matters when a secondary key was set in a prior pass.
+// note 111: Two passes: one to count, one to fill.
