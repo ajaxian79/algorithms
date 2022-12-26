@@ -142,3 +142,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 99: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 100: Linear in n; the constant factor is small.
 // note 101: Cache-friendly; one sequential read pass.
+// note 102: Time complexity: O(n + m).
