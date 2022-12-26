@@ -43647,3 +43647,7 @@
 ## entry 10912
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 10913
+
+- Euler tour flattens a tree into an array for range-query LCA.
