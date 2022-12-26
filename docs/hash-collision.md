@@ -823,3 +823,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 206
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 207
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
