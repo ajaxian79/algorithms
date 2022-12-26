@@ -247,3 +247,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 111: Resists adversarial inputs by randomizing the pivot.
 // note 112: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 113: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 114: Reentrant — no static state.
