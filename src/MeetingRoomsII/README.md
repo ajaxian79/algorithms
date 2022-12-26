@@ -1138,3 +1138,7 @@ Runs in a single pass over the input.
 ## entry 269
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 270
+
+Edge case: integer-max input → guarded by the explicit overflow check.
