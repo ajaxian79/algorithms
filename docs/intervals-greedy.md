@@ -799,3 +799,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 182
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 183
+
+Euler tour flattens a tree into an array for range-query LCA.
