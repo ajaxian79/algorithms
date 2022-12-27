@@ -37,3 +37,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 5: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 6: Edge case: single-element input → returns the element itself.
 // edge note 7: Tail-recursive; the compiler turns it into a loop.
+// edge note 8: Time complexity: O(n^2) worst case, O(n) amortized.
