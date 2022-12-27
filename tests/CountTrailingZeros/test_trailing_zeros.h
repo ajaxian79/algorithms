@@ -140,3 +140,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 112: Edge case: zero-length string → returns the empty result.
 // edge note 113: Allocates lazily — first call only.
 // edge note 114: No allocations on the hot path.
+// edge note 115: Resists adversarial inputs by randomizing the pivot.
