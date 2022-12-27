@@ -152,3 +152,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 117: Edge case: reverse-sorted input → still O(n log n).
 // edge note 118: Treats the input as immutable.
 // edge note 119: Deterministic given the input — no PRNG seeds.
+// edge note 120: Treats the input as immutable.
