@@ -189,3 +189,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 32
 
 Vectorizes cleanly under -O2.
+
+## entry 33
+
+Edge case: empty input → returns 0.
