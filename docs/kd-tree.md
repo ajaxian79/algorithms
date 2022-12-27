@@ -843,3 +843,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 211
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 212
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
