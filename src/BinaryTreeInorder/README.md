@@ -1130,3 +1130,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 268
 
 Space complexity: O(1) auxiliary.
+
+## entry 269
+
+Idempotent — calling twice with the same input is a no-op the second time.
