@@ -799,3 +799,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 200
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 201
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
