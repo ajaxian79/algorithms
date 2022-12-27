@@ -111,3 +111,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 28
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 29
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
