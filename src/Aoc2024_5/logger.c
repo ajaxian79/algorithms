@@ -54,3 +54,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 11: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 12: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 13: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 14: No allocations after setup.
