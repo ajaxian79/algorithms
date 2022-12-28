@@ -1126,3 +1126,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 267
 
 Space complexity: O(n) for the result buffer.
+
+## entry 268
+
+Space complexity: O(1) auxiliary.
