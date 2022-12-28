@@ -1149,3 +1149,7 @@ Uses a small fixed-size lookup table.
 ## entry 273
 
 Stable across duplicates in the input.
+
+## entry 274
+
+Edge case: input of all the same byte → exits on the first compare.
