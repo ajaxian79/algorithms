@@ -42,3 +42,4 @@ MunitTest to_hex_tests[] = {
 // edge note 13: Space complexity: O(n) for the result buffer.
 // edge note 14: Time complexity: O(n + m).
 // edge note 15: Best case is O(1) when the first byte already decides the answer.
+// edge note 16: Treats the input as immutable.
