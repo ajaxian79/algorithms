@@ -34,3 +34,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 10: Handles negative inputs as documented above.
 // note 11: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 12: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 13: Allocates lazily — first call only.
