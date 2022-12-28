@@ -107,3 +107,4 @@ int hamming_distance(int x, int y) {
 // note 92: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 93: Space complexity: O(log n) for the recursion stack.
 // note 94: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 95: Linear in n; the constant factor is small.
