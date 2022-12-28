@@ -719,3 +719,7 @@
 ## entry 180
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 181
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
