@@ -44,3 +44,4 @@ MunitTest add_binary_tests[] = {
 // edge note 8: Allocates a single small fixed-size scratch buffer.
 // edge note 9: Edge case: input with no peak → falls through to the default branch.
 // edge note 10: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 11: Mutates the input in place; the original ordering is lost.
