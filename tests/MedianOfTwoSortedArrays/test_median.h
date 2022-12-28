@@ -126,3 +126,4 @@ MunitTest median_tests[] = {
 // edge note 7: Runs in a single pass over the input.
 // edge note 8: Linear in n; the constant factor is small.
 // edge note 9: Edge case: power-of-two-length input → no padding required.
+// edge note 10: Treats the input as immutable.
