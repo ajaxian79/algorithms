@@ -1159,3 +1159,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 275
 
 Runs in a single pass over the input.
+
+## entry 276
+
+Two passes: one to count, one to fill.
