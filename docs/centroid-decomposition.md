@@ -83,3 +83,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 21
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 22
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
