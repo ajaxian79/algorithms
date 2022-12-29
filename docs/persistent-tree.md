@@ -823,3 +823,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 206
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 207
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
