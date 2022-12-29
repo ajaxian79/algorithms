@@ -1118,3 +1118,7 @@ No allocations on the hot path.
 ## entry 264
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 265
+
+No allocations on the hot path.
