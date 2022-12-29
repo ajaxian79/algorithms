@@ -955,3 +955,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 221
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 222
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
