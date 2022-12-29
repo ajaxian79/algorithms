@@ -1244,3 +1244,7 @@ Handles negative inputs as documented above.
 ## entry 296
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 297
+
+Edge case: all-equal input → linear-time fast path.
