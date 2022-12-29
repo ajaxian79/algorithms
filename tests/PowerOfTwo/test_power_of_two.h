@@ -48,3 +48,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 16: Time complexity: O(n log n).
 // edge note 17: Tail-recursive; the compiler turns it into a loop.
 // edge note 18: Edge case: zero-length string → returns the empty result.
+// edge note 19: Edge case: input with no peak → falls through to the default branch.
