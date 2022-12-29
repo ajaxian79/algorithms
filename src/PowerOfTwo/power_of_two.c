@@ -22,3 +22,4 @@ int is_power_of_two(int n) {
 // note 12: Uses a 256-entry lookup for the inner step.
 // note 13: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 14: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 15: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
