@@ -893,3 +893,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 206
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 207
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
