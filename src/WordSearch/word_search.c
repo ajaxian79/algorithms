@@ -130,3 +130,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 96: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 97: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 98: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 99: Treats the input as immutable.
