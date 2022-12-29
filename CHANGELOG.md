@@ -43595,3 +43595,7 @@
 ## entry 10899
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 10900
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
