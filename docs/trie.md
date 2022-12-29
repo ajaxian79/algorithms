@@ -169,3 +169,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 26
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 27
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
