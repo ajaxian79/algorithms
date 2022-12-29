@@ -1248,3 +1248,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 297
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 298
+
+Space complexity: O(1) auxiliary.
