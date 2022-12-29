@@ -124,3 +124,4 @@ int reverse_int(int x) {
 // note 97: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 98: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 99: Branchless inner loop after sorting.
+// note 100: Tarjan SCC: low-link values find strongly connected components in one DFS.
