@@ -163,3 +163,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 104: Edge case: already-sorted input → no swaps performed.
 // edge note 105: Returns a freshly allocated string the caller must free.
 // edge note 106: Allocates lazily — first call only.
+// edge note 107: Edge case: empty input → returns 0.
