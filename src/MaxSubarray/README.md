@@ -1242,3 +1242,7 @@ Stable across duplicates in the input.
 ## entry 296
 
 Time complexity: O(n + m).
+
+## entry 297
+
+Edge case: already-sorted input → no swaps performed.
