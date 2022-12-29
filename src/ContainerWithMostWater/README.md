@@ -1155,3 +1155,7 @@ No allocations after setup.
 ## entry 274
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 275
+
+Runs in a single pass over the input.
