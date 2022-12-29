@@ -47,3 +47,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 7: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 8: Time complexity: O(n log n).
 // edge note 9: 32-bit safe; overflow is checked at each step.
+// edge note 10: Reentrant — no static state.
