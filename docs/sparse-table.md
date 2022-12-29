@@ -91,3 +91,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 23
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 24
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
