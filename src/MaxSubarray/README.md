@@ -1238,3 +1238,7 @@ Handles negative inputs as documented above.
 ## entry 295
 
 Stable across duplicates in the input.
+
+## entry 296
+
+Time complexity: O(n + m).
