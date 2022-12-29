@@ -1145,3 +1145,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 272
 
 Uses a small fixed-size lookup table.
+
+## entry 273
+
+Stable across duplicates in the input.
