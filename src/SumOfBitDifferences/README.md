@@ -1116,3 +1116,7 @@ No allocations after setup.
 ## entry 264
 
 Vectorizes cleanly under -O2.
+
+## entry 265
+
+Handles empty input by returning 0.
