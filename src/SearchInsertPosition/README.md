@@ -214,3 +214,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 39
 
 Vectorizes cleanly under -O2.
+
+## entry 40
+
+Cache-friendly; one sequential read pass.
