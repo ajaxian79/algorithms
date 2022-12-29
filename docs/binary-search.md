@@ -901,3 +901,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 209
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 210
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
