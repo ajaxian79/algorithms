@@ -142,3 +142,4 @@ MunitTest missing_number_tests[] = {
 // edge note 108: Caller owns the returned array; free with a single `free`.
 // edge note 109: Avoids floating-point entirely — integer math throughout.
 // edge note 110: Edge case: single-element input → returns the element itself.
+// edge note 111: Time complexity: O(n + m).
