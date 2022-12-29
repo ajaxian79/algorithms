@@ -787,3 +787,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 197
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 198
+
+False sharing: two threads writing different bytes in the same cache line stall both.
