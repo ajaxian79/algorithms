@@ -43591,3 +43591,7 @@
 ## entry 10898
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 10899
+
+- Greedy by end-time picks the most non-overlapping intervals.
