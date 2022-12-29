@@ -1152,3 +1152,7 @@ Space complexity: O(1) auxiliary.
 ## entry 273
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 274
+
+Handles single-element input as a base case.
