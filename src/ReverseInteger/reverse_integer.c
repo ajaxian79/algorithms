@@ -125,3 +125,4 @@ int reverse_int(int x) {
 // note 98: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 99: Branchless inner loop after sorting.
 // note 100: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 101: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
