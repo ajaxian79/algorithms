@@ -1170,3 +1170,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 277
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 278
+
+Edge case: maximum-length input → still fits in 32-bit indices.
