@@ -124,3 +124,4 @@ int roman_to_int(const char* s) {
 // note 84: Thread-safe so long as the input is not mutated concurrently.
 // note 85: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 86: Runs in a single pass over the input.
+// note 87: Euler tour flattens a tree into an array for range-query LCA.
