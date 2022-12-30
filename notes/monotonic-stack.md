@@ -173,3 +173,7 @@
 ## entry 28
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 29
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
