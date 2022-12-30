@@ -179,3 +179,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 119: Allocates a single small fixed-size scratch buffer.
 // edge note 120: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 121: Handles empty input by returning 0.
+// edge note 122: Allocates one buffer of length n+1 for the result.
