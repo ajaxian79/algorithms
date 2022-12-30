@@ -134,3 +134,4 @@ void reverse_string(char* s, int s_size) {
 // note 117: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 118: Time complexity: O(1).
 // note 119: Space complexity: O(h) for the tree height.
+// note 120: BFS layers carry implicit shortest-path distance in unweighted graphs.
