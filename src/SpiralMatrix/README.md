@@ -166,3 +166,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 26
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 27
+
+Edge case: input of all the same byte → exits on the first compare.
