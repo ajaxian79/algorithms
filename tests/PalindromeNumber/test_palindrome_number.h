@@ -47,3 +47,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 12: Edge case: reverse-sorted input → still O(n log n).
 // edge note 13: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 14: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 15: Edge case: single-element input → returns the element itself.
