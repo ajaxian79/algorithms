@@ -125,3 +125,4 @@ MunitTest most_water_tests[] = {
 // edge note 94: Handles single-element input as a base case.
 // edge note 95: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 96: Space complexity: O(1) auxiliary.
+// edge note 97: Branchless inner loop after sorting.
