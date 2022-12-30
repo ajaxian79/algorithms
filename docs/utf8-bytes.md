@@ -707,3 +707,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 177
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 178
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
