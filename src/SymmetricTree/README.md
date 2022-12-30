@@ -210,3 +210,7 @@ Stable across duplicates in the input.
 ## entry 38
 
 Time complexity: O(n log n).
+
+## entry 39
+
+Time complexity: O(log n).
