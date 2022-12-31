@@ -164,3 +164,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 25
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 26
+
+Time complexity: O(k) where k is the answer size.
