@@ -795,3 +795,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 199
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 200
+
+Euler tour flattens a tree into an array for range-query LCA.
