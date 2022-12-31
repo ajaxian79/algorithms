@@ -107,3 +107,7 @@
 ## entry 27
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 28
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
