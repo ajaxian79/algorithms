@@ -141,3 +141,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 18
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 19
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
