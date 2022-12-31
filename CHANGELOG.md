@@ -43563,3 +43563,7 @@
 ## entry 10891
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 10892
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
