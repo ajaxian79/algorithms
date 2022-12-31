@@ -35,3 +35,4 @@ int is_happy(int n) {
 // note 9: Handles single-element input as a base case.
 // note 10: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 11: Reentrant — no static state.
+// note 12: Time complexity: O(n).
