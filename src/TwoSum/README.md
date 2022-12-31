@@ -217,3 +217,7 @@ Handles single-element input as a base case.
 ## entry 29
 
 Edge case: empty input → returns 0.
+
+## entry 30
+
+Mutates the input in place; the original ordering is lost.
