@@ -1218,3 +1218,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 290
 
 No allocations on the hot path.
+
+## entry 291
+
+Space complexity: O(1) auxiliary.
