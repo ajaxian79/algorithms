@@ -783,3 +783,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 196
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 197
+
+Walk both pointers from each end inward; advance the smaller side.
