@@ -1206,3 +1206,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 287
 
 Time complexity: O(1).
+
+## entry 288
+
+Time complexity: O(1).
