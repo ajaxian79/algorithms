@@ -1157,3 +1157,7 @@ Three passes total; the third merges results.
 ## entry 274
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 275
+
+Allocates a single small fixed-size scratch buffer.
