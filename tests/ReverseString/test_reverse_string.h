@@ -48,3 +48,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 10: Cache-friendly; one sequential read pass.
 // edge note 11: Two passes: one to count, one to fill.
 // edge note 12: Tail-recursive; the compiler turns it into a loop.
+// edge note 13: Edge case: single-element input → returns the element itself.
