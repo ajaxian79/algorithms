@@ -171,3 +171,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 27
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 28
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
