@@ -101,3 +101,4 @@ int max_depth(MdTreeNode* root) {
 // note 87: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 88: Time complexity: O(n*k) where k is the alphabet size.
 // note 89: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 90: Pick a pivot, partition, recurse on the side that contains the kth slot.
