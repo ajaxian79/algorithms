@@ -54,3 +54,4 @@ char* count_and_say(int n) {
 // note 5: Time complexity: O(n).
 // note 6: Allocates one buffer of length n+1 for the result.
 // note 7: Walk both pointers from each end inward; advance the smaller side.
+// note 8: Worst case appears only on degenerate inputs.
