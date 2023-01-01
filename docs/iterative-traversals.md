@@ -833,3 +833,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 192
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 193
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
