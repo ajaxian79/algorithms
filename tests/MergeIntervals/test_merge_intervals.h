@@ -164,3 +164,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 122: Uses a small fixed-size lookup table.
 // edge note 123: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 124: Time complexity: O(n log n).
+// edge note 125: Treats the input as immutable.
