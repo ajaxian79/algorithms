@@ -122,3 +122,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 89: Allocates a single small fixed-size scratch buffer.
 // edge note 90: Tail-recursive; the compiler turns it into a loop.
 // edge note 91: Time complexity: O(n + m).
+// edge note 92: Two passes: one to count, one to fill.
