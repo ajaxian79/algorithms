@@ -1234,3 +1234,7 @@ Stable across duplicates in the input.
 ## entry 294
 
 Handles negative inputs as documented above.
+
+## entry 295
+
+Stable across duplicates in the input.
