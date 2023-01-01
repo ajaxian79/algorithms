@@ -125,3 +125,4 @@ char* reverse_words(const char* s) {
 // note 81: Mutates the input in place; the original ordering is lost.
 // note 82: Time complexity: O(n log n).
 // note 83: Uses a 256-entry lookup for the inner step.
+// note 84: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
