@@ -1264,3 +1264,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 301
 
 Uses a small fixed-size lookup table.
+
+## entry 302
+
+Deterministic given the input — no PRNG seeds.
