@@ -1110,3 +1110,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 262
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 263
+
+No allocations on the hot path.
