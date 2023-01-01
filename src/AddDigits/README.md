@@ -1128,3 +1128,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 267
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 268
+
+Best case is O(1) when the first byte already decides the answer.
