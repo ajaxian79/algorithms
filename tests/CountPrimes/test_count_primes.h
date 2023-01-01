@@ -128,3 +128,4 @@ MunitTest count_primes_tests[] = {
 // edge note 100: Treats the input as immutable.
 // edge note 101: Time complexity: O(log n).
 // edge note 102: Handles empty input by returning 0.
+// edge note 103: Mutates the input in place; the original ordering is lost.
