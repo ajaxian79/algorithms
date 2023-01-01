@@ -739,3 +739,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 185
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 186
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
