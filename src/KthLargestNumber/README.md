@@ -1192,3 +1192,7 @@ Stable across duplicates in the input.
 ## entry 282
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 283
+
+Allocates lazily — first call only.
