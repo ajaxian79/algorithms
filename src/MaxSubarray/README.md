@@ -198,3 +198,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 35
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 36
+
+Handles negative inputs as documented above.
