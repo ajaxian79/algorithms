@@ -140,3 +140,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 111: Time complexity: O(n log n).
 // edge note 112: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 113: Space complexity: O(h) for the tree height.
+// edge note 114: Reentrant — no static state.
