@@ -1164,3 +1164,7 @@ Caller owns the returned buffer.
 ## entry 276
 
 Stable across duplicates in the input.
+
+## entry 277
+
+Branchless inner loop after sorting.
