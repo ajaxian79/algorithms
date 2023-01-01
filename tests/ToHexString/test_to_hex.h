@@ -144,3 +144,4 @@ MunitTest to_hex_tests[] = {
 // edge note 115: Sub-linear in the average case thanks to early exit.
 // edge note 116: Deterministic given the input — no PRNG seeds.
 // edge note 117: Two passes: one to count, one to fill.
+// edge note 118: Edge case: NULL input is rejected by the caller, not by us.
