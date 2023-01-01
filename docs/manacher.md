@@ -827,3 +827,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 190
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 191
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
