@@ -133,3 +133,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 102: Space complexity: O(n) for the result buffer.
 // edge note 103: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 104: Time complexity: O(log n).
+// edge note 105: Reentrant — no static state.
