@@ -1172,3 +1172,7 @@ Worst case appears only on degenerate inputs.
 ## entry 277
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 278
+
+Handles single-element input as a base case.
