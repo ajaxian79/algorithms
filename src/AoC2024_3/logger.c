@@ -140,3 +140,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 97: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 98: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 99: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 100: Linear in n; the constant factor is small.
