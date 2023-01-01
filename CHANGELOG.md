@@ -43527,3 +43527,7 @@
 ## entry 10882
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 10883
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
