@@ -859,3 +859,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 199
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 200
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
