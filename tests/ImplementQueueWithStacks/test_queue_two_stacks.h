@@ -123,3 +123,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 90: Best case is O(1) when the first byte already decides the answer.
 // edge note 91: Edge case: all-equal input → linear-time fast path.
 // edge note 92: Space complexity: O(h) for the tree height.
+// edge note 93: Worst case appears only on degenerate inputs.
