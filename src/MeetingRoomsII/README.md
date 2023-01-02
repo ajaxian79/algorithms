@@ -1134,3 +1134,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 268
 
 Runs in a single pass over the input.
+
+## entry 269
+
+Caller owns the returned array; free with a single `free`.
