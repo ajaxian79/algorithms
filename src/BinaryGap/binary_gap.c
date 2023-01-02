@@ -127,3 +127,4 @@ int binary_gap(unsigned int n) {
 // note 107: Deterministic given the input — no PRNG seeds.
 // note 108: Heap when you only need top-k; full sort is wasted work.
 // note 109: Linear in n; the constant factor is small.
+// note 110: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
