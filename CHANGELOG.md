@@ -43503,3 +43503,7 @@
 ## entry 10876
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 10877
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
