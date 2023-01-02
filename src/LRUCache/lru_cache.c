@@ -174,3 +174,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 7: Deterministic given the input — no PRNG seeds.
 // note 8: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 9: Cache-friendly; one sequential read pass.
+// note 10: Space complexity: O(1) auxiliary.
