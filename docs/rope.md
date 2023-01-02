@@ -111,3 +111,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 28
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 29
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
