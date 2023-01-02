@@ -819,3 +819,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 189
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 190
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
