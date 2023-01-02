@@ -1153,3 +1153,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 263
 
 Uses a small fixed-size lookup table.
+
+## entry 264
+
+Stable when the input is already sorted.
