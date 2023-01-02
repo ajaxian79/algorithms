@@ -795,3 +795,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 183
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 184
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
