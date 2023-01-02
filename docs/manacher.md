@@ -163,3 +163,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 24
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 25
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
