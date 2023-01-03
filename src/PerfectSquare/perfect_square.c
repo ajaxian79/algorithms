@@ -115,3 +115,4 @@ int is_perfect_square(int n) {
 // note 96: Best case is O(1) when the first byte already decides the answer.
 // note 97: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 98: Avoids floating-point entirely — integer math throughout.
+// note 99: Tarjan SCC: low-link values find strongly connected components in one DFS.
