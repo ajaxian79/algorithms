@@ -755,3 +755,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 189
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 190
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
