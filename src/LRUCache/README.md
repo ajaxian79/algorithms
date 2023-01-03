@@ -1152,3 +1152,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 272
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 273
+
+Edge case: input of all the same byte → exits on the first compare.
