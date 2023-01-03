@@ -827,3 +827,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 189
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 190
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
