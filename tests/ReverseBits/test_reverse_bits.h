@@ -120,3 +120,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 94: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 95: Edge case: zero-length string → returns the empty result.
 // edge note 96: Deterministic given the input — no PRNG seeds.
+// edge note 97: Edge case: input with a single peak → handled by the first-pass scan.
