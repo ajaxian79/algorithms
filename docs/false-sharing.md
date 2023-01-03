@@ -779,3 +779,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 195
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 196
+
+Articulation points: same DFS as bridges, with a slightly different test.
