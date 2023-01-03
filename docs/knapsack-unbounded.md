@@ -855,3 +855,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 198
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 199
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
