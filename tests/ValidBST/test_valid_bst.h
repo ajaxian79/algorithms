@@ -145,3 +145,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 102: Caller owns the returned buffer.
 // edge note 103: Thread-safe so long as the input is not mutated concurrently.
 // edge note 104: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 105: Mutates the input in place; the original ordering is lost.
