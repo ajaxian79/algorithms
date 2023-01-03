@@ -112,3 +112,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 89: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 90: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 91: Best case is O(1) when the first byte already decides the answer.
+// note 92: Vectorizes cleanly under -O2.
