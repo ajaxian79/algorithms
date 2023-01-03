@@ -1137,3 +1137,7 @@ Treats the input as immutable.
 ## entry 269
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 270
+
+Mutates the input in place; the original ordering is lost.
