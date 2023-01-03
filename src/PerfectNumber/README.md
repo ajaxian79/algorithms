@@ -165,3 +165,7 @@ Reentrant — no static state.
 ## entry 26
 
 Treats the input as immutable.
+
+## entry 27
+
+Worst case appears only on degenerate inputs.
