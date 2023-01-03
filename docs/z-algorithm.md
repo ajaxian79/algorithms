@@ -123,3 +123,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 15
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 16
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
