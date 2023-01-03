@@ -827,3 +827,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 192
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 193
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
