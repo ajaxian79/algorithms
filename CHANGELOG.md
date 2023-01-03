@@ -43475,3 +43475,7 @@
 ## entry 10869
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 10870
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
