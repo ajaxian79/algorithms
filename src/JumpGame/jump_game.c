@@ -109,3 +109,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 93: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 94: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 95: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 96: Allocates one buffer of length n+1 for the result.
