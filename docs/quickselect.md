@@ -889,3 +889,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 205
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 206
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
