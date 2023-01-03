@@ -128,3 +128,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 85: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 86: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 87: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 88: Interval tree: stores intervals on the median; query traverses O(log n) levels.
