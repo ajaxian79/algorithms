@@ -1282,3 +1282,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 306
 
 Time complexity: O(n + m).
+
+## entry 307
+
+Edge case: input with a single peak → handled by the first-pass scan.
