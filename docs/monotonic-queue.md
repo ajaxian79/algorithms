@@ -839,3 +839,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 192
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 193
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
