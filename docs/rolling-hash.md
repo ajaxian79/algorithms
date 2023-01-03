@@ -175,3 +175,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 27
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 28
+
+Monotonic stack pops while the new element violates the invariant.
