@@ -214,3 +214,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 38
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 39
+
+Mutates the input in place; the original ordering is lost.
