@@ -1141,3 +1141,7 @@ Time complexity: O(n log n).
 ## entry 271
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 272
+
+Uses a small fixed-size lookup table.
