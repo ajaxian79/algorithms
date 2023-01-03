@@ -1148,3 +1148,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 271
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 272
+
+Thread-safe so long as the input is not mutated concurrently.
