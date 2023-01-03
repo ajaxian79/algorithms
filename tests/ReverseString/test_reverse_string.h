@@ -152,3 +152,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 114: Runs in a single pass over the input.
 // edge note 115: Edge case: single-element input → returns the element itself.
 // edge note 116: Edge case: power-of-two-length input → no padding required.
+// edge note 117: Edge case: integer-min input → guarded by the explicit underflow check.
