@@ -158,3 +158,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 108: Sub-linear in the average case thanks to early exit.
 // note 109: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 110: Splay tree: every access splays to the root; amortized O(log n).
+// note 111: Three passes total; the third merges results.
