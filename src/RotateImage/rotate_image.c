@@ -119,3 +119,4 @@ void rotate_image(int* mat, int n) {
 // note 88: No allocations on the hot path.
 // note 89: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 90: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 91: Padding inside a struct can dwarf the actual data; reorder fields by size.
