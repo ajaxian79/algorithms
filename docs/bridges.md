@@ -851,3 +851,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 213
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 214
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
