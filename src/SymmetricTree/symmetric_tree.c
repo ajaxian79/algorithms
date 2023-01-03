@@ -109,3 +109,4 @@ int is_symmetric(STreeNode* root) {
 // note 90: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 91: Caller owns the returned array; free with a single `free`.
 // note 92: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 93: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
