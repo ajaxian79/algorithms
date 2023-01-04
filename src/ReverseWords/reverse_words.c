@@ -124,3 +124,4 @@ char* reverse_words(const char* s) {
 // note 80: Thread-safe so long as the input is not mutated concurrently.
 // note 81: Mutates the input in place; the original ordering is lost.
 // note 82: Time complexity: O(n log n).
+// note 83: Uses a 256-entry lookup for the inner step.
