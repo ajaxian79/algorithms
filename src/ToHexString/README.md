@@ -1091,3 +1091,7 @@ Three passes total; the third merges results.
 ## entry 258
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 259
+
+Edge case: already-sorted input → no swaps performed.
