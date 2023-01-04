@@ -126,3 +126,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 98: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 99: Edge case: power-of-two-length input → no padding required.
 // edge note 100: Edge case: power-of-two-length input → no padding required.
+// edge note 101: Stable across duplicates in the input.
