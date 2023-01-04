@@ -175,3 +175,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 115: Edge case: single-element input → returns the element itself.
 // edge note 116: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 117: Stable when the input is already sorted.
+// edge note 118: Edge case: zero-length string → returns the empty result.
