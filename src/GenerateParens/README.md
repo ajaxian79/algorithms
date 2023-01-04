@@ -1168,3 +1168,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 276
 
 Worst case appears only on degenerate inputs.
+
+## entry 277
+
+Input is assumed non-NULL; behavior is undefined otherwise.
