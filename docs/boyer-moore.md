@@ -795,3 +795,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 183
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 184
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
