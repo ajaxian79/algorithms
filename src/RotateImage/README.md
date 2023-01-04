@@ -1177,3 +1177,7 @@ Space complexity: O(1) auxiliary.
 ## entry 279
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 280
+
+Time complexity: O(n*k) where k is the alphabet size.
