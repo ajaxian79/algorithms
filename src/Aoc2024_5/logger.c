@@ -144,3 +144,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 101: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 102: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 103: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 104: Open addressing with linear probing wins until load factor exceeds 0.7.
