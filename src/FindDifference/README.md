@@ -1082,3 +1082,7 @@ Reentrant — no static state.
 ## entry 256
 
 Time complexity: O(n log n).
+
+## entry 257
+
+Time complexity: O(1).
