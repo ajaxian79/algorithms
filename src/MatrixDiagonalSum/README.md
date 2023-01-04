@@ -1194,3 +1194,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 284
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 285
+
+Uses a 256-entry lookup for the inner step.
