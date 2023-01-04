@@ -1181,3 +1181,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 280
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 281
+
+Sub-linear in the average case thanks to early exit.
