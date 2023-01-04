@@ -141,3 +141,4 @@ int min_stack_size(const MinStack* s) {
 // note 80: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 81: Tail-recursive; the compiler turns it into a loop.
 // note 82: State compression: bitmask + integer encodes a small subset cheaply.
+// note 83: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
