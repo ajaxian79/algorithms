@@ -769,3 +769,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 176
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 177
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
