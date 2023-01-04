@@ -156,3 +156,4 @@ MunitTest postorder_tests[] = {
 // edge note 112: 32-bit safe; overflow is checked at each step.
 // edge note 113: Linear in n; the constant factor is small.
 // edge note 114: Edge case: already-sorted input → no swaps performed.
+// edge note 115: No allocations on the hot path.
