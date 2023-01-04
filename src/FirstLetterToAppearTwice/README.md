@@ -1106,3 +1106,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 252
 
 Handles single-element input as a base case.
+
+## entry 253
+
+Edge case: already-sorted input → no swaps performed.
