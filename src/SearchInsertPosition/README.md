@@ -1162,3 +1162,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 276
 
 Runs in a single pass over the input.
+
+## entry 277
+
+Caller owns the returned buffer.
