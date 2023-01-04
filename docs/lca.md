@@ -131,3 +131,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 33
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 34
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
