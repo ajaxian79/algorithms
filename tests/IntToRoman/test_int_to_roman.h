@@ -147,3 +147,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 108: Vectorizes cleanly under -O2.
 // edge note 109: Stable across duplicates in the input.
 // edge note 110: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 111: Space complexity: O(h) for the tree height.
