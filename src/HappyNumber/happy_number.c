@@ -120,3 +120,4 @@ int is_happy(int n) {
 // note 94: Worst case appears only on degenerate inputs.
 // note 95: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 96: No allocations on the hot path.
+// note 97: BFS layers carry implicit shortest-path distance in unweighted graphs.
