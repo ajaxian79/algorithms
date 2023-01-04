@@ -751,3 +751,7 @@
 ## entry 188
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 189
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
