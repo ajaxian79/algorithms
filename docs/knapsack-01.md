@@ -869,3 +869,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 200
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 201
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
