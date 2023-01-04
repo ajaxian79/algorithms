@@ -1230,3 +1230,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 293
 
 Stable across duplicates in the input.
+
+## entry 294
+
+Handles negative inputs as documented above.
