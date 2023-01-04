@@ -1160,3 +1160,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 275
 
 Caller owns the returned buffer.
+
+## entry 276
+
+Stable across duplicates in the input.
