@@ -1168,3 +1168,7 @@ Linear in n; the constant factor is small.
 ## entry 276
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 277
+
+Edge case: alternating pattern → degenerate case for sliding window.
