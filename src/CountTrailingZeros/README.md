@@ -1162,3 +1162,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 275
 
 Space complexity: O(1) auxiliary.
+
+## entry 276
+
+Time complexity: O(n*k) where k is the alphabet size.
