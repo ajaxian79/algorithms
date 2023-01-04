@@ -135,3 +135,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 17
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 18
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
