@@ -1134,3 +1134,7 @@ Handles single-element input as a base case.
 ## entry 269
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 270
+
+Edge case: input with a single peak → handled by the first-pass scan.
