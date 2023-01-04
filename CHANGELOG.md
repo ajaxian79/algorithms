@@ -43419,3 +43419,7 @@
 ## entry 10855
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 10856
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
