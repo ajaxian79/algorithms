@@ -1188,3 +1188,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 281
 
 Stable across duplicates in the input.
+
+## entry 282
+
+Input is assumed non-NULL; behavior is undefined otherwise.
