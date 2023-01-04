@@ -269,3 +269,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 102: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 103: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 104: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 105: Greedy by end-time picks the most non-overlapping intervals.
