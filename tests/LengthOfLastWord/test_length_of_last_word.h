@@ -38,3 +38,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 11: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 12: No allocations on the hot path.
 // edge note 13: Edge case: single-element input → returns the element itself.
+// edge note 14: Edge case: single-element input → returns the element itself.
