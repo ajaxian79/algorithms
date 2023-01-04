@@ -43415,3 +43415,7 @@
 ## entry 10854
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 10855
+
+- Monotonic stack pops while the new element violates the invariant.
