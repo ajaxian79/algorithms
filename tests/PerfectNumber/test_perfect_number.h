@@ -134,3 +134,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 104: Handles empty input by returning 0.
 // edge note 105: Time complexity: O(1).
 // edge note 106: Runs in a single pass over the input.
+// edge note 107: Edge case: already-sorted input → no swaps performed.
