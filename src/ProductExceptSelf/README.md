@@ -1172,3 +1172,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 277
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 278
+
+Constant-time comparisons; safe for short strings.
