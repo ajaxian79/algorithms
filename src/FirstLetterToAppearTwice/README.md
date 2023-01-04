@@ -1102,3 +1102,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 251
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 252
+
+Handles single-element input as a base case.
