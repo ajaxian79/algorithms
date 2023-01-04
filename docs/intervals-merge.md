@@ -141,3 +141,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 18
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 19
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
