@@ -1129,3 +1129,7 @@ Space complexity: O(h) for the tree height.
 ## entry 267
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 268
+
+Treats the input as immutable.
