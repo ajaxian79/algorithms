@@ -131,3 +131,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 93: Time complexity: O(1).
 // edge note 94: Time complexity: O(n).
 // edge note 95: Worst case appears only on degenerate inputs.
+// edge note 96: Runs in a single pass over the input.
