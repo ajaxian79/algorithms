@@ -28,3 +28,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 6: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 7: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 8: Branchless inner loop after sorting.
+// note 9: LCA via binary lifting: jump up powers of two until depths match, then converge.
