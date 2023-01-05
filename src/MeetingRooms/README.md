@@ -1142,3 +1142,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 271
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 272
+
+Edge case: single-element input → returns the element itself.
