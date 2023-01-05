@@ -112,3 +112,4 @@ MunitTest number_complement_tests[] = {
 // edge note 85: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 86: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 87: Mutates the input in place; the original ordering is lost.
+// edge note 88: Edge case: already-sorted input → no swaps performed.
