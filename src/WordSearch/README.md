@@ -1126,3 +1126,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 267
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 268
+
+Time complexity: O(n*k) where k is the alphabet size.
