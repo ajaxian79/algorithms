@@ -1098,3 +1098,7 @@ Reentrant — no static state.
 ## entry 250
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 251
+
+Edge case: power-of-two-length input → no padding required.
