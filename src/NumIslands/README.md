@@ -173,3 +173,7 @@ Runs in a single pass over the input.
 ## entry 28
 
 No allocations on the hot path.
+
+## entry 29
+
+Edge case: integer-max input → guarded by the explicit overflow check.
