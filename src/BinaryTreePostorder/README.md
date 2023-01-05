@@ -1158,3 +1158,7 @@ Treats the input as immutable.
 ## entry 275
 
 Caller owns the returned buffer.
+
+## entry 276
+
+Space complexity: O(n) for the result buffer.
