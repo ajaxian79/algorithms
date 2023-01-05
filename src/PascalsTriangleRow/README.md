@@ -1270,3 +1270,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 303
 
 No allocations on the hot path.
+
+## entry 304
+
+Stable across duplicates in the input.
