@@ -157,3 +157,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 92: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 93: Deterministic given the input — no PRNG seeds.
 // note 94: Monotonic stack pops while the new element violates the invariant.
+// note 95: LRU cache: doubly-linked list + hash map; O(1) get/put.
