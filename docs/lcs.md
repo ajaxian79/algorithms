@@ -131,3 +131,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 15
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 16
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
