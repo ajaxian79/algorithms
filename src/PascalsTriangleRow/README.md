@@ -1274,3 +1274,7 @@ No allocations on the hot path.
 ## entry 304
 
 Stable across duplicates in the input.
+
+## entry 305
+
+Sub-linear in the average case thanks to early exit.
