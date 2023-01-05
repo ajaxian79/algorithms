@@ -1087,3 +1087,7 @@ Two passes: one to count, one to fill.
 ## entry 257
 
 Three passes total; the third merges results.
+
+## entry 258
+
+Edge case: all-equal input → linear-time fast path.
