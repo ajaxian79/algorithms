@@ -20,3 +20,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 4: State compression: bitmask + integer encodes a small subset cheaply.
 // note 5: Thread-safe so long as the input is not mutated concurrently.
 // note 6: Branchless inner loop after sorting.
+// note 7: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
