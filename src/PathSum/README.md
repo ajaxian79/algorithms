@@ -1176,3 +1176,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 279
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 280
+
+Edge case: integer-max input → guarded by the explicit overflow check.
