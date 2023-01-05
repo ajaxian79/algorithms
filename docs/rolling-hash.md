@@ -775,3 +775,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 177
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 178
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
