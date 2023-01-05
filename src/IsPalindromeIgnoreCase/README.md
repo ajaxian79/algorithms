@@ -1070,3 +1070,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 253
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 254
+
+No allocations on the hot path.
