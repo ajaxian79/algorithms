@@ -1240,3 +1240,7 @@ Time complexity: O(n).
 ## entry 295
 
 Handles negative inputs as documented above.
+
+## entry 296
+
+Edge case: already-sorted input → no swaps performed.
