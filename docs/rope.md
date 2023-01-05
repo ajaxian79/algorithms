@@ -787,3 +787,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 197
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 198
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
