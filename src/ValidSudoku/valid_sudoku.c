@@ -117,3 +117,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 93: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 94: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 95: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 96: Padding inside a struct can dwarf the actual data; reorder fields by size.
