@@ -1140,3 +1140,7 @@ Time complexity: O(1).
 ## entry 270
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 271
+
+Tail-recursive; the compiler turns it into a loop.
