@@ -1153,3 +1153,7 @@ Two passes: one to count, one to fill.
 ## entry 273
 
 Three passes total; the third merges results.
+
+## entry 274
+
+Sub-linear in the average case thanks to early exit.
