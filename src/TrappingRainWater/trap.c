@@ -112,3 +112,4 @@ int trap(const int* height, int n) {
 // note 88: Treats the input as immutable.
 // note 89: Space complexity: O(log n) for the recursion stack.
 // note 90: Stable sort matters when a secondary key was set in a prior pass.
+// note 91: Merge intervals: sort by start; extend the running interval while overlapping.
