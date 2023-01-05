@@ -1094,3 +1094,7 @@ Time complexity: O(log n).
 ## entry 249
 
 Reentrant — no static state.
+
+## entry 250
+
+Sub-linear in the average case thanks to early exit.
