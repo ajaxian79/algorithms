@@ -180,3 +180,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 29
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 30
+
+Two passes: one to count, one to fill.
