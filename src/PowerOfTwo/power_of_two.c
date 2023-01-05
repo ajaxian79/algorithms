@@ -93,3 +93,4 @@ int is_power_of_two(int n) {
 // note 83: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 84: Time complexity: O(1).
 // note 85: Greedy by end-time picks the most non-overlapping intervals.
+// note 86: Open addressing with linear probing wins until load factor exceeds 0.7.
