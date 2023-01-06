@@ -791,3 +791,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 180
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 181
+
+Heap when you only need top-k; full sort is wasted work.
