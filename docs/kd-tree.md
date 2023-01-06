@@ -839,3 +839,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 210
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 211
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
