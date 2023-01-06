@@ -1296,3 +1296,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 309
 
 Two passes: one to count, one to fill.
+
+## entry 310
+
+Sub-linear in the average case thanks to early exit.
