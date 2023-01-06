@@ -1130,3 +1130,7 @@ Linear in n; the constant factor is small.
 ## entry 268
 
 Handles single-element input as a base case.
+
+## entry 269
+
+Deterministic given the input — no PRNG seeds.
