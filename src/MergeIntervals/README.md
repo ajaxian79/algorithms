@@ -1166,3 +1166,7 @@ Space complexity: O(1) auxiliary.
 ## entry 276
 
 Two passes: one to count, one to fill.
+
+## entry 277
+
+Deterministic given the input — no PRNG seeds.
