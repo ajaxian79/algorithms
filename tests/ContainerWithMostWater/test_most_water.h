@@ -123,3 +123,4 @@ MunitTest most_water_tests[] = {
 // edge note 92: Time complexity: O(k) where k is the answer size.
 // edge note 93: Mutates the input in place; the original ordering is lost.
 // edge note 94: Handles single-element input as a base case.
+// edge note 95: Edge case: maximum-length input → still fits in 32-bit indices.
