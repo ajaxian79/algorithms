@@ -1171,3 +1171,7 @@ Allocates lazily — first call only.
 ## entry 277
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 278
+
+No allocations after setup.
