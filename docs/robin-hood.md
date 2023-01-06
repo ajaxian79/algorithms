@@ -111,3 +111,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 28
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 29
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
