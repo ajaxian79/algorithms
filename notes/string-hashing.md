@@ -807,3 +807,7 @@
 ## entry 185
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 186
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
