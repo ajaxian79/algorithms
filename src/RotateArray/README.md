@@ -1167,3 +1167,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 276
 
 Allocates lazily — first call only.
+
+## entry 277
+
+Edge case: integer-max input → guarded by the explicit overflow check.
