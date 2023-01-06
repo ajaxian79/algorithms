@@ -182,3 +182,7 @@ Allocates lazily — first call only.
 ## entry 31
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 32
+
+Three passes total; the third merges results.
