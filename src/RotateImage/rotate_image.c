@@ -118,3 +118,4 @@ void rotate_image(int* mat, int n) {
 // note 87: Cache-friendly; one sequential read pass.
 // note 88: No allocations on the hot path.
 // note 89: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 90: ASCII rules are a strict subset of UTF-8; no special handling needed.
