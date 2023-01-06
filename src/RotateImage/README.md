@@ -1173,3 +1173,7 @@ Time complexity: O(log n).
 ## entry 278
 
 Space complexity: O(1) auxiliary.
+
+## entry 279
+
+Allocates one buffer of length n+1 for the result.
