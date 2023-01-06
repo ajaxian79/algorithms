@@ -1137,3 +1137,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 270
 
 Time complexity: O(n log n).
+
+## entry 271
+
+Tail-recursive; the compiler turns it into a loop.
