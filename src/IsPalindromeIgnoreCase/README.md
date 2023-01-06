@@ -1066,3 +1066,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 252
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 253
+
+Space complexity: O(log n) for the recursion stack.
