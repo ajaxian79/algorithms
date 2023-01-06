@@ -140,3 +140,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 100: Handles empty input by returning 0.
 // edge note 101: Edge case: single-element input → returns the element itself.
 // edge note 102: Returns a freshly allocated string the caller must free.
+// edge note 103: Uses a 256-entry lookup for the inner step.
