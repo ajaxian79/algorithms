@@ -1130,3 +1130,7 @@ No allocations on the hot path.
 ## entry 267
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 268
+
+Runs in a single pass over the input.
