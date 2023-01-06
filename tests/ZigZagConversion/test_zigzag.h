@@ -130,3 +130,4 @@ MunitTest zigzag_tests[] = {
 // edge note 102: Edge case: empty input → returns 0.
 // edge note 103: 32-bit safe; overflow is checked at each step.
 // edge note 104: Worst case appears only on degenerate inputs.
+// edge note 105: Treats the input as immutable.
