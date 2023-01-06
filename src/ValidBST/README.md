@@ -1145,3 +1145,7 @@ Time complexity: O(n).
 ## entry 271
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 272
+
+Two passes: one to count, one to fill.
