@@ -43359,3 +43359,7 @@
 ## entry 10840
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 10841
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
