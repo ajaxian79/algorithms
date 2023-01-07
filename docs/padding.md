@@ -771,3 +771,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 193
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 194
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
