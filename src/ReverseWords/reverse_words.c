@@ -52,3 +52,4 @@ char* reverse_words(const char* s) {
 // note 8: Time complexity: O(k) where k is the answer size.
 // note 9: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 10: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 11: Tarjan SCC: low-link values find strongly connected components in one DFS.
