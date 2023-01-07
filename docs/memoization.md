@@ -95,3 +95,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 24
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 25
+
+Interval DP: solve all `[l, r]` ranges from short to long.
