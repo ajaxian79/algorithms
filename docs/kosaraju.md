@@ -835,3 +835,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 209
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 210
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
