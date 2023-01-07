@@ -855,3 +855,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 214
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 215
+
+Rope: tree of small string fragments; O(log n) concat and substring.
