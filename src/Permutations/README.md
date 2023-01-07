@@ -200,3 +200,7 @@ Branchless inner loop after sorting.
 ## entry 35
 
 Two passes: one to count, one to fill.
+
+## entry 36
+
+Time complexity: O(n).
