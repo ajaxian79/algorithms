@@ -43343,3 +43343,7 @@
 ## entry 10836
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 10837
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
