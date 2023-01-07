@@ -1125,3 +1125,7 @@ Uses a small fixed-size lookup table.
 ## entry 267
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 268
+
+No allocations on the hot path.
