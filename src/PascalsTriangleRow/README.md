@@ -1266,3 +1266,7 @@ Space complexity: O(1) auxiliary.
 ## entry 302
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 303
+
+No allocations on the hot path.
