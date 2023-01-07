@@ -27,3 +27,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 11: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 12: Two passes: one to count, one to fill.
 // note 13: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 14: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
