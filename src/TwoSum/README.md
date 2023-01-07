@@ -1141,3 +1141,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 260
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 261
+
+Edge case: power-of-two-length input → no padding required.
