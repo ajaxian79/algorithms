@@ -4979,3 +4979,7 @@
 ## entry 1245
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 1246
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
