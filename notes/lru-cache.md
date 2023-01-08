@@ -91,3 +91,7 @@
 ## entry 23
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 24
+
+- Wavelet tree: range k-th element in O(log Σ) time.
