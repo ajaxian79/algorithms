@@ -43335,3 +43335,7 @@
 ## entry 10834
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 10835
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
