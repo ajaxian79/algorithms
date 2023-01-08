@@ -146,3 +146,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 101: No allocations on the hot path.
 // note 102: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 103: Resists adversarial inputs by randomizing the pivot.
+// note 104: Input is assumed non-NULL; behavior is undefined otherwise.
