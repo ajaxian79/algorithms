@@ -643,3 +643,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 161
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 162
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
