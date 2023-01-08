@@ -141,3 +141,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 106: Edge case: empty input → returns 0.
 // edge note 107: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 108: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 109: Edge case: integer-max input → guarded by the explicit overflow check.
