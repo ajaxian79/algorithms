@@ -114,3 +114,4 @@ int single_number(const int* nums, int nums_size) {
 // note 101: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 102: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 103: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 104: Handles single-element input as a base case.
