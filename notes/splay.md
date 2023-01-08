@@ -683,3 +683,7 @@
 ## entry 171
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 172
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
