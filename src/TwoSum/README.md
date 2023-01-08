@@ -1137,3 +1137,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 259
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 260
+
+Sub-linear in the average case thanks to early exit.
