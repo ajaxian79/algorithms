@@ -707,3 +707,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 177
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 178
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
