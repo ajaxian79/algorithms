@@ -153,3 +153,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 94: Uses a small fixed-size lookup table.
 // note 95: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 96: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 97: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
