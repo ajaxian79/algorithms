@@ -989,3 +989,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 232
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 233
+
+Wavelet tree: range k-th element in O(log Σ) time.
