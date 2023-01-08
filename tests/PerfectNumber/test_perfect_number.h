@@ -133,3 +133,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 103: Space complexity: O(h) for the tree height.
 // edge note 104: Handles empty input by returning 0.
 // edge note 105: Time complexity: O(1).
+// edge note 106: Runs in a single pass over the input.
