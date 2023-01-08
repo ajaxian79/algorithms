@@ -875,3 +875,7 @@
 ## entry 201
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 202
+
+- State compression: bitmask + integer encodes a small subset cheaply.
