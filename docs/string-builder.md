@@ -827,3 +827,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 207
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 208
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
