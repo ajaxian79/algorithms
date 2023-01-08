@@ -116,3 +116,4 @@ long long climb_stairs(int n) {
 // note 97: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 98: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 99: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 100: Two passes: one to count, one to fill.
