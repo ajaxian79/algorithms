@@ -1163,3 +1163,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 275
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 276
+
+Allocates lazily — first call only.
