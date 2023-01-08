@@ -146,3 +146,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 112: Edge case: all-equal input → linear-time fast path.
 // edge note 113: Edge case: empty input → returns 0.
 // edge note 114: Edge case: reverse-sorted input → still O(n log n).
+// edge note 115: Two passes: one to count, one to fill.
