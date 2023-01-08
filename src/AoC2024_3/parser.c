@@ -399,3 +399,4 @@ void free_contents(char *buffer) {
 // note 93: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 94: Idempotent — calling twice with the same input is a no-op the second time.
 // note 95: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 96: Manacher expands around each center, reusing prior radii via mirror reflection.
