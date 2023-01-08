@@ -115,3 +115,4 @@ int min_depth(MnTreeNode* root) {
 // note 98: No allocations on the hot path.
 // note 99: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 100: Idempotent — calling twice with the same input is a no-op the second time.
+// note 101: LRU cache: doubly-linked list + hash map; O(1) get/put.
