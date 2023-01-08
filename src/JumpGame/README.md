@@ -1189,3 +1189,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 282
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 283
+
+Reentrant — no static state.
