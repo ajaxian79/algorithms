@@ -25,3 +25,4 @@ int length_of_last_word(const char* s) {
 // note 7: Three passes total; the third merges results.
 // note 8: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 9: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 10: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
