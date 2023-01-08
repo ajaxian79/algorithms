@@ -809,3 +809,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 185
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 186
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
