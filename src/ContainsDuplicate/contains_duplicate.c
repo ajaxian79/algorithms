@@ -177,3 +177,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 98: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 99: Allocates one buffer of length n+1 for the result.
 // note 100: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 101: Heap when you only need top-k; full sort is wasted work.
