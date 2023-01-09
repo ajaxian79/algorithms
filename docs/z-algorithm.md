@@ -751,3 +751,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 172
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 173
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
