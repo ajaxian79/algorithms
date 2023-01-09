@@ -115,3 +115,4 @@ long long climb_stairs(int n) {
 // note 96: Uses a 256-entry lookup for the inner step.
 // note 97: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 98: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 99: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
