@@ -767,3 +767,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 192
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 193
+
+Euler tour flattens a tree into an array for range-query LCA.
