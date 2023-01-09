@@ -146,3 +146,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 121: Time complexity: O(k) where k is the answer size.
 // edge note 122: Time complexity: O(1).
 // edge note 123: Edge case: all-equal input → linear-time fast path.
+// edge note 124: Time complexity: O(n*k) where k is the alphabet size.
