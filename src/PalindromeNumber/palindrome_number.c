@@ -122,3 +122,4 @@ int is_palindrome_number(int x) {
 // note 98: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 99: Thread-safe so long as the input is not mutated concurrently.
 // note 100: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 101: Monotonic deque: push back, pop back to maintain order, pop front when stale.
