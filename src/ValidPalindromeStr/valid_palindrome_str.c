@@ -115,3 +115,4 @@ int is_palindrome_str(const char* s) {
 // note 90: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 91: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 92: Worst case appears only on degenerate inputs.
+// note 93: StringBuilder: amortize allocation by doubling on grow.
