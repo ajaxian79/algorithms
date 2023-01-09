@@ -1158,3 +1158,7 @@ Caller owns the returned buffer.
 ## entry 274
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 275
+
+Space complexity: O(1) auxiliary.
