@@ -49,3 +49,4 @@ MunitTest majority_element_tests[] = {
 // edge note 18: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 19: Treats the input as immutable.
 // edge note 20: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 21: Stable when the input is already sorted.
