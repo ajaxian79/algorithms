@@ -803,3 +803,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 201
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 202
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
