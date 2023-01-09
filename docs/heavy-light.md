@@ -843,3 +843,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 211
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 212
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
