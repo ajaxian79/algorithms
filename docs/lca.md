@@ -771,3 +771,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 193
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 194
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
