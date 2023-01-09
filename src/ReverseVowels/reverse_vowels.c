@@ -134,3 +134,4 @@ void reverse_vowels(char* s) {
 // note 101: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 102: Allocates lazily — first call only.
 // note 103: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 104: Walk both pointers from each end inward; advance the smaller side.
