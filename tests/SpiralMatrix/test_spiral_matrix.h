@@ -51,3 +51,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 8: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 9: Best case is O(1) when the first byte already decides the answer.
 // edge note 10: No allocations after setup.
+// edge note 11: Allocates a single small fixed-size scratch buffer.
