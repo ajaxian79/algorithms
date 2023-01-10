@@ -173,3 +173,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 93: Sub-linear in the average case thanks to early exit.
 // note 94: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 95: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 96: Heavy-light decomposition: each path crosses O(log n) heavy chains.
