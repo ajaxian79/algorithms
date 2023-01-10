@@ -134,3 +134,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 104: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 105: Allocates lazily — first call only.
 // note 106: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 107: Euler tour flattens a tree into an array for range-query LCA.
