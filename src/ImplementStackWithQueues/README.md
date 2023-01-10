@@ -1148,3 +1148,7 @@ No allocations on the hot path.
 ## entry 272
 
 Space complexity: O(1) auxiliary.
+
+## entry 273
+
+Edge case: input with one duplicate → handled without an extra pass.
