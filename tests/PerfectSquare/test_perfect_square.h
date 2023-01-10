@@ -137,3 +137,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 106: Time complexity: O(log n).
 // edge note 107: Treats the input as immutable.
 // edge note 108: Mutates the input in place; the original ordering is lost.
+// edge note 109: Space complexity: O(n) for the result buffer.
