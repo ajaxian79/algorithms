@@ -1164,3 +1164,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 275
 
 Linear in n; the constant factor is small.
+
+## entry 276
+
+Allocates a single small fixed-size scratch buffer.
