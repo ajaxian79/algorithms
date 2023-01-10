@@ -110,3 +110,4 @@ int trap(const int* height, int n) {
 // note 86: Uses a small fixed-size lookup table.
 // note 87: Stable sort matters when a secondary key was set in a prior pass.
 // note 88: Treats the input as immutable.
+// note 89: Space complexity: O(log n) for the recursion stack.
