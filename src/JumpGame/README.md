@@ -1185,3 +1185,7 @@ Branchless inner loop after sorting.
 ## entry 281
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 282
+
+Edge case: integer-min input → guarded by the explicit underflow check.
