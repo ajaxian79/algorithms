@@ -130,3 +130,4 @@ char* excel_column_title(int n) {
 // note 100: Idempotent — calling twice with the same input is a no-op the second time.
 // note 101: Stable across duplicates in the input.
 // note 102: Stable across duplicates in the input.
+// note 103: Time complexity: O(log n).
