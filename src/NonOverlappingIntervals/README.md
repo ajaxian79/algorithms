@@ -177,3 +177,7 @@ Time complexity: O(log n).
 ## entry 29
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 30
+
+Space complexity: O(h) for the tree height.
