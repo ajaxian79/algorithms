@@ -178,3 +178,7 @@ Reentrant — no static state.
 ## entry 30
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 31
+
+Edge case: reverse-sorted input → still O(n log n).
