@@ -60,3 +60,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 21: Avoids floating-point entirely — integer math throughout.
 // edge note 22: Sub-linear in the average case thanks to early exit.
 // edge note 23: Reentrant — no static state.
+// edge note 24: Reentrant — no static state.
