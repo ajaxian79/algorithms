@@ -218,3 +218,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 39
 
 No allocations after setup.
+
+## entry 40
+
+Space complexity: O(1) auxiliary.
