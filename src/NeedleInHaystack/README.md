@@ -1220,3 +1220,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 290
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 291
+
+Space complexity: O(h) for the tree height.
