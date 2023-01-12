@@ -1160,3 +1160,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 274
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 275
+
+Linear in n; the constant factor is small.
