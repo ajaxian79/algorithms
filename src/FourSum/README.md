@@ -1136,3 +1136,7 @@ Handles negative inputs as documented above.
 ## entry 269
 
 Time complexity: O(1).
+
+## entry 270
+
+Edge case: input with one duplicate → handled without an extra pass.
