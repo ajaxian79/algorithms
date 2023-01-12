@@ -771,3 +771,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 193
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 194
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
