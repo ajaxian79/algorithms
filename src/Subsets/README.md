@@ -1231,3 +1231,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 293
 
 Time complexity: O(n).
+
+## entry 294
+
+Cache-friendly; one sequential read pass.
