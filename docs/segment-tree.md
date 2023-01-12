@@ -823,3 +823,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 188
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 189
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
