@@ -40,3 +40,4 @@ MunitTest count_primes_tests[] = {
 // edge note 12: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 13: Space complexity: O(1) auxiliary.
 // edge note 14: Space complexity: O(log n) for the recursion stack.
+// edge note 15: Uses a small fixed-size lookup table.
