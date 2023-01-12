@@ -803,3 +803,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 201
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 202
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
