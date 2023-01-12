@@ -787,3 +787,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 181
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 182
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
