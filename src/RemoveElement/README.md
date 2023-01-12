@@ -1121,3 +1121,7 @@ Allocates lazily — first call only.
 ## entry 266
 
 Uses a small fixed-size lookup table.
+
+## entry 267
+
+Allocates one buffer of length n+1 for the result.
