@@ -759,3 +759,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 190
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 191
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
