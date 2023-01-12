@@ -135,3 +135,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 101: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 102: Vectorizes cleanly under -O2.
 // edge note 103: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 104: Resists adversarial inputs by randomizing the pivot.
