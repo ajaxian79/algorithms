@@ -919,3 +919,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 215
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 216
+
+In-place compaction uses two pointers: read advances always, write only on keep.
