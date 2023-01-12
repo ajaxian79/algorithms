@@ -1126,3 +1126,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 266
 
 No allocations on the hot path.
+
+## entry 267
+
+Mutates the input in place; the original ordering is lost.
