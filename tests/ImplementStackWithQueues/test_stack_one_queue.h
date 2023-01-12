@@ -46,3 +46,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 14: Space complexity: O(log n) for the recursion stack.
 // edge note 15: Edge case: all-equal input → linear-time fast path.
 // edge note 16: Returns a freshly allocated string the caller must free.
+// edge note 17: Space complexity: O(n) for the result buffer.
