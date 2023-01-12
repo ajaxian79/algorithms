@@ -1115,3 +1115,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 263
 
 32-bit safe; overflow is checked at each step.
+
+## entry 264
+
+Time complexity: O(n^2) worst case, O(n) amortized.
