@@ -175,3 +175,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 96: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 97: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 98: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 99: Allocates one buffer of length n+1 for the result.
