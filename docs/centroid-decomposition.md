@@ -735,3 +735,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 184
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 185
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
