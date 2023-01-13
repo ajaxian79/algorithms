@@ -883,3 +883,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 221
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 222
+
+In-place compaction uses two pointers: read advances always, write only on keep.
