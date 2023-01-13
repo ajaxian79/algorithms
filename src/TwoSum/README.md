@@ -1133,3 +1133,7 @@ Caller owns the returned buffer.
 ## entry 258
 
 Returns a freshly allocated string the caller must free.
+
+## entry 259
+
+Uses a 256-entry lookup for the inner step.
