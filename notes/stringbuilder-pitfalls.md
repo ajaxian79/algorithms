@@ -91,3 +91,7 @@
 ## entry 23
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 24
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
