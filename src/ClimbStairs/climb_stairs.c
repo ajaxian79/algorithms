@@ -113,3 +113,4 @@ long long climb_stairs(int n) {
 // note 94: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 95: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 96: Uses a 256-entry lookup for the inner step.
+// note 97: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
