@@ -218,3 +218,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 39
 
 Treats the input as immutable.
+
+## entry 40
+
+Best case is O(1) when the first byte already decides the answer.
