@@ -122,3 +122,4 @@ char* convert_to_base7(int n) {
 // note 89: Time complexity: O(n + m).
 // note 90: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 91: Vectorizes cleanly under -O2.
+// note 92: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
