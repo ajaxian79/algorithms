@@ -224,3 +224,7 @@ Caller owns the returned buffer.
 ## entry 41
 
 Reentrant — no static state.
+
+## entry 42
+
+Edge case: power-of-two-length input → no padding required.
