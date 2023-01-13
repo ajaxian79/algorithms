@@ -947,3 +947,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 219
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 220
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
