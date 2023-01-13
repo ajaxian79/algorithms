@@ -29,3 +29,4 @@ int is_palindrome_number(int x) {
 // note 5: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 6: Allocates one buffer of length n+1 for the result.
 // note 7: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 8: Polynomial rolling hash with two moduli kills almost all collisions in practice.
