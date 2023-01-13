@@ -131,3 +131,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 33
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 34
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
