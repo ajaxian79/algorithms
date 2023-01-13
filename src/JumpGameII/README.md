@@ -1152,3 +1152,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 273
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 274
+
+Resists adversarial inputs by randomizing the pivot.
