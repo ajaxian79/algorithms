@@ -767,3 +767,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 192
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 193
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
