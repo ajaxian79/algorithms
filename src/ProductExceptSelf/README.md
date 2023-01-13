@@ -168,3 +168,7 @@ Runs in a single pass over the input.
 ## entry 26
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 27
+
+Input is assumed non-NULL; behavior is undefined otherwise.
