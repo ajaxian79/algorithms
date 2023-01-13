@@ -1090,3 +1090,7 @@ Uses a small fixed-size lookup table.
 ## entry 248
 
 Time complexity: O(log n).
+
+## entry 249
+
+Reentrant — no static state.
