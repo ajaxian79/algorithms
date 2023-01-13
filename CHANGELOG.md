@@ -43223,3 +43223,7 @@
 ## entry 10806
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 10807
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
