@@ -877,3 +877,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 205
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 206
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
