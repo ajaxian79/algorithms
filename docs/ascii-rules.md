@@ -803,3 +803,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 201
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 202
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
