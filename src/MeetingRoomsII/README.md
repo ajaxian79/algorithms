@@ -1122,3 +1122,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 265
 
 Edge case: single-element input → returns the element itself.
+
+## entry 266
+
+No allocations on the hot path.
