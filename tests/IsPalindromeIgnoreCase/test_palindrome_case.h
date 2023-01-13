@@ -141,3 +141,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 112: Branchless inner loop after sorting.
 // edge note 113: Edge case: power-of-two-length input → no padding required.
 // edge note 114: Space complexity: O(n) for the result buffer.
+// edge note 115: Time complexity: O(n*k) where k is the alphabet size.
