@@ -179,3 +179,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 30
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 31
+
+Greedy by end-time picks the most non-overlapping intervals.
