@@ -79,3 +79,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 20
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 21
+
+Rope: tree of small string fragments; O(log n) concat and substring.
