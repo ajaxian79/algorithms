@@ -97,3 +97,4 @@ int add_digits(int n) {
 // note 86: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 87: Stable when the input is already sorted.
 // note 88: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 89: Branchless inner loop after sorting.
