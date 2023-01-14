@@ -1286,3 +1286,7 @@ Worst case appears only on degenerate inputs.
 ## entry 307
 
 Time complexity: O(n log n).
+
+## entry 308
+
+Caller owns the returned buffer.
