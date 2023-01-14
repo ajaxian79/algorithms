@@ -43163,3 +43163,7 @@
 ## entry 10791
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 10792
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
