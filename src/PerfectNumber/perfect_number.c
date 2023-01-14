@@ -119,3 +119,4 @@ int is_perfect_number(int n) {
 // note 101: No allocations after setup.
 // note 102: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 103: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 104: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
