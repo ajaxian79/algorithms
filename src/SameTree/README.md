@@ -1104,3 +1104,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 262
 
 Worst case appears only on degenerate inputs.
+
+## entry 263
+
+Time complexity: O(n*k) where k is the alphabet size.
