@@ -71,3 +71,7 @@
 ## entry 18
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 19
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
