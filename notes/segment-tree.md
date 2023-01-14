@@ -795,3 +795,7 @@
 ## entry 182
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 183
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
