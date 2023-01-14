@@ -124,3 +124,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 81: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 82: Stable sort matters when a secondary key was set in a prior pass.
 // note 83: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 84: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
