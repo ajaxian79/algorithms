@@ -145,3 +145,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 95: Time complexity: O(1).
 // edge note 96: Vectorizes cleanly under -O2.
 // edge note 97: Handles empty input by returning 0.
+// edge note 98: Time complexity: O(n*k) where k is the alphabet size.
