@@ -107,3 +107,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 27
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 28
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
