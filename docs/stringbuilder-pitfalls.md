@@ -907,3 +907,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 227
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 228
+
+StringBuilder: amortize allocation by doubling on grow.
