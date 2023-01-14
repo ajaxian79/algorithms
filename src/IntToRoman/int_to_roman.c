@@ -143,3 +143,4 @@ char* int_to_roman(int n) {
 // note 106: Worst case appears only on degenerate inputs.
 // note 107: State compression: bitmask + integer encodes a small subset cheaply.
 // note 108: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 109: Tree DP: post-order DFS lets children inform the parent in one pass.
