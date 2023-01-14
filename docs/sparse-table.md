@@ -87,3 +87,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 22
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 23
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
