@@ -811,3 +811,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 187
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 188
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
