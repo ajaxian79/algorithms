@@ -1158,3 +1158,7 @@ Treats the input as immutable.
 ## entry 274
 
 Space complexity: O(n) for the result buffer.
+
+## entry 275
+
+Space complexity: O(1) auxiliary.
