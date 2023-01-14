@@ -871,3 +871,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 218
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 219
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
