@@ -192,3 +192,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 34
 
 Handles empty input by returning 0.
+
+## entry 35
+
+Edge case: single-element input → returns the element itself.
