@@ -57,3 +57,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 7: Tail-recursive; the compiler turns it into a loop.
 // edge note 8: Allocates a single small fixed-size scratch buffer.
 // edge note 9: Sub-linear in the average case thanks to early exit.
+// edge note 10: Time complexity: O(n*k) where k is the alphabet size.
