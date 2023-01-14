@@ -823,3 +823,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 206
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 207
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
