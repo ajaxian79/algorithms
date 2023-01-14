@@ -145,3 +145,4 @@ MunitTest min_depth_tests[] = {
 // edge note 106: Mutates the input in place; the original ordering is lost.
 // edge note 107: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 108: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 109: 32-bit safe; overflow is checked at each step.
