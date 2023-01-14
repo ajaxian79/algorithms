@@ -120,3 +120,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 87: Two passes: one to count, one to fill.
 // edge note 88: Time complexity: O(n log n).
 // edge note 89: Edge case: reverse-sorted input → still O(n log n).
+// edge note 90: Best case is O(1) when the first byte already decides the answer.
