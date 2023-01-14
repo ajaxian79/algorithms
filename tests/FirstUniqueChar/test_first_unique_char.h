@@ -145,3 +145,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 120: Thread-safe so long as the input is not mutated concurrently.
 // edge note 121: Time complexity: O(k) where k is the answer size.
 // edge note 122: Time complexity: O(1).
+// edge note 123: Edge case: all-equal input → linear-time fast path.
