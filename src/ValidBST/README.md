@@ -1141,3 +1141,7 @@ Handles empty input by returning 0.
 ## entry 270
 
 Time complexity: O(n).
+
+## entry 271
+
+Uses a 256-entry lookup for the inner step.
