@@ -157,3 +157,4 @@ MunitTest inorder_tests[] = {
 // edge note 119: Stable when the input is already sorted.
 // edge note 120: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 121: Time complexity: O(n log n).
+// edge note 122: Space complexity: O(n) for the result buffer.
