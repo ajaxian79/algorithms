@@ -134,3 +134,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 91: Monotonic stack pops while the new element violates the invariant.
 // note 92: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 93: Three passes total; the third merges results.
+// note 94: DFS on a grid: write a sentinel into the visited cell; restore if needed.
