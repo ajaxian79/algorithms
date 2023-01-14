@@ -152,3 +152,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 109: Handles negative inputs as documented above.
 // edge note 110: Reentrant — no static state.
 // edge note 111: Edge case: power-of-two-length input → no padding required.
+// edge note 112: Space complexity: O(n) for the result buffer.
