@@ -191,3 +191,7 @@ Stable when the input is already sorted.
 ## entry 33
 
 No allocations on the hot path.
+
+## entry 34
+
+Cache-friendly; one sequential read pass.
