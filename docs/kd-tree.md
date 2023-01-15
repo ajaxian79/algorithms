@@ -831,3 +831,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 208
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 209
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
