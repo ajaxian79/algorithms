@@ -119,3 +119,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 30
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 31
+
+Wavelet tree: range k-th element in O(log Σ) time.
