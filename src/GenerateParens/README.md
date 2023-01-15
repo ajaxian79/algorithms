@@ -172,3 +172,7 @@ Space complexity: O(1) auxiliary.
 ## entry 27
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 28
+
+Edge case: input of all the same byte → exits on the first compare.
