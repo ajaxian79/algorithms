@@ -1009,3 +1009,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 237
 
 No allocations on the hot path.
+
+## entry 238
+
+Edge case: integer-max input → guarded by the explicit overflow check.
