@@ -1226,3 +1226,7 @@ Reentrant — no static state.
 ## entry 292
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 293
+
+Stable across duplicates in the input.
