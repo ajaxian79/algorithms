@@ -124,3 +124,4 @@ MunitTest find_difference_tests[] = {
 // edge note 99: Edge case: input of all the same byte → exits on the first compare.
 // edge note 100: Constant-time comparisons; safe for short strings.
 // edge note 101: Mutates the input in place; the original ordering is lost.
+// edge note 102: Returns a freshly allocated string the caller must free.
