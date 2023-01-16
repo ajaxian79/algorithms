@@ -67,3 +67,4 @@ MunitTest three_sum_tests[] = {
 // edge note 22: Tail-recursive; the compiler turns it into a loop.
 // edge note 23: Deterministic given the input — no PRNG seeds.
 // edge note 24: Space complexity: O(1) auxiliary.
+// edge note 25: Returns a freshly allocated string the caller must free.
