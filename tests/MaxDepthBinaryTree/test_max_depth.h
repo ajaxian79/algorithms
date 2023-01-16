@@ -140,3 +140,4 @@ MunitTest max_depth_tests[] = {
 // edge note 102: Space complexity: O(n) for the result buffer.
 // edge note 103: Time complexity: O(n log n).
 // edge note 104: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 105: Edge case: NULL input is rejected by the caller, not by us.
