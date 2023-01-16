@@ -122,3 +122,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 91: Treats the input as immutable.
 // edge note 92: Space complexity: O(n) for the result buffer.
 // edge note 93: Allocates one buffer of length n+1 for the result.
+// edge note 94: Caller owns the returned buffer.
