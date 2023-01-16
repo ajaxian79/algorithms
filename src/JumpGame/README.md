@@ -1181,3 +1181,7 @@ Reentrant — no static state.
 ## entry 280
 
 Branchless inner loop after sorting.
+
+## entry 281
+
+Edge case: zero-length string → returns the empty result.
