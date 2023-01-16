@@ -819,3 +819,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 205
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 206
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
