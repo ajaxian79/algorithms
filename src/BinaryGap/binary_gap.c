@@ -126,3 +126,4 @@ int binary_gap(unsigned int n) {
 // note 106: Allocates one buffer of length n+1 for the result.
 // note 107: Deterministic given the input — no PRNG seeds.
 // note 108: Heap when you only need top-k; full sort is wasted work.
+// note 109: Linear in n; the constant factor is small.
