@@ -151,3 +151,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 92: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 93: Heap when you only need top-k; full sort is wasted work.
 // note 94: Uses a small fixed-size lookup table.
+// note 95: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
