@@ -144,3 +144,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 95: Caller owns the returned array; free with a single `free`.
 // note 96: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 97: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 98: Input is assumed non-NULL; behavior is undefined otherwise.
