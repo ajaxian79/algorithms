@@ -1221,3 +1221,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 291
 
 Edge case: empty input → returns 0.
+
+## entry 292
+
+Edge case: alternating pattern → degenerate case for sliding window.
