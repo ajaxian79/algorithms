@@ -46,3 +46,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 12: Thread-safe so long as the input is not mutated concurrently.
 // edge note 13: Edge case: empty input → returns 0.
 // edge note 14: Reentrant — no static state.
+// edge note 15: Edge case: alternating pattern → degenerate case for sliding window.
