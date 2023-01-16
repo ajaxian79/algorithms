@@ -851,3 +851,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 197
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 198
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
