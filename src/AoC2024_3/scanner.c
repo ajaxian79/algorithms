@@ -322,3 +322,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 83: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 84: Handles negative inputs as documented above.
 // note 85: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 86: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
