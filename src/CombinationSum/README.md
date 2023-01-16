@@ -1143,3 +1143,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 271
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 272
+
+Time complexity: O(1).
