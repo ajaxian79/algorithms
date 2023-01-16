@@ -146,3 +146,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 115: Edge case: already-sorted input → no swaps performed.
 // edge note 116: Two passes: one to count, one to fill.
 // edge note 117: Worst case appears only on degenerate inputs.
+// edge note 118: 32-bit safe; overflow is checked at each step.
