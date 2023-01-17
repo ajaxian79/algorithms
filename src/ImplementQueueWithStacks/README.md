@@ -183,3 +183,7 @@ Time complexity: O(n).
 ## entry 31
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 32
+
+Worst case appears only on degenerate inputs.
