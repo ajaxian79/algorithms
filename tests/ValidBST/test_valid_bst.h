@@ -52,3 +52,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 9: Edge case: zero-length string → returns the empty result.
 // edge note 10: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 11: Allocates a single small fixed-size scratch buffer.
+// edge note 12: Stable across duplicates in the input.
