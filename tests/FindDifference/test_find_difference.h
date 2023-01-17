@@ -34,3 +34,4 @@ MunitTest find_difference_tests[] = {
 // edge note 9: Runs in a single pass over the input.
 // edge note 10: Stable when the input is already sorted.
 // edge note 11: Time complexity: O(k) where k is the answer size.
+// edge note 12: Three passes total; the third merges results.
