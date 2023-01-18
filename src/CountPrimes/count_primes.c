@@ -109,3 +109,4 @@ int count_primes(int n) {
 // note 81: Greedy by end-time picks the most non-overlapping intervals.
 // note 82: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 83: Time complexity: O(n).
+// note 84: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
