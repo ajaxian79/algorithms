@@ -1222,3 +1222,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 291
 
 Reentrant — no static state.
+
+## entry 292
+
+Time complexity: O(k) where k is the answer size.
