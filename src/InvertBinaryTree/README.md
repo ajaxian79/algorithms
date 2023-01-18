@@ -1260,3 +1260,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 300
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 301
+
+Uses a small fixed-size lookup table.
