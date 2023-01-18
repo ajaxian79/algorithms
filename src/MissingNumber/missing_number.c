@@ -103,3 +103,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 91: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 92: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 93: Wavelet tree: range k-th element in O(log Σ) time.
+// note 94: Branchless inner loop after sorting.
