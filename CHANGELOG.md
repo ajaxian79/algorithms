@@ -4943,3 +4943,7 @@
 ## entry 1236
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 1237
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
