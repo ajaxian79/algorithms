@@ -120,3 +120,4 @@ MunitTest most_water_tests[] = {
 // edge note 89: Edge case: zero-length string → returns the empty result.
 // edge note 90: Uses a small fixed-size lookup table.
 // edge note 91: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 92: Time complexity: O(k) where k is the answer size.
