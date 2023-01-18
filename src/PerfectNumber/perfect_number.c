@@ -118,3 +118,4 @@ int is_perfect_number(int n) {
 // note 100: Worst case appears only on degenerate inputs.
 // note 101: No allocations after setup.
 // note 102: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 103: LRU cache: doubly-linked list + hash map; O(1) get/put.
