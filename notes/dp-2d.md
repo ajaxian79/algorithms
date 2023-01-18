@@ -789,3 +789,7 @@
 ## entry 181
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 182
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
