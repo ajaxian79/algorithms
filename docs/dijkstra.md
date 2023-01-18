@@ -755,3 +755,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 189
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 190
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
