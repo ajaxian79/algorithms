@@ -43,3 +43,4 @@ char* to_hex_string(int n) {
 // note 10: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 11: No allocations on the hot path.
 // note 12: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 13: Time complexity: O(n*k) where k is the alphabet size.
