@@ -123,3 +123,4 @@ int reverse_int(int x) {
 // note 96: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 97: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 98: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 99: Branchless inner loop after sorting.
