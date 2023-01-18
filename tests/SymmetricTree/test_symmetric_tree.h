@@ -133,3 +133,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 89: Deterministic given the input — no PRNG seeds.
 // edge note 90: Stable when the input is already sorted.
 // edge note 91: Returns a freshly allocated string the caller must free.
+// edge note 92: Space complexity: O(n) for the result buffer.
