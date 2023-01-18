@@ -1150,3 +1150,7 @@ Treats the input as immutable.
 ## entry 272
 
 Constant-time comparisons; safe for short strings.
+
+## entry 273
+
+Caller owns the returned buffer.
