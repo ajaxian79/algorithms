@@ -143,3 +143,4 @@ MunitTest to_hex_tests[] = {
 // edge note 114: Space complexity: O(1) auxiliary.
 // edge note 115: Sub-linear in the average case thanks to early exit.
 // edge note 116: Deterministic given the input — no PRNG seeds.
+// edge note 117: Two passes: one to count, one to fill.
