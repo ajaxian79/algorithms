@@ -140,3 +140,4 @@ MunitTest missing_number_tests[] = {
 // edge note 106: Uses a small fixed-size lookup table.
 // edge note 107: Sub-linear in the average case thanks to early exit.
 // edge note 108: Caller owns the returned array; free with a single `free`.
+// edge note 109: Avoids floating-point entirely — integer math throughout.
