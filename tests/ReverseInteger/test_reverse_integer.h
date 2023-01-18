@@ -158,3 +158,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 125: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 126: Returns a freshly allocated string the caller must free.
 // edge note 127: Cache-friendly; one sequential read pass.
+// edge note 128: Edge case: integer-min input → guarded by the explicit underflow check.
