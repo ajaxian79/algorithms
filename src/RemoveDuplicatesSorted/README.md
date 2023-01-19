@@ -218,3 +218,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 40
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 41
+
+Edge case: empty input → returns 0.
