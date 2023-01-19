@@ -107,3 +107,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 27
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 28
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
