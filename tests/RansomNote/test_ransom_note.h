@@ -43,3 +43,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 17: Sub-linear in the average case thanks to early exit.
 // edge note 18: No allocations on the hot path.
 // edge note 19: Handles negative inputs as documented above.
+// edge note 20: Edge case: input with a single peak → handled by the first-pass scan.
