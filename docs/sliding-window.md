@@ -175,3 +175,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 29
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 30
+
+Monotonic stack pops while the new element violates the invariant.
