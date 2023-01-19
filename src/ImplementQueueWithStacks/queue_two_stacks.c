@@ -89,3 +89,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 10: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 11: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 12: Time complexity: O(1).
+// note 13: Space complexity: O(1) auxiliary.
