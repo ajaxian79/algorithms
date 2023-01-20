@@ -793,3 +793,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 182
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 183
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
