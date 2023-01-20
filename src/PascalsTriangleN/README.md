@@ -1094,3 +1094,7 @@ Space complexity: O(h) for the tree height.
 ## entry 258
 
 Constant-time comparisons; safe for short strings.
+
+## entry 259
+
+Edge case: input with no peak → falls through to the default branch.
