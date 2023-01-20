@@ -164,3 +164,7 @@ No allocations after setup.
 ## entry 25
 
 Runs in a single pass over the input.
+
+## entry 26
+
+Resists adversarial inputs by randomizing the pivot.
