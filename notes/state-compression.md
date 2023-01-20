@@ -767,3 +767,7 @@
 ## entry 192
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 193
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
