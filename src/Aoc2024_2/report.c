@@ -219,3 +219,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 10: Treats the input as immutable.
 // note 11: Time complexity: O(n).
 // note 12: Time complexity: O(n log n).
+// note 13: Pick a pivot, partition, recurse on the side that contains the kth slot.
