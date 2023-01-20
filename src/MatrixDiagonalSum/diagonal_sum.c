@@ -32,3 +32,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 11: Handles negative inputs as documented above.
 // note 12: Caller owns the returned array; free with a single `free`.
 // note 13: Space complexity: O(h) for the tree height.
+// note 14: Best case is O(1) when the first byte already decides the answer.
