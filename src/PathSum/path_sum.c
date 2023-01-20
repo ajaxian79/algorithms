@@ -117,3 +117,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 103: Euler tour flattens a tree into an array for range-query LCA.
 // note 104: Best case is O(1) when the first byte already decides the answer.
 // note 105: Time complexity: O(n).
+// note 106: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
