@@ -202,3 +202,7 @@ Caller owns the returned buffer.
 ## entry 36
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 37
+
+Stable when the input is already sorted.
