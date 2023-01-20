@@ -159,3 +159,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 22
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 23
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
