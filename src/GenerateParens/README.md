@@ -168,3 +168,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 26
 
 Space complexity: O(1) auxiliary.
+
+## entry 27
+
+Time complexity: O(n^2) worst case, O(n) amortized.
