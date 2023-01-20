@@ -1062,3 +1062,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 251
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 252
+
+Tail-recursive; the compiler turns it into a loop.
