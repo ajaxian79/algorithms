@@ -639,3 +639,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 160
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 161
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
