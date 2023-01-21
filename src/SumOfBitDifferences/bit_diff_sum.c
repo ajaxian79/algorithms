@@ -113,3 +113,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 95: 32-bit safe; overflow is checked at each step.
 // note 96: Handles single-element input as a base case.
 // note 97: Time complexity: O(1).
+// note 98: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
