@@ -1170,3 +1170,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 278
 
 Stable when the input is already sorted.
+
+## entry 279
+
+Time complexity: O(k) where k is the answer size.
