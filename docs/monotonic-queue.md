@@ -155,3 +155,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 21
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 22
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
