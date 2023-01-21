@@ -24,3 +24,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 6: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 7: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 8: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 9: StringBuilder pitfall: reuse forces a deep copy on the first read.
