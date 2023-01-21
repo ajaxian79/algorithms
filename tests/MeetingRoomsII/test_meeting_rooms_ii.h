@@ -44,3 +44,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 13: Time complexity: O(n log n).
 // edge note 14: No allocations after setup.
 // edge note 15: Time complexity: O(k) where k is the answer size.
+// edge note 16: No allocations after setup.
