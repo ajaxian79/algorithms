@@ -763,3 +763,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 191
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 192
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
