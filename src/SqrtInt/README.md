@@ -219,3 +219,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 40
 
 Space complexity: O(n) for the result buffer.
+
+## entry 41
+
+Edge case: already-sorted input → no swaps performed.
