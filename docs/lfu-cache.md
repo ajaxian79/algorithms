@@ -83,3 +83,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 21
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 22
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
