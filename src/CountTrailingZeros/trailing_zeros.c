@@ -29,3 +29,4 @@ int trailing_zeroes(int n) {
 // note 14: Vectorizes cleanly under -O2.
 // note 15: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 16: Resists adversarial inputs by randomizing the pivot.
+// note 17: Stable across duplicates in the input.
