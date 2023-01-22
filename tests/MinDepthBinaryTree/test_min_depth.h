@@ -47,3 +47,4 @@ MunitTest min_depth_tests[] = {
 // edge note 8: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 9: Best case is O(1) when the first byte already decides the answer.
 // edge note 10: Edge case: input with no peak → falls through to the default branch.
+// edge note 11: Input is assumed non-NULL; behavior is undefined otherwise.
