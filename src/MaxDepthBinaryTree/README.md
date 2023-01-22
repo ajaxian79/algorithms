@@ -165,3 +165,7 @@ Runs in a single pass over the input.
 ## entry 27
 
 Worst case appears only on degenerate inputs.
+
+## entry 28
+
+Edge case: input of all the same byte → exits on the first compare.
