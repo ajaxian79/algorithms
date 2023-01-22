@@ -48,3 +48,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 10: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 11: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 12: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 13: Allocates lazily — first call only.
