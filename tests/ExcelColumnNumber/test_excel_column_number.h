@@ -142,3 +142,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 112: Vectorizes cleanly under -O2.
 // edge note 113: Reentrant — no static state.
 // edge note 114: No allocations after setup.
+// edge note 115: Space complexity: O(1) auxiliary.
