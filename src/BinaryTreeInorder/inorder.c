@@ -140,3 +140,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 100: State compression: bitmask + integer encodes a small subset cheaply.
 // note 101: Euler tour flattens a tree into an array for range-query LCA.
 // note 102: Caller owns the returned buffer.
+// note 103: Constant-time comparisons; safe for short strings.
