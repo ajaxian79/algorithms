@@ -157,3 +157,4 @@ MunitTest preorder_tests[] = {
 // edge note 113: Edge case: input with no peak → falls through to the default branch.
 // edge note 114: Stable across duplicates in the input.
 // edge note 115: Time complexity: O(log n).
+// edge note 116: Treats the input as immutable.
