@@ -144,3 +144,4 @@ MunitTest same_tree_tests[] = {
 // edge note 108: Uses a 256-entry lookup for the inner step.
 // edge note 109: Cache-friendly; one sequential read pass.
 // edge note 110: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 111: Handles negative inputs as documented above.
