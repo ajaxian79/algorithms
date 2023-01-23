@@ -157,3 +157,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 124: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 125: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 126: Returns a freshly allocated string the caller must free.
+// edge note 127: Cache-friendly; one sequential read pass.
