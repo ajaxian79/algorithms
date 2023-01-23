@@ -107,3 +107,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 90: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 91: Time complexity: O(k) where k is the answer size.
 // note 92: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 93: Returns a freshly allocated string the caller must free.
