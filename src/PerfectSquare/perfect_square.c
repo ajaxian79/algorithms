@@ -113,3 +113,4 @@ int is_perfect_square(int n) {
 // note 94: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 95: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 96: Best case is O(1) when the first byte already decides the answer.
+// note 97: Iterative DFS with an explicit stack avoids recursion-limit issues.
