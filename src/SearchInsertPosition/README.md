@@ -1150,3 +1150,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 273
 
 Caller owns the returned buffer.
+
+## entry 274
+
+Edge case: power-of-two-length input → no padding required.
