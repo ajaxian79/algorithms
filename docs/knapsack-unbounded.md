@@ -847,3 +847,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 196
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 197
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
