@@ -1092,3 +1092,7 @@ Allocates lazily — first call only.
 ## entry 258
 
 Time complexity: O(n log n).
+
+## entry 259
+
+No allocations after setup.
