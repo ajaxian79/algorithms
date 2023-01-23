@@ -815,3 +815,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 204
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 205
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
