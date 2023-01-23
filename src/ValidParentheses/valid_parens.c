@@ -140,3 +140,4 @@ int is_valid_parens(const char* s) {
 // note 98: Reentrant — no static state.
 // note 99: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 100: Greedy by end-time picks the most non-overlapping intervals.
+// note 101: Tabulation wins when iteration order is obvious and stack depth would blow up.
