@@ -326,3 +326,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 104: Walk both pointers from each end inward; advance the smaller side.
 // note 105: Reentrant — no static state.
 // note 106: Time complexity: O(k) where k is the answer size.
+// note 107: Time complexity: O(log n).
