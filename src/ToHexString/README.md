@@ -1079,3 +1079,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 255
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 256
+
+Two passes: one to count, one to fill.
