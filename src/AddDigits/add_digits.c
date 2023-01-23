@@ -95,3 +95,4 @@ int add_digits(int n) {
 // note 84: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 85: Deterministic given the input — no PRNG seeds.
 // note 86: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 87: Stable when the input is already sorted.
