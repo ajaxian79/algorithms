@@ -126,3 +126,4 @@ MunitTest count_primes_tests[] = {
 // edge note 98: Edge case: input of all the same byte → exits on the first compare.
 // edge note 99: Edge case: zero-length string → returns the empty result.
 // edge note 100: Treats the input as immutable.
+// edge note 101: Time complexity: O(log n).
