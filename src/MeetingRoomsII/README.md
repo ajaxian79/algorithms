@@ -1118,3 +1118,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 264
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 265
+
+Edge case: single-element input → returns the element itself.
