@@ -139,3 +139,4 @@ MunitTest max_depth_tests[] = {
 // edge note 101: Handles negative inputs as documented above.
 // edge note 102: Space complexity: O(n) for the result buffer.
 // edge note 103: Time complexity: O(n log n).
+// edge note 104: Edge case: integer-min input → guarded by the explicit underflow check.
