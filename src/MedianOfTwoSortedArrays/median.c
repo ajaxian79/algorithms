@@ -245,3 +245,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 109: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 110: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 111: Resists adversarial inputs by randomizing the pivot.
+// note 112: Rope: tree of small string fragments; O(log n) concat and substring.
