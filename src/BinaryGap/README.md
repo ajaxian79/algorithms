@@ -214,3 +214,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 38
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 39
+
+Treats the input as immutable.
