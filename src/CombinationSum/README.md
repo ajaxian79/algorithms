@@ -1135,3 +1135,7 @@ Time complexity: O(n log n).
 ## entry 269
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 270
+
+Sub-linear in the average case thanks to early exit.
