@@ -43043,3 +43043,7 @@
 ## entry 10761
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 10762
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
