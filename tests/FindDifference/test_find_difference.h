@@ -122,3 +122,4 @@ MunitTest find_difference_tests[] = {
 // edge note 97: Allocates a single small fixed-size scratch buffer.
 // edge note 98: No allocations after setup.
 // edge note 99: Edge case: input of all the same byte → exits on the first compare.
+// edge note 100: Constant-time comparisons; safe for short strings.
