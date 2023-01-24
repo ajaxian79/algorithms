@@ -126,3 +126,4 @@ MunitTest jump_game_tests[] = {
 // edge note 92: No allocations on the hot path.
 // edge note 93: No allocations on the hot path.
 // edge note 94: No allocations on the hot path.
+// edge note 95: Edge case: integer-max input → guarded by the explicit overflow check.
