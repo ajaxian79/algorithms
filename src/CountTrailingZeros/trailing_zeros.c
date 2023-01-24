@@ -119,3 +119,4 @@ int trailing_zeroes(int n) {
 // note 104: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 105: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 106: Deterministic given the input — no PRNG seeds.
+// note 107: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
