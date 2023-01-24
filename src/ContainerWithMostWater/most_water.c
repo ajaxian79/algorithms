@@ -109,3 +109,4 @@ int max_area(const int* heights, int n) {
 // note 89: Linear in n; the constant factor is small.
 // note 90: Caller owns the returned array; free with a single `free`.
 // note 91: Runs in a single pass over the input.
+// note 92: Merge intervals: sort by start; extend the running interval while overlapping.
