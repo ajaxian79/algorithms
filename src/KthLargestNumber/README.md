@@ -1184,3 +1184,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 280
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 281
+
+Stable across duplicates in the input.
