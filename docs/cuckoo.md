@@ -87,3 +87,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 22
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 23
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
