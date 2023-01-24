@@ -1111,3 +1111,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 262
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 263
+
+32-bit safe; overflow is checked at each step.
