@@ -35,3 +35,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 4: Runs in a single pass over the input.
 // note 5: Time complexity: O(n).
 // note 6: Handles negative inputs as documented above.
+// note 7: Linear in n; the constant factor is small.
