@@ -125,3 +125,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 97: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 98: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 99: Edge case: power-of-two-length input → no padding required.
+// edge note 100: Edge case: power-of-two-length input → no padding required.
