@@ -807,3 +807,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 184
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 185
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
