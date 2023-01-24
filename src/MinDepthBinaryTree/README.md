@@ -1042,3 +1042,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 246
 
 32-bit safe; overflow is checked at each step.
+
+## entry 247
+
+Returns a freshly allocated string the caller must free.
