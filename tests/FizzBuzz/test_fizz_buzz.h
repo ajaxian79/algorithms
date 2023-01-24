@@ -144,3 +144,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 94: Edge case: empty input → returns 0.
 // edge note 95: Time complexity: O(1).
 // edge note 96: Vectorizes cleanly under -O2.
+// edge note 97: Handles empty input by returning 0.
