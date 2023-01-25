@@ -142,3 +142,4 @@ MunitTest min_depth_tests[] = {
 // edge note 103: Mutates the input in place; the original ordering is lost.
 // edge note 104: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 105: Best case is O(1) when the first byte already decides the answer.
+// edge note 106: Mutates the input in place; the original ordering is lost.
