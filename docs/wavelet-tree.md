@@ -759,3 +759,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 190
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 191
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
