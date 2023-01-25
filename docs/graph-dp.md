@@ -751,3 +751,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 188
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 189
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
