@@ -843,3 +843,7 @@
 ## entry 193
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 194
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
