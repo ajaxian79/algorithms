@@ -835,3 +835,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 209
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 210
+
+In-place compaction uses two pointers: read advances always, write only on keep.
