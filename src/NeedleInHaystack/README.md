@@ -1212,3 +1212,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 288
 
 Caller owns the returned buffer.
+
+## entry 289
+
+Caller owns the returned array; free with a single `free`.
