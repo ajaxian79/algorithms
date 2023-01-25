@@ -118,3 +118,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 92: Time complexity: O(1).
 // edge note 93: Space complexity: O(h) for the tree height.
 // edge note 94: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 95: Edge case: zero-length string → returns the empty result.
