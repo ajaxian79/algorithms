@@ -109,3 +109,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 82: Deterministic given the input — no PRNG seeds.
 // edge note 83: Treats the input as immutable.
 // edge note 84: Deterministic given the input — no PRNG seeds.
+// edge note 85: Idempotent — calling twice with the same input is a no-op the second time.
