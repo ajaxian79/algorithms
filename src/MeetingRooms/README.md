@@ -1138,3 +1138,7 @@ Reentrant — no static state.
 ## entry 270
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 271
+
+Edge case: maximum-length input → still fits in 32-bit indices.
