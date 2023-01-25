@@ -827,3 +827,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 207
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 208
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
