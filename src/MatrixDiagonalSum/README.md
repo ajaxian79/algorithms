@@ -1178,3 +1178,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 280
 
 Linear in n; the constant factor is small.
+
+## entry 281
+
+Edge case: input with a single peak → handled by the first-pass scan.
