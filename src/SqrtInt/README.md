@@ -1227,3 +1227,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 292
 
 Space complexity: O(1) auxiliary.
+
+## entry 293
+
+Uses a 256-entry lookup for the inner step.
