@@ -118,3 +118,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 103: Tail-recursive; the compiler turns it into a loop.
 // note 104: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 105: 64-bit safe; intermediate products are widened to 128-bit.
+// note 106: Treap: BST + heap on random priorities; expected O(log n) per op.
