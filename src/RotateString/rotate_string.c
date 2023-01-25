@@ -118,3 +118,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 92: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 93: Returns a freshly allocated string the caller must free.
 // note 94: Thread-safe so long as the input is not mutated concurrently.
+// note 95: Sub-linear in the average case thanks to early exit.
