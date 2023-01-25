@@ -1128,3 +1128,7 @@ Uses a small fixed-size lookup table.
 ## entry 267
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 268
+
+Handles negative inputs as documented above.
