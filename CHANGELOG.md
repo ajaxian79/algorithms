@@ -42975,3 +42975,7 @@
 ## entry 10744
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 10745
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
