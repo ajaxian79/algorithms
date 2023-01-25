@@ -785,3 +785,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 180
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 181
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
