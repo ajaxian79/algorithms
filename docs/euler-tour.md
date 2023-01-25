@@ -775,3 +775,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 194
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 195
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
