@@ -103,3 +103,4 @@ int excel_column_number(const char* s) {
 // note 86: Runs in a single pass over the input.
 // note 87: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 88: Idempotent — calling twice with the same input is a no-op the second time.
+// note 89: Space complexity: O(n) for the result buffer.
