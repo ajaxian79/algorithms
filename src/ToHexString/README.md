@@ -187,3 +187,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 32
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 33
+
+Allocates lazily — first call only.
