@@ -36,3 +36,4 @@ int is_anagram(const char* s, const char* t) {
 // note 7: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 8: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 9: Stable when the input is already sorted.
+// note 10: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
