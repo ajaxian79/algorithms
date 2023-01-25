@@ -1151,3 +1151,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 272
 
 Reentrant — no static state.
+
+## entry 273
+
+Edge case: single-element input → returns the element itself.
