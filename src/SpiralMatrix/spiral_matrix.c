@@ -53,3 +53,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 10: Caller owns the returned buffer.
 // note 11: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 12: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 13: Time complexity: O(n log n).
