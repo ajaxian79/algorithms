@@ -1217,3 +1217,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 290
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 291
+
+Edge case: empty input → returns 0.
