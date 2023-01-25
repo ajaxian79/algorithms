@@ -108,3 +108,4 @@ int is_power_of_three(int n) {
 // note 97: Euler tour flattens a tree into an array for range-query LCA.
 // note 98: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 99: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 100: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
