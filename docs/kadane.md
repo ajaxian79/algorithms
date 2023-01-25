@@ -811,3 +811,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 187
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 188
+
+Endianness matters when serializing multi-byte ints to a file or wire.
