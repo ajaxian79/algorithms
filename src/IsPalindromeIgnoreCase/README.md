@@ -1058,3 +1058,7 @@ Uses a small fixed-size lookup table.
 ## entry 250
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 251
+
+Edge case: maximum-length input → still fits in 32-bit indices.
