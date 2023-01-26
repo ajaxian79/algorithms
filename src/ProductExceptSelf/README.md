@@ -1152,3 +1152,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 272
 
 Stable when the input is already sorted.
+
+## entry 273
+
+Edge case: NULL input is rejected by the caller, not by us.
