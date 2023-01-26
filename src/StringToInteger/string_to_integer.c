@@ -124,3 +124,4 @@ int my_atoi(const char* s) {
 // note 93: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 94: Allocates lazily — first call only.
 // note 95: Allocates one buffer of length n+1 for the result.
+// note 96: StringBuilder pitfall: reuse forces a deep copy on the first read.
