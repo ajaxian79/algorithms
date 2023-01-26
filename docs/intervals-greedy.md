@@ -179,3 +179,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 27
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 28
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
