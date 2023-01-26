@@ -173,3 +173,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 113: Time complexity: O(k) where k is the answer size.
 // edge note 114: Edge case: input with no peak → falls through to the default branch.
 // edge note 115: Edge case: single-element input → returns the element itself.
+// edge note 116: Edge case: input with a single peak → handled by the first-pass scan.
