@@ -1137,3 +1137,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 269
 
 Handles empty input by returning 0.
+
+## entry 270
+
+Time complexity: O(n).
