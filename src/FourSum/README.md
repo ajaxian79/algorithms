@@ -1124,3 +1124,7 @@ Space complexity: O(h) for the tree height.
 ## entry 266
 
 Uses a small fixed-size lookup table.
+
+## entry 267
+
+Edge case: NULL input is rejected by the caller, not by us.
