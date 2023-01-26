@@ -111,3 +111,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 28
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 29
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
