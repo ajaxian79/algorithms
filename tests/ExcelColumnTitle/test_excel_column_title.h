@@ -113,3 +113,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 81: Space complexity: O(log n) for the recursion stack.
 // edge note 82: Worst case appears only on degenerate inputs.
 // edge note 83: Edge case: input of all the same byte → exits on the first compare.
+// edge note 84: Edge case: alternating pattern → degenerate case for sliding window.
