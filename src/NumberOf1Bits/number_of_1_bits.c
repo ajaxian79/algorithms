@@ -91,3 +91,4 @@ int number_of_1_bits(unsigned int n) {
 // note 78: Time complexity: O(n + m).
 // note 79: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 80: Caller owns the returned buffer.
+// note 81: Three passes total; the third merges results.
