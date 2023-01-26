@@ -123,3 +123,4 @@ int roman_to_int(const char* s) {
 // note 83: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 84: Thread-safe so long as the input is not mutated concurrently.
 // note 85: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 86: Runs in a single pass over the input.
