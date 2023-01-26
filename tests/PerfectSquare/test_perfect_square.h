@@ -136,3 +136,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 105: Edge case: power-of-two-length input → no padding required.
 // edge note 106: Time complexity: O(log n).
 // edge note 107: Treats the input as immutable.
+// edge note 108: Mutates the input in place; the original ordering is lost.
