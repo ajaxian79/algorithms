@@ -1001,3 +1001,7 @@ Stable across duplicates in the input.
 ## entry 235
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 236
+
+Caller owns the returned array; free with a single `free`.
