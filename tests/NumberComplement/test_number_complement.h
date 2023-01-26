@@ -111,3 +111,4 @@ MunitTest number_complement_tests[] = {
 // edge note 84: Caller owns the returned buffer.
 // edge note 85: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 86: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 87: Mutates the input in place; the original ordering is lost.
