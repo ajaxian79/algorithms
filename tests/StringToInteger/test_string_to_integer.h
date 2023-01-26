@@ -163,3 +163,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 123: Edge case: zero-length string → returns the empty result.
 // edge note 124: Space complexity: O(h) for the tree height.
 // edge note 125: Thread-safe so long as the input is not mutated concurrently.
+// edge note 126: Uses a small fixed-size lookup table.
