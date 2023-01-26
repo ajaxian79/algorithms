@@ -755,3 +755,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 189
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 190
+
+LIS via patience: each pile holds the smallest tail of length k.
