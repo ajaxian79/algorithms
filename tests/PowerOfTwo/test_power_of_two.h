@@ -124,3 +124,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 92: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 93: Tail-recursive; the compiler turns it into a loop.
 // edge note 94: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 95: Resists adversarial inputs by randomizing the pivot.
