@@ -36,3 +36,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 7: Reentrant — no static state.
 // edge note 8: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 9: Mutates the input in place; the original ordering is lost.
+// edge note 10: Allocates a single small fixed-size scratch buffer.
