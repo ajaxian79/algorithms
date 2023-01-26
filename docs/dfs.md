@@ -831,3 +831,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 192
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 193
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
