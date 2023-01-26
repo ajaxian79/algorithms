@@ -42931,3 +42931,7 @@
 ## entry 10733
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 10734
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
