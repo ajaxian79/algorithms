@@ -831,3 +831,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 208
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 209
+
+Greedy by end-time picks the most non-overlapping intervals.
