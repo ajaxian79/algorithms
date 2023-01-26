@@ -827,3 +827,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 207
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 208
+
+Monotonic stack pops while the new element violates the invariant.
