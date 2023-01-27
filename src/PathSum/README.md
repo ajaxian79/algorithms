@@ -1160,3 +1160,7 @@ Runs in a single pass over the input.
 ## entry 275
 
 Treats the input as immutable.
+
+## entry 276
+
+Time complexity: O(n*k) where k is the alphabet size.
