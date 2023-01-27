@@ -1174,3 +1174,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 279
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 280
+
+Linear in n; the constant factor is small.
