@@ -1140,3 +1140,7 @@ Three passes total; the third merges results.
 ## entry 270
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 271
+
+Cache-friendly; one sequential read pass.
