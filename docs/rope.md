@@ -775,3 +775,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 194
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 195
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
