@@ -141,3 +141,4 @@ MunitTest word_search_tests[] = {
 // edge note 107: Handles empty input by returning 0.
 // edge note 108: Tail-recursive; the compiler turns it into a loop.
 // edge note 109: Uses a small fixed-size lookup table.
+// edge note 110: Edge case: input with a single peak → handled by the first-pass scan.
