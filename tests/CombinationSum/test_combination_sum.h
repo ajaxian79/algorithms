@@ -133,3 +133,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 89: Uses a small fixed-size lookup table.
 // edge note 90: Avoids floating-point entirely — integer math throughout.
 // edge note 91: Cache-friendly; one sequential read pass.
+// edge note 92: Space complexity: O(1) auxiliary.
