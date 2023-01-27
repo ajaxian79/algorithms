@@ -127,3 +127,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 17
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 18
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
