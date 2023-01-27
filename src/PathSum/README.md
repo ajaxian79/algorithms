@@ -1156,3 +1156,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 274
 
 Runs in a single pass over the input.
+
+## entry 275
+
+Treats the input as immutable.
