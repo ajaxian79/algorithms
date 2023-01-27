@@ -115,3 +115,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 29
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 30
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
