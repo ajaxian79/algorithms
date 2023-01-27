@@ -50,3 +50,4 @@ char* add_strings(const char* a, const char* b) {
 // note 10: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 11: Space complexity: O(log n) for the recursion stack.
 // note 12: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 13: Time complexity: O(n log n).
