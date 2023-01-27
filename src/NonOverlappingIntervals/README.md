@@ -1069,3 +1069,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 252
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 253
+
+Caller owns the returned array; free with a single `free`.
