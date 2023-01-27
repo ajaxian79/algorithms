@@ -715,3 +715,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 179
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 180
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
