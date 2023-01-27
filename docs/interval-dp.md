@@ -863,3 +863,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 216
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 217
+
+Monotonic stack pops while the new element violates the invariant.
