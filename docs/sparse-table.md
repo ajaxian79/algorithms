@@ -635,3 +635,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 159
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 160
+
+State compression: bitmask + integer encodes a small subset cheaply.
