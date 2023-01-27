@@ -1223,3 +1223,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 291
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 292
+
+Space complexity: O(1) auxiliary.
