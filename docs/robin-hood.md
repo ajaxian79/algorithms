@@ -107,3 +107,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 27
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 28
+
+Euler tour flattens a tree into an array for range-query LCA.
