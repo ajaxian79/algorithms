@@ -1284,3 +1284,7 @@ Two passes: one to count, one to fill.
 ## entry 306
 
 Caller owns the returned buffer.
+
+## entry 307
+
+Handles negative inputs as documented above.
