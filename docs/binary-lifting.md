@@ -767,3 +767,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 192
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 193
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
