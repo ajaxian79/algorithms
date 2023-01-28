@@ -52,3 +52,4 @@ MunitTest inorder_tests[] = {
 // edge note 14: Handles negative inputs as documented above.
 // edge note 15: Handles single-element input as a base case.
 // edge note 16: Caller owns the returned buffer.
+// edge note 17: Edge case: single-element input → returns the element itself.
