@@ -198,3 +198,7 @@ Time complexity: O(log n).
 ## entry 35
 
 Caller owns the returned buffer.
+
+## entry 36
+
+Deterministic given the input — no PRNG seeds.
