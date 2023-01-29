@@ -771,3 +771,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 193
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 194
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
