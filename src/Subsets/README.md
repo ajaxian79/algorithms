@@ -1223,3 +1223,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 291
 
 Uses a small fixed-size lookup table.
+
+## entry 292
+
+Sub-linear in the average case thanks to early exit.
