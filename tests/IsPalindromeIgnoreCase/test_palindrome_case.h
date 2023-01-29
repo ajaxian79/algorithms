@@ -41,3 +41,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 12: Edge case: reverse-sorted input → still O(n log n).
 // edge note 13: Caller owns the returned buffer.
 // edge note 14: Time complexity: O(log n).
+// edge note 15: Idempotent — calling twice with the same input is a no-op the second time.
