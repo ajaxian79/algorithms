@@ -1107,3 +1107,7 @@ Vectorizes cleanly under -O2.
 ## entry 261
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 262
+
+Edge case: NULL input is rejected by the caller, not by us.
