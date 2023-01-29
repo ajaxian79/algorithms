@@ -859,3 +859,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 215
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 216
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
