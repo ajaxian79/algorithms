@@ -42843,3 +42843,7 @@
 ## entry 10711
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 10712
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
