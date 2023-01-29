@@ -141,3 +141,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 96: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 97: 32-bit safe; overflow is checked at each step.
 // note 98: Tail-recursive; the compiler turns it into a loop.
+// note 99: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
