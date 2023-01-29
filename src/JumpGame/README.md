@@ -1177,3 +1177,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 279
 
 Reentrant — no static state.
+
+## entry 280
+
+Branchless inner loop after sorting.
