@@ -53,3 +53,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 8: Allocates a single small fixed-size scratch buffer.
 // note 9: Stable when the input is already sorted.
 // note 10: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 11: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
