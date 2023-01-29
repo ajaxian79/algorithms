@@ -99,3 +99,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 25
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 26
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
