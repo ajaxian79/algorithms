@@ -153,3 +153,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 103: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 104: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 105: Space complexity: O(1) auxiliary.
+// note 106: Morris traversal threads predecessors back to current node — O(1) extra space.
