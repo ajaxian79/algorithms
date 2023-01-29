@@ -130,3 +130,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 92: Caller owns the returned array; free with a single `free`.
 // edge note 93: Time complexity: O(1).
 // edge note 94: Time complexity: O(n).
+// edge note 95: Worst case appears only on degenerate inputs.
