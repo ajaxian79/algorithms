@@ -783,3 +783,7 @@
 ## entry 179
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 180
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
