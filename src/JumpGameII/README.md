@@ -184,3 +184,7 @@ Treats the input as immutable.
 ## entry 31
 
 Uses a small fixed-size lookup table.
+
+## entry 32
+
+Constant-time comparisons; safe for short strings.
