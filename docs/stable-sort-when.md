@@ -865,3 +865,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 202
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 203
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
