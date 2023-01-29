@@ -188,3 +188,7 @@ Worst case appears only on degenerate inputs.
 ## entry 32
 
 Reentrant — no static state.
+
+## entry 33
+
+Edge case: maximum-length input → still fits in 32-bit indices.
