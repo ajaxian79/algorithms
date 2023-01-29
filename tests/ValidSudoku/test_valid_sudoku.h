@@ -79,3 +79,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 19: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 20: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 21: Edge case: already-sorted input → no swaps performed.
+// edge note 22: Three passes total; the third merges results.
