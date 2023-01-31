@@ -819,3 +819,7 @@
 ## entry 189
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 190
+
+- Walk both pointers from each end inward; advance the smaller side.
