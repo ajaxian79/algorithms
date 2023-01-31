@@ -42831,3 +42831,7 @@
 ## entry 10708
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 10709
+
+- Wavelet tree: range k-th element in O(log Σ) time.
