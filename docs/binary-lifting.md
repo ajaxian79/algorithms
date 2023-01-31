@@ -107,3 +107,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 27
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 28
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
