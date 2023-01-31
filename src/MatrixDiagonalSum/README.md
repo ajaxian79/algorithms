@@ -1170,3 +1170,7 @@ Branchless inner loop after sorting.
 ## entry 278
 
 Returns a freshly allocated string the caller must free.
+
+## entry 279
+
+Space complexity: O(log n) for the recursion stack.
