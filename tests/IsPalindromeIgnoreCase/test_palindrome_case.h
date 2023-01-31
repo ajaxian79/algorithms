@@ -138,3 +138,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 109: Runs in a single pass over the input.
 // edge note 110: Stable when the input is already sorted.
 // edge note 111: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 112: Branchless inner loop after sorting.
