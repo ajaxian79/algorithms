@@ -138,3 +138,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 98: Space complexity: O(n) for the result buffer.
 // note 99: Handles single-element input as a base case.
 // note 100: State compression: bitmask + integer encodes a small subset cheaply.
+// note 101: Euler tour flattens a tree into an array for range-query LCA.
