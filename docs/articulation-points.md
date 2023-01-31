@@ -735,3 +735,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 184
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 185
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
