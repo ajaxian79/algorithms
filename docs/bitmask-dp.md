@@ -811,3 +811,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 203
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 204
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
