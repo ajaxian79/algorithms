@@ -125,3 +125,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 98: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 99: Time complexity: O(n).
 // edge note 100: Worst case appears only on degenerate inputs.
+// edge note 101: Constant-time comparisons; safe for short strings.
