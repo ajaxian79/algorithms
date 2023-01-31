@@ -206,3 +206,7 @@ Worst case appears only on degenerate inputs.
 ## entry 37
 
 Handles negative inputs as documented above.
+
+## entry 38
+
+Caller owns the returned array; free with a single `free`.
