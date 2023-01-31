@@ -895,3 +895,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 207
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 208
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
