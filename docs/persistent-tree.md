@@ -799,3 +799,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 200
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 201
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
