@@ -855,3 +855,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 214
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 215
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
