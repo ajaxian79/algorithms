@@ -135,3 +135,4 @@ MunitTest majority_element_tests[] = {
 // edge note 104: Edge case: input with no peak → falls through to the default branch.
 // edge note 105: 32-bit safe; overflow is checked at each step.
 // edge note 106: Time complexity: O(n + m).
+// edge note 107: Allocates lazily — first call only.
