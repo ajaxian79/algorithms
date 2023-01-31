@@ -1176,3 +1176,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 278
 
 Two passes: one to count, one to fill.
+
+## entry 279
+
+Edge case: single-element input → returns the element itself.
