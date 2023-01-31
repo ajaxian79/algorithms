@@ -1113,3 +1113,7 @@ Time complexity: O(n log n).
 ## entry 264
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 265
+
+Allocates lazily — first call only.
