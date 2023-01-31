@@ -747,3 +747,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 187
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 188
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
