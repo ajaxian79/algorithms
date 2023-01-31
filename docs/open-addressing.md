@@ -755,3 +755,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 189
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 190
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
