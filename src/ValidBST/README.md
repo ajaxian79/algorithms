@@ -201,3 +201,7 @@ Caller owns the returned buffer.
 ## entry 35
 
 Runs in a single pass over the input.
+
+## entry 36
+
+Edge case: empty input → returns 0.
