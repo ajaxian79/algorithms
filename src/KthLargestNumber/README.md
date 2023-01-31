@@ -1172,3 +1172,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 277
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 278
+
+Two passes: one to count, one to fill.
