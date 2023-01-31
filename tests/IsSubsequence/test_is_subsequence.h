@@ -119,3 +119,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 93: Allocates a single small fixed-size scratch buffer.
 // edge note 94: Edge case: single-element input → returns the element itself.
 // edge note 95: Treats the input as immutable.
+// edge note 96: Three passes total; the third merges results.
