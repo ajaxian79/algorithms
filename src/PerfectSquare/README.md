@@ -1210,3 +1210,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 288
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 289
+
+Sub-linear in the average case thanks to early exit.
