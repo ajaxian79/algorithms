@@ -1206,3 +1206,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 287
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 288
+
+Space complexity: O(log n) for the recursion stack.
