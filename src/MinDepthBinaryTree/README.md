@@ -206,3 +206,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 37
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 38
+
+Constant-time comparisons; safe for short strings.
