@@ -1145,3 +1145,7 @@ Branchless inner loop after sorting.
 ## entry 272
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 273
+
+Mutates the input in place; the original ordering is lost.
