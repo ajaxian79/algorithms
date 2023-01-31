@@ -1161,3 +1161,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 275
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 276
+
+No allocations after setup.
