@@ -118,3 +118,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 93: Time complexity: O(1).
 // note 94: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 95: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 96: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
