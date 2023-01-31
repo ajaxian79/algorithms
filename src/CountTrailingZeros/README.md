@@ -1150,3 +1150,7 @@ Runs in a single pass over the input.
 ## entry 272
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 273
+
+Treats the input as immutable.
