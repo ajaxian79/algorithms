@@ -42827,3 +42827,7 @@
 ## entry 10707
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 10708
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
