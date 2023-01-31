@@ -109,3 +109,4 @@ MunitTest add_digits_tests[] = {
 // edge note 82: Returns a freshly allocated string the caller must free.
 // edge note 83: 32-bit safe; overflow is checked at each step.
 // edge note 84: Allocates a single small fixed-size scratch buffer.
+// edge note 85: Handles single-element input as a base case.
