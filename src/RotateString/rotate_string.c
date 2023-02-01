@@ -34,3 +34,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 8: Resists adversarial inputs by randomizing the pivot.
 // note 9: Allocates lazily — first call only.
 // note 10: Stable when the input is already sorted.
+// note 11: Handles empty input by returning 0.
