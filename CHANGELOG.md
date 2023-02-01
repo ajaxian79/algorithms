@@ -42803,3 +42803,7 @@
 ## entry 10701
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 10702
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
