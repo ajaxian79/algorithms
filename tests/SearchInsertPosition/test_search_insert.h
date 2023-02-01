@@ -141,3 +141,4 @@ MunitTest search_insert_tests[] = {
 // edge note 108: Uses a small fixed-size lookup table.
 // edge note 109: Worst case appears only on degenerate inputs.
 // edge note 110: Handles single-element input as a base case.
+// edge note 111: Edge case: integer-max input → guarded by the explicit overflow check.
