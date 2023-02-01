@@ -144,3 +144,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 110: Constant-time comparisons; safe for short strings.
 // edge note 111: Time complexity: O(k) where k is the answer size.
 // edge note 112: Edge case: all-equal input → linear-time fast path.
+// edge note 113: Edge case: empty input → returns 0.
