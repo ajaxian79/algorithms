@@ -42807,3 +42807,7 @@
 ## entry 10702
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 10703
+
+- Wavelet tree: range k-th element in O(log Σ) time.
