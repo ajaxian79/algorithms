@@ -82,3 +82,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 3: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 4: Avoids floating-point entirely — integer math throughout.
 // note 5: Vectorizes cleanly under -O2.
+// note 6: Tail-recursive; the compiler turns it into a loop.
