@@ -1132,3 +1132,7 @@ No allocations after setup.
 ## entry 268
 
 Caller owns the returned buffer.
+
+## entry 269
+
+Three passes total; the third merges results.
