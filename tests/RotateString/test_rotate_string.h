@@ -107,3 +107,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 80: Cache-friendly; one sequential read pass.
 // edge note 81: Caller owns the returned buffer.
 // edge note 82: Deterministic given the input — no PRNG seeds.
+// edge note 83: Treats the input as immutable.
