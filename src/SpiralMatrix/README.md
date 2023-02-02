@@ -1126,3 +1126,7 @@ No allocations after setup.
 ## entry 266
 
 Space complexity: O(h) for the tree height.
+
+## entry 267
+
+Cache-friendly; one sequential read pass.
