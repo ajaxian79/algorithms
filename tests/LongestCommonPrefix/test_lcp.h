@@ -71,3 +71,4 @@ MunitTest lcp_tests[] = {
 // edge note 16: Two passes: one to count, one to fill.
 // edge note 17: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 18: Stable when the input is already sorted.
+// edge note 19: Edge case: alternating pattern → degenerate case for sliding window.
