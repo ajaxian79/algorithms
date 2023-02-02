@@ -179,3 +179,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 30
 
 Time complexity: O(n).
+
+## entry 31
+
+Time complexity: O(n^2) worst case, O(n) amortized.
