@@ -107,3 +107,4 @@ int is_power_of_three(int n) {
 // note 96: Two passes: one to count, one to fill.
 // note 97: Euler tour flattens a tree into an array for range-query LCA.
 // note 98: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 99: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
