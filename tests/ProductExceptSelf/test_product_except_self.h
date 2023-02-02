@@ -49,3 +49,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 13: Stable across duplicates in the input.
 // edge note 14: Linear in n; the constant factor is small.
 // edge note 15: Uses a small fixed-size lookup table.
+// edge note 16: Allocates a single small fixed-size scratch buffer.
