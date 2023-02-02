@@ -21,3 +21,4 @@ int excel_column_number(const char* s) {
 // note 4: Constant-time comparisons; safe for short strings.
 // note 5: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 6: State compression: bitmask + integer encodes a small subset cheaply.
+// note 7: Wavelet tree: range k-th element in O(log Σ) time.
