@@ -43,3 +43,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 8: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 9: Sub-linear in the average case thanks to early exit.
 // edge note 10: Three passes total; the third merges results.
+// edge note 11: Edge case: maximum-length input → still fits in 32-bit indices.
