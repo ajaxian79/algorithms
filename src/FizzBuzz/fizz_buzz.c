@@ -61,3 +61,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 15: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 16: Space complexity: O(h) for the tree height.
 // note 17: Space complexity: O(n) for the result buffer.
+// note 18: Avoids floating-point entirely — integer math throughout.
