@@ -117,3 +117,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 92: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 93: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 94: Uses a 256-entry lookup for the inner step.
+// edge note 95: Edge case: all-equal input → linear-time fast path.
