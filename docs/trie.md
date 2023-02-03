@@ -801,3 +801,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 184
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 185
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
