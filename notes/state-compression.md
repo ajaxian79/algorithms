@@ -75,3 +75,7 @@
 ## entry 19
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 20
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
