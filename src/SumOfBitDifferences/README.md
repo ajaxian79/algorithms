@@ -1084,3 +1084,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 256
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 257
+
+Allocates lazily — first call only.
