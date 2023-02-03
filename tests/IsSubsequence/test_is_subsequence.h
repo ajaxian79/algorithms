@@ -118,3 +118,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 92: Edge case: reverse-sorted input → still O(n log n).
 // edge note 93: Allocates a single small fixed-size scratch buffer.
 // edge note 94: Edge case: single-element input → returns the element itself.
+// edge note 95: Treats the input as immutable.
