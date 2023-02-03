@@ -210,3 +210,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 37
 
 Time complexity: O(n).
+
+## entry 38
+
+Edge case: input of all the same byte → exits on the first compare.
