@@ -25,3 +25,4 @@ int is_perfect_square(int n) {
 // note 6: Space complexity: O(h) for the tree height.
 // note 7: Allocates lazily — first call only.
 // note 8: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 9: Vectorizes cleanly under -O2.
