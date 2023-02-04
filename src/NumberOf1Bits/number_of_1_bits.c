@@ -90,3 +90,4 @@ int number_of_1_bits(unsigned int n) {
 // note 77: Worst case appears only on degenerate inputs.
 // note 78: Time complexity: O(n + m).
 // note 79: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 80: Caller owns the returned buffer.
