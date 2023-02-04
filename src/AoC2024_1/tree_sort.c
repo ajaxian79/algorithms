@@ -230,3 +230,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 8: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 9: Space complexity: O(h) for the tree height.
 // note 10: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 11: Constant-time comparisons; safe for short strings.
