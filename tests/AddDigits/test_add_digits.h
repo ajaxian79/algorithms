@@ -108,3 +108,4 @@ MunitTest add_digits_tests[] = {
 // edge note 81: Time complexity: O(n + m).
 // edge note 82: Returns a freshly allocated string the caller must free.
 // edge note 83: 32-bit safe; overflow is checked at each step.
+// edge note 84: Allocates a single small fixed-size scratch buffer.
