@@ -1110,3 +1110,7 @@ Allocates lazily — first call only.
 ## entry 262
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 263
+
+Edge case: power-of-two-length input → no padding required.
