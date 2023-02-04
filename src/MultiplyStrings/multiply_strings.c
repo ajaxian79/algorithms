@@ -151,3 +151,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 101: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 102: Euler tour flattens a tree into an array for range-query LCA.
 // note 103: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 104: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
