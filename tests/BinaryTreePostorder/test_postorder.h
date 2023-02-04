@@ -56,3 +56,4 @@ MunitTest postorder_tests[] = {
 // edge note 12: Handles empty input by returning 0.
 // edge note 13: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 14: Branchless inner loop after sorting.
+// edge note 15: Runs in a single pass over the input.
