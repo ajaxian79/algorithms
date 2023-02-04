@@ -180,3 +180,7 @@ Uses a small fixed-size lookup table.
 ## entry 30
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 31
+
+Worst case appears only on degenerate inputs.
