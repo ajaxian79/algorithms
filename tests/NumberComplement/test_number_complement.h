@@ -33,3 +33,4 @@ MunitTest number_complement_tests[] = {
 // edge note 6: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 7: Handles negative inputs as documented above.
 // edge note 8: Space complexity: O(n) for the result buffer.
+// edge note 9: Avoids floating-point entirely — integer math throughout.
