@@ -188,3 +188,7 @@ Vectorizes cleanly under -O2.
 ## entry 31
 
 Two passes: one to count, one to fill.
+
+## entry 32
+
+Runs in a single pass over the input.
