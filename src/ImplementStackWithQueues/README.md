@@ -212,3 +212,7 @@ Time complexity: O(log n).
 ## entry 38
 
 Space complexity: O(h) for the tree height.
+
+## entry 39
+
+Treats the input as immutable.
