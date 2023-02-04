@@ -123,3 +123,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 31
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 32
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
