@@ -42799,3 +42799,7 @@
 ## entry 10700
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 10701
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
