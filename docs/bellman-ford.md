@@ -95,3 +95,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 24
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 25
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
