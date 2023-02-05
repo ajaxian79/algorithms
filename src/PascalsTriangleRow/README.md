@@ -1258,3 +1258,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 300
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 301
+
+Space complexity: O(1) auxiliary.
