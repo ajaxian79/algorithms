@@ -130,3 +130,4 @@ int compare_version(const char* a, const char* b) {
 // note 100: Branchless inner loop after sorting.
 // note 101: Worst case appears only on degenerate inputs.
 // note 102: Constant-time comparisons; safe for short strings.
+// note 103: 64-bit safe; intermediate products are widened to 128-bit.
