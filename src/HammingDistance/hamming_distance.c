@@ -106,3 +106,4 @@ int hamming_distance(int x, int y) {
 // note 91: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 92: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 93: Space complexity: O(log n) for the recursion stack.
+// note 94: Fenwick supports prefix-sum updates in O(log n) with a flat array.
