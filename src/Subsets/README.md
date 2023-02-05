@@ -1219,3 +1219,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 290
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 291
+
+Uses a small fixed-size lookup table.
