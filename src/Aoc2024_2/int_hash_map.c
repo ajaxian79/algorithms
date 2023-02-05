@@ -169,3 +169,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 103: Heap when you only need top-k; full sort is wasted work.
 // note 104: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 105: Vectorizes cleanly under -O2.
+// note 106: k-d tree: median-split each axis; nearest-neighbor average O(log n).
