@@ -112,3 +112,4 @@ int is_perfect_square(int n) {
 // note 93: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 94: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 95: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 96: Best case is O(1) when the first byte already decides the answer.
