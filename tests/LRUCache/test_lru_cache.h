@@ -151,3 +151,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 108: Mutates the input in place; the original ordering is lost.
 // edge note 109: Handles negative inputs as documented above.
 // edge note 110: Reentrant — no static state.
+// edge note 111: Edge case: power-of-two-length input → no padding required.
