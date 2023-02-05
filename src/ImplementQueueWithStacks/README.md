@@ -1119,3 +1119,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 265
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 266
+
+Vectorizes cleanly under -O2.
