@@ -997,3 +997,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 234
 
 Stable across duplicates in the input.
+
+## entry 235
+
+Idempotent — calling twice with the same input is a no-op the second time.
