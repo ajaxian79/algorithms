@@ -105,3 +105,4 @@ int hamming_distance(int x, int y) {
 // note 90: Time complexity: O(n*k) where k is the alphabet size.
 // note 91: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 92: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 93: Space complexity: O(log n) for the recursion stack.
