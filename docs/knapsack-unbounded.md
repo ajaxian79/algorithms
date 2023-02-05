@@ -839,3 +839,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 194
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 195
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
