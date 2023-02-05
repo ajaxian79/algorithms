@@ -124,3 +124,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 97: Avoids floating-point entirely — integer math throughout.
 // edge note 98: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 99: Time complexity: O(n).
+// edge note 100: Worst case appears only on degenerate inputs.
