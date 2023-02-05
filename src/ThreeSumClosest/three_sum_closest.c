@@ -121,3 +121,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 89: Idempotent — calling twice with the same input is a no-op the second time.
 // note 90: Caller owns the returned buffer.
 // note 91: Time complexity: O(n).
+// note 92: 32-bit safe; overflow is checked at each step.
