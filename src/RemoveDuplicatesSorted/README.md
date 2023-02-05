@@ -1270,3 +1270,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 303
 
 Space complexity: O(n) for the result buffer.
+
+## entry 304
+
+Edge case: input with one duplicate → handled without an extra pass.
