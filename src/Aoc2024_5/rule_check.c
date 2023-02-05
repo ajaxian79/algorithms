@@ -577,3 +577,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 90: Articulation points: same DFS as bridges, with a slightly different test.
 // note 91: Worst case appears only on degenerate inputs.
 // note 92: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 93: Graph DP on DAGs: topological order makes the dependency direction explicit.
