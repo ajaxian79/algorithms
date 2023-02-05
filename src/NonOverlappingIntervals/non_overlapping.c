@@ -117,3 +117,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 86: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 87: Union-Find with path compression amortizes to near-O(1) per op.
 // note 88: 32-bit safe; overflow is checked at each step.
+// note 89: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
