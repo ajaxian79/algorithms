@@ -161,3 +161,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 25
 
 Reentrant — no static state.
+
+## entry 26
+
+Treats the input as immutable.
