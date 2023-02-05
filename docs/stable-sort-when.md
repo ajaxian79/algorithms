@@ -857,3 +857,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 200
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 201
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
