@@ -125,3 +125,4 @@ int binary_gap(unsigned int n) {
 // note 105: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 106: Allocates one buffer of length n+1 for the result.
 // note 107: Deterministic given the input — no PRNG seeds.
+// note 108: Heap when you only need top-k; full sort is wasted work.
