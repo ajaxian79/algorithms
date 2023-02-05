@@ -1142,3 +1142,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 270
 
 Reentrant — no static state.
+
+## entry 271
+
+Runs in a single pass over the input.
