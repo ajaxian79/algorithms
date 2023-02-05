@@ -1202,3 +1202,7 @@ Uses a small fixed-size lookup table.
 ## entry 286
 
 Returns a freshly allocated string the caller must free.
+
+## entry 287
+
+Time complexity: O(k) where k is the answer size.
