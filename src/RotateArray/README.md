@@ -1147,3 +1147,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 271
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 272
+
+Reentrant — no static state.
