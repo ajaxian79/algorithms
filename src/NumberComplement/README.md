@@ -1172,3 +1172,7 @@ Linear in n; the constant factor is small.
 ## entry 277
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 278
+
+Time complexity: O(k) where k is the answer size.
