@@ -129,3 +129,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 98: Thread-safe so long as the input is not mutated concurrently.
 // edge note 99: Sub-linear in the average case thanks to early exit.
 // edge note 100: Time complexity: O(n).
+// edge note 101: Three passes total; the third merges results.
