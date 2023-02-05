@@ -120,3 +120,4 @@ int my_sqrt(int n) {
 // note 99: Resists adversarial inputs by randomizing the pivot.
 // note 100: Time complexity: O(n*k) where k is the alphabet size.
 // note 101: Tail-recursive; the compiler turns it into a loop.
+// note 102: 32-bit safe; overflow is checked at each step.
