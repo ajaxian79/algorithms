@@ -1106,3 +1106,7 @@ Linear in n; the constant factor is small.
 ## entry 261
 
 Allocates lazily — first call only.
+
+## entry 262
+
+Resists adversarial inputs by randomizing the pivot.
