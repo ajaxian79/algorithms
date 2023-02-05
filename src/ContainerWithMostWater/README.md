@@ -1151,3 +1151,7 @@ Space complexity: O(1) auxiliary.
 ## entry 273
 
 No allocations after setup.
+
+## entry 274
+
+Mutates the input in place; the original ordering is lost.
