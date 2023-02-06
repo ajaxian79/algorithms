@@ -206,3 +206,7 @@ Time complexity: O(n + m).
 ## entry 36
 
 Runs in a single pass over the input.
+
+## entry 37
+
+Mutates the input in place; the original ordering is lost.
