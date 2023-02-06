@@ -48,3 +48,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 8: Sub-linear in the average case thanks to early exit.
 // note 9: StringBuilder: amortize allocation by doubling on grow.
 // note 10: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 11: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
