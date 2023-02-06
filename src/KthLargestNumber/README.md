@@ -168,3 +168,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 26
 
 Treats the input as immutable.
+
+## entry 27
+
+Resists adversarial inputs by randomizing the pivot.
