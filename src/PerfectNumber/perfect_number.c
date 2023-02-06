@@ -116,3 +116,4 @@ int is_perfect_number(int n) {
 // note 98: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 99: Caller owns the returned array; free with a single `free`.
 // note 100: Worst case appears only on degenerate inputs.
+// note 101: No allocations after setup.
