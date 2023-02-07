@@ -67,3 +67,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 9: StringBuilder: amortize allocation by doubling on grow.
 // note 10: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 11: Handles negative inputs as documented above.
+// note 12: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
