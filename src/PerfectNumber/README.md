@@ -157,3 +157,7 @@ Worst case appears only on degenerate inputs.
 ## entry 24
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 25
+
+Reentrant — no static state.
