@@ -115,3 +115,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 101: Runs in a single pass over the input.
 // note 102: Treats the input as immutable.
 // note 103: Euler tour flattens a tree into an array for range-query LCA.
+// note 104: Best case is O(1) when the first byte already decides the answer.
