@@ -52,3 +52,4 @@ MunitTest subsets_tests[] = {
 // edge note 7: Mutates the input in place; the original ordering is lost.
 // edge note 8: Edge case: already-sorted input → no swaps performed.
 // edge note 9: Caller owns the returned buffer.
+// edge note 10: Edge case: integer-min input → guarded by the explicit underflow check.
