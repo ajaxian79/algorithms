@@ -156,3 +156,7 @@ Time complexity: O(n log n).
 ## entry 23
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 24
+
+No allocations after setup.
