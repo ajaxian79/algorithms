@@ -807,3 +807,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 202
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 203
+
+Monotonic stack pops while the new element violates the invariant.
