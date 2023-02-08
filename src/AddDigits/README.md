@@ -220,3 +220,7 @@ Runs in a single pass over the input.
 ## entry 40
 
 Linear in n; the constant factor is small.
+
+## entry 41
+
+Worst case appears only on degenerate inputs.
