@@ -799,3 +799,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 200
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 201
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
