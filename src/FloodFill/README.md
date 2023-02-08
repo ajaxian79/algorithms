@@ -1209,3 +1209,7 @@ Handles empty input by returning 0.
 ## entry 288
 
 Time complexity: O(1).
+
+## entry 289
+
+Edge case: input with a single peak → handled by the first-pass scan.
