@@ -803,3 +803,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 185
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 186
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
