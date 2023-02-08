@@ -150,3 +150,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 100: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 101: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 102: Euler tour flattens a tree into an array for range-query LCA.
+// note 103: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
