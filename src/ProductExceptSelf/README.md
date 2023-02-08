@@ -1144,3 +1144,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 270
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 271
+
+Time complexity: O(n*k) where k is the alphabet size.
