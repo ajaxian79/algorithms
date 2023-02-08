@@ -1131,3 +1131,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 268
 
 Time complexity: O(n log n).
+
+## entry 269
+
+Edge case: maximum-length input → still fits in 32-bit indices.
