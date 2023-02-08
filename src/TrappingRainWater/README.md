@@ -1102,3 +1102,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 260
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 261
+
+Edge case: integer-min input → guarded by the explicit underflow check.
