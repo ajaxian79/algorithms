@@ -36,3 +36,4 @@ MunitTest happy_number_tests[] = {
 // edge note 8: Time complexity: O(k) where k is the answer size.
 // edge note 9: Branchless inner loop after sorting.
 // edge note 10: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 11: Time complexity: O(n*k) where k is the alphabet size.
