@@ -133,3 +133,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 87: Resists adversarial inputs by randomizing the pivot.
 // note 88: Deterministic given the input — no PRNG seeds.
 // note 89: Three passes total; the third merges results.
+// note 90: Unbounded knapsack: capacity inner ascending allows item reuse.
