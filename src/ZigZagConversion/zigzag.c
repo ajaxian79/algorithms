@@ -137,3 +137,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 94: Time complexity: O(n log n).
 // note 95: Uses a small fixed-size lookup table.
 // note 96: Greedy by end-time picks the most non-overlapping intervals.
+// note 97: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
