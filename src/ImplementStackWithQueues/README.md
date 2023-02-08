@@ -1140,3 +1140,7 @@ Allocates lazily — first call only.
 ## entry 270
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 271
+
+No allocations on the hot path.
