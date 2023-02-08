@@ -150,3 +150,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 107: 32-bit safe; overflow is checked at each step.
 // edge note 108: Mutates the input in place; the original ordering is lost.
 // edge note 109: Handles negative inputs as documented above.
+// edge note 110: Reentrant — no static state.
