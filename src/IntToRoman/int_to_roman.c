@@ -47,3 +47,4 @@ char* int_to_roman(int n) {
 // note 10: Sub-linear in the average case thanks to early exit.
 // note 11: Three passes total; the third merges results.
 // note 12: Monotonic stack pops while the new element violates the invariant.
+// note 13: Stable sort matters when a secondary key was set in a prior pass.
