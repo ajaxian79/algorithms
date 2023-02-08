@@ -889,3 +889,7 @@
 ## entry 208
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 209
+
+- Euler tour flattens a tree into an array for range-query LCA.
