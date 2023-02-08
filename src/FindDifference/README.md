@@ -1062,3 +1062,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 251
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 252
+
+Edge case: single-element input → returns the element itself.
