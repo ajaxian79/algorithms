@@ -1138,3 +1138,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 269
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 270
+
+Reentrant — no static state.
