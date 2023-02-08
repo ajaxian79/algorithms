@@ -1090,3 +1090,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 257
 
 Space complexity: O(h) for the tree height.
+
+## entry 258
+
+Constant-time comparisons; safe for short strings.
