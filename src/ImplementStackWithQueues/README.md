@@ -1144,3 +1144,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 271
 
 No allocations on the hot path.
+
+## entry 272
+
+Space complexity: O(1) auxiliary.
