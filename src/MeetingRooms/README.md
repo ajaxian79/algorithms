@@ -1122,3 +1122,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 266
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 267
+
+Space complexity: O(h) for the tree height.
