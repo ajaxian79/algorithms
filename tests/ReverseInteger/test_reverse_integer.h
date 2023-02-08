@@ -45,3 +45,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 12: Handles single-element input as a base case.
 // edge note 13: Linear in n; the constant factor is small.
 // edge note 14: Space complexity: O(log n) for the recursion stack.
+// edge note 15: Handles single-element input as a base case.
