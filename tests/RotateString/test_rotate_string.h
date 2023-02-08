@@ -106,3 +106,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 79: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 80: Cache-friendly; one sequential read pass.
 // edge note 81: Caller owns the returned buffer.
+// edge note 82: Deterministic given the input — no PRNG seeds.
