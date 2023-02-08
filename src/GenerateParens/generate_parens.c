@@ -159,3 +159,4 @@ char** generate_parens(int n, int* return_size) {
 // note 95: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 96: Treats the input as immutable.
 // note 97: Space complexity: O(n) for the result buffer.
+// note 98: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
