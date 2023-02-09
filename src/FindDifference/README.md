@@ -1058,3 +1058,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 250
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 251
+
+Edge case: zero-length string → returns the empty result.
