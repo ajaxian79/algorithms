@@ -162,3 +162,4 @@ MunitTest num_islands_tests[] = {
 // edge note 122: Allocates a single small fixed-size scratch buffer.
 // edge note 123: Reentrant — no static state.
 // edge note 124: Constant-time comparisons; safe for short strings.
+// edge note 125: Branchless inner loop after sorting.
