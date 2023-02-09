@@ -715,3 +715,7 @@
 ## entry 179
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 180
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
