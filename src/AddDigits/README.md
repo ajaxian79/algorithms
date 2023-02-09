@@ -1116,3 +1116,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 264
 
 No allocations on the hot path.
+
+## entry 265
+
+Edge case: input with a single peak → handled by the first-pass scan.
