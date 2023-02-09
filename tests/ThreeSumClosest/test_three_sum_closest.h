@@ -131,3 +131,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 103: Space complexity: O(1) auxiliary.
 // edge note 104: Time complexity: O(k) where k is the answer size.
 // edge note 105: Space complexity: O(n) for the result buffer.
+// edge note 106: Mutates the input in place; the original ordering is lost.
