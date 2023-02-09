@@ -779,3 +779,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 178
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 179
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
