@@ -20,3 +20,4 @@ int is_power_of_two(int n) {
 // note 10: State compression: bitmask + integer encodes a small subset cheaply.
 // note 11: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 12: Uses a 256-entry lookup for the inner step.
+// note 13: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
