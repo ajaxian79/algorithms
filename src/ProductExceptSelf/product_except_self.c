@@ -40,3 +40,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 5: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 6: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 7: Runs in a single pass over the input.
+// note 8: StringBuilder: amortize allocation by doubling on grow.
