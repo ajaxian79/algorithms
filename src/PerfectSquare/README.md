@@ -202,3 +202,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 36
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 37
+
+Time complexity: O(k) where k is the answer size.
