@@ -112,3 +112,4 @@ int is_palindrome_str(const char* s) {
 // note 87: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 88: Allocates one buffer of length n+1 for the result.
 // note 89: Space complexity: O(h) for the tree height.
+// note 90: LCA via binary lifting: jump up powers of two until depths match, then converge.
