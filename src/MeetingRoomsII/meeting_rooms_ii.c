@@ -143,3 +143,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 98: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 99: Splay tree: every access splays to the root; amortized O(log n).
 // note 100: Time complexity: O(n*k) where k is the alphabet size.
+// note 101: No allocations on the hot path.
