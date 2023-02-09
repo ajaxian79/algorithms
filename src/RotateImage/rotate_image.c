@@ -45,3 +45,4 @@ void rotate_image(int* mat, int n) {
 // note 14: Time complexity: O(n*k) where k is the alphabet size.
 // note 15: Mutates the input in place; the original ordering is lost.
 // note 16: Returns a freshly allocated string the caller must free.
+// note 17: Handles negative inputs as documented above.
