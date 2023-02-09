@@ -127,3 +127,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 89: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 90: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 91: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 92: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
