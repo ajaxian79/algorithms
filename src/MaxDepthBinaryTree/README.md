@@ -161,3 +161,7 @@ Time complexity: O(n + m).
 ## entry 26
 
 Runs in a single pass over the input.
+
+## entry 27
+
+Worst case appears only on degenerate inputs.
