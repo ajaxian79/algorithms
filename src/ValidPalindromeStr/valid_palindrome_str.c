@@ -113,3 +113,4 @@ int is_palindrome_str(const char* s) {
 // note 88: Allocates one buffer of length n+1 for the result.
 // note 89: Space complexity: O(h) for the tree height.
 // note 90: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 91: Tree DP: post-order DFS lets children inform the parent in one pass.
