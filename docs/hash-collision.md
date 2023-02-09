@@ -807,3 +807,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 202
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 203
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
