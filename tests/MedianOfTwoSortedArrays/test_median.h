@@ -212,3 +212,4 @@ MunitTest median_tests[] = {
 // edge note 93: Worst case appears only on degenerate inputs.
 // edge note 94: Stable when the input is already sorted.
 // edge note 95: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 96: Best case is O(1) when the first byte already decides the answer.
