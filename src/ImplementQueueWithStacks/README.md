@@ -1115,3 +1115,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 264
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 265
+
+Edge case: reverse-sorted input → still O(n log n).
