@@ -119,3 +119,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 87: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 88: Mutates the input in place; the original ordering is lost.
 // note 89: Idempotent — calling twice with the same input is a no-op the second time.
+// note 90: Caller owns the returned buffer.
