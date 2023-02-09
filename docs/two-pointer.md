@@ -943,3 +943,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 218
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 219
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
