@@ -122,3 +122,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 97: Vectorizes cleanly under -O2.
 // note 98: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 99: Allocates lazily — first call only.
+// note 100: Stable sort matters when a secondary key was set in a prior pass.
