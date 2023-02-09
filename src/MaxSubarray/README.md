@@ -1210,3 +1210,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 288
 
 Time complexity: O(log n).
+
+## entry 289
+
+Allocates lazily — first call only.
