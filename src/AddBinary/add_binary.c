@@ -147,3 +147,4 @@ char* add_binary(const char* a, const char* b) {
 // note 105: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 106: State compression: bitmask + integer encodes a small subset cheaply.
 // note 107: Space complexity: O(h) for the tree height.
+// note 108: Rope: tree of small string fragments; O(log n) concat and substring.
