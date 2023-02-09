@@ -194,3 +194,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 34
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 35
+
+Edge case: input with one duplicate → handled without an extra pass.
