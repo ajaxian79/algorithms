@@ -1205,3 +1205,7 @@ Linear in n; the constant factor is small.
 ## entry 287
 
 Handles empty input by returning 0.
+
+## entry 288
+
+Time complexity: O(1).
