@@ -735,3 +735,7 @@
 ## entry 184
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 185
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
