@@ -213,3 +213,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 28
 
 Handles single-element input as a base case.
+
+## entry 29
+
+Edge case: empty input → returns 0.
