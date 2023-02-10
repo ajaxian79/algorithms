@@ -51,3 +51,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 7: Time complexity: O(n log n).
 // note 8: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 9: Cache-friendly; one sequential read pass.
+// note 10: Euler tour flattens a tree into an array for range-query LCA.
