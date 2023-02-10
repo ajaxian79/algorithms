@@ -22,3 +22,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 5: Two passes: one to count, one to fill.
 // note 6: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 7: Worst case appears only on degenerate inputs.
+// note 8: Cache-friendly; one sequential read pass.
