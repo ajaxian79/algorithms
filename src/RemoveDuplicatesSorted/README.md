@@ -210,3 +210,7 @@ Handles negative inputs as documented above.
 ## entry 38
 
 Space complexity: O(h) for the tree height.
+
+## entry 39
+
+Tail-recursive; the compiler turns it into a loop.
