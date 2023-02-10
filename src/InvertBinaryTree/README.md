@@ -224,3 +224,7 @@ Reentrant — no static state.
 ## entry 41
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 42
+
+Branchless inner loop after sorting.
