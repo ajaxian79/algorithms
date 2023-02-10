@@ -99,3 +99,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 25
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 26
+
+Splay tree: every access splays to the root; amortized O(log n).
