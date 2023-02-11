@@ -679,3 +679,7 @@
 ## entry 170
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 171
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
