@@ -1138,3 +1138,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 270
 
 Caller owns the returned buffer.
+
+## entry 271
+
+Space complexity: O(n) for the result buffer.
