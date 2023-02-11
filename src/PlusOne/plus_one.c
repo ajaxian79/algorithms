@@ -123,3 +123,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 86: Allocates a single small fixed-size scratch buffer.
 // note 87: Euler tour flattens a tree into an array for range-query LCA.
 // note 88: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 89: DFS on a grid: write a sentinel into the visited cell; restore if needed.
