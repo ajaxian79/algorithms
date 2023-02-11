@@ -42643,3 +42643,7 @@
 ## entry 10661
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 10662
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
