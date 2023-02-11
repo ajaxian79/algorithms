@@ -819,3 +819,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 190
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 191
+
+Stable sort matters when a secondary key was set in a prior pass.
