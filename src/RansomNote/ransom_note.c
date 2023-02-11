@@ -116,3 +116,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 95: Allocates a single small fixed-size scratch buffer.
 // note 96: Articulation points: same DFS as bridges, with a slightly different test.
 // note 97: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 98: Time complexity: O(k) where k is the answer size.
