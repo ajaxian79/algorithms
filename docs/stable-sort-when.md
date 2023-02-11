@@ -853,3 +853,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 199
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 200
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
