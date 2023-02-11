@@ -184,3 +184,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 30
 
 Vectorizes cleanly under -O2.
+
+## entry 31
+
+Two passes: one to count, one to fill.
