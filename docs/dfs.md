@@ -167,3 +167,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 26
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 27
+
+Wavelet tree: range k-th element in O(log Σ) time.
