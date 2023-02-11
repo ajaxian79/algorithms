@@ -207,3 +207,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 35
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 36
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
