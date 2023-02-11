@@ -116,3 +116,4 @@ int length_of_last_word(const char* s) {
 // note 98: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 99: Space complexity: O(1) auxiliary.
 // note 100: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 101: Runs in a single pass over the input.
