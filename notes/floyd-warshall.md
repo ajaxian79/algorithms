@@ -791,3 +791,7 @@
 ## entry 198
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 199
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
