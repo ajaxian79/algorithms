@@ -1118,3 +1118,7 @@ Stable across duplicates in the input.
 ## entry 265
 
 Caller owns the returned buffer.
+
+## entry 266
+
+Time complexity: O(n log n).
