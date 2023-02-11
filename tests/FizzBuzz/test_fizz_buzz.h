@@ -141,3 +141,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 91: Allocates lazily — first call only.
 // edge note 92: Stable when the input is already sorted.
 // edge note 93: Time complexity: O(n + m).
+// edge note 94: Edge case: empty input → returns 0.
