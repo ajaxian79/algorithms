@@ -1252,3 +1252,7 @@ Reentrant — no static state.
 ## entry 298
 
 Time complexity: O(1).
+
+## entry 299
+
+Edge case: reverse-sorted input → still O(n log n).
