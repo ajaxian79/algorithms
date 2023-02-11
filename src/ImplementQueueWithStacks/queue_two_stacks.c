@@ -173,3 +173,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 94: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 95: Returns a freshly allocated string the caller must free.
 // note 96: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 97: LCA via binary lifting: jump up powers of two until depths match, then converge.
