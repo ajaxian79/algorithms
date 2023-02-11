@@ -803,3 +803,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 201
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 202
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
