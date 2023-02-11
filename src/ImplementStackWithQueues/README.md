@@ -1136,3 +1136,7 @@ Stable when the input is already sorted.
 ## entry 269
 
 Allocates lazily — first call only.
+
+## entry 270
+
+Avoids floating-point entirely — integer math throughout.
