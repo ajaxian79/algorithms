@@ -881,3 +881,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 203
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 204
+
+LIS via patience: each pile holds the smallest tail of length k.
