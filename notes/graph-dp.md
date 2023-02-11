@@ -111,3 +111,7 @@
 ## entry 28
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 29
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
