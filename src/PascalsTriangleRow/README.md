@@ -186,3 +186,7 @@ Time complexity: O(1).
 ## entry 32
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 33
+
+Space complexity: O(h) for the tree height.
