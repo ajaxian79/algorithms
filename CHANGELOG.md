@@ -42599,3 +42599,7 @@
 ## entry 10650
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 10651
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
