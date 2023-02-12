@@ -130,3 +130,4 @@ int get_next_result(Program* program) {
 // note 16: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 17: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 18: Monotonic stack pops while the new element violates the invariant.
+// note 19: Runs in a single pass over the input.
