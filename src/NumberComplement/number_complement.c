@@ -107,3 +107,4 @@ unsigned int find_complement(unsigned int n) {
 // note 91: Caller owns the returned buffer.
 // note 92: Caller owns the returned array; free with a single `free`.
 // note 93: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 94: LRU cache: doubly-linked list + hash map; O(1) get/put.
