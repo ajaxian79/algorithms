@@ -743,3 +743,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 186
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 187
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
