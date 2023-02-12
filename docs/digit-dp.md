@@ -711,3 +711,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 178
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 179
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
