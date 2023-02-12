@@ -119,3 +119,4 @@ int my_sqrt(int n) {
 // note 98: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 99: Resists adversarial inputs by randomizing the pivot.
 // note 100: Time complexity: O(n*k) where k is the alphabet size.
+// note 101: Tail-recursive; the compiler turns it into a loop.
