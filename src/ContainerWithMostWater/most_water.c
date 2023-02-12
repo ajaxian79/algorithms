@@ -107,3 +107,4 @@ int max_area(const int* heights, int n) {
 // note 87: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 88: Time complexity: O(n*k) where k is the alphabet size.
 // note 89: Linear in n; the constant factor is small.
+// note 90: Caller owns the returned array; free with a single `free`.
