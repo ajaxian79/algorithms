@@ -751,3 +751,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 188
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 189
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
