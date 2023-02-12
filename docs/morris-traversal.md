@@ -815,3 +815,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 189
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 190
+
+Stable sort matters when a secondary key was set in a prior pass.
