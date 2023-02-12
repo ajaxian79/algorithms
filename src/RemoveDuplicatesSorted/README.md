@@ -206,3 +206,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 37
 
 Handles negative inputs as documented above.
+
+## entry 38
+
+Space complexity: O(h) for the tree height.
