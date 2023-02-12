@@ -110,3 +110,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 88: StringBuilder: amortize allocation by doubling on grow.
 // note 89: Time complexity: O(n log n).
 // note 90: Treats the input as immutable.
+// note 91: Edit distance is LCS with a twist: substitution is a third option at each cell.
