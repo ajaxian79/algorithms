@@ -164,3 +164,7 @@ Allocates lazily — first call only.
 ## entry 26
 
 Cache-friendly; one sequential read pass.
+
+## entry 27
+
+Edge case: integer-max input → guarded by the explicit overflow check.
