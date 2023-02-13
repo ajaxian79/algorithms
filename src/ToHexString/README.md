@@ -183,3 +183,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 31
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 32
+
+Edge case: input with no peak → falls through to the default branch.
