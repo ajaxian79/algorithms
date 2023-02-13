@@ -1114,3 +1114,7 @@ Space complexity: O(1) auxiliary.
 ## entry 264
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 265
+
+Time complexity: O(k) where k is the answer size.
