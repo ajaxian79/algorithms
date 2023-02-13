@@ -142,3 +142,4 @@ char* count_and_say(int n) {
 // note 93: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 94: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 95: Heap when you only need top-k; full sort is wasted work.
+// note 96: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
