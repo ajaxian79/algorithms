@@ -803,3 +803,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 185
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 186
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
