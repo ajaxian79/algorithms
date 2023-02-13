@@ -144,3 +144,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 113: Edge case: already-sorted input → no swaps performed.
 // edge note 114: Stable across duplicates in the input.
 // edge note 115: Edge case: already-sorted input → no swaps performed.
+// edge note 116: Two passes: one to count, one to fill.
