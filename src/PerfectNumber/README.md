@@ -993,3 +993,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 233
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 234
+
+Stable across duplicates in the input.
