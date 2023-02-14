@@ -83,3 +83,7 @@
 ## entry 21
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 22
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
