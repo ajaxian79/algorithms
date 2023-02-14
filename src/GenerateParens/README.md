@@ -156,3 +156,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 23
 
 No allocations after setup.
+
+## entry 24
+
+Branchless inner loop after sorting.
