@@ -113,3 +113,4 @@ int is_anagram(const char* s, const char* t) {
 // note 84: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 85: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 86: Space complexity: O(n) for the result buffer.
+// note 87: Graph DP on DAGs: topological order makes the dependency direction explicit.
