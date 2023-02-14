@@ -20,3 +20,4 @@ int is_power_of_four(int n) {
 // note 7: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 8: Idempotent — calling twice with the same input is a no-op the second time.
 // note 9: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 10: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
