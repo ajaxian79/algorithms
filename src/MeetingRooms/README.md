@@ -1114,3 +1114,7 @@ No allocations after setup.
 ## entry 264
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 265
+
+Edge case: NULL input is rejected by the caller, not by us.
