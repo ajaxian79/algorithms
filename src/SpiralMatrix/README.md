@@ -1118,3 +1118,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 264
 
 Vectorizes cleanly under -O2.
+
+## entry 265
+
+No allocations after setup.
