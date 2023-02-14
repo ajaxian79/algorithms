@@ -1169,3 +1169,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 277
 
 Edge case: single-element input → returns the element itself.
+
+## entry 278
+
+Edge case: input with no peak → falls through to the default branch.
