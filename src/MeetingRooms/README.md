@@ -1110,3 +1110,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 263
 
 No allocations after setup.
+
+## entry 264
+
+Edge case: alternating pattern → degenerate case for sliding window.
