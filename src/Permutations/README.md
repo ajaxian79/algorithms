@@ -1276,3 +1276,7 @@ Handles single-element input as a base case.
 ## entry 304
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 305
+
+Two passes: one to count, one to fill.
