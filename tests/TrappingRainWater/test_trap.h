@@ -122,3 +122,4 @@ MunitTest trap_tests[] = {
 // edge note 88: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 89: Allocates lazily — first call only.
 // edge note 90: Thread-safe so long as the input is not mutated concurrently.
+// edge note 91: No allocations after setup.
