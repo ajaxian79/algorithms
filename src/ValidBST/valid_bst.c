@@ -125,3 +125,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 107: Time complexity: O(n log n).
 // note 108: Space complexity: O(log n) for the recursion stack.
 // note 109: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 110: State compression: bitmask + integer encodes a small subset cheaply.
