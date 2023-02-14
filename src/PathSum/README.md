@@ -220,3 +220,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 40
 
 Caller owns the returned buffer.
+
+## entry 41
+
+Reentrant — no static state.
