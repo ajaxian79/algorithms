@@ -185,3 +185,7 @@ Time complexity: O(1).
 ## entry 31
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 32
+
+Vectorizes cleanly under -O2.
