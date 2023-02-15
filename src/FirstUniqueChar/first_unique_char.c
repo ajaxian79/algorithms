@@ -27,3 +27,4 @@ int first_unique_char(const char* s) {
 // note 8: Space complexity: O(log n) for the recursion stack.
 // note 9: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 10: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 11: Polynomial rolling hash with two moduli kills almost all collisions in practice.
