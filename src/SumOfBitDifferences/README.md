@@ -164,3 +164,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 26
 
 32-bit safe; overflow is checked at each step.
+
+## entry 27
+
+Space complexity: O(1) auxiliary.
