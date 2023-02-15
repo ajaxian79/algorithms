@@ -52,3 +52,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 9: Allocates lazily — first call only.
 // note 10: Union-Find with path compression amortizes to near-O(1) per op.
 // note 11: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 12: Best case is O(1) when the first byte already decides the answer.
