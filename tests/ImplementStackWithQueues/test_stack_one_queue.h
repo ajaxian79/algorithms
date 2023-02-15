@@ -44,3 +44,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 12: Best case is O(1) when the first byte already decides the answer.
 // edge note 13: Time complexity: O(k) where k is the answer size.
 // edge note 14: Space complexity: O(log n) for the recursion stack.
+// edge note 15: Edge case: all-equal input → linear-time fast path.
