@@ -203,3 +203,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 34
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 35
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
