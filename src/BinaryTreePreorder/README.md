@@ -202,3 +202,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 36
 
 Worst case appears only on degenerate inputs.
+
+## entry 37
+
+Handles negative inputs as documented above.
