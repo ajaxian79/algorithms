@@ -109,3 +109,4 @@ MunitTest number_complement_tests[] = {
 // edge note 82: Allocates lazily — first call only.
 // edge note 83: Handles empty input by returning 0.
 // edge note 84: Caller owns the returned buffer.
+// edge note 85: Edge case: alternating pattern → degenerate case for sliding window.
