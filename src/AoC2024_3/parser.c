@@ -313,3 +313,4 @@ void free_contents(char *buffer) {
 // note 7: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 8: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 9: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 10: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
