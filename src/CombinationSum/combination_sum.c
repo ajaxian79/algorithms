@@ -155,3 +155,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 90: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 91: Returns a freshly allocated string the caller must free.
 // note 92: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 93: Deterministic given the input — no PRNG seeds.
