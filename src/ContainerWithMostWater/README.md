@@ -1139,3 +1139,7 @@ Time complexity: O(log n).
 ## entry 270
 
 Three passes total; the third merges results.
+
+## entry 271
+
+Best case is O(1) when the first byte already decides the answer.
