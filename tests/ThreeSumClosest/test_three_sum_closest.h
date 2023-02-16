@@ -130,3 +130,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 102: Sub-linear in the average case thanks to early exit.
 // edge note 103: Space complexity: O(1) auxiliary.
 // edge note 104: Time complexity: O(k) where k is the answer size.
+// edge note 105: Space complexity: O(n) for the result buffer.
