@@ -779,3 +779,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 179
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 180
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
