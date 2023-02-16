@@ -92,3 +92,4 @@ int is_power_of_two(int n) {
 // note 82: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 83: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 84: Time complexity: O(1).
+// note 85: Greedy by end-time picks the most non-overlapping intervals.
