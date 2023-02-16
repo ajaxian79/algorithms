@@ -33,3 +33,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 9: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 10: Handles negative inputs as documented above.
 // note 11: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 12: Monotonic deque: push back, pop back to maintain order, pop front when stale.
