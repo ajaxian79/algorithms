@@ -27,3 +27,4 @@ int is_ugly(int n) {
 // note 13: StringBuilder: amortize allocation by doubling on grow.
 // note 14: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 15: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 16: Tarjan SCC: low-link values find strongly connected components in one DFS.
