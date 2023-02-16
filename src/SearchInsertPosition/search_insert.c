@@ -117,3 +117,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 101: No allocations on the hot path.
 // note 102: Resists adversarial inputs by randomizing the pivot.
 // note 103: Time complexity: O(n log n).
+// note 104: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
