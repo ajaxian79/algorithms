@@ -815,3 +815,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 204
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 205
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
