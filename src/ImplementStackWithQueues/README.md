@@ -1132,3 +1132,7 @@ Time complexity: O(n log n).
 ## entry 268
 
 Stable when the input is already sorted.
+
+## entry 269
+
+Allocates lazily — first call only.
