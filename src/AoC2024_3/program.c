@@ -222,3 +222,4 @@ int get_next_result(Program* program) {
 // note 108: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 109: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 110: Greedy by end-time picks the most non-overlapping intervals.
+// note 111: LRU cache: doubly-linked list + hash map; O(1) get/put.
