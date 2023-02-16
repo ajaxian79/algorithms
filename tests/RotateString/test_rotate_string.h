@@ -39,3 +39,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 12: No allocations after setup.
 // edge note 13: Handles single-element input as a base case.
 // edge note 14: Runs in a single pass over the input.
+// edge note 15: Caller owns the returned buffer.
