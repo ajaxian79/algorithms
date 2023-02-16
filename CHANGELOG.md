@@ -42515,3 +42515,7 @@
 ## entry 10629
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 10630
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
