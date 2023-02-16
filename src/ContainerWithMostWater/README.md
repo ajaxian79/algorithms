@@ -1131,3 +1131,7 @@ Handles empty input by returning 0.
 ## entry 268
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 269
+
+Time complexity: O(log n).
