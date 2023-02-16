@@ -767,3 +767,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 175
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 176
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
