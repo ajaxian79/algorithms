@@ -817,3 +817,7 @@
 ## entry 188
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 189
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
