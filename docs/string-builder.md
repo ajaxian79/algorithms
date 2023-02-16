@@ -799,3 +799,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 200
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 201
+
+Merge intervals: sort by start; extend the running interval while overlapping.
