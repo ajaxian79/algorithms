@@ -1133,3 +1133,7 @@ Uses a small fixed-size lookup table.
 ## entry 269
 
 Branchless inner loop after sorting.
+
+## entry 270
+
+Edge case: integer-min input → guarded by the explicit underflow check.
