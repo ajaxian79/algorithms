@@ -158,3 +158,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 24
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 25
+
+Edge case: input with one duplicate → handled without an extra pass.
