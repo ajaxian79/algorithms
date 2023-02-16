@@ -42527,3 +42527,7 @@
 ## entry 10632
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 10633
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
