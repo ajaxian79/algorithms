@@ -168,3 +168,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 102: Reentrant — no static state.
 // note 103: Heap when you only need top-k; full sort is wasted work.
 // note 104: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 105: Vectorizes cleanly under -O2.
