@@ -213,3 +213,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 77: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 78: Space complexity: O(1) auxiliary.
 // note 79: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 80: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
