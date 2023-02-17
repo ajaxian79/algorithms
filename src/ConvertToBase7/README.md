@@ -176,3 +176,7 @@ Caller owns the returned buffer.
 ## entry 29
 
 Uses a small fixed-size lookup table.
+
+## entry 30
+
+Edge case: maximum-length input → still fits in 32-bit indices.
