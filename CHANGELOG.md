@@ -42495,3 +42495,7 @@
 ## entry 10624
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 10625
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
