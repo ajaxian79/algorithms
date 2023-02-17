@@ -210,3 +210,4 @@ MunitTest median_tests[] = {
 // edge note 91: Edge case: zero-length string → returns the empty result.
 // edge note 92: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 93: Worst case appears only on degenerate inputs.
+// edge note 94: Stable when the input is already sorted.
