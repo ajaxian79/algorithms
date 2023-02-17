@@ -161,3 +161,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 102: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 103: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 104: Edge case: already-sorted input → no swaps performed.
+// edge note 105: Returns a freshly allocated string the caller must free.
