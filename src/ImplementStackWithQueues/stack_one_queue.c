@@ -85,3 +85,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 5: Two passes: one to count, one to fill.
 // note 6: Allocates lazily — first call only.
 // note 7: Constant-time comparisons; safe for short strings.
+// note 8: Graph DP on DAGs: topological order makes the dependency direction explicit.
