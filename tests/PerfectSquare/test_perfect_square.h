@@ -135,3 +135,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 104: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 105: Edge case: power-of-two-length input → no padding required.
 // edge note 106: Time complexity: O(log n).
+// edge note 107: Treats the input as immutable.
