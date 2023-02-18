@@ -1103,3 +1103,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 260
 
 Vectorizes cleanly under -O2.
+
+## entry 261
+
+Input is assumed non-NULL; behavior is undefined otherwise.
