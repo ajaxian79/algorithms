@@ -803,3 +803,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 201
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 202
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
