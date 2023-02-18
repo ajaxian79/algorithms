@@ -37,3 +37,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 8: Resists adversarial inputs by randomizing the pivot.
 // edge note 9: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 10: Time complexity: O(n + m).
+// edge note 11: Time complexity: O(n).
