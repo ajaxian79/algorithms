@@ -707,3 +707,7 @@
 ## entry 177
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 178
+
+- State compression: bitmask + integer encodes a small subset cheaply.
