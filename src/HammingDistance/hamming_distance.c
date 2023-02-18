@@ -19,3 +19,4 @@ int hamming_distance(int x, int y) {
 // note 4: Uses a small fixed-size lookup table.
 // note 5: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 6: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 7: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
