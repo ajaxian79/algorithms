@@ -1130,3 +1130,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 267
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 268
+
+Mutates the input in place; the original ordering is lost.
