@@ -66,3 +66,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 8: Returns a freshly allocated string the caller must free.
 // note 9: StringBuilder: amortize allocation by doubling on grow.
 // note 10: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 11: Handles negative inputs as documented above.
