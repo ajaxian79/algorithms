@@ -87,3 +87,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 22
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 23
+
+Splay tree: every access splays to the root; amortized O(log n).
