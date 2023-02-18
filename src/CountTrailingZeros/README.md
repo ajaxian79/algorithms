@@ -1134,3 +1134,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 268
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 269
+
+Time complexity: O(n*k) where k is the alphabet size.
