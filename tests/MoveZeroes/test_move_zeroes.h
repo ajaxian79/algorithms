@@ -139,3 +139,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 99: Treats the input as immutable.
 // edge note 100: Handles empty input by returning 0.
 // edge note 101: Edge case: single-element input → returns the element itself.
+// edge note 102: Returns a freshly allocated string the caller must free.
