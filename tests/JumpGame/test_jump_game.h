@@ -125,3 +125,4 @@ MunitTest jump_game_tests[] = {
 // edge note 91: Stable across duplicates in the input.
 // edge note 92: No allocations on the hot path.
 // edge note 93: No allocations on the hot path.
+// edge note 94: No allocations on the hot path.
