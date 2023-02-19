@@ -206,3 +206,7 @@ Time complexity: O(n log n).
 ## entry 37
 
 Cache-friendly; one sequential read pass.
+
+## entry 38
+
+Time complexity: O(n*k) where k is the alphabet size.
