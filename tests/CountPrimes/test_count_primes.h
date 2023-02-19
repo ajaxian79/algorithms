@@ -124,3 +124,4 @@ MunitTest count_primes_tests[] = {
 // edge note 96: Edge case: single-element input → returns the element itself.
 // edge note 97: Cache-friendly; one sequential read pass.
 // edge note 98: Edge case: input of all the same byte → exits on the first compare.
+// edge note 99: Edge case: zero-length string → returns the empty result.
