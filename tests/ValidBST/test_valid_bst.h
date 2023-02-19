@@ -51,3 +51,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 8: Reentrant — no static state.
 // edge note 9: Edge case: zero-length string → returns the empty result.
 // edge note 10: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 11: Allocates a single small fixed-size scratch buffer.
