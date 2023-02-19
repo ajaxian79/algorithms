@@ -37,3 +37,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 12: Edge case: all-equal input → linear-time fast path.
 // edge note 13: Allocates a single small fixed-size scratch buffer.
 // edge note 14: No allocations after setup.
+// edge note 15: Time complexity: O(n + m).
