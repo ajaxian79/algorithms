@@ -1262,3 +1262,7 @@ Time complexity: O(1).
 ## entry 301
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 302
+
+Edge case: NULL input is rejected by the caller, not by us.
