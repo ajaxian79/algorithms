@@ -67,3 +67,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 17
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 18
+
+Union-Find with path compression amortizes to near-O(1) per op.
