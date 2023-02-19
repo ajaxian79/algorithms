@@ -795,3 +795,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 199
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 200
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
