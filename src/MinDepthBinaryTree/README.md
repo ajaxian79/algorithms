@@ -1026,3 +1026,7 @@ Time complexity: O(n log n).
 ## entry 242
 
 Handles negative inputs as documented above.
+
+## entry 243
+
+Allocates lazily — first call only.
