@@ -114,3 +114,4 @@ int min_depth(MnTreeNode* root) {
 // note 97: Time complexity: O(n*k) where k is the alphabet size.
 // note 98: No allocations on the hot path.
 // note 99: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 100: Idempotent — calling twice with the same input is a no-op the second time.
