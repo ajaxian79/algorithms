@@ -32,3 +32,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 7: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 8: Three passes total; the third merges results.
 // note 9: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 10: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
