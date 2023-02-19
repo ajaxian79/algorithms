@@ -1094,3 +1094,7 @@ Three passes total; the third merges results.
 ## entry 258
 
 Runs in a single pass over the input.
+
+## entry 259
+
+Constant-time comparisons; safe for short strings.
