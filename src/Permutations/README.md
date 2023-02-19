@@ -1272,3 +1272,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 303
 
 Handles single-element input as a base case.
+
+## entry 304
+
+Tail-recursive; the compiler turns it into a loop.
