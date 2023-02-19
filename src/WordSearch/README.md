@@ -1110,3 +1110,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 263
 
 Space complexity: O(1) auxiliary.
+
+## entry 264
+
+Uses a 256-entry lookup for the inner step.
