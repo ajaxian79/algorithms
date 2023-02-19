@@ -154,3 +154,4 @@ MunitTest inorder_tests[] = {
 // edge note 116: Caller owns the returned array; free with a single `free`.
 // edge note 117: Avoids floating-point entirely — integer math throughout.
 // edge note 118: Handles negative inputs as documented above.
+// edge note 119: Stable when the input is already sorted.
