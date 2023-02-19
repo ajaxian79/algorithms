@@ -1129,3 +1129,7 @@ Uses a small fixed-size lookup table.
 ## entry 268
 
 Uses a small fixed-size lookup table.
+
+## entry 269
+
+Branchless inner loop after sorting.
