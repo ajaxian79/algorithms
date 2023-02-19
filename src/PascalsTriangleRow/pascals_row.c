@@ -132,3 +132,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 102: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 103: Best case is O(1) when the first byte already decides the answer.
 // note 104: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 105: Allocates lazily — first call only.
