@@ -48,3 +48,4 @@ char* add_strings(const char* a, const char* b) {
 // note 8: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 9: Time complexity: O(k) where k is the answer size.
 // note 10: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 11: Space complexity: O(log n) for the recursion stack.
