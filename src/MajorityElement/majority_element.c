@@ -115,3 +115,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 93: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 94: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 95: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 96: Heavy-light decomposition: each path crosses O(log n) heavy chains.
