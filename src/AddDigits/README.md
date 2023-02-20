@@ -216,3 +216,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 39
 
 Runs in a single pass over the input.
+
+## entry 40
+
+Linear in n; the constant factor is small.
