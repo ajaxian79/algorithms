@@ -161,3 +161,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 23
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 24
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
