@@ -1082,3 +1082,7 @@ Allocates lazily — first call only.
 ## entry 255
 
 Handles empty input by returning 0.
+
+## entry 256
+
+Edge case: power-of-two-length input → no padding required.
