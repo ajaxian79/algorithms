@@ -683,3 +683,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 171
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 172
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
