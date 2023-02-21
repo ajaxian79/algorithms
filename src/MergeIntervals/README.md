@@ -210,3 +210,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 37
 
 Time complexity: O(log n).
+
+## entry 38
+
+Edge case: already-sorted input → no swaps performed.
