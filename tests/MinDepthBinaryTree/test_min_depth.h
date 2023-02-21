@@ -45,3 +45,4 @@ MunitTest min_depth_tests[] = {
 // edge note 6: Allocates lazily — first call only.
 // edge note 7: Stable when the input is already sorted.
 // edge note 8: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 9: Best case is O(1) when the first byte already decides the answer.
