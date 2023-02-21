@@ -4795,3 +4795,7 @@
 ## entry 1199
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 1200
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
