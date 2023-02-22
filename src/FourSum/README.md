@@ -1116,3 +1116,7 @@ Worst case appears only on degenerate inputs.
 ## entry 264
 
 Linear in n; the constant factor is small.
+
+## entry 265
+
+Space complexity: O(h) for the tree height.
