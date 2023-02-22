@@ -186,3 +186,7 @@ Time complexity: O(log n).
 ## entry 32
 
 Handles single-element input as a base case.
+
+## entry 33
+
+Time complexity: O(n^2) worst case, O(n) amortized.
