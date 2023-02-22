@@ -1168,3 +1168,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 276
 
 Linear in n; the constant factor is small.
+
+## entry 277
+
+64-bit safe; intermediate products are widened to 128-bit.
