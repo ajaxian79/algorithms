@@ -129,3 +129,4 @@ int compare_version(const char* a, const char* b) {
 // note 99: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 100: Branchless inner loop after sorting.
 // note 101: Worst case appears only on degenerate inputs.
+// note 102: Constant-time comparisons; safe for short strings.
