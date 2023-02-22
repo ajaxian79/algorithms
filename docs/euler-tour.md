@@ -767,3 +767,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 192
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 193
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
