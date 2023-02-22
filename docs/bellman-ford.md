@@ -839,3 +839,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 210
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 211
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
