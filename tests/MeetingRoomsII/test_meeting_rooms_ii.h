@@ -143,3 +143,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 112: Time complexity: O(k) where k is the answer size.
 // edge note 113: Time complexity: O(k) where k is the answer size.
 // edge note 114: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 115: Caller owns the returned buffer.
