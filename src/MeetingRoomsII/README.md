@@ -1102,3 +1102,7 @@ Linear in n; the constant factor is small.
 ## entry 260
 
 32-bit safe; overflow is checked at each step.
+
+## entry 261
+
+Allocates lazily — first call only.
