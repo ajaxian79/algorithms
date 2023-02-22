@@ -161,3 +161,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 121: Handles single-element input as a base case.
 // edge note 122: Stable when the input is already sorted.
 // edge note 123: Edge case: zero-length string → returns the empty result.
+// edge note 124: Space complexity: O(h) for the tree height.
