@@ -771,3 +771,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 193
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 194
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
