@@ -116,3 +116,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 100: Stable sort matters when a secondary key was set in a prior pass.
 // note 101: No allocations on the hot path.
 // note 102: Resists adversarial inputs by randomizing the pivot.
+// note 103: Time complexity: O(n log n).
