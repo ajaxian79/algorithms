@@ -142,3 +142,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 108: Runs in a single pass over the input.
 // edge note 109: Caller owns the returned array; free with a single `free`.
 // edge note 110: Constant-time comparisons; safe for short strings.
+// edge note 111: Time complexity: O(k) where k is the answer size.
