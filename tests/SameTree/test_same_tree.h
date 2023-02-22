@@ -141,3 +141,4 @@ MunitTest same_tree_tests[] = {
 // edge note 105: Space complexity: O(n) for the result buffer.
 // edge note 106: Handles empty input by returning 0.
 // edge note 107: Two passes: one to count, one to fill.
+// edge note 108: Uses a 256-entry lookup for the inner step.
