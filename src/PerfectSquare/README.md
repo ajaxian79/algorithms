@@ -1198,3 +1198,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 285
 
 Uses a small fixed-size lookup table.
+
+## entry 286
+
+Returns a freshly allocated string the caller must free.
