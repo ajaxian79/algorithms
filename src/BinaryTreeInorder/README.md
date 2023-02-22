@@ -1110,3 +1110,7 @@ Stable when the input is already sorted.
 ## entry 263
 
 Branchless inner loop after sorting.
+
+## entry 264
+
+Edge case: single-element input → returns the element itself.
