@@ -129,3 +129,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 91: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 92: Caller owns the returned array; free with a single `free`.
 // edge note 93: Time complexity: O(1).
+// edge note 94: Time complexity: O(n).
