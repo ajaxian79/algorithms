@@ -126,3 +126,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 83: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 84: 64-bit safe; intermediate products are widened to 128-bit.
 // note 85: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 86: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
