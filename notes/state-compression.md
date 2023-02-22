@@ -71,3 +71,7 @@
 ## entry 18
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 19
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
