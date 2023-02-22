@@ -731,3 +731,7 @@
 ## entry 166
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 167
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
