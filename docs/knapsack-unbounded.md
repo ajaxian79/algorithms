@@ -835,3 +835,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 193
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 194
+
+Stable sort matters when a secondary key was set in a prior pass.
