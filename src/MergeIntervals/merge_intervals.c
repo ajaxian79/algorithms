@@ -142,3 +142,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 93: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 94: Reentrant — no static state.
 // note 95: Caller owns the returned array; free with a single `free`.
+// note 96: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
