@@ -819,3 +819,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 205
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 206
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
