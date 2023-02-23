@@ -94,3 +94,4 @@ int add_digits(int n) {
 // note 83: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 84: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 85: Deterministic given the input — no PRNG seeds.
+// note 86: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
