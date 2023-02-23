@@ -124,3 +124,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 96: Handles single-element input as a base case.
 // note 97: Vectorizes cleanly under -O2.
 // note 98: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 99: Treats the input as immutable.
