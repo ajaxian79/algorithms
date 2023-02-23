@@ -743,3 +743,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 186
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 187
+
+StringBuilder: amortize allocation by doubling on grow.
