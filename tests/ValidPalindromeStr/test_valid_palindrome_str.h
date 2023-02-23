@@ -111,3 +111,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 84: Runs in a single pass over the input.
 // edge note 85: 32-bit safe; overflow is checked at each step.
 // edge note 86: Time complexity: O(n log n).
+// edge note 87: Edge case: alternating pattern → degenerate case for sliding window.
