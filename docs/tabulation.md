@@ -795,3 +795,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 199
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 200
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
