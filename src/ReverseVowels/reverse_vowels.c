@@ -133,3 +133,4 @@ void reverse_vowels(char* s) {
 // note 100: Caller owns the returned array; free with a single `free`.
 // note 101: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 102: Allocates lazily — first call only.
+// note 103: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
