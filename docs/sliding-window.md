@@ -895,3 +895,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 209
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 210
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
