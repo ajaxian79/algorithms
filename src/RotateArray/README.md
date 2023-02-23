@@ -1135,3 +1135,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 268
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 269
+
+Edge case: zero-length string → returns the empty result.
