@@ -71,3 +71,7 @@
 ## entry 18
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 19
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
