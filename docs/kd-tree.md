@@ -807,3 +807,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 202
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 203
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
