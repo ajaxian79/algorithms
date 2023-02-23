@@ -121,3 +121,4 @@ char* convert_to_base7(int n) {
 // note 88: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 89: Time complexity: O(n + m).
 // note 90: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 91: Vectorizes cleanly under -O2.
