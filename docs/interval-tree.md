@@ -695,3 +695,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 174
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 175
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
