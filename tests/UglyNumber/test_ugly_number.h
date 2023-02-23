@@ -137,3 +137,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 108: Avoids floating-point entirely — integer math throughout.
 // edge note 109: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 110: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 111: Time complexity: O(n log n).
