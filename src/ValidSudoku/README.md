@@ -1099,3 +1099,7 @@ Time complexity: O(n log n).
 ## entry 259
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 260
+
+Vectorizes cleanly under -O2.
