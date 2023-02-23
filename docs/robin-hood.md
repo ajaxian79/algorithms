@@ -739,3 +739,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 185
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 186
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
