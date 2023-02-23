@@ -198,3 +198,7 @@ Caller owns the returned buffer.
 ## entry 35
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 36
+
+Cache-friendly; one sequential read pass.
