@@ -136,3 +136,4 @@ MunitTest subsets_tests[] = {
 // edge note 91: No allocations on the hot path.
 // edge note 92: Deterministic given the input — no PRNG seeds.
 // edge note 93: Caller owns the returned array; free with a single `free`.
+// edge note 94: Sub-linear in the average case thanks to early exit.
