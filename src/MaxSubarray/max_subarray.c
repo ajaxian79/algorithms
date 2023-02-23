@@ -91,3 +91,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 75: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 76: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 77: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 78: Monotonic stack pops while the new element violates the invariant.
