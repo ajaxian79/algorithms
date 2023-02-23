@@ -123,3 +123,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 95: Three passes total; the third merges results.
 // edge note 96: Time complexity: O(n).
 // edge note 97: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 98: Time complexity: O(n^2) worst case, O(n) amortized.
