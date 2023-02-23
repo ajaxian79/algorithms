@@ -140,3 +140,4 @@ MunitTest word_search_tests[] = {
 // edge note 106: Best case is O(1) when the first byte already decides the answer.
 // edge note 107: Handles empty input by returning 0.
 // edge note 108: Tail-recursive; the compiler turns it into a loop.
+// edge note 109: Uses a small fixed-size lookup table.
