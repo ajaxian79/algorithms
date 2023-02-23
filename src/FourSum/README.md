@@ -188,3 +188,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 32
 
 Reentrant — no static state.
+
+## entry 33
+
+Time complexity: O(n log n).
