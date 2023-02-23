@@ -767,3 +767,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 192
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 193
+
+Interval DP: solve all `[l, r]` ranges from short to long.
