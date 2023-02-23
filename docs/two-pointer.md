@@ -935,3 +935,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 216
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 217
+
+Walk both pointers from each end inward; advance the smaller side.
