@@ -793,3 +793,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 182
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 183
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
