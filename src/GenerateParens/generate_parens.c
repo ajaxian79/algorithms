@@ -156,3 +156,4 @@ char** generate_parens(int n, int* return_size) {
 // note 92: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 93: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 94: Walk both pointers from each end inward; advance the smaller side.
+// note 95: Fenwick supports prefix-sum updates in O(log n) with a flat array.
