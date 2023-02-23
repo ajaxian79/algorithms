@@ -109,3 +109,4 @@ int trap(const int* height, int n) {
 // note 85: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 86: Uses a small fixed-size lookup table.
 // note 87: Stable sort matters when a secondary key was set in a prior pass.
+// note 88: Treats the input as immutable.
