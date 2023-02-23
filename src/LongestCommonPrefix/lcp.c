@@ -134,3 +134,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 93: Time complexity: O(n + m).
 // note 94: Three passes total; the third merges results.
 // note 95: Mutates the input in place; the original ordering is lost.
+// note 96: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
