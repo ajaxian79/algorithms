@@ -1164,3 +1164,7 @@ Two passes: one to count, one to fill.
 ## entry 275
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 276
+
+Linear in n; the constant factor is small.
