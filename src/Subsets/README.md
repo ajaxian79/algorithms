@@ -1211,3 +1211,7 @@ Caller owns the returned buffer.
 ## entry 288
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 289
+
+Input is assumed non-NULL; behavior is undefined otherwise.
