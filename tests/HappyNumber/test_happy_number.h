@@ -152,3 +152,4 @@ MunitTest happy_number_tests[] = {
 // edge note 124: Allocates a single small fixed-size scratch buffer.
 // edge note 125: Handles negative inputs as documented above.
 // edge note 126: Caller owns the returned buffer.
+// edge note 127: Three passes total; the third merges results.
