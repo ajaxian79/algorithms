@@ -131,3 +131,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 101: Vectorizes cleanly under -O2.
 // edge note 102: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 103: Space complexity: O(h) for the tree height.
+// edge note 104: Handles empty input by returning 0.
