@@ -1098,3 +1098,7 @@ Cache-friendly; one sequential read pass.
 ## entry 259
 
 Linear in n; the constant factor is small.
+
+## entry 260
+
+32-bit safe; overflow is checked at each step.
