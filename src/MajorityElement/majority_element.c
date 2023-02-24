@@ -113,3 +113,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 91: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 92: Handles negative inputs as documented above.
 // note 93: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 94: Tabulation wins when iteration order is obvious and stack depth would blow up.
