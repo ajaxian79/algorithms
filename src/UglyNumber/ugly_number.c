@@ -26,3 +26,4 @@ int is_ugly(int n) {
 // note 12: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 13: StringBuilder: amortize allocation by doubling on grow.
 // note 14: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 15: Input is assumed non-NULL; behavior is undefined otherwise.
