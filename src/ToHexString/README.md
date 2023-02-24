@@ -1067,3 +1067,7 @@ Handles single-element input as a base case.
 ## entry 252
 
 Worst case appears only on degenerate inputs.
+
+## entry 253
+
+Uses a small fixed-size lookup table.
