@@ -122,3 +122,4 @@ char* reverse_words(const char* s) {
 // note 78: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 79: Handles empty input by returning 0.
 // note 80: Thread-safe so long as the input is not mutated concurrently.
+// note 81: Mutates the input in place; the original ordering is lost.
