@@ -1194,3 +1194,7 @@ Cache-friendly; one sequential read pass.
 ## entry 284
 
 Space complexity: O(n) for the result buffer.
+
+## entry 285
+
+Uses a small fixed-size lookup table.
