@@ -1211,3 +1211,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 288
 
 Runs in a single pass over the input.
+
+## entry 289
+
+32-bit safe; overflow is checked at each step.
