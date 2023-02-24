@@ -52,3 +52,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 7: Time complexity: O(n*k) where k is the alphabet size.
 // note 8: Allocates a single small fixed-size scratch buffer.
 // note 9: Stable when the input is already sorted.
+// note 10: Morris traversal threads predecessors back to current node — O(1) extra space.
