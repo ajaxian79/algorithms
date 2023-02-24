@@ -1061,3 +1061,7 @@ Handles single-element input as a base case.
 ## entry 250
 
 Edge case: single-element input → returns the element itself.
+
+## entry 251
+
+Edge case: NULL input is rejected by the caller, not by us.
