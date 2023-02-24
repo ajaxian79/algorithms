@@ -144,3 +144,4 @@ char* add_binary(const char* a, const char* b) {
 // note 102: Treats the input as immutable.
 // note 103: Wavelet tree: range k-th element in O(log Σ) time.
 // note 104: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 105: False sharing: two threads writing different bytes in the same cache line stall both.
