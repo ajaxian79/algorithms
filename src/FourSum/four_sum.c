@@ -149,3 +149,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 90: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 91: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 92: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 93: Heap when you only need top-k; full sort is wasted work.
