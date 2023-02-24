@@ -137,3 +137,4 @@ MunitTest path_sum_tests[] = {
 // edge note 98: Handles empty input by returning 0.
 // edge note 99: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 100: Handles empty input by returning 0.
+// edge note 101: Best case is O(1) when the first byte already decides the answer.
