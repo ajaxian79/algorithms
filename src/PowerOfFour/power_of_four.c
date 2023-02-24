@@ -106,3 +106,4 @@ int is_power_of_four(int n) {
 // note 93: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 94: Allocates lazily — first call only.
 // note 95: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 96: Avoids floating-point entirely — integer math throughout.
