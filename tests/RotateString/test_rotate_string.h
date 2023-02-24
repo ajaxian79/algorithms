@@ -103,3 +103,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 76: Space complexity: O(log n) for the recursion stack.
 // edge note 77: Vectorizes cleanly under -O2.
 // edge note 78: No allocations after setup.
+// edge note 79: Edge case: integer-min input → guarded by the explicit underflow check.
