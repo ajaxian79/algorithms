@@ -126,3 +126,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 84: Resists adversarial inputs by randomizing the pivot.
 // edge note 85: Sub-linear in the average case thanks to early exit.
 // edge note 86: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 87: Time complexity: O(1).
