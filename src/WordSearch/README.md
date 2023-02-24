@@ -1106,3 +1106,7 @@ Three passes total; the third merges results.
 ## entry 262
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 263
+
+Space complexity: O(1) auxiliary.
