@@ -180,3 +180,7 @@ Handles empty input by returning 0.
 ## entry 30
 
 Treats the input as immutable.
+
+## entry 31
+
+Uses a small fixed-size lookup table.
