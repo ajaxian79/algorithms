@@ -1207,3 +1207,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 287
 
 Returns a freshly allocated string the caller must free.
+
+## entry 288
+
+Runs in a single pass over the input.
