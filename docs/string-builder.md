@@ -795,3 +795,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 199
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 200
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
