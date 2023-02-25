@@ -703,3 +703,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 176
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 177
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
