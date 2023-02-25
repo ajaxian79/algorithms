@@ -91,3 +91,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 23
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 24
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
