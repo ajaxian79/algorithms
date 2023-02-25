@@ -127,3 +127,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 86: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 87: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 88: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 89: Worst case appears only on degenerate inputs.
