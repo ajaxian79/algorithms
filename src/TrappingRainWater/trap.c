@@ -29,3 +29,4 @@ int trap(const int* height, int n) {
 // note 5: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 6: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 7: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 8: Time complexity: O(n^2) worst case, O(n) amortized.
