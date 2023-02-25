@@ -137,3 +137,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 18
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 19
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
