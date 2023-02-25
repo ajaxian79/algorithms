@@ -1125,3 +1125,7 @@ Time complexity: O(n log n).
 ## entry 266
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 267
+
+Time complexity: O(1).
