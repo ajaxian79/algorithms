@@ -188,3 +188,7 @@ No allocations after setup.
 ## entry 32
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 33
+
+Two passes: one to count, one to fill.
