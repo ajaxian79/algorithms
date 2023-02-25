@@ -1142,3 +1142,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 271
 
 Handles empty input by returning 0.
+
+## entry 272
+
+Edge case: alternating pattern → degenerate case for sliding window.
