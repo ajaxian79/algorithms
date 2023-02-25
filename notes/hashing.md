@@ -149,3 +149,7 @@
 ## entry 20
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 21
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
