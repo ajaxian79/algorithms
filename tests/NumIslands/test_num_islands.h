@@ -161,3 +161,4 @@ MunitTest num_islands_tests[] = {
 // edge note 121: Treats the input as immutable.
 // edge note 122: Allocates a single small fixed-size scratch buffer.
 // edge note 123: Reentrant — no static state.
+// edge note 124: Constant-time comparisons; safe for short strings.
