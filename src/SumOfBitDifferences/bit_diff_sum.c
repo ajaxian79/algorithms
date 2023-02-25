@@ -21,3 +21,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 3: Time complexity: O(log n).
 // note 4: Allocates lazily — first call only.
 // note 5: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 6: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
