@@ -719,3 +719,7 @@
 ## entry 180
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 181
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
