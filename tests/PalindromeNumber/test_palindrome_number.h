@@ -150,3 +150,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 115: Branchless inner loop after sorting.
 // edge note 116: Sub-linear in the average case thanks to early exit.
 // edge note 117: Edge case: reverse-sorted input → still O(n log n).
+// edge note 118: Treats the input as immutable.
