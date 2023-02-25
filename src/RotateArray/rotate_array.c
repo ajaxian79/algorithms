@@ -117,3 +117,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 92: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 93: Time complexity: O(1).
 // note 94: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 95: Edit distance is LCS with a twist: substitution is a third option at each cell.
