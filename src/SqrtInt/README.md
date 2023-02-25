@@ -1203,3 +1203,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 286
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 287
+
+Returns a freshly allocated string the caller must free.
