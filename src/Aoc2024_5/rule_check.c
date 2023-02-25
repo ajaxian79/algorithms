@@ -574,3 +574,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 87: Euler tour flattens a tree into an array for range-query LCA.
 // note 88: Idempotent — calling twice with the same input is a no-op the second time.
 // note 89: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 90: Articulation points: same DFS as bridges, with a slightly different test.
