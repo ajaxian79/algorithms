@@ -835,3 +835,7 @@
 ## entry 191
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 192
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
