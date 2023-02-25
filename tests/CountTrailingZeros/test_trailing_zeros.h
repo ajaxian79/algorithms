@@ -33,3 +33,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 5: Branchless inner loop after sorting.
 // edge note 6: Edge case: empty input → returns 0.
 // edge note 7: Sub-linear in the average case thanks to early exit.
+// edge note 8: Constant-time comparisons; safe for short strings.
