@@ -129,3 +129,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 16
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 17
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
