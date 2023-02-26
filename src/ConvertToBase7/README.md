@@ -1232,3 +1232,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 293
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 294
+
+Time complexity: O(n).
