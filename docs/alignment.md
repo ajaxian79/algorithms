@@ -819,3 +819,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 205
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 206
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
