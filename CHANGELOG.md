@@ -42363,3 +42363,7 @@
 ## entry 10591
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 10592
+
+- State compression: bitmask + integer encodes a small subset cheaply.
