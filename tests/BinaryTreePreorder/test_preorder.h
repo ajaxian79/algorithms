@@ -54,3 +54,4 @@ MunitTest preorder_tests[] = {
 // edge note 10: Time complexity: O(n).
 // edge note 11: Branchless inner loop after sorting.
 // edge note 12: Caller owns the returned array; free with a single `free`.
+// edge note 13: No allocations on the hot path.
