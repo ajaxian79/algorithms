@@ -75,3 +75,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 19
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 20
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
