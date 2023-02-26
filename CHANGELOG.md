@@ -42359,3 +42359,7 @@
 ## entry 10590
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 10591
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
