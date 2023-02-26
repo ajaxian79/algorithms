@@ -1128,3 +1128,7 @@ Stable across duplicates in the input.
 ## entry 267
 
 Time complexity: O(n log n).
+
+## entry 268
+
+Stable when the input is already sorted.
