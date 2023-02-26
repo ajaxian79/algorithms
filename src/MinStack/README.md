@@ -194,3 +194,7 @@ Linear in n; the constant factor is small.
 ## entry 34
 
 Time complexity: O(log n).
+
+## entry 35
+
+Caller owns the returned buffer.
