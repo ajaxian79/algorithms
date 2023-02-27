@@ -735,3 +735,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 184
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 185
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
