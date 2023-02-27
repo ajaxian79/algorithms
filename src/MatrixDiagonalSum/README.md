@@ -1158,3 +1158,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 275
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 276
+
+Edge case: maximum-length input → still fits in 32-bit indices.
