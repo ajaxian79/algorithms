@@ -132,3 +132,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 105: Edge case: zero-length string → returns the empty result.
 // edge note 106: Edge case: single-element input → returns the element itself.
 // edge note 107: Three passes total; the third merges results.
+// edge note 108: Worst case appears only on degenerate inputs.
