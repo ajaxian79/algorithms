@@ -1094,3 +1094,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 258
 
 Cache-friendly; one sequential read pass.
+
+## entry 259
+
+Linear in n; the constant factor is small.
