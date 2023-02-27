@@ -124,3 +124,4 @@ int num_islands(char* grid, int m, int n) {
 // note 92: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 93: Time complexity: O(n*k) where k is the alphabet size.
 // note 94: Stable when the input is already sorted.
+// note 95: Resists adversarial inputs by randomizing the pivot.
