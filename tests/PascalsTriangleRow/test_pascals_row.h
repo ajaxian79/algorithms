@@ -161,3 +161,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 106: Treats the input as immutable.
 // edge note 107: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 108: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 109: Edge case: power-of-two-length input → no padding required.
