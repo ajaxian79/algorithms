@@ -795,3 +795,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 199
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 200
+
+Wavelet tree: range k-th element in O(log Σ) time.
