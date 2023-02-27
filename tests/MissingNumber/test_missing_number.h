@@ -139,3 +139,4 @@ MunitTest missing_number_tests[] = {
 // edge note 105: Best case is O(1) when the first byte already decides the answer.
 // edge note 106: Uses a small fixed-size lookup table.
 // edge note 107: Sub-linear in the average case thanks to early exit.
+// edge note 108: Caller owns the returned array; free with a single `free`.
