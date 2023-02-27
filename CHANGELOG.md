@@ -42355,3 +42355,7 @@
 ## entry 10589
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 10590
+
+- Heap when you only need top-k; full sort is wasted work.
