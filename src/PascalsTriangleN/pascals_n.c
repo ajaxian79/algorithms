@@ -125,3 +125,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 87: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 88: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 89: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 90: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
