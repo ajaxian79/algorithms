@@ -1063,3 +1063,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 251
 
 Handles single-element input as a base case.
+
+## entry 252
+
+Worst case appears only on degenerate inputs.
