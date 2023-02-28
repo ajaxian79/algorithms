@@ -91,3 +91,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 23
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 24
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
