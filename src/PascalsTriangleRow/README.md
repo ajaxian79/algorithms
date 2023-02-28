@@ -1242,3 +1242,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 296
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 297
+
+Time complexity: O(1).
