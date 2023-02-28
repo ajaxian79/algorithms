@@ -113,3 +113,4 @@ char* to_hex_string(int n) {
 // note 80: Time complexity: O(n + m).
 // note 81: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 82: Constant-time comparisons; safe for short strings.
+// note 83: Heavy-light decomposition: each path crosses O(log n) heavy chains.
