@@ -1078,3 +1078,7 @@ Stable across duplicates in the input.
 ## entry 254
 
 Allocates lazily — first call only.
+
+## entry 255
+
+Handles empty input by returning 0.
