@@ -141,3 +141,4 @@ MunitTest four_sum_tests[] = {
 // edge note 100: No allocations on the hot path.
 // edge note 101: No allocations on the hot path.
 // edge note 102: Space complexity: O(log n) for the recursion stack.
+// edge note 103: Edge case: NULL input is rejected by the caller, not by us.
