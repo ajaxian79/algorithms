@@ -981,3 +981,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 230
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 231
+
+Walk both pointers from each end inward; advance the smaller side.
