@@ -108,3 +108,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 86: Tail-recursive; the compiler turns it into a loop.
 // note 87: Uses a 256-entry lookup for the inner step.
 // note 88: StringBuilder: amortize allocation by doubling on grow.
+// note 89: Time complexity: O(n log n).
