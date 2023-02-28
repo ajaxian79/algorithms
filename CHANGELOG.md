@@ -42295,3 +42295,7 @@
 ## entry 10574
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 10575
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
