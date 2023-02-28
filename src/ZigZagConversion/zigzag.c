@@ -136,3 +136,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 93: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 94: Time complexity: O(n log n).
 // note 95: Uses a small fixed-size lookup table.
+// note 96: Greedy by end-time picks the most non-overlapping intervals.
