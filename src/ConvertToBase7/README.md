@@ -172,3 +172,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 28
 
 Caller owns the returned buffer.
+
+## entry 29
+
+Uses a small fixed-size lookup table.
