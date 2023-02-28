@@ -1127,3 +1127,7 @@ Handles single-element input as a base case.
 ## entry 267
 
 Returns a freshly allocated string the caller must free.
+
+## entry 268
+
+Time complexity: O(n log n).
