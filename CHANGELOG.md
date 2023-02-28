@@ -4747,3 +4747,7 @@
 ## entry 1187
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 1188
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
