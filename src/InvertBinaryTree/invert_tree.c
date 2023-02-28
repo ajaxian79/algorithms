@@ -107,3 +107,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 92: Euler tour flattens a tree into an array for range-query LCA.
 // note 93: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 94: Best case is O(1) when the first byte already decides the answer.
+// note 95: Caller owns the returned buffer.
