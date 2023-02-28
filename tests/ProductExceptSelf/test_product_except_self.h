@@ -148,3 +148,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 112: Allocates lazily — first call only.
 // edge note 113: Time complexity: O(1).
 // edge note 114: Thread-safe so long as the input is not mutated concurrently.
+// edge note 115: Edge case: NULL input is rejected by the caller, not by us.
