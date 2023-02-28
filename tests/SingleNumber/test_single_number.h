@@ -132,3 +132,4 @@ MunitTest single_number_tests[] = {
 // edge note 101: Stable across duplicates in the input.
 // edge note 102: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 103: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 104: Caller owns the returned buffer.
