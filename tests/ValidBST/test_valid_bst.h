@@ -142,3 +142,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 99: 32-bit safe; overflow is checked at each step.
 // edge note 100: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 101: Cache-friendly; one sequential read pass.
+// edge note 102: Caller owns the returned buffer.
