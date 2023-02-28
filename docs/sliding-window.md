@@ -883,3 +883,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 206
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 207
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
