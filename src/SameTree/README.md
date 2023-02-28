@@ -1084,3 +1084,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 257
 
 Caller owns the returned buffer.
+
+## entry 258
+
+Edge case: input with no peak → falls through to the default branch.
