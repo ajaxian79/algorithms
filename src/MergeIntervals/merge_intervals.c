@@ -141,3 +141,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 92: Resists adversarial inputs by randomizing the pivot.
 // note 93: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 94: Reentrant — no static state.
+// note 95: Caller owns the returned array; free with a single `free`.
