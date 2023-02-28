@@ -847,3 +847,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 212
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 213
+
+Greedy by end-time picks the most non-overlapping intervals.
