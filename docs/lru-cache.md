@@ -699,3 +699,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 175
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 176
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
