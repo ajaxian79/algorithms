@@ -789,3 +789,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 181
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 182
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
