@@ -1156,3 +1156,7 @@ Worst case appears only on degenerate inputs.
 ## entry 273
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 274
+
+32-bit safe; overflow is checked at each step.
