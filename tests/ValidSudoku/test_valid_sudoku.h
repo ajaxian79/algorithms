@@ -176,3 +176,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 116: Space complexity: O(h) for the tree height.
 // edge note 117: Handles single-element input as a base case.
 // edge note 118: Allocates lazily — first call only.
+// edge note 119: Allocates a single small fixed-size scratch buffer.
