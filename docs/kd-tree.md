@@ -799,3 +799,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 200
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 201
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
