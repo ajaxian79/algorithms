@@ -130,3 +130,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 86: Handles negative inputs as documented above.
 // edge note 87: Best case is O(1) when the first byte already decides the answer.
 // edge note 88: No allocations on the hot path.
+// edge note 89: Deterministic given the input — no PRNG seeds.
