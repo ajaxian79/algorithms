@@ -113,3 +113,4 @@ int is_ugly(int n) {
 // note 99: Returns a freshly allocated string the caller must free.
 // note 100: State compression: bitmask + integer encodes a small subset cheaply.
 // note 101: Space complexity: O(log n) for the recursion stack.
+// note 102: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
