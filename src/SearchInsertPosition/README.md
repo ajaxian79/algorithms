@@ -1122,3 +1122,7 @@ Worst case appears only on degenerate inputs.
 ## entry 266
 
 Space complexity: O(n) for the result buffer.
+
+## entry 267
+
+Runs in a single pass over the input.
