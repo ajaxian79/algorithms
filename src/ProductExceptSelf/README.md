@@ -1140,3 +1140,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 269
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 270
+
+Edge case: all-equal input → linear-time fast path.
