@@ -1124,3 +1124,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 265
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 266
+
+Deterministic given the input — no PRNG seeds.
