@@ -1090,3 +1090,7 @@ Handles single-element input as a base case.
 ## entry 257
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 258
+
+Cache-friendly; one sequential read pass.
