@@ -176,3 +176,7 @@ Worst case appears only on degenerate inputs.
 ## entry 29
 
 Handles empty input by returning 0.
+
+## entry 30
+
+Treats the input as immutable.
