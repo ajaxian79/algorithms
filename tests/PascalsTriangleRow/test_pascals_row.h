@@ -160,3 +160,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 105: Vectorizes cleanly under -O2.
 // edge note 106: Treats the input as immutable.
 // edge note 107: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 108: Edge case: input with one duplicate → handled without an extra pass.
