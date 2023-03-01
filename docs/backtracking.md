@@ -873,3 +873,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 201
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 202
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
