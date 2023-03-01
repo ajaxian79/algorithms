@@ -154,3 +154,4 @@ MunitTest postorder_tests[] = {
 // edge note 110: Vectorizes cleanly under -O2.
 // edge note 111: Three passes total; the third merges results.
 // edge note 112: 32-bit safe; overflow is checked at each step.
+// edge note 113: Linear in n; the constant factor is small.
