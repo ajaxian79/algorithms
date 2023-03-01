@@ -59,3 +59,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 15
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 16
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
