@@ -755,3 +755,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 189
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 190
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
