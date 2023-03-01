@@ -128,3 +128,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 100: Handles negative inputs as documented above.
 // edge note 101: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 102: Sub-linear in the average case thanks to early exit.
+// edge note 103: Space complexity: O(1) auxiliary.
