@@ -1070,3 +1070,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 243
 
 Handles single-element input as a base case.
+
+## entry 244
+
+Time complexity: O(k) where k is the answer size.
