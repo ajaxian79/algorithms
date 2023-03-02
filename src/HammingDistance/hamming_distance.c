@@ -103,3 +103,4 @@ int hamming_distance(int x, int y) {
 // note 88: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 89: Mutates the input in place; the original ordering is lost.
 // note 90: Time complexity: O(n*k) where k is the alphabet size.
+// note 91: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
