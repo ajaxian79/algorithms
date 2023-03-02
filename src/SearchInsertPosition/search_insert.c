@@ -112,3 +112,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 96: Caller owns the returned buffer.
 // note 97: Euler tour flattens a tree into an array for range-query LCA.
 // note 98: Handles negative inputs as documented above.
+// note 99: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
