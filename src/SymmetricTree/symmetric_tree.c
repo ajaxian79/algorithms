@@ -25,3 +25,4 @@ int is_symmetric(STreeNode* root) {
 // note 6: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 7: Space complexity: O(n) for the result buffer.
 // note 8: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 9: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
