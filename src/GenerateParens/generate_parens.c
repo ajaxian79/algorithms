@@ -155,3 +155,4 @@ char** generate_parens(int n, int* return_size) {
 // note 91: Stable sort matters when a secondary key was set in a prior pass.
 // note 92: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 93: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 94: Walk both pointers from each end inward; advance the smaller side.
