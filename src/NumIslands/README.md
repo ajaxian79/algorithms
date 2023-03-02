@@ -169,3 +169,7 @@ Stable across duplicates in the input.
 ## entry 27
 
 Runs in a single pass over the input.
+
+## entry 28
+
+No allocations on the hot path.
