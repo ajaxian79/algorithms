@@ -113,3 +113,4 @@ int min_depth(MnTreeNode* root) {
 // note 96: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 97: Time complexity: O(n*k) where k is the alphabet size.
 // note 98: No allocations on the hot path.
+// note 99: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
