@@ -1073,3 +1073,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 253
 
 Space complexity: O(n) for the result buffer.
+
+## entry 254
+
+Stable across duplicates in the input.
