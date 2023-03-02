@@ -831,3 +831,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 208
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 209
+
+Monotonic stack pops while the new element violates the invariant.
