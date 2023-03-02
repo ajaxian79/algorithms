@@ -763,3 +763,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 191
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 192
+
+Stable sort matters when a secondary key was set in a prior pass.
