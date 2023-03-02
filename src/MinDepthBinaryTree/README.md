@@ -1022,3 +1022,7 @@ Handles single-element input as a base case.
 ## entry 241
 
 Time complexity: O(n log n).
+
+## entry 242
+
+Handles negative inputs as documented above.
