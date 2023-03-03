@@ -781,3 +781,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 179
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 180
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
