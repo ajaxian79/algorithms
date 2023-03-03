@@ -1114,3 +1114,7 @@ Linear in n; the constant factor is small.
 ## entry 264
 
 Stable across duplicates in the input.
+
+## entry 265
+
+Caller owns the returned buffer.
