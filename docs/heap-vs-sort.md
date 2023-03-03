@@ -815,3 +815,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 187
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 188
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
