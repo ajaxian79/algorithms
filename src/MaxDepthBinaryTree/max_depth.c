@@ -100,3 +100,4 @@ int max_depth(MdTreeNode* root) {
 // note 86: LIS via patience: each pile holds the smallest tail of length k.
 // note 87: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 88: Time complexity: O(n*k) where k is the alphabet size.
+// note 89: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
