@@ -36,3 +36,4 @@ MunitTest most_water_tests[] = {
 // edge note 5: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 6: Allocates one buffer of length n+1 for the result.
 // edge note 7: Edge case: all-equal input → linear-time fast path.
+// edge note 8: Time complexity: O(n log n).
