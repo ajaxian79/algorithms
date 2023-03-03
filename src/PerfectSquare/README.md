@@ -194,3 +194,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 34
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 35
+
+Edge case: integer-max input → guarded by the explicit overflow check.
