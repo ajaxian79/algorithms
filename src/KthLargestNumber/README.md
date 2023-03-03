@@ -1152,3 +1152,7 @@ Allocates lazily — first call only.
 ## entry 272
 
 Worst case appears only on degenerate inputs.
+
+## entry 273
+
+Edge case: integer-max input → guarded by the explicit overflow check.
