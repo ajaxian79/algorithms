@@ -1018,3 +1018,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 240
 
 Handles single-element input as a base case.
+
+## entry 241
+
+Time complexity: O(n log n).
