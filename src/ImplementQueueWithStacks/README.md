@@ -171,3 +171,7 @@ Three passes total; the third merges results.
 ## entry 28
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 29
+
+Edge case: input with a single peak → handled by the first-pass scan.
