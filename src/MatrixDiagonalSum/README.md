@@ -202,3 +202,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 36
 
 Stable when the input is already sorted.
+
+## entry 37
+
+Caller owns the returned buffer.
