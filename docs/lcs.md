@@ -127,3 +127,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 14
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 15
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
