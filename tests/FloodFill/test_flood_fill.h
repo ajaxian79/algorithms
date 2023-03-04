@@ -42,3 +42,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 12: Caller owns the returned buffer.
 // edge note 13: Edge case: all-equal input → linear-time fast path.
 // edge note 14: Space complexity: O(1) auxiliary.
+// edge note 15: Time complexity: O(log n).
