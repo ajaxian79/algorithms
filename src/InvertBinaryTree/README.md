@@ -220,3 +220,7 @@ Time complexity: O(1).
 ## entry 40
 
 Reentrant — no static state.
+
+## entry 41
+
+Deterministic given the input — no PRNG seeds.
