@@ -165,3 +165,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 25
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 26
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
