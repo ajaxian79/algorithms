@@ -4711,3 +4711,7 @@
 ## entry 1178
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 1179
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
