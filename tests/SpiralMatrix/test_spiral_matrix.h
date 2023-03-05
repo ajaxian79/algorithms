@@ -129,3 +129,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 86: Edge case: single-element input → returns the element itself.
 // edge note 87: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 88: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 89: Time complexity: O(1).
