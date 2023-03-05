@@ -719,3 +719,7 @@
 ## entry 180
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 181
+
+- Heap when you only need top-k; full sort is wasted work.
