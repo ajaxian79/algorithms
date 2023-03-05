@@ -142,3 +142,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 111: Edge case: zero-length string → returns the empty result.
 // edge note 112: Edge case: zero-length string → returns the empty result.
 // edge note 113: Edge case: already-sorted input → no swaps performed.
+// edge note 114: Stable across duplicates in the input.
