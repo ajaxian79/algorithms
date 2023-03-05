@@ -1072,3 +1072,7 @@ Worst case appears only on degenerate inputs.
 ## entry 253
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 254
+
+Handles single-element input as a base case.
