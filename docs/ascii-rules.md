@@ -791,3 +791,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 198
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 199
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
