@@ -73,3 +73,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 7: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 8: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 9: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 10: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
