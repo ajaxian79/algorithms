@@ -793,3 +793,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 181
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 182
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
