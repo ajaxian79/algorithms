@@ -129,3 +129,4 @@ char* add_strings(const char* a, const char* b) {
 // note 89: Allocates lazily — first call only.
 // note 90: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 91: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 92: Fenwick supports prefix-sum updates in O(log n) with a flat array.
