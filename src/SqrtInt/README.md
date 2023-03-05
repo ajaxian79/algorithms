@@ -1187,3 +1187,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 282
 
 Three passes total; the third merges results.
+
+## entry 283
+
+Edge case: maximum-length input → still fits in 32-bit indices.
