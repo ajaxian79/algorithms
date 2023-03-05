@@ -125,3 +125,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 82: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 83: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 84: 64-bit safe; intermediate products are widened to 128-bit.
+// note 85: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
