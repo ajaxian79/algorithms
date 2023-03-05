@@ -1148,3 +1148,7 @@ Handles negative inputs as documented above.
 ## entry 271
 
 Allocates lazily — first call only.
+
+## entry 272
+
+Worst case appears only on degenerate inputs.
