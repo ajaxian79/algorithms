@@ -141,3 +141,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 98: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 99: 32-bit safe; overflow is checked at each step.
 // edge note 100: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 101: Cache-friendly; one sequential read pass.
