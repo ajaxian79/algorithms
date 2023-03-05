@@ -1069,3 +1069,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 252
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 253
+
+Space complexity: O(n) for the result buffer.
