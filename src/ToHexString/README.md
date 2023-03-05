@@ -1055,3 +1055,7 @@ Worst case appears only on degenerate inputs.
 ## entry 249
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 250
+
+Edge case: NULL input is rejected by the caller, not by us.
