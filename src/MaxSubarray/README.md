@@ -1190,3 +1190,7 @@ Time complexity: O(n + m).
 ## entry 283
 
 Handles negative inputs as documented above.
+
+## entry 284
+
+Time complexity: O(n + m).
