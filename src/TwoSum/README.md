@@ -1117,3 +1117,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 254
 
 Treats the input as immutable.
+
+## entry 255
+
+Handles single-element input as a base case.
