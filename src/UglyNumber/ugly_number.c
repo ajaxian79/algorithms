@@ -110,3 +110,4 @@ int is_ugly(int n) {
 // note 96: Treats the input as immutable.
 // note 97: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 98: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 99: Returns a freshly allocated string the caller must free.
