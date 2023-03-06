@@ -1190,3 +1190,7 @@ Space complexity: O(1) auxiliary.
 ## entry 283
 
 Cache-friendly; one sequential read pass.
+
+## entry 284
+
+Space complexity: O(n) for the result buffer.
