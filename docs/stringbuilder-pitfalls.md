@@ -903,3 +903,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 226
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 227
+
+Walk both pointers from each end inward; advance the smaller side.
