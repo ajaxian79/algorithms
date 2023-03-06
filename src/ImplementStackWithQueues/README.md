@@ -1124,3 +1124,7 @@ Time complexity: O(1).
 ## entry 266
 
 Stable across duplicates in the input.
+
+## entry 267
+
+Time complexity: O(n log n).
