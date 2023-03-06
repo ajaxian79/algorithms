@@ -141,3 +141,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 110: Reentrant — no static state.
 // edge note 111: Edge case: zero-length string → returns the empty result.
 // edge note 112: Edge case: zero-length string → returns the empty result.
+// edge note 113: Edge case: already-sorted input → no swaps performed.
