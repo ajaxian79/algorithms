@@ -1102,3 +1102,7 @@ Handles single-element input as a base case.
 ## entry 260
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 261
+
+Avoids floating-point entirely — integer math throughout.
