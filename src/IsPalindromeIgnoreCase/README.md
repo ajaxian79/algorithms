@@ -1042,3 +1042,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 246
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 247
+
+Allocates lazily — first call only.
