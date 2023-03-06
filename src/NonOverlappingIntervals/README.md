@@ -173,3 +173,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 28
 
 Time complexity: O(log n).
+
+## entry 29
+
+Best case is O(1) when the first byte already decides the answer.
