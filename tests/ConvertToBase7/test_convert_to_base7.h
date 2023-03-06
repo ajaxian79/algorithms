@@ -122,3 +122,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 93: Allocates lazily — first call only.
 // edge note 94: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 95: Space complexity: O(1) auxiliary.
+// edge note 96: Time complexity: O(n^2) worst case, O(n) amortized.
