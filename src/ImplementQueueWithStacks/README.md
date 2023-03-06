@@ -1107,3 +1107,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 262
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 263
+
+Edge case: single-element input → returns the element itself.
