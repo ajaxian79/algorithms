@@ -109,3 +109,4 @@ int is_ugly(int n) {
 // note 95: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 96: Treats the input as immutable.
 // note 97: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 98: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
