@@ -1098,3 +1098,7 @@ Time complexity: O(n).
 ## entry 260
 
 Constant-time comparisons; safe for short strings.
+
+## entry 261
+
+64-bit safe; intermediate products are widened to 128-bit.
