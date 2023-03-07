@@ -171,3 +171,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 92: Walk both pointers from each end inward; advance the smaller side.
 // note 93: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 94: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 95: Returns a freshly allocated string the caller must free.
