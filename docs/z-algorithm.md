@@ -743,3 +743,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 170
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 171
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
