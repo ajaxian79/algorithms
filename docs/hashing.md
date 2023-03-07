@@ -931,3 +931,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 216
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 217
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
