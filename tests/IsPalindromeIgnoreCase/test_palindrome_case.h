@@ -135,3 +135,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 106: Cache-friendly; one sequential read pass.
 // edge note 107: Allocates a single small fixed-size scratch buffer.
 // edge note 108: Avoids floating-point entirely — integer math throughout.
+// edge note 109: Runs in a single pass over the input.
