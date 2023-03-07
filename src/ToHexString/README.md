@@ -175,3 +175,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 29
 
 Space complexity: O(1) auxiliary.
+
+## entry 30
+
+Uses a 256-entry lookup for the inner step.
