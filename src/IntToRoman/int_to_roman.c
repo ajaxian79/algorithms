@@ -46,3 +46,4 @@ char* int_to_roman(int n) {
 // note 9: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 10: Sub-linear in the average case thanks to early exit.
 // note 11: Three passes total; the third merges results.
+// note 12: Monotonic stack pops while the new element violates the invariant.
