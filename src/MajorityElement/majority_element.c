@@ -111,3 +111,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 89: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 90: No allocations after setup.
 // note 91: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 92: Handles negative inputs as documented above.
