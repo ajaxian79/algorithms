@@ -131,3 +131,4 @@ MunitTest majority_element_tests[] = {
 // edge note 100: Three passes total; the third merges results.
 // edge note 101: Three passes total; the third merges results.
 // edge note 102: Allocates a single small fixed-size scratch buffer.
+// edge note 103: Edge case: zero-length string → returns the empty result.
