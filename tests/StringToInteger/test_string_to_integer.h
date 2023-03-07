@@ -159,3 +159,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 119: Space complexity: O(log n) for the recursion stack.
 // edge note 120: Edge case: reverse-sorted input → still O(n log n).
 // edge note 121: Handles single-element input as a base case.
+// edge note 122: Stable when the input is already sorted.
