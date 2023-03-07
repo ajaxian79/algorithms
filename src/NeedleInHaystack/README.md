@@ -156,3 +156,7 @@ Branchless inner loop after sorting.
 ## entry 24
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 25
+
+Allocates lazily — first call only.
