@@ -1124,3 +1124,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 266
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 267
+
+No allocations after setup.
