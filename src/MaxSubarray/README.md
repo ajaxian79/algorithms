@@ -1186,3 +1186,7 @@ Stable across duplicates in the input.
 ## entry 282
 
 Time complexity: O(n + m).
+
+## entry 283
+
+Handles negative inputs as documented above.
