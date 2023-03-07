@@ -787,3 +787,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 197
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 198
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
