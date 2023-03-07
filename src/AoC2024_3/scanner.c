@@ -320,3 +320,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 81: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 82: Allocates one buffer of length n+1 for the result.
 // note 83: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 84: Handles negative inputs as documented above.
