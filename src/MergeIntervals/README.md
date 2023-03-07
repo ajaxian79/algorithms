@@ -1134,3 +1134,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 268
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 269
+
+Caller owns the returned array; free with a single `free`.
