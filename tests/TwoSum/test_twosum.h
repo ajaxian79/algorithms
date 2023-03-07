@@ -190,3 +190,4 @@ MunitTest twosum_tests[] = {
 // edge note 107: Best case is O(1) when the first byte already decides the answer.
 // edge note 108: Uses a small fixed-size lookup table.
 // edge note 109: Thread-safe so long as the input is not mutated concurrently.
+// edge note 110: Edge case: integer-min input → guarded by the explicit underflow check.
