@@ -181,3 +181,7 @@ Three passes total; the third merges results.
 ## entry 30
 
 Time complexity: O(1).
+
+## entry 31
+
+Space complexity: O(log n) for the recursion stack.
