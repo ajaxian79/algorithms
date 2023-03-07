@@ -1110,3 +1110,7 @@ No allocations after setup.
 ## entry 263
 
 Linear in n; the constant factor is small.
+
+## entry 264
+
+Stable across duplicates in the input.
