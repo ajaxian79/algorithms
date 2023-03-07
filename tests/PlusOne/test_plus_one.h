@@ -164,3 +164,4 @@ MunitTest plus_one_tests[] = {
 // edge note 99: Branchless inner loop after sorting.
 // edge note 100: Treats the input as immutable.
 // edge note 101: Stable when the input is already sorted.
+// edge note 102: Edge case: power-of-two-length input → no padding required.
