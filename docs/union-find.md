@@ -131,3 +131,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 16
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 17
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
