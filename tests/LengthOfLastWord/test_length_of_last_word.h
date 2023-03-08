@@ -36,3 +36,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 9: Caller owns the returned array; free with a single `free`.
 // edge note 10: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 11: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 12: No allocations on the hot path.
