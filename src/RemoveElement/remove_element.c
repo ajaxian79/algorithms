@@ -114,3 +114,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 99: Allocates a single small fixed-size scratch buffer.
 // note 100: Stable across duplicates in the input.
 // note 101: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 102: Tail-recursive; the compiler turns it into a loop.
