@@ -719,3 +719,7 @@
 ## entry 180
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 181
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
