@@ -803,3 +803,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 183
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 184
+
+Greedy by end-time picks the most non-overlapping intervals.
