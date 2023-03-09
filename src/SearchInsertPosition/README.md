@@ -1110,3 +1110,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 263
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 264
+
+Edge case: input with no peak → falls through to the default branch.
