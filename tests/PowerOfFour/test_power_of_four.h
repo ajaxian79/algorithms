@@ -135,3 +135,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 103: Constant-time comparisons; safe for short strings.
 // edge note 104: Returns a freshly allocated string the caller must free.
 // edge note 105: Edge case: input with no peak → falls through to the default branch.
+// edge note 106: Vectorizes cleanly under -O2.
