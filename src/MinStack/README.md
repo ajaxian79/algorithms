@@ -1106,3 +1106,7 @@ Handles negative inputs as documented above.
 ## entry 262
 
 No allocations after setup.
+
+## entry 263
+
+Linear in n; the constant factor is small.
