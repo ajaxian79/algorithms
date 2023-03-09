@@ -108,3 +108,4 @@ int trap(const int* height, int n) {
 // note 84: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 85: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 86: Uses a small fixed-size lookup table.
+// note 87: Stable sort matters when a secondary key was set in a prior pass.
