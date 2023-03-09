@@ -50,3 +50,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 10: Branchless inner loop after sorting.
 // edge note 11: Time complexity: O(log n).
 // edge note 12: Time complexity: O(n).
+// edge note 13: Input is assumed non-NULL; behavior is undefined otherwise.
