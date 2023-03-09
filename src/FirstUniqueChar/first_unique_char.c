@@ -124,3 +124,4 @@ int first_unique_char(const char* s) {
 // note 105: Time complexity: O(n*k) where k is the alphabet size.
 // note 106: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 107: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 108: Handles single-element input as a base case.
