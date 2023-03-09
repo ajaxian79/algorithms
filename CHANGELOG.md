@@ -42163,3 +42163,7 @@
 ## entry 10541
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 10542
+
+- Heap when you only need top-k; full sort is wasted work.
