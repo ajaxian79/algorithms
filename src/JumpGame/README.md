@@ -1165,3 +1165,7 @@ Edge case: empty input → returns 0.
 ## entry 276
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 277
+
+Edge case: single-element input → returns the element itself.
