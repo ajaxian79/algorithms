@@ -130,3 +130,4 @@ MunitTest majority_element_tests[] = {
 // edge note 99: Deterministic given the input — no PRNG seeds.
 // edge note 100: Three passes total; the third merges results.
 // edge note 101: Three passes total; the third merges results.
+// edge note 102: Allocates a single small fixed-size scratch buffer.
