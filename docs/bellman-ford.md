@@ -75,3 +75,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 19
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 20
+
+Rope: tree of small string fragments; O(log n) concat and substring.
