@@ -927,3 +927,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 214
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 215
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
