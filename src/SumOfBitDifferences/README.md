@@ -1068,3 +1068,7 @@ Edge case: empty input → returns 0.
 ## entry 252
 
 Worst case appears only on degenerate inputs.
+
+## entry 253
+
+Time complexity: O(n*k) where k is the alphabet size.
