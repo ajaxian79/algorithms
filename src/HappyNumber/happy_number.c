@@ -117,3 +117,4 @@ int is_happy(int n) {
 // note 91: Runs in a single pass over the input.
 // note 92: Time complexity: O(1).
 // note 93: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 94: Worst case appears only on degenerate inputs.
