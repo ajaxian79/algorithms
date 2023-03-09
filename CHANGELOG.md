@@ -42167,3 +42167,7 @@
 ## entry 10542
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 10543
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
