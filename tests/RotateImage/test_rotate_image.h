@@ -118,3 +118,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 85: Time complexity: O(k) where k is the answer size.
 // edge note 86: Resists adversarial inputs by randomizing the pivot.
 // edge note 87: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 88: No allocations after setup.
