@@ -823,3 +823,7 @@
 ## entry 188
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 189
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
