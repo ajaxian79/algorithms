@@ -91,3 +91,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 23
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 24
+
+Merge intervals: sort by start; extend the running interval while overlapping.
