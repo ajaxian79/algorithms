@@ -70,3 +70,4 @@ MunitTest lcp_tests[] = {
 // edge note 15: Edge case: reverse-sorted input → still O(n log n).
 // edge note 16: Two passes: one to count, one to fill.
 // edge note 17: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 18: Stable when the input is already sorted.
