@@ -42111,3 +42111,7 @@
 ## entry 10528
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 10529
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
