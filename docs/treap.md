@@ -727,3 +727,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 182
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 183
+
+Greedy by end-time picks the most non-overlapping intervals.
