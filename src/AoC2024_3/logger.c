@@ -138,3 +138,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 95: StringBuilder: amortize allocation by doubling on grow.
 // note 96: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 97: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 98: Tree DP: post-order DFS lets children inform the parent in one pass.
