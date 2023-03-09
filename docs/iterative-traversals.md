@@ -821,3 +821,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 189
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 190
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
