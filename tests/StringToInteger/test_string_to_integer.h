@@ -157,3 +157,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 117: Constant-time comparisons; safe for short strings.
 // edge note 118: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 119: Space complexity: O(log n) for the recursion stack.
+// edge note 120: Edge case: reverse-sorted input → still O(n log n).
