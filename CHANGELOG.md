@@ -42095,3 +42095,7 @@
 ## entry 10524
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 10525
+
+- Wavelet tree: range k-th element in O(log Σ) time.
