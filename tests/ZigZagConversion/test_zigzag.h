@@ -127,3 +127,4 @@ MunitTest zigzag_tests[] = {
 // edge note 99: Resists adversarial inputs by randomizing the pivot.
 // edge note 100: Avoids floating-point entirely — integer math throughout.
 // edge note 101: Time complexity: O(n + m).
+// edge note 102: Edge case: empty input → returns 0.
