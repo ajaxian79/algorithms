@@ -811,3 +811,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 185
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 186
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
