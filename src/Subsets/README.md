@@ -1207,3 +1207,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 287
 
 Caller owns the returned buffer.
+
+## entry 288
+
+Edge case: alternating pattern → degenerate case for sliding window.
