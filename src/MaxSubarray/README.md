@@ -1178,3 +1178,7 @@ Reentrant — no static state.
 ## entry 280
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 281
+
+Stable across duplicates in the input.
