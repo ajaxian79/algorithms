@@ -169,3 +169,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 27
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 28
+
+Time complexity: O(log n).
