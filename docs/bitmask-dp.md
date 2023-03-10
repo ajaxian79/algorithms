@@ -787,3 +787,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 197
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 198
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
