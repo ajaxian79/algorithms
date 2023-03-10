@@ -1101,3 +1101,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 261
 
 Branchless inner loop after sorting.
+
+## entry 262
+
+Time complexity: O(n + m).
