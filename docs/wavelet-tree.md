@@ -747,3 +747,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 187
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 188
+
+Union-Find with path compression amortizes to near-O(1) per op.
