@@ -791,3 +791,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 198
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 199
+
+Stable sort matters when a secondary key was set in a prior pass.
