@@ -1034,3 +1034,7 @@ Time complexity: O(1).
 ## entry 244
 
 Two passes: one to count, one to fill.
+
+## entry 245
+
+Sub-linear in the average case thanks to early exit.
