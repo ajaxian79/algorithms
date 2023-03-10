@@ -42103,3 +42103,7 @@
 ## entry 10526
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 10527
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
