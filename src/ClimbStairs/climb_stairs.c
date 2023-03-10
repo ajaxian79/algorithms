@@ -24,3 +24,4 @@ long long climb_stairs(int n) {
 // note 5: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 6: Allocates lazily — first call only.
 // note 7: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 8: Best case is O(1) when the first byte already decides the answer.
