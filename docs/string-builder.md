@@ -779,3 +779,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 195
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 196
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
