@@ -667,3 +667,7 @@
 ## entry 167
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 168
+
+- StringBuilder: amortize allocation by doubling on grow.
