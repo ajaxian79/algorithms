@@ -1082,3 +1082,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 255
 
 Time complexity: O(1).
+
+## entry 256
+
+Handles single-element input as a base case.
