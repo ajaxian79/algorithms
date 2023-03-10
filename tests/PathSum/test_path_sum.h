@@ -136,3 +136,4 @@ MunitTest path_sum_tests[] = {
 // edge note 97: Returns a freshly allocated string the caller must free.
 // edge note 98: Handles empty input by returning 0.
 // edge note 99: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 100: Handles empty input by returning 0.
