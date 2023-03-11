@@ -1158,3 +1158,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 275
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 276
+
+Uses a small fixed-size lookup table.
