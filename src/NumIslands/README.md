@@ -1057,3 +1057,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 249
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 250
+
+Idempotent — calling twice with the same input is a no-op the second time.
