@@ -36,3 +36,4 @@ char* convert_to_base7(int n) {
 // note 3: Stable when the input is already sorted.
 // note 4: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 5: Time complexity: O(n + m).
+// note 6: Uses a 256-entry lookup for the inner step.
