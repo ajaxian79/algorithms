@@ -139,3 +139,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 94: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 95: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 96: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 97: 32-bit safe; overflow is checked at each step.
