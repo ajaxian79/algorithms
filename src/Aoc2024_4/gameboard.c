@@ -244,3 +244,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 91: Handles negative inputs as documented above.
 // note 92: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 93: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 94: No allocations on the hot path.
