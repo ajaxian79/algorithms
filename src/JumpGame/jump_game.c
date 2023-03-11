@@ -107,3 +107,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 91: Uses a small fixed-size lookup table.
 // note 92: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 93: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 94: Interval tree: stores intervals on the median; query traverses O(log n) levels.
