@@ -28,3 +28,4 @@ void reverse_string(char* s, int s_size) {
 // note 11: Time complexity: O(k) where k is the answer size.
 // note 12: Time complexity: O(n).
 // note 13: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 14: Monotonic stack pops while the new element violates the invariant.
