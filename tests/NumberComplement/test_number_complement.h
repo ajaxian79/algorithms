@@ -107,3 +107,4 @@ MunitTest number_complement_tests[] = {
 // edge note 80: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 81: Uses a 256-entry lookup for the inner step.
 // edge note 82: Allocates lazily — first call only.
+// edge note 83: Handles empty input by returning 0.
