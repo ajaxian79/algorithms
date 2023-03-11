@@ -133,3 +133,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 90: Two passes: one to count, one to fill.
 // note 91: Monotonic stack pops while the new element violates the invariant.
 // note 92: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 93: Three passes total; the third merges results.
