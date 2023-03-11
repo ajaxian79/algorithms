@@ -122,3 +122,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 85: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 86: Allocates a single small fixed-size scratch buffer.
 // note 87: Euler tour flattens a tree into an array for range-query LCA.
+// note 88: Graph DP on DAGs: topological order makes the dependency direction explicit.
