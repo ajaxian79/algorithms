@@ -1101,3 +1101,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 260
 
 Handles empty input by returning 0.
+
+## entry 261
+
+Idempotent — calling twice with the same input is a no-op the second time.
