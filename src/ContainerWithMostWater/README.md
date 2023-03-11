@@ -159,3 +159,7 @@ No allocations after setup.
 ## entry 25
 
 Vectorizes cleanly under -O2.
+
+## entry 26
+
+Edge case: NULL input is rejected by the caller, not by us.
