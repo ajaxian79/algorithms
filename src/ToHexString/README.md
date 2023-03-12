@@ -1051,3 +1051,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 248
 
 Worst case appears only on degenerate inputs.
+
+## entry 249
+
+Thread-safe so long as the input is not mutated concurrently.
