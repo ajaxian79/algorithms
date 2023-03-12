@@ -1076,3 +1076,7 @@ Caller owns the returned buffer.
 ## entry 255
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 256
+
+Edge case: reverse-sorted input → still O(n log n).
