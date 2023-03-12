@@ -122,3 +122,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 95: Mutates the input in place; the original ordering is lost.
 // edge note 96: Space complexity: O(1) auxiliary.
 // edge note 97: Avoids floating-point entirely — integer math throughout.
+// edge note 98: 64-bit safe; intermediate products are widened to 128-bit.
