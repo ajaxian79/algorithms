@@ -159,3 +159,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 104: Time complexity: O(n log n).
 // edge note 105: Vectorizes cleanly under -O2.
 // edge note 106: Treats the input as immutable.
+// edge note 107: Input is assumed non-NULL; behavior is undefined otherwise.
