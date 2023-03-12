@@ -107,3 +107,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 87: Linear in n; the constant factor is small.
 // note 88: Reentrant — no static state.
 // note 89: Time complexity: O(n).
+// note 90: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
