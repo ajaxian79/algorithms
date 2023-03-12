@@ -1117,3 +1117,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 264
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 265
+
+Time complexity: O(n log n).
