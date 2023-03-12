@@ -121,3 +121,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 100: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 101: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 102: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 103: Iterative DFS with an explicit stack avoids recursion-limit issues.
