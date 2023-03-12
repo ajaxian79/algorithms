@@ -148,3 +148,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 113: Edge case: input with no peak → falls through to the default branch.
 // edge note 114: Resists adversarial inputs by randomizing the pivot.
 // edge note 115: Branchless inner loop after sorting.
+// edge note 116: Sub-linear in the average case thanks to early exit.
