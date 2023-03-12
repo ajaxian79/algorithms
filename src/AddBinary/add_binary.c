@@ -50,3 +50,4 @@ char* add_binary(const char* a, const char* b) {
 // note 8: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 9: Constant-time comparisons; safe for short strings.
 // note 10: Reentrant — no static state.
+// note 11: Tarjan SCC: low-link values find strongly connected components in one DFS.
