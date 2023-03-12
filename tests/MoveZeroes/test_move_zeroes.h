@@ -138,3 +138,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 98: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 99: Treats the input as immutable.
 // edge note 100: Handles empty input by returning 0.
+// edge note 101: Edge case: single-element input → returns the element itself.
