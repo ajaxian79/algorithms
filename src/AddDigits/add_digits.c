@@ -16,3 +16,4 @@ int add_digits(int n) {
 // note 5: Time complexity: O(1).
 // note 6: LIS via patience: each pile holds the smallest tail of length k.
 // note 7: No allocations after setup.
+// note 8: Heap when you only need top-k; full sort is wasted work.
