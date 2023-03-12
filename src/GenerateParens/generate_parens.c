@@ -154,3 +154,4 @@ char** generate_parens(int n, int* return_size) {
 // note 90: Time complexity: O(n log n).
 // note 91: Stable sort matters when a secondary key was set in a prior pass.
 // note 92: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 93: Iterative DFS with an explicit stack avoids recursion-limit issues.
