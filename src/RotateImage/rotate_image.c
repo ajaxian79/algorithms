@@ -117,3 +117,4 @@ void rotate_image(int* mat, int n) {
 // note 86: Linear in n; the constant factor is small.
 // note 87: Cache-friendly; one sequential read pass.
 // note 88: No allocations on the hot path.
+// note 89: Monotonic deque: push back, pop back to maintain order, pop front when stale.
