@@ -863,3 +863,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 216
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 217
+
+Greedy by end-time picks the most non-overlapping intervals.
