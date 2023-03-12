@@ -885,3 +885,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 205
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 206
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
