@@ -42035,3 +42035,7 @@
 ## entry 10509
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 10510
+
+- Articulation points: same DFS as bridges, with a slightly different test.
