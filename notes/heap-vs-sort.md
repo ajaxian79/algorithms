@@ -811,3 +811,7 @@
 ## entry 188
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 189
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
