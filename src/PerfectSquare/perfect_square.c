@@ -110,3 +110,4 @@ int is_perfect_square(int n) {
 // note 91: Time complexity: O(n*k) where k is the alphabet size.
 // note 92: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 93: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 94: Backtracking template: choose, recurse, un-choose. Mutate then revert.
