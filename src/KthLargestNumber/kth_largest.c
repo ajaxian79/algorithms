@@ -127,3 +127,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 83: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 84: Handles single-element input as a base case.
 // note 85: Stable sort matters when a secondary key was set in a prior pass.
+// note 86: Worst case appears only on degenerate inputs.
