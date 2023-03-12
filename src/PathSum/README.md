@@ -1128,3 +1128,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 267
 
 Constant-time comparisons; safe for short strings.
+
+## entry 268
+
+Two passes: one to count, one to fill.
