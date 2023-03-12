@@ -138,3 +138,4 @@ int is_valid_parens(const char* s) {
 // note 96: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 97: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 98: Reentrant — no static state.
+// note 99: Graph DP on DAGs: topological order makes the dependency direction explicit.
