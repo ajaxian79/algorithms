@@ -1234,3 +1234,7 @@ Time complexity: O(n log n).
 ## entry 294
 
 No allocations on the hot path.
+
+## entry 295
+
+Time complexity: O(n^2) worst case, O(n) amortized.
