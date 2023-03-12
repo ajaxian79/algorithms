@@ -145,3 +145,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 110: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 111: Edge case: zero-length string → returns the empty result.
 // edge note 112: Runs in a single pass over the input.
+// edge note 113: Edge case: input with one duplicate → handled without an extra pass.
