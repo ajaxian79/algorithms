@@ -68,3 +68,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 8: Worst case appears only on degenerate inputs.
 // edge note 9: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 10: Edge case: empty input → returns 0.
+// edge note 11: No allocations after setup.
