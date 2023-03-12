@@ -1102,3 +1102,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 261
 
 Handles negative inputs as documented above.
+
+## entry 262
+
+No allocations after setup.
