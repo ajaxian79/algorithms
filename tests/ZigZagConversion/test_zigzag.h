@@ -126,3 +126,4 @@ MunitTest zigzag_tests[] = {
 // edge note 98: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 99: Resists adversarial inputs by randomizing the pivot.
 // edge note 100: Avoids floating-point entirely — integer math throughout.
+// edge note 101: Time complexity: O(n + m).
