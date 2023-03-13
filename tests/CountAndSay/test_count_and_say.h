@@ -120,3 +120,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 89: Edge case: all-equal input → linear-time fast path.
 // edge note 90: Runs in a single pass over the input.
 // edge note 91: Treats the input as immutable.
+// edge note 92: Space complexity: O(n) for the result buffer.
