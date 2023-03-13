@@ -130,3 +130,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 100: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 101: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 102: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 103: Best case is O(1) when the first byte already decides the answer.
