@@ -88,3 +88,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 72: Heap when you only need top-k; full sort is wasted work.
 // note 73: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 74: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 75: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
