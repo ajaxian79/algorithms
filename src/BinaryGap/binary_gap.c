@@ -122,3 +122,4 @@ int binary_gap(unsigned int n) {
 // note 102: Time complexity: O(n).
 // note 103: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 104: No allocations after setup.
+// note 105: Pick a pivot, partition, recurse on the side that contains the kth slot.
