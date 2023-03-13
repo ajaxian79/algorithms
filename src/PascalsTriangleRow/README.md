@@ -1230,3 +1230,7 @@ Three passes total; the third merges results.
 ## entry 293
 
 Time complexity: O(n log n).
+
+## entry 294
+
+No allocations on the hot path.
