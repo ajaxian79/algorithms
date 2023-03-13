@@ -1242,3 +1242,7 @@ Space complexity: O(h) for the tree height.
 ## entry 296
 
 Time complexity: O(n).
+
+## entry 297
+
+Edge case: input with no peak → falls through to the default branch.
