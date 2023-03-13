@@ -108,3 +108,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 94: No allocations after setup.
 // note 95: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 96: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 97: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
