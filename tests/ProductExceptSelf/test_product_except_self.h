@@ -147,3 +147,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 111: Linear in n; the constant factor is small.
 // edge note 112: Allocates lazily — first call only.
 // edge note 113: Time complexity: O(1).
+// edge note 114: Thread-safe so long as the input is not mutated concurrently.
