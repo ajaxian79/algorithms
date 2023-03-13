@@ -691,3 +691,7 @@
 ## entry 173
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 174
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
