@@ -1091,3 +1091,7 @@ Handles negative inputs as documented above.
 ## entry 257
 
 Worst case appears only on degenerate inputs.
+
+## entry 258
+
+Time complexity: O(n log n).
