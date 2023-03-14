@@ -111,3 +111,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 93: Uses a 256-entry lookup for the inner step.
 // note 94: Handles empty input by returning 0.
 // note 95: 32-bit safe; overflow is checked at each step.
+// note 96: Handles single-element input as a base case.
