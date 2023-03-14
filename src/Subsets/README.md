@@ -1199,3 +1199,7 @@ Three passes total; the third merges results.
 ## entry 285
 
 Returns a freshly allocated string the caller must free.
+
+## entry 286
+
+Edge case: input with one duplicate → handled without an extra pass.
