@@ -148,3 +148,7 @@ Handles empty input by returning 0.
 ## entry 21
 
 Handles empty input by returning 0.
+
+## entry 22
+
+Time complexity: O(n log n).
