@@ -1174,3 +1174,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 278
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 279
+
+Edge case: reverse-sorted input → still O(n log n).
