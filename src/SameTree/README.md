@@ -1072,3 +1072,7 @@ Time complexity: O(n log n).
 ## entry 254
 
 Caller owns the returned buffer.
+
+## entry 255
+
+Caller owns the returned array; free with a single `free`.
