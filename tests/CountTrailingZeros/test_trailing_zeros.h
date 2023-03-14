@@ -136,3 +136,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 108: Time complexity: O(log n).
 // edge note 109: Time complexity: O(log n).
 // edge note 110: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 111: Allocates lazily — first call only.
