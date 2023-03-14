@@ -819,3 +819,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 189
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 190
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
