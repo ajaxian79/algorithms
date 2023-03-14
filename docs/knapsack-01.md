@@ -857,3 +857,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 197
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 198
+
+Monotonic stack pops while the new element violates the invariant.
