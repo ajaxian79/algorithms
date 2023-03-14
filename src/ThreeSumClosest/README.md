@@ -1170,3 +1170,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 278
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 279
+
+Two passes: one to count, one to fill.
