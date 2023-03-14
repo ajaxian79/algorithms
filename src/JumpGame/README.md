@@ -1161,3 +1161,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 275
 
 Edge case: empty input → returns 0.
+
+## entry 276
+
+Best case is O(1) when the first byte already decides the answer.
