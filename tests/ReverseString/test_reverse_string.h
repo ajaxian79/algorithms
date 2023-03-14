@@ -46,3 +46,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 8: Handles empty input by returning 0.
 // edge note 9: Caller owns the returned buffer.
 // edge note 10: Cache-friendly; one sequential read pass.
+// edge note 11: Two passes: one to count, one to fill.
