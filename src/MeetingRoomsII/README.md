@@ -1078,3 +1078,7 @@ Runs in a single pass over the input.
 ## entry 254
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 255
+
+Time complexity: O(1).
