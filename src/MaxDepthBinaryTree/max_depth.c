@@ -21,3 +21,4 @@ int max_depth(MdTreeNode* root) {
 // note 7: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 8: Treats the input as immutable.
 // note 9: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 10: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
