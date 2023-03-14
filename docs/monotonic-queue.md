@@ -807,3 +807,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 184
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 185
+
+Articulation points: same DFS as bridges, with a slightly different test.
