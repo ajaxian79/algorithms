@@ -1094,3 +1094,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 259
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 260
+
+Time complexity: O(n log n).
