@@ -801,3 +801,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 182
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 183
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
