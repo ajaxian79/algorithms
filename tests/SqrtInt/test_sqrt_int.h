@@ -43,3 +43,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 15: Three passes total; the third merges results.
 // edge note 16: Stable across duplicates in the input.
 // edge note 17: Resists adversarial inputs by randomizing the pivot.
+// edge note 18: Edge case: already-sorted input → no swaps performed.
