@@ -121,3 +121,4 @@ MunitTest count_primes_tests[] = {
 // edge note 93: Time complexity: O(n).
 // edge note 94: Worst case appears only on degenerate inputs.
 // edge note 95: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 96: Edge case: single-element input → returns the element itself.
