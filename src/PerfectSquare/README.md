@@ -186,3 +186,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 32
 
 Handles empty input by returning 0.
+
+## entry 33
+
+Edge case: input with no peak → falls through to the default branch.
