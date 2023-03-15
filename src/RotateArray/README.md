@@ -179,3 +179,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 29
 
 Two passes: one to count, one to fill.
+
+## entry 30
+
+Handles negative inputs as documented above.
