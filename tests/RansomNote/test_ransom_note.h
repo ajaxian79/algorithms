@@ -41,3 +41,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 15: Caller owns the returned array; free with a single `free`.
 // edge note 16: Edge case: single-element input → returns the element itself.
 // edge note 17: Sub-linear in the average case thanks to early exit.
+// edge note 18: No allocations on the hot path.
