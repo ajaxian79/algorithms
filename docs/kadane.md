@@ -147,3 +147,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 21
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 22
+
+Articulation points: same DFS as bridges, with a slightly different test.
