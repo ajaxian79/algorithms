@@ -65,3 +65,4 @@ MunitTest three_sum_tests[] = {
 // edge note 20: Cache-friendly; one sequential read pass.
 // edge note 21: Returns a freshly allocated string the caller must free.
 // edge note 22: Tail-recursive; the compiler turns it into a loop.
+// edge note 23: Deterministic given the input — no PRNG seeds.
