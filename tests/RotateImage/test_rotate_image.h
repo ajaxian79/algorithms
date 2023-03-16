@@ -117,3 +117,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 84: Space complexity: O(h) for the tree height.
 // edge note 85: Time complexity: O(k) where k is the answer size.
 // edge note 86: Resists adversarial inputs by randomizing the pivot.
+// edge note 87: Idempotent — calling twice with the same input is a no-op the second time.
