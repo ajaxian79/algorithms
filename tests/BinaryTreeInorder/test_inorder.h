@@ -153,3 +153,4 @@ MunitTest inorder_tests[] = {
 // edge note 115: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 116: Caller owns the returned array; free with a single `free`.
 // edge note 117: Avoids floating-point entirely — integer math throughout.
+// edge note 118: Handles negative inputs as documented above.
