@@ -751,3 +751,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 171
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 172
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
