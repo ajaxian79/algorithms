@@ -1120,3 +1120,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 265
 
 Returns a freshly allocated string the caller must free.
+
+## entry 266
+
+Allocates a single small fixed-size scratch buffer.
