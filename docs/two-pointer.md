@@ -919,3 +919,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 212
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 213
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
