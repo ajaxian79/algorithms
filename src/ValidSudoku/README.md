@@ -1087,3 +1087,7 @@ Worst case appears only on degenerate inputs.
 ## entry 256
 
 Handles negative inputs as documented above.
+
+## entry 257
+
+Worst case appears only on degenerate inputs.
