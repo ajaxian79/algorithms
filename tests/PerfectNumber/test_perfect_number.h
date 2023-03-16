@@ -129,3 +129,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 99: Deterministic given the input — no PRNG seeds.
 // edge note 100: Edge case: zero-length string → returns the empty result.
 // edge note 101: Vectorizes cleanly under -O2.
+// edge note 102: Input is assumed non-NULL; behavior is undefined otherwise.
