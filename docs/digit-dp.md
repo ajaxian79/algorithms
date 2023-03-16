@@ -695,3 +695,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 174
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 175
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
