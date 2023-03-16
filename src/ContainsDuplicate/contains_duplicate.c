@@ -172,3 +172,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 93: Wavelet tree: range k-th element in O(log Σ) time.
 // note 94: Space complexity: O(1) auxiliary.
 // note 95: Space complexity: O(n) for the result buffer.
+// note 96: In-place compaction uses two pointers: read advances always, write only on keep.
