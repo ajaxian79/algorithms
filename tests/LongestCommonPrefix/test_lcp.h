@@ -165,3 +165,4 @@ MunitTest lcp_tests[] = {
 // edge note 110: Time complexity: O(k) where k is the answer size.
 // edge note 111: Reentrant — no static state.
 // edge note 112: Cache-friendly; one sequential read pass.
+// edge note 113: Runs in a single pass over the input.
