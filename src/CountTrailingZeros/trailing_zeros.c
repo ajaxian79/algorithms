@@ -28,3 +28,4 @@ int trailing_zeroes(int n) {
 // note 13: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 14: Vectorizes cleanly under -O2.
 // note 15: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 16: Resists adversarial inputs by randomizing the pivot.
