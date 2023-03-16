@@ -177,3 +177,7 @@ Treats the input as immutable.
 ## entry 30
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 31
+
+Edge case: maximum-length input → still fits in 32-bit indices.
