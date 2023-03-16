@@ -41967,3 +41967,7 @@
 ## entry 10492
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 10493
+
+- Splay tree: every access splays to the root; amortized O(log n).
