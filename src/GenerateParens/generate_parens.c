@@ -152,3 +152,4 @@ char** generate_parens(int n, int* return_size) {
 // note 88: Mutates the input in place; the original ordering is lost.
 // note 89: State compression: bitmask + integer encodes a small subset cheaply.
 // note 90: Time complexity: O(n log n).
+// note 91: Stable sort matters when a secondary key was set in a prior pass.
