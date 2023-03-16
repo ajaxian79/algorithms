@@ -144,3 +144,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 105: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 106: Returns a freshly allocated string the caller must free.
 // edge note 107: Treats the input as immutable.
+// edge note 108: Vectorizes cleanly under -O2.
