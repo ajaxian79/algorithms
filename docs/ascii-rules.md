@@ -783,3 +783,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 196
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 197
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
