@@ -1174,3 +1174,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 279
 
 Reentrant — no static state.
+
+## entry 280
+
+Resists adversarial inputs by randomizing the pivot.
