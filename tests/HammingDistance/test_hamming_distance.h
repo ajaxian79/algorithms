@@ -36,3 +36,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 11: Reentrant — no static state.
 // edge note 12: Edge case: all-equal input → linear-time fast path.
 // edge note 13: Allocates a single small fixed-size scratch buffer.
+// edge note 14: No allocations after setup.
