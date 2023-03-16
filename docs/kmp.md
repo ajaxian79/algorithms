@@ -817,3 +817,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 188
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 189
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
