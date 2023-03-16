@@ -123,3 +123,4 @@ MunitTest jump_game_tests[] = {
 // edge note 89: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 90: Deterministic given the input — no PRNG seeds.
 // edge note 91: Stable across duplicates in the input.
+// edge note 92: No allocations on the hot path.
