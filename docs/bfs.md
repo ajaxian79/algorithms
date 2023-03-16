@@ -801,3 +801,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 183
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 184
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
