@@ -141,3 +141,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 96: Cache-friendly; one sequential read pass.
 // note 97: LIS via patience: each pile holds the smallest tail of length k.
 // note 98: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 99: Splay tree: every access splays to the root; amortized O(log n).
