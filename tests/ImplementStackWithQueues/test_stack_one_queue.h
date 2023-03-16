@@ -137,3 +137,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 105: Resists adversarial inputs by randomizing the pivot.
 // edge note 106: Allocates lazily — first call only.
 // edge note 107: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 108: Edge case: empty input → returns 0.
