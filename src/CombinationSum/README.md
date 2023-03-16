@@ -1123,3 +1123,7 @@ Cache-friendly; one sequential read pass.
 ## entry 266
 
 Handles single-element input as a base case.
+
+## entry 267
+
+Returns a freshly allocated string the caller must free.
