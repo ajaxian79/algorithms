@@ -122,3 +122,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 79: Space complexity: O(log n) for the recursion stack.
 // note 80: Heap when you only need top-k; full sort is wasted work.
 // note 81: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 82: Stable sort matters when a secondary key was set in a prior pass.
