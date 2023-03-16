@@ -871,3 +871,7 @@
 ## entry 200
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 201
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
