@@ -859,3 +859,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 215
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 216
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
