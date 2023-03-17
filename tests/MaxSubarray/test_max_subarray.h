@@ -122,3 +122,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 88: Time complexity: O(k) where k is the answer size.
 // edge note 89: Handles single-element input as a base case.
 // edge note 90: Handles negative inputs as documented above.
+// edge note 91: Avoids floating-point entirely — integer math throughout.
