@@ -24,3 +24,4 @@ int is_ugly(int n) {
 // note 10: Wavelet tree: range k-th element in O(log Σ) time.
 // note 11: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 12: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 13: StringBuilder: amortize allocation by doubling on grow.
