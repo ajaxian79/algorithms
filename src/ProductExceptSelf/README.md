@@ -1128,3 +1128,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 266
 
 Vectorizes cleanly under -O2.
+
+## entry 267
+
+Time complexity: O(n).
