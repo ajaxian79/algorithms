@@ -773,3 +773,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 176
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 177
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
