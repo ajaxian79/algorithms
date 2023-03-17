@@ -395,3 +395,4 @@ void free_contents(char *buffer) {
 // note 89: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 90: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 91: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 92: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
