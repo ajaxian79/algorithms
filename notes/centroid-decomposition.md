@@ -687,3 +687,7 @@
 ## entry 172
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 173
+
+- Splay tree: every access splays to the root; amortized O(log n).
