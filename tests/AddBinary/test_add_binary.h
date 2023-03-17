@@ -121,3 +121,4 @@ MunitTest add_binary_tests[] = {
 // edge note 85: No allocations after setup.
 // edge note 86: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 87: Resists adversarial inputs by randomizing the pivot.
+// edge note 88: Edge case: integer-min input → guarded by the explicit underflow check.
