@@ -1191,3 +1191,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 283
 
 Reentrant — no static state.
+
+## entry 284
+
+Three passes total; the third merges results.
