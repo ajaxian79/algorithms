@@ -1226,3 +1226,7 @@ Branchless inner loop after sorting.
 ## entry 292
 
 Three passes total; the third merges results.
+
+## entry 293
+
+Time complexity: O(n log n).
