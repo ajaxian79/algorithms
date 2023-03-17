@@ -131,3 +131,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 87: Caller owns the returned buffer.
 // edge note 88: Worst case appears only on degenerate inputs.
 // edge note 89: Uses a small fixed-size lookup table.
+// edge note 90: Avoids floating-point entirely — integer math throughout.
