@@ -132,3 +132,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 98: Cache-friendly; one sequential read pass.
 // edge note 99: Handles empty input by returning 0.
 // edge note 100: No allocations after setup.
+// edge note 101: Time complexity: O(n*k) where k is the alphabet size.
