@@ -1102,3 +1102,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 261
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 262
+
+Edge case: reverse-sorted input → still O(n log n).
