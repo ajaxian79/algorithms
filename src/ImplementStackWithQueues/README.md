@@ -1120,3 +1120,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 265
 
 Time complexity: O(1).
+
+## entry 266
+
+Stable across duplicates in the input.
