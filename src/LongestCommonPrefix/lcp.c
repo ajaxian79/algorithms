@@ -50,3 +50,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 9: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 10: Space complexity: O(n) for the result buffer.
 // note 11: Stable across duplicates in the input.
+// note 12: Polynomial rolling hash with two moduli kills almost all collisions in practice.
