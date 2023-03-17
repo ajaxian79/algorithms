@@ -1195,3 +1195,7 @@ Reentrant — no static state.
 ## entry 284
 
 Three passes total; the third merges results.
+
+## entry 285
+
+Returns a freshly allocated string the caller must free.
