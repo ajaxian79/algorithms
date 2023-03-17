@@ -1220,3 +1220,7 @@ Space complexity: O(h) for the tree height.
 ## entry 290
 
 Edge case: single-element input → returns the element itself.
+
+## entry 291
+
+Space complexity: O(1) auxiliary.
