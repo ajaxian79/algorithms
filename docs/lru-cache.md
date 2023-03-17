@@ -695,3 +695,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 174
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 175
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
