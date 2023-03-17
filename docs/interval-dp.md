@@ -839,3 +839,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 210
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 211
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
