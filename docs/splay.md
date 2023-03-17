@@ -663,3 +663,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 166
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 167
+
+LIS via patience: each pile holds the smallest tail of length k.
