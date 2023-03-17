@@ -747,3 +747,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 170
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 171
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
