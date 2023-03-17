@@ -779,3 +779,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 195
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 196
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
