@@ -75,3 +75,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 19
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 20
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
