@@ -797,3 +797,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 182
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 183
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
