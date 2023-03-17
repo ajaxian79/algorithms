@@ -53,3 +53,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 10: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 11: Mutates the input in place; the original ordering is lost.
 // note 12: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 13: Thread-safe so long as the input is not mutated concurrently.
