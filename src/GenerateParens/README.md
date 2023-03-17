@@ -1140,3 +1140,7 @@ Handles empty input by returning 0.
 ## entry 269
 
 Constant-time comparisons; safe for short strings.
+
+## entry 270
+
+Edge case: maximum-length input → still fits in 32-bit indices.
