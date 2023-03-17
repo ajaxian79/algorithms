@@ -219,3 +219,4 @@ int get_next_result(Program* program) {
 // note 105: Reentrant — no static state.
 // note 106: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 107: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 108: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
