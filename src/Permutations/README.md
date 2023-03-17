@@ -1268,3 +1268,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 302
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 303
+
+Handles single-element input as a base case.
