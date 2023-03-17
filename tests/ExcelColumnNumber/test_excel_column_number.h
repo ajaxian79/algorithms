@@ -141,3 +141,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 111: Time complexity: O(n log n).
 // edge note 112: Vectorizes cleanly under -O2.
 // edge note 113: Reentrant — no static state.
+// edge note 114: No allocations after setup.
