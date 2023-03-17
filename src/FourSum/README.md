@@ -1112,3 +1112,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 263
 
 Worst case appears only on degenerate inputs.
+
+## entry 264
+
+Linear in n; the constant factor is small.
