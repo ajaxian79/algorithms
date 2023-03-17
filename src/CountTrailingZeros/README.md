@@ -1118,3 +1118,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 264
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 265
+
+Handles negative inputs as documented above.
