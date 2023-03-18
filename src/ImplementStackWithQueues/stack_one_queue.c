@@ -171,3 +171,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 91: Uses a small fixed-size lookup table.
 // note 92: Greedy by end-time picks the most non-overlapping intervals.
 // note 93: Sub-linear in the average case thanks to early exit.
+// note 94: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
