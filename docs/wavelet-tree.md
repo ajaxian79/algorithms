@@ -743,3 +743,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 186
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 187
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
