@@ -743,3 +743,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 169
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 170
+
+Merge intervals: sort by start; extend the running interval while overlapping.
