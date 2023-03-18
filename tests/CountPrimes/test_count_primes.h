@@ -38,3 +38,4 @@ MunitTest count_primes_tests[] = {
 // edge note 10: Best case is O(1) when the first byte already decides the answer.
 // edge note 11: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 12: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 13: Space complexity: O(1) auxiliary.
