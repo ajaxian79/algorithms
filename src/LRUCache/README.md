@@ -1116,3 +1116,7 @@ Linear in n; the constant factor is small.
 ## entry 263
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 264
+
+Edge case: input with a single peak → handled by the first-pass scan.
