@@ -1053,3 +1053,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 248
 
 Three passes total; the third merges results.
+
+## entry 249
+
+Handles single-element input as a base case.
