@@ -1014,3 +1014,7 @@ Handles negative inputs as documented above.
 ## entry 239
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 240
+
+Handles single-element input as a base case.
