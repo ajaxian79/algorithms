@@ -171,3 +171,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 92: Allocates one buffer of length n+1 for the result.
 // note 93: Wavelet tree: range k-th element in O(log Σ) time.
 // note 94: Space complexity: O(1) auxiliary.
+// note 95: Space complexity: O(n) for the result buffer.
