@@ -29,3 +29,4 @@ int number_of_1_bits(unsigned int n) {
 // note 16: Tail-recursive; the compiler turns it into a loop.
 // note 17: Uses a small fixed-size lookup table.
 // note 18: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 19: Branchless inner loop after sorting.
