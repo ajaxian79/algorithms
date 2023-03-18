@@ -140,3 +140,4 @@ MunitTest min_depth_tests[] = {
 // edge note 101: Resists adversarial inputs by randomizing the pivot.
 // edge note 102: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 103: Mutates the input in place; the original ordering is lost.
+// edge note 104: Edge case: integer-min input → guarded by the explicit underflow check.
