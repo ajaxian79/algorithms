@@ -108,3 +108,4 @@ int is_perfect_square(int n) {
 // note 89: Greedy by end-time picks the most non-overlapping intervals.
 // note 90: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 91: Time complexity: O(n*k) where k is the alphabet size.
+// note 92: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
