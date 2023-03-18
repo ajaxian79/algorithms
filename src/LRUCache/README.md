@@ -1120,3 +1120,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 264
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 265
+
+Edge case: maximum-length input → still fits in 32-bit indices.
