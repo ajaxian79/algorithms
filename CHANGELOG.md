@@ -41907,3 +41907,7 @@
 ## entry 10477
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 10478
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
