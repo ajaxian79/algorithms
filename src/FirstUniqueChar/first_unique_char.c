@@ -26,3 +26,4 @@ int first_unique_char(const char* s) {
 // note 7: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 8: Space complexity: O(log n) for the recursion stack.
 // note 9: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 10: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
