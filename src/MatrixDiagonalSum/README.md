@@ -1146,3 +1146,7 @@ Three passes total; the third merges results.
 ## entry 272
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 273
+
+Stable when the input is already sorted.
