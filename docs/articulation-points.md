@@ -723,3 +723,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 181
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 182
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
