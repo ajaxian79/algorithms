@@ -1115,3 +1115,7 @@ Worst case appears only on degenerate inputs.
 ## entry 264
 
 Three passes total; the third merges results.
+
+## entry 265
+
+Cache-friendly; one sequential read pass.
