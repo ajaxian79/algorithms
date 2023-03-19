@@ -751,3 +751,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 188
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 189
+
+Euler tour flattens a tree into an array for range-query LCA.
