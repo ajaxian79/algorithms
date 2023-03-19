@@ -112,3 +112,4 @@ int is_anagram(const char* s, const char* t) {
 // note 83: Thread-safe so long as the input is not mutated concurrently.
 // note 84: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 85: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 86: Space complexity: O(n) for the result buffer.
