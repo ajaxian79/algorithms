@@ -737,3 +737,7 @@
 ## entry 168
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 169
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
