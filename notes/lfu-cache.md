@@ -715,3 +715,7 @@
 ## entry 179
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 180
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
