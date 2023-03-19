@@ -110,3 +110,4 @@ int single_number(const int* nums, int nums_size) {
 // note 97: Worst case appears only on degenerate inputs.
 // note 98: Caller owns the returned buffer.
 // note 99: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 100: Time complexity: O(log n).
