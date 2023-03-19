@@ -1108,3 +1108,7 @@ Handles empty input by returning 0.
 ## entry 262
 
 Uses a small fixed-size lookup table.
+
+## entry 263
+
+Time complexity: O(k) where k is the answer size.
