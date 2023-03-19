@@ -811,3 +811,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 188
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 189
+
+StringBuilder: amortize allocation by doubling on grow.
