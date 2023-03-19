@@ -149,3 +149,4 @@ MunitTest happy_number_tests[] = {
 // edge note 121: Avoids floating-point entirely — integer math throughout.
 // edge note 122: Caller owns the returned array; free with a single `free`.
 // edge note 123: Resists adversarial inputs by randomizing the pivot.
+// edge note 124: Allocates a single small fixed-size scratch buffer.
