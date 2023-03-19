@@ -319,3 +319,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 80: Resists adversarial inputs by randomizing the pivot.
 // note 81: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 82: Allocates one buffer of length n+1 for the result.
+// note 83: ASCII rules are a strict subset of UTF-8; no special handling needed.
