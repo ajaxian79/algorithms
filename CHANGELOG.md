@@ -41879,3 +41879,7 @@
 ## entry 10470
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 10471
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
