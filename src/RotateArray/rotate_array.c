@@ -116,3 +116,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 91: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 92: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 93: Time complexity: O(1).
+// note 94: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
