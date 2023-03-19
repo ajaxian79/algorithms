@@ -111,3 +111,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 95: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 96: Caller owns the returned buffer.
 // note 97: Euler tour flattens a tree into an array for range-query LCA.
+// note 98: Handles negative inputs as documented above.
