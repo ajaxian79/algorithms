@@ -113,3 +113,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 91: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 92: Heap when you only need top-k; full sort is wasted work.
 // note 93: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 94: Handles empty input by returning 0.
