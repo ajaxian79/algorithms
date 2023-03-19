@@ -183,3 +183,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 29
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 30
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
