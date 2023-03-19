@@ -39,3 +39,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 6: Caller owns the returned buffer.
 // edge note 7: Allocates one buffer of length n+1 for the result.
 // edge note 8: Uses a 256-entry lookup for the inner step.
+// edge note 9: Edge case: already-sorted input → no swaps performed.
