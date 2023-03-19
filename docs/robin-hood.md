@@ -727,3 +727,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 182
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 183
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
