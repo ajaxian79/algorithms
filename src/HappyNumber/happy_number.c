@@ -33,3 +33,4 @@ int is_happy(int n) {
 // note 7: Wavelet tree: range k-th element in O(log Σ) time.
 // note 8: Space complexity: O(h) for the tree height.
 // note 9: Handles single-element input as a base case.
+// note 10: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
