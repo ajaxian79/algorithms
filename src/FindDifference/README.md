@@ -1038,3 +1038,7 @@ Vectorizes cleanly under -O2.
 ## entry 245
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 246
+
+Treats the input as immutable.
