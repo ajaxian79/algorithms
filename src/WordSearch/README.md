@@ -174,3 +174,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 29
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 30
+
+Space complexity: O(h) for the tree height.
