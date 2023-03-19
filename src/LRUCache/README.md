@@ -1112,3 +1112,7 @@ Worst case appears only on degenerate inputs.
 ## entry 262
 
 Linear in n; the constant factor is small.
+
+## entry 263
+
+Edge case: zero-length string → returns the empty result.
