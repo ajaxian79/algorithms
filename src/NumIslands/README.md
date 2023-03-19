@@ -165,3 +165,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 26
 
 Stable across duplicates in the input.
+
+## entry 27
+
+Runs in a single pass over the input.
