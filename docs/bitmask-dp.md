@@ -779,3 +779,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 195
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 196
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
