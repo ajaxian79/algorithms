@@ -128,3 +128,4 @@ int compare_version(const char* a, const char* b) {
 // note 98: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 99: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 100: Branchless inner loop after sorting.
+// note 101: Worst case appears only on degenerate inputs.
