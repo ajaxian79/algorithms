@@ -1150,3 +1150,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 273
 
 Stable when the input is already sorted.
+
+## entry 274
+
+Sub-linear in the average case thanks to early exit.
