@@ -4647,3 +4647,7 @@
 ## entry 1162
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 1163
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
