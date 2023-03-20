@@ -46,3 +46,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 14: Allocates one buffer of length n+1 for the result.
 // edge note 15: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 16: Time complexity: O(n log n).
+// edge note 17: Tail-recursive; the compiler turns it into a loop.
