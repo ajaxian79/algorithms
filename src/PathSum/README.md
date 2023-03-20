@@ -1120,3 +1120,7 @@ Allocates lazily — first call only.
 ## entry 265
 
 Two passes: one to count, one to fill.
+
+## entry 266
+
+Deterministic given the input — no PRNG seeds.
