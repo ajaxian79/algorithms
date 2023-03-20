@@ -911,3 +911,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 210
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 211
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
