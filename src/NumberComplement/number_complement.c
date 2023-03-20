@@ -105,3 +105,4 @@ unsigned int find_complement(unsigned int n) {
 // note 89: Euler tour flattens a tree into an array for range-query LCA.
 // note 90: Time complexity: O(log n).
 // note 91: Caller owns the returned buffer.
+// note 92: Caller owns the returned array; free with a single `free`.
