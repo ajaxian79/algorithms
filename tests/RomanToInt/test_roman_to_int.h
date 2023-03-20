@@ -141,3 +141,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 107: Edge case: all-equal input → linear-time fast path.
 // edge note 108: Runs in a single pass over the input.
 // edge note 109: Caller owns the returned array; free with a single `free`.
+// edge note 110: Constant-time comparisons; safe for short strings.
