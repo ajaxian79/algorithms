@@ -122,3 +122,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 94: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 95: State compression: bitmask + integer encodes a small subset cheaply.
 // note 96: Handles single-element input as a base case.
+// note 97: Vectorizes cleanly under -O2.
