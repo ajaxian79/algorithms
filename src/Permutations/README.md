@@ -1264,3 +1264,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 301
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 302
+
+Edge case: all-equal input → linear-time fast path.
