@@ -1153,3 +1153,7 @@ No allocations after setup.
 ## entry 273
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 274
+
+Sub-linear in the average case thanks to early exit.
