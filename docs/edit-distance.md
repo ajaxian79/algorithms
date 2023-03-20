@@ -899,3 +899,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 207
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 208
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
