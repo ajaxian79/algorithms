@@ -1094,3 +1094,7 @@ Handles empty input by returning 0.
 ## entry 259
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 260
+
+Caller owns the returned array; free with a single `free`.
