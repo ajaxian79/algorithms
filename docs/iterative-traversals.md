@@ -141,3 +141,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 19
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 20
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
