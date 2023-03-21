@@ -1116,3 +1116,7 @@ Allocates lazily — first call only.
 ## entry 264
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 265
+
+Returns a freshly allocated string the caller must free.
