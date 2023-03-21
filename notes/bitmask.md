@@ -157,3 +157,7 @@
 ## entry 23
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 24
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
