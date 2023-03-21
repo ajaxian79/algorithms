@@ -120,3 +120,4 @@ MunitTest count_primes_tests[] = {
 // edge note 92: Edge case: already-sorted input → no swaps performed.
 // edge note 93: Time complexity: O(n).
 // edge note 94: Worst case appears only on degenerate inputs.
+// edge note 95: Input is assumed non-NULL; behavior is undefined otherwise.
