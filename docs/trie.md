@@ -781,3 +781,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 179
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 180
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
