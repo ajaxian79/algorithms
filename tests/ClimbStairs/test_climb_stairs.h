@@ -138,3 +138,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 103: Edge case: input with no peak → falls through to the default branch.
 // edge note 104: Reentrant — no static state.
 // edge note 105: Time complexity: O(n + m).
+// edge note 106: Edge case: empty input → returns 0.
