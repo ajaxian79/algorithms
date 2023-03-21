@@ -1146,3 +1146,7 @@ Cache-friendly; one sequential read pass.
 ## entry 272
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 273
+
+Sub-linear in the average case thanks to early exit.
